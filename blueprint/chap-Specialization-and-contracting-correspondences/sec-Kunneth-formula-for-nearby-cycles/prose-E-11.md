@@ -2,7 +2,7 @@
 id = "prose-E-11"
 kind = "hidden"
 title = "Künneth formula for nearby cycles (2)"
-order = 1638
+order = 1644
 +++
 The proof has the same shape as that of
 Lemma [lemma-nearby-cycles-constant-family]: the cone of $\Pi_{L,M}$

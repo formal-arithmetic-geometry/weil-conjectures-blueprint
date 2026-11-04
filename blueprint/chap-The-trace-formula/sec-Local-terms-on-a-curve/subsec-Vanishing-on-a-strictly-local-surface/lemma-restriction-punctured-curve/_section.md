@@ -2,7 +2,7 @@
 id = "lemma-restriction-punctured-curve"
 kind = "lemma"
 title = "Restriction to a punctured curve"
-order = 969
+order = 975
 lean = ["AlgebraicGeometry.Etale.puncturedRestriction_eq_zero"]
 +++
 In the situation of Lemma [lemma-cohomology-near-two-transverse-divisors] with $D_2$

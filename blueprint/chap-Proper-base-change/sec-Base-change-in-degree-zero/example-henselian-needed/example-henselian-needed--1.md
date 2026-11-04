@@ -3,7 +3,7 @@ id = "example-henselian-needed--1"
 kind = "example"
 title = "Why the pair must be henselian (1)"
 name_showing = false
-order = 329001
+order = 330001
 aliases = ["bp-r099-1"]
 +++
 Let $k$ be a field of characteristic $\neq2$ and let

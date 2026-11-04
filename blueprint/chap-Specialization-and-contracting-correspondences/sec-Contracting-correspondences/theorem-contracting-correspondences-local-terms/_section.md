@@ -2,7 +2,7 @@
 id = "theorem-contracting-correspondences-local-terms"
 kind = "theorem"
 title = "Contracting correspondences and local terms"
-order = 1700
+order = 1706
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.restrict_traceClass_eq_pushforward_of_isContractingAt"]
 uses = ["definition-correspondence", "definition-pushforward-correspondence"]
 +++
@@ -19,7 +19,7 @@ $$
 
 Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $u:c_2^*K\to c_1^!K$ be a cohomological
 correspondence, and let $u_Z$ be the restriction
-(E.22) to $Z$ of $u|_W$, for the
+(E.21) to $Z$ of $u|_W$, for the
 correspondence $c|_W$, with $c_Z:C_Z=(W\cap c_1^{-1}Z)_{\mathrm{red}}\to
 Z_{\mathrm{red}}\times Z_{\mathrm{red}}$. Then $h_{F_0}$ is an
 isomorphism after reduction, and

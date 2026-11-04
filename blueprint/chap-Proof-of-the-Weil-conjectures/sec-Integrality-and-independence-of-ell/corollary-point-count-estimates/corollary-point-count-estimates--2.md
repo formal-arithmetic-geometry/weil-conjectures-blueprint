@@ -3,7 +3,7 @@ id = "corollary-point-count-estimates--2"
 kind = "corollary"
 title = "Point-count estimates (2)"
 name_showing = false
-order = 1388002
+order = 1394002
 aliases = ["bp-r432-2"]
 +++
 For a smooth proper geometrically connected curve of genus $g$, this is

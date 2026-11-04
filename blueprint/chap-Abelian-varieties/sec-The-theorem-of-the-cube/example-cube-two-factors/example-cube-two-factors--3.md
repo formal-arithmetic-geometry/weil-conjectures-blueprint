@@ -3,7 +3,7 @@ id = "example-cube-two-factors--3"
 kind = "example"
 title = "Two factors do not suffice (3)"
 name_showing = false
-order = 1468003
+order = 1474003
 aliases = ["bp-r458-3"]
 +++
 In particular $\mathcal L$ is trivial on both

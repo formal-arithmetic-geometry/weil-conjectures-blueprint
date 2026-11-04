@@ -3,7 +3,7 @@ id = "example-degree-sequence-genus-zero-one--3"
 kind = "example"
 title = "The degree sequence in genus zero and one (3)"
 name_showing = false
-order = 1548003
+order = 1554003
 aliases = ["bp-r485-3"]
 +++
 In particular $\mathcal O_E(P-Q)$ is

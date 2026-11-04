@@ -3,7 +3,7 @@ id = "definition-weights--1"
 kind = "definition"
 title = "Weights, purity and mixedness (1)"
 name_showing = false
-order = 1051001
+order = 1057001
 aliases = ["bp-r324-1"]
 +++
 Let $K$ be a constructible Weil sheaf on $X$, let $x$ be a closed point of

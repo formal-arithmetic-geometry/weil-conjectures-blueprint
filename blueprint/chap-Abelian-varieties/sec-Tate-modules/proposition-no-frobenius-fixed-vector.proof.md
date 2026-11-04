@@ -1,14 +1,12 @@
 +++
 kind = "proof"
 of = "proposition-no-frobenius-fixed-vector"
-order = 1507
+order = 1513
 uses = ["definition-compactification-refinement", "proposition-multiplication-n", "proposition-integral-tate-module"]
 +++
 A fixed vector is a compatible system of torsion points, each rational
-over $\mathbf F_{q^m}$. The rational points form a finite group, so the
-orders of the $\ell$-power torsion points in it are bounded, and
-compatibility under $[\ell]$ then forces the system to vanish. The
-statement for $V_\ell A$ follows by clearing denominators.
+over $\mathbf F_{q^m}$. But the rational points form a finite group, so the orders of the $\ell$-power torsion points in it are bounded, and
+compatibility under $[\ell]$ then forces the system to vanish. The statement for $V_\ell A$ then follows by clearing denominators.
 
 Since an automorphism and its inverse have the same fixed vectors, we
 may use arithmetic Frobenius instead. On $A(\overline{\mathbf F}_q)$

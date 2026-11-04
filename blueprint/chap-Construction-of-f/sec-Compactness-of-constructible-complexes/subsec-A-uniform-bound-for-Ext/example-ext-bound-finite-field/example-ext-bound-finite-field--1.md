@@ -3,7 +3,7 @@ id = "example-ext-bound-finite-field--1"
 kind = "example"
 title = "The bound over a finite field (1)"
 name_showing = false
-order = 444001
+order = 449001
 aliases = ["bp-r136-1"]
 +++
 The proof gives an explicit bound, which is far from sharp. For

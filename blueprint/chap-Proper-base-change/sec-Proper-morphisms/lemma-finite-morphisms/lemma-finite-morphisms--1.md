@@ -3,7 +3,7 @@ id = "lemma-finite-morphisms--1"
 kind = "lemma"
 title = "Finite morphisms (1)"
 name_showing = false
-order = 379001
+order = 384001
 aliases = ["bp-r116-1"]
 +++
 Let $u:V\to W$ be finite. For an abelian sheaf $F$ and a geometric point

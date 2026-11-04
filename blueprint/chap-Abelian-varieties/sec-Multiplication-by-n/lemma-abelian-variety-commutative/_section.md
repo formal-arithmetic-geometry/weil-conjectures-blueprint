@@ -2,7 +2,7 @@
 id = "lemma-abelian-variety-commutative"
 kind = "lemma"
 title = "Commutativity"
-order = 1489
+order = 1495
 lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral", "AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
 uses = ["definition-abelian-variety"]
 +++

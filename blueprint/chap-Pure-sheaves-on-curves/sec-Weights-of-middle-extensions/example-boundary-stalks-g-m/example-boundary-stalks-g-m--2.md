@@ -3,7 +3,7 @@ id = "example-boundary-stalks-g-m--2"
 kind = "example"
 title = "Boundary stalks on $\\mathbf G_m\\subset\\mathbf A^1$ (2)"
 name_showing = false
-order = 1169002
+order = 1175002
 aliases = ["bp-r362-2"]
 +++
 Hence

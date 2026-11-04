@@ -2,7 +2,7 @@
 id = "lemma-inverse-image-tensor-product"
 kind = "lemma"
 title = "Inverse image and tensor product"
-order = 489
+order = 494
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

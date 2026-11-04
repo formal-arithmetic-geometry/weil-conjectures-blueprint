@@ -3,7 +3,7 @@ id = "example-compact-supports-running-example--2"
 kind = "example"
 title = "Compact supports on the running example (2)"
 name_showing = false
-order = 542002
+order = 548002
 aliases = ["bp-r165-2"]
 +++
 $$

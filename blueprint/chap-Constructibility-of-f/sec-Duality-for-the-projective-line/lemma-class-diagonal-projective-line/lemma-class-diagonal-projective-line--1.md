@@ -3,7 +3,7 @@ id = "lemma-class-diagonal-projective-line--1"
 kind = "lemma"
 title = "The class of the diagonal of $\\mathbf P^1_S$ (1)"
 name_showing = false
-order = 544001
+order = 550001
 aliases = ["bp-r166-1"]
 +++
 Let $S$ be of finite type over $k$ and let $\Lambda$ be a finite

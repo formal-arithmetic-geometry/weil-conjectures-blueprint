@@ -2,7 +2,7 @@
 id = "lemma-extension-separably-closed-ground-field"
 kind = "lemma"
 title = "Separably closed field extension"
-order = 360
+order = 364
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
 uses = ["definition-torsion-sheaves"]
 +++

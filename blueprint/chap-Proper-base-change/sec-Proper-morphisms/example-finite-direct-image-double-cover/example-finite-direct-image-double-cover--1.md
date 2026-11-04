@@ -3,7 +3,7 @@ id = "example-finite-direct-image-double-cover--1"
 kind = "example"
 title = "A ramified double cover (1)"
 name_showing = false
-order = 382001
+order = 387001
 aliases = ["bp-r117-1"]
 +++
 Let $k$ be algebraically closed of characteristic $\neq2$, let

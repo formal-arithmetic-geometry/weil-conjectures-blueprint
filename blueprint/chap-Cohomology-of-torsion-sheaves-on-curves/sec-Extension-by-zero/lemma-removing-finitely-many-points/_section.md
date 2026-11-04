@@ -2,7 +2,7 @@
 id = "lemma-removing-finitely-many-points"
 kind = "lemma"
 title = "Removing finitely many points"
-order = 1599
+order = 1605
 lean = ["AlgebraicGeometry.IsCurve.assertions_iff_dense_open_prime"]
 uses = ["theorem-cohomology-curves"]
 +++

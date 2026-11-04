@@ -2,7 +2,7 @@
 id = "lemma-local-terms-point"
 kind = "lemma"
 title = "Local terms on the point"
-order = 912
+order = 918
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.integral_traceClass_ofEnd"]
 uses = ["definition-correspondence"]
 +++

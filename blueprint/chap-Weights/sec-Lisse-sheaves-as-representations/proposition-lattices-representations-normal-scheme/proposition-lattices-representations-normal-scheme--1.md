@@ -3,7 +3,7 @@ id = "proposition-lattices-representations-normal-scheme--1"
 kind = "proposition"
 title = "Lattices and representations on a normal scheme (1)"
 name_showing = false
-order = 1074001
+order = 1080001
 aliases = ["bp-r332-1"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a

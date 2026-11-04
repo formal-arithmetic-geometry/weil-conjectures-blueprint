@@ -3,7 +3,7 @@ id = "example-zeta-projective-space-elliptic-curve"
 kind = "example"
 title = "Projective space and elliptic curves"
 name_showing = false
-order = 1385
+order = 1391
 +++
 We have $\#\mathbf P^d(\mathbf F_{q^m})=1+q^m+\cdots+q^{dm}$, so
 that $Z(\mathbf P^d_{\mathbf F_q},T)=\prod_{i=0}^d(1-q^iT)^{-1}$.

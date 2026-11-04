@@ -2,14 +2,13 @@
 id = "prose-10-11"
 kind = "hidden"
 title = "Poincaré duality (1)"
-order = 844
+order = 850
 +++
-For $f=a_X$ the exchange formulas become dualities between
-compactly supported and ordinary cohomology.
-Over an algebraically closed field, $D^b_{\mathrm{ctf}}$ of the target of $a_X$ is the category
+Over an algebraically closed field, $D^b_{\mathrm{ctf}}(s,\Lambda)$ is the category
 of perfect $\Lambda$-complexes, and on it $\mathbb D_s$ is
-$R\!\operatorname{Hom}_\Lambda(-,\Lambda)$. The first two Verdier exchange formulas therefore
-become two statements about cohomology. This is global Verdier duality
+$R\!\operatorname{Hom}_\Lambda(-,\Lambda)$. For $f=a_X$ the first two Verdier exchange
+formulas therefore become dualities between compactly supported and ordinary
+cohomology. This is global Verdier duality
 (Theorem [theorem-global-verdier-duality]). It holds for every $X$ of
 finite type, smooth or not.
 

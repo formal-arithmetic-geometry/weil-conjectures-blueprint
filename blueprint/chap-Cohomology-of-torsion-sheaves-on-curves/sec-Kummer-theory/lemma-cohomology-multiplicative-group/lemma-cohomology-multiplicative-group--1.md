@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--1"
 kind = "lemma"
 title = "The Picard identification"
-order = 1565002
+order = 1571002
 aliases = ["bp-r490-1"]
 +++
 There is the canonical identification

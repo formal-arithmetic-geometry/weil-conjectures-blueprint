@@ -3,7 +3,7 @@ id = "lemma-change-coefficients-internal-hom--1"
 kind = "lemma"
 title = "Change of coefficients for internal Hom (1)"
 name_showing = false
-order = 636001
+order = 642001
 aliases = ["bp-r196-1"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above and all

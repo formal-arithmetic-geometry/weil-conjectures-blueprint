@@ -2,7 +2,7 @@
 id = "proposition-proper-base-change-complete-integral"
 kind = "proposition"
 title = "Proper base change for complete complexes"
-order = 412
+order = 417
 +++
 Let $p:X\to Y$ be proper, let $g:Y'\to Y$ be any morphism, and let
 $p':X'\to Y'$ and $g':X'\to X$ be the projections from $X'=X\times_YY'$.

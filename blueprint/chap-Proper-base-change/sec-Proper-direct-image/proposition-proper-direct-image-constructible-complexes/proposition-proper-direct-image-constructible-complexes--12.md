@@ -2,7 +2,7 @@
 id = "proposition-proper-direct-image-constructible-complexes--12"
 kind = "proposition"
 title = "Algebraically closed coefficients"
-order = 420024
+order = 425024
 aliases = ["bp-r129-12"]
 +++
 The projection formula map (4.14)

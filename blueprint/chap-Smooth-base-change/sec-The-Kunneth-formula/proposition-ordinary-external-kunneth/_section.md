@@ -2,7 +2,7 @@
 id = "proposition-ordinary-external-kunneth"
 kind = "proposition"
 title = "Ordinary external Künneth"
-order = 713
+order = 719
 lean = ["AlgebraicGeometry.Etale.isIso_kunnethMap_of_isSepClosed", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_prodLowerStarExternalProduct"]
 uses = ["definition-kunneth-map"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-divisors-degree-g-open-chart"
-order = 1532
+order = 1538
 +++
 We construct mutually inverse maps: a divisor gives its invertible sheaf,
 normalized along $P$, and a family in $F$ has, up to units on $T$, a
@@ -34,7 +34,7 @@ fibre $C_{\kappa(t)}$ the section $s$ is a nonzero element of the
 one-dimensional space of sections. The fibre is integral because $C$ is
 geometrically integral, so the zero scheme of $s$ on the fibre is an
 effective Cartier divisor.
-The fibres of $D$ have degree $g$: for a point $t$ of $T$ we have
+Moreover, the fibres of $D$ have degree $g$: for a point $t$ of $T$ we have
 $h^0(\mathcal L_t)=1$ and $H^1(C_t,\mathcal L_t)=0$, so Riemann–Roch
 gives
 

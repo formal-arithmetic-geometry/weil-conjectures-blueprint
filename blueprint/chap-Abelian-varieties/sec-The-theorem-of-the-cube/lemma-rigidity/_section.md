@@ -2,7 +2,7 @@
 id = "lemma-rigidity"
 kind = "lemma"
 title = "Rigidity"
-order = 1483
+order = 1489
 lean = ["AlgebraicGeometry.exists_mem_and_comp_eq_of_subsingleton_image"]
 +++
 Let $X$ be a proper geometrically integral $k$-scheme, let $Y$ be a

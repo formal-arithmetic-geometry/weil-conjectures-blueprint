@@ -3,7 +3,7 @@ id = "lemma-reduction-unipotent-local-system--1"
 kind = "lemma"
 title = "Reduction to a unipotent local system (1)"
 name_showing = false
-order = 1604001
+order = 1610001
 aliases = ["bp-r501-1"]
 +++
 Let $\ell$ be a prime, let $U$ be a connected scheme, and let $G$ be a finite classical

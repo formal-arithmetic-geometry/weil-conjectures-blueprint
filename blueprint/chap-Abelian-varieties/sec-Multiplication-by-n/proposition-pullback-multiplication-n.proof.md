@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-pullback-multiplication-n"
-order = 1495
+order = 1501
 uses = ["theorem-theorem-cube", "lemma-abelian-variety-commutative"]
 +++
 The idea is to produce one
@@ -22,14 +22,14 @@ p_1^*\mathcal L\otimes p_2^*\mathcal L\otimes p_3^*\mathcal L,
 $$
 
 where the $p_i$ are the projections and $m_{12}$, $m_{13}$, $m_{23}$,
-$m_{123}$ are the sums of the indicated coordinates. On
+$m_{123}$ are the sums of the indicated coordinates. To apply the
+theorem of the cube, we restrict $\mathcal M$ to the three slices. On
 $e\times A\times A$, with coordinates $(x_2,x_3)$, the seven factors
 restrict to $\mathcal L$ pulled back along $x_2+x_3$, $x_2$, $x_3$,
 $x_2+x_3$, the constant map $e$, $x_2$ and $x_3$, with exponents
-$1,-1,-1,-1,1,1,1$. The pullback along the constant map is trivial, and
-the others cancel. The same holds on $A\times e\times A$ and
+$1,-1,-1,-1,1,1,1$. Of these, the pullback along the constant map is trivial, and the others cancel. The same holds on $A\times e\times A$ and
 $A\times A\times e$. Hence $\mathcal M$ is trivial by
-Theorem [theorem-theorem-cube]. Pulling the trivial sheaf $\mathcal M$ back along
+Theorem [theorem-theorem-cube]. Finally, pulling the trivial sheaf $\mathcal M$ back along
 $x\mapsto(x,x,[n-1]x)$ for $n\ge0$ yields
 
 $$
@@ -47,6 +47,5 @@ $\mathcal L^{\otimes3}\otimes[-1]^*\mathcal L\simeq[2]^*\mathcal L$.
 This is the case $n=2$ of the formula. In general, the relation
 expresses $[n+1]^*\mathcal L$ in terms of $[n]^*\mathcal L$ and
 $[n-1]^*\mathcal L$, and the exponents in the formula satisfy the same
-second order recursion. The formula therefore follows by induction on
-$n$ [Stacks, [0BFF](https://stacks.math.columbia.edu/tag/0BFF)].
-For symmetric $\mathcal N$ the two exponents add up to $n^2$.
+second order recursion. Induction on $n$ therefore gives the formula [Stacks, [0BFF](https://stacks.math.columbia.edu/tag/0BFF)].
+In particular, for symmetric $\mathcal N$ the two exponents add up to $n^2$.

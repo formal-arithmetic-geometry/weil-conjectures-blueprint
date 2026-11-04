@@ -3,7 +3,7 @@ id = "lemma-reduction-finitely-many-degrees--1"
 kind = "lemma"
 title = "Reduction to finitely many degrees (1)"
 name_showing = false
-order = 458001
+order = 463001
 aliases = ["bp-r141-1"]
 +++
 Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in

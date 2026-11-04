@@ -2,7 +2,7 @@
 id = "prose-05-28"
 kind = "hidden"
 title = "Construction of $Rf_!$ (2)"
-order = 499
+order = 504
 +++
 The proper base change map and the comparison maps between compactifications
 are natural transformations between exact functors on $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$

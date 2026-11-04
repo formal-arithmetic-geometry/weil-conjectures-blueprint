@@ -1,11 +1,11 @@
 +++
 kind = "proof"
 of = "proposition-bound-largest-determinant-weight"
-order = 1157
+order = 1163
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights", "proposition-determinant-weights-tensor-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 We bound the poles of $L(U_0,\mathcal G^{\otimes2m},t)$ by determinant
-weights through $H^2_c$. Positivity then passes the bound to each local
+weights through $H^2_c$, and positivity then passes the bound to each local
 factor.
 
 We may assume that $\mathcal G$ is semisimple. Indeed, by
@@ -15,14 +15,14 @@ nor the determinant weights of its constituents.
 
 *The top cohomology.* Fix $m\ge1$ and put
 $\mathcal T=\mathcal G^{\otimes2m}$. We show that every eigenvalue $\mu$ of
-$F$ on $H_c^2(U,\mathcal T)$ satisfies $|\iota(\mu)|\le q^{m\beta+1}$. These
-eigenvalues determine the possible poles of the $L$-function. Every
+$F$ on $H_c^2(U,\mathcal T)$ satisfies $|\iota(\mu)|\le q^{m\beta+1}$; these
+eigenvalues determine the possible poles of the $L$-function. First, every
 constituent of $\mathcal T$ has determinant weight at most $2m\beta$, by
 Proposition [proposition-determinant-weights-tensor-operations](1).
-Lemma [lemma-degree-zero-top-cohomology] identifies
+Next, Lemma [lemma-degree-zero-top-cohomology] identifies
 $H_c^2(U,\mathcal T)$ with $T_{\pi_1(U)}(-1)$, where
 $T$ is the generic fibre of $\mathcal T$. The geometric fundamental group
-acts trivially on $T_{\pi_1(U)}$. Hence its simple Weil factors are
+acts trivially on $T_{\pi_1(U)}$, so its simple Weil factors are
 one-dimensional, as one sees by triangularizing the operator induced by a
 degree-one lift. Let $b$ be the eigenvalue on such a factor. Since
 $T_{\pi_1(U)}$ is a Weil quotient of $T$, the factor is a constituent of
@@ -45,9 +45,9 @@ $$
 
 This is an identity of formal power series, and the product is
 coefficientwise locally finite because there are only finitely many
-closed points of bounded degree. Put $R_m=q^{-m\beta-1}$. By the bound on
+closed points of bounded degree. Now put $R_m=q^{-m\beta-1}$. By the bound on
 $H_c^2$, the denominator has no zero on the disc $|t|<R_m$ after applying
-$\iota$. So the rational function, and with it its Taylor series, is
+$\iota$, so the rational function, and with it its Taylor series, is
 holomorphic on this disc.
 
 Each local factor
@@ -60,7 +60,7 @@ that Lemma [lemma-positivity-convergence] applies.
 Now let $\alpha$ be a local eigenvalue of $\mathcal G$. Then $\alpha^{2m}$ is
 an eigenvalue on $\mathcal T$ by Lemma [lemma-filtrations-spectra], and
 $1-\iota(\alpha)^{2m}t^{\deg(x)}$ divides the local factor. Its roots
-have absolute value $|\iota(\alpha)|^{-2m/\deg(x)}$. This number must be at
+have absolute value $|\iota(\alpha)|^{-2m/\deg(x)}$, so by the previous paragraph this number must be at
 least $R_m$, that is,
 
 $$

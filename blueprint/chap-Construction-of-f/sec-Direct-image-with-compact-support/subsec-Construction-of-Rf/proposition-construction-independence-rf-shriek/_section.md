@@ -2,7 +2,7 @@
 id = "proposition-construction-independence-rf-shriek"
 kind = "proposition"
 title = "Construction and independence of $Rf_!$"
-order = 507
+order = 512
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.localizingConstructibleFiniteTor_lowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriek_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriek_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriek_padicAlgClRingObj", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_id", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_comp"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-localizing-subcategory", "definition-compactification-refinement"]
 +++

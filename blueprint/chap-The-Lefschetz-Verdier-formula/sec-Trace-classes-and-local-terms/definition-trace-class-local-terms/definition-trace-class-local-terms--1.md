@@ -3,7 +3,7 @@ id = "definition-trace-class-local-terms--1"
 kind = "definition"
 title = "Trace class and local terms (1)"
 name_showing = false
-order = 910001
+order = 916001
 aliases = ["bp-r277-1"]
 +++
 Let $u:c_2^*K\to c_1^!K$ be a cohomological correspondence on $(X,K)$.

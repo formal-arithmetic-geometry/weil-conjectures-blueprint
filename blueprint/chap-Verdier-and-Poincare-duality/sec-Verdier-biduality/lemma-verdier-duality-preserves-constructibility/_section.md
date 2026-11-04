@@ -2,7 +2,7 @@
 id = "lemma-verdier-duality-preserves-constructibility"
 kind = "lemma"
 title = "Verdier duality preserves constructibility"
-order = 829
+order = 835
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual"]
 uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-compactification-refinement"]
 +++

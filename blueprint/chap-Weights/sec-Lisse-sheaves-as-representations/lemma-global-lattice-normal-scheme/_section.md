@@ -2,7 +2,7 @@
 id = "lemma-global-lattice-normal-scheme"
 kind = "lemma"
 title = "Global lattices on a normal scheme"
-order = 1071
+order = 1077
 lean = ["AlgebraicGeometry.exists_isTwistedSection_compactOpenLattice_of_connectedSpace", "AlgebraicGeometry.exists_isTwistedSection_compactOpenLattice"]
 uses = ["definition-ind-etale-pro-etale-weakly"]
 +++

@@ -7,8 +7,8 @@ uses = ["definition-local-cohomology", "lemma-local-cohomology-right-adjoint", "
 Lemma [lemma-local-cohomology-right-adjoint] gives the adjunction
 between $i_*$ and $R\underline\Gamma_Z$ on derived categories. What is new
 here is that $R\underline\Gamma_Z$ is the right derived functor of
-$\underline\Gamma_Z$. This upgrades the adjunction to $R\!\operatorname{Hom}$ complexes
-and yields formula (3.1). We show two things:
+$\underline\Gamma_Z$, and this upgrades the adjunction to $R\!\operatorname{Hom}$ complexes
+and yields formula (3.1). For this we show two things:
 $\underline\Gamma_Z$ is right adjoint to the exact functor $i_*$ on
 sheaves, and $M\to j_*j^*M$ is surjective for injective $M$. The second means
 that on injective sheaves the kernel of this map is also its fibre.
@@ -23,10 +23,10 @@ $\ker(M\to j_*j^*M)=i_*\underline\Gamma_Z(M)$.
 *Adjunction on sheaves.* The functor $\underline\Gamma_Z$ is right
 adjoint to $i_*:\operatorname{Mod}(Z_{\mathrm{pro}\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
 Indeed, a map $i_*N\to M$ composes to zero with $M\to j_*j^*M$, because
-$j^*i_*N=0$. So it factors through
+$j^*i_*N=0$, so it factors through
 $\ker(M\to j_*j^*M)=i_*\underline\Gamma_Z(M)$. Since $i_*$ is fully
 faithful, such factorizations are the maps $N\to\underline\Gamma_Z(M)$.
-As $i_*$ is exact, its right adjoint $\underline\Gamma_Z$ preserves
+Moreover, as $i_*$ is exact, its right adjoint $\underline\Gamma_Z$ preserves
 K-injective complexes.
 
 *Surjectivity on injectives.* For an injective sheaf $I$ the unit
@@ -34,7 +34,7 @@ $I\to j_*j^*I$ of the adjunction $j^*\dashv j_*$ on
 $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is surjective, because it has a right inverse.
 To construct it, extend the inclusion $j_!j^*I\to I$ along
 $j_!j^*I\hookrightarrow j_*j^*I$ to a map $s:j_*j^*I\to I$, which is
-possible because $I$ is injective. The composite
+possible because $I$ is injective. Then the composite
 $j_*j^*I\xrightarrow{s}I\to j_*j^*I$ restricts to the identity on $V$.
 Since $j_*$ is fully faithful, an endomorphism of $j_*j^*I$ is determined by
 its restriction to $V$, and so this composite is the identity.
@@ -43,7 +43,7 @@ its restriction to $V$, and so this composite is the identity.
 $\underline\Gamma_Z$ agrees with $i^*\fib(K\to Rj_*j^*K)$. To see this,
 represent $K$ by a K-injective complex $I^\bullet$ with injective terms
 [Stacks, [079P](https://stacks.math.columbia.edu/tag/079P)]. Then $\underline\Gamma_Z(I^\bullet)$ computes the right
-derived functor of $\underline\Gamma_Z$ at $K$. The complex
+derived functor of $\underline\Gamma_Z$ at $K$. On the other side, the complex
 $j^*I^\bullet$ is K-injective, because the left adjoint $j_!$ of $j^*$ is
 exact. Hence $j_*j^*I^\bullet$ represents $Rj_*j^*K$. By the surjectivity just
 proved, the sequences

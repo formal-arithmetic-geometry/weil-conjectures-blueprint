@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators--4"
 kind = "definition"
 title = "Frobenius correspondences and their operators (4)"
 name_showing = false
-order = 945004
+order = 951004
 aliases = ["bp-r289-4"]
 +++
 Its iterates are the morphisms

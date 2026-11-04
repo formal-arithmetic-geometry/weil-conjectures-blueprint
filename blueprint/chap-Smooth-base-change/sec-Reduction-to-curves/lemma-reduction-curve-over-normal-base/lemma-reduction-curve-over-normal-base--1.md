@@ -3,7 +3,7 @@ id = "lemma-reduction-curve-over-normal-base--1"
 kind = "lemma"
 title = "Reduction to a curve over a normal base (1)"
 name_showing = false
-order = 675001
+order = 681001
 aliases = ["bp-r205-1"]
 +++
 Suppose $g:Y'\to Y$ is affine and smooth of relative dimension

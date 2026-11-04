@@ -2,7 +2,7 @@
 id = "proposition-isomorphisms-reduce-finite-coefficients"
 kind = "proposition"
 title = "Isomorphisms reduce to finite coefficients"
-order = 647
+order = 653
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_of_isIso_etaleReduction_map"]
 uses = ["definition-small-pro-etale-site"]
 +++

@@ -2,25 +2,33 @@
 id = "prose-06-01"
 kind = "hidden"
 title = "Constructibility of $f^!$"
-order = 529
+order = 534
 +++
-Verdier duality (Section [chap-Verdier-and-Poincare-duality]) will say that
-$\mathbb D_X=\cHom(-,a_X^!\Lambda)$ is an involution of $D^b_{\mathrm{ctf}}(X,\Lambda)$.
-The local terms of the trace formula are traces on complexes built from
-$f^!$ of the two projections of a correspondence. Both statements need the
-dualizing complex $a_X^!\Lambda$, and more generally $f^!K$ for
-constructible $K$, to be constructible. At this point we know nothing of
-the kind. Let $f:X\to Y$ be a separated morphism of finite type and
-$\Lambda$ an admissible coefficient ring.
-Theorem [theorem-existence-exceptional-inverse-image] produces $f^!$ as
-the right adjoint of $Rf_!$ on the localizing categories
-$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$. Brown representability, which gives the
-existence, says nothing about its values. In this section we prove part (4) of
-Theorem [theorem-exceptional-inverse-image]: the functor $f^!$ maps
-$D^b_{\mathrm{ctf}}(Y,\Lambda)$ into $D^b_{\mathrm{ctf}}(X,\Lambda)$. Unlike parts (1)–(3), this is
-not formal, and we have to compute $f^!$.
+Brown representability gave us $f^!$
+(Theorem [theorem-existence-exceptional-inverse-image]), but only as a
+functor
 
-The computation is local. By
+$$
+f^!:\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))\longrightarrow\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))
+$$
+
+for $f:X\to Y$ separated of finite type and $\Lambda$ an admissible coefficient
+ring. It tells us nothing about the values of $f^!$. A priori, $f^!$ of a
+constructible complex is just some object of the large category on the right,
+possibly unbounded and with cohomology sheaves that are not constructible.
+
+The rest of the notes needs more than this. For example, Verdier duality (Section [chap-Verdier-and-Poincare-duality]) says that
+$\mathbb D_X=\cHom(-,a_X^!\Lambda)$ is an involution of $D^b_{\mathrm{ctf}}(X,\Lambda)$,
+and this makes sense only if the dualizing complex $a_X^!\Lambda$ lies in
+$D^b_{\mathrm{ctf}}(X,\Lambda)$. Similarly, the local terms of the trace formula are defined through the isomorphism
+$\cHom(c_2^*K,c_1^!K)\simeq c^!(K\boxtimes\mathbb D_XK)$ for a
+correspondence $c=(c_1,c_2)$
+(Lemma [lemma-external-duality-trace-morphism]), which also needs $f^!$
+to preserve constructible complexes. In this section we prove what both need
+(part (4) of Theorem [theorem-exceptional-inverse-image]): $f^!$ maps
+$D^b_{\mathrm{ctf}}(Y,\Lambda)$ into $D^b_{\mathrm{ctf}}(X,\Lambda)$. A universal property cannot give this, so we have to compute $f^!$, and the computation is local.
+
+By
 Proposition [proposition-composition-open-restriction-compactifications-f],
 the functor $f^!$ is compatible with composition, equals $j^*$ for an open
 immersion $j$, and is local on $X$ and on $Y$. We may therefore assume that
@@ -31,30 +39,34 @@ projections $\mathbf P^1_T\to T$, two cases remain.
 
 For the projection $p:\mathbf P^1_T\to T$ we can write the adjunction
 down, and we find $p^!=p^*(1)[2]$
-(Proposition [proposition-adjunction-projective-line]). The counit is
-the trace $Rp_*\Lambda(1)[2]\to\Lambda$. The unit is the cycle class of
-the diagonal in $\mathbf P^1_T\times_T\mathbf P^1_T$. The triangle
-identities hold because the diagonal meets each fibre of either projection
-in a single point. For a closed immersion $i:Z\hookrightarrow X$ with open
-complement $j:U\hookrightarrow X$, the functor $i^!$ takes sections with
-support in $Z$. The localization triangle $i_*i^!K\to K\to Rj_*j^*K\to$
-then expresses $i^!$ through $Rj_*$.
+(Proposition [proposition-adjunction-projective-line]). Here the counit is the trace $Rp_*\Lambda(1)[2]\to\Lambda$, and the unit is the cycle class of the diagonal in $\mathbf P^1_T\times_T\mathbf P^1_T$. The triangle identities then hold because the diagonal meets each fibre of either projection
+in a single point. For a closed immersion $i:Z\hookrightarrow X$ with open complement $j:U\hookrightarrow X$, on the other hand, the functor $i^!$ takes sections with support in
+$Z$, and it sits in the localization triangle
 
-The second case shows what $f^!$ measures. For the origin
-$i:0\hookrightarrow\mathbf A^1$ over an algebraically closed field, the
-Kummer covers of $\mathbf G_m$ and the localization triangle give
-$i^!\Lambda\simeq\Lambda(-1)[-2]$; we carry out this computation in
-Example [example-closed-support] below. In other words, $i^!$ is
-not $i^*$: it records the cohomology of a punctured neighbourhood of $Z$.
-The constructibility of $f^!$ is therefore a question about $Rj_*$. Does
-direct image along an open immersion preserve bounded constructible
-complexes and, with finite coefficients, finite Tor amplitude? Proper base
-change does not help here, since $j$ is not proper.
+$$
+i_*i^!K\longrightarrow K\longrightarrow Rj_*j^*K\longrightarrow .
+$$
+
+Let $K$ be constructible. Then $j^*K$ is constructible, and since $i^*i_*\simeq\mathrm{id}$ and
+$i_*$ preserves constructibility, $i^!K$ is constructible exactly when the
+third term $Rj_*j^*K$ is. So the constructibility of $f^!$ comes down to one
+question: does direct image along an open immersion preserve bounded
+constructible complexes and, with finite coefficients, finite Tor
+amplitude? Proper base change does not help here, since $j$ is not
+proper.
+
+The answer is not formal, because $Rj_*$, and with it $i^!$, sees more
+than the stalks of $K$ on $Z$: it sees the cohomology of $K$ on a punctured
+neighbourhood of $Z$. For the origin $i:0\hookrightarrow\mathbf A^1$ over
+an algebraically closed field, the stalk of $Rj_*\Lambda$ at $0$ is the
+cohomology of a punctured disc, which the Kummer covers of $\mathbf G_m$
+compute to be $\Lambda\oplus\Lambda(-1)[-1]$, and the triangle gives
+$i^!\Lambda\simeq\Lambda(-1)[-2]$, whereas $i^*\Lambda=\Lambda$
+(Example [example-closed-support] below).
 
 Over a field the answer is Deligne's finiteness theorem in
-SGA 4$\tfrac12$ [sga4-5], and we follow his proof. An induction on
-dimension leads to fibrations over bases of positive dimension. For this
-reason Deligne proves a statement in families over a base $S$. In families,
+SGA 4$\tfrac12$ [sga4-5], and we follow his proof. Its induction on dimension leads to fibrations over bases of positive dimension, so
+Deligne proves a statement in families over a base $S$. In families,
 however, the formation of $Rj_*$ need not commute with base change. Let
 $S=\mathbf A^1$ with coordinate $t$, let $Y=\mathbf A^2$ with coordinates
 $(t,x)$, viewed over $S$, and let $j$ be the inclusion of
@@ -64,8 +76,7 @@ Section [chap-Smooth-purity] below), the punctured strict henselization of
 $Y$ at the origin has cohomology $\Lambda$ in degree $0$ and
 $\Lambda(-2)$ in degree $3$ only. Hence $R^1j_*\Lambda=0$. On the fibre
 over $t=0$, however, $j$ becomes $\mathbf G_m\hookrightarrow\mathbf A^1$,
-whose $R^1j_*\Lambda$ is $\Lambda(-1)$ at the origin. Over $t\neq0$ the
-map $j$ is an isomorphism, and base change fails only at $t=0$.
+whose $R^1j_*\Lambda$ is $\Lambda(-1)$ at the origin. Since over $t\neq0$ the map $j$ is an isomorphism, base change fails only at $t=0$.
 
 Deligne's generic base change theorem says that this is the general
 picture. Let $j:X\hookrightarrow Y$ be an open immersion of schemes of
@@ -75,7 +86,7 @@ $S_0\subset S$ over which $Rj_*F$ is bounded constructible and its
 formation commutes with base change along every $T\to S_0$ of finite type
 (Theorem [theorem-generic-constructibility-base-change-rj]; Deligne
 proves more). Over $S=\operatorname{Spec}k$ the only nonempty open is $S$
-itself. In this case we obtain the finiteness and base change of $Rj_*$
+itself, so we obtain the finiteness and base change of $Rj_*$
 over a field (Corollary [corollary-open-direct-image-over-field]).
 
 The projective line returns in the proof of the generic theorem. There we

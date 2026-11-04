@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-nearby-cycles-commute-verdier-duality"
-order = 1675
+order = 1681
 uses = ["definition-small-pro-etale-site", "lemma-quasi-finite-coordinates", "lemma-nearby-duality-proper-direct-image"]
 +++
 We argue by induction on $n=\dim X_{\bar\eta}$, simultaneously for all
@@ -14,13 +14,13 @@ local and, by Lemma [lemma-nearby-duality-proper-direct-image],
 compatible with restriction to opens. So we may pass to a projective
 compactification and extend $M$ by zero on its generic fibre. Next we
 use the compatibility with proper direct image
-(E.14) for the closure of that
+(E.13) for the closure of that
 generic fibre, together with invariance under nilpotent thickenings.
 This lets us assume that $X$ is reduced and flat over $S$.
 
 Put $Q=\Cone(\delta_{X,M})$. It is bounded and constructible by the
 finiteness theorem for nearby cycles and ordinary Verdier duality. By
-(E.15), $R\Gamma(X_s,Q)=0$.
+(E.14), $R\Gamma(X_s,Q)=0$.
 
 *Finite support.* By Lemma [lemma-finite-support-global-sections],
 it remains to show that the support of $Q$ is finite. By

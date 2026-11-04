@@ -3,7 +3,7 @@ id = "example-functional-equation-projective-line--1"
 kind = "example"
 title = "The functional equation of the projective line (1)"
 name_showing = false
-order = 1041001
+order = 1047001
 aliases = ["bp-r321-1"]
 +++
 For $X_0=\mathbf P^1_{\mathbf F_q}$ we have $d=1$, $b_0=b_2=1$, $b_1=0$, so

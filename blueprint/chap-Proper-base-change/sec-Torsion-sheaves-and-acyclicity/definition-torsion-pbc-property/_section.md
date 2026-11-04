@@ -2,7 +2,7 @@
 id = "definition-torsion-pbc-property"
 kind = "definition"
 title = "The PBC property"
-order = 341
+order = 342
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
 uses = ["definition-derived-base-change-map", "definition-torsion-sheaves"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-punctured-surface-punctured-curve"
 kind = "lemma"
 title = "A punctured surface and a punctured curve"
-order = 964
+order = 970
 lean = ["AlgebraicGeometry.Scheme.TransverseCorner.bijective_cohomologyMap_puncturedTraitι"]
 +++
 Let $S$ be the strict localization of a smooth surface over an

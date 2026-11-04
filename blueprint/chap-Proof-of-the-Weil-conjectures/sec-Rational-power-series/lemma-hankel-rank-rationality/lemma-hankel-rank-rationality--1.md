@@ -3,7 +3,7 @@ id = "lemma-hankel-rank-rationality--1"
 kind = "lemma"
 title = "Hankel rank and rationality (1)"
 name_showing = false
-order = 1370001
+order = 1376001
 aliases = ["bp-r425-1"]
 +++
 For a field $K$ and $C(T)=\sum_{n\geq0}c_nT^n\in K[[T]]$, the

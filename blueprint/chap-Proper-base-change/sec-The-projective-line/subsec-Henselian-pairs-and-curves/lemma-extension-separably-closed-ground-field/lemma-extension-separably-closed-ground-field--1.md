@@ -3,7 +3,7 @@ id = "lemma-extension-separably-closed-ground-field--1"
 kind = "lemma"
 title = "Separably closed field extension (1)"
 name_showing = false
-order = 360001
+order = 364001
 aliases = ["bp-r110-1"]
 +++
 Let $k\subseteq k'$ be separably closed fields, let $C$ be proper over $k$

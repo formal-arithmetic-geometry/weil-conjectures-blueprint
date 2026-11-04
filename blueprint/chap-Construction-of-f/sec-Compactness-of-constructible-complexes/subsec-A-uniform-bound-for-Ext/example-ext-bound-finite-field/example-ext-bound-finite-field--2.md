@@ -3,7 +3,7 @@ id = "example-ext-bound-finite-field--2"
 kind = "example"
 title = "The bound over a finite field (2)"
 name_showing = false
-order = 444002
+order = 449002
 aliases = ["bp-r136-2"]
 +++
 Moreover

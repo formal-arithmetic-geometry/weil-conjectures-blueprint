@@ -3,7 +3,7 @@ id = "lemma-cohomology-projective-line-trace--3"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace (3)"
 name_showing = false
-order = 539003
+order = 545003
 aliases = ["bp-r164-3"]
 +++
 Let

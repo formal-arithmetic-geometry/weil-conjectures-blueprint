@@ -3,7 +3,7 @@ id = "example-trace-function-squaring--2"
 kind = "example"
 title = "The squaring map (2)"
 name_showing = false
-order = 1020002
+order = 1026002
 aliases = ["bp-r314-2"]
 +++
 Hence

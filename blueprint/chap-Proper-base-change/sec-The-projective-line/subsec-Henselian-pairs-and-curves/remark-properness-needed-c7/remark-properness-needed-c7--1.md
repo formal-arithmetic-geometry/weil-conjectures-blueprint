@@ -3,7 +3,7 @@ id = "remark-properness-needed-c7--1"
 kind = "remark"
 title = "Why properness is needed in $(C_7)$ (1)"
 name_showing = false
-order = 362001
+order = 366001
 aliases = ["bp-r111-1"]
 +++
 Properness in $(C_7)$ is needed when the torsion order is divisible by

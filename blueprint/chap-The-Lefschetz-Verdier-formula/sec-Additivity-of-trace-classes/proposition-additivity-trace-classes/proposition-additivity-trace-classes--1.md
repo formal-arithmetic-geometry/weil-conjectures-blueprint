@@ -3,7 +3,7 @@ id = "proposition-additivity-trace-classes--1"
 kind = "proposition"
 title = "Additivity of trace classes (1)"
 name_showing = false
-order = 936002
+order = 942002
 aliases = ["bp-r287-1"]
 +++
 Let $\mathcal K$ be a finitely filtered complex on $X$ with

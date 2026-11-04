@@ -3,7 +3,7 @@ id = "lemma-filtered-trace-morphism--1"
 kind = "lemma"
 title = "Filtered trace morphism (1)"
 name_showing = false
-order = 927001
+order = 933001
 aliases = ["bp-r284-1"]
 +++
 Let $c:C\to X\times X$ be a correspondence and let $\mathcal K$ be a

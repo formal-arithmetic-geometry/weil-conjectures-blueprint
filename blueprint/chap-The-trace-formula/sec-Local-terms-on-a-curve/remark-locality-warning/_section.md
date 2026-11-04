@@ -3,7 +3,7 @@ id = "remark-locality-warning"
 kind = "remark"
 title = "Local terms are not computed stalk by stalk"
 name_showing = false
-order = 952
+order = 958
 +++
 The vanishing of the local term at a rational point $y$ with $K_{\bar y}=0$, proved below, is a
 geometric fact about the restriction from cohomology with supports in the

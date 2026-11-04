@@ -3,7 +3,7 @@ id = "corollary-ind-heart-b"
 kind = "corollary"
 title = "Ext from a constructible sheaf into ind-constructible sheaves"
 name_showing = false
-order = 451
+order = 456
 lean = ["AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound", "AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound.of_continuity"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "lemma-uniform-ext-bound"]
 +++

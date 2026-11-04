@@ -2,7 +2,7 @@
 id = "lemma-finite-morphisms"
 kind = "lemma"
 title = "Finite morphisms"
-order = 379
+order = 384
 lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++

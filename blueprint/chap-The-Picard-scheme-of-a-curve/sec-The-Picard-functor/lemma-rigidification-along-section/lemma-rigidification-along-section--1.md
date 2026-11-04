@@ -3,7 +3,7 @@ id = "lemma-rigidification-along-section--1"
 kind = "lemma"
 title = "Rigidification along a section (1)"
 name_showing = false
-order = 1514001
+order = 1520001
 aliases = ["bp-r474-1"]
 +++
 Suppose that $f$ has a section $\sigma:S\to C$ and that

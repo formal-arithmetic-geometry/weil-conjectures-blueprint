@@ -3,7 +3,7 @@ id = "theorem-smooth-base-change-classical-torsion-2--1"
 kind = "theorem"
 title = "Smooth base change for classical torsion complexes (1)"
 name_showing = false
-order = 687001
+order = 693001
 aliases = ["bp-r208-1"]
 +++
 In (8.1), let $g$ be smooth and $f$ quasi-compact and

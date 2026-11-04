@@ -3,7 +3,7 @@ id = "proposition-frobenius-local-term-curve--1"
 kind = "proposition"
 title = "The Frobenius local term on a curve (1)"
 name_showing = false
-order = 987001
+order = 993001
 aliases = ["bp-r303-1"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, let

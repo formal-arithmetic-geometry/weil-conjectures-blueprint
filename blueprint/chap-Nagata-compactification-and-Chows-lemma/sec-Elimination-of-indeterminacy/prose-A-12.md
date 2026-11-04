@@ -2,7 +2,7 @@
 id = "prose-A-12"
 kind = "hidden"
 title = "Elimination of indeterminacy (4)"
-order = 1423
+order = 1429
 +++
 Over a chart of $T'$ where $E$ has equation $a$ and $W\times_TT'$ is
 affine with ring $B$, the ring of the strict transform is

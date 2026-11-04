@@ -3,7 +3,7 @@ id = "proposition-nearby-cycles-commute-verdier-duality--1"
 kind = "proposition"
 title = "Nearby cycles commute with Verdier duality (1)"
 name_showing = false
-order = 1665001
+order = 1671001
 aliases = ["bp-r519-1"]
 +++
 For every separated $S$-scheme $X$ of finite type and
@@ -14,4 +14,4 @@ $$
 \longrightarrow\mathbb D_{X_s}(\Psi_XM)
 $$
 
-defined by (E.13) is an isomorphism.
+defined by (E.12) is an isomorphism.

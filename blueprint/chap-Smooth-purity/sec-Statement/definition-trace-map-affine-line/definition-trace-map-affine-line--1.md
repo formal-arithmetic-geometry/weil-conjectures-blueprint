@@ -3,7 +3,7 @@ id = "definition-trace-map-affine-line--1"
 kind = "definition"
 title = "Trace map of the affine line (1)"
 name_showing = false
-order = 722001
+order = 728001
 aliases = ["bp-r219-1"]
 +++
 The *trace map of the affine line* is the composite

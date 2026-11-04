@@ -2,7 +2,7 @@
 id = "prose-E-16"
 kind = "hidden"
 title = "Base change for nearby cycles (2)"
-order = 1657
+order = 1663
 +++
 Let $p_1,p_2$ be the projections of $X\times_SX$. On either
 fibre, let $\xi:p_2^*\omega_X\to p_1^!A_X$ be the isomorphism of

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-compatibilities-base-change-maps"
-order = 1654
+order = 1660
 +++
 The identity follows, after taking $Rf_{s!}$-adjoints, from the
 compatibility of $\nu_f$ with the projection formula: for $L$ on $V_\eta$ and $N$ on $W_\eta$,

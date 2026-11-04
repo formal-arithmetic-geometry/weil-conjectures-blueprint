@@ -3,7 +3,7 @@ id = "lemma-h-1-structure-sheaf-product--1"
 kind = "lemma"
 title = "$H^1$ of the structure sheaf of a product (1)"
 name_showing = false
-order = 1475001
+order = 1481001
 aliases = ["bp-r461-1"]
 +++
 Let $K$ be a field, let $P$ and $Q$ be proper $K$-schemes with

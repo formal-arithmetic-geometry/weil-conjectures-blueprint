@@ -3,7 +3,7 @@ id = "example-compactness-finite-field--4"
 kind = "example"
 title = "Compactness over a finite field (4)"
 name_showing = false
-order = 432004
+order = 437004
 aliases = ["bp-r132-4"]
 +++
 $$

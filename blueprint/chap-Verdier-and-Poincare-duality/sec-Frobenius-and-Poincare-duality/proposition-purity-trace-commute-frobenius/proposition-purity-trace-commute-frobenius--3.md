@@ -3,7 +3,7 @@ id = "proposition-purity-trace-commute-frobenius--3"
 kind = "proposition"
 title = "Purity and trace commute with Frobenius (3)"
 name_showing = false
-order = 875003
+order = 881003
 aliases = ["bp-r265-3"]
 +++
 $$

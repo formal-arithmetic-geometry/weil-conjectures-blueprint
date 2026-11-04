@@ -2,7 +2,7 @@
 id = "proposition-nearby-cycles-commute-verdier-duality"
 kind = "proposition"
 title = "Nearby cycles commute with Verdier duality"
-order = 1665
+order = 1671
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_nearbyDualityMap", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.nonempty_nearbyCycles_verdierDual_iso"]
 uses = ["definition-verdier-dual-evaluation"]
 +++
@@ -14,4 +14,4 @@ $$
 \longrightarrow\mathbb D_{X_s}(\Psi_XM)
 $$
 
-defined by (E.13) is an isomorphism.
+defined by (E.12) is an isomorphism.

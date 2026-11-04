@@ -2,7 +2,7 @@
 id = "prose-09-34"
 kind = "hidden"
 title = "Change of coefficients"
-order = 804
+order = 810
 +++
 The last compatibility compares the maps $\gamma_f$ for different coefficient
 rings. For a map $A\to B$ of finite rings the comparison

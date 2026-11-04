@@ -3,7 +3,7 @@ id = "proposition-kummer-duality-integral-tate-module--3"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module (3)"
 name_showing = false
-order = 1088003
+order = 1094003
 aliases = ["bp-r335-3"]
 +++
 If

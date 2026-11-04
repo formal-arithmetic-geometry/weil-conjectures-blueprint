@@ -2,7 +2,7 @@
 id = "prose-E-14"
 kind = "hidden"
 title = "Künneth formula for nearby cycles (5)"
-order = 1647
+order = 1653
 +++
 In the slicing step we compare $\Pi$ with the Künneth map over the
 trait $S'$ of (E.2). Let $X,Y$ be separated of

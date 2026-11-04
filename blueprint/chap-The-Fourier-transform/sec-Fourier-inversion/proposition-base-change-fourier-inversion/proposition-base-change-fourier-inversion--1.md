@@ -3,7 +3,7 @@ id = "proposition-base-change-fourier-inversion--1"
 kind = "proposition"
 title = "Base change and stalks (1)"
 name_showing = false
-order = 1223002
+order = 1229002
 aliases = ["bp-r379-1"]
 +++
 The proper base change isomorphism for $p_2$ induces an

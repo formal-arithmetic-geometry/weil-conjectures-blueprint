@@ -2,7 +2,7 @@
 id = "example-kummer-extension"
 kind = "example"
 title = "The Kummer extension"
-order = 1059
+order = 1065
 +++
 On $\mathbf G_{m,k_0}$ with coordinate $t$, the $\mu_{\ell^n}$-torsors
 $u^{\ell^n}=t$ give the Kummer cocycle $\kappa$, a continuous map from

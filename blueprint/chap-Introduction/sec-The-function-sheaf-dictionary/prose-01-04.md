@@ -39,16 +39,16 @@ $$
 where for a complex the trace is the alternating sum of the traces on the
 cohomology groups. The constant sheaf has trace function $1$.
 
-Operations on functions correspond to operations on sheaves. Pulling back
+Operations on functions correspond to operations on sheaves. For example, pulling back
 a function along $f$ corresponds to the inverse image $f^*K$, and the
-product of two functions to the tensor product. Summing a function over
+product of two functions to the tensor product. Similarly, summing a function over
 the fibres of $f$ corresponds to the direct image with compact supports
 $Rf_!K$, whose stalk at a point $\bar y$ is the compactly supported
-cohomology of $K$ on the fibre over $\bar y$. The identity
+cohomology of $K$ on the fibre over $\bar y$. The resulting identity
 $t_{Rf_!K}(y)=\sum_{f(x)=y}t_K(x)$ is a form of the trace formula
 (Corollary [corollary-trace-functions-direct-image-compact]). When $f$ is the
-map to a point, it is (b) with coefficients in $K$. The last operation we
-need is a Fourier transform, explained in Section [sec-Delignes-theorem].
+map to a point, it is (b) with coefficients in $K$. The one further operation
+we need is a Fourier transform, explained in Section [sec-The-Deligne-Laumon-theorem].
 This correspondence between functions and sheaves is Grothendieck's
 *function–sheaf dictionary* [sga4-5, Sommes trig.]:
 
@@ -63,5 +63,5 @@ This correspondence between functions and sheaves is Grothendieck's
 
 Proposition [proposition-function-sheaf-dictionary] states and proves the
 first five lines. The last line is built from the first three, as we explain
-in Section [sec-Delignes-theorem]. Since $Rf_!$ of a sheaf is a
+in Section [sec-The-Deligne-Laumon-theorem]. Since $Rf_!$ of a sheaf is a
 complex, we work in derived categories throughout.

@@ -2,7 +2,7 @@
 id = "proposition-six-operations-change-coefficients--6"
 kind = "proposition"
 title = "Tensor product: coefficient comparison"
-order = 639012
+order = 645012
 aliases = ["bp-r197-6"]
 +++
 For $K,L\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison

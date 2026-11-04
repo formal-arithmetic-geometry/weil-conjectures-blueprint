@@ -3,7 +3,7 @@ id = "lemma-restriction-geometric-generic-fibre--1"
 kind = "lemma"
 title = "Restriction to a geometric generic fibre (1)"
 name_showing = false
-order = 832001
+order = 838001
 aliases = ["bp-r251-1"]
 +++
 In the setting above, let $X$ be a $B$-scheme of finite type, let

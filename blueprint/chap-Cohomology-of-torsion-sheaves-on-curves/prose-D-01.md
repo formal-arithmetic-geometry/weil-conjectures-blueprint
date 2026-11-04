@@ -2,7 +2,7 @@
 id = "prose-D-01"
 kind = "hidden"
 title = "Cohomology of torsion sheaves on curves"
-order = 1562
+order = 1568
 +++
 The last step of proper base change for $\mathbf P^1$ compares the
 cohomology of a curve over two separably closed fields, one inside the
@@ -47,8 +47,7 @@ $$
 
 (Proposition [proposition-smooth-proper-curves-torsion-prime]).
 These groups do not change under extension of algebraically closed
-fields, because torsion points of an abelian variety do not. For
-$\mathbf P^1$, which has $g=0$, the computation fixes the normalization of
+fields, because torsion points of an abelian variety do not. For $\mathbf P^1$, which has $g=0$, the computation fixes the normalization of
 the class of $\mathcal O(1)$ that
 Remark [remark-twists-projective-line] provides for the proof of
 proper base change. Removing a nonempty finite set of $r$ points kills

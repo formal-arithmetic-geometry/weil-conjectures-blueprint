@@ -2,7 +2,7 @@
 id = "lemma-killing"
 kind = "lemma"
 title = "Killing form"
-order = 1730
+order = 1736
 lean = ["LieAlgebra.HasTrivialRadical.killingForm_nondegenerate"]
 +++
 If $\operatorname{rad}\mathfrak l=0$, the Killing form

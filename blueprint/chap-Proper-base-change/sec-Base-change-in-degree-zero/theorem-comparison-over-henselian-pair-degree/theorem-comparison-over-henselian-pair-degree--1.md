@@ -3,7 +3,7 @@ id = "theorem-comparison-over-henselian-pair-degree--1"
 kind = "theorem"
 title = "Henselian comparison in degree zero (1)"
 name_showing = false
-order = 327001
+order = 328001
 aliases = ["bp-r098-1"]
 +++
 Let $(R,J)$ be a henselian pair, let $Z\to\operatorname{Spec}R$ be

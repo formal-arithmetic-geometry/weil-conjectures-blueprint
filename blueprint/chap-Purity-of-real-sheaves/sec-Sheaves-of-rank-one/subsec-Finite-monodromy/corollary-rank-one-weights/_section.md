@@ -2,7 +2,7 @@
 id = "corollary-rank-one-weights"
 kind = "corollary"
 title = "Rank-one weights"
-order = 1101
+order = 1107
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one", "AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_continuous", "AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_deg_eq_one"]
 uses = ["definition-weil-representation"]
 +++

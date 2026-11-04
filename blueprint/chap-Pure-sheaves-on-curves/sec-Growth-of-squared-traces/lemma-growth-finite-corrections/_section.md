@@ -2,7 +2,7 @@
 id = "lemma-growth-finite-corrections"
 kind = "lemma"
 title = "Finite corrections"
-order = 1199
+order = 1205
 lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_le_max_of_traceEnergy_le_add"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

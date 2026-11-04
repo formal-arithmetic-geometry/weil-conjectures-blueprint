@@ -2,7 +2,7 @@
 id = "lemma-triviality-fibres--text-1"
 kind = "hidden"
 title = "Triviality on fibres"
-order = 1469001
+order = 1475001
 +++
 Let $P$ be a proper geometrically integral $k$-scheme, let $T$ be a
 $k$-scheme of finite type, let $f:P\times T\to T$ be the projection,

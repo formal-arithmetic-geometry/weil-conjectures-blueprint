@@ -2,7 +2,7 @@
 id = "theorem-verdier-s-theorem-specialization-zero"
 kind = "theorem"
 title = "Verdier's theorem on specialization to the zero section"
-order = 1633
+order = 1639
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_zeroSectionMap", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_upperStar_zeroSection_specialization"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++

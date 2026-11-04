@@ -3,7 +3,7 @@ id = "definition-torsion-pbc-property--1"
 kind = "definition"
 title = "The PBC property (1)"
 name_showing = false
-order = 341001
+order = 342001
 aliases = ["bp-r104-1"]
 +++
 For a morphism $f:X\to Y$, write $\mathrm{PBC}_{\Lambda}(f)$ if the base change map

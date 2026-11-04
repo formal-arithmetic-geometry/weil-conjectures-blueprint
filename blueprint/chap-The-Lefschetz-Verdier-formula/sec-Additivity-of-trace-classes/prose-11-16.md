@@ -2,7 +2,7 @@
 id = "prose-11-16"
 kind = "hidden"
 title = "Additivity of trace classes (1)"
-order = 923
+order = 929
 +++
 To compute local terms, we cut $K$ into pieces along a decomposition of
 $X$ into an open and a closed part, both invariant under the

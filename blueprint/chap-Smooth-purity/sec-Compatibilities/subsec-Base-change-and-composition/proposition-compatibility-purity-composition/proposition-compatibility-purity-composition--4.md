@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-composition--4"
 kind = "proposition"
 title = "Algebraically closed coefficients"
-order = 794008
+order = 800008
 aliases = ["bp-r240-4"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$,

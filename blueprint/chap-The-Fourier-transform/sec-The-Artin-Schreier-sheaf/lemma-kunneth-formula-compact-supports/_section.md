@@ -2,7 +2,7 @@
 id = "lemma-kunneth-formula-compact-supports"
 kind = "lemma"
 title = "Künneth formula for compact supports"
-order = 1216
+order = 1222
 +++
 In this situation, let $K,L$ be bounded constructible complexes with
 coefficients in a field. Then the maps in

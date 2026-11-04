@@ -3,7 +3,7 @@ id = "remark-compactifications--1"
 kind = "remark"
 title = "Compactifications (1)"
 name_showing = false
-order = 505001
+order = 510001
 aliases = ["bp-r154-1"]
 +++
 1. By Nagata's theorem (Theorem [theorem-nagata-s-compactification-theorem]), every

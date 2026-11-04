@@ -2,18 +2,17 @@
 id = "prose-16-08"
 kind = "hidden"
 title = "The Plancherel formula (1)"
-order = 1231
+order = 1237
 +++
 On trace functions, the Fourier transform is, up to the sign $(-1)^r$, the
 discrete Fourier transform over $\mathbf F_{q^n}$ for the character
 $\psi\circ\operatorname{Tr}_{\mathbf F_{q^n}/k_0}$
 (equation (16.3) below). The Plancherel formula
-says how it changes the growth of squared trace sums. For a pure sheaf
+then says how it changes the growth of squared trace sums, and for a pure sheaf
 this growth is the weight
 (Theorem [theorem-weights-sums-squared-traces]). This is how we find
-the weight of the transform in Section [chap-Delignes-theorem-for-curves].
-
-On the line, Plancherel multiplies the sums of squared traces by $q^n$, and so it
+the weight of the transform in Section [chap-The-Deligne-Laumon-theorem-for-curves]: on the
+line, Plancherel multiplies the sums of squared traces by $q^n$, and so it
 raises the weight read off from their growth by one.
 
 In this subsection $S=\operatorname{Spec}k_0$ and
@@ -21,7 +20,7 @@ $V=\mathbf A^r_{k_0}$.
 For a Weil complex $K$ on a $k_0$-scheme $X_0$, we write $t_{K,n}(x)$
 for the alternating sum of the Frobenius traces at
 $x\in X_0(\mathbf F_{q^n})$, as in Definition [definition-growth-squared-traces].
-The dictionary (Proposition [proposition-function-sheaf-dictionary])
+With this notation, the dictionary (Proposition [proposition-function-sheaf-dictionary])
 computes the trace function of the transform step by step. For
 $y\in\mathbf F_{q^n}^r$, the shift contributes $(-1)^r$ (chain formula of
 Proposition [proposition-properties-trace]), part (3) sums over

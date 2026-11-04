@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-cartier-s-theorem"
-order = 1712
+order = 1718
 +++
 We first show, using translations, that the reduced subscheme
 $G_{\mathrm{red}}$ is a smooth group scheme. It then suffices to show
@@ -65,11 +65,11 @@ n\,\overline{b^{n-1}}\otimes\overline b=0
 \otimes_\Omega(\widehat R/\widehat{\mathfrak m}^{\,2}).
 $$
 
-This identity is impossible, which proves the claim. Indeed, the module
-$(b^{n-1})$ is nonzero by the choice of $n$, so the class
-$\overline{b^{n-1}}$ is nonzero by Nakayama's lemma. The class
-$\overline b$ is nonzero by assumption. A tensor product of nonzero
-vectors over a field is nonzero, and $n\ne0$ in characteristic zero.
+This identity is impossible, which proves the claim. Indeed, the class
+$\overline{b^{n-1}}$ is nonzero by Nakayama's lemma, because the module
+$(b^{n-1})$ is nonzero by the choice of $n$. The class $\overline b$ is
+nonzero by assumption. A tensor product of nonzero vectors over a field
+is nonzero, and $n\ne0$ in characteristic zero.
 
 *Step 3: $G$ is smooth.* The schemes $G$ and $G_{\mathrm{red}}$ have the
 same cotangent space at $1$. Indeed, by Step 2 the kernel of
@@ -88,5 +88,5 @@ By translation the local rings of $G$ at all closed points are
 regular. Since $\Omega$ is perfect, $G$ is smooth at every closed point.
 The nonsmooth locus is closed and contains no closed point, and hence it
 is empty. Being smooth, $G$ is reduced, and its tangent
-space at $1$ has dimension $\dim G$. The open subgroup $G^\circ$ has the
+space at $1$ has dimension $\dim G$. Finally, the open subgroup $G^\circ$ has the
 same tangent space at $1$.

@@ -3,7 +3,7 @@ id = "example-even-tensor-powers--1"
 kind = "example"
 title = "Why even tensor powers (1)"
 name_showing = false
-order = 1151001
+order = 1157001
 aliases = ["bp-r356-1"]
 +++
 The sheaf $\mathcal B_{-1}$ is real, since $\operatorname{Frob}_x$ acts by

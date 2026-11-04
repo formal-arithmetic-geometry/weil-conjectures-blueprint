@@ -3,7 +3,7 @@ id = "remark-base-change-compactification--1"
 kind = "remark"
 title = "Base change of a compactification (1)"
 name_showing = false
-order = 1413001
+order = 1419001
 aliases = ["bp-r440-1"]
 +++
 For every $S'\to S$, the base change of a compactification is an open

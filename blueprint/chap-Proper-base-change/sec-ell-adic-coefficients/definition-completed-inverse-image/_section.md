@@ -2,7 +2,7 @@
 id = "definition-completed-inverse-image"
 kind = "definition"
 title = "Completed inverse image"
-order = 409
+order = 414
 lean = ["AlgebraicGeometry.Scheme.completedPullbackObject", "AlgebraicGeometry.Scheme.completedPullbackFunctor"]
 uses = ["definition-small-pro-etale-site"]
 +++

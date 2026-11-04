@@ -3,7 +3,7 @@ id = "lemma-tangent-cones-on-cover--1"
 kind = "lemma"
 title = "Tangent cones on the cover (1)"
 name_showing = false
-order = 978001
+order = 984001
 aliases = ["bp-r300-1"]
 +++
 For $i=1,2$ let $X_i'\to X_i$ be a finite flat morphism of degree $d$ as in

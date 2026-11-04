@@ -3,7 +3,7 @@ id = "definition-sp-scalar-extension"
 kind = "definition"
 title = "Extension of scalars"
 name_showing = false
-order = 760
+order = 766
 lean = ["AlgebraicGeometry.ProEtale.sheafExtendScalars"]
 uses = ["definition-small-pro-etale-site"]
 +++

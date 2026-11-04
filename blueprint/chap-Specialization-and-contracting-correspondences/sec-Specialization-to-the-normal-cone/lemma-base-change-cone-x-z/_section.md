@@ -2,7 +2,7 @@
 id = "lemma-base-change-cone-x-z"
 kind = "lemma"
 title = "Base change for the cone of $\\tau_{X,Z}$"
-order = 1624
+order = 1630
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_lowerStar_centreι", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++

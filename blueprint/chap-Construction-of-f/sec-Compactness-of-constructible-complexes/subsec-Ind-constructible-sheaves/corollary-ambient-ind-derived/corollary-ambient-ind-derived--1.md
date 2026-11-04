@@ -3,7 +3,7 @@ id = "corollary-ambient-ind-derived--1"
 kind = "corollary"
 title = "The derived category of ind-constructible sheaves (1)"
 name_showing = false
-order = 454001
+order = 459001
 aliases = ["bp-r140-1"]
 +++
 The full subcategory

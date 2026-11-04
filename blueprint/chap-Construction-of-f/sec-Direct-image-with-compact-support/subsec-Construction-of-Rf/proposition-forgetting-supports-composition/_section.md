@@ -2,7 +2,7 @@
 id = "proposition-forgetting-supports-composition"
 kind = "proposition"
 title = "Forgetting supports and composition"
-order = 514
+order = 519
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekToLowerStarComp", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekToLowerStarComp_of_isProper", "AlgebraicGeometry.Etale.properShriekComp_comp_forgetSupports"]
 uses = ["definition-compactification-refinement"]
 +++

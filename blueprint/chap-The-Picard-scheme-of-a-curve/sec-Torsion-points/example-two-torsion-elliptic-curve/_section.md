@@ -2,7 +2,7 @@
 id = "example-two-torsion-elliptic-curve"
 kind = "example"
 title = "Two-torsion of an elliptic curve"
-order = 1551
+order = 1557
 uses = ["example-degree-sequence-genus-zero-one", "corollary-torsion-jacobian-field-extension"]
 +++
 Let $k$ be algebraically closed of characteristic different from two

@@ -2,12 +2,12 @@
 id = "prose-E-23"
 kind = "hidden"
 title = "Specialization of the trace class (2)"
-order = 1679
+order = 1685
 +++
 Neither properness of the legs $c_1,c_2$ nor smoothness of $F$ is
 assumed. This matters, because we apply the proposition to the
 deformation of a correspondence to the normal cone. Its generic fibre is
-the original correspondence. Its fixed scheme, which we describe in
+the original correspondence, but its fixed scheme, which we describe in
 Lemma [lemma-fixed-point-scheme-deformation] of
 Section [sec-Contracting-correspondences], may be singular and nonreduced.
 
@@ -17,7 +17,7 @@ $c^!(K\boxtimes\mathbb DK)$, and the evaluation along the diagonal. In
 the proof we compare both once and for all on $X\times_SX$, for the
 universal kernel $K\boxtimes\mathbb DK$, and then pull the comparison
 back along $c$. After taking adjoints, each comparison reduces to the
-pairing (E.13) that defines $\delta_K$.
+pairing (E.12) that defines $\delta_K$.
 
 We fix the maps. In the setting of
 Proposition [proposition-specialization-trace-class], let

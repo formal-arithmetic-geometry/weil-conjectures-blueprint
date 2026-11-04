@@ -3,7 +3,7 @@ id = "lemma-filtrations-spectra--3"
 kind = "lemma"
 title = "Filtrations and spectra (3)"
 name_showing = false
-order = 1061003
+order = 1067003
 aliases = ["bp-r328-3"]
 +++
 If the eigenvalues of

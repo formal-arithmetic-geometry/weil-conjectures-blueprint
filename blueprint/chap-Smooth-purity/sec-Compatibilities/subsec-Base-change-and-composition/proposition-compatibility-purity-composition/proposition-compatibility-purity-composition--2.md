@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-composition--2"
 kind = "proposition"
 title = "Integral coefficients"
-order = 794004
+order = 800004
 aliases = ["bp-r240-2"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},\mathcal O_E)$,

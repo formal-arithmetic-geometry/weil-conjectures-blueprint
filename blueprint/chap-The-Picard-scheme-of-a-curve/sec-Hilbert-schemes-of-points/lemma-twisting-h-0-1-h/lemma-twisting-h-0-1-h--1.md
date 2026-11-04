@@ -3,7 +3,7 @@ id = "lemma-twisting-h-0-1-h--1"
 kind = "lemma"
 title = "Twisting to $h^0=1$ and $h^1=0$ (1)"
 name_showing = false
-order = 1534001
+order = 1540001
 aliases = ["bp-r480-1"]
 +++
 Suppose that $k$ is separably closed. For every field extension

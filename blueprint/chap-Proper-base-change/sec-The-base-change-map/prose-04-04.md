@@ -2,7 +2,7 @@
 id = "prose-04-04"
 kind = "hidden"
 title = "The base change map (2)"
-order = 313
+order = 314
 +++
 Consider a cartesian square
 

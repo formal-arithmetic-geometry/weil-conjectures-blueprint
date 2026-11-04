@@ -3,7 +3,7 @@ id = "example-cuspidal-compactification--1"
 kind = "example"
 title = "A singular compactification of the line (1)"
 name_showing = false
-order = 509001
+order = 514001
 aliases = ["bp-r156-1"]
 +++
 Over $k$, let $C\subset\mathbf P^2$ be the cuspidal cubic $zy^2=x^3$,

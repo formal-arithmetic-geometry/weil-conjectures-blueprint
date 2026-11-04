@@ -2,7 +2,7 @@
 id = "proposition-proper-base-change-degree-zero"
 kind = "proposition"
 title = "Proper base change in degree zero"
-order = 333
+order = 334
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isProper"]
 uses = ["definition-underived-base-change-map"]
 +++

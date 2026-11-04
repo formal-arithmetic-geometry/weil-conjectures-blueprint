@@ -3,7 +3,7 @@ id = "lemma-comparison-via-relative-frobenius--1"
 kind = "lemma"
 title = "Comparison via relative Frobenius (1)"
 name_showing = false
-order = 993002
+order = 999002
 aliases = ["bp-r305-1"]
 +++
 The relative Frobenius $r_m$ is a finite universal homeomorphism,

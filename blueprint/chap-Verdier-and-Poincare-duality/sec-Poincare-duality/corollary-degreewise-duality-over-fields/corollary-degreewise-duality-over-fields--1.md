@@ -3,7 +3,7 @@ id = "corollary-degreewise-duality-over-fields--1"
 kind = "corollary"
 title = "Degreewise duality over fields (1)"
 name_showing = false
-order = 853001
+order = 859001
 aliases = ["bp-r258-1"]
 +++
 Let $X/k$ be smooth and separated of pure dimension $d$, with $k$

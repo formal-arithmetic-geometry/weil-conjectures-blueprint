@@ -3,7 +3,7 @@ id = "lemma-integral-models-rational-frobenius-correspondences--1"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences (1)"
 name_showing = false
-order = 1007001
+order = 1013001
 aliases = ["bp-r309-1"]
 +++
 Let $K_E\in\Dbc(X,E)$ and let

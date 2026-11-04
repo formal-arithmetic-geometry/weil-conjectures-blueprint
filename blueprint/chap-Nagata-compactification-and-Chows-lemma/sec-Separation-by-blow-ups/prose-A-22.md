@@ -2,7 +2,7 @@
 id = "prose-A-22"
 kind = "hidden"
 title = "Separation by blow-ups (4)"
-order = 1451
+order = 1457
 +++
 The gluing lemma produces a separated scheme but says nothing about
 properness. In the inductive step we prove properness by the valuative

@@ -2,7 +2,7 @@
 id = "proposition-direct-image-along-open-immersion"
 kind = "proposition"
 title = "Direct image along an open immersion"
-order = 590
+order = 596
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_openImmersion_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_openImmersion_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_openImmersion_padicAlgClRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

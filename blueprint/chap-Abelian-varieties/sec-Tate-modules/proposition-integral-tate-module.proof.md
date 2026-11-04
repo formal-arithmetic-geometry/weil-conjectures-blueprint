@@ -1,15 +1,15 @@
 +++
 kind = "proof"
 of = "proposition-integral-tate-module"
-order = 1504
+order = 1510
 uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n"]
 +++
 A finite abelian group of order $\ell^{2gn}$ killed by $\ell^n$ need not
 be free over $\mathbf Z/\ell^n$; for $g\geq1$ the group
 $(\mathbf Z/\ell^2)^{2g-2}\oplus(\mathbf Z/\ell)^{4}$ has order $\ell^{4g}$
-and is killed by $\ell^2$. For $A[\ell^n]$ this cannot happen because
+and is killed by $\ell^2$. For $A[\ell^n]$, however, this cannot happen because
 we know the orders at every level together with the exact
-sequences given by $[\ell]$. We use them to lift a basis of the
+sequences given by $[\ell]$. Indeed, we use them to lift a basis of the
 $\ell$-torsion step by step and check by counting that the lifts form
 a basis at each level.
 
@@ -34,7 +34,7 @@ successively along $[\ell]$; the lifts form a basis at each level.
 Suppose that $x_1,\ldots,x_{2g}\in A[\ell^{n+1}](\bar k)$ lift
 a basis of $A[\ell^n](\bar k)$ obtained in this way, so that
 $\ell^nx_1,\ldots,\ell^nx_{2g}$ is the chosen basis of $A[\ell](\bar k)$.
-All coefficients of a relation between the $x_i$ are divisible by
+To see that the $x_i$ are independent, note first that all coefficients of a relation between them are divisible by
 $\ell^n$, as we see by applying $[\ell]$ to it. The relation then becomes a
 relation between the elements $\ell^nx_i$ of the chosen basis of
 $A[\ell](\bar k)$, so the coefficients are even divisible by $\ell^{n+1}$.

@@ -2,7 +2,7 @@
 id = "proposition-exceptional-external-kunneth"
 kind = "proposition"
 title = "Exceptional external Künneth"
-order = 901
+order = 907
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedUpperShriek"]
 uses = ["definition-compactification-refinement"]
 +++

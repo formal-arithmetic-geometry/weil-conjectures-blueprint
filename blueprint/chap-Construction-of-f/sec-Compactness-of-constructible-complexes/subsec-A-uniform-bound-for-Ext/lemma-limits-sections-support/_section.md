@@ -2,7 +2,7 @@
 id = "lemma-limits-sections-support"
 kind = "lemma"
 title = "Limits and sections with support"
-order = 436
+order = 441
 +++
 Let $\Lambda$ be admissible, let $i:Z\hookrightarrow X$ be a closed immersion
 with open complement $j:V\hookrightarrow X$, and let $u:S\hookrightarrow Z$

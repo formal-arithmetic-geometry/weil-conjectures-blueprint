@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-closed-piece-pushforward"
-order = 934
+order = 940
 uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
 +++
 The maps $\alpha$ and $\beta$ of

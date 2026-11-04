@@ -2,7 +2,7 @@
 id = "definition-categorical-trace"
 kind = "definition"
 title = "Categorical trace"
-order = 887
+order = 893
 lean = ["CategoryTheory.MonoidalCategory.trace"]
 +++
 For $P\in\operatorname{Perf}(A)$ put

@@ -3,7 +3,7 @@ id = "lemma-degree-zero-top-cohomology--7"
 kind = "lemma"
 title = "Degree zero and top cohomology (7)"
 name_showing = false
-order = 1144007
+order = 1150007
 aliases = ["bp-r353-7"]
 +++
 If $\mathcal F$

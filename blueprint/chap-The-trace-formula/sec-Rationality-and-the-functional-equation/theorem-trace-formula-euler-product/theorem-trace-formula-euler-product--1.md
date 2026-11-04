@@ -3,7 +3,7 @@ id = "theorem-trace-formula-euler-product--1"
 kind = "theorem"
 title = "The trace formula as an Euler product (1)"
 name_showing = false
-order = 1030001
+order = 1036001
 aliases = ["bp-r317-1"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, let

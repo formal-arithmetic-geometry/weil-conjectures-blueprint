@@ -3,7 +3,7 @@ id = "definition-growth-squared-traces--2"
 kind = "definition"
 title = "Growth of squared traces (2)"
 name_showing = false
-order = 1191002
+order = 1197002
 aliases = ["bp-r369-2"]
 +++
 $$

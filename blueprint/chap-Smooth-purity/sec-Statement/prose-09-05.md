@@ -2,20 +2,20 @@
 id = "prose-09-05"
 kind = "hidden"
 title = "Statement (4)"
-order = 725
+order = 731
 +++
 We recall what $D^b_{\mathrm{ctf}}$ means for each coefficient ring. For integral
 coefficients and for coefficients in a field, $D^b_{\mathrm{ctf}}=\Dbc$, and we write
 $\Dbc$ in calculations that only concern these cases. With integral
-coefficients finite Tor amplitude is automatic. Membership in
+coefficients finite Tor amplitude is automatic, and membership in
 $\Dbc(T,\mathcal O_E)$ can be tested modulo $\ell$
 (Proposition [proposition-integral-constructibility-criterion]).
 
 The proof passes through finite rings $A$ with $\ell^rA=0$, such as
 $\mathcal O_E/\ell^n$. For these, $D^b_{\mathrm{ctf}}$ is the category of
-Definition [definition-constructible-sheaves]. On the pro-étale site
-it is identified with the pullback of its étale counterpart
-(Corollary [corollary-finite-tor-amplitude-under-comparison]). The Tor
+Definition [definition-constructible-sheaves], which on the pro-étale
+site is identified with the pullback of its étale counterpart
+(Corollary [corollary-finite-tor-amplitude-under-comparison]). Here the Tor
 condition makes derived change of coefficients preserve boundedness, as the
 example after
 Proposition [proposition-six-operations-change-coefficients] shows. When we
@@ -31,7 +31,7 @@ projection formula and the localization triangle are the identities of
 Section [sec-Conventions-2], which we may prove on the étale
 sites by Proposition [proposition-comparison-etale-derived-category]. For an
 étale map, extension by zero is exact on sheaves of $A$-modules on the
-pro-étale sites. On the derived categories it is left adjoint to inverse
+pro-étale sites; on the derived categories it is left adjoint to inverse
 image, and the counit is given on geometric stalks by the sum over the
 fibre.
 
@@ -51,18 +51,18 @@ $f^*K\otimes^{\mathbf L}f^!\Lambda_Y\to f^!K$ of
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](2).
 Smoothness is needed here, as the following example shows. Let $i:y\to C$
 be the inclusion of a rational point of a smooth curve, with open
-complement $j:U\to C$, and take $K=j_!\Lambda_U$. The analogous map
+complement $j:U\to C$, and take $K=j_!\Lambda_U$. Then the analogous map
 $i^*K\otimes^{\mathbf L}i^!\Lambda_C\to i^!K$ has source zero, since the
-stalk of $j_!\Lambda_U$ at $y$ vanishes. But the localization triangle gives
+stalk of $j_!\Lambda_U$ at $y$ vanishes, but the localization triangle gives
 $i^!j_!\Lambda_U\simeq(i^*Rj_*\Lambda_U)[-1]\neq0$.
 
 We give $f^!\Lambda_Y$ a name rather than working with $\Lambda_X(d)[2d]$
-directly, because the two are not yet known to be isomorphic. The complex
-$f^!\Lambda_Y$ is attached to $f$ without choices and satisfies base change
+directly, because the two are not yet known to be isomorphic. Moreover, the
+complex $f^!\Lambda_Y$ is attached to $f$ without choices, and it satisfies base change
 (Proposition [proposition-exceptional-inverse-image-smooth-morphism](3)).
-Proving the theorem amounts to constructing an isomorphism between it and
-$\Lambda_X(d)[2d]$ that does not depend on charts. This complex is the
-analogue of the shifted orientation sheaf $\mathrm{or}_{X/Y}[m]$. For the
-structure map of a smooth scheme it is the dualizing complex of Poincaré
+Proving the theorem thus amounts to constructing an isomorphism between it and
+$\Lambda_X(d)[2d]$ that does not depend on charts. In this sense the complex
+is the analogue of the shifted orientation sheaf $\mathrm{or}_{X/Y}[m]$, and
+for the structure map of a smooth scheme it is the dualizing complex of Poincaré
 duality (Corollary [corollary-dualizing-complex-smooth-scheme]
 and Theorem [theorem-poincare-duality]).

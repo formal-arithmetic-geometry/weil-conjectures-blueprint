@@ -3,7 +3,7 @@ id = "lemma-kunneth-finite-direct-image--1"
 kind = "lemma"
 title = "Finite direct images of constant sheaves (1)"
 name_showing = false
-order = 705001
+order = 711001
 aliases = ["bp-r214-1"]
 +++
 In the situation of (8.4), let $Q$ be a finite

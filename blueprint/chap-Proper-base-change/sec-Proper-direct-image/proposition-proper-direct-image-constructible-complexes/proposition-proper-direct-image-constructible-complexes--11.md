@@ -2,7 +2,7 @@
 id = "proposition-proper-direct-image-constructible-complexes--11"
 kind = "proposition"
 title = "Finite extension of $\\Ql$"
-order = 420022
+order = 425022
 aliases = ["bp-r129-11"]
 +++
 The projection formula map (4.14)

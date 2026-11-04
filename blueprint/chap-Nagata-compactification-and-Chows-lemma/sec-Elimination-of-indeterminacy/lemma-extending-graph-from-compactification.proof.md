@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-extending-graph-from-compactification"
-order = 1441
+order = 1447
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform", "theorem-elimination-indeterminacy"]
 +++
 The map $\psi$ is the projection to $M$ of the closure of the graph of
@@ -16,8 +16,8 @@ $Y'\to Y$ its strict transform $G'$ is an open $V'\subseteq Y'$.
 This strict transform is the closure of the graph of $V\to M$ in
 $Y'\times_SM$, since both are the closure of the same graph outside
 the exceptional divisor [Stacks, [0F3Y](https://stacks.math.columbia.edu/tag/0F3Y)]. So $G'$ is closed in
-$Y'\times_SM$. The projection of $Y'\times_SM$ to $M$ is proper, and
-therefore $V'\simeq G'\to M$ is proper. Over $V\subseteq M$, the graph
+$Y'\times_SM$, and since the projection of $Y'\times_SM$ to $M$ is proper,
+the map $V'\simeq G'\to M$ is proper. It remains to identify the inverse image of $V$. For this, note that over $V\subseteq M$ the graph
 of the inclusion $V\to Y'$ is already closed in $Y'\times_SV$, because
 $Y'$ is separated over $S$. The inverse image of $V$ under $\psi$ is
 therefore this graph, that is, $V$ itself. See also [Stacks, [0F3Z](https://stacks.math.columbia.edu/tag/0F3Z)].

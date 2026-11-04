@@ -2,7 +2,7 @@
 id = "lemma-naturality-under-base-change-etale"
 kind = "lemma"
 title = "Naturality under base change and étale maps"
-order = 745
+order = 751
 uses = ["lemma-section-normal-bundle"]
 +++
 Write $\alpha_{g,s}:s^*\omega_g\xrightarrow{\sim}z^*\omega_\pi$

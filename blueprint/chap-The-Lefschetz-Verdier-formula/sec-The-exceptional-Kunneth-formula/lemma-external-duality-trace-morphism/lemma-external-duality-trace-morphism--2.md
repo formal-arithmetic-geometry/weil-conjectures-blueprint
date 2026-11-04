@@ -3,7 +3,7 @@ id = "lemma-external-duality-trace-morphism--2"
 kind = "lemma"
 title = "External duality (2)"
 name_showing = false
-order = 904002
+order = 910002
 aliases = ["bp-r275-2"]
 +++
 $$

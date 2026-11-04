@@ -2,7 +2,7 @@
 id = "proposition-integral-trace-formula"
 kind = "proposition"
 title = "Integral trace formula"
-order = 1004
+order = 1010
 uses = ["definition-frobenius-correspondences-their-operators", "theorem-trace-formula-frobenius-correspondence"]
 +++
 Let $K\in\Dbc(X,\mathcal O_E)$ and let $\theta:\Phi_X^*K\to K$ be any

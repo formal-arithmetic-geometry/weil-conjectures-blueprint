@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients-exceptional-inverse-image"
 kind = "lemma"
 title = "Change of coefficients for the exceptional inverse image"
-order = 634
+order = 640
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleUpperShriekExtendScalars"]
 uses = ["lemma-change-coefficients-compact-support"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-kunneth-map-proper-direct-image"
 kind = "lemma"
 title = "The Künneth map and proper direct image"
-order = 1639
+order = 1645
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.kunnethMap_comp_pushforwardExchange"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-pro-etale-base-change-map"]
 +++

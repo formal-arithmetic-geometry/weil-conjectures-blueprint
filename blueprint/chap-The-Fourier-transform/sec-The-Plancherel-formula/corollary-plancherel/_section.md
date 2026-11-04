@@ -2,7 +2,7 @@
 id = "corollary-plancherel"
 kind = "corollary"
 title = "Plancherel"
-order = 1232
+order = 1238
 lean = ["AlgebraicGeometry.WeilComplex.traceEnergy_fourierTransform", "AlgebraicGeometry.WeilComplex.traceEnergy_affineSpaceFourierTransform", "AlgebraicGeometry.WeilComplex.l2Weight_fourierTransform"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-growth-squared-traces", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

@@ -3,7 +3,7 @@ id = "proposition-forgetting-supports-composition--2"
 kind = "proposition"
 title = "Forgetting supports and composition (2)"
 name_showing = false
-order = 514002
+order = 519002
 aliases = ["bp-r158-2"]
 +++
 It is independent of the

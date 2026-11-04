@@ -3,7 +3,7 @@ id = "lemma-graded-pieces-filtered-operations--3"
 kind = "lemma"
 title = "Graded pieces of filtered operations (3)"
 name_showing = false
-order = 924003
+order = 930003
 aliases = ["bp-r283-3"]
 +++
 $$

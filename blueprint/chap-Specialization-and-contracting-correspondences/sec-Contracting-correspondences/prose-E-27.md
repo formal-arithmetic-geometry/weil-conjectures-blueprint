@@ -2,7 +2,7 @@
 id = "prose-E-27"
 kind = "hidden"
 title = "Contracting correspondences (2)"
-order = 1694
+order = 1700
 +++
 As in Proposition [proposition-specialization-trace-class], write $F=\Fix(c)$ for
 the fixed scheme, and let $d=c_1|_F=c_2|_F:F\to X$ be the common map.
@@ -32,7 +32,7 @@ $\widetilde c=(\widetilde c_1,\widetilde c_2)$. We write
 
 $$
 \iota_F:\mathcal D_{d^{-1}(Z)}F\longrightarrow\widetilde F
-\tag{E.21}
+\tag{E.20}
 $$
 
 for the resulting closed immersion.

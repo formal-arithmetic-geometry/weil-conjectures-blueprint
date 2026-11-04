@@ -2,16 +2,16 @@
 id = "prose-C-08"
 kind = "hidden"
 title = "Hilbert schemes of points (1)"
-order = 1527
+order = 1533
 +++
 On a smooth curve a finite subscheme of length $d$ is the same as an
 effective divisor of degree $d$. These divisors are parametrized by the
 Hilbert scheme of points $\operatorname{Hilb}^{d}_{C/k}$, which is the
 symmetric power $C^{(d)}$. Iterated addition of points gives a finite
-surjection $C^d\to \operatorname{Hilb}^{d}_{C/k}$. From it
+surjection $C^d\to \operatorname{Hilb}^{d}_{C/k}$, from which
 $\operatorname{Hilb}^{d}_{C/k}$ inherits properness, irreducibility and
 dimension $d$ (Theorem [theorem-hilbert-schemes-points-smooth-curve]).
-For $C=\mathbf P^1$, an effective divisor of degree $d$ is the zero set of
+For example, for $C=\mathbf P^1$, an effective divisor of degree $d$ is the zero set of
 a binary form of degree $d$ up to scalars, and
 $\operatorname{Hilb}^{d}_{C/k}=\mathbf P^d$.
 

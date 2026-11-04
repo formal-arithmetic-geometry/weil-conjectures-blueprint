@@ -3,7 +3,7 @@ id = "example-finite-direct-image-double-cover--2"
 kind = "example"
 title = "A ramified double cover (2)"
 name_showing = false
-order = 382002
+order = 387002
 aliases = ["bp-r117-2"]
 +++
 $$

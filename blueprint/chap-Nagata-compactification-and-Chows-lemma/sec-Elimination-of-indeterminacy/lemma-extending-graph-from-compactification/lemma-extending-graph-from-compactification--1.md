@@ -3,7 +3,7 @@ id = "lemma-extending-graph-from-compactification--1"
 kind = "lemma"
 title = "Extending a graph from a compactification (1)"
 name_showing = false
-order = 1440001
+order = 1446001
 aliases = ["bp-r451-1"]
 +++
 Let $S$ be qcqs, let $M\to S$ be separated of finite type, and let

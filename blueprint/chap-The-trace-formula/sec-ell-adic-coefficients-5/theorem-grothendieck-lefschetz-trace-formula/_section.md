@@ -2,7 +2,7 @@
 id = "theorem-grothendieck-lefschetz-trace-formula"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
-order = 1011
+order = 1017
 lean = ["AlgebraicGeometry.WeilSheaf.sum_trace_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction", "AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq", "AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure", "definition-trace-function", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

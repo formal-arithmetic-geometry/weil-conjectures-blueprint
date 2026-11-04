@@ -3,7 +3,7 @@ id = "corollary-triviality-over-open-cover-base--1"
 kind = "corollary"
 title = "Triviality over an open cover of the base (1)"
 name_showing = false
-order = 1472001
+order = 1478001
 aliases = ["bp-r460-1"]
 +++
 With the notation of Lemma [lemma-triviality-fibres], suppose that

@@ -3,7 +3,7 @@ id = "lemma-integral-models-rational-frobenius-correspondences--2"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences (2)"
 name_showing = false
-order = 1007002
+order = 1013002
 aliases = ["bp-r309-2"]
 +++
 For every $m\geq1$ the operators of Definition [definition-frobenius-correspondences-their-operators]

@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-complete-integral--1"
 kind = "proposition"
 title = "Proper base change for complete complexes (1)"
 name_showing = false
-order = 412001
+order = 417001
 aliases = ["bp-r127-1"]
 +++
 Let $p:X\to Y$ be proper, let $g:Y'\to Y$ be any morphism, and let

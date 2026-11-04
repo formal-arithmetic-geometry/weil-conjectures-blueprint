@@ -2,7 +2,7 @@
 id = "theorem-extension-partial-section"
 kind = "theorem"
 title = "Extension of a partial section"
-order = 1432
+order = 1438
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-admissible-blow-up", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "proposition-relative-form-zariski-s-main"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-extension-scalars-preserves-dctf"
 kind = "lemma"
 title = "Extension of scalars preserves $\\Dctf$"
-order = 627
+order = 633
 lean = ["AlgebraicGeometry.ProEtale.constructibleFiniteTor_leftDerivedSheafExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj"]
 uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-sp-scalar-extension"]
 +++

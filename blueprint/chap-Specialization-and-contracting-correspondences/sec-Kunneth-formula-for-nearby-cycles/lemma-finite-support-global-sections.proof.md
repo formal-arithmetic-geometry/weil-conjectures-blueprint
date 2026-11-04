@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-finite-support-global-sections"
-order = 1643
+order = 1649
 +++
 Let $i_T:T\hookrightarrow Y$ be the finite closed reduced subscheme
 with underlying set the support of $Q$, so that $Q\simeq i_{T*}i_T^*Q$.

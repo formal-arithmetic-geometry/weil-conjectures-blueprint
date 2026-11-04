@@ -3,7 +3,7 @@ id = "lemma-cohomology-near-two-transverse-divisors--1"
 kind = "lemma"
 title = "Cohomology near two transverse divisors (1)"
 name_showing = false
-order = 966001
+order = 972001
 aliases = ["bp-r296-1"]
 +++
 Let $X$ be a smooth surface over an algebraically closed field

@@ -3,7 +3,7 @@ id = "lemma-internal-adjunction-two-exchange-formulas--3"
 kind = "lemma"
 title = "Internal adjunction and two exchange formulas (3)"
 name_showing = false
-order = 823003
+order = 829003
 aliases = ["bp-r248-3"]
 +++
 $$

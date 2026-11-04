@@ -2,7 +2,7 @@
 id = "lemma-pbc-projective-space"
 kind = "lemma"
 title = "Projective space"
-order = 390
+order = 395
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
 uses = ["definition-torsion-pbc-property"]
 +++

@@ -3,7 +3,7 @@ id = "definition-exceptional-base-change-map--1"
 kind = "definition"
 title = "Exceptional base change map (1)"
 name_showing = false
-order = 720001
+order = 726001
 aliases = ["bp-r218-1"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$, the *exceptional base change map*

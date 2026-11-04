@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients"
 kind = "lemma"
 title = "Change of coefficients"
-order = 692
+order = 698
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-change-of-coefficients-maps"]
 +++

@@ -3,7 +3,7 @@ id = "remark-locality-warning--1"
 kind = "remark"
 title = "Local terms are not computed stalk by stalk (1)"
 name_showing = false
-order = 952001
+order = 958001
 aliases = ["bp-r291-1"]
 +++
 The vanishing of the local term at a rational point $y$ with $K_{\bar y}=0$, proved below, is a

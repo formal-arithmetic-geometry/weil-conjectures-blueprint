@@ -2,7 +2,7 @@
 id = "lemma-section-normal-bundle"
 kind = "lemma"
 title = "A section and its normal bundle"
-order = 742
+order = 748
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone"]
 uses = ["proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-deformation-normal-bundle", "definition-compactification-refinement"]
 +++

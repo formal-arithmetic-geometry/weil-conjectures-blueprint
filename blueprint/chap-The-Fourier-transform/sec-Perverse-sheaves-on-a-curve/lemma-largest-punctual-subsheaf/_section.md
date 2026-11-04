@@ -2,7 +2,7 @@
 id = "lemma-largest-punctual-subsheaf"
 kind = "lemma"
 title = "The largest punctual subsheaf"
-order = 1239
+order = 1245
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.eq_zero_of_support_finite", "AlgebraicGeometry.WeilSheaf.support_finite_kernel_unit_app", "AlgebraicGeometry.WeilSheaf.isZero_upperStar_of_isLisse"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

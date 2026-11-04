@@ -2,7 +2,7 @@
 id = "theorem-elimination-indeterminacy"
 kind = "theorem"
 title = "Elimination of indeterminacy"
-order = 1437
+order = 1443
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 uses = ["definition-admissible-blow-up", "definition-strict-transform"]
 +++

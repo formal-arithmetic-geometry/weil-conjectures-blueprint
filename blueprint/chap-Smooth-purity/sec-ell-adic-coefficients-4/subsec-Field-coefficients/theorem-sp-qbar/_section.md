@@ -3,7 +3,7 @@ id = "theorem-sp-qbar"
 kind = "theorem"
 title = "Smooth purity with coefficients in $\\overline{\\mathbf Q}_\\ell$"
 name_showing = false
-order = 784
+order = 790
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_upperShriekUnitTensorMap_of_smooth", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_smoothPurityMap"]
 uses = ["definition-trace-map"]
 +++

@@ -3,7 +3,7 @@ id = "corollary-plancherel--2"
 kind = "corollary"
 title = "Plancherel (2)"
 name_showing = false
-order = 1232002
+order = 1238002
 aliases = ["bp-r382-2"]
 +++
 Consequently, for $r=1$, the number $\nu$ of

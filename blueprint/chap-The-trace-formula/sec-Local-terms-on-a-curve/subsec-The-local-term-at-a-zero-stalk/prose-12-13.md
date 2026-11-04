@@ -2,7 +2,7 @@
 id = "prose-12-13"
 kind = "hidden"
 title = "The local term at a zero stalk (1)"
-order = 975
+order = 981
 +++
 In the setting of Lemma [lemma-local-term-restriction-map] we compute on the
 classical étale models. This is legitimate because the classical comparison

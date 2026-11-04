@@ -2,7 +2,7 @@
 id = "lemma-checking-isomorphisms-constructible-complexes"
 kind = "lemma"
 title = "Checking isomorphisms on constructible complexes"
-order = 500
+order = 505
 lean = ["CategoryTheory.NatTrans.isIso_app_of_localizingClosure"]
 +++
 Let $\Lambda$ be admissible, let $F_1,F_2:\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$ be exact functors

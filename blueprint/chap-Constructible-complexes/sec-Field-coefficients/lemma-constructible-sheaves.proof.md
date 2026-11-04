@@ -5,9 +5,9 @@ order = 270
 uses = ["proposition-pro-etale-coverings", "proposition-ctf-equals-bc"]
 +++
 Part (1) is the substantial one. All three closure properties are local on a common
-stratification, so it suffices to treat lisse sheaves on a single stratum.
-There the only difficulty is the kernel of a morphism. Parts (2) and
-(3) are formal.
+stratification, so it suffices to treat lisse sheaves on a single stratum,
+and there the only difficulty is the kernel of a morphism. Parts (2) and
+(3), by contrast, are formal.
 
 (1) Given finitely many constructible sheaves, we refine their
 stratifications to a common one. Then all three closure properties can
@@ -25,8 +25,8 @@ functions to $E$, and a priori its kernel need not be locally free. Once
 we choose lattices, however, the morphism becomes a constant matrix on
 a suitable pro-étale cover, because its reductions are maps of finite
 locally constant sheaves. The kernel and cokernel of a constant matrix
-over $E$ are constant of finite rank. Being lisse is a local
-property for the pro-étale topology, so this suffices.
+over $E$ are constant of finite rank, and since being lisse is a local
+property for the pro-étale topology, this suffices.
 
 First let $\Lambda=E$ and let $f:L\to L'$ be a morphism of lisse
 sheaves on $S$. By Lemma [lemma-lattices-lisse-e-sheaves] we may replace $S$
@@ -39,12 +39,12 @@ $N$ for some $m\ge0$.
 The reductions $M_n=M/\pi_E^nM$ and $N_n=N/\pi_E^nN$ are finite locally
 constant étale sheaves, and $M=\varprojlim M_n$, $N=\varprojlim N_n$ by
 Lemma [lemma-comparison-completed-coefficients], checked where $M$ and $N$ are
-free. Fix a geometric point $\bar v$ of $V$. The completed fibres
+free. Fix a geometric point $\bar v$ of $V$. Then the completed fibres
 $M_{\bar v}=\varprojlim(M_n)_{\bar v}$ and
 $N_{\bar v}=\varprojlim(N_n)_{\bar v}$ are finite free
 $\mathcal O_E$-modules with continuous $\pi_1(V,\bar v)$-actions, and
 the reductions of $h$ give an equivariant map $h_{\bar v}$ between them.
-Each $M_n$ and $N_n$ becomes constant on a connected finite étale
+To make $h$ constant, note that each $M_n$ and $N_n$ becomes constant on a connected finite étale
 cover of the connected scheme $V$, and we may choose these covers to form
 a tower. Their inverse limit $V'\to V$ is a connected pro-étale
 covering, so maps between constant sheaves on $V'$ are constant.
@@ -63,14 +63,14 @@ kernel and cokernel of a morphism of constructible sheaves on $X$ are
 constructible.
 
 (2) We choose the sites in a fixed universe. Up to isomorphism, a
-constructible sheaf is determined by a finite stratification and, on
-each stratum, descent data of finite rank on a covering. These data form a
+constructible sheaf is then determined by a finite stratification and, on
+each stratum, descent data of finite rank on a covering, and these data form a
 set.
 
 (3) By Noetherian induction we refine the stratification of $F$ so that
 there is an open stratum $j:U\hookrightarrow X$ with closed complement
 $i:Z\hookrightarrow X$ that is again a union of strata. The exact sequence
-$0\to j_!j^*F\to F\to i_*i^*F\to0$ separates the stratum $U$ from the rest.
-Here $j^*F$ is lisse. Applying the same step to $i^*F$ on $Z$ and iterating,
+$0\to j_!j^*F\to F\to i_*i^*F\to0$ separates the stratum $U$ from the rest,
+and here $j^*F$ is lisse. Applying the same step to $i^*F$ on $Z$ and iterating,
 we obtain a finite filtration of $F$ whose subquotients are $a_!(F|_S)$ for
 the strata $a:S\hookrightarrow X$, and each $F|_S$ is lisse.

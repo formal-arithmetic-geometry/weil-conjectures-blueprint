@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-localizing-categories--1"
 kind = "proposition"
 title = "Proper base change on the localizing categories (1)"
 name_showing = false
-order = 503001
+order = 508001
 aliases = ["bp-r153-1"]
 +++
 Let $\Lambda$ be admissible. Consider a cartesian square

@@ -2,7 +2,7 @@
 id = "proposition-ind-constructible-sheaves"
 kind = "proposition"
 title = "Ind-constructible sheaves"
-order = 448
+order = 453
 lean = ["AlgebraicGeometry.ProEtale.indHeart_fullFaithfulness", "AlgebraicGeometry.ProEtale.IsIndConstructibleHeart", "AlgebraicGeometry.ProEtale.CondensedRing.isIndConstructibleHeart_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIndConstructibleHeart_padicAlgClRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

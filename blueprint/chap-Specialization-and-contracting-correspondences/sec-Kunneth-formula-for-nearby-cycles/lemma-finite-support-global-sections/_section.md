@@ -2,7 +2,7 @@
 id = "lemma-finite-support-global-sections"
 kind = "lemma"
 title = "Complexes with finite support"
-order = 1642
+order = 1648
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isZero_of_isZero_upperStar_finsetComplOpens"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

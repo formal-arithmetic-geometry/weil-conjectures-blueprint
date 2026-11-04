@@ -8,10 +8,10 @@ The étale topos of $\Omega$ is the topos of sets, whereas by the
 proposition its pro-étale topos is the topos of condensed sets. The final
 object of $*_{\mathrm{pro}\acute{e}t}$ is weakly contractible, so taking global sections is
 exact. However, a condensed sheaf is not determined by its global sections.
-For classical sheaves geometric stalks still suffice. A general sheaf of
-modules on the pro-étale site, by contrast, has to be evaluated on all
+For classical sheaves geometric stalks still suffice, whereas a general sheaf of
+modules on the pro-étale site has to be evaluated on all
 weakly contractible affines
-(Corollary [corollary-evaluation-weakly-contractible-objects]). The
+(Corollary [corollary-evaluation-weakly-contractible-objects]). For example, the
 completed coefficient sheaf $\mathbf Z_{\ell,X}$ of
 Example [example-coefficient-sheaf-outside-classical-part] is of this
 general kind: its sections on a profinite set $S$ are all continuous
@@ -19,16 +19,16 @@ functions $S\to\mathbf Z_\ell$.
 
 Fix an algebraic closure $\overline{\mathbf Q}_\ell$ of $\mathbf Q_\ell$. Throughout, $E$ denotes a
 finite extension of $\mathbf Q_\ell$ inside $\overline{\mathbf Q}_\ell$, with ring of integers
-$\mathcal O_E$ and uniformizer $\pi_E$. The $\ell$-adic topologies define
-condensed rings $\underline{\mathcal O_E}$ and $\underline E$. For
-$\overline{\mathbf Q}_\ell$ the topology causes a problem. Classically a $\overline{\mathbf Q}_\ell$-sheaf is an
-$E$-sheaf for some finite $E$ with scalars extended. All arguments with
-lattices and reduction modulo $\pi_E$ take place over that $E$. They
-cannot be made over $\overline{\mathbf Q}_\ell$ itself, since $\overline{\mathbf Q}_\ell$ is not complete and its
-valuation ring is not a discrete valuation ring. The sheaf of all
-continuous maps to $\overline{\mathbf Q}_\ell$, however, has sections that are defined over no
-finite $E$ (see below). To keep the reduction to a finite $E$ available,
-we take instead the filtered colimit of the finite coefficient fields.
+$\mathcal O_E$ and uniformizer $\pi_E$. For $\mathcal O_E$ and $E$ the $\ell$-adic topologies define condensed rings
+$\underline{\mathcal O_E}$ and $\underline E$. For $\overline{\mathbf Q}_\ell$, however, the
+topology causes a problem. To see why, recall that classically a $\overline{\mathbf Q}_\ell$-sheaf is an $E$-sheaf for
+some finite $E$ with scalars extended, and all arguments with lattices and
+reduction modulo $\pi_E$ take place over that $E$. They cannot be made over
+$\overline{\mathbf Q}_\ell$ itself, because $\overline{\mathbf Q}_\ell$ is not complete and its valuation ring is not
+a discrete valuation ring. But the sheaf of all continuous maps to $\overline{\mathbf Q}_\ell$
+has sections that are defined over no finite $E$ (see below), so it would
+lose this reduction. To keep it available, we take instead the filtered
+colimit over the finite coefficient fields.
 Using the valuation topology on $\overline{\mathbf Q}_\ell$, we put
 
 $$

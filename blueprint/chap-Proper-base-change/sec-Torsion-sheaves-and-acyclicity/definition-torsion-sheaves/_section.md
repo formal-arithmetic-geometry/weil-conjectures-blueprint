@@ -2,7 +2,7 @@
 id = "definition-torsion-sheaves"
 kind = "definition"
 title = "Torsion sheaves"
-order = 339
+order = 340
 lean = ["AlgebraicGeometry.Scheme.IsTorsionAbelianSheaf", "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf", "AlgebraicGeometry.Scheme.IsTorsionSheaf", "AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations"]
 +++
 A sheaf $F$ of abelian groups, or of $\Lambda$-modules, is

@@ -2,7 +2,7 @@
 id = "prose-05-30"
 kind = "hidden"
 title = "Construction of $Rf_!$ (4)"
-order = 506
+order = 511
 +++
 The comparisons between compactifications below are the proper direct
 images of the unique maps out of $j_!K$ that restrict to the identity on

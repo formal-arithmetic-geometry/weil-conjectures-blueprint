@@ -19,6 +19,6 @@ the truncation triangle $\tau_{<i}K\to K\to\mathcal H^i(K)[-i]\to$
 exhibits $K$ as the cone of a map
 $\mathcal H^i(K)[-i-1]\to\tau_{<i}K$, and $\tau_{<i}K$ has fewer nonzero
 cohomology sheaves. This reduces
-the claim to a single shifted constructible sheaf. The filtration of this
-sheaf from Lemma [lemma-constructible-sheaves](3) yields finitely many short
+the claim to a single shifted constructible sheaf, and for it the filtration
+from Lemma [lemma-constructible-sheaves](3) yields finitely many short
 exact sequences, that is, distinguished triangles, with terms $a_!L$.

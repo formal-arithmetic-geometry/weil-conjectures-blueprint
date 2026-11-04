@@ -2,7 +2,7 @@
 id = "proposition-frobenius-local-term-curve"
 kind = "proposition"
 title = "The Frobenius local term on a curve"
-order = 987
+order = 993
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_trace_of_smooth"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-correspondence", "definition-frobenius-correspondences-their-operators"]
 +++

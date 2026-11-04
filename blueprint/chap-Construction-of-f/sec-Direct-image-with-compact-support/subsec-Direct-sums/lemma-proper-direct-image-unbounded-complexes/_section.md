@@ -2,7 +2,7 @@
 id = "lemma-proper-direct-image-unbounded-complexes"
 kind = "lemma"
 title = "Proper direct image of unbounded complexes"
-order = 482
+order = 487
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.ProperLowerStarHeartHypotheses.preservesColimitsOfShape"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

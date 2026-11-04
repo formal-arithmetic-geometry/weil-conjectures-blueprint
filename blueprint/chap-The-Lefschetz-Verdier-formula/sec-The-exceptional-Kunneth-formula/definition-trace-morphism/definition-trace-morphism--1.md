@@ -3,7 +3,7 @@ id = "definition-trace-morphism--1"
 kind = "definition"
 title = "Trace morphism (1)"
 name_showing = false
-order = 907001
+order = 913001
 aliases = ["bp-r276-1"]
 +++
 In the setting of Lemma [lemma-external-duality-trace-morphism], let

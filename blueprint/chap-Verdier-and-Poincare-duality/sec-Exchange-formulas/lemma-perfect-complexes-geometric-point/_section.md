@@ -2,7 +2,7 @@
 id = "lemma-perfect-complexes-geometric-point"
 kind = "lemma"
 title = "Perfect complexes at the geometric point"
-order = 818
+order = 824
 lean = ["DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "DerivedCategory.IsPerfect.isIso_toIhomIhomUnit", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_geometricStalk"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-compactification-refinement"]
 +++

@@ -2,36 +2,27 @@
 id = "prose-06-02"
 kind = "hidden"
 title = "Conventions (1)"
-order = 531
+order = 536
 +++
-In this subsection and the next four, until Section [sec-Finite-coefficients-2],
-$\Lambda$ is a finite commutative $\ell$-primary ring. The statements below
-concern the pro-étale site, but the proofs calculate on the étale site.
-The results of these calculations lie in the following category. Let
+Until Section [sec-Finite-coefficients-2] the coefficient ring is a finite
+commutative $\ell$-primary ring, which we denote by $A$. With such coefficients nothing is lost by computing on the étale site. For $X$ of
+finite type over $k$, the comparison functor
 
 $$
-D_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)\subset D(X_{\mathrm{pro}\acute{e}t},\Lambda)
+\nu_X^*:D(X_{\acute{e}t},A)\longrightarrow D(X_{\mathrm{pro}\acute{e}t},A)
 $$
 
-be the essential image of $\nu_X^*:D(X_{\acute{e}t},\Lambda)\to
-D(X_{\mathrm{pro}\acute{e}t},\Lambda)$. Its bounded below part is the category
-$D^+_{\mathrm{class}}$ of Corollary [corollary-bounded-below-classical-complexes]. For $X$
-of finite type over $k$, this category is identified with
-$D(X_{\acute{e}t},\Lambda)$ by
-Proposition [proposition-unbounded-comparison-finite-coefficients]. By
-Proposition [proposition-comparison-etale-derived-category], it is also
-identified with the localizing category $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ on which
-$f^!$ was constructed. For finite coefficients, the objects of
-$\Dbc(X,\Lambda)$ are classical by
-Theorem [theorem-comparison-constructible-sheaves].
+is fully faithful
+(Proposition [proposition-unbounded-comparison-finite-coefficients]),
+and it identifies $D(X_{\acute{e}t},A)$ with the localizing category
+$\Loc(D^b_{\mathrm{ctf}}(X,A))$ on which $f^!$ was constructed
+(Proposition [proposition-comparison-etale-derived-category]). It also
+identifies the constructible complexes on the two sites
+(Theorem [theorem-comparison-constructible-sheaves]). In the following
+subsections we therefore work in $D(X_{\acute{e}t},A)$, and every result is
+transported to the pro-étale site by $\nu_X^*$.
 
-Except in Lemmas [lemma-cycle-class-cartier-divisor], [lemma-cohomology-projective-line-trace]
-and [lemma-coordinate-projections], which allow more general bases as stated
-there, all schemes and base changes are of finite type over $k$.
-
-Each proof below calculates a canonical map on the étale site and
-transports the result to the pro-étale site by $\nu^*$. This works
-because $\nu^*$ identifies all the operations we use with their étale
+This transport is harmless because $\nu^*$ identifies all the operations we use with their étale
 counterparts, compatibly with units and counits
 (Lemma [lemma-comparison-direct-images-compatibilities]). These
 operations are the cohomology
@@ -44,28 +35,28 @@ triangles (Section [sec-Direct-images]). Moreover, by
 Corollary [corollary-finite-tor-amplitude-under-comparison], finite Tor
 amplitude can be checked on the étale site.
 
-Let $f:X\to S$ be a separated morphism of finite type. The functor
-$Rf_!:D_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)\to
-D_{\mathrm{class}}(S_{\mathrm{pro}\acute{e}t},\Lambda)$ and its right adjoint $f^!$ are
-those of Theorem [theorem-existence-exceptional-inverse-image] on
-$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$. Transported through the comparison with the
-étale site, their adjunction is the étale one. Accordingly, in a
-statement, $g^*$, $Rf_*$, $Rf_!$, $f^!$ and $\otimes^{\mathbf L}$ denote the
-functors between the categories $D_{\mathrm{class}}(-_{\mathrm{pro}\acute{e}t},\Lambda)$
-(or their bounded below parts). In a proof that calculates on the
-étale site, they denote the corresponding functors between the categories
-$D(-_{\acute{e}t},\Lambda)$.
+We write $\Dbc(X,A)$ also for the bounded constructible objects of
+$D(X_{\acute{e}t},A)$, which correspond to those of the pro-étale category.
+For a separated morphism of finite type $f:X\to S$, the
+functor $Rf_!$ and its right adjoint $f^!$ of
+Theorem [theorem-existence-exceptional-inverse-image] correspond to
+the functors $Rf_!$ and $f^!$ between $D(X_{\acute{e}t},A)$ and $D(S_{\acute{e}t},A)$,
+and the two adjunctions correspond. Accordingly, from now on $g^*$, $Rf_*$, $Rf_!$, $f^!$ and $\otimes^{\mathbf L}$ denote the functors on the étale derived
+categories.
 
-The point of the following is that the classical composition and base
-change compatibilities cited below apply to the maps constructed here. The
+Below we apply
+Proposition [proposition-composition-base-change-rf-shriek], stated on
+$\Loc(D^b_{\mathrm{ctf}}(-,A))$, to the étale functors. This is legitimate because the
 comparison identifies the composition maps of
 Proposition [proposition-composition-base-change-rf-shriek] on the two
-sites. Indeed, the refinement maps (5.7) and the
+sites: the refinement maps (5.7) and the
 open–proper interchange (5.9) are
-characterized by their restriction to the open. The comparison also
-preserves the counits defining base change and the inverse counits defining
+characterized by their restriction to the open. The comparison also preserves the counits defining base change and the inverse counits defining
 forgetting supports
-(Proposition [proposition-forgetting-supports-composition]). Taking right
-adjoints, we see that it identifies the composition maps for $f^!$ as well.
+(Proposition [proposition-forgetting-supports-composition]). Taking right adjoints, we see that it identifies the composition maps for $f^!$ as well.
+
+Except in Lemmas [lemma-cycle-class-cartier-divisor], [lemma-cohomology-projective-line-trace]
+and [lemma-coordinate-projections], which allow more general bases as stated
+there, all schemes and base changes are of finite type over $k$.
 
 We use three classical theorems about the étale site.

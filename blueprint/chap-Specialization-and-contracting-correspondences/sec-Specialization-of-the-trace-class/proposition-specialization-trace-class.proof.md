@@ -1,15 +1,15 @@
 +++
 kind = "proof"
 of = "proposition-specialization-trace-class"
-order = 1685
+order = 1691
 +++
 We compare the trace morphisms on the two fibres and then evaluate
 them on the sections of
 Lemma [lemma-section-specialized-correspondence]. By
 Definition [definition-trace-morphism], the trace morphism is
 $t_{c,K}=\zeta\,c^!e_K$. The second equality of
-(E.19), together with
-(E.12) and with
+(E.18), together with
+(E.11) and with
 (E.9) for $d$, gives
 
 $$

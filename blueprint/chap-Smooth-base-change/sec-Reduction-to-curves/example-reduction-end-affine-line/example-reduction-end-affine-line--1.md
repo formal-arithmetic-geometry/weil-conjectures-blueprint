@@ -3,7 +3,7 @@ id = "example-reduction-end-affine-line--1"
 kind = "example"
 title = "Where the reduction ends (1)"
 name_showing = false
-order = 678001
+order = 684001
 aliases = ["bp-r206-1"]
 +++
 The square of the lemma is itself an instance of smooth base change, and

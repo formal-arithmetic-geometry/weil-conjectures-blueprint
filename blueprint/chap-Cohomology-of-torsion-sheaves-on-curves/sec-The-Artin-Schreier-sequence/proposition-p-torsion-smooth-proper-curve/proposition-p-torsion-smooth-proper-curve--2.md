@@ -3,7 +3,7 @@ id = "proposition-p-torsion-smooth-proper-curve--2"
 kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$ (2)"
 name_showing = false
-order = 1578002
+order = 1584002
 aliases = ["bp-r494-2"]
 +++
 $$

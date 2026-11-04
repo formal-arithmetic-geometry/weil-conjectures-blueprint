@@ -3,7 +3,7 @@ id = "lemma-internal-adjunction-two-exchange-formulas--1"
 kind = "lemma"
 title = "Internal adjunction and two exchange formulas (1)"
 name_showing = false
-order = 823001
+order = 829001
 aliases = ["bp-r248-1"]
 +++
 Let $f:X\to Y$ be a morphism, $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and

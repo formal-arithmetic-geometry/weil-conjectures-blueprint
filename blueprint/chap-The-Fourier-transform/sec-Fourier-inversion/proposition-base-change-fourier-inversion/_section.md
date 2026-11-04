@@ -2,7 +2,7 @@
 id = "proposition-base-change-fourier-inversion"
 kind = "proposition"
 title = "Base change and stalks"
-order = 1223
+order = 1229
 lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar", "AlgebraicGeometry.nonempty_iso_tensorLisse_upperStar_comp_fourierTransform", "AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar_rationalPointHom", "AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_rationalPoint"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement"]
 +++

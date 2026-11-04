@@ -2,7 +2,7 @@
 id = "theorem-rank-one-sheaves-have-finite"
 kind = "theorem"
 title = "Rank-one sheaves have finite geometric monodromy"
-order = 1098
+order = 1104
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image", "AlgebraicGeometry.WeilGroup.finite_range_of_continuous"]
 uses = ["definition-weil-representation"]
 +++

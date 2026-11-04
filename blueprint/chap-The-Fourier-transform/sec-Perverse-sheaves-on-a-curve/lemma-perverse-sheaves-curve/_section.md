@@ -2,7 +2,7 @@
 id = "lemma-perverse-sheaves-curve"
 kind = "lemma"
 title = "Perverse sheaves on a curve"
-order = 1243
+order = 1249
 lean = ["AlgebraicGeometry.WeilComplex.isCurvePerverseLower_iff_forall_hom_eq_zero", "AlgebraicGeometry.WeilComplex.isCurvePerverse_toComplex_obj", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isCurvePerverse_middleExtension", "AlgebraicGeometry.WeilComplex.isCurvePerverse_of_mono"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++

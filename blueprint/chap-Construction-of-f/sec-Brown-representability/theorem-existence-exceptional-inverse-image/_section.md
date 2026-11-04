@@ -2,7 +2,7 @@
 id = "theorem-existence-exceptional-inverse-image"
 kind = "theorem"
 title = "Existence of the exceptional inverse image"
-order = 521
+order = 526
 lean = ["AlgebraicGeometry.ProEtale.exists_rightAdjoint_rightDerivedLowerShriekLocalizing", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekLocalizing", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekLocalizingAdjunction"]
 uses = ["definition-localizing-subcategory", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement"]
 +++

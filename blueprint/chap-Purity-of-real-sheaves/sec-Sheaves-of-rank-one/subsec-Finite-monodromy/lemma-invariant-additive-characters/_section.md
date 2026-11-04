@@ -2,7 +2,7 @@
 id = "lemma-invariant-additive-characters"
 kind = "lemma"
 title = "Invariant additive characters"
-order = 1095
+order = 1101
 lean = ["AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant"]
 +++
 Every continuous additive homomorphism $a:\pi_1(U)\to E$ satisfying

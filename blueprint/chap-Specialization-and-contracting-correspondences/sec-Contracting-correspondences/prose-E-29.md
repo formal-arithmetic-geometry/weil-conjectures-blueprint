@@ -2,7 +2,7 @@
 id = "prose-E-29"
 kind = "hidden"
 title = "Contracting correspondences (4)"
-order = 1699
+order = 1705
 +++
 The proof of the main theorem combines the two lemmas on the
 deformation with Verdier's theorem and with the specialization of trace
@@ -36,7 +36,7 @@ $$
 Rc_{Z,1!}c_{Z,2}^*K_Z
 \simeq i^*Rc_{1!}c_2^*K
 \xrightarrow{i^*\widehat u}K_Z.
-\tag{E.22}
+\tag{E.21}
 $$
 
 Equivalently, $u_Z$ is $i'^*u$ followed by the base change map

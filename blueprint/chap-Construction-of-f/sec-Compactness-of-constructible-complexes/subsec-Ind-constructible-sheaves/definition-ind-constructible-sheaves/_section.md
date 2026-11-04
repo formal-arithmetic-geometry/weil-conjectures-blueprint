@@ -2,7 +2,7 @@
 id = "definition-ind-constructible-sheaves"
 kind = "definition"
 title = "Ind-constructible sheaves"
-order = 447
+order = 452
 lean = ["AlgebraicGeometry.ProEtale.IsIndConstructibleModuleObject"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

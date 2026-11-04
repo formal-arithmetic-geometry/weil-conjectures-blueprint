@@ -2,7 +2,7 @@
 id = "theorem-compactness-rational-coefficients"
 kind = "theorem"
 title = "Compactness with rational coefficients"
-order = 461
+order = 466
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_padicAlgClRingObj"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-localizing-subcategory"]
 +++

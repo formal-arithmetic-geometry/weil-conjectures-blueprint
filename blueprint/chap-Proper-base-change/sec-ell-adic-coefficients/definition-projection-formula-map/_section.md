@@ -2,7 +2,7 @@
 id = "definition-projection-formula-map"
 kind = "definition"
 title = "Projection formula map"
-order = 411
+order = 416
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.projectionMap"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++

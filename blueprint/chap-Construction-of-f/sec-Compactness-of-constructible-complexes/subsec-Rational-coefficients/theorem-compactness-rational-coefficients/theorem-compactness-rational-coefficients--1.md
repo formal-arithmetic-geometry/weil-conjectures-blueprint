@@ -3,7 +3,7 @@ id = "theorem-compactness-rational-coefficients--1"
 kind = "theorem"
 title = "Compactness with rational coefficients (1)"
 name_showing = false
-order = 461001
+order = 466001
 aliases = ["bp-r142-1"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, every object of $\Dbc(X,\Lambda)$ is compact in $\Loc(\Dbc(X,\Lambda))$.

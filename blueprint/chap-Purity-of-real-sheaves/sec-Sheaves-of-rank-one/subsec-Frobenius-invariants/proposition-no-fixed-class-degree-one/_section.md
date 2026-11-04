@@ -2,7 +2,7 @@
 id = "proposition-no-fixed-class-degree-one"
 kind = "proposition"
 title = "No fixed class in degree one"
-order = 1091
+order = 1097
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_section_of_isIsomorphic_mapIso"]
 +++
 For a smooth geometrically connected curve $U_0/k_0$, geometric

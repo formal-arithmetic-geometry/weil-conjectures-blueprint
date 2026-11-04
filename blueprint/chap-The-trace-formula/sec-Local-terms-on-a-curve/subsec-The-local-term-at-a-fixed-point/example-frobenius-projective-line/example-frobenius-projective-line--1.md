@@ -3,7 +3,7 @@ id = "example-frobenius-projective-line--1"
 kind = "example"
 title = "Frobenius on the projective line (1)"
 name_showing = false
-order = 990001
+order = 996001
 aliases = ["bp-r304-1"]
 +++
 Let $X=\mathbf P^1_k$, $K=A_X$, and let $\psi$ be the constant Frobenius

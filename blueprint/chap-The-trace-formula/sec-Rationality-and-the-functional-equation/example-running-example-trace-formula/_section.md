@@ -2,7 +2,7 @@
 id = "example-running-example-trace-formula"
 kind = "example"
 title = "The running example: the trace formula"
-order = 1036
+order = 1042
 uses = ["example-running-example-duality"]
 +++
 For the elliptic curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$,

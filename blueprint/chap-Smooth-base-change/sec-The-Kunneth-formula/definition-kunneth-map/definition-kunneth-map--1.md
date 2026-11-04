@@ -3,7 +3,7 @@ id = "definition-kunneth-map--1"
 kind = "definition"
 title = "Künneth map (1)"
 name_showing = false
-order = 703001
+order = 709001
 aliases = ["bp-r213-1"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of

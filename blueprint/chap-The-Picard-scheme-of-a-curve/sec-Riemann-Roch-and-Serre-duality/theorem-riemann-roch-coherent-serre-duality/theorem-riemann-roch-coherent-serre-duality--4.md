@@ -3,7 +3,7 @@ id = "theorem-riemann-roch-coherent-serre-duality--4"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality (4)"
 name_showing = false
-order = 1519004
+order = 1525004
 aliases = ["bp-r475-4"]
 +++
 In particular, if

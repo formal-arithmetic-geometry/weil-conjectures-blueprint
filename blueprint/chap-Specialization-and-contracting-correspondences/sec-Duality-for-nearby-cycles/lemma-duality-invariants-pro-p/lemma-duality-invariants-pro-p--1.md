@@ -3,7 +3,7 @@ id = "lemma-duality-invariants-pro-p--1"
 kind = "lemma"
 title = "Duality and invariants under $P$ (1)"
 name_showing = false
-order = 1670001
+order = 1676001
 aliases = ["bp-r521-1"]
 +++
 Let $Y$ be a scheme of finite type over a separably closed field, and
@@ -12,7 +12,7 @@ of $P$. There is a natural isomorphism
 
 $$
 (\mathbb DL)^P\xrightarrow{\sim}\mathbb D(L^P),
-\tag{E.16}
+\tag{E.15}
 $$
 
 under which the evaluation pairing of $L^P$ is the restriction of the

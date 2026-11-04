@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-reduction-unipotent-local-system"
-order = 1605
+order = 1611
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 The filtration comes from the representation theory of

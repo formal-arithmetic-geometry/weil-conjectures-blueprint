@@ -3,7 +3,7 @@ id = "lemma-external-duality-trace-morphism--1"
 kind = "lemma"
 title = "External duality (1)"
 name_showing = false
-order = 904001
+order = 910001
 aliases = ["bp-r275-1"]
 +++
 Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $p_1,p_2:X\times X\to X$ be the

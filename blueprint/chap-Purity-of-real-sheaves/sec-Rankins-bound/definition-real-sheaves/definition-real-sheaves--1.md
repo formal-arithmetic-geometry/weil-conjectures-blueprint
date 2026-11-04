@@ -3,7 +3,7 @@ id = "definition-real-sheaves--1"
 kind = "definition"
 title = "Real sheaves (1)"
 name_showing = false
-order = 1147001
+order = 1153001
 aliases = ["bp-r354-1"]
 +++
 A Weil sheaf $\mathcal G$ is $\iota$-real if

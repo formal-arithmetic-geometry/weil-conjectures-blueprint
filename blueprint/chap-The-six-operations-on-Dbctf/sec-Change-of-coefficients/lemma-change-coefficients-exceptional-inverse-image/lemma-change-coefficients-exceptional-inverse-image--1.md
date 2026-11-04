@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients-exceptional-inverse-image--1"
 kind = "lemma"
 title = "Exceptional inverse image: finite ring maps"
-order = 634002
+order = 640002
 aliases = ["bp-r195-1"]
 +++
 Assume $\Lambda=A$, $\Lambda'=B$ for a homomorphism of finite admissible rings. The comparison

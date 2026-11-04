@@ -3,7 +3,7 @@ id = "theorem-proper-pushforward-lefschetz-verdier--1"
 kind = "theorem"
 title = "Proper pushforward and Lefschetz–Verdier (1)"
 name_showing = false
-order = 919001
+order = 925001
 aliases = ["bp-r281-1"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper, and let

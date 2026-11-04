@@ -3,7 +3,7 @@ id = "lemma-finite-cover-projective-space--1"
 kind = "lemma"
 title = "A finite cover of projective space (1)"
 name_showing = false
-order = 387001
+order = 392001
 aliases = ["bp-r119-1"]
 +++
 For every scheme $S$ and every $n\geq1$ there is a finite surjective

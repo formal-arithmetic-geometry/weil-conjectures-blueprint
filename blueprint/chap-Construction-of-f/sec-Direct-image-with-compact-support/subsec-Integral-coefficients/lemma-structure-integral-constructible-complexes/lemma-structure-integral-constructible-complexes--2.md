@@ -3,7 +3,7 @@ id = "lemma-structure-integral-constructible-complexes--2"
 kind = "lemma"
 title = "Structure of integral constructible complexes (2)"
 name_showing = false
-order = 486002
+order = 491002
 aliases = ["bp-r148-2"]
 +++
 For $C\in\Cons(X,\mathcal O_E)$ there is a finite stratification on

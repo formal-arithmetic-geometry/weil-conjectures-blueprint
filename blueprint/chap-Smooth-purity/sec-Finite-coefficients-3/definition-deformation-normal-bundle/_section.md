@@ -2,7 +2,7 @@
 id = "definition-deformation-normal-bundle"
 kind = "definition"
 title = "Deformation to the normal bundle"
-order = 739
+order = 745
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.deformationSpace", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
 uses = ["proposition-comparison-morphism-inverse-image", "definition-compactification-refinement"]
 +++

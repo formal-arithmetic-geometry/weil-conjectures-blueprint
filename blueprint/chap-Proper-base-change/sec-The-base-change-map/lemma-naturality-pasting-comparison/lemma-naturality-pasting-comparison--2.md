@@ -3,7 +3,7 @@ id = "lemma-naturality-pasting-comparison--2"
 kind = "lemma"
 title = "Naturality, pasting and comparison (2)"
 name_showing = false
-order = 323002
+order = 324002
 aliases = ["bp-r097-2"]
 +++
 It is the identity for an identity square, and

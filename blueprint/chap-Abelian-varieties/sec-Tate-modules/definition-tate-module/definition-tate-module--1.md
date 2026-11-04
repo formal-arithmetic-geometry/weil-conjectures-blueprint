@@ -3,7 +3,7 @@ id = "definition-tate-module--1"
 kind = "definition"
 title = "Tate module (1)"
 name_showing = false
-order = 1502001
+order = 1508001
 aliases = ["bp-r470-1"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime

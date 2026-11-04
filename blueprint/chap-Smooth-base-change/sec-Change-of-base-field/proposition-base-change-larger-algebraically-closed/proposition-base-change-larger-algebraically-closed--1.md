@@ -3,7 +3,7 @@ id = "proposition-base-change-larger-algebraically-closed--1"
 kind = "proposition"
 title = "Base change to a larger algebraically closed field (1)"
 name_showing = false
-order = 681001
+order = 687001
 aliases = ["bp-r207-1"]
 +++
 Let $S=\operatorname{Spec}R$ for a normal domain $R$ with algebraically

@@ -2,7 +2,7 @@
 id = "prose-05-20"
 kind = "hidden"
 title = "Direct sums (1)"
-order = 477
+order = 482
 +++
 To apply Brown representability, we need $Rf_!$ to preserve arbitrary
 direct sums. Since $j_!$ is a left adjoint, it does. The question is

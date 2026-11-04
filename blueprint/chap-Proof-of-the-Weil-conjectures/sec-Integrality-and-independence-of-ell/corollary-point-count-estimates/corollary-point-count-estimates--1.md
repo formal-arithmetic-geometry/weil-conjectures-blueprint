@@ -3,7 +3,7 @@ id = "corollary-point-count-estimates--1"
 kind = "corollary"
 title = "Point-count estimates (1)"
 name_showing = false
-order = 1388001
+order = 1394001
 aliases = ["bp-r432-1"]
 +++
 Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected

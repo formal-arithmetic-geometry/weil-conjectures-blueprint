@@ -2,7 +2,7 @@
 id = "lemma-separation-closures"
 kind = "lemma"
 title = "Separation of closures"
-order = 1444
+order = 1450
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform"]
 +++

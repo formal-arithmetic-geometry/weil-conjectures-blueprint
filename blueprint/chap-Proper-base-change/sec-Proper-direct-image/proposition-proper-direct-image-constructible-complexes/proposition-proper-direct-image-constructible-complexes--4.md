@@ -2,7 +2,7 @@
 id = "proposition-proper-direct-image-constructible-complexes--4"
 kind = "proposition"
 title = "Algebraically closed coefficients"
-order = 420008
+order = 425008
 aliases = ["bp-r129-4"]
 +++
 $Rp_{*,\overline{\mathbf Q}_\ell}:D(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)\to D(Y_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$ maps

@@ -3,7 +3,7 @@ id = "lemma-kunneth-formula-compact-supports--1"
 kind = "lemma"
 title = "Künneth formula for compact supports (1)"
 name_showing = false
-order = 1216001
+order = 1222001
 aliases = ["bp-r377-1"]
 +++
 In this situation, let $K,L$ be bounded constructible complexes with

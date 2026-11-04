@@ -3,7 +3,7 @@ id = "lemma-reduced-fractions-integer-coefficients--1"
 kind = "lemma"
 title = "Reduced fractions with integer coefficients (1)"
 name_showing = false
-order = 1373001
+order = 1379001
 aliases = ["bp-r426-1"]
 +++
 If $C(T)\in1+T\mathbf Z[[T]]$ is rational over $\mathbf Q$, then

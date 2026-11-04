@@ -2,7 +2,7 @@
 id = "proposition-multiplication-n"
 kind = "proposition"
 title = "Multiplication by $n$"
-order = 1497
+order = 1503
 lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isIsogeny_npow_id", "AlgebraicGeometry.isogenyDegree_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.flat_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme"]
 uses = ["definition-abelian-variety"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-uniqueness-maps-dense-open"
 kind = "lemma"
 title = "Uniqueness of extensions from a dense open"
-order = 1403
+order = 1409
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated'", "AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated", "AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant"]
 +++
 Let $T$ be an $S$-scheme, let $U\subseteq T$ be a scheme-theoretically

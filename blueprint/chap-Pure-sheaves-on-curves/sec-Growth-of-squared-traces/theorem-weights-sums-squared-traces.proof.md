@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-weights-sums-squared-traces"
-order = 1203
+order = 1209
 uses = ["definition-trace-function", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "proposition-twisting-weight-zero-adding-dual", "lemma-radius-squared-traces", "lemma-bounds-squared-traces", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Lemma [lemma-bounds-squared-traces](1) gives $\nu(\mathcal G)\le w$, so,
@@ -31,17 +31,18 @@ $X_0(k_n)$, which is $S_n(\mathcal G)$. As $\mathcal T$ is pure of weight $2w$,
 Lemma [lemma-degree-zero-top-cohomology] shows that all roots of the denominator have
 absolute value $R=q^{-w-1}$.
 
-The function $L$ has a pole on the circle $|t|=R$. A priori all the eigenvalues
-on $H^2_c$ could cancel against eigenvalues on $H^1_c$. Positivity
-rules this out. By Lemma [lemma-positivity-euler-factors], each
-local Euler factor of $\mathcal T$ has nonnegative Taylor coefficients. So the
+We show that the function $L$ has a pole on the circle $|t|=R$. This is
+not automatic, since a priori all the eigenvalues on $H^2_c$ could
+cancel against eigenvalues on $H^1_c$, but positivity rules this out.
+Indeed, by Lemma [lemma-positivity-euler-factors], each local Euler
+factor of $\mathcal T$ has nonnegative Taylor coefficients, so the
 coefficients of the full product dominate those of any one factor.
-Choose a closed point of the curve. Since $\mathcal G$ has positive rank and
+Now choose a closed point of the curve. Since $\mathcal G$ has positive rank and
 Frobenius is invertible, the Euler factor of $\mathcal T$ at this point is the
 reciprocal of a nonconstant polynomial. It has infinitely many nonzero Taylor
 coefficients, because a polynomial cannot be inverse to a nonconstant
 polynomial. Hence the full Euler product is not a polynomial, and the rational
-function $L$ has a pole. By the bound on the denominator, this pole lies on
+function $L$ has a pole, which by the bound on the denominator lies on
 $|t|=R$.
 
 A pole of $L$ is also a pole of its logarithmic derivative: if
@@ -53,18 +54,18 @@ Lemma [lemma-radius-squared-traces] gives $\nu(\mathcal G)=w$.
 *The general case.* Let $\mathcal G$ be an arbitrary pure sheaf, and
 let $\mathcal G^0=\mathcal G\otimes\mathcal B_b$ and $\mathcal E$ be as in
 Proposition [proposition-twisting-weight-zero-adding-dual]. The sheaf
-$\mathcal G^0$ is pure of weight zero. By
+$\mathcal G^0$ is pure of weight zero, and by
 Lemma [lemma-bounds-squared-traces](3) we have
 $\nu(\mathcal G^0)=\nu(\mathcal G)+\lambda_\iota(b)=\nu(\mathcal G)-w$, so it
 suffices to show that $\nu(\mathcal G^0)=0$. The sheaf
 $\mathcal E=\mathcal G^0\oplus(\mathcal G^0)^\vee$ is nonzero, real
-and pure of weight zero. By the case already treated, $\nu(\mathcal E)=0$.
+and pure of weight zero, so by the case already treated $\nu(\mathcal E)=0$.
 
 This lower bound passes to $\mathcal G^0$, because the trace of
 $\mathcal E$ is twice the real part of that of $\mathcal G^0$. In other words,
 for every $n$ and $x\in X_0(k_n)$ we have
 $\iota t_{\mathcal E,n}(x)=2\operatorname{Re}(\iota t_{\mathcal G^0,n}(x))$.
-Hence $S_n(\mathcal E)\le4S_n(\mathcal G^0)$, and
-$\nu(\mathcal G^0)\ge0$. The opposite inequality comes from
-Lemma [lemma-bounds-squared-traces](1). Hence $\nu(\mathcal G^0)=0$, that is,
+Hence $S_n(\mathcal E)\le4S_n(\mathcal G^0)$, and so
+$\nu(\mathcal G^0)\ge0$. Since the opposite inequality comes from
+Lemma [lemma-bounds-squared-traces](1), we obtain $\nu(\mathcal G^0)=0$, that is,
 $\nu(\mathcal G)=w$.

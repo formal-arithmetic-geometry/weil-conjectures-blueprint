@@ -2,7 +2,7 @@
 id = "lemma-reciprocal-roots-zeta"
 kind = "lemma"
 title = "Reciprocal roots of the zeta function"
-order = 1380
+order = 1386
 lean = ["AlgebraicGeometry.Scheme.weight_separation", "AlgebraicGeometry.Scheme.integral_recovery"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
 +++

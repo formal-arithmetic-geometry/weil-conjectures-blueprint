@@ -2,7 +2,7 @@
 id = "lemma-uniform-ext-bound"
 kind = "lemma"
 title = "Uniform Ext bound"
-order = 441
+order = 446
 lean = ["AlgebraicGeometry.ProEtale.HasUniformConstructibleExtBound", "AlgebraicGeometry.ProEtale.CondensedRing.hasUniformConstructibleExtBound_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.hasUniformConstructibleExtBound_padicAlgClRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++

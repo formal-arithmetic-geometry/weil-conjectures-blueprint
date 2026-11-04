@@ -3,7 +3,7 @@ id = "lemma-cohomology-projective-line-trace--1"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace (1)"
 name_showing = false
-order = 539001
+order = 545001
 aliases = ["bp-r164-1"]
 +++
 Let $S$ be a Noetherian scheme on which $\ell$ is invertible, and let

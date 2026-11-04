@@ -3,7 +3,7 @@ id = "definition-weights"
 kind = "definition"
 title = "Weights, purity and mixedness"
 name_showing = false
-order = 1051
+order = 1057
 lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixed", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

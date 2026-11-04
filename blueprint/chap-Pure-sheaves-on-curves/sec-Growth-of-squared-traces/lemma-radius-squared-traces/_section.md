@@ -2,7 +2,7 @@
 id = "lemma-radius-squared-traces"
 kind = "lemma"
 title = "Radius of convergence"
-order = 1193
+order = 1199
 lean = ["AlgebraicGeometry.WeilSheaf.l2Series", "AlgebraicGeometry.WeilSheaf.lt_l2Weight_iff"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-growth-squared-traces"]
 +++

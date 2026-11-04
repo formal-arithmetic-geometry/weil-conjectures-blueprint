@@ -2,7 +2,7 @@
 id = "lemma-reduction-curve-over-normal-base"
 kind = "lemma"
 title = "Reduction to a curve over a normal base"
-order = 675
+order = 681
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
 uses = ["definition-derived-base-change-map"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-perverse-weil-sheaves--2"
 kind = "lemma"
 title = "Perverse Weil sheaves (2)"
 name_showing = false
-order = 1246002
+order = 1252002
 aliases = ["bp-r387-2"]
 +++
 and the

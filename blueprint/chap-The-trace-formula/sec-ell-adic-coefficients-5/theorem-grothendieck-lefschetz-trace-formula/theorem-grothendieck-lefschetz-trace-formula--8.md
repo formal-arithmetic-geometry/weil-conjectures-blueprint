@@ -2,7 +2,7 @@
 id = "theorem-grothendieck-lefschetz-trace-formula--8"
 kind = "theorem"
 title = "Alternating cohomological trace over a field"
-order = 1011016
+order = 1017016
 aliases = ["bp-r311-8"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, it reads

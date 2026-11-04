@@ -3,7 +3,7 @@ id = "example-affine-line-characteristic-p--1"
 kind = "example"
 title = "The affine line in characteristic $p$ (1)"
 name_showing = false
-order = 1584001
+order = 1590001
 aliases = ["bp-r496-1"]
 +++
 For $U=\mathbf A^1_k$ in characteristic $p$ we get

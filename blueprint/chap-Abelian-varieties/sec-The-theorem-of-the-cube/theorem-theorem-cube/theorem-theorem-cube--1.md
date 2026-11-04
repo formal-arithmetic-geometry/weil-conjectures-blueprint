@@ -3,7 +3,7 @@ id = "theorem-theorem-cube--1"
 kind = "theorem"
 title = "Theorem of the cube (1)"
 name_showing = false
-order = 1480001
+order = 1486001
 aliases = ["bp-r463-1"]
 +++
 Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points

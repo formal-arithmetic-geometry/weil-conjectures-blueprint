@@ -3,7 +3,7 @@ id = "lemma-global-lattice-normal-scheme--1"
 kind = "lemma"
 title = "Global lattices on a normal scheme (1)"
 name_showing = false
-order = 1071001
+order = 1077001
 aliases = ["bp-r331-1"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a

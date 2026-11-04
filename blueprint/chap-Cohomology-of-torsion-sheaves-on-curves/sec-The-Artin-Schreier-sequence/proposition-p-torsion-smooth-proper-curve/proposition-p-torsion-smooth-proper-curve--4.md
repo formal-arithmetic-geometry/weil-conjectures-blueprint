@@ -3,7 +3,7 @@ id = "proposition-p-torsion-smooth-proper-curve--4"
 kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$ (4)"
 name_showing = false
-order = 1578004
+order = 1584004
 aliases = ["bp-r494-4"]
 +++
 The group $H^1(C,\mathbf F_p)$

@@ -2,7 +2,7 @@
 id = "theorem-riemann-roch-coherent-serre-duality"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality"
-order = 1519
+order = 1525
 lean = ["AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add", "AlgebraicGeometry.Scheme.serreDuality", "AlgebraicGeometry.Scheme.degree_relativeDifferentials", "AlgebraicGeometry.Scheme.Modules.finrankH_one_eq_zero_of_degree", "AlgebraicGeometry.Scheme.finrankH_zero_eq"]
 uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++
