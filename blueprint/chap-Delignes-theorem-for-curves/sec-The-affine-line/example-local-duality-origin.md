@@ -3,6 +3,7 @@ id = "example-local-duality-origin"
 kind = "example"
 title = "Local duality at the origin of the line"
 order = 1288
+uses = ["lemma-boundary-stalk", "lemma-local-duality-point-c-u"]
 +++
 Let $j:\mathbf G_m\hookrightarrow\mathbf A^1$ over $k_0$, let $F=\overline{\mathbf Q}_\ell$,
 which is pure of weight $0$, and let $s=0$. Inertia at the origin acts

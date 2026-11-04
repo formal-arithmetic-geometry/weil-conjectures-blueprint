@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reciprocal-roots-zeta"
 order = 1381
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-point-counting-zeta-function", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reduced-fractions-integer-coefficients", "theorem-weil-conjectures-smooth-proper-schemes", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The identity (19.2) holds because both sides
 are reduced fractions for $Z(X_0,T)$ over $\mathbf Q_\ell$. By

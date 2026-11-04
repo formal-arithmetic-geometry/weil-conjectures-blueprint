@@ -3,6 +3,7 @@ id = "theorem-theorem-cube"
 kind = "theorem"
 title = "Theorem of the cube"
 order = 1480
+lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
 +++
 Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points
 $x\in X(k)$ and $y\in Y(k)$, let $Z$ be a connected $k$-scheme of finite

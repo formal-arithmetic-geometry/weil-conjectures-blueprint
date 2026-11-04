@@ -3,6 +3,8 @@ id = "lemma-reduction-curve-over-normal-base"
 kind = "lemma"
 title = "Reduction to a curve over a normal base"
 order = 675
+lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
+uses = ["definition-derived-base-change-map"]
 +++
 Suppose $g:Y'\to Y$ is affine and smooth of relative dimension
 one, $n$ is invertible on $Y$, and $\mathrm{BC}(g,n,q-1)$ holds. If

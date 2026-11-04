@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-comparison-etale-derived-category"
 order = 470
+uses = ["corollary-finite-tor-amplitude-under-comparison", "proposition-unbounded-comparison-finite-coefficients", "proposition-compactness-finite-coefficients"]
 +++
 There are two statements: $\nu_X^*$ identifies the two localizing
 categories, and on the étale side the localizing category is

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-classical-torsion"
 order = 684
+uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "lemma-degree-zero-calculation", "lemma-injectivity-base-change-map-degree", "lemma-reduction-field", "lemma-integral-changes-source-base", "lemma-reduction-curve-over-normal-base"]
 +++
 We argue by induction on $q$. The degree-zero calculation starts the
 induction. By the reductions above, a hypothetical failure in degree $q$

@@ -3,6 +3,7 @@ id = "definition-trace-map-affine-line"
 kind = "definition"
 title = "Trace map of the affine line"
 order = 722
+uses = ["lemma-cohomology-projective-line-trace", "proposition-ell-adic-cycle-class-diagonal"]
 +++
 The *trace map of the affine line* is the composite
 

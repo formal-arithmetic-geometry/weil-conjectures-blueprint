@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-localizing-categories"
 order = 504
+uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-projection-formula-map", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes"]
 +++
 On $D^b_{\mathrm{ctf}}(X,\Lambda)$ the base change map is an isomorphism by
 Proposition [proposition-proper-direct-image-constructible-complexes], so by Lemma [lemma-checking-isomorphisms-constructible-complexes] it suffices

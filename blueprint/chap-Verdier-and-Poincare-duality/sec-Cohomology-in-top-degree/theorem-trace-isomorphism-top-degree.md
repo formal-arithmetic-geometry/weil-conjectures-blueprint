@@ -3,6 +3,8 @@ id = "theorem-trace-isomorphism-top-degree"
 kind = "theorem"
 title = "The trace isomorphism in top degree"
 order = 859
+lean = ["AlgebraicGeometry.Etale.traceIsomorphism", "AlgebraicGeometry.Etale.TateOrientation.bijective_untwistedTraceMap", "AlgebraicGeometry.WeilSheaf.traceIsomorphism_adicConstant", "AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-relative-dualizing-complex", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension
 $d$, with $k$ algebraically closed. For every admissible

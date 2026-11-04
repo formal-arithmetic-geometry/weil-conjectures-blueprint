@@ -3,6 +3,7 @@ id = "lemma-cohomology-near-two-transverse-divisors"
 kind = "lemma"
 title = "Cohomology near two transverse divisors"
 order = 966
+lean = ["AlgebraicGeometry.Etale.transverseBoundary", "AlgebraicGeometry.Scheme.TransverseCorner.transverse_boundary"]
 +++
 Let $X$ be a smooth surface over an algebraically closed field
 of characteristic $p$, or an étale limit with affine transition

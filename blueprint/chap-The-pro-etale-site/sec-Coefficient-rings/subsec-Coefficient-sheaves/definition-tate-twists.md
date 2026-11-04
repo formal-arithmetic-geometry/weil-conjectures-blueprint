@@ -3,6 +3,8 @@ id = "definition-tate-twists"
 kind = "definition"
 title = "Tate twists"
 order = 184
+lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistFunctor", "AlgebraicGeometry.ProEtale.spTwists_locallyFree"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible, and let $\mu_{\ell^n,X}$
 be the sheaf of $\ell^n$th roots of unity on $X_{\mathrm{pro}\acute{e}t}$. Then it is locally isomorphic to

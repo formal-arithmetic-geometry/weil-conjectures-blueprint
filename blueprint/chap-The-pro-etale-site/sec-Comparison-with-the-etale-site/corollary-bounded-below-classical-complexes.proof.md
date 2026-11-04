@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-bounded-below-classical-complexes"
 order = 130
+uses = ["definition-classical-pro-etale-sheaves", "theorem-classical-sheaves-essential-image"]
 +++
 We need the first assertion so that “classical complex” defines a
 triangulated subcategory, and for extensions we use the vanishing of

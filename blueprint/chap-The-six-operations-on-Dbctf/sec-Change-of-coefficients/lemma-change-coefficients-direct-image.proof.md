@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-direct-image"
 order = 630
+uses = ["corollary-continuity-cohomology", "proposition-comparison-etale-derived-category"]
 +++
 The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of
 finite rings we use a projection formula. In the other cases extension of

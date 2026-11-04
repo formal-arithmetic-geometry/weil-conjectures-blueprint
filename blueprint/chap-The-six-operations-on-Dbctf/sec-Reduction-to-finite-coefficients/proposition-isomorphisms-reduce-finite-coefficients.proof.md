@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-isomorphisms-reduce-finite-coefficients"
 order = 648
+uses = ["theorem-bounded-below-cohomology-comparison", "definition-constructible-sheaves"]
 +++
 The three kinds of coefficients are reached from finite ones in three
 different ways: $\mathcal O_E$ by completion, $E$ by inverting $\ell$, and

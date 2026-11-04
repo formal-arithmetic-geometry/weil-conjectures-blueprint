@@ -3,6 +3,7 @@ id = "lemma-coordinate-projections"
 kind = "lemma"
 title = "Coordinate projections"
 order = 566
+lean = ["AlgebraicGeometry.topologicalKrullDim_fiber_genericPoint_add_one_le", "AlgebraicGeometry.exists_isFinite_morphismRestrict_of_range_subset"]
 +++
 Let $S$ be an integral Noetherian affine scheme with function field
 $k(S)$, and let $Y\to S$ be projective. Choose a finite affine open

@@ -3,6 +3,8 @@ id = "proposition-properties-trace"
 kind = "proposition"
 title = "Properties of the trace"
 order = 889
+lean = ["CategoryTheory.MonoidalCategory.trace_add", "CategoryTheory.MonoidalCategory.trace_eq_of_iso", "DerivedCategory.exists_trace_eq_algebraMap_and_trace_extendScalars_eq_algebraMap", "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace", "DerivedCategory.trace_eq_trace_add_trace_of_shortExact", "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_trace_homologyMap"]
+uses = ["definition-categorical-trace"]
 +++
 The trace is $A$-linear in $v$, invariant under conjugacy, and compatible
 with derived scalar extension: for every ring map $A\to B$,

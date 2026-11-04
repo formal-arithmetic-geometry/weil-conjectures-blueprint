@@ -3,6 +3,8 @@ id = "lemma-naturality-pasting-comparison"
 kind = "lemma"
 title = "Naturality, pasting and comparison"
 order = 323
+lean = ["AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 The maps (4.5) form a natural transformation
 $g^*Rf_*\to Rf'_*g'^*$. It is the identity for an identity square, and

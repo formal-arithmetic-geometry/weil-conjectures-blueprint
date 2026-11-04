@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-proper-base-change-classical-pro"
 order = 399
+uses = ["proposition-etale-implications", "theorem-comparison-direct-images", "remark-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "definition-torsion-pbc-property", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "definition-compactification-refinement"]
 +++
 We work on the étale site, where Propositions [proposition-proper-base-change-projective-line]
 and [proposition-proper-base-change-etale-site] apply to the torsion rings

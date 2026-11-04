@@ -3,6 +3,8 @@ id = "definition-real-sheaves"
 kind = "definition"
 title = "Real sheaves"
 order = 1147
+lean = ["AlgebraicGeometry.WeilSheaf.IsReal", "AlgebraicGeometry.WeilGroup.IsReal"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 A Weil sheaf $\mathcal G$ is $\iota$-real if
 $\iota\det(1-T\operatorname{Frob}_x\mid\mathcal G_{\bar x})$ has real coefficients for

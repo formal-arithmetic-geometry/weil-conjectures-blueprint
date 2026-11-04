@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models"
 order = 296
+uses = ["proposition-comparison-morphism-inverse-image"]
 +++
 In (1) and (2) we compare two coefficient sheaves related by a flat map
 that is an isomorphism modulo every $\pi_E^n$, so they have the same

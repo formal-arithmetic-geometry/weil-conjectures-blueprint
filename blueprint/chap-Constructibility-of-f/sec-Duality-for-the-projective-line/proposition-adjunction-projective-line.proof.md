@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-adjunction-projective-line"
 order = 548
+uses = ["proposition-forgetting-supports-composition", "lemma-class-diagonal-projective-line"]
 +++
 The projection formula and proper base change reduce each of the two
 triangle identities to the identity $s_i=1$ of

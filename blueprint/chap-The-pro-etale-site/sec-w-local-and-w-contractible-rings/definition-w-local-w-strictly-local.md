@@ -3,6 +3,7 @@ id = "definition-w-local-w-strictly-local"
 kind = "definition"
 title = "w-local, w-strictly local and w-contractible rings"
 order = 43
+lean = ["ExtremallyDisconnected", "WLocalSpace", "IsWLocalRing", "IsWStrictlyLocalRing", "IsWContractibleRing"]
 +++
 A topological space is *extremally disconnected* if the closure of
 every open subset is open. A spectral space $T$ is *w-local* if its set $T^c$ of closed

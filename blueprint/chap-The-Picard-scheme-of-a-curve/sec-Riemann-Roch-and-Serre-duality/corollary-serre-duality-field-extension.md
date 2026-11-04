@@ -3,6 +3,7 @@ id = "corollary-serre-duality-field-extension"
 kind = "corollary"
 title = "Serre duality and field extension"
 order = 1521
+lean = ["AlgebraicGeometry.Scheme.finrankH_relativeDifferentials_zero_eq_arithmeticGenus", "AlgebraicGeometry.Scheme.arithmeticGenus_pullback"]
 +++
 Let $k'/k$ be a field extension. Under flat base change for coherent
 cohomology and the identification

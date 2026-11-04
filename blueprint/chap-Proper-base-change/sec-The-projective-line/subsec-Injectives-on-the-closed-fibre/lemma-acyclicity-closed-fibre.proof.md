@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-acyclicity-closed-fibre"
 order = 368
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-underived-base-change-map", "definition-torsion-sheaves", "remark-henselian-pairs-facts", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 We prove vanishing on affine charts by Gabber's theorem, deduce the case
 $q\geq2$ by Mayer–Vietoris, and treat $q=1$ by lifting classes to finite

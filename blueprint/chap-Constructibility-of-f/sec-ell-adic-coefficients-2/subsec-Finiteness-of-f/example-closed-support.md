@@ -4,6 +4,7 @@ kind = "example"
 title = "Local cohomology at the origin of the affine line"
 name_showing = false
 order = 604
+uses = ["theorem-smooth-purity-all-admissible-coefficients"]
 +++
 Let $X=\mathbf A^1_k$, $k$ algebraically closed, $Z$ the origin and
 $U=\mathbf G_{m,k}$. Then $Rj_*\Lambda_U$ has $\mathcal H^0=\Lambda_X$ and

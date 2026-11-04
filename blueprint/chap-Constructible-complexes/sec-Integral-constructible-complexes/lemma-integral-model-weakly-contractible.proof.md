@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-integral-model-weakly-contractible"
 order = 242
+uses = ["proposition-milnor-sequence", "lemma-reduction-derived-nakayama", "lemma-images-cohomology-finite-levels"]
 +++
 The isomorphisms at the finite levels are not assumed compatible. We show
 that the Hom groups between the reductions satisfy the Mittag–Leffler

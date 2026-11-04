@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-twisting-weight-zero-adding-dual"
 order = 1189
+uses = ["proposition-weights-under-usual-operations"]
 +++
 A twist to weight zero puts all local eigenvalues on the unit circle,
 where inversion is complex conjugation. Adding the dual therefore makes

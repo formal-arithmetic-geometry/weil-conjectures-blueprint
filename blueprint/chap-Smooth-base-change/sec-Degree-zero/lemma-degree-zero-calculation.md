@@ -3,6 +3,8 @@ id = "lemma-degree-zero-calculation"
 kind = "lemma"
 title = "The degree-zero calculation"
 order = 660
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat", "AlgebraicGeometry.Etale.baseChangeProperty_zero"]
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite
 presentation with geometrically reduced fibres, and that $f$ is qcqs.

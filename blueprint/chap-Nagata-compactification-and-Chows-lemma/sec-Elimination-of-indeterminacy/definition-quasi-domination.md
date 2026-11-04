@@ -3,6 +3,7 @@ id = "definition-quasi-domination"
 kind = "definition"
 title = "Quasi-domination"
 order = 1427
+lean = ["AlgebraicGeometry.QuasiDomination"]
 +++
 Let $X$ and $Y$ be $S$-schemes, with $Y\to S$ separated. A
 *quasi-domination of $X$ over $Y$* consists of a dense open

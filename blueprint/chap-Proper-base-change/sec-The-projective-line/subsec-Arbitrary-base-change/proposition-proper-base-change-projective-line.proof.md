@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-projective-line"
 order = 376
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "remark-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "lemma-extension-separably-closed-ground-field", "proposition-cohomology-p-1-over-henselian", "definition-compactification-refinement"]
 +++
 For a torsion sheaf we compare the two sides on geometric stalks. Both
 stalks are the cohomology of a projective line over a separably closed

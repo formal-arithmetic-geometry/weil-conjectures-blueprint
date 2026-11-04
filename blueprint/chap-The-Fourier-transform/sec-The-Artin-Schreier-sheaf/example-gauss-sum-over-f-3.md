@@ -3,6 +3,7 @@ id = "example-gauss-sum-over-f-3"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$"
 order = 1214
+uses = ["lemma-extreme-degrees-affine-curve"]
 +++
 Take $q=3$, a primitive cube root of unity $\omega\in\overline{\mathbf Q}_\ell$ and
 $\psi(x)=\omega^x$ on $\mathbf F_3$. Pull $\mathcal L_\psi$ back along

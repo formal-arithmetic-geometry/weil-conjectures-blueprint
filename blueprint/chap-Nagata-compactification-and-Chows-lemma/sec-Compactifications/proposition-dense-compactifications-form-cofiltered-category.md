@@ -3,6 +3,8 @@ id = "proposition-dense-compactifications-form-cofiltered-category"
 kind = "proposition"
 title = "Dense compactifications form a cofiltered category"
 order = 1410
+lean = ["AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement", "AlgebraicGeometry.Compactification.refinement_morphisms", "AlgebraicGeometry.Compactification.DenseCategory.isCofiltered_and_isThin"]
+uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be quasi-compact and quasi-separated, and let $f:X\to S$ be separated
 and of finite type. Any finite family of dense compactifications of $f$ has a

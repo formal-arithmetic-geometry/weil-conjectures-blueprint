@@ -3,6 +3,7 @@ id = "lemma-weight-bound-constant-extension"
 kind = "lemma"
 title = "Weight bounds and finite constant extensions"
 order = 1297
+lean = ["FrobeniusModule.HasWeightsAtMost.of_powFrobenius"]
 +++
 Let $X_0$ be a separated scheme of finite type over $k_0$, let $F$ be a
 constructible Weil sheaf on $X_0$, let $k_m\supset k_0$ be the
