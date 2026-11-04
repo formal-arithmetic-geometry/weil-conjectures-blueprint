@@ -15,7 +15,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "13e572f7f80070981ab247e4c09beba2a36e779a",
+   "rev": "0992cea42b26337a6d2f16b9a43cf2a9851b1af7",
    "name": "blueprint",
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
