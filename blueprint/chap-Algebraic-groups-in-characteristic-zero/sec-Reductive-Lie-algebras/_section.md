@@ -3,4 +3,5 @@ id = "sec-Reductive-Lie-algebras"
 kind = "section"
 title = "Reductive Lie algebras"
 order = 1728
+uses = ["sec-Cartans-criterion"]
 +++
