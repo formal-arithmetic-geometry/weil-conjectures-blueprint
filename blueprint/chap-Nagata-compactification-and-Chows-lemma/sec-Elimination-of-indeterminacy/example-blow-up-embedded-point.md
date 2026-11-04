@@ -3,6 +3,7 @@ id = "example-blow-up-embedded-point"
 kind = "example"
 title = "Blowing up removes an embedded point"
 order = 1420
+uses = ["lemma-making-open-schematically-dense"]
 +++
 Let $T=\operatorname{Spec}R$ with $R=k[x,y]/(xy,y^2)$, the line $y=0$
 with an embedded point at the origin, and let $U=D(x)$. On $U$ the

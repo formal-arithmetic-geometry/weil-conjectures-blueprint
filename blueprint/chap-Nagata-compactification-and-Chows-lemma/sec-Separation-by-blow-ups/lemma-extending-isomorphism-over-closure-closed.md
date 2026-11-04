@@ -3,6 +3,8 @@ id = "lemma-extending-isomorphism-over-closure-closed"
 kind = "lemma"
 title = "Extending an isomorphism over the closure of a closed subset"
 order = 1446
+lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
+uses = ["definition-admissible-blow-up", "definition-strict-transform"]
 +++
 Let $q:P\to T$ be a proper morphism of qcqs schemes, let $V\subseteq T$
 be a quasi-compact open, and let $F\subseteq V$ be closed. Suppose that

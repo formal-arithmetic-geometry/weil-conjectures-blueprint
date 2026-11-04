@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-unbounded-comparison-finite-coefficients"
 order = 167
+uses = ["theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "lemma-uniform-bounds-pro-etale-affines", "lemma-truncation-pro-etale-sections"]
 +++
 By the two lemmas, both sides in a fixed degree depend only on a
 bounded-below truncation of $K$, where

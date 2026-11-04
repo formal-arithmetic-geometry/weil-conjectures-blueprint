@@ -3,6 +3,8 @@ id = "proposition-pullback-multiplication-n"
 kind = "proposition"
 title = "Pullback of invertible sheaves by {$[n]$}"
 order = 1494
+lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
+uses = ["definition-abelian-variety"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\mathcal L$ be an
 invertible sheaf on $A$. For every integer $n\geq0$,

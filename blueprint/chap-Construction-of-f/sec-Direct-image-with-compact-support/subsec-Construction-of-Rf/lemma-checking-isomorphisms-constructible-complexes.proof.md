@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-checking-isomorphisms-constructible-complexes"
 order = 501
+uses = ["definition-localizing-subcategory"]
 +++
 The objects $K$ for which $\eta_K$ is an isomorphism are closed under
 shifts and cones by the five lemma, and under direct sums because $F_1$

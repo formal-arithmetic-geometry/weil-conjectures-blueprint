@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-degree-zero"
 order = 334
+uses = ["lemma-sections-geometric-fibre"]
 +++
 We show that both stalks are the sections over the same geometric fibre.
 Choose $\bar y':\operatorname{Spec}\Omega\to Y'$ and use the

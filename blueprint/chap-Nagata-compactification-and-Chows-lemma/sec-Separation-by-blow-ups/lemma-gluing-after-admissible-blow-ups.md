@@ -3,6 +3,8 @@ id = "lemma-gluing-after-admissible-blow-ups"
 kind = "lemma"
 title = "Gluing after admissible blow-ups"
 order = 1449
+lean = ["AlgebraicGeometry.nonempty_commonModification", "AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs"]
+uses = ["definition-admissible-blow-up"]
 +++
 Let $S$ be qcqs, and let $U\subseteq T_i$ ($i=1,2$) be open immersions
 of separated $S$-schemes of finite type, with $U$ quasi-compact.

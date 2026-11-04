@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-universal-homeomorphism-base"
 order = 573
+uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "definition-compactification-refinement"]
 +++
 A finite universal homeomorphism is a homeomorphism of underlying spaces.
 We remove from $S$ the closed image of $S'\setminus U'$. The remaining

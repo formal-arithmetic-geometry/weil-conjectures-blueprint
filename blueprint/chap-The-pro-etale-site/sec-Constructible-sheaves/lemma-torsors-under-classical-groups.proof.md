@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-torsors-under-classical-groups"
 order = 144
+uses = ["theorem-pro-etale-refinements-weakly-etale", "theorem-classical-sheaves-essential-image"]
 +++
 Write the group as $\nu_X^*G_0$. We may work on an affine open of $X$.
 Using Theorem [theorem-pro-etale-refinements-weakly-etale] and finite affine

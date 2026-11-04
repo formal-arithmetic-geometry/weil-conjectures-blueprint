@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-bounding-weights-mixed-sheaf"
 order = 1057
+uses = ["proposition-weights-under-usual-operations"]
 +++
 At every closed point $x$ the eigenvalues of
 $\operatorname{Frob}_x$ on the stalk of a mixed sheaf are those on the

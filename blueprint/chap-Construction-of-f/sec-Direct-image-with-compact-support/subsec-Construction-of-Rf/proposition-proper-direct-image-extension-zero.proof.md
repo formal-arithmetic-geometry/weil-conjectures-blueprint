@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-direct-image-extension-zero"
 order = 498
+uses = ["lemma-stability", "proposition-topos-functoriality", "proposition-comparison-immersions", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "lemma-uniform-bound-proper-direct-image", "lemma-proper-direct-image-unbounded-complexes", "proposition-compactness-proper-direct-image"]
 +++
 For each functor we need two facts: it preserves direct sums, and it
 maps $D^b_{\mathrm{ctf}}$ into $D^b_{\mathrm{ctf}}$. The rest then follows from the definition of

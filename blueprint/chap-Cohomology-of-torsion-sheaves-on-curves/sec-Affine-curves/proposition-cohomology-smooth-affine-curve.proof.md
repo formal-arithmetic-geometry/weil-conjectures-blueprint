@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-cohomology-smooth-affine-curve"
 order = 1574
+uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 By the Kummer sequence, the vanishing above degree one follows from the
 divisibility of $\operatorname{Pic}(U)$ and the vanishing of

@@ -3,6 +3,7 @@ id = "example-locally-constant-functions-w-local"
 kind = "example"
 title = "Locally constant functions"
 order = 48
+uses = ["proposition-pro-etale-site-separably-closed"]
 +++
 Let $k'$ be a separably closed field, let $S=\varprojlim_iS_i$ be a
 profinite set written as a limit of finite sets, and let $R=LC(S,k')$ be

@@ -3,6 +3,7 @@ id = "lemma-base-change-maps-external-duality"
 kind = "lemma"
 title = "Base change maps and external duality"
 order = 1658
+lean = ["CategoryTheory.exceptionalTwisted_of_constant", "CategoryTheory.exceptionalConstant"]
 +++
 Let $X$ be a separated $S$-scheme of finite type with projections
 $p_1,p_2$ of $X\times_SX$, and let $M\in D^b_c(X_\eta,A)$. Then the

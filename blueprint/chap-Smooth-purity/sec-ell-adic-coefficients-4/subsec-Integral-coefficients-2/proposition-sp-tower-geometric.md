@@ -4,6 +4,7 @@ kind = "proposition"
 title = "The adjunction $Rf_!\\dashv f^!$ on constructible towers"
 name_showing = false
 order = 773
+uses = ["lemma-sp-reduction"]
 +++
 There is an adjunction
 

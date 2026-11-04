@@ -3,6 +3,8 @@ id = "lemma-bounds-finite-reductions"
 kind = "lemma"
 title = "Bounds for the finite reductions"
 order = 228
+lean = ["AlgebraicGeometry.ProEtale.integral_finite_levels"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-derived-adic-completeness", "definition-constructible-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $X$ be Noetherian and let $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ be
 derived complete with $K_1\in\Dbc(X,\mathbf F_E)$. Choose $[a,b]$

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-existence-contractible-covers"
 order = 60
+uses = ["lemma-stability", "lemma-extremally-disconnected-covers"]
 +++
 The construction is that of [bhatt-scholze15, Theorem 2.4.9] and
 [Stacks, [0983](https://stacks.math.columbia.edu/tag/0983)]. We first make the local rings strictly henselian, and

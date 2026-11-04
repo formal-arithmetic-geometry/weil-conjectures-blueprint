@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-classical-sheaves-essential-image"
 order = 116
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-affines-form-basis"]
 +++
 A left adjoint is fully faithful exactly when its unit is an isomorphism,
 and the essential image is then the set of objects on which the counit is

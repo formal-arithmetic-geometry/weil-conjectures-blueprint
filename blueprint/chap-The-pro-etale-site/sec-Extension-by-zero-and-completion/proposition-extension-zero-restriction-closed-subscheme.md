@@ -3,6 +3,8 @@ id = "proposition-extension-zero-restriction-closed-subscheme"
 kind = "proposition"
 title = "Extension by zero and restriction to a closed subscheme"
 order = 201
+lean = ["AlgebraicGeometry.ProEtale.RingSheaf.preservesLimitsOfSize_upperStar_of_isCompl", "AlgebraicGeometry.ProEtale.RingSheaf.preservesColimitsOfSize_upperStar", "AlgebraicGeometry.ProEtale.RingSheaf.preservesFiniteColimits_lowerStar_of_isCompl", "AlgebraicGeometry.ProEtale.RingSheaf.fullyFaithfulLowerStar", "AlgebraicGeometry.ProEtale.RingSheaf.preservesFiniteLimits_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.RingSheaf.preservesFiniteColimits_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.RingSheaf.shortExact_openClosedShortComplex", "AlgebraicGeometry.ProEtale.RingSheaf.preservesLimitsOfShape_discrete_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.RingSheaf.isHomotopyLimit_mapCone_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.RingSheaf.isIso_openImmersionLowerShriekBaseChangeHom"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $X$ be quasi-compact and quasi-separated, $j:U\hookrightarrow X$
 a quasi-compact open immersion, and $i:Z\hookrightarrow X$ its

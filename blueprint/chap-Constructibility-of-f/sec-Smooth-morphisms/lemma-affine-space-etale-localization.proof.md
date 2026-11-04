@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-affine-space-etale-localization"
 order = 553
+uses = ["lemma-stability", "lemma-identity-pasting", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor"]
 +++
 Both parts follow formally from uniqueness of right adjoints. Part (1)
 comes from (6.7) and $j_!\dashv j^*$ for $\mathbf A^1\subset\mathbf P^1$, and

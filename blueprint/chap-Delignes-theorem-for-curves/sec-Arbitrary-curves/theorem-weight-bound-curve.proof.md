@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-weight-bound-curve"
 order = 1310
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "theorem-grothendieck-lefschetz-trace-formula", "theorem-trace-formula-euler-product", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "lemma-boundary-stalk", "lemma-point-count-bound", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "lemma-unramified-at-infinity-no-linear-characters", "corollary-h-1-c-stalk-fourier", "proposition-exactness-fixed-pure-weight", "lemma-finite-quasi-finite-direct-images"]
 +++
 On a geometrically connected curve we compare $j_*F$ with its
 restriction to a dense affine open, where the affine case applies, and

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-derived-nakayama"
 order = 211
+uses = ["corollary-finite-quotients-their-transition-maps"]
 +++
 The first assertion follows from the two-term resolution of
 $(\mathcal O_E/\pi_E^n)_X$ in

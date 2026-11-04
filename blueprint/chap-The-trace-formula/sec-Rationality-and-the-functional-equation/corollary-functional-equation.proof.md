@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-functional-equation"
 order = 1039
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing"]
 +++
 Duality gives the relations $b_{2d-i}=b_i$ and $D^2=q^{d\chi}$. If we substitute
 $1/(q^dT)$ into each factor of the cohomological expression for

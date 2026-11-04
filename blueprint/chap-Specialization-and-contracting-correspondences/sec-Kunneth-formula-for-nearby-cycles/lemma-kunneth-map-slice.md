@@ -3,6 +3,8 @@ id = "lemma-kunneth-map-slice"
 kind = "lemma"
 title = "The Künneth map on a slice"
 order = 1648
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_residueField", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_padicIntegers"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++
 In the situation just described, let $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$
 and $M\in D^b_{\mathrm{ctf}}(Y_\eta,A)$. Identify the restrictions over

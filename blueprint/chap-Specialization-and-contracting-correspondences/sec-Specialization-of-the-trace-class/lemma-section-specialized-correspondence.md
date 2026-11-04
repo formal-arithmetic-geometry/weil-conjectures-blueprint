@@ -3,6 +3,7 @@ id = "lemma-section-specialized-correspondence"
 kind = "lemma"
 title = "The section defined by the specialized correspondence"
 order = 1683
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.map_exceptionalHomIso_inv_comp_supportHomSpecialization", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.curry_comp_eq_unit_comp_map_comp"]
 +++
 In the setting above,
 
