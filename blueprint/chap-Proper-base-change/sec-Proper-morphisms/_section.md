@@ -3,5 +3,5 @@ id = "sec-Proper-morphisms"
 kind = "section"
 title = "Proper morphisms"
 order = 377
-uses = ["sec-Chows-lemma"]
+uses = ["sec-The-base-change-map", "sec-Base-change-in-degree-zero", "sec-Torsion-sheaves-and-acyclicity", "sec-Chows-lemma"]
 +++

@@ -3,4 +3,5 @@ id = "sec-Hilbert-schemes-of-points"
 kind = "section"
 title = "Hilbert schemes of points"
 order = 1526
+uses = ["sec-The-Picard-functor", "sec-Riemann-Roch-and-Serre-duality"]
 +++
