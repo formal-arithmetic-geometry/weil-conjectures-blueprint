@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-coefficient-heart-b"
 order = 274
+uses = ["lemma-constructible-sheaves"]
 +++
 The first assertion is closure under cones, which we check on cohomology sheaves.
 Let $K\to K'\to K''\to K[1]$ be a distinguished triangle with $K,K'$ in

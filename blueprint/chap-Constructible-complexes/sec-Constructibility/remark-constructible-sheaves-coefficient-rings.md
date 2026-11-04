@@ -4,6 +4,7 @@ kind = "remark"
 title = "Constructible sheaves for the individual coefficient rings"
 name_showing = false
 order = 223
+uses = ["corollary-finite-tor-amplitude-under-comparison", "lemma-constructible-sheaves", "corollary-coefficient-heart-b", "lemma-structure-integral-constructible-complexes"]
 +++
 1. For Noetherian $X$, every locally closed subset is constructible,
    so in Definition [definition-constructible-sheaves](2) any finite stratification

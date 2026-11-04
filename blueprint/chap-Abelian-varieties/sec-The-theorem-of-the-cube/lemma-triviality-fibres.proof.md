@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-triviality-fibres"
 order = 1470
+uses = ["definition-constructible-sheaves", "lemma-perfect-complexes-geometric-point", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++
 The proof uses only that $P_t$ is proper and integral with
 $H^0(P_t,\mathcal O_{P_t})=\kappa(t)$, which holds by [Stacks, [0BUG](https://stacks.math.columbia.edu/tag/0BUG)]

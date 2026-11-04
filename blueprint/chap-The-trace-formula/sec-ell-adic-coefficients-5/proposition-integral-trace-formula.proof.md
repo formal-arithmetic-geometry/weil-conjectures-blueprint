@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-integral-trace-formula"
 order = 1005
+uses = ["proposition-six-operations-change-coefficients", "lemma-perfect-complexes-geometric-point", "proposition-properties-trace"]
 +++
 We show that both sides reduce modulo $\pi_E^n$ to the two sides of
 the finite formula, by identifying the reductions of the complexes, of the

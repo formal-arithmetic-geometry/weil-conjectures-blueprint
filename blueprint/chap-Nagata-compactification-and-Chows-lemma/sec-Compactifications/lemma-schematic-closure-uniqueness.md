@@ -3,6 +3,7 @@ id = "lemma-schematic-closure-uniqueness"
 kind = "lemma"
 title = "Schematic closure"
 order = 1400
+lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact", "AlgebraicGeometry.Scheme.Hom.ker_toImage", "AlgebraicGeometry.Scheme.Hom.ker_morphismRestrict"]
 +++
 Let $i:U\to T$ be a quasi-compact immersion, with $T$ quasi-separated.
 Its scheme-theoretic image $\overline U\subseteq T$ is a closed

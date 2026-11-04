@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-curve-over-normal-base"
 order = 677
+uses = ["lemma-acyclic-resolutions", "lemma-injectivity-base-change-map-degree", "lemma-reduction-field", "lemma-integral-changes-source-base"]
 +++
 We first simplify the source of the direct image and the coefficients,
 then show that the source of the base change map vanishes, and finally

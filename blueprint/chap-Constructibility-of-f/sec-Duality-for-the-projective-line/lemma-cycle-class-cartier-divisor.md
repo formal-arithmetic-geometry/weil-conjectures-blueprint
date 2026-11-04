@@ -3,6 +3,8 @@ id = "lemma-cycle-class-cartier-divisor"
 kind = "lemma"
 title = "The cycle class of a Cartier divisor"
 order = 536
+lean = ["AlgebraicGeometry.ProEtale.exists_geoCartierCycleClass", "AlgebraicGeometry.ProEtale.geoCartierCanonicalClass"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $i:D\hookrightarrow Z$ be an effective Cartier divisor on a
 scheme $Z$ on which $\ell$ is invertible. There is a morphism

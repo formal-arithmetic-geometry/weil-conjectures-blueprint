@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-p-torsion-smooth-proper-curve"
 order = 1579
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "theorem-smooth-base-change-classical-torsion", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "proposition-cohomology-smooth-affine-curve", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 The Artin–Schreier sequence turns the question into one about
 $\varphi-1$ on $H^0(C,\mathcal O_C)=k$ and on $H^1(C,\mathcal O_C)$. The

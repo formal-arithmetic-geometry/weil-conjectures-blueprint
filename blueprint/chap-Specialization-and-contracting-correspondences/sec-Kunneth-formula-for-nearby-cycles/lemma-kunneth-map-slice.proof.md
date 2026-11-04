@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-map-slice"
 order = 1649
+uses = ["definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-inverse-image-tensor-product"]
 +++
 In the middle line $P$ acts trivially, because the action on this
 complex of nearby cycles is the restriction of an action of $I$ and

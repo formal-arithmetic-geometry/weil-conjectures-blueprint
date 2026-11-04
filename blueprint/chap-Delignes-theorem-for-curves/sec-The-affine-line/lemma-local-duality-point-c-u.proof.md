@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-local-duality-point-c-u"
 order = 1286
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The two stalks are cohomology sheaves of the complexes $i^*Rj_*F^\vee$
 (in degree zero) and $i^*Rj_*F$ (in degree one) on the boundary. We

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-compatibility-purity-base-change"
 order = 792
+uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
 +++
 The map $\gamma_f$ has two factors, the orientation of $\omega_f$ and the
 map (9.4). We show that each commutes with base

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-restriction-punctured-curve"
 order = 970
+uses = ["lemma-cohomology-near-two-transverse-divisors"]
 +++
 The source is $R\Gamma(X-D_2,j'_!N)=R\Gamma(X,M)$, by the definition
 $M=Rj_*j'_!N$. Since $C$ meets $D_2$ only at $w$, the punctured curve

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-base-change-larger-algebraically-closed"
 order = 683
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "lemma-torsors-under-classical-groups", "definition-underived-base-change-map", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 We describe $R^qh_*$ as a sheafification and show that each local class
 dies after a suitable étale covering. In degrees at least two this is

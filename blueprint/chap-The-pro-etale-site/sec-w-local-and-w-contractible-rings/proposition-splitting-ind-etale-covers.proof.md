@@ -3,6 +3,7 @@ kind = "proof"
 of = "proposition-splitting-ind-etale-covers"
 title = "Proof outline"
 order = 57
+uses = ["lemma-stability", "proposition-w-local-components"]
 +++
 We first replace $B$ by an ind-Zariski $B$-algebra, so
 that its spectrum is w-local and its closed points lie exactly over the

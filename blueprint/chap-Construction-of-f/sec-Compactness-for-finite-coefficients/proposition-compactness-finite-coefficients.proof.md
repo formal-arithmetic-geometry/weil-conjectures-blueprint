@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-compactness-finite-coefficients"
 order = 467
+uses = ["proposition-unbounded-comparison-finite-coefficients"]
 +++
 The plan is to prove compactness on the étale
 site against arbitrary objects of $D(X_{\acute{e}t},A)$, where the commutation of

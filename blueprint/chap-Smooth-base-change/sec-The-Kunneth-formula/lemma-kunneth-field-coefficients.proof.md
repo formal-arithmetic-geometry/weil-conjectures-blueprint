@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-field-coefficients"
 order = 709
+uses = ["theorem-comparison-direct-images", "theorem-comparison-constructible-sheaves", "lemma-kunneth-finite-direct-image"]
 +++
 We first treat constructible sheaves $M$ and $Q$, by the usual argument for
 comparing a $\delta$-functor with an exact functor, and then pass to

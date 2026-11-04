@@ -3,6 +3,8 @@ id = "definition-trace-function"
 kind = "definition"
 title = "Trace function"
 order = 1016
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction", "AlgebraicGeometry.WeilSheaf.traceFunction", "AlgebraicGeometry.ProEtale.CondensedRing.weilStalkTraceAlternatingSum"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure"]
 +++
 Let $(K,\phi)$ be a Weil complex on $X$ as in
 Theorem [theorem-grothendieck-lefschetz-trace-formula], and let $m\geq1$.

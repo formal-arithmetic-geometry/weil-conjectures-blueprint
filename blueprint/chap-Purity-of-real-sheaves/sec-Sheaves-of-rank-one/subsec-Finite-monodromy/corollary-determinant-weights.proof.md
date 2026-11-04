@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-determinant-weights"
 order = 1106
+uses = ["lemma-filtrations-spectra", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights"]
 +++
 The sheaf $\det\mathcal V$ is a rank-one lisse Weil sheaf defined over a
 finite extension of $E$. Theorem [theorem-rank-one-sheaves-have-finite] and

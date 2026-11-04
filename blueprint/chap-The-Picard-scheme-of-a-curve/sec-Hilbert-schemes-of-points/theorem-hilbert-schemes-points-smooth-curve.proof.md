@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-hilbert-schemes-points-smooth-curve"
 order = 1529
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Representability is a general theorem, once we know that finite sets of
 points lie in affine opens. We obtain the geometric properties from the

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-completed-ordinary-base-change"
 order = 416
+uses = ["definition-pro-etale-base-change-map"]
 +++
 Both maps are built from the counit of $p^*\dashv Rp_*$, as in
 Definition [definition-pro-etale-base-change-map], and this counit is

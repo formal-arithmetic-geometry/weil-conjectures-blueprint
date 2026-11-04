@@ -3,6 +3,7 @@ id = "example-compactness-finite-field"
 kind = "example"
 title = "Compactness over a finite field"
 order = 432
+uses = ["proposition-exact-products", "example-first-cohomology-finite-field"]
 +++
 Let $X=\operatorname{Spec}\mathbf F_q$ and $\Lambda=E$. Then
 $\Ext^n(E,E)=H^n(X_{\mathrm{pro}\acute{e}t},E)$ is $E$ for $n=0,1$ and vanishes for

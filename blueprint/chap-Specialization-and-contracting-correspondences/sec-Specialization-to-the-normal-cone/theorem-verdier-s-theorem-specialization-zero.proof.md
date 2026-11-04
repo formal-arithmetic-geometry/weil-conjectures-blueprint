@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-verdier-s-theorem-specialization-zero"
 order = 1634
+uses = ["lemma-nearby-cycles-constant-family", "lemma-base-change-cone-x-z"]
 +++
 The main step is that $C_{X,Z}(L)=0$ for every $L\in
 D^b_c(X_{\acute et},A)$, which the last paragraph transports to

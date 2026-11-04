@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-contracting-correspondences-local-terms"
 order = 1702
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "proposition-additivity-trace-classes", "lemma-passing-schematic-closure", "lemma-fixed-point-scheme-deformation", "remark-reduction-connected-fixed-point-scheme"]
 +++
 We split $K$ by the triangle $j_!j^*K\to K\to Ri_*i^*K$ and use
 additivity of trace classes. The piece supported on $Z$ gives the trace

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-restriction-normal-subgroup"
 order = 1116
+uses = ["definition-frobenius-correspondences-their-operators"]
 +++
 It suffices to consider a simple $\Gamma$-module $V$. A nonzero
 $N$-submodule $A$ of least dimension is simple, and since $N$ is

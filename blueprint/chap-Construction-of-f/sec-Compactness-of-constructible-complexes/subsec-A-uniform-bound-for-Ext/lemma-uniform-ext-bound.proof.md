@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-uniform-ext-bound"
 order = 443
+uses = ["definition-constructible-sheaves", "lemma-ext-bound-lattices"]
 +++
 We reduce to extensions by zero of lisse sheaves on strata, prove the bound
 for $\Lambda=E$ by choosing lattices, applying

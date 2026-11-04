@@ -3,6 +3,7 @@ id = "lemma-filtrations-spectra"
 kind = "lemma"
 title = "Filtrations and spectra"
 order = 1061
+lean = ["LinearMap.charpoly_eq_prod_charpoly_mapQ_of_le", "LinearMap.charpoly_eq_charpoly_restrict_mul_charpoly_mapQ", "LinearMap.charpoly_roots_dualMap_symm", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_tensorProduct"]
 +++
 Let $V$ have a finite filtration preserved by an automorphism $u$.
 Then

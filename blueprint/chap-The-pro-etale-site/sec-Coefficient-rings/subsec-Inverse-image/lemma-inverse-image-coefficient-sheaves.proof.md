@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-coefficient-sheaves"
 order = 188
+uses = ["proposition-comparison-morphism-inverse-image"]
 +++
 (1) For every condensed ring $\Lambda$, the identity $p_Y\circ f=p_X$
 shows that

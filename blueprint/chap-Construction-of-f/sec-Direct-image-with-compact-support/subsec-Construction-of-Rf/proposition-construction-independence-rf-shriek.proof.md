@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-construction-independence-rf-shriek"
 order = 508
+uses = ["proposition-comparison-immersions", "corollary-proper-direct-image-finite-coefficients-localizing", "lemma-uniform-bound-proper-direct-image", "proposition-compactness-proper-direct-image"]
 +++
 For a single compactification there is nothing new to prove, and two
 compactifications are compared through a third one that refines both,

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-six-operations-dctf"
 order = 619
+uses = ["lemma-stability", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "proposition-comparison-immersions", "lemma-flat-models-generators", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "corollary-cohomology-geometric-fibres", "theorem-exceptional-inverse-image", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "corollary-open-direct-image-over-field", "theorem-f-shriek-finite-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "lemma-perfect-complexes-geometric-point", "definition-verdier-dual-evaluation", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality", "corollary-verdier-exchange-formulas", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 We treat the operations in the order in which they depend on each other:
 first the local operations $f^*$ and $\otimes^{\mathbf L}$, then the two

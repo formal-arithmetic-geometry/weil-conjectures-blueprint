@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-acyclicity-pulled-back-injectives"
 order = 121
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image"]
 +++
 The sheaf $R^q\nu_{X,*}\nu_X^*I$ is associated to
 $V\mapsto H^q(V_{\mathrm{pro}\acute{e}t},\nu_X^*I)$, so it suffices to show that

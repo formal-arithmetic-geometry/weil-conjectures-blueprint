@@ -3,6 +3,8 @@ id = "definition-pro-etale-base-change-map"
 kind = "definition"
 title = "Pro-étale base change map"
 order = 321
+lean = ["AlgebraicGeometry.ProEtale.derivedBaseChangeMap", "AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$. The *base change map*
 

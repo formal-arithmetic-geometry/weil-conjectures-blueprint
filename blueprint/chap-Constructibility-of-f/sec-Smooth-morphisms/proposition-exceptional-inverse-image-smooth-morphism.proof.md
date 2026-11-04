@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-exceptional-inverse-image-smooth-morphism"
 order = 556
+uses = ["lemma-stability", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-forgetting-supports-composition", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The maps
 (6.11) and (6.12) are defined globally as adjoint

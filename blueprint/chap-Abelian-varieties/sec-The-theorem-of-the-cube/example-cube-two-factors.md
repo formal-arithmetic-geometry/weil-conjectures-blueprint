@@ -3,6 +3,7 @@ id = "example-cube-two-factors"
 kind = "example"
 title = "Two factors do not suffice"
 order = 1468
+uses = ["lemma-triviality-fibres"]
 +++
 Let $E$ be an elliptic curve over an algebraically closed field, with
 origin $O$, and let $\Delta\subset E\times E$ be the diagonal. On

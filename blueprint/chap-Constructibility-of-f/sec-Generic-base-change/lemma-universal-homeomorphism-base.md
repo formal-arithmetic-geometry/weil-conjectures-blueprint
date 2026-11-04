@@ -3,6 +3,7 @@ id = "lemma-universal-homeomorphism-base"
 kind = "lemma"
 title = "Universal homeomorphisms of the base"
 order = 572
+lean = ["AlgebraicGeometry.Etale.HasConstructibleDirectImageBaseChangeOn.of_isFinite_of_surjective"]
 +++
 Let $S$ be integral, let $j:X\hookrightarrow Y$ be an open immersion of
 $S$-schemes, and let $F$ be a constructible $\Fell$-sheaf on $X_{\mathrm{pro}\acute{e}t}$.

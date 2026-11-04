@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-hypotheses-brown-representability"
 order = 519
+uses = ["theorem-compactness-rational-coefficients", "proposition-compactness-finite-coefficients", "proposition-compactness-proper-direct-image"]
 +++
 The set-theoretic conditions are general facts about derived categories
 of Grothendieck abelian categories. Compactness was proved separately

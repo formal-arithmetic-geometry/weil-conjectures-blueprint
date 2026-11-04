@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-specialization-when-fixed-point-scheme"
 order = 1688
+uses = ["definition-small-pro-etale-site", "lemma-nearby-cycles-constant-family"]
 +++
 By naturality it suffices to show that
 $\theta_Y\sigma_Y(\omega_Y)$ is the identity of $\omega_Y$. For proper

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-smooth-proper-curves-torsion-prime"
 order = 1569
+uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 Pulling back the Kummer sequence of $C_{\acute{e}t}$ by $\nu_C^*$, we get
 the exact sequence of sheaves on $C_{\mathrm{pro}\acute{e}t}$
