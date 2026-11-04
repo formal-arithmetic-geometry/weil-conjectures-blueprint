@@ -1,0 +1,8 @@
++++
+id = "theorem-trace-isomorphism-top-degree--3"
+kind = "theorem"
+title = "Top-degree trace: finite coefficients"
+order = 859006
+aliases = ["bp-r260-3"]
++++
+The specified trace $\operatorname{tr}_X:H^{2d}(X,A_X)\to A(-d)$ is an isomorphism.

@@ -1,0 +1,8 @@
++++
+id = "lemma-engel-s-theorem--2"
+kind = "lemma"
+title = "Strict triangularization"
+order = 1724003
+aliases = ["bp-r537-2"]
++++
+There is a basis of $M$ in which every element of $\mathfrak n$ is strictly upper triangular.

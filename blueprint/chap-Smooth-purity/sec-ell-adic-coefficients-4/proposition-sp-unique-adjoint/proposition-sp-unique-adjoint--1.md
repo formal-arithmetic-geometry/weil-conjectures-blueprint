@@ -1,0 +1,12 @@
++++
+id = "proposition-sp-unique-adjoint--1"
+kind = "proposition"
+title = "Uniqueness of the right adjoint of $Rf_!$ (1)"
+name_showing = false
+order = 756001
+aliases = ["bp-r230-1"]
++++
+Let $\Lambda$ be an admissible coefficient ring and let $J$ be a right adjoint of
+$Rf_!:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$ with counit $\varepsilon^J$.
+There is a unique natural isomorphism $\rho:f^!\xrightarrow{\sim}J$ with
+$\varepsilon^J(K)\circ Rf_!(\rho(K))=\varepsilon_f(K)$.

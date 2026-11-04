@@ -1,0 +1,21 @@
++++
+id = "proposition-h-1-curve-tate-module--1"
+kind = "proposition"
+title = "$H^1$ of a curve and the Tate module of its Jacobian (1)"
+name_showing = false
+order = 1559001
+aliases = ["bp-r489-1"]
++++
+In the preceding setting, suppose $\ell$ is invertible in $k$.
+For every $n\geq1$ there is a canonical
+Galois-equivariant isomorphism, with cohomology computed on the
+pro-étale site,
+
+$$
+H^1(C,\mathbf Z/\ell^n(1))
+\simeq J_0[\ell^n](\bar k).
+$$
+
+The coefficient map $\mu_{\ell^{n+1}}\to\mu_{\ell^n}$,
+$z\mapsto z^\ell$, corresponds to multiplication by $\ell$
+on the torsion points.

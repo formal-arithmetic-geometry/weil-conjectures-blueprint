@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Put the refinement of one chapter of blueprint-layer-2.tex under the sketch nodes of blueprint/.
 
-Usage: scripts/layer2bp.py <layer-2 tex> <blueprint dir> <blueprint.toml> <chapter>
+Usage: scripts/layer2bp.py <layer-2 tex> <blueprint dir> <blueprint.toml> <chapters>
+
+<chapters> is a number or a range, "2" or "2-25".
 
 blueprint-layer-2.tex refines DerivedCategoryAndSixFunctorsChoice_readable.tex:
 each declaration of the notes (a "reference block", \\BPSource ... \\BPEndSource)
@@ -13,11 +15,17 @@ its clauses become detail nodes under it:
 - clause k is <id>/<id>--<k>.md, of the clause's kind, titled by the clause's
   title or, for an unnamed clause, by the sketch's title and its number
   (name_showing = false), with alias bp-r<NNN>-<k>;
+- a proof in the block ("Justification of clause~\\ref{bp-r…}", or one after a
+  clause) is the proof of that clause, <id>/<id>--<k>.proof.md;
+- a "Dependencies:" line after a clause gives its `uses` (on its proof when it
+  has one), leaving out every arrow with a definition at either end;
 - text in the block between clauses (shared context, the statement's opening
-  words) is a hidden node <id>--text-<k> in place.
+  words) is a hidden node <id>--text-<k> in place;
+- a block whose label is a text node of the blueprint (a convention) is left
+  as it is: text has no detail nodes.
 
-A block without a \\label is matched with the sketch node of the chapter that has
-no block, in order.  Chapters are the tex's \\section's, numbered from 1.  The
+A block without a \\label is matched with the sketch nodes of its chapter that
+have no block, in order, which must be of the block's kind.  Chapters are the tex's \\section's, numbered from 1.  The
 text is converted as scripts/tex2bp.py converts it; a reference inside maths
 becomes the number the website gives the node.
 """
@@ -28,7 +36,9 @@ import subprocess
 import sys
 import tomllib
 
-L2, BP, TOMLF, CHAP = sys.argv[1], sys.argv[2], sys.argv[3], int(sys.argv[4])
+L2, BP, TOMLF, CHAPS = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
+lo, _, hi = CHAPS.partition('-')
+CHAPTERS = list(range(int(lo), int(hi or lo) + 1))
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 # The conversion machinery of tex2bp.py, read over the layer-2 tex (its labels,
@@ -61,39 +71,59 @@ for dp, dn, fn in os.walk(BP):
             if fm.get('id'):
                 nodes[fm['id']] = (os.path.join(dp, f), fm, body)
 
-# the chapter's region of the tex
 secs = [m.start() for m in re.finditer(r'\\section\*?\{', BODY)]
-region = BODY[secs[CHAP - 1]:secs[CHAP] if CHAP < len(secs) else len(BODY)]
-chap_title = re.match(r'\\section\*?\{', region)
-chap_id = next(k for k, (p, fm, b) in nodes.items() if fm['kind'] in ('chapter', 'appendix')
-               and LABEL.get(re.search(r'\\label\{([^}]*)\}', region).group(1), ('', ''))[1] == k)
-chap_dir = os.path.dirname(nodes[chap_id][0])
-sketches = sorted([k for k, (p, fm, b) in nodes.items() if fm['kind'] in STMT and p.startswith(chap_dir + '/')
-                   and not os.path.basename(os.path.dirname(p)) == k], key=lambda k: nodes[k][1]['order'])
-
-blocks = list(re.finditer(r'\\BPSource\{([^}]*)\}\{(\d+)\}\{(\d+)\}\{([^}]*)\}(.*?)\\BPEndSource\{\2\}', region, re.S))
 clause_re = re.compile(r'\\begin\{(bp[a-z]+)\}(?:\[([^\]]*)\])?\s*\\label\{(bp-r\d+-\d+)\}(.*?)\\end\{\1\}', re.S)
+proof_re = re.compile(r'\\begin\{proof\}(?:\[([^\]]*)\])?(.*?)\\end\{proof\}', re.S)
+deps_re = re.compile(r'\\noindent\{\\small\\textit\{Dependencies:\}(.*?)\}\\par', re.S)
+block_re = re.compile(r'\\BPSource\{([^}]*)\}\{(\d+)\}\{(\d+)\}\{((?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*)\}(.*?)\\BPEndSource\{\2\}', re.S)
 
-# block -> sketch id: its \label, else the unmatched sketch nodes in order
-labelled = {}
-for b in blocks:
-    m = re.match(r'\s*(?:\\leavevmode\s*)?\\label\{([^}]*)\}', b.group(5))
-    first = re.search(r'\\label\{([^}]*)\}', b.group(5)).group(1)
-    labelled[b.group(2)] = first if not first.startswith('bp-r') else None
-free = iter([k for k in sketches if k not in set(labelled.values())])
-assign = {}
-for b in blocks:
-    assign[b.group(2)] = labelled[b.group(2)] or next(free)
-missing = [k for k in sketches if k not in assign.values()]
-if missing:
-    problems.append(f'sketch nodes with no block: {missing}')
 
-# Labels of the clauses name their detail nodes; a sketch's label names the sketch.
-for b in blocks:
-    sid = assign[b.group(2)]
-    LABEL[sid] = ('node', sid)
-    for c in clause_re.finditer(b.group(5)):
-        LABEL[c.group(3)] = ('node', f'{sid}--{int(c.group(3).split("-")[-1])}')
+def chapter(c):
+    """(chapter id, its directory, its blocks, its sketch ids in order)."""
+    region = BODY[secs[c - 1]:secs[c] if c < len(secs) else len(BODY)]
+    head = LABEL.get(re.search(r'\\label\{([^}]*)\}', region).group(1), ('', ''))[1]
+    cdir = os.path.dirname(nodes[head][0])
+    sk = sorted([k for k, (p, fm, b) in nodes.items() if fm['kind'] in STMT and '--' not in k
+                 and os.path.relpath(p, cdir).split(os.sep)[0] != '..'
+                 and (os.path.basename(p) != '_section.md' or os.path.basename(os.path.dirname(p)) == k)],
+                key=lambda k: nodes[k][1]['order'])
+    return head, cdir, list(block_re.finditer(region)), sk
+
+
+# Every block of the document, matched with its node, before any chapter is
+# written: clauses cite clauses of other chapters.
+plan = {}          # chapter -> [(block, sketch id or None)]
+for c in range(1, len(secs) + 1):
+    head, cdir, blocks, sk = chapter(c)
+    lab = {}
+    for b in blocks:
+        first = re.search(r'\\label\{([^}]*)\}', b.group(5)).group(1)
+        lab[b.group(2)] = None if first.startswith('bp-r') else first
+    free = [k for k in sk if k not in set(lab.values())]
+    rows = []
+    for b in blocks:
+        sid = lab[b.group(2)]
+        if sid is None:
+            sid = free.pop(0) if free else None
+            if sid and nodes[sid][1]['kind'] != b.group(1).lower():
+                problems.append(f'block {b.group(2)} ({b.group(1)}) matched by position with {sid}, a {nodes[sid][1]["kind"]}')
+        rows.append((b, sid))
+    if free and c in CHAPTERS:
+        problems.append(f'chapter {c}: sketch nodes with no block: {free}')
+    plan[c] = (head, cdir, rows)
+    for b, sid in rows:
+        if sid and sid in nodes and nodes[sid][1]['kind'] in STMT:
+            LABEL[sid] = ('node', sid)
+            for cm in clause_re.finditer(b.group(5)):
+                LABEL[cm.group(3)] = ('node', f'{sid}--{int(cm.group(3).split("-")[-1])}')
+kind_of = {}
+for c, (head, cdir, rows) in plan.items():
+    for b, sid in rows:
+        if sid and sid in nodes and nodes[sid][1]['kind'] in STMT:
+            for cm in clause_re.finditer(b.group(5)):
+                kind_of[f'{sid}--{int(cm.group(3).split("-")[-1])}'] = KIND[cm.group(1)]
+for k, (p, fm, b) in nodes.items():
+    kind_of.setdefault(k, fm['kind'])
 
 
 def words(s):
@@ -117,99 +147,148 @@ def write(path, fields, body):
         else:
             lines.append(f'{k} = {toml_str(v)}')
     lines.append('+++')
+    # The conversion makes `--` an en dash, also inside the `[id]` of a link to a
+    # clause; put the id back where it names a node.
+    body = re.sub(r'\[([^\]\s]*–[^\]\s]*)\]',
+                  lambda m: '[' + m.group(1).replace('–', '--') + ']'
+                  if m.group(1).replace('–', '--') in kind_of else m.group(0), body)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, 'w', encoding='utf-8').write('\n'.join(lines) + '\n' + body.rstrip() + '\n')
 
 
-report = []
-written = []
-for b in blocks:
-    sid = assign[b.group(2)]
-    path, fm, sbody = nodes[sid]
-    if fm['kind'] != b.group(1).lower():
-        problems.append(f'{sid}: the block is a {b.group(1)}, the node a {fm["kind"]}')
-    content = b.group(5)
-    # move the sketch into a directory of its own
-    d = os.path.join(os.path.dirname(path), sid)
-    if os.path.basename(path) != '_section.md':
-        os.makedirs(d, exist_ok=True)
-        subprocess.run(['git', 'mv', path, os.path.join(d, '_section.md')], check=True)
-    base = int(fm['order']) * 1000
-    pieces, pos = [], 0
-    for c in clause_re.finditer(content):
-        pieces.append(('text', content[pos:c.start()]))
-        pieces.append(('clause', c))
-        pos = c.end()
-    pieces.append(('text', content[pos:]))
-    k_text, order, clause_words = 0, base, set()
-    for kind, x in pieces:
-        if kind == 'text':
-            t = re.sub(r'\\label\{[^}]*\}|\\leavevmode|\\begin\{enumerate\}(\[[^\]]*\])?|\\end\{enumerate\}|'
-                       r'\\begin\{itemize\}|\\end\{itemize\}|\\item(\[[^\]]*\])?', ' ', x)
-            if not t.strip():
-                continue
-            k_text += 1
-            order += 1
-            write(os.path.join(d, f'{sid}--text-{k_text}.md'),
-                  [('id', f'{sid}--text-{k_text}'), ('kind', 'hidden'), ('title', fm.get('title', sid)), ('order', order)],
-                  to_markdown(t.strip()))
-            clause_words |= words(t)
-            continue
-        env, title, lab, body = x.groups()
-        k = int(lab.split('-')[-1])
-        order += 1
-        fields = [('id', f'{sid}--{k}'), ('kind', KIND[env])]
-        if title and not re.fullmatch(r'Source clause \d+', title.strip()):
-            fields.append(('title', G['heading_title'](title)))
-        else:
-            fields += [('title', f'{fm.get("title", sid)} ({k})'), ('name_showing', False)]
-        fields += [('order', order), ('aliases', [lab])]
-        write(os.path.join(d, f'{sid}--{k}.md'), fields, to_markdown(body.strip()))
-        written.append(f'{sid}--{k}')
-        clause_words |= words(body)
-    # does the sketch say what its clauses say?
-    sw = words(open(os.path.join(d, '_section.md')).read().split('+++', 2)[2])
-    lost = sw - clause_words
-    if len(lost) > max(3, len(sw) // 6):
-        report.append(f'{sid}: words of the sketch not in its clauses: {sorted(lost)[:15]}')
+def ref_ids(tex):
+    out = []
+    for lab in re.findall(r'\\ref\{([^}]*)\}', tex):
+        t = LABEL.get(lab)
+        if t and t[0] == 'node' and t[1] not in out:
+            out.append(t[1])
+    return out
 
-# references inside maths: the website's number of the node (as documentOutline numbers them)
-outline = {}
-for k, (p, fm, b) in list(nodes.items()):
-    pass
-allnodes = {}
+
+report, written, skipped, arrows = [], [], [], []
+for CHAP in CHAPTERS:
+    head, cdir, rows = plan[CHAP]
+    n_clauses = 0
+    for b, sid in rows:
+        if sid is None or nodes.get(sid, (0, {'kind': None}))[1]['kind'] not in STMT:
+            skipped.append(f'chapter {CHAP}, block {b.group(2)} ({b.group(1)}): {sid or "no node"} is no statement of the blueprint')
+            continue
+        path, fm, sbody = nodes[sid]
+        if fm['kind'] != b.group(1).lower():
+            problems.append(f'{sid}: the block is a {b.group(1)}, the node a {fm["kind"]}')
+        content = b.group(5)
+        d = os.path.join(os.path.dirname(path), sid) if os.path.basename(path) != '_section.md' else os.path.dirname(path)
+        if os.path.basename(path) != '_section.md':
+            os.makedirs(d, exist_ok=True)
+            subprocess.run(['git', 'mv', path, os.path.join(d, '_section.md')], check=True)
+        base = int(fm['order']) * 1000
+        # the pieces of the block in order: clauses, proofs, dependency lines, text
+        marks = [(m.start(), m.end(), 'clause', m) for m in clause_re.finditer(content)]
+        marks += [(m.start(), m.end(), 'proof', m) for m in proof_re.finditer(content)]
+        marks += [(m.start(), m.end(), 'deps', m) for m in deps_re.finditer(content)]
+        marks.sort(key=lambda x: x[0])
+        pieces, pos = [], 0
+        for s0, e0, kind, m in marks:
+            if s0 < pos:
+                continue                      # inside a clause (a proof cannot be)
+            pieces.append(('text', content[pos:s0]))
+            pieces.append((kind, m))
+            pos = e0
+        pieces.append(('text', content[pos:]))
+        k_text, order, clause_words, last = 0, base, set(), None
+        n_proof = {}
+        for kind, x in pieces:
+            if kind == 'text':
+                t = re.sub(r'\\label\{[^}]*\}|\\leavevmode|\\begin\{enumerate\}(\[[^\]]*\])?|\\end\{enumerate\}|'
+                           r'\\begin\{itemize\}|\\end\{itemize\}|\\item(\[[^\]]*\])?', ' ', x)
+                if not t.strip():
+                    continue
+                k_text += 1
+                order += 1
+                write(os.path.join(d, f'{sid}--text-{k_text}.md'),
+                      [('id', f'{sid}--text-{k_text}'), ('kind', 'hidden'), ('title', fm.get('title', sid)), ('order', order)],
+                      to_markdown(t.strip()))
+                clause_words |= words(t)
+                continue
+            if kind == 'deps':
+                if last is None:
+                    problems.append(f'{sid}: a dependency line before any clause')
+                    continue
+                for tgt in ref_ids(x.group(1)):
+                    if tgt != last:
+                        arrows.append((last, tgt))
+                continue
+            if kind == 'proof':
+                title, body = x.group(1) or '', x.group(2)
+                named = re.search(r'\\ref\{(bp-r\d+-\d+)\}', title)
+                of = LABEL[named.group(1)][1] if named and named.group(1) in LABEL else last
+                if of is None:
+                    problems.append(f'{sid}: a proof before any clause')
+                    continue
+                n_proof[of] = n_proof.get(of, 0) + 1
+                order += 1
+                k = n_proof[of]
+                fields = ([('id', f'proof/{of}/{k}')] if k > 1 else []) + [('kind', 'proof'), ('of', of)]
+                if title and not named:
+                    fields.append(('title', G['heading_title'](title)))
+                fields.append(('order', order))
+                write(os.path.join(d, f'{of}.proof.md' if k == 1 else f'{of}.proof-{k}.md'), fields, to_markdown(body.strip()))
+                continue
+            env, title, lab, body = x.groups()
+            k = int(lab.split('-')[-1])
+            order += 1
+            cid = f'{sid}--{k}'
+            fields = [('id', cid), ('kind', KIND[env])]
+            if title and not re.fullmatch(r'Source clause \d+', title.strip()):
+                fields.append(('title', G['heading_title'](title)))
+            else:
+                fields += [('title', f'{fm.get("title", sid)} ({k})'), ('name_showing', False)]
+            fields += [('order', order), ('aliases', [lab])]
+            write(os.path.join(d, f'{cid}.md'), fields, to_markdown(body.strip()))
+            written.append(cid)
+            n_clauses += 1
+            last = cid
+            clause_words |= words(body)
+        sw = words(open(os.path.join(d, '_section.md')).read().split('+++', 2)[2])
+        lost = sw - clause_words
+        if len(lost) > max(3, len(sw) // 6):
+            report.append(f'{sid}: words of the sketch not in its clauses: {sorted(lost)[:15]}')
+    print(f'chapter {CHAP} ({head}): {len(rows)} blocks, {n_clauses} clauses')
+
+# Dependency lines: `uses`, on the clause's proof when it has one; no arrow
+# with a definition at either end.
+by_src = {}
+for a, t in arrows:
+    if kind_of.get(a) == 'definition' or kind_of.get(t) == 'definition':
+        continue
+    by_src.setdefault(a, [])
+    if t not in by_src[a]:
+        by_src[a].append(t)
+for a, ts in by_src.items():
+    sid = a.rsplit('--', 1)[0]
+    d = os.path.join(os.path.dirname(nodes[sid][0]), sid) if os.path.basename(nodes[sid][0]) != '_section.md' else os.path.dirname(nodes[sid][0])
+    p = os.path.join(d, f'{a}.proof.md')
+    if not os.path.exists(p):
+        p = os.path.join(d, f'{a}.md')
+    t = open(p, encoding='utf-8').read()
+    i = t.index('+++', 3)
+    t = t[:i] + 'uses = [' + ', '.join(toml_str(x) for x in ts) + ']\n' + t[i:]
+    open(p, 'w', encoding='utf-8').write(t)
+print(f'{sum(len(v) for v in by_src.values())} dependency arrows from {len(by_src)} clauses '
+      f'({len(arrows)} listed, with definitions left out)')
+
+# References inside maths are left as \x04id\x04: their numbers are the website's,
+# which depend on the tool's numbering; they are filled in afterwards.
+left = []
 for dp, dn, fn in os.walk(BP):
     for f in fn:
-        if f.endswith('.md'):
-            p = os.path.join(dp, f)
-            fm, body, t = front(p)
-            if fm.get('id') and fm['kind'] not in ('hidden', 'proof', 'reference'):
-                parent_dir = os.path.dirname(dp) if f == '_section.md' else dp
-                allnodes[fm['id']] = (parent_dir, int(fm['order']), dp if f == '_section.md' else None)
-dir_id = {v[2]: k for k, v in allnodes.items() if v[2]}
-kids = {}
-for nid, (parent, o, _) in allnodes.items():
-    kids.setdefault(dir_id.get(parent), []).append((o, nid))
-number = {}
-
-
-def walk_numbers(pid, prefix):
-    for i, (_, nid) in enumerate(sorted(kids.get(pid, [])), 1):
-        number[nid] = f'{prefix}{i}'
-        walk_numbers(nid, number[nid] + '.')
-
-
-walk_numbers(None, '')
-for nid in written:
-    sid = nid.rsplit('--', 1)[0]
-    p = os.path.join(os.path.dirname(nodes[sid][0]), sid, f'{nid}.md')
-    t = open(p, encoding='utf-8').read()
-    if '\x04' in t:
-        open(p, 'w', encoding='utf-8').write(re.sub('\x04([^\x04]*)\x04', lambda m: number.get(m.group(1), m.group(1)), t))
-for d in list(os.walk(BP)):
-    pass
-
-print(f'chapter {CHAP} ({chap_id}): {len(blocks)} blocks, {len(written)} clauses')
+        p = os.path.join(dp, f)
+        if f.endswith('.md') and '\x04' in open(p, encoding='utf-8').read():
+            left.append(os.path.relpath(p, BP))
+if left:
+    print(f'{len(left)} files hold references inside maths still to number: {left[:5]}')
+for x in skipped:
+    print('SKIPPED', x)
 for r in report:
     print('CHECK', r)
 for p in problems:
