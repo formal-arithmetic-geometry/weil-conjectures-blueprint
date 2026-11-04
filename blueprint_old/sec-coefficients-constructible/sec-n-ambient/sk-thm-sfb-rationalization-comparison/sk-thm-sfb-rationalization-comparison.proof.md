@@ -3,7 +3,7 @@ kind = "proof"
 of = "sk-thm-sfb-rationalization-comparison"
 uses = ["sk-lem-integral-models"]
 +++
-Both assertions are (BS, Proposition 6.8.14(2)). What we use from
+Both assertions are [bhatt-scholze15, Proposition 6.8.14(2)]. What we use from
 the equivalence is that for $K,L\in\Dbc(X,\mathcal O_E)$ every morphism
 $E_X\otimes K\to E_X\otimes L$ is $\ell^{-c}$ times the image of a
 morphism $K\to L$ for some $c\geq0$, and that a morphism $K\to L$ becomes

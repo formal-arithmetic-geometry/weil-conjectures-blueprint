@@ -9,7 +9,7 @@ coefficients are built from extensions by zero $j_!F$ of lisse sheaves,
 but $f^!$ does not commute with $j_!$. The point is to replace $j_!$ by
 $Rj_*$, which does commute with $f^!$, and to treat the difference,
 which has smaller support, by induction. For the classical statements see
-(SGA5, III, (1.6.4), (1.7.3), Proposition 1.7.4 and (3.1.1)).
+[sga5, III, (1.6.4), (1.7.3), Proposition 1.7.4 and (3.1.1)].
 
 *Constant and lisse coefficients.*
 First let the coefficients be constant. For smooth maps we use Theorem [sk-thm-purity-transport]

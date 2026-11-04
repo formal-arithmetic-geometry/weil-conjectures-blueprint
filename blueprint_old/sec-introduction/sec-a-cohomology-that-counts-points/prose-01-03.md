@@ -81,7 +81,7 @@ coefficients in $\Ql$.
 
 Grothendieck constructed such a theory: $\ell$-adic cohomology, for a
 prime $\ell$ not dividing $q$. He and his collaborators proved (a), (b) and (c) in
-SGA 4 and SGA 5 [sga4, SGA5], and this proves rationality and the
+SGA 4 and SGA 5 [sga4, sga5], and this proves rationality and the
 functional equation (Section [sec-tf-determinants]). Purity (d) is the hard
 part. It was proved by Deligne [deligne74], and later in a
 more general form [deligne80]. We follow the proof of Deligne's
