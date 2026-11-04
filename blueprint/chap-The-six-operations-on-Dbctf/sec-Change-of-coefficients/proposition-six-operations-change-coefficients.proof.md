@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients"
 order = 640
+uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 The first assertion is
 Lemma [lemma-extension-scalars-preserves-dctf]. The maps for $f^*$ and

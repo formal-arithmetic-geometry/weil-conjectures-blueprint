@@ -3,6 +3,7 @@ id = "example-ext-bound-finite-field"
 kind = "example"
 title = "The bound over a finite field"
 order = 444
+uses = ["example-compactness-finite-field"]
 +++
 The proof gives an explicit bound, which is far from sharp. For
 $X=\operatorname{Spec}\mathbf F_q$ and

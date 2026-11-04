@@ -3,6 +3,8 @@ id = "definition-derived-base-change-map"
 kind = "definition"
 title = "Derived base change map"
 order = 316
+lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.baseChange"]
+uses = ["definition-underived-base-change-map"]
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$, the *base change map*
 

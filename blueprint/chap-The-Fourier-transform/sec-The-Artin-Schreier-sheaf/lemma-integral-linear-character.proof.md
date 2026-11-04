@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-integral-linear-character"
 order = 1220
+uses = ["lemma-stability", "definition-trace-function", "lemma-kunneth-formula-compact-supports"]
 +++
 On the line, from the cohomology of $\mathbf P^1$ and
 localization at the point at infinity, we get

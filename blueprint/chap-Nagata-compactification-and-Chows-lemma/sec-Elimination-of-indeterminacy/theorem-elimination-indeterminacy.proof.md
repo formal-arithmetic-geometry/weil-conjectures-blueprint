@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-elimination-indeterminacy"
 order = 1438
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "theorem-extension-partial-section"]
 +++
 This is [Stacks, [081S](https://stacks.math.columbia.edu/tag/081S)]. The idea is to view the inverse of
 $W_U\to U$ as a partial section of $W\to T$ and to extend it by

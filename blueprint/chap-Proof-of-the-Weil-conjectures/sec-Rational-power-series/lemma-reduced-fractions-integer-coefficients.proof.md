@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reduced-fractions-integer-coefficients"
 order = 1374
+uses = ["lemma-hankel-rank-rationality"]
 +++
 We repeat the construction in the proof of Lemma [lemma-hankel-rank-rationality]
 with an integral basis of the row span. This gives an integral

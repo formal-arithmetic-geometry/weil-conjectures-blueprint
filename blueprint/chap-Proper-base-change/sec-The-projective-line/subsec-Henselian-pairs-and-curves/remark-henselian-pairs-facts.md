@@ -4,6 +4,8 @@ kind = "remark"
 title = "Facts on henselian pairs"
 name_showing = false
 order = 354
+lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_of_henselianRing", "AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing", "AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-underived-base-change-map", "definition-torsion-sheaves", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++
 - (i) *Gabber's affine analogue of proper base change.*
   If $(B,J)$ is a henselian pair and $G$ is a torsion abelian sheaf on

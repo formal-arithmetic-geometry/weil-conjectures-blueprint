@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-bounds-squared-traces"
 order = 1197
+uses = ["definition-trace-function", "lemma-point-count-bound"]
 +++
 For (1), the trace at
 each point of $X_0(k_n)$ has absolute value at most

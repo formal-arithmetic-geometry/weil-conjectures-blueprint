@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-uniform-bounds-pro-etale-affines"
 order = 163
+uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image"]
 +++
 We write both cohomologies as colimits of étale cohomology of
 schemes of finite type over $k$ and bound these uniformly. Write

@@ -3,6 +3,8 @@ id = "proposition-no-frobenius-fixed-vector"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
 order = 1506
+lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self", "AlgebraicGeometry.IsAbelianVariety.frobeniusSubOneLinearEquiv"]
+uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module"]
 +++
 Let $A_0/\mathbf F_q$ be an abelian variety, let
 $A=A_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, and let $F$

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-classical-torsion-2"
 order = 688
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "proposition-topos-functoriality", "theorem-comparison-direct-images", "definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "theorem-smooth-base-change-classical-torsion"]
 +++
 We first treat a single sheaf, where the only point is $\Lambda$-linearity,
 and then pass to complexes by comparing hypercohomology spectral sequences.

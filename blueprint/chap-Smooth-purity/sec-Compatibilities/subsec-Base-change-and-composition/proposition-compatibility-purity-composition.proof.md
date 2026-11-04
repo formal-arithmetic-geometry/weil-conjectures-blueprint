@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-compatibility-purity-composition"
 order = 795
+uses = ["definition-trace-map"]
 +++
 As for base change, we compare orientations and the maps (9.4), first
 over any finite admissible ring and then for towers. The orientations are

@@ -3,6 +3,7 @@ id = "example-trace-not-determined-cohomology"
 kind = "example"
 title = "A trace not determined by cohomology"
 order = 894
+uses = ["proposition-properties-trace"]
 +++
 Let $A=\mathbf Z/\ell^2$ and let $P=[A\xrightarrow{\ell}A]$, with the
 terms in degrees $0$ and $1$. This is the perfect complex from

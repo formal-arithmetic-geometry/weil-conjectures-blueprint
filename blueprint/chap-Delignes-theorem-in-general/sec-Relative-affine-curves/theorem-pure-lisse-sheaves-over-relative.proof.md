@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-pure-lisse-sheaves-over-relative"
 order = 1340
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "theorem-grothendieck-lefschetz-trace-formula", "theorem-trace-formula-euler-product", "lemma-bounding-weights-mixed-sheaf", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "lemma-boundary-stalk", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "proposition-twisting-weight-zero-adding-dual", "lemma-unramified-at-infinity-no-linear-characters", "corollary-h-1-c-stalk-fourier", "proposition-exactness-fixed-pure-weight", "lemma-finite-quasi-finite-direct-images", "theorem-real-constructible-sheaves-are-mixed"]
 +++
 We bound the stalks of $R^ih_!F$ by the curve case, we show that these
 sheaves are mixed by twisting to weight zero and adding the dual, and

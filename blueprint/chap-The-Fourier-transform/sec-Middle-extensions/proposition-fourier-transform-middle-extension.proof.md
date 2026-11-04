@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-fourier-transform-middle-extension"
 order = 1259
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "lemma-artin-schreier-character-sheaf", "lemma-integral-linear-character", "proposition-fourier-inversion", "definition-perverse-sheaves-curve", "lemma-perverse-sheaves-curve", "lemma-simple-objects", "proposition-fourier-transform-perverse-heart", "lemma-finite-quasi-finite-direct-images"]
 +++
 By Fourier inversion, a punctual transform would force every geometric
 constituent of $M$ to be a linear character sheaf, and the hypothesis

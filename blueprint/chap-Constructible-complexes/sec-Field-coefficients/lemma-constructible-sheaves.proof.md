@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-constructible-sheaves"
 order = 270
+uses = ["proposition-pro-etale-coverings", "proposition-ctf-equals-bc"]
 +++
 Part (1) is the substantial one. All three closure properties are local on a common
 stratification, so it suffices to treat lisse sheaves on a single stratum.

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-one-identity-factor"
 order = 712
+uses = ["lemma-base-change-along-product-projection", "lemma-kunneth-field-coefficients"]
 +++
 We show that the cone $N$ of (8.4) vanishes
 modulo every maximal ideal of $A$, and conclude by derived Nakayama on

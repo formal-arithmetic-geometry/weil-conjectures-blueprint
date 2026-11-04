@@ -3,6 +3,8 @@ id = "lemma-removing-finitely-many-points"
 kind = "lemma"
 title = "Removing finitely many points"
 order = 1599
+lean = ["AlgebraicGeometry.IsCurve.assertions_iff_dense_open_prime"]
+uses = ["theorem-cohomology-curves"]
 +++
 Let $C$ be a reduced separated curve of finite type over an
 algebraically closed field $k$, let $j:U\hookrightarrow C$ be a dense

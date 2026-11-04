@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-uniform-bound-proper-direct-image"
 order = 480
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-topos-functoriality", "proposition-ind-constructible-sheaves", "definition-change-of-coefficients-maps", "lemma-change-coefficients-direct-image", "proposition-dctf-x-qbar-2-colimit"]
 +++
 *Reduction to a lattice.* The vanishing statement is stable under
 extensions: if $R^qp_*$ vanishes for $q>2d+1$ on two

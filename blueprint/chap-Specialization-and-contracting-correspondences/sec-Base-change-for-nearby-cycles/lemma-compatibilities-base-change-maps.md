@@ -3,6 +3,7 @@ id = "lemma-compatibilities-base-change-maps"
 kind = "lemma"
 title = "Base change maps and the projection formula"
 order = 1653
+lean = ["CategoryTheory.whiskerRight_comp_μ_comp_map_comp_mateEquiv_app"]
 +++
 Let $f:V\to W$ be a morphism of separated $S$-schemes of finite type,
 and let $M,N\in D^b_c(W_\eta,A)$. Then the two maps

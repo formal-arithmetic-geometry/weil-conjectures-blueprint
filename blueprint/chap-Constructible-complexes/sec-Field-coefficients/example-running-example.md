@@ -3,6 +3,7 @@ id = "example-running-example"
 kind = "example"
 title = "A running example"
 order = 271
+uses = ["lemma-cohomology-projective-line-trace", "example-closed-support"]
 +++
 We use the same few schemes throughout:
 

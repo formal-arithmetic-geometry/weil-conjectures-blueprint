@@ -3,6 +3,8 @@ id = "lemma-structure-integral-constructible-complexes"
 kind = "lemma"
 title = "Structure of integral constructible complexes"
 order = 486
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isConstructibleModuleObject_serre_padicIntegersRingObj"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++
 1. $\Dbc(X,\mathcal O_E)$ is a triangulated subcategory of
    $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ of bounded objects, stable under truncation;

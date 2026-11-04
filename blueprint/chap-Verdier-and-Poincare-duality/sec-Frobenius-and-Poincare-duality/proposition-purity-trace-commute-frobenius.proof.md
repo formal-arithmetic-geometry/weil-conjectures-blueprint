@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-purity-trace-commute-frobenius"
 order = 876
+uses = ["proposition-compatibility-purity-base-change"]
 +++
 Both identities are instances of base change for smooth purity, applied
 to a square whose horizontal maps are not $k$-linear. Since $\gamma_f$

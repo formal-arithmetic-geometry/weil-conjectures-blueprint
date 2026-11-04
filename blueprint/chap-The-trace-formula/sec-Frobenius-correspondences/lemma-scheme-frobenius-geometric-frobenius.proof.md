@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-scheme-frobenius-geometric-frobenius"
 order = 948
+uses = ["definition-frobenius-operator"]
 +++
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
 absolute Frobenius, and pullback along the absolute Frobenius is

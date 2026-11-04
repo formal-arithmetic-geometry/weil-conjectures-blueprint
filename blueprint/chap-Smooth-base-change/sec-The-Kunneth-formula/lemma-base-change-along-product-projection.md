@@ -3,6 +3,7 @@ id = "lemma-base-change-along-product-projection"
 kind = "lemma"
 title = "Base change along a product projection"
 order = 700
+lean = ["AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap"]
 +++
 Let $f:X\to Y$ be a morphism of separated $k$-schemes of finite type,
 let $T$ be a separated $k$-scheme of finite type, and let

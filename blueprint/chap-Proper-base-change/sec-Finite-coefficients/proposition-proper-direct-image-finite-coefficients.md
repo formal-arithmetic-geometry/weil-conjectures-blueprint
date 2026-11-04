@@ -3,6 +3,7 @@ id = "proposition-proper-direct-image-finite-coefficients"
 kind = "proposition"
 title = "Proper direct image for finite coefficients"
 order = 405
+lean = ["AlgebraicGeometry.Etale.isBoundedConstructible_hasTorAmplitudeIn_rightDerivedLowerStar_of_proper"]
 +++
 Let $A$ be a finite admissible ring, and let $p:X\to Y$ be a proper
 morphism of separated schemes of finite type over $k$. Then $Rp_*$ maps

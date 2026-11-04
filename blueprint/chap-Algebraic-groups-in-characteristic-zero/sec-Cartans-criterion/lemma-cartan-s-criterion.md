@@ -3,6 +3,8 @@ id = "lemma-cartan-s-criterion"
 kind = "lemma"
 title = "Cartan's criterion"
 order = 1726
+lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
+uses = ["lemma-engel-s-theorem"]
 +++
 Let $M$ be a finite-dimensional $\Omega$-vector space, and let
 $\mathfrak a\subseteq\operatorname{End}(M)$ be a Lie subalgebra

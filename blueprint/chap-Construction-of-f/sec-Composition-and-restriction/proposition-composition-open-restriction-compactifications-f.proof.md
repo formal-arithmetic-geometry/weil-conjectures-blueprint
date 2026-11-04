@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f"
 order = 526
+uses = ["proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint"]
 +++
 Each statement is the right adjoint of a statement about lower shriek
 functors already proved, and we conclude by uniqueness of adjoints.

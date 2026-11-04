@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-nearby-duality-slice"
 order = 1674
+uses = ["lemma-nearby-duality-proper-direct-image"]
 +++
 The map $\delta$ is the adjoint of the pairing
 (E.13). By

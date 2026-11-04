@@ -3,6 +3,8 @@ id = "lemma-cohomology-projective-line-trace"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace"
 order = 539
+lean = ["AlgebraicGeometry.ProEtale.geoP1Cohomology", "AlgebraicGeometry.ProEtale.geoP1DecompositionMap", "AlgebraicGeometry.ProEtale.geoP1Trace"]
+uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-pro-etale-base-change-map"]
 +++
 Let $S$ be a Noetherian scheme on which $\ell$ is invertible, and let
 $p:\mathbf P^1_S\to S$ be the projection. The unit

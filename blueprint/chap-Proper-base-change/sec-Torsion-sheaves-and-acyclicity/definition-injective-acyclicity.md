@@ -3,6 +3,8 @@ id = "definition-injective-acyclicity"
 kind = "definition"
 title = "Injective acyclicity"
 order = 343
+lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
+uses = ["definition-torsion-sheaves"]
 +++
 For a ring $\Lambda$, write $\mathrm{IA}_{\Lambda}(f)$ if for every
 cartesian square (4.1) and every injective sheaf $I$ of

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-existence-exceptional-inverse-image"
 order = 522
+uses = ["lemma-hypotheses-brown-representability"]
 +++
 We construct $f^!N$ one object at a time as the object representing
 maps out of $Rf_!(-)$ into $N$, and then check direct sums on the compact

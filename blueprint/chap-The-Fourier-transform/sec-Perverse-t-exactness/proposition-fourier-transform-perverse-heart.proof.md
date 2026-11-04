@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-fourier-transform-perverse-heart"
 order = 1255
+uses = ["proposition-fourier-inversion", "lemma-perverse-sheaves-curve", "lemma-perverse-weil-sheaves", "lemma-finite-quasi-finite-direct-images"]
 +++
 We show that the geometric transform and its inverse preserve
 ${}^pD^{\le0}$. Being mutually inverse, they then preserve

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-fourier-transform-constant-sheaf"
 order = 1229
+uses = ["lemma-stability", "lemma-artin-schreier-character-sheaf", "lemma-integral-linear-character", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For $K=E$, the stalk formula (16.2) at $y$ is the
 integral of the character sheaf $\mathcal L_{\psi(xy)}$ over the line,

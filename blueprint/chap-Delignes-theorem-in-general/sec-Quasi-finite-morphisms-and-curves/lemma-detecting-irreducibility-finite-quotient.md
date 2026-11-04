@@ -3,6 +3,7 @@ id = "lemma-detecting-irreducibility-finite-quotient"
 kind = "lemma"
 title = "Detecting irreducibility in a finite quotient"
 order = 1318
+lean = ["Representation.exists_forall_isIrreducible_baseChange_of_congr"]
 +++
 Let $\Pi$ be profinite and let $\rho:\Pi\to\GL_E(V)$
 be continuous and absolutely irreducible, with $\dim_E V=n$.

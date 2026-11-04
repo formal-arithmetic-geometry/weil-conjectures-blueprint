@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-integral-tate-module"
 order = 1504
+uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n"]
 +++
 A finite abelian group of order $\ell^{2gn}$ killed by $\ell^n$ need not
 be free over $\mathbf Z/\ell^n$; for $g\geq1$ the group

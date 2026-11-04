@@ -3,6 +3,7 @@ id = "theorem-cohomology-curves"
 kind = "theorem"
 title = "Cohomology of curves"
 order = 356
+lean = ["AlgebraicGeometry.IsCurve.Assertions"]
 +++
 Let $k$ be algebraically closed, let $C$ be a separated scheme of finite
 type over $k$ with $\dim C\leq1$, and let $F$ be a classical torsion

@@ -3,6 +3,7 @@ id = "lemma-normalization-constant-sheaf"
 kind = "lemma"
 title = "Normalization of a constant sheaf"
 order = 1594
+lean = ["AlgebraicGeometry.exists_mono_lowerShriek_constantModSheaf_lowerStar"]
 +++
 Let $C$ be a reduced curve of finite type over an algebraically closed
 field, and let $\pi:C^{\mathrm{nor}}\to C$ be its normalization.  For a

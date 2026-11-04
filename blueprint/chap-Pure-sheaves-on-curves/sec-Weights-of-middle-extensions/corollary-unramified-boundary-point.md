@@ -3,6 +3,8 @@ id = "corollary-unramified-boundary-point"
 kind = "corollary"
 title = "An unramified boundary point"
 order = 1177
+lean = ["AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeight_stalk_directImage_of_isLisse", "AlgebraicGeometry.WeilSheaf.IsLisse.isPunctuallyPureOfWeight_of_upperStar"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-weil-representation"]
 +++
 Let $\mathcal F$ be a lisse sheaf, pure of weight $a$, on a smooth
 geometrically connected curve with a point removed. If the inertia at the removed point acts

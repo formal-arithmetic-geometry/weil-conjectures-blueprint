@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-compactness-proper-direct-image"
 order = 493
+uses = ["proposition-ind-constructible-sheaves", "lemma-reduction-finitely-many-degrees", "lemma-structure-integral-constructible-complexes"]
 +++
 The rational proofs (Theorem [theorem-compactness-rational-coefficients],
 Lemmas [lemma-reduction-finitely-many-degrees] and [lemma-proper-direct-image-unbounded-complexes])

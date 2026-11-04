@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-rank-one-weights"
 order = 1102
+uses = ["lemma-invariant-additive-characters"]
 +++
 We separate from $\chi$ the part that depends only on the degree. Put
 $\varepsilon(w)=\chi(w)c^{-\deg w}$, a character of $W(U_0)$ that is

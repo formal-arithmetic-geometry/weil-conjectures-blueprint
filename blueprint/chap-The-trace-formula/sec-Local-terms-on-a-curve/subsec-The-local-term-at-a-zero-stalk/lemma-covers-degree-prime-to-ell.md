@@ -3,6 +3,7 @@ id = "lemma-covers-degree-prime-to-ell"
 kind = "lemma"
 title = "Covers of degree prime to $\\ell$"
 order = 976
+lean = ["AlgebraicGeometry.Etale.CurveLocalModel.nonempty_coverDatum", "AlgebraicGeometry.Scheme.exists_sylow_galoisCover_trivializing", "AlgebraicGeometry.exists_finite_smooth_cover_not_dvd_ramificationIdx"]
 +++
 Let $S$ be the strict localization of a smooth curve over the
 algebraically closed field $k$ at a closed

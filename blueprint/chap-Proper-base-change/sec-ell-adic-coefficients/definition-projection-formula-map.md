@@ -3,6 +3,8 @@ id = "definition-projection-formula-map"
 kind = "definition"
 title = "Projection formula map"
 order = 411
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.projectionMap"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $p:X\to Y$ be a morphism, $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ and
 $M\in D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$. The *projection formula map*

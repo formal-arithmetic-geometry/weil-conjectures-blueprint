@@ -3,6 +3,8 @@ id = "proposition-six-operations-change-coefficients"
 kind = "proposition"
 title = "The six operations and change of coefficients"
 order = 639
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom_comp_app"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-change-of-coefficients-maps"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps of coefficient rings listed
 above. Extension of scalars sends $D^b_{\mathrm{ctf}}(X,\Lambda)$ into

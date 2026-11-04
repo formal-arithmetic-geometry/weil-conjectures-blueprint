@@ -3,6 +3,7 @@ id = "lemma-tangent-cones-on-cover"
 kind = "lemma"
 title = "Tangent cones on the cover"
 order = 978
+lean = ["AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.tangentConesMeetAtOrigin", "AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.isDiscreteValuationRing_H'"]
 +++
 For $i=1,2$ let $X_i'\to X_i$ be a finite flat morphism of degree $d$ as in
 Lemma [lemma-covers-degree-prime-to-ell], with $y_i'$ the point over

@@ -3,6 +3,8 @@ id = "lemma-continuity-ext-out-constructible-complex"
 kind = "lemma"
 title = "Continuity of Ext"
 order = 280
+lean = ["AlgebraicGeometry.ProEtale.constructible_ext_continuity", "AlgebraicGeometry.ProEtale.bounded_constructible_ext_generated"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++
 Let $(K_\alpha^\bullet)$ be a filtered diagram of complexes of
 $\Lambda_X$-modules that all vanish below a fixed degree, and let $M$ be
