@@ -3,7 +3,7 @@ id = "corollary-bounded-below-classical-complexes--2"
 kind = "corollary"
 title = "Bounded-below classical complexes (2)"
 name_showing = false
-order = 129002
+order = 129003
 aliases = ["bp-r037-2"]
 +++
 There is an equivalence

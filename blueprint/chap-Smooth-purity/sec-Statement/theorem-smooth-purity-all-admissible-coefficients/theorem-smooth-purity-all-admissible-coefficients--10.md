@@ -2,7 +2,7 @@
 id = "theorem-smooth-purity-all-admissible-coefficients--10"
 kind = "theorem"
 title = "Composition"
-order = 731019
+order = 731020
 aliases = ["bp-r220-10"]
 +++
 For a smooth morphism $h:Y\to Z$ of pure relative dimension $e$ and

@@ -4,4 +4,6 @@ of = "proposition-compatibility-purity-change-coefficients--4"
 order = 812009
 uses = ["proposition-compatibility-purity-change-coefficients--3", "proposition-six-operations-change-coefficients"]
 +++
-Use the purity clause immediately preceding this one and the compatibility of the coefficient comparisons with the counit. This is the final argument of the original proof.
+By Definition [definition-trace-map], the trace is $\varepsilon_f\circ Rf_!(\gamma_f)$. Scalar extension carries $\gamma_f$ to the required purity map by clause [proposition-compatibility-purity-change-coefficients--3]. Proposition [proposition-six-operations-change-coefficients] identifies the $Rf_!$ comparison and carries the counit to the counit over the new coefficient ring. Applying these identifications to the composite gives precisely the new trace, proving the statement.
+
+*Source:* the proof of Proposition [proposition-compatibility-purity-change-coefficients].

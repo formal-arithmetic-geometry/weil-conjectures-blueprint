@@ -3,7 +3,7 @@ id = "lemma-naturality-under-base-change-etale--4"
 kind = "lemma"
 title = "Naturality under base change and étale maps (4)"
 name_showing = false
-order = 752005
+order = 752008
 aliases = ["bp-r227-4"]
 +++
 Let $e:V'\to V$ be an étale $S$-morphism and let

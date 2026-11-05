@@ -3,7 +3,7 @@ id = "corollary-cohomology-geometric-fibres--2"
 kind = "corollary"
 title = "Cohomology of geometric fibres (2)"
 name_showing = false
-order = 406002
+order = 406003
 aliases = ["bp-r123-2"]
 +++
 For a classical torsion sheaf $F$ of $\Lambda$-modules this says

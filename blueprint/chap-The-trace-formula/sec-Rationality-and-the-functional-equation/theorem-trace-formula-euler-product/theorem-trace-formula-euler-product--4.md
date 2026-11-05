@@ -3,7 +3,7 @@ id = "theorem-trace-formula-euler-product--4"
 kind = "theorem"
 title = "The trace formula as an Euler product (4)"
 name_showing = false
-order = 1037004
+order = 1037007
 aliases = ["bp-r317-4"]
 +++
 $$

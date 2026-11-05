@@ -3,7 +3,7 @@ id = "proposition-lie-algebras-faithful-semisimple-representation--2"
 kind = "proposition"
 title = "Lie algebras with a faithful semisimple representation (2)"
 name_showing = false
-order = 1743002
+order = 1743003
 aliases = ["bp-r540-2"]
 +++
 $$

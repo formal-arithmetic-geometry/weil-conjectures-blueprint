@@ -3,7 +3,7 @@ id = "corollary-determinant-weights--2"
 kind = "corollary"
 title = "Determinant weights (2)"
 name_showing = false
-order = 1114002
+order = 1114003
 aliases = ["bp-r341-2"]
 +++
 The number

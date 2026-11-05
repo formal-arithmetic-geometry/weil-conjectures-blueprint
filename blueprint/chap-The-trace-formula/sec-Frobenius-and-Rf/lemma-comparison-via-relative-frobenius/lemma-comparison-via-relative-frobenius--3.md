@@ -3,7 +3,7 @@ id = "lemma-comparison-via-relative-frobenius--3"
 kind = "lemma"
 title = "Comparison via relative Frobenius (3)"
 name_showing = false
-order = 1000004
+order = 1000006
 aliases = ["bp-r305-3"]
 +++
 The composition isomorphism

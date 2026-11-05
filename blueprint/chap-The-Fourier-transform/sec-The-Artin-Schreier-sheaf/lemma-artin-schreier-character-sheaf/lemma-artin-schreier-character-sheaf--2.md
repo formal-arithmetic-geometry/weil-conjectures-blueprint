@@ -2,7 +2,7 @@
 id = "lemma-artin-schreier-character-sheaf--2"
 kind = "lemma"
 title = "Multiplication isomorphism"
-order = 1220003
+order = 1220004
 aliases = ["bp-r375-2"]
 +++
 For the addition map $m$, the specified sheaf has an isomorphism

@@ -3,7 +3,7 @@ id = "theorem-poincare-duality--2"
 kind = "theorem"
 title = "Poincaré duality (2)"
 name_showing = false
-order = 857002
+order = 857003
 aliases = ["bp-r257-2"]
 +++
 $$

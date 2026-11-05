@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--5"
 kind = "corollary"
 title = "Cohomological determinant product"
-order = 1040006
+order = 1040009
 aliases = ["bp-r318-5"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, in $\Lambda[[T]]$,

@@ -3,7 +3,7 @@ id = "lemma-restriction-geometric-generic-fibre--2"
 kind = "lemma"
 title = "Restriction to a geometric generic fibre (2)"
 name_showing = false
-order = 839002
+order = 839003
 aliases = ["bp-r251-2"]
 +++
 $$

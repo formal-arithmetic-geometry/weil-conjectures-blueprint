@@ -3,7 +3,7 @@ id = "theorem-global-verdier-duality--3"
 kind = "theorem"
 title = "Global Verdier duality (3)"
 name_showing = false
-order = 852003
+order = 852005
 aliases = ["bp-r255-3"]
 +++
 The first is the adjoint of the pairing formed by the cup product

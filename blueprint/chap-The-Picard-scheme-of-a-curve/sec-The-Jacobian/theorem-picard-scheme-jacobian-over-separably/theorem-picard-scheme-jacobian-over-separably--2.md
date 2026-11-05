@@ -3,7 +3,7 @@ id = "theorem-picard-scheme-jacobian-over-separably--2"
 kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field (2)"
 name_showing = false
-order = 1552002
+order = 1552003
 aliases = ["bp-r483-2"]
 +++
 Each component is a smooth proper geometrically connected variety of

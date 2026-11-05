@@ -3,7 +3,7 @@ id = "lemma-rigidification-along-section--3"
 kind = "lemma"
 title = "Rigidification along a section (3)"
 name_showing = false
-order = 1523003
+order = 1523005
 aliases = ["bp-r474-3"]
 +++
 There is a split

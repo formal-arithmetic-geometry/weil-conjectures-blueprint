@@ -2,7 +2,7 @@
 id = "corollary-verdier-exchange-formulas--3"
 kind = "corollary"
 title = "Dual of inverse image"
-order = 848004
+order = 848006
 aliases = ["bp-r254-3"]
 +++
 On $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ there is the natural isomorphism

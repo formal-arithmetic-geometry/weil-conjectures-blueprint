@@ -2,7 +2,7 @@
 id = "proposition-exceptional-inverse-image-smooth-morphism--5"
 kind = "proposition"
 title = "Tensor description of exceptional inverse image"
-order = 562006
+order = 562010
 aliases = ["bp-r169-5"]
 +++
 The canonical map

@@ -2,7 +2,7 @@
 id = "theorem-weil-conjectures-smooth-proper-schemes--16"
 kind = "theorem"
 title = "Functional equation"
-order = 1391017
+order = 1391030
 aliases = ["bp-r429-16"]
 +++
 There is $\varepsilon\in\{1,-1\}$ such that

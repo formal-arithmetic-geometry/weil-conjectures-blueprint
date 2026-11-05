@@ -3,7 +3,7 @@ id = "lemma-flat-models-generators--3"
 kind = "lemma"
 title = "Flat models and generators (3)"
 name_showing = false
-order = 255003
+order = 255005
 aliases = ["bp-r075-3"]
 +++
 Consequently, $D^b_{\mathrm{ctf}}(X,A)$ is generated,

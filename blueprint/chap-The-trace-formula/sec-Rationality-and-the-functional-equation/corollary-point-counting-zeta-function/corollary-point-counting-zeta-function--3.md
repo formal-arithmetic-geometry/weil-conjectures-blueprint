@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--3"
 kind = "definition"
 title = "Zeta function"
-order = 1040004
+order = 1040006
 aliases = ["bp-r318-3"]
 +++
 Define

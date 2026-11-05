@@ -3,7 +3,7 @@ id = "lemma-tangent-cones-on-cover--2"
 kind = "lemma"
 title = "Tangent cones on the cover (2)"
 name_showing = false
-order = 985002
+order = 985003
 aliases = ["bp-r300-2"]
 +++
 and the tangent cone of

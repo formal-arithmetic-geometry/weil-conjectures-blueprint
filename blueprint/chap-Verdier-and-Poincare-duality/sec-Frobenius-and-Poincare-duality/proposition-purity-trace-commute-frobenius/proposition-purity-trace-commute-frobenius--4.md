@@ -3,7 +3,7 @@ id = "proposition-purity-trace-commute-frobenius--4"
 kind = "proposition"
 title = "Purity and trace commute with Frobenius (4)"
 name_showing = false
-order = 882004
+order = 882007
 aliases = ["bp-r265-4"]
 +++
 With these identifications, and the Kummer identification

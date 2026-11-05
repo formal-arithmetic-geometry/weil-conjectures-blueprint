@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--7"
 kind = "lemma"
 title = "Finite stratification filtration"
-order = 268008
+order = 268014
 aliases = ["bp-r080-7"]
 +++
 Every $F\in\Cons(X,\Lambda)$ has a finite filtration

@@ -3,4 +3,6 @@ kind = "proof"
 of = "proposition-six-operations-change-coefficients--14"
 order = 646029
 +++
-This is the corresponding composition check in the original joint proof: use pullback composition, transposition of counits, or the compactification comparison according to the operation.
+The inverse-image coefficient comparisons and geometric composition comparisons are the canonical associativity maps for derived pullback along ringed topoi. Both routes are the reassociation of the same composite pullback. Coherence gives their equality.
+
+*Source:* the proof of Proposition [proposition-six-operations-change-coefficients].

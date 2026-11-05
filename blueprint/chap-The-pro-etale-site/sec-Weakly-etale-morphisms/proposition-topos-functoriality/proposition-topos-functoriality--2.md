@@ -3,7 +3,7 @@ id = "proposition-topos-functoriality--2"
 kind = "proposition"
 title = "The topos and its functoriality (2)"
 name_showing = false
-order = 39002
+order = 39003
 aliases = ["bp-r006-2"]
 +++
 Every scheme morphism

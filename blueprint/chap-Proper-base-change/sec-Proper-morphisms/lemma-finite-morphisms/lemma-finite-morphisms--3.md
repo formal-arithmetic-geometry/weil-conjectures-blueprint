@@ -3,7 +3,7 @@ id = "lemma-finite-morphisms--3"
 kind = "lemma"
 title = "Finite morphisms (3)"
 name_showing = false
-order = 384003
+order = 384005
 aliases = ["bp-r116-3"]
 +++
 Consequently, for

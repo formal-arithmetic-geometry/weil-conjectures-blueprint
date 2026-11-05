@@ -3,7 +3,7 @@ id = "proposition-cartier-s-theorem--2"
 kind = "proposition"
 title = "Cartier's theorem (2)"
 name_showing = false
-order = 1720002
+order = 1720003
 aliases = ["bp-r533-2"]
 +++
 In particular
