@@ -8,8 +8,8 @@ The blueprint is built afresh in <out dir>, which is then put in place of
 
 1. scripts/tex2bp.py converts the whole tex (chapters 1-25), as for the import;
 2. what was added to the blueprint after the import is carried over, node by
-   node (matched by id, or through RENAMED): `lean`, `uses`, `aliases`, and
-   the kind `appendix` of the appendix chapters.  The references/ directory
+   node (matched by id, or through RENAMED): `lean`, `uses`, `aliases`,
+   `hide_content`, and the kind `appendix` or `matter` of a chapter.  The references/ directory
    is kept as it is;
 3. scripts/layer2bp.py puts the clauses of the layer-2 tex under the sketch
    nodes again (chapters 2-25).  The layer-2 tex may lag behind the tex: it
@@ -19,6 +19,7 @@ The blueprint is built afresh in <out dir>, which is then put in place of
 
 Run on the tex the blueprint was made from, it gives the blueprint back.
 """
+import json
 import os
 import re
 import shutil
@@ -168,8 +169,9 @@ for dp, dn, fn in os.walk(conv):
         extra = {}
         if prev is not None:
             carried += 1
-            if prev.get('kind') == 'appendix' and fm['kind'] == 'chapter':
-                lines = ['kind = "appendix"' if x == 'kind = "chapter"' else x for x in lines]
+            # a chapter made an appendix, or front matter, keeps that kind
+            if prev.get('kind') in ('appendix', 'matter') and fm['kind'] == 'chapter':
+                lines = [f'kind = "{prev["kind"]}"' if x == 'kind = "chapter"' else x for x in lines]
             for a in CARRIED:
                 if a in prev:
                     extra[a] = list(prev[a])
@@ -189,6 +191,10 @@ for dp, dn, fn in os.walk(conv):
         for a in CARRIED:
             if a in extra:
                 lines.append(f'{a} = {toml_list(extra[a])}')
+        # a heading whose content the website leaves off its parent's page
+        if prev is not None and prev.get('hide_content') is not None:
+            v = prev['hide_content']
+            lines.append(f'hide_content = {"true" if v is True else "false" if v is False else json.dumps(v)}')
         dst = os.path.join(OUT, os.path.relpath(src, conv))
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         open(dst, 'w', encoding='utf-8').write('+++\n' + '\n'.join(lines) + '\n+++\n' + body)

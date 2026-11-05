@@ -12,9 +12,10 @@ and an extension of two sheaves with a common upper bound has the same
 bound.  Tensor products of pure sheaves of weights $a$ and $b$ are pure
 of weight $a+b$, and the dual of a pure lisse sheaf of weight $a$ is
 pure of weight $-a$. A tensor product of mixed sheaves of weights at
-most $a$ and at most $b$ is mixed of weights at most $a+b$, and the dual
-of a mixed lisse sheaf is mixed, with graded pieces the duals of the
-given ones, of the negated weights.  Inverse image preserves purity,
+most $a$ and at most $b$ is mixed of weights at most $a+b$. The dual of
+a mixed lisse sheaf is mixed, of the negated weights; when its filtration
+has lisse graded pieces, their duals are the graded pieces of the
+annihilator filtration of the dual.  Inverse image preserves purity,
 mixedness and their upper bounds.  If a complex $K$ has weights at most
 $w$, then $K[r]$ has weights at most $w+r$.
 
