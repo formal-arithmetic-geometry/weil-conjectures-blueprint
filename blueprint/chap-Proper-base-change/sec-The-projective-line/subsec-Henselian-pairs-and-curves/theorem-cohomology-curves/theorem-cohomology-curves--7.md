@@ -6,6 +6,7 @@ name_showing = false
 order = 360014
 aliases = ["bp-r109-7"]
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isAlgClosed"]
+uses = ["definition-torsion-sheaves--1"]
 +++
 Let $k'/k$ be an extension of algebraically closed fields, let $C$ be a
 proper scheme of finite type over $k$ with $\dim C\leq1$, let $\Lambda$

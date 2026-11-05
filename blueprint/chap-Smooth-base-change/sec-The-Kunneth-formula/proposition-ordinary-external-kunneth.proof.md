@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ordinary-external-kunneth"
 order = 721
-uses = ["proposition-milnor-sequence", "theorem-comparison-direct-images", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "definition-projection-formula-map", "proposition-proper-direct-image-constructible-complexes", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "lemma-change-coefficients", "lemma-base-change-along-product-projection"]
+uses = ["proposition-pro-etale-coverings", "theorem-comparison-direct-images", "proposition-inverting-ell", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "lemma-change-coefficients", "lemma-kunneth-field-coefficients"]
 +++
 We apply Lemma [lemma-kunneth-one-identity-factor] once in each factor
 of the factorization

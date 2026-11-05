@@ -6,6 +6,7 @@ name_showing = false
 order = 342001
 aliases = ["bp-r104-1"]
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
+uses = ["definition-underived-base-change-map--1", "definition-torsion-sheaves--1"]
 +++
 For a morphism $f:X\to Y$, write $\mathrm{PBC}_{\Lambda}(f)$ if the base change map
 (4.3) is an isomorphism

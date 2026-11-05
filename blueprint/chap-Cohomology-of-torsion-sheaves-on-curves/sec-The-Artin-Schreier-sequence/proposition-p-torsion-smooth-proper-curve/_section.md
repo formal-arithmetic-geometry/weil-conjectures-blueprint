@@ -2,7 +2,7 @@
 id = "proposition-p-torsion-smooth-proper-curve"
 kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$"
-order = 1587
+order = 1589
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_isProper", "AlgebraicGeometry.IsCurve.finite_sheafH_constantModSheaf_of_isProper"]
 +++
 Let $C$ be a smooth proper connected curve of genus $g$ over an

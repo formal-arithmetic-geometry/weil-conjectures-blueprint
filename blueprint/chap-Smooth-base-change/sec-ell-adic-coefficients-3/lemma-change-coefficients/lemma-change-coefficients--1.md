@@ -6,6 +6,7 @@ name_showing = false
 order = 699001
 aliases = ["bp-r209-1"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1", "lemma-inverse-image-tensor-product--1"]
 +++
 Suppose that the schemes in (8.1) are of finite type over
 $k$. Let $\Lambda\to\Lambda'$ be a coefficient map of

@@ -5,6 +5,7 @@ title = "Comparison for internal Hom"
 order = 839005
 aliases = ["bp-r251-3"]
 lean = ["AlgebraicGeometry.Etale.isIso_derivedHomUpperStarComparison_of_generic"]
+uses = ["definition-constructible-sheaves--6", "definition-change-of-coefficients-maps--6"]
 +++
 In the setting above, let $X$ be a $B$-scheme of finite type, and let
 $K\in D^b_{\mathrm{ctf}}(X,A)$ and $M\in\Dbc(X,A)$. The map

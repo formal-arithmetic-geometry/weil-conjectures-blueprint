@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-rank-one-sheaves-have-finite"
 order = 1108
-uses = ["lemma-invariant-additive-characters"]
+uses = ["lemma-acyclic-resolutions", "lemma-proper-smooth-model", "proposition-kummer-duality-integral-tate-module", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "proposition-integral-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h"]
 +++
 We show that a fixed power of $\chi$ is trivial on $\pi_1(U)$, by
 applying Lemma [lemma-invariant-additive-characters] to its logarithm.

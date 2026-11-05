@@ -2,7 +2,7 @@
 id = "prose-E-25"
 kind = "hidden"
 title = "Specialization of the trace class (4)"
-order = 1695
+order = 1697
 +++
 The proposition is useful only if $\operatorname{sp}_F$ loses no
 information. In the situation of the contracting argument the fixed

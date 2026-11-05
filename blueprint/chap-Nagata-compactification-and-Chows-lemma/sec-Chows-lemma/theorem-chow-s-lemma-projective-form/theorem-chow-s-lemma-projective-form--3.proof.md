@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-chow-s-lemma-projective-form--3"
 order = 1471006
+uses = ["lemma-schematic-closure-uniqueness--1", "lemma-uniqueness-maps-dense-open--1"]
 +++
 Embed $X$ as a closed subscheme of a separated scheme $Y$ of finite
 presentation over $S$. Apply Noetherian approximation to $S$ and

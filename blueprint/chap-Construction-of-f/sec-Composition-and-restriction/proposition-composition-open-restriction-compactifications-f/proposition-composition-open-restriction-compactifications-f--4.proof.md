@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f--4"
 order = 530009
+uses = ["proposition-proper-direct-image-constructible-complexes--6", "proposition-proper-direct-image-constructible-complexes--8", "lemma-inverse-image-tensor-product--3", "definition-compactification-refinement--3"]
 +++
 (2) For an open immersion, $Rj_!=j_!$ (take the trivial compactification
 $p=\mathrm{id}$), and $j_!\dashv j^*$ on the localizing categories; here

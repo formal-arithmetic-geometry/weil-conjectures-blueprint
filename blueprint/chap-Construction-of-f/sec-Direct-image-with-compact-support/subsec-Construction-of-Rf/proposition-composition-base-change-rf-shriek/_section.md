@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Composition and base change for $Rf_!$"
 order = 516
 lean = ["AlgebraicGeometry.Etale.isIso_derivedPlusFormalism_baseChange_and_shriekBaseChange", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso_assoc"]
-uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-derived-base-change-map", "theorem-proper-base-change-classical-pro", "lemma-schematic-closure-uniqueness"]
 +++
 For every admissible $\Lambda$, the following statements hold on
 $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$ and restrict to $D^b_{\mathrm{ctf}}(-,\Lambda)$.

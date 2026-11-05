@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-purity-vector-bundles"
 order = 742
-uses = ["proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "lemma-affine-space-etale-localization"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "lemma-affine-space-etale-localization", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 We transport the trace map of affine space along local trivializations,
 show that the result does not depend on the trivialization, so that the

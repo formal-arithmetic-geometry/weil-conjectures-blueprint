@@ -4,7 +4,7 @@ kind = "proposition"
 title = "$\\Dctf(X,\\Qbar)$ as a $2$-colimit"
 order = 649
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves"]
+uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 Extension of scalars identifies
 

@@ -6,6 +6,7 @@ name_showing = false
 order = 88001
 aliases = ["bp-r023-1"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.products_exact"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $X$ be a scheme, $\mathcal R$ a sheaf of rings on
 $X_{\mathrm{pro}\acute{e}t}$, and $I$ a set. The product functor

@@ -6,6 +6,7 @@ name_showing = false
 order = 679003
 aliases = ["bp-r204-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 Let $\Lambda$ be a commutative ring, and let $g:Y'_T\to T$, $\pi:T'\to T$
 and $f_1:Z\to T'$ be morphisms of schemes, with $\pi$ integral. Put

@@ -4,7 +4,6 @@ kind = "proposition"
 title = "The comparison morphism and its inverse image"
 order = 112
 lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar", "AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone"]
-uses = ["definition-small-pro-etale-site"]
 +++
 Inclusion of étale objects defines a morphism of topoi
 

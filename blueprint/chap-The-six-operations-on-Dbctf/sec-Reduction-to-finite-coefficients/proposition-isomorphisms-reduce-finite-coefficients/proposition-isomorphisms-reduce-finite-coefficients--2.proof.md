@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-isomorphisms-reduce-finite-coefficients--2"
 order = 654005
-uses = ["lemma-reduction-derived-nakayama"]
 +++
 Let $\Lambda=\mathcal O_E$, and put $C=\Cone(\theta(K))$; we must show
 $C=0$. The complexes $F(K)$ and $G(K)$ lie in $\Dbc(Y,\mathcal O_E)$.

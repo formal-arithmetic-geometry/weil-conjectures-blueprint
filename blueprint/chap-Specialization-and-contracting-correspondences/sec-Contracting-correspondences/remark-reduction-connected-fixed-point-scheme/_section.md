@@ -2,7 +2,7 @@
 id = "remark-reduction-connected-fixed-point-scheme"
 kind = "remark"
 title = "Reduction to a connected fixed point scheme"
-order = 1707
+order = 1709
 +++
 The hypothesis in the preceding lemma that $F$ is connected is no loss
 of generality. Indeed, let $F_0\subset \Fix(c)$ be a connected component

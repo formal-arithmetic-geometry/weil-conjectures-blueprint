@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-local-term-restriction-map"
 order = 968
-uses = ["definition-trace-morphism"]
 +++
 We show that the local term and the displayed composite are both
 adjoint to one map $R\gamma_*\gamma^!P\to R\delta_*\omega_X$. Once the class

@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Point-count estimates"
 order = 1397
 lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank", "AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le_two_mul_genus"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
+uses = ["lemma-stability"]
 +++
 Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected
 of dimension $d\geq1$, and let $b_i$ be as in

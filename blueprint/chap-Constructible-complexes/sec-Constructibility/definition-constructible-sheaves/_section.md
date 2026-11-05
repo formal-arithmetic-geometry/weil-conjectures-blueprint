@@ -4,7 +4,7 @@ kind = "definition"
 title = "Constructible sheaves"
 order = 219
 lean = ["AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-lisse-sheaves"]
+uses = ["lemma-stability", "definition-lisse-sheaves"]
 +++
 Let $\Lambda$ be a commutative condensed ring.
 

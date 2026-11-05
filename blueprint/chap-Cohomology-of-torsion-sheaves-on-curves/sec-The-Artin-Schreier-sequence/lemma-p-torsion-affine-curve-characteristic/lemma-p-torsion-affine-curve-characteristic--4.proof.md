@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-p-torsion-affine-curve-characteristic--4"
-order = 1590008
+order = 1592008
 +++
 Every étale covering of an affine étale $X$-scheme $V=\operatorname{Spec}A$
 admits a finite affine refinement $V_i=\operatorname{Spec}B_i$, whose

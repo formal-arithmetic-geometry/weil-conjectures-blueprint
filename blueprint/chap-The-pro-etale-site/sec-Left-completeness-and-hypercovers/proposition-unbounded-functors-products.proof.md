@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-unbounded-functors-products"
 order = 101
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability"]
 +++
 K-injective resolutions of arbitrary complexes exist in the
 Grothendieck category of $\mathcal R$-modules [Stacks, [079P](https://stacks.math.columbia.edu/tag/079P)], which

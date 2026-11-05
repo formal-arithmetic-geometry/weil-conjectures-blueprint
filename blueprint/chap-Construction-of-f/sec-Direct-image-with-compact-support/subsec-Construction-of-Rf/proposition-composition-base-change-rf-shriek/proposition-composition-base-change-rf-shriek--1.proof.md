@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-base-change-rf-shriek--1"
 order = 516003
+uses = ["proposition-proper-base-change-degree-zero--1", "definition-injective-acyclicity--1", "proposition-proper-direct-image-constructible-complexes--6", "proposition-proper-direct-image-constructible-complexes--8", "lemma-inverse-image-tensor-product--1", "definition-compactification-refinement--2", "definition-compactification-refinement--3", "theorem-nagata-s-compactification-theorem--1"]
 +++
 *The composition isomorphism.* Choose compactifications $f=p\circ j$
 and $g=q\circ j_Y$, with $j:X\to\overline X$ and $j_Y:Y\to\overline Y$ open and

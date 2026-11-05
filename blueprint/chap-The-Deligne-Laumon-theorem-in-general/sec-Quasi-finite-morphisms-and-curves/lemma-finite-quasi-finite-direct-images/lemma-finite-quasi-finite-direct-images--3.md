@@ -6,6 +6,7 @@ name_showing = false
 order = 1324005
 aliases = ["bp-r408-3"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.lowerStar_of_isFinite"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--3", "definition-weights--2", "definition-compactification-refinement--1"]
 +++
 Let $k_0=\Fq$, let $\ell\ne\operatorname{char}(k_0)$ be prime, and fix
 $\iota:\Qbarl\hookrightarrow\C$. Let $g:Z_0\to Y_0$ be a finite

@@ -4,7 +4,7 @@ kind = "definition"
 title = "Trace function"
 order = 1023
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilStalkTraceAlternatingSum", "AlgebraicGeometry.WeilSheaf.traceFunction"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-weil-structure", "definition-categorical-trace"]
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++
 Let $(K,\phi)$ be a Weil complex on $X$ as in
 Theorem [theorem-grothendieck-lefschetz-trace-formula], and let $m\geq1$.

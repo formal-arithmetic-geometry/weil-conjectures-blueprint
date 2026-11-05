@@ -2,14 +2,13 @@
 kind = "proof"
 of = "proposition-central-element-arithmetic-monodromy-group"
 order = 1142
-uses = ["lemma-identity-component"]
 +++
 We write a power of $\rho(s)$ as a central torus element times an
 element of $H$, by Lemma [lemma-identity-component], and average
 the torus part over the components of $G$ so that it becomes central
 in all of $G$. The factors from $H$ that accumulate in this
-process are collected in $h$; their determinants are roots of unity, so by
-Lemma [lemma-determinant-weight-from-central-scalar] they do no harm. Note that the
+process are collected in $h$; their determinants are roots of unity, so they do not affect
+determinant weights (see Lemma [lemma-determinant-weight-from-central-scalar] below). Note that the
 direct sum $V$ of the $V_i$ is again semisimple, so
 Lemma [lemma-identity-component] applies to it.
 

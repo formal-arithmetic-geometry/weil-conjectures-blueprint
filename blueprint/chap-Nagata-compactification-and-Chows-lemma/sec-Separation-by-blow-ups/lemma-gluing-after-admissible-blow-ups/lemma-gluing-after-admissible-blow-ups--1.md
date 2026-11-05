@@ -6,6 +6,7 @@ name_showing = false
 order = 1458001
 aliases = ["bp-r454-1"]
 lean = ["AlgebraicGeometry.CommonModification.dense_range_j", "AlgebraicGeometry.nonempty_commonModification"]
+uses = ["definition-admissible-blow-up--1"]
 +++
 Let $S$ be qcqs, and let $U\subseteq T_i$ ($i=1,2$) be open immersions
 of separated $S$-schemes of finite type, with $U$ quasi-compact.

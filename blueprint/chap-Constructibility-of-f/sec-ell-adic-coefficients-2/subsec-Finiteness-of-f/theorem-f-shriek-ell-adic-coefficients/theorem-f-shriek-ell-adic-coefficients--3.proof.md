@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-f-shriek-ell-adic-coefficients--3"
 order = 616007
-uses = ["proposition-direct-image-along-open-immersion--3", "proposition-projective-line-rational-coefficients"]
+uses = ["proposition-direct-image-along-open-immersion--3"]
 +++
 Take $\Lambda=\overline{\mathbf Q}_\ell$.
 

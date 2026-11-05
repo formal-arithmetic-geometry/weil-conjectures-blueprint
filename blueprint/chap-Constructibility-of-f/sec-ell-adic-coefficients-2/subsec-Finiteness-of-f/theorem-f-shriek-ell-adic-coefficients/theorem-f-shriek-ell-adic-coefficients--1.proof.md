@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-f-shriek-ell-adic-coefficients--1"
 order = 616003
-uses = ["proposition-direct-image-along-open-immersion--1", "proposition-ell-adic-cycle-class-diagonal"]
+uses = ["proposition-direct-image-along-open-immersion--1"]
 +++
 In the geometric argument reproduced below, take $\Lambda=\mathcal O_E$; the final paragraph supplies precisely the integral inputs needed by the factorization.
 

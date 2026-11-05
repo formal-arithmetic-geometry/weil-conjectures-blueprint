@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-additivity-open-subscheme-complement"
 order = 1004
-uses = ["proposition-milnor-sequence", "proposition-inverting-ell", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "proposition-properties-trace"]
+uses = ["proposition-pro-etale-coverings", "lemma-inverse-image-coefficient-sheaves", "lemma-reduction-derived-nakayama", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-kunneth-field-coefficients", "definition-relative-dualizing-complex"]
 +++
 The four induced correspondences come from base change, and $R\Gamma_c$
 of the localization triangle is a two-step filtered object with an

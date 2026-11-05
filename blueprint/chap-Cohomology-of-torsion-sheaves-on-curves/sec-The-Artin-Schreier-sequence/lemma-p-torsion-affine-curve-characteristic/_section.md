@@ -2,7 +2,7 @@
 id = "lemma-p-torsion-affine-curve-characteristic"
 kind = "lemma"
 title = "$p$-torsion on an affine curve in characteristic $p$"
-order = 1590
+order = 1592
 +++
 If $U$ is affine over an algebraically closed field $k$ of
 characteristic $p$, then, for the classical constant sheaf $\mathbf F_p$ and

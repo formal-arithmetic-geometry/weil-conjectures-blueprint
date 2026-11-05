@@ -5,6 +5,7 @@ title = "Divisibility of the Jacobian points"
 order = 1561006
 aliases = ["bp-r487-3"]
 lean = ["AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.surjective_npow_points"]
+uses = ["definition-abelian-variety--1", "corollary-degree-jacobian--1"]
 +++
 For every abelian variety $A/k$ and every integer $m>0$,
 multiplication by $m$ on $A(k)$ is surjective. No invertibility

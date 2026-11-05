@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--8"
 kind = "lemma"
 title = "Injection into generic-point cohomology"
-order = 1574016
+order = 1576016
 aliases = ["bp-r490-8"]
 lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two"]
 +++

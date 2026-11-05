@@ -6,6 +6,7 @@ name_showing = false
 order = 679001
 aliases = ["bp-r204-1"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isIntegralHom_of_surjective"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 Let $\Lambda$ be a commutative ring, let $g:T'\to T$ be a morphism of
 schemes, and let $q\geq1$ be an integer. Assume that for every qcqs

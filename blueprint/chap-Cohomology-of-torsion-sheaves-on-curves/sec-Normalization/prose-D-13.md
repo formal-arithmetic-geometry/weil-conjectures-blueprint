@@ -2,7 +2,7 @@
 id = "prose-D-13"
 kind = "hidden"
 title = "Normalization (4)"
-order = 1605
+order = 1607
 +++
 The normalization sequence reduces constant coefficients on a reduced
 curve to the smooth case. By

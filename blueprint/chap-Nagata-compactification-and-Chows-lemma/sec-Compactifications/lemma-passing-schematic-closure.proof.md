@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-passing-schematic-closure"
 order = 1416
-uses = ["proposition-proper-direct-image-constructible-complexes"]
+uses = ["theorem-comparison-direct-images", "proposition-inverting-ell", "lemma-change-coefficients"]
 +++
 The first identification is a statement about supports, and the
 second follows from it by applying $Rp_*$. The only point that needs

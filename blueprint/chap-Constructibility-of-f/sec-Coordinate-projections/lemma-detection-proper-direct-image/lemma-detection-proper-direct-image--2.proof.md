@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-detection-proper-direct-image--2"
 order = 570005
+uses = ["lemma-finite-direct-images--1", "lemma-finite-direct-images--2"]
 +++
 Using the localization triangle we split $K$ into a part on $U$, which is
 known, and a part on $Z$. Since $Z$ is finite over $S$, the part on $Z$ is

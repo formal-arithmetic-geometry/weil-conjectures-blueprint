@@ -3,7 +3,7 @@ id = "proposition-specialization-trace-class--3"
 kind = "proposition"
 title = "Specialization of the trace class (3)"
 name_showing = false
-order = 1687004
+order = 1689004
 aliases = ["bp-r523-3"]
 +++
 Then

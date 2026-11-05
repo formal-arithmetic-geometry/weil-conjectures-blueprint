@@ -6,5 +6,6 @@ name_showing = false
 order = 1511002
 aliases = ["bp-r470-2"]
 lean = ["AlgebraicGeometry.IsAbelianVariety.rationalTateModule"]
+uses = ["definition-abelian-variety--1", "lemma-abelian-variety-commutative--2"]
 +++
 and we put $V_\ell A=T_\ell A\otimes_{\mathbf Z_\ell}\mathbf Q_\ell$.

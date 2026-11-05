@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-bounded-below-cohomology-comparison--2"
 order = 123004
+uses = ["theorem-bounded-below-cohomology-comparison--1"]
 +++
 Since $\nu_X^*$ is exact, applying it termwise preserves acyclic complexes
 and quasi-isomorphisms, so it defines

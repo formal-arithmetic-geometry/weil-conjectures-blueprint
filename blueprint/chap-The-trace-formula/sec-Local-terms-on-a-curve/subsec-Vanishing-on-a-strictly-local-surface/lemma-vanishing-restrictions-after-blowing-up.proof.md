@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-vanishing-restrictions-after-blowing-up"
 order = 980
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-underived-base-change-map", "theorem-comparison-over-henselian-pair-degree", "lemma-cohomology-near-two-transverse-divisors"]
+uses = ["lemma-acyclic-resolutions", "lemma-cohomology-near-two-transverse-divisors", "lemma-schematic-closure-uniqueness"]
 +++
 After blowing up $t$, the three curves are separated along the
 exceptional divisor, which then plays the role of $D_2$ in the previous

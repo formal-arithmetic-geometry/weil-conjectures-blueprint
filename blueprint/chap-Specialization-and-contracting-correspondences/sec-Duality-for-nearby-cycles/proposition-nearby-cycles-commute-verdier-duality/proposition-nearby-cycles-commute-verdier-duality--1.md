@@ -3,7 +3,7 @@ id = "proposition-nearby-cycles-commute-verdier-duality--1"
 kind = "proposition"
 title = "Nearby cycles commute with Verdier duality (1)"
 name_showing = false
-order = 1674001
+order = 1676001
 aliases = ["bp-r519-1"]
 +++
 For every separated $S$-scheme $X$ of finite type and

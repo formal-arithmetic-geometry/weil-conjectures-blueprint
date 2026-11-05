@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-cohomology-smooth-affine-curve"
-order = 1583
-uses = ["definition-constructible-sheaves", "definition-underived-base-change-map", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
+order = 1585
+uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h"]
 +++
 By the Kummer sequence, the vanishing above degree one follows from the
 divisibility of $\operatorname{Pic}(U)$ and the vanishing of

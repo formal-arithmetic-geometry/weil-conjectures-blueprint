@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-f-shriek-ell-adic-coefficients--2"
 order = 616005
-uses = ["proposition-direct-image-along-open-immersion--2", "proposition-projective-line-rational-coefficients"]
+uses = ["proposition-direct-image-along-open-immersion--2"]
 +++
 Take $\Lambda=E$.
 

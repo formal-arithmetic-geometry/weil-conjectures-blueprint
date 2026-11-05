@@ -6,6 +6,7 @@ name_showing = false
 order = 123001
 aliases = ["bp-r035-1"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 Let $X$ be a scheme and $\mathcal A$ a Grothendieck abelian category.
 For a bounded below object $K\in D(X_{\acute{e}t},\mathcal A)$, the unit of the

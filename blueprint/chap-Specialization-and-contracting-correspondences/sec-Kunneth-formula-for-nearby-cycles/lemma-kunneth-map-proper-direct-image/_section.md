@@ -2,9 +2,9 @@
 id = "lemma-kunneth-map-proper-direct-image"
 kind = "lemma"
 title = "The Künneth map and proper direct image"
-order = 1648
+order = 1650
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.kunnethMap_comp_pushforwardExchange"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-pro-etale-base-change-map"]
+uses = ["lemma-stability"]
 +++
 Let $f:X\to X_1$ and $g:Y\to Y_1$ be proper morphisms of separated
 $S$-schemes of finite type, and let $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$

@@ -3,7 +3,7 @@ id = "example-nearby-cycles-node--1"
 kind = "example"
 title = "A node (1)"
 name_showing = false
-order = 1623001
+order = 1625001
 aliases = ["bp-r502-1"]
 +++
 Nearby cycles see more than the special fibre when the family

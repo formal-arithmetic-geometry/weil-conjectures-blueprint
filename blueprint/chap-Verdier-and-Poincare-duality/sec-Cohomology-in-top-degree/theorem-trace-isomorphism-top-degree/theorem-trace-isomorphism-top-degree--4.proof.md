@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree--4"
 order = 866009
-uses = ["theorem-trace-isomorphism-top-degree--2"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "definition-ind-etale-pro-etale-weakly--3", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--6", "lemma-stability--7", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "proposition-w-local-components--1", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-affines-form-basis--2", "theorem-trace-isomorphism-top-degree--2"]
 +++
 Negative degrees vanish because $\mathcal C_A$ is a sheaf in degree zero. Each
 $U_n$ is an open subgroup of the compact group $A$, so $A/U_n$ is finite. The

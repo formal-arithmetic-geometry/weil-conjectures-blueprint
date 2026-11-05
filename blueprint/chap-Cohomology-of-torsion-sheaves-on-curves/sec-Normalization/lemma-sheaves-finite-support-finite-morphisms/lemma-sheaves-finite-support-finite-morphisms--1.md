@@ -3,7 +3,7 @@ id = "lemma-sheaves-finite-support-finite-morphisms--1"
 kind = "lemma"
 title = "Sheaves with finite support (1)"
 name_showing = false
-order = 1600001
+order = 1602001
 aliases = ["bp-r498-1"]
 lean = ["AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar", "AlgebraicGeometry.zero_dimensional_etale_cohomology"]
 +++

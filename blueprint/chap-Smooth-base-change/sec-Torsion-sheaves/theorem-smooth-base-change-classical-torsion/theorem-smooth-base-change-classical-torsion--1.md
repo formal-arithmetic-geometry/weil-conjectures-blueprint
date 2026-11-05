@@ -6,6 +6,7 @@ name_showing = false
 order = 663001
 aliases = ["bp-r200-1"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 In (8.1), suppose $g$ is smooth and $f$ is
 quasi-compact and quasi-separated. Let $F$ be a classical torsion

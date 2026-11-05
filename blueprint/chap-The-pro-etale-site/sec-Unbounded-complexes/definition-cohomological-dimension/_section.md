@@ -4,7 +4,7 @@ kind = "definition"
 title = "Cohomological dimension"
 order = 157
 lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension", "AlgebraicGeometry.ProEtale.relativeCohomologicalDimension"]
-uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-classical-pro-etale-sheaves"]
+uses = ["lemma-stability"]
 +++
 For a qcqs scheme $S$ and a qcqs morphism $g:X\to Y$, the
 *$\ell$-cohomological dimensions* are

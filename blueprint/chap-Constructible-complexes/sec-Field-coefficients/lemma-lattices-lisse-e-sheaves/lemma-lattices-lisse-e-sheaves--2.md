@@ -5,6 +5,7 @@ title = "Lattices étale locally"
 order = 260003
 aliases = ["bp-r077-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.continuousLisse_etale_lattice", "AlgebraicGeometry.ProEtale.exists_lisse_lattice_etale_local"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and let $L$ be an $E_X$-module on $X_{\mathrm{pro}\acute{e}t}$ which is
 locally free of finite rank. There are an étale covering

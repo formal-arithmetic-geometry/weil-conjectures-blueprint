@@ -5,6 +5,7 @@ title = "Graph extension with compatible embeddings"
 order = 1449001
 aliases = ["bp-r451-1"]
 lean = ["AlgebraicGeometry.Compactification.ProperExtension", "AlgebraicGeometry.Compactification.nonempty_properExtension"]
+uses = ["definition-compactification-refinement--1"]
 +++
 Let $S$ be qcqs, let $u:M\to S$ be separated of finite type, and let
 $j:V\hookrightarrow M$ be the inclusion of a quasi-compact open. Fix a

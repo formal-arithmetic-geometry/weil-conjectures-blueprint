@@ -2,7 +2,7 @@
 id = "prose-E-29"
 kind = "hidden"
 title = "Contracting correspondences (4)"
-order = 1708
+order = 1710
 +++
 The proof of the main theorem combines the two lemmas on the
 deformation with Verdier's theorem and with the specialization of trace

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-inverting-ell--2"
 order = 303004
+uses = ["definition-ind-etale-pro-etale-weakly--2", "lemma-stability--6", "proposition-topos-functoriality--1", "proposition-w-local-components--1", "proposition-splitting-ind-etale-covers--1", "proposition-pro-etale-affines-form-basis--2", "corollary-evaluation-weakly-contractible-objects--1", "lemma-lattices-after-finite-stratification--1", "definition-change-of-coefficients-maps--6", "proposition-six-operations-change-coefficients--23", "proposition-sp-unique-adjoint--1"]
 +++
 Use clause [proposition-inverting-ell--1] for bounded torsion and the comparison theorem [bhatt-scholze15, Proposition 6.8.14(2)].
 

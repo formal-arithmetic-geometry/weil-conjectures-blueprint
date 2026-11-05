@@ -2,7 +2,7 @@
 id = "prose-D-18"
 kind = "hidden"
 title = "Dévissage"
-order = 1617
+order = 1619
 +++
 The assertions of Theorem [theorem-cohomology-curves] pass along short
 exact sequences.  To see this, let $0\to F_1\to F\to F_2\to0$ be exact, and

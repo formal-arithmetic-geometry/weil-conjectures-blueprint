@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-connected-components-images-homomorphisms"
-order = 1724
+order = 1726
 uses = ["proposition-cartier-s-theorem"]
 +++
 For (1) we use smoothness to see that irreducible and connected components

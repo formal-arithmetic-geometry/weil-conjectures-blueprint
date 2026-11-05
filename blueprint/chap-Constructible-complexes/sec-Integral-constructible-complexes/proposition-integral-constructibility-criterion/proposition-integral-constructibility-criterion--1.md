@@ -6,6 +6,7 @@ name_showing = false
 order = 246001
 aliases = ["bp-r073-1"]
 lean = ["AlgebraicGeometry.ProEtale.internal_integral_residue_criterion"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-derived-adic-completeness--1", "definition-constructible-sheaves--4", "definition-constructible-sheaves--6"]
 +++
 Let $X$ be Noetherian. The following conditions on
 $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ are equivalent:

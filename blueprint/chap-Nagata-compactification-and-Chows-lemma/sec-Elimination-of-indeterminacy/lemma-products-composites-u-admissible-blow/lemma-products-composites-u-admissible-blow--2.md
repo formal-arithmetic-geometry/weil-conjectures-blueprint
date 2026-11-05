@@ -6,6 +6,7 @@ name_showing = false
 order = 1433003
 aliases = ["bp-r445-2"]
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp"]
+uses = ["definition-admissible-blow-up--1"]
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be
 an open. Let $\mathcal I\subseteq\mathcal O_T$ be a quasi-coherent ideal

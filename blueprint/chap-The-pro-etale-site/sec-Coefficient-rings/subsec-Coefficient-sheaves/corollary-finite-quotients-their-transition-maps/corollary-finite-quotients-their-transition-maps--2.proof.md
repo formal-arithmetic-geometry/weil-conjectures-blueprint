@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-finite-quotients-their-transition-maps--2"
 order = 181004
+uses = ["lemma-reduction-derived-nakayama--1"]
 +++
 Write $q_n:R\to B_n$ for the quotient map of clause [corollary-finite-quotients-their-transition-maps--1]. Since
 $q_n\circ\pi_E^n=0$ by exactness of that sequence in the middle, the zero map

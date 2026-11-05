@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-fixed-point-scheme-deformation"
-order = 1705
+order = 1707
 +++
 Restricting $I_2^n\subset I_1^{n+1}$ to $F$, where the two legs agree,
 gives $I_F^n\subset I_F^{n+1}$. The reverse inclusion always holds, so

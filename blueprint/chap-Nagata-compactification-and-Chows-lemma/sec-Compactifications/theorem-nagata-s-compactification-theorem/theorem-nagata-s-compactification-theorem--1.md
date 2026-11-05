@@ -6,6 +6,7 @@ name_showing = false
 order = 1407001
 aliases = ["bp-r434-1"]
 lean = ["AlgebraicGeometry.exists_isDense_compactification"]
+uses = ["definition-compactification-refinement--1", "definition-compactification-refinement--2"]
 +++
 Let $S$ be quasi-compact and quasi-separated, and let $f:X\to S$ be
 separated, quasi-compact and locally of finite type. There is a

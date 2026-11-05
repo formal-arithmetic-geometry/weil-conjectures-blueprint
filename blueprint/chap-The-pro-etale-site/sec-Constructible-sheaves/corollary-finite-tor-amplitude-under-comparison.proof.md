@@ -2,7 +2,6 @@
 kind = "proof"
 of = "corollary-finite-tor-amplitude-under-comparison"
 order = 153
-uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "definition-classical-pro-etale-sheaves", "theorem-comparison-constructible-sheaves", "definition-constructible-sheaves"]
 +++
 For one direction we represent an étale complex by a bounded flat
 complex and pull it back, and for the other we use the fact that $\nu_X^*$ detects

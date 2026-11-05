@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-determinant-weights"
 order = 1115
-uses = ["lemma-filtrations-spectra", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights"]
+uses = ["lemma-acyclic-resolutions", "lemma-proper-smooth-model", "proposition-kummer-duality-integral-tate-module", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "proposition-integral-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h"]
 +++
 The sheaf $\det\mathcal V$ is a rank-one lisse Weil sheaf defined over a
 finite extension of $E$, so Theorem [theorem-rank-one-sheaves-have-finite] and

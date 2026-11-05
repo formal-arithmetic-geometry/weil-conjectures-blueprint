@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-properties-trace--3"
 order = 896007
+uses = ["proposition-properties-trace--2"]
 +++
 Write $\phi_{Q,Q'}:F(Q)\otimes F(Q')\xrightarrow{\sim}F(Q\otimes Q')$ for the
 monoidal structure of $F$ and $\beta$ for the braidings, so that

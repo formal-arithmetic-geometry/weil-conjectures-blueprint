@@ -2,7 +2,7 @@
 id = "lemma-normal-cones-contracting-ideals"
 kind = "lemma"
 title = "Normal cones and contracting ideals"
-order = 1700
+order = 1702
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.preimage_range_normalConeZeroSection", "AlgebraicGeometry.Scheme.IdealSheafData.range_normalConeMap_subset_range_normalConeZeroSection"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, let

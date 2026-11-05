@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-symmetric-ample-sheaf"
 order = 1502
-uses = ["definition-compactification-refinement", "theorem-picard-scheme-jacobian-over-separably", "proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
 +++
 Every group scheme of finite type over a field is quasi-projective
 [Stacks, [0BF7](https://stacks.math.columbia.edu/tag/0BF7)]. A quasi-projective

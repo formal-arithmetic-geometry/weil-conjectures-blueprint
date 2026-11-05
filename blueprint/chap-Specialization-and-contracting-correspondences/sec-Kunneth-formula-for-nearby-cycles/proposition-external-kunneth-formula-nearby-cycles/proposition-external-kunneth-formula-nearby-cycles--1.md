@@ -3,7 +3,7 @@ id = "proposition-external-kunneth-formula-nearby-cycles--1"
 kind = "proposition"
 title = "External Künneth formula for nearby cycles (1)"
 name_showing = false
-order = 1646001
+order = 1648001
 aliases = ["bp-r510-1"]
 +++
 Let $X,Y$ be separated of finite type over $S$, and let

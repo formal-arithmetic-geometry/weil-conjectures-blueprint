@@ -6,6 +6,7 @@ name_showing = false
 order = 115001
 aliases = ["bp-r032-1"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientClassicalModule_origin", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.Scheme.proEtaleClassicalSheavesImage", "AlgebraicGeometry.Scheme.proEtaleComparisonUnitSets_isIso"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "definition-classical-pro-etale-sheaves--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 Let $X$ be a scheme and $A$ a Grothendieck abelian category. The comparison
 functor

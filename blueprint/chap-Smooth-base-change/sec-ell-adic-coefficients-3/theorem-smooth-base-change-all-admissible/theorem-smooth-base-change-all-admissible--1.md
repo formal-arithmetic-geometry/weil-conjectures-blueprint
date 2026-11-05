@@ -5,6 +5,7 @@ title = "Finite coefficients"
 order = 701002
 aliases = ["bp-r210-1"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_smooth"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--2", "definition-pro-etale-base-change-map--1"]
 +++
 For the finite-coefficient step we use the following more general
 statement. In the cartesian square (8.1), let $g$ be

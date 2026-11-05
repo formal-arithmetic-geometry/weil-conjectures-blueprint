@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-lattices-representations-normal-scheme"
 order = 1084
-uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint"]
+uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-six-operations-change-coefficients"]
 +++
 Let $M\subset L$ be as in the statement, with reductions $M_n=M/\pi_E^nM$.
 The fibres of these reductions define a continuous action of

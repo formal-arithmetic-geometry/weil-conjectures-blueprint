@@ -2,7 +2,7 @@
 id = "proposition-lie-algebras-faithful-semisimple-representation--1"
 kind = "proposition"
 title = "Centrality of the radical"
-order = 1743001
+order = 1745001
 aliases = ["bp-r540-1"]
 lean = ["LieAlgebra.hasCentralRadical_of_isFaithful"]
 +++

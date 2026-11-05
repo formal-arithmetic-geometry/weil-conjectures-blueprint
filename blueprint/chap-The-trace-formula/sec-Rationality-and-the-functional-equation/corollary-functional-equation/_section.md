@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Functional equation"
 order = 1045
 lean = ["AlgebraicGeometry.Scheme.duality_reciprocity", "AlgebraicGeometry.Scheme.reciprocity"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
+uses = ["lemma-stability"]
 +++
 Let $X_0/\mathbf F_q$ be smooth and proper of pure dimension $d$, and let
 $\ell\nmid q$. Put $H^i=H^i(X_{\mathrm{pro}\acute{e}t},\mathbf Q_\ell)$, let $F_i$ be the Frobenius operator $F$ on $H^i$

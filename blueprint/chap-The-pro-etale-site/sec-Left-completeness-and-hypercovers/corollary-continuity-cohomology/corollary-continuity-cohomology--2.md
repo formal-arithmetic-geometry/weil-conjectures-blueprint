@@ -6,6 +6,7 @@ name_showing = false
 order = 106003
 aliases = ["bp-r029-2"]
 lean = ["AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2"]
 +++
 If $f:X\to Y$ is quasi-compact and quasi-separated, the analogous map
 $\varinjlim_iR^qf_*K_i^\bullet\to

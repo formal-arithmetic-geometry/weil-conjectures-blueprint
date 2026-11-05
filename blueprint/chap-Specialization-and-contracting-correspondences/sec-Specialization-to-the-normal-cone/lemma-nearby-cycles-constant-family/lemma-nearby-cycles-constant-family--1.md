@@ -3,7 +3,7 @@ id = "lemma-nearby-cycles-constant-family--1"
 kind = "lemma"
 title = "Nearby cycles of a constant family (1)"
 name_showing = false
-order = 1625001
+order = 1627001
 aliases = ["bp-r503-1"]
 +++
 For a separated $k$-scheme $Y$ of finite type and

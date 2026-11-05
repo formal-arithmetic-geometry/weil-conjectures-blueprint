@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-cohomology-p-1-over-henselian"
 order = 376
-uses = ["theorem-comparison-over-henselian-pair-degree", "lemma-acyclicity-closed-fibre", "definition-compactification-refinement"]
+uses = ["lemma-stability", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "theorem-gabber-affine-proper-base-change", "lemma-schematic-closure-uniqueness"]
 +++
 We treat sheaves killed by a prime first, where
 Lemma [lemma-acyclicity-closed-fibre] applies, and then reach all torsion

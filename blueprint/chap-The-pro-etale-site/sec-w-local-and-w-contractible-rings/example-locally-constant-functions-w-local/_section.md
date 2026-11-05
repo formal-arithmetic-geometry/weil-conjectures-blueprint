@@ -16,6 +16,4 @@ of the local rings $k'$ of the $k'^{\,S_i}$ at the image of $s$, that is,
 $k'$, which is strictly henselian. Thus $R$ is w-strictly local: it is the
 family of copies of $\operatorname{Spec}k'$ indexed by $S$. It is
 w-contractible exactly when $S$ is extremally disconnected. In this example
-the definitions are statements about $S$ alone. Over $\operatorname{Spec}k'$
-every pro-étale affine is of this form
-(Proposition [proposition-pro-etale-site-separably-closed] below).
+the definitions are statements about $S$ alone.

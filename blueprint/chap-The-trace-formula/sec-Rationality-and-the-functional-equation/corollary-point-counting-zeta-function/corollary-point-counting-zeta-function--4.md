@@ -5,6 +5,7 @@ title = "Euler product"
 order = 1040007
 aliases = ["bp-r318-4"]
 lean = ["AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
+uses = ["corollary-point-counting-zeta-function--3"]
 +++
 Let $X_0$ be any scheme of finite type over $\mathbf F_q$. Then, in
 $\mathbf Q[[T]]$,

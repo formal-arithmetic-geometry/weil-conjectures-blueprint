@@ -5,6 +5,7 @@ title = "Scalar extension"
 order = 896006
 aliases = ["bp-r270-3"]
 lean = ["CategoryTheory.Functor.trace_eq_unitEndRingHom_trace"]
+uses = ["definition-categorical-trace--2"]
 +++
 Let $F:\mathcal C\to\mathcal D$ be an additive braided strong monoidal
 functor between preadditive braided monoidal categories, with unit

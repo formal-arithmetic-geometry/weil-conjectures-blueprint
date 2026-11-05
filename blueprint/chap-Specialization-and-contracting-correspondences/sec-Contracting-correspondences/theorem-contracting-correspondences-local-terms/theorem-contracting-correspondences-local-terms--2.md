@@ -3,7 +3,7 @@ id = "theorem-contracting-correspondences-local-terms--2"
 kind = "theorem"
 title = "Contracting correspondences and local terms (2)"
 name_showing = false
-order = 1709003
+order = 1711003
 aliases = ["bp-r531-2"]
 +++
 In particular, if $F_0$ is proper, then

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree--2"
 order = 866005
+uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "definition-ind-etale-pro-etale-weakly--3", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--6", "lemma-stability--7", "proposition-topos-functoriality--1", "proposition-topos-functoriality--2", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "proposition-w-local-components--1", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-affines-form-basis--2", "proposition-comparison-morphism-inverse-image--2", "theorem-classical-sheaves-essential-image--1", "lemma-acyclicity-pulled-back-injectives--1", "proposition-pro-etale-site-separably-closed--3", "definition-underived-base-change-map--1", "definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "definition-torsion-sheaves--3", "definition-torsion-pbc-property--1", "theorem-cohomology-curves--1", "theorem-cohomology-curves--2", "proposition-proper-base-change-projective-line--1", "definition-compactification-refinement--1", "lemma-finite-direct-images--2", "lemma-finite-morphisms-cohomology--2"]
 +++
 A sheaf placed in degree zero has no cohomology in negative degrees. By
 clause [proposition-pro-etale-site-separably-closed--3], $\mathcal C_A$ is the constant pro-étale sheaf with

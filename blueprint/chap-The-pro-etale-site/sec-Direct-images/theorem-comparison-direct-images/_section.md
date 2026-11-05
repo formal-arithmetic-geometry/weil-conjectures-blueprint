@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Comparison of direct images"
 order = 133
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusBaseChange", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso", "AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerStarComparisonPlusBaseChange"]
-uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
 +++
 If $g$ is quasi-compact and quasi-separated, the canonical natural
 transformation

@@ -5,6 +5,7 @@ title = "Reducedness"
 order = 960006
 aliases = ["bp-r292-3"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.exists_isOpenImmersion_rationalPoint_of_isLimit"]
+uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $k_0=\Fq$, let $k$ be an algebraically closed extension of $k_0$, and
 let $X=X_0\times_{k_0}k$ be locally of finite type over $k$. For the

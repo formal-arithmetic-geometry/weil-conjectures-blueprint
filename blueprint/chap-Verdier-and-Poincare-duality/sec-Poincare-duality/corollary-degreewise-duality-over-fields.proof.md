@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-degreewise-duality-over-fields"
 order = 861
-uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "corollary-cohomology-geometric-fibres", "corollary-open-direct-image-over-field", "definition-perfect-pairing"]
+uses = ["lemma-cohomology-modules-underlying-abelian", "proposition-proper-base-change-degree-zero", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "lemma-smooth-morphisms-locally-constant-sheaves", "lemma-extension-across-finite-subset", "lemma-generic-smooth-open", "definition-perfect-pairing"]
 +++
 We take cohomology of the isomorphism (10.8);
 over a field this loses nothing, because linear duality is exact.

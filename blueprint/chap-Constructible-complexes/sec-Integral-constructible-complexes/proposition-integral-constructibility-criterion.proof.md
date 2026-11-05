@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-integral-constructibility-criterion"
 order = 248
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products", "proposition-milnor-sequence", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-constructible-sheaves", "corollary-finite-tor-amplitude-under-comparison", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-integral-models", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
+uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "proposition-comparison-morphism-inverse-image", "lemma-acyclicity-pulled-back-injectives", "theorem-comparison-constructible-sheaves", "definition-derived-adic-completeness", "lemma-integral-models", "lemma-acyclic-resolutions"]
 +++
 The substantial implication is (2)$\Rightarrow$(3), which is
 Proposition [proposition-local-structure-integral-constructible-complexes]. The others hold because

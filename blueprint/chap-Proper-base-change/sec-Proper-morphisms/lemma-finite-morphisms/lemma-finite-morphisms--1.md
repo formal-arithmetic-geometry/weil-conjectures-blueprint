@@ -1,23 +1,21 @@
 +++
 id = "lemma-finite-morphisms--1"
 kind = "lemma"
-title = "Finite morphisms (1)"
+title = "Finite morphisms and base change (1)"
 name_showing = false
 order = 384001
 aliases = ["bp-r116-1"]
-lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite"]
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
+uses = ["definition-underived-base-change-map--1"]
 +++
-Let $A$ be a Grothendieck abelian category, and let $u:V\to W$ be finite. For an $A$-valued sheaf $F$ on
-$V_{\acute{e}t}$ and a geometric point
-$\bar w:\operatorname{Spec}(\Omega)\to W$, with $\Omega$ algebraically
-closed, one has
+Let $u:V\to W$ be finite, and consider abelian sheaves, or sheaves of
+modules over a constant coefficient ring. For any base change $g:W'\to W$,
+write $V'=V\times_W W'$ with projections
+$g':V'\to V$ and $u':V'\to W'$. The underived base change map
+[definition-underived-base-change-map]
 
 $$
-(u_*F)_{\bar w}
-\simeq \prod_{\substack{\bar v:\operatorname{Spec}(\Omega)\to V\\
-u\bar v=\bar w}}F_{\bar v}.
+g^*u_*F\longrightarrow u'_*g'^*F
 $$
 
-The isomorphism is natural in $F$, and its components are the restriction
-maps on germs. The product is finite. In particular, this applies to
-abelian sheaves and to sheaves of modules over a constant coefficient ring.
+is an isomorphism for every such sheaf $F$ on $V_{\acute{e}t}$.

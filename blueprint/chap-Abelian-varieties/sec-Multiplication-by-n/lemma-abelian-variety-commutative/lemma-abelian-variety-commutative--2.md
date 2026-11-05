@@ -5,6 +5,7 @@ title = "Commutativity of the group law"
 order = 1498003
 aliases = ["bp-r466-2"]
 lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
+uses = ["definition-abelian-variety--1"]
 +++
 Let $A$ be a smooth proper connected $k$-group scheme. Its group law is
 commutative: if $m:A\times A\to A$ is multiplication and

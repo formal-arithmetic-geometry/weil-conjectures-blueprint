@@ -3,7 +3,7 @@ id = "corollary-specialization-when-fixed-point-scheme--1"
 kind = "corollary"
 title = "Specialization when the fixed point scheme is a constant family (1)"
 name_showing = false
-order = 1696001
+order = 1698001
 aliases = ["bp-r526-1"]
 +++
 If $F_{\mathrm{red}}=Y\times S$, with $Y$ separated

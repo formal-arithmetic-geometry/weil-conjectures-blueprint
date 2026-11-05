@@ -5,6 +5,7 @@ title = "Reduction to a curve over a normal base"
 order = 682001
 aliases = ["bp-r205-1"]
 lean = ["AlgebraicGeometry.Etale.exists_isPullback_not_isZero_higherDirectImage"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 Let $g:Y'\to Y$ be a morphism of schemes, let $n\geq1$ be an integer
 invertible on $Y$, and let $q\geq1$. Suppose that $\mathrm{BC}(g,n,q-1)$ holds

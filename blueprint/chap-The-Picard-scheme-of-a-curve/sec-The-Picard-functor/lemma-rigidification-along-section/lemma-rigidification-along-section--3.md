@@ -6,6 +6,7 @@ name_showing = false
 order = 1523005
 aliases = ["bp-r474-3"]
 lean = ["AlgebraicGeometry.bijective_pic_split"]
+uses = ["definition-relative-picard-functor--1"]
 +++
 Let $f:C\to S$ have a section $\sigma:S\to C$, and suppose that
 $\mathcal O_U\to f_{U,*}\mathcal O_{C_U}$ is an isomorphism for every

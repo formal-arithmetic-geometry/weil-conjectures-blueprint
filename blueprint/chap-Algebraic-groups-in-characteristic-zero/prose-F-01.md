@@ -2,7 +2,7 @@
 id = "prose-F-01"
 kind = "hidden"
 title = "Algebraic groups in characteristic zero"
-order = 1717
+order = 1719
 +++
 Rankin's argument (Chapter [chap-Purity-of-real-sheaves]) bounds the
 eigenvalues of a real sheaf by the largest determinant weight of its

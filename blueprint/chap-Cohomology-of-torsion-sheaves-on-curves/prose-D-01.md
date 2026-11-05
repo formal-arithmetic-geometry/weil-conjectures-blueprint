@@ -103,4 +103,5 @@ $\nu_C^*$.
 Let $p\ge0$ be the characteristic of $k$. In this appendix $\ell$ is
 an arbitrary prime, possibly equal to $p$. In characteristic zero the
 hypotheses in $(C_4)$ and $(C_6)$ of Theorem [theorem-cohomology-curves] that
-$F$ be prime to the characteristic hold automatically.
+$F$ be prime to the characteristic hold automatically. We begin with direct images along finite morphisms,
+which all the reductions below use.

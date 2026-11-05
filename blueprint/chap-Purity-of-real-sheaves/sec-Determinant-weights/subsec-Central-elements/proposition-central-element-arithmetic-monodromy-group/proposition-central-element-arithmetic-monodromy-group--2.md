@@ -6,6 +6,7 @@ name_showing = false
 order = 1141003
 aliases = ["bp-r350-2"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.mulVec_mem_of_mem_zeroLocus_arithmeticMonodromy", "Subrepresentation.exists_apply_sub_smul_mem_of_isIrreducible"]
+uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2"]
 +++
 Let $k$ be a field, let $W$ be a group with a surjective degree map
 $\deg:W\to\mathbf Z$ and a chosen element $s$ of degree one, and let

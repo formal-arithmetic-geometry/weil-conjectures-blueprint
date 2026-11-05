@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible--1"
 order = 701003
+uses = ["definition-derived-base-change-map--1", "lemma-naturality-pasting-comparison--3", "theorem-smooth-base-change-classical-torsion-2--1"]
 +++
 The inverse image $\nu_X^*$ is exact and its values are classical, so the
 cohomology sheaves $H^q(K)\simeq\nu_X^*H^q(K_{\acute{e}t})$ are classical and

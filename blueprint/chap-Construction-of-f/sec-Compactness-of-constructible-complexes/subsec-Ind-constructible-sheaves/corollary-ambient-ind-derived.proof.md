@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-ambient-ind-derived"
 order = 460
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-topos-functoriality", "definition-lisse-sheaves"]
+uses = ["lemma-stability", "definition-lisse-sheaves"]
 +++
 In the long exact cohomology sequence of a triangle, each cohomology
 sheaf of the third term is an extension of a kernel by a cokernel of maps

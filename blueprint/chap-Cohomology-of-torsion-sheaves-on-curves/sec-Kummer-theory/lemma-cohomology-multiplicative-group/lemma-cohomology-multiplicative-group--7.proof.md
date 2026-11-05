@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-cohomology-multiplicative-group--7"
-order = 1574015
+order = 1576015
 +++
 Choose a nonempty affine open $U\subseteq C$. Its ring of functions is a
 finitely generated $k$-domain of dimension at most one, and its fraction

@@ -5,6 +5,7 @@ title = "Conjugacy invariance"
 order = 896004
 aliases = ["bp-r270-2"]
 lean = ["CategoryTheory.MonoidalCategory.trace_eq_of_iso"]
+uses = ["definition-categorical-trace--2"]
 +++
 Let $P,P'$ be objects with right duals in a braided monoidal category,
 and let $e:P\xrightarrow{\sim}P'$ be an isomorphism. If endomorphisms

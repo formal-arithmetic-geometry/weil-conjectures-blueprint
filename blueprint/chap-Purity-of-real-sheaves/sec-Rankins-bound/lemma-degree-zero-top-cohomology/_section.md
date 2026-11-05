@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Degree zero and top cohomology"
 order = 1153
 lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilGroup.exists_globalSections_linearEquiv_invariants", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeightOver_compactlySupportedCohomology_two"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-weights", "definition-weil-representation", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["lemma-stability", "definition-weil-representation", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected curve, let
 $\mathcal F$ be a lisse Weil sheaf on $U_0$, and let $V$ be its

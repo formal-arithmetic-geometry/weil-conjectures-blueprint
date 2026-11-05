@@ -6,6 +6,7 @@ name_showing = false
 order = 1094001
 aliases = ["bp-r334-1"]
 lean = ["AlgebraicGeometry.exists_smooth_properCompactification_of_perfectField"]
+uses = ["definition-compactification-refinement--1"]
 +++
 A smooth geometrically connected curve $U_0/k_0$ has a smooth
 projective geometrically connected compactification

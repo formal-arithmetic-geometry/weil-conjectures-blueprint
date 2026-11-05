@@ -6,6 +6,7 @@ name_showing = false
 order = 1405003
 aliases = ["bp-r433-3"]
 lean = ["AlgebraicGeometry.Compactification.Refinement"]
+uses = ["definition-compactification-refinement--1"]
 +++
 A refinement of compactifications is an $S$-morphism
 $h:\overline X'\to\overline X$ with $hj'=j$ and

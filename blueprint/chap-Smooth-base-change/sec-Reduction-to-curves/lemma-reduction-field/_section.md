@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Reduction to a field"
 order = 676
 lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure_of_not_universalBaseChangeProperty"]
-uses = ["definition-derived-base-change-map"]
 +++
 Let $q\geq1$. If $\mathrm{BC}(g,n,q-1)$ holds but $\mathrm{BC}(g,n,q)$ fails, then
 some failure occurs for an affine base change $T\to Y$, direct image along a

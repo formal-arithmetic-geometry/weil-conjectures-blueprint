@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-pro-etale-coverings"
 order = 37
-uses = ["lemma-stability"]
 +++
 Part (1) is the covering condition of Definition [definition-small-pro-etale-site] with
 $W=U$. For (2), recall that flat morphisms locally of finite presentation

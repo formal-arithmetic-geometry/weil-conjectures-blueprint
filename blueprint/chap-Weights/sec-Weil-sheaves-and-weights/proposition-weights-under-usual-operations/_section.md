@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Weights under the usual operations"
 order = 1073
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.dual", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixed.of_epi"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-weights"]
+uses = ["lemma-stability", "proposition-six-operations-change-coefficients"]
 +++
 Extensions of mixed sheaves are mixed, and an extension of two sheaves with a common upper bound has the same
 bound.  Tensor products of pure sheaves of weights $a$ and $b$ are pure

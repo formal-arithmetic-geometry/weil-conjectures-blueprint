@@ -5,6 +5,7 @@ title = "Finiteness"
 order = 960004
 aliases = ["bp-r292-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.finite_fixedPoint", "AlgebraicGeometry.ProEtale.CondensedRing.instIsFiniteHomSchemeSigmaPointOfFinite"]
+uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $X_0$ be of finite type over $k_0=\Fq$, let $k$ be an algebraically
 closed extension of $k_0$, and let $\Phi_X$ be the model Frobenius on

@@ -3,7 +3,7 @@ id = "proposition-cartier-s-theorem--2"
 kind = "proposition"
 title = "Cartier's theorem (2)"
 name_showing = false
-order = 1720003
+order = 1722003
 aliases = ["bp-r533-2"]
 lean = ["AlgebraicGeometry.GeneralLinearGroup.finrank_lieSubalgebra"]
 +++

@@ -1,6 +1,6 @@
 +++
 kind = "proof"
 of = "proposition-smooth-proper-curves-torsion-prime--1"
-order = 1577002
+order = 1579002
 +++
 This clause is proved by the proof of Proposition [proposition-smooth-proper-curves-torsion-prime], with the hypotheses and choices shared there.

@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Inverting $\\ell$"
 order = 303
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.integral_scalar_map_eq"]
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "example-locally-constant-functions-w-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-extension-scalars-preserves-dctf"]
+uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 Assume that the underlying topological space of $X$ is Noetherian (for
 instance, that $X$ is of finite type over a field). A complex in

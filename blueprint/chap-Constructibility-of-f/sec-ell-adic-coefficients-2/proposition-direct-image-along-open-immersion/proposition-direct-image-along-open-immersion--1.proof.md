@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-direct-image-along-open-immersion--1"
 order = 597003
-uses = ["corollary-open-direct-image-over-field", "proposition-integral-constructibility-criterion"]
 +++
 For $\mathcal O_E$ we use the criterion of
 Proposition [proposition-integral-constructibility-criterion], which

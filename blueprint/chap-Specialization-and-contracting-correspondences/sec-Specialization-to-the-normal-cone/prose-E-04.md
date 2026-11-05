@@ -2,7 +2,7 @@
 id = "prose-E-04"
 kind = "hidden"
 title = "Specialization to the normal cone (3)"
-order = 1627
+order = 1629
 +++
 The contracting argument needs a complex on the normal cone $N_ZX$ that
 still remembers $K$ near $Z$. Pulling $K|_Z$ back along the projection

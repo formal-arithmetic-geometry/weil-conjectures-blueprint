@@ -17,7 +17,10 @@ $\Lambda$, a sheaf is constructible if, locally on $X$, there is a finite
 partition into constructible locally closed strata such that it is locally
 constant of finite type on each stratum. We write $\Cons(X,\Lambda)$ for the
 category of constructible sheaves and $\Dbc(X,\Lambda)$ for the bounded
-complexes with constructible cohomology sheaves. For a discrete ring these notions
+complexes with constructible cohomology sheaves. A complex $K$ has *Tor amplitude in $[a,b]$* if
+$K\otimes^{\mathbf L}_{\Lambda_X}N$ has cohomology only in $[a,b]$ for every
+sheaf $N$ of $\Lambda_X$-modules, and $D^b_{\mathrm{ctf}}(X,\Lambda)\subset\Dbc(X,\Lambda)$ consists of
+the complexes of finite Tor amplitude. For a discrete ring these notions
 agree with Definition [definition-constructible-sheaves], which is stated
 for all coefficient rings in Section [sec-Constructibility] below. These conditions
 refer only to pro-étale covers, so the main step is to descend torsors

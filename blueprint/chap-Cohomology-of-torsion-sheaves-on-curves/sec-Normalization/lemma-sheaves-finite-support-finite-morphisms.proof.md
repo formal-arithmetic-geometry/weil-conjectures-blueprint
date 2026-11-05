@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-sheaves-finite-support-finite-morphisms"
-order = 1601
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "lemma-finite-morphisms", "lemma-finite-morphisms-cohomology"]
+order = 1603
 +++
 The sheaf $F$ is $h_*$ of a sheaf on a finite disjoint union of
 copies of $\operatorname{Spec}k$, where $h$ is the inclusion of the

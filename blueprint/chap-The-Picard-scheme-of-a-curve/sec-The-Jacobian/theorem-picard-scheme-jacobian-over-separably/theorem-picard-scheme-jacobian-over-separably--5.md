@@ -5,6 +5,7 @@ title = "Compatibility with base change"
 order = 1552009
 aliases = ["bp-r483-5"]
 lean = ["AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback"]
+uses = ["definition-relative-picard-functor--1"]
 +++
 For a morphism $X\to S$ and a base change $S'\to S$, put
 $X'=X\times_S S'$. Restricting $\operatorname{Pic}_{X/S}$ to schemes

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-artin-schreier-character-sheaf"
 order = 1221
-uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-trace-function", "lemma-schematic-closure-uniqueness"]
 +++
 We define $\mathcal L_\psi$ as an eigensheaf in the direct image of the
 constant sheaf under an Artin–Schreier cover, and read off its

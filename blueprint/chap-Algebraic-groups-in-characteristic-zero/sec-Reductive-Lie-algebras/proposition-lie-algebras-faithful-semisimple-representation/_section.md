@@ -2,7 +2,7 @@
 id = "proposition-lie-algebras-faithful-semisimple-representation"
 kind = "proposition"
 title = "Lie algebras with a faithful semisimple representation"
-order = 1743
+order = 1745
 +++
 If $\mathfrak l$ has a faithful semisimple representation, then
 

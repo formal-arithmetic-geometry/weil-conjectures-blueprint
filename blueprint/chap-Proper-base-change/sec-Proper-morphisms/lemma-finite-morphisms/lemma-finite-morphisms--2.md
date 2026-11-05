@@ -1,21 +1,21 @@
 +++
 id = "lemma-finite-morphisms--2"
 kind = "lemma"
-title = "Finite morphisms (2)"
+title = "Finite morphisms and base change (2)"
 name_showing = false
 order = 384003
 aliases = ["bp-r116-2"]
+lean = ["AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
+uses = ["definition-underived-base-change-map--1"]
 +++
-Let $u:V\to W$ be finite, and consider abelian sheaves, or sheaves of
-modules over a constant coefficient ring. The functor $u_*$ from such
-sheaves on $V_{\acute{e}t}$ to such sheaves on $W_{\acute{e}t}$ is exact.
-
-For any base change $g:W'\to W$, write $V'=V\times_W W'$ with projections
-$g':V'\to V$ and $u':V'\to W'$. The underived base change map
-[definition-underived-base-change-map]
+Let $u:V\to W$ be finite and let $\Lambda$ be a constant coefficient ring.
+For every base change $g:W'\to W$, with $u'$ and $g'$ as in
+[lemma-finite-morphisms--1], the derived base change map
+[definition-derived-base-change-map]
 
 $$
-g^*u_*F\longrightarrow u'_*g'^*F
+g^*Ru_*K\longrightarrow Ru'_*g'^*K
 $$
 
-is an isomorphism for every such sheaf $F$ on $V_{\acute{e}t}$.
+is an isomorphism for every $K\in D^+(V_{\acute{e}t},\Lambda)$, without a
+torsion hypothesis.

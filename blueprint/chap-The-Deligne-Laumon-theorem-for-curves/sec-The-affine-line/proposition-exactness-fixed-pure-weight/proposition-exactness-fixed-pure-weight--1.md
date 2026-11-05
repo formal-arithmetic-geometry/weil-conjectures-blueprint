@@ -6,6 +6,7 @@ name_showing = false
 order = 1298001
 aliases = ["bp-r401-1"]
 lean = ["AlgebraicGeometry.shortExact_map_directImage"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--3", "definition-weights--2"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be as in
 Lemma [lemma-local-duality-point-c-u]. If $0\to F_1\to F\to F_2\to0$ is a

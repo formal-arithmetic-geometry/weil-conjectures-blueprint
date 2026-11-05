@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Perverse sheaves on a curve"
 order = 1252
 lean = ["AlgebraicGeometry.WeilComplex.isCurvePerverseLower_iff_forall_hom_eq_zero", "AlgebraicGeometry.WeilComplex.isCurvePerverse_of_mono"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+uses = ["lemma-stability"]
 +++
 The classes ${}^pD^{\le0}$ and ${}^pD^{\ge0}$ of
 Definition [definition-perverse-sheaves-curve] form a bounded

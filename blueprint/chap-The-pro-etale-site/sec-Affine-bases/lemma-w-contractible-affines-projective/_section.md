@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Sections of epimorphisms onto w-contractible affines"
 order = 69
 lean = ["AlgebraicGeometry.Scheme.proetale_wContractible_projective", "AlgebraicGeometry.Scheme.proetale_weakContractible_equivalences"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "definition-weak-contractibility"]
+uses = ["proposition-topos-functoriality"]
 +++
 Let $U=\operatorname{Spec}(D)$ be an object of $X_{\mathrm{pro}\acute{e}t}$ with $D$
 w-contractible. Then every epimorphism of sheaves $F\to h_U$ has a

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-compatibility-purity-composition"
 order = 802
-uses = ["definition-pro-etale-base-change-map", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "proposition-isomorphisms-reduce-finite-coefficients", "proposition-relative-dualizing-complex", "theorem-sp-qbar", "definition-trace-map"]
+uses = ["proposition-exceptional-inverse-image-smooth-morphism", "proposition-isomorphisms-reduce-finite-coefficients", "proposition-relative-dualizing-complex", "theorem-sp-qbar"]
 +++
 As for base change, we compare orientations and the maps $\mu_{f,K}$, first
 over any finite admissible ring and then for towers. The orientations are

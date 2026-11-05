@@ -5,6 +5,7 @@ title = "Finite geometric determinant and determinant weight"
 order = 1114001
 aliases = ["bp-r341-1"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.hasDetWeight", "AlgebraicGeometry.WeilGroup.IsLisse.hasFiniteGeometricDet"]
+uses = ["definition-determinant-weight--1"]
 +++
 Let $U_0/k_0$ be a smooth geometrically connected curve, with the
 coefficients and Weil group of Convention [sec-Weil-sheaves-and-weights]. Let $\rho$ be a lisse

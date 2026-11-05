@@ -2,9 +2,10 @@
 id = "lemma-p-torsion-affine-curve-characteristic--3"
 kind = "lemma"
 title = "Exactness of the Artin–Schreier sequence"
-order = 1590005
+order = 1592005
 aliases = ["bp-r495-3"]
 lean = ["AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $X$ be a scheme and $p$ a prime such that
 $p=0$ in $\Gamma(X,\mathcal O_X)$. On $X_{\acute{e}t}$, put

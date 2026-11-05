@@ -3,7 +3,6 @@ id = "lemma-local-duality-point-c-u"
 kind = "lemma"
 title = "Local duality at a point of $C\\setminus U$"
 order = 1294
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be a dense open in a smooth curve
 over $k_0$, and let $F$ be a lisse Weil $\overline{\mathbf Q}_\ell$-sheaf on $U_0$.

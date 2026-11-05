@@ -5,6 +5,7 @@ title = "The degree-zero component and its rational points"
 order = 1552005
 aliases = ["bp-r483-3"]
 lean = ["AlgebraicGeometry.exists_jacobian"]
+uses = ["corollary-degree-jacobian--1"]
 +++
 Let $k$ and $C$ be as in
 [theorem-picard-scheme-jacobian-over-separably--1]. The degree-zero

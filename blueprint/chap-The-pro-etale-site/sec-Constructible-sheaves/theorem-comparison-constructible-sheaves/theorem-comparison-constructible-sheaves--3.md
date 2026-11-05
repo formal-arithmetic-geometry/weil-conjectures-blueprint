@@ -5,6 +5,7 @@ title = "Equivalence of derived categories"
 order = 149006
 aliases = ["bp-r043-3"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison_boundedRestriction"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $X$ be quasi-compact and quasi-separated, and let $\Lambda$ be a
 discrete commutative Noetherian ring. Let

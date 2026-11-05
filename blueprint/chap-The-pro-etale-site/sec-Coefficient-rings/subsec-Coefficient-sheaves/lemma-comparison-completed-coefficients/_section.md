@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Comparison with completed coefficients"
 order = 178
 lean = ["AlgebraicGeometry.ProEtale.sfb_completed_coefficients"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
+uses = ["lemma-stability"]
 +++
 Write $\mathcal O_{E,X}$, $E_X$ and $\QbarX$ for the pullbacks to
 $X_{\mathrm{pro}\acute{e}t}$ of $\underline{\mathcal O_E}$, $\underline E$ and

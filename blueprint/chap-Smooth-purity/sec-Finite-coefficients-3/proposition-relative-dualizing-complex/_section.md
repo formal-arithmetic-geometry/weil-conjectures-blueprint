@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The relative dualizing complex"
 order = 756
 lean = ["AlgebraicGeometry.Etale.dualizingComplexTwistShiftIso"]
-uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-compactification-refinement"]
+uses = ["definition-relative-dualizing-complex"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. There is a
 canonical isomorphism

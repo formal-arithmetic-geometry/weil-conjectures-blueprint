@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-projective-line-trace"
 order = 547
-uses = ["theorem-comparison-direct-images", "lemma-comparison-direct-images-compatibilities", "lemma-naturality-pasting-comparison"]
+uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "lemma-acyclicity-pulled-back-injectives", "theorem-comparison-direct-images", "lemma-comparison-direct-images-compatibilities"]
 +++
 By the comparison theorems for the cohomology and the proper direct image
 of bounded below complexes

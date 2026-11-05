@@ -3,7 +3,7 @@ id = "lemma-fixed-point-scheme-deformation--1"
 kind = "lemma"
 title = "The fixed point scheme of the deformation (1)"
 name_showing = false
-order = 1704001
+order = 1706001
 aliases = ["bp-r529-1"]
 +++
 In the situation of Lemma [lemma-normal-cones-contracting-ideals],

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-tensor-product--4"
 order = 494009
+uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--6", "lemma-stability--7", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "proposition-w-local-components--1", "proposition-pro-etale-affines-form-basis--2", "lemma-inverse-image-tensor-product--6", "proposition-sp-unique-adjoint--1"]
 +++
 Here $i_*$ sends $\Lambda_Z$-modules to $\Lambda_X$-modules through
 $\Lambda_X\to i_*i^{-1}\Lambda_X=i_*\Lambda_Z$, where $i^{-1}\Lambda_X=\Lambda_Z$

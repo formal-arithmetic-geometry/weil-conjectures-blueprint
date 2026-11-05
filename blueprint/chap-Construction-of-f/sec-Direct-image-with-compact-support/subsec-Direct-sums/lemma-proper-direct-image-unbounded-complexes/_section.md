@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Proper direct image of unbounded complexes"
 order = 487
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.ProperLowerStarHeartHypotheses.preservesColimitsOfShape"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves", "definition-localizing-subcategory"]
+uses = ["lemma-stability", "definition-constructible-sheaves", "definition-localizing-subcategory"]
 +++
 Let $p:X\to Y$ be proper, and let $d$ bound the dimensions of the geometric
 fibres of $p$. For integers $a$ and $b$, write $\Dic^{\leq b}(X,\Lambda)$ and

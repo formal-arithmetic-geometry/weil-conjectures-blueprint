@@ -6,6 +6,7 @@ name_showing = false
 order = 1441001
 aliases = ["bp-r448-1"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
+uses = ["definition-admissible-blow-up--1"]
 +++
 Let $T$ and $Y$ be qcqs, let $U\subseteq V\subseteq T$ be quasi-compact
 opens with $U$ dense in $T$, and let $p:Y\to T$ be separated,

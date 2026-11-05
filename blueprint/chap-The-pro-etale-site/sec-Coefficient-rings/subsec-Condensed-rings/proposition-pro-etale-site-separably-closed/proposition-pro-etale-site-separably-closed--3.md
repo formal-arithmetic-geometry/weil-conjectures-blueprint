@@ -6,6 +6,7 @@ name_showing = false
 order = 173005
 aliases = ["bp-r050-3"]
 lean = ["AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf", "Profinite.continuousMapRingSheaf"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $X$ be a scheme and $A$ a discrete abelian group. The constant
 pro-étale sheaf with value $A$ is canonically isomorphic to the sheaf

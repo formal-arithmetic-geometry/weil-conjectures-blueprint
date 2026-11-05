@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-identity-component"
 order = 1137
-uses = ["lemma-restriction-normal-subgroup", "proposition-lie-algebras-faithful-semisimple-representation"]
+uses = ["proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
 +++
 A connected algebraic group is determined by its Lie algebra among its
 closed connected subgroups, so it suffices to show that the Lie algebras

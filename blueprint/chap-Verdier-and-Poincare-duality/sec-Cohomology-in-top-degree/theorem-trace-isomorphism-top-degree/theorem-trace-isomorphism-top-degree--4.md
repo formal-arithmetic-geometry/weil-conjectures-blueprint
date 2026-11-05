@@ -5,6 +5,7 @@ title = "Vanishing: integral coefficients"
 order = 866008
 aliases = ["bp-r260-4"]
 lean = ["AlgebraicGeometry.ProEtale.subsingleton_H_continuousSheaf_of_profinite"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $S$ and $k'$ be as in clause [theorem-trace-isomorphism-top-degree--2]. Let $A$ be a compact
 topological abelian group with a decreasing sequence of open subgroups

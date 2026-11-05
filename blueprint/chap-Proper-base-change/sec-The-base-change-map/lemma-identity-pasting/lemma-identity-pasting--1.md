@@ -5,6 +5,7 @@ title = "Identity square"
 order = 319002
 aliases = ["bp-r095-1"]
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id"]
+uses = ["definition-underived-base-change-map--1"]
 +++
 Let $A$ be a Grothendieck abelian category, for instance the category of
 $\Lambda$-modules, let $f:X\to Y$ be a morphism of schemes, and let

@@ -6,6 +6,7 @@ name_showing = false
 order = 673001
 aliases = ["bp-r202-1"]
 lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 Let $\Lambda$ be a commutative ring, $g:Y'\to Y$ a morphism of schemes,
 and $q\in\mathbf Z$ with $q\geq1$. For a cartesian square
