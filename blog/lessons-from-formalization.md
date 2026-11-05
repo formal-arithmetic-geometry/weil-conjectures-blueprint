@@ -5,6 +5,8 @@ date = "October 2026"
 
 *Weil Conjectures Project*
 
+*PDF version:* <a href="files/Lessons%20from%20Human-Led%20Weil%20Formalization.pdf" download>Lessons from Human-Led Weil Formalization.pdf</a>
+
 The Weil conjectures project relies heavily on category theory, particularly
 derived categories. This has presented challenges at two different levels:
 technical difficulties, most notably with the performance of Lean's kernel, and

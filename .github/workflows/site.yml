@@ -85,12 +85,18 @@ jobs:
 
       # elan and the toolchain of lean-toolchain, plus the Mathlib cache for
       # the project's Mathlib dependency. Building is done explicitly below.
+      #
+      # No GitHub cache: the workspace survives between runs on this runner, so
+      # restoring `.lake` buys nothing, and saving it is a single-threaded tar of
+      # the whole project build (keyed on the commit, so it missed every time)
+      # that took up to an hour per run.
       - uses: leanprover/lean-action@v1
         with:
           build: false
           test: false
           lint: false
           use-mathlib-cache: true
+          use-github-cache: false
 
       # pdfLaTeX for `blueprint site --pdf` below (docs/pdf-export.md in the
       # blueprint tool). The runner keeps what was installed between runs, so
@@ -250,6 +256,9 @@ jobs:
       # _site to the site branch, data/exports/ included, the restore above
       # copies its data/ back into history/, and `site` copies history/ into
       # _site/data/, where an export whose TeX did not change is reused.
+      # `--history-limit 0`: only the current snapshot gets PDFs. Older
+      # snapshots keep no .tex or .pdf; `site` removes what an earlier run
+      # filed for them, so the site branch drops it on the next publish.
       #
       # `site` copies history/ by rewriting each file of _site/data/ in place,
       # so _site/data/ is first made of hard links to history/: the copy then
@@ -265,7 +274,7 @@ jobs:
         run: |
           mkdir -p _site/data
           cp -al history/. _site/data/
-          lake exe blueprint site --root . --facts lean-facts.json --history history -o _site --pdf
+          lake exe blueprint site --root . --facts lean-facts.json --history history -o _site --pdf --history-limit 0
 
       - name: The site must be complete, whatever the checks said
         run: test -s _site/index.html && test -s _site/blueprint.json && test -s _site/data/index.json
