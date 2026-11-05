@@ -3,7 +3,7 @@ id = "definition-perverse-sheaves-curve--4"
 kind = "definition"
 title = "Perverse sheaves on a curve (4)"
 name_showing = false
-order = 1247004
+order = 1250004
 aliases = ["bp-r385-4"]
 +++
 For $C=C_0\times_{k_0}k$, a

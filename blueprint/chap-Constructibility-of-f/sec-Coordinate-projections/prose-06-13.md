@@ -2,7 +2,7 @@
 id = "prose-06-13"
 kind = "hidden"
 title = "Coordinate projections (1)"
-order = 568
+order = 569
 +++
 To control $Rj_*F$ for an open immersion $j:X\hookrightarrow Y$ over $S$,
 with $Y$ projective over $S$, we cover most of $Y$ by opens where the

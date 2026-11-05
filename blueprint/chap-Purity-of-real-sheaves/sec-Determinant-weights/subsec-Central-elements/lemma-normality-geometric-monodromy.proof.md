@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-normality-geometric-monodromy"
-order = 1131
+order = 1134
 +++
 Each assertion holds for the images of $\pi_1(U)$ and $W(U_0)$, and we
 pass to Zariski closures by continuity.

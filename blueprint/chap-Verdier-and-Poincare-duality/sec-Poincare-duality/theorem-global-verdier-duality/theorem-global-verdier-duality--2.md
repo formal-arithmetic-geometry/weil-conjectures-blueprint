@@ -3,7 +3,7 @@ id = "theorem-global-verdier-duality--2"
 kind = "theorem"
 title = "Global Verdier duality (2)"
 name_showing = false
-order = 851002
+order = 852002
 aliases = ["bp-r255-2"]
 +++
 $$

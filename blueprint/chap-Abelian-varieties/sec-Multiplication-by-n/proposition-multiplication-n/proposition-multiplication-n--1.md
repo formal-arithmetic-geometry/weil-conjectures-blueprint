@@ -3,7 +3,7 @@ id = "proposition-multiplication-n--1"
 kind = "proposition"
 title = "Multiplication by $n$ (1)"
 name_showing = false
-order = 1503001
+order = 1506001
 aliases = ["bp-r469-1"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$. For every

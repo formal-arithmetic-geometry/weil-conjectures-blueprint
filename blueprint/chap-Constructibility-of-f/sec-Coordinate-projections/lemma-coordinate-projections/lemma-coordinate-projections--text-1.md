@@ -2,7 +2,7 @@
 id = "lemma-coordinate-projections--text-1"
 kind = "hidden"
 title = "Coordinate projections"
-order = 572001
+order = 573001
 +++
 Let $S$ be an integral Noetherian affine scheme with function field
 $k(S)$, and let $Y\to S$ be projective. Choose a finite affine open

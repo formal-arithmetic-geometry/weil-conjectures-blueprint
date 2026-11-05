@@ -3,7 +3,7 @@ id = "definition-trace-function--1"
 kind = "definition"
 title = "Trace function (1)"
 name_showing = false
-order = 1022001
+order = 1023001
 aliases = ["bp-r312-1"]
 +++
 Let $(K,\phi)$ be a Weil complex on $X$ as in

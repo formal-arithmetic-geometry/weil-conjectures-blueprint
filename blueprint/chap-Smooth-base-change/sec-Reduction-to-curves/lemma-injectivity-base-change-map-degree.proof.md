@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-injectivity-base-change-map-degree"
-order = 673
+order = 674
 uses = ["definition-underived-base-change-map"]
 +++
 We embed $M$ into an injective sheaf and compare the long exact sequences

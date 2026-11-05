@@ -3,7 +3,7 @@ id = "lemma-extreme-degrees-affine-curve--1"
 kind = "lemma"
 title = "The extreme degrees on an affine curve (1)"
 name_showing = false
-order = 1186001
+order = 1189001
 aliases = ["bp-r366-1"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open in a smooth

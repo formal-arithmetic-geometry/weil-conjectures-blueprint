@@ -2,7 +2,7 @@
 id = "prose-09-01"
 kind = "hidden"
 title = "Smooth purity"
-order = 723
+order = 724
 +++
 Poincaré duality for a smooth variety $X$ of dimension $d$ pairs
 $H^i_c(X,\Lambda)$ with $H^{2d-i}(X,\Lambda(d))$ through the cup product and a

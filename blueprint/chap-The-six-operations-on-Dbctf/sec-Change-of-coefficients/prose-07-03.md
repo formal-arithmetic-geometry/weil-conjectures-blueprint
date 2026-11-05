@@ -2,7 +2,7 @@
 id = "prose-07-03"
 kind = "hidden"
 title = "Change of coefficients (1)"
-order = 628
+order = 629
 +++
 Smooth base change for $E$ and $\overline{\mathbf Q}_\ell$ is deduced from the integral case
 by extending scalars (Section [chap-Smooth-base-change]), and later proofs

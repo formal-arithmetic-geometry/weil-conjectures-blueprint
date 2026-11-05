@@ -2,9 +2,9 @@
 id = "lemma-largest-punctual-subsheaf"
 kind = "lemma"
 title = "The largest punctual subsheaf"
-order = 1245
+order = 1248
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.eq_zero_of_support_finite", "AlgebraicGeometry.WeilSheaf.support_finite_kernel_unit_app", "AlgebraicGeometry.WeilSheaf.isZero_upperStar_of_isLisse"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 A lisse sheaf on $C$ has no nonzero punctual subsheaf. Let $F$ be a
 constructible sheaf on $C$, let $j:U\hookrightarrow C$ be a dense open

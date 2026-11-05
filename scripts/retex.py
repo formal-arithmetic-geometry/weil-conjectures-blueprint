@@ -9,7 +9,8 @@ The blueprint is built afresh in <out dir>, which is then put in place of
 1. scripts/tex2bp.py converts the whole tex (chapters 1-25), as for the import;
 2. what was added to the blueprint after the import is carried over, node by
    node (matched by id, or through RENAMED): `lean`, `uses`, `aliases`,
-   `hide_content`, and the kind `appendix` or `matter` of a chapter.  The references/ directory
+   `hide_content`, the kind `appendix` or `matter` of a chapter, and its part
+   (`refines`, `serial`; the part-* directories are kept, with their text).  The references/ directory
    is kept as it is;
 3. scripts/layer2bp.py puts the clauses of the layer-2 tex under the sketch
    nodes again (chapters 2-25).  The layer-2 tex may lag behind the tex: it
@@ -191,6 +192,11 @@ for dp, dn, fn in os.walk(conv):
         for a in CARRIED:
             if a in extra:
                 lines.append(f'{a} = {toml_list(extra[a])}')
+        # a chapter's part and letter (#206)
+        if prev is not None:
+            for a in ('refines', 'serial'):
+                if prev.get(a) is not None:
+                    lines.append(f'{a} = {json.dumps(prev[a], ensure_ascii=False)}')
         # a heading whose content the website leaves off its parent's page
         if prev is not None and prev.get('hide_content') is not None:
             v = prev['hide_content']
@@ -199,6 +205,30 @@ for dp, dn, fn in os.walk(conv):
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         open(dst, 'w', encoding='utf-8').write('+++\n' + '\n'.join(lines) + '\n+++\n' + body)
 print(f'{carried} nodes carried over; new: {fresh}')
+
+# The parts (#206): each part-* directory of the blueprint is kept, and the
+# opening text of the part, which the conversion puts into the part's first
+# chapter, is moved into it; the part comes just before that text.
+for d in sorted(x for x in os.listdir(BP) if x.startswith('part-')):
+    src, dst = os.path.join(BP, d), os.path.join(OUT, d)
+    os.makedirs(dst, exist_ok=True)
+    first = None
+    for f in sorted(os.listdir(src)):
+        if f == '_section.md':
+            continue
+        hits = [os.path.join(dp, f) for dp, dn, fn in os.walk(OUT) if f in fn and not dp.startswith(dst)]
+        if len(hits) == 1:
+            shutil.move(hits[0], os.path.join(dst, f))
+        else:
+            print(f'PROBLEM: the text {f} of {d} is converted {len(hits)} times; kept as it was')
+            shutil.copy(os.path.join(src, f), os.path.join(dst, f))
+        o = parse(os.path.join(dst, f))[0].get('order')
+        if o is not None:
+            first = o if first is None else min(first, o)
+    t = open(os.path.join(src, '_section.md'), encoding='utf-8').read()
+    if first is not None:
+        t = re.sub(r'^order = .*$', f'order = {first - 0.5}', t, count=1, flags=re.M)
+    open(os.path.join(dst, '_section.md'), 'w', encoding='utf-8').write(t)
 
 # ------------------------------------------------------------------ 3. layer 2
 

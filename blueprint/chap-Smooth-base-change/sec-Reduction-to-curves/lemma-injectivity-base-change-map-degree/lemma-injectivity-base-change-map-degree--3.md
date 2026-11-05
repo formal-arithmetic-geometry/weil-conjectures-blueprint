@@ -3,7 +3,7 @@ id = "lemma-injectivity-base-change-map-degree--3"
 kind = "lemma"
 title = "Injectivity of the base change map in degree $q$ (3)"
 name_showing = false
-order = 672003
+order = 673003
 aliases = ["bp-r202-3"]
 +++
 For an embedding $M\hookrightarrow I$ with $I$ injective in the

@@ -3,7 +3,7 @@ id = "corollary-curve-preserving-geometric-irreducibility--1"
 kind = "corollary"
 title = "A curve preserving geometric irreducibility (1)"
 name_showing = false
-order = 1330001
+order = 1333001
 aliases = ["bp-r411-1"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme of positive

@@ -3,7 +3,7 @@ id = "lemma-change-coefficients--1"
 kind = "lemma"
 title = "Change of coefficients (1)"
 name_showing = false
-order = 698001
+order = 699001
 aliases = ["bp-r209-1"]
 +++
 Suppose that the schemes in (8.1) are of finite type over

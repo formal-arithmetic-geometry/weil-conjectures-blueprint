@@ -3,7 +3,7 @@ id = "proposition-purity-trace-commute-frobenius--1"
 kind = "proposition"
 title = "Purity and trace commute with Frobenius (1)"
 name_showing = false
-order = 881001
+order = 882001
 aliases = ["bp-r265-1"]
 +++
 Fix an admissible $\Lambda$, and let $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$ and

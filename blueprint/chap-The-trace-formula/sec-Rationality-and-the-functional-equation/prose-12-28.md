@@ -2,7 +2,7 @@
 id = "prose-12-28"
 kind = "hidden"
 title = "Rationality and the functional equation (1)"
-order = 1032
+order = 1033
 +++
 Over a field of characteristic zero, the traces of all powers of an
 endomorphism determine its characteristic polynomial. Taking the trace

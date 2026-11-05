@@ -3,7 +3,7 @@ id = "remark-outline-local-computation--2"
 kind = "remark"
 title = "Outline of the local computation (2)"
 name_showing = false
-order = 962002
+order = 963002
 aliases = ["bp-r293-2"]
 +++
 In particular it holds for

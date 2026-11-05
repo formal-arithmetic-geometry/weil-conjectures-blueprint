@@ -2,7 +2,7 @@
 id = "definition-representing-objects"
 kind = "definition"
 title = "Representing objects"
-order = 738
+order = 739
 +++
 Let $f$ be smooth, and let us work in $D(Y,\mathbf Z/\ell^n\mathbf Z)$ and
 $D(X,\mathbf Z/\ell^n\mathbf Z)$ on either the étale or the

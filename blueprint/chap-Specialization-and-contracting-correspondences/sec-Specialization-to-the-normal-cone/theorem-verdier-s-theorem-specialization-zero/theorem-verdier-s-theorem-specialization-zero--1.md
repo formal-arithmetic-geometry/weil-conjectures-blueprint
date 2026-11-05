@@ -3,7 +3,7 @@ id = "theorem-verdier-s-theorem-specialization-zero--1"
 kind = "theorem"
 title = "Verdier's theorem on specialization to the zero section (1)"
 name_showing = false
-order = 1639001
+order = 1642001
 aliases = ["bp-r509-1"]
 +++
 For every separated $k$-scheme $X$ of finite type, every closed subscheme

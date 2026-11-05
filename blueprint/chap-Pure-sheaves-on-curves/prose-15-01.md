@@ -2,7 +2,7 @@
 id = "prose-15-01"
 kind = "hidden"
 title = "Pure sheaves on curves"
-order = 1169
+order = 1172
 +++
 How much does the trace function of a sheaf know about its Frobenius
 eigenvalues? For a sheaf of rank one, pure of weight $w$, on a dense open

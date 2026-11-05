@@ -1,19 +1,14 @@
 +++
 kind = "proof"
 of = "proposition-weights-under-usual-operations"
-order = 1071
-uses = ["lemma-weights-exact-sequence"]
+order = 1074
+uses = ["lemma-subobjects-quotients-weil-sheaves", "lemma-weights-exact-sequence"]
 +++
 Each assertion has two parts: a statement about eigenvalues at closed
 points, which follows from Lemma [lemma-filtrations-spectra], and, for
 mixedness, the construction of a filtration with pure quotients.
 
-By Lemma [lemma-filtrations-spectra], the eigenvalues on a subobject or a
-quotient occur among those of the whole. Hence subobjects and quotients of
-pure sheaves are pure. For mixed sheaves, we intersect a mixed filtration
-with a subobject, or push it into a quotient. The graded pieces are then
-subquotients of the original pure pieces, hence pure of the same
-weights.  Similarly, an extension is filtered by a filtration of its
+An extension is filtered by a filtration of its
 subobject followed by the inverse images of a filtration of its
 quotient. The graded pieces of the result are those of the two given
 filtrations, so a common upper bound persists.

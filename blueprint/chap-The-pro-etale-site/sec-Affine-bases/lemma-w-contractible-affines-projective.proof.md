@@ -2,8 +2,17 @@
 kind = "proof"
 of = "lemma-w-contractible-affines-projective"
 order = 70
-uses = ["proposition-pro-etale-coverings", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
+uses = ["lemma-stability", "proposition-pro-etale-coverings", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
 +++
+For the equivalence of the three conditions on an object $W$: by the
+Yoneda lemma, $h_W$ is projective exactly when every epimorphism $F\to G$
+induces a surjection $F(W)=\Hom(h_W,F)\to\Hom(h_W,G)=G(W)$. If every
+epimorphism onto $h_W$ splits, pull an epimorphism $F\to G$ back along a
+section $h_W\to G$; the resulting epimorphism onto $h_W$ splits, so the
+section lifts to $F$. Conversely, if every epimorphism is surjective on
+sections over $W$, then $\mathrm{id}_{h_W}$ lifts along any epimorphism
+onto $h_W$.
+
 To see that covers of $U$ split, note that by
 Theorem [theorem-pro-etale-refinements-weakly-etale] a
 faithfully flat weakly étale $D$-algebra can be refined to a faithfully

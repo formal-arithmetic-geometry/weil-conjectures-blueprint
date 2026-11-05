@@ -2,7 +2,7 @@
 id = "prose-14-14"
 kind = "hidden"
 title = "Representations and filtrations (3)"
-order = 1123
+order = 1126
 +++
 The second fact concerns representations that are not semisimple. A
 nonsplit extension of $\overline{\mathbf Q}_\ell(-1)$ by $\overline{\mathbf Q}_\ell$, such as the twist

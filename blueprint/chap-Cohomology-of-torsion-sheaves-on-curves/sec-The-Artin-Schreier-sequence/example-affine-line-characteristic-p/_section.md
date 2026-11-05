@@ -2,7 +2,7 @@
 id = "example-affine-line-characteristic-p"
 kind = "example"
 title = "The affine line in characteristic $p$"
-order = 1590
+order = 1593
 +++
 For $U=\mathbf A^1_k$ in characteristic $p$ we get
 

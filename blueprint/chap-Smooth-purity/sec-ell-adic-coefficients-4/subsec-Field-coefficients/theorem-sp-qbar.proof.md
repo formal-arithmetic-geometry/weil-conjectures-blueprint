@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-sp-qbar"
-order = 791
-uses = ["theorem-smooth-base-change-all-admissible", "definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients", "proposition-sp-rational", "proposition-compatibility-purity-base-change"]
+order = 792
+uses = ["proposition-w-local-components", "proposition-proper-direct-image-constructible-complexes", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "proposition-isomorphisms-reduce-finite-coefficients", "theorem-smooth-base-change-all-admissible", "definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients", "proposition-relative-dualizing-complex", "proposition-compatibility-purity-base-change", "lemma-passing-schematic-closure"]
 +++
 As for $E$, we compare Hom groups, now as colimits over finite extensions
 instead of after inverting $\ell$.

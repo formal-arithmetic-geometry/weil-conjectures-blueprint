@@ -2,7 +2,7 @@
 id = "prose-08-05"
 kind = "hidden"
 title = "Degree zero"
-order = 665
+order = 666
 +++
 In degree zero the base change map can be computed on sections, even for
 sheaves of sets. Sections of $f_*F$ over $V$ are sections of $F$ over

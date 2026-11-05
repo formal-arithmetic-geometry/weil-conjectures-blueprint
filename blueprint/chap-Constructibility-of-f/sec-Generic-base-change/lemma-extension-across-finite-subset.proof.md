@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-extension-across-finite-subset"
-order = 577
+order = 578
 uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-proper-base-change-classical-pro", "lemma-detection-proper-direct-image"]
 +++
 Lemma [lemma-smooth-morphisms-locally-constant-sheaves] controls the

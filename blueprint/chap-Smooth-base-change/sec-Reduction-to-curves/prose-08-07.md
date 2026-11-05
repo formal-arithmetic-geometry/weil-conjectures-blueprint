@@ -2,7 +2,7 @@
 id = "prose-08-07"
 kind = "hidden"
 title = "Reduction to curves (1)"
-order = 671
+order = 672
 +++
 Recall that $\mathrm{BC}(g,n,r)$ asserts base change in degrees $\leq r$,
 for $\mathbf Z/n$-coefficients, along every base change $Y'\times_YT\to T$

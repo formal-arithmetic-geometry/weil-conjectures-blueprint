@@ -2,7 +2,7 @@
 id = "prose-D-03"
 kind = "hidden"
 title = "Kummer theory (2)"
-order = 1573
+order = 1576
 +++
 On a proper curve, the lemma and the Kummer sequence reduce the
 cohomology of $\mu_n$ to the groups $\operatorname{Pic}(C)[n]$ and

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-tangent-space-picard-functor"
-order = 1548
+order = 1551
 +++
 Because $\varepsilon^2=0$, the map $a\mapsto1+\varepsilon a$ is a homomorphism,
 and it gives an exact sequence of sheaves of groups on $X$

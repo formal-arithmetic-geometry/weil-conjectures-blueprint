@@ -2,7 +2,7 @@
 id = "corollary-serre-duality-field-extension--1"
 kind = "corollary"
 title = "Scalar extension of Serre duality"
-order = 1527002
+order = 1530002
 aliases = ["bp-r476-1"]
 +++
 Under flat base change for coherent

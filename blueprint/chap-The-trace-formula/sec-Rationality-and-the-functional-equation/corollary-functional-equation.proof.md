@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-functional-equation"
-order = 1045
-uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing"]
+order = 1046
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Duality gives the relations $b_{2d-i}=b_i$ and $D^2=q^{d\chi}$. If we substitute
 $1/(q^dT)$ into each factor of the cohomological expression for

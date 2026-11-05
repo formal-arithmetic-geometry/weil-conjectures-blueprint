@@ -2,7 +2,7 @@
 id = "prose-16-17"
 kind = "hidden"
 title = "Middle extensions (2)"
-order = 1266
+order = 1269
 +++
 The sheaf $M'$ is determined by $M$ up to isomorphism and shrinking of
 $U'_0$, since it is the restriction to $U'_0$ of

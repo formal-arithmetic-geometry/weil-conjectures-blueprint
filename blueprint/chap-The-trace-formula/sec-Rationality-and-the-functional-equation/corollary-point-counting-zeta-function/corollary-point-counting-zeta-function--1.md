@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--1"
 kind = "corollary"
 title = "Categorical point-counting trace"
-order = 1039002
+order = 1040002
 aliases = ["bp-r318-1"]
 +++
 Give $\Lambda_X$ the Weil structure of constant sheaves defined after

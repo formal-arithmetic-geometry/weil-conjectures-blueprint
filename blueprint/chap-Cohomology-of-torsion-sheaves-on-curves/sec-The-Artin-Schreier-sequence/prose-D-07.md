@@ -2,7 +2,7 @@
 id = "prose-D-07"
 kind = "hidden"
 title = "The Artin–Schreier sequence (2)"
-order = 1586
+order = 1589
 +++
 On an affine curve the same sequence is even simpler to use, because
 coherent cohomology vanishes in positive degrees. On the other hand,

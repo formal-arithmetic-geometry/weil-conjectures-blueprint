@@ -2,7 +2,7 @@
 id = "theorem-hilbert-schemes-points-smooth-curve"
 kind = "theorem"
 title = "Hilbert schemes of points on a smooth curve"
-order = 1534
+order = 1537
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero", "AlgebraicGeometry.IsHilbertSubscheme.isInvertible", "AlgebraicGeometry.isRelativeEffectiveCartier_universal_hilbertPresheaf"]
 +++
 The functor $\operatorname{Hilb}^{d}_{C/k}$ is represented by a smooth proper geometrically

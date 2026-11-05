@@ -2,7 +2,7 @@
 id = "remark-twists-projective-line"
 kind = "remark"
 title = "Twists and the projective line"
-order = 1576
+order = 1579
 +++
 The degree identifies $H^2(C,\mu_n)$ with $\mathbf Z/n$ without any choice.
 Since $\mu_n=(\mathbf Z/n)(1)$, twisting by $-1$ gives

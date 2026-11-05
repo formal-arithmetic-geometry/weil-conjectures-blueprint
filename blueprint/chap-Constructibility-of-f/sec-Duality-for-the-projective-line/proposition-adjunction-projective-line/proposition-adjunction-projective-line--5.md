@@ -2,7 +2,7 @@
 id = "proposition-adjunction-projective-line--5"
 kind = "proposition"
 title = "Finite coefficient change for the counit"
-order = 553006
+order = 554006
 aliases = ["bp-r167-5"]
 +++
 The counit of this same adjunction is compatible with change of finite coefficients.

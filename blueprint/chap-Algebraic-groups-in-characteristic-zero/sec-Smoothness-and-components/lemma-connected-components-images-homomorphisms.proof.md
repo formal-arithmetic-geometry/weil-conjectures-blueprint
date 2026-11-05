@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-connected-components-images-homomorphisms"
-order = 1721
+order = 1724
+uses = ["proposition-cartier-s-theorem"]
 +++
 For (1) we use smoothness to see that irreducible and connected components
 coincide; for (2), Chevalley's theorem gives an open subset of the closure
@@ -20,7 +21,9 @@ $(x,y)\mapsto xy^{-1}$, is irreducible. It contains $1$, so it lies in
 $G^\circ$. For the same reason the image of $G^\circ$ under conjugation
 by a point of $G$ is irreducible and contains $1$, so $G^\circ$ is
 normal. Translating $G^\circ$ by points of
-$G$, we see that the other components are its cosets.
+$G$, we see that the other components are its cosets. Since $G^\circ$ is
+open in $G$ and contains $1$, both have the same local ring at $1$, so
+$\operatorname{Lie}(G^\circ)=\operatorname{Lie}(G)$.
 
 For example, the homomorphism $\mathbf G_m\to\mathbf G_m$, $x\mapsto x^2$, has image all
 of $\mathbf G_m$ and kernel $\mu_2$, a closed subgroup with two

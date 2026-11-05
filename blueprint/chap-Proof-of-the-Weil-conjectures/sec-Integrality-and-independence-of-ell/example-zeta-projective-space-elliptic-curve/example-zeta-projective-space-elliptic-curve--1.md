@@ -3,7 +3,7 @@ id = "example-zeta-projective-space-elliptic-curve--1"
 kind = "example"
 title = "Projective space and elliptic curves (1)"
 name_showing = false
-order = 1391001
+order = 1394001
 aliases = ["bp-r430-1"]
 +++
 We have $\#\mathbf P^d(\mathbf F_{q^m})=1+q^m+\cdots+q^{dm}$, so

@@ -3,7 +3,7 @@ id = "example-biduality-punctured-line--1"
 kind = "example"
 title = "The dual of $j_!\\Lambda$ on the line (1)"
 name_showing = false
-order = 833001
+order = 834001
 aliases = ["bp-r249-1"]
 +++
 Let $k$ be algebraically closed, $X=\mathbf A^1_k$, $i:0\to X$ the origin and

@@ -1,6 +1,6 @@
 +++
 kind = "proof"
 of = "proposition-ell-adic-cycle-class-diagonal--11"
-order = 600023
+order = 601023
 +++
 Extend the rational construction along $E\to\overline{\mathbf Q}_\ell$.

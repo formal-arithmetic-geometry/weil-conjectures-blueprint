@@ -1,8 +1,8 @@
 +++
 id = "proposition-weights-under-usual-operations--4"
 kind = "proposition"
-title = "Mixed extensions"
-order = 1070005
+title = "Dual of a pure lisse sheaf"
+order = 1073005
 aliases = ["bp-r329-4"]
 +++
-An extension of mixed sheaves is mixed.
+The dual of a pure lisse sheaf of weight $a$ is pure of weight $-a$.

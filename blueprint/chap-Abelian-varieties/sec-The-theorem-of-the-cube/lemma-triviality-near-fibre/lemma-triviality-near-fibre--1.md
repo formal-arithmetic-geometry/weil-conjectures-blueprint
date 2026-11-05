@@ -3,7 +3,7 @@ id = "lemma-triviality-near-fibre--1"
 kind = "lemma"
 title = "Triviality near a fibre (1)"
 name_showing = false
-order = 1483001
+order = 1486001
 aliases = ["bp-r462-1"]
 +++
 Let $P$ and $Q$ be proper geometrically integral $k$-schemes with points

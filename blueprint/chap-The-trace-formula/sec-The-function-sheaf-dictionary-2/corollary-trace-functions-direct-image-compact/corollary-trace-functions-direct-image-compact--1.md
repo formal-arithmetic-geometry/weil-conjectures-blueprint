@@ -3,7 +3,7 @@ id = "corollary-trace-functions-direct-image-compact--1"
 kind = "corollary"
 title = "Trace functions and direct image with compact support (1)"
 name_showing = false
-order = 1024001
+order = 1025001
 aliases = ["bp-r313-1"]
 +++
 Let $f_0:X_0\to Y_0$ be a morphism of separated $\mathbf F_q$-schemes

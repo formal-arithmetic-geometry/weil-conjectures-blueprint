@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-exceptional-inverse-image"
-order = 619
-uses = ["theorem-compactness-rational-coefficients", "proposition-compactness-finite-coefficients", "corollary-proper-direct-image-finite-coefficients-localizing", "lemma-proper-direct-image-unbounded-complexes", "proposition-compactness-proper-direct-image", "proposition-proper-direct-image-extension-zero", "proposition-construction-independence-rf-shriek", "lemma-hypotheses-brown-representability", "theorem-existence-exceptional-inverse-image", "theorem-f-shriek-finite-coefficients", "theorem-f-shriek-ell-adic-coefficients"]
+order = 620
 +++
 Part (1) is Lemma [lemma-hypotheses-brown-representability]. Its
 compactness statement was proved separately for each kind of coefficient

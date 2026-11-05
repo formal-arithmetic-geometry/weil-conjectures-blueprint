@@ -2,7 +2,7 @@
 id = "prose-C-11"
 kind = "hidden"
 title = "The Jacobian (1)"
-order = 1543
+order = 1546
 +++
 We glue the translates of the chart of
 Proposition [proposition-divisors-degree-g-open-chart] to the Picard

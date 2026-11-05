@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients-internal-hom"
-order = 643
-uses = ["proposition-topos-functoriality"]
+order = 644
 +++
 Internal Hom is a right adjoint. As for $f^!$, there is no formal reason
 for it to commute with extension of scalars, and we argue as in the proof

@@ -2,7 +2,7 @@
 id = "prose-16-07"
 kind = "hidden"
 title = "Fourier inversion (2)"
-order = 1233
+order = 1236
 +++
 On the line, the transform exchanges the two simplest perverse sheaves,
 the shifted constant sheaf and the skyscraper at the origin, up to a

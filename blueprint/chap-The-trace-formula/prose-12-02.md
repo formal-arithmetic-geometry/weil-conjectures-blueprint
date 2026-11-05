@@ -2,7 +2,7 @@
 id = "prose-12-02"
 kind = "hidden"
 title = "The trace formula (2)"
-order = 948
+order = 949
 +++
 For constant coefficients the local term at a transverse fixed point is $1$, so on a
 proper $X$ transversality would be enough. Two

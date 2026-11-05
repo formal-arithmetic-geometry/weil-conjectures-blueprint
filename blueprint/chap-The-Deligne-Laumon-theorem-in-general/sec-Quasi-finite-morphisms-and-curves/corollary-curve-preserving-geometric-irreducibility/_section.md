@@ -2,9 +2,9 @@
 id = "corollary-curve-preserving-geometric-irreducibility"
 kind = "corollary"
 title = "A curve preserving geometric irreducibility"
-order = 1330
+order = 1333
 lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme of positive
 dimension. Given finitely many geometrically irreducible lisse Weil

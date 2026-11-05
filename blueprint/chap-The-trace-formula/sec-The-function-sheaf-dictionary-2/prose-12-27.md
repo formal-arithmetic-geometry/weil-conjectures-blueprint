@@ -2,7 +2,7 @@
 id = "prose-12-27"
 kind = "hidden"
 title = "The function–sheaf dictionary (4)"
-order = 1030
+order = 1031
 +++
 The Fourier transform of Section [chap-The-Fourier-transform] is one more entry, and
 the proposition shows why it corresponds to the discrete transform. Let

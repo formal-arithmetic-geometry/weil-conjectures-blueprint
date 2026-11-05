@@ -2,7 +2,7 @@
 id = "prose-A-06"
 kind = "hidden"
 title = "Compactifications (5)"
-order = 1411
+order = 1414
 +++
 By Lemma [lemma-schematic-closure-uniqueness], every
 compactification contains a dense one, the schematic closure of $X$.

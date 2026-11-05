@@ -2,7 +2,7 @@
 id = "prose-18-13"
 kind = "hidden"
 title = "Proof of the Deligne–Laumon theorem (5)"
-order = 1363
+order = 1366
 +++
 For Theorem [theorem-weights-rf-shriek], stated in
 Section [sec-The-Deligne-Laumon-theorem-2], the case of sheaves is

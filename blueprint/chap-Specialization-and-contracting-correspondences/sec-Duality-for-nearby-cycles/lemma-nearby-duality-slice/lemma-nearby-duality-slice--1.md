@@ -3,7 +3,7 @@ id = "lemma-nearby-duality-slice--1"
 kind = "lemma"
 title = "Duality for nearby cycles on a slice (1)"
 name_showing = false
-order = 1679001
+order = 1682001
 aliases = ["bp-r522-1"]
 +++
 In the situation just described, suppose that $X$ is affine, and let

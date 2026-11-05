@@ -2,7 +2,7 @@
 id = "prose-08-12"
 kind = "hidden"
 title = "Change of base field (1)"
-order = 686
+order = 687
 +++
 Lemma [lemma-reduction-curve-over-normal-base] turned a failure of
 $\mathrm{BC}(g,n,q)$ into a single nonvanishing sheaf $R^qh_*\mathbf Z/m\ne0$,

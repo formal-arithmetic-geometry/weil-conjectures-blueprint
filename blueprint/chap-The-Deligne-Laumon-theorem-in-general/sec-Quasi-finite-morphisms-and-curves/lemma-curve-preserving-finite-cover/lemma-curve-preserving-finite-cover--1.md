@@ -3,7 +3,7 @@ id = "lemma-curve-preserving-finite-cover--1"
 kind = "lemma"
 title = "A curve preserving a finite cover (1)"
 name_showing = false
-order = 1327001
+order = 1330001
 aliases = ["bp-r410-1"]
 +++
 Let $X$ be a smooth connected affine scheme over

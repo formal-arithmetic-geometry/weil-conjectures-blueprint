@@ -3,7 +3,7 @@ id = "definition-representing-objects--1"
 kind = "definition"
 title = "Representing objects (1)"
 name_showing = false
-order = 738001
+order = 739001
 aliases = ["bp-r222-1"]
 +++
 Let $f$ be smooth, and let us work in $D(Y,\mathbf Z/\ell^n\mathbf Z)$ and

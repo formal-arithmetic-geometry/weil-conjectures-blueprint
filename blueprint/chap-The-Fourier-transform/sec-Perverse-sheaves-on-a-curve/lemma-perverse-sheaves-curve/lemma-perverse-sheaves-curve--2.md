@@ -3,7 +3,7 @@ id = "lemma-perverse-sheaves-curve--2"
 kind = "lemma"
 title = "Perverse sheaves on a curve (2)"
 name_showing = false
-order = 1249002
+order = 1252002
 aliases = ["bp-r386-2"]
 +++
 A punctual sheaf in degree zero

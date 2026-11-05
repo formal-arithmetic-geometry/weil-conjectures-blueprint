@@ -2,7 +2,7 @@
 id = "lemma-extension-across-finite-subset"
 kind = "lemma"
 title = "Extension across a finite subset"
-order = 576
+order = 577
 lean = ["AlgebraicGeometry.Etale.HasDirectImageBaseChangeOnPlus.of_finite_boundary"]
 uses = ["definition-derived-base-change-map"]
 +++

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-compatibility-purity-base-change"
-order = 798
-uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
+order = 799
+uses = ["proposition-proper-direct-image-constructible-complexes", "proposition-exceptional-inverse-image-smooth-morphism", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "proposition-isomorphisms-reduce-finite-coefficients", "lemma-passing-schematic-closure"]
 +++
 The map $\gamma_f$ has two factors, the orientation of $\omega_f$ and the
 map $\mu_{f,K}$, and we show that each commutes with base

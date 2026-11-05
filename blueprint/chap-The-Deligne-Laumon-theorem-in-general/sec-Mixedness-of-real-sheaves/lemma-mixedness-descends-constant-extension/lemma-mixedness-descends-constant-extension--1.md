@@ -3,7 +3,7 @@ id = "lemma-mixedness-descends-constant-extension--1"
 kind = "lemma"
 title = "Mixedness and finite constant extensions (1)"
 name_showing = false
-order = 1337001
+order = 1340001
 aliases = ["bp-r413-1"]
 +++
 Let $X_0$ be a separated scheme of finite type over $k_0$, let

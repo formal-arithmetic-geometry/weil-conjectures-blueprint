@@ -2,7 +2,7 @@
 id = "prose-14-11"
 kind = "hidden"
 title = "Determinant weights"
-order = 1116
+order = 1119
 +++
 Before purity is known, the only weight we can attach to an irreducible
 lisse Weil sheaf $Q$ on a curve is its determinant weight

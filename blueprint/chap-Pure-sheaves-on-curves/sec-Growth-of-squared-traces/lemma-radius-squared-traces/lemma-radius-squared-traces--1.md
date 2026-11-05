@@ -3,7 +3,7 @@ id = "lemma-radius-squared-traces--1"
 kind = "lemma"
 title = "Radius of convergence (1)"
 name_showing = false
-order = 1199001
+order = 1202001
 aliases = ["bp-r370-1"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. The

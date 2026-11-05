@@ -2,7 +2,7 @@
 id = "corollary-functional-equation--7"
 kind = "corollary"
 title = "Functional equation in determinant form"
-order = 1044008
+order = 1045008
 aliases = ["bp-r320-7"]
 +++
 In $\mathbf Q_\ell(T)$,

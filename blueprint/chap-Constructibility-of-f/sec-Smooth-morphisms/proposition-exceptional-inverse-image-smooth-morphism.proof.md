@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-exceptional-inverse-image-smooth-morphism"
-order = 562
-uses = ["lemma-stability", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-forgetting-supports-composition", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+order = 563
+uses = ["lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The maps
 $\mu_N$ and $\beta_N$ are defined globally as adjoint
@@ -12,7 +12,7 @@ the counits through the factorization $U\to\mathbf A^d_V\to V$.
 
 We write
 $\varepsilon_N:Rf_!f^!N\to N$ for the counit of
-$Rf_!\dashv f^!$ (for $f=p$ this is (6.6)). The map $\mu_N$ is the
+$Rf_!\dashv f^!$ (for $f=p$ this is (6.8)). The map $\mu_N$ is the
 transpose of the morphism
 
 $$
@@ -23,17 +23,8 @@ N\otimes^{\mathbf L}Rf_!\omega_f
 $$
 
 where the first arrow is the projection formula. The map $\beta_N$ is the
-transpose, for $f'$, of the morphism
-
-$$
-Rf'_!g'^*f^!N
-\xrightarrow{\ \sim\ }g^*Rf_!f^!N
-\xrightarrow{g^*\varepsilon_N}g^*N,
-\tag{6.13}
-$$
-
-where the first arrow is the inverse of the base change isomorphism
-for $Rf_!$ (Proposition [proposition-composition-base-change-rf-shriek](2)).
+transpose, for $f'$, of the morphism (6.2)
+(Definition [definition-exceptional-base-change-finite]).
 
 *Local charts.* The computation of $f^!$ on a chart also
 proves (1). Zariski locally on $X$ and $S$, a smooth morphism
@@ -71,9 +62,9 @@ $\mu_N$ is an isomorphism on $X$.
 under the explicit description of $f^!$ as a
 twisted inverse image, $\beta_N$ is the evident identification of
 inverse images. For the projective line, the transpose of
-(6.13) is the usual identification
+(6.2) is the usual identification
 $g'^*p^*N(1)[2]=p'^*g^*N(1)[2]$ of pullbacks. This holds because the unit
-(6.5) and counit (6.6) commute with base change.
+(6.7) and counit (6.8) commute with base change.
 By restriction to the affine line and composition, the same holds for
 affine space. For a separated étale map $u$, the transpose is again the
 usual identification of inverse images. Indeed, the stalk of $u_!M$ at a
@@ -84,7 +75,7 @@ of $N$.
 
 The cases combine, because base change for $Rf_!$ is compatible with
 composition (Proposition [proposition-composition-base-change-rf-shriek](2)) and the counit of a composite is the composite of
-the counits. The open immersions $u$ and $v$ are étale, so the étale case covers them as well. Substituting these facts into (6.13), we see that the restriction of
+the counits. The open immersions $u$ and $v$ are étale, so the étale case covers them as well. Substituting these facts into (6.2), we see that the restriction of
 $\beta_N$ to $U\times_XX'$ is the composite of the étale and
 affine-space cases just treated. Hence $\beta_N$ is an
 isomorphism on a cover of $X'$, and therefore it is an isomorphism.
@@ -100,7 +91,7 @@ $\mu_N$ for $f'$. Their transposes are maps
 $Rf'_!g'^*(f^*N\otimes^{\mathbf L}\omega_f)\to g^*N$. Both are given by the
 projection formula followed by the counit, once before and once after
 the base change isomorphism for $Rf_!$. They agree for two reasons. First, the projection formula isomorphism is compatible with the base change
-isomorphism for $Rf_!$. Second, by the definition (6.13) of
+isomorphism for $Rf_!$. Second, by the definition (6.2) of
 $\beta_N$, the counit for $f'$ composed with $Rf'_!$ of
 $\beta_N$ is $g^*$ of the counit for $f$ under that
 isomorphism.

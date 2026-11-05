@@ -3,7 +3,7 @@ id = "proposition-integral-tate-module--4"
 kind = "proposition"
 title = "The integral Tate module (4)"
 name_showing = false
-order = 1509004
+order = 1512004
 aliases = ["bp-r471-4"]
 +++
 The groups $A[\ell^n](\bar k)$, the transition maps and the projections

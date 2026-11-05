@@ -2,9 +2,9 @@
 id = "proposition-base-change-fourier-inversion"
 kind = "proposition"
 title = "Base change and stalks"
-order = 1229
+order = 1232
 lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar", "AlgebraicGeometry.nonempty_iso_tensorLisse_upperStar_comp_fourierTransform", "AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar_rationalPointHom", "AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_rationalPoint"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $g:S'\to S$ be a morphism of schemes with $S'$ of finite type over
 $k_0$ or over $k$, let $V'=V\times_SS'$, and

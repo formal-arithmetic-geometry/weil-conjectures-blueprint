@@ -2,7 +2,7 @@
 id = "prose-08-22"
 kind = "hidden"
 title = "The Künneth formula (5)"
-order = 716
+order = 717
 +++
 Over a general finite ring the truncations of a complex in $D^b_{\mathrm{ctf}}$ need
 not have finite Tor amplitude, so the argument by truncation does not apply

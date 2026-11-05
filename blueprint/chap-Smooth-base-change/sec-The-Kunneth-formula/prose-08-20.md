@@ -2,7 +2,7 @@
 id = "prose-08-20"
 kind = "hidden"
 title = "The Künneth formula (3)"
-order = 710
+order = 711
 +++
 The case we prove first is the one in which one factor is an identity. For
 $f:X\to Y$, $T$ as in Lemma [lemma-base-change-along-product-projection],

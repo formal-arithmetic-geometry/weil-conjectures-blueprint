@@ -2,9 +2,9 @@
 id = "remark-base-change-compactification"
 kind = "remark"
 title = "Base change of a compactification"
-order = 1419
-lean = ["AlgebraicGeometry.Compactification.baseChange", "AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_i_baseChange", "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
-uses = ["lemma-passing-schematic-closure"]
+order = 1422
+lean = ["AlgebraicGeometry.Compactification.baseChange", "AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_i_baseChange"]
+uses = ["definition-compactification-refinement"]
 +++
 For every $S'\to S$, the base change of a compactification is an open
 immersion followed by a proper morphism, which suffices to define
@@ -13,9 +13,10 @@ base-changed ambient scheme is Noetherian, as for schemes of finite
 type over $k$, Lemma [lemma-passing-schematic-closure] shows that
 this direct image agrees with the one defined by the schematic closure.
 
-Schematic density
-and schematic closure commute with flat base change, but density can
-be lost under an arbitrary base change. In that case the schematic
+Schematic closure
+commutes with flat base change
+(Lemma [lemma-schematic-closure-uniqueness]), and so does schematic
+density, but density can be lost under an arbitrary base change. In that case the schematic
 closure of $X\times_SS'$ in $\overline X\times_SS'$ is a dense
 compactification, and a base-changed common refinement can be replaced
 by its closure in the same way. The comparisons in the main text are

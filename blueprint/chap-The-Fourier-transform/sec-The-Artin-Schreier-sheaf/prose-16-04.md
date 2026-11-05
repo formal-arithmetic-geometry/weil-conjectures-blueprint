@@ -2,7 +2,7 @@
 id = "prose-16-04"
 kind = "hidden"
 title = "The Artin–Schreier sheaf (3)"
-order = 1221
+order = 1224
 +++
 Fourier inversion integrates the kernel over a whole fibre
 $\mathbf A^r$ of a vector bundle, so we need the vanishing on

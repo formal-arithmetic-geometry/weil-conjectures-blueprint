@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-proper-direct-image-constructible-complexes"
 order = 426
-uses = ["corollary-continuity-cohomology", "lemma-reduction-derived-nakayama", "proposition-integral-constructibility-criterion", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "proposition-proper-direct-image-finite-coefficients", "proposition-proper-base-change-complete-integral", "lemma-completed-ordinary-base-change", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "lemma-change-coefficients"]
+uses = ["theorem-comparison-direct-images", "lemma-reduction-derived-nakayama", "proposition-inverting-ell", "lemma-identity-pasting", "definition-pro-etale-base-change-map", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-proper-direct-image-finite-coefficients", "proposition-construction-independence-rf-shriek", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-change-coefficients", "remark-base-change-compactification", "proposition-p-torsion-smooth-proper-curve"]
 +++
 *Finite coefficients.* Part (1), including the Tor bound, is
 Proposition [proposition-proper-direct-image-finite-coefficients], and proper base change holds by

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-weights-rf-shriek"
-order = 1364
-uses = ["lemma-weights-exact-sequence", "theorem-direct-image-mixed-sheaf"]
+order = 1367
+uses = ["proposition-weights-under-usual-operations", "lemma-weights-exact-sequence", "theorem-direct-image-mixed-sheaf"]
 +++
 Let $K\in D_{\le w}(X_0)$, so that each $\mathcal H^b(K)$ is mixed of
 weights at most $w+b$. Applying $Rf_!$ to the ordinary truncation tower

@@ -2,7 +2,7 @@
 id = "prose-16-10"
 kind = "hidden"
 title = "Perverse sheaves on a curve (1)"
-order = 1242
+order = 1245
 +++
 To apply Theorem [theorem-weights-sums-squared-traces] to the
 transform of a pure lisse sheaf $M$, we need to know that the

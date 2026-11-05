@@ -3,7 +3,7 @@ id = "remark-trace-map-special-cases"
 kind = "remark"
 title = "The trace map in two special cases"
 name_showing = false
-order = 805
+order = 806
 +++
 1. For the projection $\mathbf A^d_Y\to Y$ and $K=\Lambda_Y$, the
    trace map is the trace map of affine space (9.11)

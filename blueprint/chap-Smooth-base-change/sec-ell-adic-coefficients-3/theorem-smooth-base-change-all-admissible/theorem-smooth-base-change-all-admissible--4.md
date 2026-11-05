@@ -2,7 +2,7 @@
 id = "theorem-smooth-base-change-all-admissible--4"
 kind = "theorem"
 title = "Algebraically closed coefficients"
-order = 700008
+order = 701008
 aliases = ["bp-r210-4"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$, the map

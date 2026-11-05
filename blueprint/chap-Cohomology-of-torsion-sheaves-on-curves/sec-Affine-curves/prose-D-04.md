@@ -2,7 +2,7 @@
 id = "prose-D-04"
 kind = "hidden"
 title = "Affine curves (1)"
-order = 1578
+order = 1581
 +++
 Every smooth connected curve over an algebraically closed field that
 is not proper is affine and is the complement of a finite nonempty set

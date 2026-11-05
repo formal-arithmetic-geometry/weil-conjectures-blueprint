@@ -2,7 +2,7 @@
 id = "prose-17-14"
 kind = "hidden"
 title = "Arbitrary curves (4)"
-order = 1311
+order = 1314
 +++
 For example, take for $C_0$ the affine curve $y^2=x^3-x$ over
 $\mathbf F_3$, the complement of the point at infinity of the

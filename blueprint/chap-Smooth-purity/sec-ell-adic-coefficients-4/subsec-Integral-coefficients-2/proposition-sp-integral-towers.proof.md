@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-sp-integral-towers"
-order = 774
-uses = ["proposition-integral-constructibility-criterion", "lemma-structure-integral-constructible-complexes"]
+order = 775
 +++
 For (1), by Lemma [lemma-structure-integral-constructible-complexes], $K$ is a finite extension of
 shifted sheaves $a_!C$ with $C$ of Tor amplitude $[-1,0]$ on a stratum.

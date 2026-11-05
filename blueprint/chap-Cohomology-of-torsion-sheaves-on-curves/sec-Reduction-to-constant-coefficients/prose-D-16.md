@@ -2,7 +2,7 @@
 id = "prose-D-16"
 kind = "hidden"
 title = "Reduction to constant coefficients (1)"
-order = 1609
+order = 1612
 +++
 We reduce a local system to constant sheaves by pulling it back along
 a cover of degree prime to $\ell$, on which it becomes unipotent. To find such a cover, note that a local

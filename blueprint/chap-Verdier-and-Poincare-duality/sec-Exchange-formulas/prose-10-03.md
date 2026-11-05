@@ -2,7 +2,7 @@
 id = "prose-10-03"
 kind = "hidden"
 title = "Exchange formulas (2)"
-order = 826
+order = 827
 +++
 On the point, then, duality is the linear duality of perfect complexes,
 and the double dual is the identity. On a general $X$, however, we dualize into

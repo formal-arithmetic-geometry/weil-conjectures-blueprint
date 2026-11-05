@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-products-composites-u-admissible-blow"
-order = 1431
+order = 1434
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 All three assertions are statements about ideals, because products of ideals

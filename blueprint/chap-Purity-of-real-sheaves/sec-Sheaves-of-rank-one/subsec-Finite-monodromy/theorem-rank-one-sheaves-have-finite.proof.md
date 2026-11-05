@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-rank-one-sheaves-have-finite"
-order = 1105
+order = 1108
 uses = ["lemma-invariant-additive-characters"]
 +++
 We show that a fixed power of $\chi$ is trivial on $\pi_1(U)$, by

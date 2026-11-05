@@ -2,7 +2,7 @@
 id = "prose-08-02"
 kind = "hidden"
 title = "The base change map"
-order = 659
+order = 660
 +++
 Consider a cartesian square, with $X'=Y'\times_YX$,
 

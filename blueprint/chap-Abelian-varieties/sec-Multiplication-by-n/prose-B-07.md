@@ -2,7 +2,7 @@
 id = "prose-B-07"
 kind = "hidden"
 title = "Multiplication by $n$ (1)"
-order = 1492
+order = 1495
 +++
 Let $\mathcal L$ be an invertible sheaf on an abelian variety $A$. We
 pull $\mathcal L$ back to $A\times A\times A$ along the partial sums of

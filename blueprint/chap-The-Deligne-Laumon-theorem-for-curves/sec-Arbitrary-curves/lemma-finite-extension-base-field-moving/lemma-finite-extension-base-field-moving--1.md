@@ -3,7 +3,7 @@ id = "lemma-finite-extension-base-field-moving--1"
 kind = "lemma"
 title = "Moving a lisse point to infinity (1)"
 name_showing = false
-order = 1306001
+order = 1309001
 aliases = ["bp-r404-1"]
 +++
 Let $W_0$ be a dense open of $\mathbf P^1_{k_0}$, and let $F$ be a

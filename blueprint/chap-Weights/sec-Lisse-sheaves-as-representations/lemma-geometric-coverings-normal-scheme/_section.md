@@ -2,7 +2,7 @@
 id = "lemma-geometric-coverings-normal-scheme"
 kind = "lemma"
 title = "Geometric coverings of a normal scheme"
-order = 1074
+order = 1077
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a
 field. Let $p:Y\to X$ be separated and étale. Suppose that for every

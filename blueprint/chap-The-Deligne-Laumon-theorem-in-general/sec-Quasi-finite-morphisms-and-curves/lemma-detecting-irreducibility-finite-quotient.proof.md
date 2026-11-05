@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-detecting-irreducibility-finite-quotient"
-order = 1325
+order = 1328
 +++
 Recall Burnside's theorem: an algebra of endomorphisms of a
 finite-dimensional vector space over an algebraically closed field that

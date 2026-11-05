@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-h-1-c-stalk-fourier"
-order = 1288
-uses = ["definition-trace-function", "theorem-trace-formula-euler-product", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "definition-growth-squared-traces", "corollary-sums-squared-traces-j-shriek", "lemma-artin-schreier-character-sheaf", "proposition-base-change-fourier-inversion", "corollary-plancherel", "proposition-purity-lisse-part-fourier-transform"]
+order = 1291
+uses = ["definition-trace-function", "theorem-trace-formula-euler-product", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "definition-growth-squared-traces", "corollary-sums-squared-traces-j-shriek", "proposition-base-change-fourier-inversion", "corollary-plancherel", "proposition-purity-lisse-part-fourier-transform"]
 +++
 We compute the stalk at $0'$ of $\operatorname{FT}_\psi((j_*M)[1])$ in
 two ways: by the stalk formula, which gives the cohomology of $j_*M$,

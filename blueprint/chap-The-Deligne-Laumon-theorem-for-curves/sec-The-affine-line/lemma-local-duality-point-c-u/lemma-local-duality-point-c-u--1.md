@@ -3,7 +3,7 @@ id = "lemma-local-duality-point-c-u--1"
 kind = "lemma"
 title = "Local duality at a point of $C\\setminus U$ (1)"
 name_showing = false
-order = 1291001
+order = 1294001
 aliases = ["bp-r399-1"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be a dense open in a smooth curve

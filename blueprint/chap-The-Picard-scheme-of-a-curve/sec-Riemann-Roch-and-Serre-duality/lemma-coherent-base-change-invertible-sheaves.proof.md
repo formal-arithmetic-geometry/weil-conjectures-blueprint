@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-coherent-base-change-invertible-sheaves"
-order = 1531
-uses = ["definition-constructible-sheaves", "lemma-acyclic-resolutions", "lemma-perfect-complexes-geometric-point", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
+order = 1534
+uses = ["definition-constructible-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form"]
 +++
 This is base change for coherent cohomology along a proper morphism,
 applied to a flat finitely presented module, together with the openness

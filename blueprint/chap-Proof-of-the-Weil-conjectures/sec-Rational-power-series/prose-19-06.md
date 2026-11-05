@@ -2,7 +2,7 @@
 id = "prose-19-06"
 kind = "hidden"
 title = "Rational power series (3)"
-order = 1381
+order = 1384
 +++
 By Corollary [corollary-point-counting-zeta-function],
 $Z(X_0,T)\in\mathbf Q(T)\cap(1+T\mathbf Z[[T]])$ for every

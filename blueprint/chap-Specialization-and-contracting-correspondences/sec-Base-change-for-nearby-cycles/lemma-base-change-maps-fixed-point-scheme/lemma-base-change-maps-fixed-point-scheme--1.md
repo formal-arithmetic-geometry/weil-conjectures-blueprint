@@ -3,7 +3,7 @@ id = "lemma-base-change-maps-fixed-point-scheme--1"
 kind = "lemma"
 title = "Base change maps and the fixed point scheme (1)"
 name_showing = false
-order = 1667001
+order = 1670001
 aliases = ["bp-r518-1"]
 +++
 In the situation just described,

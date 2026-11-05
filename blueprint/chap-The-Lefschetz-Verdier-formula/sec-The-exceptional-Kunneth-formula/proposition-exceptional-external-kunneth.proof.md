@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-exceptional-external-kunneth"
-order = 908
-uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-map"]
+order = 909
+uses = ["lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-smooth-base-change-classical-torsion", "lemma-base-change-along-product-projection", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Both sides of $\alpha$ are exact in each variable, so by dévissage it is
 enough to check $\alpha$ on generators.

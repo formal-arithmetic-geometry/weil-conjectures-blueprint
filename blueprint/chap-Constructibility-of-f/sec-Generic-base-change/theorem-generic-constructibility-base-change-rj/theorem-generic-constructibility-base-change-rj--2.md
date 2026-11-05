@@ -3,7 +3,7 @@ id = "theorem-generic-constructibility-base-change-rj--2"
 kind = "theorem"
 title = "Generic constructibility and base change for $Rj_*$ (2)"
 name_showing = false
-order = 582002
+order = 583002
 aliases = ["bp-r177-2"]
 +++
 and such that for every $k$-scheme $T\to S_0$ of finite type, with base change

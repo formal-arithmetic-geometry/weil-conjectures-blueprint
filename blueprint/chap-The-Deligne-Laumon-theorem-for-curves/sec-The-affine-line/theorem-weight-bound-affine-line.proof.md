@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-weight-bound-affine-line"
-order = 1299
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "lemma-boundary-stalk", "lemma-extreme-degrees-affine-curve", "lemma-unramified-at-infinity-no-linear-characters", "corollary-h-1-c-stalk-fourier", "proposition-exactness-fixed-pure-weight"]
+order = 1302
+uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint", "lemma-subobjects-quotients-weil-sheaves", "lemma-boundary-stalk", "lemma-extreme-degrees-affine-curve", "lemma-unramified-at-infinity-no-linear-characters", "corollary-h-1-c-stalk-fourier", "proposition-exactness-fixed-pure-weight"]
 +++
 We prove the bound for the irreducible factors of $F$ and
 pass to $F$ by induction. The irreducible factors are of two kinds:

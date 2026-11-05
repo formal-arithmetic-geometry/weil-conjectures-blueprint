@@ -2,7 +2,7 @@
 id = "prose-E-18"
 kind = "hidden"
 title = "Duality for nearby cycles (1)"
-order = 1670
+order = 1673
 +++
 Since the second factor of $K\boxtimes \mathbb DK$ is a Verdier dual,
 specializing a trace class also requires nearby cycles to commute with

@@ -3,7 +3,7 @@ id = "proposition-specialization-trace-class--1"
 kind = "proposition"
 title = "Specialization of the trace class (1)"
 name_showing = false
-order = 1684001
+order = 1687001
 aliases = ["bp-r523-1"]
 +++
 Let $c=(c_1,c_2):C\to X\times_SX$ be a correspondence of separated

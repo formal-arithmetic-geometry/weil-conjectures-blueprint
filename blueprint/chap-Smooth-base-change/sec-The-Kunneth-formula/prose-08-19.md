@@ -2,7 +2,7 @@
 id = "prose-08-19"
 kind = "hidden"
 title = "The Künneth formula (2)"
-order = 708
+order = 709
 +++
 For $f=j:\mathbf G_m\hookrightarrow\mathbf A^1$ and $M=A$, the lemma
 says that the stalk of $R(j\times\operatorname{id}_T)_*A$ at a point

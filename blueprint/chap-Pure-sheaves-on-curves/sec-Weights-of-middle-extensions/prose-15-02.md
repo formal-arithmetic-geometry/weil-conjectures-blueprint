@@ -2,7 +2,7 @@
 id = "prose-15-02"
 kind = "hidden"
 title = "Weights of middle extensions (1)"
-order = 1171
+order = 1174
 +++
 Let $j$ be the inclusion of a dense open in a smooth curve, and let
 $\mathcal F$ be a lisse sheaf on the open. The Fourier argument needs an

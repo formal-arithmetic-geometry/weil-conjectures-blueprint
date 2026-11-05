@@ -3,7 +3,7 @@ id = "definition-strict-transform--1"
 kind = "definition"
 title = "Strict transform (1)"
 name_showing = false
-order = 1428001
+order = 1431001
 aliases = ["bp-r444-1"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of

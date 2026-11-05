@@ -2,7 +2,7 @@
 id = "lemma-determinant-weight-from-central-scalar"
 kind = "lemma"
 title = "Determinant weight from a central scalar"
-order = 1142
+order = 1145
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_detWeight_eq_of_isPositiveCentralPair_of_isIrreducible"]
 uses = ["definition-monodromy-groups", "lemma-normality-geometric-monodromy"]
 +++

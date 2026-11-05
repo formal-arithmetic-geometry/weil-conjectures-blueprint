@@ -2,7 +2,7 @@
 id = "prose-B-01"
 kind = "hidden"
 title = "Abelian varieties"
-order = 1471
+order = 1474
 +++
 Two steps of the main proof come down to the torsion points of a
 Jacobian. By the Kummer sequence, $H^1(C,\mu_n)$ of a curve is the $n$-torsion of its Jacobian. The first step, the finiteness of $H^1$ needed for proper base change, is therefore a count of torsion points. The second step is

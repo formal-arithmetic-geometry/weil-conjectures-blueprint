@@ -3,7 +3,7 @@ id = "definition-weights--3"
 kind = "definition"
 title = "Weights, purity and mixedness (3)"
 name_showing = false
-order = 1057003
+order = 1058003
 aliases = ["bp-r324-3"]
 +++
 $K$ is *punctually of weights $\le w$* if

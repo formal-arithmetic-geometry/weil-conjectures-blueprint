@@ -3,7 +3,7 @@ id = "lemma-separation-closures--1"
 kind = "lemma"
 title = "Separation of closures (1)"
 name_showing = false
-order = 1450001
+order = 1453001
 aliases = ["bp-r452-1"]
 +++
 Let $T$ be qcqs and let $V\subseteq T$ be a quasi-compact open.

@@ -2,9 +2,9 @@
 id = "proposition-twisting-weight-zero-adding-dual"
 kind = "proposition"
 title = "Twisting to weight zero and adding the dual"
-order = 1194
+order = 1197
 lean = ["AlgebraicGeometry.WeilSheaf.realEnvelope", "AlgebraicGeometry.WeilSheaf.isReal_realEnvelope", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.realEnvelope", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.exists_units_norm_eq"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-real-sheaves"]
 +++
 Let $\mathcal F\ne0$ be lisse and pure of weight $w$ on a nonempty
 finite-type scheme over $k_0$.  There is $b\in\overline{\mathbf Q}_\ell^\times$ with

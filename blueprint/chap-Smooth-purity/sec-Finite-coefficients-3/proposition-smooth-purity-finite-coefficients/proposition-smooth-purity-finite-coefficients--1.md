@@ -3,7 +3,7 @@ id = "proposition-smooth-purity-finite-coefficients--1"
 kind = "proposition"
 title = "Smooth purity with finite coefficients (1)"
 name_showing = false
-order = 758001
+order = 759001
 aliases = ["bp-r229-1"]
 +++
 Let $A$ be any finite admissible coefficient ring, and let

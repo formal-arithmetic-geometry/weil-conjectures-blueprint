@@ -2,7 +2,7 @@
 id = "example-nearby-cycles-node"
 kind = "example"
 title = "A node"
-order = 1620
+order = 1623
 +++
 Nearby cycles see more than the special fibre when the family
 degenerates. For example, for $\mathcal Y=V(xy-t)\subset\mathbf A^2_S$ the special

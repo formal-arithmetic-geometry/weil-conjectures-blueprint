@@ -2,7 +2,7 @@
 id = "prose-10-18"
 kind = "hidden"
 title = "Cohomology in top degree (3)"
-order = 870
+order = 871
 +++
 For a field $\Lambda$ and the constant sheaf, the trace isomorphism in top degree
 turns Poincaré duality into the classical cup product pairing. On

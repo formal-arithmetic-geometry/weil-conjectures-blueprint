@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-evaluation-weakly-contractible-objects"
 order = 80
-uses = ["definition-w-local-w-strictly-local", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects"]
+uses = ["proposition-etale-implications", "lemma-stability", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective"]
 +++
 All three parts follow from the fact that every epimorphism onto a
 sheaf is surjective on sections over $W$, together with the fact that

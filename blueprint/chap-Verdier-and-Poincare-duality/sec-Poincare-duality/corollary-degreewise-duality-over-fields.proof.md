@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-degreewise-duality-over-fields"
-order = 860
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "corollary-open-direct-image-over-field", "lemma-perfect-complexes-geometric-point", "theorem-nagata-s-compactification-theorem", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
+order = 861
+uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "corollary-cohomology-geometric-fibres", "corollary-open-direct-image-over-field", "definition-perfect-pairing"]
 +++
 We take cohomology of the isomorphism (10.8);
 over a field this loses nothing, because linear duality is exact.

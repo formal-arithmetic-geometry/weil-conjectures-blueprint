@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Integral models"
 order = 294
 lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion", "AlgebraicGeometry.ProEtale.IntegralModelsStacks.integral_models_stacks"]
-uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves"]
 +++
 1. Restriction of scalars along the map from the constant sheaf
    $\mathcal O_E$ to $\mathcal O_{E,X}$ is an equivalence between the

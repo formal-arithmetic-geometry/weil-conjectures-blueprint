@@ -2,7 +2,7 @@
 id = "prose-14-15"
 kind = "hidden"
 title = "Central elements (1)"
-order = 1127
+order = 1130
 +++
 In the arithmetic monodromy group we construct a central element of
 positive degree

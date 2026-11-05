@@ -2,7 +2,7 @@
 id = "lemma-triviality-near-fibre"
 kind = "lemma"
 title = "Triviality near a fibre"
-order = 1483
+order = 1486
 lean = ["AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd_of_nonempty_iso_fiber"]
 +++
 Let $P$ and $Q$ be proper geometrically integral $k$-schemes with points

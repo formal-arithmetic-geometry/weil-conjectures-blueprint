@@ -2,7 +2,7 @@
 id = "prose-09-14"
 kind = "hidden"
 title = "Finite coefficients (4)"
-order = 752
+order = 753
 +++
 In part (1) the morphism $h$ is arbitrary. Blowups in general commute
 only with flat base change, but by its

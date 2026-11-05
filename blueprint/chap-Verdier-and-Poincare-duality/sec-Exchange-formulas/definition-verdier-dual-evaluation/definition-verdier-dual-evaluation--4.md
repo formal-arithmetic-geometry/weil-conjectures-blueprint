@@ -3,7 +3,7 @@ id = "definition-verdier-dual-evaluation--4"
 kind = "definition"
 title = "Verdier dual and evaluation (4)"
 name_showing = false
-order = 827004
+order = 828004
 aliases = ["bp-r247-4"]
 +++
 The *double-dual

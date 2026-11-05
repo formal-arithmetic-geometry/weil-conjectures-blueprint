@@ -2,7 +2,7 @@
 id = "prose-18-03"
 kind = "hidden"
 title = "Quasi-finite morphisms and curves (2)"
-order = 1323
+order = 1326
 +++
 A lisse sheaf stays geometrically irreducible on a curve $C$ in $X$ as
 soon as the image of $\pi_1(C)$ is large enough. The next lemma shows

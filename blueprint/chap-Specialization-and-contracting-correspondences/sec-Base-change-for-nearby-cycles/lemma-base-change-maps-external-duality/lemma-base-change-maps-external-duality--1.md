@@ -3,7 +3,7 @@ id = "lemma-base-change-maps-external-duality--1"
 kind = "lemma"
 title = "Base change maps and external duality (1)"
 name_showing = false
-order = 1664001
+order = 1667001
 aliases = ["bp-r517-1"]
 +++
 Let $X$ be a separated $S$-scheme of finite type with projections

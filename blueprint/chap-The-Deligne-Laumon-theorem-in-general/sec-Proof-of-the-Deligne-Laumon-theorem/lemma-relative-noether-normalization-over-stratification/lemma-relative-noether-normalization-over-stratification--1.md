@@ -3,7 +3,7 @@ id = "lemma-relative-noether-normalization-over-stratification--1"
 kind = "lemma"
 title = "Relative Noether normalization over a stratification (1)"
 name_showing = false
-order = 1358001
+order = 1361001
 aliases = ["bp-r421-1"]
 +++
 Let $f:X_0\to Y_0$ be a morphism of finite type. There are finite

@@ -2,7 +2,7 @@
 id = "prose-08-09"
 kind = "hidden"
 title = "Reduction to curves (3)"
-order = 677
+order = 678
 +++
 The field $\Omega$ produced by this lemma is arbitrary, and the base $T$
 is still an arbitrary affine scheme. To bring them into the special

@@ -2,7 +2,7 @@
 id = "prose-16-01"
 kind = "hidden"
 title = "The Fourier transform"
-order = 1214
+order = 1217
 +++
 Theorem [theorem-purity-real-sheaves-curves] controls the Frobenius
 eigenvalues of a real sheaf at the points of a curve. The bound we need

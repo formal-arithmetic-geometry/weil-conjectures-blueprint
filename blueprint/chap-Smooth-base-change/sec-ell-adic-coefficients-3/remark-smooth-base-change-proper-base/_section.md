@@ -2,8 +2,7 @@
 id = "remark-smooth-base-change-proper-base"
 kind = "remark"
 title = "Smooth base change, proper base change and base change for $f^!$"
-order = 703
-uses = ["theorem-smooth-base-change-all-admissible"]
+order = 704
 +++
 In (8.1), smooth base change assumes that $g$ is smooth and
 allows any $f$ of finite type, whereas proper base change assumes that $f$

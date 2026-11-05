@@ -2,7 +2,7 @@
 id = "lemma-duality-invariants-pro-p"
 kind = "lemma"
 title = "Duality and invariants under $P$"
-order = 1676
+order = 1679
 lean = ["Representation.invariantsDualEquiv", "CategoryTheory.invariantsDualIso", "CategoryTheory.uncurry_invariantsDualIso_hom"]
 +++
 Let $Y$ be a scheme of finite type over a separably closed field, and

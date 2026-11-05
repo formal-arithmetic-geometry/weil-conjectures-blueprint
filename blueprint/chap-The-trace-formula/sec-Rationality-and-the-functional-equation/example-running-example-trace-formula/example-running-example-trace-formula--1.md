@@ -3,7 +3,7 @@ id = "example-running-example-trace-formula--1"
 kind = "example"
 title = "The running example: the trace formula (1)"
 name_showing = false
-order = 1042001
+order = 1043001
 aliases = ["bp-r319-1"]
 +++
 For the elliptic curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$,

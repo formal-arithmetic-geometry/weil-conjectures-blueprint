@@ -2,7 +2,7 @@
 id = "prose-10-23"
 kind = "hidden"
 title = "Frobenius and Poincaré duality (2)"
-order = 883
+order = 884
 +++
 Weil structures are transported along $f^!$,
 $f^*$ and $Rf_!$. On $f^*K(d)[2d]$ the Weil

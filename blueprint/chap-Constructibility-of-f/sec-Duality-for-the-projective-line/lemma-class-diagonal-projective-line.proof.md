@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-class-diagonal-projective-line"
-order = 551
+order = 552
 +++
 Let $x_0,x_1$ and $y_0,y_1$ be the pullbacks along $p_1$
 and $p_2$ of the homogeneous coordinates of $\mathbf P^1_S$. Then
@@ -27,11 +27,11 @@ $$
 
 so $s_i$ is a morphism of sheaves and is determined by its geometric
 stalks. By proper base change and the compatibility of $\delta$ and
-$\operatorname{Tr}_{p_i}$ with base change, the stalk of (6.4) at a
+$\operatorname{Tr}_{p_i}$ with base change, the stalk of (6.6) at a
 geometric point $\bar x$ of $\mathbf P^1_S$ is computed on the fibre
 $p_i^{-1}(\bar x)\simeq\mathbf P^1_{\bar x}$. On this fibre the equation $x_0y_1-x_1y_0$ restricts to a nonzero linear form, so the diagonal cuts out a single reduced point, whose line bundle is $\mathcal O(1)$.
 By Lemma [lemma-cycle-class-cartier-divisor], the class of this point
 composed with the unit is $c_1(\mathcal O(1))$. In turn, the trace $\operatorname{Tr}_p$ sends $c_1(\mathcal O(1))$ to $1$, since by
-definition (6.3) it is the projection onto the summand of
-(6.2) spanned by this class. Thus the stalk of $s_i$ at every
+definition (6.5) it is the projection onto the summand of
+(6.4) spanned by this class. Thus the stalk of $s_i$ at every
 geometric point $\bar x$ sends $1$ to $1$, and so $s_i=1$.

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-unramified-boundary-point"
-order = 1184
-uses = ["theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "lemma-degree-zero-top-cohomology", "lemma-boundary-stalk", "lemma-point-count-bound", "proposition-weights-j-boundary-points", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+order = 1187
+uses = ["proposition-sp-unique-adjoint", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "lemma-degree-zero-top-cohomology", "lemma-boundary-stalk", "lemma-point-count-bound", "proposition-weights-j-boundary-points", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Purity follows from the upper bounds for the sheaf and for its dual,
 provided the stalk of the dual is the dual of the stalk, and trivial

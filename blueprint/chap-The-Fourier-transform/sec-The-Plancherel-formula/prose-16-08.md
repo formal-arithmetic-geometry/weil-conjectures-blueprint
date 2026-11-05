@@ -2,7 +2,7 @@
 id = "prose-16-08"
 kind = "hidden"
 title = "The Plancherel formula (1)"
-order = 1237
+order = 1240
 +++
 On trace functions, the Fourier transform is, up to the sign $(-1)^r$, the
 discrete Fourier transform over $\mathbf F_{q^n}$ for the character

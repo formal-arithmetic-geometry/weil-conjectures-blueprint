@@ -2,7 +2,7 @@
 id = "prose-09-18"
 kind = "hidden"
 title = "Change of finite coefficients (1)"
-order = 765
+order = 766
 +++
 The levels $\mathcal O_E/\ell^n$ of a tower are related by extension of
 scalars. The first thing to know is therefore how $Rf_!$ and $f^!$ behave

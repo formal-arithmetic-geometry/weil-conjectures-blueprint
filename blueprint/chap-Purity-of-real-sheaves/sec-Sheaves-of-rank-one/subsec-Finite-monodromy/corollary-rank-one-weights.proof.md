@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-rank-one-weights"
-order = 1108
+order = 1111
 uses = ["lemma-invariant-additive-characters"]
 +++
 We separate from $\chi$ the part that depends only on the degree. Put

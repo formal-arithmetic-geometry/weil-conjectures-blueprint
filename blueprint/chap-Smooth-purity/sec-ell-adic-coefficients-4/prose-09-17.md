@@ -2,7 +2,7 @@
 id = "prose-09-17"
 kind = "hidden"
 title = "$\\ell$-adic coefficients"
-order = 761
+order = 762
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For
 $\mathcal O_E$-coefficients we want an isomorphism of functors

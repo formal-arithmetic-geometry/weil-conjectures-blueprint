@@ -2,7 +2,7 @@
 id = "prose-10-02"
 kind = "hidden"
 title = "Exchange formulas (1)"
-order = 823
+order = 824
 +++
 After defining the dualizing complex $\omega_X$,
 the Verdier dual $\mathbb D_X$ and the double-dual map

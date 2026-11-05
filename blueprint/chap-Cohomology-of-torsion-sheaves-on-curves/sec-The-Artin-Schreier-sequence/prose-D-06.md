@@ -2,7 +2,7 @@
 id = "prose-D-06"
 kind = "hidden"
 title = "The Artin–Schreier sequence (1)"
-order = 1583
+order = 1586
 +++
 Since the Kummer cover $T^n=a$ is étale only when $n$ is invertible,
 $p$-torsion in characteristic $p$ needs a different sequence.

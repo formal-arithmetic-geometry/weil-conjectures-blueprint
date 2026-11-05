@@ -2,7 +2,7 @@
 id = "definition-abelian-variety"
 kind = "definition"
 title = "Abelian variety"
-order = 1493
+order = 1496
 lean = ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.isAbelianVariety_iff_geometricallyConnected", "AlgebraicGeometry.torsionSubgroupScheme"]
 +++
 An *abelian variety* over $k$ is a smooth proper geometrically

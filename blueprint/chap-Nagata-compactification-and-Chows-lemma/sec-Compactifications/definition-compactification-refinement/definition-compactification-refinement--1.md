@@ -3,7 +3,7 @@ id = "definition-compactification-refinement--1"
 kind = "definition"
 title = "Compactification and refinement (1)"
 name_showing = false
-order = 1402001
+order = 1405001
 aliases = ["bp-r433-1"]
 +++
 Let $f:X\to S$ be a morphism. A compactification is a factorization

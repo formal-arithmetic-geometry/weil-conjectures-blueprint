@@ -2,9 +2,9 @@
 id = "lemma-simple-objects"
 kind = "lemma"
 title = "The simple objects"
-order = 1255
+order = 1258
 lean = ["AlgebraicGeometry.WeilComplex.simple_iff", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.simple_middleExtension", "AlgebraicGeometry.WeilComplex.simple_punctualObj_iff"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-perverse-sheaves-curve", "lemma-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-perverse-sheaves-curve", "lemma-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 In the category of perverse sheaves on $C$, and in that of perverse
 Weil sheaves on $C_0$,

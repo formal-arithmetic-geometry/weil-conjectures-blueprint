@@ -2,7 +2,7 @@
 id = "prose-13-04"
 kind = "hidden"
 title = "Weil sheaves and weights (3)"
-order = 1058
+order = 1059
 +++
 Deligne calls a complex $K$ pure of weight $w$ if $K$ has weights at most
 $w$ and its Verdier dual $\mathbb D K$ has weights at most $-w$. Over a point

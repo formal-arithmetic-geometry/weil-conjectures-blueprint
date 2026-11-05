@@ -2,7 +2,7 @@
 id = "lemma-representability-picard-functor"
 kind = "lemma"
 title = "Representability of the Picard functor"
-order = 1544
+order = 1547
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor"]
 uses = ["definition-relative-picard-functor"]
 +++

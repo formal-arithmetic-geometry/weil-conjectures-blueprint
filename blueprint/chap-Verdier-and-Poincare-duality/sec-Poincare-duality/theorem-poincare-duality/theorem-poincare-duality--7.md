@@ -3,7 +3,7 @@ id = "theorem-poincare-duality--7"
 kind = "theorem"
 title = "Poincaré duality (7)"
 name_showing = false
-order = 856007
+order = 857007
 aliases = ["bp-r257-7"]
 +++
 and its adjoint is the canonical isomorphism

@@ -3,7 +3,7 @@ id = "proposition-relative-form-zariski-s-main--1"
 kind = "proposition"
 title = "The relative form of Zariski's Main Theorem (1)"
 name_showing = false
-order = 1435001
+order = 1438001
 aliases = ["bp-r447-1"]
 +++
 A separated, quasi-compact, locally quasi-finite morphism

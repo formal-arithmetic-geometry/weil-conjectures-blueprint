@@ -3,7 +3,7 @@ id = "definition-pushforward-correspondence--2"
 kind = "definition"
 title = "Pushforward of a correspondence (2)"
 name_showing = false
-order = 923002
+order = 924002
 aliases = ["bp-r280-2"]
 +++
 The map $g$ induces a proper morphism $h:\Fix(c)\to \Fix(c')$ of fixed loci,

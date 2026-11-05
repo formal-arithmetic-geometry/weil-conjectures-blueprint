@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-filtered-trace-morphism"
-order = 934
-uses = ["lemma-external-duality-trace-morphism", "lemma-graded-pieces-filtered-operations"]
+order = 935
 +++
 The trace morphism is the composite of four steps: the exceptional
 tensor–Hom adjunction, external duality, the adjoint of evaluation

@@ -3,7 +3,7 @@ id = "definition-weights--7"
 kind = "definition"
 title = "Weights, purity and mixedness (7)"
 name_showing = false
-order = 1057007
+order = 1058007
 aliases = ["bp-r324-7"]
 +++
 and it is

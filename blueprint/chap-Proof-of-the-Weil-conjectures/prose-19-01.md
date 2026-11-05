@@ -2,7 +2,7 @@
 id = "prose-19-01"
 kind = "hidden"
 title = "Proof of the Weil conjectures"
-order = 1366
+order = 1369
 +++
 The Deligne–Laumon theorem is an upper bound for weights, stated with $\ell$-adic
 coefficients and one embedding $\iota:\overline{\mathbf Q}_\ell\to\mathbf C$. Weil's

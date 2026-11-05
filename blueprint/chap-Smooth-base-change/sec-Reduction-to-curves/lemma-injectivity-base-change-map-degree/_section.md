@@ -2,7 +2,7 @@
 id = "lemma-injectivity-base-change-map-degree"
 kind = "lemma"
 title = "Injectivity of the base change map in degree $q$"
-order = 672
+order = 673
 lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry.Etale.mono_cokernelMap", "AlgebraicGeometry.Etale.mono_cokernelDesc"]
 uses = ["definition-derived-base-change-map"]
 +++

@@ -2,7 +2,7 @@
 id = "prose-14-01"
 kind = "hidden"
 title = "Purity of real sheaves"
-order = 1086
+order = 1089
 +++
 In Section [chap-The-Deligne-Laumon-theorem-for-curves] the Fourier transform of a pure sheaf
 produces a lisse sheaf $M'$ whose Frobenius eigenvalues we cannot compute.

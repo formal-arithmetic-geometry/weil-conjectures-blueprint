@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-poincare-duality-frobenius"
-order = 885
+order = 886
 +++
 The pairing $\beta_K$ is a composite of maps each of which commutes with
 pullback along Frobenius, so it is equivariant. Over a

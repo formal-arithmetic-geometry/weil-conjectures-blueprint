@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-multiplication-n"
-order = 1504
-uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n"]
+order = 1507
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "theorem-picard-scheme-jacobian-over-separably"]
 +++
 We use the isomorphism $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$
 twice: on curves in the fibres of $[n]$ it shows that $[n]$ is finite,

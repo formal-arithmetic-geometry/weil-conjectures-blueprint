@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-normal-cones-contracting-ideals"
-order = 1698
-uses = ["definition-small-pro-etale-site"]
+order = 1701
 +++
 We read everything off from the graded algebras. The first leg sends
 $I$ onto generators of $I_1$, so it identifies the ideals of the zero

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-naturality-under-base-change-etale"
-order = 753
+order = 754
 +++
 The geometric identifications follow from the coordinate description of
 the deformation space. Every comparison of dualizing complexes is then

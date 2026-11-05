@@ -2,7 +2,7 @@
 id = "prose-09-07"
 kind = "hidden"
 title = "The tensor product map"
-order = 735
+order = 736
 +++
 With finite coefficients, smooth purity says that for $f$ smooth of pure
 relative dimension $d$ the exceptional inverse image $f^!$ is the ordinary

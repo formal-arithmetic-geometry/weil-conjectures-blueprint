@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-base-change-maps-fixed-point-scheme"
-order = 1668
+order = 1671
 +++
 The inverse of the base
 change map, $Ri_*d^!\to c^!R\Delta_*$, is adjoint to the explicit map

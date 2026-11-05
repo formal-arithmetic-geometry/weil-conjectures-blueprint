@@ -2,7 +2,7 @@
 id = "prose-13-03"
 kind = "hidden"
 title = "Weil sheaves and weights (2)"
-order = 1056
+order = 1057
 +++
 Every sheaf defined over $k_0$ is a Weil sheaf. By means of the Weil
 isomorphism, Frobenius acts on the stalk at a geometric point over each

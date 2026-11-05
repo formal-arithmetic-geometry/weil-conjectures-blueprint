@@ -2,7 +2,7 @@
 id = "prose-D-01"
 kind = "hidden"
 title = "Cohomology of torsion sheaves on curves"
-order = 1568
+order = 1571
 +++
 The last step of proper base change for $\mathbf P^1$ compares the
 cohomology of a curve over two separably closed fields, one inside the

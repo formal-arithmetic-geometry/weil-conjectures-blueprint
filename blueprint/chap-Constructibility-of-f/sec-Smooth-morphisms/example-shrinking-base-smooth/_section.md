@@ -2,7 +2,7 @@
 id = "example-shrinking-base-smooth"
 kind = "example"
 title = "Why the base must be shrunk"
-order = 566
+order = 567
 +++
 Let $k$ be algebraically closed, $S=\mathbf A^1$ with coordinate $t$, and
 let $X\subset\mathbf A^1_S$ be the complement of the two sections $x=0$

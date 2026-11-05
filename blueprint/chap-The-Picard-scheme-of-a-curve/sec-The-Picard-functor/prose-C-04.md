@@ -2,7 +2,7 @@
 id = "prose-C-04"
 kind = "hidden"
 title = "The Picard functor (3)"
-order = 1522
+order = 1525
 +++
 For a smooth proper geometrically connected curve $C$ over a field
 $k$, we have $H^0(C,\mathcal O_C)=k$. For every field extension $k'/k$

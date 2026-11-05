@@ -2,7 +2,7 @@
 id = "prose-12-10"
 kind = "hidden"
 title = "Vanishing on a strictly local surface (1)"
-order = 969
+order = 970
 +++
 The vanishing of the local term is explained by the position of the curves at $(y,y)$. Since
 $d\Phi_X=0$, the transposed graph $\Gamma$ is tangent to the vertical

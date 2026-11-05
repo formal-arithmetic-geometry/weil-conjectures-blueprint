@@ -2,7 +2,7 @@
 id = "prose-18-06"
 kind = "hidden"
 title = "Mixedness of real sheaves (1)"
-order = 1333
+order = 1336
 +++
 With these curves we pass from the purity theorem for real sheaves on
 curves (Theorem [theorem-purity-real-sheaves-curves]) to the

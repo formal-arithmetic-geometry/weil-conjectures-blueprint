@@ -3,7 +3,7 @@ id = "theorem-generic-constructibility-base-change-rj--1"
 kind = "theorem"
 title = "Generic constructibility and base change for $Rj_*$ (1)"
 name_showing = false
-order = 582001
+order = 583001
 aliases = ["bp-r177-1"]
 +++
 Let $S$ be integral, and let $j:X\hookrightarrow Y$ be an open immersion of

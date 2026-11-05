@@ -3,7 +3,7 @@ id = "definition-quasi-domination--1"
 kind = "definition"
 title = "Quasi-domination (1)"
 name_showing = false
-order = 1433001
+order = 1436001
 aliases = ["bp-r446-1"]
 +++
 Let $X$ and $Y$ be $S$-schemes, with $Y\to S$ separated. A

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-p-torsion-affine-curve-characteristic"
-order = 1588
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
+order = 1591
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 Quasi-coherent cohomology on an affine scheme vanishes in positive
 degrees, and, as in the proof of the proposition, étale and Zariski

@@ -2,7 +2,7 @@
 id = "prose-16-09"
 kind = "hidden"
 title = "The Plancherel formula (2)"
-order = 1240
+order = 1243
 +++
 For the constant sheaf $E$ on the line and $n=1$, formula
 (16.3) gives the trace $-\sum_x\psi(xy)$, which is $-q$ at

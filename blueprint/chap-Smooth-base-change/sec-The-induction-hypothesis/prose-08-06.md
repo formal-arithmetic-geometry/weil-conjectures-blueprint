@@ -2,7 +2,7 @@
 id = "prose-08-06"
 kind = "hidden"
 title = "The induction hypothesis"
-order = 669
+order = 670
 +++
 In positive degrees we argue by induction on the degree. This induction
 hypothesis has to survive the reductions outlined above: composition of

@@ -2,9 +2,9 @@
 id = "theorem-trace-formula-euler-product"
 kind = "theorem"
 title = "The trace formula as an Euler product"
-order = 1036
+order = 1037
 lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, let
 $\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, and let $K\in\Dbc(X,\Lambda)$ carry a Weil

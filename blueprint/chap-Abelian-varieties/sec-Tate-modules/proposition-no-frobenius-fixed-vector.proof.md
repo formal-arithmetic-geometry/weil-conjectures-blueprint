@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-no-frobenius-fixed-vector"
-order = 1513
-uses = ["definition-compactification-refinement", "proposition-multiplication-n", "proposition-integral-tate-module"]
+order = 1516
+uses = ["definition-compactification-refinement", "proposition-multiplication-n", "proposition-integral-tate-module", "theorem-picard-scheme-jacobian-over-separably"]
 +++
 A fixed vector is a compatible system of torsion points, each rational
 over $\mathbf F_{q^m}$. But the rational points form a finite group, so the orders of the $\ell$-power torsion points in it are bounded, and

@@ -2,7 +2,7 @@
 id = "example-derived-reduction-point--3"
 kind = "example"
 title = "Degree-zero cohomology"
-order = 629004
+order = 630004
 aliases = ["bp-r190-3"]
 +++
 One has $H^0(X,K)=\ell\mathbf Z/\ell^2$, of order $\ell$.

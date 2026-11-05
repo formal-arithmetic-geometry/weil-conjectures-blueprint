@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-weights-j-boundary-points"
-order = 1181
-uses = ["theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+order = 1184
+uses = ["proposition-sp-unique-adjoint", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Comparing the $L$-functions of $\mathcal F$ and of $j_*\mathcal F$
 gives the weaker bound $a+2$ at the boundary, and tensor powers

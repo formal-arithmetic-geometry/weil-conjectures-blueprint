@@ -2,7 +2,7 @@
 id = "lemma-reduced-fractions-integer-coefficients"
 kind = "lemma"
 title = "Reduced fractions with integer coefficients"
-order = 1379
+order = 1382
 lean = ["PowerSeries.existsUnique_isNormalizedIntegralFraction"]
 +++
 If $C(T)\in1+T\mathbf Z[[T]]$ is rational over $\mathbf Q$, then

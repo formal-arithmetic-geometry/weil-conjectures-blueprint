@@ -2,7 +2,7 @@
 id = "proof/theorem-cohomology-curves/2"
 kind = "proof"
 of = "theorem-cohomology-curves"
-order = 1615
+order = 1618
 +++
 For constructible sheaves we reduce to the explicit calculations, and
 arbitrary torsion sheaves are filtered colimits of these. The reduction

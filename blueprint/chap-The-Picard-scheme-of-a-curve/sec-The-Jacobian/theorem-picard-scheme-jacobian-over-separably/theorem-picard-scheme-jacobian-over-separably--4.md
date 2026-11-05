@@ -3,7 +3,7 @@ id = "theorem-picard-scheme-jacobian-over-separably--4"
 kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field (4)"
 name_showing = false
-order = 1549004
+order = 1552004
 aliases = ["bp-r483-4"]
 +++
 $$

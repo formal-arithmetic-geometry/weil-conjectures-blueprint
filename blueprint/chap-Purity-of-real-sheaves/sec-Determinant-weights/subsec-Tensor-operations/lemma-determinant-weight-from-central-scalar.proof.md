@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-determinant-weight-from-central-scalar"
-order = 1143
+order = 1146
 +++
 The determinant of $Q$ is an algebraic character of $H$, and its image on
 the dense subgroup $\rho(\pi_1(U))$ is finite, and hence its image on all of

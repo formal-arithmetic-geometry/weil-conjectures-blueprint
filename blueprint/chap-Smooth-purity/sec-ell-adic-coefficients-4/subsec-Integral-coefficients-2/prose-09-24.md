@@ -2,7 +2,7 @@
 id = "prose-09-24"
 kind = "hidden"
 title = "Integral coefficients (4)"
-order = 781
+order = 782
 +++
 The orientation passes to towers as well. By the finite case each level of
 $\omega_{f,\bullet}[-2d]$ is an invertible sheaf, so it is an invertible

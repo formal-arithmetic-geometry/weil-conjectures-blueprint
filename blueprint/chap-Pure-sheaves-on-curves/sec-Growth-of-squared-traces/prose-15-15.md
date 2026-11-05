@@ -2,7 +2,7 @@
 id = "prose-15-15"
 kind = "hidden"
 title = "Growth of squared traces (7)"
-order = 1210
+order = 1213
 +++
 Under the hypothesis of Proposition [proposition-fourier-transform-middle-extension], the
 Fourier transform of $(j_*M)[1]$ is again a middle extension. But

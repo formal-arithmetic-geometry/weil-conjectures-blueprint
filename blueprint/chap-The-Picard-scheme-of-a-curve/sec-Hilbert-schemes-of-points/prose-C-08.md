@@ -2,7 +2,7 @@
 id = "prose-C-08"
 kind = "hidden"
 title = "Hilbert schemes of points (1)"
-order = 1533
+order = 1536
 +++
 On a smooth curve a finite subscheme of length $d$ is the same as an
 effective divisor of degree $d$. These divisors are parametrized by the

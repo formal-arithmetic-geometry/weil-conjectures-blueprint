@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-etale-implications"
 order = 30
+uses = ["lemma-stability"]
 +++
 The first implication in (1) is immediate from the definition, since an
 étale algebra is the colimit of the constant system on itself. For the

@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-base-change--3"
 kind = "proposition"
 title = "Finite extension of $\\Ql$"
-order = 797006
+order = 798006
 aliases = ["bp-r239-3"]
 +++
 Let

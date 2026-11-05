@@ -3,7 +3,7 @@ id = "remark-duality-cohomology-groups-over-oe--2"
 kind = "remark"
 title = "Duality on cohomology groups over $\\mathcal O_E$ and finite rings (2)"
 name_showing = false
-order = 862002
+order = 863002
 aliases = ["bp-r259-2"]
 +++
 Moreover, the cohomology modules of a

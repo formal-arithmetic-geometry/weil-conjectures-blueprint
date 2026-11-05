@@ -2,7 +2,7 @@
 id = "prose-09-16"
 kind = "hidden"
 title = "Finite coefficients (6)"
-order = 757
+order = 758
 +++
 The orientation (9.14) is defined without
 coordinates, but on a coordinate chart it agrees with the

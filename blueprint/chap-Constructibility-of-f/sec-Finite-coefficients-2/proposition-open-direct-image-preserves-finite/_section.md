@@ -2,9 +2,9 @@
 id = "proposition-open-direct-image-preserves-finite"
 kind = "proposition"
 title = "Open direct image preserves finite Tor amplitude"
-order = 589
+order = 590
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.torAmplitudeIn_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.projection_torAmplitudeIn_rightDerivedLowerStar_of_isOpenImmersion"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves"]
 +++
 Let $j:U\hookrightarrow X$ be an open immersion. Then
 $Rj_*:D(U_{\mathrm{pro}\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ restricts to

@@ -2,7 +2,7 @@
 id = "prose-12-01"
 kind = "hidden"
 title = "The trace formula (1)"
-order = 946
+order = 947
 +++
 Let $X_0$ be a separated scheme of finite type over
 $\mathbf F_q$, let $X=X_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, and let

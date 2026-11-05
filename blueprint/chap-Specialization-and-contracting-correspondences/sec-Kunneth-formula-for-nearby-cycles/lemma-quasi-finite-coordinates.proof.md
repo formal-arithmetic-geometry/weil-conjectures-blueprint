@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-quasi-finite-coordinates"
-order = 1652
+order = 1655
 +++
 The inequality $q\leq\dim X_{\bar\eta}$ holds by flatness. Choose a system
 of parameters $f_1,\ldots,f_q$ of the local ring

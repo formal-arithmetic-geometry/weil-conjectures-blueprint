@@ -2,7 +2,7 @@
 id = "prose-06-18"
 kind = "hidden"
 title = "Finite coefficients (2)"
-order = 591
+order = 592
 +++
 For $j:\mathbf G_m\hookrightarrow\mathbf A^1$ over $\bar k$ and $K=A$, the
 stalk of $Rj_*A$ at the origin is the cohomology of the punctured

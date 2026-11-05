@@ -3,7 +3,7 @@ id = "corollary-cup-product-pairing--1"
 kind = "corollary"
 title = "The cup product pairing (1)"
 name_showing = false
-order = 871001
+order = 872001
 aliases = ["bp-r262-1"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension $d$, with

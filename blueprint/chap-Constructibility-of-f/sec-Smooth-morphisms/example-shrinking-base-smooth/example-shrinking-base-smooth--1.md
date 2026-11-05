@@ -3,7 +3,7 @@ id = "example-shrinking-base-smooth--1"
 kind = "example"
 title = "Why the base must be shrunk (1)"
 name_showing = false
-order = 566001
+order = 567001
 aliases = ["bp-r171-1"]
 +++
 Let $k$ be algebraically closed, $S=\mathbf A^1$ with coordinate $t$, and

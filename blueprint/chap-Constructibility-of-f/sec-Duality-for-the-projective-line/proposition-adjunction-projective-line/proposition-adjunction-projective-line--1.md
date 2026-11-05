@@ -2,7 +2,7 @@
 id = "proposition-adjunction-projective-line--1"
 kind = "proposition"
 title = "The projective-line adjunction"
-order = 553002
+order = 554002
 aliases = ["bp-r167-1"]
 +++
 Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the
@@ -15,7 +15,7 @@ an adjunction
 
 $$
 Rp_* \ \dashv\ p^*(1)[2],
-\tag{6.7}
+\tag{6.9}
 $$
 
-with unit (6.5) and counit (6.6).
+with unit (6.7) and counit (6.8).

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-weight-bound-constant-extension"
-order = 1304
+order = 1307
 +++
 An extension of degree $m$ of the constant field does not change the
 geometric scheme $X$, the sheaf on it, or its cohomology, and it

@@ -2,7 +2,7 @@
 id = "prose-07-04"
 kind = "hidden"
 title = "Change of coefficients (2)"
-order = 630
+order = 631
 +++
 Before stating the result we fix the comparison maps. Items (1)–(3) below, for $f^*$, $j_!$ and $\otimes^{\mathbf L}$, are identifications of
 two composites of left adjoints. The remaining items are derived from these: items (4) and (6), for $Rf_*$ and $\cHom$, are adjoint transposes of the inverse of (1), respectively (3),

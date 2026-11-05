@@ -3,7 +3,7 @@ id = "example-leading-coefficient-stratification--1"
 kind = "example"
 title = "Why the leading coefficient is inverted (1)"
 name_showing = false
-order = 1356001
+order = 1359001
 aliases = ["bp-r420-1"]
 +++
 Let $Y_0=\mathbf A^1_{k_0}=\operatorname{Spec}k_0[y]$, and suppose that $G$

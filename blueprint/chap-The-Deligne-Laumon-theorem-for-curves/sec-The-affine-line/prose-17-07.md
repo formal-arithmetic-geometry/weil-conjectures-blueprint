@@ -2,7 +2,7 @@
 id = "prose-17-07"
 kind = "hidden"
 title = "The affine line (1)"
-order = 1290
+order = 1293
 +++
 To pass from irreducible sheaves to arbitrary ones we show that $j_*$
 is exact on sequences of pure sheaves of one weight. The reason is

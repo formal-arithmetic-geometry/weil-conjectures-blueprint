@@ -2,7 +2,7 @@
 id = "lemma-degree-zero-calculation"
 kind = "lemma"
 title = "The degree-zero calculation"
-order = 666
+order = 667
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat", "AlgebraicGeometry.Etale.baseChangeProperty_zero"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++

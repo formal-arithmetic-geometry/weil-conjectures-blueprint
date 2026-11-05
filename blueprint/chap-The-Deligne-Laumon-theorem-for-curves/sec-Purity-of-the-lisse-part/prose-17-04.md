@@ -2,7 +2,7 @@
 id = "prose-17-04"
 kind = "hidden"
 title = "Purity of the lisse part (3)"
-order = 1279
+order = 1282
 +++
 In the next proof we use Lemma [lemma-fourier-transform-boundary-sequence]
 twice. Applying its vanishing argument to $M^0$ and to its dual, we see

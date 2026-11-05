@@ -2,7 +2,7 @@
 id = "prose-17-10"
 kind = "hidden"
 title = "The affine line (4)"
-order = 1300
+order = 1303
 +++
 The condition at infinity enters only through
 Lemma [lemma-unramified-at-infinity-no-linear-characters], to

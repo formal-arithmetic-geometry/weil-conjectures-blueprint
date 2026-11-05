@@ -2,7 +2,7 @@
 id = "prose-14-02"
 kind = "hidden"
 title = "Sheaves of rank one"
-order = 1088
+order = 1091
 +++
 Rankin's argument bounds the local eigenvalues of a sheaf by its
 determinant weights, so it needs the determinant of every lisse sheaf to be

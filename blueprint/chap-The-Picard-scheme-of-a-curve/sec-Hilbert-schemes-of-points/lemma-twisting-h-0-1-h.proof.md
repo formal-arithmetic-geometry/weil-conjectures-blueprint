@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-twisting-h-0-1-h"
-order = 1541
-uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "theorem-riemann-roch-coherent-serre-duality"]
+order = 1544
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-riemann-roch-coherent-serre-duality"]
 +++
 We first twist by a large power of an ample sheaf on $C$, which kills
 $H^1$ and leaves many sections. Then we remove $k$-rational points one

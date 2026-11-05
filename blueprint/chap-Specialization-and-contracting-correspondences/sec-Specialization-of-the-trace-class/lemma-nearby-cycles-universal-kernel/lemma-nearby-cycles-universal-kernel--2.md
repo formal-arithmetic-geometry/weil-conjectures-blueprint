@@ -3,7 +3,7 @@ id = "lemma-nearby-cycles-universal-kernel--2"
 kind = "lemma"
 title = "Nearby cycles of the universal kernel (2)"
 name_showing = false
-order = 1686002
+order = 1689002
 aliases = ["bp-r524-2"]
 +++
 $$

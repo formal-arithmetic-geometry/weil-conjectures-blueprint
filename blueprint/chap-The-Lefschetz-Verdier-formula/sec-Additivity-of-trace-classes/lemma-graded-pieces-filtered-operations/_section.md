@@ -2,7 +2,7 @@
 id = "lemma-graded-pieces-filtered-operations"
 kind = "lemma"
 title = "Graded pieces of filtered operations"
-order = 930
+order = 931
 +++
 For finitely filtered complexes $\mathcal M,\mathcal N,\mathcal K$ on $X$
 with graded pieces in $D^b_{\mathrm{ctf}}(X,A)$ there are isomorphisms

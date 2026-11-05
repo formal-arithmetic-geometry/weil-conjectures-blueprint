@@ -2,7 +2,7 @@
 id = "prose-08-16"
 kind = "hidden"
 title = "$\\ell$-adic coefficients (1)"
-order = 697
+order = 698
 +++
 For every admissible coefficient ring, smooth base change takes the
 following form. For finite rings it is a case of smooth base change for

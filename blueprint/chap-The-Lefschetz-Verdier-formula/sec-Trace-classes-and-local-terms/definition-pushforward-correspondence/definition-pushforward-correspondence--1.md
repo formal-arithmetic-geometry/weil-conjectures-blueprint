@@ -3,7 +3,7 @@ id = "definition-pushforward-correspondence--1"
 kind = "definition"
 title = "Pushforward of a correspondence (1)"
 name_showing = false
-order = 923001
+order = 924001
 aliases = ["bp-r280-1"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper morphisms, and let

@@ -2,9 +2,9 @@
 id = "lemma-affine-space-etale-localization"
 kind = "lemma"
 title = "Affine space and étale localization"
-order = 557
+order = 558
 lean = ["AlgebraicGeometry.Etale.affineSpaceAdjunction_baseChange", "AlgebraicGeometry.Etale.nonempty_rightDerivedLowerShriek_adjunction_affineSpace", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftDerivedUpperStar_of_etale"]
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "definition-exceptional-base-change-map", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "definition-exceptional-base-change-finite", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 Let $S$ be of finite type over the base field $k$.
 
@@ -22,7 +22,7 @@ Let $S$ be of finite type over the base field $k$.
    and of finite type. There is a canonical isomorphism
    $$
    u^*f^!N\simeq(fu)^!N
-   \tag{6.10}
+   \tag{6.12}
    $$
    under which the counit of $R(fu)_!\dashv(fu)^!$ is the composite
    $$
@@ -31,6 +31,6 @@ Let $S$ be of finite type over the base field $k$.
    $$
    of the composition isomorphism, the counit of $u_!\dashv u^*$ and the
    counit of $Rf_!\dashv f^!$. For a second separated étale morphism
-   $u':U'\to U$ of finite type, the isomorphism (6.10) for $uu'$ is
-   the composite of $u'^*$ of (6.10) for $u$ and
-   (6.10) for $u'$ and $fu$.
+   $u':U'\to U$ of finite type, the isomorphism (6.12) for $uu'$ is
+   the composite of $u'^*$ of (6.12) for $u$ and
+   (6.12) for $u'$ and $fu$.

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-cartier-s-theorem"
-order = 1718
+order = 1721
 +++
 We first show, using translations, that the reduced subscheme
 $G_{\mathrm{red}}$ is a smooth group scheme. It then suffices to show

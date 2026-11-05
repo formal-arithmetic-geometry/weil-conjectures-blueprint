@@ -3,7 +3,7 @@ id = "example-normal-cone-point--1"
 kind = "example"
 title = "Normal cones of a point (1)"
 name_showing = false
-order = 1625001
+order = 1628001
 aliases = ["bp-r504-1"]
 +++
 If $X$ is smooth at a point $Z=\{y\}$, then

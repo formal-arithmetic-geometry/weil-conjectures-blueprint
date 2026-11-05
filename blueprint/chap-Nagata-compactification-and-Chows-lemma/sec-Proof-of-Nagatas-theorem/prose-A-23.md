@@ -2,7 +2,7 @@
 id = "prose-A-23"
 kind = "hidden"
 title = "Proof of Nagata's theorem (1)"
-order = 1461
+order = 1464
 +++
 Over a Noetherian base, the theorem follows from
 Proposition [proposition-compactifying-union-two-opens] by induction over an affine cover

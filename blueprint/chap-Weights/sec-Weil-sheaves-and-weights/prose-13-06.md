@@ -2,7 +2,7 @@
 id = "prose-13-06"
 kind = "hidden"
 title = "Weil sheaves and weights (5)"
-order = 1064
+order = 1065
 +++
 The lemma does not say that a sheaf punctually of weights $\le w$ is
 mixed; the filtration has to be found. Nor need the filtration split:

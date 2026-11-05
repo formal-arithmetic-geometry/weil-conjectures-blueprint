@@ -3,7 +3,7 @@ id = "proposition-base-change-fourier-inversion--3"
 kind = "proposition"
 title = "Base change and stalks (3)"
 name_showing = false
-order = 1229004
+order = 1232004
 aliases = ["bp-r379-3"]
 +++
 For a geometric point $\bar y$ of $V^\vee$, the proper base change

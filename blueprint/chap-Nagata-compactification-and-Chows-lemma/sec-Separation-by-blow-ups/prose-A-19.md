@@ -2,7 +2,7 @@
 id = "prose-A-19"
 kind = "hidden"
 title = "Separation by blow-ups (1)"
-order = 1449
+order = 1452
 +++
 The inductive step of Nagata's theorem is
 Proposition [proposition-compactifying-union-two-opens]. Suppose that $M=M_1\cup M_2$

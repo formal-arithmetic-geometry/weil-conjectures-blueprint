@@ -2,7 +2,7 @@
 id = "theorem-poincare-duality-frobenius--1"
 kind = "definition"
 title = "Contragredient Weil structure"
-order = 884002
+order = 885002
 aliases = ["bp-r266-1"]
 +++
 Equip $K^\vee$ with the Weil structure

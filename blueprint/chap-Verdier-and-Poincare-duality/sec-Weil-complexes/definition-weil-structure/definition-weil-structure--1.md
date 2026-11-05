@@ -3,7 +3,7 @@ id = "definition-weil-structure--1"
 kind = "definition"
 title = "Weil structure (1)"
 name_showing = false
-order = 875001
+order = 876001
 aliases = ["bp-r263-1"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(T,\Lambda)$, a *Weil structure*

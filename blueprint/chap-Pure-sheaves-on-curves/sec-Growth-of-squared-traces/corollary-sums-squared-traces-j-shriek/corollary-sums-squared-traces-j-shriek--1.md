@@ -3,7 +3,7 @@ id = "corollary-sums-squared-traces-j-shriek--1"
 kind = "corollary"
 title = "Sums of squared traces of $j_!$ and $j_*$ (1)"
 name_showing = false
-order = 1211001
+order = 1214001
 aliases = ["bp-r374-1"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open of a smooth geometrically

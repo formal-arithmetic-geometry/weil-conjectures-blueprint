@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Existence of the exceptional inverse image"
 order = 526
 lean = ["AlgebraicGeometry.ProEtale.exists_rightAdjoint_rightDerivedLowerShriekLocalizing", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.exists_rightAdjoint_rightDerivedLowerShriekLocalizing_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekLocalizing", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekLocalizingAdjunction"]
-uses = ["definition-localizing-subcategory", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-localizing-subcategory", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement"]
 +++
 Let $\Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$ be any admissible
 coefficient ring. For every separated morphism of finite type $f:X\to Y$,

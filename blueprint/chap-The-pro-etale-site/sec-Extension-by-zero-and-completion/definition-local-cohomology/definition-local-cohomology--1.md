@@ -8,11 +8,10 @@ aliases = ["bp-r059-1"]
 +++
 The *local cohomology functor*
 $R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},\mathcal R)\to D(Z_{\mathrm{pro}\acute{e}t},i^*\mathcal R)$
-is
+is the right derived functor of the functor of sections supported on $Z$,
 
 $$
-R\underline\Gamma_ZK
-=i^*\fib(K\longrightarrow Rj_*j^*K),
+F\longmapsto i^*\ker(F\longrightarrow j_*j^*F),
 $$
 
-where $K\to Rj_*j^*K$ is the unit of $j^*\dashv Rj_*$.
+where $F\to j_*j^*F$ is the unit of $j^*\dashv j_*$.

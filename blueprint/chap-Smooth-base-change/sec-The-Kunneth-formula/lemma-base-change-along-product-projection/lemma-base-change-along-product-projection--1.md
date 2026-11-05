@@ -3,7 +3,7 @@ id = "lemma-base-change-along-product-projection--1"
 kind = "lemma"
 title = "Base change along a product projection (1)"
 name_showing = false
-order = 706001
+order = 707001
 aliases = ["bp-r212-1"]
 +++
 Let $f:X\to Y$ be a morphism of separated $k$-schemes of finite type,

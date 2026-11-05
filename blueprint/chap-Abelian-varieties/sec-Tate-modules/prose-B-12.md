@@ -2,7 +2,7 @@
 id = "prose-B-12"
 kind = "hidden"
 title = "Tate modules (1)"
-order = 1507
+order = 1510
 +++
 Fix a prime $\ell$ invertible in $k$. With this prime, compatible systems of
 $\ell$-power torsion points of $A$ form the Tate module $T_\ell A$, a

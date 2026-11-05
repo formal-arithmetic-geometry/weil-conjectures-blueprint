@@ -3,7 +3,6 @@ id = "remark-compactifications"
 kind = "remark"
 title = "Compactifications"
 order = 510
-uses = ["theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 1. By Nagata's theorem (Theorem [theorem-nagata-s-compactification-theorem]), every
    separated morphism of finite type $f:X\to Y$ with $Y$ qcqs has a

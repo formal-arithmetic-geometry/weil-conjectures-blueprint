@@ -3,7 +3,7 @@ id = "proposition-p-torsion-smooth-proper-curve--1"
 kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$ (1)"
 name_showing = false
-order = 1584001
+order = 1587001
 aliases = ["bp-r494-1"]
 +++
 Let $C$ be a smooth proper connected curve of genus $g$ over an

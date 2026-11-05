@@ -2,7 +2,7 @@
 id = "prose-09-37"
 kind = "hidden"
 title = "Proof of smooth purity (3)"
-order = 819
+order = 820
 +++
 As a check, take $X=\mathbf A^1_k$ with $k$ algebraically closed. The
 adjunction gives

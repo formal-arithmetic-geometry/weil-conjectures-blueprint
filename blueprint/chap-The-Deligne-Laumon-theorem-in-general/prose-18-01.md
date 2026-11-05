@@ -2,7 +2,7 @@
 id = "prose-18-01"
 kind = "hidden"
 title = "The Deligne–Laumon theorem in general"
-order = 1318
+order = 1321
 +++
 At this point we know the Deligne–Laumon theorem on curves: a pure lisse sheaf of
 weight $w$ on a curve has $H^r_c$ of weights at most $w+r$. For the Weil

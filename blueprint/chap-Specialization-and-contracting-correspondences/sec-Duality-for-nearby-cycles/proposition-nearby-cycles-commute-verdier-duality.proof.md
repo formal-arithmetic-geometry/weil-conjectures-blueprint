@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-nearby-cycles-commute-verdier-duality"
-order = 1681
-uses = ["definition-small-pro-etale-site", "lemma-quasi-finite-coordinates", "lemma-nearby-duality-proper-direct-image"]
+order = 1684
+uses = ["definition-tate-twists", "lemma-naturality-pasting-comparison", "definition-projection-formula-map", "theorem-smooth-base-change-all-admissible", "definition-exceptional-base-change-map", "theorem-sp-qbar", "definition-trace-map", "lemma-internal-adjunction-two-exchange-formulas", "remark-non-noetherian-compactifications", "lemma-finite-support-global-sections", "lemma-composition-exceptional-base-change-maps", "lemma-nearby-duality-proper-direct-image", "lemma-nearby-duality-slice"]
 +++
 We argue by induction on $n=\dim X_{\bar\eta}$, simultaneously for all
 traits $S$ as above, and show that the cone of $\delta_{X,M}$ has zero

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree"
-order = 866
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-forgetting-supports-composition", "corollary-degreewise-duality-over-fields", "lemma-class-of-point", "theorem-nagata-s-compactification-theorem", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
+order = 867
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "corollary-degreewise-duality-over-fields", "lemma-class-of-point"]
 +++
 We read off the top degree from Poincaré duality in degree zero
 over $\mathbf Z/\ell^n$, and then change coefficients: to a finite

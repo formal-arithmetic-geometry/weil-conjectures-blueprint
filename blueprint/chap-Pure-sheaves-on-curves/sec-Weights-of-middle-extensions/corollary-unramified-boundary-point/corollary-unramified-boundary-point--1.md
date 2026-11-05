@@ -3,7 +3,7 @@ id = "corollary-unramified-boundary-point--1"
 kind = "corollary"
 title = "An unramified boundary point (1)"
 name_showing = false
-order = 1183001
+order = 1186001
 aliases = ["bp-r365-1"]
 +++
 Let $\mathcal F$ be a lisse sheaf, pure of weight $a$, on a smooth

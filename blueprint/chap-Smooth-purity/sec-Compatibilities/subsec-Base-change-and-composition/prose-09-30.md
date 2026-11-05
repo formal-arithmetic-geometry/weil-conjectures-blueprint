@@ -2,7 +2,7 @@
 id = "prose-09-30"
 kind = "hidden"
 title = "Base change and composition (1)"
-order = 796
+order = 797
 +++
 Fix a cartesian square
 

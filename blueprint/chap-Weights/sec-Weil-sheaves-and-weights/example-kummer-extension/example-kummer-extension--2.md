@@ -3,7 +3,7 @@ id = "example-kummer-extension--2"
 kind = "example"
 title = "The Kummer extension (2)"
 name_showing = false
-order = 1065002
+order = 1066002
 aliases = ["bp-r327-2"]
 +++
 Hence at a closed point $x$ the eigenvalues of

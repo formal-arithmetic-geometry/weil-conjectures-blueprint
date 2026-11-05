@@ -3,7 +3,7 @@ id = "definition-relative-picard-functor--1"
 kind = "definition"
 title = "Relative Picard functor (1)"
 name_showing = false
-order = 1518001
+order = 1521001
 aliases = ["bp-r473-1"]
 +++
 For a morphism of schemes $f:C\to S$, let

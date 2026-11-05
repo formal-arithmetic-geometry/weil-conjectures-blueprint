@@ -2,7 +2,7 @@
 id = "prose-14-03"
 kind = "hidden"
 title = "Frobenius invariants (1)"
-order = 1090
+order = 1093
 +++
 Over $\mathbf C$ the link between $H^1$ of a curve and its Jacobian is
 classical. There the Jacobian is a torus $V/\Lambda$ with $\Lambda=H_1(C,\mathbf Z)$, and

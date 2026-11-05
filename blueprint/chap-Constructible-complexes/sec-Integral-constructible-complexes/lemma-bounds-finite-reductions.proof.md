@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-bounds-finite-reductions"
 order = 229
-uses = ["corollary-finite-quotients-their-transition-maps"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-compactification-refinement"]
 +++
 Everything about $K_n$ is obtained from $K_1$ by induction on $n$, using
 that $K_n$ is an extension of $K_{n-1}$ by $K_1$. The Tor bound needs an

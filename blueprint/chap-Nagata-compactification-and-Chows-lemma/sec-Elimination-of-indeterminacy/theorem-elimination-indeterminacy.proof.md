@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-elimination-indeterminacy"
-order = 1444
+order = 1447
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "theorem-extension-partial-section"]
 +++
 This is [Stacks, [081S](https://stacks.math.columbia.edu/tag/081S)]. The idea is to view the inverse of

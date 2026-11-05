@@ -3,7 +3,7 @@ id = "chap-Construction-of-f"
 kind = "chapter"
 title = "Construction of $f^!$"
 order = 427
-refines = "part-The-six-operations"
 uses = ["chap-Constructible-complexes", "chap-Proper-base-change", "chap-Nagata-compactification-and-Chows-lemma"]
+refines = "part-The-six-operations"
 hide_content = true
 +++

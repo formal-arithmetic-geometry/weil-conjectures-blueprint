@@ -3,7 +3,6 @@ id = "example-weak-contractibility-point"
 kind = "example"
 title = "Weak contractibility over a point"
 order = 77
-uses = ["proposition-pro-etale-site-separably-closed"]
 +++
 Let $X$ be a geometric point, so that the affine objects of $X_{\mathrm{pro}\acute{e}t}$
 are the profinite sets

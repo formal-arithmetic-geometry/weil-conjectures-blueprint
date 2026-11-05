@@ -3,7 +3,7 @@ id = "proposition-compactifying-union-two-opens--1"
 kind = "proposition"
 title = "Compactifying a union of two opens (1)"
 name_showing = false
-order = 1458001
+order = 1461001
 aliases = ["bp-r455-1"]
 +++
 Let $S$ be Noetherian and let $M\to S$ be separated of finite type.

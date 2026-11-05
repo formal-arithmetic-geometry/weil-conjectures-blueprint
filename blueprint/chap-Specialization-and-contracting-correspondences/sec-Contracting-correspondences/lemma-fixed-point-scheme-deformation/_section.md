@@ -2,8 +2,7 @@
 id = "lemma-fixed-point-scheme-deformation"
 kind = "lemma"
 title = "The fixed point scheme of the deformation"
-order = 1701
-uses = ["lemma-normal-cones-contracting-ideals"]
+order = 1704
 +++
 In the situation of Lemma [lemma-normal-cones-contracting-ideals],
 suppose that $F$ is connected and that $d(F)$ meets $Z$. Then

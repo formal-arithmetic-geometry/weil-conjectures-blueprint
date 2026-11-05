@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-transitivity-trace-map"
-order = 808
+order = 809
 +++
 Each trace map is a map $\gamma$ followed by a counit. The maps $\gamma$
 compose by Proposition [proposition-compatibility-purity-composition],

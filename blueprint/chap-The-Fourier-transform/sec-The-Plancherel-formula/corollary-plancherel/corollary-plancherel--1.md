@@ -3,7 +3,7 @@ id = "corollary-plancherel--1"
 kind = "corollary"
 title = "Plancherel (1)"
 name_showing = false
-order = 1238001
+order = 1241001
 aliases = ["bp-r382-1"]
 +++
 For every $n\ge1$,

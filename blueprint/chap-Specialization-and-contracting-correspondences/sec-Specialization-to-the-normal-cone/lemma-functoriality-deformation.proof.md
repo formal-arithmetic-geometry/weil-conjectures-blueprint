@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-functoriality-deformation"
-order = 1628
-uses = ["definition-small-pro-etale-site"]
+order = 1631
 +++
 All assertions are statements about the algebras
 $\mathcal O[I/t]$, and we check them on generators.

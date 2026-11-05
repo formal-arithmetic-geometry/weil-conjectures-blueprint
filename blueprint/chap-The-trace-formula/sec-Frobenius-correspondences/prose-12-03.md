@@ -2,7 +2,7 @@
 id = "prose-12-03"
 kind = "hidden"
 title = "Frobenius correspondences (1)"
-order = 950
+order = 951
 +++
 Two Frobenius maps act on $X=X_0\times_{k_0}k$: the $k$-linear scheme
 Frobenius $\Phi_X$ and the semilinear geometric Frobenius $\operatorname{Fr}_X$

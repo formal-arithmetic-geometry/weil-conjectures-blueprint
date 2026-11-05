@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-open-direct-image-over-field"
-order = 586
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "proposition-topos-functoriality", "theorem-comparison-direct-images", "definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "theorem-generic-constructibility-base-change-rj", "definition-compactification-refinement"]
+order = 587
+uses = ["theorem-comparison-direct-images", "definition-constructible-sheaves", "definition-underived-base-change-map", "lemma-identity-pasting", "lemma-naturality-pasting-comparison", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "theorem-generic-constructibility-base-change-rj", "theorem-smooth-base-change-classical-torsion", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 We argue on the étale site. The theorem gives the case of
 $\Fell$-sheaves, and we pass to $\mathbf Z/\ell^r$-sheaves by

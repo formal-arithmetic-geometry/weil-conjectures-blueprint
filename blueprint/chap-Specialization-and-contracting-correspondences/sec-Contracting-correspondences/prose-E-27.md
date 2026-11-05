@@ -2,7 +2,7 @@
 id = "prose-E-27"
 kind = "hidden"
 title = "Contracting correspondences (2)"
-order = 1700
+order = 1703
 +++
 As in Proposition [proposition-specialization-trace-class], write $F=\Fix(c)$ for
 the fixed scheme, and let $d=c_1|_F=c_2|_F:F\to X$ be the common map.

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-nearby-duality-slice"
-order = 1680
-uses = ["lemma-nearby-duality-proper-direct-image"]
+order = 1683
+uses = ["lemma-identity-pasting", "lemma-naturality-pasting-comparison", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-proper-direct-image-constructible-complexes", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "lemma-passing-schematic-closure", "remark-non-noetherian-compactifications", "lemma-nearby-duality-proper-direct-image"]
 +++
 The map $\delta$ is the adjoint of the pairing
 (E.12). By

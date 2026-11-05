@@ -3,7 +3,7 @@ id = "example-compact-supports-running-example--1"
 kind = "example"
 title = "Compact supports on the running example (1)"
 name_showing = false
-order = 548001
+order = 549001
 aliases = ["bp-r165-1"]
 +++
 We use the open immersion $j_\infty:\mathbf A^1\to\mathbf P^1$ of
@@ -13,7 +13,7 @@ the complementary point.
 
 By definition, $R\Gamma_c(\mathbf A^1,\Lambda)=R\Gamma(\mathbf P^1,j_{\infty!}\Lambda)$. The
 localization triangle
-$j_{\infty!}\Lambda\to\Lambda_{\mathbf P^1}\to i_{\infty*}\Lambda$ and (6.2)
+$j_{\infty!}\Lambda\to\Lambda_{\mathbf P^1}\to i_{\infty*}\Lambda$ and (6.4)
 show that
 
 $$

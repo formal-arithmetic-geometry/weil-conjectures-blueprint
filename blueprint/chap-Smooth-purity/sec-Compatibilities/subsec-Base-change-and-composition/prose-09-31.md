@@ -2,7 +2,7 @@
 id = "prose-09-31"
 kind = "hidden"
 title = "Base change and composition (2)"
-order = 799
+order = 800
 +++
 **Composition.** For composition we again fix the composition
 isomorphisms for $f^!$ with every coefficient ring before comparing the maps

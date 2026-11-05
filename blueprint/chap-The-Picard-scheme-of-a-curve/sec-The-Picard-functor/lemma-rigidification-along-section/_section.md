@@ -2,7 +2,7 @@
 id = "lemma-rigidification-along-section"
 kind = "lemma"
 title = "Rigidification along a section"
-order = 1520
+order = 1523
 lean = ["AlgebraicGeometry.picardFunctorNormalized", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor", "AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq", "AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized"]
 uses = ["definition-relative-picard-functor"]
 +++

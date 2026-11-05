@@ -1,8 +1,9 @@
 +++
 id = "proposition-weights-under-usual-operations--11"
-kind = "proposition"
-title = "Mixedness under inverse image"
-order = 1070012
+kind = "definition"
+title = "A geometrically constant rank-one twist"
+order = 1073012
 aliases = ["bp-r329-11"]
 +++
-Inverse image preserves mixedness.
+For $b\in\overline{\mathbf Q}_\ell^\times$, let $\mathcal B_b$ be the geometrically constant
+rank-one Weil sheaf on which a degree-one Frobenius acts by $b$.

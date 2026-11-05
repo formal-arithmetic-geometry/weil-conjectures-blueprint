@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-inverting-ell"
 order = 304
-uses = ["proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+uses = ["proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-lattices-after-finite-stratification", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness"]
 +++
 Both assertions are [bhatt-scholze15, Proposition 6.8.14(2)]. We prove the first,
 which is where the Noetherian hypothesis enters. Let $K\in\Dbc(X,\mathcal O_E)$.

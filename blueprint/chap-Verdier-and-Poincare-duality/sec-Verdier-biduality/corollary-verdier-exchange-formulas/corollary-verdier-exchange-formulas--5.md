@@ -2,7 +2,7 @@
 id = "corollary-verdier-exchange-formulas--5"
 kind = "corollary"
 title = "Open extension by zero"
-order = 847006
+order = 848006
 aliases = ["bp-r254-5"]
 +++
 For an open $j:U\hookrightarrow X$ and a closed $i:Z\hookrightarrow X$, the indicated specialization is

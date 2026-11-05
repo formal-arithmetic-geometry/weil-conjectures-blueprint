@@ -2,7 +2,7 @@
 id = "prose-14-06"
 kind = "hidden"
 title = "Finite monodromy (1)"
-order = 1100
+order = 1103
 +++
 With Proposition [proposition-no-fixed-class-degree-one] in hand, the
 logarithm argument sketched at the start of Section [sec-Sheaves-of-rank-one]

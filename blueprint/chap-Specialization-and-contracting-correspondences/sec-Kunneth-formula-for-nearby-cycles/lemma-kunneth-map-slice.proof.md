@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-kunneth-map-slice"
-order = 1655
-uses = ["definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-inverse-image-tensor-product"]
+order = 1658
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "corollary-evaluation-weakly-contractible-objects", "corollary-continuity-cohomology", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "definition-lisse-sheaves", "definition-pro-etale-base-change-map", "theorem-comparison-over-henselian-pair-degree", "lemma-acyclic-resolutions", "theorem-proper-base-change-classical-pro", "lemma-inverse-image-tensor-product", "lemma-change-coefficients-direct-image", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 In the middle line $P$ acts trivially, because the action on this
 complex of nearby cycles is the restriction of an action of $I$ and

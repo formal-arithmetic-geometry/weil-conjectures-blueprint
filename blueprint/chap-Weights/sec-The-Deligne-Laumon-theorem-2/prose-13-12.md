@@ -2,7 +2,7 @@
 id = "prose-13-12"
 kind = "hidden"
 title = "The Deligne–Laumon theorem"
-order = 1083
+order = 1086
 +++
 For a separated $k_0$-scheme of finite type $X_0$, we write
 $D_{\leq w}(X_0)$ for the category of bounded constructible Weil

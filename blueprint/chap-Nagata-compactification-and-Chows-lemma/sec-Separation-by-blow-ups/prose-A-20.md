@@ -2,7 +2,7 @@
 id = "prose-A-20"
 kind = "hidden"
 title = "Separation by blow-ups (2)"
-order = 1451
+order = 1454
 +++
 We quote this from [Stacks, [0F3V](https://stacks.math.columbia.edu/tag/0F3V)] and sketch the argument, which
 works with closed subschemes of $T$ rather than closed subsets of $V$. Let

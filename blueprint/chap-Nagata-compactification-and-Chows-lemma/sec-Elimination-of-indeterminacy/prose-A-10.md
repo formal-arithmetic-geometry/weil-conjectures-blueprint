@@ -2,7 +2,7 @@
 id = "prose-A-10"
 kind = "hidden"
 title = "Elimination of indeterminacy (2)"
-order = 1423
+order = 1426
 +++
 On an affine open $\operatorname{Spec}(R)$, write
 $I=(a_1,\ldots,a_r)$. The charts of the blow-up have rings

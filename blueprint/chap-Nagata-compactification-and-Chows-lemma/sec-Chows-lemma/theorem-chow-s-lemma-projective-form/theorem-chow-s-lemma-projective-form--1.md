@@ -3,7 +3,7 @@ id = "theorem-chow-s-lemma-projective-form--1"
 kind = "theorem"
 title = "Chow's lemma, projective form (1)"
 name_showing = false
-order = 1468001
+order = 1471001
 aliases = ["bp-r457-1"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper

@@ -3,7 +3,7 @@ id = "lemma-functoriality-deformation--1"
 kind = "lemma"
 title = "Functoriality of the deformation (1)"
 name_showing = false
-order = 1627001
+order = 1630001
 aliases = ["bp-r505-1"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,

@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-closed-piece-pushforward"
-order = 940
-uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
+order = 941
 +++
 The maps $\alpha$ and $\beta$ of
 Definition [definition-pushforward-correspondence] are here

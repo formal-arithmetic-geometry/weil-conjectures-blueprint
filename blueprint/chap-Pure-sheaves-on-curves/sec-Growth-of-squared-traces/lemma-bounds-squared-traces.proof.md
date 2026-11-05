@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-bounds-squared-traces"
-order = 1203
+order = 1206
 uses = ["definition-trace-function", "lemma-point-count-bound"]
 +++
 For (1), the trace at

@@ -2,7 +2,7 @@
 id = "prose-12-15"
 kind = "hidden"
 title = "The local term at a fixed point (1)"
-order = 992
+order = 993
 +++
 The point $y$ is stable under $\Phi_X^m$,
 so additivity of trace classes applies to the localization triangle

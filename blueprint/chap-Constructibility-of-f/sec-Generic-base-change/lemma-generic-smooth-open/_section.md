@@ -2,7 +2,7 @@
 id = "lemma-generic-smooth-open"
 kind = "lemma"
 title = "A smooth dense open after a universal homeomorphism"
-order = 580
+order = 581
 lean = ["AlgebraicGeometry.exists_isFinite_universallyInjective_smooth_dense"]
 +++
 Let $S$ be integral, let $X$ be an $S$-scheme all of whose irreducible

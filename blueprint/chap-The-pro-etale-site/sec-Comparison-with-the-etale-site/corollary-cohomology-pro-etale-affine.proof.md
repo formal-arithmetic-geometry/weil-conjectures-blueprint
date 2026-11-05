@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-cohomology-pro-etale-affine"
 order = 127
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions"]
 +++
 By the theorem applied to $U$, the left side is $R\Gamma(U_{\acute{e}t},K|_U)$,
 so the assertion is about étale cohomology alone. For a sheaf, continuity of étale cohomology under affine limits

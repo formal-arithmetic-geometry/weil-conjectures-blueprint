@@ -3,7 +3,7 @@ id = "definition-correspondence--2"
 kind = "definition"
 title = "Correspondences (2)"
 name_showing = false
-order = 903002
+order = 904002
 aliases = ["bp-r273-2"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X,A)$, a

@@ -2,7 +2,7 @@
 id = "lemma-finite-extension-base-field-moving"
 kind = "lemma"
 title = "Moving a lisse point to infinity"
-order = 1306
+order = 1309
 +++
 Let $W_0$ be a dense open of $\mathbf P^1_{k_0}$, and let $F$ be a
 lisse Weil sheaf on $W_0$, pure of weight $w$. There are a finite

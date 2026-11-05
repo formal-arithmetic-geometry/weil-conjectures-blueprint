@@ -2,7 +2,7 @@
 id = "prose-09-20"
 kind = "hidden"
 title = "Change of finite coefficients (3)"
-order = 770
+order = 771
 +++
 It follows that the isomorphisms $\gamma_{f,A}$ are compatible with change of coefficients: for
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$,

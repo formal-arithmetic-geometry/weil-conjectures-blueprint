@@ -2,7 +2,7 @@
 id = "prose-11-11"
 kind = "hidden"
 title = "Trace classes and local terms (1)"
-order = 915
+order = 916
 +++
 We want to write $\operatorname{tr}(T_c(u))$ as a sum of contributions
 from the fixed locus. The first guess, a sum over fixed points of the

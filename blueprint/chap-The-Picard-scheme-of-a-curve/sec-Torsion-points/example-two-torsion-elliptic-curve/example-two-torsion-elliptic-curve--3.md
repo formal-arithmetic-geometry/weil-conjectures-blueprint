@@ -3,7 +3,7 @@ id = "example-two-torsion-elliptic-curve--3"
 kind = "example"
 title = "Two-torsion of an elliptic curve (3)"
 name_showing = false
-order = 1557003
+order = 1560003
 aliases = ["bp-r486-3"]
 +++
 Hence the

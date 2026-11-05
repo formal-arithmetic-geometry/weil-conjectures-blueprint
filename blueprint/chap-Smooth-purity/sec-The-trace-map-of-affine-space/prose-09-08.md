@@ -2,7 +2,7 @@
 id = "prose-09-08"
 kind = "hidden"
 title = "The trace map of affine space (1)"
-order = 737
+order = 738
 +++
 Every identification of $f^!$ in this section is ultimately an
 adjunction whose counit is integration along affine lines, so we first make
@@ -71,7 +71,7 @@ $$
 \tag{9.9}
 $$
 
-This is (6.4) of Proposition [proposition-adjunction-projective-line]. To see it directly,
+This is (6.6) of Proposition [proposition-adjunction-projective-line]. To see it directly,
 note that both sides are endomorphisms of a constant sheaf, so it suffices to check
 (9.9) on geometric fibres of $p_i$, where
 the diagonal is a single rational point with line bundle $\mathcal O(1)$,
@@ -80,8 +80,8 @@ sends to $1$.
 
 For $\Lambda=\mathbf Z/\ell^n\mathbf Z$,
 Proposition [proposition-adjunction-projective-line] gives the adjunction
-$Rq_*\dashv q^*(-)(1)[2]$, and its unit and counit, (6.5) and
-(6.6) there, take the following form. The counit is integration
+$Rq_*\dashv q^*(-)(1)[2]$, and its unit and counit, (6.7) and
+(6.8) there, take the following form. The counit is integration
 along the fibres,
 
 $$

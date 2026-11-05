@@ -2,7 +2,7 @@
 id = "prose-17-06"
 kind = "hidden"
 title = "The weight of the Fourier transform (2)"
-order = 1286
+order = 1289
 +++
 In the example of the section opening, $M$ is the Kummer sheaf of the
 quadratic character over $\mathbf F_3$, of weight $0$, and the trace of

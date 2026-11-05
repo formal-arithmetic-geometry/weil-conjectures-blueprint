@@ -2,7 +2,7 @@
 id = "prose-12-30"
 kind = "hidden"
 title = "Rationality and the functional equation (3)"
-order = 1038
+order = 1039
 +++
 For the constant sheaf every local factor is $(1-T^{\deg(x)})^{-1}$, and the
 Euler product becomes the zeta function of $X_0$. This proves

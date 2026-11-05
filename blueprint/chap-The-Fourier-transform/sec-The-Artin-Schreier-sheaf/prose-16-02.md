@@ -2,7 +2,7 @@
 id = "prose-16-02"
 kind = "hidden"
 title = "The Artin–Schreier sheaf (1)"
-order = 1216
+order = 1219
 +++
 The kernel of the transform is a lisse sheaf whose trace function is
 the additive character $\psi$, just as $\psi(xy)$ is the kernel of the

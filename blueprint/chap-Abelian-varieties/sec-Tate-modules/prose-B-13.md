@@ -2,7 +2,7 @@
 id = "prose-B-13"
 kind = "hidden"
 title = "Tate modules (2)"
-order = 1511
+order = 1514
 +++
 Over a finite field, Frobenius acts on $T_\ell A$, and by the last
 proposition this action is compatible with its action on each

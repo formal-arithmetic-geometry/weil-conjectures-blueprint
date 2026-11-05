@@ -3,7 +3,7 @@ id = "proposition-sp-tower-geometric--1"
 kind = "proposition"
 title = "The adjunction $Rf_!\\dashv f^!$ on constructible towers (1)"
 name_showing = false
-order = 779001
+order = 780001
 aliases = ["bp-r235-1"]
 +++
 There is an adjunction

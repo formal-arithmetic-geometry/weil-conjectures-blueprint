@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-function-sheaf-dictionary"
-order = 1029
-uses = ["definition-trace-function"]
+order = 1030
 +++
 Part (5) is Theorem [theorem-grothendieck-lefschetz-trace-formula] and part (3)
 is Corollary [corollary-trace-functions-direct-image-compact].

@@ -2,7 +2,7 @@
 id = "theorem-grothendieck-lefschetz-trace-formula--1"
 kind = "theorem"
 title = "Trace formula: finite coefficients"
-order = 1017002
+order = 1018002
 aliases = ["bp-r311-1"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ with the stated Weil structure and every $m\geq1$, one has in $A$:

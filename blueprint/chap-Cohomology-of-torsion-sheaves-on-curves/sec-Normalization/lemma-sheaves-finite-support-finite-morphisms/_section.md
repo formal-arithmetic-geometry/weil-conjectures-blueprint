@@ -2,7 +2,7 @@
 id = "lemma-sheaves-finite-support-finite-morphisms"
 kind = "lemma"
 title = "Sheaves with finite support"
-order = 1597
+order = 1600
 lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedGlobalSections_of_isZero_sheafFiber", "AlgebraicGeometry.zero_dimensional_etale_cohomology", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero"]
 uses = ["definition-torsion-sheaves"]
 +++

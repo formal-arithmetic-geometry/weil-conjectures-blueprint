@@ -2,7 +2,7 @@
 id = "prose-14-23"
 kind = "hidden"
 title = "Rankin's bound (1)"
-order = 1149
+order = 1152
 +++
 We bound the local eigenvalues of a real sheaf by the eigenvalues of
 Frobenius on $H^2_c$ of its even tensor powers

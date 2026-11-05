@@ -2,7 +2,7 @@
 id = "prose-14-21"
 kind = "hidden"
 title = "Tensor operations (2)"
-order = 1144
+order = 1147
 +++
 The lemma reduces determinant weights of tensor constructions to a
 computation with the scalars on the composition factors of $V$. By

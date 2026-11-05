@@ -2,7 +2,7 @@
 id = "prose-09-11"
 kind = "hidden"
 title = "Finite coefficients (1)"
-order = 744
+order = 745
 +++
 Since $f^!K\simeq f^*K\otimes^{\mathbf L}\omega_f$, smooth purity with finite
 coefficients comes down to a single global isomorphism

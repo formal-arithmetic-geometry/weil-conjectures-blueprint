@@ -3,7 +3,7 @@ id = "lemma-duality-invariants-pro-p--1"
 kind = "lemma"
 title = "Duality and invariants under $P$ (1)"
 name_showing = false
-order = 1676001
+order = 1679001
 aliases = ["bp-r521-1"]
 +++
 Let $Y$ be a scheme of finite type over a separably closed field, and

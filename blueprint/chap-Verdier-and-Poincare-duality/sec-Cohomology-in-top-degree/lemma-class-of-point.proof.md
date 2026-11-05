@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-class-of-point"
-order = 869
-uses = ["proposition-relative-dualizing-complex"]
+order = 870
 +++
 By definition, $[x]$ is the image
 of $1$ under the map induced by the counit $x_*x^!\omega_X\to\omega_X$,

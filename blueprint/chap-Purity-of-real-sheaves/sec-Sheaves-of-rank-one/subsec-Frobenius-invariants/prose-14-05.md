@@ -2,7 +2,7 @@
 id = "prose-14-05"
 kind = "hidden"
 title = "Frobenius invariants (3)"
-order = 1096
+order = 1099
 +++
 For the elliptic curve $y^2=x^3-x$ over $\mathbf F_3$ of the introduction,
 arithmetic Frobenius $B$ has eigenvalues $\pm i\sqrt3$ on $T_\ell J$. By the

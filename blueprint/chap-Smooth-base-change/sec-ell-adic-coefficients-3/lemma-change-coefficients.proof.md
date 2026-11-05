@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients"
-order = 699
+order = 700
 +++
 The base change map is built from units, counits and composition
 isomorphisms for inverse images. By

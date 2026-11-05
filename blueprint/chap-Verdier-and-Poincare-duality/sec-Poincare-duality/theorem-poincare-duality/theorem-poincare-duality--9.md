@@ -3,7 +3,7 @@ id = "theorem-poincare-duality--9"
 kind = "theorem"
 title = "Poincaré duality (9)"
 name_showing = false
-order = 856009
+order = 857009
 aliases = ["bp-r257-9"]
 +++
 For a map $\Lambda\to\Lambda'$ of admissible coefficient

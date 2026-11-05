@@ -2,7 +2,7 @@
 id = "prose-17-02"
 kind = "hidden"
 title = "Purity of the lisse part (1)"
-order = 1272
+order = 1275
 +++
 Throughout this subsection and the next, $j:U_0\hookrightarrow\mathbf A^1_{k_0}$
 is a dense open and $M$ is a nonzero irreducible lisse Weil sheaf

@@ -2,7 +2,7 @@
 id = "prose-13-01"
 kind = "hidden"
 title = "Weights"
-order = 1052
+order = 1053
 +++
 For the elliptic curve $y^2=x^3-x$ over $\mathbf F_3$ of the introduction,
 Frobenius acts on $H^1$ with eigenvalues $\pm i\sqrt3$. The Riemann hypothesis for this curve is then the statement $|\pm i\sqrt3|=3^{1/2}$. But the

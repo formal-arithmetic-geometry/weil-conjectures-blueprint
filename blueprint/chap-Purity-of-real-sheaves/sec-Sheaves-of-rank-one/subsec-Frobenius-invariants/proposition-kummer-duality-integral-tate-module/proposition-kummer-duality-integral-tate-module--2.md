@@ -3,7 +3,7 @@ id = "proposition-kummer-duality-integral-tate-module--2"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module (2)"
 name_showing = false
-order = 1094002
+order = 1097002
 aliases = ["bp-r335-2"]
 +++
 $$

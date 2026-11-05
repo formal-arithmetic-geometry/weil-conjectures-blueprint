@@ -3,7 +3,7 @@ id = "proposition-relative-dualizing-complex--1"
 kind = "proposition"
 title = "The relative dualizing complex (1)"
 name_showing = false
-order = 755001
+order = 756001
 aliases = ["bp-r228-1"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. There is a

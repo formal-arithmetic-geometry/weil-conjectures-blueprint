@@ -3,7 +3,7 @@ id = "lemma-fourier-transform-constant-sheaf--1"
 kind = "lemma"
 title = "Transform of the constant sheaf (1)"
 name_showing = false
-order = 1234001
+order = 1237001
 aliases = ["bp-r381-1"]
 +++
 Let $V=\mathbf A^1_{k_0}$ over $S=\operatorname{Spec}k_0$, and let

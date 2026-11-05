@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-degree-zero-top-cohomology"
-order = 1151
-uses = ["lemma-stability", "corollary-degreewise-duality-over-fields", "definition-weights"]
+order = 1154
+uses = ["corollary-degreewise-duality-over-fields"]
 +++
 We deduce both formulas from the description of a lisse sheaf by its
 representation, using Poincaré duality to reduce $H^2_c$ to $H^0$, and

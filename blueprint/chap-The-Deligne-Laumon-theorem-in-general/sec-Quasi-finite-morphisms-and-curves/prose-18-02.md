@@ -2,7 +2,7 @@
 id = "prose-18-02"
 kind = "hidden"
 title = "Quasi-finite morphisms and curves (1)"
-order = 1320
+order = 1323
 +++
 To prove Theorem [theorem-real-constructible-sheaves-are-mixed] we
 restrict a sheaf to curves, reassemble it over strata and descend it

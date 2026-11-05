@@ -2,7 +2,7 @@
 id = "prose-F-09"
 kind = "hidden"
 title = "Reductive Lie algebras (1)"
-order = 1735
+order = 1738
 +++
 For $\mathfrak{gl}_n$ the decomposition into scalars and trace-zero
 matrices, $\mathfrak{gl}_n=\Omega\cdot1\oplus\mathfrak{sl}_n$, has the form

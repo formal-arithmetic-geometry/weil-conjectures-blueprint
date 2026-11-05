@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-extending-graph-from-compactification"
-order = 1447
+order = 1450
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform", "theorem-elimination-indeterminacy"]
 +++
 The map $\psi$ is the projection to $M$ of the closure of the graph of

@@ -2,7 +2,7 @@
 id = "lemma-quasi-finite-coordinates"
 kind = "lemma"
 title = "Quasi-finite coordinates"
-order = 1651
+order = 1654
 +++
 Let $X$ be flat, separated and of finite type over $S$, and let $x$ be
 a closed point of $X_s$. Put $q=\dim_xX_s$. Then $q\leq\dim X_{\bar\eta}$,

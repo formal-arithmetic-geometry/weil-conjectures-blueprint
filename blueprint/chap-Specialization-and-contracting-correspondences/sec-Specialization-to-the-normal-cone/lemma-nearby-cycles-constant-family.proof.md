@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-nearby-cycles-constant-family"
-order = 1623
+order = 1626
 +++
 The compatibilities (1) and (2) are formal. For the isomorphism we show
 that the cone $C_Y(L)$ of $\sigma_Y(L)$ vanishes. To do this we use that, like nearby

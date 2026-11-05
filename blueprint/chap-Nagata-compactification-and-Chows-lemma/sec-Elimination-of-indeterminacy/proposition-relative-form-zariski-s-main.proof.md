@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-relative-form-zariski-s-main"
-order = 1436
+order = 1439
 +++
 The scheme $T_0$ is the normalization of $T$ in $Z$, that is, the
 relative spectrum of the integral closure of $\mathcal O_T$ in the

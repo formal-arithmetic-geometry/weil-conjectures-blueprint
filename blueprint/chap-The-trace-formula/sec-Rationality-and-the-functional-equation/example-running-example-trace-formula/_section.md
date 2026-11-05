@@ -2,8 +2,7 @@
 id = "example-running-example-trace-formula"
 kind = "example"
 title = "The running example: the trace formula"
-order = 1042
-uses = ["example-running-example-duality"]
+order = 1043
 +++
 For the elliptic curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$,
 geometric Frobenius acts on $H^0(C,\mathbf Q_\ell)=\mathbf Q_\ell$ by $1$ and on

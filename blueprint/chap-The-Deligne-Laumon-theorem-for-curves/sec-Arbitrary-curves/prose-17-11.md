@@ -2,7 +2,7 @@
 id = "prose-17-11"
 kind = "hidden"
 title = "Arbitrary curves (1)"
-order = 1302
+order = 1305
 +++
 Theorem [theorem-weight-bound-affine-line] assumes that the curve is
 an open of the affine line and that the sheaf is unramified at infinity.

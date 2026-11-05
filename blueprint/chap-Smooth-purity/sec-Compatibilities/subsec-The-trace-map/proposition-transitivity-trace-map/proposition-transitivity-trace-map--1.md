@@ -3,7 +3,7 @@ id = "proposition-transitivity-trace-map--1"
 kind = "proposition"
 title = "Transitivity of the trace map (1)"
 name_showing = false
-order = 807001
+order = 808001
 aliases = ["bp-r243-1"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative

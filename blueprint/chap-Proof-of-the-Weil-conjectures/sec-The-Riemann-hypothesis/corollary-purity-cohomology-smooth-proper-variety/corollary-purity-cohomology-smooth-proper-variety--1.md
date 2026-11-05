@@ -3,7 +3,7 @@ id = "corollary-purity-cohomology-smooth-proper-variety--1"
 kind = "corollary"
 title = "Purity of the cohomology of a smooth proper variety (1)"
 name_showing = false
-order = 1372001
+order = 1375001
 aliases = ["bp-r424-1"]
 +++
 Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$, put

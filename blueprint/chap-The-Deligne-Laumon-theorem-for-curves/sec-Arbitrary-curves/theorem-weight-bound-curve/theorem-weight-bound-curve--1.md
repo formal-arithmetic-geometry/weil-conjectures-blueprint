@@ -3,7 +3,7 @@ id = "theorem-weight-bound-curve--1"
 kind = "theorem"
 title = "The weight bound on a curve (1)"
 name_showing = false
-order = 1315001
+order = 1318001
 aliases = ["bp-r407-1"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open in a smooth curve over $k_0$,

@@ -3,7 +3,7 @@ id = "lemma-class-of-point--1"
 kind = "lemma"
 title = "The class of a point (1)"
 name_showing = false
-order = 868001
+order = 869001
 aliases = ["bp-r261-1"]
 +++
 In the setting of Theorem [theorem-trace-isomorphism-top-degree], we

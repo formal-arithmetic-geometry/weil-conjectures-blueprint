@@ -2,9 +2,9 @@
 id = "definition-weil-structure"
 kind = "definition"
 title = "Weil structure"
-order = 875
+order = 876
 lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.Hom", "AlgebraicGeometry.Etale.WeilComplex", "AlgebraicGeometry.Etale.WeilComplex.Hom", "AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(T,\Lambda)$, a *Weil structure*
 is an isomorphism

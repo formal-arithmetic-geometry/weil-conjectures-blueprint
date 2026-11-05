@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-trace-functions-direct-image-compact"
-order = 1025
+order = 1026
+uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contractible-objects", "proposition-milnor-sequence", "proposition-inverting-ell", "lemma-identity-pasting", "definition-pro-etale-base-change-map", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "lemma-inverse-image-tensor-product", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "definition-frobenius-operator", "definition-categorical-trace", "proposition-properties-trace", "definition-correspondence", "definition-trace-class-local-terms", "definition-action-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "definition-frobenius-correspondences-their-operators", "lemma-scheme-frobenius-geometric-frobenius", "lemma-frobenius-fixed-scheme", "proposition-frobenius-local-term-curve"]
 +++
 The left side is a trace on a stalk of $Rf_!K$. By base change that
 stalk is the compactly supported cohomology of a fibre. Hence the corollary

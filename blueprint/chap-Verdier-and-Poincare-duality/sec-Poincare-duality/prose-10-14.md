@@ -2,7 +2,7 @@
 id = "prose-10-14"
 kind = "hidden"
 title = "Poincaré duality (4)"
-order = 858
+order = 859
 +++
 For $X=\mathbf A^1$ and $K=\Lambda$ the theorem pairs
 $R\Gamma_c(\mathbf A^1,\Lambda)=\Lambda(-1)[-2]$ with

@@ -2,7 +2,7 @@
 id = "remark-coherent-additivity"
 kind = "remark"
 title = "Additivity needs a filtered endomorphism"
-order = 898
+order = 899
 +++
 The coherence condition is needed over a general ring: three
 endomorphisms of a distinguished triangle whose squares commute only in

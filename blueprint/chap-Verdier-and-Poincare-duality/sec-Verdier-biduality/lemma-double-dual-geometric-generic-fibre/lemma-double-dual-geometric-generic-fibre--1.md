@@ -3,7 +3,7 @@ id = "lemma-double-dual-geometric-generic-fibre--1"
 kind = "lemma"
 title = "Double duals on the geometric generic fibre (1)"
 name_showing = false
-order = 841001
+order = 842001
 aliases = ["bp-r252-1"]
 +++
 In the setting of Lemma [lemma-restriction-geometric-generic-fibre],

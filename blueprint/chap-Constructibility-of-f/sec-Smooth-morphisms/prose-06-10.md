@@ -2,7 +2,7 @@
 id = "prose-06-10"
 kind = "hidden"
 title = "Smooth morphisms (2)"
-order = 558
+order = 559
 +++
 Part (2) generalizes $j^!=j^*$ from open immersions to étale maps.
 For $d=1$, $k$ algebraically closed and $S=\operatorname{Spec}k$, part (1) says that

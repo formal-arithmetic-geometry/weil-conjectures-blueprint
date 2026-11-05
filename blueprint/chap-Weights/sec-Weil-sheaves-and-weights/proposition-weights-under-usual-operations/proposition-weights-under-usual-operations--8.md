@@ -1,8 +1,8 @@
 +++
 id = "proposition-weights-under-usual-operations--8"
 kind = "proposition"
-title = "Tensor products of mixed sheaves"
-order = 1070009
+title = "Mixedness under inverse image"
+order = 1073009
 aliases = ["bp-r329-8"]
 +++
-The tensor product of mixed sheaves of weights at most $a,b$ is mixed of weights at most $a+b$.
+Inverse image preserves mixedness.

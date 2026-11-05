@@ -2,8 +2,7 @@
 id = "example-correspondence-on-point"
 kind = "example"
 title = "A correspondence on the point"
-order = 927
-uses = ["lemma-local-terms-point"]
+order = 928
 +++
 Let $X=s$, let $C=\coprod_{i=1}^ns$ be $n$ points, with $c_1=c_2$ the
 structure map, and let $u:c_2^*A=A_C\to c_1^!A=A_C$ be the identity, using

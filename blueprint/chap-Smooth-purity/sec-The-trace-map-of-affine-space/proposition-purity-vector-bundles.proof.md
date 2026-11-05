@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-purity-vector-bundles"
-order = 741
+order = 742
 uses = ["proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "lemma-affine-space-etale-localization"]
 +++
 We transport the trace map of affine space along local trivializations,

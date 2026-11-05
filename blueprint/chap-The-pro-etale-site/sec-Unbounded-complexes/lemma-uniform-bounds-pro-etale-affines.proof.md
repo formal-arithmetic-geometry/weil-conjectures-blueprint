@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-uniform-bounds-pro-etale-affines"
 order = 163
-uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "definition-classical-pro-etale-sheaves", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-cohomological-dimension-base-field", "definition-constructible-sheaves", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 We write both cohomologies as colimits of étale cohomology of
 schemes of finite type over $k$ and bound these uniformly. Write

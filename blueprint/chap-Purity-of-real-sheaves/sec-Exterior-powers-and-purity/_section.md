@@ -2,7 +2,7 @@
 id = "sec-Exterior-powers-and-purity"
 kind = "section"
 title = "Exterior powers and purity"
-order = 1164
+order = 1167
 uses = ["subsec-Finite-monodromy", "subsec-Tensor-operations", "sec-Rankins-bound"]
 hide_content = true
 +++

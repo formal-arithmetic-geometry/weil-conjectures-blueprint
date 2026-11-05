@@ -2,7 +2,7 @@
 id = "prose-C-05"
 kind = "hidden"
 title = "Riemann–Roch and Serre duality (1)"
-order = 1524
+order = 1527
 +++
 The chart of the Picard scheme in degree $g$ is cut out by the
 condition $h^1=0$. Let $\mathcal L$ be an invertible sheaf of degree $g$ on

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-finite-extension-base-field-moving"
-order = 1307
+order = 1310
 +++
 We delete a rational point where $F$ is lisse, which replaces $H^1_c$
 by a group surjecting onto it, and move that point to infinity by an

@@ -2,7 +2,7 @@
 id = "prose-07-05"
 kind = "hidden"
 title = "Change of coefficients (3)"
-order = 632
+order = 633
 +++
 The map for $f^!$ is defined in the same way, as the transpose of a
 counit, once we know that (5) is an isomorphism; see

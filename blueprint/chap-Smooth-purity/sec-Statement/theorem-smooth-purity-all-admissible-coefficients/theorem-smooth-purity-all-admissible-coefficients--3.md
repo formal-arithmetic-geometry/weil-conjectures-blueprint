@@ -2,7 +2,7 @@
 id = "theorem-smooth-purity-all-admissible-coefficients--3"
 kind = "theorem"
 title = "Purity isomorphism: finite extension of $\\Ql$"
-order = 730006
+order = 731006
 aliases = ["bp-r220-3"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},E)$, the specified natural isomorphism is

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-verdier-s-theorem-specialization-zero"
-order = 1640
-uses = ["lemma-nearby-cycles-constant-family", "lemma-base-change-cone-x-z"]
+order = 1643
+uses = ["lemma-comparison-direct-images-compatibilities", "corollary-finite-quotients-their-transition-maps", "definition-derived-adic-completeness", "proposition-integral-constructibility-criterion", "lemma-lattices-after-finite-stratification", "lemma-identity-pasting", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-proper-direct-image-constructible-complexes", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "corollary-open-direct-image-over-field", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "lemma-passing-schematic-closure", "definition-admissible-blow-up", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "lemma-base-change-cone-x-z", "lemma-vanishing-generic-points-principal-divisor"]
 +++
 The main step is that $C_{X,Z}(L)=0$ for every $L\in
 D^b_c(X_{\acute et},A)$, which the last paragraph transports to

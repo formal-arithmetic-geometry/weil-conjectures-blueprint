@@ -3,7 +3,7 @@ id = "example-kummer-no-boundary--1"
 kind = "example"
 title = "A Kummer sheaf has no boundary term (1)"
 name_showing = false
-order = 1275001
+order = 1278001
 aliases = ["bp-r394-1"]
 +++
 Let $M$ be the Kummer sheaf of a nontrivial character $\chi$ on

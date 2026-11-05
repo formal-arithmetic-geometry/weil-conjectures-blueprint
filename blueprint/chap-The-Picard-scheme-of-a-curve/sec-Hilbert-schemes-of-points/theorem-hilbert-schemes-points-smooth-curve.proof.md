@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-hilbert-schemes-points-smooth-curve"
-order = 1535
+order = 1538
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Representability is a general theorem, once we know that finite sets of

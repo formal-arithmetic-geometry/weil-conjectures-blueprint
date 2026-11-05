@@ -2,9 +2,9 @@
 id = "lemma-reciprocal-roots-zeta"
 kind = "lemma"
 title = "Reciprocal roots of the zeta function"
-order = 1386
+order = 1389
 lean = ["AlgebraicGeometry.Scheme.weight_separation", "AlgebraicGeometry.Scheme.integral_recovery"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
 +++
 Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$, let
 $Z(X_0,T)=A/B$ be the reduced fraction fixed above, and let

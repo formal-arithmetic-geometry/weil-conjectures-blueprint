@@ -2,7 +2,7 @@
 id = "prose-12-16"
 kind = "hidden"
 title = "The local term at a fixed point (2)"
-order = 995
+order = 996
 +++
 For $K=A_X$ on $X=\mathbf A^1_k$ the proposition gives
 $\operatorname{LT}_y(\psi_m)=1$ at each of the $q^m$ fixed points of

@@ -2,7 +2,7 @@
 id = "prose-P2-01"
 kind = "hidden"
 title = "Duality and the trace formula"
-order = 721
+order = 722
 +++
 At the end of Part I we have, for every separated
 $X_0$ of finite type over $\mathbf F_q$, cohomology groups $H^i_c$ with an

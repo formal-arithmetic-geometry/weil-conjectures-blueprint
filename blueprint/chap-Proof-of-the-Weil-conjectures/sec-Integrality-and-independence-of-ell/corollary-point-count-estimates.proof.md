@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-point-count-estimates"
-order = 1395
-uses = ["corollary-point-counting-zeta-function", "theorem-weil-conjectures-smooth-proper-schemes", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "corollary-degree-jacobian"]
+order = 1398
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "theorem-weil-conjectures-smooth-proper-schemes", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-riemann-roch-coherent-serre-duality", "corollary-degree-jacobian"]
 +++
 Since $X_0$ is proper, the point-counting formula of
 Corollary [corollary-point-counting-zeta-function] reads

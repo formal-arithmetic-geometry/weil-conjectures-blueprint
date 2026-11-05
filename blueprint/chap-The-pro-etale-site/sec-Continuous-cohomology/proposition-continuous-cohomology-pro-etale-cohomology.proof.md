@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-continuous-cohomology-pro-etale-cohomology"
 order = 193
-uses = ["proposition-milnor-sequence"]
 +++
 Since the transition maps are epimorphisms, $F\simeq R\varprojlim_nF_n$
 by the last assertion of Proposition [proposition-milnor-sequence]. Moreover,

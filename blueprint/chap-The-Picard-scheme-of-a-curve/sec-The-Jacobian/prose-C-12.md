@@ -2,7 +2,7 @@
 id = "prose-C-12"
 kind = "hidden"
 title = "The Jacobian (2)"
-order = 1546
+order = 1549
 +++
 We compute the tangent space with the dual numbers
 $k[\varepsilon]$, $\varepsilon^2=0$; the computation works for any

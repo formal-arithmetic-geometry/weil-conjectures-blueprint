@@ -2,7 +2,7 @@
 id = "prose-15-11"
 kind = "hidden"
 title = "Growth of squared traces (3)"
-order = 1198
+order = 1201
 +++
 A cohomological shift changes the weight of a complex in the sense of
 Definition [definition-weights]. But it only multiplies the trace

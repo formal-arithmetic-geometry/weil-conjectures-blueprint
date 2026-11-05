@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-trace-formula-frobenius-correspondence"
-order = 1007
-uses = ["lemma-additivity-open-subscheme-complement"]
+order = 1008
+uses = ["proposition-w-local-components", "proposition-milnor-sequence", "theorem-comparison-direct-images", "proposition-inverting-ell", "lemma-identity-pasting", "definition-pro-etale-base-change-map", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "definition-projection-formula-map", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-change-coefficients", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation", "proposition-properties-trace", "definition-correspondence", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "definition-trace-class-local-terms", "lemma-local-terms-point", "definition-action-correspondence", "definition-pushforward-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-frobenius-fixed-scheme", "proposition-frobenius-local-term-curve", "lemma-comparison-via-relative-frobenius", "lemma-additivity-open-subscheme-complement"]
 +++
 Both sides are defined, because the complexes are perfect by
 Lemma [lemma-perfect-complexes-geometric-point]. We prove the assertion

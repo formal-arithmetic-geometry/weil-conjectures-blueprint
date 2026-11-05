@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-finite-morphisms-cohomology"
-order = 1595
+order = 1598
+uses = ["lemma-finite-morphisms"]
 +++
 On the étale sites, Lemma [lemma-finite-morphisms] shows that $h_*$
 is exact, that its stalks are finite products of stalks of $G$, and that its

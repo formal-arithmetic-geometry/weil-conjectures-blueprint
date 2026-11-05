@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-geometric-coverings-normal-scheme"
-order = 1075
+order = 1078
 +++
 We compare a component $Y_1$ with the normalization $N$ of $X$
 in the function field of $Y_1$. By Zariski's main theorem, $Y_1$ is an open

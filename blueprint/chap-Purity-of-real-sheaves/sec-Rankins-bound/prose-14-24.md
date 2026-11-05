@@ -2,7 +2,7 @@
 id = "prose-14-24"
 kind = "hidden"
 title = "Rankin's bound (2)"
-order = 1152
+order = 1155
 +++
 For the constant sheaf on $\mathbf G_m$ the lemma gives
 $H^2_c=\overline{\mathbf Q}_\ell(-1)$, of weight $2$, as in the computation at the start

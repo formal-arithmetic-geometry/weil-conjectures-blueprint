@@ -2,7 +2,6 @@
 kind = "proof"
 of = "corollary-continuous-etale-cohomology"
 order = 196
-uses = ["theorem-bounded-below-cohomology-comparison"]
 +++
 By Theorem [theorem-bounded-below-cohomology-comparison], each
 $R\Gamma(X_{\mathrm{pro}\acute{e}t},F_n)$ is $R\Gamma(X_{\acute{e}t},F_{n,\acute{e}t})$. The derived

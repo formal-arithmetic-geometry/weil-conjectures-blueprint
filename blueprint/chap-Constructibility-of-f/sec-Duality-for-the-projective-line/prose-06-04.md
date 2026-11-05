@@ -2,7 +2,7 @@
 id = "prose-06-04"
 kind = "hidden"
 title = "Duality for the projective line (1)"
-order = 541
+order = 542
 +++
 Let $p:\mathbf P^1_S\to S$ be the projection. We construct the adjunction $Rp_*\dashv p^*(1)[2]$ from two maps: the counit is a trace
 $Rp_*A(1)[2]\to A$, obtained from the cohomology of $\mathbf P^1$, and the unit is the cycle class of the diagonal in

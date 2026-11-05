@@ -2,9 +2,9 @@
 id = "definition-trace-function"
 kind = "definition"
 title = "Trace function"
-order = 1022
+order = 1023
 lean = ["AlgebraicGeometry.WeilComplex.traceFunction", "AlgebraicGeometry.WeilSheaf.traceFunction", "AlgebraicGeometry.ProEtale.CondensedRing.weilStalkTraceAlternatingSum"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-weil-structure", "definition-categorical-trace"]
 +++
 Let $(K,\phi)$ be a Weil complex on $X$ as in
 Theorem [theorem-grothendieck-lefschetz-trace-formula], and let $m\geq1$.

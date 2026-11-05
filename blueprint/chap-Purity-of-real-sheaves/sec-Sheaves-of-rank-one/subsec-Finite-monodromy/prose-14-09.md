@@ -2,7 +2,7 @@
 id = "prose-14-09"
 kind = "hidden"
 title = "Finite monodromy (4)"
-order = 1109
+order = 1112
 +++
 For a Kummer sheaf on $\mathbf G_{m,k_0}$ the corollary gives weight
 $0$, since $\chi(s)$ is then a root of unity. For $\mathcal B_b$ it

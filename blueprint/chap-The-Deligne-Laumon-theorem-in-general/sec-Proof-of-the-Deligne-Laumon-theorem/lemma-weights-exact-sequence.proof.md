@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-weights-exact-sequence"
-order = 1350
+order = 1353
+uses = ["lemma-subobjects-quotients-weil-sheaves"]
 +++
 Let $a:F'\to F$ and $b:F\to F''$ be the maps. Exactness at $F$ gives a
 short exact sequence
@@ -12,6 +13,7 @@ $$
 
 where $\operatorname{im}(a)$ is a quotient of $F'$ and
 $\operatorname{im}(b)$ a subobject of $F''$. Since mixed sheaves of
-weights at most $u$ are closed under subquotients and extensions by
+weights at most $u$ are closed under subquotients by
+Lemma [lemma-subobjects-quotients-weil-sheaves] and under extensions by
 Proposition [proposition-weights-under-usual-operations], $F$ is
 mixed of weights at most $u$.

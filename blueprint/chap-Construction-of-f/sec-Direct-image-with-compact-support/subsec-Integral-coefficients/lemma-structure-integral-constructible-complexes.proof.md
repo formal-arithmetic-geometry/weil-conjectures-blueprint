@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-structure-integral-constructible-complexes"
 order = 492
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves"]
 +++
 The conditions of Proposition [proposition-integral-constructibility-criterion], derived
 completeness and constructible reduction, are stable under shifts and

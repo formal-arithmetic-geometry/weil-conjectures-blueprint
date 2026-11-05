@@ -3,7 +3,7 @@ id = "definition-determinant-weight--1"
 kind = "definition"
 title = "Determinant weight (1)"
 name_showing = false
-order = 1110001
+order = 1113001
 aliases = ["bp-r340-1"]
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth

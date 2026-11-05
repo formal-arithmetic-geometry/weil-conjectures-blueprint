@@ -3,7 +3,7 @@ id = "lemma-perverse-sheaves-curve--1"
 kind = "lemma"
 title = "Perverse sheaves on a curve (1)"
 name_showing = false
-order = 1249001
+order = 1252001
 aliases = ["bp-r386-1"]
 +++
 The classes ${}^pD^{\le0}$ and ${}^pD^{\ge0}$ of

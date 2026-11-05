@@ -2,8 +2,7 @@
 id = "example-extension-by-zero-not-simple"
 kind = "example"
 title = "Extension by zero is not simple"
-order = 1257
-uses = ["lemma-boundary-stalk", "lemma-largest-punctual-subsheaf"]
+order = 1260
 +++
 Let $j:\mathbf G_m\hookrightarrow\mathbf A^1$ and $i:0\hookrightarrow\mathbf A^1$
 be the inclusions over $k$, and put $\delta_0=i_*E$. The sheaf $j_!E$ has no punctual subsheaf, as

@@ -1007,13 +1007,7 @@ with $R\to B$ ind-\'etale.
 \begin{bpdefinition}[Source clause 3]
 \label{bp-r001-3}
 A scheme morphism $u:U\to X$ is \emph{weakly \'etale} if $u$ and its
-diagonal $\Delta_u:U\to U\times_XU$ are flat. On affine charts this
-means that both
-\[
- R\longrightarrow B,
- \qquad B\otimes_RB\longrightarrow B
-\]
-are flat.
+diagonal $\Delta_u:U\to U\times_XU$ are flat.
 \end{bpdefinition}
 
 \BPEndSource{001}
@@ -1077,7 +1071,7 @@ faithfully flat refinement
 \stacks{097Z}). Geometrically, a weakly \'etale scheme over $X$ is covered,
 in the pro-\'etale topology, by a limit of \'etale $X$-schemes.
 
-\BPSource{Lemma}{003}{7}{Stability}
+\BPSource{Lemma}{003}{8}{Stability}
 
 \label{lemma-stability}
 
@@ -1124,6 +1118,18 @@ Ind-\'etale ring maps are stable under base change.
 Ind-\'etale ring maps are stable under composition.
 \end{bplemma}
 
+
+\begin{bplemma}[Weakly etale on affine charts]
+\label{bp-r003-8}
+A morphism $\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is weakly
+\'etale if and only if both
+\[
+ R\longrightarrow B,
+ \qquad B\otimes_RB\longrightarrow B
+\]
+are flat.
+\end{bplemma}
+
 \BPEndSource{003}
 
 \BPProofAnchor{bp-proof-002}
@@ -1147,6 +1153,13 @@ flat. Their composite $h$ is therefore flat. The diagonal $\Delta_h:U\to
 U\times_VU$ is the base change of $\Delta_{U/X}$ along the monomorphism
 $U\times_VU\to U\times_XU$, so it is flat as well. Zariski locality
 follows from the fact that flatness is Zariski local.
+
+On affine charts, the diagonal of
+$\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is the closed immersion
+$\operatorname{Spec}(B)\to\operatorname{Spec}(B\otimes_RB)$ given by the
+multiplication map, so the morphism is weakly \'etale exactly when
+$R\to B$ and $B\otimes_RB\to B$ are flat. By Zariski locality on source and
+target, this describes weakly \'etale morphisms on any affine charts.
 
 For ind-\'etale ring maps, base change is clear because tensor products
 commute with filtered colimits. For composition, let $R\to B$ and $B\to C$
@@ -1728,7 +1741,7 @@ basis, we pass from pro-\'etale affines to w-contractible ones. The next two
 results show that the spectra of w-contractible rings have the splitting
 property for sheaves and that they cover every object.
 
-\BPSource{Lemma}{016}{1}{Sections of epimorphisms onto w-contractible affines}
+\BPSource{Lemma}{016}{2}{Sections of epimorphisms onto w-contractible affines}
 
 \label{lemma-w-contractible-affines-projective}
 
@@ -1739,10 +1752,28 @@ w-contractible. Then every epimorphism of sheaves $F\to h_U$ has a
 section. Equivalently, $h_U$ is projective in $\Sh(X_{\proet})$.
 \end{bplemma}
 
+
+\begin{bplemma}[Equivalent forms of splitting]
+\label{bp-r016-2}
+For an object $W$ of $X_{\proet}$ the following are equivalent: every
+epimorphism of sheaves of sets $F\to h_W$ admits a section; $h_W$ is
+projective in $\Sh(X_{\proet})$; every epimorphism $F\to G$ induces a
+surjection $F(W)\to G(W)$.
+\end{bplemma}
+
 \BPEndSource{016}
 
 \BPProofAnchor{bp-proof-012}
 \begin{proof}
+For the equivalence of the three conditions on an object $W$: by the
+Yoneda lemma, $h_W$ is projective exactly when every epimorphism $F\to G$
+induces a surjection $F(W)=\Hom(h_W,F)\to\Hom(h_W,G)=G(W)$. If every
+epimorphism onto $h_W$ splits, pull an epimorphism $F\to G$ back along a
+section $h_W\to G$; the resulting epimorphism onto $h_W$ splits, so the
+section lifts to $F$. Conversely, if every epimorphism is surjective on
+sections over $W$, then $\mathrm{id}_{h_W}$ lifts along any epimorphism
+onto $h_W$.
+
 To see that covers of $U$ split, note that by
 Theorem~\ref{theorem-pro-etale-refinements-weakly-etale} a
 faithfully flat weakly \'etale $D$-algebra can be refined to a faithfully
@@ -1833,7 +1864,8 @@ onto such an $S$ has a section by Gleason's theorem.
 \label{bp-r018-1}
 An object $W$ of $X_{\proet}$ is \emph{weakly contractible} if every
 epimorphism of sheaves of sets $F\to h_W$ admits a section, where $h_W$
-is the representable sheaf associated to $W$. Equivalently, $h_W$ is
+is the representable sheaf associated to $W$. By
+Lemma~\ref{lemma-w-contractible-affines-projective}, equivalently $h_W$ is
 projective in $\Sh(X_{\proet})$, or every epimorphism $F\to G$ induces a
 surjection $F(W)\to G(W)$.
 \end{bpdefinition}
@@ -1841,11 +1873,7 @@ surjection $F(W)\to G(W)$.
 \BPEndSource{018}
 
 
-To see the equivalence, pull an epimorphism $F\to G$ back along a section
-$h_W\to G$. The resulting epimorphism onto $h_W$ splits. Conversely,
-if every epimorphism is surjective on sections, then $\mathrm{id}_{h_W}$
-lifts along any epimorphism onto $h_W$. This is the categorical definition
-of~\cite[\S3.2]{BS}.
+This is the categorical definition of~\cite[\S3.2]{BS}.
 
 \BPSource{Example}{019}{2}{Weak contractibility over a point}
 
@@ -4356,18 +4384,17 @@ Proposition~\ref{proposition-extension-zero-restriction-closed-subscheme}.
 \label{bp-r059-1}
 The \emph{local cohomology functor}
 $R\underline\Gamma_Z:D(X_{\proet},\mathcal R)\to D(Z_{\proet},i^*\mathcal R)$
-is
+is the right derived functor of the functor of sections supported on $Z$,
 \[
- R\underline\Gamma_ZK
-   =i^*\fib(K\longrightarrow Rj_*j^*K),
+ F\longmapsto i^*\ker(F\longrightarrow j_*j^*F),
 \]
-where $K\to Rj_*j^*K$ is the unit of $j^*\dashv Rj_*$.
+where $F\to j_*j^*F$ is the unit of $j^*\dashv j_*$.
 \end{bpdefinition}
 
 \BPEndSource{059}
 
 
-\BPSource{Lemma}{060}{1}{Local cohomology is right adjoint to $i_*$}
+\BPSource{Lemma}{060}{2}{Local cohomology is right adjoint to $i_*$}
 
 \label{lemma-local-cohomology-right-adjoint}
 
@@ -4377,10 +4404,30 @@ The functor $R\underline\Gamma_Z$ is right adjoint to the exact fully
 faithful functor $i_*:D(Z_{\proet},i^*\mathcal R)\to D(X_{\proet},\mathcal R)$.
 \end{bplemma}
 
+
+\begin{bplemma}[The fibre formula]
+\label{bp-r060-2}
+The functor $R\underline\Gamma_Z$ is computed by
+\[
+ R\underline\Gamma_ZK\simeq i^*\fib(K\longrightarrow Rj_*j^*K),
+\]
+where $K\to Rj_*j^*K$ is the unit of $j^*\dashv Rj_*$.
+\end{bplemma}
+
 \BPEndSource{060}
 
 \BPProofAnchor{bp-proof-046}
 \begin{proof}
+We first compute $R\underline\Gamma_Z$. Represent $K$ by a K-injective
+complex $J$ with injective terms, so that $Rj_*j^*K$ is represented by
+$j_*j^*J$. The unit $J\to j_*j^*J$ is surjective in each degree: for an
+injective $\mathcal R$-module $I$ and an object $V$, a section of
+$j_*j^*I$ over $V$ is a map $j_!j^*\mathcal R_V\to I$, and it extends along
+the monomorphism $j_!j^*\mathcal R_V\to\mathcal R_V$. Hence the kernel of
+$J\to j_*j^*J$, taken termwise, represents the fibre of the unit, and
+applying the exact functor $i^*$ gives
+$R\underline\Gamma_ZK\simeq i^*\fib(K\to Rj_*j^*K)$.
+
 Let $F=\fib(K\to Rj_*j^*K)$. Since $j^*i_*M=0$, we have
 $\operatorname{Hom}(i_*M,Rj_*j^*K)=\operatorname{Hom}(j^*i_*M,j^*K)=0$
 in all degrees, so maps $i_*M\to K$ are the same as maps $i_*M\to F$.
@@ -11927,6 +11974,34 @@ Consequently $\operatorname{cd}_\ell(f)<\infty$ in the sense of Definition~\ref{
 \BPEndSource{162}
 
 
+\BPSource{Definition}{542}{1}{The base change map for $f^!$, finite coefficients}
+
+\label{definition-exceptional-base-change-finite}
+
+\begin{bpdefinition}[The base change map for $f^!$]
+\label{bp-r542-1}
+Let $f:X\to S$ be separated and of finite type, let $g:S'\to S$ be a
+morphism, let $X'=X\times_SS'$, and let $f':X'\to S'$, $g':X'\to X$ be the
+projections. For $N\in D_{\mathrm{class}}(S_{\proet},\Lambda)$, let
+$\varepsilon_N:Rf_!f^!N\to N$ be the counit of $Rf_!\dashv f^!$. The
+\emph{base change map}
+\begin{equation}\label{equation-g12}
+ g'^*_\Lambda f^!_\Lambda N\longrightarrow f'^!_\Lambda g^*_\Lambda N
+\end{equation}
+is the transpose, for $f'$, of the morphism
+\begin{equation}\label{equation-g14}
+ Rf'_!g'^*f^!N
+   \xrightarrow{\ \sim\ }g^*Rf_!f^!N
+   \xrightarrow{g^*\varepsilon_N}g^*N,
+\end{equation}
+where the first arrow is the inverse of the base change isomorphism
+for $Rf_!$ \stacks{0F7L}.
+\end{bpdefinition}
+
+\BPEndSource{542}
+
+It is an isomorphism for smooth $f$
+(Proposition~\ref{proposition-exceptional-inverse-image-smooth-morphism}).
 The global isomorphism $f^!\simeq f^*(d)[2d]$ for smooth $f$ of relative
 dimension $d$, and its compatibility with composition, are treated with smooth purity in
 Section~\ref{section-smooth-purity}.
@@ -12613,11 +12688,7 @@ is an isomorphism.
 
 \begin{bpproposition}[Exceptional base change]
 \label{bp-r169-6}
-Let $g:S'\to S$, let $X'=X\times_SS'$, and let $f':X'\to S'$ and $g':X'\to X$ be the projections. The canonical base change map
-\begin{equation}\label{equation-g12}
- g'^*_\Lambda f^!_\Lambda N\longrightarrow f'^!_\Lambda g^*_\Lambda N
-\end{equation}
-is an isomorphism.
+Let $g:S'\to S$, let $X'=X\times_SS'$, and let $f':X'\to S'$ and $g':X'\to X$ be the projections. The base change map \eqref{equation-g12} of Definition~\ref{definition-exceptional-base-change-finite} is an isomorphism.
 \end{bpproposition}
 
 \begin{bpproposition}[Base change of the dualizing complex]
@@ -12654,14 +12725,8 @@ transpose of the morphism
     \xrightarrow{1\otimes\varepsilon_{\Lambda_S}}N ,
 \]
 where the first arrow is the projection formula. The map \eqref{equation-g12} is the
-transpose, for $f'$, of the morphism
-\begin{equation}\label{equation-g14}
- Rf'_!g'^*f^!N
-   \xrightarrow{\ \sim\ }g^*Rf_!f^!N
-   \xrightarrow{g^*\varepsilon_N}g^*N,
-\end{equation}
-where the first arrow is the inverse of the base change isomorphism
-for $Rf_!$ \stacks{0F7L}.
+transpose, for $f'$, of the morphism \eqref{equation-g14}
+(Definition~\ref{definition-exceptional-base-change-finite}).
 
 \emph{Local charts.} The computation of $f^!$ on a chart also
 proves (1). Zariski locally on $X$ and $S$, a smooth morphism
@@ -26510,119 +26575,136 @@ with the stated diagonal entries. The matrix on the dual is the
 inverse transpose.
 \end{proof}
 
-At a closed point, each operation in the next proposition acts on
+At a closed point, each operation in the next lemma and proposition acts on
 stalks by one of the constructions of the lemma: a subobject, a
 quotient, a tensor product or a dual, or, for an inverse image, a
 power of Frobenius. So the behaviour of weights is a matter of
 eigenvalues. Mixedness needs in addition some bookkeeping to produce the
 filtrations.
 
-\BPSource{Proposition}{329}{17}{Weights under the usual operations}
+\BPSource{Lemma}{541}{3}{Subobjects and quotients of Weil sheaves}
+\label{lemma-subobjects-quotients-weil-sheaves}
+
+\noindent\textit{Shared context.} Use the Weil sheaves, coefficients and weight convention of the reference.
+
+\begin{bplemma}[Subobjects of a pure sheaf]
+\label{bp-r541-1}
+A subobject of a pure Weil sheaf of weight $w$ is pure of weight $w$.
+\end{bplemma}
+
+
+\begin{bplemma}[Quotients of a pure sheaf]
+\label{bp-r541-2}
+A quotient of a pure Weil sheaf of weight $w$ is pure of weight $w$.
+\end{bplemma}
+
+
+\begin{bplemma}[Mixed subquotients]
+\label{bp-r541-3}
+A subquotient of a mixed sheaf is mixed, and a subquotient of a sheaf
+that is mixed of weights at most $w$ is mixed of weights at most $w$.
+\end{bplemma}
+
+\BPEndSource{541}
+
+\BPProofAnchor{bp-proof-401}
+\begin{proof}
+By Lemma~\ref{lemma-filtrations-spectra}, the eigenvalues on a subobject or a
+quotient occur among those of the whole. Hence subobjects and quotients of
+pure sheaves are pure. For mixed sheaves, we intersect a mixed filtration
+with a subobject, or push it into a quotient. The graded pieces are then
+subquotients of the original pure pieces, hence pure of the same
+weights, and so the upper bound persists.
+\end{proof}
+
+\BPSource{Proposition}{329}{14}{Weights under the usual operations}
 \label{proposition-weights-under-usual-operations}
 
 \noindent\textit{Shared context.} Use the Weil sheaves, coefficients and weight convention of the reference.
 
-\begin{bpproposition}[Subobjects of a pure sheaf]
-\label{bp-r329-1}
-A subobject of a pure Weil sheaf of weight $w$ is pure of weight $w$.
-\end{bpproposition}
-
-
-\begin{bpproposition}[Quotients of a pure sheaf]
-\label{bp-r329-2}
-A quotient of a pure Weil sheaf of weight $w$ is pure of weight $w$.
-\end{bpproposition}
-
-
-\begin{bpproposition}[Mixed subquotients]
-\label{bp-r329-3}
-A subquotient of a mixed sheaf is mixed.
-\end{bpproposition}
-
-
 \begin{bpproposition}[Mixed extensions]
-\label{bp-r329-4}
+\label{bp-r329-1}
 An extension of mixed sheaves is mixed.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Upper bounds for extensions]
-\label{bp-r329-5}
+\label{bp-r329-2}
 An extension of two sheaves with a common upper weight bound has that same bound.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Tensor products of pure sheaves]
-\label{bp-r329-6}
+\label{bp-r329-3}
 The tensor product of pure sheaves of weights $a,b$ is pure of weight $a+b$.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Dual of a pure lisse sheaf]
-\label{bp-r329-7}
+\label{bp-r329-4}
 The dual of a pure lisse sheaf of weight $a$ is pure of weight $-a$.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Tensor products of mixed sheaves]
-\label{bp-r329-8}
+\label{bp-r329-5}
 The tensor product of mixed sheaves of weights at most $a,b$ is mixed of weights at most $a+b$.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Dual of a mixed lisse sheaf]
-\label{bp-r329-9}
+\label{bp-r329-6}
 The dual of a mixed lisse sheaf is mixed, of the negated weights. When its filtration has lisse graded pieces, their duals are the graded pieces of the annihilator filtration of the dual.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Purity under inverse image]
-\label{bp-r329-10}
+\label{bp-r329-7}
 Inverse image preserves purity and its weight.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Mixedness under inverse image]
-\label{bp-r329-11}
+\label{bp-r329-8}
 Inverse image preserves mixedness.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Upper bounds under inverse image]
-\label{bp-r329-12}
+\label{bp-r329-9}
 Inverse image preserves upper weight bounds.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Shifts]
-\label{bp-r329-13}
+\label{bp-r329-10}
 If a complex $K$ has weights at most
 $w$, then $K[r]$ has weights at most $w+r$.
 \end{bpproposition}
 
 
 \begin{bpdefinition}[A geometrically constant rank-one twist]
-\label{bp-r329-14}
+\label{bp-r329-11}
 For $b\in\Qbar^\times$, let $\mathcal B_b$ be the geometrically constant
 rank-one Weil sheaf on which a degree-one Frobenius acts by $b$.
 \end{bpdefinition}
 
 
 \begin{bpproposition}[Weight of a constant twist]
-\label{bp-r329-15}
+\label{bp-r329-12}
 Tensoring by $\mathcal B_b$ adds
 $\lambda_\iota(b)=2\log_q|\iota(b)|$ to every weight.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Frobenius of the Tate sheaf]
-\label{bp-r329-16}
+\label{bp-r329-13}
 The Tate sheaf $\Qbar(1)$ has geometric Frobenius $q^{-1}$.
 \end{bpproposition}
 
 
 \begin{bpproposition}[Weights after Tate twisting]
-\label{bp-r329-17}
+\label{bp-r329-14}
 Twisting by $(r)$ subtracts $2r$ from every weight.
 \end{bpproposition}
 
@@ -26634,12 +26716,7 @@ Each assertion has two parts: a statement about eigenvalues at closed
 points, which follows from Lemma~\ref{lemma-filtrations-spectra}, and, for
 mixedness, the construction of a filtration with pure quotients.
 
-By Lemma~\ref{lemma-filtrations-spectra}, the eigenvalues on a subobject or a
-quotient occur among those of the whole. Hence subobjects and quotients of
-pure sheaves are pure. Intersect a mixed filtration with a
-subobject, or push it into a quotient. The graded pieces are then
-subquotients of the original pure pieces, hence pure of the same
-weights.  An extension is filtered by a filtration of its
+An extension is filtered by a filtration of its
 subobject followed by the inverse images of a filtration of its
 quotient. The graded pieces of the result are those of the two given
 filtrations, so a common upper bound persists.
@@ -32548,7 +32625,8 @@ short exact sequence
 \]
 where $\operatorname{im}(a)$ is a quotient of $F'$ and
 $\operatorname{im}(b)$ a subobject of $F''$. Since mixed sheaves of
-weights at most $u$ are closed under subquotients and extensions by
+weights at most $u$ are closed under subquotients by
+Lemma~\ref{lemma-subobjects-quotients-weil-sheaves} and under extensions by
 Proposition~\ref{proposition-weights-under-usual-operations}, $F$ is
 mixed of weights at most $u$.
 \end{proof}
@@ -33771,7 +33849,8 @@ scheme-theoretically dense in $\overline U$.
 \begin{bplemma}[Source clause 2]
 \label{bp-r435-2}
 The formation of
-$\overline U$ commutes with restriction to opens of $T$.
+$\overline U$ commutes with flat base change $T'\to T$, in particular
+with restriction to opens of $T$.
 \end{bplemma}
 
 \BPEndSource{435}
@@ -33782,8 +33861,12 @@ $\overline U$ commutes with restriction to opens of $T$.
 The scheme-theoretic image is the smallest closed subscheme through
 which $i$ factors. Its ideal is
 $\ker(\mathcal O_T\to i_*\mathcal O_U)$, which is quasi-coherent
-because $i$ is quasi-compact and quasi-separated. For the same reason
-its formation commutes with restriction to opens of $T$. On an open
+because $i$ is quasi-compact and quasi-separated. Its formation
+commutes with flat base change $T'\to T$: pushforward along the
+quasi-compact quasi-separated $i$ commutes with flat base change, and
+pullback along a flat morphism is exact, so the pullback of the ideal is
+the ideal of the base change \stacks{081I}. Restriction to an open of
+$T$ is a special case. On an open
 where the immersion is closed the image is therefore $U$ itself, and
 this shows that $U$ is open in its image. By construction, a section of
 $\mathcal O_{\overline U}$ vanishing on $U$ is zero, which is the
@@ -33979,9 +34062,10 @@ base-changed ambient scheme is Noetherian, as for schemes of finite
 type over $k$, Lemma~\ref{lemma-passing-schematic-closure} shows that
 this direct image agrees with the one defined by the schematic closure.
 
-Schematic density
-and schematic closure commute with flat base change, but density can
-be lost under an arbitrary base change. In that case the schematic
+Schematic closure
+commutes with flat base change
+(Lemma~\ref{lemma-schematic-closure-uniqueness}), and so does schematic
+density, but density can be lost under an arbitrary base change. In that case the schematic
 closure of $X\times_SS'$ in $\overline X\times_SS'$ is a dense
 compactification, and a base-changed common refinement can be replaced
 by its closure in the same way. The comparisons in the main text are
@@ -36054,7 +36138,7 @@ structure morphism $f:C\to\operatorname{Spec}k$, and set
 $g=\dim_kH^1(C,\mathcal O_C)$. Such a curve is projective
 \stacks{0A26}.
 
-\BPSource{Theorem}{475}{5}{Riemann--Roch and coherent Serre duality}
+\BPSource{Theorem}{475}{6}{Riemann--Roch and coherent Serre duality}
 
 \label{theorem-riemann-roch-coherent-serre-duality}
 
@@ -36103,6 +36187,12 @@ h^0(C,\mathcal L)=\deg\mathcal L+1-g.
 \]
 \end{bptheorem}
 
+
+\begin{bptheorem}[Dimension of regular differentials]
+\label{bp-r475-6}
+One has $\dim_kH^0(C,\omega_{C/k})=g$.
+\end{bptheorem}
+
 \BPEndSource{475}
 
 
@@ -36119,7 +36209,8 @@ divisor of zeros. Hence an invertible sheaf of negative degree has no
 nonzero section. If $\deg\mathcal L>2g-2$, then
 $\omega_{C/k}\otimes\mathcal L^{-1}$ has negative degree, and
 $H^1(C,\mathcal L)=0$ by duality. The dimension formula then follows from
-Riemann--Roch.
+Riemann--Roch. For $\mathcal L=\mathcal O_C$ the duality gives
+$\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$.
 
 The Picard scheme is constructed over a separably closed field, but its
 points are tested over arbitrary extensions. Hence Riemann--Roch and
@@ -36127,7 +36218,7 @@ coherent base change must be compatible with extension of the ground
 field, and for duality we need this for the pairing itself, not only
 for the dimensions.
 
-\BPSource{Corollary}{476}{3}{Serre duality and field extension}
+\BPSource{Corollary}{476}{2}{Serre duality and field extension}
 
 \label{corollary-serre-duality-field-extension}
 
@@ -36143,14 +36234,10 @@ $\mathcal L$ by extension of scalars.
 \end{bpcorollary}
 
 
-\begin{bpcorollary}[Dimension of regular differentials]
-\label{bp-r476-2}
-One has $\dim_kH^0(C,\omega_{C/k})=g$.
-\end{bpcorollary}
 
 
 \begin{bpcorollary}[Invariance of genus]
-\label{bp-r476-3}
+\label{bp-r476-2}
 The genus of $C$ is unchanged by field extension.
 \end{bpcorollary}
 
@@ -36170,9 +36257,8 @@ dual of the finite locally free module $\phi_*\mathcal L$, followed by
 duality on $\mathbf P^1_k$, whose trace $H^1(\mathbf P^1_k,\omega)\to k$
 takes the coefficient of $t^{-1}dt$ in a \v Cech cocycle for the
 standard cover. Both steps commute with extension of scalars, hence so
-does the resulting pairing. For $\mathcal L=\mathcal O_C$ the duality gives
-$\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$. Flat base
-change shows that $g$ is unchanged by field extension.
+does the resulting pairing. Flat base change shows that
+$g=\dim_kH^1(C,\mathcal O_C)$ is unchanged by field extension.
 \end{proof}
 
 Recall that the chart of the Picard scheme consists of the invertible
@@ -40826,7 +40912,7 @@ characteristic zero. The facts about connected components and images of
 homomorphisms in Lemma~\ref{lemma-connected-components-images-homomorphisms} are then standard
 consequences of smoothness and of Chevalley's theorem.
 
-\BPSource{Proposition}{533}{3}{Cartier's theorem}
+\BPSource{Proposition}{533}{2}{Cartier's theorem}
 
 \label{proposition-cartier-s-theorem}
 
@@ -40843,12 +40929,6 @@ In particular
 \]
 \end{bpproposition}
 
-\begin{bpproposition}[Source clause 3]
-\label{bp-r533-3}
-\[
-\operatorname{Lie}(G^\circ)=\operatorname{Lie}(G).
-\]
-\end{bpproposition}
 
 \BPEndSource{533}
 
@@ -40948,7 +41028,8 @@ Let $G$ be an algebraic group.
 \label{bp-r534-1}
 $G$ has finitely many connected components. Its
 identity component $G^\circ$ is an open, closed, irreducible normal
-subgroup, and the other components are its cosets.
+subgroup, the other components are its cosets, and
+$\operatorname{Lie}(G^\circ)=\operatorname{Lie}(G)$.
 \end{bplemma}
 \item
 \begin{bplemma}[Source clause 2]
@@ -40985,7 +41066,9 @@ $(x,y)\mapsto xy^{-1}$, is irreducible. It contains $1$, so it lies in
 $G^\circ$. For the same reason the image of $G^\circ$ under conjugation
 by a point of $G$ is irreducible and contains $1$, so $G^\circ$ is
 normal. Translating $G^\circ$ by points of
-$G$, we see that the other components are its cosets.
+$G$, we see that the other components are its cosets. Since $G^\circ$ is
+open in $G$ and contains $1$, both have the same local ring at $1$, so
+$\operatorname{Lie}(G^\circ)=\operatorname{Lie}(G)$.
 
 For example, the homomorphism $\mathbf G_m\to\mathbf G_m$, $x\mapsto x^2$, has image all
 of $\mathbf G_m$ and kernel $\mu_2$, a closed subgroup with two

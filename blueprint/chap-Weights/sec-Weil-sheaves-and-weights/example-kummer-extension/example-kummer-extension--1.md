@@ -3,7 +3,7 @@ id = "example-kummer-extension--1"
 kind = "example"
 title = "The Kummer extension (1)"
 name_showing = false
-order = 1065001
+order = 1066001
 aliases = ["bp-r327-1"]
 +++
 On $\mathbf G_{m,k_0}$ with coordinate $t$, the $\mu_{\ell^n}$-torsors

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-weight-fourier-transform"
-order = 1285
+order = 1288
 uses = ["definition-trace-function", "definition-growth-squared-traces", "corollary-sums-squared-traces-j-shriek", "corollary-plancherel", "proposition-purity-lisse-part-fourier-transform"]
 +++
 Let $v$ be the weight of $M'$ given by

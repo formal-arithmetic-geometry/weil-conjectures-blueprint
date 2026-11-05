@@ -2,7 +2,7 @@
 id = "prose-11-06"
 kind = "hidden"
 title = "Correspondences (1)"
-order = 902
+order = 903
 +++
 As in topology, a pair of maps $c_1,c_2:C\to X$ should act on
 $R\Gamma_c(X,K)$ by pulling back along $c_2$ and pushing forward along $c_1$. The pullback $R\Gamma_c(X,K)\to R\Gamma_c(C,c_2^*K)$ exists when $c_2$ is proper. To push forward we then need a map $Rc_{1!}L\to K$, where $L$ is

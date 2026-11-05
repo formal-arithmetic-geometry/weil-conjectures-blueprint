@@ -2,7 +2,7 @@
 id = "prose-F-05"
 kind = "hidden"
 title = "Cartan's criterion (1)"
-order = 1727
+order = 1730
 +++
 The decomposition $\mathfrak l=Z(\mathfrak l)+[\mathfrak l,\mathfrak l]$
 fails for Lie algebras in general. Consider the algebra $\mathfrak b$ of

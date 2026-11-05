@@ -3,7 +3,7 @@ id = "lemma-fourier-transform-constant-sheaf--2"
 kind = "lemma"
 title = "Transform of the constant sheaf (2)"
 name_showing = false
-order = 1234002
+order = 1237002
 aliases = ["bp-r381-2"]
 +++
 $$

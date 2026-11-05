@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-continuity-ext-out-constructible-complex"
 order = 282
-uses = ["definition-lisse-sheaves", "corollary-coefficient-heart-b"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-inverse-image-coefficient-sheaves", "definition-local-cohomology", "corollary-coefficient-heart-b", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 We reduce to a single generator $a_!L$ and then use
 (3.1) to turn Hom into cohomology on the stratum $S$,

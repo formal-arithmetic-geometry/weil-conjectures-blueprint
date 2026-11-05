@@ -2,7 +2,7 @@
 id = "prose-12-31"
 kind = "hidden"
 title = "Rationality and the functional equation (4)"
-order = 1041
+order = 1042
 +++
 For example, let $X_0=\mathbf A^1_{\mathbf F_q}$. Then
 $\#X_0(\mathbf F_{q^m})=q^m$, so that $Z(X_0,T)=(1-qT)^{-1}$. On the

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-purity-real-sheaves-curves"
-order = 1167
-uses = ["lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights", "definition-monodromy-groups", "lemma-normality-geometric-monodromy", "proposition-central-element-arithmetic-monodromy-group", "lemma-determinant-weight-from-central-scalar", "proposition-bound-largest-determinant-weight"]
+order = 1170
+uses = ["proposition-sp-unique-adjoint", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "corollary-determinant-weights", "definition-monodromy-groups", "lemma-normality-geometric-monodromy", "proposition-central-element-arithmetic-monodromy-group", "lemma-determinant-weight-from-central-scalar", "proposition-bound-largest-determinant-weight"]
 +++
 We group the constituents by determinant weight and
 place each group, tensored with the determinants of the groups of
