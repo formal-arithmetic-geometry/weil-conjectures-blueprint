@@ -3,7 +3,7 @@ id = "definition-trace-map--1"
 kind = "definition"
 title = "Trace map (1)"
 name_showing = false
-order = 798001
+order = 804001
 aliases = ["bp-r241-1"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$, the *trace map* is the composite

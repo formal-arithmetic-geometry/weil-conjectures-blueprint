@@ -3,7 +3,7 @@ id = "example-functional-equation-projective-line--2"
 kind = "example"
 title = "The functional equation of the projective line (2)"
 name_showing = false
-order = 1041002
+order = 1047002
 aliases = ["bp-r321-2"]
 +++
 $$

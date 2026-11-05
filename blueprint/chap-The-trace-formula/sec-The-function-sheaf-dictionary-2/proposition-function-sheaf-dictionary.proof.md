@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-function-sheaf-dictionary"
-order = 1023
+order = 1029
 uses = ["definition-trace-function"]
 +++
 Part (5) is Theorem [theorem-grothendieck-lefschetz-trace-formula] and part (3)
@@ -16,10 +16,9 @@ $\bar x$, so the two Frobenius endomorphisms agree.
 For (2), the stalk of $K\otimes^{\mathbf L}_\Lambda L$ at $\bar x$ is
 $K_{\bar x}\otimes^{\mathbf L}_\Lambda L_{\bar x}$, since pullback to
 $\bar x$ commutes with derived tensor products, and its Frobenius is the
-tensor product of the two Frobenius endomorphisms. The stalks are perfect
-(Lemma [lemma-perfect-complexes-geometric-point]), so we may represent them by
+tensor product of the two Frobenius endomorphisms. These stalks are perfect (Lemma [lemma-perfect-complexes-geometric-point]), so we may represent them by
 bounded complexes $P$, $Q$ of finite projective modules and the endomorphisms by
-chain maps $v$, $w$. The term of degree $n$ of $P\otimes Q$ is
+chain maps $v$, $w$. Now the term of degree $n$ of $P\otimes Q$ is
 $\bigoplus_{i+j=n}P^i\otimes Q^j$, the trace of $v^i\otimes w^j$ on
 $P^i\otimes Q^j$ is $\operatorname{Tr}(v^i)\operatorname{Tr}(w^j)$, and
 $(-1)^n=(-1)^i(-1)^j$. By the chain formula of

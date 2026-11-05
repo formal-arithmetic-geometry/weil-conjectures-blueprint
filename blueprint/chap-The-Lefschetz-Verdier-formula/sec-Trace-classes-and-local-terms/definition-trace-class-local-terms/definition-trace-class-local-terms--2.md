@@ -3,7 +3,7 @@ id = "definition-trace-class-local-terms--2"
 kind = "definition"
 title = "Trace class and local terms (2)"
 name_showing = false
-order = 910002
+order = 916002
 aliases = ["bp-r277-2"]
 +++
 For a proper $k$-scheme $B$, integration is the counit map

@@ -2,7 +2,7 @@
 id = "prose-12-12"
 kind = "hidden"
 title = "Vanishing on a strictly local surface (3)"
-order = 971
+order = 977
 +++
 Near $(y,y)$ the curves we care about do
 not meet transversely, since the graph, the diagonal and the axis $H$ all pass

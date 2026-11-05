@@ -2,7 +2,7 @@
 id = "corollary-purity-cohomology-smooth-proper-variety"
 kind = "corollary"
 title = "Purity of the cohomology of a smooth proper variety"
-order = 1366
+order = 1372
 lean = ["AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.deligne_purity"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

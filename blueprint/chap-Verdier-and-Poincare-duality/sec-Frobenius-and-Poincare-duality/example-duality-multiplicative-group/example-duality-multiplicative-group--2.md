@@ -3,7 +3,7 @@ id = "example-duality-multiplicative-group--2"
 kind = "example"
 title = "Duality on the punctured line (2)"
 name_showing = false
-order = 881002
+order = 887002
 aliases = ["bp-r267-2"]
 +++
 Thus

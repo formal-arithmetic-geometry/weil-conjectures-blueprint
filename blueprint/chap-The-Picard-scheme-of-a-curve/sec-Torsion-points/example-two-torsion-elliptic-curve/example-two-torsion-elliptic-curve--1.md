@@ -3,7 +3,7 @@ id = "example-two-torsion-elliptic-curve--1"
 kind = "example"
 title = "Two-torsion of an elliptic curve (1)"
 name_showing = false
-order = 1551001
+order = 1557001
 aliases = ["bp-r486-1"]
 +++
 Let $k$ be algebraically closed of characteristic different from two

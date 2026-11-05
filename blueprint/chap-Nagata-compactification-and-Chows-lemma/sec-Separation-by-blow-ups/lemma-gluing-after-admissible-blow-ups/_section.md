@@ -2,7 +2,7 @@
 id = "lemma-gluing-after-admissible-blow-ups"
 kind = "lemma"
 title = "Gluing after admissible blow-ups"
-order = 1449
+order = 1455
 lean = ["AlgebraicGeometry.nonempty_commonModification", "AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs"]
 uses = ["definition-admissible-blow-up"]
 +++

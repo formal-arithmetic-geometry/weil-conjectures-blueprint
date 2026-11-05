@@ -2,7 +2,7 @@
 id = "proposition-lattices-representations-normal-scheme"
 kind = "proposition"
 title = "Lattices and representations on a normal scheme"
-order = 1074
+order = 1080
 lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy_of_isIntegrallyClosed_stalk", "AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

@@ -3,7 +3,7 @@ id = "proposition-purity-vector-bundles--1"
 kind = "proposition"
 title = "Purity for vector bundles (1)"
 name_showing = false
-order = 734001
+order = 740001
 aliases = ["bp-r223-1"]
 +++
 Let $\pi:V\to S$ be a vector bundle of rank $d$.

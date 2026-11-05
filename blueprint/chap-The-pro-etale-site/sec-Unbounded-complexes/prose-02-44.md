@@ -4,17 +4,18 @@ kind = "hidden"
 title = "Unbounded complexes (1)"
 order = 156
 +++
-Proper base change only needs the comparison for bounded-below complexes.
-Brown representability, however, takes place in the unbounded derived
-category, and there we need the following extension. A morphism from a
-sheaf into an unbounded complex $K$, or a cohomology sheaf of $Rg_*K$,
-involves in principle all the cohomology sheaves of $K$ at once. It depends
-on only finitely many of them if Ext groups and cohomology of sheaves
-vanish above a fixed degree, uniformly in the sheaf. The smallest such
-degree is the cohomological dimension defined below.
+Proper base change needs the comparison with the étale site only for
+bounded-below complexes. Brown representability, however, takes place in the
+unbounded derived category, so we extend the comparison to unbounded
+complexes. The difficulty is that a morphism from a sheaf into an unbounded
+complex $K$ involves in principle all the cohomology sheaves of $K$ at once,
+and so does a cohomology sheaf of $Rg_*K$. Both depend on only finitely many
+of them if Ext groups and cohomology of sheaves vanish above a fixed degree,
+uniformly in the sheaf. The smallest such degree is the cohomological
+dimension defined below.
 
 Without such a bound, $\Hom$ out of the constant sheaf need not commute with
-direct sums. Take
+direct sums. For example, take
 $\ell=2$ and $S=\operatorname{Spec}\mathbf R$. Here étale cohomology is
 the cohomology of $\operatorname{Gal}(\mathbf C/\mathbf R)=\mathbf Z/2$, and
 $H^q(\mathbf Z/2,\mathbf F_2)=\mathbf F_2$ for every $q\geq0$. Thus

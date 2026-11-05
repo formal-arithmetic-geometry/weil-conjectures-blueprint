@@ -2,7 +2,7 @@
 id = "theorem-pbc-injective-acyclicity"
 kind = "theorem"
 title = "PBC and injective acyclicity"
-order = 348
+order = 349
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity"]
 uses = ["definition-torsion-pbc-property", "definition-injective-acyclicity"]
 +++

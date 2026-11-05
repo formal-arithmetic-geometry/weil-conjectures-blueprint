@@ -2,7 +2,7 @@
 id = "proposition-adjunction-projective-line--1"
 kind = "proposition"
 title = "The projective-line adjunction"
-order = 547002
+order = 553002
 aliases = ["bp-r167-1"]
 +++
 Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the

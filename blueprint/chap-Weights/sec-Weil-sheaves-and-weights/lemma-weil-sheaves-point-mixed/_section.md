@@ -2,7 +2,7 @@
 id = "lemma-weil-sheaves-point-mixed"
 kind = "lemma"
 title = "Weil sheaves on a point are mixed"
-order = 1053
+order = 1059
 lean = ["AlgebraicGeometry.WeilSheaf.isMixed_of_locallyQuasiFinite"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

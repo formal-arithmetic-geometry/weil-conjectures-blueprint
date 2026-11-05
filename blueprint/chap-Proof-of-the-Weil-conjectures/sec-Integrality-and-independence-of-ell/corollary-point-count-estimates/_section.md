@@ -2,7 +2,7 @@
 id = "corollary-point-count-estimates"
 kind = "corollary"
 title = "Point-count estimates"
-order = 1388
+order = 1394
 lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank", "AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le_two_mul_genus"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
 +++

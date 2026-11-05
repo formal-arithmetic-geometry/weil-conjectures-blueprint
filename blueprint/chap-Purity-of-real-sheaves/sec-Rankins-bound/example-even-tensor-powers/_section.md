@@ -2,7 +2,7 @@
 id = "example-even-tensor-powers"
 kind = "example"
 title = "Why even tensor powers"
-order = 1151
+order = 1157
 +++
 The sheaf $\mathcal B_{-1}$ is real, since $\operatorname{Frob}_x$ acts by
 $(-1)^{\deg(x)}$, but its Euler factor at a point of degree one is

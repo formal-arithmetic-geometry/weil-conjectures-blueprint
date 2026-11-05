@@ -3,7 +3,7 @@ id = "example-gauss-sum-over-f-3--1"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$ (1)"
 name_showing = false
-order = 1214001
+order = 1220001
 aliases = ["bp-r376-1"]
 +++
 Take $q=3$, a primitive cube root of unity $\omega\in\overline{\mathbf Q}_\ell$ and

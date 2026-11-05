@@ -2,7 +2,7 @@
 id = "proof/theorem-cohomology-curves/2"
 kind = "proof"
 of = "theorem-cohomology-curves"
-order = 1609
+order = 1615
 +++
 For constructible sheaves we reduce to the explicit calculations, and
 arbitrary torsion sheaves are filtered colimits of these. The reduction
@@ -27,8 +27,7 @@ components of $U$, Lemma [lemma-reduction-unipotent-local-system] and finite
 direct images reduce us to constant $\mathbf F_\ell$ extended by zero on
 curves finite over $C$; this is allowed because the assertions pass to
 direct summands and because, by Lemma [lemma-finite-morphisms-cohomology], finite
-direct images are exact and do not change cohomology.  Normalization and
-Lemma [lemma-sheaves-finite-support-finite-morphisms] reduce these sheaves to the
+direct images are exact and do not change cohomology.  Finally, normalization and Lemma [lemma-sheaves-finite-support-finite-morphisms] reduce these sheaves to the
 calculations with constant coefficients on smooth curves, namely the
 Kummer sequence for $\ell\ne p$ and the Artin–Schreier
 sequence for $\ell=p$.  Since all reductions preserve the
@@ -45,5 +44,4 @@ commute with filtered colimits. Hence vanishing and the pullback
 isomorphisms pass to the colimit. So does surjectivity in $(C_8)$,
 because a representative of a class already occurs at some
 stage. Finiteness is asserted only for constructible sheaves.
-Theorem [theorem-bounded-below-cohomology-comparison] carries these
-conclusions and their maps over to $C_{\mathrm{pro}\acute{e}t}$.
+Finally, Theorem [theorem-bounded-below-cohomology-comparison] carries these conclusions and their maps over to $C_{\mathrm{pro}\acute{e}t}$.

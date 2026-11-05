@@ -1,19 +1,16 @@
 +++
 kind = "proof"
 of = "lemma-hypotheses-brown-representability"
-order = 519
+order = 524
 uses = ["theorem-compactness-rational-coefficients", "proposition-compactness-finite-coefficients", "proposition-compactness-proper-direct-image"]
 +++
 The set-theoretic conditions are general facts about derived categories
-of Grothendieck abelian categories. Compactness was proved separately
-for each kind of coefficients. Generation follows from the
+of Grothendieck abelian categories. Compactness, on the other hand, was proved separately for each kind of coefficients, and generation follows from the
 definition of the localizing category.
 
 As the derived category of a Grothendieck abelian category of module
 sheaves, the ambient category is locally small, and so is its
-full subcategory $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$. The latter has direct sums by
-definition, so its idempotents split [Stacks, [05QW](https://stacks.math.columbia.edu/tag/05QW)]. The subcategory
-$D^b_{\mathrm{ctf}}(X,\Lambda)$ is thick, since constructibility and finite Tor
+full subcategory $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$. Moreover, the latter has direct sums by definition, so its idempotents split [Stacks, [05QW](https://stacks.math.columbia.edu/tag/05QW)]. Finally, the subcategory $D^b_{\mathrm{ctf}}(X,\Lambda)$ is thick, since constructibility and finite Tor
 amplitude are preserved by shifts, cones and direct summands.
 
 To see that $D^b_{\mathrm{ctf}}(X,\Lambda)$ is essentially small, note first that the

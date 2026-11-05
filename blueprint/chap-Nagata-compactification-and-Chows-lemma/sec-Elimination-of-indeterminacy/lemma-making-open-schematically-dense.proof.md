@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-making-open-schematically-dense"
-order = 1419
+order = 1425
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 We blow up an ideal that cuts out the complement of $U$. Its pullback

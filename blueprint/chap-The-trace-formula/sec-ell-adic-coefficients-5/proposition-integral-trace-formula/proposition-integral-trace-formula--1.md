@@ -3,7 +3,7 @@ id = "proposition-integral-trace-formula--1"
 kind = "proposition"
 title = "Integral trace formula (1)"
 name_showing = false
-order = 1004001
+order = 1010001
 aliases = ["bp-r308-1"]
 +++
 Let $K\in\Dbc(X,\mathcal O_E)$ and let $\theta:\Phi_X^*K\to K$ be any

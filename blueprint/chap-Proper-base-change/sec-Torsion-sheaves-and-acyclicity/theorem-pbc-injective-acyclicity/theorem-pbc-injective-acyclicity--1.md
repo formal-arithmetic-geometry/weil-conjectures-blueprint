@@ -3,7 +3,7 @@ id = "theorem-pbc-injective-acyclicity--1"
 kind = "theorem"
 title = "PBC and injective acyclicity (1)"
 name_showing = false
-order = 348001
+order = 349001
 aliases = ["bp-r107-1"]
 +++
 Let $f:X\to Y$ be proper. The following are equivalent:

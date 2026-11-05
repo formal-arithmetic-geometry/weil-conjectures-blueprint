@@ -3,7 +3,7 @@ id = "lemma-affine-space-etale-localization--4"
 kind = "lemma"
 title = "Affine space and étale localization (4)"
 name_showing = false
-order = 551005
+order = 557005
 aliases = ["bp-r168-4"]
 +++
 Let $f:X\to S$ be separated of finite type, let

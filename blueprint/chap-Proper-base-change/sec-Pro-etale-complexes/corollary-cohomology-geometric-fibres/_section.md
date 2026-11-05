@@ -2,7 +2,7 @@
 id = "corollary-cohomology-geometric-fibres"
 kind = "corollary"
 title = "Cohomology of geometric fibres"
-order = 401
+order = 406
 lean = ["AlgebraicGeometry.Etale.nonempty_addEquiv_sheafFiber_homology_rightDerivedLowerStar_of_isProper"]
 +++
 Under the hypotheses of Theorem [theorem-proper-base-change-classical-pro], for every

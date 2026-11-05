@@ -2,10 +2,9 @@
 id = "prose-11-08"
 kind = "hidden"
 title = "The exceptional Künneth formula (1)"
-order = 900
+order = 906
 +++
-A cohomological correspondence $u:c_2^*K\to c_1^!K$ is a morphism on
-$C$. To obtain from it a class on the fixed locus, we must first view
+A cohomological correspondence $u:c_2^*K\to c_1^!K$ is a morphism on $C$, so to obtain from it a class on the fixed locus we must first view
 it as a section of $c^!$ of a single complex on $X\times X$, which can
 then be restricted to the diagonal. In linear algebra this is the
 identification $\operatorname{Hom}(V,W)=W\otimes V^\vee$, under which
@@ -18,12 +17,9 @@ $\cHom(c_2^*K,c_1^!K)$. On the point the isomorphism is exactly
 $\operatorname{Hom}(V,V)=V\otimes V^\vee$.
 
 The isomorphism comes from Künneth formulas for $Rf_!$, $Rf_*$, $f^!$,
-$\cHom$ and Verdier duals. For $Rf_!$ the formula follows directly from
-base change for compact supports and the projection formula. For
-ordinary direct images it follows from smooth and proper base change
+$\cHom$ and Verdier duals. For $Rf_!$ the formula follows directly from base change for compact supports and the projection formula, and for ordinary direct images from smooth and proper base change
 (Proposition [proposition-ordinary-external-kunneth], Section [sec-The-Kunneth-formula]).
-The formula for $f^!$
-(Proposition [proposition-exceptional-external-kunneth]) needs a
+The formula for $f^!$ (Proposition [proposition-exceptional-external-kunneth]), by contrast, needs a
 dévissage on the coefficients, starting from constant coefficients,
 where for smooth $f$ the functor $f^!$ is a twist and a shift.
 

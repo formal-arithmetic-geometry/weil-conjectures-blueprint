@@ -3,7 +3,7 @@ id = "lemma-ext-bound-lattices--1"
 kind = "lemma"
 title = "Ext bound for lattices (1)"
 name_showing = false
-order = 439001
+order = 444001
 aliases = ["bp-r134-1"]
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion with open complement

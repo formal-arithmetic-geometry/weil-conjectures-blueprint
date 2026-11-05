@@ -2,7 +2,7 @@
 id = "lemma-hypotheses-brown-representability"
 kind = "lemma"
 title = "Hypotheses of Brown representability"
-order = 518
+order = 523
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.compactlyGeneratesLocalizingClosure_constructibleFiniteTor", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_padicAlgClRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-localizing-subcategory"]
 +++

@@ -2,7 +2,7 @@
 id = "proposition-kummer-duality-integral-tate-module"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module"
-order = 1088
+order = 1094
 lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_picTorsionPairing"]
 +++
 Let $C_0/k_0$ be a smooth proper geometrically connected curve with

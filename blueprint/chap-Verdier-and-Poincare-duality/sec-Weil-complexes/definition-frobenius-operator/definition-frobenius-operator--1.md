@@ -3,7 +3,7 @@ id = "definition-frobenius-operator--1"
 kind = "definition"
 title = "Frobenius operator (1)"
 name_showing = false
-order = 871001
+order = 877001
 aliases = ["bp-r264-1"]
 +++
 For a Weil complex $(K,\phi_K)$ on $T$, the *geometric Frobenius

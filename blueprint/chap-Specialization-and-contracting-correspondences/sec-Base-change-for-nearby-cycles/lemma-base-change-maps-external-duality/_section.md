@@ -2,7 +2,7 @@
 id = "lemma-base-change-maps-external-duality"
 kind = "lemma"
 title = "Base change maps and external duality"
-order = 1658
+order = 1664
 lean = ["CategoryTheory.exceptionalTwisted_of_constant", "CategoryTheory.exceptionalConstant"]
 +++
 Let $X$ be a separated $S$-scheme of finite type with projections

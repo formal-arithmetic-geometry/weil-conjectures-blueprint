@@ -2,7 +2,7 @@
 id = "theorem-cohomology-curves"
 kind = "theorem"
 title = "Cohomology of curves"
-order = 356
+order = 360
 lean = ["AlgebraicGeometry.IsCurve.Assertions"]
 +++
 Let $k$ be algebraically closed, let $C$ be a separated scheme of finite

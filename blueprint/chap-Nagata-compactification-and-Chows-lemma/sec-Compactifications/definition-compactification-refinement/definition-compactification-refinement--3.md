@@ -3,7 +3,7 @@ id = "definition-compactification-refinement--3"
 kind = "definition"
 title = "Compactification and refinement (3)"
 name_showing = false
-order = 1396003
+order = 1402003
 aliases = ["bp-r433-3"]
 +++
 A refinement of compactifications is an $S$-morphism

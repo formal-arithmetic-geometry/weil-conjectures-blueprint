@@ -3,7 +3,7 @@ id = "definition-trace-class-local-terms--3"
 kind = "definition"
 title = "Trace class and local terms (3)"
 name_showing = false
-order = 910003
+order = 916003
 aliases = ["bp-r277-3"]
 +++
 If $B\subset \Fix(c)$ is proper and open and closed, the *local term*

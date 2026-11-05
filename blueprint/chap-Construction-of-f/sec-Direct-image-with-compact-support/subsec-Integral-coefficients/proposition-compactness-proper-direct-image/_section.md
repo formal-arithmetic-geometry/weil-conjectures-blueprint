@@ -2,7 +2,7 @@
 id = "proposition-compactness-proper-direct-image"
 kind = "proposition"
 title = "Compactness and proper direct image"
-order = 492
+order = 497
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.properLowerStarHypotheses_padicIntegersRingObj"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-localizing-subcategory"]
 +++

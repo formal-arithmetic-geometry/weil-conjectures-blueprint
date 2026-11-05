@@ -3,7 +3,7 @@ id = "theorem-proper-base-change-classical-pro--1"
 kind = "theorem"
 title = "Pro-étale proper base change (1)"
 name_showing = false
-order = 397001
+order = 402001
 aliases = ["bp-r122-1"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper

@@ -2,19 +2,16 @@
 id = "prose-07-03"
 kind = "hidden"
 title = "Change of coefficients (1)"
-order = 622
+order = 628
 +++
 Smooth base change for $E$ and $\overline{\mathbf Q}_\ell$ is deduced from the integral case
 by extending scalars (Section [chap-Smooth-base-change]), and later proofs
 often argue in the same way, through the reduction principle of
 Proposition [proposition-isomorphisms-reduce-finite-coefficients]. For
-this the six operations must commute with extension of scalars. For
-pullback, extension by zero and tensor product this is formal, since
-extension of scalars is itself a tensor product. For $Rf_*$ it rests on
-finite cohomological dimension and on continuity. For $f^!$ it rests on a
+this the six operations must commute with extension of scalars. For pullback, extension by zero and tensor product this is formal, since
+extension of scalars is itself a tensor product. For $Rf_*$, by contrast, it rests on finite cohomological dimension and on continuity, and for $f^!$ it rests on a
 second computation of $f^!$, for closed immersions and for $\mathbf P^1$.
-The result is
-Proposition [proposition-six-operations-change-coefficients].
+These results are collected in Proposition [proposition-six-operations-change-coefficients].
 
 A change of coefficients is derived extension of scalars along a map
 of condensed rings, pulled back to $X$. For a map $\Lambda\to\Lambda'$ write
@@ -39,7 +36,5 @@ We consider the following maps of coefficient rings:
 
 For $E=\mathbf Q_\ell$, the list contains $\mathbf Z_\ell\to\mathcal O_F$, $\mathbf Q_\ell\to F$, $\mathbf Z_\ell\to\mathbf Q_\ell$,
 $\mathbf Z_\ell\to A$ and $\mathbf Q_\ell\to\overline{\mathbf Q}_\ell$. Thus these maps connect all the admissible
-coefficient rings. The map $A\to B$ in (1) need not be flat, and for this
-reason extension of scalars is derived. The comparison isomorphisms below
-hold for complexes but not degree by degree, as the following example
+coefficient rings. Note that the map $A\to B$ in (1) need not be flat, and for this reason extension of scalars is derived. As a consequence, the comparison isomorphisms below hold for complexes but not degree by degree, as the following example
 shows.

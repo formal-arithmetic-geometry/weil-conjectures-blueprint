@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients-exceptional-inverse-image--5"
 kind = "lemma"
 title = "Exceptional inverse image: inverting the uniformizer"
-order = 634010
+order = 640010
 aliases = ["bp-r195-5"]
 +++
 Assume $\Lambda=\mathcal O_E$ and $\Lambda'=E$. The comparison

@@ -3,7 +3,7 @@ id = "lemma-section-normal-bundle--1"
 kind = "lemma"
 title = "A section and its normal bundle (1)"
 name_showing = false
-order = 742001
+order = 748001
 aliases = ["bp-r226-1"]
 +++
 There is a canonical isomorphism

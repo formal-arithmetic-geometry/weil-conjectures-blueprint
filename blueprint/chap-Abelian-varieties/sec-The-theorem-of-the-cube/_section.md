@@ -2,5 +2,5 @@
 id = "sec-The-theorem-of-the-cube"
 kind = "section"
 title = "The theorem of the cube"
-order = 1466
+order = 1472
 +++

@@ -3,7 +3,7 @@ id = "lemma-punctured-surface-punctured-curve--1"
 kind = "lemma"
 title = "A punctured surface and a punctured curve (1)"
 name_showing = false
-order = 964001
+order = 970001
 aliases = ["bp-r295-1"]
 +++
 Let $S$ be the strict localization of a smooth surface over an

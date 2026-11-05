@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-ind-constructible-sheaves"
-order = 449
+order = 454
 uses = ["definition-lisse-sheaves", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves"]
 +++
 The proof uses one property of constructible sheaves: maps out of them
@@ -17,8 +17,7 @@ Lemma [lemma-continuity-ext-out-constructible-complex] in degree zero
 shows that $\Hom(C,-)$ commutes with filtered colimits for $C$ constructible.
 By Lemma [lemma-constructible-sheaves](1),(2), the
 category $\Cons(X,\Lambda)$ is essentially small, abelian, and closed
-under extensions. We fix a small skeleton. Part (1) follows from finite
-presentation.
+under extensions. We fix a small skeleton, so that the ind-category in (1) is defined.
 
 *Full faithfulness.* For filtered diagrams $(C_\alpha)$ and
 $(D_\beta)$ of constructible sheaves, finite presentation implies
@@ -28,16 +27,17 @@ $$
 =\varprojlim_\alpha\varinjlim_\beta\Hom_{\Cons(X,\Lambda)}(C_\alpha,D_\beta),
 $$
 
-which is the Hom set in the ind-category.
+which is the Hom set in the ind-category. This proves (1), since the
+essential image is $\IndCons(X,\Lambda)$ by definition.
 
 *Canonical presentations.* The closure properties below involve
-several ind-constructible sheaves at once. To compare their
-presentations we use a presentation that involves no choices. For $B\in\IndCons(X,\Lambda)$, let $J(B)$ be
-the category of constructible sheaves $C$ with a map $C\to B$. We show that
+several ind-constructible sheaves at once, so to compare their
+presentations we use a presentation that involves no choices. Namely, for $B\in\IndCons(X,\Lambda)$, let $J(B)$ be
+the category of constructible sheaves $C$ with a map $C\to B$; we show that
 $B=\varinjlim_{J(B)}C$.
 
-The category $J(B)$ is filtered. Two objects $C_1\to B$ and $C_2\to B$
-both map to $C_1\oplus C_2\to B$. Two parallel arrows $C\rightrightarrows C'$
+The category $J(B)$ is filtered. Indeed, two objects $C_1\to B$ and $C_2\to B$
+both map to $C_1\oplus C_2\to B$, and two parallel arrows $C\rightrightarrows C'$
 over $B$ are equalized by the cokernel of their difference, which is
 constructible and still maps to $B$. Now write
 $B=\varinjlim_\alpha C_\alpha$. By finite presentation, every
@@ -46,12 +46,9 @@ a later stage. This means that the given diagram is cofinal in $J(B)$, and
 hence $B=\varinjlim_{J(B)}C$.
 
 *Filtered colimits and direct sums.* Let $B=\varinjlim_\lambda B_\lambda$
-be a filtered colimit with $B_\lambda\in\IndCons(X,\Lambda)$. Consider the category
-of pairs $(\lambda,C\to B_\lambda)$ with $C$ constructible. It is filtered:
+be a filtered colimit with $B_\lambda\in\IndCons(X,\Lambda)$. To present $B$, consider the category of pairs $(\lambda,C\to B_\lambda)$ with $C$ constructible. It is filtered:
 we move finitely many indices to a common upper bound, and then use direct
-sums and cokernels in $J(B_\lambda)$. The colimit of the $C$ over this
-category is $\varinjlim_\lambda\varinjlim_{J(B_\lambda)}C=B$. A direct sum is the
-filtered colimit of its finite subsums, so it lies in $\IndCons(X,\Lambda)$
+sums and cokernels in $J(B_\lambda)$. Moreover, the colimit of the $C$ over this category is $\varinjlim_\lambda\varinjlim_{J(B_\lambda)}C=B$. A direct sum is the filtered colimit of its finite subsums, so it lies in $\IndCons(X,\Lambda)$
 as well.
 
 *Kernels and cokernels.* Let $f:B\to B'$ be a map in
@@ -69,12 +66,10 @@ $$
 This category is filtered, because finite colimits of such squares are
 formed by finite colimits of the arrows $v$ in the abelian category
 $\Cons(X,\Lambda)$. We claim that the functor $P_f\to J(B)$,
-$(v)\mapsto(C\to B)$, is cofinal. Every $C\to B$ is the source of a
-square, namely $v=\mathrm{id}_C$ with $C\to B'$ the composite. If
+$(v)\mapsto(C\to B)$, is cofinal. Indeed, every $C\to B$ is the source of a square, namely $v=\mathrm{id}_C$ with $C\to B'$ the composite. If
 $C\to C_1\xrightarrow{v_1}D_1$ and $C\to C_2\xrightarrow{v_2}D_2$ are two
 squares under the same $C\to B$, then both map to the square with source
-$C_1\amalg_CC_2$ and target $D_1\amalg_CD_2$. The pushouts are taken in
-$\Cons(X,\Lambda)$, and they map to $B$ and $B'$ because the two maps
+$C_1\amalg_CC_2$ and target $D_1\amalg_CD_2$. Here the pushouts are taken in $\Cons(X,\Lambda)$, and they map to $B$ and $B'$ because the two maps
 from $C$ to $B$, and the two maps from $C$ to $B'$, agree.
 
 Similarly, the functor $P_f\to J(B')$, $(v)\mapsto(D\to B')$, is cofinal.

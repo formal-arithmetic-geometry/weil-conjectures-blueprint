@@ -3,7 +3,7 @@ id = "example-correspondence-on-point--2"
 kind = "example"
 title = "A correspondence on the point (2)"
 name_showing = false
-order = 921002
+order = 927002
 aliases = ["bp-r282-2"]
 +++
 Hence $T_c(u)$ is multiplication by $n$ on $R\Gamma(s,A)=A$, with trace $n$. Since

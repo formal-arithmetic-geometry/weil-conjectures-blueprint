@@ -3,7 +3,7 @@ id = "lemma-stable-subspaces-center--2"
 kind = "lemma"
 title = "Stable subspaces and the center (2)"
 name_showing = false
-order = 1718002
+order = 1724002
 aliases = ["bp-r535-2"]
 +++
 Moreover

@@ -2,7 +2,7 @@
 id = "definition-strict-transform"
 kind = "definition"
 title = "Strict transform"
-order = 1422
+order = 1428
 lean = ["AlgebraicGeometry.strictTransform"]
 uses = ["lemma-schematic-closure-uniqueness"]
 +++

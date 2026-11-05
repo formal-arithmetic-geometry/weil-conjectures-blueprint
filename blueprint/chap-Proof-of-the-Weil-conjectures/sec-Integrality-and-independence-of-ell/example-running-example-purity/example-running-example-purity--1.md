@@ -3,7 +3,7 @@ id = "example-running-example-purity--1"
 kind = "example"
 title = "The running example: purity (1)"
 name_showing = false
-order = 1386001
+order = 1392001
 aliases = ["bp-r431-1"]
 +++
 For the curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$ of the

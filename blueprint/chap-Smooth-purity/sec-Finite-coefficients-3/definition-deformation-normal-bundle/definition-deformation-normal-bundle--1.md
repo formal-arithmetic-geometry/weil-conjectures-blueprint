@@ -3,7 +3,7 @@ id = "definition-deformation-normal-bundle--1"
 kind = "definition"
 title = "Deformation to the normal bundle (1)"
 name_showing = false
-order = 739001
+order = 745001
 aliases = ["bp-r224-1"]
 +++
 The *deformation to the normal bundle* of $s$ is the open subscheme

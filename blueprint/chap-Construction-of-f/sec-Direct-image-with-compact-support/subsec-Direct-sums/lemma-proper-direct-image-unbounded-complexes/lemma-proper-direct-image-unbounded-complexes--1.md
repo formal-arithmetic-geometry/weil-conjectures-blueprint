@@ -3,7 +3,7 @@ id = "lemma-proper-direct-image-unbounded-complexes--1"
 kind = "lemma"
 title = "Proper direct image of unbounded complexes (1)"
 name_showing = false
-order = 482002
+order = 487002
 aliases = ["bp-r147-1"]
 +++
 $Rp_*$ maps $\Dic(X,\Lambda)$ into $\Dic(Y,\Lambda)$, with

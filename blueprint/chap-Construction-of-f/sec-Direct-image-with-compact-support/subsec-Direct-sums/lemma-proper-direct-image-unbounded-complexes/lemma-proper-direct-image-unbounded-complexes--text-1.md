@@ -2,7 +2,7 @@
 id = "lemma-proper-direct-image-unbounded-complexes--text-1"
 kind = "hidden"
 title = "Proper direct image of unbounded complexes"
-order = 482001
+order = 487001
 +++
 Let $p:X\to Y$ be proper, and let $d$ bound the dimensions of the geometric
 fibres of $p$. For integers $a$ and $b$, write $\Dic^{\leq b}(X,\Lambda)$ and

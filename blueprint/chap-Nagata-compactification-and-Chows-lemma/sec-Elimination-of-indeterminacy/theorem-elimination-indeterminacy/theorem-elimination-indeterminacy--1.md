@@ -3,7 +3,7 @@ id = "theorem-elimination-indeterminacy--1"
 kind = "theorem"
 title = "Elimination of indeterminacy (1)"
 name_showing = false
-order = 1437001
+order = 1443001
 aliases = ["bp-r450-1"]
 +++
 Let $T$ be qcqs, let $U\subseteq T$ be a quasi-compact open, and let

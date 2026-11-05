@@ -2,7 +2,7 @@
 id = "theorem-f-shriek-ell-adic-coefficients"
 kind = "theorem"
 title = "$f^!$ with $\\ell$-adic coefficients"
-order = 609
+order = 615
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightAdjoint_rightDerivedLowerShriekLocalizing_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightAdjoint_rightDerivedLowerShriekLocalizing_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightAdjoint_rightDerivedLowerShriekLocalizing_padicAlgClRingObj"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-localizing-subcategory", "proposition-construction-independence-rf-shriek"]
 +++

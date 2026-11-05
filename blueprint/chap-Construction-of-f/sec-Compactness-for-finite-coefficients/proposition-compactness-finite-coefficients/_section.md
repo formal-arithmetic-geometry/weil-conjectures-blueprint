@@ -2,7 +2,7 @@
 id = "proposition-compactness-finite-coefficients"
 kind = "proposition"
 title = "Compactness for finite coefficients"
-order = 466
+order = 471
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.isCompactObj_of_constructibleFiniteTor"]
 uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves"]
 +++

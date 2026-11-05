@@ -3,7 +3,7 @@ id = "lemma-naturality-under-base-change-etale--1"
 kind = "lemma"
 title = "Naturality under base change and étale maps (1)"
 name_showing = false
-order = 745002
+order = 751002
 aliases = ["bp-r227-1"]
 +++
 Let $h:S'\to S$ be any morphism for which the schemes below

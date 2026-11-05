@@ -3,7 +3,7 @@ id = "lemma-generic-smooth-open--1"
 kind = "lemma"
 title = "A smooth dense open after a universal homeomorphism (1)"
 name_showing = false
-order = 574001
+order = 580001
 aliases = ["bp-r176-1"]
 +++
 Let $S$ be integral, let $X$ be an $S$-scheme all of whose irreducible

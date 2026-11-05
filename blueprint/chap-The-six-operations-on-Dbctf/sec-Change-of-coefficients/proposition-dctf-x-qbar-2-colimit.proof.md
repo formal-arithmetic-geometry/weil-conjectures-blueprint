@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-dctf-x-qbar-2-colimit"
-order = 643
+order = 649
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "lemma-acyclic-resolutions", "lemma-proper-direct-image-unbounded-complexes", "lemma-extension-scalars-preserves-dctf"]
 +++
 An equivalence with a $2$-colimit amounts to two statements, essential

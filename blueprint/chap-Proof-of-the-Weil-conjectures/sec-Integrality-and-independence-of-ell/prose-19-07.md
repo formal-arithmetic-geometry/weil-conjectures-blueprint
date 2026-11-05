@@ -2,14 +2,14 @@
 id = "prose-19-07"
 kind = "hidden"
 title = "Integrality and independence of $\\ell$ (1)"
-order = 1377
+order = 1383
 +++
 Let $X_0$ be smooth and proper over $\mathbf F_q$, of pure dimension
 $d$, and let $A/B$ be the reduced fraction of $Z(X_0,T)$
 (Lemma [lemma-reduced-fractions-integer-coefficients]). We now
-carry out the argument sketched at the start of the section. Purity
+carry out the argument sketched at the start of the section. The point is that purity
 makes the characteristic polynomials of Frobenius in different degrees
-pairwise coprime. No cancellation can then occur, and the polynomials
+pairwise coprime, so no cancellation can occur, and the polynomials
 can be read off from $A$ and $B$.
 For a prime $\ell\nmid q$ put
 

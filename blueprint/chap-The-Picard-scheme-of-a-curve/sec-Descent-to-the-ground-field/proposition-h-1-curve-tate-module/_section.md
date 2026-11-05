@@ -2,7 +2,7 @@
 id = "proposition-h-1-curve-tate-module"
 kind = "proposition"
 title = "$H^1$ of a curve and the Tate module of its Jacobian"
-order = 1559
+order = 1565
 lean = ["AlgebraicGeometry.Scheme.kummerTorsionEquiv", "AlgebraicGeometry.Scheme.coe_kummerTorsionEquiv_map_rootsOfUnityPowMap"]
 +++
 In the preceding setting, suppose $\ell$ is invertible in $k$.

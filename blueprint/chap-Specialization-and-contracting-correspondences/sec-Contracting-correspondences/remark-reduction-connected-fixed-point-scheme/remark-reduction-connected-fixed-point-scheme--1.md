@@ -3,7 +3,7 @@ id = "remark-reduction-connected-fixed-point-scheme--1"
 kind = "remark"
 title = "Reduction to a connected fixed point scheme (1)"
 name_showing = false
-order = 1698001
+order = 1704001
 aliases = ["bp-r530-1"]
 +++
 The hypothesis in the preceding lemma that $F$ is connected is no loss

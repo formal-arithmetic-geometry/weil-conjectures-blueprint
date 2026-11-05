@@ -3,7 +3,7 @@ id = "example-compactness-finite-field--1"
 kind = "example"
 title = "Compactness over a finite field (1)"
 name_showing = false
-order = 432001
+order = 437001
 aliases = ["bp-r132-1"]
 +++
 Let $X=\operatorname{Spec}\mathbf F_q$ and $\Lambda=E$. Then

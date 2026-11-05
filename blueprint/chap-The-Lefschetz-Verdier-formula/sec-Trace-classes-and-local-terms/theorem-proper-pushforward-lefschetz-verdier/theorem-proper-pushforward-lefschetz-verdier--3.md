@@ -3,7 +3,7 @@ id = "theorem-proper-pushforward-lefschetz-verdier--3"
 kind = "theorem"
 title = "Proper pushforward and Lefschetz–Verdier (3)"
 name_showing = false
-order = 919003
+order = 925003
 aliases = ["bp-r281-3"]
 +++
 $$

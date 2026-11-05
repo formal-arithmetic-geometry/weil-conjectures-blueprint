@@ -2,5 +2,5 @@
 id = "sec-Sheaves-of-rank-one"
 kind = "section"
 title = "Sheaves of rank one"
-order = 1081
+order = 1087
 +++

@@ -2,16 +2,16 @@
 id = "proposition-adjunction-projective-line"
 kind = "proposition"
 title = "The adjunction for the projective line"
-order = 547
+order = 553
 lean = ["AlgebraicGeometry.Etale.exists_projectiveLineAdjunction", "AlgebraicGeometry.Etale.projectiveLineAdjunctionBaseChange_of_isNormalized"]
 uses = ["proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves"]
 +++
 Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the
 projection. The functors
-$Rp_*:D_{\mathrm{class}}((\mathbf P^1_S)_{\mathrm{pro}\acute{e}t},\Lambda)\to
-D_{\mathrm{class}}(S_{\mathrm{pro}\acute{e}t},\Lambda)$ and
-$p^*(1)[2]:D_{\mathrm{class}}(S_{\mathrm{pro}\acute{e}t},\Lambda)\to
-D_{\mathrm{class}}((\mathbf P^1_S)_{\mathrm{pro}\acute{e}t},\Lambda)$ form
+$Rp_*:D((\mathbf P^1_S)_{\acute{e}t},A)\to
+D(S_{\acute{e}t},A)$ and
+$p^*(1)[2]:D(S_{\acute{e}t},A)\to
+D((\mathbf P^1_S)_{\acute{e}t},A)$ form
 an adjunction
 
 $$

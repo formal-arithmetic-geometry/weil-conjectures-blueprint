@@ -2,7 +2,7 @@
 id = "example-gauss-sum-over-f-3"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$"
-order = 1214
+order = 1220
 uses = ["lemma-extreme-degrees-affine-curve"]
 +++
 Take $q=3$, a primitive cube root of unity $\omega\in\overline{\mathbf Q}_\ell$ and
@@ -37,19 +37,20 @@ H^1_c(Y,E)=H^1_c(\mathbf A^1,E)\oplus H^1_c(\mathbf A^1,h^*\mathcal L_\psi)
 $$
 
 The left side is $H^1(C,E)$, because $C$ minus $Y$ is the single point
-at infinity, and it has dimension $2$. The first summand on the right is
-zero. The automorphism $(u,x)\mapsto(-u,ix)$ of $Y$, with $i^2=-1$ in
+at infinity, and it has dimension $2$. Since the first summand on the right is
+zero, it remains to see that the last two summands have the same
+dimension. For this, note that the automorphism $(u,x)\mapsto(-u,ix)$ of $Y$, with $i^2=-1$ in
 $\mathbf F_9$, conjugates the translation by $c$ into the translation by
 $-c$. It therefore exchanges the last two summands, and each of them is a
 line. This automorphism is defined only over $\mathbf F_9$, but we use it
-only to count dimensions. The translations are defined over
-$\mathbf F_3$, so the decomposition is stable under Frobenius.
+only to count dimensions. The decomposition itself is stable under
+Frobenius, because the translations are defined over $\mathbf F_3$.
 
 Thus Frobenius acts on the line $H^1_c(\mathbf A^1,h^*\mathcal L_\psi)$
 by $-(1+2\omega)$. This is a square root of $-3$, and it is one of the two
 reciprocal roots $\pm i\sqrt3$ of $P_1(T)=1+3T^2$ found in the
-introduction. The number $1+2\omega=\omega-\omega^2$ is the Gauss sum $g$
+introduction. Moreover, the number $1+2\omega=\omega-\omega^2$ is the Gauss sum $g$
 of the quadratic character of $\mathbf F_3$. The classical fact $|g|=\sqrt q$ is
 thus the statement that this $H^1_c$ is pure of weight one.
-Section [chap-Delignes-theorem-for-curves] proves the analogue for every such
+Section [chap-The-Deligne-Laumon-theorem-for-curves] proves the analogue for every such
 sheaf.

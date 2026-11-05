@@ -3,7 +3,7 @@ id = "theorem-poincare-duality--6"
 kind = "theorem"
 title = "Poincaré duality (6)"
 name_showing = false
-order = 850006
+order = 856006
 aliases = ["bp-r257-6"]
 +++
 Let $\operatorname{Tr}_X$ be the map induced on $R\Gamma_c$ by

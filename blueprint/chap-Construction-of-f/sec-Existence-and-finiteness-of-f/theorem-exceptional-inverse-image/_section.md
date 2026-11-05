@@ -2,7 +2,7 @@
 id = "theorem-exceptional-inverse-image"
 kind = "theorem"
 title = "The exceptional inverse image"
-order = 428
+order = 433
 +++
 Let $\Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$ be an admissible
 coefficient ring and $f:X\to Y$ a morphism of separated schemes of

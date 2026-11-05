@@ -2,7 +2,7 @@
 id = "lemma-identity-pasting--3"
 kind = "lemma"
 title = "Vertical pasting"
-order = 318004
+order = 319004
 aliases = ["bp-r095-3"]
 +++
 For composable maps $X\xrightarrow{f}Y\xrightarrow{g}Z$ and a map

@@ -2,7 +2,7 @@
 id = "corollary-unramified-boundary-point"
 kind = "corollary"
 title = "An unramified boundary point"
-order = 1177
+order = 1183
 lean = ["AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeight_stalk_directImage_of_isLisse", "AlgebraicGeometry.WeilSheaf.IsLisse.isPunctuallyPureOfWeight_of_upperStar"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-weil-representation"]
 +++

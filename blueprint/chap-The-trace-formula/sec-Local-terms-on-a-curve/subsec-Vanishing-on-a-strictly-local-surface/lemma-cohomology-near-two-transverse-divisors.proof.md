@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-cohomology-near-two-transverse-divisors"
-order = 967
+order = 973
 +++
 The idea is that, since the monodromy is an $\ell$-group, we may filter
 the coefficients until they become the constant sheaf $\mathbf F_\ell$.
@@ -43,20 +43,16 @@ conservativity.
 
 We turn to the local constancy of $M$ along $D_2-z$, where only the
 divisor $D_2$ remains. Since $D_1$ meets $D_2$ only at
-$z$, we have $j'_!N=N$ near $D_2-z$, so $M=Rj_*N$ there. Abhyankar's lemma along
-the regular divisor $D_2$ [Stacks, [0EYG](https://stacks.math.columbia.edu/tag/0EYG)] says that, étale locally on $D_2$, a finite
+$z$, we have $j'_!N=N$ near $D_2-z$, so $M=Rj_*N$ there. To compute $Rj_*N$ we use Abhyankar's lemma along the regular divisor $D_2$ [Stacks, [0EYG](https://stacks.math.columbia.edu/tag/0EYG)]: étale locally on $D_2$, a finite
 tame local system is trivialized by a Kummer cover of a local
-parameter of $D_2$ and an unramified cover. Our finite $\ell$-group
-monodromy is tame, because wild inertia is pro-$p$. Consequently, the
+parameter of $D_2$ and an unramified cover. The lemma applies here because our finite $\ell$-group monodromy is tame, wild inertia being pro-$p$. Consequently, the
 stalks of $Rj_*N$ are the continuous cohomology of the same
 representation of tame inertia, and their specialization maps along $D_2-z$
 are isomorphisms. Explicitly, the pro-$\ell$ part of tame inertia is
 $\mathbf Z_\ell(1)$. Its cohomology with coefficients in a finite $\ell$-primary
 module is computed by the two-term complex given by a topological
-generator minus one. The finite quotients of the remaining factors of tame
-inertia have order prime to $\ell$, so taking invariants under them is exact
-on these coefficients. We may choose the parameter and the
-unramified cover on an étale neighbourhood. Hence this
+generator minus one. On the other hand, the finite quotients of the remaining factors of tame inertia have order prime to $\ell$, so taking invariants under them is exact
+on these coefficients. Finally, we may choose the parameter and the unramified cover on an étale neighbourhood. Hence this
 description, including the specialization maps, is locally constant.
 Applying the argument to the cohomology sheaves of $N$ and using the
 bounded spectral sequence proves the assertion for $N$.

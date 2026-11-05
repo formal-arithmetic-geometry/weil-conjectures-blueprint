@@ -3,7 +3,7 @@ id = "lemma-cohomology-near-two-transverse-divisors--2"
 kind = "lemma"
 title = "Cohomology near two transverse divisors (2)"
 name_showing = false
-order = 966002
+order = 972002
 aliases = ["bp-r296-2"]
 +++
 If $D_2$ is

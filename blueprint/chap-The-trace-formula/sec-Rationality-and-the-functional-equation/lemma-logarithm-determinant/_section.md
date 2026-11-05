@@ -2,7 +2,7 @@
 id = "lemma-logarithm-determinant"
 kind = "lemma"
 title = "Logarithm of a determinant"
-order = 1027
+order = 1033
 lean = ["LinearMap.inv_charpolyRev_eq_exp", "LinearMap.logOf_charpolyRev", "LinearMap.inv_alternatingCharpolyRevProd_eq_exp"]
 +++
 Let $L$ be a field of characteristic zero. For an endomorphism $v$ of

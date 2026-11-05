@@ -3,7 +3,7 @@ id = "theorem-hilbert-schemes-points-smooth-curve--1"
 kind = "theorem"
 title = "Hilbert schemes of points on a smooth curve (1)"
 name_showing = false
-order = 1528001
+order = 1534001
 aliases = ["bp-r478-1"]
 +++
 The functor $\operatorname{Hilb}^{d}_{C/k}$ is represented by a smooth proper geometrically

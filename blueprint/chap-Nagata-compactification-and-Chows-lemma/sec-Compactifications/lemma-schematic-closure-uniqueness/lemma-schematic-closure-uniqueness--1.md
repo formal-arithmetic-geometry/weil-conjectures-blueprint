@@ -3,7 +3,7 @@ id = "lemma-schematic-closure-uniqueness--1"
 kind = "lemma"
 title = "Schematic closure (1)"
 name_showing = false
-order = 1400001
+order = 1406001
 aliases = ["bp-r435-1"]
 +++
 Let $i:U\to T$ be a quasi-compact immersion, with $T$ quasi-separated.

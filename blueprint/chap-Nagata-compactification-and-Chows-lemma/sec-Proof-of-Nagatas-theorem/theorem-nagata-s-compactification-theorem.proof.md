@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-nagata-s-compactification-theorem"
-order = 1459
+order = 1465
 uses = ["lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 If $S$ is Noetherian, we choose a cover as in
@@ -27,15 +27,14 @@ $$
 with $S_i$ Noetherian and affine transition maps [Stacks, [01ZA](https://stacks.math.columbia.edu/tag/01ZA)].
 Since $X\to S$ is of finite presentation, it descends to a model
 $X_i\to S_i$ for some $i$, and after increasing $i$ the model is
-separated [Stacks, [01ZM](https://stacks.math.columbia.edu/tag/01ZM), [01ZQ](https://stacks.math.columbia.edu/tag/01ZQ)]. We compactify this model by
-the Noetherian case and base change the compactification to $S$. Open
-immersions and proper morphisms are stable under base change, and taking
+separated [Stacks, [01ZM](https://stacks.math.columbia.edu/tag/01ZM), [01ZQ](https://stacks.math.columbia.edu/tag/01ZQ)]. We then compactify this model by the Noetherian case and base change the compactification to $S$. The result is a compactification, because open immersions and proper morphisms are stable under base change, and taking
 the schematic closure of $X$ makes the result dense.
 
 Finally, let $X\to S$ be separated of finite type. By [Stacks, [01ZJ](https://stacks.math.columbia.edu/tag/01ZJ)],
 there is a closed immersion $X\hookrightarrow X_0$ with $X_0\to S$
 separated of finite presentation. We compactify $X_0$ by the case
 already proved, and take the schematic closure of $X$ in that
-compactification. Restricted to the open $X_0$, this closure is
-exactly the closed subscheme $X$, so $X$ is open and schematically
-dense in the closure, which is proper over $S$.
+compactification. This closure is proper over $S$. Its restriction to
+the open $X_0$ is the closed subscheme $X$ itself, so $X$ is open in
+the closure, and it is schematically dense there by
+Lemma [lemma-schematic-closure-uniqueness].

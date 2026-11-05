@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-projective-line--1"
 kind = "proposition"
 title = "Proper base change for $\\mathbf P^1$ (1)"
 name_showing = false
-order = 375001
+order = 380001
 aliases = ["bp-r115-1"]
 +++
 Let $S$ be a scheme and $\Lambda$ a commutative ring.  In the

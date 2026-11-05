@@ -3,7 +3,7 @@ id = "lemma-unramified-at-infinity-no-linear-characters--1"
 kind = "lemma"
 title = "Sheaves unramified at infinity (1)"
 name_showing = false
-order = 1261001
+order = 1267001
 aliases = ["bp-r392-1"]
 +++
 Let $M$ be an irreducible lisse Weil sheaf on a dense open

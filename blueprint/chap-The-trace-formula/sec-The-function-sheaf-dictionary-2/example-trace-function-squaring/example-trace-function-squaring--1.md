@@ -3,7 +3,7 @@ id = "example-trace-function-squaring--1"
 kind = "example"
 title = "The squaring map (1)"
 name_showing = false
-order = 1020001
+order = 1026001
 aliases = ["bp-r314-1"]
 +++
 Let $q$ be odd, let $f_0:\mathbf A^1_{\mathbf F_q}\to\mathbf A^1_{\mathbf F_q}$

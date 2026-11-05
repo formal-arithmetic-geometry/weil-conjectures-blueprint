@@ -2,7 +2,7 @@
 id = "proposition-no-frobenius-fixed-vector"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
-order = 1506
+order = 1512
 lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self", "AlgebraicGeometry.IsAbelianVariety.frobeniusSubOneLinearEquiv"]
 uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module"]
 +++

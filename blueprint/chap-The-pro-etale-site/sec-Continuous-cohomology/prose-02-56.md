@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Continuous cohomology (1)"
 order = 191
 +++
-The comparison theorems above concern discrete coefficients. The integral
+The comparison theorems above concern discrete coefficients, whereas the integral
 and rational $\ell$-adic coefficient rings of Section [sec-Coefficient-rings]
-are defined directly on the pro-étale site. The discrete constant
+are defined directly on the pro-étale site, because the discrete constant
 sheaves with the same values have the wrong cohomology
 (Example [example-first-cohomology-finite-field]). The main result of
 this subsection,

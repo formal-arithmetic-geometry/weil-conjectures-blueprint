@@ -3,7 +3,7 @@ id = "lemma-removing-finitely-many-points--1"
 kind = "lemma"
 title = "Removing finitely many points (1)"
 name_showing = false
-order = 1599001
+order = 1605001
 aliases = ["bp-r500-1"]
 +++
 Let $C$ be a reduced separated curve of finite type over an

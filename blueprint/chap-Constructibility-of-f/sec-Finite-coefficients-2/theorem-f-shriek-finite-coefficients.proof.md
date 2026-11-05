@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-f-shriek-finite-coefficients"
-order = 587
+order = 593
 uses = ["lemma-stability", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "proposition-comparison-immersions", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "corollary-cohomology-geometric-fibres", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "corollary-open-direct-image-over-field", "example-closed-support", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "lemma-perfect-complexes-geometric-point", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 Locally on $X$ and $Y$, the morphism $f$ is a closed immersion followed by
@@ -10,8 +10,7 @@ then glue.
 
 *Closed immersions.* Let $i:Z\hookrightarrow X$ be a closed immersion with open
 complement $j:U\hookrightarrow X$, and let $R\underline\Gamma_Z$ be the
-local cohomology functor of Section [sec-Extension-by-zero-and-completion]. We show
-that $R\underline\Gamma_Z$ preserves $D^b_{\mathrm{ctf}}$ and that it is $i^!$. For
+local cohomology functor of Section [sec-Extension-by-zero-and-completion]. We show that $R\underline\Gamma_Z$ preserves $D^b_{\mathrm{ctf}}$ and that it is $i^!$. For
 $K\in D^b_{\mathrm{ctf}}(X,A)$, there is a triangle
 
 $$

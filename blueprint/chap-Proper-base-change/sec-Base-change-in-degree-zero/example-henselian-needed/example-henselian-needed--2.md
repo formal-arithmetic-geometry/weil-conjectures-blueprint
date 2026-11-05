@@ -3,7 +3,7 @@ id = "example-henselian-needed--2"
 kind = "example"
 title = "Why the pair must be henselian (2)"
 name_showing = false
-order = 329002
+order = 330002
 aliases = ["bp-r099-2"]
 +++
 Hence $Z=\operatorname{Spec}B$ is

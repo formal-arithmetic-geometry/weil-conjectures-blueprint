@@ -2,7 +2,7 @@
 id = "prose-05-10"
 kind = "hidden"
 title = "Ind-constructible sheaves (1)"
-order = 446
+order = 451
 +++
 The targets in the compactness statement are direct sums of objects of
 $\Loc(\Dbc(X,\Lambda))$, and their cohomology sheaves need not be

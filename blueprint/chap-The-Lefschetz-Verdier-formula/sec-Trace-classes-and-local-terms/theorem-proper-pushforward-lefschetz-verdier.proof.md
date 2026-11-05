@@ -1,19 +1,15 @@
 +++
 kind = "proof"
 of = "theorem-proper-pushforward-lefschetz-verdier"
-order = 920
+order = 926
 uses = ["proposition-properties-trace", "definition-correspondence", "definition-trace-class-local-terms", "lemma-local-terms-point", "definition-action-correspondence", "definition-pushforward-correspondence"]
 +++
 The trace class of $u$ is built in three steps: $u$ becomes a map into
 $P_X=K\boxtimes\mathbb D_XK$, evaluation maps $P_X$ to the
 dualizing complex on the diagonal, and $c^!$ moves the result to
-the fixed locus. We check that each step commutes with pushforward.
-For the first two this means identifying the map adjoint to $u'$ with the
+the fixed locus. We check that each step commutes with pushforward. For the first two steps this means identifying the map adjoint to $u'$ with the
 pushforward of the map adjoint to $u$, and evaluation for $K'$ with the
-pushforward of evaluation for $K$. The comparison of fixed loci needs
-more care. The squares $c'_ig=fc_i$ are only required to commute, so in
-general $\Fix(c)\ne C\times_{C'}\Fix(c')$. We compare the fixed loci
-by means of an intermediate scheme.
+pushforward of evaluation for $K$. The third step needs more care. The squares $c'_ig=fc_i$ are only required to commute, so in general $\Fix(c)\ne C\times_{C'}\Fix(c')$, and we compare the two fixed loci through an intermediate scheme.
 
 *Maps into $P$.* Put $P_Y=K'\boxtimes \mathbb D_YK'$, and
 let $\tau_f:Rf_*\omega_X\to\omega_Y$ be the counit.
@@ -60,7 +56,7 @@ by means of the counit $\tau_f$.
 match. The trace classes, however, live on two different fixed loci, and we
 must see that passing from $\Fix(c)$ to $\Fix(c')$
 is the map $h_*$ of Definition [definition-pushforward-correspondence].
-The fixed loci are the pullbacks of the diagonals,
+Recall that the fixed loci are the pullbacks of the diagonals,
 $\Fix(c)=C\times_{X\times X}X$ and $\Fix(c')=C'\times_{Y\times Y}Y$.
 To compare them, we factor $h$ through the fibre product $C\times_{C'}\Fix(c')$:
 
@@ -90,13 +86,11 @@ first formula (compare
 [sga5, III, Theorem 4.4 and Corollary 4.7]).
 
 *The trace formula.* For proper $X$ and $C$, we push forward to the identity correspondence on $s$, using
-$f=a_X$ and $g=a_C$. The pushed cohomological correspondence is $T_c(u)$.
+$f=a_X$ and $g=a_C$. Then the pushed cohomological correspondence is $T_c(u)$.
 Indeed, for $g=a_C$ the map $\alpha$ is the pullback
 $R\Gamma(X,K)\to R\Gamma(C,c_2^*K)$ and $\beta$ is the counit of
 $c_1$ after $R\Gamma$, and these are the outer arrows in the definition of
-$T_c(u)$. The fixed locus of the identity correspondence of $s$ is $s$
-itself. Hence the left side of the first formula is the local term of
+$T_c(u)$. Moreover, the fixed locus of the identity correspondence of $s$ is $s$ itself. Hence the left side of the first formula is the local term of
 $T_c(u)$ on $s$, which by Lemma [lemma-local-terms-point] is the
-trace of $T_c(u)$. On the right, $h_*$ is integration over $\Fix(c)$.
-Integration over a disjoint union is the sum of the integrations, and this
+trace of $T_c(u)$. On the right, $h_*$ is integration over $\Fix(c)$, and since integration over a disjoint union is the sum of the integrations, this
 gives the second assertion.

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-bounding-weights-mixed-sheaf"
-order = 1057
+order = 1063
 uses = ["proposition-weights-under-usual-operations"]
 +++
 At every closed point $x$ the eigenvalues of

@@ -2,7 +2,7 @@
 id = "lemma-cohomological-range-curve"
 kind = "lemma"
 title = "Cohomological range on a curve"
-order = 1183
+order = 1189
 lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_krullDim_le_one", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isAffine"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

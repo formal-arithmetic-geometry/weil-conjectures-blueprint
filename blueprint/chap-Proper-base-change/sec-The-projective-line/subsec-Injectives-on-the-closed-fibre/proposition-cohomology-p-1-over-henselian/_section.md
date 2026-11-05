@@ -2,7 +2,7 @@
 id = "proposition-cohomology-p-1-over-henselian"
 kind = "proposition"
 title = "Cohomology of $\\mathbf P^1$ over henselian rings"
-order = 370
+order = 375
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField"]
 uses = ["definition-torsion-sheaves"]
 +++

@@ -3,7 +3,7 @@ id = "proposition-integral-tate-module--1"
 kind = "proposition"
 title = "The integral Tate module (1)"
 name_showing = false
-order = 1503001
+order = 1509001
 aliases = ["bp-r471-1"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$, and let $\ell$

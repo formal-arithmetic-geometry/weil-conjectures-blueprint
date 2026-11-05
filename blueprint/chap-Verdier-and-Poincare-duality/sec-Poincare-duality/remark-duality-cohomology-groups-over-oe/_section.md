@@ -2,7 +2,7 @@
 id = "remark-duality-cohomology-groups-over-oe"
 kind = "remark"
 title = "Duality on cohomology groups over $\\mathcal O_E$ and finite rings"
-order = 856
+order = 862
 +++
 Over $\mathcal O_E$, derived duality gives only the natural
 universal coefficient exact sequence

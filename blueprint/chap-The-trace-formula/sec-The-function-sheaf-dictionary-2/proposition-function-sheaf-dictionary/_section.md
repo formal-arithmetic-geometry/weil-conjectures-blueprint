@@ -2,7 +2,7 @@
 id = "proposition-function-sheaf-dictionary"
 kind = "proposition"
 title = "The function–sheaf dictionary"
-order = 1022
+order = 1028
 lean = ["AlgebraicGeometry.WeilComplex.traceFunction_upperStar", "AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse", "AlgebraicGeometry.WeilComplex.traceFunction_eq_add_of_distTriang"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++

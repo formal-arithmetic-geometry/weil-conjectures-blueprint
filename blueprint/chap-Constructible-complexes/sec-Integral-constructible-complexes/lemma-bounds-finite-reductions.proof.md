@@ -13,12 +13,12 @@ The filtration of $\mathcal O_E/\pi_E^n$ by the powers of $\pi_E$ has
 graded pieces $\mathbf F_E$. Tensoring its short exact sequences with
 $K$ over $\mathcal O_{E,X}$, we get triangles
 $K_1\to K_{n}\to K_{n-1}$, up to the identification
-$\pi_E^{n-1}\mathcal O_E/\pi_E^n\simeq\mathbf F_E$. Complexes with
+$\pi_E^{n-1}\mathcal O_E/\pi_E^n\simeq\mathbf F_E$. Moreover, complexes with
 constructible cohomology in $[a,b]$ are closed under extensions in
-triangles. This follows from the long exact cohomology sequence and the fact
+triangles, by the long exact cohomology sequence and the fact
 that constructible sheaves form a weak Serre subcategory. Induction on $n$ now shows
-that $K_n$ is bounded in $[a,b]$ with constructible cohomology. Locally constant
-finite sheaves of modules also form a weak Serre subcategory. Hence the same
+that $K_n$ is bounded in $[a,b]$ with constructible cohomology. Since locally constant
+finite sheaves of modules also form a weak Serre subcategory, the same
 induction works on a fixed stratum, and a single stratification works for
 all $n$. By the comparison theorem for constructible sheaves
 (Theorem [theorem-comparison-constructible-sheaves]), these finite sheaves and
@@ -29,21 +29,21 @@ $K_n\otimes^{\mathbf L}_{\mathcal O_E/\pi_E^n}\mathbf F_E\simeq K_1$.
 At an étale geometric point $\bar x$, take a bounded above resolution of the
 stalk of $K_n$ by finite free modules over the Artinian local ring
 $\mathcal O_E/\pi_E^n$. Cancelling a two-term identity summand whenever
-a differential matrix has a unit entry, we obtain a minimal resolution.
-Its differentials have entries in $(\pi_E)$, so they vanish after
+a differential matrix has a unit entry, we obtain a minimal resolution, whose
+differentials have entries in $(\pi_E)$, so they vanish after
 tensoring with $\mathbf F_E$. Since stalks commute with derived tensor
 products, the minimal resolution tensored with $\mathbf F_E$ computes the
 stalk of $K_1$ at $\bar x$, with zero differential. Its rank
 in degree $q$ is therefore $\dim_{\mathbf F_E}H^q(K_1)_{\bar x}$. This vanishes
 outside $[a,b]$, and we conclude that the stalk has a bounded finite free
-resolution in $[a,b]$. A bound on stalks gives the same Tor bound on the
-étale site. Corollary [corollary-finite-tor-amplitude-under-comparison] carries
+resolution in $[a,b]$. Such a bound on stalks gives the same Tor bound on the
+étale site, and Corollary [corollary-finite-tor-amplitude-under-comparison] carries
 it to the pro-étale site, for Tor against arbitrary sheaves of modules there.
 
-By completeness $K=R\varprojlim K_n$. The Milnor sequence
+By completeness $K=R\varprojlim K_n$, so the Milnor sequence
 (2.2) gives the lower bound and the vanishing above
 $b+1$. For $H^{b+1}(K)$ we use the top degree, where
-$H^b(K_n)=H^b(K_{n+1})\otimes_{\mathcal O_E/\pi_E^{n+1}}\mathcal O_E/\pi_E^n$.
-Thus the transition maps are epimorphisms. Their $R^1\varprojlim$ vanishes by the
+$H^b(K_n)=H^b(K_{n+1})\otimes_{\mathcal O_E/\pi_E^{n+1}}\mathcal O_E/\pi_E^n$,
+so the transition maps are epimorphisms. Their $R^1\varprojlim$ vanishes by the
 last assertion of Proposition [proposition-milnor-sequence], and this means
 that $H^{b+1}(K)=0$.

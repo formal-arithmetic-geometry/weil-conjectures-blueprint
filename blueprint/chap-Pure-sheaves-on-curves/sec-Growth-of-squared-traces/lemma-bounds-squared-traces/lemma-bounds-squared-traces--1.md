@@ -3,7 +3,7 @@ id = "lemma-bounds-squared-traces--1"
 kind = "lemma"
 title = "Bounds for squared traces (1)"
 name_showing = false
-order = 1196002
+order = 1202002
 aliases = ["bp-r371-1"]
 +++
 If $F$ is a lisse Weil sheaf of rank $r$ on $X_0$, punctually of

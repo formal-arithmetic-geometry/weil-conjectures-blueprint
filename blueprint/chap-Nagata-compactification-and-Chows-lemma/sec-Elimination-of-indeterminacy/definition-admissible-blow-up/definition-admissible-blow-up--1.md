@@ -3,7 +3,7 @@ id = "definition-admissible-blow-up--1"
 kind = "definition"
 title = "Admissible blow-up (1)"
 name_showing = false
-order = 1416001
+order = 1422001
 aliases = ["bp-r441-1"]
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a

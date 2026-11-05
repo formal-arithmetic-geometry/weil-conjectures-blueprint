@@ -2,7 +2,7 @@
 id = "lemma-vanishing-restrictions-after-blowing-up"
 kind = "lemma"
 title = "Vanishing of restrictions after blowing up"
-order = 972
+order = 978
 lean = ["AlgebraicGeometry.Etale.blowupRestriction_eq_zero", "AlgebraicGeometry.Etale.sectionsRestriction_app_eq_zero_of_tangentConesMeetAtOrigin"]
 +++
 Let $T$ be the strict localization of a smooth surface at a closed

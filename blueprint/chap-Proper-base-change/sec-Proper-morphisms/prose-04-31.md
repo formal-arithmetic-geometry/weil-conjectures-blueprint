@@ -1,10 +1,10 @@
 +++
 id = "prose-04-31"
 kind = "hidden"
-title = "Proper morphisms (4)"
-order = 386
+title = "Proper morphisms (3)"
+order = 388
 +++
-Part (i) already gives proper base change for $(\mathbf P^1_S)^n\to S$, a
-composite of projections of projective lines. To reach $\mathbf P^n_S$ we
-use part (ii), and for this we need a finite surjection from
-$(\mathbf P^1_S)^n$ onto $\mathbf P^n_S$ over $S$.
+Stability under composition and descent along proper surjections are
+best proved on the level of injective acyclicity, since by
+Theorem [theorem-pbc-injective-acyclicity] it is equivalent to proper
+base change and it lends itself to a spectral sequence argument.

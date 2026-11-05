@@ -2,7 +2,7 @@
 id = "proposition-ell-adic-cycle-class-diagonal"
 kind = "proposition"
 title = "The $\\ell$-adic cycle class of the diagonal"
-order = 594
+order = 600
 uses = ["lemma-cycle-class-cartier-divisor", "lemma-cohomology-projective-line-trace"]
 +++
 Let $q:\mathbf P^1_Y\to Y$ be the projection, $\Delta$ the diagonal of

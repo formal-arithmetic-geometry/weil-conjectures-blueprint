@@ -3,7 +3,7 @@ id = "proposition-fourier-transform-perverse-heart--1"
 kind = "proposition"
 title = "Fourier transform and the perverse heart (1)"
 name_showing = false
-order = 1254001
+order = 1260001
 aliases = ["bp-r390-1"]
 +++
 On the geometric affine line, $\operatorname{FT}_\psi$ is a t-exact

@@ -2,7 +2,7 @@
 id = "prose-C-10"
 kind = "hidden"
 title = "Hilbert schemes of points (3)"
-order = 1533
+order = 1539
 +++
 To cover the Picard functor by translates of $F$, we have to move every
 invertible sheaf into $F$ by a twist defined over $k$.

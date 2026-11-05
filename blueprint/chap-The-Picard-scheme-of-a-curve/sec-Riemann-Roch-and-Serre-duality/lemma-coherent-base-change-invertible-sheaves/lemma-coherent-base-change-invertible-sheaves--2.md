@@ -3,7 +3,7 @@ id = "lemma-coherent-base-change-invertible-sheaves--2"
 kind = "lemma"
 title = "Coherent base change for invertible sheaves (2)"
 name_showing = false
-order = 1524002
+order = 1530002
 aliases = ["bp-r477-2"]
 +++
 For any $a:T'\to T$, the base change map

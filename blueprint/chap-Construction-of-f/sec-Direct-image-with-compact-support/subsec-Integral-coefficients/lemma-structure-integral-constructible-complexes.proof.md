@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-structure-integral-constructible-complexes"
-order = 487
+order = 492
 +++
 The conditions of Proposition [proposition-integral-constructibility-criterion], derived
 completeness and constructible reduction, are stable under shifts and
@@ -13,10 +13,8 @@ of finite free $\mathcal O_E$-modules. Since $\mathcal O_{E,S}$
 is flat over $\mathcal O_E$, we get
 $H^i=\mathcal O_{E,S}\otimes H^i(P^\bullet)$ on such a stratum. This
 local form of the cohomology sheaves shows that the truncations stay in
-$\Dbc$. It also gives (2), and then the abelian part of (1). Essential
-smallness holds because a constructible sheaf is
+$\Dbc$. It also gives (2), and then the abelian part of (1). In (1), essential smallness holds because a constructible sheaf is
 determined up to isomorphism by a stratification, local presentations,
-descent data and finitely many extension classes. For (3) we use that a finitely
-generated module over the discrete valuation ring $\mathcal O_E$ has a
+descent data and finitely many extension classes. Finally, for (3) we use that a finitely generated module over the discrete valuation ring $\mathcal O_E$ has a
 free resolution $0\to\mathcal O_E^r\to\mathcal O_E^s\to P\to0$ of length
 one.

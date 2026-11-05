@@ -3,7 +3,7 @@ id = "proposition-bound-largest-determinant-weight--1"
 kind = "proposition"
 title = "A bound by the largest determinant weight (1)"
 name_showing = false
-order = 1156001
+order = 1162001
 aliases = ["bp-r358-1"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected affine curve

@@ -2,7 +2,7 @@
 id = "lemma-composition-cancellation"
 kind = "lemma"
 title = "Composition and cancellation"
-order = 384
+order = 389
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.comp", "AlgebraicGeometry.Etale.HasTorsionBaseChange.of_comp"]
 uses = ["definition-torsion-pbc-property"]
 +++

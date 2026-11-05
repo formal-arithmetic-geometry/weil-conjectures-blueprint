@@ -2,12 +2,12 @@
 id = "prose-C-01"
 kind = "hidden"
 title = "The Picard scheme of a curve"
-order = 1509
+order = 1515
 +++
 For a curve $C$ proper and connected over a separably closed field and
 $n$ invertible in that field, the Kummer sequence shows that
 $H^1(C,\mu_n)$ is the $n$-torsion of the Picard group of $C$. But the
-Picard group is an abstract group. Nothing about it says that its
+Picard group is an abstract group. In particular, nothing about it says that its
 $n$-torsion is finite, let alone isomorphic to $(\mathbf Z/n)^{2g}$. Nor
 does it say why Frobenius should have no fixed vector on the $\ell$-adic
 limit, as Proposition [proposition-no-fixed-class-degree-one]

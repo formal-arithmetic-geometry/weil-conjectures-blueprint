@@ -2,7 +2,7 @@
 id = "theorem-comparison-over-henselian-pair-degree"
 kind = "theorem"
 title = "Henselian comparison in degree zero"
-order = 327
+order = 328
 lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing", "AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality"]
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++

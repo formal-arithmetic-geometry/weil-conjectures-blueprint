@@ -2,7 +2,7 @@
 id = "remark-integral-frobenius-correspondences-not-invertible"
 kind = "remark"
 title = "Integral Frobenius correspondences need not be invertible"
-order = 1009
+order = 1015
 uses = ["theorem-trace-formula-frobenius-correspondence", "lemma-integral-models-rational-frobenius-correspondences"]
 +++
 In Lemma [lemma-integral-models-rational-frobenius-correspondences], $K_0$ need not be a lattice in a

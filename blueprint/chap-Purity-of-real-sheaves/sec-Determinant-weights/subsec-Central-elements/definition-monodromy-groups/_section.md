@@ -2,7 +2,7 @@
 id = "definition-monodromy-groups"
 kind = "definition"
 title = "Monodromy groups"
-order = 1122
+order = 1128
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy"]
 +++
 Let $\rho:W(U_0)\to\GL(V)$ be a Weil representation. Its

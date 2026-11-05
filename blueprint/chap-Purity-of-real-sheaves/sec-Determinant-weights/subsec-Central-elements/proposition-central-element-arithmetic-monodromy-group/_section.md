@@ -2,7 +2,7 @@
 id = "proposition-central-element-arithmetic-monodromy-group"
 kind = "proposition"
 title = "A central element of the arithmetic monodromy group"
-order = 1132
+order = 1138
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map"]
 uses = ["definition-monodromy-groups", "lemma-normality-geometric-monodromy"]
 +++

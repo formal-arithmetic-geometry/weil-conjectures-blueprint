@@ -3,7 +3,7 @@ id = "lemma-additivity-open-subscheme-complement--1"
 kind = "lemma"
 title = "Additivity for an open subscheme and its complement (1)"
 name_showing = false
-order = 996001
+order = 1002001
 aliases = ["bp-r306-1"]
 +++
 Let $j_0:U_0\hookrightarrow X_0$ be open with reduced closed

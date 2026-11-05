@@ -3,7 +3,7 @@ id = "example-gauss-sum-over-f-3--2"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$ (2)"
 name_showing = false
-order = 1214002
+order = 1220002
 aliases = ["bp-r376-2"]
 +++
 $$

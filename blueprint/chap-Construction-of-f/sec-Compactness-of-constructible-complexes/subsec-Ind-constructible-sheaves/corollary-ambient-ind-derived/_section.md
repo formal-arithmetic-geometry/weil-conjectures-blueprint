@@ -3,7 +3,7 @@ id = "corollary-ambient-ind-derived"
 kind = "corollary"
 title = "The derived category of ind-constructible sheaves"
 name_showing = false
-order = 454
+order = 459
 lean = ["AlgebraicGeometry.ProEtale.localizingClosure_boundedConstructible_le"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves"]
 +++

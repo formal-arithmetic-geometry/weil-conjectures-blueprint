@@ -3,7 +3,7 @@ id = "example-duality-multiplicative-group--1"
 kind = "example"
 title = "Duality on the punctured line (1)"
 name_showing = false
-order = 881001
+order = 887001
 aliases = ["bp-r267-1"]
 +++
 Let $X_0=\mathbf G_{m,\mathbf F_q}$, with coordinate $t$, let $X$ be its base

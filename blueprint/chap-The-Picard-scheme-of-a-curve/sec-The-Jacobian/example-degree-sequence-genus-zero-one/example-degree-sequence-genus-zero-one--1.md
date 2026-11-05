@@ -3,7 +3,7 @@ id = "example-degree-sequence-genus-zero-one--1"
 kind = "example"
 title = "The degree sequence in genus zero and one (1)"
 name_showing = false
-order = 1548001
+order = 1554001
 aliases = ["bp-r485-1"]
 +++
 On $C=\mathbf P^1_k$ a divisor $\sum_in_ia_i+n_\infty\infty$ of degree

@@ -3,7 +3,7 @@ id = "proposition-forgetting-supports-composition--1"
 kind = "proposition"
 title = "Forgetting supports and composition (1)"
 name_showing = false
-order = 514001
+order = 519001
 aliases = ["bp-r158-1"]
 +++
 There is a natural map $\eta_f:Rf_!\to Rf_*$ on

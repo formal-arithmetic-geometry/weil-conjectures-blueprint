@@ -2,7 +2,7 @@
 id = "lemma-uniform-bound-proper-direct-image"
 kind = "lemma"
 title = "A uniform bound for proper direct image"
-order = 478
+order = 483
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.properLowerStarHeartHypotheses_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.properLowerStarHeartHypotheses_padicAlgClRingObj"]
 uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

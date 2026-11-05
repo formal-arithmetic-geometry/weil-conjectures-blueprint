@@ -3,7 +3,7 @@ id = "definition-compactification-refinement--2"
 kind = "definition"
 title = "Compactification and refinement (2)"
 name_showing = false
-order = 1396002
+order = 1402002
 aliases = ["bp-r433-2"]
 +++
 We say that it is

@@ -3,7 +3,7 @@ id = "proposition-kummer-duality-integral-tate-module--1"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module (1)"
 name_showing = false
-order = 1088001
+order = 1094001
 aliases = ["bp-r335-1"]
 +++
 Let $C_0/k_0$ be a smooth proper geometrically connected curve with

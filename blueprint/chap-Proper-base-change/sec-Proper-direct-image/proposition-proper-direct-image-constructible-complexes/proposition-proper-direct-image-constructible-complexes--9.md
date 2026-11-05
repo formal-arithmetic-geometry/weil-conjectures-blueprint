@@ -2,7 +2,7 @@
 id = "proposition-proper-direct-image-constructible-complexes--9"
 kind = "proposition"
 title = "Finite coefficients"
-order = 420018
+order = 425018
 aliases = ["bp-r129-9"]
 +++
 The projection formula map (4.14)

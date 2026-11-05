@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-compactness-rational-coefficients"
-order = 462
+order = 467
 uses = ["lemma-uniform-ext-bound", "proposition-ind-constructible-sheaves", "lemma-reduction-finitely-many-degrees"]
 +++
 The idea is that, by Lemma [lemma-reduction-finitely-many-degrees], maps out of a

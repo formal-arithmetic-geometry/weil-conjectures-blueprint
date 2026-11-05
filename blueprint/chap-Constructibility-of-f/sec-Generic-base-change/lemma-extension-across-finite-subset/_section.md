@@ -2,13 +2,13 @@
 id = "lemma-extension-across-finite-subset"
 kind = "lemma"
 title = "Extension across a finite subset"
-order = 570
+order = 576
 lean = ["AlgebraicGeometry.Etale.HasDirectImageBaseChangeOnPlus.of_finite_boundary"]
 uses = ["definition-derived-base-change-map"]
 +++
 Let $S$ be integral and affine, let $b:Y\to S$ be projective, and let
 $j:X\hookrightarrow Y$ be an open immersion with $X$ smooth over $S$. Let
-$F$ be a finite locally constant $\Fell$-sheaf on $X_{\mathrm{pro}\acute{e}t}$. Suppose
+$F$ be a finite locally constant $\Fell$-sheaf on $X_{\acute{e}t}$. Suppose
 that there is an open $G\subset Y$ whose reduced complement
 $i:Z\hookrightarrow Y$ is finite over $S$, such that
 $(Rj_*F)|_G\in\Dbc(G,\Fell)$ and such that for every $k$-scheme $T\to S$ of

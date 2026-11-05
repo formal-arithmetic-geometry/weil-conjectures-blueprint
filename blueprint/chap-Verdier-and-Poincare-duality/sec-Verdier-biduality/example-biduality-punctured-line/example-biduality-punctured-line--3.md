@@ -3,7 +3,7 @@ id = "example-biduality-punctured-line--3"
 kind = "example"
 title = "The dual of $j_!\\Lambda$ on the line (3)"
 name_showing = false
-order = 827003
+order = 833003
 aliases = ["bp-r249-3"]
 +++
 Hence the cone has $\Lambda(1)$ in degree $-2$ and $\Lambda$ in degree $-1$.

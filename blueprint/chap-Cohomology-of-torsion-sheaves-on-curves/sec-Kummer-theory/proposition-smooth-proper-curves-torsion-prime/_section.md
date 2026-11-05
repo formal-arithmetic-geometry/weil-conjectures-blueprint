@@ -2,7 +2,7 @@
 id = "proposition-smooth-proper-curves-torsion-prime"
 kind = "proposition"
 title = "Smooth proper curves, torsion prime to the characteristic"
-order = 1568
+order = 1574
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_canonical_of_isProper"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-abelian-variety", "lemma-abelian-variety-commutative", "corollary-degree-jacobian"]
 +++

@@ -2,7 +2,7 @@
 id = "theorem-smooth-purity-all-admissible-coefficients--11"
 kind = "theorem"
 title = "Change of coefficients"
-order = 724020
+order = 730020
 aliases = ["bp-r220-11"]
 +++
 For a coefficient map $\Lambda\to\Lambda'$ of

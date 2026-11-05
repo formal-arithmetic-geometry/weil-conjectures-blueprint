@@ -3,7 +3,7 @@ id = "lemma-growth-finite-corrections--1"
 kind = "lemma"
 title = "Finite corrections (1)"
 name_showing = false
-order = 1199001
+order = 1205001
 aliases = ["bp-r372-1"]
 +++
 Let $K$ and $L$ be constructible Weil complexes on an affine curve

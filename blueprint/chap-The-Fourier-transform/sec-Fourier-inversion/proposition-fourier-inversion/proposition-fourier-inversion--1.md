@@ -3,7 +3,7 @@ id = "proposition-fourier-inversion--1"
 kind = "proposition"
 title = "Fourier inversion (1)"
 name_showing = false
-order = 1225001
+order = 1231001
 aliases = ["bp-r380-1"]
 +++
 Under $V^{\vee\vee}=V$ there are natural isomorphisms of functors

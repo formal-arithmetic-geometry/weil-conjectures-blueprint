@@ -3,7 +3,7 @@ id = "lemma-acyclic-resolutions--1"
 kind = "lemma"
 title = "Acyclic resolutions (1)"
 name_showing = false
-order = 345001
+order = 346001
 aliases = ["bp-r106-1"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor

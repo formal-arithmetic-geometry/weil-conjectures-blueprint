@@ -2,7 +2,7 @@
 id = "theorem-smooth-base-change-classical-torsion"
 kind = "theorem"
 title = "Smooth base change for classical torsion sheaves"
-order = 656
+order = 662
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth"]
 uses = ["definition-derived-base-change-map"]
 +++

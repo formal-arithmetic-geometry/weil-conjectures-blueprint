@@ -2,7 +2,7 @@
 id = "lemma-engel-s-theorem"
 kind = "lemma"
 title = "Engel's theorem"
-order = 1724
+order = 1730
 lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent"]
 +++
 Let $\mathfrak n\subseteq\operatorname{End}(M)$ be a Lie algebra

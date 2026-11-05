@@ -3,7 +3,7 @@ id = "proposition-compactness-proper-direct-image--2"
 kind = "proposition"
 title = "Compactness and proper direct image (2)"
 name_showing = false
-order = 492002
+order = 497002
 aliases = ["bp-r150-2"]
 +++
 and for proper $p:X\to Y$ the functor

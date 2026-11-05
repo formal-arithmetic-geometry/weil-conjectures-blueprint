@@ -3,7 +3,7 @@ id = "lemma-bounds-squared-traces--5"
 kind = "lemma"
 title = "Bounds for squared traces (5)"
 name_showing = false
-order = 1196006
+order = 1202006
 aliases = ["bp-r371-5"]
 +++
 For every constructible Weil complex $K$ on $X_0$ and every

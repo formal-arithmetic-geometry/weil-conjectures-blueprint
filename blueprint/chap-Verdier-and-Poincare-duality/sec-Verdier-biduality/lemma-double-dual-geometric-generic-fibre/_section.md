@@ -2,7 +2,7 @@
 id = "lemma-double-dual-geometric-generic-fibre"
 kind = "lemma"
 title = "Double duals on the geometric generic fibre"
-order = 835
+order = 841
 lean = ["AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_dualizingComplex_of_generic", "AlgebraicGeometry.Etale.isIso_leftDerivedUpperStar_map_verdierDualDoubleDual_app_iff_of_generic"]
 uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
 +++

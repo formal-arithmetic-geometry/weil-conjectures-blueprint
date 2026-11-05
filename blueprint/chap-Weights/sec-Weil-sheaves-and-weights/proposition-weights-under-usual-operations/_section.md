@@ -2,7 +2,7 @@
 id = "proposition-weights-under-usual-operations"
 kind = "proposition"
 title = "Weights under the usual operations"
-order = 1064
+order = 1070
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_mono", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_epi", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_epi", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tensorObj", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.dual", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.upperStar", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.shift", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.constantTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.constantTwist", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.tateTwist"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights"]
 +++

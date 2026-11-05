@@ -3,7 +3,7 @@ id = "definition-correspondence--3"
 kind = "definition"
 title = "Correspondences (3)"
 name_showing = false
-order = 897003
+order = 903003
 aliases = ["bp-r273-3"]
 +++
 The *fixed locus* of $c$ is the closed subscheme

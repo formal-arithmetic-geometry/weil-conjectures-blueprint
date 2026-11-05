@@ -3,7 +3,7 @@ id = "lemma-local-term-restriction-map--1"
 kind = "lemma"
 title = "The local term as a restriction map (1)"
 name_showing = false
-order = 959001
+order = 965001
 aliases = ["bp-r294-1"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, let $X=X_0\times_{k_0}k$,

@@ -3,7 +3,7 @@ id = "lemma-projection-formula-integral-coefficients--1"
 kind = "lemma"
 title = "Projection formula with integral coefficients (1)"
 name_showing = false
-order = 606001
+order = 612001
 aliases = ["bp-r186-1"]
 +++
 For proper $p:X\to Y$ the map

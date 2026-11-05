@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-base-change--1"
 kind = "proposition"
 title = "Finite coefficients"
-order = 791002
+order = 797002
 aliases = ["bp-r239-1"]
 +++
 Let

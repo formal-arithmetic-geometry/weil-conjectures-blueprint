@@ -2,7 +2,7 @@
 id = "prose-F-05"
 kind = "hidden"
 title = "Cartan's criterion (1)"
-order = 1721
+order = 1727
 +++
 The decomposition $\mathfrak l=Z(\mathfrak l)+[\mathfrak l,\mathfrak l]$
 fails for Lie algebras in general. Consider the algebra $\mathfrak b$ of
@@ -20,14 +20,14 @@ gives the decomposition.
 
 The derived series of a Lie algebra is
 $D^0\mathfrak l=\mathfrak l$,
-$D^{n+1}\mathfrak l=[D^n\mathfrak l,D^n\mathfrak l]$.
-The Lie algebra $\mathfrak l$ is solvable if this series reaches zero.
+$D^{n+1}\mathfrak l=[D^n\mathfrak l,D^n\mathfrak l]$, and
+$\mathfrak l$ is solvable if this series reaches zero.
 The radical $\operatorname{rad}\mathfrak l$ is the sum of all solvable
-ideals of $\mathfrak l$. An extension of solvable Lie algebras is
+ideals of $\mathfrak l$. To see that it is itself solvable, note that an extension of solvable Lie algebras is
 solvable. Indeed, if the quotient of $\mathfrak l$ by a solvable ideal is
 solvable, the derived series of $\mathfrak l$ lies in that ideal after
 finitely many steps, and then reaches zero. Hence the sum of two
 solvable ideals is solvable, and $\operatorname{rad}\mathfrak l$ is the
-largest solvable ideal of $\mathfrak l$ [humphreys72, §3.1]. We use
-three classical theorems from the same book, and we only sketch their
+largest solvable ideal of $\mathfrak l$ [humphreys72, §3.1]. From the same book we use
+three classical theorems, and we only sketch their
 proofs.

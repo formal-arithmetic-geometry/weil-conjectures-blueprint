@@ -3,7 +3,7 @@ id = "lemma-sections-geometric-fibre--1"
 kind = "lemma"
 title = "Sections over a geometric fibre (1)"
 name_showing = false
-order = 331001
+order = 332001
 aliases = ["bp-r100-1"]
 +++
 Let $f:X\to Y$ be proper, let $F$ be an étale sheaf of sets on $X$, and

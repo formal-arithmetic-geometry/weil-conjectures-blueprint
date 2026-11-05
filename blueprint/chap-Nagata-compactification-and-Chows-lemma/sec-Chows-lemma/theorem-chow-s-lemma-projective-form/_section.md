@@ -2,7 +2,7 @@
 id = "theorem-chow-s-lemma-projective-form"
 kind = "theorem"
 title = "Chow's lemma, projective form"
-order = 1462
+order = 1468
 lean = ["AlgebraicGeometry.exists_chow_finite_type", "AlgebraicGeometry.IsClosedImmersion.of_universallyClosed", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-comparison-via-relative-frobenius"
-order = 994
+order = 1000
 +++
 The only geometric fact we use is that, since $r_m$ is a universal
 homeomorphism, pullback along it is an equivalence and its unit is an
@@ -24,10 +24,10 @@ $$
 
 By topological invariance for classical objects of finite Tor amplitude, $r_m^*$
 is an equivalence, so the unit $\eta_{r_m}$ in the construction is
-an isomorphism. The first arrow is base change for compact supports, and
+an isomorphism. In the construction, the first arrow is base change for compact supports, and
 the last comes from the composition of direct images with compact support, since $r_m$ is
 proper.
-Pasting the cartesian squares defining $X'_m$ and $X'_n$, we get the
+Moreover, pasting the cartesian squares defining $X'_m$ and $X'_n$, we get the
 comparison for $m+n$, because the relative Frobenii compose and the unit of
 their composite is the composite of the units. Thus
 
@@ -59,10 +59,8 @@ intertwined.
 $y$. Since $\Phi_Y^m$ fixes $\bar y$, the fibre of $X'_m\to Y$ over
 $\bar y$ is again the fibre $X_{\bar y}$ of $f$, and $r_m$ restricts to
 a self-map of $X_{\bar y}$. For $f:\mathbf A^1\to s$ and $m=1$, for
-instance, $X'_1=\mathbf A^1$ and $r_1$ is $t\mapsto t^q$. The base
-change of $r_m$ to this fibre is its $q^m$-power scheme Frobenius,
+instance, $X'_1=\mathbf A^1$ and $r_1$ is $t\mapsto t^q$. In general, the base change of $r_m$ to this fibre is its $q^m$-power scheme Frobenius,
 and by proper base change its unit restricts to the unit on the fibre. Hence the same
 calculation identifies $\psi'_{m,\bar y}$ with the Frobenius operator
-on the cohomology with compact support of the fibre. At a rational point
-$x$ of the fibre, the restricted correspondence $\psi_m|_{X_{\bar y}}$ has
+on the cohomology with compact support of the fibre. Moreover, at a rational point $x$ of the fibre, the restricted correspondence $\psi_m|_{X_{\bar y}}$ has
 stalk map $\psi_{m,\bar x}$, by composition of pullbacks.

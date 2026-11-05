@@ -2,7 +2,7 @@
 id = "theorem-purity-real-sheaves-curves"
 kind = "theorem"
 title = "Purity of real sheaves on curves"
-order = 1160
+order = 1166
 lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_of_isConstituent_of_isReal", "AlgebraicGeometry.WeilSheaf.IsReal.exists_isPunctuallyPureOfWeight_cokernel_detWeight"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-determinant-weight", "definition-weil-representation", "definition-real-sheaves"]
 +++

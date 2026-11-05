@@ -2,7 +2,7 @@
 id = "prose-E-22"
 kind = "hidden"
 title = "Specialization of the trace class (1)"
-order = 1677
+order = 1683
 +++
 In a continuous family of maps of a compact manifold, the Lefschetz
 number does not change. The algebraic counterpart is the following

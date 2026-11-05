@@ -2,7 +2,7 @@
 id = "proposition-projective-line-rational-coefficients"
 kind = "proposition"
 title = "The projective line, rational coefficients"
-order = 600
+order = 606
 uses = ["theorem-existence-exceptional-inverse-image"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, the functor

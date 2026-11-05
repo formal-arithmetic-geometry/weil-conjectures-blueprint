@@ -3,7 +3,7 @@ id = "remark-twists-projective-line--1"
 kind = "remark"
 title = "Twists and the projective line (1)"
 name_showing = false
-order = 1570001
+order = 1576001
 aliases = ["bp-r492-1"]
 +++
 The degree identifies $H^2(C,\mu_n)$ with $\mathbf Z/n$ without any choice.

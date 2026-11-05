@@ -3,7 +3,7 @@ id = "definition-injective-acyclicity--1"
 kind = "definition"
 title = "Injective acyclicity (1)"
 name_showing = false
-order = 343001
+order = 344001
 aliases = ["bp-r105-1"]
 +++
 For a ring $\Lambda$, write $\mathrm{IA}_{\Lambda}(f)$ if for every

@@ -14,5 +14,5 @@ scheme of lattices over $X$, which is the quotient by $\mathbf Z$, is a single
 copy of $Y$. It is surjective and étale over $X$, as the lemma says, but it
 has no section. Indeed, a section would trivialize the $\mathbf Z$-torsor $Y\to X$,
 whereas $Y$ is connected and $\coprod_{\mathbf Z}X$ is not. This is
-the absence of a global lattice seen geometrically. The universal
+the absence of a global lattice seen geometrically, and the universal
 lattice lives on $Y$, where $L$ becomes constant.

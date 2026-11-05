@@ -2,7 +2,7 @@
 id = "lemma-ext-bound-lattices"
 kind = "lemma"
 title = "Ext bound for lattices"
-order = 439
+order = 444
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion with open complement
 $j:X\setminus Z\hookrightarrow X$, let $u:S\hookrightarrow Z$ be an open

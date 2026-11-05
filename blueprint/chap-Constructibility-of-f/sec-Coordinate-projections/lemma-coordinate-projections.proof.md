@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-coordinate-projections"
-order = 567
+order = 573
 +++
 Part (1) is a transcendence degree count. For part (2), note that a point
 of $Z$ has all its coordinates in the finite sets of excluded values.

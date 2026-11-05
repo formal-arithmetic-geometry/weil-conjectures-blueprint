@@ -3,7 +3,7 @@ id = "lemma-vanishing-restrictions-after-blowing-up--1"
 kind = "lemma"
 title = "Vanishing of restrictions after blowing up (1)"
 name_showing = false
-order = 972001
+order = 978001
 aliases = ["bp-r298-1"]
 +++
 Let $T$ be the strict localization of a smooth surface at a closed

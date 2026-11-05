@@ -2,7 +2,7 @@
 id = "definition-injective-acyclicity"
 kind = "definition"
 title = "Injective acyclicity"
-order = 343
+order = 344
 lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
 uses = ["definition-torsion-sheaves"]
 +++

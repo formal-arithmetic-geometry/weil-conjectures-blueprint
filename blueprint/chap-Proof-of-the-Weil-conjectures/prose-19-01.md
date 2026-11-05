@@ -2,9 +2,9 @@
 id = "prose-19-01"
 kind = "hidden"
 title = "Proof of the Weil conjectures"
-order = 1360
+order = 1366
 +++
-Deligne's theorem is an upper bound for weights, stated with $\ell$-adic
+The Deligne–Laumon theorem is an upper bound for weights, stated with $\ell$-adic
 coefficients and one embedding $\iota:\overline{\mathbf Q}_\ell\to\mathbf C$. Weil's
 conjectures ask for more: an equality $|\alpha|=q^{i/2}$, for
 polynomials $P_i$ with integer coefficients, under every complex
@@ -12,22 +12,22 @@ embedding. This section closes both gaps.
 
 The lower bound comes from Poincaré duality, and a curve shows how.
 Let $X_0$ be a smooth projective curve and $\alpha$ an eigenvalue of
-Frobenius on $H^1(X,\overline{\mathbf Q}_\ell)$. Theorem [theorem-weights-rf-shriek],
-applied to the constant sheaf, gives $|\iota(\alpha)|\le q^{1/2}$. Cup
+Frobenius on $H^1(X,\overline{\mathbf Q}_\ell)$. Then Theorem [theorem-weights-rf-shriek],
+applied to the constant sheaf, gives $|\iota(\alpha)|\le q^{1/2}$. On the other hand, cup
 product is a perfect pairing $H^1\times H^1\to H^2=\overline{\mathbf Q}_\ell(-1)$, which
-Frobenius multiplies by $q$. Hence $q/\alpha$ is an eigenvalue as well.
-The same bound for $q/\alpha$ says that $|\iota(\alpha)|\ge q^{1/2}$.
-In dimension $d$ the argument is the same. An eigenvalue $\alpha$ on
-$H^i(X,\overline{\mathbf Q}_\ell)$ satisfies $|\iota(\alpha)|\le q^{i/2}$. Duality makes
+Frobenius multiplies by $q$. Hence $q/\alpha$ is an eigenvalue as well,
+and the same bound for $q/\alpha$ says that $|\iota(\alpha)|\ge q^{1/2}$.
+In dimension $d$ the argument is the same: an eigenvalue $\alpha$ on
+$H^i(X,\overline{\mathbf Q}_\ell)$ satisfies $|\iota(\alpha)|\le q^{i/2}$, while duality makes
 $q^d/\alpha$ an eigenvalue on $H^{2d-i}$, of absolute value at most
 $q^{(2d-i)/2}$, and we find $|\iota(\alpha)|=q^{i/2}$. This equality is
-Weil's axiom (d). We prove it in Section [sec-The-Riemann-hypothesis],
+Weil's axiom (d), and we prove it in Section [sec-The-Riemann-hypothesis],
 more generally for the higher direct images of a pure lisse sheaf under
 a smooth proper morphism
-(Theorem [theorem-purity-higher-direct-images-under]). The case of
+(Theorem [theorem-purity-higher-direct-images-under]); the case of
 the constant sheaf over a point is
 Corollary [corollary-purity-cohomology-smooth-proper-variety]. Since
-Deligne's theorem holds for every $\iota$, purity holds for all complex
+the Deligne–Laumon theorem holds for every $\iota$, purity holds for all complex
 embeddings at once. Indeed, every embedding of a number field into
 $\mathbf C$ extends to an isomorphism $\overline{\mathbf Q}_\ell\simeq\mathbf C$.
 
@@ -57,7 +57,7 @@ $\ell$.
 In terms of point counts, purity gives the classical estimates. For a
 smooth proper geometrically connected $X_0$ we obtain
 $|\#X_0(\mathbf F_{q^m})-(1+q^{dm})|\le\sum_{i=1}^{2d-1}b_iq^{mi/2}$
-(Corollary [corollary-point-count-estimates]). For a curve of genus $g$
+(Corollary [corollary-point-count-estimates]). In particular, for a curve of genus $g$
 this is Weil's bound $2gq^{m/2}$, and for elliptic curves it is Hasse's
-theorem. Example [example-running-example-purity] works this out
+theorem. As an illustration, Example [example-running-example-purity] works this out
 for genus-one curves over $\mathbf F_3$.

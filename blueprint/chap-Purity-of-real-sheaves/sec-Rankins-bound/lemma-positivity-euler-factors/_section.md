@@ -2,7 +2,7 @@
 id = "lemma-positivity-euler-factors"
 kind = "lemma"
 title = "Positivity of Euler factors"
-order = 1149
+order = 1155
 lean = ["AlgebraicGeometry.WeilSheaf.IsReal.inv_localPolynomial_stalk_tensorPow_nonneg", "AlgebraicGeometry.WeilGroup.IsReal.hasNonnegCoeffs_eulerFactor_tensorPower"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-real-sheaves"]
 +++

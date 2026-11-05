@@ -2,7 +2,7 @@
 id = "proposition-proper-direct-image-constructible-complexes--6"
 kind = "proposition"
 title = "Integral coefficients"
-order = 420012
+order = 425012
 aliases = ["bp-r129-6"]
 +++
 For a cartesian square with $g:Y'\to Y$, $g':X'\to X$ and

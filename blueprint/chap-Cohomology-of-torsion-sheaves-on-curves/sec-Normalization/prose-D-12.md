@@ -2,7 +2,7 @@
 id = "prose-D-12"
 kind = "hidden"
 title = "Normalization (3)"
-order = 1593
+order = 1599
 +++
 The normalization of a curve is finite
 and is an isomorphism away from finitely many points, so the constant

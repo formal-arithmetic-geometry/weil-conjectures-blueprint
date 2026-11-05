@@ -2,7 +2,7 @@
 id = "theorem-trace-formula-euler-product"
 kind = "theorem"
 title = "The trace formula as an Euler product"
-order = 1030
+order = 1036
 lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

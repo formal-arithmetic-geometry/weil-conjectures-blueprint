@@ -3,7 +3,7 @@ id = "example-running-example-trace-formula--2"
 kind = "example"
 title = "The running example: the trace formula (2)"
 name_showing = false
-order = 1036002
+order = 1042002
 aliases = ["bp-r319-2"]
 +++
 Hence

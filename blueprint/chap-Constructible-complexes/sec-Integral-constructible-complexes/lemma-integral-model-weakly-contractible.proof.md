@@ -4,10 +4,17 @@ of = "lemma-integral-model-weakly-contractible"
 order = 242
 uses = ["proposition-milnor-sequence", "lemma-reduction-derived-nakayama", "lemma-images-cohomology-finite-levels"]
 +++
-The isomorphisms at the finite levels are not assumed compatible. We show
-that the Hom groups between the reductions satisfy the Mittag–Leffler
-condition, so that a compatible family of isomorphisms exists, and then
-lift it to $K$ by completeness.
+The hypothesis gives an isomorphism $(P^\bullet/\pi_E^n)_W\simeq K_n$ at
+each level $n$, but these isomorphisms need not be compatible with the
+reduction maps, so they do not assemble to a map into
+$K=R\varprojlim_nK_n$. What we need is a compatible family of maps, that
+is, an element of the inverse limit of the Hom groups between the
+reductions. Such an element lifts to a map
+$\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet\to K$, because $K$ is derived
+complete. To find one that is an isomorphism at level $1$, we show that
+these Hom groups satisfy the Mittag–Leffler condition with a rate $e$
+independent of $n$. Derived Nakayama then shows that the lift is an
+isomorphism.
 
 Consider the tower of complexes
 
@@ -66,7 +73,7 @@ inverse limits. The family $(\varphi_n)$ therefore lifts to a morphism
 $\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet\to K$ whose first reduction is an isomorphism.
 Since both objects are complete, derived Nakayama
 (Lemma [lemma-reduction-derived-nakayama]) shows that this morphism is an
-isomorphism. Completeness of the source follows termwise from
+isomorphism. Here completeness of the source follows termwise from
 $\mathcal O_{E,W}=\varprojlim(\mathcal O_E/\pi_E^n)_W$. Indeed, the
 transition maps are epimorphisms, so this limit agrees with the
 derived limit by Proposition [proposition-milnor-sequence].

@@ -3,7 +3,7 @@ id = "example-two-torsion-elliptic-curve--2"
 kind = "example"
 title = "Two-torsion of an elliptic curve (2)"
 name_showing = false
-order = 1551002
+order = 1557002
 aliases = ["bp-r486-2"]
 +++
 Hence $\operatorname{div}(x-e_i)=2P_i-2O$, and

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-inverse-image-tensor-product"
-order = 490
+order = 495
 uses = ["lemma-stability", "proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 The preservation statements follow from

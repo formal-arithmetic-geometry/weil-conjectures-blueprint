@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-uniqueness-maps-dense-open"
-order = 1404
+order = 1410
 +++
 The equalizer of the two maps is a closed
 subscheme of $T$, since it is the inverse image of the diagonal of $Y/S$.

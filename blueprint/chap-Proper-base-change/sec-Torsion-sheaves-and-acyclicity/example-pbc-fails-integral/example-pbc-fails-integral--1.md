@@ -3,7 +3,7 @@ id = "example-pbc-fails-integral--1"
 kind = "example"
 title = "Proper base change fails for $\\mathbf Z$ (1)"
 name_showing = false
-order = 337001
+order = 338001
 aliases = ["bp-r102-1"]
 +++
 Let $R$ be a strictly henselian discrete valuation

@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group"
 kind = "lemma"
 title = "Cohomology of the multiplicative group"
-order = 1565
+order = 1571
 lean = ["AlgebraicGeometry.IsCurve.sheafH_gmSheaf_of_smooth", "AlgebraicGeometry.IsCurve.rightDerived_globalSections_comparisonUpperStar_gmSheaf", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++

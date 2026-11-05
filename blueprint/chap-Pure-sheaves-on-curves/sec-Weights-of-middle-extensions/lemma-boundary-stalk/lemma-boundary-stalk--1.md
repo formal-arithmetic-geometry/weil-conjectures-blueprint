@@ -3,7 +3,7 @@ id = "lemma-boundary-stalk--1"
 kind = "lemma"
 title = "The boundary stalk (1)"
 name_showing = false
-order = 1167001
+order = 1173001
 aliases = ["bp-r361-1"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open in a smooth curve, let

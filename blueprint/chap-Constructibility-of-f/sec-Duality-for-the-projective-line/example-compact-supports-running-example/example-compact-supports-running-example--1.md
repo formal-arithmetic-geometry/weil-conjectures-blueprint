@@ -3,7 +3,7 @@ id = "example-compact-supports-running-example--1"
 kind = "example"
 title = "Compact supports on the running example (1)"
 name_showing = false
-order = 542001
+order = 548001
 aliases = ["bp-r165-1"]
 +++
 We use the open immersion $j_\infty:\mathbf A^1\to\mathbf P^1$ of

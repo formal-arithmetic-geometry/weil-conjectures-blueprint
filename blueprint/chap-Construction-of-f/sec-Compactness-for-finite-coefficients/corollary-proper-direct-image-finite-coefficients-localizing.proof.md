@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-proper-direct-image-finite-coefficients-localizing"
-order = 473
+order = 478
 uses = ["theorem-comparison-direct-images", "proposition-comparison-etale-derived-category"]
 +++
 On unbounded étale derived categories, proper direct image preserves

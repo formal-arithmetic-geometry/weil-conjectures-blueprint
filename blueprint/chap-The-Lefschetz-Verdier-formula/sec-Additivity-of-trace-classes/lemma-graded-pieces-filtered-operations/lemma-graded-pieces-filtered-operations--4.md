@@ -3,7 +3,7 @@ id = "lemma-graded-pieces-filtered-operations--4"
 kind = "lemma"
 title = "Graded pieces of filtered operations (4)"
 name_showing = false
-order = 924004
+order = 930004
 aliases = ["bp-r283-4"]
 +++
 Under these isomorphisms, the restriction of the filtered evaluation

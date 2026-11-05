@@ -3,7 +3,7 @@ id = "remark-non-noetherian-compactifications"
 kind = "remark"
 title = "Non-Noetherian compactifications"
 name_showing = false
-order = 1408
+order = 1414
 uses = ["proposition-extension-zero-restriction-closed-subscheme", "theorem-nagata-s-compactification-theorem"]
 +++
 The same proof works for qcqs $\overline X$ whenever

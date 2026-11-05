@@ -2,7 +2,7 @@
 id = "remark-duality-and-weights"
 kind = "remark"
 title = "Duality and weights"
-order = 1042
+order = 1048
 +++
 The functional equation is an
 identity of rational functions, not of power series at $T=0$, since

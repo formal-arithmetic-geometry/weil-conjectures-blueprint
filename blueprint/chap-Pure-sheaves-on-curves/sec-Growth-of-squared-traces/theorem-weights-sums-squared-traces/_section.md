@@ -2,7 +2,7 @@
 id = "theorem-weights-sums-squared-traces"
 kind = "theorem"
 title = "Weights and sums of squared traces"
-order = 1202
+order = 1208
 lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_eq_of_isPunctuallyPureOfWeight"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-growth-squared-traces"]
 +++

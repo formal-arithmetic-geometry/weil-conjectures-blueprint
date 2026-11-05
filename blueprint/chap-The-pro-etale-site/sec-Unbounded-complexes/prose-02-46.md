@@ -5,9 +5,9 @@ title = "Unbounded complexes (3)"
 order = 161
 +++
 Over $\overline{\mathbf F}_q$, for example, a variety of dimension $n$
-has $\ell$-cohomological dimension at most $2n$. The curve $\mathbf P^1$
+has $\ell$-cohomological dimension at most $2n$, and the curve $\mathbf P^1$
 attains this bound, since $H^2(\mathbf P^1,\mathbf Z/\ell)\neq0$. Over
-$\mathbf F_q$ one more degree is possible. For $\ell\neq p$ the
+$\mathbf F_q$, however, one more degree is possible. Indeed, for $\ell\neq p$ the
 Hochschild–Serre spectral sequence gives
 $H^3(\mathbf P^1_{\mathbf F_q},\mu_\ell)\simeq
 H^1(\operatorname{Spec}\mathbf F_q,H^2(\mathbf P^1_{\overline{\mathbf F}_q},\mu_\ell))

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-filtered-trace-morphism"
-order = 928
+order = 934
 uses = ["lemma-external-duality-trace-morphism", "lemma-graded-pieces-filtered-operations"]
 +++
 The trace morphism is the composite of four steps: the exceptional
@@ -29,7 +29,6 @@ $F^1$, and its restriction to $F^0$ factors through $\operatorname{gr}^0$.
 This factorization holds on filtered dg models, hence also in the
 filtered derived category. By Lemma [lemma-graded-pieces-filtered-operations],
 $\operatorname{gr}^0$ of the source is $\bigoplus_a\cHom(c_2^*K_a,c_1^!K_a)$.
-The steps for internal Hom and external duality preserve the two indices.
-On a pair of equal indices, evaluation along the diagonal is the
+Now the steps for internal Hom and external duality preserve the two indices, and on a pair of equal indices evaluation along the diagonal is the
 evaluation of $K_a$. Hence the map on the summand $a$ is the trace
 morphism for $K_a$.

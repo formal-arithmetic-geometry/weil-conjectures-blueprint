@@ -3,7 +3,7 @@ id = "definition-ind-constructible-sheaves--2"
 kind = "definition"
 title = "Ind-constructible sheaves (2)"
 name_showing = false
-order = 447002
+order = 452002
 aliases = ["bp-r137-2"]
 +++
 We write

@@ -2,6 +2,6 @@
 id = "sec-Reduction-to-curves"
 kind = "section"
 title = "Reduction to curves"
-order = 664
+order = 670
 uses = ["sec-The-induction-hypothesis"]
 +++

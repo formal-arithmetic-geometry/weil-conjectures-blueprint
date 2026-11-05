@@ -2,7 +2,7 @@
 id = "proposition-proper-base-change-etale-site"
 kind = "proposition"
 title = "Étale proper base change"
-order = 393
+order = 398
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper", "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion"]
 uses = ["definition-torsion-pbc-property"]
 +++

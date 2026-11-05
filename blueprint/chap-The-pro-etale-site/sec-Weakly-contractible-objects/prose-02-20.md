@@ -10,6 +10,6 @@ have this property. The affine weakly contractible objects are
 quasi-compact, quasi-separated and projective, and they cover every object.
 
 Cohomology on other objects need not vanish. For instance, a fibre product
-of two weakly contractible affines need not be weakly contractible. For this
+of two weakly contractible affines need not be weakly contractible, and for this
 reason the Čech complex of a cover by them does not in general compute
 cohomology.

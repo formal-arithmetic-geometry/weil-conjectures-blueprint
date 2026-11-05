@@ -2,7 +2,7 @@
 id = "prose-07-06"
 kind = "hidden"
 title = "Change of coefficients (4)"
-order = 633
+order = 639
 +++
 We can now define the comparison map for $f^!$. Let $f:X\to Y$ be
 separated of finite type and $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$. Then

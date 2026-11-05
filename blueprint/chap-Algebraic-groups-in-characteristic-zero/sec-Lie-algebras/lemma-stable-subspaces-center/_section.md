@@ -2,7 +2,7 @@
 id = "lemma-stable-subspaces-center"
 kind = "lemma"
 title = "Stable subspaces and the center"
-order = 1718
+order = 1724
 lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
 uses = ["lemma-normality-geometric-monodromy"]
 +++

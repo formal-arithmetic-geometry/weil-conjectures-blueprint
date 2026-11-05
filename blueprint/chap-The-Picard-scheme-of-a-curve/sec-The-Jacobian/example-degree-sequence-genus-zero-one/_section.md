@@ -2,7 +2,7 @@
 id = "example-degree-sequence-genus-zero-one"
 kind = "example"
 title = "The degree sequence in genus zero and one"
-order = 1548
+order = 1554
 +++
 On $C=\mathbf P^1_k$ a divisor $\sum_in_ia_i+n_\infty\infty$ of degree
 zero, with $a_i\in k$, is the divisor of the rational function

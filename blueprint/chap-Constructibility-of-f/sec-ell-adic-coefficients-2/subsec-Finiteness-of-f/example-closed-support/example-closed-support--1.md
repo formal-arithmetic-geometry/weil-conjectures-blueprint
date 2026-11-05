@@ -3,7 +3,7 @@ id = "example-closed-support--1"
 kind = "example"
 title = "Local cohomology at the origin of the affine line (1)"
 name_showing = false
-order = 604001
+order = 610001
 aliases = ["bp-r185-1"]
 +++
 Let $X=\mathbf A^1_k$, $k$ algebraically closed, $Z$ the origin and

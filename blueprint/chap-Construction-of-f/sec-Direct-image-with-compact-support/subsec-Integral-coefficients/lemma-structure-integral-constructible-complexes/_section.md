@@ -2,7 +2,7 @@
 id = "lemma-structure-integral-constructible-complexes"
 kind = "lemma"
 title = "Structure of integral constructible complexes"
-order = 486
+order = 491
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isConstructibleModuleObject_serre_padicIntegersRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

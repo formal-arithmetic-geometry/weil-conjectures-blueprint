@@ -3,7 +3,7 @@ id = "proposition-no-frobenius-fixed-vector--1"
 kind = "proposition"
 title = "No Frobenius-fixed vector (1)"
 name_showing = false
-order = 1506001
+order = 1512001
 aliases = ["bp-r472-1"]
 +++
 Let $A_0/\mathbf F_q$ be an abelian variety, let

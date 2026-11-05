@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-base-change--4"
 kind = "proposition"
 title = "Algebraically closed coefficients"
-order = 791008
+order = 797008
 aliases = ["bp-r239-4"]
 +++
 Let

@@ -2,7 +2,7 @@
 id = "prose-10-04"
 kind = "hidden"
 title = "Exchange formulas (3)"
-order = 822
+order = 828
 +++
 On the geometric point we have $\omega_s=\Lambda_s$, so $\delta$ is the
 evaluation map of Lemma [lemma-perfect-complexes-geometric-point].
@@ -29,8 +29,7 @@ Rf_*\cHom_X(K,f^!L)\otimes^{\mathbf L}Rf_!K
 $$
 
 of the projection formula, the counit of $f^*\dashv Rf_*$, evaluation
-and the counit $\varepsilon_f$ of $Rf_!\dashv f^!$. For $L=\omega_Y$,
-using $f^!\omega_Y=f^!a_Y^!\Lambda_s=\omega_X$, it is a map
+and the counit $\varepsilon_f$ of $Rf_!\dashv f^!$. In particular, for $L=\omega_Y$, using $f^!\omega_Y=f^!a_Y^!\Lambda_s=\omega_X$, it is a map
 $Rf_*\mathbb D_XK\to\mathbb D_YRf_!K$. The map
 $f^!\mathbb D_YL\to\mathbb D_Xf^*L$ is the tensor–Hom adjoint of the
 map $f^!\mathbb D_YL\otimes^{\mathbf L}f^*L\to f^!\omega_Y=\omega_X$

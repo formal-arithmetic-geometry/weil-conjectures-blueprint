@@ -1,12 +1,12 @@
 +++
 kind = "proof"
 of = "proposition-transitivity-trace-map"
-order = 802
+order = 808
 +++
 Each trace map is a map $\gamma$ followed by a counit. The maps $\gamma$
-compose by Proposition [proposition-compatibility-purity-composition].
-The counits compose because the counit of a composite adjunction is the
-composite of the counits. The only thing to arrange is the order of the
+compose by Proposition [proposition-compatibility-purity-composition],
+and the counits compose because the counit of a composite adjunction is the
+composite of the counits, so the only thing to arrange is the order of the
 factors.
 If we expand both traces using (9.25), naturality of $\gamma_f$
 lets us move the map $\gamma_g(K):g^{*}K(e)[2e]\to g^!K$

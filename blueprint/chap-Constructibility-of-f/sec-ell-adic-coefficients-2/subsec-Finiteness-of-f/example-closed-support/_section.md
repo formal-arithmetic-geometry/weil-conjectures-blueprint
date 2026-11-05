@@ -3,7 +3,7 @@ id = "example-closed-support"
 kind = "example"
 title = "Local cohomology at the origin of the affine line"
 name_showing = false
-order = 604
+order = 610
 uses = ["theorem-smooth-purity-all-admissible-coefficients"]
 +++
 Let $X=\mathbf A^1_k$, $k$ algebraically closed, $Z$ the origin and

@@ -3,7 +3,7 @@ id = "lemma-completed-ordinary-base-change--2"
 kind = "lemma"
 title = "Completed and ordinary base change (2)"
 name_showing = false
-order = 415002
+order = 420002
 aliases = ["bp-r128-2"]
 +++
 In

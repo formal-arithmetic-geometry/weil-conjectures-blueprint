@@ -3,7 +3,7 @@ id = "definition-relative-dualizing-complex--1"
 kind = "definition"
 title = "Relative dualizing complex (1)"
 name_showing = false
-order = 726001
+order = 732001
 aliases = ["bp-r221-1"]
 +++
 For smooth $f:X\to Y$ and any admissible $\Lambda$, the

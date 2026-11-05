@@ -14,8 +14,8 @@ $$
 
 The sheaf $j_!\Lambda_{\mathbf G_m}$ is constructible for the
 stratification $\mathbf A^1=\mathbf G_m\sqcup\{0\}$. Its stalk is
-$\Lambda$ at a geometric point of $\mathbf G_m$ and $0$ at the origin.
-It is not lisse on $\mathbf A^1$, and the sequence of part (3) is the
+$\Lambda$ at a geometric point of $\mathbf G_m$ and $0$ at the origin,
+so it is not lisse on $\mathbf A^1$, and the sequence of part (3) is the
 localization sequence
 
 $$

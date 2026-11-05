@@ -180,7 +180,7 @@ for CHAP in CHAPTERS:
         d = os.path.join(os.path.dirname(path), sid) if os.path.basename(path) != '_section.md' else os.path.dirname(path)
         if os.path.basename(path) != '_section.md':
             os.makedirs(d, exist_ok=True)
-            subprocess.run(['git', 'mv', path, os.path.join(d, '_section.md')], check=True)
+            os.replace(path, os.path.join(d, '_section.md'))
         base = int(fm['order']) * 1000
         # the pieces of the block in order: clauses, proofs, dependency lines, text
         marks = [(m.start(), m.end(), 'clause', m) for m in clause_re.finditer(content)]

@@ -2,7 +2,7 @@
 id = "definition-tensor-construction"
 kind = "definition"
 title = "Tensor construction"
-order = 1130
+order = 1136
 +++
 A *tensor construction* on a Weil representation $V$ is a
 representation obtained from $V$ and $V^\vee$ by finitely many tensor

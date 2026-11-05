@@ -3,7 +3,7 @@ id = "example-deformation-origin-line--1"
 kind = "example"
 title = "The origin in the affine line (1)"
 name_showing = false
-order = 741001
+order = 747001
 aliases = ["bp-r225-1"]
 +++
 Let $S=\operatorname{Spec}k$, $V=\mathbf A^1_k$ with coordinate $x$, and let

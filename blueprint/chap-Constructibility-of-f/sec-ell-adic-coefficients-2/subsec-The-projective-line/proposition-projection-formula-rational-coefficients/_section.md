@@ -2,7 +2,7 @@
 id = "proposition-projection-formula-rational-coefficients"
 kind = "proposition"
 title = "Projection formula with rational coefficients"
-order = 597
+order = 603
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.tensor_mem_localizingBoundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.tensor_mem_localizingBoundedConstructible_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_of_localizingBoundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_of_localizingBoundedConstructible_padicAlgClRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-projection-formula-map", "definition-localizing-subcategory"]
 +++

@@ -2,7 +2,7 @@
 id = "proposition-composition-open-restriction-compactifications-f"
 kind = "proposition"
 title = "Composition, open restriction and compactifications for $f^!$"
-order = 525
+order = 530
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp", "AlgebraicGeometry.ProEtale.exists_rightDerivedUpperShriekAdjunction_comp_eq", "AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion", "AlgebraicGeometry.Etale.existsUnique_rightDerivedUpperShriekOfCompactificationIso"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "proposition-comparison-immersions", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++

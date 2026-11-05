@@ -3,7 +3,7 @@ id = "lemma-naturality-pasting-comparison--3"
 kind = "lemma"
 title = "Naturality, pasting and comparison (3)"
 name_showing = false
-order = 323003
+order = 324003
 aliases = ["bp-r097-3"]
 +++
 For a

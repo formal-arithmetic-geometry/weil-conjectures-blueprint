@@ -3,7 +3,7 @@ id = "proposition-sp-unique-adjoint--1"
 kind = "proposition"
 title = "Uniqueness of the right adjoint of $Rf_!$ (1)"
 name_showing = false
-order = 756001
+order = 762001
 aliases = ["bp-r230-1"]
 +++
 Let $\Lambda$ be an admissible coefficient ring and let $J$ be a right adjoint of

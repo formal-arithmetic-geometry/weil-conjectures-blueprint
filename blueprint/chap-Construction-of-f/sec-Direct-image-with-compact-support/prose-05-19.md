@@ -2,7 +2,7 @@
 id = "prose-05-19"
 kind = "hidden"
 title = "Direct image with compact support"
-order = 475
+order = 480
 +++
 The trace formula needs a relative version of cohomology with compact
 supports, whose stalks are the groups $H^i_c$ of the fibres. Consider
@@ -14,10 +14,10 @@ example, for $X=\mathbf R$ and $\overline X$ the circle, we find
 $H^1_c(\mathbf R,\mathbf Z)=\mathbf Z$.
 
 The definition by sections with compact support has no direct analogue
-for schemes. Every scheme of finite type over $k$ is quasi-compact, and the
+for schemes, because every scheme of finite type over $k$ is quasi-compact, and the
 algebraic substitute for compactness is properness, which is a property
-of a morphism and not of a subset. The two-step form does carry over.
-The functor $j_!$ imposes compact support along the open immersion. For
+of a morphism and not of a subset. The two-step form, however, does carry over.
+In it, the functor $j_!$ imposes compact support along the open immersion, while for
 a proper map $p$, as for a map of spaces with compact fibres, the direct
 image with compact supports is the ordinary direct image $Rp_*$. By
 proper base change, the result does not depend on the compactification

@@ -2,7 +2,7 @@
 id = "example-contracting-squaring"
 kind = "example"
 title = "Squaring on the line"
-order = 1693
+order = 1699
 uses = ["corollary-contracting-local-terms-point"]
 +++
 Let $X=C=\mathbf A^1=\operatorname{Spec}k[x]$, let $Z$ be the origin,
@@ -14,12 +14,12 @@ the two reduced points $0$ and $1$, and only the first meets $Z$.
 The deformation to the normal cone is
 $\operatorname{Spec}k[t]_{(t)}[x,x/t]$. This is the constant family
 $\mathbf A^1_T$ in the coordinate $x'=x/t$. In this coordinate the first
-leg is the identity and the second is $x'\mapsto x^2/t=tx'^2$. On the
-special fibre $t=0$ the second leg is the constant map to $0$, as (2) of
+leg is the identity and the second is $x'\mapsto x^2/t=tx'^2$. Hence, on the
+special fibre $t=0$, the second leg is the constant map to $0$, as (2) of
 the lemma predicts, and the deformed fixed scheme there is the point
-$x'=0$. On the generic fibre there are two fixed points. One is $x'=0$,
-the constant family of the origin. The other is $x'=1/t$, the point
-$x=1$. It leaves every bounded region of the $x'$-line as $t\to0$, and
+$x'=0$. On the generic fibre, by contrast, there are two fixed points: one is $x'=0$,
+the constant family of the origin, and the other is $x'=1/t$, the point
+$x=1$. This second point leaves every bounded region of the $x'$-line as $t\to0$, and
 so it does not reach the special fibre.
 
 Corollary [corollary-contracting-local-terms-point] below therefore

@@ -3,7 +3,7 @@ id = "lemma-determinant-weight-from-central-scalar--1"
 kind = "lemma"
 title = "Determinant weight from a central scalar (1)"
 name_showing = false
-order = 1136001
+order = 1142001
 aliases = ["bp-r351-1"]
 +++
 In the setting of Proposition [proposition-central-element-arithmetic-monodromy-group], let $Q$

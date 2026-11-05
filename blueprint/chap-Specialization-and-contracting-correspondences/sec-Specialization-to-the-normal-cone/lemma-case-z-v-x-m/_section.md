@@ -2,7 +2,7 @@
 id = "lemma-case-z-v-x-m"
 kind = "lemma"
 title = "The case $Z=V(x^m)\\subset\\mathbf A^1$"
-order = 1627
+order = 1633
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_polyAffineThickOrigin_unit_finiteCoefficient", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_polyAffineThickOrigin_unit_padicAlgCl"]
 uses = ["definition-small-pro-etale-site"]
 +++

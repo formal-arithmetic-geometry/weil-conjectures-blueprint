@@ -2,7 +2,7 @@
 id = "corollary-trace-functions-direct-image-compact"
 kind = "corollary"
 title = "Trace functions and direct image with compact support"
-order = 1018
+order = 1024
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
 uses = ["definition-weil-structure", "definition-trace-function"]
 +++

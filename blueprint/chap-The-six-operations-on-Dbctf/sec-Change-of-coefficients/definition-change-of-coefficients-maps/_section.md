@@ -2,7 +2,7 @@
 id = "definition-change-of-coefficients-maps"
 kind = "definition"
 title = "Change-of-coefficients maps"
-order = 625
+order = 631
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-compactification-refinement"]
 +++

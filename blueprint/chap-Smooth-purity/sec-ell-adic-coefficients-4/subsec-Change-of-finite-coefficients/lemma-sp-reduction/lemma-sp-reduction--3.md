@@ -2,7 +2,7 @@
 id = "lemma-sp-reduction--3"
 kind = "lemma"
 title = "Counit characterization"
-order = 762004
+order = 768004
 aliases = ["bp-r232-3"]
 +++
 The preceding comparison $c_{A,B}(K)$ is determined by

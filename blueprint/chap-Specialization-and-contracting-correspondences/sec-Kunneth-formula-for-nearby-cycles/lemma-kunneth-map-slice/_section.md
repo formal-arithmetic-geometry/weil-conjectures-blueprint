@@ -2,7 +2,7 @@
 id = "lemma-kunneth-map-slice"
 kind = "lemma"
 title = "The Künneth map on a slice"
-order = 1648
+order = 1654
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_residueField", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_padicIntegers"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++

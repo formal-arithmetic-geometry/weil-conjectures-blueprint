@@ -3,7 +3,7 @@ id = "definition-categorical-trace--2"
 kind = "definition"
 title = "Categorical trace (2)"
 name_showing = false
-order = 887002
+order = 893002
 aliases = ["bp-r269-2"]
 +++
 If $v:P\to P$ is a morphism in $D(A)$, its trace is the scalar

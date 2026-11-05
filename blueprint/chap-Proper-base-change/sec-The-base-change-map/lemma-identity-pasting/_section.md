@@ -2,7 +2,7 @@
 id = "lemma-identity-pasting"
 kind = "lemma"
 title = "Identity and pasting"
-order = 318
+order = 319
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 uses = ["definition-derived-base-change-map"]
 +++

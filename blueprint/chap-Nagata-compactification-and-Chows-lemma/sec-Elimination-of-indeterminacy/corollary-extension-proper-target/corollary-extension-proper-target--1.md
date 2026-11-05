@@ -3,7 +3,7 @@ id = "corollary-extension-proper-target--1"
 kind = "corollary"
 title = "Extension to a proper target (1)"
 name_showing = false
-order = 1434001
+order = 1440001
 aliases = ["bp-r449-1"]
 +++
 Let $X$ be qcqs over $S$, let $U\subseteq X$ be a dense

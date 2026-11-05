@@ -2,7 +2,7 @@
 id = "lemma-compatibilities-base-change-maps"
 kind = "lemma"
 title = "Base change maps and the projection formula"
-order = 1653
+order = 1659
 lean = ["CategoryTheory.whiskerRight_comp_μ_comp_map_comp_mateEquiv_app"]
 +++
 Let $f:V\to W$ be a morphism of separated $S$-schemes of finite type,

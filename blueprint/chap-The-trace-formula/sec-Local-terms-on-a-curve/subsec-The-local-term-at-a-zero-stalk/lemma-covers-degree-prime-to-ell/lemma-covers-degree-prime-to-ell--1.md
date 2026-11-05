@@ -3,7 +3,7 @@ id = "lemma-covers-degree-prime-to-ell--1"
 kind = "lemma"
 title = "Covers of degree prime to $\\ell$ (1)"
 name_showing = false
-order = 976001
+order = 982001
 aliases = ["bp-r299-1"]
 +++
 Let $S$ be the strict localization of a smooth curve over the

@@ -3,7 +3,7 @@ id = "proposition-proper-direct-image-finite-coefficients--1"
 kind = "proposition"
 title = "Proper direct image for finite coefficients (1)"
 name_showing = false
-order = 405001
+order = 410001
 aliases = ["bp-r124-1"]
 +++
 Let $A$ be a finite admissible ring, and let $p:X\to Y$ be a proper

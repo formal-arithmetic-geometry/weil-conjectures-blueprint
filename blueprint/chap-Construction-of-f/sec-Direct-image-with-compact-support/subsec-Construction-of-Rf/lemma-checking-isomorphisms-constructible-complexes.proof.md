@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-checking-isomorphisms-constructible-complexes"
-order = 501
+order = 506
 uses = ["definition-localizing-subcategory"]
 +++
 The objects $K$ for which $\eta_K$ is an isomorphism are closed under

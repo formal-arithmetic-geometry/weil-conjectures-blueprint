@@ -2,7 +2,7 @@
 id = "proposition-composition-base-change-rf-shriek"
 kind = "proposition"
 title = "Composition and base change for $Rf_!$"
-order = 511
+order = 516
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso_assoc", "AlgebraicGeometry.Etale.isIso_derivedPlusFormalism_baseChange_and_shriekBaseChange"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
@@ -17,4 +17,5 @@ $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$ and restrict to $D^b_{\mathrm{ctf}}(-,\Lam
    along $v$, and $u:X'\to X$ the projection. The base change map
    (5.8) is an isomorphism
    $v^*Rf_!\simeq Rf'_!u^*$. It does not depend on the compactification, and
-   it is compatible with composing cartesian squares.
+   it is compatible with composing cartesian squares and with the
+   composition isomorphisms of (1).

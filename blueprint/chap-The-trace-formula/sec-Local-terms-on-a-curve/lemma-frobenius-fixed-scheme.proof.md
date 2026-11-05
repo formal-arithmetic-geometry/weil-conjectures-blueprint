@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-frobenius-fixed-scheme"
-order = 954
+order = 960
 +++
 We reduce to a closed subscheme of affine space, where the equations
 $t^{q^m}=t$ have simple roots.

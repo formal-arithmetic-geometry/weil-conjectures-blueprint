@@ -2,7 +2,7 @@
 id = "proposition-cartier-s-theorem"
 kind = "proposition"
 title = "Cartier's theorem"
-order = 1711
+order = 1717
 lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim", "AlgebraicGeometry.GeneralLinearGroup.finrank_lie_eq_ringKrullDim", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivIdentityComponent"]
 uses = ["lemma-connected-components-images-homomorphisms"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-reduction-finitely-many-degrees"
 kind = "lemma"
 title = "Reduction to finitely many degrees"
-order = 458
+order = 463
 uses = ["lemma-uniform-ext-bound"]
 +++
 Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in

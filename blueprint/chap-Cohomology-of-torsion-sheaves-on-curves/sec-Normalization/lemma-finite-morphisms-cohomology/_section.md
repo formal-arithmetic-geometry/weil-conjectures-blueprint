@@ -2,7 +2,7 @@
 id = "lemma-finite-morphisms-cohomology"
 kind = "lemma"
 title = "Finite morphisms and cohomology"
-order = 1588
+order = 1594
 lean = ["AlgebraicGeometry.Etale.rightDerivedFunctorLowerStarIsoMapDerivedCategory"]
 uses = ["lemma-finite-morphisms"]
 +++

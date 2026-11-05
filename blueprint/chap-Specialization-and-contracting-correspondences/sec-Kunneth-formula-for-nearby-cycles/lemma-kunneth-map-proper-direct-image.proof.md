@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-kunneth-map-proper-direct-image"
-order = 1640
+order = 1646
 uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Write the two product maps in terms of the

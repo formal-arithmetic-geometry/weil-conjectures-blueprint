@@ -3,7 +3,7 @@ id = "lemma-kunneth-map-slice--1"
 kind = "lemma"
 title = "The Künneth map on a slice (1)"
 name_showing = false
-order = 1648001
+order = 1654001
 aliases = ["bp-r514-1"]
 +++
 In the situation just described, let $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$

@@ -2,13 +2,13 @@
 id = "prose-D-16"
 kind = "hidden"
 title = "Reduction to constant coefficients (1)"
-order = 1603
+order = 1609
 +++
 We reduce a local system to constant sheaves by pulling it back along
-a cover of degree prime to $\ell$, on which it becomes unipotent. A local
+a cover of degree prime to $\ell$, on which it becomes unipotent. To find such a cover, note that a local
 system of finite $\mathbf F_\ell$-vector spaces has finite
 monodromy: the fundamental group acts on a fibre through a
-finite quotient. The local system becomes a successive extension of
+finite quotient. The local system then becomes a successive extension of
 constant sheaves on the cover defined by an $\ell$-Sylow subgroup of the
 monodromy group.
 

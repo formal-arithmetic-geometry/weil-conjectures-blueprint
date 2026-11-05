@@ -3,7 +3,7 @@ id = "definition-change-of-coefficients-maps--5"
 kind = "definition"
 title = "Change-of-coefficients maps (5)"
 name_showing = false
-order = 625006
+order = 631006
 aliases = ["bp-r191-5"]
 +++
 If $f$ is separated, $f=p\circ j$ is a compactification and

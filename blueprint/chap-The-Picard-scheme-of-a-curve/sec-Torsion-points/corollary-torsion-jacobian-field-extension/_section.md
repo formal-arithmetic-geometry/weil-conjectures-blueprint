@@ -2,7 +2,7 @@
 id = "corollary-torsion-jacobian-field-extension"
 kind = "corollary"
 title = "Torsion of the Jacobian and field extension"
-order = 1552
+order = 1558
 lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.jacobian_compatibility", "AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.Scheme.ker_picDegreeMod"]
 uses = ["definition-abelian-variety", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-sections-geometric-fibre"
-order = 332
+order = 333
 uses = ["theorem-comparison-over-henselian-pair-degree"]
 +++
 Let $y\in Y$ be the image of $\bar y$, let
@@ -15,15 +15,15 @@ $$
 
 For quasi-compact quasi-separated $f$ this holds by continuity of étale
 sections ([Stacks, [03Q9](https://stacks.math.columbia.edu/tag/03Q9)], whose proof in degree zero applies to sheaves
-of sets). By definition, the stalk $(f_*F)_{\bar y}$ is the filtered colimit of
+of sets). To recall the argument: by definition, the stalk $(f_*F)_{\bar y}$ is the filtered colimit of
 $\Gamma(X\times_YV,F|)$ over pointed affine étale neighbourhoods $V$
 of $\bar y$, where $F|$ denotes the inverse image of $F$. Since the limit
 of these neighbourhoods is $Y_{(\bar y)}$, there is a natural map from
-the colimit to the sections over $X_{(\bar y)}$. We must see that it is
+the colimit to the sections over $X_{(\bar y)}$, and we must see that it is
 bijective. A section over the limit is represented by finitely many
 covering objects and finitely many agreement conditions, because
-$X_{(\bar y)}$ is quasi-compact and quasi-separated. All these data are of
-finite presentation, so they descend to one neighbourhood. This proves
+$X_{(\bar y)}$ is quasi-compact and quasi-separated. Since all these data are of
+finite presentation, they descend to one neighbourhood. This proves
 surjectivity, and the same descent for two representatives proves
 injectivity.
 

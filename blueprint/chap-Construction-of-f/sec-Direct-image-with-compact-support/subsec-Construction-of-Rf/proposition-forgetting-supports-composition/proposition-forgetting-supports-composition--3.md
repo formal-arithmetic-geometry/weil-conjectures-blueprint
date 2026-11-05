@@ -3,7 +3,7 @@ id = "proposition-forgetting-supports-composition--3"
 kind = "proposition"
 title = "Forgetting supports and composition (3)"
 name_showing = false
-order = 514003
+order = 519003
 aliases = ["bp-r158-3"]
 +++
 If $f$ is proper, $\eta_f$

@@ -2,13 +2,13 @@
 id = "prose-E-01"
 kind = "hidden"
 title = "Specialization and contracting correspondences"
-order = 1611
+order = 1617
 +++
 The trace formula needs the local term at an isolated fixed point to be
 the trace on the stalk. This is not a formal fact. A local term is
 computed from $\cHom(c_2^*K,c_1^!K)$ near the fixed point, and the stalk
 does not determine this complex (Remark [remark-locality-warning]).
-Section [chap-The-trace-formula] proves the equality by a computation
+Instead, Section [chap-The-trace-formula] proves the equality by a computation
 for Frobenius on a smooth curve
 (Proposition [proposition-frobenius-local-term-curve]) and reduces
 everything else to that case. In particular, its trace formula
@@ -20,7 +20,7 @@ suggests that the reason is contraction. If a map $\varphi$ of a manifold
 contracts a neighbourhood of a fixed point $y$ into itself, then the local
 index at $y$ is $1$. With coefficients in a sheaf, the local index is the
 trace of $\varphi$ on the stalk at $y$. Frobenius contracts in the
-strongest possible sense, because its differential is zero. In this
+strongest possible sense: its differential is zero. In this
 appendix we make this explanation into a theorem, in any dimension and
 for a whole class of correspondences at once.
 
@@ -29,7 +29,7 @@ $c=(c_1,c_2):C\to X\times X$ be a correspondence, $Z\subset X$ a closed
 subscheme with ideal $I$, and put $I_i=c_i^{-1}(I)\mathcal O_C$. We say,
 as in [varshavsky05], that $c$ contracts towards $Z$ if
 $I_2\subset I_1$ and $I_2^n\subset I_1^{n+1}$ for some $n\geq1$.
-Frobenius is the model case. Take $c=(\mathrm{id},\Phi_X^m)$ and $Z$ a
+Frobenius is the model case. Indeed, take $c=(\mathrm{id},\Phi_X^m)$ and $Z$ a
 point $y\in X_0(\mathbf F_{q^m})$, and choose coordinates $x_i$ of an
 affine neighbourhood of $y$ defined over $\mathbf F_q$. Then $y$ has
 coordinates $a_i\in\mathbf F_{q^m}$, and
@@ -77,12 +77,12 @@ trace classes of Section [chap-The-Lefschetz-Verdier-formula], and classical
 results on nearby cycles over a trait, which we recall where they are
 first needed. Throughout this appendix, $k$ is algebraically closed,
 $\ell$ is invertible in $k$, and $A$ is a finite commutative ring
-annihilated by a power of $\ell$. The only exception is the base of
+annihilated by a power of $\ell$. The only exception to these conventions is the base of
 nearby cycles in
 Sections [sec-Kunneth-formula-for-nearby-cycles]–[sec-Specialization-of-the-trace-class], which
 may be any excellent strictly henselian trait, with residue field only
-separably closed. Statements about constructible
-complexes on $k$-schemes are made on the pro-étale site. We construct
+separably closed. As in the rest of the notes, statements about constructible
+complexes on $k$-schemes are made on the pro-étale site, but we construct
 nearby cycles on the classical étale site and transport them by the
 comparison for constructible complexes
 (Theorem [theorem-comparison-constructible-sheaves] and

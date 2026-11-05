@@ -2,13 +2,11 @@
 id = "prose-05-27"
 kind = "hidden"
 title = "Construction of $Rf_!$ (1)"
-order = 496
+order = 501
 +++
 From now on, $\Lambda$ is any admissible coefficient ring.
-Lemmas [lemma-uniform-bound-proper-direct-image] and [lemma-proper-direct-image-unbounded-complexes]
-treat $E$ and $\overline{\mathbf Q}_\ell$. We use them only through the fact that $Rp_*$ preserves direct
-sums for proper $p$. For finite and integral rings this fact has its own
-proof, recalled in the next proof.
+Lemmas [lemma-uniform-bound-proper-direct-image] and [lemma-proper-direct-image-unbounded-complexes] only treat $E$ and $\overline{\mathbf Q}_\ell$, but we use them only through the fact that $Rp_*$ preserves direct
+sums for proper $p$. For finite and integral coefficients this fact was proved separately, and the next proof collects the references.
 
 Proper base change shows, by one and the same argument, that $Rp_*\circ j_!$
 does not depend on the compactification and is compatible with

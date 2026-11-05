@@ -2,7 +2,7 @@
 id = "corollary-contracting-local-terms-point"
 kind = "corollary"
 title = "Contracting local terms at a point"
-order = 1704
+order = 1710
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_eq_integral_of_isContractingAt", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_ofGraph_eq_trace_of_isContractingAt"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-correspondence", "definition-frobenius-correspondences-their-operators"]
 +++
@@ -22,7 +22,7 @@ $$
 Then for every $K\in D^b_{\mathrm{ctf}}(X,A)$ and every morphism
 $u:c_2^*K\to c_1^!K$, the local term at $F_0$ is the categorical
 trace of the restriction $u_Z$ to $Z=\{y\}$ of $u$ restricted to
-that neighbourhood, defined in (E.22). In particular, for
+that neighbourhood, defined in (E.21). In particular, for
 $c=(\operatorname{id}_X,h)$,
 
 $$

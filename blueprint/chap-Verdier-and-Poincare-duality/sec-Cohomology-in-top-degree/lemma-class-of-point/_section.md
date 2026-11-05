@@ -2,7 +2,7 @@
 id = "lemma-class-of-point"
 kind = "lemma"
 title = "The class of a point"
-order = 862
+order = 868
 lean = ["AlgebraicGeometry.Etale.exists_tateOrientation_traceMap_pointClass"]
 uses = ["definition-relative-dualizing-complex"]
 +++

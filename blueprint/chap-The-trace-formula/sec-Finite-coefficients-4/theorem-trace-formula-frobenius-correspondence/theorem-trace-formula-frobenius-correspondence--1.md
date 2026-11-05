@@ -3,7 +3,7 @@ id = "theorem-trace-formula-frobenius-correspondence--1"
 kind = "theorem"
 title = "Trace formula for a Frobenius correspondence (1)"
 name_showing = false
-order = 1000001
+order = 1006001
 aliases = ["bp-r307-1"]
 +++
 Let $X_0/\mathbf F_q$ be separated and of finite type, put

@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators--3"
 kind = "definition"
 title = "Frobenius correspondences and their operators (3)"
 name_showing = false
-order = 945003
+order = 951003
 aliases = ["bp-r289-3"]
 +++
 A *Frobenius

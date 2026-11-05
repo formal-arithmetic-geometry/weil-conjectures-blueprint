@@ -3,7 +3,7 @@ id = "lemma-degree-zero-top-cohomology--1"
 kind = "lemma"
 title = "Degree zero and top cohomology (1)"
 name_showing = false
-order = 1144001
+order = 1150001
 aliases = ["bp-r353-1"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected curve, let

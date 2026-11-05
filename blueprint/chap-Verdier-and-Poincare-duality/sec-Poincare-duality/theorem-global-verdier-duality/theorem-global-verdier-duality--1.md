@@ -3,7 +3,7 @@ id = "theorem-global-verdier-duality--1"
 kind = "theorem"
 title = "Global Verdier duality (1)"
 name_showing = false
-order = 845001
+order = 851001
 aliases = ["bp-r255-1"]
 +++
 Suppose $k$ is algebraically closed. For every
