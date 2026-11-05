@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-affine-covers-dense-intersection"
 order = 1463
-uses = ["lemma-schematic-closure-uniqueness"]
 +++
 The scheme $X$ has finitely many irreducible components.
 By [Stacks, [01ZX](https://stacks.math.columbia.edu/tag/01ZX)], every point of $X$ has an affine open neighbourhood

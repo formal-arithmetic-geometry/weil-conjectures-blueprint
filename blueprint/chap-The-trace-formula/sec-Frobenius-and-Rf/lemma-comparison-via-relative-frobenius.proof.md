@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-via-relative-frobenius"
 order = 1000
+uses = ["proposition-w-local-components"]
 +++
 The only geometric fact we use is that, since $r_m$ is a universal
 homeomorphism, pullback along it is an equivalence and its unit is an

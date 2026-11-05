@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-bound-largest-determinant-weight"
 order = 1163
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights", "proposition-determinant-weights-tensor-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "corollary-determinant-weights", "proposition-determinant-weights-tensor-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 We bound the poles of $L(U_0,\mathcal G^{\otimes2m},t)$ by determinant
 weights through $H^2_c$, and positivity then passes the bound to each local

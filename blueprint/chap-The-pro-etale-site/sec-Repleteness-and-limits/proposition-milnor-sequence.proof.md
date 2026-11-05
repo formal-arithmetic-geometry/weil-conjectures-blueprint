@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-milnor-sequence"
 order = 92
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "corollary-evaluation-weakly-contractible-objects", "proposition-exact-products"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-weak-contractibility", "corollary-evaluation-weakly-contractible-objects", "proposition-exact-products"]
 +++
 Everything follows from the triangle (2.1). Indeed, for a tower of
 modules, $R\varprojlim_nM_n$ is the fibre of a map between two sheaves in

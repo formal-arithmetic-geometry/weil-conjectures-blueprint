@@ -4,6 +4,7 @@ kind = "proposition"
 title = "$H^1$ of a curve and the Tate module of its Jacobian"
 order = 1565
 lean = ["AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_restrictMuH", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_map_rootsOfUnityPowMap", "AlgebraicGeometry.JacobianTorsionDatum.exists_kummerEquiv_eq"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "proposition-kummer-duality-integral-tate-module", "lemma-schematic-closure-uniqueness", "definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-relative-picard-functor"]
 +++
 In the preceding setting, suppose $\ell$ is invertible in $k$.
 For every $n\geq1$ there is a canonical

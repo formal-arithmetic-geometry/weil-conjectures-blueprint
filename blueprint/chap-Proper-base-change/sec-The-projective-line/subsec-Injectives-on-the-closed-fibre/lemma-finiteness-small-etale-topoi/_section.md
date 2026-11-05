@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Finiteness facts on $\\mathbf P^1_R$"
 order = 369
 lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar"]
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 aliases = ["remark-finiteness-small-etale-topoi"]
 +++
 1. A sheaf of $\mathbf F_\ell$-modules on $\mathbf P^1_{R,\acute{e}t}$ is a filtered

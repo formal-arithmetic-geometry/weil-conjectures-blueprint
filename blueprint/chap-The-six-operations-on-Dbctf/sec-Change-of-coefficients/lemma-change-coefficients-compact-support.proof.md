@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-compact-support"
 order = 638
-uses = ["definition-change-of-coefficients-maps", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["theorem-comparison-direct-images", "proposition-inverting-ell", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site"]
 +++
 The map is the composite of the isomorphism of
 Lemma [lemma-change-coefficients-direct-image] for $p$, applied to

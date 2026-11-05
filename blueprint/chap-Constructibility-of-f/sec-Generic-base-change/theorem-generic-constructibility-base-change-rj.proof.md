@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-generic-constructibility-base-change-rj"
 order = 583
-uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "lemma-smooth-morphisms-locally-constant-sheaves", "lemma-detection-proper-direct-image", "lemma-coordinate-projections", "lemma-generic-smooth-open", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-finite-morphisms-cohomology"]
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "lemma-smooth-morphisms-locally-constant-sheaves", "lemma-coordinate-projections", "lemma-extension-across-finite-subset", "lemma-generic-smooth-open", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 We work with the étale sheaf corresponding to $F$, in
 $D^+(-_{\acute{e}t},\Fell)$, and prove (6.19) and $\beta_T$

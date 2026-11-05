@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas"
 order = 830
-uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-comparison-etale-derived-category", "proposition-forgetting-supports-composition"]
+uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-composition-base-change-rf-shriek", "lemma-change-coefficients"]
 +++
 We check each isomorphism by Yoneda. After applying
 $\Hom(N,-)$, we identify both sides with the same Hom group by the

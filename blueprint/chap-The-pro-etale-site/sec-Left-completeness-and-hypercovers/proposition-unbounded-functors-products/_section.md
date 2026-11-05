@@ -5,7 +5,7 @@ title = "Unbounded derived functors preserve products and limits"
 name_showing = false
 order = 100
 lean = ["AlgebraicGeometry.ProEtale.isDerivedLimitTriangle_rightDerivedLowerStar"]
-uses = ["definition-small-pro-etale-site"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $U$ be an object of $X_{\mathrm{pro}\acute{e}t}$ and $f:X\to Y$ a morphism of
 schemes. The functor $R\Gamma(U,-)$, and the functor $Rf_*$ from

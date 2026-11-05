@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-kunneth-finite-direct-image"
 order = 712
-uses = ["lemma-base-change-along-product-projection"]
 +++
 Both sides are additive in $Q$, so we may assume $Q=\pi_*A_{T'}$. Set
 

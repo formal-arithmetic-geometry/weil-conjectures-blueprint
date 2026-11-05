@@ -4,7 +4,7 @@ kind = "proposition"
 title = "External Künneth formula for nearby cycles"
 order = 1643
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_kunnethMap", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.kunnethFormula"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves"]
 +++
 Let $X,Y$ be separated of finite type over $S$, and let
 $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$ and

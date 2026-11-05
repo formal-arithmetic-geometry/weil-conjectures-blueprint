@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-perverse-sheaves-curve"
 order = 1250
+uses = ["lemma-largest-punctual-subsheaf"]
 +++
 The truncation triangle of $K$ splits $\mathcal H^0K$ into its largest
 punctual subsheaf, which goes into ${}^pD^{\le0}$, and the quotient,

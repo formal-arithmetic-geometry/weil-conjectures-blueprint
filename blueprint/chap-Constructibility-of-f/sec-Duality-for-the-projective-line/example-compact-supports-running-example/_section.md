@@ -3,7 +3,6 @@ id = "example-compact-supports-running-example"
 kind = "example"
 title = "Compact supports on the running example"
 order = 548
-uses = ["example-running-example"]
 +++
 We use the open immersion $j_\infty:\mathbf A^1\to\mathbf P^1$ of
 Example [example-running-example], base changed to $\bar k$, and we let

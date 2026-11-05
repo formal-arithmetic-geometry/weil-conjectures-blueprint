@@ -4,7 +4,7 @@ kind = "definition"
 title = "Weak contractibility"
 order = 75
 lean = ["CategoryTheory.GrothendieckTopology.IsWeaklyContractible", "AlgebraicGeometry.Scheme.proetale_weakContractible_equivalences"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-w-local-w-strictly-local", "lemma-w-contractible-affines-projective"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "lemma-w-contractible-affines-projective"]
 +++
 An object $W$ of $X_{\mathrm{pro}\acute{e}t}$ is *weakly contractible* if every
 epimorphism of sheaves of sets $F\to h_W$ admits a section, where $h_W$

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-coefficient-sheaves"
 order = 188
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image"]
 +++
 (1) For every condensed ring $\Lambda$, the identity $p_Y\circ f=p_X$
 shows that

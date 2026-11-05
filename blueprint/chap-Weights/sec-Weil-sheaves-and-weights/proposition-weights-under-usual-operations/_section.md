@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Weights under the usual operations"
 order = 1070
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_mono", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_epi", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_epi", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tensorObj", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.dual", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.upperStar", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.shift", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.constantTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.constantTwist", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.tateTwist"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-weights"]
 +++
 Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of
 weight $w$.  Subquotients and extensions of mixed sheaves are mixed,

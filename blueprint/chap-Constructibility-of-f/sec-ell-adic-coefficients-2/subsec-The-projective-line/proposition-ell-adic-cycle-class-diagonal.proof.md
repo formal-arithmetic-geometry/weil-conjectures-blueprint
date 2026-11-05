@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-ell-adic-cycle-class-diagonal"
 order = 601
-uses = ["proposition-repleteness-pro-etale-topos", "proposition-exact-products", "corollary-continuity-cohomology", "lemma-inverse-image-coefficient-sheaves", "proposition-adjunction-projective-line"]
 +++
 The cycle class comes from a single map defined with
 $\mathbf Z$-coefficients, the boundary of the divisor sequence. Hence all

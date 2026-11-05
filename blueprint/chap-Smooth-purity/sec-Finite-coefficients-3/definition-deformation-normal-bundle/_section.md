@@ -4,7 +4,7 @@ kind = "definition"
 title = "Deformation to the normal bundle"
 order = 745
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.deformationSpace", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
-uses = ["proposition-comparison-morphism-inverse-image", "definition-compactification-refinement"]
+uses = ["definition-compactification-refinement"]
 +++
 The *deformation to the normal bundle* of $s$ is the open subscheme
 $\mathcal D_{s(S)}V$ of the blowup of $V\times\mathbf A^1$ along

@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Fourier transform and the perverse heart"
 order = 1260
 lean = ["AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff", "AlgebraicGeometry.isCurvePerverseLE_fourierTransform_obj", "AlgebraicGeometry.isCurvePerverseLE_fourierTransform_inv_obj"]
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "lemma-artin-schreier-character-sheaf", "lemma-integral-linear-character", "definition-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "lemma-artin-schreier-character-sheaf", "proposition-fourier-inversion", "definition-perverse-sheaves-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 On the geometric affine line, $\operatorname{FT}_\psi$ is a t-exact
 equivalence of bounded constructible derived categories for the

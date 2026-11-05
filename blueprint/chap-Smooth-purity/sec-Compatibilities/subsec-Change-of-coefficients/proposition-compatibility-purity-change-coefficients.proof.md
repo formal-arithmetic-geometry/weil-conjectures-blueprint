@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-compatibility-purity-change-coefficients"
 order = 812
-uses = ["proposition-sp-tower-geometric"]
 +++
 Both kinds of comparison maps are compatible with composition of coefficient
 maps, so it suffices to treat the elementary maps in the list of

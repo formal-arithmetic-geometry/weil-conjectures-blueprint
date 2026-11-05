@@ -3,7 +3,7 @@ id = "theorem-picard-scheme-jacobian-over-separably"
 kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field"
 order = 1549
-lean = ["AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.GrpObj.isSeparated_hom", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange", "AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback"]
+lean = ["AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.GrpObj.isSeparated_hom", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange", "AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange"]
 uses = ["definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper

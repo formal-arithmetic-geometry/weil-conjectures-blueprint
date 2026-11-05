@@ -3,7 +3,6 @@ id = "example-running-example-duality"
 kind = "example"
 title = "The running example: duality"
 order = 888
-uses = ["corollary-cup-product-pairing", "theorem-poincare-duality-frobenius", "proposition-kummer-duality-integral-tate-module", "corollary-torsion-jacobian-field-extension"]
 +++
 Let $C_0\colon y^2=x^3-x$ over $\mathbf F_3$ be the elliptic curve of
 the introduction, and $C=C_0\times_{\mathbf F_3}k$. Since $C$ has genus

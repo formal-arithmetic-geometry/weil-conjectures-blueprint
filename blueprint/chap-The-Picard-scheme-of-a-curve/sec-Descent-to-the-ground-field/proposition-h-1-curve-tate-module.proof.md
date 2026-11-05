@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-h-1-curve-tate-module"
 order = 1566
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
+uses = ["definition-compactification-refinement", "definition-tate-module", "proposition-integral-tate-module", "corollary-degree-jacobian", "proposition-jacobian-over-ground-field"]
 +++
 The isomorphism comes from the Kummer sequence and the identification
 of the preceding proposition. The point is that both are compatible with

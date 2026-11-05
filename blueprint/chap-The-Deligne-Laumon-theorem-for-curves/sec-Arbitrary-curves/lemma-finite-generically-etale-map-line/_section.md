@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A finite generically étale map to the line"
 order = 1309
 lean = ["AlgebraicGeometry.AffineSpace.exists_isOpenImmersion_isFinite_etale_morphismRestrict", "AlgebraicGeometry.WeilSheaf.isLisse_and_isPunctuallyPureOfWeight_upperStar_lowerStar_extensionByZero", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_lowerStar_extensionByZero"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve. There
 are a smooth curve $C'_0$ containing $C_0$ with finite complement

@@ -4,7 +4,7 @@ kind = "definition"
 title = "Change-of-coefficients maps"
 order = 631
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-compactification-refinement"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps listed above, and let
 $f:X\to Y$ be a morphism of schemes of finite type over $k$.

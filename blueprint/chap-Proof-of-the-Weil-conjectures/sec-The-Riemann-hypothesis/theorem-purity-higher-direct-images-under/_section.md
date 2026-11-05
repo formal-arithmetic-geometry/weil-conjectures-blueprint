@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Purity of higher direct images under a smooth proper morphism"
 order = 1369
 lean = ["AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity", "AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStarOfIsProper"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $f_0:X_0\to Y_0$ be smooth proper of pure relative dimension $d$,
 and let $F$ be a lisse Weil sheaf, punctually $\iota$-pure of weight

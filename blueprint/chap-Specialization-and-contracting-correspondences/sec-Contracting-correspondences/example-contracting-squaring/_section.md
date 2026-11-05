@@ -3,7 +3,6 @@ id = "example-contracting-squaring"
 kind = "example"
 title = "Squaring on the line"
 order = 1699
-uses = ["corollary-contracting-local-terms-point"]
 +++
 Let $X=C=\mathbf A^1=\operatorname{Spec}k[x]$, let $Z$ be the origin,
 with $I=(x)$, and let $c_1=\mathrm{id}$ and $c_2(x)=x^2$, so that

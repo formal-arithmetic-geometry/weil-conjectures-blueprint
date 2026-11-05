@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-weights-exact-sequence"
 order = 1350
+uses = ["proposition-weights-under-usual-operations"]
 +++
 Let $a:F'\to F$ and $b:F\to F''$ be the maps. Exactness at $F$ gives a
 short exact sequence

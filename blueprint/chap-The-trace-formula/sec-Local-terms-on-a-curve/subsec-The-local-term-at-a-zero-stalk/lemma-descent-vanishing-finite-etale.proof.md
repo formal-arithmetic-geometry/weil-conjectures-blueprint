@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-descent-vanishing-finite-etale"
 order = 987
+uses = ["definition-compactification-refinement"]
 +++
 Since $f$ is finite étale, $f_*=f_!$ is exact, and the trace map
 $f_*f^{-1}\mathcal F\to\mathcal F$ composed with the adjunction unit

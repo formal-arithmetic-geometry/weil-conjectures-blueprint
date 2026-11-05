@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Functoriality of the deformation"
 order = 1627
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.deformationSpaceMap", "AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_deformationSpaceToPullback", "AlgebraicGeometry.Scheme.IdealSheafData.isIso_deformationSpaceToPullback_of_flat", "AlgebraicGeometry.ProEtale.CondensedRing.isPullback_zeroSectionSpecialFibreMap", "AlgebraicGeometry.ProEtale.CondensedRing.isProper_deformationTotalMap", "AlgebraicGeometry.ProEtale.CondensedRing.smooth_deformationTotalMap"]
+uses = ["definition-deformation-normal-bundle"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,
 let $Z'\subset X'$ be a closed subscheme with ideal $I'$, and suppose

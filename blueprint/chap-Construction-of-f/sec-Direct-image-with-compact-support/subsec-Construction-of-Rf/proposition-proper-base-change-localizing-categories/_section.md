@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Proper base change on the localizing categories"
 order = 508
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizing_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizing_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizingBoundedConstructible_padicIntegersRingObj"]
-uses = ["definition-pro-etale-base-change-map", "definition-localizing-subcategory"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-pro-etale-base-change-map", "definition-localizing-subcategory"]
 +++
 Let $\Lambda$ be admissible. Consider a cartesian square
 

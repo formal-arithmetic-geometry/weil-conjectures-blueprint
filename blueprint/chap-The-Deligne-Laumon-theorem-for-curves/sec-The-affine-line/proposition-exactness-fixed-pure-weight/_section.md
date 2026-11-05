@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Exactness at a fixed pure weight"
 order = 1295
 lean = ["AlgebraicGeometry.shortExact_map_directImage"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be as in
 Lemma [lemma-local-duality-point-c-u]. If $0\to F_1\to F\to F_2\to0$ is a

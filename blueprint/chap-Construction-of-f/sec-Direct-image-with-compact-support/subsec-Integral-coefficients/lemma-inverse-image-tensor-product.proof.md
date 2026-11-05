@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-tensor-product"
 order = 495
-uses = ["lemma-stability", "proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "proposition-sp-unique-adjoint"]
 +++
 The preservation statements follow from
 Lemma [lemma-integral-models](3), since closed

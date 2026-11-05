@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes"
 order = 488
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "proposition-left-completeness"]
 +++
 For bounded below $K$ everything is read off from the hypercohomology
 spectral sequence, which has only $2d+2$ nonzero columns. A general $K$, in turn, is the derived limit of its truncations $\tau_{\geq-n}K$, and the

@@ -3,7 +3,6 @@ id = "example-kummer-no-boundary"
 kind = "example"
 title = "A Kummer sheaf has no boundary term"
 order = 1275
-uses = ["lemma-boundary-stalk"]
 +++
 Let $M$ be the Kummer sheaf of a nontrivial character $\chi$ on
 $U_0=\mathbf G_m$. It is irreducible and pure of weight $0$. Since it is tame

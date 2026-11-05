@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-purity-cohomology-smooth-proper-variety"
 order = 1373
-uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "theorem-weights-rf-shriek"]
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "lemma-bounding-weights-mixed-sheaf", "proposition-weights-under-usual-operations", "theorem-weights-rf-shriek"]
 +++
 The constant sheaf has weight zero, since its local Frobenius is the
 identity. So Theorem [theorem-purity-higher-direct-images-under]

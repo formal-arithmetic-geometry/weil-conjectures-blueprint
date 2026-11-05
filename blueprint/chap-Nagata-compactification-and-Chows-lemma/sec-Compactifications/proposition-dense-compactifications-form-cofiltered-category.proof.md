@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-dense-compactifications-form-cofiltered-category"
 order = 1417
-uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["lemma-schematic-closure-uniqueness", "remark-base-change-compactification", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 A common refinement of two compactifications is the closure of $X$ in
 their fibre product, as in the example of $\mathbf A^2$ above. The

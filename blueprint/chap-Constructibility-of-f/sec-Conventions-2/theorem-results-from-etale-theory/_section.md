@@ -3,7 +3,6 @@ id = "theorem-results-from-etale-theory"
 kind = "theorem"
 title = "Results from the étale theory"
 order = 537
-uses = ["definition-cohomological-dimension", "theorem-proper-base-change-classical-pro"]
 aliases = ["remark-results-from-etale-theory"]
 +++
 Let $f:X\to S$ be a morphism of schemes of finite type over $k$.

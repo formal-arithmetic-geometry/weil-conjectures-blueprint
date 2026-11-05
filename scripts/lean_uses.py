@@ -48,6 +48,31 @@ for k, (p, fm) in nodes.items():
         owners[name].add(k)
 
 missing = sorted({n for k, (p, fm) in nodes.items() for n in fm.get('lean', []) if not decls.get(n, {}).get('exists')})
+mapped = set(owners)
+
+
+def project(x):
+    return (decls.get(x, {}).get('module') or '').startswith('WeilConjectures')
+
+
+def walk(starts):
+    """The mapped names reached from `starts`, passing through unmapped project
+    constants, as `blueprint extract` walks.  The facts were extracted with a
+    mapping that may since have lost names; such a name is walked through by
+    its own recorded dependencies, which is what a new extraction would do."""
+    res, seen, todo = set(), set(), list(starts)
+    while todo:
+        x = todo.pop()
+        if x in seen:
+            continue
+        seen.add(x)
+        if x in mapped:
+            res.add(x)
+        elif x in decls and project(x):
+            todo.extend(decls[x].get('deps', []))
+    return res
+
+
 st, pf = collections.defaultdict(set), collections.defaultdict(set)
 for k, (p, fm) in nodes.items():
     for name in fm.get('lean', []):
@@ -58,9 +83,9 @@ for k, (p, fm) in nodes.items():
         va = d.get('valueDeps')
         if ty is None or va is None:
             ty, va = d.get('deps', []), []
-        for dep in ty:
+        for dep in walk(ty):
             st[k] |= owners.get(dep, set()) - {k}
-        for dep in va:
+        for dep in walk(va):
             pf[k] |= owners.get(dep, set()) - {k}
 for k in list(pf):
     pf[k] -= st[k]

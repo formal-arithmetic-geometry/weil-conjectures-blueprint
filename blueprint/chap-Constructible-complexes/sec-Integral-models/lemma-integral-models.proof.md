@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models"
 order = 296
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products", "proposition-milnor-sequence", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-constructible-sheaves", "corollary-finite-tor-amplitude-under-comparison", "lemma-inverse-image-coefficient-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 In (1) and (2) we compare two coefficient sheaves related by a flat map
 that is an isomorphism modulo every $\pi_E^n$, so they have the same

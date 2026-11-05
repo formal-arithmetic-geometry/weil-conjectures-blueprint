@@ -3,7 +3,6 @@ id = "example-frobenius-projective-line"
 kind = "example"
 title = "Frobenius on the projective line"
 order = 996
-uses = ["lemma-scheme-frobenius-geometric-frobenius"]
 +++
 Let $X=\mathbf P^1_k$, $K=A_X$, and let $\psi$ be the constant Frobenius
 correspondence, so that $\psi_m$ is the identity on every stalk. Both sides of

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-constructible-sheaves"
 order = 270
-uses = ["proposition-pro-etale-coverings", "proposition-ctf-equals-bc"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-pro-etale-site-separably-closed", "definition-local-cohomology", "proposition-ctf-equals-bc", "definition-compactification-refinement"]
 +++
 Part (1) is the substantial one. All three closure properties are local on a common
 stratification, so it suffices to treat lisse sheaves on a single stratum,

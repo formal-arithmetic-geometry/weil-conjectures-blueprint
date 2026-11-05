@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-degree-jacobian"
 order = 1553
-uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 The degree is additive under tensor product, so it is a homomorphism.
 By Theorem [theorem-picard-scheme-jacobian-over-separably], its kernel

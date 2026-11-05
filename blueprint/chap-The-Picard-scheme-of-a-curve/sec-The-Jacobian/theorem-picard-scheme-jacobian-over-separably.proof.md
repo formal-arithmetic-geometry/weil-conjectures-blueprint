@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-picard-scheme-jacobian-over-separably"
 order = 1550
-uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "lemma-perfect-complexes-geometric-point", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "lemma-coherent-base-change-invertible-sheaves", "theorem-hilbert-schemes-points-smooth-curve", "proposition-divisors-degree-g-open-chart", "lemma-twisting-h-0-1-h", "lemma-representability-picard-functor"]
+uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "lemma-coherent-base-change-invertible-sheaves", "theorem-hilbert-schemes-points-smooth-curve", "proposition-divisors-degree-g-open-chart", "lemma-twisting-h-0-1-h", "lemma-representability-picard-functor", "lemma-tangent-space-picard-functor"]
 +++
 Representability is Lemma [lemma-representability-picard-functor].
 The tangent space is given by

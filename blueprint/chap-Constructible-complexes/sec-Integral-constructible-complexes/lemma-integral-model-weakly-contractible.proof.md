@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-integral-model-weakly-contractible"
 order = 242
-uses = ["proposition-milnor-sequence", "lemma-reduction-derived-nakayama", "lemma-images-cohomology-finite-levels"]
 +++
 The hypothesis gives an isomorphism $(P^\bullet/\pi_E^n)_W\simeq K_n$ at
 each level $n$, but these isomorphisms need not be compatible with the

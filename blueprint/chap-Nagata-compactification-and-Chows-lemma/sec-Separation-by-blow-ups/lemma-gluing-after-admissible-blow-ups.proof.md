@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-gluing-after-admissible-blow-ups"
 order = 1456
-uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-products-composites-u-admissible-blow", "theorem-elimination-indeterminacy"]
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "remark-base-change-compactification", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-products-composites-u-admissible-blow", "theorem-elimination-indeterminacy"]
 +++
 We glue the $T_i$ along the closure of $U$ in $T_1\times_ST_2$, after
 blow-ups that make this closure open in both. The glued scheme is

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-stable-subspaces-center"
 order = 1725
-uses = ["proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
+uses = ["proposition-cartier-s-theorem"]
 +++
 In both assertions we compare a closed subgroup with $G$, namely the
 stabilizer of a subspace in the first and the kernel of the adjoint

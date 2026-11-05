@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-hypotheses-brown-representability"
 order = 524
-uses = ["theorem-compactness-rational-coefficients", "proposition-compactness-finite-coefficients", "proposition-compactness-proper-direct-image"]
+uses = ["lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "definition-underived-base-change-map", "lemma-finite-morphisms", "theorem-compactness-rational-coefficients", "proposition-compactness-finite-coefficients", "proposition-compactness-proper-direct-image", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 The set-theoretic conditions are general facts about derived categories
 of Grothendieck abelian categories. Compactness, on the other hand, was proved separately for each kind of coefficients, and generation follows from the

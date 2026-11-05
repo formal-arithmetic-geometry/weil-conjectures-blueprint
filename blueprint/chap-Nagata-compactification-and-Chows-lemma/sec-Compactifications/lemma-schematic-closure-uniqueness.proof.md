@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-schematic-closure-uniqueness"
 order = 1407
+uses = ["remark-base-change-compactification"]
 +++
 The scheme-theoretic image is the smallest closed subscheme through
 which $i$ factors. Its ideal is

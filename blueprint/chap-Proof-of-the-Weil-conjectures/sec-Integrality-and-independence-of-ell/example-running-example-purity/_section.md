@@ -3,7 +3,6 @@ id = "example-running-example-purity"
 kind = "example"
 title = "The running example: purity"
 order = 1392
-uses = ["example-running-example-duality", "example-running-example-trace-formula", "theorem-weights-rf-shriek"]
 +++
 For the curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$ of the
 introduction, the reciprocal roots $\pm i\sqrt3$ of $P_1=1+3T^2$

@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-mixedness-descends-constant-extension"
 order = 1338
-uses = ["proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images"]
 +++
 Since $g^*G$ is mixed, so is $g_*g^*G$ by
 Lemma [lemma-finite-quasi-finite-direct-images]. The unit

@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-projective-line-rational-coefficients"
 order = 607
-uses = ["proposition-proper-base-change-localizing-categories", "proposition-adjunction-projective-line", "proposition-ell-adic-cycle-class-diagonal", "proposition-projection-formula-rational-coefficients"]
 +++
 Define the unit and counit by the formulas (6.5) and
 (6.6) of

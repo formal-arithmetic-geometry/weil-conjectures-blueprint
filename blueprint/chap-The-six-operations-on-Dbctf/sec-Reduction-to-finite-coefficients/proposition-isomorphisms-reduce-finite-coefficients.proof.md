@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-isomorphisms-reduce-finite-coefficients"
 order = 654
-uses = ["theorem-bounded-below-cohomology-comparison", "definition-constructible-sheaves"]
+uses = ["proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "definition-compactification-refinement"]
 +++
 The three kinds of coefficients are reached from finite ones in three
 different ways: $\mathcal O_E$ by completion, $E$ by inverting $\ell$, and

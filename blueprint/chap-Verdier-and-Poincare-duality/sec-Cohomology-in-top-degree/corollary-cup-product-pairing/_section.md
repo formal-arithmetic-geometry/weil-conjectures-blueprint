@@ -4,7 +4,7 @@ kind = "corollary"
 title = "The cup product pairing"
 order = 871
 lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_poincarePairing", "AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension $d$, with
 $k$ algebraically closed, and let $\Lambda$ be a field. For every $i$

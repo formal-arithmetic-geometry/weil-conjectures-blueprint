@@ -3,7 +3,6 @@ id = "example-internal-hom-affine-line"
 kind = "example"
 title = "Internal Hom on the affine line"
 order = 626
-uses = ["example-closed-support"]
 +++
 Over an algebraically closed $k$, let $j:U=\mathbf G_{m,k}\hookrightarrow
 X=\mathbf A^1_k$ and let $i$ be the inclusion of the origin. The

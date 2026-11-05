@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Weakly contractible hypercovers"
 order = 103
 lean = ["AlgebraicGeometry.exists_proetale_hypercover_single_affine", "AlgebraicGeometry.Scheme.ProEt.hypercover_computes_boundedBelow_complex"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-w-local-w-strictly-local"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-w-local-w-strictly-local"]
 +++
 Let $U$ be a quasi-compact, quasi-separated object of $X_{\mathrm{pro}\acute{e}t}$.
 There is a hypercover $W_\bullet\to U$ whose term in every simplicial

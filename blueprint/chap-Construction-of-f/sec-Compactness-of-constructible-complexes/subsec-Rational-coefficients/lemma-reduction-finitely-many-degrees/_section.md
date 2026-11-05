@@ -3,7 +3,6 @@ id = "lemma-reduction-finitely-many-degrees"
 kind = "lemma"
 title = "Reduction to finitely many degrees"
 order = 463
-uses = ["lemma-uniform-ext-bound"]
 +++
 Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in
 Lemma [lemma-uniform-ext-bound], and let $K\in\Dic(X,\Lambda)$

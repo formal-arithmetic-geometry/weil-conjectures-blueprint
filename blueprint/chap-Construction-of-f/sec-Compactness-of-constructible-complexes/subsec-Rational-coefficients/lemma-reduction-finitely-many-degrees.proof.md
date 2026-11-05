@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-reduction-finitely-many-degrees"
 order = 464
-uses = ["theorem-enough-affine-weakly-contractible-objects", "proposition-exact-products", "corollary-ind-heart-b"]
 +++
 Cutting off the cohomology above degree $m$ is harmless for degree
 reasons alone. To remove the cohomology below degree $m-d_C$ we use the

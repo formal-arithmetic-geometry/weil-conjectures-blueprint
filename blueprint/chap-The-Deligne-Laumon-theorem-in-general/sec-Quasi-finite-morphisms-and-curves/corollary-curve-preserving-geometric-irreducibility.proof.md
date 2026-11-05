@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-curve-preserving-geometric-irreducibility"
 order = 1331
-uses = ["proposition-etale-implications", "lemma-stability", "theorem-pro-etale-refinements-weakly-etale", "lemma-curve-preserving-finite-cover", "definition-compactification-refinement"]
+uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint", "lemma-curve-preserving-finite-cover", "definition-compactification-refinement"]
 +++
 We translate irreducibility into the surjectivity of $\pi_1(C)$ onto
 one finite group, and then find $C$ with Bertini's theorem applied to

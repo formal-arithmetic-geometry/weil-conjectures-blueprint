@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Proper direct image on the localizing categories"
 order = 477
 lean = ["AlgebraicGeometry.ProEtale.isIso_sigmaComparison_rightDerivedLowerStar_of_etaleOriginHomology"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $A$ be a finite admissible ring and let $p:X\to Y$ be proper. The
 functor $Rp_*$ restricts to an exact functor
