@@ -12,6 +12,7 @@ modules = ["WeilConjectures"]
 theme = "outline"        # the style the website opens in
 numbering = "nested"     # a statement inside a statement is numbered under it: 2.3.1, 2.3.2, …
 assets = "site-assets"   # copied into the site as assets/
+blog = "blog"            # posts, Markdown and PDFs, on the Blog page
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
 
