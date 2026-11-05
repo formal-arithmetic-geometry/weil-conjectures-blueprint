@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-additivity-open-subscheme-complement"
 order = 1003
-uses = ["proposition-properties-trace", "lemma-passing-schematic-closure"]
+uses = ["proposition-properties-trace", "lemma-comparison-via-relative-frobenius", "proposition-extension-zero-restriction-closed-subscheme", "proposition-composition-base-change-rf-shriek", "lemma-additivity-open-subscheme-complement--1", "lemma-additivity-open-subscheme-complement--2"]
 +++
 The four induced correspondences come from base change, and $R\Gamma_c$
 of the localization triangle is a two-step filtered object with an

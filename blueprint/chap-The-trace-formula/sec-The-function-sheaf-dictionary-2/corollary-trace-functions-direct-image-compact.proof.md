@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-trace-functions-direct-image-compact"
 order = 1025
+uses = ["corollary-trace-functions-direct-image-compact--1"]
 +++
 The left side is a trace on a stalk of $Rf_!K$. By base change that
 stalk is the compactly supported cohomology of a fibre. Hence the corollary

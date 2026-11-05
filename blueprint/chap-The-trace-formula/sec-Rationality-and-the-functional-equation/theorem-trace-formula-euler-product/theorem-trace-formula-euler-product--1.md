@@ -5,21 +5,31 @@ title = "The trace formula as an Euler product (1)"
 name_showing = false
 order = 1036001
 aliases = ["bp-r317-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt"]
+uses = ["definition-weil-structure"]
 +++
-Let $X_0$ be separated and of finite type over $\mathbf F_q$, let
-$\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, and let $K\in\Dbc(X,\Lambda)$ carry a Weil
-structure, with stalk Frobenius maps $\operatorname{Frob}_{y,m}$ as in
-Theorem [theorem-grothendieck-lefschetz-trace-formula]. For each closed
-point $x\in|X_0|$, let $\deg(x)=[\kappa(x):\mathbf F_q]$ be its degree,
-choose one of the $\deg(x)$ points $y\in X_0(\mathbf F_{q^{\deg(x)}})$ lying
-over $x$, write $\bar x=\bar y$ for the corresponding geometric point,
-and let $\operatorname{Frob}_x=\operatorname{Frob}_{y,\deg(x)}$ be its
-action on $K_{\bar x}$. Another choice of $y$ replaces
-$\operatorname{Frob}_x$ by a conjugate. Define
+Let $X_0$ be a scheme over $\mathbf F_q$, let $\ell\nmid q$, and let
+$\mathcal F$ be a constructible Weil sheaf with $\overline{\mathbf Q}_\ell$-coefficients.
+Put $X=X_0\times_{\mathbf F_q}\overline{\mathbf F}_q$. Suppose that two
+geometric points of $X$ lie over the same point $x$ of $X_0$ with finite
+residue field. For $m\geq0$, suppose that both geometric points are
+compatible with the $m$-th geometric Frobenius, up to the corresponding
+Frobenius on $\overline{\mathbf F}_q$. Then their stalks, equipped with
+the operators induced by the $m$-fold iterated Weil structure, are
+isomorphic as Frobenius modules. In particular, their Frobenius operators are conjugate.
+
+Apply this to the cohomology sheaves of a Weil complex
+$K\in\Dbc(X,\overline{\mathbf Q}_\ell)$ and to $m=\deg(x)$.
+If $J\subset\mathbf Z$ is finite and $\mathcal H^j(K)=0$ for $j\notin J$,
+the local alternating determinant is
 
 $$
-L(X_0,K,T)
-:=\prod_{x\in|X_0|}
-\det\bigl(1-T^{\deg(x)}\operatorname{Frob}_x\mid K_{\bar x}\bigr)^{-1}.
-\tag{12.6}
+\Delta_x(T)=\prod_{j\in J}
+\det\bigl(1-T^{\deg(x)}\operatorname{Frob}_x\mid
+\mathcal H^j(K)_{\bar x}\bigr)^{(-1)^j}.
 $$
+
+Its inverse is the local factor of $L(X_0,K,T)$, and it is independent
+of the geometric point chosen over $x$. In Lean the stalk is the
+Frobenius module on each cohomology sheaf; this finite product is
+`LinearMap.alternatingCharpolyRevProd`.

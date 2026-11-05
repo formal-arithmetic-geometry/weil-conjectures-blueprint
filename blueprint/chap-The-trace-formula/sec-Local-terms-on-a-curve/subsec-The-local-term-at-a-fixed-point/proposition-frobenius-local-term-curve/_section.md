@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The Frobenius local term on a curve"
 order = 993
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_trace_of_smooth"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-correspondence", "definition-frobenius-correspondences-their-operators"]
+uses = ["definition-constructible-sheaves", "definition-correspondence", "definition-frobenius-correspondences-their-operators", "definition-trace-class-local-terms", "definition-categorical-trace", "lemma-frobenius-fixed-scheme"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, let
 $X=X_0\times_{k_0}k$, let $K\in D^b_{\mathrm{ctf}}(X,A)$ and let

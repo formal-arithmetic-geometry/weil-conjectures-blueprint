@@ -3,8 +3,8 @@ id = "corollary-point-counting-zeta-function"
 kind = "corollary"
 title = "Point counting and the zeta function"
 order = 1039
-lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_finsum_trace_compactlySupportedCohomology", "AlgebraicGeometry.ProEtale.CondensedRing.weilPointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod", "AlgebraicGeometry.Scheme.zetaSeries_rational"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure", "definition-trace-function", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_finsum_trace_compactlySupportedCohomology", "AlgebraicGeometry.Scheme.Hom.zetaSeries", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries", "AlgebraicGeometry.Scheme.Hom.constantCoeff_zetaSeries", "AlgebraicGeometry.Scheme.zetaSeries_rational"]
+uses = ["definition-small-pro-etale-site", "definition-weil-structure", "definition-frobenius-operator", "definition-categorical-trace"]
 +++
 Give $\Lambda_X$ the Weil structure of constant sheaves defined after
 Definition [definition-weil-structure]. For every coefficient

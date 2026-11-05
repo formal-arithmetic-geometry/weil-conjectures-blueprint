@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-trace-formula-frobenius-correspondence"
 order = 1007
-uses = ["lemma-additivity-open-subscheme-complement"]
+uses = ["lemma-perfect-complexes-geometric-point", "proposition-properties-trace", "lemma-finite-morphisms-cohomology", "lemma-comparison-via-relative-frobenius", "theorem-proper-pushforward-lefschetz-verdier", "proposition-frobenius-local-term-curve", "proposition-six-operations-dctf", "lemma-additivity-open-subscheme-complement"]
 +++
 Both sides are defined, because the complexes are perfect by
 Lemma [lemma-perfect-complexes-geometric-point]. We prove the assertion

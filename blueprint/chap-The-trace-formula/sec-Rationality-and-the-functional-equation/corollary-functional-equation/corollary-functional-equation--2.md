@@ -4,5 +4,6 @@ kind = "definition"
 title = "Euler characteristic"
 order = 1044003
 aliases = ["bp-r320-2"]
+uses = ["corollary-functional-equation--1"]
 +++
 Put $\chi=\sum_i(-1)^ib_i$.

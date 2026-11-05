@@ -3,8 +3,8 @@ id = "theorem-trace-formula-euler-product"
 kind = "theorem"
 title = "The trace formula as an Euler product"
 order = 1036
-lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt", "AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk", "AlgebraicGeometry.WeilComplex.nonempty_equiv_compactlySupportedCohomology_cohomology"]
+uses = ["definition-weil-structure", "definition-frobenius-operator", "theorem-grothendieck-lefschetz-trace-formula", "lemma-logarithm-determinant"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, let
 $\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, and let $K\in\Dbc(X,\Lambda)$ carry a Weil

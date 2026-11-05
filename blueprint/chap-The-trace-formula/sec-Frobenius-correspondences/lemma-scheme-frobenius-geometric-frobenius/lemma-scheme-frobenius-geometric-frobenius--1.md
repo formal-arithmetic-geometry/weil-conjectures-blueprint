@@ -5,7 +5,13 @@ title = "Scheme Frobenius and geometric Frobenius (1)"
 name_showing = false
 order = 953001
 aliases = ["bp-r290-1"]
+lean = []
+uses = ["definition-weil-structure", "definition-frobenius-correspondences-their-operators"]
 +++
+This comparison is bypassed by Lean: the mainline works with Weil structures
+for the scheme endomorphism itself and has no declaration constructing the
+isomorphisms $\kappa_m$ below.
+
 Let $\operatorname{Fr}_X$ be the semilinear geometric Frobenius
 of Definition [definition-weil-structure], and for a morphism
 $\phi:\operatorname{Fr}_X^*K\to K$ put

@@ -5,33 +5,56 @@ title = "The local term as a restriction map (1)"
 name_showing = false
 order = 965001
 aliases = ["bp-r294-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.supportedRestriction", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.supportedEvaluation", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_eq_integral_supportedRestriction"]
+uses = ["definition-constructible-sheaves", "definition-correspondence", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-class-local-terms", "proposition-six-operations-dctf", "proposition-composition-base-change-rf-shriek"]
 +++
-Let $X_0$ be a smooth curve over $k_0$, let $X=X_0\times_{k_0}k$,
-let $K\in D^b_{\mathrm{ctf}}(X,A)$, and let $y$ be a
-fixed point of $\Phi_X^m$. Let $\Gamma\subset X\times X$ be the
-transposed graph of $\Phi_X^m$, the image of the closed immersion
-$\gamma=(\Phi_X^m,\operatorname{id}_X)$, and let $\Delta\subset X\times X$
-be the diagonal, the image of $\delta=(\operatorname{id}_X,\operatorname{id}_X)$.
-On the strict localization $T$ of $X\times X$ at $(y,y)$ put
+Let $k$ be a field of characteristic $p>0$, let $\ell\ne p$ be a prime,
+and put $\Lambda=\Qbarl$. Let $X$ and $C$ be separated schemes of finite
+type over $k$, let $K\in D^b_c(X,\Lambda)$, and let
+$c=(c_1,c_2):C\to X\times X$ be a correspondence with coefficient map
+$u:c_2^*K\to c_1^!K$. Write $F=\Fix(c)$, with
+$\iota:F\to C$ and $d:F\to X$, and let $\delta:X\to X\times X$ be
+the diagonal. Thus the square $c\iota=\delta d$ is cartesian. Put
+$P=K\boxtimes\mathbb D_XK$.
+
+The tensor–Hom adjoint of $u$, followed by external duality
+(Lemma [lemma-external-duality-trace-morphism]), gives the supported class
 
 $$
-P=(\mathbb D_XK\boxtimes K)|_T.
+[u]:\Lambda_C\longrightarrow
+\cHom(c_2^*K,c_1^!K)\xrightarrow{\sim}c^!P.
 $$
 
-A morphism $\psi:(\Phi_X^m)^*K\to K$ determines a class
-$[\psi]\in H^0_\Gamma(T,P)$, and the local term
-$\operatorname{LT}_y(\psi)$ of Definition [definition-trace-class-local-terms] is the
-image of this class under the composite
+For any $P\in D^b_c(X\times X,\Lambda)$, the supported restriction
+$\rho_P:\iota^*c^!P\to d^!\delta^*P$ is the
+$\iota^*\dashv R\iota_*$ adjoint of
 
 $$
-R\Gamma_\Gamma(T,P)
-\xrightarrow{\rho}
-R\Gamma_y(\Delta,\delta^*P)
-\xrightarrow{\mathrm{ev}_K}
-R\Gamma_y(X,\omega_X)
-\simeq R\Gamma(y,\omega_y)
-\xrightarrow{\int_y} A,
+c^!P\longrightarrow c^!R\delta_*\delta^*P
+\xrightarrow{\sim}R\iota_*d^!\delta^*P,
 $$
 
-where $\rho$ is restriction from $\Gamma$-supported to $y$-supported
-cohomology.
+where the first map comes from the unit for $\delta^*\dashv R\delta_*$
+and the second is base change in the fixed square. For
+$P=K\boxtimes\mathbb D_XK$, define the supported evaluation by
+
+$$
+e_F:d^!\delta^*P\simeq d^!(K\otimes^{\mathbf L}\mathbb D_XK)
+\xrightarrow{d^!\mathrm{ev}_K}d^!\omega_X\simeq\omega_F.
+$$
+
+Let $j:B\hookrightarrow F$ be open and closed, with $B$ proper over $k$.
+Then the local term of Definition [definition-trace-class-local-terms]
+is the integral over $B$ of the composite
+
+$$
+\Lambda_B\simeq j^*\iota^*\Lambda_C
+\xrightarrow{j^*\iota^*[u]}j^*\iota^*c^!P
+\xrightarrow{j^*\rho_P}j^*d^!\delta^*P
+\xrightarrow{j^*e_F}j^*\omega_F
+\simeq j^!\omega_F\simeq\omega_B.
+$$
+
+Here the identification $j^*\omega_F\simeq j^!\omega_F$ uses that $j$
+is open. The formula applies to every such correspondence; it does not
+require $X$ to be a curve or $c$ to be a Frobenius graph.

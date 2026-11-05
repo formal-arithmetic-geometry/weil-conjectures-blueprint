@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-tangent-cones-on-cover"
 order = 985
+uses = ["lemma-covers-degree-prime-to-ell", "lemma-tangent-cones-on-cover--1", "lemma-tangent-cones-on-cover--2"]
 +++
 The two covers descend to finite flat morphisms $C_i'\to C_i$ of degree $d$
 between smooth curves, where $C_i$ is an étale neighbourhood of $y$ in

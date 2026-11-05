@@ -3,8 +3,8 @@ id = "lemma-scheme-frobenius-geometric-frobenius"
 kind = "lemma"
 title = "Scheme Frobenius and geometric Frobenius"
 order = 953
-lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStarGeometricFiberFrobeniusIso", "AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible.iterateStr_hom_eq_frobeniusCoefficientIterate", "AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible.globalOperator_eq_frobeniusCompactOperator"]
-uses = ["definition-weil-structure", "definition-frobenius-correspondences-their-operators"]
+lean = []
+uses = ["definition-weil-structure", "definition-frobenius-correspondences-their-operators", "definition-frobenius-operator"]
 +++
 Let $\operatorname{Fr}_X$ be the semilinear geometric Frobenius
 of Definition [definition-weil-structure], and for a morphism

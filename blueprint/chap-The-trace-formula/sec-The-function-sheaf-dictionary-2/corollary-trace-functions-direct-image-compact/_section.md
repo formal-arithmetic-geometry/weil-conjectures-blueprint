@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Trace functions and direct image with compact support"
 order = 1024
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
-uses = ["definition-weil-structure", "definition-trace-function"]
+uses = ["definition-weil-structure", "definition-trace-function", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek"]
 +++
 Let $f_0:X_0\to Y_0$ be a morphism of separated $\mathbf F_q$-schemes
 of finite type, with geometric base change $f:X\to Y$, and let

@@ -3,8 +3,8 @@ id = "proposition-function-sheaf-dictionary"
 kind = "proposition"
 title = "The function–sheaf dictionary"
 order = 1028
-lean = ["AlgebraicGeometry.WeilComplex.traceFunction_upperStar", "AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse", "AlgebraicGeometry.WeilComplex.traceFunction_eq_add_of_distTriang"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction_upperStar", "AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse", "AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction", "AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure", "definition-trace-function"]
 +++
 Let $\Lambda$ be as in Theorem [theorem-grothendieck-lefschetz-trace-formula],
 let $m\geq1$, and let $K$, $L$ be Weil complexes in $D^b_{\mathrm{ctf}}(X,\Lambda)$.

@@ -3,8 +3,8 @@ id = "theorem-grothendieck-lefschetz-trace-formula"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
 order = 1017
-lean = ["AlgebraicGeometry.WeilSheaf.sum_trace_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction", "AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq", "AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-structure", "definition-trace-function", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.WeilComplex.exists_subsingleton_compactlySupportedCohomology", "AlgebraicGeometry.WeilSheaf.finiteDimensional_stalkObj", "AlgebraicGeometry.WeilComplex.exists_finset_isZero_homologySheaf"]
+uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-weil-structure", "definition-trace-function", "definition-frobenius-operator", "definition-categorical-trace", "proposition-six-operations-change-coefficients"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, put
 $X=X_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, and suppose

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-functional-equation"
 order = 1045
-uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing"]
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "theorem-poincare-duality-frobenius", "corollary-point-counting-zeta-function", "corollary-functional-equation--7", "corollary-functional-equation--10"]
 +++
 Duality gives the relations $b_{2d-i}=b_i$ and $D^2=q^{d\chi}$. If we substitute
 $1/(q^dT)$ into each factor of the cohomological expression for

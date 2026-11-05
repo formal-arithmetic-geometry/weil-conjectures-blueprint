@@ -4,5 +4,13 @@ kind = "lemma"
 title = "Properness"
 order = 959005
 aliases = ["bp-r292-4"]
+lean = []
+uses = ["definition-correspondence", "definition-frobenius-correspondences-their-operators"]
 +++
-The fixed scheme $\Fix(\Phi_X^m)$ is proper over $k$.
+Let $X_0$ be of finite type over $k_0=\Fq$, let $k$ be an algebraically
+closed extension of $k_0$, and let $\Phi_X$ be the model Frobenius on
+$X=X_0\times_{k_0}k$. For $m\geq1$, the fixed scheme
+$\Fix(\Phi_X^m)$ is proper over $k$.
+
+Lean uses this consequence through the properness instance for the explicit
+coproduct model of the fixed locus in the curve trace formula.

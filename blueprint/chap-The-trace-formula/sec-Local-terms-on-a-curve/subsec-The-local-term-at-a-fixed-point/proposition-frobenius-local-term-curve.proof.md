@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-frobenius-local-term-curve"
 order = 994
-uses = ["definition-trace-class-local-terms", "lemma-local-terms-point", "definition-pushforward-correspondence", "lemma-vanishing-local-term-zero-stalk"]
+uses = ["proposition-extension-zero-restriction-closed-subscheme", "lemma-lift-correspondence-invariant-decomposition", "lemma-closed-piece-pushforward", "proposition-additivity-trace-classes", "definition-pushforward-correspondence", "lemma-vanishing-local-term-zero-stalk", "theorem-proper-pushforward-lefschetz-verdier", "lemma-local-terms-point"]
 +++
 Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.
 We split $\psi$ along the localization triangle and compute the two local

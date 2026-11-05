@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-trace-formula-euler-product"
 order = 1037
-uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function"]
+uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-logarithm-determinant", "theorem-trace-formula-euler-product--2", "theorem-trace-formula-euler-product--4", "theorem-trace-formula-euler-product--6"]
 +++
 Both sides are of the form $\exp$ of a power series, and we compare
 the logarithms coefficient by coefficient. The coefficient of $T^m$ on

@@ -4,6 +4,7 @@ kind = "lemma"
 title = "A punctured surface and a punctured curve"
 order = 970
 lean = ["AlgebraicGeometry.Scheme.TransverseCorner.bijective_cohomologyMap_puncturedTraitι"]
+uses = []
 +++
 Let $S$ be the strict localization of a smooth surface over an
 algebraically closed field $k$ of characteristic $p$ at a closed point
