@@ -4,7 +4,13 @@ kind = "proposition"
 title = "Finite extension of $\\Ql$"
 order = 797006
 aliases = ["bp-r239-3"]
+lean = []
+uses = ["definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients"]
 +++
+This finite-extension coefficient identity is bypassed by the Lean route to the main
+theorem; the supplied mainline does not prove this equality for the chosen
+purity maps.
+
 Let
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},E)$. Identify the sources by
 $g'^{*}f^{*}\simeq(f')^{*}g^{*}$

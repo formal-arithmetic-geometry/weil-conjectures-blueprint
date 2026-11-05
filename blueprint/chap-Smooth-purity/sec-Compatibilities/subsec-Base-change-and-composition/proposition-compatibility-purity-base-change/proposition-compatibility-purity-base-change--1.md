@@ -4,7 +4,13 @@ kind = "proposition"
 title = "Finite coefficients"
 order = 797002
 aliases = ["bp-r239-1"]
+lean = []
+uses = ["definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients"]
 +++
+This finite-coefficient identity is bypassed by the Lean route to the main
+theorem; the supplied mainline does not prove this equality for the chosen
+purity maps.
+
 Let
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$. Identify the sources by
 $g'^{*}f^{*}\simeq(f')^{*}g^{*}$

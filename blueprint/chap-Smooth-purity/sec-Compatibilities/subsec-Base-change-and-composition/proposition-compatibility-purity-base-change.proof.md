@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-compatibility-purity-base-change"
 order = 798
-uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
+uses = ["definition-relative-dualizing-complex", "proposition-compatibility-purity-base-change--4", "lemma-naturality-under-base-change-etale", "proposition-exceptional-inverse-image-smooth-morphism", "proposition-sp-tower-geometric", "lemma-sp-tower-adjunction-foundation", "proposition-inverting-ell", "proposition-dctf-x-qbar-2-colimit", "proposition-six-operations-change-coefficients", "proposition-projection-formula-rational-coefficients", "proposition-composition-base-change-rf-shriek"]
 +++
 The map $\gamma_f$ has two factors, the orientation of $\omega_f$ and the
 map $\mu_{f,K}$, and we show that each commutes with base

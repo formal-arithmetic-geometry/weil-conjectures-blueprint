@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-sp-unique-adjoint"
 order = 763
+uses = ["proposition-sp-unique-adjoint--1"]
 +++
 Let $\rho(K)$ be the $J$-transpose of $\varepsilon_f(K)$ and $\rho'(K)$ the
 $f^!$-transpose of $\varepsilon^J(K)$. Since $\rho'\rho$ and the identity have the

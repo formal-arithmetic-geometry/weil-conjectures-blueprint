@@ -4,8 +4,12 @@ kind = "theorem"
 title = "Change of coefficients"
 order = 730020
 aliases = ["bp-r220-11"]
+lean = []
+uses = ["definition-tate-twists", "theorem-existence-exceptional-inverse-image", "proposition-six-operations-change-coefficients"]
 +++
-For a coefficient map $\Lambda\to\Lambda'$ of
+This compatibility is bypassed by the Lean route: extension of an integral isomorphism gives an orientation over $\overline{\mathbf Q}_\ell$, but does not show that the chosen orientations for different coefficients form one compatible family.
+
+The retained blueprint assertion is the following. For a coefficient map $\Lambda\to\Lambda'$ of
 Proposition [proposition-six-operations-change-coefficients], the
 change-of-coefficients isomorphism $(f^!K)_{\Lambda'}\to f^!(K_{\Lambda'})$
 of that proposition carries $(\gamma_{f,\Lambda}(K))_{\Lambda'}$ to

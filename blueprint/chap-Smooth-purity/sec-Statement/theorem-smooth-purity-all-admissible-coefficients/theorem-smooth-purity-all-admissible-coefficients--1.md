@@ -4,10 +4,13 @@ kind = "theorem"
 title = "Purity isomorphism: finite coefficients"
 order = 730002
 aliases = ["bp-r220-1"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift"]
+uses = ["definition-tate-twists", "definition-relative-dualizing-complex", "definition-compactification-refinement"]
 +++
-For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$, the specified natural isomorphism is
+Let $A$ be a finite commutative ring with a normalized Tate twist. Let $f:X\to Y$ be separated, compactifiable, and smooth of pure relative dimension $d$, and suppose that the exponent of $A$ is invertible on $X$. Let $Y$ be separated and locally of finite type over a field. On the small étale site there exists an isomorphism
 
 $$
-\gamma_{f,A}(K):f^*_{A}K(d)[2d]\xrightarrow{\sim}f^!_{A}K.
-\tag{9.2}
+f_A^!A_Y\simeq A_X(d)[2d].
 $$
+
+This is an existence statement at the constant object. It does not specify a natural family $\gamma_{f,A}(K)$ for arbitrary $K$.

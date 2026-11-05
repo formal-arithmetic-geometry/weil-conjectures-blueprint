@@ -4,9 +4,13 @@ kind = "theorem"
 title = "Purity isomorphism: integral coefficients"
 order = 730004
 aliases = ["bp-r220-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_iso_integralTateTwist_upperShriekUnit"]
+uses = ["definition-tate-twists", "theorem-existence-exceptional-inverse-image"]
 +++
-For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the specified natural isomorphism is
+In the shared context, let $E/\mathbf Q_\ell$ be a finite extension embedded in $\overline{\mathbf Q}_\ell$. There exists an isomorphism in $\Dbc(X,\mathcal O_E)$
 
 $$
-\gamma_{f,\mathcal O_E}(K):f^*_{\mathcal O_E}K(d)[2d]\xrightarrow{\sim}f^!_{\mathcal O_E}K.
+\mathcal O_{E,X}(d)[2d]\simeq f_{\mathcal O_E}^!\mathcal O_{E,Y}.
 $$
+
+The isomorphism is not specified canonically, and the assertion is only at the constant object. Taking $E=\mathbf Q_\ell$ gives the $\mathbf Z_\ell$ case.

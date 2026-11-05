@@ -5,6 +5,8 @@ title = "Extension of scalars (1)"
 name_showing = false
 order = 766001
 aliases = ["bp-r231-1"]
+lean = ["AlgebraicGeometry.ProEtale.derivedExtendScalars"]
+uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++
 For a scheme $T$ and $K\in D^b_{\mathrm{ctf}}(T_{\mathrm{pro}\acute{e}t},A)$ put
 $K_B=K\otimes^{\mathbf L}_{A_T}B_T\in D^b_{\mathrm{ctf}}(T_{\mathrm{pro}\acute{e}t},B)$, and for a morphism $u$ put
