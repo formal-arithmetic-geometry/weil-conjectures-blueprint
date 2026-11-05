@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-injectivity-base-change-map-degree"
 order = 673
-uses = ["definition-underived-base-change-map"]
+uses = ["definition-derived-base-change-map", "lemma-injectivity-base-change-map-degree--1", "lemma-injectivity-base-change-map-degree--2", "lemma-injectivity-base-change-map-degree--3"]
 +++
 We embed $M$ into an injective sheaf and compare the long exact sequences
 of the two sides. The induction hypothesis identifies everything in degree

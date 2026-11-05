@@ -3,8 +3,8 @@ id = "lemma-change-coefficients"
 kind = "lemma"
 title = "Change of coefficients"
 order = 698
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-change-of-coefficients-maps"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_integralToRational", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_rationalToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_integralToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_derivedReduction_boundedConstructibleBaseChange"]
+uses = ["definition-constructible-sheaves", "definition-pro-etale-base-change-map", "definition-change-of-coefficients-maps", "proposition-six-operations-change-coefficients"]
 +++
 Suppose that the schemes in (8.1) are of finite type over
 $k$. Let $\Lambda\to\Lambda'$ be a coefficient map of

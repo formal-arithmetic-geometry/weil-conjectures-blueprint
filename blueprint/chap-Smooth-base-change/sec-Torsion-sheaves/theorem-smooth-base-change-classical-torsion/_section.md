@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Smooth base change for classical torsion sheaves"
 order = 662
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth"]
-uses = ["definition-derived-base-change-map"]
+uses = ["definition-derived-base-change-map", "definition-pro-etale-base-change-map", "definition-classical-pro-etale-sheaves", "definition-torsion-sheaves"]
 +++
 In (8.1), suppose $g$ is smooth and $f$ is
 quasi-compact and quasi-separated. Let $F$ be a classical torsion

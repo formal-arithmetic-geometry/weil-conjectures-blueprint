@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible"
 order = 702
-uses = ["theorem-comparison-direct-images", "lemma-naturality-pasting-comparison", "lemma-change-coefficients-direct-image", "theorem-smooth-base-change-classical-torsion", "theorem-smooth-base-change-classical-torsion-2"]
+uses = ["theorem-smooth-base-change-all-admissible--1", "theorem-smooth-base-change-all-admissible--2", "theorem-smooth-base-change-all-admissible--4", "theorem-comparison-constructible-sheaves", "theorem-smooth-base-change-classical-torsion-2", "proposition-six-operations-dctf", "proposition-isomorphisms-reduce-finite-coefficients", "lemma-change-coefficients"]
 +++
 For finite rings the theorem is the torsion theorem once we know that $K$
 is classical, and the other rings follow by the reduction principle. By

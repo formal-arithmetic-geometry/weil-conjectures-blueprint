@@ -5,6 +5,8 @@ title = "Künneth map (1)"
 name_showing = false
 order = 709001
 aliases = ["bp-r213-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.prodLowerStarExternalProduct", "AlgebraicGeometry.Etale.externalProductRightDerivedLowerStarMap"]
+uses = ["proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "prose-03-02", "definition-constructible-sheaves", "proposition-six-operations-dctf--1", "proposition-six-operations-dctf--2", "proposition-six-operations-dctf--5", "proposition-six-operations-dctf--14"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of
 finite type, put $h=f_1\times f_2:X_1\times X_2\to Y_1\times Y_2$, and let

@@ -3,7 +3,8 @@ id = "lemma-base-change-along-product-projection"
 kind = "lemma"
 title = "Base change along a product projection"
 order = 706
-lean = ["AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap"]
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_field"]
+uses = ["definition-constructible-sheaves", "definition-pro-etale-base-change-map"]
 +++
 Let $f:X\to Y$ be a morphism of separated $k$-schemes of finite type,
 let $T$ be a separated $k$-scheme of finite type, and let

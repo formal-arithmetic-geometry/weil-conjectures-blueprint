@@ -3,7 +3,7 @@ id = "lemma-kunneth-one-identity-factor"
 kind = "lemma"
 title = "Künneth formula with one identity factor"
 order = 717
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar", "AlgebraicGeometry.Etale.isIso_externalProductRightDerivedLowerStarMap_of_finite"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar"]
 uses = ["definition-constructible-sheaves", "definition-kunneth-map"]
 +++
 In the situation of (8.4), the Künneth map

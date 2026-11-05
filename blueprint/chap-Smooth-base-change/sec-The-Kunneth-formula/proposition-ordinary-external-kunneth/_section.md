@@ -3,7 +3,7 @@ id = "proposition-ordinary-external-kunneth"
 kind = "proposition"
 title = "Ordinary external Künneth"
 order = 719
-lean = ["AlgebraicGeometry.Etale.isIso_kunnethMap_of_isSepClosed", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_prodLowerStarExternalProduct"]
+lean = []
 uses = ["definition-kunneth-map"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of finite

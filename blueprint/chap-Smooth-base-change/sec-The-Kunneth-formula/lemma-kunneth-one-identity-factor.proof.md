@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-one-identity-factor"
 order = 718
-uses = ["lemma-base-change-along-product-projection", "lemma-kunneth-field-coefficients"]
+uses = ["lemma-base-change-along-product-projection", "lemma-kunneth-field-coefficients", "proposition-six-operations-change-coefficients", "theorem-comparison-constructible-sheaves"]
 +++
 We show that the cone $N$ of $\kappa_{M,Q}$ vanishes modulo every maximal
 ideal of $A$, and conclude by derived Nakayama on stalks. The source and
