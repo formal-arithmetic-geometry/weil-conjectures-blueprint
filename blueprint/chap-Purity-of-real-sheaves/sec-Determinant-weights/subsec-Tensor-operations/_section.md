@@ -4,4 +4,5 @@ kind = "subsection"
 title = "Tensor operations"
 order = 1140
 uses = ["sec-Weil-sheaves-and-weights", "subsec-Finite-monodromy", "subsec-Representations-and-filtrations", "subsec-Central-elements"]
+hide_content = true
 +++

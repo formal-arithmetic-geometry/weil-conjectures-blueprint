@@ -4,4 +4,5 @@ kind = "section"
 title = "Classical sheaves"
 order = 109
 uses = ["sec-Weakly-etale-morphisms", "sec-Affine-bases"]
+hide_content = true
 +++

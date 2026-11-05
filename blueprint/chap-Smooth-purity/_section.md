@@ -4,4 +4,5 @@ kind = "chapter"
 title = "Smooth purity"
 order = 722
 uses = ["chap-The-six-operations-on-Dbctf"]
+hide_content = true
 +++

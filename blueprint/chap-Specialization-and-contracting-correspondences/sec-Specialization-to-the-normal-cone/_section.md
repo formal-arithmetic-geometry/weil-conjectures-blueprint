@@ -4,4 +4,5 @@ kind = "section"
 title = "Specialization to the normal cone"
 order = 1618
 uses = ["sec-Constructible-sheaves", "sec-Bounded-below-complexes"]
+hide_content = true
 +++

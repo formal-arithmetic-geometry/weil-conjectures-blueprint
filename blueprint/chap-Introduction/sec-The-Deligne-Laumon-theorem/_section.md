@@ -4,4 +4,5 @@ kind = "section"
 title = "The Deligne–Laumon theorem"
 order = 14
 aliases = ["sec-Delignes-theorem"]
+hide_content = true
 +++

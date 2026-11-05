@@ -4,4 +4,5 @@ kind = "section"
 title = "The base change map"
 order = 310
 uses = ["sec-Direct-images", "subsec-Inverse-image", "sec-Derived-functors"]
+hide_content = true
 +++
