@@ -3,6 +3,7 @@ id = "lemma-twisted-envelope"
 kind = "lemma"
 title = "Twisting and adding the dual"
 order = 1277
+uses = ["definition-lisse-sheaves", "definition-weights", "definition-real-sheaves"]
 +++
 Let $\mathcal A$ be lisse and pure of weight zero, and let $\mathcal L$
 be lisse of rank one with local eigenvalues of finite order. Then

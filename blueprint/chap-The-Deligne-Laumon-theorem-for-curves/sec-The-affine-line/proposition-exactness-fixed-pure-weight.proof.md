@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-exactness-fixed-pure-weight"
 order = 1296
-uses = ["proposition-pro-etale-coverings", "proposition-weights-j-boundary-points", "lemma-local-duality-point-c-u"]
+uses = ["corollary-open-direct-image-over-field", "proposition-weights-j-boundary-points", "lemma-local-duality-point-c-u", "proposition-weights-under-usual-operations", "lemma-filtrations-spectra"]
 +++
 Applying $j_*$ to the short exact sequence gives the long exact sequence
 
