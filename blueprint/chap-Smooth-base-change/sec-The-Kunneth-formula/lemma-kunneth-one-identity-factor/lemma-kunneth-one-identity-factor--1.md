@@ -6,6 +6,7 @@ name_showing = false
 order = 718001
 aliases = ["bp-r216-1"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar"]
+uses = ["definition-constructible-sheaves--6"]
 +++
 In the situation of (8.4), the Künneth map
 (8.4) is an isomorphism.

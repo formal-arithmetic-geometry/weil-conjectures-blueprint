@@ -2,7 +2,7 @@
 id = "prose-E-17"
 kind = "hidden"
 title = "Base change for nearby cycles (3)"
-order = 1669
+order = 1671
 +++
 For the last identity, let $c:C\to X\times_SX$ be a correspondence of
 separated $S$-schemes of finite type, with fixed scheme $F$, closed

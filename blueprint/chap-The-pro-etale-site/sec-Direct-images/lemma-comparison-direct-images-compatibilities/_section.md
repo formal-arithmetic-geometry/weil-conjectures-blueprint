@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Compatibilities of the comparison of direct images"
 order = 136
 lean = ["AlgebraicGeometry.ProEtale.comparisonDirectImagePlus_comp", "AlgebraicGeometry.ProEtale.fixedComparisonDirectImageMatePlus_counit"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $g:X\to Y$ be a morphism of schemes.
 

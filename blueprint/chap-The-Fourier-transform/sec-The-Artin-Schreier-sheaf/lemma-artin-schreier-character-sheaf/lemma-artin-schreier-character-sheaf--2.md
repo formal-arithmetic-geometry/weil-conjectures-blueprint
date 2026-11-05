@@ -5,6 +5,7 @@ title = "Multiplication isomorphism"
 order = 1220004
 aliases = ["bp-r375-2"]
 lean = ["AlgebraicGeometry.artinSchreierOf", "AlgebraicGeometry.nonempty_iso_tensorObj_artinSchreierOf"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-change-of-coefficients-maps--6", "proposition-six-operations-change-coefficients--23", "proposition-sp-unique-adjoint--1", "definition-weil-structure--1", "definition-weil-structure--3", "definition-compactification-refinement--1"]
 +++
 For a $k_0$-scheme $X$ and $f\in\Gamma(X,\mathcal O_X)$, put
 $\mathcal L_{\psi,f}=f^*\mathcal L_\psi$. For any two global functions

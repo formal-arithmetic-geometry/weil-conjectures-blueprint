@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The weight bound on a curve"
 order = 1318
 lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_directImage_of_isCurve", "AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_of_isCurve"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["lemma-stability", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open in a smooth curve over $k_0$,
 and let $F$ be a pure lisse Weil sheaf of weight $w$ on $U_0$. Then for every $r\in\mathbf Z$ the group $H_c^r(C,j_*F)$ has weights

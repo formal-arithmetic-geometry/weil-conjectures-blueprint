@@ -1471,9 +1471,7 @@ of the local rings $k'$ of the $k'^{\,S_i}$ at the image of $s$, that is,
 $k'$, which is strictly henselian. Thus $R$ is w-strictly local: it is the
 family of copies of $\operatorname{Spec}k'$ indexed by $S$. It is
 w-contractible exactly when $S$ is extremally disconnected. In this example
-the definitions are statements about $S$ alone. Over $\operatorname{Spec}k'$
-every pro-\'etale affine is of this form
-(Proposition~\ref{proposition-pro-etale-site-separably-closed} below).
+the definitions are statements about $S$ alone.
 \end{example}
 
 The constructions below change the set of components while keeping the
@@ -2767,7 +2765,10 @@ $\Lambda$, a sheaf is constructible if, locally on $X$, there is a finite
 partition into constructible locally closed strata such that it is locally
 constant of finite type on each stratum. We write $\Cons(X,\Lambda)$ for the
 category of constructible sheaves and $\Dbc(X,\Lambda)$ for the bounded
-complexes with constructible cohomology sheaves. For a discrete ring these notions
+complexes with constructible cohomology sheaves. A complex $K$ has \emph{Tor amplitude in $[a,b]$} if
+$K\otimes^{\mathbf L}_{\Lambda_X}N$ has cohomology only in $[a,b]$ for every
+sheaf $N$ of $\Lambda_X$-modules, and $\Dctf(X,\Lambda)\subset\Dbc(X,\Lambda)$ consists of
+the complexes of finite Tor amplitude. For a discrete ring these notions
 agree with Definition~\ref{definition-constructible-sheaves}, which is stated
 for all coefficient rings in \S\ref{section-constructible} below. These conditions
 refer only to pro-\'etale covers, so the main step is to descend torsors
@@ -6650,45 +6651,22 @@ and with it every projective morphism. Finally, by Chow's lemma every proper
 morphism is dominated by a projective one through a proper surjection,
 so a last descent covers all proper morphisms.
 
-\begin{lemma}[Finite morphisms]\label{lemma-finite-morphisms}
-Let $u:V\to W$ be finite. For an abelian sheaf $F$ and a geometric point
-$\bar w:\operatorname{Spec}(\Omega)\to W$, with $\Omega$ algebraically
-closed, one has
-\[
- (u_*F)_{\bar w}
- \simeq \prod_{\substack{\bar v:\operatorname{Spec}(\Omega)\to V\\
-                         u\bar v=\bar w}}F_{\bar v}.
-\]
-The product is finite. The functor $u_*$ from abelian sheaves on
-$V_{\et}$ to abelian sheaves on $W_{\et}$ is exact, and its formation
-commutes with arbitrary base change. Consequently, for
-every base change $W'\to W$ and every constant coefficient ring
+\begin{lemma}[Finite morphisms and base change]\label{lemma-finite-morphisms}
+Let $u:V\to W$ be finite. The formation of $u_*$ on abelian sheaves
+commutes with arbitrary base change: for every base change $W'\to W$, the
+underived base change map \eqref{equation-underived-exchange} is an
+isomorphism. Consequently, for every constant coefficient ring
 $\Lambda$, the derived base change map
 \eqref{equation-derived-exchange} is an isomorphism
 for every $K\in D^+(V_{\et},\Lambda)$.
 \end{lemma}
 
 \begin{proof}
-Everything follows from the stalk formula. To prove it, note that over a
-strict localization the source splits into strictly henselian local
-pieces, and on such a piece taking sections is the same as taking a stalk.
-
-After base change to the strict henselization of $W$ at $\bar w$, the finite
-scheme $V$ becomes a finite disjoint union of strictly henselian local schemes.
-On each such local scheme, the sections of an \'etale sheaf are its stalk at
-the closed geometric point. Indeed, every \'etale neighbourhood of that
-point admits a section, so a germ extends to a global section, and two
-sections with the same germ agree after pulling back along such a section. In
-particular, taking sections is exact on abelian sheaves. Combining this with
-the description of stalks of direct images via strict localizations
-\stacks{03QP}, we obtain the displayed formula.
-Since geometric stalks are conservative and finite products of abelian groups
-are exact, $u_*$ is exact.
-
-In a cartesian square over $W'\to W$, a geometric point of $W'$ and
-its image in $W$ have the same geometric fibre. Therefore the underived
-base change map is the identity on the corresponding factors of the displayed
-formula, hence an isomorphism. Since both
+By Lemma~\ref{lemma-finite-direct-images}, $u_*$ is exact, and its stalks are
+given by the stalk formula there. In a cartesian square over $W'\to W$, a
+geometric point of $W'$ and its image in $W$ have the same geometric fibre.
+Therefore the underived base change map is the identity on the corresponding
+factors of the stalk formula, hence an isomorphism. Since both
 direct images in the square are exact, their derived functors and
 the base change map are computed term by term. Finally, the same argument applies to
 sheaves of modules.
@@ -6696,7 +6674,7 @@ sheaves of modules.
 
 For instance, if $u:\operatorname{Spec}k'\to\operatorname{Spec}k$ is a
 separable extension of degree $d$ and $\bar w$ is a geometric point, the
-formula says that $(u_*F)_{\bar w}$ is the product of the $d$ stalks of $F$
+formula of Lemma~\ref{lemma-finite-direct-images} says that $(u_*F)_{\bar w}$ is the product of the $d$ stalks of $F$
 at the $d$ embeddings of $k'$ into $\Omega$ over $k$.
 
 \begin{example}[A ramified double cover]
@@ -6705,14 +6683,14 @@ Let $k$ be algebraically closed of characteristic $\neq2$, let
 $u:\mathbf A^1_k\to\mathbf A^1_k$ be $x\mapsto x^2$, and let $A$ be a finite
 ring. Over a point $t\neq0$ the fibre consists of the two points
 $\pm\sqrt t$, whereas over $t=0$ it is the single point $x=0$, with a nonreduced
-structure that the \'etale topology does not see. By the lemma, therefore,
+structure that the \'etale topology does not see. By Lemma~\ref{lemma-finite-direct-images}, therefore,
 \[
  (u_*A)_{\bar t}=A\oplus A\quad(t\neq0),\qquad (u_*A)_{\bar0}=A,
 \]
 and the rank of the stalks jumps at the origin, so $u_*A$ is not lisse. It is,
 however, constructible for the stratification $\mathbf G_m\sqcup\{0\}$. Base
 change to the origin gives the stalk $A$, the cohomology of the fibre, as
-the lemma predicts. For the open immersion $j:\mathbf G_m\to\mathbf A^1$,
+Lemma~\ref{lemma-finite-morphisms} predicts. For the open immersion $j:\mathbf G_m\to\mathbf A^1$,
 by contrast, the stalk of $j_*A$ at $0$ is $A$ while the fibre is empty.
 \end{example}
 
@@ -12379,7 +12357,8 @@ is nonzero. We show that the second case gives $P(W)$ and the first gives
 $P(V)$.
 
 The closed summand is formal. The base change $i':W_{T'}\to Z'_{T'}$ of $i$
-is again a closed immersion, and closed direct images are exact and commute
+is again a closed immersion, and closed direct images are exact
+(Lemma~\ref{lemma-finite-direct-images}) and commute
 with every base change (Lemma~\ref{lemma-finite-morphisms}). Hence, for a
 sheaf $N$ on $W_{\et}$,
 \[
@@ -16930,10 +16909,11 @@ Likewise $H^0$ and $H^2_c$ have eigenvalues $1$ and $q$.
 \label{example-running-example-duality}
 Let $C_0\colon y^2=x^3-x$ over $\mathbf F_3$ be the elliptic curve of
 the introduction, and $C=C_0\times_{\mathbf F_3}k$. Since $C$ has genus
-one, $H^1(C,\Ql)$ is a plane. Indeed, by the Kummer sequence it is the dual of
-the rational Tate module $V_\ell J$ of the Jacobian, a $\Ql$-vector space of
-dimension $2g=2$
-(Corollary~\ref{corollary-torsion-jacobian-field-extension} and Proposition~\ref{proposition-kummer-duality-integral-tate-module}).
+one, $H^1(C,\Ql)$ is a plane. Indeed, by the Kummer sequence
+$H^1(C,\mu_{\ell^n})=J[\ell^n](k)\simeq(\mathbf Z/\ell^n)^{2g}$ with $2g=2$
+(Proposition~\ref{proposition-smooth-proper-curves-torsion-prime} and Corollary~\ref{corollary-torsion-jacobian-field-extension}).
+Since $k$ is algebraically closed, $\mu_{\ell^n}\simeq\mathbf Z/\ell^n$, and passing to the limit
+and inverting $\ell$ gives $\dim H^1(C,\Ql)=2$.
 For $d=1$ the middle pairing on $H^1$ is alternating and perfect, with values
 in $\Ql(-1)$ (Corollary~\ref{corollary-cup-product-pairing}). By
 Theorem~\ref{theorem-poincare-duality-frobenius} it satisfies
@@ -21582,8 +21562,8 @@ We write a power of $\rho(s)$ as a central torus element times an
 element of $H$, by Lemma~\ref{lemma-identity-component}, and average
 the torus part over the components of $G$ so that it becomes central
 in all of $G$. The factors from $H$ that accumulate in this
-process are collected in $h$; their determinants are roots of unity, so by
-Lemma~\ref{lemma-determinant-weight-from-central-scalar} they do no harm. Note that the
+process are collected in $h$; their determinants are roots of unity, so they do not affect
+determinant weights (see Lemma~\ref{lemma-determinant-weight-from-central-scalar} below). Note that the
 direct sum $V$ of the $V_i$ is again semisimple, so
 Lemma~\ref{lemma-identity-component} applies to it.
 
@@ -24734,7 +24714,7 @@ by a finite map. All the computation is in the finite case, since
 extension by zero does not change any nonzero stalk.
 
 For a finite map, exactness follows from
-Lemma~\ref{lemma-finite-morphisms} and the comparison of coefficients. The same
+Lemma~\ref{lemma-finite-direct-images} and the comparison of coefficients. The same
 lemma shows that the stalk at a geometric point $\bar y$ over a closed point $y$
 is the direct sum of the stalks at the geometric points of $Z_0$ over
 $\bar y$, and the local Frobenius at $y$ permutes these summands. Let
@@ -28914,7 +28894,39 @@ $\nu_C^*$.
 Let $p\ge0$ be the characteristic of $k$. In this appendix $\ell$ is
 an arbitrary prime, possibly equal to $p$. In characteristic zero the
 hypotheses in $(C_4)$ and $(C_6)$ of Theorem~\ref{theorem-cohomology-curves} that
-$F$ be prime to the characteristic hold automatically.
+$F$ be prime to the characteristic hold automatically. We begin with direct images along finite morphisms,
+which all the reductions below use.
+
+\begin{lemma}[Finite direct images]\label{lemma-finite-direct-images}
+Let $u:V\to W$ be finite. For an abelian sheaf $F$ on $V_{\et}$ and a
+geometric point $\bar w:\operatorname{Spec}(\Omega)\to W$, with $\Omega$
+algebraically closed, one has
+\[
+ (u_*F)_{\bar w}
+ \simeq \prod_{\substack{\bar v:\operatorname{Spec}(\Omega)\to V\\
+                         u\bar v=\bar w}}F_{\bar v}.
+\]
+The product is finite. The functor $u_*$ from abelian sheaves on
+$V_{\et}$ to abelian sheaves on $W_{\et}$ is exact. The same holds for
+sheaves of modules over a constant coefficient ring.
+\end{lemma}
+
+\begin{proof}
+Over a strict localization the source splits into strictly henselian local
+pieces, and on such a piece taking sections is the same as taking a stalk.
+
+After base change to the strict henselization of $W$ at $\bar w$, the finite
+scheme $V$ becomes a finite disjoint union of strictly henselian local schemes.
+On each such local scheme, the sections of an \'etale sheaf are its stalk at
+the closed geometric point. Indeed, every \'etale neighbourhood of that
+point admits a section, so a germ extends to a global section, and two
+sections with the same germ agree after pulling back along such a section. In
+particular, taking sections is exact on abelian sheaves. Combining this with
+the description of stalks of direct images via strict localizations
+\stacks{03QP}, we obtain the displayed formula.
+Since geometric stalks are conservative and finite products of abelian groups
+are exact, $u_*$ is exact. The same argument applies to sheaves of modules.
+\end{proof}
 \subsection{Kummer theory}
 \label{section-kummer}
 
@@ -29390,15 +29402,13 @@ created by the node.
 \begin{lemma}[Finite morphisms and cohomology]
 \label{lemma-finite-morphisms-cohomology}
 Let $h:Y\to C$ be a finite morphism of schemes. The direct image $h_*$
-of classical sheaves is exact, its formation commutes with arbitrary
-base change, and $H^q(C,h_*G)=H^q(Y,G)$ for every classical abelian
+of classical sheaves is exact, and $H^q(C,h_*G)=H^q(Y,G)$ for every classical abelian
 sheaf $G$ on $Y_{\proet}$ and every $q$.
 \end{lemma}
 
 \begin{proof}
-On the \'etale sites, Lemma~\ref{lemma-finite-morphisms} shows that $h_*$
-is exact, that its stalks are finite products of stalks of $G$, and that its
-formation commutes with arbitrary base change.  Since $h_*$ is exact, the Leray spectral
+On the \'etale sites, Lemma~\ref{lemma-finite-direct-images} shows that $h_*$
+is exact and that its stalks are finite products of stalks of $G$.  Since $h_*$ is exact, the Leray spectral
 sequence gives $H^q(C,h_*G)=H^q(Y,G)$.  The comparison of classical
 direct images and
 Theorem~\ref{theorem-bounded-below-cohomology-comparison} transport these statements to
@@ -29460,7 +29470,7 @@ ground field.  Since the normalization is an
 isomorphism over a dense open of each component, the locus
 where it is not an isomorphism is finite.
 
-By the calculation of stalks in Lemma~\ref{lemma-finite-morphisms}, the
+By the calculation of stalks in Lemma~\ref{lemma-finite-direct-images}, the
 displayed map at a geometric point is the diagonal $M\to M^b$, with
 $b\geq1$, so its kernel is zero and its cokernel has the asserted
 form.  Where $\pi$ is an isomorphism we have $b=1$ and the cokernel
@@ -29517,7 +29527,7 @@ Let $C$ be a reduced separated curve of finite type over an
 algebraically closed field $k$, let $j:U\hookrightarrow C$ be a dense
 open with finite complement $i:Z\hookrightarrow C$, let $\ell$ be a prime, and let $F$ be a
 classical constructible sheaf with $\ell F=0$. For each of the
-assertions $(C_1)$--$(C_8)$ of Theorem~\ref{theorem-cohomology-curves},
+assertions $(C_1)$--$(C_8)$ listed at the beginning of this appendix,
 under its hypotheses on $C$ and on the prime $\ell$, the assertion
 holds for $F$ if and only if it holds for $j_!j^*F$.
 \end{lemma}

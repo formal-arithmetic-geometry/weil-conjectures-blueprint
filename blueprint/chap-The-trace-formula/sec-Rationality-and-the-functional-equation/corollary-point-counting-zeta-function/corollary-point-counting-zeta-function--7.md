@@ -5,6 +5,7 @@ title = "Rationality over the rationals"
 order = 1040013
 aliases = ["bp-r318-7"]
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
+uses = ["corollary-point-counting-zeta-function--3"]
 +++
 Let $X_0$ be any scheme of finite type over $\mathbf F_q$. There are
 polynomials $P,Q\in\mathbf Q[T]$ with $Q(0)=1$ such that

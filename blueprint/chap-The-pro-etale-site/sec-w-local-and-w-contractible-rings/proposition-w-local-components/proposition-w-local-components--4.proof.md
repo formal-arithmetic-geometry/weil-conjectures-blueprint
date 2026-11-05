@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-w-local-components--4"
 order = 45008
+uses = ["definition-w-local-w-strictly-local--1", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3"]
 +++
 A strictly henselian local ring is w-strictly local: its spectrum has a unique closed point and that local ring is already strictly henselian. Its component space is a single point, hence extremally disconnected. These are exactly the two defining conditions for w-contractibility; see [Stacks, [0968](https://stacks.math.columbia.edu/tag/0968), [0969](https://stacks.math.columbia.edu/tag/0969)].
 

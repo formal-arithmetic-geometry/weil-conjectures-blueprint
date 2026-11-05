@@ -2,9 +2,10 @@
 id = "lemma-cohomology-multiplicative-group--4"
 kind = "lemma"
 title = "Naturality under field extension"
-order = 1574008
+order = 1576008
 aliases = ["bp-r490-4"]
 lean = ["AlgebraicGeometry.Scheme.gmCohomologyMap_toCohomologicalPicardGroup"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $g:X\to Y$ be any morphism of schemes. Under the identifications
 $H^1(X_{\acute{e}t},\mathbf G_m)=\operatorname{Pic}(X)$ and

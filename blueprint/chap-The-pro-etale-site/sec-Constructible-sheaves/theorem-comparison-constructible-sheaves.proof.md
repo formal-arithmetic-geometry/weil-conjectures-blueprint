@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-comparison-constructible-sheaves"
 order = 150
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "lemma-acyclic-resolutions"]
+uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "lemma-acyclic-resolutions"]
 +++
 The preceding proposition treats the case of a single stratum. For a finite
 stratification we argue locally, by induction on the number of strata.

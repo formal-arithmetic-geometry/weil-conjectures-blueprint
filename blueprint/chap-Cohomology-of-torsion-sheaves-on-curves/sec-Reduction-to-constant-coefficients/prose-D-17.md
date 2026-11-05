@@ -2,7 +2,7 @@
 id = "prose-D-17"
 kind = "hidden"
 title = "Reduction to constant coefficients (2)"
-order = 1615
+order = 1617
 +++
 To apply this to $j_!G$ on a reduced curve $C$, we take for $U$ a dense
 smooth open on which $G$ is locally constant.  Normalizing $C$ in the

@@ -5,6 +5,7 @@ title = "Elimination of indeterminacy by a blow-up centred at the complement"
 order = 1446001
 aliases = ["bp-r450-1"]
 lean = ["AlgebraicGeometry.coe_support_eliminationCentre", "AlgebraicGeometry.isOpenImmersion_strictTransformMap_eliminationBlowup"]
+uses = ["definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "definition-admissible-blow-up--1", "theorem-extension-partial-section--1"]
 +++
 Let $T$ be qcqs, let $U\subseteq T$ be a quasi-compact open, and let
 $q:W\to T$ be separated and of finite type, with $W_U\to U$ an

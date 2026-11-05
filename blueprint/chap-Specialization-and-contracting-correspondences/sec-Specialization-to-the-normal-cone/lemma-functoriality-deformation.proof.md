@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-functoriality-deformation"
-order = 1631
+order = 1633
 +++
 All assertions are statements about the algebras
 $\mathcal O[I/t]$, and we check them on generators.

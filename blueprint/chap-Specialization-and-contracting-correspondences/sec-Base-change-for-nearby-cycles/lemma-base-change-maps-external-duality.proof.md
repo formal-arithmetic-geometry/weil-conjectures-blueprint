@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-base-change-maps-external-duality"
-order = 1668
+order = 1670
 +++
 Since
 $\kappa_M=t_{p_1}(\xi\otimes1)$, the main point is

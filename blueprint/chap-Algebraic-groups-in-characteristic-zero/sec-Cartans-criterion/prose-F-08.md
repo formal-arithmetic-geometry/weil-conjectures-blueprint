@@ -2,7 +2,7 @@
 id = "prose-F-08"
 kind = "hidden"
 title = "Cartan's criterion (4)"
-order = 1736
+order = 1738
 +++
 See [humphreys72, §4.3]. It suffices to show that every element $X$
 of $[\mathfrak a,\mathfrak a]$ is nilpotent. Then

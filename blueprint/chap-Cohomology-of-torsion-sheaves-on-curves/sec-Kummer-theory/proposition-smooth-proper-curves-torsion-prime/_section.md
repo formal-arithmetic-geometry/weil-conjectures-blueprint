@@ -2,9 +2,9 @@
 id = "proposition-smooth-proper-curves-torsion-prime"
 kind = "proposition"
 title = "Smooth proper curves, torsion prime to the characteristic"
-order = 1577
+order = 1579
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_canonical_of_isProper"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-abelian-variety", "lemma-abelian-variety-commutative", "corollary-degree-jacobian"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness"]
 +++
 Let $C$ be smooth, proper and connected over an algebraically closed
 field $k$, with genus $g$, and let $n\geq1$ be invertible in $k$.

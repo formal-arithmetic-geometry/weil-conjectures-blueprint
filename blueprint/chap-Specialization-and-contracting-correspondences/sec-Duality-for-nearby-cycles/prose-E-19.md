@@ -2,7 +2,7 @@
 id = "prose-E-19"
 kind = "hidden"
 title = "Duality for nearby cycles (2)"
-order = 1675
+order = 1677
 +++
 The argument is the one used for
 Proposition [proposition-external-kunneth-formula-nearby-cycles].

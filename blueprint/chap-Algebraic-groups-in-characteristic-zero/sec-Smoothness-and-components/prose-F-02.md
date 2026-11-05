@@ -2,7 +2,7 @@
 id = "prose-F-02"
 kind = "hidden"
 title = "Smoothness and components (1)"
-order = 1719
+order = 1721
 +++
 To pass from Lie algebras back to groups we use the following
 principle: a closed subgroup of a connected group $G$ with the same Lie

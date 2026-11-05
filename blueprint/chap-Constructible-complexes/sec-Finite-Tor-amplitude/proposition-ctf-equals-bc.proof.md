@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ctf-equals-bc"
 order = 253
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "lemma-inverse-image-coefficient-sheaves", "definition-compactification-refinement"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "lemma-acyclicity-pulled-back-injectives", "proposition-locally-constant-sheaves-finite-presentation", "lemma-acyclic-resolutions"]
 +++
 For $\mathcal O_E$, and hence for $\mathbf Z_\ell$, this is the equivalence of (1)
 and (4) in the criterion above. For the fields we show that every

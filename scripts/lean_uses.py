@@ -1,21 +1,29 @@
 #!/usr/bin/env python3
-"""The arrows between declarations, from Lean: what `blueprint check --lean` expects.
+"""The arrows between declarations, from Lean: what `blueprint extract` records.
 
-Usage: scripts/lean_uses.py <lean-facts.json> <blueprint dir> [--write]
+Usage: scripts/lean_uses.py <facts> <blueprint dir> [--write]
 
-A uses B when a Lean name of A depends on a Lean name of B, as `blueprint
-extract` records it (`deps`: the mapped constants reached from A's constant,
-stopping at mapped ones).  What A's Lean statements need (`typeDeps`) goes on
+<facts> is a `lean-facts.json` (`decls`) or a site snapshot, the
+`blueprint.json` of the site branch (`facts`), as weil-conjectures.merten.dev
+shows it.
+
+The two layers are kept apart: a sketch declaration (an id without `--`) gets
+arrows to sketch declarations only, and a detail node of layer 2 (a clause,
+`<id>--<k>`) to detail nodes only.  A uses B when a Lean name of A depends on
+a Lean name of B, with the walk of `blueprint extract` (`deps`: through
+unmapped constants of the project, stopping at mapped ones), the Lean names of
+the other layer counted as unmapped: the walk goes through them by their own
+recorded dependencies, which is what an extraction with only this layer's
+names mapped would give.  What A's Lean statements need (`typeDeps`) goes on
 A, what only their proofs need (`valueDeps`) on A's proof (its first proof
 file), as `check --lean` holds statements and proofs against the two; with no
 proof file, everything goes on A.
 
-Every statement node is rewritten this way, and so are their proofs: a node
-without Lean names gets no arrows, since Lean says nothing about it.  The
-detail nodes of layer 2 (ids `<id>--<k>`) are rewritten too when they have
-Lean names; those without keep the arrows their "Dependencies:" lines give.
-An arrow between a declaration and one of its own clauses is left out: the
-clause is part of the declaration.  Without --write it only reports.
+Every statement node with Lean names is rewritten this way, and so are their
+proofs.  A sketch declaration without Lean names gets no arrows, since Lean
+says nothing about it; a detail node without Lean names keeps the arrows its
+"Dependencies:" line gave it, except those to sketch declarations.  Without
+--write it only reports.
 """
 import collections
 import json
@@ -28,7 +36,8 @@ FACTS, BP = sys.argv[1], sys.argv[2]
 WRITE = '--write' in sys.argv
 STMT = {'theorem', 'lemma', 'proposition', 'corollary', 'definition', 'remark', 'example', 'question'}
 
-decls = json.load(open(FACTS))['decls']
+facts = json.load(open(FACTS))
+decls = facts['decls'] if 'decls' in facts else facts['facts']
 
 nodes, proofs = {}, collections.defaultdict(list)
 for dp, dn, fn in os.walk(BP):
@@ -50,26 +59,31 @@ for k, (p, fm) in nodes.items():
         owners[name].add(k)
 
 missing = sorted({n for k, (p, fm) in nodes.items() for n in fm.get('lean', []) if not decls.get(n, {}).get('exists')})
-mapped = set(owners)
-
 
 def project(x):
     return (decls.get(x, {}).get('module') or '').startswith('WeilConjectures')
 
 
-def walk(starts):
-    """The mapped names reached from `starts`, passing through unmapped project
-    constants, as `blueprint extract` walks.  The facts were extracted with a
-    mapping that may since have lost names; such a name is walked through by
-    its own recorded dependencies, which is what a new extraction would do."""
+def detail(k):
+    return '--' in k
+
+
+def walk(starts, layer):
+    """The nodes of `layer` (detail or not) whose names are reached from
+    `starts`, passing through unmapped project constants, as `blueprint
+    extract` walks, and through the names of the other layer.  The facts were
+    extracted with a mapping that may since have lost names; such a name is
+    walked through by its own recorded dependencies, which is what a new
+    extraction would do."""
     res, seen, todo = set(), set(), list(starts)
     while todo:
         x = todo.pop()
         if x in seen:
             continue
         seen.add(x)
-        if x in mapped:
-            res.add(x)
+        here = {k for k in owners.get(x, ()) if detail(k) == layer}
+        if here:
+            res |= here
         elif x in decls and project(x):
             todo.extend(decls[x].get('deps', []))
     return res
@@ -85,17 +99,8 @@ for k, (p, fm) in nodes.items():
         va = d.get('valueDeps')
         if ty is None or va is None:
             ty, va = d.get('deps', []), []
-        for dep in walk(ty):
-            st[k] |= owners.get(dep, set()) - {k}
-        for dep in walk(va):
-            pf[k] |= owners.get(dep, set()) - {k}
-def family(a, b):
-    return a.split('--')[0] == b.split('--')[0] and ('--' in a) != ('--' in b)
-
-
-for d in (st, pf):
-    for k in d:
-        d[k] = {x for x in d[k] if not family(k, x)}
+        st[k] |= walk(ty, detail(k)) - {k}
+        pf[k] |= walk(va, detail(k)) - {k}
 for k in list(pf):
     pf[k] -= st[k]
     if not proofs.get(k):
@@ -154,15 +159,25 @@ def set_uses(path, ids):
     t = open(path, encoding='utf-8').read()
     i = t.index('+++', 3)
     head = re.sub(r'^uses = \[.*\]\n', '', t[:i], count=1, flags=re.M)
+    if isinstance(ids, set):
+        ids = sorted(ids, key=lambda x: order.get(x, 0))
     if ids:
-        head += 'uses = [' + ', '.join(json.dumps(x) for x in sorted(ids, key=lambda x: order.get(x, 0))) + ']\n'
+        head += 'uses = [' + ', '.join(json.dumps(x) for x in ids) + ']\n'
     if head != t[:i]:
         open(path, 'w', encoding='utf-8').write(head + t[i:])
 
 
+def own_uses(path):
+    t = open(path, encoding='utf-8').read()
+    return tomllib.loads(re.match(r'\+\+\+\n(.*?)\n\+\+\+\n', t, re.S).group(1)).get('uses', [])
+
+
 for k, (p, fm) in nodes.items():
-    if '--' in k and not fm.get('lean'):
-        continue                  # layer-2 detail nodes without Lean names keep their own arrows
+    if detail(k) and not fm.get('lean'):
+        # a detail node without Lean names keeps its own arrows, to detail nodes
+        for q in [p] + [pp for _, pp in proofs.get(k, [])]:
+            set_uses(q, [x for x in own_uses(q) if detail(x)])
+        continue
     set_uses(p, st.get(k, set()))
     ps = sorted(proofs.get(k, []))
     for j, (_, pp) in enumerate(ps):

@@ -6,6 +6,7 @@ name_showing = false
 order = 1503003
 aliases = ["bp-r468-2"]
 lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
+uses = ["definition-abelian-variety--1"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\mathcal N$ be a
 symmetric invertible sheaf on $A$, so that

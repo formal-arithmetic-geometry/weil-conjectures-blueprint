@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-derived-nakayama"
 order = 211
-uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "corollary-finite-quotients-their-transition-maps"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "definition-derived-adic-completeness"]
 +++
 The first assertion follows from the two-term resolution of
 $(\mathcal O_E/\pi_E^n)_X$ in

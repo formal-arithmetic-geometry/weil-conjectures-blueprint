@@ -6,6 +6,7 @@ name_showing = false
 order = 111001
 aliases = ["bp-r030-1"]
 lean = ["AlgebraicGeometry.ProEtale.AffinePresentation", "AlgebraicGeometry.ProEtale.IsClassical", "AlgebraicGeometry.ProEtale.continuityMap"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 A sheaf $F$ on $X_{\mathrm{pro}\acute{e}t}$ is *classical* if, for every
 pro-étale affine presentation $U=\varprojlim_i U_i$ with $U_i$ affine

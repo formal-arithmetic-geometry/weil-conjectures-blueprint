@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-function-sheaf-dictionary--1"
 order = 1029003
+uses = ["theorem-grothendieck-lefschetz-trace-formula--6"]
 +++
 For (1), the stalk of $g^*K$ at $\bar w$ is $K_{\bar x}$ with $x=g_0(w)$, and
 the Weil structure of $g^*K$ is $g^*\phi$ composed with the base change

@@ -4,7 +4,7 @@ kind = "definition"
 title = "Strict transform"
 order = 1431
 lean = ["AlgebraicGeometry.strictTransform"]
-uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up"]
+uses = ["lemma-schematic-closure-uniqueness"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of
 finite type, with exceptional divisor $E\subseteq T'$, and let $W\to T$

@@ -5,6 +5,7 @@ title = "Commutators over coefficient algebras"
 order = 1133003
 aliases = ["bp-r347-2"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy"]
+uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2"]
 +++
 In the setting of [lemma-normality-geometric-monodromy--1], for every
 commutative $\overline{\mathbf Q}_\ell$-algebra $R$ we have

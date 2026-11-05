@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-isomorphisms-reduce-finite-coefficients--3"
 order = 654007
-uses = ["proposition-isomorphisms-reduce-finite-coefficients--2", "lemma-integral-models"]
+uses = ["proposition-isomorphisms-reduce-finite-coefficients--2"]
 +++
 Let $\Lambda=E$. Here completeness is of no help, since a complex over
 $E$ is killed by reduction modulo $\pi_E$. Instead we use integral models.

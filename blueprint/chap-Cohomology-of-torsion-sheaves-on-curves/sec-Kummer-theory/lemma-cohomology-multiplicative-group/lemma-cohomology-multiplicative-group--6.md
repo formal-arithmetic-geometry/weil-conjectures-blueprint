@@ -2,9 +2,10 @@
 id = "lemma-cohomology-multiplicative-group--6"
 kind = "lemma"
 title = "Vanishing of the Brauer cohomology"
-order = 1574012
+order = 1576012
 aliases = ["bp-r490-6"]
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
+uses = ["lemma-cohomology-multiplicative-group--5"]
 +++
 For a smooth separated scheme $C$ of finite type and dimension at most
 one over an algebraically closed field,

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Elimination of indeterminacy"
 order = 1446
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
-uses = ["definition-admissible-blow-up", "definition-strict-transform"]
+uses = ["definition-strict-transform"]
 +++
 Let $T$ be qcqs, let $U\subseteq T$ be a quasi-compact open, and let
 $W\to T$ be separated and of finite type, with $W_U\to U$ an

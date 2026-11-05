@@ -6,6 +6,7 @@ name_showing = false
 order = 673003
 aliases = ["bp-r202-2"]
 lean = ["AlgebraicGeometry.Etale.mono_cokernelMap"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 Let $\Lambda$ be a commutative ring, $g:Y'\to Y$ a morphism of schemes,
 and $q\in\mathbf Z$ with $q\geq1$. Suppose that degree-$(q-1)$ base

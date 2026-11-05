@@ -5,6 +5,7 @@ title = "Filtered-colimit criterion"
 order = 340004
 aliases = ["bp-r103-3"]
 lean = ["AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit", "AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations", "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion", "AlgebraicGeometry.Scheme.isTorsionSheaf_iff_isTorsion"]
+uses = ["definition-torsion-sheaves--1"]
 +++
 Let $T$ be a scheme and let $F$ be a sheaf of abelian groups on
 $T_{\acute{e}t}$. The following conditions are equivalent:

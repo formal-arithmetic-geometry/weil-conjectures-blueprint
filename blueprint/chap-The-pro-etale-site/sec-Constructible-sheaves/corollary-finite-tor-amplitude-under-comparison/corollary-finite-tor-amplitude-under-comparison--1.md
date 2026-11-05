@@ -5,6 +5,7 @@ title = "Comparison preserves and reflects each Tor interval"
 order = 152001
 aliases = ["bp-r044-1"]
 lean = ["AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $\Lambda$ be a discrete
 commutative Noetherian ring. There is a derived comparison functor
@@ -28,7 +29,7 @@ $$
 
 Here Tor amplitude is tested against every sheaf of modules on the
 respective site, placed in degree zero, as in
-[definition-constructible-sheaves]. Consequently, the bounded constructible
+Section [sec-Constructible-sheaves]. Consequently, the bounded constructible
 equivalence of [theorem-comparison-constructible-sheaves] restricts to an
 equivalence
 

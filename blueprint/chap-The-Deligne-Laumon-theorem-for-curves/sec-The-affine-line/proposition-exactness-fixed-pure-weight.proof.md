@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-exactness-fixed-pure-weight"
 order = 1299
-uses = ["proposition-sp-unique-adjoint", "proposition-weights-j-boundary-points", "lemma-local-duality-point-c-u"]
 +++
 Applying $j_*$ to the short exact sequence gives the long exact sequence
 

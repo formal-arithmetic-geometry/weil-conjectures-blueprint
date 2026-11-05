@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas--1"
 order = 830002
+uses = ["lemma-kunneth-formula-compact-supports--3"]
 +++
 The adjunction $Rf_!\dashv f^!$ lives on the localizing
 categories $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ and $\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, and the functors in the argument preserve

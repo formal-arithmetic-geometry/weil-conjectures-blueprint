@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-vanishing-local-term-zero-stalk"
 order = 991
-uses = ["lemma-flat-models-generators", "definition-pro-etale-base-change-map", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "lemma-external-duality-trace-morphism", "lemma-frobenius-fixed-scheme", "lemma-vanishing-restrictions-after-blowing-up", "lemma-covers-degree-prime-to-ell", "lemma-tangent-cones-on-cover", "lemma-descent-vanishing-finite-etale", "lemma-passing-schematic-closure"]
 +++
 We use the notation introduced before
 Lemma [lemma-covers-degree-prime-to-ell] and compute on the étale

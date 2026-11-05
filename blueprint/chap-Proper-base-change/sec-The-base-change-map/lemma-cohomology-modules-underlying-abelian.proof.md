@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-modules-underlying-abelian"
 order = 313
+uses = ["lemma-acyclic-resolutions"]
 +++
 An injective sheaf of modules is acyclic for the section functor on every
 object of the site, although it need not be injective as an abelian sheaf

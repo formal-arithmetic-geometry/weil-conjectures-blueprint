@@ -3,7 +3,6 @@ id = "lemma-extending-graph-from-compactification"
 kind = "lemma"
 title = "Extending a graph from a compactification"
 order = 1449
-uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be qcqs, let $M\to S$ be separated of finite type, and let
 $V\subseteq M$ be a quasi-compact open with a compactification

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-point-counting-zeta-function--7"
 order = 1040014
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "theorem-grothendieck-lefschetz-trace-formula--5", "theorem-grothendieck-lefschetz-trace-formula--6", "corollary-point-counting-zeta-function--2", "corollary-point-counting-zeta-function--5", "corollary-point-counting-zeta-function--6", "lemma-hankel-rank-rationality--2", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "definition-admissible-blow-up--1", "theorem-extension-partial-section--1", "theorem-elimination-indeterminacy--1", "lemma-extending-graph-from-compactification--1", "lemma-separation-closures--1", "lemma-extending-isomorphism-over-closure-closed--1", "lemma-gluing-after-admissible-blow-ups--1", "lemma-affine-covers-dense-intersection--1"]
 +++
 Clause [corollary-point-counting-zeta-function--5] gives rationality over $\mathbf Q_\ell$, while clause [corollary-point-counting-zeta-function--6] gives rational Taylor coefficients.
 

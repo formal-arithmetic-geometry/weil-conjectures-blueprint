@@ -2,7 +2,7 @@
 id = "lemma-nearby-cycles-constant-family"
 kind = "lemma"
 title = "Nearby cycles of a constant family"
-order = 1625
+order = 1627
 +++
 For a separated $k$-scheme $Y$ of finite type and
 $L\in\Dbc(Y,A)$, the specialization map

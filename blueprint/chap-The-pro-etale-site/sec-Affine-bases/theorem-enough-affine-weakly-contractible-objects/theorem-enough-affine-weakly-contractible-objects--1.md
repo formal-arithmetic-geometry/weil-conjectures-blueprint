@@ -6,6 +6,7 @@ name_showing = false
 order = 71001
 aliases = ["bp-r017-1"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "definition-w-local-w-strictly-local--4"]
 +++
 Let $V$ be an object of $X_{\mathrm{pro}\acute{e}t}$. There are a set $I$,
 objects $U_i$ of $X_{\mathrm{pro}\acute{e}t}$ and morphisms $u_i:U_i\to V$

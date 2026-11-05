@@ -6,6 +6,7 @@ name_showing = false
 order = 91003
 aliases = ["bp-r024-2"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence", "DerivedCategory.shortExact_milnor_of_isHomotopyLimit"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $\mathcal R$ be a sheaf of rings on $X_{\mathrm{pro}\acute{e}t}$ and let $(K_n)$ be a
 countable tower of complexes of $\mathcal R$-modules, with no boundedness

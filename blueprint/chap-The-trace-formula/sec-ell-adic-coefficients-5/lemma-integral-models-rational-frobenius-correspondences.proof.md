@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models-rational-frobenius-correspondences"
 order = 1015
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-inverting-ell"]
+uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "proposition-locally-constant-sheaves-finite-presentation", "proposition-inverting-ell", "lemma-acyclic-resolutions", "proposition-six-operations-change-coefficients", "lemma-schematic-closure-uniqueness"]
 +++
 Morphisms in the rational category are integral morphisms divided by a
 power of $\pi_E$. This gives $K_0$ and $\theta$. The formulas for the operators

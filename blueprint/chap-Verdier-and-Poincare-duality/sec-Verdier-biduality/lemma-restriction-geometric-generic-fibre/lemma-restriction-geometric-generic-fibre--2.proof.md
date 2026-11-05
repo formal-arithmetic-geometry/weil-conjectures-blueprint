@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-restriction-geometric-generic-fibre--2"
 order = 839004
+uses = ["proposition-forgetting-supports-composition--3", "lemma-restriction-geometric-generic-fibre--1"]
 +++
 Use the direct-image comparison of clause [lemma-restriction-geometric-generic-fibre--1].
 

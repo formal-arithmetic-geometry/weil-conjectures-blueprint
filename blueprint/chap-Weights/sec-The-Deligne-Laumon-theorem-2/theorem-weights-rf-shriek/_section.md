@@ -3,7 +3,6 @@ id = "theorem-weights-rf-shriek"
 kind = "theorem"
 title = "Weights of $Rf_!$"
 order = 1087
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For every separated morphism of finite type $f:X_0\to Y_0$,
 

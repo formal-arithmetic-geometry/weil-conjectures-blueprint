@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-lie-algebras-faithful-semisimple-representation"
-order = 1744
-uses = ["lemma-lie-s-theorem"]
+order = 1746
 +++
 We follow the two halves described at the start of this section:
 first the radical is central, and then the quotient by the center

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-verdier-exchange-formulas"
 order = 849
-uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-composition-base-change-rf-shriek", "definition-verdier-dual-evaluation", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 Two of the formulas are Lemma [lemma-internal-adjunction-two-exchange-formulas], and we obtain the other two by applying these to the Verdier dual of the argument and
 using biduality on both schemes. Explicitly, for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and

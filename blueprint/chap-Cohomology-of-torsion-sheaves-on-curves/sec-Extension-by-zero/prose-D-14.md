@@ -2,7 +2,7 @@
 id = "prose-D-14"
 kind = "hidden"
 title = "Extension by zero (1)"
-order = 1607
+order = 1609
 +++
 A constructible sheaf on a curve is locally constant on a dense open
 subset. Removing the finitely many remaining points replaces the sheaf

@@ -2,7 +2,7 @@
 id = "prose-E-15"
 kind = "hidden"
 title = "Base change for nearby cycles (1)"
-order = 1661
+order = 1663
 +++
 Let $c$ be a correspondence over the trait $S$ and $u$ a cohomological
 correspondence on its generic fibre. Nearby cycles turn $u$ into a map

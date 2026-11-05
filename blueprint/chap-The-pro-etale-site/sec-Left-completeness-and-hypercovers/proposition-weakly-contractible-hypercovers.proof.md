@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-weakly-contractible-hypercovers"
 order = 104
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-w-local-components", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-w-contractible-affines-projective", "definition-weak-contractibility"]
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-w-contractible-affines-projective"]
 +++
 We build a hypercover whose terms have no higher cohomology, so that
 the hypercover spectral sequence collapses to the complex of sections.

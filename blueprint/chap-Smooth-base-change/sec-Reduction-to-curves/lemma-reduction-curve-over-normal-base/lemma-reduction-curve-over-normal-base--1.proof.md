@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-curve-over-normal-base--1"
 order = 682002
+uses = ["definition-small-pro-etale-site--1", "lemma-injectivity-base-change-map-degree--1", "lemma-reduction-field--1", "lemma-integral-changes-source-base--1", "lemma-integral-changes-source-base--2"]
 +++
 The argument does not use that $g$ is affine or smooth. These hypotheses only
 serve to make $C$ a smooth affine curve, by base change.

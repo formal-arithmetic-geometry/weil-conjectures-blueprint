@@ -2,7 +2,7 @@
 id = "example-normal-cone-point"
 kind = "example"
 title = "Normal cones of a point"
-order = 1628
+order = 1630
 +++
 If $X$ is smooth at a point $Z=\{y\}$, then
 $\bigoplus_rI^r/I^{r+1}$ is the symmetric algebra of $I/I^2$ and

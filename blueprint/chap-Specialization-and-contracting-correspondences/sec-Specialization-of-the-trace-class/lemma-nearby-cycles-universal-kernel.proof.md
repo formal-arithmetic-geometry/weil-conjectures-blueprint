@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-nearby-cycles-universal-kernel"
-order = 1690
+order = 1692
 +++
 For the first equality, we precompose with $\Pi_{K,\mathbb DK}$ and take
 tensor–Hom adjoints. Both maps then have source

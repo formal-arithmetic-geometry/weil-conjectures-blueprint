@@ -6,6 +6,7 @@ name_showing = false
 order = 952002
 aliases = ["bp-r289-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.isFinite", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.isUniversalHomeomorphism"]
+uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $k_0$ be a finite field, let $k/k_0$ be a field extension, and let
 $X_0$ be a $k_0$-scheme. Put $X=X_0\times_{k_0}k$, and let

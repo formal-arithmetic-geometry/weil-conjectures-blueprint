@@ -5,6 +5,7 @@ title = "Detecting isomorphisms"
 order = 79014
 aliases = ["bp-r020-7"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.sections_conservative"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "definition-weak-contractibility--1"]
 +++
 A morphism $f\colon A\to B$ of $\mathcal R$-module sheaves is an
 isomorphism if and only if $f(W)\colon A(W)\to B(W)$ is bijective for

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-normalization-constant-sheaf"
-order = 1604
-uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+order = 1606
+uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness"]
 +++
 The map is computed on stalks by the formula for stalks of finite direct
 images, and the cokernel has finite support because $\pi$ is an
@@ -18,7 +18,7 @@ ground field.  Since the normalization is an
 isomorphism over a dense open of each component, the locus
 where it is not an isomorphism is finite.
 
-By the calculation of stalks in Lemma [lemma-finite-morphisms], the
+By the calculation of stalks in Lemma [lemma-finite-direct-images], the
 displayed map at a geometric point is the diagonal $M\to M^b$, with
 $b\geq1$, so its kernel is zero and its cokernel has the asserted
 form.  Where $\pi$ is an isomorphism we have $b=1$ and the cokernel

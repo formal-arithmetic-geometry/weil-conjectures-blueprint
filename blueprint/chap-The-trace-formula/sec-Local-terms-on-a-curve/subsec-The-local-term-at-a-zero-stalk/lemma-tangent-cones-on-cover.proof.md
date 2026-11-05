@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-tangent-cones-on-cover"
 order = 986
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability"]
 +++
 The two covers descend to finite flat morphisms $C_i'\to C_i$ of degree $d$
 between smooth curves, where $C_i$ is an étale neighbourhood of $y$ in

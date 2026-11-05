@@ -2,9 +2,10 @@
 id = "lemma-cohomology-multiplicative-group--3"
 kind = "lemma"
 title = "Naturality under restriction"
-order = 1574006
+order = 1576006
 aliases = ["bp-r490-3"]
 lean = ["AlgebraicGeometry.Scheme.etaleRestrictionH_toCohomologicalPicardGroup"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 For a scheme $Y$, descent for invertible modules identifies
 $H^1(Y_{\acute{e}t},\mathbf G_m)$ with $\operatorname{Pic}(Y)$, sending an invertible

@@ -3,7 +3,7 @@ id = "theorem-contracting-correspondences-local-terms--1"
 kind = "theorem"
 title = "Contracting correspondences and local terms (1)"
 name_showing = false
-order = 1709001
+order = 1711001
 aliases = ["bp-r531-1"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, and let

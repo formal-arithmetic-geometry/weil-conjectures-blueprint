@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-base-change-rf-shriek--2"
 order = 516005
+uses = ["proposition-proper-direct-image-constructible-complexes--8", "lemma-inverse-image-tensor-product--1", "definition-compactification-refinement--2", "definition-compactification-refinement--3", "theorem-nagata-s-compactification-theorem--1"]
 +++
 *Verification of canonicity and associativity.* Every map used is characterized by
 its restriction to an open subscheme, since the refinement maps

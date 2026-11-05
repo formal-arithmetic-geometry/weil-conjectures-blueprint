@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-point-counting-zeta-function"
 order = 1041
-uses = ["definition-categorical-trace", "proposition-properties-trace", "theorem-grothendieck-lefschetz-trace-formula", "lemma-hankel-rank-rationality"]
+uses = ["proposition-pro-etale-affines-form-basis", "theorem-grothendieck-lefschetz-trace-formula"]
 +++
 The identities over $\Lambda$ are the trace formula and the Euler
 product for the constant sheaf. What needs an argument is that

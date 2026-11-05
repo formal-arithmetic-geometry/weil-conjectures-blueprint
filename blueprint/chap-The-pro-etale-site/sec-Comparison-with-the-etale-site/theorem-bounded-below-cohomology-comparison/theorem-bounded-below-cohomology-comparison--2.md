@@ -5,6 +5,7 @@ title = "Full faithfulness on bounded-below targets"
 order = 123003
 aliases = ["bp-r035-2"]
 lean = ["AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 For every $K\in D(X_{\acute{e}t},\Lambda)$ and every $M\in D^+(X_{\acute{e}t},\Lambda)$,
 the map

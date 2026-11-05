@@ -6,6 +6,7 @@ name_showing = false
 order = 676001
 aliases = ["bp-r203-1"]
 lean = ["AlgebraicGeometry.Etale.nonempty_fieldFailure"]
+uses = ["definition-derived-base-change-map--1"]
 +++
 If $\mathrm{BC}(g,n,q-1)$ holds but $\mathrm{BC}(g,n,q)$ fails, then
 some failure occurs for an affine base change $T\to Y$, direct image along a

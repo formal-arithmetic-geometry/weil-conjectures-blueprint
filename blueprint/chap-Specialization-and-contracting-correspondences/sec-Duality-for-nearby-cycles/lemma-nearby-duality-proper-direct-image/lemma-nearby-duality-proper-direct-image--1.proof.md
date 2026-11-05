@@ -1,6 +1,6 @@
 +++
 kind = "proof"
 of = "lemma-nearby-duality-proper-direct-image--1"
-order = 1676002
+order = 1678002
 +++
 This clause is proved by the proof of Lemma [lemma-nearby-duality-proper-direct-image], with the hypotheses and choices shared there.

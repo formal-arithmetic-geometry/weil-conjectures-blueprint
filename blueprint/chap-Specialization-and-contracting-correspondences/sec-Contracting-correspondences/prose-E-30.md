@@ -2,7 +2,7 @@
 id = "prose-E-30"
 kind = "hidden"
 title = "Contracting correspondences (5)"
-order = 1710
+order = 1712
 +++
 For $Z$ a point, the theorem specializes to
 Corollary [corollary-contracting-local-terms-point]. Under its

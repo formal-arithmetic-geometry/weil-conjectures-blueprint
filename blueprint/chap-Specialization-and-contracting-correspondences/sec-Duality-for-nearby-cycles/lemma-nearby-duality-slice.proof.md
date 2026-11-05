@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-nearby-duality-slice"
-order = 1683
-uses = ["lemma-identity-pasting", "lemma-naturality-pasting-comparison", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-proper-direct-image-constructible-complexes", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex", "lemma-passing-schematic-closure", "remark-non-noetherian-compactifications", "lemma-nearby-duality-proper-direct-image"]
+order = 1685
+uses = ["lemma-inverse-image-coefficient-sheaves", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-change-coefficients", "lemma-kunneth-field-coefficients", "definition-relative-dualizing-complex", "definition-compactification-refinement", "lemma-passing-schematic-closure", "lemma-nearby-duality-proper-direct-image"]
 +++
 The map $\delta$ is the adjoint of the pairing
 (E.12). By

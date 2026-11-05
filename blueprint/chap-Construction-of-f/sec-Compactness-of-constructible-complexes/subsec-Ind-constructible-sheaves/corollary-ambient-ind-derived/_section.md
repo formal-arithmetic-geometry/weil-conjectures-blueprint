@@ -5,7 +5,7 @@ title = "The derived category of ind-constructible sheaves"
 name_showing = false
 order = 459
 lean = ["AlgebraicGeometry.ProEtale.localizingClosure_boundedConstructible_le"]
-uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-localizing-subcategory", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves"]
+uses = ["definition-constructible-sheaves", "definition-localizing-subcategory", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves"]
 +++
 The full subcategory
 

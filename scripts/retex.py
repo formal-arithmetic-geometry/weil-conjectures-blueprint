@@ -18,8 +18,9 @@ The blueprint is built afresh in <out dir>, which is then put in place of
    label), RENAMED
    applied to its labels, and a split declaration's block split as well;
 4. a clause with Lean names (matched by id) keeps its `lean` and the `uses`
-   that scripts/lean_uses.py gave it; the other clauses take their arrows
-   from the "Dependencies:" lines.
+   that scripts/lean_uses.py gave it and its proof; the other clauses take
+   their arrows from the "Dependencies:" lines, those to clauses only (a
+   clause uses clauses, a declaration declarations).
 
 Run on the tex the blueprint was made from, it gives the blueprint back.
 """
@@ -121,6 +122,7 @@ if r.returncode:
 
 old = {}            # key -> fm, for the blueprint's nodes that are not layer-2 nodes
 old_clause = {}     # id -> fm, for the clauses that have Lean names
+old_clause_proof = {}   # clause id -> fm of its first proof
 for dp, dn, fn in os.walk(BP):
     for f in fn:
         p = os.path.join(dp, f)
@@ -131,6 +133,8 @@ for dp, dn, fn in os.walk(BP):
         if '--' in str(k):
             if isinstance(k, str) and fm.get('lean'):
                 old_clause[k] = fm
+            if isinstance(k, tuple) and k[2] == 1:
+                old_clause_proof[k[1]] = fm
             continue                      # a clause, its proof or text: layer2bp writes them
         old[k] = fm
 
@@ -312,7 +316,9 @@ shutil.rmtree(tmp)
 # ------------------------------------------------------------------ 4. clauses' Lean names
 
 # A clause with Lean names keeps them, and keeps the arrows that
-# scripts/lean_uses.py gave it from Lean (in place of its "Dependencies:" line).
+# scripts/lean_uses.py gave it and its proof from Lean (in place of its
+# "Dependencies:" line).  The other clauses keep the arrows of their
+# "Dependencies:" lines that go to clauses: a clause uses clauses only.
 kept = 0
 for dp, dn, fn in os.walk(OUT):
     for f in fn:
@@ -320,13 +326,23 @@ for dp, dn, fn in os.walk(OUT):
         if not f.endswith('.md'):
             continue
         fm, front, body = parse(p)
-        prev = old_clause.get(fm.get('id'))
-        if prev is None:
+        k = key_of(p, fm)
+        clause = k[1] if isinstance(k, tuple) else k
+        if '--' not in str(clause) or fm.get('kind') == 'hidden':
             continue
         lines = [x for x in front.split('\n') if not x.startswith(('lean = ', 'uses = '))]
-        lines.append(f'lean = {toml_list(prev["lean"])}')
-        if prev.get('uses'):
-            lines.append(f'uses = {toml_list(prev["uses"])}')
-        open(p, 'w', encoding='utf-8').write('+++\n' + '\n'.join(lines) + '\n+++\n' + body)
-        kept += 1
+        if clause in old_clause:
+            if isinstance(k, tuple):
+                uses = old_clause_proof.get(clause, {}).get('uses', []) if k[2] == 1 else []
+            else:
+                lines.append(f'lean = {toml_list(old_clause[clause]["lean"])}')
+                uses = old_clause[clause].get('uses', [])
+                kept += 1
+        else:
+            uses = [x for x in fm.get('uses', []) if '--' in x]
+        if uses:
+            lines.append(f'uses = {toml_list(uses)}')
+        new_front = '\n'.join(lines)
+        if new_front != front:
+            open(p, 'w', encoding='utf-8').write('+++\n' + new_front + '\n+++\n' + body)
 print(f'{kept} clauses keep their Lean names; lost: {sorted(set(old_clause) - present_after(OUT))}')

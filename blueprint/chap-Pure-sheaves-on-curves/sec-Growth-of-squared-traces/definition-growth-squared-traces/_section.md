@@ -3,7 +3,6 @@ id = "definition-growth-squared-traces"
 kind = "definition"
 title = "Growth of squared traces"
 order = 1200
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-trace-function"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. For
 $n\ge1$ and $x\in X_0(k_n)$, let $\operatorname{Frob}_{x,n}$ be the

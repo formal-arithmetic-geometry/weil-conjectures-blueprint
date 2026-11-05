@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-weights-exact-sequence"
 order = 1353
-uses = ["lemma-subobjects-quotients-weil-sheaves"]
 +++
 Let $a:F'\to F$ and $b:F\to F''$ be the maps. Exactness at $F$ gives a
 short exact sequence

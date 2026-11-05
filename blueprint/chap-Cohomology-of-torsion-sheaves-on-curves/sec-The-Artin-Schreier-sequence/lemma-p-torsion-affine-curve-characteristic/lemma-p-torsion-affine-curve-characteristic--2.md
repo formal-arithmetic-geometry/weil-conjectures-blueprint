@@ -3,7 +3,7 @@ id = "lemma-p-torsion-affine-curve-characteristic--2"
 kind = "lemma"
 title = "$p$-torsion on an affine curve in characteristic $p$ (2)"
 name_showing = false
-order = 1590003
+order = 1592003
 aliases = ["bp-r495-2"]
 lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine"]
 +++

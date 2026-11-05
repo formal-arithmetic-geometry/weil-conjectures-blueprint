@@ -6,6 +6,7 @@ name_showing = false
 order = 112003
 aliases = ["bp-r031-2"]
 lean = ["AlgebraicGeometry.ProEtale.comparisonAdjunction", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Its inverse image
 $\nu_X^*:\Sh(X_{\acute{e}t})\to\Sh(X_{\mathrm{pro}\acute{e}t})$ is exact and has the

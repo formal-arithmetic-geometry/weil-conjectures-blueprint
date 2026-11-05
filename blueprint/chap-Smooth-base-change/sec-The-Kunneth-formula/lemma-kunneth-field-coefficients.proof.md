@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-field-coefficients"
 order = 716
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "lemma-kunneth-finite-direct-image", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 We first treat constructible sheaves $M$ and $Q$, by the usual argument for
 comparing a $\delta$-functor with an exact functor, and then pass to

@@ -3,7 +3,7 @@ id = "lemma-lie-s-theorem--1"
 kind = "lemma"
 title = "Lie's theorem (1)"
 name_showing = false
-order = 1731001
+order = 1733001
 aliases = ["bp-r536-1"]
 lean = ["LieModule.exists_ne_zero_forall_lie_eq_smul_of_isSolvable"]
 +++

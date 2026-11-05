@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-p-torsion-affine-curve-characteristic--3"
-order = 1590006
+order = 1592006
 +++
 Every section $t$ on an étale $X$-scheme $V$ acquires a root of
 $y^p-y-t$ on the base change to $V$ of

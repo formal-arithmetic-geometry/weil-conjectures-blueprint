@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-locally-constant-sheaves-finite-presentation"
 order = 147
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis"]
 +++
 A locally constant sheaf with model $M$ is the same as a torsor under the
 automorphism sheaf of the constant sheaf $\underline M$, so the

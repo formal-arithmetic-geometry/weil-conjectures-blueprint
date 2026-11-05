@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-killing"
-order = 1741
+order = 1743
 +++
 We first use Cartan's criterion to show that the kernel of $B$ is a
 solvable ideal, hence zero; nondegeneracy then identifies the orthogonal

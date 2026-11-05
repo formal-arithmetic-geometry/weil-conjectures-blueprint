@@ -5,6 +5,7 @@ title = "Separation with quasi-compact complements"
 order = 1453001
 aliases = ["bp-r452-1"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
+uses = ["definition-admissible-blow-up--1"]
 +++
 Let $T$ be qcqs and let $j:V\hookrightarrow T$ be a quasi-compact open.
 Let $F_1,F_2\subseteq V$ be disjoint closed subsets such that

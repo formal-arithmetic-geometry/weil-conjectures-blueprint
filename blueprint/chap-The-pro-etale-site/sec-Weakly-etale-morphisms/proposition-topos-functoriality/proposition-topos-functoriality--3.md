@@ -6,6 +6,7 @@ name_showing = false
 order = 39005
 aliases = ["bp-r006-3"]
 lean = ["AlgebraicGeometry.ProEtale.setPullbackComp"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2"]
 +++
 For morphisms $f:X\to Y$ and $g:Y\to Z$ of schemes in a universe $u$,
 the inverse images on sheaves of sets in universe $u+1$ have a canonical

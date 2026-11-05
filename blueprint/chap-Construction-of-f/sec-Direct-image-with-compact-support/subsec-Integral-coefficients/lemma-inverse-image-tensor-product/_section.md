@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Inverse image and tensor product"
 order = 494
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves"]
+uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,
 extension by zero along a quasi-compact open immersion and direct image

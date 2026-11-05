@@ -3,7 +3,7 @@ id = "lemma-quasi-finite-coordinates--1"
 kind = "lemma"
 title = "Quasi-finite coordinates (1)"
 name_showing = false
-order = 1654001
+order = 1656001
 aliases = ["bp-r513-1"]
 +++
 Let $X$ be flat, separated and of finite type over $S$, and let $x$ be

@@ -5,6 +5,7 @@ title = "Frobenius trace"
 order = 1220012
 aliases = ["bp-r375-6"]
 lean = ["AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "theorem-grothendieck-lefschetz-trace-formula--6", "definition-compactification-refinement--1"]
 +++
 For every $a\in k_0$, every $n\geq1$, and every $x\in\Fqn$, the trace of
 local geometric Frobenius on the sheaf $\mathcal L_{\psi(ax)}$ of

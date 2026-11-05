@@ -5,6 +5,7 @@ title = "Equivalence of constructible sheaves"
 order = 149004
 aliases = ["bp-r043-2"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison_moduleEquivalence"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $X$ be quasi-compact and quasi-separated, and let $\Lambda$ be a
 discrete commutative Noetherian ring. There is an equivalence from the

@@ -5,6 +5,7 @@ title = "Description of the fixed scheme"
 order = 960002
 aliases = ["bp-r292-1"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.fixedPointEquiv", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.nonempty_isLimit_fixedPointsFork"]
+uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $k_0=\Fq$, let $k$ be an algebraically closed extension of $k_0$, and
 let $X=X_0\times_{k_0}k$ be locally of finite type over $k$. Write

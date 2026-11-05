@@ -3,7 +3,7 @@ id = "example-contracting-squaring--1"
 kind = "example"
 title = "Squaring on the line (1)"
 name_showing = false
-order = 1702001
+order = 1704001
 aliases = ["bp-r528-1"]
 +++
 Let $X=C=\mathbf A^1=\operatorname{Spec}k[x]$, let $Z$ be the origin,

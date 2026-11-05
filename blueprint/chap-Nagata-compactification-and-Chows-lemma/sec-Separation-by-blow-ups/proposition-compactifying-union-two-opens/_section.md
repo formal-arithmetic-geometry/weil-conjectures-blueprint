@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Compactifying a union of two opens"
 order = 1461
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
-uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be Noetherian and let $M\to S$ be separated of finite type.
 Suppose that $M=M_1\cup M_2$, that each $M_i$ has a compactification over

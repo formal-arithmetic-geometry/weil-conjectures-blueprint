@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-triviality-near-fibre"
 order = 1487
-uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "lemma-triviality-fibres"]
+uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness"]
 +++
 We want a section of $\mathcal L$ over $X\times U$, where $X=P\times Q$,
 that does not vanish on the fibre over $t$. Its zero locus then misses a

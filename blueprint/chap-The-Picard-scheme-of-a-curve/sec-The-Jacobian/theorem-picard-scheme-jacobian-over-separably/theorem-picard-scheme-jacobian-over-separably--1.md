@@ -5,6 +5,7 @@ title = "Representability, smoothness and degree decomposition"
 order = 1552001
 aliases = ["bp-r483-1"]
 lean = ["AlgebraicGeometry.GrpObj.isSeparated_hom", "AlgebraicGeometry.exists_decomposition_picardFunctor_representableBy", "AlgebraicGeometry.isRepresentable_picardFunctor", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor"]
+uses = ["definition-relative-picard-functor--1"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper
 geometrically integral curve of genus $g$. The fppf Picard functor

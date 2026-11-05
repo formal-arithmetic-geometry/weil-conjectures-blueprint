@@ -4,7 +4,6 @@ kind = "corollary"
 title = "Evaluation on weakly contractible objects"
 order = 79
 lean = ["AlgebraicGeometry.ProEtale.isZero_rightDerived_sectionsFunctor_of_isWeaklyContractible", "AlgebraicGeometry.ProEtale.preservesHomology_sectionsFunctor_of_isWeaklyContractible"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-weak-contractibility"]
 +++
 Let $W$ be a weakly contractible object of $X_{\mathrm{pro}\acute{e}t}$, for instance
 $W=\operatorname{Spec}(D)$ with $D$ w-contractible.

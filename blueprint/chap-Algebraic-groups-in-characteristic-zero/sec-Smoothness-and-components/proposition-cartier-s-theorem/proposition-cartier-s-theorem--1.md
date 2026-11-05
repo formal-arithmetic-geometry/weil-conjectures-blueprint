@@ -2,7 +2,7 @@
 id = "proposition-cartier-s-theorem--1"
 kind = "proposition"
 title = "Reducedness and smoothness"
-order = 1720001
+order = 1722001
 aliases = ["bp-r533-1"]
 lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_isReduced"]
 +++

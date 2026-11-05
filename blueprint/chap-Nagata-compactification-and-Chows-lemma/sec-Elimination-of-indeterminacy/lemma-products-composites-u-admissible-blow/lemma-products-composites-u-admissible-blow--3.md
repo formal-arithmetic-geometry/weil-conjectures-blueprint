@@ -6,6 +6,7 @@ name_showing = false
 order = 1433005
 aliases = ["bp-r445-3"]
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint"]
+uses = ["definition-admissible-blow-up--1"]
 +++
 Let $T$ be quasi-compact and quasi-separated, let $V\subseteq T$ be a
 quasi-compact open, and let $U\subseteq V$ be an open of $T$.

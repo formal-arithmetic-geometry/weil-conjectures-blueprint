@@ -2,7 +2,7 @@
 id = "prose-D-02"
 kind = "hidden"
 title = "Kummer theory (1)"
-order = 1573
+order = 1575
 +++
 Let $C$ be a smooth curve over an algebraically closed field $k$, and
 let $\nu_C^*\mathbf G_m$ be the

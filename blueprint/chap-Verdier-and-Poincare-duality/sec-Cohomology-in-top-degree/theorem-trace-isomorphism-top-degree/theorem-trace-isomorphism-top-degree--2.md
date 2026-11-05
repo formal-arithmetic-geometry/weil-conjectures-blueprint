@@ -5,6 +5,7 @@ title = "Vanishing: finite coefficients"
 order = 866004
 aliases = ["bp-r260-2"]
 lean = ["AlgebraicGeometry.ProEtale.subsingleton_H_continuousSheaf_of_two_mul_lt"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $S$ be a scheme of finite type and of dimension at most $d$ over a
 separably closed field $k'$, and let $A$ be a finite abelian group whose order

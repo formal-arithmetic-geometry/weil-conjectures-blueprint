@@ -2,7 +2,7 @@
 id = "prose-E-23"
 kind = "hidden"
 title = "Specialization of the trace class (2)"
-order = 1688
+order = 1690
 +++
 Neither properness of the legs $c_1,c_2$ nor smoothness of $F$ is
 assumed. This matters, because we apply the proposition to the

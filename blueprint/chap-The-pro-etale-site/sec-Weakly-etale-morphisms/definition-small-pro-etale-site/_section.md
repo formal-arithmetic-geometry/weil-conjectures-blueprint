@@ -3,7 +3,6 @@ id = "definition-small-pro-etale-site"
 kind = "definition"
 title = "The small pro-étale site"
 order = 34
-uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 The objects of $X_{\mathrm{pro}\acute{e}t}$ are weakly étale $X$-schemes, with all
 $X$-morphisms as arrows. A family $\{U_i\to U\}_{i\in I}$ is a

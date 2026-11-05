@@ -5,6 +5,7 @@ title = "Biduality: algebraically closed coefficients"
 order = 845008
 aliases = ["bp-r253-4"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-verdier-dual-evaluation--2", "definition-verdier-dual-evaluation--4"]
 +++
 Let $\ell$ be prime, let $k$ be a field of characteristic different from $\ell$ that is of positive characteristic or algebraically closed, and let $a_X:X\to\operatorname{Spec}k$ be separated and of finite type. For every $K\in\Dbc(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$, with $\omega_X=a_X^!\overline{\mathbf Q}_\ell$ and $\mathbb D_XK=R\!\operatorname{Hom}(K,\omega_X)$, the morphism
 

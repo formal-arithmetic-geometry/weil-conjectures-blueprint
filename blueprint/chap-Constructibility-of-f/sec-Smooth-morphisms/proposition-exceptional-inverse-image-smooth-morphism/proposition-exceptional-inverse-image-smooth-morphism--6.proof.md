@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-exceptional-inverse-image-smooth-morphism--6"
 order = 562013
+uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--3", "lemma-stability--6", "definition-constructible-sheaves--5", "definition-constructible-sheaves--6", "lemma-cohomology-modules-underlying-abelian--1", "lemma-identity-pasting--1", "lemma-identity-pasting--2", "theorem-comparison-over-henselian-pair-degree--1", "lemma-finite-morphisms--2", "proposition-forgetting-supports-composition--3", "proposition-composition-open-restriction-compactifications-f--4", "proposition-composition-open-restriction-compactifications-f--5", "definition-change-of-coefficients-maps--6", "proposition-six-operations-change-coefficients--23", "theorem-smooth-base-change-classical-torsion--1", "theorem-smooth-base-change-classical-torsion-2--1", "lemma-kunneth-one-identity-factor--1", "proposition-sp-unique-adjoint--1", "lemma-schematic-closure-uniqueness--2", "definition-admissible-blow-up--1", "theorem-extension-partial-section--1", "theorem-elimination-indeterminacy--1", "lemma-extending-graph-from-compactification--1", "lemma-separation-closures--1", "lemma-extending-isomorphism-over-closure-closed--1", "lemma-gluing-after-admissible-blow-ups--1", "lemma-affine-covers-dense-intersection--1", "lemma-finite-direct-images--1"]
 +++
 The comparisons are the adjoint transposes specified below.
 

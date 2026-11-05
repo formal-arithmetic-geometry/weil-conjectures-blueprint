@@ -6,6 +6,7 @@ name_showing = false
 order = 173001
 aliases = ["bp-r050-1"]
 lean = ["AlgebraicGeometry.ProEtale.geometricFieldProfiniteDenseSubsite"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $\Omega$ be a separably closed field, and fix a universe containing
 $\Omega$. For a profinite set $S$ in this universe, put

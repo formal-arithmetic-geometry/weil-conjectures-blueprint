@@ -3,7 +3,7 @@ id = "corollary-contracting-local-terms-point--2"
 kind = "corollary"
 title = "Contracting local terms at a point (2)"
 name_showing = false
-order = 1713003
+order = 1715003
 aliases = ["bp-r532-2"]
 +++
 In particular, for

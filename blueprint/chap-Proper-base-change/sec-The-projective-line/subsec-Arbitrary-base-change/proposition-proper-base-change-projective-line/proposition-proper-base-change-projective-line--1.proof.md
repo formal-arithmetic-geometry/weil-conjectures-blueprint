@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-projective-line--1"
 order = 380002
+uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--3", "lemma-stability--6", "definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "lemma-identity-pasting--2", "definition-torsion-sheaves--3", "theorem-cohomology-curves--7", "proposition-cohomology-p-1-over-henselian--1", "proposition-sp-unique-adjoint--1", "definition-compactification-refinement--1"]
 +++
 Let $F$ be a torsion sheaf. Choose a geometric
 point $\bar t:\operatorname{Spec}\Omega\to T$ and put

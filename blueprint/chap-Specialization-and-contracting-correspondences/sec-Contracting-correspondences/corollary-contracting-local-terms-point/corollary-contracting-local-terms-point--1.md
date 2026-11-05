@@ -3,7 +3,7 @@ id = "corollary-contracting-local-terms-point--1"
 kind = "corollary"
 title = "Contracting local terms at a point (1)"
 name_showing = false
-order = 1713001
+order = 1715001
 aliases = ["bp-r532-1"]
 +++
 Let $y\in X(k)$, and suppose that $c_1^{-1}(y)$ is a single reduced point

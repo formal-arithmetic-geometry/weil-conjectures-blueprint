@@ -2,7 +2,7 @@
 id = "lemma-cartan-s-criterion"
 kind = "lemma"
 title = "Cartan's criterion"
-order = 1735
+order = 1737
 lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
 uses = ["lemma-engel-s-theorem"]
 +++

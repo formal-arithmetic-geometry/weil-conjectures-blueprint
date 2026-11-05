@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Proper base change for $\\mathbf P^1$"
 order = 380
 lean = ["AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine", "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
-uses = ["definition-torsion-pbc-property", "definition-injective-acyclicity"]
+uses = ["definition-derived-base-change-map"]
 +++
 Let $S$ be a scheme and $\Lambda$ a commutative ring.  In the
 cartesian square

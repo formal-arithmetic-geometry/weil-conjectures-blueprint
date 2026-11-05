@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The function–sheaf dictionary"
 order = 1029
 lean = ["AlgebraicGeometry.WeilComplex.traceFunction_eq_add_of_distTriang", "AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-trace-function"]
+uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-additivity-open-subscheme-complement", "definition-trace-function"]
 +++
 Let $\Lambda$ be as in Theorem [theorem-grothendieck-lefschetz-trace-formula],
 let $m\geq1$, and let $K$, $L$ be Weil complexes in $D^b_{\mathrm{ctf}}(X,\Lambda)$.

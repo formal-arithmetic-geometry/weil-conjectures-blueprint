@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-reduction-unipotent-local-system"
-order = 1614
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
+order = 1616
+uses = ["lemma-stability", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 The filtration comes from the representation theory of
 $\ell$-groups, whose only simple module over $\mathbf F_\ell$ is the

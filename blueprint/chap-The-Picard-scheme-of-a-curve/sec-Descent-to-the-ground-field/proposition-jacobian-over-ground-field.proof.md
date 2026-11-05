@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-jacobian-over-ground-field"
 order = 1566
-uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
 +++
 We descend the Jacobian of $C_{0,k_s}$, where $k_s\subseteq\bar
 k$ is a separable closure of $k$. In general $k_s/k$ is infinite, hence

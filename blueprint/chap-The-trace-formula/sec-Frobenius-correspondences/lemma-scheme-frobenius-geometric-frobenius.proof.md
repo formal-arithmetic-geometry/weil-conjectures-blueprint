@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-scheme-frobenius-geometric-frobenius"
 order = 955
-uses = ["proposition-w-local-components", "proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
 +++
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
 absolute Frobenius, and pullback along the absolute Frobenius is

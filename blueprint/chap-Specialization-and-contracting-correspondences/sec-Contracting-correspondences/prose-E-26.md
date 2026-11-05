@@ -2,7 +2,7 @@
 id = "prose-E-26"
 kind = "hidden"
 title = "Contracting correspondences (1)"
-order = 1699
+order = 1701
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, and let
 $Z\hookrightarrow X$ be a closed subscheme. Suppose that the leg $c_2$,

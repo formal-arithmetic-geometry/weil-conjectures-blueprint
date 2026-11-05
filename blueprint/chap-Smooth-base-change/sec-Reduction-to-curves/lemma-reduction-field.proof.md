@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-field"
 order = 677
-uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "lemma-injectivity-base-change-map-degree", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-derived-base-change-map", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "lemma-schematic-closure-uniqueness"]
 +++
 We shrink the source of the direct image, keeping a fixed
 nonzero element of the cokernel, until it becomes the spectrum of a field. A
@@ -73,7 +73,8 @@ is nonzero. We show that the second case gives $P(W)$ and the first gives
 $P(V)$.
 
 The closed summand is formal. The base change $i':W_{T'}\to Z'_{T'}$ of $i$
-is again a closed immersion, and closed direct images are exact and commute
+is again a closed immersion, and closed direct images are exact
+(Lemma [lemma-finite-direct-images]) and commute
 with every base change (Lemma [lemma-finite-morphisms]). Hence, for a
 sheaf $N$ on $W_{\acute{e}t}$,
 

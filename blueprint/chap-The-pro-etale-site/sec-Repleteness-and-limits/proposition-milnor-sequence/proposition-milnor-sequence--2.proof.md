@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-milnor-sequence--2"
 order = 91004
+uses = ["proposition-exact-products--1"]
 +++
 Everything follows from the triangle (2.1). The cone
 is formed on the level of complexes, so the triangle

@@ -6,5 +6,6 @@ name_showing = false
 order = 45007
 aliases = ["bp-r008-4"]
 lean = ["IsStrictlyHenselianLocalRing.isWContractibleRing"]
+uses = ["definition-w-local-w-strictly-local--4"]
 +++
 A strictly henselian local ring is w-contractible.

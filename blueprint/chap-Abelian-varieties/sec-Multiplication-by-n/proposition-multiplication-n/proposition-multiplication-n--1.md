@@ -6,6 +6,7 @@ name_showing = false
 order = 1506001
 aliases = ["bp-r469-1"]
 lean = ["AlgebraicGeometry.isFinite_npow_id"]
+uses = ["definition-abelian-variety--1"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$. For every
 $n>0$, the morphism $[n]$ is surjective and finite locally free of

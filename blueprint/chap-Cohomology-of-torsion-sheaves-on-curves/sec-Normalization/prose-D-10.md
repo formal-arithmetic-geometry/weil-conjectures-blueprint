@@ -2,7 +2,7 @@
 id = "prose-D-10"
 kind = "hidden"
 title = "Normalization (1)"
-order = 1596
+order = 1598
 +++
 So far we have computed with constant coefficients on smooth curves,
 whereas Theorem [theorem-cohomology-curves] concerns arbitrary curves of

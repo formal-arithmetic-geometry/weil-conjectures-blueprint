@@ -2,9 +2,9 @@
 id = "lemma-cohomology-multiplicative-group"
 kind = "lemma"
 title = "Cohomology of the multiplicative group"
-order = 1574
+order = 1576
 lean = ["AlgebraicGeometry.IsCurve.rightDerived_globalSections_comparisonUpperStar_gmSheaf", "AlgebraicGeometry.IsCurve.sheafH_gmSheaf_of_smooth"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
+uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
 +++
 For a smooth separated curve $C$ of finite type over an algebraically
 closed field, one has

@@ -2,8 +2,9 @@
 id = "lemma-connected-components-images-homomorphisms"
 kind = "lemma"
 title = "Connected components and images of homomorphisms"
-order = 1723
+order = 1725
 lean = ["AlgebraicGeometry.GrpObj.isIso_left_of_differential_bijective", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.GeneralLinearGroup.eq_of_le_of_lieSubalgebra_eq", "AlgebraicGeometry.exists_isMonHom_imageι"]
+uses = ["lemma-schematic-closure-uniqueness"]
 +++
 Let $G$ be an algebraic group.
 

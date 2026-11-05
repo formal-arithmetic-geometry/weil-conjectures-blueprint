@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Stability"
 order = 32
 lean = ["AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme", "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme", "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtSource", "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtTarget", "AlgebraicGeometry.WeaklyEtale.of_comp"]
-uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 Weakly étale morphisms are stable under base change and composition,
 and the property is local on source and target for the Zariski topology.
