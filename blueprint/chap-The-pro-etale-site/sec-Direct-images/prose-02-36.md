@@ -5,7 +5,7 @@ title = "Direct images (1)"
 order = 132
 +++
 Proper base change is proved on the étale site
-(Section [chap-Proper-base-change]), while $Rf_!$ is defined by direct
+(Chapter [chap-Proper-base-change]), while $Rf_!$ is defined by direct
 images on the pro-étale site. To transfer proper base change, and to
 compute these direct images, we compare direct images on the two sites.
 

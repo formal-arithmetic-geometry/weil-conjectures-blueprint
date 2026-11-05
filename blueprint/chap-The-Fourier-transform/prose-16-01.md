@@ -34,7 +34,7 @@ carries a function of weight $0$ to one of weight $1$. For the quadratic charact
 $\mathbf F_3$, moreover, Example [example-gauss-sum-over-f-3] finds this Gauss
 sum, up to sign, as a Frobenius eigenvalue on a cohomology group.
 
-The proof in Section [chap-The-Deligne-Laumon-theorem-for-curves] follows the same two
+The proof in Chapter [chap-The-Deligne-Laumon-theorem-for-curves] follows the same two
 steps for $M$: first we show that the transform is pure, and then
 Plancherel finds its weight.
 

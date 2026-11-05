@@ -11,11 +11,11 @@ it constructs a cohomology theory satisfying the properties (a)–(d) of a
 Weil cohomology listed in Section [sec-Weil-cohomology]. Each part uses the
 one before it.
 
-- Part I (Sections [chap-The-pro-etale-site]–[chap-Smooth-base-change])
+- Part I (Chapters [chap-The-pro-etale-site]–[chap-Smooth-base-change])
   constructs the six operations for $\ell$-adic coefficients
   (Theorem [theorem-exceptional-inverse-image]). It ends with smooth base
   change and the Künneth formula.
-- Part II (Sections [chap-Smooth-purity]–[chap-The-trace-formula])
+- Part II (Chapters [chap-Smooth-purity]–[chap-The-trace-formula])
   proves smooth purity
   (Theorem [theorem-smooth-purity-all-admissible-coefficients]), Verdier and
   Poincaré duality (Theorem [theorem-global-verdier-duality]), which is (c),
@@ -24,7 +24,7 @@ one before it.
   $Rf_!$ preserves constructibility. They vanish outside $[0,2\dim X]$, and
   Theorem [theorem-trace-isomorphism-top-degree] treats the smooth proper
   case used for the Weil conjectures.
-- Part III (Sections [chap-Weights]–[chap-Proof-of-the-Weil-conjectures])
+- Part III (Chapters [chap-Weights]–[chap-Proof-of-the-Weil-conjectures])
   defines weights, proves purity of real sheaves on curves, introduces the
   Fourier transform and proves the Deligne–Laumon theorem, first on curves and then
   in general. It ends with the Weil conjectures.

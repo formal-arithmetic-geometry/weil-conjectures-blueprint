@@ -13,7 +13,7 @@ $(j_*\overline{\mathbf Q}_\ell)_{\bar 0}=\overline{\mathbf Q}_\ell$ by Lemma [le
 Frobenius acting by $1$, of weight $0$. The Kummer covers
 $t\mapsto t^{\ell^n}$ of a punctured neighbourhood of the origin give
 $(R^1j_*\overline{\mathbf Q}_\ell)_{\bar 0}=\overline{\mathbf Q}_\ell(-1)$
-(Section [chap-Constructibility-of-f]), on which geometric
+(Chapter [chap-Constructibility-of-f]), on which geometric
 Frobenius acts by $q$, of weight $2$. The pairing of
 Lemma [lemma-local-duality-point-c-u] is the multiplication
 $\overline{\mathbf Q}_\ell\otimes\overline{\mathbf Q}_\ell(-1)\to\overline{\mathbf Q}_\ell(-1)$. So in this case the two stalks have

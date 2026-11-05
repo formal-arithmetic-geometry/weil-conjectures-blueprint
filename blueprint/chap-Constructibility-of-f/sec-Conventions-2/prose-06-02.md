@@ -19,7 +19,7 @@ $\Loc(D^b_{\mathrm{ctf}}(X,A))$ on which $f^!$ was constructed
 (Proposition [proposition-comparison-etale-derived-category]). It also
 identifies the constructible complexes on the two sites
 (Theorem [theorem-comparison-constructible-sheaves]). In the following
-subsections we therefore work in $D(X_{\acute{e}t},A)$, and every result is
+sections we therefore work in $D(X_{\acute{e}t},A)$, and every result is
 transported to the pro-étale site by $\nu_X^*$.
 
 This transport is harmless because $\nu^*$ identifies all the operations we use with their étale

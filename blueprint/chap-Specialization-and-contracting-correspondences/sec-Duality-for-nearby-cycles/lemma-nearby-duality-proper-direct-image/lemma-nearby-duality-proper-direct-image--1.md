@@ -9,7 +9,7 @@ aliases = ["bp-r520-1"]
 Let $f:X\to Y$ be a proper morphism of separated $S$-schemes of finite
 type, and let $M\in D^b_{\mathrm{ctf}}(X_\eta,A)$. Under the
 isomorphism $\chi_f$ and the Verdier duality isomorphisms
-$Rf_*\mathbb D\simeq\mathbb DRf_*$ of Section [chap-Verdier-and-Poincare-duality] on
+$Rf_*\mathbb D\simeq\mathbb DRf_*$ of Chapter [chap-Verdier-and-Poincare-duality] on
 both fibres,
 
 $$

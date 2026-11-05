@@ -26,5 +26,5 @@ with $H^1=A(-1)$ given by the Kummer torsors.
 The duality must also commute with base change. This requires the base
 change isomorphism $g'^*f^!\simeq f'^!g^*$ for smooth $f$, and for it the
 local form $\omega_f|_U\simeq A_U(d)[2d]$ on charts suffices. A global identification of $\omega_f$ with $A_X(d)[2d]$, by contrast, needs a trace map for $f$; it is part of smooth purity
-(Section [chap-Smooth-purity]). For the local form we use that, Zariski locally on $X$ and $S$, a smooth morphism $f:X\to S$ factors as an étale morphism to some
+(Chapter [chap-Smooth-purity]). For the local form we use that, Zariski locally on $X$ and $S$, a smooth morphism $f:X\to S$ factors as an étale morphism to some
 $\mathbf A^d_S$ followed by the projection to $S$, and the next lemma treats these two kinds of morphisms.

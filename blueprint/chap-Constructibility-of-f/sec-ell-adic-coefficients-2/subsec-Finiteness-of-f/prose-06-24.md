@@ -6,4 +6,4 @@ order = 611
 +++
 For $\mathcal O_E$ we also need the projection formula on the localizing
 categories, which follows from the case of $\Dbc$ and the results of
-Section [subsec-Integral-coefficients].
+Subsection [subsec-Integral-coefficients].

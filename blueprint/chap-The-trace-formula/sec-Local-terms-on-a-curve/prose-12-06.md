@@ -15,6 +15,6 @@ On $\mathbf A^1$ the fixed scheme of $\Phi^m$ is
 $\operatorname{Spec}k[t]/(t^{q^m}-t)$. Its $q^m$ points are reduced
 because $t^{q^m}-t$ has derivative $-1$. This is the algebraic form
 of the transversality seen at the start of
-Section [chap-The-trace-formula]. Reducedness alone does not determine the
+Chapter [chap-The-trace-formula]. Reducedness alone does not determine the
 local term, because the stalk does not determine $\cHom(c_2^*K,c_1^!K)$ near the
 fixed point (Remark [remark-locality-warning] below).

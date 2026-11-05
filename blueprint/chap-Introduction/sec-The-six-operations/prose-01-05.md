@@ -95,7 +95,7 @@ $\varprojlim_iU_i\to X$ of affine étale maps, for example the spectrum of an
 algebraic closure of $\mathbf F_q$ over $\operatorname{Spec}\mathbf F_q$, and
 its coverings are the families that are jointly surjective in a strong sense.
 Every étale sheaf defines a sheaf on it, and every bounded below complex of étale
-sheaves has the same cohomology on the two sites (Section [chap-The-pro-etale-site]).
+sheaves has the same cohomology on the two sites (Chapter [chap-The-pro-etale-site]).
 The gain is that $\mathbf Z_\ell$, with its topology, becomes a sheaf whose cohomology
 is the limit: on the pro-étale site
 $H^1(\operatorname{Spec}\mathbf F_q,\mathbf Z_\ell)=\mathbf Z_\ell$

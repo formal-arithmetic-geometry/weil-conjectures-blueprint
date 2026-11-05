@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Field coefficients (1)"
 order = 258
 +++
-Until the end of this subsection, $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, so that
+Until the end of this section, $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, so that
 $D^b_{\mathrm{ctf}}=\Dbc$ and we can argue with constructible cohomology sheaves
 and standard truncations. Recall (after
 Definition [definition-lisse-sheaves]) that a $\Lambda_X$-module is

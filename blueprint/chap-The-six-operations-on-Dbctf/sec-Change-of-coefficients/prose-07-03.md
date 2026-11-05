@@ -5,7 +5,7 @@ title = "Change of coefficients (1)"
 order = 628
 +++
 Smooth base change for $E$ and $\overline{\mathbf Q}_\ell$ is deduced from the integral case
-by extending scalars (Section [chap-Smooth-base-change]), and later proofs
+by extending scalars (Chapter [chap-Smooth-base-change]), and later proofs
 often argue in the same way, through the reduction principle of
 Proposition [proposition-isomorphisms-reduce-finite-coefficients]. For
 this the six operations must commute with extension of scalars. For pullback, extension by zero and tensor product this is formal, since

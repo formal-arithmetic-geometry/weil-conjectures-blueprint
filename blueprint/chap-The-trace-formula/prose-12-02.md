@@ -57,4 +57,4 @@ $$
 
 which relates the local eigenvalues of $K$ to the eigenvalues on cohomology.
 
-The conventions of Section [chap-The-Lefschetz-Verdier-formula] remain in force.
+The conventions of Chapter [chap-The-Lefschetz-Verdier-formula] remain in force.

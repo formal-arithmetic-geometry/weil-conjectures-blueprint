@@ -30,7 +30,7 @@ infinitely often. The restriction to real sheaves costs nothing, since an arbitr
 after a twist to weight zero and the addition of its dual
 (Proposition [proposition-twisting-weight-zero-adding-dual]).
 
-This is what the Fourier argument of Section [chap-The-Deligne-Laumon-theorem-for-curves]
+This is what the Fourier argument of Chapter [chap-The-Deligne-Laumon-theorem-for-curves]
 needs. That argument starts from a pure lisse sheaf $M$ of weight $w$ on a dense open
 $j:U_0\hookrightarrow\mathbf A^1$ and produces a pure lisse sheaf $M'$ on a
 dense open $j'$ of the dual line. It knows the trace function of

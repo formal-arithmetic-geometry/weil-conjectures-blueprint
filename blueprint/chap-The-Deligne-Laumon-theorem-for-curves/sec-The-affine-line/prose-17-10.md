@@ -10,5 +10,5 @@ verify the hypothesis of
 Proposition [proposition-fourier-transform-middle-extension]: it
 excludes the constituents $\mathcal L_{\psi(ax)}$ with $a\ne0$,
 whose transforms are skyscrapers rather than middle extensions. In the
-last subsection we remove this hypothesis, together with the
+last section we remove this hypothesis, together with the
 restriction to opens of the line.

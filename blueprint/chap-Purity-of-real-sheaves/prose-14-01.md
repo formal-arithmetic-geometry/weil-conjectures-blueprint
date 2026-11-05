@@ -4,11 +4,11 @@ kind = "hidden"
 title = "Purity of real sheaves"
 order = 1086
 +++
-In Section [chap-The-Deligne-Laumon-theorem-for-curves] the Fourier transform of a pure sheaf
+In Chapter [chap-The-Deligne-Laumon-theorem-for-curves] the Fourier transform of a pure sheaf
 produces a lisse sheaf $M'$ whose Frobenius eigenvalues we cannot compute.
 What we do know is that a twist of $M'$ is a quotient of a sheaf whose traces
 are real, and from this alone we must conclude that $M'$ is pure. In
-Section [chap-The-Deligne-Laumon-theorem-in-general] the same need returns for the direct
+Chapter [chap-The-Deligne-Laumon-theorem-in-general] the same need returns for the direct
 images of a family of curves, which we can make real but do not know to be
 mixed. Both arguments rest on one theorem
 (Theorem [theorem-purity-real-sheaves-curves]):
@@ -73,5 +73,5 @@ Proposition [proposition-determinant-weights-tensor-operations](2) finds
 the exterior power in which a given group of constituents carries the
 largest determinant weight, and the same argument applies there. Positivity,
 however, only ever gives upper bounds. The lower bound comes from applying
-the same argument to the dual, and in Section [chap-Proof-of-the-Weil-conjectures] this
+the same argument to the dual, and in Chapter [chap-Proof-of-the-Weil-conjectures] this
 role is played by Poincaré duality.

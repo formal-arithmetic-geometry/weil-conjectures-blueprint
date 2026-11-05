@@ -15,7 +15,7 @@ this one statement for all degrees: for the structure morphism of $X_0$,
 one condition on $R\Gamma_c(X,K)$ bounds all the groups $H^n_c(X,K)$ at
 once. Moreover, by Proposition [proposition-weights-under-usual-operations],
 replacing $K$ by $K[r]$ only moves the bound by $r$. The proof occupies
-Section [chap-The-Deligne-Laumon-theorem-in-general] and, for a single curve, the sections
+Chapter [chap-The-Deligne-Laumon-theorem-in-general] and, for a single curve, the sections
 before it, and Corollary [corollary-purity-cohomology-smooth-proper-variety]
 deduces from the theorem the purity of the cohomology of a smooth proper
 variety.

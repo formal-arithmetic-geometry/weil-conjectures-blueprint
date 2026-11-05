@@ -18,5 +18,5 @@ means torsion of the underlying abelian sheaves.
 Proper base change holds for torsion coefficients of every
 characteristic. Accordingly, until Section [sec-Finite-coefficients], $\ell$
 denotes an arbitrary prime, which may equal a residue
-characteristic. From that subsection on, we return to the standing
+characteristic. From that section on, we return to the standing
 finite-type hypotheses and the standing condition on $\ell$.

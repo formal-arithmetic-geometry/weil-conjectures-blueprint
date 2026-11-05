@@ -7,7 +7,7 @@ order = 725
 Smooth purity is stated for six kinds of coefficients at once, because the
 proof moves between them: the geometry is done with finite rings, the
 case $\mathcal O_E$ is a limit of finite levels, and the fields are
-obtained by inverting $\ell$. Throughout this section $\Lambda$ is an
+obtained by inverting $\ell$. Throughout this chapter $\Lambda$ is an
 admissible coefficient ring, that is, a finite commutative ring killed by a
 power of $\ell$, $\mathcal O_E$, $E$ or $\overline{\mathbf Q}_\ell$ (the rings $\mathbf Z_\ell$ and $\mathbf Q_\ell$
 being the cases $E=\mathbf Q_\ell$), and Tate twists are those

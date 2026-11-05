@@ -4,5 +4,5 @@ kind = "hidden"
 title = "Weights of middle extensions (6)"
 order = 1188
 +++
-For the perverse t-structure in Section [chap-The-Fourier-transform] we need
+For the perverse t-structure in Chapter [chap-The-Fourier-transform] we need
 the same range of degrees for arbitrary constructible sheaves.

@@ -50,7 +50,7 @@ of $P_i$ have absolute value $q^{i/2}$ under every complex embedding.
 
 The second warning is that being mixed is not a pointwise condition: it asks
 for a filtration with pure quotients, and such a filtration has to be
-constructed. Most of Section [chap-The-Deligne-Laumon-theorem-in-general] is spent
+constructed. Most of Chapter [chap-The-Deligne-Laumon-theorem-in-general] is spent
 constructing one for direct images.
 
 We define weights on Weil sheaves, sheaves on $X$ with a Frobenius

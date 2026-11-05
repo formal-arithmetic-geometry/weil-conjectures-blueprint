@@ -7,7 +7,7 @@ order = 1318
 At this point we know the Deligne–Laumon theorem on curves: a pure lisse sheaf of
 weight $w$ on a curve has $H^r_c$ of weights at most $w+r$. For the Weil
 conjectures we need the same bound for the cohomology of a variety of
-any dimension. In this section we prove
+any dimension. In this chapter we prove
 Theorem [theorem-weights-rf-shriek], which says that for a separated
 morphism of finite type $f:X_0\to Y_0$, the functor $Rf_!$ maps
 $D_{\leq w}(X_0)$ into $D_{\leq w}(Y_0)$.

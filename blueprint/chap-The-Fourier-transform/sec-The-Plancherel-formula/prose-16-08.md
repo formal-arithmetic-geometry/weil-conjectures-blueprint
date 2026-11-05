@@ -11,11 +11,11 @@ $\psi\circ\operatorname{Tr}_{\mathbf F_{q^n}/k_0}$
 then says how it changes the growth of squared trace sums, and for a pure sheaf
 this growth is the weight
 (Theorem [theorem-weights-sums-squared-traces]). This is how we find
-the weight of the transform in Section [chap-The-Deligne-Laumon-theorem-for-curves]: on the
+the weight of the transform in Chapter [chap-The-Deligne-Laumon-theorem-for-curves]: on the
 line, Plancherel multiplies the sums of squared traces by $q^n$, and so it
 raises the weight read off from their growth by one.
 
-In this subsection $S=\operatorname{Spec}k_0$ and
+In this section $S=\operatorname{Spec}k_0$ and
 $V=\mathbf A^r_{k_0}$.
 For a Weil complex $K$ on a $k_0$-scheme $X_0$, we write $t_{K,n}(x)$
 for the alternating sum of the Frobenius traces at

@@ -68,5 +68,5 @@ give the same operators.
 | $\operatorname{dw}_\iota$ | determinant weight | [definition-determinant-weight] |
 | real | real Weil sheaves | [definition-real-sheaves] |
 | $j_*\mathcal F$ | middle extension | [definition-middle-extension] |
-| $\operatorname{FT}_\psi$ | Fourier transform | Section [chap-The-Fourier-transform] |
+| $\operatorname{FT}_\psi$ | Fourier transform | Chapter [chap-The-Fourier-transform] |
 | $T_\ell A$, $V_\ell A$ | Tate module | [definition-tate-module] |

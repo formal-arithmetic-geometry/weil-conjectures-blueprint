@@ -30,7 +30,7 @@ sheaf with value the discrete group, but on $\operatorname{Spec}\mathbf F_q$
 such a sheaf has $H^1=0$ (Section [sec-Weil-cohomology]), whereas the
 answer we want is $\mathbf Z_\ell$. We therefore ask instead that $M$ be locally of the
 form $\Lambda_U\otimes_{\Lambda(*)}P$, with $P$ a finitely presented module over the ring $\Lambda(*)$ of sections
-over the point, as in the opening of this section. This keeps the $\ell$-adic topology. For finite $\Lambda$
+over the point, as in the opening of this chapter. This keeps the $\ell$-adic topology. For finite $\Lambda$
 it is local constancy, and for $E$ it says that $M$ is locally free of
 finite rank. In this formulation, finite presentation of $P$ replaces finiteness of the stalks.
 

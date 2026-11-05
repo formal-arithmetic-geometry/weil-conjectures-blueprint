@@ -21,7 +21,7 @@ the cohomology of $\operatorname{Gal}(\mathbf C/\mathbf R)=\mathbf Z/2$, and
 $H^q(\mathbf Z/2,\mathbf F_2)=\mathbf F_2$ for every $q\geq0$. Thus
 $\operatorname{cd}_2(S)=\infty$, and $\Hom(\mathbf F_2,-)$ does not commute
 with the direct sum $\bigoplus_{n\geq0}\mathbf F_2[n]$ (see the opening of
-Section [chap-Construction-of-f]).
+Chapter [chap-Construction-of-f]).
 
 Over a field of finite cohomological dimension, the étale cohomology of
 schemes of finite type is uniformly bounded. In that case every computation

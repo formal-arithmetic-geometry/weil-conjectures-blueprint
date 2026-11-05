@@ -11,7 +11,7 @@ the external product to be an isomorphism. We prove this on the classical
 étale site by the dimension argument of
 [illusie94, Theorem 4.7, pp. 51–53].
 
-In this subsection and the next three, $S$ is an excellent strictly
+In this section and the next three, $S$ is an excellent strictly
 henselian trait, as announced at the start of this appendix, with separably
 closed residue field $k$, generic point $\eta$, and a chosen geometric
 generic point $\bar\eta$.  Let $p$ be the characteristic exponent of

@@ -22,6 +22,6 @@ product. Its cohomology is therefore given by the Milnor sequence of
 Proposition [proposition-milnor-sequence], and $R^p\varprojlim$
 vanishes for $p\geq2$. For a tower of epimorphisms, such as
 $(\mathbf Z/\ell^n)_X$, moreover $R^1\varprojlim$ vanishes, and the derived limit is the ordinary limit. In the next
-subsection we also deduce left completeness from the Milnor sequence. With these
+section we also deduce left completeness from the Milnor sequence. With these
 facts we compute the cohomology of $\mathbf Z_\ell$ as continuous cohomology
 (Proposition [proposition-continuous-cohomology-pro-etale-cohomology]).

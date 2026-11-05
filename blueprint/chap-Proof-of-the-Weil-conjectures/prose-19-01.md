@@ -8,7 +8,7 @@ The Deligne–Laumon theorem is an upper bound for weights, stated with $\ell$-a
 coefficients and one embedding $\iota:\overline{\mathbf Q}_\ell\to\mathbf C$. Weil's
 conjectures ask for more: an equality $|\alpha|=q^{i/2}$, for
 polynomials $P_i$ with integer coefficients, under every complex
-embedding. This section closes both gaps.
+embedding. This chapter closes both gaps.
 
 The lower bound comes from Poincaré duality, and a curve shows how.
 Let $X_0$ be a smooth projective curve and $\alpha$ an eigenvalue of

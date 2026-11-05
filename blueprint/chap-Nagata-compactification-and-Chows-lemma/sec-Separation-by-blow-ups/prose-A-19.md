@@ -22,6 +22,6 @@ Lemma [lemma-extending-isomorphism-over-closure-closed] keeps an
 isomorphism near such a closure, and
 Lemma [lemma-gluing-after-admissible-blow-ups] glues two
 modifications into one separated scheme. Both use elimination of
-indeterminacy from the previous subsection. Recall that it turns a map
+indeterminacy from the previous section. Recall that it turns a map
 that is an isomorphism over a quasi-compact open $U$ into an open
 immersion after a $U$-admissible blow-up.

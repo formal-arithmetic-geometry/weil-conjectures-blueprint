@@ -52,5 +52,5 @@ reciprocal roots $\pm i\sqrt3$ of $P_1(T)=1+3T^2$ found in the
 introduction. Moreover, the number $1+2\omega=\omega-\omega^2$ is the Gauss sum $g$
 of the quadratic character of $\mathbf F_3$. The classical fact $|g|=\sqrt q$ is
 thus the statement that this $H^1_c$ is pure of weight one.
-Section [chap-The-Deligne-Laumon-theorem-for-curves] proves the analogue for every such
+Chapter [chap-The-Deligne-Laumon-theorem-for-curves] proves the analogue for every such
 sheaf.

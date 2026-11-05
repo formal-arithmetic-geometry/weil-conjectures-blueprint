@@ -9,7 +9,7 @@ determinant weights, so it needs the determinant of every lisse sheaf to be
 pure (Corollary [corollary-determinant-weights]). Since a determinant has rank
 one, we prove more generally that every rank-one lisse Weil sheaf on a
 smooth geometrically connected curve is pure
-(Corollary [corollary-rank-one-weights]), and the later subsections
+(Corollary [corollary-rank-one-weights]), and the later sections
 Sections [sec-Determinant-weights]–[sec-Exterior-powers-and-purity] are
 built on this fact.
 

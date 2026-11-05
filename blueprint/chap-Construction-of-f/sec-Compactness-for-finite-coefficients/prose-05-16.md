@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Compactness for finite coefficients (1)"
 order = 470
 +++
-In this subsection the coefficient ring is a finite admissible ring $A$.
+In this section the coefficient ring is a finite admissible ring $A$.
 Proper direct image preserves $D^b_{\mathrm{ctf}}$ by Proposition [proposition-proper-direct-image-finite-coefficients], and we now show that the constructible generators are compact and that proper
 direct image preserves direct sums on the localizing categories. In both
 cases we reduce to the classical étale theory, using bounded flat

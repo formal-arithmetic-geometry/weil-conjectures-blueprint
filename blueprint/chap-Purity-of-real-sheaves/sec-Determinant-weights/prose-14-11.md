@@ -8,7 +8,7 @@ Before purity is known, the only weight we can attach to an irreducible
 lisse Weil sheaf $Q$ on a curve is its determinant weight
 $\operatorname{dw}_\iota(Q)$, the weight of $\det Q$ divided by the rank
 (Definition [definition-determinant-weight] and
-Corollary [corollary-determinant-weights]). This subsection proves the two facts about
+Corollary [corollary-determinant-weights]). This section proves the two facts about
 determinant weights that Rankin's argument in Section [sec-Rankins-bound] needs for the
 tensor and exterior powers of a real sheaf $\mathcal G$. First, every simple
 factor of $\mathcal G^{\otimes2m}$ has determinant weight at most $2m$ times

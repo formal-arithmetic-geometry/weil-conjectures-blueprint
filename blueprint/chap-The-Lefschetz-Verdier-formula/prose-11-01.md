@@ -22,7 +22,7 @@ $c=(c_1,c_2):C\to X\times X$, and a cohomological correspondence on $K$ is a
 morphism $u:c_2^*K\to c_1^!K$. For example, for the graph of an endomorphism $\varphi$ this is a map $\varphi^*K\to K$. In particular, for Frobenius it is the Weil structure
 $\phi_K:\operatorname{Fr}_X^*K\simeq K$ of Section [sec-Weil-complexes], up to the
 comparison of $\operatorname{Fr}_X$ with the $k$-linear Frobenius in
-Section [chap-The-trace-formula]. When $c_2$ is proper, $u$ induces an endomorphism
+Chapter [chap-The-trace-formula]. When $c_2$ is proper, $u$ induces an endomorphism
 $T_c(u)$ of $R\Gamma_c(X,K)$. In the same way $\phi_K$ induces the Frobenius operator
 $\operatorname{Frob}_{X,K}$ on $R\Gamma_c(X,K)$ and on every stalk at a fixed point.
 
@@ -42,7 +42,7 @@ $$
 The proof involves no computation, because trace classes commute with proper pushforward of correspondences. After pushing forward to the identity correspondence of the point,
 the trace class becomes the trace of $T_c(u)$ on the perfect complex $R\Gamma(X,K)$
 (Lemma [lemma-local-terms-point]). The price of this generality, however, is that the formula does not compute the individual local terms; for Frobenius that is done in
-Section [chap-The-trace-formula].
+Chapter [chap-The-trace-formula].
 
 With coefficients in a finite ring $A$ both sides are traces of endomorphisms of
 perfect complexes (Definition [definition-categorical-trace]). They are not

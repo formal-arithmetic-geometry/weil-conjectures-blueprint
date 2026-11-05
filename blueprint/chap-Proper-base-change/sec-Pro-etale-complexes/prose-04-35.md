@@ -11,7 +11,7 @@ torsion
 (Propositions [proposition-proper-base-change-projective-line] and [proposition-proper-base-change-etale-site]).
 We therefore drop the condition on $\Lambda$, keeping torsion
 cohomology sheaves, and pass to classical pro-étale complexes by the
-comparison theorems of Section [chap-The-pro-etale-site].
+comparison theorems of Chapter [chap-The-pro-etale-site].
 
 The reduction to torsion rings is possible because a torsion sheaf of $\Lambda$-modules is a
 filtered colimit of sheaves killed by an integer $n$. Such a sheaf

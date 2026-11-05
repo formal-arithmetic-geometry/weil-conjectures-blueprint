@@ -4,7 +4,7 @@ of = "proposition-lie-algebras-faithful-semisimple-representation"
 order = 1741
 uses = ["lemma-lie-s-theorem"]
 +++
-We follow the two halves described at the start of this subsection:
+We follow the two halves described at the start of this section:
 first the radical is central, and then the quotient by the center
 equals its derived algebra.
 

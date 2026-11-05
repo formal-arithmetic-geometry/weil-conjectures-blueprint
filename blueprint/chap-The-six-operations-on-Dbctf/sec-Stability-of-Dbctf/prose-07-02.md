@@ -13,7 +13,7 @@ image along an open immersion. Internal Hom hides both of these
 operations and also $f^!$. For an open immersion $j$ we have
 $\cHom(j_!\Lambda,K)=Rj_*j^*K$, and for a closed immersion $i$ we have
 the formula $\cHom(i_*\Lambda,K)\simeq i_*i^!K$ recalled at the beginning
-of this section. If $a$ is the locally closed immersion of a
+of this chapter. If $a$ is the locally closed immersion of a
 stratum and $P$ is a perfect complex on it, the formula
 
 $$

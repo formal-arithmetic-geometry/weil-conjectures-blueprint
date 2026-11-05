@@ -17,5 +17,5 @@ it is what the curve case yields on each stalk of a direct image. But it
 cannot serve as input for the curve case, which needs pure lisse sheaves. The second, mixedness, has the opposite virtue: a mixed sheaf can be treated one pure quotient at a time, and
 for a mixed sheaf the bound on weights is again a pointwise condition
 (Lemma [lemma-bounding-weights-mixed-sheaf]). In
-Section [chap-The-Deligne-Laumon-theorem-in-general] we use this to turn the stalkwise
+Chapter [chap-The-Deligne-Laumon-theorem-in-general] we use this to turn the stalkwise
 bounds into the bound of Theorem [theorem-weights-rf-shriek].

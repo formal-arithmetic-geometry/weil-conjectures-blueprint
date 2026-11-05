@@ -19,7 +19,7 @@ its subring of $q$-th powers.
 We cannot work with $\operatorname{Fr}_X$ directly. Indeed, the Weil structure $\phi_K$ is a map $\operatorname{Fr}_X^*K\to K$, but
 $\operatorname{Fr}_X$ lies over the automorphism $\operatorname{Spec}(\sigma)$
 of $s$. Hence its graph is not a morphism $X\to X\times_sX$ of $k$-schemes.
-Since the formalism of Section [chap-The-Lefschetz-Verdier-formula] uses $c_1^!$ only for $k$-morphisms, it does not apply to this graph. The $k$-linear
+Since the formalism of Chapter [chap-The-Lefschetz-Verdier-formula] uses $c_1^!$ only for $k$-morphisms, it does not apply to this graph. The $k$-linear
 $\Phi_X=F_X\circ\operatorname{Fr}_X$, on the other hand, has a graph of the
 required kind. Pullback along the absolute Frobenius $F_X$ is the identity on étale sheaves, and this is how
 Lemma [lemma-scheme-frobenius-geometric-frobenius]

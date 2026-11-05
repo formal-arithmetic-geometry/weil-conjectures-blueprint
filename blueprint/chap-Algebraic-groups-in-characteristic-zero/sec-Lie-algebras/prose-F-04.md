@@ -18,7 +18,7 @@ apply to the Weil representation. With the second we translate the
 decomposition of the Lie algebra into the identity
 $G^\circ=Z(G^\circ)^\circ H^\circ$.
 
-We prove both facts by the principle of the previous subsection, applied
+We prove both facts by the principle of the previous section, applied
 to a stabilizer and to the kernel of the adjoint representation. Their
 Lie algebras are computed with dual numbers. The first fact needs $G$ to
 be connected. For example, the finite group $\{\pm1\}\subset\GL_1$ has

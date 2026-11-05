@@ -66,7 +66,7 @@ not. Blowing up the point $(y,y)$ of $X\times X$ therefore separates the two
 curves. After the blow-up the local term is a map between cohomology groups
 supported near two disjoint curves meeting the exceptional divisor, and such
 a map factors through the stalk of $K$ at $y$; so it vanishes when
-$K_{\bar y}=0$ (Lemma [lemma-vanishing-local-term-zero-stalk]). (In Section [chap-The-trace-formula] we
+$K_{\bar y}=0$ (Lemma [lemma-vanishing-local-term-zero-stalk]). (In Chapter [chap-The-trace-formula] we
 use instead the transposed graph $\{(F^mx,x)\}$, which is tangent to
 $\{y\}\times X$.)
 

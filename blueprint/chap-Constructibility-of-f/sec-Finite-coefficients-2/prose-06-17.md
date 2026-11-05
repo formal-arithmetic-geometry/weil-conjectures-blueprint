@@ -8,7 +8,7 @@ Let $A$ be a finite commutative $\ell$-primary ring and $f$ a separated
 morphism of finite type. We show that the right adjoint $f^!$ of
 Theorem [theorem-existence-exceptional-inverse-image] preserves $D^b_{\mathrm{ctf}}(-,A)$
 (Theorem [theorem-f-shriek-finite-coefficients]). By the reduction at the start
-of this section and by the previous subsection, we only have to show
+of this chapter and by the previous section, we only have to show
 that direct image along an open immersion $j$ preserves finite Tor
 amplitude. The upper end of the Tor amplitude grows by at most the
 $\ell$-cohomological dimension $\operatorname{cd}_\ell(j)$ of

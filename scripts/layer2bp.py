@@ -168,6 +168,7 @@ def ref_ids(tex):
 report, written, skipped, arrows = [], [], [], []
 for CHAP in CHAPTERS:
     head, cdir, rows = plan[CHAP]
+    G['IN_APPENDIX'] = head in G['APPENDIX_CHAPTERS']     # what "this section" becomes
     n_clauses = 0
     for b, sid in rows:
         if sid is None or nodes.get(sid, (0, {'kind': None}))[1]['kind'] not in STMT:

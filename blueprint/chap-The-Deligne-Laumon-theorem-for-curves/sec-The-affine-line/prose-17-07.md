@@ -20,7 +20,7 @@ is zero, $j_*$ is exact on such sequences
 (Proposition [proposition-exactness-fixed-pure-weight]).
 
 The hypothesis of equal weights is needed. In the Kummer extension
-$0\to\overline{\mathbf Q}_\ell(1)\to F\to\overline{\mathbf Q}_\ell\to0$ of the section opening, $F_1=\overline{\mathbf Q}_\ell(1)$
+$0\to\overline{\mathbf Q}_\ell(1)\to F\to\overline{\mathbf Q}_\ell\to0$ of the chapter opening, $F_1=\overline{\mathbf Q}_\ell(1)$
 has weight $-2$ and $F_2=\overline{\mathbf Q}_\ell$ has weight $0$, so at the origin the
 stalks of $j_*\overline{\mathbf Q}_\ell$ and of $R^1j_*\overline{\mathbf Q}_\ell(1)$ both have weight $0$, and
 the connecting map is indeed nonzero.

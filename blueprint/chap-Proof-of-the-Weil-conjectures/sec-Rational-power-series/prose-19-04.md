@@ -22,5 +22,5 @@ The characteristic polynomial of the shift on this lattice is then
 integral. For example, the coefficients $c_n=2^{n+1}-1$ of
 $1/((1-2T)(1-T))$ satisfy $c_{n+2}=3c_{n+1}-2c_n$. The shift matrix $S$
 on the row span has $\det(1-TS)=(1-2T)(1-T)$, which is the reduced
-denominator. In the next subsection we compare the $\ell$-adic
+denominator. In the next section we compare the $\ell$-adic
 factorizations with the reduced fraction $A/B$.

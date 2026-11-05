@@ -11,7 +11,7 @@ Suppose that the cup product pairs $H^i$ with $H^{2d-i}$ perfectly and that
 Frobenius multiplies the pairing by $q^d$. Then the eigenvalues $\alpha$ in
 degree $i$ correspond to the eigenvalues $q^d/\alpha$ in degree $2d-i$, so the
 upper bound for $q^d/\alpha$ is a lower bound for $\alpha$
-(Section [chap-Proof-of-the-Weil-conjectures]). The same relation gives the functional
+(Chapter [chap-Proof-of-the-Weil-conjectures]). The same relation gives the functional
 equation of the zeta function (Corollary [corollary-functional-equation]). This
 chapter proves axiom (c).
 

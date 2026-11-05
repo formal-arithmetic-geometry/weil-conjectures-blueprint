@@ -6,7 +6,7 @@ order = 1263
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open, and let
 $M$ be an irreducible lisse Weil sheaf on $U_0$. The argument of
-Section [chap-The-Deligne-Laumon-theorem-for-curves] needs the transform of the middle
+Chapter [chap-The-Deligne-Laumon-theorem-for-curves] needs the transform of the middle
 extension of $M$ to be again a middle extension, that is, to come from a
 lisse sheaf $M'$ on a dense open of the dual line. This holds unless $M$ has a geometric constituent of the form
 $\mathcal L_{\psi(ax)}$, and the hypothesis of the next proposition excludes
