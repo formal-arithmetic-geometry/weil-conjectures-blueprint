@@ -249,6 +249,12 @@ kernel: a well-chosen abstraction or interface can prevent an otherwise
 expensive comparison. We still do not fully understand every slowdown, but
 these experiences have made such problems far more manageable.
 
+> **Download:** <a href="files/lean4_performance_diagnostic_and_remediation_guide.md" download>Lean 4 Performance: A Systematic Diagnostic and Remediation Guide</a> (Markdown).
+> This is a prompt for a coding agent to solve kernel performance problems
+> like the ones above. It collects the diagnostic methods and the fixes from
+> these cases: locating the slow kernel check, the failure patterns and their
+> remedies, and a workflow and report template for the agent to follow.
+
 ## 2 Mathematical Design Choices in Formalization
 
 Beside pure technical issues, we learned that decisions related to
