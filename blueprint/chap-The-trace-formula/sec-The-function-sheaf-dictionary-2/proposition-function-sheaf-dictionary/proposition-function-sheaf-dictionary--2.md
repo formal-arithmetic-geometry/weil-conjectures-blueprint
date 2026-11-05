@@ -5,5 +5,6 @@ title = "The function–sheaf dictionary (2)"
 name_showing = false
 order = 1029003
 aliases = ["bp-r315-2"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse"]
 +++
 $t_{K\otimes^{\mathbf L}_\Lambda L,m}=t_{K,m}\,t_{L,m}$.

@@ -5,6 +5,7 @@ title = "Base change to a larger algebraically closed field (1)"
 name_showing = false
 order = 688001
 aliases = ["bp-r207-1"]
+lean = ["AlgebraicGeometry.Etale.CurveTestDatum.exists_cover_cohomologyMap_eq_zero"]
 +++
 Let $S=\operatorname{Spec}R$ for a normal domain $R$ with algebraically
 closed fraction field $L$, and let $a:C\to S$ be affine and smooth

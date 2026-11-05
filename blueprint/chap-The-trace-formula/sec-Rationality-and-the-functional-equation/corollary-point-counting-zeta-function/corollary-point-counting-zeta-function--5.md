@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Cohomological determinant product"
 order = 1040006
 aliases = ["bp-r318-5"]
+lean = ["TraceDatum.map_zetaSeries", "TraceDatum.zeta_mul_prod_even_eq_prod_odd"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, in $\Lambda[[T]]$,
 

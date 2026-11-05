@@ -5,6 +5,7 @@ title = "Pushforward of a correspondence (1)"
 name_showing = false
 order = 924001
 aliases = ["bp-r280-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.coeff", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeff", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffCounit", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffUnit"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper morphisms, and let
 $c'=(c'_1,c'_2):C'\to Y\times Y$ be a correspondence with $c'_ig=fc_i$ for

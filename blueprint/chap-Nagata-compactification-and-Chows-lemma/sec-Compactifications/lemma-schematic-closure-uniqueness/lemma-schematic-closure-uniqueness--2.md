@@ -5,6 +5,7 @@ title = "Schematic closure (2)"
 name_showing = false
 order = 1409002
 aliases = ["bp-r435-2"]
+lean = ["AlgebraicGeometry.Scheme.Hom.ker_of_isPullback"]
 +++
 The formation of
 $\overline U$ commutes with flat base change $T'\to T$, in particular

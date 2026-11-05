@@ -5,6 +5,7 @@ title = "Compactification and refinement (2)"
 name_showing = false
 order = 1405002
 aliases = ["bp-r433-2"]
+lean = ["AlgebraicGeometry.Compactification.IsDense"]
 +++
 We say that it is
 *dense* if $j$ is scheme-theoretically dense, i.e., if the map

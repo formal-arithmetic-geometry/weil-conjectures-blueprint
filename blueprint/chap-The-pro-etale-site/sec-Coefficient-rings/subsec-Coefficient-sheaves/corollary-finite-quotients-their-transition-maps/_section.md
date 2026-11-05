@@ -3,7 +3,7 @@ id = "corollary-finite-quotients-their-transition-maps"
 kind = "corollary"
 title = "Finite quotients and their transition maps"
 order = 181
-lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution"]
+lean = ["AlgebraicGeometry.ProEtale.PrincipalNormalization.principal_cone_tensor_normalization"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 For every $n\geq1$ there is a canonical exact sequence on $X_{\mathrm{pro}\acute{e}t}$

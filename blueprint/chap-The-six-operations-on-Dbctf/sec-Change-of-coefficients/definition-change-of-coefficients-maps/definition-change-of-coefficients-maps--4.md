@@ -5,6 +5,7 @@ title = "Change-of-coefficients maps (4)"
 name_showing = false
 order = 632005
 aliases = ["bp-r191-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom"]
 +++
 For $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the map
 $(Rf_*K)_{\Lambda'}\to Rf_*(K_{\Lambda'})$ is the adjoint transpose, under

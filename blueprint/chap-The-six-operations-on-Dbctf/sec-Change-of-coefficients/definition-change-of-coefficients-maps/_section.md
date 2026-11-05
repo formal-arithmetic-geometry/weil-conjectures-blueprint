@@ -3,7 +3,7 @@ id = "definition-change-of-coefficients-maps"
 kind = "definition"
 title = "Change-of-coefficients maps"
 order = 632
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps listed above, and let

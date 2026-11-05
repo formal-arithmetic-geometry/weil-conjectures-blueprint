@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Shifts"
 order = 1073011
 aliases = ["bp-r329-10"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.shift"]
 +++
-If a complex $K$ has weights at most
-$w$, then $K[r]$ has weights at most $w+r$.
+If a bounded constructible Weil complex $K$ has weights at most $w$,
+then $K[r]$ has weights at most $w+r$ for every $r\in\mathbf Z$.

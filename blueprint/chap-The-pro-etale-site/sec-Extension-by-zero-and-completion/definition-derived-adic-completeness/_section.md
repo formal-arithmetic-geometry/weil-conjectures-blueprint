@@ -3,7 +3,7 @@ id = "definition-derived-adic-completeness"
 kind = "definition"
 title = "Derived adic completeness"
 order = 208
-lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete", "AlgebraicGeometry.ProEtale.AdicCompletion.isDerivedComplete_iff"]
+lean = ["AlgebraicGeometry.ProEtale.AdicCompletion.isDerivedComplete_iff"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-affines-form-basis"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let

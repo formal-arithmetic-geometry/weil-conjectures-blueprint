@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exceptional inverse image: finite extension of coefficient fields"
 order = 641008
 aliases = ["bp-r195-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_mateEquiv_boundedConstructibleLowerStarExtendScalarsSubfield"]
 +++
 Assume $\Lambda=E$ and $\Lambda'=F$ for a finite extension $F/E$. The comparison
 

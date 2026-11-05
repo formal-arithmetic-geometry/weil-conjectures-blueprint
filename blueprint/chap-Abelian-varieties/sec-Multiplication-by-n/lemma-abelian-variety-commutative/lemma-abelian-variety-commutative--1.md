@@ -1,9 +1,10 @@
 +++
 id = "lemma-abelian-variety-commutative--1"
 kind = "lemma"
-title = "Commutativity (1)"
-name_showing = false
+title = "Geometric integrality"
 order = 1498001
 aliases = ["bp-r466-1"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral"]
 +++
-An abelian variety $A$ over $k$ is geometrically integral
+Let $A$ be a smooth proper connected $k$-group scheme. Then $A$ is
+geometrically integral over $k$.

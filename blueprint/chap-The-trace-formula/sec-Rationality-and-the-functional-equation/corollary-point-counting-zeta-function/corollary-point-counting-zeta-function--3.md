@@ -4,6 +4,7 @@ kind = "definition"
 title = "Zeta function"
 order = 1040004
 aliases = ["bp-r318-3"]
+lean = ["AlgebraicGeometry.Scheme.Hom.zetaSeries"]
 +++
 Define
 

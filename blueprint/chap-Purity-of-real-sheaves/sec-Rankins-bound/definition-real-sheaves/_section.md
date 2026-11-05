@@ -3,7 +3,6 @@ id = "definition-real-sheaves"
 kind = "definition"
 title = "Real sheaves"
 order = 1156
-lean = ["AlgebraicGeometry.WeilSheaf.IsReal", "AlgebraicGeometry.WeilGroup.IsReal"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 A Weil sheaf $\mathcal G$ is $\iota$-real if

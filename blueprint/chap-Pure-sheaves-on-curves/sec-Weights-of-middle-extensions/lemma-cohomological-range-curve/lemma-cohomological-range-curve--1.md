@@ -5,6 +5,7 @@ title = "Cohomological range on a curve (1)"
 name_showing = false
 order = 1192001
 aliases = ["bp-r367-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isAffine", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_krullDim_le_one"]
 +++
 Let $C$ be a smooth curve over an algebraically closed field and let
 $F$ be a constructible sheaf on $C$ with coefficients in $E$ or $\overline{\mathbf Q}_\ell$.

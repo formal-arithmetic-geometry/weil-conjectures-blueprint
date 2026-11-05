@@ -5,6 +5,7 @@ title = "Change of coefficients for internal Hom (1)"
 name_showing = false
 order = 643001
 aliases = ["bp-r196-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_constructibleExtendScalars"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above and all
 $K,L\in D^b_{\mathrm{ctf}}(X,\Lambda)$, the map

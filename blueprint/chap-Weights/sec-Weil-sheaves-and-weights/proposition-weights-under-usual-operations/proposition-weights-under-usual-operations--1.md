@@ -5,4 +5,4 @@ title = "Mixed extensions"
 order = 1073002
 aliases = ["bp-r329-1"]
 +++
-An extension of mixed sheaves is mixed.
+An extension of mixed Weil sheaves is mixed.

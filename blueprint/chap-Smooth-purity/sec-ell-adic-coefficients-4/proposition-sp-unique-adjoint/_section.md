@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Uniqueness of the right adjoint of $Rf_!$"
 name_showing = false
 order = 763
-lean = ["CategoryTheory.Adjunction.rightAdjointUniq", "CategoryTheory.Adjunction.rightAdjointUniq_hom_counit"]
+lean = ["CategoryTheory.Adjunction.rightAdjointUniq_hom_counit"]
 +++
 Let $\Lambda$ be an admissible coefficient ring and let $J$ be a right adjoint of
 $Rf_!:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$ with counit $\varepsilon^J$.

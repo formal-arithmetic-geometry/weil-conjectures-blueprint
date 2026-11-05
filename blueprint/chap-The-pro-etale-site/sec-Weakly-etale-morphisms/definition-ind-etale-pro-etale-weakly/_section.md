@@ -3,7 +3,6 @@ id = "definition-ind-etale-pro-etale-weakly"
 kind = "definition"
 title = "Ind-étale, pro-étale and weakly étale morphisms"
 order = 27
-lean = ["Algebra.IndEtale", "RingHom.IndEtale", "AlgebraicGeometry.proAffineEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale", "Algebra.WeaklyEtale", "RingHom.WeaklyEtale"]
 +++
 A ring map $R\to B$ is *ind-étale* if
 $B=\varinjlim_\alpha B_\alpha$ for a filtered system of étale

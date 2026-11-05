@@ -5,6 +5,7 @@ title = "Exceptional base change map (1)"
 name_showing = false
 order = 727001
 aliases = ["bp-r218-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.upperShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.upperShriekBaseChange"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$, the *exceptional base change map*
 $g'^*f^!K\to f'^!g^*K$ is the adjoint transpose, for

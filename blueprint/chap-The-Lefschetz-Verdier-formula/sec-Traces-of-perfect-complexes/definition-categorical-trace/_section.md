@@ -3,7 +3,6 @@ id = "definition-categorical-trace"
 kind = "definition"
 title = "Categorical trace"
 order = 894
-lean = ["CategoryTheory.MonoidalCategory.trace"]
 +++
 For $P\in\operatorname{Perf}(A)$ put
 $P^\vee=R\!\operatorname{Hom}_A(P,A)$. If $v:P\to P$ is a morphism in $D(A)$, its trace is the scalar

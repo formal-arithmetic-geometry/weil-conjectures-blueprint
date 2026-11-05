@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Tensor description of exceptional inverse image"
 order = 562006
 aliases = ["bp-r169-5"]
+lean = ["AlgebraicGeometry.Etale.exists_dualizingComplex_iso_and_tensor"]
 +++
 The canonical map
 

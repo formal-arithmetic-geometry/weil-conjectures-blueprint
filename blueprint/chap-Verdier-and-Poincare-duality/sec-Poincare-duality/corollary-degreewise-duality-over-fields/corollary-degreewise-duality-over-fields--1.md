@@ -5,6 +5,7 @@ title = "Degreewise duality over fields (1)"
 name_showing = false
 order = 860001
 aliases = ["bp-r258-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual", "AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual_mul"]
 +++
 Let $X/k$ be smooth and separated of pure dimension $d$, with $k$
 algebraically closed, let $\Lambda$ be a field (a finite coefficient

@@ -1,13 +1,19 @@
 +++
 id = "theorem-elimination-indeterminacy--1"
 kind = "theorem"
-title = "Elimination of indeterminacy (1)"
-name_showing = false
+title = "Elimination of indeterminacy by a blow-up centred at the complement"
 order = 1446001
 aliases = ["bp-r450-1"]
+lean = ["AlgebraicGeometry.coe_support_eliminationCentre", "AlgebraicGeometry.isOpenImmersion_strictTransformMap_eliminationBlowup"]
 +++
 Let $T$ be qcqs, let $U\subseteq T$ be a quasi-compact open, and let
-$W\to T$ be separated and of finite type, with $W_U\to U$ an
-isomorphism. There is a $U$-admissible blow-up $T'\to T$ such that
-the inverse image of $U$ is schematically dense in $T'$ and the strict
-transform $W'\to T'$ of $W\to T$ is an open immersion.
+$q:W\to T$ be separated and of finite type, with $W_U\to U$ an
+isomorphism. Then there is a $U$-admissible blow-up
+
+$$
+b:T'=\operatorname{Bl}_{\mathcal K}(T)\longrightarrow T
+$$
+
+whose centre satisfies $V(\mathcal K)=T\setminus U$, such that the
+strict transform $W'\to T'$ of $q$ is an open immersion. In particular,
+$b^{-1}(U)$ is schematically dense in $T'$.

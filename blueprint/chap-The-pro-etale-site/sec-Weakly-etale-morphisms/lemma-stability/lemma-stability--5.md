@@ -4,5 +4,8 @@ kind = "lemma"
 title = "Morphisms between weakly etale objects"
 order = 32006
 aliases = ["bp-r003-5"]
+lean = ["AlgebraicGeometry.WeaklyEtale.of_comp_eq"]
 +++
-Every $X$-morphism between weakly étale $X$-schemes is weakly étale.
+Let $u:U\to X$ and $v:V\to X$ be weakly étale morphisms of
+schemes. If $h:U\to V$ satisfies $v\circ h=u$, then $h$ is weakly
+étale.

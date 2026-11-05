@@ -3,7 +3,6 @@ id = "lemma-naturality-pasting-comparison"
 kind = "lemma"
 title = "Naturality, pasting and comparison"
 order = 324
-lean = ["AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 The maps (4.5) form a natural transformation

@@ -5,6 +5,7 @@ title = "Removing finitely many points (1)"
 name_showing = false
 order = 1608001
 aliases = ["bp-r500-1"]
+lean = ["AlgebraicGeometry.IsCurve.dense_open_base_change", "AlgebraicGeometry.IsCurve.dense_open_high_cohomology", "AlgebraicGeometry.IsCurve.dense_open_primary_finiteness"]
 +++
 Let $C$ be a reduced separated curve of finite type over an
 algebraically closed field $k$, let $j:U\hookrightarrow C$ be a dense

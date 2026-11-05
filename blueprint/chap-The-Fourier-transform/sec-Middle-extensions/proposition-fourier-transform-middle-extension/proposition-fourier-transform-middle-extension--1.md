@@ -5,6 +5,7 @@ title = "The Fourier transform of a middle extension (1)"
 name_showing = false
 order = 1267001
 aliases = ["bp-r391-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.exists_hasLinearArtinSchreierConstituent_of_iso", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isEmpty_iso_fourierTransform_middleExtension_toComplex"]
 +++
 Suppose that $M$ is nonzero and irreducible, and that none of its
 geometric irreducible constituents is the restriction of

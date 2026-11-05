@@ -5,6 +5,7 @@ title = "Coherent base change for invertible sheaves (1)"
 name_showing = false
 order = 1533001
 aliases = ["bp-r477-1"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_isFiniteFreeComplex_higherDirectImage"]
 +++
 Let $T$ be a $k$-scheme and let $\mathcal L$ be invertible on $C_T$. Then
 $Rf_{T,*}\mathcal L$ is locally represented

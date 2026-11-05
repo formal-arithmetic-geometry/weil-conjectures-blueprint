@@ -5,6 +5,7 @@ title = "Splitting ind-étale covers (1)"
 name_showing = false
 order = 56001
 aliases = ["bp-r012-1"]
+lean = ["IsWContractibleRing.exists_retraction_of_zeroLocus_map_eq_closedPoints"]
 +++
 If $R$ is w-contractible, every faithfully flat ind-étale ring map
 $R\to B$ has an $R$-algebra retraction $B\to R$.

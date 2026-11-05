@@ -3,7 +3,7 @@ id = "lemma-change-coefficients"
 kind = "lemma"
 title = "Change of coefficients"
 order = 699
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_integralToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_integralToRational", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_rationalToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_derivedReduction_boundedConstructibleBaseChange"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-change-of-coefficients-maps"]
 +++
 Suppose that the schemes in (8.1) are of finite type over

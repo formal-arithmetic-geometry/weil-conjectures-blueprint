@@ -13,4 +13,4 @@ $y'=(y_1',y_2')$, and write $\Gamma',V',\Delta',H'$ for the inverse images
 of $\Gamma,V,\Delta,H$ in $T'$. Then $T'$ is the strict localization of a
 smooth surface over $k$ at a closed point, the morphism $T'\to T$ is finite
 flat of degree $d^2$ and étale over $T-(H\cup V)$, the reduction
-$H'_{\mathrm{red}}$ is regular,
+$H'_{\mathrm{red}}$ is regular.

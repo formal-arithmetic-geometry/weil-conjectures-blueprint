@@ -5,6 +5,7 @@ title = "External duality (1)"
 name_showing = false
 order = 911001
 aliases = ["bp-r275-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_kunnethVerdierMap"]
 +++
 Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $p_1,p_2:X\times X\to X$ be the
 projections, and put $P_X=K\boxtimes \mathbb D_XK\in D^b_{\mathrm{ctf}}(X\times X,A)$. For a

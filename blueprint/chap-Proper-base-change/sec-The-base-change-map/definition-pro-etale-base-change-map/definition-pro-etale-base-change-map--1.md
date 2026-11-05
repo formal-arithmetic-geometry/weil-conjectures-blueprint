@@ -5,6 +5,7 @@ title = "Pro-étale base change map (1)"
 name_showing = false
 order = 322001
 aliases = ["bp-r096-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap", "AlgebraicGeometry.ProEtale.derivedBaseChangeMap"]
 +++
 Let $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$. The *base change map*
 

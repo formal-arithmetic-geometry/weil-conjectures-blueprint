@@ -3,7 +3,7 @@ id = "lemma-weight-bounds-partitions"
 kind = "lemma"
 title = "Weight bounds and partitions"
 order = 1355
-lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed", "AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed_target"]
+lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed_target"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $f:X_0\to Y_0$ be separated of finite type, and let $K$ be a

@@ -16,7 +16,10 @@ The blueprint is built afresh in <out dir>, which is then put in place of
    nodes again (chapters 2-25).  The layer-2 tex may lag behind the tex: it
    is read with the tex's heading titles and equation tags (matched by
    label), RENAMED
-   applied to its labels, and a split declaration's block split as well.
+   applied to its labels, and a split declaration's block split as well;
+4. a clause with Lean names (matched by id) keeps its `lean` and the `uses`
+   that scripts/lean_uses.py gave it; the other clauses take their arrows
+   from the "Dependencies:" lines.
 
 Run on the tex the blueprint was made from, it gives the blueprint back.
 """
@@ -72,6 +75,17 @@ SPLIT = {
 CARRIED = ('lean', 'uses', 'aliases')
 
 
+def present_after(root):
+    ids = set()
+    for dp, dn, fn in os.walk(root):
+        for f in fn:
+            if f.endswith('.md'):
+                i = parse(os.path.join(dp, f))[0].get('id')
+                if i:
+                    ids.add(i)
+    return ids
+
+
 def parse(path):
     t = open(path, encoding='utf-8').read()
     m = re.match(r'\+\+\+\n(.*?)\n\+\+\+\n?(.*)', t, re.S)
@@ -106,6 +120,7 @@ if r.returncode:
 # ------------------------------------------------------------------ 2. carry over
 
 old = {}            # key -> fm, for the blueprint's nodes that are not layer-2 nodes
+old_clause = {}     # id -> fm, for the clauses that have Lean names
 for dp, dn, fn in os.walk(BP):
     for f in fn:
         p = os.path.join(dp, f)
@@ -114,6 +129,8 @@ for dp, dn, fn in os.walk(BP):
         fm, _, _ = parse(p)
         k = key_of(p, fm)
         if '--' in str(k):
+            if isinstance(k, str) and fm.get('lean'):
+                old_clause[k] = fm
             continue                      # a clause, its proof or text: layer2bp writes them
         old[k] = fm
 
@@ -291,3 +308,25 @@ print(r.stdout.strip())
 if r.returncode:
     sys.exit(r.stderr)
 shutil.rmtree(tmp)
+
+# ------------------------------------------------------------------ 4. clauses' Lean names
+
+# A clause with Lean names keeps them, and keeps the arrows that
+# scripts/lean_uses.py gave it from Lean (in place of its "Dependencies:" line).
+kept = 0
+for dp, dn, fn in os.walk(OUT):
+    for f in fn:
+        p = os.path.join(dp, f)
+        if not f.endswith('.md'):
+            continue
+        fm, front, body = parse(p)
+        prev = old_clause.get(fm.get('id'))
+        if prev is None:
+            continue
+        lines = [x for x in front.split('\n') if not x.startswith(('lean = ', 'uses = '))]
+        lines.append(f'lean = {toml_list(prev["lean"])}')
+        if prev.get('uses'):
+            lines.append(f'uses = {toml_list(prev["uses"])}')
+        open(p, 'w', encoding='utf-8').write('+++\n' + '\n'.join(lines) + '\n+++\n' + body)
+        kept += 1
+print(f'{kept} clauses keep their Lean names; lost: {sorted(set(old_clause) - present_after(OUT))}')

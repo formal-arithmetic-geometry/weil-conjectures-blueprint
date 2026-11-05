@@ -3,7 +3,7 @@ id = "definition-tate-twists"
 kind = "definition"
 title = "Tate twists"
 order = 184
-lean = ["AlgebraicGeometry.Scheme.proEtaleRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.tateTwist_finite_locallyFree", "AlgebraicGeometry.ProEtale.spFiniteTwist", "AlgebraicGeometry.ProEtale.spIntegralTwist", "AlgebraicGeometry.ProEtale.spRationalTwist", "AlgebraicGeometry.ProEtale.spQbarTwist", "AlgebraicGeometry.ProEtale.spSignedTwist", "AlgebraicGeometry.ProEtale.spInternalComplexTwist", "AlgebraicGeometry.ProEtale.spTwists_locallyFree", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne"]
+lean = ["AlgebraicGeometry.ProEtale.spFiniteTwist", "AlgebraicGeometry.ProEtale.spInternalComplexTwist", "AlgebraicGeometry.ProEtale.spQbarTwist", "AlgebraicGeometry.ProEtale.spSignedTwist", "AlgebraicGeometry.ProEtale.spTwists_locallyFree", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.Scheme.proEtaleRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.tateTwist_finite_locallyFree"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "example-locally-constant-functions-w-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-w-contractible-affines-projective", "definition-weak-contractibility"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible, and let $\mu_{\ell^n,X}$

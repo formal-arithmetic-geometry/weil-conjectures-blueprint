@@ -3,7 +3,7 @@ id = "lemma-reduction-curve-over-normal-base"
 kind = "lemma"
 title = "Reduction to a curve over a normal base"
 order = 682
-lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
+lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum", "AlgebraicGeometry.Etale.exists_isPullback_not_isZero_higherDirectImage"]
 uses = ["definition-derived-base-change-map"]
 +++
 Suppose $g:Y'\to Y$ is affine and smooth of relative dimension

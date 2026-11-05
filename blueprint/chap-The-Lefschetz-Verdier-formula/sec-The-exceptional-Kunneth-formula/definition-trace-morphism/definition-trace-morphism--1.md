@@ -5,6 +5,7 @@ title = "Trace morphism (1)"
 name_showing = false
 order = 914001
 aliases = ["bp-r276-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceMap", "AlgebraicGeometry.ProEtale.CondensedRing.evaluationKernel"]
 +++
 In the setting of Lemma [lemma-external-duality-trace-morphism], let
 $e_K:P_X\to R\Delta_{X*}\omega_X$ be adjoint to the evaluation

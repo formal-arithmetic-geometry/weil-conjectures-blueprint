@@ -5,4 +5,6 @@ title = "Direct summand"
 order = 1197009
 aliases = ["bp-r368-7"]
 +++
-The sheaf $\mathcal E$ contains $\mathcal F^0$ as a direct summand.
+For any lisse $\mathcal F$ and any unit $b$, the sheaf $\mathcal E$ of
+[proposition-twisting-weight-zero-adding-dual--3] contains $\mathcal F^0$
+as a direct summand.

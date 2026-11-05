@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Alternating cohomological trace over a field"
 order = 1018016
 aliases = ["bp-r311-8"]
+lean = ["AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, it reads
 

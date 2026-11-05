@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Dual of compact direct image"
 order = 848002
 aliases = ["bp-r254-1"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek"]
 +++
 On $D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ there is the natural isomorphism
 

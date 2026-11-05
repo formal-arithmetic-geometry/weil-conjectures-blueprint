@@ -4,5 +4,11 @@ kind = "corollary"
 title = "Integral power series"
 order = 1040007
 aliases = ["bp-r318-6"]
+lean = ["AlgebraicGeometry.Scheme.Hom.constantCoeff_zetaSeries", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
 +++
-The exponential series and Euler product above lie in $1+T\mathbf Z[[T]]$.
+Let $X_0$ be any scheme of finite type over $\mathbf F_q$. There is a
+series $Z_{\mathbf Z}(T)\in\mathbf Z[[T]]$ whose image in
+$\mathbf Q[[T]]$ is $Z(X_0,T)$, and $Z(X_0,0)=1$. Consequently
+$Z_{\mathbf Z}(0)=1$, and the exponential series and Euler product of
+[corollary-point-counting-zeta-function--4] lie in
+$1+T\mathbf Z[[T]]$.

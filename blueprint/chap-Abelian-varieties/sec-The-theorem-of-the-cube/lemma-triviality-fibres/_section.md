@@ -3,7 +3,6 @@ id = "lemma-triviality-fibres"
 kind = "lemma"
 title = "Triviality on fibres"
 order = 1478
-lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_iso_unit_fiber_iff", "AlgebraicGeometry.Scheme.Modules.isClosed_setOf_nonempty_iso_fiber"]
 +++
 Let $P$ be a proper geometrically integral $k$-scheme, let $T$ be a
 $k$-scheme of finite type, let $f:P\times T\to T$ be the projection,

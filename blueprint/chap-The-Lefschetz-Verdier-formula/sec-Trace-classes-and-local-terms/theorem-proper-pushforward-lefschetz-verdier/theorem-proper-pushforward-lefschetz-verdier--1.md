@@ -5,6 +5,7 @@ title = "Proper pushforward and Lefschetz–Verdier (1)"
 name_showing = false
 order = 926001
 aliases = ["bp-r281-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.traceClassPushforward_eq"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper, and let
 $c'=(c'_1,c'_2):C'\to Y\times Y$ satisfy $c'_ig=fc_i$. Set $K'=Rf_*K$, and

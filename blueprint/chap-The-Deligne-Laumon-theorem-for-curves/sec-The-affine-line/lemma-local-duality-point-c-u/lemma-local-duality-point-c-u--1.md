@@ -5,6 +5,7 @@ title = "Local duality at a point of $C\\setminus U$ (1)"
 name_showing = false
 order = 1294001
 aliases = ["bp-r399-1"]
+lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be a dense open in a smooth curve
 over $k_0$, and let $F$ be a lisse Weil $\overline{\mathbf Q}_\ell$-sheaf on $U_0$.

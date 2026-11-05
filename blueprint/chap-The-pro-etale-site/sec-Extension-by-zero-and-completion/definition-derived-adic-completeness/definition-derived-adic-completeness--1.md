@@ -5,6 +5,7 @@ title = "Derived adic completeness (1)"
 name_showing = false
 order = 208001
 aliases = ["bp-r061-1"]
+lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let
 $\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and

@@ -5,6 +5,7 @@ title = "External duality (2)"
 name_showing = false
 order = 911002
 aliases = ["bp-r275-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.verdierDualityIso"]
 +++
 $$
 \begin{aligned}

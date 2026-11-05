@@ -6,5 +6,6 @@ name_showing = false
 order = 324001
 aliases = ["bp-r097-1"]
 +++
-The maps (4.5) form a natural transformation
-$g^*Rf_*\to Rf'_*g'^*$.
+For every commutative square, the maps (4.5) form a natural transformation
+$g^*Rf_*\to Rf'_*g'^*$ on the unbounded derived categories of
+pro-étale sheaves of $\Lambda$-modules.

@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Algebraically closed coefficients"
 order = 798008
 aliases = ["bp-r239-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.map_upperShriekUnitTensorMap_comp_upperShriekBaseChange"]
 +++
 Let
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$. Identify the sources by

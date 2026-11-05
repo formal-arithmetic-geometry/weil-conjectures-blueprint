@@ -3,7 +3,7 @@ id = "lemma-connected-components-images-homomorphisms"
 kind = "lemma"
 title = "Connected components and images of homomorphisms"
 order = 1723
-lean = ["AlgebraicGeometry.finite_connectedComponents", "AlgebraicGeometry.GrpObj.isClopen_connectedComponent_onePoint", "AlgebraicGeometry.GrpObj.irreducibleSpace_identityComponent", "AlgebraicGeometry.GrpObj.range_conj_subset_connectedComponent", "AlgebraicGeometry.GrpObj.image_mulLeft_connectedComponent_onePoint", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.GrpObj.isIso_left_of_differential_bijective", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent"]
+lean = ["AlgebraicGeometry.GrpObj.isIso_left_of_differential_bijective", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.GeneralLinearGroup.eq_of_le_of_lieSubalgebra_eq", "AlgebraicGeometry.exists_isMonHom_imageι"]
 +++
 Let $G$ be an algebraic group.
 

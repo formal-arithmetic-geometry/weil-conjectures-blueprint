@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Finite extension of $\\Ql$"
 order = 425014
 aliases = ["bp-r129-7"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper"]
 +++
 For a cartesian square with $g:Y'\to Y$, $g':X'\to X$ and
 $p':X'\to Y'$, the base change map (4.5)

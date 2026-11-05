@@ -3,7 +3,7 @@ id = "lemma-degree-zero-calculation"
 kind = "lemma"
 title = "The degree-zero calculation"
 order = 667
-lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat", "AlgebraicGeometry.Etale.baseChangeProperty_zero"]
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite

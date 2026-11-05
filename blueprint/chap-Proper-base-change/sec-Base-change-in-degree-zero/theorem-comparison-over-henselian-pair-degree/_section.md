@@ -3,7 +3,6 @@ id = "theorem-comparison-over-henselian-pair-degree"
 kind = "theorem"
 title = "Henselian comparison in degree zero"
 order = 328
-lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing", "AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality"]
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form"]
 +++
 Let $(R,J)$ be a henselian pair, let $Z\to\operatorname{Spec}R$ be

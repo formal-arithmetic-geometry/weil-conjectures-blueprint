@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Pasting of base-change comparisons"
 order = 516007
 aliases = ["bp-r157-6"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange_padicAlgCl_paste_horiz", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange_padicAlgCl_paste_vert"]
 +++
 The base-change isomorphisms are compatible with composing cartesian squares.

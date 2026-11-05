@@ -5,6 +5,7 @@ title = "Base change and stalks (2)"
 name_showing = false
 order = 1232003
 aliases = ["bp-r379-2"]
+lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_of_iso_constantTwist"]
 +++
 For $N\in\Dbc(S,E)$, the projection formula for $p_2$ induces an
 isomorphism $\operatorname{FT}_\psi(K\otimes\pi^*N)\simeq

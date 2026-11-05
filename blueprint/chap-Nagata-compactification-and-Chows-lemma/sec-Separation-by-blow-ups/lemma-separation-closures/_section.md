@@ -3,7 +3,6 @@ id = "lemma-separation-closures"
 kind = "lemma"
 title = "Separation of closures"
 order = 1453
-lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform"]
 +++
 Let $T$ be qcqs and let $V\subseteq T$ be a quasi-compact open.

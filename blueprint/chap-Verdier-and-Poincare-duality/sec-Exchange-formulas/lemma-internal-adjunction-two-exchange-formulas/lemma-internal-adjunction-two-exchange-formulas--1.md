@@ -5,6 +5,7 @@ title = "Internal adjunction and two exchange formulas (1)"
 name_showing = false
 order = 830001
 aliases = ["bp-r248-1"]
+lean = ["AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierExchange"]
 +++
 Let $f:X\to Y$ be a morphism, $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and
 $L\in D^b_{\mathrm{ctf}}(Y,\Lambda)$. The map

@@ -3,7 +3,7 @@ id = "proposition-lattices-representations-normal-scheme"
 kind = "proposition"
 title = "Lattices and representations on a normal scheme"
 order = 1083
-lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy_of_isIntegrallyClosed_stalk", "AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
+lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy", "AlgebraicGeometry.ProEtale.exists_lisseMonodromy_of_isIntegrallyClosed_stalk"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a

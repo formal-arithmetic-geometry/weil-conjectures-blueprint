@@ -3,7 +3,7 @@ id = "lemma-inverse-image-tensor-product"
 kind = "lemma"
 title = "Inverse image and tensor product"
 order = 494
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj_of_scheme"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves"]
 +++
 Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,

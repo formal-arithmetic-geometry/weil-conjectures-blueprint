@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Finite stratification filtration"
 order = 268008
 aliases = ["bp-r080-7"]
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_filtration"]
 +++
 Every $F\in\Cons(X,\Lambda)$ has a finite filtration
 $0=F_0\subset F_1\subset\cdots\subset F_m=F$ whose subquotients

@@ -5,6 +5,7 @@ title = "Weil structure (3)"
 name_showing = false
 order = 876003
 aliases = ["bp-r263-3"]
+lean = ["CategoryTheory.Endofunctor.IsoAlgebra"]
 +++
 A morphism $(K,\phi_K)\to(L,\phi_L)$ is a morphism
 $h:K\to L$ satisfying

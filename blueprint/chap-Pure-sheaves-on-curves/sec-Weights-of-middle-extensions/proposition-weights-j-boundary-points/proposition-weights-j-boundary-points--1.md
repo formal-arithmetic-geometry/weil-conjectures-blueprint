@@ -5,6 +5,7 @@ title = "Weights of $j_*$ at the boundary points (1)"
 name_showing = false
 order = 1183001
 aliases = ["bp-r364-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.hasWeightsAtMost_directImage"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open of a smooth
 geometrically connected curve.  If a lisse Weil sheaf $\mathcal F$ on

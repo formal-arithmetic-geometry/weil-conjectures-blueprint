@@ -4,11 +4,12 @@ kind = "proposition"
 title = "Inverse image: coefficient comparison"
 order = 646004
 aliases = ["bp-r197-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIso"]
 +++
-For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison
+Let $a:\Lambda\to\Lambda'$ be any morphism of commutative condensed rings and $f:X\to Y$ any morphism of schemes. For every $K\in D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ there is a natural isomorphism
 
 $$
-(f^*_{\Lambda}K)_{\Lambda'}\xrightarrow{\sim}f^*_{\Lambda'}(K_{\Lambda'})
+(f^*_{\Lambda}K)_{\Lambda'}\xrightarrow{\sim}f^*_{\Lambda'}(K_{\Lambda'}).
 $$
 
-is an isomorphism in $D(X_{\mathrm{pro}\acute{e}t},\Lambda')$.
+No flatness or boundedness hypothesis is required.

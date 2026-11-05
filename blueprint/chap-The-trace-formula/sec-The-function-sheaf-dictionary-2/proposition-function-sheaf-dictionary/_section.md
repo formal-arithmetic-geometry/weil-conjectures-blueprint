@@ -3,7 +3,7 @@ id = "proposition-function-sheaf-dictionary"
 kind = "proposition"
 title = "The function–sheaf dictionary"
 order = 1029
-lean = ["AlgebraicGeometry.WeilComplex.traceFunction_upperStar", "AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse", "AlgebraicGeometry.WeilComplex.traceFunction_eq_add_of_distTriang"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction_eq_add_of_distTriang", "AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-trace-function"]
 +++
 Let $\Lambda$ be as in Theorem [theorem-grothendieck-lefschetz-trace-formula],

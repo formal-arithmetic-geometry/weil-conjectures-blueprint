@@ -5,6 +5,7 @@ title = "Frobenius correspondences and their operators (5)"
 name_showing = false
 order = 952005
 aliases = ["bp-r289-5"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.globalOperator_ofGraph", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ofGraph", "AlgebraicGeometry.ProEtale.CondensedRing.compactPullback", "AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCompactOperator"]
 +++
 Let $c_m=(\operatorname{id}_X,\Phi_X^m):X\to X\times_sX$ be the graph
 of $\Phi_X^m$. Since its first leg is the identity, $\psi_m$ is a

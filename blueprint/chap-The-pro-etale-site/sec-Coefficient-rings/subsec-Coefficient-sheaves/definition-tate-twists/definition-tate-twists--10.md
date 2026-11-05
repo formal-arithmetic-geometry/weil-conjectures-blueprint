@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Rank of the Tate twist"
 order = 184011
 aliases = ["bp-r053-10"]
+lean = ["AlgebraicGeometry.ProEtale.isLocallyFree_integralTateTwist", "AlgebraicGeometry.ProEtale.isLocallyFree_tateTwist"]
 +++
 Each admissible $\Lambda_X(1)$ is locally free of rank one.

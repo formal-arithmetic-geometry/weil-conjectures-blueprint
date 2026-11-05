@@ -3,7 +3,6 @@ id = "proposition-central-element-arithmetic-monodromy-group"
 kind = "proposition"
 title = "A central element of the arithmetic monodromy group"
 order = 1141
-lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map"]
 uses = ["definition-monodromy-groups", "lemma-normality-geometric-monodromy"]
 +++
 Let $V_1,\ldots,V_n$ be semisimple Weil representations and form the

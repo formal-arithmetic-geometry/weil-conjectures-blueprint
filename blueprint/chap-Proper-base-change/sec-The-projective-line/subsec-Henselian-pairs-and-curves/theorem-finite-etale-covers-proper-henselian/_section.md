@@ -3,7 +3,7 @@ id = "theorem-finite-etale-covers-proper-henselian"
 kind = "theorem"
 title = "Finite étale covers over a proper henselian pair"
 order = 357
-lean = ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing", "AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing"]
+lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing"]
 +++
 Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and put
 $Y_0=Y\times_{\operatorname{Spec}B}\operatorname{Spec}(B/J)$. Then

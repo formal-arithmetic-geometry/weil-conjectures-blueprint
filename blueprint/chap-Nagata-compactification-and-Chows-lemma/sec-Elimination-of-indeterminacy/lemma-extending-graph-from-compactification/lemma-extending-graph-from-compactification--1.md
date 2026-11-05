@@ -1,13 +1,23 @@
 +++
 id = "lemma-extending-graph-from-compactification--1"
 kind = "lemma"
-title = "Extending a graph from a compactification (1)"
-name_showing = false
+title = "Graph extension with compatible embeddings"
 order = 1449001
 aliases = ["bp-r451-1"]
+lean = ["AlgebraicGeometry.Compactification.ProperExtension", "AlgebraicGeometry.Compactification.nonempty_properExtension"]
 +++
-Let $S$ be qcqs, let $M\to S$ be separated of finite type, and let
-$V\subseteq M$ be a quasi-compact open with a compactification
-$V\subseteq Y$ over $S$. There are a $V$-admissible blow-up $Y'\to Y$,
-an open $V\subseteq V'\subseteq Y'$ and a proper map
-$\psi:V'\to M$ with $\psi^{-1}(V)=V$ and $\psi|_V=\mathrm{id}_V$.
+Let $S$ be qcqs, let $u:M\to S$ be separated of finite type, and let
+$j:V\hookrightarrow M$ be the inclusion of a quasi-compact open. Fix a
+compactification $V\xrightarrow{i}Y\xrightarrow{g}S$ of $u\circ j$.
+There are an $i(V)$-admissible blow-up $b:Y'\to Y$, an open
+$k:V'\hookrightarrow Y'$, a proper map $\psi:V'\to M$, and an open
+immersion $v:V\to V'$ such that
+
+$$
+b\circ k\circ v=i,\qquad
+\psi\circ v=j,\qquad
+u\circ\psi=g\circ b\circ k.
+$$
+
+Moreover, $\psi^{-1}(V)=v(V)$, and the restriction
+$\psi^{-1}(V)\to V$ of $\psi$ is an isomorphism.

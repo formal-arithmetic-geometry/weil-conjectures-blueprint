@@ -5,6 +5,7 @@ title = "Bounds for squared traces (5)"
 name_showing = false
 order = 1205006
 aliases = ["bp-r371-5"]
+lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_eq_sub_of_traceEnergy_eq", "AlgebraicGeometry.WeilSheaf.traceEnergy_constantTwist"]
 +++
 For every constructible Weil complex $K$ on $X_0$ and every
 $b\in\overline{\mathbf Q}_\ell^\times$, we have

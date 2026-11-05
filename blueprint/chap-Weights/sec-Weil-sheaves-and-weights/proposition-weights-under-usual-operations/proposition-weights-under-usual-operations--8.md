@@ -4,5 +4,8 @@ kind = "proposition"
 title = "Mixedness under inverse image"
 order = 1073009
 aliases = ["bp-r329-8"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsMixed.upperStar"]
 +++
-Inverse image preserves mixedness.
+Let $f:X_0\to Y_0$ be a morphism between $k_0$-schemes locally of
+finite type. If $\mathcal F$ is mixed on $Y_0$, then $f^*\mathcal F$
+is mixed on $X_0$.
