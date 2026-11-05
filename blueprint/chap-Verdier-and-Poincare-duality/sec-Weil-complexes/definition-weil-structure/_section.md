@@ -1,0 +1,22 @@
++++
+id = "definition-weil-structure"
+kind = "definition"
+title = "Weil structure"
+order = 875
+lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.Hom", "AlgebraicGeometry.Etale.WeilComplex", "AlgebraicGeometry.Etale.WeilComplex.Hom", "AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
++++
+For $K\in D^b_{\mathrm{ctf}}(T,\Lambda)$, a *Weil structure*
+is an isomorphism
+
+$$
+\phi_K:\operatorname{Fr}_T^*K\xrightarrow{\sim}K.
+$$
+
+A *Weil complex* is a pair $(K,\phi_K)$ with this structure.
+A morphism $(K,\phi_K)\to(L,\phi_L)$ is a morphism
+$h:K\to L$ satisfying
+
+$$
+h\circ\phi_K=\phi_L\circ\operatorname{Fr}_T^*(h).
+$$

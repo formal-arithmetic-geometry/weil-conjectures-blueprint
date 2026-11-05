@@ -1,0 +1,14 @@
++++
+id = "theorem-smooth-base-change-all-admissible--3"
+kind = "theorem"
+title = "Finite extension of $\\Ql$"
+order = 700006
+aliases = ["bp-r210-3"]
++++
+For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},E)$, the map
+
+$$
+g^*_{E}Rf_{*,E}K\xrightarrow{\sim}Rf'_{*,E}g'^*_{E}K
+$$
+
+is an isomorphism.

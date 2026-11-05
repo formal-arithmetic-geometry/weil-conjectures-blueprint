@@ -1,0 +1,8 @@
++++
+id = "definition-tate-twists--6"
+kind = "definition"
+title = "Rational Tate twist"
+order = 184007
+aliases = ["bp-r053-6"]
++++
+Put $E_X(1)=\mathcal O_{E,X}(1)[1/\ell]$.

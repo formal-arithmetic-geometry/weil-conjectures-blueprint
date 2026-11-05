@@ -10,6 +10,7 @@ modules = ["WeilConjectures"]
 
 [site]
 theme = "outline"        # the style the website opens in
+numbering = "nested"     # a statement inside a statement is numbered under it: 2.3.1, 2.3.2, …
 assets = "site-assets"   # copied into the site as assets/
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
@@ -44,6 +45,32 @@ nodes = [
   { id = "weight", title = "Part II: Weight Theory" },
 ]
 arrows = [["pre", "six"], ["six", "weight"], ["pre", "weight"]]
+
+# `name_showing = false` marks a statement whose title was made up for the
+# blueprint because the tex gives it none; the tool only needs to accept it.
+[kinds.theorem]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.lemma]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.proposition]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.corollary]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.definition]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.remark]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.question]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
+
+[kinds.example]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
 
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
