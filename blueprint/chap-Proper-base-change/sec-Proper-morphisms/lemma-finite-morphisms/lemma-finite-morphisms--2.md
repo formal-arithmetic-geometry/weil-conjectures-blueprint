@@ -3,7 +3,7 @@ id = "lemma-finite-morphisms--2"
 kind = "lemma"
 title = "Finite morphisms (2)"
 name_showing = false
-order = 384002
+order = 384003
 aliases = ["bp-r116-2"]
 +++
 Let $u:V\to W$ be finite, and consider abelian sheaves, or sheaves of

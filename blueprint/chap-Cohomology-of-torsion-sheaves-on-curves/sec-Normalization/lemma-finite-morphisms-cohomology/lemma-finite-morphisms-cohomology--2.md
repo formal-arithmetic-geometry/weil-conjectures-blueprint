@@ -3,7 +3,7 @@ id = "lemma-finite-morphisms-cohomology--2"
 kind = "lemma"
 title = "Finite morphisms and cohomology (2)"
 name_showing = false
-order = 1597002
+order = 1597003
 aliases = ["bp-r497-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
 +++

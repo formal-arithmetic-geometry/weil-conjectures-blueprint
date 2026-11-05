@@ -2,7 +2,7 @@
 id = "lemma-local-cohomology-right-adjoint--2"
 kind = "lemma"
 title = "The fibre formula"
-order = 205002
+order = 205003
 aliases = ["bp-r060-2"]
 +++
 The functor $R\underline\Gamma_Z$ is computed by

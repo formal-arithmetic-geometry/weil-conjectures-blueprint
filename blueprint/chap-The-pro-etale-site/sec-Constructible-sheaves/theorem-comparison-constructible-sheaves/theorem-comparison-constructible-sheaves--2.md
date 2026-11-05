@@ -2,7 +2,7 @@
 id = "theorem-comparison-constructible-sheaves--2"
 kind = "theorem"
 title = "Equivalence of constructible sheaves"
-order = 149003
+order = 149004
 aliases = ["bp-r043-2"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison_moduleEquivalence"]
 +++

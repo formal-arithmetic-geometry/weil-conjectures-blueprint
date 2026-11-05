@@ -4,4 +4,6 @@ of = "theorem-verdier-biduality--2"
 order = 845005
 uses = ["theorem-verdier-biduality--1", "proposition-isomorphisms-reduce-finite-coefficients--2"]
 +++
-Apply [proposition-isomorphisms-reduce-finite-coefficients--2] to the double-dual transformation. Proposition [proposition-six-operations-change-coefficients] identifies its scalar extensions, and the preceding coefficient stage provides the input.
+The functors $\mathrm{id}$ and $\mathbb D_X\mathbb D_X$ are exact on $D^b_{\mathrm{ctf}}$; duality preserves this category by Lemma [lemma-verdier-duality-preserves-constructibility]. The evaluation transformation is built from $a_X^!$, internal Hom and the evaluation pairing. Proposition [proposition-six-operations-change-coefficients] identifies each construction after scalar extension, hence identifies the double-dual morphism. Its finite-coefficient case is clause [theorem-verdier-biduality--1]. Apply the integral reduction step [proposition-isomorphisms-reduce-finite-coefficients--2] to conclude that $\delta_K$ is an isomorphism for this coefficient ring.
+
+*Source:* the proof of Theorem [theorem-verdier-biduality].

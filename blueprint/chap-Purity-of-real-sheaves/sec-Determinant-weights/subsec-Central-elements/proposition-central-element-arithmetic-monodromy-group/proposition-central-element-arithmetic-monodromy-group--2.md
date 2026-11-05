@@ -3,7 +3,7 @@ id = "proposition-central-element-arithmetic-monodromy-group--2"
 kind = "proposition"
 title = "A central element of the arithmetic monodromy group (2)"
 name_showing = false
-order = 1141002
+order = 1141003
 aliases = ["bp-r350-2"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.mulVec_mem_of_mem_zeroLocus_arithmeticMonodromy", "Subrepresentation.exists_apply_sub_smul_mem_of_isIrreducible"]
 +++

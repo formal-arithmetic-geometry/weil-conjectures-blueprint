@@ -2,7 +2,7 @@
 id = "lemma-stability--7"
 kind = "lemma"
 title = "Ind-etale composition"
-order = 32008
+order = 32014
 aliases = ["bp-r003-7"]
 lean = ["RingHom.IndEtale.comp"]
 +++

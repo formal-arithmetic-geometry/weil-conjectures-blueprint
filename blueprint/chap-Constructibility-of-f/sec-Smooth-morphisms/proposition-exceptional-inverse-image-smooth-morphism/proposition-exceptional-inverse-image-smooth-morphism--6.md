@@ -2,7 +2,7 @@
 id = "proposition-exceptional-inverse-image-smooth-morphism--6"
 kind = "proposition"
 title = "Exceptional base change"
-order = 562007
+order = 562012
 aliases = ["bp-r169-6"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_of_smoothOfRelativeDimension"]
 +++

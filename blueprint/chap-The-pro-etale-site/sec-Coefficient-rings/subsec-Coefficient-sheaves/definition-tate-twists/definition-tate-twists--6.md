@@ -2,7 +2,7 @@
 id = "definition-tate-twists--6"
 kind = "definition"
 title = "Rational Tate twist"
-order = 184007
+order = 184009
 aliases = ["bp-r053-6"]
 lean = ["AlgebraicGeometry.ProEtale.spRationalTwist"]
 +++

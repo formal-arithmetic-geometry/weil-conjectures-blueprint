@@ -2,7 +2,7 @@
 id = "corollary-evaluation-weakly-contractible-objects--5"
 kind = "corollary"
 title = "Colimits"
-order = 79006
+order = 79010
 aliases = ["bp-r020-5"]
 lean = ["CategoryTheory.peSectionsLimitsColimits"]
 +++

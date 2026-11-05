@@ -2,7 +2,7 @@
 id = "proposition-weights-under-usual-operations--4"
 kind = "proposition"
 title = "Dual of a pure lisse sheaf"
-order = 1073005
+order = 1073008
 aliases = ["bp-r329-4"]
 lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalk_dual"]
 +++

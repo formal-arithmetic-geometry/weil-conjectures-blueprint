@@ -2,7 +2,7 @@
 id = "lemma-identity-pasting--3"
 kind = "lemma"
 title = "Vertical pasting"
-order = 319004
+order = 319006
 aliases = ["bp-r095-3"]
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 +++

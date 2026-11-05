@@ -2,7 +2,7 @@
 id = "proposition-properties-trace--5"
 kind = "proposition"
 title = "Filtered additivity"
-order = 896006
+order = 896010
 aliases = ["bp-r270-5"]
 +++
 If $P$ is the underlying complex of a two-step filtered object

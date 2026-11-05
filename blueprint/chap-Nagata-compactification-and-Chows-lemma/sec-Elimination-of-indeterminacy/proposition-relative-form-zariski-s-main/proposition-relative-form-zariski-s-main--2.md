@@ -2,7 +2,7 @@
 id = "proposition-relative-form-zariski-s-main--2"
 kind = "proposition"
 title = "Quasi-affineness of the morphism"
-order = 1438002
+order = 1438003
 aliases = ["bp-r447-2"]
 lean = ["AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite"]
 +++

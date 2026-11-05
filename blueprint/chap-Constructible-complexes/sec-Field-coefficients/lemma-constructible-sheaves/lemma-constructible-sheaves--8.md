@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--8"
 kind = "lemma"
 title = "Local freeness of finite presentations"
-order = 268009
+order = 268016
 aliases = ["bp-r080-8"]
 lean = ["AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp", "AlgebraicGeometry.ProEtale.condensedQbar_lfp_locally_free"]
 +++

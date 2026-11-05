@@ -2,7 +2,7 @@
 id = "theorem-picard-scheme-jacobian-over-separably--2"
 kind = "theorem"
 title = "Geometry of the degree components"
-order = 1552002
+order = 1552003
 aliases = ["bp-r483-2"]
 lean = ["AlgebraicGeometry.geometricallyIntegral_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree"]
 +++

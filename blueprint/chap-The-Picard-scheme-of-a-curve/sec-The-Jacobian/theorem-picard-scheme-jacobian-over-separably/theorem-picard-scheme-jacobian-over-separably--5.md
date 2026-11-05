@@ -2,7 +2,7 @@
 id = "theorem-picard-scheme-jacobian-over-separably--5"
 kind = "theorem"
 title = "Compatibility with base change"
-order = 1552005
+order = 1552009
 aliases = ["bp-r483-5"]
 lean = ["AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback"]
 +++

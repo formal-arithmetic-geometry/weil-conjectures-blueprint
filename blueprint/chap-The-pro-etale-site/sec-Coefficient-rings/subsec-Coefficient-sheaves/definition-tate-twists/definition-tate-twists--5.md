@@ -2,7 +2,7 @@
 id = "definition-tate-twists--5"
 kind = "definition"
 title = "Integral Tate twist"
-order = 184006
+order = 184008
 aliases = ["bp-r053-5"]
 lean = ["AlgebraicGeometry.ProEtale.integralTateTwistOne", "AlgebraicGeometry.ProEtale.spIntegralTwist"]
 +++

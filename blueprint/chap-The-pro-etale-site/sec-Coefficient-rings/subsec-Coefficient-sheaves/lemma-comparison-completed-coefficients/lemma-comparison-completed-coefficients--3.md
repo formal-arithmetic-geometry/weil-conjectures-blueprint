@@ -3,7 +3,7 @@ id = "lemma-comparison-completed-coefficients--3"
 kind = "lemma"
 title = "Comparison with completed coefficients (3)"
 name_showing = false
-order = 178003
+order = 178005
 aliases = ["bp-r051-3"]
 +++
 $$

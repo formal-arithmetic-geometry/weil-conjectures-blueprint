@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--5"
 kind = "lemma"
 title = "Brauer group comparison"
-order = 1574006
+order = 1574010
 aliases = ["bp-r490-5"]
 lean = ["AlgebraicGeometry.Scheme.CohomologicalBrauerGroup"]
 +++

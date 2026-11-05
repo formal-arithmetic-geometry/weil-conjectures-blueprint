@@ -3,7 +3,7 @@ id = "proposition-comparison-immersions--3"
 kind = "proposition"
 title = "Comparison for immersions (3)"
 name_showing = false
-order = 139003
+order = 139005
 aliases = ["bp-r040-3"]
 +++
 For a closed immersion $i:Z\hookrightarrow X$, the map

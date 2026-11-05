@@ -3,7 +3,7 @@ id = "proposition-topos-functoriality--3"
 kind = "proposition"
 title = "The topos and its functoriality (3)"
 name_showing = false
-order = 39003
+order = 39005
 aliases = ["bp-r006-3"]
 lean = ["AlgebraicGeometry.ProEtale.setPullbackComp"]
 +++

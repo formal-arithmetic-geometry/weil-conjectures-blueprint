@@ -2,7 +2,7 @@
 id = "theorem-riemann-roch-coherent-serre-duality--6"
 kind = "theorem"
 title = "Dimension of regular differentials"
-order = 1528006
+order = 1528011
 aliases = ["bp-r475-6"]
 lean = ["AlgebraicGeometry.Scheme.finrankH_relativeDifferentials_zero_eq_arithmeticGenus"]
 +++

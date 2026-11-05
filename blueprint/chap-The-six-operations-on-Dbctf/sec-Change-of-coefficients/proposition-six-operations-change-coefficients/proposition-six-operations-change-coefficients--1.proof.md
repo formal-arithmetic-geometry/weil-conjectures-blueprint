@@ -3,4 +3,12 @@ kind = "proof"
 of = "proposition-six-operations-change-coefficients--1"
 order = 646003
 +++
-This is Lemma [lemma-extension-scalars-preserves-dctf].
+An object that is locally $\Lambda_S\otimes P$ on a stratum $S$, with $P$
+perfect, remains of this form after derived extension of scalars, since
+$P\otimes^{\mathbf L}_\Lambda\Lambda'$ is a perfect $\Lambda'$-complex.
+Moreover, extension of scalars commutes with extension by zero and with
+finite cones. Every object of $D^b_{\mathrm{ctf}}(X,\Lambda)$ is built from such objects
+by extension by zero from strata and finite cones, and so its extension of
+scalars lies in $D^b_{\mathrm{ctf}}(X,\Lambda')$.
+
+*Source:* the proof of Proposition [proposition-six-operations-change-coefficients].

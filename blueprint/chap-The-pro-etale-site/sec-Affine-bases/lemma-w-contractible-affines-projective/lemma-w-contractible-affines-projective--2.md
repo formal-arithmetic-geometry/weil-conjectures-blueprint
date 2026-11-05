@@ -2,7 +2,7 @@
 id = "lemma-w-contractible-affines-projective--2"
 kind = "lemma"
 title = "Equivalent forms of splitting"
-order = 69002
+order = 69003
 aliases = ["bp-r016-2"]
 +++
 For an object $W$ of $X_{\mathrm{pro}\acute{e}t}$ the following are equivalent: every

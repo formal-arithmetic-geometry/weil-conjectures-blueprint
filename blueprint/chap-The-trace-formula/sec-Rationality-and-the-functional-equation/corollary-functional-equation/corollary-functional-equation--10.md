@@ -2,7 +2,7 @@
 id = "corollary-functional-equation--10"
 kind = "corollary"
 title = "Functional equation in sign form"
-order = 1045011
+order = 1045016
 aliases = ["bp-r320-10"]
 +++
 In $\mathbf Q_\ell(T)$,

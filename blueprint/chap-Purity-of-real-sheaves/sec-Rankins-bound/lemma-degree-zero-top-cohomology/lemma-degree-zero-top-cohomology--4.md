@@ -2,7 +2,7 @@
 id = "lemma-degree-zero-top-cohomology--4"
 kind = "lemma"
 title = "Degree zero with compact support"
-order = 1153004
+order = 1153007
 aliases = ["bp-r353-4"]
 lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_zero"]
 +++

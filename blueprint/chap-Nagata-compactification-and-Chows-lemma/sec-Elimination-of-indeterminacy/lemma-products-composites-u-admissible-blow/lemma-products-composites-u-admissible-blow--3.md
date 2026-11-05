@@ -3,7 +3,7 @@ id = "lemma-products-composites-u-admissible-blow--3"
 kind = "lemma"
 title = "Products and composites of $U$-admissible blow-ups (3)"
 name_showing = false
-order = 1433003
+order = 1433005
 aliases = ["bp-r445-3"]
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint"]
 +++

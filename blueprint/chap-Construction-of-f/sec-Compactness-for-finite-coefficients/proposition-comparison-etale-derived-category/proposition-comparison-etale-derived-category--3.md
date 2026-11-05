@@ -2,7 +2,7 @@
 id = "proposition-comparison-etale-derived-category--3"
 kind = "proposition"
 title = "Direct sums"
-order = 474004
+order = 474006
 aliases = ["bp-r144-3"]
 lean = ["CategoryTheory.Functor.preservesColimitsOfShape_mapDerivedCategory"]
 +++

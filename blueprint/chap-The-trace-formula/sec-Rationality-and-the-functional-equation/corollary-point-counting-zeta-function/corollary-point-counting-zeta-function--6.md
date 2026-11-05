@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--6"
 kind = "corollary"
 title = "Integral power series"
-order = 1040007
+order = 1040011
 aliases = ["bp-r318-6"]
 lean = ["AlgebraicGeometry.Scheme.Hom.constantCoeff_zetaSeries", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-descent-vanishing-finite-etale--2"
 kind = "lemma"
 title = "Descent of vanishing along a trace of invertible degree"
-order = 987002
+order = 987003
 aliases = ["bp-r301-2"]
 lean = ["DerivedCategory.eq_zero_of_comp_trace_of_isUnit"]
 +++

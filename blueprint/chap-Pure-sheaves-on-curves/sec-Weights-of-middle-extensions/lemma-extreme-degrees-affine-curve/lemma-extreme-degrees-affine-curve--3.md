@@ -2,7 +2,7 @@
 id = "lemma-extreme-degrees-affine-curve--3"
 kind = "lemma"
 title = "Purity in degree two"
-order = 1189003
+order = 1189005
 aliases = ["bp-r366-3"]
 lean = ["AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 +++

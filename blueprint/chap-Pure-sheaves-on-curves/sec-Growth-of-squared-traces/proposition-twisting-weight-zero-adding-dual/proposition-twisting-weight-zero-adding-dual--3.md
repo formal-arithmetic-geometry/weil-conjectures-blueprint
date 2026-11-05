@@ -2,7 +2,7 @@
 id = "proposition-twisting-weight-zero-adding-dual--3"
 kind = "definition"
 title = "Sum with the dual"
-order = 1197004
+order = 1197005
 aliases = ["bp-r368-3"]
 lean = ["AlgebraicGeometry.WeilSheaf.realEnvelope"]
 +++

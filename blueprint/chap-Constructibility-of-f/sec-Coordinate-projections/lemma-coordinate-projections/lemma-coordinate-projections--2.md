@@ -3,7 +3,7 @@ id = "lemma-coordinate-projections--2"
 kind = "lemma"
 title = "Coordinate projections (2)"
 name_showing = false
-order = 573003
+order = 573004
 aliases = ["bp-r173-2"]
 lean = ["AlgebraicGeometry.exists_isFinite_morphismRestrict_of_range_subset"]
 +++

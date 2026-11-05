@@ -3,7 +3,7 @@ id = "proposition-additivity-trace-classes--2"
 kind = "proposition"
 title = "Additivity of trace classes (2)"
 name_showing = false
-order = 943003
+order = 943004
 aliases = ["bp-r287-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass_ofGraph_eq_add"]
 +++

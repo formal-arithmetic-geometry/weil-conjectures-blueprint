@@ -2,7 +2,7 @@
 id = "theorem-picard-scheme-jacobian-over-separably--3"
 kind = "theorem"
 title = "The degree-zero component and its rational points"
-order = 1552003
+order = 1552005
 aliases = ["bp-r483-3"]
 lean = ["AlgebraicGeometry.exists_jacobian"]
 +++

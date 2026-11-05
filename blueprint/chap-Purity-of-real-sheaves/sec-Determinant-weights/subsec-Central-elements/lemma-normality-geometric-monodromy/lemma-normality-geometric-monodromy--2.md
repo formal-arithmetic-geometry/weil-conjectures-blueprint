@@ -2,7 +2,7 @@
 id = "lemma-normality-geometric-monodromy--2"
 kind = "lemma"
 title = "Commutators over coefficient algebras"
-order = 1133002
+order = 1133003
 aliases = ["bp-r347-2"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy"]
 +++

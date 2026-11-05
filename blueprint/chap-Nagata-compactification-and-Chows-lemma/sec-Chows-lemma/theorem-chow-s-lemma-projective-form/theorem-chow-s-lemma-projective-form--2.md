@@ -3,7 +3,7 @@ id = "theorem-chow-s-lemma-projective-form--2"
 kind = "theorem"
 title = "Chow's lemma, projective form (2)"
 name_showing = false
-order = 1471002
+order = 1471003
 aliases = ["bp-r457-2"]
 lean = ["AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 +++

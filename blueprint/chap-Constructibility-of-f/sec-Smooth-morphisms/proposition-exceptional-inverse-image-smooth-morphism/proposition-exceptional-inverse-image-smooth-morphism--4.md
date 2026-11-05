@@ -2,7 +2,7 @@
 id = "proposition-exceptional-inverse-image-smooth-morphism--4"
 kind = "proposition"
 title = "Rank of the dualizing sheaf"
-order = 562005
+order = 562008
 aliases = ["bp-r169-4"]
 lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex"]
 +++

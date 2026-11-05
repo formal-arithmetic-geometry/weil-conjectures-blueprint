@@ -2,7 +2,7 @@
 id = "lemma-p-torsion-affine-curve-characteristic--3"
 kind = "lemma"
 title = "Exactness of the Artin–Schreier sequence"
-order = 1590003
+order = 1590005
 aliases = ["bp-r495-3"]
 lean = ["AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier"]
 +++

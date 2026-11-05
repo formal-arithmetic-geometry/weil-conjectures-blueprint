@@ -3,7 +3,7 @@ id = "proposition-unbounded-comparison-finite-coefficients--2"
 kind = "proposition"
 title = "Unbounded comparison for finite coefficients (2)"
 name_showing = false
-order = 166002
+order = 166003
 aliases = ["bp-r049-2"]
 +++
 The map

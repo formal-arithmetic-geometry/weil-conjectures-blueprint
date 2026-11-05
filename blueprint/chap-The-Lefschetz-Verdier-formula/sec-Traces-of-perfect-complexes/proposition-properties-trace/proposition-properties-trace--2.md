@@ -2,7 +2,7 @@
 id = "proposition-properties-trace--2"
 kind = "proposition"
 title = "Conjugacy invariance"
-order = 896003
+order = 896004
 aliases = ["bp-r270-2"]
 lean = ["CategoryTheory.MonoidalCategory.trace_eq_of_iso"]
 +++

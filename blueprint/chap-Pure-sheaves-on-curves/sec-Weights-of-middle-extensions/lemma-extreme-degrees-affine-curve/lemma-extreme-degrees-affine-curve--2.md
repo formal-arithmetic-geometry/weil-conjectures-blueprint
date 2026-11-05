@@ -2,7 +2,7 @@
 id = "lemma-extreme-degrees-affine-curve--2"
 kind = "lemma"
 title = "Degree two and geometric coinvariants"
-order = 1189002
+order = 1189003
 aliases = ["bp-r366-2"]
 lean = ["AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-degree-zero-top-cohomology--3"
 kind = "lemma"
 title = "The cohomological range"
-order = 1153003
+order = 1153005
 aliases = ["bp-r353-3"]
 lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_neg"]
 +++

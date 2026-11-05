@@ -3,7 +3,7 @@ id = "lemma-comparison-via-relative-frobenius--4"
 kind = "lemma"
 title = "Comparison via relative Frobenius (4)"
 name_showing = false
-order = 1000005
+order = 1000008
 aliases = ["bp-r305-4"]
 +++
 At $y\in Y_0(\mathbf F_{q^m})$, base change for compact supports

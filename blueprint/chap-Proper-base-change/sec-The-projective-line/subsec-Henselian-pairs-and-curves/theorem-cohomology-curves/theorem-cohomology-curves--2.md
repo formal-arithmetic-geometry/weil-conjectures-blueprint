@@ -3,7 +3,7 @@ id = "theorem-cohomology-curves--2"
 kind = "theorem"
 title = "Cohomology of curves (2)"
 name_showing = false
-order = 360003
+order = 360004
 aliases = ["bp-r109-2"]
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine"]
 +++

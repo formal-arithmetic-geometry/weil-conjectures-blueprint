@@ -3,7 +3,7 @@ id = "lemma-sections-support-closed-subscheme--3"
 kind = "lemma"
 title = "Sections with closed support (3)"
 name_showing = false
-order = 277004
+order = 277006
 aliases = ["bp-r083-3"]
 +++
 Let $a=i\circ u:S\hookrightarrow X$ with $u:S\hookrightarrow Z$ an

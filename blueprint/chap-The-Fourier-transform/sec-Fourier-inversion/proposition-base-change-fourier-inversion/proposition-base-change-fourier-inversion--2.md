@@ -3,7 +3,7 @@ id = "proposition-base-change-fourier-inversion--2"
 kind = "proposition"
 title = "Base change and stalks (2)"
 name_showing = false
-order = 1232003
+order = 1232004
 aliases = ["bp-r379-2"]
 lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_of_iso_constantTwist"]
 +++

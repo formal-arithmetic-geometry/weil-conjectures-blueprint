@@ -3,7 +3,7 @@ id = "lemma-detection-proper-direct-image--2"
 kind = "lemma"
 title = "Detection by a proper direct image (2)"
 name_showing = false
-order = 570003
+order = 570004
 aliases = ["bp-r172-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_of_isIso_upperStar_map_of_isIso_rightDerivedLowerStar_map"]
 +++

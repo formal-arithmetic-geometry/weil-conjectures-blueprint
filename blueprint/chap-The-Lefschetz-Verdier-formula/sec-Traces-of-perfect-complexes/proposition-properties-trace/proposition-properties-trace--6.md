@@ -2,7 +2,7 @@
 id = "proposition-properties-trace--6"
 kind = "proposition"
 title = "Cohomological trace"
-order = 896007
+order = 896012
 aliases = ["bp-r270-6"]
 +++
 Over a field $L$ it is

@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--2"
 kind = "lemma"
 title = "Closure under cokernels"
-order = 268003
+order = 268004
 aliases = ["bp-r080-2"]
 +++
 Let $X$ be a Noetherian scheme and let $\Lambda=E$ or

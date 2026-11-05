@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-complete-integral--2"
 kind = "proposition"
 title = "Proper base change for complete complexes (2)"
 name_showing = false
-order = 417002
+order = 417003
 aliases = ["bp-r127-2"]
 +++
 and there are canonical isomorphisms

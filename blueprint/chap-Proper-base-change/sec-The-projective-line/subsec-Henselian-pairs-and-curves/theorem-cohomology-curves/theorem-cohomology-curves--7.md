@@ -3,7 +3,7 @@ id = "theorem-cohomology-curves--7"
 kind = "theorem"
 title = "Cohomology of curves (7)"
 name_showing = false
-order = 360008
+order = 360014
 aliases = ["bp-r109-7"]
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isAlgClosed"]
 +++

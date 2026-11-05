@@ -2,7 +2,7 @@
 id = "lemma-integral-models--5"
 kind = "lemma"
 title = "Integral locally closed extension"
-order = 294006
+order = 294010
 aliases = ["bp-r087-5"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion"]
 +++

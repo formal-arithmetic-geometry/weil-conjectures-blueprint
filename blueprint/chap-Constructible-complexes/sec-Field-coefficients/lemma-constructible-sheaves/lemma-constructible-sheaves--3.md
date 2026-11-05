@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--3"
 kind = "lemma"
 title = "Closure under extensions"
-order = 268004
+order = 268006
 aliases = ["bp-r080-3"]
 +++
 Let $X$ be a Noetherian scheme and let $\Lambda=E$ or

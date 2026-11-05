@@ -2,7 +2,7 @@
 id = "proposition-dctf-x-qbar-2-colimit--2"
 kind = "proposition"
 title = "Descent of objects"
-order = 649003
+order = 649004
 aliases = ["bp-r198-2"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj"]
 +++

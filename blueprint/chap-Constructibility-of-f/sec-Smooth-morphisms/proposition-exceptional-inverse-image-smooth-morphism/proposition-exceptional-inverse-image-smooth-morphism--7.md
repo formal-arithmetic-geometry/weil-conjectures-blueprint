@@ -2,7 +2,7 @@
 id = "proposition-exceptional-inverse-image-smooth-morphism--7"
 kind = "proposition"
 title = "Base change of the dualizing complex"
-order = 562008
+order = 562014
 aliases = ["bp-r169-7"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_pullbackFst"]
 +++

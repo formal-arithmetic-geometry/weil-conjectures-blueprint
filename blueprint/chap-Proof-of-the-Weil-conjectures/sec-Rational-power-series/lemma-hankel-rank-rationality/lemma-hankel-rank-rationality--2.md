@@ -2,7 +2,7 @@
 id = "lemma-hankel-rank-rationality--2"
 kind = "lemma"
 title = "Rationality under extension of the coefficient field"
-order = 1379002
+order = 1379003
 aliases = ["bp-r425-2"]
 lean = ["PowerSeries.exists_normalized_fraction_map_iff"]
 +++

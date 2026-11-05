@@ -2,7 +2,7 @@
 id = "proposition-cohomology-smooth-affine-curve--4"
 kind = "proposition"
 title = "Invariance under algebraically closed extension"
-order = 1582004
+order = 1582007
 aliases = ["bp-r493-4"]
 lean = ["AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine"]
 +++

@@ -2,7 +2,7 @@
 id = "proposition-jacobian-over-ground-field--4"
 kind = "proposition"
 title = "Geometric points"
-order = 1565005
+order = 1565008
 aliases = ["bp-r488-4"]
 +++
 The representation $r$ induces a group isomorphism

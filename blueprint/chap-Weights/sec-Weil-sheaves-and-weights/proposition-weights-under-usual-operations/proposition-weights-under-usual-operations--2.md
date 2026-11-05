@@ -2,7 +2,7 @@
 id = "proposition-weights-under-usual-operations--2"
 kind = "proposition"
 title = "Upper bounds for extensions"
-order = 1073003
+order = 1073004
 aliases = ["bp-r329-2"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono_cokernel"]
 +++

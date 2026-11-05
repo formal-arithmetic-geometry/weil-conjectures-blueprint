@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--4"
 kind = "corollary"
 title = "Euler product"
-order = 1040005
+order = 1040007
 aliases = ["bp-r318-4"]
 lean = ["AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
 +++

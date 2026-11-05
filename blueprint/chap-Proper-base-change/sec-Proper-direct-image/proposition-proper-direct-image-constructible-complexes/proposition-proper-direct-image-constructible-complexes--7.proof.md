@@ -4,4 +4,6 @@ of = "proposition-proper-direct-image-constructible-complexes--7"
 order = 425015
 uses = ["proposition-proper-direct-image-constructible-complexes--6"]
 +++
-Use the integral clause of this item on the generators of Lemma [lemma-integral-models](4), invert $\ell$, and use Corollary [corollary-continuity-cohomology]. Exactness extends the assertion through finite cones and shifts.
+Both sides of the comparison are exact in each variable. The class of objects on which it is an isomorphism is therefore closed under finite cones and shifts, so it suffices to use the generators of Lemma [lemma-integral-models](4). On these generators, the comparison is obtained from the integral comparison of clause [proposition-proper-direct-image-constructible-complexes--6] by inverting $\ell$. The continuity argument in clause [proposition-proper-direct-image-constructible-complexes--3] shows that these operations commute with proper direct image; they commute with pullback and derived tensor by associativity. The resulting map is the specified comparison, since its adjoint transpose is the scalar extension of the same counit. Hence the integral isomorphism yields the desired isomorphism.
+
+*Source:* the proof of Proposition [proposition-proper-direct-image-constructible-complexes].

@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--6"
 kind = "lemma"
 title = "Vanishing of the Brauer cohomology"
-order = 1574007
+order = 1574012
 aliases = ["bp-r490-6"]
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
 +++

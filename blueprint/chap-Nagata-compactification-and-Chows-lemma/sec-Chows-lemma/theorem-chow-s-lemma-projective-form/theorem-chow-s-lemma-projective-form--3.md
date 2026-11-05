@@ -2,7 +2,7 @@
 id = "theorem-chow-s-lemma-projective-form--3"
 kind = "theorem"
 title = "Chow's lemma for a separated morphism of finite type"
-order = 1471003
+order = 1471005
 aliases = ["bp-r457-3"]
 lean = ["AlgebraicGeometry.exists_chow_finite_type"]
 +++

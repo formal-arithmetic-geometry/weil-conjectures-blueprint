@@ -3,7 +3,7 @@ id = "proposition-comparison-morphism-inverse-image--2"
 kind = "proposition"
 title = "The comparison morphism and its inverse image (2)"
 name_showing = false
-order = 112002
+order = 112003
 aliases = ["bp-r031-2"]
 lean = ["AlgebraicGeometry.ProEtale.comparisonAdjunction", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar"]
 +++

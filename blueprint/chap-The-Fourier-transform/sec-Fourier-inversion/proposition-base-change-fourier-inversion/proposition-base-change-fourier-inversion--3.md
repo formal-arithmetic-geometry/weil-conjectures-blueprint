@@ -3,7 +3,7 @@ id = "proposition-base-change-fourier-inversion--3"
 kind = "proposition"
 title = "Base change and stalks (3)"
 name_showing = false
-order = 1232004
+order = 1232006
 aliases = ["bp-r379-3"]
 lean = ["AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_rationalPoint", "AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar_rationalPointHom"]
 +++

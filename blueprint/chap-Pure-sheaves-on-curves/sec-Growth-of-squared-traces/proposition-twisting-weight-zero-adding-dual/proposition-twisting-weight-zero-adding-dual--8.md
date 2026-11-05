@@ -2,7 +2,7 @@
 id = "proposition-twisting-weight-zero-adding-dual--8"
 kind = "proposition"
 title = "Trace"
-order = 1197010
+order = 1197014
 aliases = ["bp-r368-8"]
 lean = ["AlgebraicGeometry.WeilSheaf.map_traceFunction_dual"]
 +++

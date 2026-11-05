@@ -2,7 +2,7 @@
 id = "lemma-integral-models--2"
 kind = "lemma"
 title = "Comparison with Stacks adic constructibility"
-order = 294003
+order = 294004
 aliases = ["bp-r087-2"]
 lean = ["AlgebraicGeometry.ProEtale.IntegralModelsStacks.integral_models_stacks"]
 +++

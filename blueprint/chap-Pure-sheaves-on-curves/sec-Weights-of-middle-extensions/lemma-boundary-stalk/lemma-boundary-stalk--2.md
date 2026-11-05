@@ -2,7 +2,7 @@
 id = "lemma-boundary-stalk--2"
 kind = "lemma"
 title = "Recovery from a dense open"
-order = 1176002
+order = 1176003
 aliases = ["bp-r361-2"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.isIso_upperStarLowerStarAdjunction_unit_app"]
 +++

@@ -2,7 +2,7 @@
 id = "proposition-cohomology-smooth-affine-curve--2"
 kind = "proposition"
 title = "Kummer computation on a smooth affine curve"
-order = 1582002
+order = 1582003
 aliases = ["bp-r493-2"]
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-affine-space-etale-localization--2"
 kind = "lemma"
 title = "Affine space and étale localization (2)"
 name_showing = false
-order = 558003
+order = 558004
 aliases = ["bp-r168-2"]
 +++
 Its counit

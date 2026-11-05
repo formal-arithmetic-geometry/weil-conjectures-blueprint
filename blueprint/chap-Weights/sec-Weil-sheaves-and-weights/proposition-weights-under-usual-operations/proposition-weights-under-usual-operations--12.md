@@ -2,7 +2,7 @@
 id = "proposition-weights-under-usual-operations--12"
 kind = "proposition"
 title = "Weight of a constant twist"
-order = 1073013
+order = 1073023
 aliases = ["bp-r329-12"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.constantTwist", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.constantTwist"]
 +++
