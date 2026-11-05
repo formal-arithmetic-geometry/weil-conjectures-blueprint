@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-perverse-weil-sheaves"
 order = 1253
+uses = ["lemma-perverse-sheaves-curve", "definition-weil-structure"]
 +++
 Frobenius pullback is an exact equivalence for the ordinary
 t-structure, and it preserves punctual support and the absence of

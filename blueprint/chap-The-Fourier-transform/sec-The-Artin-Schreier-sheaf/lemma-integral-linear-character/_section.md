@@ -3,8 +3,8 @@ id = "lemma-integral-linear-character"
 kind = "lemma"
 title = "The integral of a linear character"
 order = 1225
-lean = ["AlgebraicGeometry.WeilComplex.isZero_derivedLowerShriek_tensorLisse_artinSchreierOf_upperStar"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilComplex.nonempty_iso_upperStar_comp_derivedLowerShriek_of_isPullback", "AlgebraicGeometry.WeilComplex.isZero_derivedLowerShriek_tensorLisse_artinSchreierOf_upperStar"]
+uses = ["lemma-artin-schreier-character-sheaf", "proposition-construction-independence-rf-shriek", "definition-tate-twists", "definition-trace-map"]
 +++
 Let $\lambda$ be a linear form on $\mathbf A^r$ over an algebraically
 closed field of characteristic $p$. Then

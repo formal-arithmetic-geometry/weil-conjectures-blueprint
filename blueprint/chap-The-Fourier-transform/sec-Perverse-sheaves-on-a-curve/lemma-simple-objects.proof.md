@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-simple-objects"
 order = 1256
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "lemma-boundary-stalk"]
+uses = ["lemma-perverse-sheaves-curve", "lemma-largest-punctual-subsheaf", "lemma-boundary-stalk", "theorem-purity-real-sheaves-curves", "lemma-simple-objects--1"]
 +++
 Since a middle extension has no punctual subobject or
 quotient and $M$ is irreducible on the open, the

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-artin-schreier-character-sheaf"
 order = 1218
+uses = ["proposition-topos-functoriality", "lemma-artin-schreier-character-sheaf--1", "lemma-artin-schreier-character-sheaf--2", "lemma-artin-schreier-character-sheaf--3", "lemma-artin-schreier-character-sheaf--6", "lemma-artin-schreier-character-sheaf--7"]
 +++
 We define $\mathcal L_\psi$ as an eigensheaf in the direct image of the
 constant sheaf under an Artin–Schreier cover, and read off its

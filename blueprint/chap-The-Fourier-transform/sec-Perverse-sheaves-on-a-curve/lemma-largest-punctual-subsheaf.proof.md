@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-largest-punctual-subsheaf"
 order = 1246
-uses = ["proposition-pro-etale-coverings"]
+uses = ["proposition-pro-etale-coverings", "proposition-lattices-representations-normal-scheme", "proposition-topos-functoriality", "lemma-largest-punctual-subsheaf--1", "lemma-largest-punctual-subsheaf--3"]
 +++
 Let $L$ be a lisse sheaf. For a geometric point $\bar x$ and a
 geometric generic point $\bar\eta$ specializing to it, the

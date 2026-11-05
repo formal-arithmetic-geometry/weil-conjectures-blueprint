@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-plancherel"
 order = 1239
-uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-function-sheaf-dictionary"]
+uses = ["theorem-grothendieck-lefschetz-trace-formula", "proposition-function-sheaf-dictionary", "lemma-artin-schreier-character-sheaf", "prose-16-08", "definition-growth-squared-traces"]
 +++
 As for the classical transform, the proof is by orthogonality of
 characters. We expand the square of the sum in (16.3),

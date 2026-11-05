@@ -3,8 +3,8 @@ id = "lemma-artin-schreier-character-sheaf"
 kind = "lemma"
 title = "The Artin–Schreier character sheaf"
 order = 1217
-lean = ["AlgebraicGeometry.artinSchreier", "AlgebraicGeometry.isLisse_artinSchreier", "AlgebraicGeometry.nonempty_iso_tensorObj_artinSchreierOf", "AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier", "AlgebraicGeometry.isPunctuallyPureOfWeight_artinSchreier"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-trace-function", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
+lean = ["AlgebraicGeometry.artinSchreier", "AlgebraicGeometry.isLisse_artinSchreier", "AlgebraicGeometry.WeilSheaf.finrank_stalk_artinSchreier", "AlgebraicGeometry.nonempty_artinSchreier_zero_iso_adicConstant", "AlgebraicGeometry.nonempty_iso_tensorObj_artinSchreierOf", "AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier"]
+uses = ["definition-small-pro-etale-site", "definition-lisse-sheaves", "definition-weil-structure", "proposition-topos-functoriality", "definition-trace-function", "definition-weights"]
 +++
 Let $\psi:k_0\to E^\times$ be a nontrivial additive character.
 There is a lisse rank-one $E$-sheaf $\mathcal L_\psi$ on

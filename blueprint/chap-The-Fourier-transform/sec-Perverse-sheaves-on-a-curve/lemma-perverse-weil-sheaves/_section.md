@@ -3,6 +3,7 @@ id = "lemma-perverse-weil-sheaves"
 kind = "lemma"
 title = "Perverse Weil sheaves"
 order = 1252
+uses = ["definition-perverse-sheaves-curve"]
 +++
 The perverse Weil sheaves on $C_0$ form an abelian category, and the
 functor forgetting the Weil structure, to perverse sheaves on $C$, is

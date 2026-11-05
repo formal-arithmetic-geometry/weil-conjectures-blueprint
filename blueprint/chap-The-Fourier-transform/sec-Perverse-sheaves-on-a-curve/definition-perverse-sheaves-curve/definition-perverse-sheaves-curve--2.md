@@ -5,6 +5,8 @@ title = "Perverse sheaves on a curve (2)"
 name_showing = false
 order = 1247002
 aliases = ["bp-r385-2"]
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE"]
+uses = ["definition-constructible-sheaves", "definition-punctual-sheaf", "definition-weil-structure", "definition-perverse-sheaves-curve--1"]
 +++
 $$
 \begin{aligned}

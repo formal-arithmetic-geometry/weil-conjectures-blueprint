@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-kunneth-formula-compact-supports"
 order = 1223
+uses = ["lemma-kunneth-formula-compact-supports--1", "lemma-kunneth-formula-compact-supports--2", "lemma-kunneth-formula-compact-supports--3"]
 +++
 We integrate first along the fibres of $p_1$, which are copies of the
 fibres of $g$. This is possible because $h=f\circ p_1$, so that $Rh_!=Rf_!Rp_{1!}$. Since the

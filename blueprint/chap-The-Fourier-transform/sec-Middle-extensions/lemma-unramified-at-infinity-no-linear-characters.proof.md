@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-unramified-at-infinity-no-linear-characters"
 order = 1268
-uses = ["definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
+uses = ["definition-w-local-w-strictly-local", "proposition-w-local-components", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-restriction-normal-subgroup", "lemma-unramified-at-infinity-no-linear-characters--1"]
 +++
 For $a\ne0$ the sheaf $\mathcal L_{\psi(ax)}$ is ramified at infinity,
 and the trivial character is excluded because $M$ is irreducible and

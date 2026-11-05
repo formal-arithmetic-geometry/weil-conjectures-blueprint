@@ -5,6 +5,8 @@ title = "Perverse sheaves on a curve (4)"
 name_showing = false
 order = 1247004
 aliases = ["bp-r385-4"]
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverse"]
+uses = ["definition-perverse-sheaves-curve--3", "definition-weil-structure"]
 +++
 For $C=C_0\times_{k_0}k$, a
 *perverse Weil sheaf* on $C_0$ is a perverse sheaf on $C$ with a

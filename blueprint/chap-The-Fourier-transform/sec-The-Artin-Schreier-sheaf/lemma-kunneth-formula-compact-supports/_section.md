@@ -3,6 +3,8 @@ id = "lemma-kunneth-formula-compact-supports"
 kind = "lemma"
 title = "Künneth formula for compact supports"
 order = 1222
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleExceptionalProjectionMorphism", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicAlgCl"]
+uses = ["proposition-construction-independence-rf-shriek", "proposition-six-operations-dctf"]
 +++
 In this situation, let $K,L$ be bounded constructible complexes with
 coefficients in a field. Then the maps in

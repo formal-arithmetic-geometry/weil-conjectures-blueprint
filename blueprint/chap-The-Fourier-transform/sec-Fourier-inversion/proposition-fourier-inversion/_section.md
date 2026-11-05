@@ -3,7 +3,8 @@ id = "proposition-fourier-inversion"
 kind = "proposition"
 title = "Fourier inversion"
 order = 1231
-lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_comp_inv", "AlgebraicGeometry.nonempty_iso_fourierTransform_comp_self", "AlgebraicGeometry.isEquivalence_fourierTransform"]
+lean = ["AlgebraicGeometry.nonempty_fourierTransform_comp_fourierTransform_inv_iso"]
+uses = ["definition-weil-structure", "definition-tate-twists", "lemma-artin-schreier-character-sheaf"]
 +++
 Under $V^{\vee\vee}=V$ there are natural isomorphisms of functors
 $\Dbc(V,E)\to\Dbc(V,E)$

@@ -3,8 +3,8 @@ id = "definition-perverse-sheaves-curve"
 kind = "definition"
 title = "Perverse sheaves on a curve"
 order = 1247
-lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE", "AlgebraicGeometry.WeilComplex.IsCurvePerverse"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-punctual-sheaf", "definition-weil-structure"]
 +++
 Let $\Lambda$ be $E$ or $\overline{\mathbf Q}_\ell$. Define two classes of objects of $D^b_c(C_{\mathrm{pro}\acute{e}t},\Lambda)$ by
 
