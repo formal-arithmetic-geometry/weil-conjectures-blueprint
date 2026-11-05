@@ -41,10 +41,11 @@ nodes = ["Weil Conjecture"]
 [[site.intro.zoom]]
 nodes = [
   { id = "pre", title = "Preliminaries" },
-  { id = "six", title = "Part I: Six Operations" },
-  { id = "weight", title = "Part II: Weight Theory" },
+  { id = "six", title = "Part I: The six operations" },
+  { id = "trace", title = "Part II: Duality and the trace formula" },
+  { id = "weight", title = "Part III: Weights and the Riemann hypothesis" },
 ]
-arrows = [["pre", "six"], ["six", "weight"], ["pre", "weight"]]
+arrows = [["pre", "six"], ["six", "trace"], ["trace", "weight"], ["pre", "weight"]]
 
 # `name_showing = false` marks a statement whose title was made up for the
 # blueprint because the tex gives it none; the tool only needs to accept it.
