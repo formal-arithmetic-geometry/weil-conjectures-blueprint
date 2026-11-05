@@ -4,4 +4,5 @@ kind = "section"
 title = "Degree zero"
 order = 664
 uses = ["sec-The-base-change-map-2"]
+hide_content = true
 +++

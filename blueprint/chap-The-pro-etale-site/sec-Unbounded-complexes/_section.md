@@ -4,4 +4,5 @@ kind = "section"
 title = "Unbounded complexes"
 order = 155
 uses = ["sec-Conventions", "sec-Left-completeness-and-hypercovers", "sec-Classical-sheaves", "sec-Comparison-with-the-etale-site", "sec-Direct-images"]
+hide_content = true
 +++

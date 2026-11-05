@@ -3,4 +3,5 @@ id = "sec-Weil-complexes"
 kind = "section"
 title = "Weil complexes"
 order = 873
+hide_content = true
 +++

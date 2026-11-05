@@ -4,4 +4,5 @@ kind = "section"
 title = "Exterior powers and purity"
 order = 1164
 uses = ["subsec-Finite-monodromy", "subsec-Tensor-operations", "sec-Rankins-bound"]
+hide_content = true
 +++

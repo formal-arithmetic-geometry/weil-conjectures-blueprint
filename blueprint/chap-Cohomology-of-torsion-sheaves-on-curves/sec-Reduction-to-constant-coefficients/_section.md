@@ -4,4 +4,5 @@ kind = "section"
 title = "Reduction to constant coefficients"
 order = 1608
 uses = ["sec-Constructible-sheaves", "sec-Extension-by-zero"]
+hide_content = true
 +++
