@@ -256,16 +256,12 @@ jobs:
       # writes every snapshot back onto itself and takes no space. Should the
       # tool ever replace files instead, this only falls back to a real copy.
       #
-      # The env is the bot that [site.comments] in blueprint.toml posts the
-      # website's comments to Zulip with; `site` writes it into
-      # comments-config.json, so its key is only as private as the site.
-      # Without the two secrets the site builds anyway and says comments need
-      # the comment server.
+      # No bot here: the website's comments go through the comment server on
+      # fuxi (deploy/comments-relay.sh), which alone holds the Zulip bot;
+      # `site` writes only the Zulip and the channel of [site.comments] into
+      # comments-config.json.
       - name: Assemble the site, with its PDFs
         continue-on-error: true
-        env:
-          BLUEPRINT_ZULIP_EMAIL: ${{ secrets.ZULIP_BOT_EMAIL }}
-          BLUEPRINT_ZULIP_KEY: ${{ secrets.ZULIP_BOT_API_KEY }}
         run: |
           mkdir -p _site/data
           cp -al history/. _site/data/
