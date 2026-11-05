@@ -3,6 +3,7 @@ id = "proposition-continuous-cohomology-pro-etale-cohomology"
 kind = "proposition"
 title = "Continuous cohomology as pro-étale cohomology"
 order = 192
+lean = ["AlgebraicGeometry.ProEtale.continuousCohomology"]
 +++
 Let $X$ be a scheme and $(F_n)$ an inverse system of abelian sheaves
 on $X_{\mathrm{pro}\acute{e}t}$ with epimorphic transition maps.

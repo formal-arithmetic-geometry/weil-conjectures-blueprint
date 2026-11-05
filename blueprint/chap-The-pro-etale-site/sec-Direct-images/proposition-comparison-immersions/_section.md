@@ -3,7 +3,7 @@ id = "proposition-comparison-immersions"
 kind = "proposition"
 title = "Comparison for immersions"
 order = 139
-lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso"]
+lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso", "AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso", "AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationComparisonIso"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 1. For an open immersion $j:U\hookrightarrow X$, there is a canonical

@@ -3,7 +3,7 @@ id = "proposition-cohomology-smooth-affine-curve"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve"
 order = 1579
-lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.injective_restrictH1", "AlgebraicGeometry.Scheme.EtaleTorsor.range_restrictH1_eq_ker_residueH1", "AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine"]
+lean = ["AlgebraicGeometry.Scheme.residueSequence_exact", "AlgebraicGeometry.Scheme.gysinH2_eq_zero_iff", "AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-compactification-refinement"]
 +++
 Let $\overline C$ be a smooth proper connected curve of genus $g$

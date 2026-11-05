@@ -3,7 +3,7 @@ id = "definition-tate-twists"
 kind = "definition"
 title = "Tate twists"
 order = 184
-lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistFunctor", "AlgebraicGeometry.ProEtale.spTwists_locallyFree"]
+lean = ["AlgebraicGeometry.Scheme.proEtaleRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.tateTwist_finite_locallyFree", "AlgebraicGeometry.ProEtale.spFiniteTwist", "AlgebraicGeometry.ProEtale.spIntegralTwist", "AlgebraicGeometry.ProEtale.spRationalTwist", "AlgebraicGeometry.ProEtale.spQbarTwist", "AlgebraicGeometry.ProEtale.spSignedTwist", "AlgebraicGeometry.ProEtale.spInternalComplexTwist", "AlgebraicGeometry.ProEtale.spTwists_locallyFree", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible, and let $\mu_{\ell^n,X}$

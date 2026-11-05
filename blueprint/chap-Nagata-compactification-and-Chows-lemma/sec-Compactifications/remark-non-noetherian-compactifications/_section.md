@@ -4,6 +4,7 @@ kind = "remark"
 title = "Non-Noetherian compactifications"
 name_showing = false
 order = 1414
+lean = ["AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.isDense_denseRefinement"]
 uses = ["proposition-extension-zero-restriction-closed-subscheme", "theorem-nagata-s-compactification-theorem"]
 +++
 The same proof works for qcqs $\overline X$ whenever

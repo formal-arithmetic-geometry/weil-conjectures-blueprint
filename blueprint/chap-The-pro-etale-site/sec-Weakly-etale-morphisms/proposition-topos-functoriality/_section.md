@@ -3,7 +3,7 @@ id = "proposition-topos-functoriality"
 kind = "proposition"
 title = "The topos and its functoriality"
 order = 39
-lean = ["AlgebraicGeometry.ProEtale.toposFunctorialityInverseImage", "AlgebraicGeometry.ProEtale.setPullback", "AlgebraicGeometry.ProEtale.setPullbackAdjunction", "AlgebraicGeometry.ProEtale.setPullbackComp", "AlgebraicGeometry.ProEtale.upperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_upperStar"]
+lean = ["AlgebraicGeometry.ProEtale.toposFunctorialityInverseImage", "AlgebraicGeometry.ProEtale.setPullback", "AlgebraicGeometry.ProEtale.setPullbackAdjunction", "AlgebraicGeometry.ProEtale.setPullbackComp", "AlgebraicGeometry.ProEtale.lowerStar", "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
 The above coverings define a subcanonical site. Its category of sheaves

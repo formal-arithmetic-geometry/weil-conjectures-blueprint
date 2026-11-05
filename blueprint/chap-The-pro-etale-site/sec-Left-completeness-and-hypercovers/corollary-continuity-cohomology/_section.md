@@ -3,7 +3,7 @@ id = "corollary-continuity-cohomology"
 kind = "corollary"
 title = "Continuity of cohomology"
 order = 106
-lean = ["AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small", "AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
 Suppose $U$ is quasi-compact and quasi-separated and

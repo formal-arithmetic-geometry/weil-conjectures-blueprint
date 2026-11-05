@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Unbounded derived functors preserve products and limits"
 name_showing = false
 order = 100
-lean = ["AlgebraicGeometry.ProEtale.isDerivedLimitTriangle_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.isHomotopyLimit_rightDerivedLowerStar_mapCone"]
+lean = ["AlgebraicGeometry.ProEtale.isDerivedLimitTriangle_rightDerivedLowerStar"]
 uses = ["definition-small-pro-etale-site"]
 +++
 Let $U$ be an object of $X_{\mathrm{pro}\acute{e}t}$ and $f:X\to Y$ a morphism of
