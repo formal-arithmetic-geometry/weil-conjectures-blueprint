@@ -5,6 +5,7 @@ title = "Chow's lemma, projective form (1)"
 name_showing = false
 order = 1471001
 aliases = ["bp-r457-1"]
+lean = ["AlgebraicGeometry.ProjectiveDomination.nonempty_of_isAffine"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper
 surjection $\pi:\widetilde X\to X$ and a closed immersion

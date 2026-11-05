@@ -5,6 +5,7 @@ title = "The comparison morphism and its inverse image (2)"
 name_showing = false
 order = 112002
 aliases = ["bp-r031-2"]
+lean = ["AlgebraicGeometry.ProEtale.comparisonAdjunction", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar"]
 +++
 Its inverse image
 $\nu_X^*:\Sh(X_{\acute{e}t})\to\Sh(X_{\mathrm{pro}\acute{e}t})$ is exact and has the

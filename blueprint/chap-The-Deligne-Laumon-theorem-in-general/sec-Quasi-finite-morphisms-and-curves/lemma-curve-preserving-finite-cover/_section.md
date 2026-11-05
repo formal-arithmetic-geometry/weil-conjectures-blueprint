@@ -3,7 +3,6 @@ id = "lemma-curve-preserving-finite-cover"
 kind = "lemma"
 title = "A curve preserving a finite cover"
 order = 1330
-lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback"]
 +++
 Let $X$ be a smooth connected affine scheme over
 $\overline{\mathbf F}_q$, of dimension at least two. Let $T\to X$

@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Base change"
 order = 731018
 aliases = ["bp-r220-9"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.smoothOrientation_baseChange"]
 +++
 For $g:Y'\to Y$ as in
 Definition [definition-exceptional-base-change-map], with exceptional

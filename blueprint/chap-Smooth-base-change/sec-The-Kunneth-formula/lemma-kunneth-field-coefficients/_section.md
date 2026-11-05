@@ -3,6 +3,7 @@ id = "lemma-kunneth-field-coefficients"
 kind = "lemma"
 title = "Field coefficients"
 order = 715
+lean = ["AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap"]
 +++
 In the situation of (8.4), suppose that $A=L$ is a
 finite field of characteristic $\ell$. Then the Künneth map

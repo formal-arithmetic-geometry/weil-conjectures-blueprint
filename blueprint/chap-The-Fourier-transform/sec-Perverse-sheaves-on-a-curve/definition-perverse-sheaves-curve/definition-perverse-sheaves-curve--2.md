@@ -5,6 +5,7 @@ title = "Perverse sheaves on a curve (2)"
 name_showing = false
 order = 1250002
 aliases = ["bp-r385-2"]
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseLE", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower"]
 +++
 $$
 \begin{aligned}

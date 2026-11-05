@@ -5,6 +5,7 @@ title = "The integral constructibility criterion (1)"
 name_showing = false
 order = 246001
 aliases = ["bp-r073-1"]
+lean = ["AlgebraicGeometry.ProEtale.internal_integral_residue_criterion"]
 +++
 Let $X$ be Noetherian. The following conditions on
 $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ are equivalent:

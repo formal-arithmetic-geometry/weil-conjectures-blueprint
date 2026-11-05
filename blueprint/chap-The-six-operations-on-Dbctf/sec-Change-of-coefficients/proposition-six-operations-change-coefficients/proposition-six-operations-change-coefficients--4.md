@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Compactly supported direct image: coefficient comparison"
 order = 646008
 aliases = ["bp-r197-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekExtendScalarsIso", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekToPadicAlgClIso", "AlgebraicGeometry.ProEtale.CondensedRing.etaleReductionLowerShriekIsoOfCompactification"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison
 

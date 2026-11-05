@@ -5,6 +5,7 @@ title = "Sections over a geometric fibre (1)"
 name_showing = false
 order = 332001
 aliases = ["bp-r100-1"]
+lean = ["AlgebraicGeometry.Etale.bijective_restrictAlong_fibreToStrictLocalization", "AlgebraicGeometry.Etale.strictLocalizationPullback_sections"]
 +++
 Let $f:X\to Y$ be proper, let $F$ be an étale sheaf of sets on $X$, and
 let $\bar y:\operatorname{Spec}\Omega\to Y$ be a geometric point. Then

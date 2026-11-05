@@ -3,7 +3,7 @@ id = "proposition-composition-base-change-rf-shriek"
 kind = "proposition"
 title = "Composition and base change for $Rf_!$"
 order = 516
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso_assoc", "AlgebraicGeometry.Etale.isIso_derivedPlusFormalism_baseChange_and_shriekBaseChange"]
+lean = ["AlgebraicGeometry.Etale.isIso_derivedPlusFormalism_baseChange_and_shriekBaseChange", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusCompIso_assoc"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 For every admissible $\Lambda$, the following statements hold on

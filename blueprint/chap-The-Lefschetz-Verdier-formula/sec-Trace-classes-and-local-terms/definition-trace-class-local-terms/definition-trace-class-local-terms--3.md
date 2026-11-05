@@ -5,6 +5,7 @@ title = "Trace class and local terms (3)"
 name_showing = false
 order = 917003
 aliases = ["bp-r277-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.localTerm"]
 +++
 If $B\subset \Fix(c)$ is proper and open and closed, the *local term*
 of $u$ on $B$ is

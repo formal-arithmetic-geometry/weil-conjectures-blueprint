@@ -3,7 +3,7 @@ id = "definition-constructible-sheaves"
 kind = "definition"
 title = "Constructible sheaves"
 order = 219
-lean = ["AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel", "AlgebraicGeometry.ProEtale.IsFiniteConstantStratified", "AlgebraicGeometry.ProEtale.IsConstantModelConstructible", "AlgebraicGeometry.ProEtale.constantModelBoundedConstructible", "DerivedCategory.torAmplitudeIn", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
+lean = ["AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-lisse-sheaves"]
 +++
 Let $\Lambda$ be a commutative condensed ring.

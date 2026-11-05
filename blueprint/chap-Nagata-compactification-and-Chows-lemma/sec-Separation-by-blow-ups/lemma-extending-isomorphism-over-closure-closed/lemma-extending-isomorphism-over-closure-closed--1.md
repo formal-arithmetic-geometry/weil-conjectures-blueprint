@@ -1,13 +1,21 @@
 +++
 id = "lemma-extending-isomorphism-over-closure-closed--1"
 kind = "lemma"
-title = "Extending an isomorphism over the closure of a closed subset (1)"
-name_showing = false
+title = "Isomorphism near the closure after an admissible blow-up"
 order = 1455001
 aliases = ["bp-r453-1"]
+lean = ["AlgebraicGeometry.exists_isIso_strictTransformMap_isoNearClosureBlowup"]
 +++
-Let $q:P\to T$ be a proper morphism of qcqs schemes, let $V\subseteq T$
-be a quasi-compact open, and let $F\subseteq V$ be closed. Suppose that
-$q$ is an isomorphism over a neighbourhood of $F$ in $V$.
-After a $V$-admissible blow-up, the strict transform of $q$ is an
-isomorphism over a neighbourhood of the closure of $F$.
+Let $T$ be qcqs, let $q:P\to T$ be proper, let $V\subseteq T$ be a
+quasi-compact open, and let $F\subseteq V$ be closed in $V$. Let
+$N\subseteq T$ be an open containing $F$ such that $q$ is an
+isomorphism over $N$.
+
+Then there is a $V$-admissible blow-up $b:T'\to T$ with the following
+property: if $q':P'\to T'$ is the strict transform of $q$, there is an
+open $N'\subseteq T'$ such that
+
+$$
+\overline{b^{-1}(F)}\subseteq N',\qquad
+q'|_{N'}:(q')^{-1}(N')\xrightarrow{\sim}N'.
+$$

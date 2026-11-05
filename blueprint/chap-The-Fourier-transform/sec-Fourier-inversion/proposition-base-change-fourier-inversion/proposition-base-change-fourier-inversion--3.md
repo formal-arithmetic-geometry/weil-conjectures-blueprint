@@ -5,6 +5,7 @@ title = "Base change and stalks (3)"
 name_showing = false
 order = 1232004
 aliases = ["bp-r379-3"]
+lean = ["AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_rationalPoint", "AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar_rationalPointHom"]
 +++
 For a geometric point $\bar y$ of $V^\vee$, the proper base change
 map gives

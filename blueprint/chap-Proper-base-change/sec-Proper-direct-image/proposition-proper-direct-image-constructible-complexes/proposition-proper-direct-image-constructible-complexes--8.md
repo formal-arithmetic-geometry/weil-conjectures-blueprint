@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Algebraically closed coefficients"
 order = 425016
 aliases = ["bp-r129-8"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicAlgCl"]
 +++
 For a cartesian square with $g:Y'\to Y$, $g':X'\to X$ and
 $p':X'\to Y'$, the base change map (4.5)

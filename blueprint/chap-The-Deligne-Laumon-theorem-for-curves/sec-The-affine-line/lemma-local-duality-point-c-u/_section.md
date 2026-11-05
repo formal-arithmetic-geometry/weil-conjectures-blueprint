@@ -3,7 +3,6 @@ id = "lemma-local-duality-point-c-u"
 kind = "lemma"
 title = "Local duality at a point of $C\\setminus U$"
 order = 1294
-lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be a dense open in a smooth curve

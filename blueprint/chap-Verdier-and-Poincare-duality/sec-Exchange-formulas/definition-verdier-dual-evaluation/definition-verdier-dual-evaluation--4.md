@@ -5,6 +5,7 @@ title = "Verdier dual and evaluation (4)"
 name_showing = false
 order = 828004
 aliases = ["bp-r247-4"]
+lean = ["AlgebraicGeometry.Etale.verdierDualDoubleDual", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.verdierBiduality", "AlgebraicGeometry.ProEtale.CondensedRing.verdierBiduality"]
 +++
 The *double-dual
 morphism*

@@ -5,6 +5,10 @@ title = "Enough affine weakly contractible objects (1)"
 name_showing = false
 order = 71001
 aliases = ["bp-r017-1"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover"]
 +++
-Every object of $X_{\mathrm{pro}\acute{e}t}$ has a covering by affines
-$U=\operatorname{Spec}(D)$ with $D$ w-contractible.
+Let $V$ be an object of $X_{\mathrm{pro}\acute{e}t}$. There are a set $I$,
+objects $U_i$ of $X_{\mathrm{pro}\acute{e}t}$ and morphisms $u_i:U_i\to V$
+such that each $U_i$ is isomorphic to $\operatorname{Spec}(D_i)$ for a
+w-contractible commutative ring $D_i$, and the family
+$\{u_i:U_i\to V\}_{i\in I}$ generates a covering sieve of $V$.

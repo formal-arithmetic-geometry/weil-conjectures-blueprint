@@ -5,6 +5,7 @@ title = "Projective space (1)"
 name_showing = false
 order = 395001
 aliases = ["bp-r120-1"]
+lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLinePowProj"]
 +++
 If $\mathrm{PBC}_\Lambda(\mathbf P^1_S\to S)$ holds for every scheme $S$,
 then $\mathrm{PBC}_\Lambda(\mathbf P^n_S\to S)$ holds for every scheme $S$

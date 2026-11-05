@@ -5,6 +5,7 @@ title = "No fixed class in degree one (1)"
 name_showing = false
 order = 1100001
 aliases = ["bp-r336-1"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_section_of_isIsomorphic_mapIso"]
 +++
 For a smooth geometrically connected curve $U_0/k_0$, geometric
 Frobenius has no fixed vector on $H^1(U,E)$ for every finite

@@ -5,6 +5,7 @@ title = "The trace formula as an Euler product (1)"
 name_showing = false
 order = 1037001
 aliases = ["bp-r317-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, let
 $\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, and let $K\in\Dbc(X,\Lambda)$ carry a Weil

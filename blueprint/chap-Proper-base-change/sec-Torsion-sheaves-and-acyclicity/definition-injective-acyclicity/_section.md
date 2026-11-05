@@ -3,7 +3,6 @@ id = "definition-injective-acyclicity"
 kind = "definition"
 title = "Injective acyclicity"
 order = 344
-lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
 uses = ["definition-torsion-sheaves"]
 +++
 For a ring $\Lambda$, write $\mathrm{IA}_{\Lambda}(f)$ if for every

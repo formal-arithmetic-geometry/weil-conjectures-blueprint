@@ -5,6 +5,7 @@ title = "Tate module (1)"
 name_showing = false
 order = 1511001
 aliases = ["bp-r470-1"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime
 invertible in $k$. The *Tate module* of $A$ is

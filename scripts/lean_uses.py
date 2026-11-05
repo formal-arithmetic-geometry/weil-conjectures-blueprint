@@ -12,8 +12,10 @@ proof file, everything goes on A.
 
 Every statement node is rewritten this way, and so are their proofs: a node
 without Lean names gets no arrows, since Lean says nothing about it.  The
-detail nodes of layer 2 (ids `<id>--<k>`, with no Lean names) keep the arrows
-their "Dependencies:" lines give.  Without --write it only reports.
+detail nodes of layer 2 (ids `<id>--<k>`) are rewritten too when they have
+Lean names; those without keep the arrows their "Dependencies:" lines give.
+An arrow between a declaration and one of its own clauses is left out: the
+clause is part of the declaration.  Without --write it only reports.
 """
 import collections
 import json
@@ -87,6 +89,13 @@ for k, (p, fm) in nodes.items():
             st[k] |= owners.get(dep, set()) - {k}
         for dep in walk(va):
             pf[k] |= owners.get(dep, set()) - {k}
+def family(a, b):
+    return a.split('--')[0] == b.split('--')[0] and ('--' in a) != ('--' in b)
+
+
+for d in (st, pf):
+    for k in d:
+        d[k] = {x for x in d[k] if not family(k, x)}
 for k in list(pf):
     pf[k] -= st[k]
     if not proofs.get(k):
@@ -152,8 +161,8 @@ def set_uses(path, ids):
 
 
 for k, (p, fm) in nodes.items():
-    if '--' in k:
-        continue                  # layer-2 detail nodes keep their own arrows
+    if '--' in k and not fm.get('lean'):
+        continue                  # layer-2 detail nodes without Lean names keep their own arrows
     set_uses(p, st.get(k, set()))
     ps = sorted(proofs.get(k, []))
     for j, (_, pp) in enumerate(ps):

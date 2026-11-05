@@ -3,7 +3,6 @@ id = "definition-kunneth-map"
 kind = "definition"
 title = "Künneth map"
 order = 710
-lean = ["AlgebraicGeometry.Etale.externalProductRightDerivedLowerStarMap"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of
 finite type, put $h=f_1\times f_2:X_1\times X_2\to Y_1\times Y_2$, and let

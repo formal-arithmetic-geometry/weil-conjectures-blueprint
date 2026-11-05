@@ -3,7 +3,7 @@ id = "definition-lisse-sheaves"
 kind = "definition"
 title = "Lisse sheaves"
 order = 221
-lean = ["AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLisseCoefficientModule"]
+lean = ["AlgebraicGeometry.ProEtale.IsLisseCoefficientModule", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $\Lambda$ be a commutative condensed ring. A $\Lambda_X$-module $M$ is

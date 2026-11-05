@@ -5,6 +5,7 @@ title = "The trace formula as an Euler product (4)"
 name_showing = false
 order = 1037004
 aliases = ["bp-r317-4"]
+lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
 +++
 $$
 L(X_0,K,T)

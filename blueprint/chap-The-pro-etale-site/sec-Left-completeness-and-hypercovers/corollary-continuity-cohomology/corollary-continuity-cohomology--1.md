@@ -5,6 +5,7 @@ title = "Continuity of cohomology (1)"
 name_showing = false
 order = 106001
 aliases = ["bp-r029-1"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small"]
 +++
 Suppose $U$ is quasi-compact and quasi-separated and
 $(K_i^\bullet)$ is a filtered diagram of complexes of $\mathcal R$-modules

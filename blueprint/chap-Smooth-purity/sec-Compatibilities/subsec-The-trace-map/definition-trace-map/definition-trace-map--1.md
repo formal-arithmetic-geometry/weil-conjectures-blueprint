@@ -5,6 +5,7 @@ title = "Trace map (1)"
 name_showing = false
 order = 805001
 aliases = ["bp-r241-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.smoothTrace"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$, the *trace map* is the composite
 

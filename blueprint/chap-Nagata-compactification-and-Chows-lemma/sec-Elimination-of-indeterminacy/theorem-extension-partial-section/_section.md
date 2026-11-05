@@ -3,7 +3,6 @@ id = "theorem-extension-partial-section"
 kind = "theorem"
 title = "Extension of a partial section"
 order = 1441
-lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "proposition-relative-form-zariski-s-main"]
 +++
 Let $T$ be qcqs, let $U\subseteq V\subseteq T$ be quasi-compact opens

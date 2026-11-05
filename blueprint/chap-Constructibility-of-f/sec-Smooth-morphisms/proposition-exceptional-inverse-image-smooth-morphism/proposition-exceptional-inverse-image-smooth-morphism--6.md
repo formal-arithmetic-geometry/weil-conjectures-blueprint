@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Exceptional base change"
 order = 562007
 aliases = ["bp-r169-6"]
+lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_of_smoothOfRelativeDimension"]
 +++
 Let $g:S'\to S$, let $X'=X\times_SS'$, and let $f':X'\to S'$ and $g':X'\to X$ be the projections. The base change map (6.1) of Definition [definition-exceptional-base-change-finite] is an isomorphism.

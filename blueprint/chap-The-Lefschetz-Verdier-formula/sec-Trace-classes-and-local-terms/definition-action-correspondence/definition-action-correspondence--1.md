@@ -5,6 +5,7 @@ title = "Action of a correspondence on cohomology (1)"
 name_showing = false
 order = 922001
 aliases = ["bp-r279-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.globalOperator"]
 +++
 Let $u$ be a cohomological correspondence on $(X,K)$ for a
 correspondence $c$ with $c_2$ proper. The endomorphism $T_c(u)$ of

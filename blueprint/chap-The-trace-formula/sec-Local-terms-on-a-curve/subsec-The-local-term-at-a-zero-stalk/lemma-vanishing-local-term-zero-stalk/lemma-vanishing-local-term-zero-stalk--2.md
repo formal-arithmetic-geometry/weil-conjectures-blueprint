@@ -5,6 +5,7 @@ title = "Vanishing of the local term at a zero stalk (2)"
 name_showing = false
 order = 990002
 aliases = ["bp-r302-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_zero_of_smooth"]
 +++
 Consequently $\operatorname{LT}_y(\psi)=0$ for every
 morphism $\psi:(\Phi_X^m)^*K\to K$.

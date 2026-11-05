@@ -5,6 +5,7 @@ title = "The Frobenius local term on a curve (1)"
 name_showing = false
 order = 994001
 aliases = ["bp-r303-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_trace_of_smooth"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, let
 $X=X_0\times_{k_0}k$, let $K\in D^b_{\mathrm{ctf}}(X,A)$ and let

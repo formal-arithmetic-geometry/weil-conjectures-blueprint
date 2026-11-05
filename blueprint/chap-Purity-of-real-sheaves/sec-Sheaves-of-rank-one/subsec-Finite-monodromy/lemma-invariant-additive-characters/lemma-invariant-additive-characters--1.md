@@ -5,6 +5,7 @@ title = "Invariant additive characters (1)"
 name_showing = false
 order = 1104001
 aliases = ["bp-r337-1"]
+lean = ["AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant", "AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant_of_continuous"]
 +++
 Every continuous additive homomorphism $a:\pi_1(U)\to E$ satisfying
 $a(s^{-1}gs)=a(g)$ is zero.

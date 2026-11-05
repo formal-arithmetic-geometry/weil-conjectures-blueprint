@@ -3,7 +3,6 @@ id = "lemma-integral-changes-source-base"
 kind = "lemma"
 title = "Integral changes of source and base"
 order = 679
-lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isIntegralHom_of_surjective", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom"]
 uses = ["definition-derived-base-change-map"]
 +++
 Assume $\mathrm{BC}(g,n,q-1)$. A failure of base change in degree $q$

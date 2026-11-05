@@ -5,6 +5,7 @@ title = "Growth of squared traces (3)"
 name_showing = false
 order = 1200003
 aliases = ["bp-r369-3"]
+lean = ["AlgebraicGeometry.WeilComplex.l2Weight", "AlgebraicGeometry.WeilSheaf.l2Weight"]
 +++
 Put
 

@@ -5,6 +5,7 @@ title = "Cohomology of geometric fibres (2)"
 name_showing = false
 order = 406002
 aliases = ["bp-r123-2"]
+lean = ["AlgebraicGeometry.Etale.nonempty_addEquiv_sheafFiber_homology_rightDerivedLowerStar_of_isProper"]
 +++
 For a classical torsion sheaf $F$ of $\Lambda$-modules this says
 

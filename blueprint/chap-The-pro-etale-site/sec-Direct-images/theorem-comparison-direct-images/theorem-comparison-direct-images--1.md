@@ -5,6 +5,7 @@ title = "Comparison of direct images (1)"
 name_showing = false
 order = 133001
 aliases = ["bp-r038-1"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_lowerStarComparisonUpperStarBaseChange", "AlgebraicGeometry.ProEtale.lowerStarComparisonUpperStarBaseChange", "AlgebraicGeometry.ProEtale.rightAcyclic_lowerStar_comparisonUpperStar_obj_of_injective"]
 +++
 If $g$ is quasi-compact and quasi-separated, the canonical natural
 transformation

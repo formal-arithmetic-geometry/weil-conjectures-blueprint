@@ -5,6 +5,7 @@ title = "The degree-zero calculation (1)"
 name_showing = false
 order = 667001
 aliases = ["bp-r201-1"]
+lean = ["AlgebraicGeometry.Etale.baseChangeProperty_zero"]
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite
 presentation with geometrically reduced fibres, and that $f$ is qcqs.

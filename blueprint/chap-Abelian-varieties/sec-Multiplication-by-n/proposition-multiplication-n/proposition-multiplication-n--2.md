@@ -5,6 +5,7 @@ title = "Multiplication by $n$ (2)"
 name_showing = false
 order = 1506002
 aliases = ["bp-r469-2"]
+lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_torsionSubgroupScheme"]
 +++
 If
 $n$ is invertible in $k$, then $[n]$ and $A[n]\to\operatorname{Spec}k$

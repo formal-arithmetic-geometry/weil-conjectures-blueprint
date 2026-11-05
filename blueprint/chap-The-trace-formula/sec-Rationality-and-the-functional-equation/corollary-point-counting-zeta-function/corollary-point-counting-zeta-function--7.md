@@ -4,5 +4,13 @@ kind = "corollary"
 title = "Rationality over the rationals"
 order = 1040008
 aliases = ["bp-r318-7"]
+lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
 +++
-The zeta function $Z(X_0,T)$ belongs to $\mathbf Q(T)$.
+Let $X_0$ be any scheme of finite type over $\mathbf F_q$. There are
+polynomials $P,Q\in\mathbf Q[T]$ with $Q(0)=1$ such that
+
+$$
+Z(X_0,T)Q(T)=P(T)\quad\text{in }\mathbf Q[[T]].
+$$
+
+In particular, $Z(X_0,T)$ belongs to $\mathbf Q(T)$.

@@ -3,7 +3,7 @@ id = "corollary-degree-jacobian"
 kind = "corollary"
 title = "Degree and the Jacobian"
 order = 1555
-lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.surjective_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom", "AlgebraicGeometry.Scheme.picDegreeHom_ofClosedPoint"]
+lean = ["AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.exists_jacobian_addEquiv_prod"]
 +++
 Let $C$ be a smooth proper connected curve over an algebraically closed
 field $k$. There is an exact sequence

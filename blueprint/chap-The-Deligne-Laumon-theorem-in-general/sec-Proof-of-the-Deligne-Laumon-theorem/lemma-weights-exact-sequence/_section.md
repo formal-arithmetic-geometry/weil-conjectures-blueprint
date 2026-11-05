@@ -3,7 +3,6 @@ id = "lemma-weights-exact-sequence"
 kind = "lemma"
 title = "Weights in an exact sequence"
 order = 1352
-lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_exact"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++
 Let $F'\to F\to F''$ be an exact sequence of Weil sheaves. If $F'$ and

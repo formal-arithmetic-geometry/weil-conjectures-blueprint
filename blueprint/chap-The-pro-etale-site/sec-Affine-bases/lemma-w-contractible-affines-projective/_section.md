@@ -3,7 +3,7 @@ id = "lemma-w-contractible-affines-projective"
 kind = "lemma"
 title = "Sections of epimorphisms onto w-contractible affines"
 order = 69
-lean = ["AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso", "AlgebraicGeometry.Scheme.proetale_wContractible_projective", "AlgebraicGeometry.Scheme.proetale_weakContractible_equivalences"]
+lean = ["AlgebraicGeometry.Scheme.proetale_wContractible_projective", "AlgebraicGeometry.Scheme.proetale_weakContractible_equivalences"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "definition-weak-contractibility"]
 +++
 Let $U=\operatorname{Spec}(D)$ be an object of $X_{\mathrm{pro}\acute{e}t}$ with $D$

@@ -4,7 +4,6 @@ kind = "definition"
 title = "Weights, purity and mixedness"
 name_showing = false
 order = 1058
-lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixed", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $K$ be a constructible Weil sheaf on $X$, let $x$ be a closed point of

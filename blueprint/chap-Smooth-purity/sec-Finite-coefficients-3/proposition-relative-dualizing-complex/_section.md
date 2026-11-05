@@ -3,7 +3,7 @@ id = "proposition-relative-dualizing-complex"
 kind = "proposition"
 title = "The relative dualizing complex"
 order = 756
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift", "AlgebraicGeometry.Etale.dualizingComplexTwistShiftIso"]
+lean = ["AlgebraicGeometry.Etale.dualizingComplexTwistShiftIso"]
 uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-compactification-refinement"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. There is a

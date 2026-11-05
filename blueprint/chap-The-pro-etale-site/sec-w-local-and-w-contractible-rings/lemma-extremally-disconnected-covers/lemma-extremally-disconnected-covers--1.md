@@ -4,5 +4,10 @@ kind = "lemma"
 title = "Extremally disconnected cover"
 order = 53002
 aliases = ["bp-r011-1"]
+lean = ["CompHaus.projectivePresentation"]
 +++
-Every compact Hausdorff space $T$ admits a continuous surjection $S\to T$ with $S$ compact Hausdorff and extremally disconnected.
+Every compact Hausdorff space $T$ admits a continuous surjection
+$S\to T$ with $S$ compact Hausdorff and extremally disconnected.
+One may take $S=\beta(T^{\delta})$, realized as the space of ultrafilters
+on the underlying set of $T$, and the map extending the identity
+$T^{\delta}\to T$.

@@ -5,6 +5,7 @@ title = "The simple objects (1)"
 name_showing = false
 order = 1258001
 aliases = ["bp-r388-1"]
+lean = ["AlgebraicGeometry.WeilComplex.simple_iff"]
 +++
 In the category of perverse sheaves on $C$, and in that of perverse
 Weil sheaves on $C_0$,

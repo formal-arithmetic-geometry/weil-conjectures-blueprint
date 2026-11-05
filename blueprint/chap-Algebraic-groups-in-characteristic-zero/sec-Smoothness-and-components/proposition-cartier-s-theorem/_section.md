@@ -3,7 +3,7 @@ id = "proposition-cartier-s-theorem"
 kind = "proposition"
 title = "Cartier's theorem"
 order = 1720
-lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim"]
+lean = ["AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GeneralLinearGroup.lieSubalgebra_identityComponent"]
 +++
 Every algebraic group over $\Omega$ is smooth and reduced. In particular
 

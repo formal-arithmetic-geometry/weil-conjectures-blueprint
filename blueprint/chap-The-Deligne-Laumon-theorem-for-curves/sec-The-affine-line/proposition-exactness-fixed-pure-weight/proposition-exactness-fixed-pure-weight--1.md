@@ -5,6 +5,7 @@ title = "Exactness at a fixed pure weight (1)"
 name_showing = false
 order = 1298001
 aliases = ["bp-r401-1"]
+lean = ["AlgebraicGeometry.shortExact_map_directImage"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be as in
 Lemma [lemma-local-duality-point-c-u]. If $0\to F_1\to F\to F_2\to0$ is a

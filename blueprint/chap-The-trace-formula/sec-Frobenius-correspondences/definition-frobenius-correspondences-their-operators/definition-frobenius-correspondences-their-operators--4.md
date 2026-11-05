@@ -5,6 +5,7 @@ title = "Frobenius correspondences and their operators (4)"
 name_showing = false
 order = 952004
 aliases = ["bp-r289-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCoefficientIterate"]
 +++
 Its iterates are the morphisms
 

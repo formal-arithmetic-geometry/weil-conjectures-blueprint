@@ -5,6 +5,7 @@ title = "Constructible sheaves (6)"
 name_showing = false
 order = 219007
 aliases = ["bp-r063-6"]
+lean = ["AlgebraicGeometry.ProEtale.ConstantModelConstructibleFiniteTor", "DerivedCategory.finiteTorAmplitude"]
 +++
 We write
 $D^b_{\mathrm{ctf}}(X,\Lambda)$ for the full subcategory of $\Dbc(X,\Lambda)$ of

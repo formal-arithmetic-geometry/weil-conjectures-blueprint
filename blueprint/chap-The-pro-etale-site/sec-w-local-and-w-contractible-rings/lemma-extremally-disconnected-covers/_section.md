@@ -3,7 +3,7 @@ id = "lemma-extremally-disconnected-covers"
 kind = "lemma"
 title = "Extremally disconnected covers"
 order = 53
-lean = ["CompHaus.presentation", "CompHaus.presentation.π", "CompHaus.presentation.epi_π", "Stonean.toProfinite"]
+lean = ["CompHaus.presentation", "CompHaus.presentation.epi_π", "CompHaus.presentation.π", "Stonean.toProfinite"]
 uses = ["definition-w-local-w-strictly-local"]
 +++
 Every compact Hausdorff space $T$, in particular every profinite space,

@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Internal Hom: coefficient comparison"
 order = 646014
 aliases = ["bp-r197-7"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_boundedConstructibleIntegersToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_constructibleToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_derivedExtendScalarsSubfield", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_leftDerivedIntegersModPowReduction"]
 +++
 For $K,L\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison
 

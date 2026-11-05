@@ -4,5 +4,8 @@ kind = "proposition"
 title = "Purity of the sum"
 order = 1197008
 aliases = ["bp-r368-6"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.realEnvelope"]
 +++
-The sheaf $\mathcal E$ is pure of weight zero.
+Let $\mathcal F$ be lisse and pure of weight $w$, and let
+$|\iota(b)|=q^{-w/2}$. Then the sheaf $\mathcal E$ of
+[proposition-twisting-weight-zero-adding-dual--3] is pure of weight zero.

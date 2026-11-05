@@ -5,6 +5,7 @@ title = "w-local, w-strictly local and w-contractible rings (2)"
 name_showing = false
 order = 43002
 aliases = ["bp-r007-2"]
+lean = ["IsWLocalRing", "WLocalSpace"]
 +++
 A spectral space $T$ is *w-local* if its set $T^c$ of closed
 points is closed and every point specializes to exactly one closed

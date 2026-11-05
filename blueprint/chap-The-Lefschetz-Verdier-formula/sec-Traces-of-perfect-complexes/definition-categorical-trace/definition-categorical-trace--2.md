@@ -5,6 +5,7 @@ title = "Categorical trace (2)"
 name_showing = false
 order = 894002
 aliases = ["bp-r269-2"]
+lean = ["CategoryTheory.MonoidalCategory.trace"]
 +++
 If $v:P\to P$ is a morphism in $D(A)$, its trace is the scalar
 

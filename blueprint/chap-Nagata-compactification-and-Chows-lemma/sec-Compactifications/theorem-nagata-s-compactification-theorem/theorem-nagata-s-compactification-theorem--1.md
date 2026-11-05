@@ -5,6 +5,16 @@ title = "Nagata's compactification theorem (1)"
 name_showing = false
 order = 1407001
 aliases = ["bp-r434-1"]
+lean = ["AlgebraicGeometry.exists_isDense_compactification"]
 +++
-Let $S$ be quasi-compact and quasi-separated. Every separated morphism
-$f:X\to S$ of finite type has a dense compactification.
+Let $S$ be quasi-compact and quasi-separated, and let $f:X\to S$ be
+separated, quasi-compact and locally of finite type. There is a
+factorization
+
+$$
+X\xrightarrow{j}\overline X\xrightarrow{p}S
+$$
+
+with $j$ a quasi-compact open immersion, $p$ proper, and $j$
+scheme-theoretically dense. Thus this is a dense compactification in
+the sense of [definition-compactification-refinement].

@@ -5,6 +5,7 @@ title = "Cartier's theorem (2)"
 name_showing = false
 order = 1720002
 aliases = ["bp-r533-2"]
+lean = ["AlgebraicGeometry.GeneralLinearGroup.finrank_lieSubalgebra"]
 +++
 In particular
 

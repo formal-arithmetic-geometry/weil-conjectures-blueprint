@@ -5,6 +5,7 @@ title = "Finite morphisms and cohomology (1)"
 name_showing = false
 order = 1597001
 aliases = ["bp-r497-1"]
+lean = ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite"]
 +++
 Let $h:Y\to C$ be a finite morphism of schemes. The direct image $h_*$
 of classical sheaves is exact,

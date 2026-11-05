@@ -3,7 +3,7 @@ id = "corollary-plancherel"
 kind = "corollary"
 title = "Plancherel"
 order = 1241
-lean = ["AlgebraicGeometry.WeilComplex.traceEnergy_fourierTransform", "AlgebraicGeometry.WeilComplex.traceEnergy_affineSpaceFourierTransform", "AlgebraicGeometry.WeilComplex.l2Weight_fourierTransform"]
+lean = ["AlgebraicGeometry.WeilComplex.traceEnergy_fourierTransform"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-growth-squared-traces", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For every $n\ge1$,

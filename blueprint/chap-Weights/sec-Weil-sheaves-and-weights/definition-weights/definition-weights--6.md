@@ -5,6 +5,7 @@ title = "Weights, purity and mixedness (6)"
 name_showing = false
 order = 1058006
 aliases = ["bp-r324-6"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost"]
 +++
 A bounded constructible Weil complex $K$ has *weights at most $w$* if
 $\mathcal H^i(K)$ has weights at most $w+i$ for all $i$,

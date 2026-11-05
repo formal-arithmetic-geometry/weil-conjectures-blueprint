@@ -5,6 +5,7 @@ title = "Change-of-coefficients maps (6)"
 name_showing = false
 order = 632007
 aliases = ["bp-r191-6"]
+lean = ["CategoryTheory.Functor.LaxMonoidal.ihomComparison"]
 +++
 For $K,L\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the map
 $\cHom(K,L)_{\Lambda'}\to\cHom(K_{\Lambda'},L_{\Lambda'})$ is the

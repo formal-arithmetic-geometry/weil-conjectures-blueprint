@@ -3,7 +3,7 @@ id = "proposition-multiplication-n"
 kind = "proposition"
 title = "Multiplication by $n$"
 order = 1506
-lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme"]
+lean = ["AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.surjective_npow_id"]
 uses = ["definition-abelian-variety"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$. For every

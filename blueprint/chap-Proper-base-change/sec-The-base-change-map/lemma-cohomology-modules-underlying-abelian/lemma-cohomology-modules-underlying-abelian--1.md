@@ -5,6 +5,7 @@ title = "Modules and abelian sheaves (1)"
 name_showing = false
 order = 312001
 aliases = ["bp-r092-1"]
+lean = ["AlgebraicGeometry.Scheme.isZero_rightDerived_globalSections_forget_of_injective"]
 +++
 Results for abelian sheaves apply to sheaves of modules, because the
 cohomology of a sheaf of $\Lambda$-modules agrees with the cohomology

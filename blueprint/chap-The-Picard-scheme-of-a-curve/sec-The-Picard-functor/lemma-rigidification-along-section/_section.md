@@ -3,7 +3,7 @@ id = "lemma-rigidification-along-section"
 kind = "lemma"
 title = "Rigidification along a section"
 order = 1523
-lean = ["AlgebraicGeometry.picardFunctorNormalized", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor", "AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq", "AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized"]
+lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.picardFunctorNormalized", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized"]
 uses = ["definition-relative-picard-functor"]
 +++
 Suppose that $f$ has a section $\sigma:S\to C$ and that

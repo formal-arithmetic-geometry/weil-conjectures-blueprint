@@ -5,6 +5,7 @@ title = "The small pro-étale site (1)"
 name_showing = false
 order = 34001
 aliases = ["bp-r004-1"]
+lean = ["AlgebraicGeometry.QuasiCompactCover", "AlgebraicGeometry.Scheme.ProEt", "AlgebraicGeometry.Scheme.ProEt.precoverage", "AlgebraicGeometry.Scheme.ProEt.topology", "AlgebraicGeometry.Scheme.proetalePrecoverage"]
 +++
 The objects of $X_{\mathrm{pro}\acute{e}t}$ are weakly étale $X$-schemes, with all
 $X$-morphisms as arrows. A family $\{U_i\to U\}_{i\in I}$ is a

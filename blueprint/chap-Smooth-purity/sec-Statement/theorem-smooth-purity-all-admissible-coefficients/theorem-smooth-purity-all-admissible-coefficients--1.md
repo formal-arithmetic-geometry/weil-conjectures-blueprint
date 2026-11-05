@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Purity isomorphism: finite coefficients"
 order = 731002
 aliases = ["bp-r220-1"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$, the specified natural isomorphism is
 

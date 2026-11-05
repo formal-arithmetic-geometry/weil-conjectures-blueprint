@@ -5,6 +5,7 @@ title = "Relative Picard functor (1)"
 name_showing = false
 order = 1521001
 aliases = ["bp-r473-1"]
+lean = ["AlgebraicGeometry.picardFunctor"]
 +++
 For a morphism of schemes $f:C\to S$, let
 

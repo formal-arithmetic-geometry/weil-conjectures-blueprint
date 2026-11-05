@@ -5,6 +5,7 @@ title = "$p$-torsion on a smooth proper curve in characteristic $p$ (2)"
 name_showing = false
 order = 1587002
 aliases = ["bp-r494-2"]
+lean = ["AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model"]
 +++
 $$
 \begin{aligned}

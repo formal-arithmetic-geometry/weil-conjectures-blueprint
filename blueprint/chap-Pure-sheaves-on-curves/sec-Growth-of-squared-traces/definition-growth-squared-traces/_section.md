@@ -3,7 +3,6 @@ id = "definition-growth-squared-traces"
 kind = "definition"
 title = "Growth of squared traces"
 order = 1200
-lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilComplex.l2Weight", "AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.l2Weight"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-trace-function"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. For

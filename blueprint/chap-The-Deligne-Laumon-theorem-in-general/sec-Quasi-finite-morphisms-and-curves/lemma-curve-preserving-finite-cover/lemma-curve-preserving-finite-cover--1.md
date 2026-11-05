@@ -5,6 +5,7 @@ title = "A curve preserving a finite cover (1)"
 name_showing = false
 order = 1330001
 aliases = ["bp-r410-1"]
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback"]
 +++
 Let $X$ be a smooth connected affine scheme over
 $\overline{\mathbf F}_q$, of dimension at least two. Let $T\to X$

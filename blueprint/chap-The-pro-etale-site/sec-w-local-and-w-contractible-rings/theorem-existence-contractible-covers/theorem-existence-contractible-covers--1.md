@@ -5,6 +5,7 @@ title = "Existence of contractible covers (1)"
 name_showing = false
 order = 59001
 aliases = ["bp-r013-1"]
+lean = ["exists_isWContractibleRing_of_isWStrictlyLocal"]
 +++
 Every ring $R$ admits a faithfully flat ind-étale algebra $D$ that
 is w-contractible.

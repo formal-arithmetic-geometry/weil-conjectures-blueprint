@@ -5,6 +5,7 @@ title = "Additivity of trace classes (2)"
 name_showing = false
 order = 943003
 aliases = ["bp-r287-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass_ofGraph_eq_add"]
 +++
 Let $i:Z\to X$ be a closed immersion with open complement $U$ such
 that $c_1^{-1}(Z)\subset c_2^{-1}(Z)$, let $K\in D^b_{\mathrm{ctf}}(X,A)$, and let

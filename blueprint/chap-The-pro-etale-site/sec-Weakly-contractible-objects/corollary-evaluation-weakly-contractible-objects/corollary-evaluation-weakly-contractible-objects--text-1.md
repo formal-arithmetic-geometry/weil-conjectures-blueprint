@@ -4,4 +4,8 @@ kind = "hidden"
 title = "Evaluation on weakly contractible objects"
 order = 79001
 +++
-*Shared context.* Let $W$ be weakly contractible in $X_{\mathrm{pro}\acute{e}t}$, for example $\operatorname{Spec}(D)$ with $D$ w-contractible. Coefficient sheaves and module complexes are as in the reference.
+*Shared context.* Let $W$ be weakly contractible in
+$X_{\mathrm{pro}\acute{e}t}$, for example $\operatorname{Spec}(D)$ with $D$
+w-contractible. Let $\mathcal R$ be a sheaf of rings, not necessarily
+commutative. Complexes are cochain complexes indexed by $\mathbf Z$,
+with no boundedness assumption.

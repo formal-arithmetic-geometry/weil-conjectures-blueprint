@@ -5,6 +5,7 @@ title = "Pushforward of a correspondence (2)"
 name_showing = false
 order = 924002
 aliases = ["bp-r280-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.pushforward", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.fixMap", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isProper_fixMap"]
 +++
 The map $g$ induces a proper morphism $h:\Fix(c)\to \Fix(c')$ of fixed loci,
 and $h_*:H^0(\Fix(c),\omega_{\Fix(c)})\to H^0(\Fix(c'),\omega_{\Fix(c')})$ denotes the

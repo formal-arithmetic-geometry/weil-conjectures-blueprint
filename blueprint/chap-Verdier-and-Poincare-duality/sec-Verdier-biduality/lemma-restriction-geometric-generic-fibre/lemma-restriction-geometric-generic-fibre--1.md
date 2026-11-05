@@ -5,6 +5,7 @@ title = "Restriction to a geometric generic fibre (1)"
 name_showing = false
 order = 839001
 aliases = ["bp-r251-1"]
+lean = ["AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_generic"]
 +++
 In the setting above, let $X$ be a $B$-scheme of finite type, let
 $h:T\to X$ be a separated morphism of $B$-schemes of finite type, let

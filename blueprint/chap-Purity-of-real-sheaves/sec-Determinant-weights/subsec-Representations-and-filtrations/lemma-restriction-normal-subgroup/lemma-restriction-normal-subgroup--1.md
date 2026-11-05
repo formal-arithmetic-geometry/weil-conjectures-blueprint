@@ -1,11 +1,12 @@
 +++
 id = "lemma-restriction-normal-subgroup--1"
 kind = "lemma"
-title = "Restriction to a normal subgroup (1)"
-name_showing = false
+title = "Restriction to a normal subgroup over an arbitrary field"
 order = 1124001
 aliases = ["bp-r344-1"]
+lean = ["Representation.isSemisimpleRepresentation_comp_subtype"]
 +++
-Let $N$ be a normal subgroup of a group $\Gamma$. The restriction to
-$N$ of a finite-dimensional semisimple $\overline{\mathbf Q}_\ell$-representation of $\Gamma$
-is semisimple.
+Let $k$ be a field, $N$ a normal subgroup of a group $\Gamma$, and
+$V$ a finite-dimensional semisimple $k$-representation of $\Gamma$.
+The restriction of $V$ to $N$ is semisimple. No finiteness assumption
+on $\Gamma/N$ is needed.

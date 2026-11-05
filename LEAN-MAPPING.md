@@ -8,6 +8,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 - **Coverage.** 421 of 538 declarations have Lean names: 233 high, 148 medium and 40 low confidence. Medium and low mean the Lean states only part of the declaration, a special case, or a variant (often with other coefficients); the notes below say which. 117 declarations, mostly examples and remarks, have none.
 - **Second review: the pro-étale chapter and Appendices A–D and F** (139 declarations). Each node's statement was gone through part by part against the Lean of slopmaster2 (`f3cad3b`, now pinned): every part that Lean states gets the declaration stating it, and names that only serve a proof, duplicate another name, or state another node's content were dropped. 81 nodes are fully stated in Lean, 43 partly and 15 not at all; 64 names were added and 48 removed. In the table their confidence reads *full*, *partial* or *none* (reviewed), and the note says what Lean does not state.
 - **Declaration arrows** (PR #200, the tool's rule). `A uses B` exactly when a Lean name of `A` depends on a Lean name of `B`, as `blueprint extract` records it in `lean-facts.json` (extracted at weil-conjectures `f3cad3b`): the walk goes through unmapped constants of the project and stops at mapped ones. Dependencies of the Lean statement go on the declaration and those of the proof on its proof, which is what `blueprint check --lean` compares the arrows with. Declarations without Lean names get no arrows, and the layer-2 clauses keep the arrows of their "Dependencies:" lines. `scripts/lean_uses.py` writes them.
+- **Names on clauses** (from the Lean-alignment PRs #210–#233, by littlebin530). The layer-2 clauses (`<declaration>--<k>`) now carry Lean names too: a name sits on the most specific node whose statement it states, a clause rather than its declaration. 475 clauses carry 678 names; 373 names are new to the blueprint, and no earlier name was dropped (a name the PRs removed stays where it was, unless it moved to a clause). Every name exists at the pinned `f3cad3b` (checked against the `.ilean` files of the built project). Clause texts that the PRs rewrote to state the Lean statement were taken into `blueprint-layer-2.tex` when they state what the tex states, or more; the others keep their text, and where Lean states only a special case of such a clause the table below says *partial*. Six names were moved back from clauses to their declarations because the finer placement made cycles (as for PR #200). The arrows are not yet recomputed from these names: `scripts/lean_uses.py` now treats a clause with Lean names like a declaration, and is to be run with the next `lean-facts.json` from CI.
 - **Cycles.** None. The facts first gave 11 cycles; Lean has none, so each came from how names were grouped onto declarations. A declaration keeps only the names stating it: nine names were removed or moved, and in eight places a clause moved between declarations of the notes (in both tex files) so that each name sits on the declaration stating it. Two declarations were added for this: `lemma-subobjects-quotients-weil-sheaves` and `definition-exceptional-base-change-finite`. The table counts are those after the moves.
 - **Sections and subsections** use each other where the unit itself builds on the other as the notes present it: its constructions, main results or arguments need what the other develops. Each arrow was decided by reading the unit (prose, statements and proofs) and what the notes say about the two units; the arrows of the declarations are not merged into it. One incidental citation (an example, a remark, a comparison) makes no arrow, and neither does a forward pointer ("proved below", "until Section X"). An arrow goes to the most specific unit used, a subsection when only that subsection is used, and arrows between a section and a subsection are allowed. A theorem stated in one section and proved in a later one: its users point at the section where the proof is completed, and that section points back to the statement. Chapters keep the arrows written on them by hand.
 - **Every unit is used**, except: the units of Appendix E, which the main text does not use; the last section of the main text (Integrality and independence of ℓ, which proves the Weil conjectures); smooth base change for all admissible coefficients (`sec-ell-adic-coefficients-3`), since the later text uses only the torsion version; and five overview sections of the Introduction (the six operations, the trace formula, Deligne's theorem, Outline, Prerequisites and reading guide), which nothing builds on. `sec-The-projective-line` and `sec-Compatibilities` have no arrow of their own because all their content is in subsections, which are used.
@@ -17,77 +18,77 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### The pro-étale site
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-ind-etale-pro-etale-weakly` | 7 | full (reviewed) | Ind-étale (algebra and ring-hom forms), pro-affine étale with its affine case, and weakly étale (scheme class, ring property) are all stated. The affine-chart description is in lemma-stability (PR #200). |
-| `proposition-etale-implications` | 4 | full (reviewed) | Lean has no ring-level étale⇒ind-étale or weakly étale+fp⇒étale with a name; the scheme forms with affine source cover them via Spec. |
-| `lemma-stability` | 8 | full (reviewed) | Mathlib's unnamed instances, under their auto-generated names (checked with Lean against the pinned Mathlib), and hasRingHomProperty for the affine-chart description (moved here in PR #200). |
-| `definition-small-pro-etale-site` | 4 | full (reviewed) | proetalePrecoverage is the quasi-compact (fpqc-type) covers by weakly étale maps; Mathlib's QuasiCompactCover gives the explicit open-cover condition. |
-| `proposition-pro-etale-coverings` | 3 | partial (reviewed) | (1) is stated for any qcqs object; (2) as étale/Zariski precoverages contained in the pro-étale one. Not in Lean: In (1), that the disjoint union of the finite affine refinement is affine and faithfully flat over U. |
-| `proposition-topos-functoriality` | 6 | partial (reviewed) | toposFunctorialityInverseImage bundles the morphism of sites, f^{-1}⊣f_*, exactness of f^{-1} (sets and abelian) and the composition isomorphism. Not in Lean: That Sh(X_proét) is a Grothendieck topos. |
-| `definition-w-local-w-strictly-local` | 5 | full (reviewed) | One declaration for each notion the definition introduces. |
-| `proposition-w-local-components` | 2 | partial (reviewed) | Parts (1) and (3) are formalized; a search for (2) found nothing. Not in Lean: Part (2): the component through a closed point m is the image of Spec(R_m), and the strictly henselian consequence. |
-| `example-locally-constant-functions-w-local` | 1 | partial (reviewed) | Only the computation of the spectrum is in Lean. Not in Lean: That LC(S,k') is w-local and w-strictly local, the computation of its local rings, and that it is w-contractible iff S is extremally disconnected. |
-| `proposition-gleason-s-theorem` | 1 | full (reviewed) | CompactT2.Projective is exactly the lifting property along surjections of compact Hausdorff spaces. |
-| `lemma-extremally-disconnected-covers` | 4 | full (reviewed) | Stonean.toProfinite says extremally disconnected compact Hausdorff spaces are profinite. |
-| `proposition-splitting-ind-etale-covers` | 1 | full (reviewed) | Exact statement. |
-| `theorem-existence-contractible-covers` | 1 | full (reviewed) | Exact statement. |
+| `definition-ind-etale-pro-etale-weakly` | 7 | full (reviewed) | Ind-étale (algebra and ring-hom forms), pro-affine étale with its affine case, and weakly étale (scheme class, ring property) are all stated. The affine-chart description is in lemma-stability (PR #200). 7 of the names are on its clauses. |
+| `proposition-etale-implications` | 4 | full (reviewed) | Lean has no ring-level étale⇒ind-étale or weakly étale+fp⇒étale with a name; the scheme forms with affine source cover them via Spec. 2 of the names are on its clauses. |
+| `lemma-stability` | 10 | full (reviewed) | Mathlib's unnamed instances, under their auto-generated names (checked with Lean against the pinned Mathlib), and hasRingHomProperty for the affine-chart description (moved here in PR #200). 5 of the names are on its clauses. |
+| `definition-small-pro-etale-site` | 5 | full (reviewed) | proetalePrecoverage is the quasi-compact (fpqc-type) covers by weakly étale maps; Mathlib's QuasiCompactCover gives the explicit open-cover condition. 5 of the names are on its clauses. |
+| `proposition-pro-etale-coverings` | 3 | partial (reviewed) | (1) is stated for any qcqs object; (2) as étale/Zariski precoverages contained in the pro-étale one. Not in Lean: In (1), that the disjoint union of the finite affine refinement is affine and faithfully flat over U. 2 of the names are on its clauses. |
+| `proposition-topos-functoriality` | 13 | partial (reviewed) | toposFunctorialityInverseImage bundles the morphism of sites, f^{-1}⊣f_*, exactness of f^{-1} (sets and abelian) and the composition isomorphism. Not in Lean: That Sh(X_proét) is a Grothendieck topos. 11 of the names are on its clauses. |
+| `definition-w-local-w-strictly-local` | 5 | full (reviewed) | One declaration for each notion the definition introduces. 5 of the names are on its clauses. |
+| `proposition-w-local-components` | 2 | partial (reviewed) | Parts (1) and (3) are formalized; a search for (2) found nothing. Not in Lean: Part (2): the component through a closed point m is the image of Spec(R_m), and the strictly henselian consequence. 2 of the names are on its clauses. |
+| `example-locally-constant-functions-w-local` | 2 | partial (reviewed) | Only the computation of the spectrum is in Lean. Not in Lean: That LC(S,k') is w-local and w-strictly local, the computation of its local rings, and that it is w-contractible iff S is extremally disconnected. 2 of the names are on its clauses. |
+| `proposition-gleason-s-theorem` | 3 | full (reviewed) | CompactT2.Projective is exactly the lifting property along surjections of compact Hausdorff spaces. |
+| `lemma-extremally-disconnected-covers` | 5 | full (reviewed) | Stonean.toProfinite says extremally disconnected compact Hausdorff spaces are profinite. 1 of the names are on its clauses. |
+| `proposition-splitting-ind-etale-covers` | 2 | full (reviewed) | Exact statement. 1 of the names are on its clauses. |
+| `theorem-existence-contractible-covers` | 2 | full (reviewed) | Exact statement. 1 of the names are on its clauses. |
 | `theorem-pro-etale-refinements-weakly-etale` | 2 | full (reviewed) | Algebra and ring-hom forms of the same statement. |
-| `proposition-pro-etale-affines-form-basis` | 5 | full (reviewed) | The sheaf equivalence holds for any coefficient category with enough limits, so it covers sets and abelian groups. |
-| `lemma-w-contractible-affines-projective` | 3 | full (reviewed) | Splitting of epimorphisms onto h_U; projectivity; and the equivalent forms of splitting, which the lemma now states (PR #200). |
-| `theorem-enough-affine-weakly-contractible-objects` | 1 | full (reviewed) | Lean also has duplicates weaklyContractible_basis (part 1) and exists_isWeaklyContractible_cover; not added. |
-| `definition-weak-contractibility` | 1 | full (reviewed) | The definition (the third, surjectivity form). The equivalence of the forms is in lemma-w-contractible-affines-projective (PR #200). |
+| `proposition-pro-etale-affines-form-basis` | 7 | full (reviewed) | The sheaf equivalence holds for any coefficient category with enough limits, so it covers sets and abelian groups. 6 of the names are on its clauses. |
+| `lemma-w-contractible-affines-projective` | 3 | full (reviewed) | Splitting of epimorphisms onto h_U; projectivity; and the equivalent forms of splitting, which the lemma now states (PR #200). 1 of the names are on its clauses. |
+| `theorem-enough-affine-weakly-contractible-objects` | 1 | full (reviewed) | Lean also has duplicates weaklyContractible_basis (part 1) and exists_isWeaklyContractible_cover; not added. 1 of the names are on its clauses. |
+| `definition-weak-contractibility` | 1 | full (reviewed) | The definition (the third, surjectivity form). The equivalence of the forms is in lemma-w-contractible-affines-projective (PR #200). 1 of the names are on its clauses. |
 | `example-weak-contractibility-point` | 0 | none (reviewed) | Example; nothing in Lean. Not in Lean: The whole example (the convergent sequence is not weakly contractible). |
-| `corollary-evaluation-weakly-contractible-objects` | 4 | partial (reviewed) | (1) exactness and H^q vanishing for Λ-modules; (2) and (3) for R-modules. Not in Lean: In (1), RΓ(W,K) ≃ K(W) for every (unbounded) complex K. |
+| `corollary-evaluation-weakly-contractible-objects` | 5 | partial (reviewed) | (1) exactness and H^q vanishing for Λ-modules; (2) and (3) for R-modules. Not in Lean: In (1), RΓ(W,K) ≃ K(W) for every (unbounded) complex K. 3 of the names are on its clauses. |
 | `definition-repleteness` | 1 | full (reviewed) | Exact definition for sheaf topoi of sites. |
 | `proposition-repleteness-pro-etale-topos` | 1 | full (reviewed) | Exact statement. |
-| `proposition-exact-products` | 2 | full (reviewed) | Exact products for any index type; derived products are termwise, with cohomology commuting. |
-| `proposition-milnor-sequence` | 3 | full (reviewed) | milnor_sequence covers R^p lim and (2.2); milnor_epimorphic the epimorphic case; the general D(C) Milnor sequence is kept for (2.2). |
+| `proposition-exact-products` | 4 | full (reviewed) | Exact products for any index type; derived products are termwise, with cohomology commuting. 3 of the names are on its clauses. |
+| `proposition-milnor-sequence` | 3 | full (reviewed) | milnor_sequence covers R^p lim and (2.2); milnor_epimorphic the epimorphic case; the general D(C) Milnor sequence is kept for (2.2). 2 of the names are on its clauses. |
 | `example-nonzero-rlim-one` | 0 | none (reviewed) | Example; nothing in Lean. Not in Lean: The whole example (R^1 lim of multiplication by ℓ is Z_ℓ/Z). |
 | `proposition-left-completeness` | 2 | full (reviewed) | The pro-étale statement and the general one for abelian categories with exact countable products. Lean's left_complete is a duplicate (not added). |
 | `proposition-unbounded-functors-products` | 1 | partial (reviewed) | Only Rf_* is covered, with countable products and derived limits of towers. Not in Lean: RΓ(U,-) on unbounded complexes preserving products and derived limits; Rf_* for f_*R-modules (Lean has A-valued sheaves) and arbitrary products (Lean has countable ones). |
 | `proposition-weakly-contractible-hypercovers` | 2 | full (reviewed) | Existence of the single-affine weakly contractible hypercover and formula (2.3) for bounded-below complexes. |
-| `corollary-continuity-cohomology` | 2 | partial (reviewed) | Lean has the abelian-sheaf (degree 0) case of both assertions. Not in Lean: Both assertions for uniformly bounded-below complexes and ring sheaves R; the first for a general qcqs object U (Lean: U = X qcqs). |
-| `definition-classical-pro-etale-sheaves` | 5 | full (reviewed) | Presentation, continuity map (2.4), classical sheaves, and classical complexes of module sheaves. |
-| `proposition-comparison-morphism-inverse-image` | 7 | partial (reviewed) | ν, ν_*, ν^* with general coefficients, the adjunction, exactness, and (2.6) for qcqs étale towers. Not in Lean: Formula (2.5), (ν^*F)(V) = Γ(V_ét, h^*F). |
-| `theorem-classical-sheaves-essential-image` | 3 | full (reviewed) | proEtaleClassicalSheaves states all three parts; full/faithful instances give full faithfulness for any Grothendieck abelian coefficient category. |
+| `corollary-continuity-cohomology` | 2 | partial (reviewed) | Lean has the abelian-sheaf (degree 0) case of both assertions. Not in Lean: Both assertions for uniformly bounded-below complexes and ring sheaves R; the first for a general qcqs object U (Lean: U = X qcqs). 2 of the names are on its clauses. |
+| `definition-classical-pro-etale-sheaves` | 5 | full (reviewed) | Presentation, continuity map (2.4), classical sheaves, and classical complexes of module sheaves. 3 of the names are on its clauses. |
+| `proposition-comparison-morphism-inverse-image` | 7 | partial (reviewed) | ν, ν_*, ν^* with general coefficients, the adjunction, exactness, and (2.6) for qcqs étale towers. Not in Lean: Formula (2.5), (ν^*F)(V) = Γ(V_ét, h^*F). 4 of the names are on its clauses. |
+| `theorem-classical-sheaves-essential-image` | 6 | full (reviewed) | proEtaleClassicalSheaves states all three parts; full/faithful instances give full faithfulness for any Grothendieck abelian coefficient category. 5 of the names are on its clauses. |
 | `example-coefficient-sheaf-outside-classical-part` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the whole example (Z_ell,X not classical, reductions classical) |
-| `lemma-acyclicity-pulled-back-injectives` | 1 | full (reviewed) | General Grothendieck abelian coefficients; covers Lambda-modules. |
-| `theorem-bounded-below-cohomology-comparison` | 3 | full (reviewed) | boundedBelowComparison: unit iso, full faithfulness, RGamma iso (map = boundedBelowComparisonGlobalSections); unit_app is the general-coefficient form of (2.7). |
+| `lemma-acyclicity-pulled-back-injectives` | 2 | full (reviewed) | General Grothendieck abelian coefficients; covers Lambda-modules. 1 of the names are on its clauses. |
+| `theorem-bounded-below-cohomology-comparison` | 5 | full (reviewed) | boundedBelowComparison: unit iso, full faithfulness, RGamma iso (map = boundedBelowComparisonGlobalSections); unit_app is the general-coefficient form of (2.7). 1 of the names are on its clauses. |
 | `corollary-cohomology-pro-etale-affine` | 2 | partial (reviewed) | The étale continuity for D^+ (AlgebraicGeometry.derivedEtaleCohomology_limit) is only the proof's étale step, so it is not listed. Not in Lean: bounded-below complexes K (Lean: single abelian sheaves, degreewise); right side is pro-étale cohomology of the stages, equal to étale one via comparison |
 | `corollary-bounded-below-classical-complexes` | 1 | partial (reviewed) | Hypothesis hunit is discharged by boundedBelowComparison (other node); coefficients CommRing with discrete topology. Not in Lean: weak Serre property (closure under kernels, cokernels, extensions) of classical module sheaves; Lean equivalence assumes the D+ unit iso as hypothesis |
-| `theorem-comparison-direct-images` | 3 | full (reviewed) | General Grothendieck abelian coefficients on D+. isIso_comparisonDirectImagePlus is a Ring-Λ duplicate, not listed. |
+| `theorem-comparison-direct-images` | 6 | full (reviewed) | General Grothendieck abelian coefficients on D+. isIso_comparisonDirectImagePlus is a Ring-Λ duplicate, not listed. 3 of the names are on its clauses. |
 | `lemma-comparison-direct-images-compatibilities` | 2 | partial (reviewed) | Both use c_g = rightDerivedFunctorPlusBaseChange(lowerStarComparisonUpperStarBaseChange), the map of theorem-comparison-direct-images. Not in Lean: part (1) (unit compatibility) not stated; part (2) only for finite Λ and qcqs g |
-| `proposition-comparison-immersions` | 4 | partial (reviewed) | Closed-immersion direct-image iso is the content of theorem-comparison-direct-images, left there. Not in Lean: part (2): transport of the localization triangle to the pro-étale one with counit/unit identification |
+| `proposition-comparison-immersions` | 2 | partial (reviewed) | Closed-immersion direct-image iso is the content of theorem-comparison-direct-images, left there. Not in Lean: part (2): transport of the localization triangle to the pro-étale one with counit/unit identification |
 | `lemma-torsors-under-classical-groups` | 0 | none (reviewed) | Doubtful: AlgebraicGeometry.Scheme.proEtale_locallyClassical_etaleCover (1),(3) (locally classical => classical, étale-local sections) implies it; assigned to the next proposition. Not in Lean: torsors under classical groups are classical with étale trivialization (no torsor statement in Lean) |
-| `proposition-locally-constant-sheaves-finite-presentation` | 1 | partial (reviewed) | Lean: set-valued sheaves; locally constant => classical, with étale-local sections. Its parts (1),(3) also cover the torsor lemma. Not in Lean: Λ-module/finite presentation form; ν^* identifying étale and pro-étale local systems of finite presentation |
-| `theorem-comparison-constructible-sheaves` | 1 | full (reviewed) | Covers classicality, the sheaf equivalence and the D^b_c equivalence (Noetherian coefficients, qcqs X). |
-| `corollary-finite-tor-amplitude-under-comparison` | 1 | full (reviewed) | Tor amplitude preserved and detected, and the restricted ctf equivalence. |
+| `proposition-locally-constant-sheaves-finite-presentation` | 4 | partial (reviewed) | Lean: set-valued sheaves; locally constant => classical, with étale-local sections. Its parts (1),(3) also cover the torsor lemma. Not in Lean: Λ-module/finite presentation form; ν^* identifying étale and pro-étale local systems of finite presentation 3 of the names are on its clauses. |
+| `theorem-comparison-constructible-sheaves` | 4 | full (reviewed) | Covers classicality, the sheaf equivalence and the D^b_c equivalence (Noetherian coefficients, qcqs X). 3 of the names are on its clauses. |
+| `corollary-finite-tor-amplitude-under-comparison` | 1 | full (reviewed) | Tor amplitude preserved and detected, and the restricted ctf equivalence. 1 of the names are on its clauses. |
 | `definition-cohomological-dimension` | 2 | full (reviewed) | Suprema over classical ell-power torsion abelian sheaves; field notation is Spec K. |
 | `lemma-cohomological-dimension-base-field` | 1 | full (reviewed) |  |
 | `lemma-uniform-bounds-pro-etale-affines` | 2 | partial (reviewed) | Lean works with torsion abelian étale sheaves pulled back by ν^*, which covers classical A-module sheaves. Not in Lean: the bound d = dim X + cd_ell(k) (Lean bound is 2·dim X + 1 for both vanishings); k only finite or algebraically closed |
 | `lemma-truncation-pro-etale-sections` | 0 | none (reviewed) | Only a private special case (étale affine W) exists: section_tail_bound in FiniteClassicalUnboundedComparison.lean. Not in Lean: the whole lemma |
 | `proposition-unbounded-comparison-finite-coefficients` | 1 | partial (reviewed) | k finite or algebraically closed, A finite ell-primary. unboundedDirectImageComparison_boundedBelow is only the bounded-below case. Not in Lean: unbounded direct-image comparison (2.9) for all K in D(X_et,A); Lean only has the bounded-below case |
-| `proposition-pro-etale-site-separably-closed` | 3 | partial (reviewed) | Sheaves of continuous functions are definitions (Profinite.continuousMapRingSheaf) of prose, not listed. Not in Lean: equivalence of pro-étale affines with profinite sets stated only as a dense subsite; topos equivalence stated for abelian sheaves |
+| `proposition-pro-etale-site-separably-closed` | 6 | partial (reviewed) | Sheaves of continuous functions are definitions (Profinite.continuousMapRingSheaf) of prose, not listed. Not in Lean: equivalence of pro-étale affines with profinite sets stated only as a dense subsite; topos equivalence stated for abelian sheaves 3 of the names are on its clauses. |
 | `lemma-comparison-completed-coefficients` | 1 | full (reviewed) | Integral limit, inverting ell, colimit over E and compatibility with pullback. |
-| `corollary-finite-quotients-their-transition-maps` | 1 | full (reviewed) | Also contains the cone identification K_n = cone(π^n) of lemma-reduction-derived-nakayama part 1; one name, kept here. |
-| `definition-tate-twists` | 11 | full (reviewed) | Doubtful: two parallel formalizations. Chose sk-def-sp family (follows text, used by spTwists_locallyFree); tateModule/tateTwistOne kept for the 'equivalently Qbar⊗Z_ell(1)' clause. |
-| `lemma-inverse-image-coefficient-sheaves` | 2 | full (reviewed) | isIso_condensedPullbackHom gives f^{-1}Λ_Y ≅ Λ_X for every condensed ring; cartesianCoefficients adds twists and finite freeness. |
+| `corollary-finite-quotients-their-transition-maps` | 3 | full (reviewed) | Also contains the cone identification K_n = cone(π^n) of lemma-reduction-derived-nakayama part 1; one name, kept here. 2 of the names are on its clauses. |
+| `definition-tate-twists` | 20 | full (reviewed) | Doubtful: two parallel formalizations. Chose sk-def-sp family (follows text, used by spTwists_locallyFree); tateModule/tateTwistOne kept for the 'equivalently Qbar⊗Z_ell(1)' clause. 12 of the names are on its clauses. |
+| `lemma-inverse-image-coefficient-sheaves` | 5 | full (reviewed) | isIso_condensedPullbackHom gives f^{-1}Λ_Y ≅ Λ_X for every condensed ring; cartesianCoefficients adds twists and finite freeness. |
 | `proposition-continuous-cohomology-pro-etale-cohomology` | 1 | full (reviewed) | Abelian sheaves presented as modules over the constant integer sheaf. |
 | `corollary-continuous-etale-cohomology` | 0 | none (reviewed) | No Lean statement found. Not in Lean: identification with continuous étale cohomology (derived functor on inverse systems) |
 | `example-first-cohomology-finite-field` | 0 | none (reviewed) | Example; not formalized. Not in Lean: the whole example (H^1 of F_q with Z_ell and Q_ell coefficients) |
 | `proposition-extension-zero-restriction-closed-subscheme` | 10 | partial (reviewed) | Sheaf of R-algebras B; every assertion except j^* exactness has a matching RingSheaf declaration. Not in Lean: exactness of j^* not stated separately for module sheaves |
 | `definition-local-cohomology` | 1 | partial (reviewed) | Lean defines i^*ker(id→j_*j^*) and its right derived functor. The fibre formula is in lemma-local-cohomology-right-adjoint (PR #200). Not in Lean: arbitrary sheaf of rings R (Lean: pulled-back condensed coefficient ring Λ) |
 | `lemma-local-cohomology-right-adjoint` | 2 | partial (reviewed) | i_* ⊣ RΓ_Z on derived categories of condensed-coefficient modules, and the fibre formula (closedSupport_fiber, moved here in PR #200). Not in Lean: arbitrary sheaf of rings R; full faithfulness of derived i_* not part of this statement |
-| `definition-derived-adic-completeness` | 2 | full (reviewed) | Completion map via K-flat representative; iff shows independence of representative. |
-| `lemma-reduction-derived-nakayama` | 1 | partial (reviewed) | States K_1=0 ⇒ K=0 for derived complete K and the isomorphism criterion. Not in Lean: K_n = cone(π^n: K→K) stated in derived_nakayama_resolution, assigned to corollary-finite-quotients-their-transition-maps |
+| `definition-derived-adic-completeness` | 2 | full (reviewed) | Completion map via K-flat representative; iff shows independence of representative. 1 of the names are on its clauses. |
+| `lemma-reduction-derived-nakayama` | 4 | partial (reviewed) | States K_1=0 ⇒ K=0 for derived complete K and the isomorphism criterion. Not in Lean: K_n = cone(π^n: K→K) stated in derived_nakayama_resolution, assigned to corollary-finite-quotients-their-transition-maps 1 of the names are on its clauses. |
 
 ### Constructible complexes
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-constructible-sheaves` | 7 | medium | Old sk-def-sfb-constructible plus constant-model defs whose docstrings cite its clauses 1-2; Tor amplitude defs. |
-| `definition-lisse-sheaves` | 2 | medium | Condition (1) on X itself (locally finitely presented); IsLisseCoefficientModule is the lisse (locally free) predicate used for field coefficients. |
+| `definition-constructible-sheaves` | 11 | medium | Old sk-def-sfb-constructible plus constant-model defs whose docstrings cite its clauses 1-2; Tor amplitude defs. 10 of the names are on its clauses. |
+| `definition-lisse-sheaves` | 3 | medium | Condition (1) on X itself (locally finitely presented); IsLisseCoefficientModule is the lisse (locally free) predicate used for field coefficients. 1 of the names are on its clauses. |
 | `remark-constructible-sheaves-coefficient-rings` | 0 | — | Remark (sk-rem-n-constructible); no Lean statement of exactly it. |
 | `example-integral-criterion-point` | 0 | — | Example; nothing formalizes it. |
 | `lemma-bounds-finite-reductions` | 1 | high | Lean theorem cites sk-lem-integral-finite-levels; statement matches. |
@@ -96,71 +97,71 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-local-constancy-finite-level` | 0 | — | No old node; no Lean formalization found. |
 | `lemma-integral-model-weakly-contractible` | 0 | — | Proof step of local structure in old blueprint; no public Lean statement found. |
 | `proposition-local-structure-integral-constructible-complexes` | 1 | high | Lean theorem cites sk-prop-integral-local-structure; statement matches (currently sorry). |
-| `proposition-integral-constructibility-criterion` | 3 | medium | Docstrings cite sk-prop-integral-criterion: (1)<=>(2); residue criterion gives Dbc=Dctf (4). Clause (3) not separately stated. |
+| `proposition-integral-constructibility-criterion` | 3 | medium | Docstrings cite sk-prop-integral-criterion: (1)<=>(2); residue criterion gives Dbc=Dctf (4). Clause (3) not separately stated. 1 of the names are on its clauses. |
 | `proposition-ctf-equals-bc` | 1 | high | States Dctf=Dbc for Z_l, Q_l, O_E, E, Qlbar (det-def-localizing-closure-ctf-equals-bc). |
-| `lemma-flat-models-generators` | 3 | medium | Old sk-lem-sf-flat-model (etale flat model) plus pro-etale flat model and etale generation by a_!L. |
+| `lemma-flat-models-generators` | 5 | medium | Old sk-lem-sf-flat-model (etale flat model) plus pro-etale flat model and etale generation by a_!L. 2 of the names are on its clauses. |
 | `definition-lattice` | 0 | — | No Lean definition of lattices found; lattice existence results are stated inline. |
 | `lemma-lattices-lisse-e-sheaves` | 2 | low | Only the "in particular" clause (lattice etale locally) is formalized; representability of the lattice sheaf is not. |
 | `example-lattices-nodal-curve` | 0 | — | Example; not formalized. |
 | `lemma-descent-lisse-qbar-sheaves-finite` | 1 | high | Docstring cites det-lem-coefficient-finite-descent-lisse; descends lisse Qlbar modules and morphisms to finite E. |
-| `lemma-constructible-sheaves` | 4 | medium | coefficientHeart states all clauses of sk-lem-coefficient-heart; the other three are its clause-wise theorems. |
+| `lemma-constructible-sheaves` | 6 | medium | coefficientHeart states all clauses of sk-lem-coefficient-heart; the other three are its clause-wise theorems. 5 of the names are on its clauses. |
 | `example-running-example` | 0 | — | Example; not formalized. |
 | `corollary-coefficient-heart-b` | 2 | medium | Lean cites sk-cor-coefficient-heart-ii: triangulated and generation by a_!L. |
 | `lemma-sections-support-closed-subscheme` | 2 | medium | Docstrings cite det-lem-formal-closed-support-derived/adjunction (clause 1); stratum Hom formula (3.1) only private. |
 | `lemma-continuity-ext-out-constructible-complex` | 2 | medium | Lean cites sk-lem-constructible-ext-continuity; continuity for generated complexes, clause 1 via generation. |
 | `lemma-descent-finite-coefficient-field` | 3 | medium | Lean cites sk-thm-sfb-qlbar-two-colimit assertions (Hom colimit, object descent); old list had only helper defs. |
-| `lemma-lattices-after-finite-stratification` | 2 | medium | Stratified lisse integral lattices (sk-lem-stratified-lattice); old node had no lean. |
-| `lemma-integral-models` | 2 | medium | Old detail lean (clause 1) plus det-lem-integral-models-stacks (clause 2); clauses 3-4 not found as single theorems. |
+| `lemma-lattices-after-finite-stratification` | 2 | medium | Stratified lisse integral lattices (sk-lem-stratified-lattice); old node had no lean. 1 of the names are on its clauses. |
+| `lemma-integral-models` | 5 | medium | Old detail lean (clause 1) plus det-lem-integral-models-stacks (clause 2); clauses 3-4 not found as single theorems. 3 of the names are on its clauses. |
 | `proposition-inverting-ell-full-derived-categories` | 0 | — | Old sk-prop-sfb-rationalization-full had no lean; no Lean statement found. |
-| `proposition-inverting-ell` | 2 | medium | Old sk-thm-sfb-rationalization-comparison: the equivalence and localization statements; helper defs dropped. |
+| `proposition-inverting-ell` | 4 | medium | Old sk-thm-sfb-rationalization-comparison: the equivalence and localization statements; helper defs dropped. 3 of the names are on its clauses. |
 
 ### Proper base change
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `question-stalks-proper-direct-image` | 0 | — | Question; not a statement. |
 | `remark-cohomology-modules-underlying-abelian` | 0 | — | Remark; nothing states exactly it. |
-| `definition-underived-base-change-map` | 1 | high | Old def-weil-pbc-underived-exchange under sk-def-exchange. |
-| `definition-derived-base-change-map` | 2 | high | Old sk-def-exchange / def-weil-pbc-derived-exchange; baseChange is the same map (baseChange_eq_derivedBaseChangeMapPlus). |
-| `lemma-identity-pasting` | 3 | high | Old sk-lem-pbc-exchange-pasting lean list. |
-| `definition-pro-etale-base-change-map` | 2 | medium | Pro-etale unit-square-counit base change maps (discrete-ring sheaves; condensed-ring module objects). |
-| `lemma-naturality-pasting-comparison` | 1 | low | Only the etale comparison clause is formalized; no pro-etale identity/pasting equations found. |
-| `theorem-comparison-over-henselian-pair-degree` | 3 | high | Old sk-thm-pbc-henselian-h0 lean list (module/abelian sheaves rather than sets). |
+| `definition-underived-base-change-map` | 2 | high | Old def-weil-pbc-underived-exchange under sk-def-exchange. 2 of the names are on its clauses. |
+| `definition-derived-base-change-map` | 2 | high | Old sk-def-exchange / def-weil-pbc-derived-exchange; baseChange is the same map (baseChange_eq_derivedBaseChangeMapPlus). 1 of the names are on its clauses. |
+| `lemma-identity-pasting` | 3 | high | Old sk-lem-pbc-exchange-pasting lean list. 3 of the names are on its clauses. |
+| `definition-pro-etale-base-change-map` | 2 | medium | Pro-etale unit-square-counit base change maps (discrete-ring sheaves; condensed-ring module objects). 2 of the names are on its clauses. |
+| `lemma-naturality-pasting-comparison` | 3 | low | Only the etale comparison clause is formalized; no pro-etale identity/pasting equations found. 3 of the names are on its clauses. |
+| `theorem-comparison-over-henselian-pair-degree` | 3 | high | Old sk-thm-pbc-henselian-h0 lean list (module/abelian sheaves rather than sets). 3 of the names are on its clauses. |
 | `example-henselian-needed` | 0 | — | Example; not formalized. |
-| `lemma-sections-geometric-fibre` | 1 | high | From old sk-prop-pbc-degree-zero; states stalk-to-fibre-sections bijection (abelian sheaves). |
-| `proposition-proper-base-change-degree-zero` | 1 | high | Old sk-prop-pbc-degree-zero / lemma-weil-pbc-proper-underived-exchange. |
+| `lemma-sections-geometric-fibre` | 3 | high | From old sk-prop-pbc-degree-zero; states stalk-to-fibre-sections bijection (abelian sheaves). 2 of the names are on its clauses. |
+| `proposition-proper-base-change-degree-zero` | 2 | high | Old sk-prop-pbc-degree-zero / lemma-weil-pbc-proper-underived-exchange. 1 of the names are on its clauses. |
 | `example-pbc-fails-integral` | 0 | — | Example; not formalized. |
-| `definition-torsion-sheaves` | 4 | high | Old sk-def-pbc torsion part; characterizations give the equivalent forms. |
-| `definition-torsion-pbc-property` | 1 | high | Old sk-def-pbc PBC predicate. |
-| `definition-injective-acyclicity` | 1 | high | Old sk-def-ia. |
-| `lemma-acyclic-resolutions` | 2 | high | Old sk-thm-acyclicity lean list. |
+| `definition-torsion-sheaves` | 7 | high | Old sk-def-pbc torsion part; characterizations give the equivalent forms. 6 of the names are on its clauses. |
+| `definition-torsion-pbc-property` | 1 | high | Old sk-def-pbc PBC predicate. 1 of the names are on its clauses. |
+| `definition-injective-acyclicity` | 1 | high | Old sk-def-ia. 1 of the names are on its clauses. |
+| `lemma-acyclic-resolutions` | 3 | high | Old sk-thm-acyclicity lean list. |
 | `theorem-pbc-injective-acyclicity` | 1 | medium | Old sk-thm-iff: (i)<=>(iii); dropped one-direction helper. Clause (ii) not separately stated. |
 | `remark-henselian-pairs-facts` | 3 | medium | Remark cites Gabber (i), finite-etale lifting (ii), (4.8); these Lean theorems (old detail nodes) state exactly them. |
-| `theorem-cohomology-curves` | 1 | low | Only the structure packaging C1-C8 (def-weil-pbc-eight-curve-assertions); no general theorem proving it found; etale not pro-etale. |
+| `theorem-cohomology-curves` | 5 | low | Only the structure packaging C1-C8 (def-weil-pbc-eight-curve-assertions); no general theorem proving it found; etale not pro-etale. 4 of the names are on its clauses. |
 | `lemma-extension-separably-closed-ground-field` | 1 | high | Old sk-cor-curve-invariance. |
 | `remark-properness-needed-c7` | 0 | — | Remark/example; not formalized. |
 | `remark-finiteness-small-etale-topoi` | 1 | low | Only fact (2), the embedding into finite pushforwards, is a Lean theorem (old lemma-weil-pbc-constructible-finite-pushforward). |
-| `lemma-acyclicity-closed-fibre` | 1 | high | Old sk-lem-pbc-p1-injective-fibre. |
-| `proposition-cohomology-p-1-over-henselian` | 1 | high | Old sk-prop-pbc-p1-henselian. |
-| `proposition-proper-base-change-projective-line` | 2 | high | Old sk-thm-p1 lean list. |
-| `lemma-finite-morphisms` | 4 | high | Old sk-lem-pbc-finite lean list. |
+| `lemma-acyclicity-closed-fibre` | 1 | high | Old sk-lem-pbc-p1-injective-fibre. 1 of the names are on its clauses. |
+| `proposition-cohomology-p-1-over-henselian` | 3 | high | Old sk-prop-pbc-p1-henselian. 1 of the names are on its clauses. |
+| `proposition-proper-base-change-projective-line` | 3 | high | Old sk-thm-p1 lean list. 1 of the names are on its clauses. |
+| `lemma-finite-morphisms` | 3 | high | Old sk-lem-pbc-finite lean list. 3 of the names are on its clauses. |
 | `example-finite-direct-image-double-cover` | 0 | — | Example; not formalized. |
 | `lemma-composition-cancellation` | 2 | high | Old sk-lem-pbc-composition-cancellation; kept PBC versions, dropped IA helpers. |
-| `lemma-finite-cover-projective-space` | 2 | high | Old sk-lem-pbc-symmetric-product; PBC-for-P^n name moved to lemma-pbc-projective-space. |
-| `lemma-pbc-projective-space` | 1 | high | Old lem-weil-pbc-reduction-projective-space: PBC(P^1) for all S implies PBC(P^n). |
-| `proposition-proper-base-change-etale-site` | 2 | high | Old sk-thm-reduction; general-ring version plus the torsion-ring variant. |
-| `theorem-proper-base-change-classical-pro` | 2 | medium | Old sk-thm-properbasechange; pro-etale version only for finite Lambda with etale origin, plus etale torsion version. |
-| `corollary-cohomology-geometric-fibres` | 1 | medium | Old cor-weil-pbc-geometric-fiber-finite (under sk-cor-pbc-torsion-stalk); etale-site stalk formula. |
+| `lemma-finite-cover-projective-space` | 7 | high | Old sk-lem-pbc-symmetric-product; PBC-for-P^n name moved to lemma-pbc-projective-space. 6 of the names are on its clauses. |
+| `lemma-pbc-projective-space` | 2 | high | Old lem-weil-pbc-reduction-projective-space: PBC(P^1) for all S implies PBC(P^n). 1 of the names are on its clauses. |
+| `proposition-proper-base-change-etale-site` | 2 | high | Old sk-thm-reduction; general-ring version plus the torsion-ring variant. 1 of the names are on its clauses. |
+| `theorem-proper-base-change-classical-pro` | 1 | medium | Old sk-thm-properbasechange; pro-etale version only for finite Lambda with etale origin, plus etale torsion version. |
+| `corollary-cohomology-geometric-fibres` | 1 | medium | Old cor-weil-pbc-geometric-fiber-finite (under sk-cor-pbc-torsion-stalk); etale-site stalk formula. 1 of the names are on its clauses. |
 | `proposition-proper-direct-image-finite-coefficients` | 1 | high | Lean cites det-ctf-finite-proper-tor (sk-prop-ctf-finite-proper): Dctf with Tor amplitude [a,b+d]. |
 | `definition-completed-inverse-image` | 2 | medium | def-weil-pbc-completed-pullback: Rlim of pulled-back reduction tower. |
-| `definition-projection-formula-map` | 1 | high | Ambient pro-etale projection map, adjoint of monoidal iso and counit. |
-| `proposition-proper-base-change-complete-integral` | 0 | — | Old sk-prop-pbc-complete had no lean; no single Lean theorem found (only completion infrastructure). |
+| `definition-projection-formula-map` | 1 | high | Ambient pro-etale projection map, adjoint of monoidal iso and counit. 1 of the names are on its clauses. |
+| `proposition-proper-base-change-complete-integral` | 1 | — | Old sk-prop-pbc-complete had no lean; no single Lean theorem found (only completion infrastructure). 1 of the names are on its clauses. |
 | `lemma-completed-ordinary-base-change` | 0 | — | No Lean statement found. |
-| `proposition-proper-direct-image-constructible-complexes` | 4 | medium | Old sk-thm-sfb-proper-base-change names plus finite and integral clause-(1)-(3) theorems. |
+| `proposition-proper-direct-image-constructible-complexes` | 12 | medium | Old sk-thm-sfb-proper-base-change names plus finite and integral clause-(1)-(3) theorems. 10 of the names are on its clauses. |
 
 ### Construction of $f^!$
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `definition-localizing-subcategory` | 3 | high | Old sk-def-localizing-closure list: generic closure plus finite and condensed-ring instances. |
 | `theorem-exceptional-inverse-image` | 0 | — | Summary theorem (old sk-thm-existence, no lean); headline part 3 = Brown existence theorems, shared with theorem-existence-exceptional-inverse-image. [merge: existence theorems kept on theorem-existence-exceptional-inverse-image] |
@@ -176,12 +177,12 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-reduction-finitely-many-degrees` | 0 | — | Window iso not stated; only proof steps DerivedCategory.eq_zero_of_isLE / eq_zero_of_isGE_of_isLE (lower tail vanishing). |
 | `theorem-compactness-rational-coefficients` | 2 | high | Docstrings cite sk-thm-constructible-compactness: Dbc compact in Loc(Dbc) for E and Qlbar. |
 | `proposition-compactness-finite-coefficients` | 1 | medium | Docstring sk-prop-ctf-finite-compact; generation is in the Brown-hypotheses theorem; Loc^c = Dctf not stated. |
-| `proposition-comparison-etale-derived-category` | 0 | — | Old sk-prop-ctf-finite-comparison had no lean; Lean uses etale-origin complexes instead of this equivalence. |
+| `proposition-comparison-etale-derived-category` | 3 | — | Old sk-prop-ctf-finite-comparison had no lean; Lean uses etale-origin complexes instead of this equivalence. 3 of the names are on its clauses. |
 | `corollary-proper-direct-image-finite-coefficients-localizing` | 1 | low | Docstring cites det-ctf-finite-proper-localizing: proper Rp_* preserves sums of etale-origin complexes (contains Loc(Dctf)). |
 | `lemma-uniform-bound-proper-direct-image` | 2 | medium | Docstrings cite sk-lem-proper-heart-bound: finite amplitude and sums on ind-constructible heart, E and Qlbar. |
 | `lemma-proper-direct-image-unbounded-complexes` | 1 | low | Only part 3 in a weaker form (sums on Loc(Dbc), docstring sk-lem-proper-unbounded-window-ii); parts 1-2 not stated. |
 | `lemma-structure-integral-constructible-complexes` | 1 | low | Only part (1) heart: Cons(X,O_E) closed under kernels, cokernels, extensions; local structure and duals not found. |
-| `lemma-inverse-image-tensor-product` | 2 | low | Tensor and closed direct image preservation; pullback/j_! covered by general nodes; completed pullback agreement not found. |
+| `lemma-inverse-image-tensor-product` | 5 | low | Tensor and closed direct image preservation; pullback/j_! covered by general nodes; completed pullback agreement not found. 3 of the names are on its clauses. |
 | `proposition-compactness-proper-direct-image` | 2 | high | Docstrings cite sk-prop-int-compactness: compactness and Rp_* sums on Loc(Dbc(O_E)). |
 | `proposition-proper-direct-image-extension-zero` | 5 | medium | Docstrings sk-prop-proper-image-localizing / det-proper-image-localizing-open; finite-A proper part not separately stated. |
 | `lemma-checking-isomorphisms-constructible-complexes` | 1 | high | Docstring sk-lem-sf-determination; replaces old auxiliary five-lemma isIso3_of_isIso12. |
@@ -189,34 +190,34 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `remark-compactifications` | 0 | — | Remark; Nagata statement belongs to the Nagata theorem node. |
 | `proposition-construction-independence-rf-shriek` | 7 | medium | Old sk-prop-sf-comp-coherence names (independence, cocycle on etale D+) plus det-sf-comp-coherence-single Loc statements per coefficient. |
 | `example-cuspidal-compactification` | 0 | — | Example; not formalized. |
-| `proposition-composition-base-change-rf-shriek` | 4 | medium | Old sk-thm-sf-comp-composition name plus composition iso/associativity and base change (det-sf-comp-composition-base-change); etale finite level. |
-| `proposition-forgetting-supports-composition` | 3 | low | Old node had no lean; etale forget-supports map, iso for proper f, compatibility of compositions for proper maps. |
+| `proposition-composition-base-change-rf-shriek` | 15 | medium | Old sk-thm-sf-comp-composition name plus composition iso/associativity and base change (det-sf-comp-composition-base-change); etale finite level. 12 of the names are on its clauses. |
+| `proposition-forgetting-supports-composition` | 7 | low | Old node had no lean; etale forget-supports map, iso for proper f, compatibility of compositions for proper maps. 3 of the names are on its clauses. |
 | `lemma-hypotheses-brown-representability` | 4 | high | Docstrings cite sk-lem-brown-hypotheses for finite A, E, O_E, Qlbar. |
 | `theorem-existence-exceptional-inverse-image` | 6 | high | Docstrings cite sk-prop-sf-existence; replaces old rightDerivedUpperShriekAdjunction (D+ etale-origin variant). |
-| `proposition-composition-open-restriction-compactifications-f` | 4 | medium | Old sk-lem-sf-mate name (part 1) plus pro-etale composition mate, j^! = j^* (part 2), f^! = j^* p^! (part 4); finite coefficients. |
+| `proposition-composition-open-restriction-compactifications-f` | 15 | medium | Old sk-lem-sf-mate name (part 1) plus pro-etale composition mate, j^! = j^* (part 2), f^! = j^* p^! (part 4); finite coefficients. 7 of the names are on its clauses. |
 
 ### Constructibility of $f^!$
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `remark-results-from-etale-theory` | 0 | — | Remark collecting classical inputs; no single statement. |
 | `lemma-cycle-class-cartier-divisor` | 2 | high | Docstrings cite sk-lem-geo-cartier: canonical Cartier class with Chern equation, coefficient and base change compatibility. |
 | `lemma-cohomology-projective-line-trace` | 3 | high | Docstrings cite sk-lem-geo-p1-cohomology: decomposition (6.2), trace (6.3), Noetherian base change. |
 | `example-compact-supports-running-example` | 0 | — | Example; not formalized. |
-| `lemma-class-diagonal-projective-line` | 2 | medium | Docstrings cite lem-amb-p1-diagonal-integrals: s_1 = s_2 = id; relative Cartier divisor part not stated. |
+| `lemma-class-diagonal-projective-line` | 4 | medium | Docstrings cite lem-amb-p1-diagonal-integrals: s_1 = s_2 = id; relative Cartier divisor part not stated. |
 | `proposition-adjunction-projective-line` | 2 | medium | Docstrings cite sk-prop-geo-p1-adjunction / det-sp-p1-adjunction: adjunction and base change of counit (etale site). |
 | `lemma-affine-space-etale-localization` | 3 | high | Old sk-lem-geo-affine-local detail names (parts 1, 2) plus affineSpaceAdjunction_baseChange (docstring clause 1). |
 | `definition-exceptional-base-change-finite` | 1 | high | rightDerivedUpperShriekBaseChangeMap: the mate of the inverse compact-support base change, for finite Λ on the étale site (new in PR #200). |
-| `proposition-exceptional-inverse-image-smooth-morphism` | 5 | high | Old sk-prop-cohsm list plus canonical-map isomorphisms for parts 2 and 3. The map β of part (3) is defined in definition-exceptional-base-change-finite (PR #200). |
+| `proposition-exceptional-inverse-image-smooth-morphism` | 8 | high | Old sk-prop-cohsm list plus canonical-map isomorphisms for parts 2 and 3. The map β of part (3) is defined in definition-exceptional-base-change-finite (PR #200). 5 of the names are on its clauses. |
 | `lemma-smooth-morphisms-locally-constant-sheaves` | 1 | high | Old detail lem-asd-smooth-generic-direct-image states this lemma. |
 | `example-shrinking-base-smooth` | 0 | — | Example; not formalized. |
-| `lemma-detection-proper-direct-image` | 2 | high | Old sk-lem-geo-finite-boundary details: parts (1) and (2). |
-| `lemma-coordinate-projections` | 2 | high | Old sk-lem-geo-coordinates details: parts (1) and (2). |
+| `lemma-detection-proper-direct-image` | 2 | high | Old sk-lem-geo-finite-boundary details: parts (1) and (2). 2 of the names are on its clauses. |
+| `lemma-coordinate-projections` | 2 | high | Old sk-lem-geo-coordinates details: parts (1) and (2). 2 of the names are on its clauses. |
 | `lemma-extension-across-finite-subset` | 1 | medium | Finite-boundary step of Deligne induction (abstract form, takes the smooth direct-image input as hypothesis). |
 | `lemma-universal-homeomorphism-base` | 1 | high | Old detail lem-fin-radicial-exchange-descent. |
 | `lemma-generic-smooth-open` | 1 | high | Old detail lem-fin-generic-radicial-smoothing. |
 | `theorem-generic-constructibility-base-change-rj` | 1 | high | Old detail thm-fin-deligne-generic-open. |
-| `corollary-open-direct-image-over-field` | 3 | high | Old detail cor-fin-deligne-open-finite-coefficients plus base change (det-geo-open-finiteness-base-change), etale and pro-etale. |
+| `corollary-open-direct-image-over-field` | 4 | high | Old detail cor-fin-deligne-open-finite-coefficients plus base change (det-geo-open-finiteness-base-change), etale and pro-etale. 3 of the names are on its clauses. |
 | `proposition-open-direct-image-preserves-finite` | 3 | high | Old sk-cor-sf-direct-image-ctf list plus the precise [a,b+d], d >= cd(j) open-immersion bound. |
 | `theorem-f-shriek-finite-coefficients` | 3 | medium | Old list kept exists_shift; dropped closed-immersion step; f^! preserves Dctf and restricted adjunction (transported etale f^!, not Brown adjoint). |
 | `proposition-direct-image-along-open-immersion` | 3 | high | Docstrings cite sk-prop-open-coefficients, one per coefficient ring. |
@@ -229,62 +230,62 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### The six operations on $\Dctf$
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `proposition-six-operations-dctf` | 3 | medium | Old det-rem-sf-matrix (finite A case of sk-thm-sf-ctf-stability); other coefficient rings not stated in Lean. |
 | `example-internal-hom-affine-line` | 0 | — | Example; nothing states it. |
 | `example-derived-reduction-point` | 0 | — | Example; nothing states it. |
-| `definition-change-of-coefficients-maps` | 4 | high | Old sk-prop-scalar-six details: (Pull),(Shriek open),(Push),(Shriek) maps of ChangeOfCoefficients.lean; tensor/Hom maps not formalized there. |
-| `lemma-extension-scalars-preserves-dctf` | 2 | medium | Old node empty; finite A->B preserves Dctf, flat extension preserves Dbc (E->F, ->Qbar). |
-| `lemma-change-coefficients-direct-image` | 4 | medium | (Push) iso for O_E->E, E->F, E->Qbar, O_E->O_E/l^n; finite A->B general case not found. |
+| `definition-change-of-coefficients-maps` | 8 | high | Old sk-prop-scalar-six details: (Pull),(Shriek open),(Push),(Shriek) maps of ChangeOfCoefficients.lean; tensor/Hom maps not formalized there. 5 of the names are on its clauses. |
+| `lemma-extension-scalars-preserves-dctf` | 1 | medium | Old node empty; finite A->B preserves Dctf, flat extension preserves Dbc (E->F, ->Qbar). |
+| `lemma-change-coefficients-direct-image` | 1 | medium | (Push) iso for O_E->E, E->F, E->Qbar, O_E->O_E/l^n; finite A->B general case not found. |
 | `lemma-change-coefficients-compact-support` | 2 | medium | Finite-ring comparison iso for any compactification; O_E->E (Shriek) iso on Dbc. |
-| `lemma-change-coefficients-exceptional-inverse-image` | 1 | medium | Exchange for f^! is iso, O_E->E case only (IntegralUpperShriekCompatibility). |
-| `lemma-change-coefficients-internal-hom` | 1 | low | Only O_E->O_E/l^n case of RHom comparison found. |
-| `proposition-six-operations-change-coefficients` | 2 | low | Old sketch empty; compatibility of (Pull) with (gf)^* and of (Push) with composite coefficient maps. |
-| `proposition-dctf-x-qbar-2-colimit` | 5 | high | Old sk-prop-qlbar-two-colimit lean list. |
+| `lemma-change-coefficients-exceptional-inverse-image` | 1 | medium | Exchange for f^! is iso, O_E->E case only (IntegralUpperShriekCompatibility). 1 of the names are on its clauses. |
+| `lemma-change-coefficients-internal-hom` | 1 | low | Only O_E->O_E/l^n case of RHom comparison found. 1 of the names are on its clauses. |
+| `proposition-six-operations-change-coefficients` | 30 | low | Old sketch empty; compatibility of (Pull) with (gf)^* and of (Push) with composite coefficient maps. 29 of the names are on its clauses. |
+| `proposition-dctf-x-qbar-2-colimit` | 5 | high | Old sk-prop-qlbar-two-colimit lean list. 3 of the names are on its clauses. |
 | `proposition-isomorphisms-reduce-finite-coefficients` | 1 | low | Old sketch empty; only integral step (reduction mod l^n detects isos) is formalized. |
 
 ### Smooth base change
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `theorem-smooth-base-change-classical-torsion` | 1 | high | Old sk-thm-smooth-base-change. |
-| `lemma-degree-zero-calculation` | 2 | high | Old sk-prop-deg0 and detail sbc-lem-degree-zero-flat-base-change; dropped smooth special case. |
-| `lemma-injectivity-base-change-map-degree` | 3 | high | Old sk-prop-injectivity lean list. |
-| `lemma-reduction-field` | 2 | high | Old sk-lem-failure-field lean list. |
-| `lemma-integral-changes-source-base` | 2 | high | Main theorems of old details sbc-lem-bc-integral-surjective / -base; helpers dropped. |
-| `lemma-reduction-curve-over-normal-base` | 2 | high | Old sk-lem-universal-datum lean list. |
+| `theorem-smooth-base-change-classical-torsion` | 1 | high | Old sk-thm-smooth-base-change. 1 of the names are on its clauses. |
+| `lemma-degree-zero-calculation` | 2 | high | Old sk-prop-deg0 and detail sbc-lem-degree-zero-flat-base-change; dropped smooth special case. 1 of the names are on its clauses. |
+| `lemma-injectivity-base-change-map-degree` | 3 | high | Old sk-prop-injectivity lean list. 3 of the names are on its clauses. |
+| `lemma-reduction-field` | 3 | high | Old sk-lem-failure-field lean list. 1 of the names are on its clauses. |
+| `lemma-integral-changes-source-base` | 2 | high | Main theorems of old details sbc-lem-bc-integral-surjective / -base; helpers dropped. 2 of the names are on its clauses. |
+| `lemma-reduction-curve-over-normal-base` | 3 | high | Old sk-lem-universal-datum lean list. |
 | `example-reduction-end-affine-line` | 0 | — | Example; nothing states it. |
-| `proposition-base-change-larger-algebraically-closed` | 1 | high | Old sk-thm-vanishing lean list. |
-| `theorem-smooth-base-change-classical-torsion-2` | 2 | medium | Pro-etale D+ classical torsion version; etale D+ version from old detail of sk-thm-sbc-derived. |
-| `lemma-change-coefficients` | 2 | medium | CoefficientChangeCube: base change map commutes with flat coefficient change (formal part of sk-lem-sbc-exchange-compatibility). |
-| `theorem-smooth-base-change-all-admissible` | 4 | medium | Old sketch empty; finite, O_E and Qbar cases (last docstring cites sk-thm-sbc-coefficients). |
+| `proposition-base-change-larger-algebraically-closed` | 2 | high | Old sk-thm-vanishing lean list. 1 of the names are on its clauses. |
+| `theorem-smooth-base-change-classical-torsion-2` | 4 | medium | Pro-etale D+ classical torsion version; etale D+ version from old detail of sk-thm-sbc-derived. 1 of the names are on its clauses. |
+| `lemma-change-coefficients` | 6 | medium | CoefficientChangeCube: base change map commutes with flat coefficient change (formal part of sk-lem-sbc-exchange-compatibility). 2 of the names are on its clauses. |
+| `theorem-smooth-base-change-all-admissible` | 3 | medium | Old sketch empty; finite, O_E and Qbar cases (last docstring cites sk-thm-sbc-coefficients). |
 | `remark-smooth-base-change-proper-base` | 0 | — | Remark. |
 | `lemma-base-change-along-product-projection` | 1 | low | Old sketch empty; lem-kun-0f1n base change of Rg_* along product projection over a field (tensored form). |
-| `definition-kunneth-map` | 1 | medium | Kunneth map for f1 x f2 (Qbar, ProperKunneth) and identity-factor map (8.4) on etale site. |
-| `lemma-kunneth-finite-direct-image` | 0 | — | Proof step not formalized (Lean proves Kunneth via Stacks 0F1N instead). |
-| `lemma-kunneth-field-coefficients` | 0 | — | Proof step not formalized. |
-| `lemma-kunneth-one-identity-factor` | 2 | high | Old sk-lem-sf-kunneth-star; Lean statement is exactly Rf_*M box Q = R(f x id)_*(M box Q). |
+| `definition-kunneth-map` | 2 | medium | Kunneth map for f1 x f2 (Qbar, ProperKunneth) and identity-factor map (8.4) on etale site. 2 of the names are on its clauses. |
+| `lemma-kunneth-finite-direct-image` | 2 | — | Proof step not formalized (Lean proves Kunneth via Stacks 0F1N instead). |
+| `lemma-kunneth-field-coefficients` | 1 | — | Proof step not formalized. |
+| `lemma-kunneth-one-identity-factor` | 2 | high | Old sk-lem-sf-kunneth-star; Lean statement is exactly Rf_*M box Q = R(f x id)_*(M box Q). 1 of the names are on its clauses. |
 | `proposition-ordinary-external-kunneth` | 2 | low | General f1 x f2 finite-A case absent; point-target case and proper Qbar case only. |
 
 ### Smooth purity
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-exceptional-base-change-map` | 1 | high | Docstrings define exactly the adjoint of inverse compact-support base change composed with counit. The finite-coefficient étale map β is definition-exceptional-base-change-finite (PR #200). |
+| `definition-exceptional-base-change-map` | 3 | high | Docstrings define exactly the adjoint of inverse compact-support base change composed with counit. The finite-coefficient étale map β is definition-exceptional-base-change-finite (PR #200). 2 of the names are on its clauses. |
 | `definition-trace-map-affine-line` | 0 | — | Projective-line-based affine trace not found as a def. |
-| `theorem-smooth-purity-all-admissible-coefficients` | 2 | low | Old sketch empty; Qbar orientation gamma_f (docstring cites sk-thm-purity-transport) at the unit only. |
-| `definition-relative-dualizing-complex` | 1 | medium | omega_f = Rf^! Lambda_Y on etale site, finite coefficients. |
+| `theorem-smooth-purity-all-admissible-coefficients` | 5 | low | Old sketch empty; Qbar orientation gamma_f (docstring cites sk-thm-purity-transport) at the unit only. 3 of the names are on its clauses. |
+| `definition-relative-dualizing-complex` | 2 | medium | omega_f = Rf^! Lambda_Y on etale site, finite coefficients. 1 of the names are on its clauses. |
 | `definition-representing-objects` | 0 | — | No formalization of representing pairs found. |
 | `proposition-purity-vector-bundles` | 2 | medium | Old sk-prop-an (zero-section form) plus clause (ii) affine-space purity; only trivial bundles. |
 | `definition-deformation-normal-bundle` | 2 | medium | Deformation space (extended Rees algebra model) and its data structure. |
 | `example-deformation-origin-line` | 0 | — | Example. |
 | `lemma-section-normal-bundle` | 1 | high | Old sk-thm-dnc lean list. |
 | `lemma-naturality-under-base-change-etale` | 0 | — | Old sketch empty; no naturality statement for alpha found. |
-| `proposition-relative-dualizing-complex` | 2 | high | Old sk-thm-smooth-purity name moved here; canonical iso omega_f = Lambda(d)[2d]. |
+| `proposition-relative-dualizing-complex` | 1 | high | Old sk-thm-smooth-purity name moved here; canonical iso omega_f = Lambda(d)[2d]. |
 | `proposition-smooth-purity-finite-coefficients` | 2 | high | Old sk-thm-smooth-purity and detail def-pur-smooth-purity-map. |
-| `proposition-sp-unique-adjoint` | 2 | low | Old sketch empty; abstract Mathlib uniqueness of right adjoints compatible with counits. |
-| `definition-sp-scalar-extension` | 1 | medium | Extension of scalars of pro-etale module sheaves (derived via L(-)). |
+| `proposition-sp-unique-adjoint` | 3 | low | Old sketch empty; abstract Mathlib uniqueness of right adjoints compatible with counits. 2 of the names are on its clauses. |
+| `definition-sp-scalar-extension` | 3 | medium | Extension of scalars of pro-etale module sheaves (derived via L(-)). 2 of the names are on its clauses. |
 | `lemma-sp-reduction` | 2 | medium | b(M) for finite A->B; c_{A,B} for f^! not found. |
 | `proposition-sp-integral-towers` | 0 | — | Old sketch empty; no headline statement found. |
 | `lemma-sp-tower-adjunction-foundation` | 0 | — | Old sketch empty; no headline statement found. |
@@ -292,9 +293,9 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `proposition-sp-integral-adjunction` | 0 | — | Old sketch empty; no headline statement found. |
 | `proposition-sp-rational` | 0 | — | Old sketch empty; no E-coefficient purity found. |
 | `theorem-sp-qbar` | 2 | medium | Docstrings cite sk-thm-sp-qbar: f^!K = f^*K tensor omega_f and omega_f = Qbar(d)[2d]. |
-| `proposition-compatibility-purity-base-change` | 4 | medium | Qbar orientation base change (cites sk-prop-sp-purity-bc), old finite coherence node, trace base change. |
+| `proposition-compatibility-purity-base-change` | 3 | medium | Qbar orientation base change (cites sk-prop-sp-purity-bc), old finite coherence node, trace base change. 1 of the names are on its clauses. |
 | `proposition-compatibility-purity-composition` | 2 | low | Only composition with an open immersion is formalized (Qbar). |
-| `definition-trace-map` | 2 | high | Old def-pur-smooth-trace; Qbar smoothTrace docstring cites sk-def-sp-trace. |
+| `definition-trace-map` | 2 | high | Old def-pur-smooth-trace; Qbar smoothTrace docstring cites sk-def-sp-trace. 1 of the names are on its clauses. |
 | `remark-trace-map-special-cases` | 0 | — | Remark. |
 | `proposition-transitivity-trace-map` | 1 | high | Old thm-pur-trace-normalization-transitivity (composition part). |
 | `proposition-compatibility-purity-change-coefficients` | 2 | medium | Old thm-pur-finite-reduction-of-purity: purity iso and trace commute with coefficient change functor. |
@@ -302,26 +303,26 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### Verdier and Poincaré duality
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-perfect-complexes-geometric-point` | 8 | medium | old sk-lem-finite minus helpers; added stalk/compact perfectness (finite coeff) and biduality at the point |
-| `definition-verdier-dual-evaluation` | 6 | medium | old sk-def-ops (dropped derivedDual/cohomology); added double-dual morphism δ_K (pro-étale Q̄ℓ and étale finite) |
-| `lemma-internal-adjunction-two-exchange-formulas` | 6 | medium | (10.2) tensor-Hom exchange, (10.3)/(10.4) natural isos, proper δ compatibility; old sketch had no lean |
+| `lemma-perfect-complexes-geometric-point` | 11 | medium | old sk-lem-finite minus helpers; added stalk/compact perfectness (finite coeff) and biduality at the point 4 of the names are on its clauses. |
+| `definition-verdier-dual-evaluation` | 11 | medium | old sk-def-ops (dropped derivedDual/cohomology); added double-dual morphism δ_K (pro-étale Q̄ℓ and étale finite) 8 of the names are on its clauses. |
+| `lemma-internal-adjunction-two-exchange-formulas` | 8 | medium | (10.2) tensor-Hom exchange, (10.3)/(10.4) natural isos, proper δ compatibility; old sketch had no lean 3 of the names are on its clauses. |
 | `example-biduality-punctured-line` | 0 | — | example; not formalized |
-| `lemma-verdier-duality-preserves-constructibility` | 1 | medium | old sketch empty; étale finite-coefficient preservation of Dctf |
-| `lemma-restriction-geometric-generic-fibre` | 3 | medium | old lem-weil-geometric-generic-exchange: three comparisons (direct image only for open immersions) |
+| `lemma-verdier-duality-preserves-constructibility` | 2 | medium | old sketch empty; étale finite-coefficient preservation of Dctf 1 of the names are on its clauses. |
+| `lemma-restriction-geometric-generic-fibre` | 3 | medium | old lem-weil-geometric-generic-exchange: three comparisons (direct image only for open immersions) 1 of the names are on its clauses. |
 | `lemma-double-dual-geometric-generic-fibre` | 2 | medium | old lem-weil-geometric-generic-duality main statements; helpers dropped |
-| `theorem-verdier-biduality` | 4 | high | old lem-sf-verdier-biduality-equivalence (finite) plus pro-étale Q̄ℓ / O_E constructible biduality |
-| `corollary-verdier-exchange-formulas` | 2 | medium | old sk-thm-sf-verdier-exchange names plus f^!D≅Df^* and i^*D≅Di^!; D Rf_* ≅ Rf_! D not found |
+| `theorem-verdier-biduality` | 5 | high | old lem-sf-verdier-biduality-equivalence (finite) plus pro-étale Q̄ℓ / O_E constructible biduality 2 of the names are on its clauses. |
+| `corollary-verdier-exchange-formulas` | 4 | medium | old sk-thm-sf-verdier-exchange names plus f^!D≅Df^* and i^*D≅Di^!; D Rf_* ≅ Rf_! D not found 2 of the names are on its clauses. |
 | `theorem-global-verdier-duality` | 3 | medium | old sk-thm-sf-global-duality; (10.5) only, (10.6) not found |
 | `definition-perfect-pairing` | 2 | high | docstring cites sk-def-pairing: adjoint Y→[X,1] iso |
 | `theorem-poincare-duality` | 5 | medium | old sk-thm-sf-identification + derived/proper Poincaré details; coefficient-change clause not covered |
-| `corollary-degreewise-duality-over-fields` | 5 | medium | finite-field degreewise perfectness (étale) and Q̄ℓ lisse/constant Weil-sheaf forms; old details of sk-thm-derived-duality |
+| `corollary-degreewise-duality-over-fields` | 6 | medium | finite-field degreewise perfectness (étale) and Q̄ℓ lisse/constant Weil-sheaf forms; old details of sk-thm-derived-duality 2 of the names are on its clauses. |
 | `remark-duality-cohomology-groups-over-oe` | 0 | — | remark; not formalized as such |
-| `theorem-trace-isomorphism-top-degree` | 4 | medium | finite-coeff étale trace iso and Q̄ℓ Weil-sheaf form (old thm-pod-trace-isomorphism), vanishing outside [0,2d] |
+| `theorem-trace-isomorphism-top-degree` | 7 | medium | finite-coeff étale trace iso and Q̄ℓ Weil-sheaf form (old thm-pod-trace-isomorphism), vanishing outside [0,2d] 1 of the names are on its clauses. |
 | `lemma-class-of-point` | 1 | medium | trace of point class is 1 for normalized orientation (finite self-injective coefficients) |
-| `corollary-cup-product-pairing` | 2 | medium | Q̄ℓ constant coefficients over finite field: perfect cup pairing with (-1)^i symmetry; old sk-cor-trace name |
-| `definition-weil-structure` | 5 | medium | old def-trf-strict-weil-complex; étale and Q̄ℓ Weil-object variants |
+| `corollary-cup-product-pairing` | 3 | medium | Q̄ℓ constant coefficients over finite field: perfect cup pairing with (-1)^i symmetry; old sk-cor-trace name 1 of the names are on its clauses. |
+| `definition-weil-structure` | 7 | medium | old def-trf-strict-weil-complex; étale and Q̄ℓ Weil-object variants 3 of the names are on its clauses. |
 | `definition-frobenius-operator` | 3 | medium | compactly supported Frobenius RΓ_c(φ)∘pullback; old blueprint had none |
 | `proposition-purity-trace-commute-frobenius` | 4 | medium | thm-pur-weil-equivariance-of-purity-and-trace (smooth f, hypothesis hcoh for trace) |
 | `theorem-poincare-duality-frobenius` | 7 | high | old sk-thm-frobenius list plus its untwisted-similitude and reciprocal-eigenvalue details |
@@ -330,63 +331,63 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### The Lefschetz–Verdier formula
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-categorical-trace` | 1 | high | old sk-d-trace |
-| `proposition-properties-trace` | 6 | high | old sk-p-trace + prop-trf-trace-formal-laws; additivity via short exact sequences of complexes |
+| `definition-categorical-trace` | 1 | high | old sk-d-trace 1 of the names are on its clauses. |
+| `proposition-properties-trace` | 7 | high | old sk-p-trace + prop-trf-trace-formal-laws; additivity via short exact sequences of complexes 2 of the names are on its clauses. |
 | `remark-coherent-additivity` | 0 | — | remark |
 | `example-trace-not-determined-cohomology` | 0 | — | example |
-| `definition-correspondence` | 4 | high | Q̄ℓ endocorrespondence + fixed locus (used downstream) and finite-coefficient étale version; not in old facts |
+| `definition-correspondence` | 9 | high | Q̄ℓ endocorrespondence + fixed locus (used downstream) and finite-coefficient étale version; not in old facts 6 of the names are on its clauses. |
 | `proposition-exceptional-external-kunneth` | 1 | medium | finite coefficients, existence of iso f1^!⊠f2^! ≅ (f1×f2)^!(⊠) (blueprint prop-trf-exceptional-kunneth) |
-| `lemma-external-duality-trace-morphism` | 4 | medium | Künneth–Verdier iso P_X≅Hom(p2^*K,p1^!K) and H_c(K)≅c^!P_X; old sk-thm-sf-kunneth-verdier name |
-| `definition-trace-morphism` | 2 | high | traceMap docstring: 𝓗_c(K)≅c^!(K⊠DK)→c^!RΔ_*ω→Rι_*ω_Fix |
-| `definition-trace-class-local-terms` | 4 | high | traceClass, integral (def-trf-integration), localTerm (def-trf-local-term) |
+| `lemma-external-duality-trace-morphism` | 4 | medium | Künneth–Verdier iso P_X≅Hom(p2^*K,p1^!K) and H_c(K)≅c^!P_X; old sk-thm-sf-kunneth-verdier name 2 of the names are on its clauses. |
+| `definition-trace-morphism` | 2 | high | traceMap docstring: 𝓗_c(K)≅c^!(K⊠DK)→c^!RΔ_*ω→Rι_*ω_Fix 2 of the names are on its clauses. |
+| `definition-trace-class-local-terms` | 4 | high | traceClass, integral (def-trf-integration), localTerm (def-trf-local-term) 4 of the names are on its clauses. |
 | `lemma-local-terms-point` | 1 | high | ∫_s Tr(v) = tr(v) over the base point (prop-trf-pairing-point-normalization) |
-| `definition-action-correspondence` | 1 | high | global operator T_c(u) on RΓ_c, same composite |
-| `definition-pushforward-correspondence` | 7 | high | pushforward u'=δ∘Rg_*u∘γ, induced h on fixed loci, h_* on Borel–Moore sections |
-| `theorem-proper-pushforward-lefschetz-verdier` | 3 | high | Varshavsky 1.2.5 pushforward compatibility and Lefschetz–Verdier formula / local-term sum |
+| `definition-action-correspondence` | 1 | high | global operator T_c(u) on RΓ_c, same composite 1 of the names are on its clauses. |
+| `definition-pushforward-correspondence` | 8 | high | pushforward u'=δ∘Rg_*u∘γ, induced h on fixed loci, h_* on Borel–Moore sections 8 of the names are on its clauses. |
+| `theorem-proper-pushforward-lefschetz-verdier` | 4 | high | Varshavsky 1.2.5 pushforward compatibility and Lefschetz–Verdier formula / local-term sum 2 of the names are on its clauses. |
 | `example-correspondence-on-point` | 0 | — | example |
 | `lemma-graded-pieces-filtered-operations` | 0 | — | filtered derived category not formalized |
 | `lemma-filtered-trace-morphism` | 0 | — | filtered derived category not formalized |
 | `lemma-lift-correspondence-invariant-decomposition` | 1 | low | only Z = rational point, no filtered lift: open piece u_U compatible with counit |
 | `lemma-closed-piece-pushforward` | 1 | low | only Z = rational point: closed piece is pushforward of restricted u_Z, compatible with unit |
-| `proposition-additivity-trace-classes` | 2 | medium | (1) triangle additivity under Hom-vanishing hypotheses; (2) only for Z a rational point |
+| `proposition-additivity-trace-classes` | 3 | medium | (1) triangle additivity under Hom-vanishing hypotheses; (2) only for Z a rational point 1 of the names are on its clauses. |
 
 ### The trace formula
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `question-lefschetz-formula-frobenius` | 0 | — | Motivating question (old sk-q-trace-formula had no lean). |
-| `definition-frobenius-correspondences-their-operators` | 6 | medium | sk-d-weil: Phi_X, iterates psi_m, operator T_{c_m}=RGamma_c(psi_m)∘Phi^#, stalk maps; old weilDatumIterate/stalkFrobenius kept (finite-coeff iterates). |
+| `definition-frobenius-correspondences-their-operators` | 11 | medium | sk-d-weil: Phi_X, iterates psi_m, operator T_{c_m}=RGamma_c(psi_m)∘Phi^#, stalk maps; old weilDatumIterate/stalkFrobenius kept (finite-coeff iterates). 9 of the names are on its clauses. |
 | `lemma-scheme-frobenius-geometric-frobenius` | 3 | low | sk-lem-tf-frobenius-convention had none; kappa iso (etale) plus psi_m=phi_m and T_{c_m}=Frob^m in model-Frobenius setting. |
 | `remark-locality-warning` | 0 | — | Remark (old sk-rem-tf-locality-warning, no lean). |
-| `lemma-frobenius-fixed-scheme` | 6 | high | Docstrings cite sk-lem-tf-fixed-points / thm-trf-frobenius-fixed-points: Fix ≅ ∐ s, finite, reduced, proper. |
+| `lemma-frobenius-fixed-scheme` | 9 | high | Docstrings cite sk-lem-tf-fixed-points / thm-trf-frobenius-fixed-points: Fix ≅ ∐ s, finite, reduced, proper. 5 of the names are on its clauses. |
 | `remark-outline-local-computation` | 0 | — | Outline remark; no statement. |
 | `lemma-local-term-restriction-map` | 3 | medium | sk-lem-tf-curve-supported-pairing: local term = integral of ev∘rho∘[psi]; general correspondence form. |
-| `lemma-punctured-surface-punctured-curve` | 1 | high | det-tf-transverse-corner-constant: restriction RΓ(S−Y_S,F_ℓ)→RΓ(X_S−z,F_ℓ) bijective in all degrees. |
-| `lemma-cohomology-near-two-transverse-divisors` | 2 | high | sk-lem-tf-transverse-boundary: M_z=0, local constancy on D2−z, restriction to M_w zero. |
+| `lemma-punctured-surface-punctured-curve` | 1 | high | det-tf-transverse-corner-constant: restriction RΓ(S−Y_S,F_ℓ)→RΓ(X_S−z,F_ℓ) bijective in all degrees. 1 of the names are on its clauses. |
+| `lemma-cohomology-near-two-transverse-divisors` | 5 | high | sk-lem-tf-transverse-boundary: M_z=0, local constancy on D2−z, restriction to M_w zero. 3 of the names are on its clauses. |
 | `lemma-restriction-punctured-curve` | 1 | high | sk-lem-tf-punctured-restriction, stated exactly. |
-| `lemma-vanishing-restrictions-after-blowing-up` | 2 | high | sk-lem-tf-blowup-restriction (old name kept) plus the closed-subscheme form. |
+| `lemma-vanishing-restrictions-after-blowing-up` | 2 | high | sk-lem-tf-blowup-restriction (old name kept) plus the closed-subscheme form. 1 of the names are on its clauses. |
 | `lemma-covers-degree-prime-to-ell` | 3 | low | det-tf-restriction-zero-covers: Lean uses one global cover datum (prime-to-ℓ degree, ℓ-group monodromy); different route, no degree adjustment. |
-| `lemma-tangent-cones-on-cover` | 2 | medium | det-tf-restriction-zero-covers (ii)-(iii): tangent cones on T' meet at origin, H' regular. |
-| `lemma-descent-vanishing-finite-etale` | 3 | medium | det-tf-restriction-zero-trace-descent: pullback followed by trace is multiplication by d; vanishing descends. |
-| `lemma-vanishing-local-term-zero-stalk` | 3 | high | sk-lem-tf-curve-restriction-zero: rho=0 (classical model and Qlbar form), hence LT_y(psi)=0. |
-| `proposition-frobenius-local-term-curve` | 1 | high | sk-p-frob / thm-trf-frobenius-local-term: LT_y(v)=tr(v_y) on smooth curve, v arbitrary. |
+| `lemma-tangent-cones-on-cover` | 5 | medium | det-tf-restriction-zero-covers (ii)-(iii): tangent cones on T' meet at origin, H' regular. 1 of the names are on its clauses. |
+| `lemma-descent-vanishing-finite-etale` | 3 | medium | det-tf-restriction-zero-trace-descent: pullback followed by trace is multiplication by d; vanishing descends. 3 of the names are on its clauses. |
+| `lemma-vanishing-local-term-zero-stalk` | 3 | high | sk-lem-tf-curve-restriction-zero: rho=0 (classical model and Qlbar form), hence LT_y(psi)=0. 3 of the names are on its clauses. |
+| `proposition-frobenius-local-term-curve` | 1 | high | sk-p-frob / thm-trf-frobenius-local-term: LT_y(v)=tr(v_y) on smooth curve, v arbitrary. 1 of the names are on its clauses. |
 | `example-frobenius-projective-line` | 0 | — | Example; nothing formalizes it. |
 | `lemma-comparison-via-relative-frobenius` | 9 | high | sk-i-relative-frob parts (1)-(4); old relativeFrobenius finiteness names kept. |
-| `lemma-additivity-open-subscheme-complement` | 3 | high | sk-i-global-additivity: trace of RΓ_c(ψ)∘Φ^# additive over U and Z; induced piece correspondences. |
+| `lemma-additivity-open-subscheme-complement` | 7 | high | sk-i-global-additivity: trace of RΓ_c(ψ)∘Φ^# additive over U and Z; induced piece correspondences. |
 | `theorem-trace-formula-frobenius-correspondence` | 2 | high | sk-thm-tf-coefficient-morphism-formula; Lean coefficients are Qlbar, not finite A. |
 | `proposition-integral-trace-formula` | 0 | — | sk-prop-tf-transport-integral: no Lean; O_E-coefficient operators T_{c_m} not defined (RationalModel.lean notes). |
 | `lemma-integral-models-rational-frobenius-correspondences` | 3 | high | sk-lem-tf-rational-model; operator identity for T_{c_m} not formalized, stalk identity is. |
 | `remark-integral-frobenius-correspondences-not-invertible` | 0 | — | Remark (old sk-rem-tf-weil-lattices, no lean). |
-| `theorem-grothendieck-lefschetz-trace-formula` | 4 | high | Old det-thm-tf-uniform-formula-weil names (Qlbar form 12.4) plus new weilTraceFormula (Weil objects). |
-| `definition-trace-function` | 3 | high | def-fd-trace-function: t_K(x)=alternating trace of Frob on stalk; complex, sheaf and Weil-object versions. |
-| `corollary-trace-functions-direct-image-compact` | 1 | high | Exactly t_{Rf_!K}(y)=Σ_{x↦y} t_K(x) (twisted-Frobenius generalisation). |
+| `theorem-grothendieck-lefschetz-trace-formula` | 8 | high | Old det-thm-tf-uniform-formula-weil names (Qlbar form 12.4) plus new weilTraceFormula (Weil objects). 5 of the names are on its clauses. |
+| `definition-trace-function` | 2 | high | def-fd-trace-function: t_K(x)=alternating trace of Frob on stalk; complex, sheaf and Weil-object versions. |
+| `corollary-trace-functions-direct-image-compact` | 0 | high | Exactly t_{Rf_!K}(y)=Σ_{x↦y} t_K(x) (twisted-Frobenius generalisation). |
 | `example-trace-function-squaring` | 0 | — | Example; not formalized. |
-| `proposition-function-sheaf-dictionary` | 3 | medium | Parts (1),(2) (lisse tensor only),(4) via triangles; (3),(5) are the corollary/theorem names, not repeated. |
+| `proposition-function-sheaf-dictionary` | 4 | medium | Parts (1),(2) (lisse tensor only),(4) via triangles; (3),(5) are the corollary/theorem names, not repeated. 2 of the names are on its clauses. |
 | `lemma-logarithm-determinant` | 3 | high | sk-prop-logdet: vector-space identity; alternating product covers the perfect-complex version. |
-| `theorem-trace-formula-euler-product` | 1 | high | thm-trf-l-function-euler-product: L(X0,K,T)=∏ det(...)^{(-1)^{i+1}} coefficientwise. |
-| `corollary-point-counting-zeta-function` | 4 | medium | cor-trf-point-counting; Euler product over closed points; Z∈Q(T) (Dwork). Cohomological det product for constant sheaf not separately named. |
+| `theorem-trace-formula-euler-product` | 8 | high | thm-trf-l-function-euler-product: L(X0,K,T)=∏ det(...)^{(-1)^{i+1}} coefficientwise. 8 of the names are on its clauses. |
+| `corollary-point-counting-zeta-function` | 9 | medium | cor-trf-point-counting; Euler product over closed points; Z∈Q(T) (Dwork). Cohomological det product for constant sheaf not separately named. 8 of the names are on its clauses. |
 | `example-running-example-trace-formula` | 0 | — | Example; not formalized. |
 | `corollary-functional-equation` | 2 | medium | Old sk-cor-tf-functional-equation names (minus helper even_finrank_cohomology_middle) plus weil_functional_equation for Z(1/q^dT). [merge: weil_functional_equation kept on theorem-weil-conjectures-smooth-proper-schemes] |
 | `example-functional-equation-projective-line` | 0 | — | Example; not formalized. |
@@ -394,107 +395,107 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### Weights
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-weights` | 6 | medium | sk-d-real-weights: sheaf-level defs preferred over WeilGroup curve-rep defs; no separate pure-complex predicate found. |
-| `lemma-weil-sheaves-point-mixed` | 1 | medium | Weil sheaves on quasi-finite k0-schemes are mixed (Qlbar case; E-part not formalized). |
-| `lemma-bounding-weights-mixed-sheaf` | 2 | high | sk-lem-wgen-punctual-cutoff (both directions). |
+| `definition-weights` | 6 | medium | sk-d-real-weights: sheaf-level defs preferred over WeilGroup curve-rep defs; no separate pure-complex predicate found. 6 of the names are on its clauses. |
+| `lemma-weil-sheaves-point-mixed` | 1 | medium | Weil sheaves on quasi-finite k0-schemes are mixed (Qlbar case; E-part not formalized). 1 of the names are on its clauses. |
+| `lemma-bounding-weights-mixed-sheaf` | 2 | high | sk-lem-wgen-punctual-cutoff (both directions). 2 of the names are on its clauses. |
 | `example-kummer-extension` | 0 | — | Example; not formalized. |
-| `lemma-filtrations-spectra` | 5 | high | sk-p-linear-filtration and p-linear-spectra (filtration product, dual, wedge, tensor). |
-| `lemma-subobjects-quotients-weil-sheaves` | 4 | high | of_mono/of_epi for pure and for mixed of weights at most w state exactly the lemma (new in PR #200, split from the next proposition). |
-| `proposition-weights-under-usual-operations` | 11 | medium | sk-r-real-linear parts at sheaf level; mixed tensor/dual parts not found. Subobjects and quotients are in lemma-subobjects-quotients-weil-sheaves (PR #200). |
+| `lemma-filtrations-spectra` | 5 | high | sk-p-linear-filtration and p-linear-spectra (filtration product, dual, wedge, tensor). 4 of the names are on its clauses. |
+| `lemma-subobjects-quotients-weil-sheaves` | 4 | high | of_mono/of_epi for pure and for mixed of weights at most w state exactly the lemma (new in PR #200, split from the next proposition). 2 of the names are on its clauses. |
+| `proposition-weights-under-usual-operations` | 16 | medium | sk-r-real-linear parts at sheaf level; mixed tensor/dual parts not found. Subobjects and quotients are in lemma-subobjects-quotients-weil-sheaves (PR #200). 9 of the names are on its clauses. |
 | `lemma-geometric-coverings-normal-scheme` | 0 | — | sk-lem-wrp-normal-geometric-cover: no Lean found (old had none). |
 | `lemma-global-lattice-normal-scheme` | 2 | low | Lattice of a lisse sheaf (cocycle form) on regular schemes; tex is normal schemes. |
 | `proposition-lattices-representations-normal-scheme` | 2 | medium | sk-p-real-integral: lisse Qlbar-sheaves ≃ continuous reps on connected normal (regular) scheme. |
-| `theorem-weights-rf-shriek` | 1 | high | sk-cor-dl-general-complex: Rf_! D_{≤w} ⊂ D_{≤w}. |
+| `theorem-weights-rf-shriek` | 2 | high | sk-cor-dl-general-complex: Rf_! D_{≤w} ⊂ D_{≤w}. 2 of the names are on its clauses. |
 
 ### Purity of real sheaves
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-proper-smooth-model` | 2 | high | sk-i-real-compactification plus detail giving projectivity; étale boundary not stated separately. |
+| `lemma-proper-smooth-model` | 3 | high | sk-i-real-compactification plus detail giving projectivity; étale boundary not stated separately. 1 of the names are on its clauses. |
 | `proposition-kummer-duality-integral-tate-module` | 2 | medium | sk-d-real-jacobian datum (J[l^n]≃Pic[l^n]) plus finite-level dual-Tate pairing; transpose-matrix clause not formalized. |
-| `proposition-no-fixed-class-degree-one` | 1 | high | sk-prop-wrp-h1-no-fixed; proper case and residue steps are proof helpers. |
-| `lemma-invariant-additive-characters` | 1 | high | sk-lem-wrp-additive; Z_l-valued form of the statement. |
-| `theorem-rank-one-sheaves-have-finite` | 2 | high | sk-p-real-rankone sheaf form plus character form from detail thm-wf-rank-one-finite-geometric-image-curve. |
-| `corollary-rank-one-weights` | 3 | high | sk-cor-wrp-rankone-pure plus weight formula and independence of s (detail cor-wf-rank-one-punctual-purity-curve). |
-| `definition-determinant-weight` | 3 | high | def-wf-determinantal-weight, HasDetWeight (old sketch), multiset for DW(V). |
-| `corollary-determinant-weights` | 4 | medium | Details of sk-d-real-detweights; first two (Purity.lean) state purity/finite geometric det directly. |
+| `proposition-no-fixed-class-degree-one` | 1 | high | sk-prop-wrp-h1-no-fixed; proper case and residue steps are proof helpers. 1 of the names are on its clauses. |
+| `lemma-invariant-additive-characters` | 2 | high | sk-lem-wrp-additive; Z_l-valued form of the statement. 2 of the names are on its clauses. |
+| `theorem-rank-one-sheaves-have-finite` | 3 | high | sk-p-real-rankone sheaf form plus character form from detail thm-wf-rank-one-finite-geometric-image-curve. 1 of the names are on its clauses. |
+| `corollary-rank-one-weights` | 3 | high | sk-cor-wrp-rankone-pure plus weight formula and independence of s (detail cor-wf-rank-one-punctual-purity-curve). 1 of the names are on its clauses. |
+| `definition-determinant-weight` | 4 | high | def-wf-determinantal-weight, HasDetWeight (old sketch), multiset for DW(V). 2 of the names are on its clauses. |
+| `corollary-determinant-weights` | 5 | medium | Details of sk-d-real-detweights; first two (Purity.lean) state purity/finite geometric det directly. 2 of the names are on its clauses. |
 | `remark-determinant-weight-pure-constituents` | 0 | — | Old remark had no lean; no theorem found stating the rank-weighted average. |
-| `definition-weil-representation` | 1 | medium | IsLisse = continuity on geometric part; also listed on old sk-d-real-weil (possible overlap). |
-| `lemma-restriction-normal-subgroup` | 1 | high | sk-i-restriction. |
+| `definition-weil-representation` | 2 | medium | IsLisse = continuity on geometric part; also listed on old sk-d-real-weil (possible overlap). 1 of the names are on its clauses. |
+| `lemma-restriction-normal-subgroup` | 1 | high | sk-i-restriction. 1 of the names are on its clauses. |
 | `lemma-tensor-exterior-powers-filtered-representations` | 6 | medium | Detail nodes of sk-r-linear-library; dropped Jordan–Hölder/Schur helpers. |
-| `definition-monodromy-groups` | 2 | medium | From old d-monodromy detail (Zariski closures as vanishing ideals). |
-| `lemma-normality-geometric-monodromy` | 5 | high | sk-lem-walg-normal-commutator; dropped generic GL-group helpers. |
-| `lemma-identity-component` | 4 | high | sk-p-product / p-product; Lie and semisimplicity names dropped as proof steps. |
+| `definition-monodromy-groups` | 2 | medium | From old d-monodromy detail (Zariski closures as vanishing ideals). 2 of the names are on its clauses. |
+| `lemma-normality-geometric-monodromy` | 6 | high | sk-lem-walg-normal-commutator; dropped generic GL-group helpers. 1 of the names are on its clauses. |
+| `lemma-identity-component` | 5 | high | sk-p-product / p-product; Lie and semisimplicity names dropped as proof steps. 1 of the names are on its clauses. |
 | `definition-tensor-construction` | 0 | — | No Lean definition of tensor construction found. |
-| `proposition-central-element-arithmetic-monodromy-group` | 2 | medium | sk-p-central; .map transports central pair to polynomial (tensor) constructions. |
-| `lemma-determinant-weight-from-central-scalar` | 2 | high | sk-p-readout and its detail. |
-| `proposition-determinant-weights-tensor-operations` | 4 | high | sk-prop-walg-determinant-weights parts (1),(2); dual part (3) not found. |
-| `lemma-degree-zero-top-cohomology` | 5 | medium | Detail nodes of sk-lem-wrp-hc2 plus vanishing above 2 for lisse; H^2_c identification only for affine curves. |
-| `definition-real-sheaves` | 2 | high | Old sketch had WeilGroup.IsReal; WeilSheaf.IsReal is the sheaf-level definition. |
+| `proposition-central-element-arithmetic-monodromy-group` | 4 | medium | sk-p-central; .map transports central pair to polynomial (tensor) constructions. 4 of the names are on its clauses. |
+| `lemma-determinant-weight-from-central-scalar` | 3 | high | sk-p-readout and its detail. 1 of the names are on its clauses. |
+| `proposition-determinant-weights-tensor-operations` | 5 | high | sk-prop-walg-determinant-weights parts (1),(2); dual part (3) not found. 2 of the names are on its clauses. |
+| `lemma-degree-zero-top-cohomology` | 8 | medium | Detail nodes of sk-lem-wrp-hc2 plus vanishing above 2 for lisse; H^2_c identification only for affine curves. 4 of the names are on its clauses. |
+| `definition-real-sheaves` | 6 | high | Old sketch had WeilGroup.IsReal; WeilSheaf.IsReal is the sheaf-level definition. 6 of the names are on its clauses. |
 | `lemma-positivity-euler-factors` | 2 | high | lem-rp-even-tensor-positivity part (ii); sheaf and representation forms. |
 | `example-even-tensor-powers` | 0 | — | Example. |
-| `lemma-positivity-convergence` | 1 | high | lem-rp-positive-product-radius under sk-lem-wrp-positive-euler. |
+| `lemma-positivity-convergence` | 2 | high | lem-rp-positive-product-radius under sk-lem-wrp-positive-euler. 2 of the names are on its clauses. |
 | `proposition-bound-largest-determinant-weight` | 2 | high | sk-p-real-rankin and lem-rp-upper-bound (same statement, weight vs absolute value form). |
-| `theorem-purity-real-sheaves-curves` | 2 | high | sk-p-real-purity plus sheaf-level form from thm-rp-real-lisse-purity-affine. |
+| `theorem-purity-real-sheaves-curves` | 3 | high | sk-p-real-purity plus sheaf-level form from thm-rp-real-lisse-purity-affine. 3 of the names are on its clauses. |
 
 ### Pure sheaves on curves
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `definition-middle-extension` | 1 | high | Docstring cites def-wf-middle-extension: ordinary direct image j_*. |
-| `lemma-boundary-stalk` | 3 | medium | Frobenius-equivariant stalk = inertia invariants (unconditional); lisse extension clause, Weil and torsion forms (old sketch). |
+| `lemma-boundary-stalk` | 3 | medium | Frobenius-equivariant stalk = inertia invariants (unconditional); lisse extension clause, Weil and torsion forms (old sketch). 1 of the names are on its clauses. |
 | `example-boundary-stalks-g-m` | 0 | — | Example. |
-| `lemma-point-count-bound` | 1 | high | sk-lem-wrp-point-count; finite-scheme clause not separately formalized. |
-| `proposition-weights-j-boundary-points` | 2 | high | sk-p-real-semi plus sheaf form from lem-wf-boundary-semicontinuity. |
-| `corollary-unramified-boundary-point` | 3 | high | sk-cor-wrp-unramified-purity; sheaf versions of first clause and of 'pure on dense open ⇒ pure'. |
-| `lemma-extreme-degrees-affine-curve` | 4 | high | sk-l-dl-a1-endpoints / lem-a1-middle-extension-endpoints. |
-| `lemma-cohomological-range-curve` | 2 | medium | Weil-sheaf forms (dim ≤1, and old lem-zl-affine-curve-range affine case). |
-| `proposition-twisting-weight-zero-adding-dual` | 4 | medium | Details of sk-prop-wrp-real-envelope plus existence of b and weight-zero purity; trace=2Re not separately stated. |
-| `definition-growth-squared-traces` | 4 | high | def-wf-l2-norm under sk-def-wrp-l2-definition (S_n and nu for complexes and sheaves). |
+| `lemma-point-count-bound` | 2 | high | sk-lem-wrp-point-count; finite-scheme clause not separately formalized. 2 of the names are on its clauses. |
+| `proposition-weights-j-boundary-points` | 3 | high | sk-p-real-semi plus sheaf form from lem-wf-boundary-semicontinuity. 1 of the names are on its clauses. |
+| `corollary-unramified-boundary-point` | 3 | high | sk-cor-wrp-unramified-purity; sheaf versions of first clause and of 'pure on dense open ⇒ pure'. 1 of the names are on its clauses. |
+| `lemma-extreme-degrees-affine-curve` | 4 | high | sk-l-dl-a1-endpoints / lem-a1-middle-extension-endpoints. 4 of the names are on its clauses. |
+| `lemma-cohomological-range-curve` | 2 | medium | Weil-sheaf forms (dim ≤1, and old lem-zl-affine-curve-range affine case). 2 of the names are on its clauses. |
+| `proposition-twisting-weight-zero-adding-dual` | 8 | medium | Details of sk-prop-wrp-real-envelope plus existence of b and weight-zero purity; trace=2Re not separately stated. 7 of the names are on its clauses. |
+| `definition-growth-squared-traces` | 5 | high | def-wf-l2-norm under sk-def-wrp-l2-definition (S_n and nu for complexes and sheaves). 5 of the names are on its clauses. |
 | `lemma-radius-squared-traces` | 2 | high | lem-wf-l2-radius and the series definition def-wf-l2-series. |
-| `lemma-bounds-squared-traces` | 5 | medium | Part (1) via lem-wf-l2-upper; parts (2),(3) only through energy-bound and constant-twist lemmas. |
+| `lemma-bounds-squared-traces` | 5 | medium | Part (1) via lem-wf-l2-upper; parts (2),(3) only through energy-bound and constant-twist lemmas. 4 of the names are on its clauses. |
 | `lemma-growth-finite-corrections` | 1 | low | Gives nu(K) ≤ max(nu(L), a-1), the key inequality; equality conclusion not stated. |
-| `theorem-weights-sums-squared-traces` | 1 | high | sk-thm-wrp-l2-dictionary; real-case step dropped as proof helper. |
-| `corollary-sums-squared-traces-j-shriek` | 1 | medium | Old sk-lem-wft-l2-middle: nu(j_*M)=nu(M)=w, only on dense opens of A^1, no j_! clause. |
+| `theorem-weights-sums-squared-traces` | 2 | high | sk-thm-wrp-l2-dictionary; real-case step dropped as proof helper. 1 of the names are on its clauses. |
+| `corollary-sums-squared-traces-j-shriek` | 1 | medium | Old sk-lem-wft-l2-middle: nu(j_*M)=nu(M)=w, only on dense opens of A^1, no j_! clause. 1 of the names are on its clauses. |
 
 ### The Fourier transform
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-artin-schreier-character-sheaf` | 6 | medium | Weil-sheaf L_psi with multiplicativity, dual, trace, purity (details of sk-lem-as-properties); trivialization at zero absent. |
+| `lemma-artin-schreier-character-sheaf` | 11 | medium | Weil-sheaf L_psi with multiplicativity, dual, trace, purity (details of sk-lem-as-properties); trivialization at zero absent. 6 of the names are on its clauses. |
 | `example-gauss-sum-over-f-3` | 0 | — | Example. |
-| `lemma-kunneth-formula-compact-supports` | 0 | — | Old sketch empty; no Weil-complex compact-support Künneth found. |
-| `lemma-integral-linear-character` | 1 | low | Relative line-bundle vanishing (lambda≠0 case, old detail lem-fd-cohomology-affine-line-character); lambda=0 trace case not included. |
-| `proposition-base-change-fourier-inversion` | 4 | medium | Found by search (line over k0 only): fibre/base change, linearity over base, stalk formula. |
-| `proposition-fourier-inversion` | 3 | high | Found by search: both inversion formulas on the line (docstrings cite lem-fd-inversion). |
+| `lemma-kunneth-formula-compact-supports` | 2 | — | Old sketch empty; no Weil-complex compact-support Künneth found. 2 of the names are on its clauses. |
+| `lemma-integral-linear-character` | 2 | low | Relative line-bundle vanishing (lambda≠0 case, old detail lem-fd-cohomology-affine-line-character); lambda=0 trace case not included. |
+| `proposition-base-change-fourier-inversion` | 5 | medium | Found by search (line over k0 only): fibre/base change, linearity over base, stalk formula. 3 of the names are on its clauses. |
+| `proposition-fourier-inversion` | 4 | high | Found by search: both inversion formulas on the line (docstrings cite lem-fd-inversion). 2 of the names are on its clauses. |
 | `lemma-fourier-transform-constant-sheaf` | 2 | high | Found by search; docstrings cite lem-fd-first-formula. |
-| `corollary-plancherel` | 3 | high | sk-cor-plancherel details (cor-fd-plancherel, l2 shift) plus rank-r version. |
+| `corollary-plancherel` | 3 | high | sk-cor-plancherel details (cor-fd-plancherel, l2 shift) plus rank-r version. 2 of the names are on its clauses. |
 | `definition-punctual-sheaf` | 0 | — | Lean uses support.Finite inline; no punctual predicate. |
-| `lemma-largest-punctual-subsheaf` | 3 | low | Found by search: pieces on the affine line (kernel of unit punctual, no punctual maps into j_*M); maximality not stated. |
-| `definition-perverse-sheaves-curve` | 4 | high | Definitions from thm-a1-curve-perverse-heart detail. |
-| `lemma-perverse-sheaves-curve` | 4 | medium | sk-lem-wft-curve-heart detail; t-structure only via orthogonality, heart abelianness not formalized. |
+| `lemma-largest-punctual-subsheaf` | 3 | low | Found by search: pieces on the affine line (kernel of unit punctual, no punctual maps into j_*M); maximality not stated. 1 of the names are on its clauses. |
+| `definition-perverse-sheaves-curve` | 4 | high | Definitions from thm-a1-curve-perverse-heart detail. 4 of the names are on its clauses. |
+| `lemma-perverse-sheaves-curve` | 5 | medium | sk-lem-wft-curve-heart detail; t-structure only via orthogonality, heart abelianness not formalized. 3 of the names are on its clauses. |
 | `lemma-perverse-weil-sheaves` | 0 | — | Lean notes the curve perverse heart carries no abelian structure; not formalized. |
-| `lemma-simple-objects` | 3 | high | sk-lem-wft-curve-simples detail plus punctual simple criterion. |
+| `lemma-simple-objects` | 3 | high | sk-lem-wft-curve-simples detail plus punctual simple criterion. 1 of the names are on its clauses. |
 | `example-extension-by-zero-not-simple` | 0 | — | Example. |
-| `proposition-fourier-transform-perverse-heart` | 3 | high | sk-p-dl-a1-perverse and thm-a1-fourier-t-exact. |
-| `proposition-fourier-transform-middle-extension` | 2 | high | sk-p-dl-a1-middle; IsNonexceptional encodes the hypothesis. |
-| `lemma-unramified-at-infinity-no-linear-characters` | 2 | high | lem-a1-unramified-nonexceptional; plus ramification of L_psi(ax) at infinity. |
+| `proposition-fourier-transform-perverse-heart` | 3 | high | sk-p-dl-a1-perverse and thm-a1-fourier-t-exact. 3 of the names are on its clauses. |
+| `proposition-fourier-transform-middle-extension` | 4 | high | sk-p-dl-a1-middle; IsNonexceptional encodes the hypothesis. 2 of the names are on its clauses. |
+| `lemma-unramified-at-infinity-no-linear-characters` | 4 | high | lem-a1-unramified-nonexceptional; plus ramification of L_psi(ax) at infinity. 2 of the names are on its clauses. |
 
 ### Deligne's theorem for curves
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-fourier-transform-boundary-sequence` | 4 | high | Old sketch sk-p-dl-a1-correction (title-equal); structure plus existence, lisse and weight-bound parts. |
+| `lemma-fourier-transform-boundary-sequence` | 6 | high | Old sketch sk-p-dl-a1-correction (title-equal); structure plus existence, lisse and weight-bound parts. 2 of the names are on its clauses. |
 | `example-kummer-no-boundary` | 0 | — | Example; nothing states it. |
 | `lemma-twisted-envelope` | 0 | — | Old sketch sk-lem-wrp-twisted-envelope had no lean; no general statement found (isReal_realifiedKernel is only a special instance). |
-| `proposition-purity-lisse-part-fourier-transform` | 1 | high | Old sketch sk-p-dl-a1-some-weight; detail nodes are proof helpers. |
+| `proposition-purity-lisse-part-fourier-transform` | 2 | high | Old sketch sk-p-dl-a1-some-weight; detail nodes are proof helpers. 1 of the names are on its clauses. |
 | `theorem-weight-fourier-transform` | 1 | high | Old sketch sk-p-dl-a1-fourier-weight; eq_add_one/Plancherel detail names are proof steps. |
-| `corollary-h-1-c-stalk-fourier` | 2 | high | Old sketch sk-c-dl-a1-hc1 plus detail cor-fd-origin-stationary-phase (H^2_c=0 and H^1_c iso stalk at 0'). |
-| `lemma-local-duality-point-c-u` | 1 | high | Old sketch sk-i-dl-a1-local. |
+| `corollary-h-1-c-stalk-fourier` | 2 | high | Old sketch sk-c-dl-a1-hc1 plus detail cor-fd-origin-stationary-phase (H^2_c=0 and H^1_c iso stalk at 0'). 2 of the names are on its clauses. |
+| `lemma-local-duality-point-c-u` | 1 | high | Old sketch sk-i-dl-a1-local. 1 of the names are on its clauses. |
 | `example-local-duality-origin` | 0 | — | Example; nothing states it. |
-| `proposition-exactness-fixed-pure-weight` | 1 | high | Old sketch sk-p-dl-a1-exact. |
+| `proposition-exactness-fixed-pure-weight` | 1 | high | Old sketch sk-p-dl-a1-exact. 1 of the names are on its clauses. |
 | `theorem-weight-bound-affine-line` | 1 | high | Old sketch sk-thm-dl-a1-upper; dropped H^0_c=0 / H^2_c purity names, not in this statement. |
 | `lemma-weight-bound-constant-extension` | 1 | medium | Old detail lem-a1-weight-bound-constant-extension; Frobenius-module form, only the used direction. |
 | `lemma-finite-extension-base-field-moving` | 0 | — | Lean avoids this step (finite map to P^1 instead); old lem-a1-unramified-at-infinity names state only consequent H^1_c bounds. |
@@ -504,131 +505,131 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### Deligne's theorem in general
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-finite-quasi-finite-direct-images` | 6 | high | Old detail lem-zl-quasi-finite under sketch sk-l-dl-general-quasifinite: exactness, weight bounds, purity. |
+| `lemma-finite-quasi-finite-direct-images` | 8 | high | Old detail lem-zl-quasi-finite under sketch sk-l-dl-general-quasifinite: exactness, weight bounds, purity. 3 of the names are on its clauses. |
 | `lemma-detecting-irreducibility-finite-quotient` | 1 | high | Old sketch sk-lem-wgen-finite-witness. |
-| `lemma-curve-preserving-finite-cover` | 1 | high | Old sketch sk-lem-wgen-bertini-cover. |
+| `lemma-curve-preserving-finite-cover` | 1 | high | Old sketch sk-lem-wgen-bertini-cover. 1 of the names are on its clauses. |
 | `corollary-curve-preserving-geometric-irreducibility` | 1 | high | Old sketch sk-cor-wgen-bertini-irreducible. |
 | `lemma-geometric-constituents-after-constant-extension` | 1 | medium | Old sketch sk-lem-wgen-geometric-constituents; stated for representations (Weil group, normal geometric subgroup). |
 | `lemma-mixedness-descends-constant-extension` | 0 | — | No old lean; Lean proof of IsReal.isMixed avoids constant-extension descent; no matching statement found. |
-| `lemma-mixedness-open-closed` | 1 | medium | No old sketch; weight-bounded form (IsMixed is exists w) from old detail lem-zl-morphism-open-closed-reduction. |
-| `theorem-real-constructible-sheaves-are-mixed` | 1 | high | Old sketch sk-i-dl-general-real. |
-| `theorem-pure-lisse-sheaves-over-relative` | 1 | high | Old detail thm-zl-relative-affine-curve-core states general h; sketch's _of_affineLine is only the complement case. |
-| `lemma-weights-exact-sequence` | 1 | high | Old sketch sk-lem-wgen-triangle-weights had no lean; of_exact states it for an exact short complex. |
-| `lemma-weight-bounds-partitions` | 2 | medium | Parts (1) source and (2) target open-closed; Lean states them per morphism (all K) rather than per sheaf. |
-| `proposition-relative-affine-line` | 1 | high | Old sketch sk-prop-wgen-relative-line. |
+| `lemma-mixedness-open-closed` | 1 | medium | No old sketch; weight-bounded form (IsMixed is exists w) from old detail lem-zl-morphism-open-closed-reduction. 1 of the names are on its clauses. |
+| `theorem-real-constructible-sheaves-are-mixed` | 1 | high | Old sketch sk-i-dl-general-real. 1 of the names are on its clauses. |
+| `theorem-pure-lisse-sheaves-over-relative` | 4 | high | Old detail thm-zl-relative-affine-curve-core states general h; sketch's _of_affineLine is only the complement case. 3 of the names are on its clauses. |
+| `lemma-weights-exact-sequence` | 1 | high | Old sketch sk-lem-wgen-triangle-weights had no lean; of_exact states it for an exact short complex. 1 of the names are on its clauses. |
+| `lemma-weight-bounds-partitions` | 2 | medium | Parts (1) source and (2) target open-closed; Lean states them per morphism (all K) rather than per sheaf. 1 of the names are on its clauses. |
+| `proposition-relative-affine-line` | 1 | high | Old sketch sk-prop-wgen-relative-line. 1 of the names are on its clauses. |
 | `example-leading-coefficient-stratification` | 0 | — | Example; nothing states it. |
 | `lemma-relative-noether-normalization-over-stratification` | 1 | high | Old detail thm-zl-relative-noether states the partition form; sketch's dense version is the generic-step complement. |
-| `theorem-direct-image-mixed-sheaf` | 1 | high | Old sketch sk-thm-dl-general-sheaf. |
+| `theorem-direct-image-mixed-sheaf` | 1 | high | Old sketch sk-thm-dl-general-sheaf. 1 of the names are on its clauses. |
 
 ### Proof of the Weil conjectures
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `theorem-purity-higher-direct-images-under` | 2 | high | Old sketch sk-prop-smooth-proper-purity / detail prop-zl-smooth-proper-relative-purity. |
-| `corollary-purity-cohomology-smooth-proper-variety` | 2 | medium | Old sketch sk-input-weights; chose constant-sheaf purity statements (Lean assumes geometrically connected) over lisse/aux names. |
-| `lemma-hankel-rank-rationality` | 3 | high | Old sketch sk-prop-criterion: (1)<->(3), (2)<->(3), descent. |
+| `corollary-purity-cohomology-smooth-proper-variety` | 2 | medium | Old sketch sk-input-weights; chose constant-sheaf purity statements (Lean assumes geometrically connected) over lisse/aux names. 1 of the names are on its clauses. |
+| `lemma-hankel-rank-rationality` | 3 | high | Old sketch sk-prop-criterion: (1)<->(3), (2)<->(3), descent. 1 of the names are on its clauses. |
 | `lemma-reduced-fractions-integer-coefficients` | 1 | high | Old sketch sk-lem-wweil-integer-rationality. |
 | `definition-reciprocal-root` | 0 | — | No Lean definition of reciprocal root; Lean uses roots of P.reverse (Polynomial.ordinary_reciprocal_roots is a lemma). |
 | `lemma-reciprocal-roots-zeta` | 2 | low | From old sk-thm-weil-final details: parity products N_l/D_l separation and A^(l)=N_l, B^(l)=D_l; Lean route differs. |
-| `theorem-weil-conjectures-smooth-proper-schemes` | 5 | high | Old sketch sk-thm-weil-final; parts (1)-(4) via integral factors, RH, Betti, functional equation. |
+| `theorem-weil-conjectures-smooth-proper-schemes` | 6 | high | Old sketch sk-thm-weil-final; parts (1)-(4) via integral factors, RH, Betti, functional equation. 1 of the names are on its clauses. |
 | `example-zeta-projective-space-elliptic-curve` | 0 | — | Example; nothing states it. |
 | `example-running-example-purity` | 0 | — | Example; old sk-ex-ex-run-end had no lean. |
 | `corollary-point-count-estimates` | 2 | high | Old sketch sk-cor-hasse; general bound and curve case. Dropped abstract-form complement name. |
 
 ### Nagata compactification and Chow's lemma
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-compactification-refinement` | 6 | partial (reviewed) | Refinement has hj'=j and S-morphism; IsStrict is h^{-1}(X)=X; iff_app_injective is the 'i.e.' injectivity (for qc f). Not in Lean: Quasi-compactness of j is not a field of Compactification; it holds iff f is quasi-compact. |
-| `theorem-nagata-s-compactification-theorem` | 1 | full (reviewed) | Finite type = LocallyOfFiniteType + QuasiCompact; base CompactSpace + QuasiSeparatedSpace. |
-| `lemma-schematic-closure-uniqueness` | 5 | full (reviewed) | Mathlib image is a closed subscheme by construction; anonymous Mathlib instance gives U open in image; ker_pullback_snd gives flat base change (PR #200). Lean needs no quasi-separatedness of T. |
-| `lemma-uniqueness-maps-dense-open` | 1 | full (reviewed) | Primed version is literally the S-scheme form; the dense open is any scheme-theoretically dominant morphism. |
+| `definition-compactification-refinement` | 6 | partial (reviewed) | Refinement has hj'=j and S-morphism; IsStrict is h^{-1}(X)=X; iff_app_injective is the 'i.e.' injectivity (for qc f). Not in Lean: Quasi-compactness of j is not a field of Compactification; it holds iff f is quasi-compact. 3 of the names are on its clauses. |
+| `theorem-nagata-s-compactification-theorem` | 1 | full (reviewed) | Finite type = LocallyOfFiniteType + QuasiCompact; base CompactSpace + QuasiSeparatedSpace. 1 of the names are on its clauses. |
+| `lemma-schematic-closure-uniqueness` | 6 | full (reviewed) | Mathlib image is a closed subscheme by construction; anonymous Mathlib instance gives U open in image; ker_pullback_snd gives flat base change (PR #200). Lean needs no quasi-separatedness of T. 2 of the names are on its clauses. |
+| `lemma-uniqueness-maps-dense-open` | 2 | full (reviewed) | Primed version is literally the S-scheme form; the dense open is any scheme-theoretically dominant morphism. 1 of the names are on its clauses. |
 | `lemma-passing-schematic-closure` | 4 | partial (reviewed) | Pushforward comparison j_!≅i_*j_{Z,!} and Rp_*j_!≅R(pi)_*j_{Z,!} for E and Q̄_ℓ, with i the proper refinement Z→X̄. Not in Lean: Only bounded constructible complexes of E- or Q̄_ℓ-sheaves over a field k, not arbitrary Λ and unbounded K; stated for any proper strict refinement h, not specifically the schematic closure. |
 | `remark-non-noetherian-compactifications` | 2 | partial (reviewed) | Lean states only the last sentence: dense refinements exist for any compactification of a quasi-compact morphism. Not in Lean: The scope remarks (same proof when complement is quasi-compact; failure of exactness otherwise) are not stated. |
 | `proposition-dense-compactifications-form-cofiltered-category` | 3 | full (reviewed) | Common dense refinement holds for any nonempty finite family of compactifications of qc f; refinement_morphisms gives proper, h^{-1}(X)=X, unique. |
-| `remark-base-change-compactification` | 2 | partial (reviewed) | Closure of X×S' being dense is denseRefinement (given to remark-non-noetherian-compactifications). Not in Lean: Agreement of the base-changed direct image with the schematic-closure one, and comparisons on common refinements, are not stated as such. |
-| `definition-admissible-blow-up` | 3 | full (reviewed) | Blow-up glued from affine Rees-algebra charts; IsAdmissible has finite-type ideal and center disjoint from U. Lean drops the qcqs hypotheses. |
-| `lemma-making-open-schematically-dense` | 2 | full (reviewed) | Cartier boundary J with support = complement of preimage of U; complement of an invertible ideal's support is dense, so the preimage is dense. |
+| `remark-base-change-compactification` | 6 | partial (reviewed) | Closure of X×S' being dense is denseRefinement (given to remark-non-noetherian-compactifications). Not in Lean: Agreement of the base-changed direct image with the schematic-closure one, and comparisons on common refinements, are not stated as such. |
+| `definition-admissible-blow-up` | 3 | full (reviewed) | Blow-up glued from affine Rees-algebra charts; IsAdmissible has finite-type ideal and center disjoint from U. Lean drops the qcqs hypotheses. 3 of the names are on its clauses. |
+| `lemma-making-open-schematically-dense` | 4 | full (reviewed) | Cartier boundary J with support = complement of preimage of U; complement of an invertible ideal's support is dense, so the preimage is dense. |
 | `example-blow-up-embedded-point` | 0 | none (reviewed) | Example. Not in Lean: Lean has no computation of this example. |
-| `definition-strict-transform` | 3 | full (reviewed) | Lean defines it as the scheme-theoretic image of the part over the complement of the centre, i.e. ideal of sections supported on the preimage of E. |
-| `lemma-products-composites-u-admissible-blow` | 4 | full (reviewed) | Common blow-up stated for two centres (product ideal dominates each); finite families by induction. |
+| `definition-strict-transform` | 4 | full (reviewed) | Lean defines it as the scheme-theoretic image of the part over the complement of the centre, i.e. ideal of sections supported on the preimage of E. 3 of the names are on its clauses. |
+| `lemma-products-composites-u-admissible-blow` | 5 | full (reviewed) | Common blow-up stated for two centres (product ideal dominates each); finite families by induction. 3 of the names are on its clauses. |
 | `definition-quasi-domination` | 1 | full (reviewed) | Fields: dense open U, S-map hom, closed graph in Y ×_S X. |
-| `proposition-relative-form-zariski-s-main` | 2 | full (reviewed) | Factorization and quasi-affineness, same hypotheses. |
-| `theorem-extension-partial-section` | 1 | full (reviewed) | Lean also assumes Y qcqs, which follows from p qc and separated over qcqs T. |
+| `proposition-relative-form-zariski-s-main` | 2 | full (reviewed) | Factorization and quasi-affineness, same hypotheses. 1 of the names are on its clauses. |
+| `theorem-extension-partial-section` | 1 | full (reviewed) | Lean also assumes Y qcqs, which follows from p qc and separated over qcqs T. 1 of the names are on its clauses. |
 | `corollary-extension-proper-target` | 1 | full (reviewed) | Same statement. |
-| `theorem-elimination-indeterminacy` | 1 | partial (reviewed) | Density follows for the witness eliminationBlowup via coe_support_eliminationCentre and isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support; not packaged. Not in Lean: Schematic density of the preimage of U in T' is not stated by the existence theorem. |
-| `lemma-extending-graph-from-compactification` | 2 | full (reviewed) | ProperExtension packages the V-admissible blow-up, V', proper ψ, ψ^{-1}(V)=V and ψ\|_V = id. |
-| `lemma-separation-closures` | 1 | full (reviewed) | Constructible closed subsets of qcqs V are given as closed sets with quasi-compact complement. |
-| `lemma-extending-isomorphism-over-closure-closed` | 1 | full (reviewed) | Same statement. |
-| `lemma-gluing-after-admissible-blow-ups` | 3 | full (reviewed) | Density statement assumes T_i qcqs, automatic for finite type over qcqs S. |
+| `theorem-elimination-indeterminacy` | 3 | partial (reviewed) | Density follows for the witness eliminationBlowup via coe_support_eliminationCentre and isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support; not packaged. Not in Lean: Schematic density of the preimage of U in T' is not stated by the existence theorem. 2 of the names are on its clauses. |
+| `lemma-extending-graph-from-compactification` | 2 | full (reviewed) | ProperExtension packages the V-admissible blow-up, V', proper ψ, ψ^{-1}(V)=V and ψ\|_V = id. 2 of the names are on its clauses. |
+| `lemma-separation-closures` | 1 | full (reviewed) | Constructible closed subsets of qcqs V are given as closed sets with quasi-compact complement. 1 of the names are on its clauses. |
+| `lemma-extending-isomorphism-over-closure-closed` | 2 | full (reviewed) | Same statement. 1 of the names are on its clauses. |
+| `lemma-gluing-after-admissible-blow-ups` | 4 | full (reviewed) | Density statement assumes T_i qcqs, automatic for finite type over qcqs S. 2 of the names are on its clauses. |
 | `proposition-compactifying-union-two-opens` | 1 | full (reviewed) | Same statement over a Noetherian base. |
-| `lemma-affine-covers-dense-intersection` | 3 | partial (reviewed) | Cover part needs only X quasi-compact with finitely many irreducible components. Not in Lean: No single statement that each U_r has a compactification closed in P^n_S; projectiveClosure_spec needs an immersion into A^n_S (Stacks 04II). |
-| `theorem-chow-s-lemma-projective-form` | 2 | full (reviewed) | exists_chow_finite_type gives π proper surjective and immersion i_S; chow_relative_ample upgrades for proper f (also states extra ampleness). |
+| `lemma-affine-covers-dense-intersection` | 3 | partial (reviewed) | Cover part needs only X quasi-compact with finitely many irreducible components. Not in Lean: No single statement that each U_r has a compactification closed in P^n_S; projectiveClosure_spec needs an immersion into A^n_S (Stacks 04II). 1 of the names are on its clauses. |
+| `theorem-chow-s-lemma-projective-form` | 4 | full (reviewed) | exists_chow_finite_type gives π proper surjective and immersion i_S; chow_relative_ample upgrades for proper f (also states extra ampleness). 3 of the names are on its clauses. |
 
 ### Abelian varieties
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `example-cube-two-factors` | 0 | none (reviewed) | Illustrative example; nothing in Lean states it. Not in Lean: the whole example (elliptic curve line bundle trivial on slices but not trivial) |
-| `lemma-triviality-fibres` | 2 | full (reviewed) | Part 1 with B = L^{-1} via A⊗B≅O; part 2 is the closedness for N = O. Lean works over a general proper flat base with geometrically integral fibres. |
+| `lemma-triviality-fibres` | 2 | full (reviewed) | Part 1 with B = L^{-1} via A⊗B≅O; part 2 is the closedness for N = O. Lean works over a general proper flat base with geometrically integral fibres. 2 of the names are on its clauses. |
 | `corollary-triviality-over-open-cover-base` | 0 | none (reviewed) | Lean glues along a section instead (nonempty_iso_of_forall_exists_nonempty_iso_preimageSnd), which is a different statement. Not in Lean: f_*L invertible and f^*f_*L -> L an isomorphism |
 | `lemma-h-1-structure-sheaf-product` | 0 | none (reviewed) | Lean only has H^1 vanishing of the cross ideal (TheoremOfCube.subsingleton_H_one_crossIdeal), a proof input, not this statement. Not in Lean: the restriction isomorphism H^1(PxQ,O) -> H^1(P,O)+H^1(Q,O) |
-| `lemma-triviality-near-fibre` | 1 | full (reviewed) | Stated for M, N isomorphic on the slices and on the fibre over a field-valued point; L case is N = O. |
+| `lemma-triviality-near-fibre` | 2 | full (reviewed) | Stated for M, N isomorphic on the slices and on the fibre over a field-valued point; L case is N = O. 1 of the names are on its clauses. |
 | `theorem-theorem-cube` | 1 | full (reviewed) | Lean form M ≅ N from isomorphisms on three slices; L case is N = O. nonempty_iso_cube is the abelian-variety corollary, not this node. |
 | `lemma-rigidity` | 1 | full (reviewed) | Local rigidity; Lean assumes X geometrically connected and geometrically reduced, weaker than geometrically integral. |
-| `definition-abelian-variety` | 3 | partial (reviewed) | Class uses ConnectedSpace; the iff bridges to geometric connectedness. A[n] = kernel of 𝟙 A ^ n. Not in Lean: symmetric invertible sheaf ([-1]^*L ≅ L) has no Lean definition; [n] is just 𝟙 A ^ n |
-| `lemma-abelian-variety-commutative` | 2 | full (reviewed) | Both assertions are instances. |
+| `definition-abelian-variety` | 3 | partial (reviewed) | Class uses ConnectedSpace; the iff bridges to geometric connectedness. A[n] = kernel of 𝟙 A ^ n. Not in Lean: symmetric invertible sheaf ([-1]^*L ≅ L) has no Lean definition; [n] is just 𝟙 A ^ n 2 of the names are on its clauses. |
+| `lemma-abelian-variety-commutative` | 2 | full (reviewed) | Both assertions are instances. 2 of the names are on its clauses. |
 | `lemma-symmetric-ample-sheaf` | 4 | full (reviewed) | Projectivity; an ample L exists; L⊗[-1]^*L is ample and symmetric. |
-| `proposition-pullback-multiplication-n` | 1 | partial (reviewed) | Only the symmetric case [n]^*N ≅ N^{n^2} is in Lean. nonempty_iso_cube (the trivial sheaf on AxAxA) is a proof input. Not in Lean: the general formula [n]^*L ≅ L^{n(n+1)/2} ⊗ ([-1]^*L)^{n(n-1)/2} for non-symmetric L |
-| `proposition-multiplication-n` | 6 | full (reviewed) | Étale part is stated as CharP K p with p not dividing n, which is the same as n invertible. |
-| `definition-tate-module` | 3 | full (reviewed) | T_l is defined as T_l(A(kbar)); the Equiv identifies it with the limit of A[l^n](kbar) along multiplication by l. |
-| `proposition-integral-tate-module` | 3 | partial (reviewed) | The Galois action on T_l is defined componentwise. Field invariance for A over an algebraically closed field is bijective_toUnit_comp_torsionSubgroupScheme, which is assigned to the torsion corollary. Not in Lean: T_l/l^n T_l ≅ A[l^n](kbar); Galois equivariance of the transition maps and projections as statements; invariance under larger algebraically closed fields for A over a non-closed k |
+| `proposition-pullback-multiplication-n` | 1 | partial (reviewed) | Only the symmetric case [n]^*N ≅ N^{n^2} is in Lean. nonempty_iso_cube (the trivial sheaf on AxAxA) is a proof input. Not in Lean: the general formula [n]^*L ≅ L^{n(n+1)/2} ⊗ ([-1]^*L)^{n(n-1)/2} for non-symmetric L 1 of the names are on its clauses. |
+| `proposition-multiplication-n` | 7 | full (reviewed) | Étale part is stated as CharP K p with p not dividing n, which is the same as n invertible. 3 of the names are on its clauses. |
+| `definition-tate-module` | 3 | full (reviewed) | T_l is defined as T_l(A(kbar)); the Equiv identifies it with the limit of A[l^n](kbar) along multiplication by l. 2 of the names are on its clauses. |
+| `proposition-integral-tate-module` | 5 | partial (reviewed) | The Galois action on T_l is defined componentwise. Field invariance for A over an algebraically closed field is bijective_toUnit_comp_torsionSubgroupScheme, which is assigned to the torsion corollary. Not in Lean: T_l/l^n T_l ≅ A[l^n](kbar); Galois equivariance of the transition maps and projections as statements; invariance under larger algebraically closed fields for A over a non-closed k 1 of the names are on its clauses. |
 | `proposition-no-frobenius-fixed-vector` | 3 | partial (reviewed) | The automorphism is stated for arithmetic Frobenius σ; σ-1 is bijective exactly when F-1 = σ^{-1}-1 is. Not in Lean: the powers F^m with m>1 (Lean has m=1 over any finite base field, so F^m only through base change to F_{q^m}); F^m-1 an automorphism of V_l A ⊗ E |
 
 ### The Picard scheme of a curve
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `definition-relative-picard-functor` | 2 | full (reviewed) | Lean sheafifies T ↦ Pic(C_T) and does not quotient by Pic(T) first; Zariski-locally trivial classes die, so the fppf sheaf is the same. Representability is used as RepresentableBy, with no named Picard-scheme definition. |
-| `lemma-rigidification-along-section` | 8 | full (reviewed) | Rigidified pairs are classes with σ_T^*L trivial. Surjectivity onto Pic_{C/S}(T) and the splitting are in bijective_pic_split. The normalization formula is picMulEquivProdPicardFunctorNormalized. |
-| `theorem-riemann-roch-coherent-serre-duality` | 6 | full (reviewed) | Lean's Modules.degree is defined as χ(L)-χ(O), so RR is χ(O)=1-g. deg L ≥ 2g-1 matches deg L > 2g-2. dim H^0(ω)=g moved here in PR #200. |
-| `corollary-serre-duality-field-extension` | 1 | partial (reviewed) | Only the invariance of the genus under field extension. Not in Lean: compatibility of the Serre duality pairing with extension of scalars. dim H^0(ω)=g is in theorem-riemann-roch-coherent-serre-duality (PR #200). |
-| `lemma-coherent-base-change-invertible-sheaves` | 6 | partial (reviewed) | Use i=0, r=1: the open locus U_{0,1}, f_*L invertible there, base change of f_*L, and R^1=0. Perfectness is stated over a Noetherian base only. Not in Lean: local perfectness of Rf_*L over an arbitrary (non-Noetherian) k-scheme T |
-| `theorem-hilbert-schemes-points-smooth-curve` | 4 | full (reviewed) | The Hilbert functor is by definition finite locally free degree-d closed subschemes; isInvertible gives the Cartier property for every T. |
-| `proposition-divisors-degree-g-open-chart` | 3 | full (reviewed) | Lean assumes k separably closed with a rational point σ; F is picardFunctorInvertibleDirectImage. |
-| `lemma-twisting-h-0-1-h` | 1 | full (reviewed) | Exact match: k separably closed, any extension K, an invertible M_0 on C. |
-| `lemma-representability-picard-functor` | 1 | partial (reviewed) | Lean assumes geometrically integral, which the text derives from connected over k separably closed. Represented by a group scheme compatible with ⊗. Not in Lean: locally of finite type; cover by the translates M^{-1}F (only the general criterion exists_isOpenImmersion_of_representable_open_subfunctor) |
+| `definition-relative-picard-functor` | 2 | full (reviewed) | Lean sheafifies T ↦ Pic(C_T) and does not quotient by Pic(T) first; Zariski-locally trivial classes die, so the fppf sheaf is the same. Representability is used as RepresentableBy, with no named Picard-scheme definition. 1 of the names are on its clauses. |
+| `lemma-rigidification-along-section` | 10 | full (reviewed) | Rigidified pairs are classes with σ_T^*L trivial. Surjectivity onto Pic_{C/S}(T) and the splitting are in bijective_pic_split. The normalization formula is picMulEquivProdPicardFunctorNormalized. 3 of the names are on its clauses. |
+| `theorem-riemann-roch-coherent-serre-duality` | 6 | full (reviewed) | Lean's Modules.degree is defined as χ(L)-χ(O), so RR is χ(O)=1-g. deg L ≥ 2g-1 matches deg L > 2g-2. dim H^0(ω)=g moved here in PR #200. 6 of the names are on its clauses. |
+| `corollary-serre-duality-field-extension` | 1 | partial (reviewed) | Only the invariance of the genus under field extension. Not in Lean: compatibility of the Serre duality pairing with extension of scalars. dim H^0(ω)=g is in theorem-riemann-roch-coherent-serre-duality (PR #200). 1 of the names are on its clauses. |
+| `lemma-coherent-base-change-invertible-sheaves` | 7 | partial (reviewed) | Use i=0, r=1: the open locus U_{0,1}, f_*L invertible there, base change of f_*L, and R^1=0. Perfectness is stated over a Noetherian base only. Not in Lean: local perfectness of Rf_*L over an arbitrary (non-Noetherian) k-scheme T 2 of the names are on its clauses. |
+| `theorem-hilbert-schemes-points-smooth-curve` | 4 | full (reviewed) | The Hilbert functor is by definition finite locally free degree-d closed subschemes; isInvertible gives the Cartier property for every T. 4 of the names are on its clauses. |
+| `proposition-divisors-degree-g-open-chart` | 3 | full (reviewed) | Lean assumes k separably closed with a rational point σ; F is picardFunctorInvertibleDirectImage. 2 of the names are on its clauses. |
+| `lemma-twisting-h-0-1-h` | 2 | full (reviewed) | Exact match: k separably closed, any extension K, an invertible M_0 on C. 1 of the names are on its clauses. |
+| `lemma-representability-picard-functor` | 0 | partial (reviewed) | Lean assumes geometrically integral, which the text derives from connected over k separably closed. Represented by a group scheme compatible with ⊗. Not in Lean: locally of finite type; cover by the translates M^{-1}F (only the general criterion exists_isOpenImmersion_of_representable_open_subfunctor) |
 | `lemma-tangent-space-picard-functor` | 1 | full (reviewed) | ker(Pic(X[ε]) -> Pic X) ≅ H^1(X,O_X), also compatible with scaling. |
-| `theorem-picard-scheme-jacobian-over-separably` | 7 | partial (reviewed) | theorem_of_the_base gives representability, the decomposition, the components and their k-points; exists_jacobian_baseChange gives J abelian, J(k)=Pic^0 and base change. Not in Lean: base change of the degree-d components (stated by nonempty_representableBy_picardFunctorDegree_baseChange, assigned to proposition-jacobian-over-ground-field) |
-| `corollary-degree-jacobian` | 5 | full (reviewed) | Kernel is Pic^0; J(C)(k)=Pic^0 comes from the main theorem (exists_jacobian_baseChange). |
+| `theorem-picard-scheme-jacobian-over-separably` | 14 | partial (reviewed) | theorem_of_the_base gives representability, the decomposition, the components and their k-points; exists_jacobian_baseChange gives J abelian, J(k)=Pic^0 and base change. Not in Lean: base change of the degree-d components (stated by nonempty_representableBy_picardFunctorDegree_baseChange, assigned to proposition-jacobian-over-ground-field) 10 of the names are on its clauses. |
+| `corollary-degree-jacobian` | 6 | full (reviewed) | Kernel is Pic^0; J(C)(k)=Pic^0 comes from the main theorem (exists_jacobian_baseChange). 4 of the names are on its clauses. |
 | `example-degree-sequence-genus-zero-one` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the computations for P^1 and elliptic curves |
 | `example-two-torsion-elliptic-curve` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the 2-torsion of y^2=(x-e1)(x-e2)(x-e3) |
-| `corollary-torsion-jacobian-field-extension` | 4 | full (reviewed) | J[n](k) ≅ (Z/n)^{2g} is stated through Pic[n]. Field invariance comes from bijective_toUnit together with jacobian_compatibility (J(C_k') = J(C)_k'). ker of deg mod n is nPic. |
-| `proposition-jacobian-over-ground-field` | 1 | full (reviewed) | exists_jacobian_descent: J_0 proper, smooth of dim g, geometrically integral commutative group representing Pic^0, base change to kbar, Galois-equivariant J_0(kbar)=Pic^0(C). |
+| `corollary-torsion-jacobian-field-extension` | 8 | full (reviewed) | J[n](k) ≅ (Z/n)^{2g} is stated through Pic[n]. Field invariance comes from bijective_toUnit together with jacobian_compatibility (J(C_k') = J(C)_k'). ker of deg mod n is nPic. 6 of the names are on its clauses. |
+| `proposition-jacobian-over-ground-field` | 2 | full (reviewed) | exists_jacobian_descent: J_0 proper, smooth of dim g, geometrically integral commutative group representing Pic^0, base change to kbar, Galois-equivariant J_0(kbar)=Pic^0(C). 2 of the names are on its clauses. |
 | `proposition-h-1-curve-tate-module` | 4 | partial (reviewed) | Lean's version is for finite K, the case the main text needs. Possible overlap with proposition-kummer-duality-integral-tate-module, which holds JacobianTorsionDatum. Not in Lean: a general ground field (Lean: finite fields only); pro-étale rather than étale cohomology; the inverse-limit isomorphism with T_l J_0 |
 
 ### Cohomology of torsion sheaves on curves
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `lemma-cohomology-multiplicative-group` | 3 | full (reviewed) | Etale version carries naturality under pullback; pro-etale version for nu^*G_m; Br=0 for smooth C (a version without smoothness, IsCurve.subsingleton_cohomologicalBrauerGroup, also exists). |
+| `lemma-cohomology-multiplicative-group` | 9 | full (reviewed) | Etale version carries naturality under pullback; pro-etale version for nu^*G_m; Br=0 for smooth C (a version without smoothness, IsCurve.subsingleton_cohomologicalBrauerGroup, also exists). 7 of the names are on its clauses. |
 | `proposition-smooth-proper-curves-torsion-prime` | 1 | full (reviewed) | Single theorem bundling H^0..H^q, J[n](k), degree mod n, and invariance under algebraically closed extension (etale site). |
 | `remark-twists-projective-line` | 0 | none (reviewed) | Remark; nothing in Lean states it. Not in Lean: Twist identification H^2(C,Z/n)=(Z/n)(-1) and the P^1 normalization are not stated. |
-| `proposition-cohomology-smooth-affine-curve` | 5 | partial (reviewed) | IsConnectedCurve.sheafH_constantZMod_of_isAffine is declared inside namespace AlgebraicGeometry (lk.py indexes it without the prefix). Not in Lean: Surjectivity of the sum map onto Z/n; H^1(U) only as cardinality n^(2g+#D-1), not as (Z/n)^r; Lean uses Z/n coefficients with residues in Z/n(-1) instead of mu_n. |
-| `proposition-p-torsion-smooth-proper-curve` | 4 | partial (reviewed) | Finiteness and base change are stated for Lambda/r coefficients (r prime), which include F_p. Not in Lean: H^1 is identified with the Frobenius fixed points of an unnamed finite-dimensional V, not explicitly H^1(C,O_C); the bound dim_Fp H^1 <= g is not stated. |
-| `lemma-p-torsion-affine-curve-characteristic` | 1 | partial (reviewed) | Vanishing for q>=2 holds for any affine scheme with p=0. Not in Lean: H^1(U,F_p) = Gamma(U,O)/(phi-1)Gamma(U,O) is not stated; pro-etale transfer not stated. |
+| `proposition-cohomology-smooth-affine-curve` | 5 | partial (reviewed) | IsConnectedCurve.sheafH_constantZMod_of_isAffine is declared inside namespace AlgebraicGeometry (lk.py indexes it without the prefix). Not in Lean: Surjectivity of the sum map onto Z/n; H^1(U) only as cardinality n^(2g+#D-1), not as (Z/n)^r; Lean uses Z/n coefficients with residues in Z/n(-1) instead of mu_n. 3 of the names are on its clauses. |
+| `proposition-p-torsion-smooth-proper-curve` | 5 | partial (reviewed) | Finiteness and base change are stated for Lambda/r coefficients (r prime), which include F_p. Not in Lean: H^1 is identified with the Frobenius fixed points of an unnamed finite-dimensional V, not explicitly H^1(C,O_C); the bound dim_Fp H^1 <= g is not stated. 3 of the names are on its clauses. |
+| `lemma-p-torsion-affine-curve-characteristic` | 4 | partial (reviewed) | Vanishing for q>=2 holds for any affine scheme with p=0. Not in Lean: H^1(U,F_p) = Gamma(U,O)/(phi-1)Gamma(U,O) is not stated; pro-etale transfer not stated. 4 of the names are on its clauses. |
 | `example-affine-line-characteristic-p` | 0 | none (reviewed) | Example; no Lean statement. Not in Lean: The computation of H^1(A^1,F_p) and its failure of finiteness/invariance are only mentioned in docstrings. |
-| `lemma-finite-morphisms-cohomology` | 1 | partial (reviewed) | Etale-site statements only. Not in Lean: Exactness and base change of h_* (on the etale site they are lemma-finite-morphisms' names); pro-etale classical versions not stated. |
-| `lemma-sheaves-finite-support-finite-morphisms` | 3 | partial (reviewed) | Vanishing stated in general on C; H^0 and invariance via the zero-dimensional case. Not in Lean: H^0 as the sum of stalks and its field-extension invariance are stated only for zero-dimensional C (the support), not for a sheaf on C supported at finitely many points. |
+| `lemma-finite-morphisms-cohomology` | 3 | partial (reviewed) | Etale-site statements only. Not in Lean: Exactness and base change of h_* (on the etale site they are lemma-finite-morphisms' names); pro-etale classical versions not stated. 3 of the names are on its clauses. |
+| `lemma-sheaves-finite-support-finite-morphisms` | 5 | partial (reviewed) | Vanishing stated in general on C; H^0 and invariance via the zero-dimensional case. Not in Lean: H^0 as the sum of stalks and its field-extension invariance are stated only for zero-dimensional C (the support), not for a sheaf on C supported at finitely many points. 3 of the names are on its clauses. |
 | `lemma-normalization-constant-sheaf` | 1 | partial (reviewed) | Lean: for finite surjective nu iso over a dense open, M_C -> nu_* M is mono with constructible cokernel vanishing on that open (j_! generality). Not in Lean: Branch formula M^b/Delta M for the cokernel; compatibility with algebraically closed extension; arbitrary finite M (Lean: Lambda/l). |
-| `lemma-removing-finitely-many-points` | 1 | full (reviewed) | Matches hypotheses: reduced curve, dense open, constructible F with rF=0, assertions C1-C8. |
-| `lemma-reduction-unipotent-local-system` | 1 | full (reviewed) | Cover of degree prime to l, filtration by constant F_l, and retraction of the unit. |
+| `lemma-removing-finitely-many-points` | 4 | full (reviewed) | Matches hypotheses: reduced curve, dense open, constructible F with rF=0, assertions C1-C8. 3 of the names are on its clauses. |
+| `lemma-reduction-unipotent-local-system` | 3 | full (reviewed) | Cover of degree prime to l, filtration by constant F_l, and retraction of the unit. 2 of the names are on its clauses. |
 
 ### Specialization and contracting correspondences
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `example-nearby-cycles-node` | 0 | — | Example; nothing states it. |
 | `lemma-nearby-cycles-constant-family` | 0 | — | Lean has only point/trait cases (isIso_traitModel_unit); general constant family not found. |
@@ -664,16 +665,498 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ### Algebraic groups in characteristic zero
 
-| Declaration | Lean names | Confidence | Note |
+| Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
-| `proposition-cartier-s-theorem` | 3 | full (reviewed) | Algebraic group = group scheme of finite type over Omega, so the general GrpObj statements suffice. Lie(G°)=Lie(G) is in lemma-connected-components-images-homomorphisms (PR #200). |
-| `lemma-connected-components-images-homomorphisms` | 8 | full (reviewed) | Subgroup structure of G° is an instance (GrpObj, IsMonHom.Normal) on GrpObj.identityComponent; Lie(G°)=Lie(G) moved here in PR #200. |
+| `proposition-cartier-s-theorem` | 6 | full (reviewed) | Algebraic group = group scheme of finite type over Omega, so the general GrpObj statements suffice. Lie(G°)=Lie(G) is in lemma-connected-components-images-homomorphisms (PR #200). 3 of the names are on its clauses. |
+| `lemma-connected-components-images-homomorphisms` | 12 | full (reviewed) | Subgroup structure of G° is an instance (GrpObj, IsMonHom.Normal) on GrpObj.identityComponent; Lie(G°)=Lie(G) moved here in PR #200. 7 of the names are on its clauses. |
 | `lemma-stable-subspaces-center` | 2 | full (reviewed) | Stability statement for connected G with rational representation; centre formula for connected closed subgroups of GL_n. |
-| `lemma-lie-s-theorem` | 1 | full (reviewed) | Lean assumes char 0 and triangularizable action, automatic over Omega. |
+| `lemma-lie-s-theorem` | 1 | full (reviewed) | Lean assumes char 0 and triangularizable action, automatic over Omega. 1 of the names are on its clauses. |
 | `lemma-engel-s-theorem` | 2 | partial (reviewed) | Solvability follows from nilpotency by a Mathlib instance. Not in Lean: The strictly upper triangular basis is stated only as nilpotency of M as a Lie module (equivalent flag form). |
 | `lemma-cartan-s-criterion` | 1 | full (reviewed) | Exact trace-form criterion for Lie subalgebras of End(M). |
 | `lemma-killing` | 1 | partial (reviewed) | Nondegeneracy only. Not in Lean: [l,l]=l is not stated separately (only inside the proof of center_sup_derivedSeries_eq_top). |
-| `proposition-lie-algebras-faithful-semisimple-representation` | 2 | full (reviewed) | HasCentralRadical is radical = center; second gives Z+[l,l]=l. |
+| `proposition-lie-algebras-faithful-semisimple-representation` | 3 | full (reviewed) | HasCentralRadical is radical = center; second gives Z+[l,l]=l. 3 of the names are on its clauses. |
+
+## Clause names
+
+The clauses with Lean names, in the order of the notes. *aligned*: the clause text was rewritten by the PR to state the Lean statement and taken into the tex. *partial*: the clause keeps the text of the notes, and the Lean names state a special case of it (the PR's narrower rewrite was not taken).
+
+| Clause | Lean names | Text | From |
+|---|---|---|---|
+| `definition-ind-etale-pro-etale-weakly--1` | `Algebra.IndEtale`<br>`RingHom.IndEtale` | states the clause | #210 |
+| `definition-ind-etale-pro-etale-weakly--2` | `AlgebraicGeometry.proAffineEtale`<br>`AlgebraicGeometry.proAffineEtale_Spec_iff` | states the clause | #210 |
+| `definition-ind-etale-pro-etale-weakly--3` | `Algebra.WeaklyEtale`<br>`AlgebraicGeometry.WeaklyEtale`<br>`RingHom.WeaklyEtale` | states the clause | #210 |
+| `proposition-etale-implications--1` | `AlgebraicGeometry.proAffineEtale.of_isAffine`<br>`RingHom.IndEtale.weaklyEtale` | aligned (text taken from the PR) | #210 |
+| `lemma-stability--2` | `RingHom.WeaklyEtale.comp` | aligned (text taken from the PR) | #210 |
+| `lemma-stability--4` | `AlgebraicGeometry.WeaklyEtale.hasRingHomProperty` | aligned (text taken from the PR) | #210 |
+| `lemma-stability--5` | `AlgebraicGeometry.WeaklyEtale.of_comp_eq` | aligned (text taken from the PR) | #210 |
+| `lemma-stability--6` | `RingHom.IndEtale.isStableUnderBaseChange` | aligned (text taken from the PR) | #210 |
+| `lemma-stability--7` | `RingHom.IndEtale.comp` | aligned (text taken from the PR) | #210 |
+| `definition-small-pro-etale-site--1` | `AlgebraicGeometry.QuasiCompactCover`<br>`AlgebraicGeometry.Scheme.ProEt`<br>`AlgebraicGeometry.Scheme.ProEt.precoverage`<br>`AlgebraicGeometry.Scheme.ProEt.topology`<br>`AlgebraicGeometry.Scheme.proetalePrecoverage` | states the clause | #210 |
+| `proposition-pro-etale-coverings--2` | `AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage`<br>`AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage` | states the clause | #210 |
+| `proposition-topos-functoriality--1` | `AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures`<br>`AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyType_weilConjectures`<br>`AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos`<br>`AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange`<br>`AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition` | partial: Lean states a special case | #210 |
+| `proposition-topos-functoriality--2` | `AlgebraicGeometry.ProEtale.lowerStar`<br>`AlgebraicGeometry.ProEtale.preservesHomology_upperStar`<br>`AlgebraicGeometry.ProEtale.setPullback`<br>`AlgebraicGeometry.ProEtale.setPullbackAdjunction`<br>`AlgebraicGeometry.ProEtale.upperStar` | aligned (text taken from the PR) | #210 |
+| `proposition-topos-functoriality--3` | `AlgebraicGeometry.ProEtale.setPullbackComp` | aligned (text taken from the PR) | #210 |
+| `definition-w-local-w-strictly-local--1` | `ExtremallyDisconnected` | states the clause | #210 |
+| `definition-w-local-w-strictly-local--2` | `IsWLocalRing`<br>`WLocalSpace` | states the clause | #210 |
+| `definition-w-local-w-strictly-local--3` | `IsWStrictlyLocalRing` | states the clause | #210 |
+| `definition-w-local-w-strictly-local--4` | `IsWContractibleRing` | states the clause | #210 |
+| `proposition-w-local-components--1` | `WLocalSpace.isHomeomorph_connectedComponents_closedPoints` | states the clause | #210 |
+| `proposition-w-local-components--4` | `IsStrictlyHenselianLocalRing.isWContractibleRing` | states the clause | #210 |
+| `example-locally-constant-functions-w-local--1` | `LocallyConstant.discreteQuotientColimitPresentation`<br>`LocallyConstant.homeomorphPrimeSpectrum` | aligned (text taken from the PR) | #210 |
+| `lemma-extremally-disconnected-covers--1` | `CompHaus.projectivePresentation` | aligned (text taken from the PR) | #210 |
+| `proposition-splitting-ind-etale-covers--1` | `IsWContractibleRing.exists_retraction_of_zeroLocus_map_eq_closedPoints` | partial: Lean states a special case | #210 |
+| `theorem-existence-contractible-covers--1` | `exists_isWContractibleRing_of_isWStrictlyLocal` | partial: Lean states a special case | #210 |
+| `proposition-pro-etale-affines-form-basis--2` | `AlgebraicGeometry.Scheme.AffineProEt`<br>`AlgebraicGeometry.Scheme.AffineProEt.instFaithfulProEtToProEt`<br>`AlgebraicGeometry.Scheme.AffineProEt.instFullProEtToProEt`<br>`AlgebraicGeometry.Scheme.AffineProEt.isEquivalence_sheafPushforwardContinuous_toProEt`<br>`AlgebraicGeometry.Scheme.AffineProEt.toProEt`<br>`AlgebraicGeometry.Scheme.AffineProEt.topology` | aligned (text taken from the PR) | #210 |
+| `lemma-w-contractible-affines-projective--1` | `AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso` | aligned (text taken from the PR) | #210 |
+| `theorem-enough-affine-weakly-contractible-objects--1` | `AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover` | aligned (text taken from the PR) | #210 |
+| `definition-weak-contractibility--1` | `CategoryTheory.GrothendieckTopology.IsWeaklyContractible` | states the clause | #210 |
+| `corollary-evaluation-weakly-contractible-objects--1` | `AlgebraicGeometry.Scheme.ProEt.affine_weaklyContractible_abelian_evaluation_colimits` | partial: Lean states a special case | #210 |
+| `corollary-evaluation-weakly-contractible-objects--5` | `CategoryTheory.peSectionsLimitsColimits` | aligned (text taken from the PR) | #210 |
+| `corollary-evaluation-weakly-contractible-objects--6` | `AlgebraicGeometry.Scheme.ProEt.sections_conservative` | aligned (text taken from the PR) | #210 |
+| `proposition-exact-products--1` | `AlgebraicGeometry.Scheme.ProEt.products_exact` | aligned (text taken from the PR) | #210 |
+| `proposition-exact-products--2` | `DerivedCategory.isLimitFanMkQObj`<br>`HomologicalComplex.isLimitFanHomology` | aligned (text taken from the PR) | #210 |
+| `proposition-milnor-sequence--1` | `AlgebraicGeometry.Scheme.ProEt.milnor_sequence` | aligned (text taken from the PR) | #210 |
+| `proposition-milnor-sequence--3` | `AlgebraicGeometry.ProEtale.milnor_epimorphic` | aligned (text taken from the PR) | #210 |
+| `corollary-continuity-cohomology--1` | `AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small` | partial: Lean states a special case | #210 |
+| `corollary-continuity-cohomology--2` | `AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar` | partial: Lean states a special case | #210 |
+| `definition-classical-pro-etale-sheaves--1` | `AlgebraicGeometry.ProEtale.AffinePresentation`<br>`AlgebraicGeometry.ProEtale.IsClassical`<br>`AlgebraicGeometry.ProEtale.continuityMap` | states the clause | #210 |
+| `proposition-comparison-morphism-inverse-image--2` | `AlgebraicGeometry.ProEtale.comparisonAdjunction`<br>`AlgebraicGeometry.ProEtale.comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar` | partial: Lean states a special case | #210 |
+| `theorem-classical-sheaves-essential-image--1` | `AlgebraicGeometry.ProEtale.coefficientClassicalModule_origin`<br>`AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.full_comparisonUpperStar`<br>`AlgebraicGeometry.Scheme.proEtaleClassicalSheavesImage`<br>`AlgebraicGeometry.Scheme.proEtaleComparisonUnitSets_isIso` | aligned (text taken from the PR) | #210 |
+| `lemma-acyclicity-pulled-back-injectives--1` | `AlgebraicGeometry.ProEtale.isZero_rightDerived_globalSectionsFunctor_comparisonUpperStar` | partial: Lean states a special case | #210 |
+| `theorem-bounded-below-cohomology-comparison--3` | `AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso` | aligned (text taken from the PR) | #210 |
+| `theorem-comparison-direct-images--1` | `AlgebraicGeometry.ProEtale.isIso_lowerStarComparisonUpperStarBaseChange`<br>`AlgebraicGeometry.ProEtale.lowerStarComparisonUpperStarBaseChange`<br>`AlgebraicGeometry.ProEtale.rightAcyclic_lowerStar_comparisonUpperStar_obj_of_injective` | partial: Lean states a special case | #210 |
+| `proposition-locally-constant-sheaves-finite-presentation--1` | `AlgebraicGeometry.Scheme.etale_origin_of_finite_models` | partial: Lean states a special case | #210 |
+| `proposition-locally-constant-sheaves-finite-presentation--2` | `AlgebraicGeometry.Scheme.etale_cover_of_proetale_finite_models` | partial: Lean states a special case | #210 |
+| `proposition-locally-constant-sheaves-finite-presentation--3` | `AlgebraicGeometry.Scheme.proEtale_lisse_origin` | partial: Lean states a special case | #210 |
+| `theorem-comparison-constructible-sheaves--1` | `AlgebraicGeometry.ProEtale.constructibleComparison_classical` | aligned (text taken from the PR) | #210 |
+| `theorem-comparison-constructible-sheaves--2` | `AlgebraicGeometry.ProEtale.constructibleComparison_moduleEquivalence` | aligned (text taken from the PR) | #210 |
+| `theorem-comparison-constructible-sheaves--3` | `AlgebraicGeometry.ProEtale.constructibleComparison_boundedRestriction` | aligned (text taken from the PR) | #210 |
+| `corollary-finite-tor-amplitude-under-comparison--1` | `AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian` | aligned (text taken from the PR) | #210 |
+| `proposition-pro-etale-site-separably-closed--1` | `AlgebraicGeometry.ProEtale.geometricFieldProfiniteDenseSubsite` | aligned (text taken from the PR) | #210 |
+| `proposition-pro-etale-site-separably-closed--3` | `AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf`<br>`Profinite.continuousMapRingSheaf` | aligned (text taken from the PR) | #210 |
+| `corollary-finite-quotients-their-transition-maps--3` | `AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp`<br>`AlgebraicGeometry.ProEtale.upperStarFromPointComp` | aligned (text taken from the PR) | #210 |
+| `definition-tate-twists--1` | `AlgebraicGeometry.ProEtale.rootsOfUnitySheaf` | states the clause | #210 |
+| `definition-tate-twists--10` | `AlgebraicGeometry.ProEtale.isLocallyFree_integralTateTwist`<br>`AlgebraicGeometry.ProEtale.isLocallyFree_tateTwist` | partial: Lean states a special case | #210 |
+| `definition-tate-twists--11` | `AlgebraicGeometry.ProEtale.integralTateTwistNat`<br>`AlgebraicGeometry.ProEtale.tateTwistNat` | states the clause | #210 |
+| `definition-tate-twists--12` | `AlgebraicGeometry.ProEtale.integralTateTwist`<br>`AlgebraicGeometry.ProEtale.tateTwist` | states the clause | #210 |
+| `definition-tate-twists--2` | `AlgebraicGeometry.ProEtale.isColimitUnitToRootsOfUnitySheaf` | partial: Lean states a special case | #210 |
+| `definition-tate-twists--5` | `AlgebraicGeometry.ProEtale.integralTateTwistOne`<br>`AlgebraicGeometry.ProEtale.spIntegralTwist` | states the clause | #210 |
+| `definition-tate-twists--6` | `AlgebraicGeometry.ProEtale.spRationalTwist` | states the clause | #210 |
+| `definition-tate-twists--8` | `AlgebraicGeometry.ProEtale.tateModule` | states the clause | #210 |
+| `definition-derived-adic-completeness--1` | `AlgebraicGeometry.ProEtale.IsDerivedComplete` | states the clause | #210 |
+| `lemma-reduction-derived-nakayama--1` | `AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution` | aligned (text taken from the PR) | #210 |
+| `definition-constructible-sheaves--1` | `AlgebraicGeometry.ProEtale.finiteConstantLocalModelOnCover_iff_scalarMatrix`<br>`AlgebraicGeometry.ProEtale.finiteConstantLocalModel_iff_exists_cover` | states the clause | #211 |
+| `definition-constructible-sheaves--2` | `AlgebraicGeometry.ProEtale.IsConstantModelConstructible`<br>`AlgebraicGeometry.ProEtale.IsFiniteConstantStratified` | states the clause | #211 |
+| `definition-constructible-sheaves--3` | `AlgebraicGeometry.ProEtale.ConstantModelConstructible` | states the clause | #211 |
+| `definition-constructible-sheaves--4` | `AlgebraicGeometry.ProEtale.ConstantModelBoundedConstructible`<br>`AlgebraicGeometry.ProEtale.constantModelBoundedConstructible` | states the clause | #211 |
+| `definition-constructible-sheaves--5` | `DerivedCategory.torAmplitudeIn` | states the clause | #211 |
+| `definition-constructible-sheaves--6` | `AlgebraicGeometry.ProEtale.ConstantModelConstructibleFiniteTor`<br>`DerivedCategory.finiteTorAmplitude` | states the clause | #211 |
+| `definition-lisse-sheaves--1` | `AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel` | states the clause | #211 |
+| `proposition-integral-constructibility-criterion--1` | `AlgebraicGeometry.ProEtale.internal_integral_residue_criterion` | partial: Lean states a special case | #211 |
+| `lemma-flat-models-generators--1` | `AlgebraicGeometry.Etale.DerivedCategory.exists_flatConstructibleModel_of_boundedConstructibleFiniteTor`<br>`AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel` | partial: Lean states a special case | #211 |
+| `lemma-constructible-sheaves--5` | `AlgebraicGeometry.ProEtale.coefficientHeart_closure` | aligned (text taken from the PR) | #211 |
+| `lemma-constructible-sheaves--6` | `AlgebraicGeometry.ProEtale.coefficientHeart_essentiallySmall` | aligned (text taken from the PR) | #211 |
+| `lemma-constructible-sheaves--7` | `AlgebraicGeometry.ProEtale.coefficientHeart_filtration` | partial: Lean states a special case | #211 |
+| `lemma-constructible-sheaves--8` | `AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp`<br>`AlgebraicGeometry.ProEtale.condensedQbar_lfp_locally_free` | new clause (from the PR) | #211 |
+| `lemma-lattices-after-finite-stratification--1` | `AlgebraicGeometry.ProEtale.CondensedRing.continuousLisse_stratified_lattices` | aligned (text taken from the PR) | #211 |
+| `lemma-integral-models--1` | `AlgebraicGeometry.ProEtale.IntegralModelsStacks.completion_transport` | aligned (text taken from the PR) | #211 |
+| `lemma-integral-models--2` | `AlgebraicGeometry.ProEtale.IntegralModelsStacks.integral_models_stacks` | aligned (text taken from the PR) | #211 |
+| `lemma-integral-models--5` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion` | partial: Lean states a special case | #211 |
+| `proposition-inverting-ell--2` | `AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars`<br>`AlgebraicGeometry.ProEtale.rationalizationEquivalence`<br>`AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso` | aligned (text taken from the PR) | #211 |
+| `lemma-cohomology-modules-underlying-abelian--1` | `AlgebraicGeometry.Scheme.isZero_rightDerived_globalSections_forget_of_injective` | partial: Lean states a special case | #212 |
+| `definition-underived-base-change-map--1` | `AlgebraicGeometry.Etale.baseChangeMap`<br>`AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit` | states the clause | #212 |
+| `definition-derived-base-change-map--1` | `AlgebraicGeometry.Etale.baseChange` | states the clause | #212 |
+| `lemma-identity-pasting--1` | `AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id` | aligned (text taken from the PR) | #212 |
+| `lemma-identity-pasting--2` | `AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz` | aligned (text taken from the PR) | #212 |
+| `lemma-identity-pasting--3` | `AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert` | aligned (text taken from the PR) | #212 |
+| `definition-pro-etale-base-change-map--1` | `AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap`<br>`AlgebraicGeometry.ProEtale.derivedBaseChangeMap` | states the clause | #212 |
+| `lemma-naturality-pasting-comparison--3` | `AlgebraicGeometry.ProEtale.baseChangeSourceComparisonIso`<br>`AlgebraicGeometry.ProEtale.baseChangeTargetComparisonIso`<br>`AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap` | aligned (text taken from the PR) | #212 |
+| `theorem-comparison-over-henselian-pair-degree--1` | `AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality`<br>`AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing`<br>`AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing` | partial: Lean states a special case | #212 |
+| `lemma-sections-geometric-fibre--1` | `AlgebraicGeometry.Etale.bijective_restrictAlong_fibreToStrictLocalization`<br>`AlgebraicGeometry.Etale.strictLocalizationPullback_sections` | partial: Lean states a special case | #212 |
+| `proposition-proper-base-change-degree-zero--1` | `AlgebraicGeometry.Etale.bijective_sheafFiber_map_baseChangeMap_of_isProper` | partial: Lean states a special case | #212 |
+| `definition-torsion-sheaves--1` | `AlgebraicGeometry.Scheme.IsTorsionModuleSheaf`<br>`AlgebraicGeometry.Scheme.IsTorsionSheaf` | states the clause | #212 |
+| `definition-torsion-sheaves--3` | `AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit`<br>`AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations`<br>`AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion`<br>`AlgebraicGeometry.Scheme.isTorsionSheaf_iff_isTorsion` | aligned (text taken from the PR) | #212 |
+| `definition-torsion-pbc-property--1` | `AlgebraicGeometry.Etale.HasTorsionBaseChange` | states the clause | #212 |
+| `definition-injective-acyclicity--1` | `AlgebraicGeometry.Etale.HasInjectiveAcyclicity` | states the clause | #212 |
+| `theorem-finite-etale-covers-proper-henselian--2` | `AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing` | aligned (text taken from the PR) | #212 |
+| `theorem-cohomology-curves--1` | `AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le` | aligned (text taken from the PR) | #212 |
+| `theorem-cohomology-curves--2` | `AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine` | aligned (text taken from the PR) | #212 |
+| `theorem-cohomology-curves--7` | `AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isAlgClosed` | aligned (text taken from the PR) | #212 |
+| `theorem-cohomology-curves--8` | `AlgebraicGeometry.IsCurve.primeCoefficientCurveAssertions` | partial: Lean states a special case | #212 |
+| `lemma-acyclicity-closed-fibre--1` | `AlgebraicGeometry.Etale.subsingleton_H_projectiveLine_closedFibre_of_injective` | aligned (text taken from the PR) | #212 |
+| `proposition-cohomology-p-1-over-henselian--1` | `AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField_zmod` | partial: Lean states a special case | #212 |
+| `proposition-proper-base-change-projective-line--1` | `AlgebraicGeometry.Etale.isIso_baseChange_app_projectiveLine` | states the clause | #212 |
+| `lemma-finite-morphisms--1` | `AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi`<br>`AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite` | aligned (text taken from the PR) | #212 |
+| `lemma-finite-morphisms--3` | `AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite` | aligned (text taken from the PR) | #212 |
+| `lemma-finite-cover-projective-space--1` | `AlgebraicGeometry.ProjectiveSpace.isFinite_symmetricProduct`<br>`AlgebraicGeometry.ProjectiveSpace.projectiveLinePow`<br>`AlgebraicGeometry.ProjectiveSpace.projectiveLinePowProj`<br>`AlgebraicGeometry.ProjectiveSpace.surjective_symmetricProduct`<br>`AlgebraicGeometry.ProjectiveSpace.symmetricProduct`<br>`AlgebraicGeometry.ProjectiveSpace.symmetricProduct_over` | aligned (text taken from the PR) | #212 |
+| `lemma-pbc-projective-space--1` | `AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLinePowProj` | partial: Lean states a special case | #212 |
+| `proposition-proper-base-change-etale-site--1` | `AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion` | partial: Lean states a special case | #212 |
+| `corollary-cohomology-geometric-fibres--2` | `AlgebraicGeometry.Etale.nonempty_addEquiv_sheafFiber_homology_rightDerivedLowerStar_of_isProper` | partial: Lean states a special case | #212 |
+| `definition-projection-formula-map--1` | `AlgebraicGeometry.ProEtale.CondensedRing.projectionMap` | states the clause | #212 |
+| `proposition-proper-base-change-complete-integral--1` | `AlgebraicGeometry.ProEtale.internal_integral_direct_image_limits` | aligned (text taken from the PR) | #212 |
+| `proposition-proper-direct-image-constructible-complexes--1` | `AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--10` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_padicIntegersRingObj_of_boundedConstructible` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--12` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMorphism_boundedConstructible_padicAlgCl` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--2` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructible_rightDerivedLowerStar_obj` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--3` | `AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructible_rightDerivedLowerStar_obj` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--5` | `AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper` | aligned (text taken from the PR) | #212 |
+| `proposition-proper-direct-image-constructible-complexes--6` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicIntegers` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--7` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--8` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicAlgCl` | partial: Lean states a special case | #212 |
+| `proposition-proper-direct-image-constructible-complexes--9` | `AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerStarProjectionMap_app_app_of_boundedConstructible_of_field` | partial: Lean states a special case | #212 |
+| `proposition-comparison-etale-derived-category--3` | `CategoryTheory.Functor.preservesColimitsOfShape_mapDerivedCategory` | aligned (text taken from the PR) | #213 |
+| `proposition-comparison-etale-derived-category--5` | `AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso` | aligned (text taken from the PR) | #213 |
+| `proposition-comparison-etale-derived-category--6` | `AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso` | aligned (text taken from the PR) | #213 |
+| `lemma-inverse-image-tensor-product--2` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isMonoidal_boundedConstructible` | aligned (text taken from the PR) | #213 |
+| `lemma-inverse-image-tensor-product--3` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj` | partial: Lean states a special case | #213 |
+| `lemma-inverse-image-tensor-product--6` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_of_openClosed` | new clause (from the PR) | #213 |
+| `proposition-composition-base-change-rf-shriek--1` | `AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicIntegers` | partial: Lean states a special case | #213 |
+| `proposition-composition-base-change-rf-shriek--2` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl_assoc` | partial: Lean states a special case | #213 |
+| `proposition-composition-base-change-rf-shriek--3` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl_id_left`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl_id_right` | partial: Lean states a special case | #213 |
+| `proposition-composition-base-change-rf-shriek--4` | `AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicIntegers` | partial: Lean states a special case | #213 |
+| `proposition-composition-base-change-rf-shriek--5` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange_padicAlgCl_eq_baseChange` | partial: Lean states a special case | #213 |
+| `proposition-composition-base-change-rf-shriek--6` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange_padicAlgCl_paste_horiz`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange_padicAlgCl_paste_vert` | partial: Lean states a special case | #213 |
+| `proposition-forgetting-supports-composition--3` | `AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekToLowerStarComp_of_isProper`<br>`AlgebraicGeometry.Etale.properShriekComp_comp_forgetSupports`<br>`AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar` | partial: Lean states a special case | #213 |
+| `proposition-composition-open-restriction-compactifications-f--1` | `AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekComp_padicAlgCl` | partial: Lean states a special case | #213 |
+| `proposition-composition-open-restriction-compactifications-f--2` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekComp_padicAlgCl_assoc` | partial: Lean states a special case | #213 |
+| `proposition-composition-open-restriction-compactifications-f--4` | `AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekIsoUpperStar_padicAlgCl`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekIsoUpperStar_padicIntegers` | partial: Lean states a special case | #213 |
+| `proposition-composition-open-restriction-compactifications-f--5` | `AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_of_isOpenImmersion` | partial: Lean states a special case | #213 |
+| `proposition-exceptional-inverse-image-smooth-morphism--4` | `AlgebraicGeometry.Etale.isInvertible_dualizingComplex` | aligned (text taken from the PR) | #214 |
+| `proposition-exceptional-inverse-image-smooth-morphism--5` | `AlgebraicGeometry.Etale.exists_dualizingComplex_iso_and_tensor` | states the clause | #214 |
+| `proposition-exceptional-inverse-image-smooth-morphism--6` | `AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_of_smoothOfRelativeDimension` | states the clause | #214 |
+| `proposition-exceptional-inverse-image-smooth-morphism--7` | `AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_pullbackFst` | states the clause | #214 |
+| `proposition-exceptional-inverse-image-smooth-morphism--8` | `CategoryTheory.Adjunction.projectionTensorMap_mateEquiv` | states the clause | #214 |
+| `lemma-detection-proper-direct-image--1` | `AlgebraicGeometry.Etale.boundedConstructible_of_upperStar_of_rightDerivedLowerStar` | aligned (text taken from the PR) | #214 |
+| `lemma-detection-proper-direct-image--2` | `AlgebraicGeometry.Etale.isIso_of_isIso_upperStar_map_of_isIso_rightDerivedLowerStar_map` | aligned (text taken from the PR) | #214 |
+| `lemma-coordinate-projections--1` | `AlgebraicGeometry.topologicalKrullDim_fiber_genericPoint_add_one_le` | aligned (text taken from the PR) | #214 |
+| `lemma-coordinate-projections--2` | `AlgebraicGeometry.exists_isFinite_morphismRestrict_of_range_subset` | aligned (text taken from the PR) | #214 |
+| `corollary-open-direct-image-over-field--2` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isOpenImmersion_of_field`<br>`AlgebraicGeometry.Etale.isIso_baseChange_app_of_isOpenImmersion_of_field`<br>`AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_field` | aligned (text taken from the PR) | #214 |
+| `definition-change-of-coefficients-maps--2` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso` | states the clause | #215 |
+| `definition-change-of-coefficients-maps--4` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom` | states the clause | #215 |
+| `definition-change-of-coefficients-maps--5` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationExtendScalarsIso`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClIso` | states the clause | #215 |
+| `definition-change-of-coefficients-maps--6` | `CategoryTheory.Functor.LaxMonoidal.ihomComparison` | states the clause | #215 |
+| `lemma-change-coefficients-exceptional-inverse-image--4` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_mateEquiv_boundedConstructibleLowerStarExtendScalarsSubfield` | partial: Lean states a special case | #215 |
+| `lemma-change-coefficients-internal-hom--1` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_constructibleExtendScalars` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--1` | `AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_integersModPowReduction`<br>`AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_residueField`<br>`AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--12` | `AlgebraicGeometry.ProEtale.CondensedRing.isMonoidal_derivedExtendScalarsCompIso_hom` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--14` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence`<br>`AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIsoCompCoherence` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--15` | `AlgebraicGeometry.ProEtale.CondensedRing.BoundedConstructibleCoefficientChange.squareCompatible_lowerStarComp` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--2` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIso` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--20` | `CategoryTheory.NatTrans.SquareCompatible.unit` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--21` | `CategoryTheory.NatTrans.SquareCompatible.counit` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--23` | `CategoryTheory.Functor.LaxMonoidal.ihomComparison_ev` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--3` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerStarIntegersModPowReduction'`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicIntegers_of_isGE`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicSubfieldRingObjToPadicAlgCl_of_isGE`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedUpperStarExtendScalarsPushHom_residueField_app` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--4` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekExtendScalarsIso`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekToPadicAlgClIso`<br>`AlgebraicGeometry.ProEtale.CondensedRing.etaleReductionLowerShriekIsoOfCompactification` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--5` | `AlgebraicGeometry.ProEtale.CondensedRing.etaleReductionUpperShriekIso`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleUpperShriekExtendScalars`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleUpperShriekToPadicAlgCl` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--6` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedExtendScalarsTensorIso` | aligned (text taken from the PR) | #215 |
+| `proposition-six-operations-change-coefficients--7` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_boundedConstructibleExtendScalars`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_boundedConstructibleIntegersToPadicAlgCl`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_constructibleToPadicAlgCl`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_derivedExtendScalarsSubfield`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_leftDerivedIntegersModPowReduction` | partial: Lean states a special case | #215 |
+| `proposition-six-operations-change-coefficients--9` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom_comp_app` | partial: Lean states a special case | #215 |
+| `proposition-dctf-x-qbar-2-colimit--2` | `AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj` | aligned (text taken from the PR) | #215 |
+| `proposition-dctf-x-qbar-2-colimit--3` | `AlgebraicGeometry.ProEtale.constructibleCocone_homInj`<br>`AlgebraicGeometry.ProEtale.constructibleCocone_homSurj` | aligned (text taken from the PR) | #215 |
+| `theorem-smooth-base-change-classical-torsion--1` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth` | partial: Lean states a special case | #216 |
+| `lemma-degree-zero-calculation--1` | `AlgebraicGeometry.Etale.baseChangeProperty_zero` | partial: Lean states a special case | #216 |
+| `lemma-injectivity-base-change-map-degree--1` | `AlgebraicGeometry.Etale.mono_baseChangeHomologyMap` | aligned (text taken from the PR) | #216 |
+| `lemma-injectivity-base-change-map-degree--2` | `AlgebraicGeometry.Etale.mono_cokernelMap` | aligned (text taken from the PR) | #216 |
+| `lemma-injectivity-base-change-map-degree--3` | `AlgebraicGeometry.Etale.mono_cokernelDesc` | aligned (text taken from the PR) | #216 |
+| `lemma-reduction-field--1` | `AlgebraicGeometry.Etale.nonempty_fieldFailure` | partial: Lean states a special case | #216 |
+| `lemma-integral-changes-source-base--1` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isIntegralHom_of_surjective` | aligned (text taken from the PR) | #216 |
+| `lemma-integral-changes-source-base--2` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom` | aligned (text taken from the PR) | #216 |
+| `proposition-base-change-larger-algebraically-closed--1` | `AlgebraicGeometry.Etale.CurveTestDatum.exists_cover_cohomologyMap_eq_zero` | partial: Lean states a special case | #216 |
+| `theorem-smooth-base-change-classical-torsion-2--1` | `AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth_of_isTorsionSheafOfInvertibleOrder` | partial: Lean states a special case | #216 |
+| `lemma-change-coefficients--1` | `AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars`<br>`AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars` | partial: Lean states a special case | #216 |
+| `definition-kunneth-map--1` | `AlgebraicGeometry.Etale.externalProductRightDerivedLowerStarMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.prodLowerStarExternalProduct` | states the clause | #216 |
+| `lemma-kunneth-one-identity-factor--1` | `AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar` | partial: Lean states a special case | #216 |
+| `definition-exceptional-base-change-map--1` | `AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.upperShriekBaseChange`<br>`AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.upperShriekBaseChange` | states the clause | #218 |
+| `theorem-smooth-purity-all-admissible-coefficients--1` | `AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift` | partial: Lean states a special case | #218 |
+| `theorem-smooth-purity-all-admissible-coefficients--2` | `AlgebraicGeometry.ProEtale.CondensedRing.nonempty_iso_integralTateTwist_upperShriekUnit` | partial: Lean states a special case | #218 |
+| `theorem-smooth-purity-all-admissible-coefficients--9` | `AlgebraicGeometry.ProEtale.CondensedRing.smoothOrientation_baseChange` | partial: Lean states a special case | #218 |
+| `definition-relative-dualizing-complex--1` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructibleDualizingComplex` | states the clause | #218 |
+| `proposition-sp-unique-adjoint--1` | `CategoryTheory.Adjunction.rightAdjointUniq`<br>`CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit` | aligned (text taken from the PR) | #218 |
+| `definition-sp-scalar-extension--1` | `AlgebraicGeometry.ProEtale.derivedExtendScalars` | states the clause | #218 |
+| `definition-sp-scalar-extension--2` | `CategoryTheory.Mod.derivedExtendScalarsCompIso` | aligned (text taken from the PR) | #218 |
+| `proposition-compatibility-purity-base-change--4` | `AlgebraicGeometry.ProEtale.CondensedRing.map_upperShriekUnitTensorMap_comp_upperShriekBaseChange` | partial: Lean states a special case | #218 |
+| `definition-trace-map--1` | `AlgebraicGeometry.ProEtale.CondensedRing.smoothTrace` | states the clause | #218 |
+| `lemma-perfect-complexes-geometric-point--1` | `DerivedCategory.isPerfect_of_finiteTorAmplitude` | partial: Lean states a special case | #219 |
+| `lemma-perfect-complexes-geometric-point--2` | `AlgebraicGeometry.ProEtale.CondensedRing.isPerfect_pointFiberFunctorIntegral_obj` | partial: Lean states a special case | #219 |
+| `lemma-perfect-complexes-geometric-point--3` | `AlgebraicGeometry.ProEtale.CondensedRing.exists_fiberFunctor_point` | partial: Lean states a special case | #219 |
+| `lemma-perfect-complexes-geometric-point--5` | `AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections` | partial: Lean states a special case | #219 |
+| `definition-verdier-dual-evaluation--1` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.dualizingComplex` | states the clause | #219 |
+| `definition-verdier-dual-evaluation--2` | `AlgebraicGeometry.Etale.verdierDual`<br>`AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.verdierDual`<br>`AlgebraicGeometry.ProEtale.CondensedRing.verdierDual` | states the clause | #219 |
+| `definition-verdier-dual-evaluation--3` | `AlgebraicGeometry.Etale.exists_distTriang_derivedHom_left` | partial: Lean states a special case | #219 |
+| `definition-verdier-dual-evaluation--4` | `AlgebraicGeometry.Etale.verdierDualDoubleDual`<br>`AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.verdierBiduality`<br>`AlgebraicGeometry.ProEtale.CondensedRing.verdierBiduality` | states the clause | #219 |
+| `lemma-internal-adjunction-two-exchange-formulas--1` | `AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite`<br>`AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierExchange` | partial: Lean states a special case | #219 |
+| `lemma-internal-adjunction-two-exchange-formulas--2` | `AlgebraicGeometry.WeilComplex.nonempty_verdierDual_derivedLowerShriek_iso` | partial: Lean states a special case | #219 |
+| `lemma-verdier-duality-preserves-constructibility--1` | `AlgebraicGeometry.Etale.constructibleFiniteTor_and_torAmplitudeIn_verdierDual_of_perfectField` | partial: Lean states a special case | #219 |
+| `lemma-restriction-geometric-generic-fibre--1` | `AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_generic` | partial: Lean states a special case | #219 |
+| `theorem-verdier-biduality--2` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isIso_verdierBiduality` | aligned (text taken from the PR) | #219 |
+| `theorem-verdier-biduality--4` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality` | aligned (text taken from the PR) | #219 |
+| `corollary-verdier-exchange-formulas--1` | `AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek` | partial: Lean states a special case | #219 |
+| `corollary-verdier-exchange-formulas--5` | `AlgebraicGeometry.Etale.verdierDualLowerShriekIso` | partial: Lean states a special case | #219 |
+| `corollary-degreewise-duality-over-fields--1` | `AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual`<br>`AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual_mul` | partial: Lean states a special case | #219 |
+| `theorem-trace-isomorphism-top-degree--1` | `AlgebraicGeometry.WeilSheaf.exists_linearEquiv_cohomology_zero_adicConstant` | partial: Lean states a special case | #219 |
+| `corollary-cup-product-pairing--1` | `AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect` | partial: Lean states a special case | #219 |
+| `definition-weil-structure--1` | `CategoryTheory.Endofunctor.IsoAlgebra.str` | states the clause | #219 |
+| `definition-weil-structure--2` | `AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible` | states the clause | #219 |
+| `definition-weil-structure--3` | `CategoryTheory.Endofunctor.IsoAlgebra` | states the clause | #219 |
+| `definition-categorical-trace--2` | `CategoryTheory.MonoidalCategory.trace` | states the clause | #220 |
+| `proposition-properties-trace--1` | `CategoryTheory.MonoidalCategory.trace_add` | partial: Lean states a special case | #220 |
+| `proposition-properties-trace--2` | `CategoryTheory.MonoidalCategory.trace_eq_of_iso` | aligned (text taken from the PR) | #220 |
+| `definition-correspondence--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.support` | states the clause | #220 |
+| `definition-correspondence--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence` | states the clause | #220 |
+| `definition-correspondence--3` | `AlgebraicGeometry.Scheme.fixedScheme`<br>`AlgebraicGeometry.Scheme.fixedSchemeProj`<br>`AlgebraicGeometry.Scheme.fixedSchemeι`<br>`AlgebraicGeometry.Scheme.instIsClosedImmersionFixedSchemeιOfIsSeparated` | states the clause | #220 |
+| `lemma-external-duality-trace-morphism--1` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_kunnethVerdierMap` | partial: Lean states a special case | #220 |
+| `lemma-external-duality-trace-morphism--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.verdierDualityIso` | partial: Lean states a special case | #220 |
+| `definition-trace-morphism--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.evaluationKernel` | states the clause | #220 |
+| `definition-trace-class-local-terms--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.mate`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass` | states the clause | #220 |
+| `definition-trace-class-local-terms--2` | `AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.integral` | states the clause | #220 |
+| `definition-trace-class-local-terms--3` | `AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.localTerm` | states the clause | #220 |
+| `definition-action-correspondence--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.globalOperator` | states the clause | #220 |
+| `definition-pushforward-correspondence--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.coeff`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeff`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffCounit`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffUnit` | states the clause | #220 |
+| `definition-pushforward-correspondence--2` | `AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.pushforward`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.fixMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isProper_fixMap` | states the clause | #220 |
+| `theorem-proper-pushforward-lefschetz-verdier--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.traceClassPushforward_eq` | partial: Lean states a special case | #220 |
+| `theorem-proper-pushforward-lefschetz-verdier--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.trace_globalOperator_eq_integral_traceClass` | partial: Lean states a special case | #220 |
+| `proposition-additivity-trace-classes--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass_ofGraph_eq_add` | partial: Lean states a special case | #220 |
+| `definition-frobenius-correspondences-their-operators--1` | `AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius` | states the clause | #221 |
+| `definition-frobenius-correspondences-their-operators--2` | `AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.isFinite`<br>`AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.isUniversalHomeomorphism` | aligned (text taken from the PR) | #221 |
+| `definition-frobenius-correspondences-their-operators--4` | `AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCoefficientIterate` | states the clause | #221 |
+| `definition-frobenius-correspondences-their-operators--5` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.globalOperator_ofGraph`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ofGraph`<br>`AlgebraicGeometry.ProEtale.CondensedRing.compactPullback`<br>`AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCompactOperator` | states the clause | #221 |
+| `definition-frobenius-correspondences-their-operators--6` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.graphStalkMap` | states the clause | #221 |
+| `lemma-frobenius-fixed-scheme--1` | `AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.fixedPointEquiv`<br>`AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.nonempty_isLimit_fixedPointsFork` | aligned (text taken from the PR) | #221 |
+| `lemma-frobenius-fixed-scheme--2` | `AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.finite_fixedPoint`<br>`AlgebraicGeometry.ProEtale.CondensedRing.instIsFiniteHomSchemeSigmaPointOfFinite` | aligned (text taken from the PR) | #221 |
+| `lemma-frobenius-fixed-scheme--3` | `AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.exists_isOpenImmersion_rationalPoint_of_isLimit` | aligned (text taken from the PR) | #221 |
+| `lemma-punctured-surface-punctured-curve--1` | `AlgebraicGeometry.Scheme.TransverseCorner.bijective_cohomologyMap_puncturedTraitι` | aligned (text taken from the PR) | #221 |
+| `lemma-cohomology-near-two-transverse-divisors--1` | `AlgebraicGeometry.Scheme.TransverseCorner.isFiniteLocallyConstantSheaf_homology_boundaryComplex`<br>`AlgebraicGeometry.Scheme.TransverseCorner.isZero_leftDerivedUpperStar_boundaryComplex` | aligned (text taken from the PR) | #221 |
+| `lemma-cohomology-near-two-transverse-divisors--2` | `AlgebraicGeometry.Scheme.TransverseCorner.derivedGlobalSectionsRestriction_boundaryComplex_eq_zero` | aligned (text taken from the PR) | #221 |
+| `lemma-vanishing-restrictions-after-blowing-up--1` | `AlgebraicGeometry.Etale.blowupRestriction_eq_zero` | aligned (text taken from the PR) | #221 |
+| `lemma-tangent-cones-on-cover--2` | `AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.tangentConesMeetAtOrigin` | aligned (text taken from the PR) | #221 |
+| `lemma-descent-vanishing-finite-etale--1` | `AlgebraicGeometry.Etale.exists_rightDerivedPullback_app_comp_eq_smul`<br>`AlgebraicGeometry.Etale.exists_sectionsRestriction_app_comp_eq_smul` | aligned (text taken from the PR) | #221 |
+| `lemma-descent-vanishing-finite-etale--2` | `DerivedCategory.eq_zero_of_comp_trace_of_isUnit` | aligned (text taken from the PR) | #221 |
+| `lemma-vanishing-local-term-zero-stalk--1` | `AlgebraicGeometry.Etale.CurveLocalModel.sectionsWithSupportRestriction_eq_zero`<br>`AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.upperStar_map_supportedRestriction_frobeniusGraph_eq_zero` | aligned (text taken from the PR) | #221 |
+| `lemma-vanishing-local-term-zero-stalk--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_zero_of_smooth` | partial: Lean states a special case | #221 |
+| `proposition-frobenius-local-term-curve--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_trace_of_smooth` | partial: Lean states a special case | #221 |
+| `theorem-grothendieck-lefschetz-trace-formula--5` | `AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections`<br>`AlgebraicGeometry.WeilComplex.exists_subsingleton_compactlySupportedCohomology` | partial: Lean states a special case | #221 |
+| `theorem-grothendieck-lefschetz-trace-formula--6` | `AlgebraicGeometry.WeilComplex.exists_finset_isZero_homologySheaf`<br>`AlgebraicGeometry.WeilSheaf.finiteDimensional_stalkObj` | partial: Lean states a special case | #221 |
+| `theorem-grothendieck-lefschetz-trace-formula--8` | `AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq` | partial: Lean states a special case | #221 |
+| `proposition-function-sheaf-dictionary--1` | `AlgebraicGeometry.WeilComplex.traceFunction_upperStar` | partial: Lean states a special case | #221 |
+| `proposition-function-sheaf-dictionary--2` | `AlgebraicGeometry.WeilComplex.traceFunction_tensorLisse` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--1` | `AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--2` | `AlgebraicGeometry.Scheme.Hom.finite_setOf_degreeOver_le`<br>`AlgebraicGeometry.WeilSheaf.X_pow_dvd_lFactor_sub_one` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--3` | `AlgebraicGeometry.WeilSheaf.hasProd_lFactor`<br>`AlgebraicGeometry.WeilSheaf.lSeries` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--4` | `AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--5` | `AlgebraicGeometry.WeilSheaf.lSeries_mul_localPolynomial_compactlySupportedCohomology_two` | partial: Lean states a special case | #221 |
+| `theorem-trace-formula-euler-product--6` | `AlgebraicGeometry.WeilComplex.nonempty_equiv_compactlySupportedCohomology_cohomology` | partial: Lean states a special case | #221 |
+| `corollary-point-counting-zeta-function--2` | `AlgebraicGeometry.WeilSheaf.pointCount_eq_finsum_trace_compactlySupportedCohomology` | partial: Lean states a special case | #221 |
+| `corollary-point-counting-zeta-function--3` | `AlgebraicGeometry.Scheme.Hom.zetaSeries` | states the clause | #221 |
+| `corollary-point-counting-zeta-function--4` | `AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod` | aligned (text taken from the PR) | #221 |
+| `corollary-point-counting-zeta-function--5` | `TraceDatum.map_zetaSeries`<br>`TraceDatum.zeta_mul_prod_even_eq_prod_odd` | partial: Lean states a special case | #221 |
+| `corollary-point-counting-zeta-function--6` | `AlgebraicGeometry.Scheme.Hom.constantCoeff_zetaSeries`<br>`AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries` | aligned (text taken from the PR) | #221 |
+| `corollary-point-counting-zeta-function--7` | `AlgebraicGeometry.Scheme.zetaSeries_rational` | aligned (text taken from the PR) | #221 |
+| `definition-weights--1` | `AlgebraicGeometry.WeilGroup.IsOfWeight` | states the clause | #222 |
+| `definition-weights--2` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight` | states the clause | #222 |
+| `definition-weights--3` | `AlgebraicGeometry.WeilSheaf.HasWeightsAtMost` | states the clause | #222 |
+| `definition-weights--4` | `AlgebraicGeometry.WeilSheaf.IsMixed` | states the clause | #222 |
+| `definition-weights--5` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost` | states the clause | #222 |
+| `definition-weights--6` | `AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost` | states the clause | #222 |
+| `lemma-weil-sheaves-point-mixed--1` | `AlgebraicGeometry.WeilSheaf.isMixed_of_locallyQuasiFinite` | aligned (text taken from the PR) | #222 |
+| `lemma-bounding-weights-mixed-sheaf--1` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.hasWeightsAtMost`<br>`AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost` | aligned (text taken from the PR) | #222 |
+| `lemma-filtrations-spectra--1` | `LinearMap.charpoly_eq_prod_charpoly_mapQ_of_le` | aligned (text taken from the PR) | #222 |
+| `lemma-filtrations-spectra--3` | `LinearMap.charpoly_roots_dualMap_symm` | aligned (text taken from the PR) | #222 |
+| `lemma-filtrations-spectra--4` | `LinearMap.charpoly_roots_exteriorPower` | aligned (text taken from the PR) | #222 |
+| `lemma-filtrations-spectra--5` | `LinearMap.charpoly_roots_tensorProduct` | aligned (text taken from the PR) | #222 |
+| `lemma-subobjects-quotients-weil-sheaves--1` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_mono` | aligned (text taken from the PR) | #222 |
+| `lemma-subobjects-quotients-weil-sheaves--2` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_epi` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--10` | `AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.shift` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--12` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.constantTwist`<br>`AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.constantTwist` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--13` | `AlgebraicGeometry.WeilSheaf.cyclotomicUnit_eq` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--2` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono_cokernel` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--3` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tensorObj` | partial: Lean states a special case | #222 |
+| `proposition-weights-under-usual-operations--4` | `AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalk_dual` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--7` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.upperStar` | aligned (text taken from the PR) | #222 |
+| `proposition-weights-under-usual-operations--8` | `AlgebraicGeometry.WeilSheaf.IsMixed.upperStar` | aligned (text taken from the PR) | #222 |
+| `theorem-weights-rf-shriek--1` | `AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek` | aligned (text taken from the PR) | #222 |
+| `theorem-weights-rf-shriek--2` | `AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant` | partial: Lean states a special case | #222 |
+| `lemma-proper-smooth-model--1` | `AlgebraicGeometry.exists_smooth_properCompactification_of_perfectField` | partial: Lean states a special case | #223 |
+| `proposition-no-fixed-class-degree-one--1` | `AlgebraicGeometry.Scheme.EtaleTorsor.exists_section_of_isIsomorphic_mapIso` | partial: Lean states a special case | #223 |
+| `lemma-invariant-additive-characters--1` | `AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant`<br>`AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant_of_continuous` | partial: Lean states a special case | #223 |
+| `theorem-rank-one-sheaves-have-finite--1` | `AlgebraicGeometry.WeilGroup.exists_pow_eq_one_of_continuous` | aligned (text taken from the PR) | #223 |
+| `corollary-rank-one-weights--1` | `AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_continuous` | aligned (text taken from the PR) | #223 |
+| `definition-determinant-weight--1` | `AlgebraicGeometry.WeilGroup.HasDetWeight`<br>`Representation.detWeight` | states the clause | #223 |
+| `corollary-determinant-weights--1` | `AlgebraicGeometry.WeilGroup.IsLisse.hasDetWeight`<br>`AlgebraicGeometry.WeilGroup.IsLisse.hasFiniteGeometricDet` | aligned (text taken from the PR) | #223 |
+| `definition-weil-representation--1` | `AlgebraicGeometry.WeilGroup.isLisseRep` | states the clause | #223 |
+| `lemma-restriction-normal-subgroup--1` | `Representation.isSemisimpleRepresentation_comp_subtype` | aligned (text taken from the PR) | #223 |
+| `definition-monodromy-groups--1` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy` | states the clause | #223 |
+| `definition-monodromy-groups--2` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy` | states the clause | #223 |
+| `lemma-normality-geometric-monodromy--2` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy` | aligned (text taken from the PR) | #223 |
+| `lemma-identity-component--1` | `AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_commutator_mem` | aligned (text taken from the PR) | #223 |
+| `proposition-central-element-arithmetic-monodromy-group--1` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair` | aligned (text taken from the PR) | #223 |
+| `proposition-central-element-arithmetic-monodromy-group--2` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map`<br>`AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.mulVec_mem_of_mem_zeroLocus_arithmeticMonodromy`<br>`Subrepresentation.exists_apply_sub_smul_mem_of_isIrreducible` | aligned (text taken from the PR) | #223 |
+| `lemma-determinant-weight-from-central-scalar--1` | `AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair` | aligned (text taken from the PR) | #223 |
+| `proposition-determinant-weights-tensor-operations--1` | `Representation.exists_detWeight_eq_add_of_subquotient_tprod` | partial: Lean states a special case | #223 |
+| `proposition-determinant-weights-tensor-operations--2` | `Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower` | partial: Lean states a special case | #223 |
+| `lemma-degree-zero-top-cohomology--2` | `AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two` | partial: Lean states a special case | #223 |
+| `lemma-degree-zero-top-cohomology--3` | `AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isLisse`<br>`AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_neg` | aligned (text taken from the PR) | #223 |
+| `lemma-degree-zero-top-cohomology--4` | `AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_zero` | aligned (text taken from the PR) | #223 |
+| `definition-real-sheaves--1` | `AlgebraicGeometry.WeilGroup.IsReal`<br>`AlgebraicGeometry.WeilGroup.IsReal.map_conj_localEigenvalues`<br>`AlgebraicGeometry.WeilGroup.isReal_of_map_conj_localEigenvalues`<br>`AlgebraicGeometry.WeilSheaf.IsReal` | states the clause | #223 |
+| `definition-real-sheaves--2` | `AlgebraicGeometry.WeilGroup.IsReal.conj_sum_map_pow_localEigenvalues`<br>`AlgebraicGeometry.WeilSheaf.IsReal.conj_map_trace_frobeniusEnd_pow` | aligned (text taken from the PR) | #223 |
+| `lemma-positivity-convergence--1` | `PowerSeries.eval_ne_zero_of_lt_radius_inv`<br>`PowerSeries.radius_tprod_le_radius` | aligned (text taken from the PR) | #223 |
+| `theorem-purity-real-sheaves-curves--1` | `AlgebraicGeometry.WeilGroup.isPunctuallyPure_of_isConstituent_of_isReal`<br>`AlgebraicGeometry.WeilSheaf.IsReal.exists_isPunctuallyPureOfWeight_cokernel_detWeight` | aligned (text taken from the PR) | #223 |
+| `theorem-purity-real-sheaves-curves--2` | `AlgebraicGeometry.WeilSheaf.IsReal.isMixed_of_isLisse` | aligned (text taken from the PR) | #223 |
+| `lemma-boundary-stalk--2` | `AlgebraicGeometry.WeilSheaf.IsLisse.isIso_upperStarLowerStarAdjunction_unit_app` | aligned (text taken from the PR) | #224 |
+| `lemma-point-count-bound--1` | `AlgebraicGeometry.Scheme.Hom.exists_card_filter_degreeOver_le`<br>`AlgebraicGeometry.Scheme.Hom.exists_pointCount_le_mul_pow` | aligned (text taken from the PR) | #224 |
+| `proposition-weights-j-boundary-points--1` | `AlgebraicGeometry.WeilSheaf.hasWeightsAtMost_directImage` | partial: Lean states a special case | #224 |
+| `corollary-unramified-boundary-point--2` | `AlgebraicGeometry.WeilSheaf.IsLisse.isPunctuallyPureOfWeight_of_upperStar` | aligned (text taken from the PR) | #224 |
+| `lemma-extreme-degrees-affine-curve--1` | `AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage`<br>`AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero` | aligned (text taken from the PR) | #224 |
+| `lemma-extreme-degrees-affine-curve--2` | `AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two` | aligned (text taken from the PR) | #224 |
+| `lemma-extreme-degrees-affine-curve--3` | `AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two` | aligned (text taken from the PR) | #224 |
+| `lemma-cohomological-range-curve--1` | `AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isAffine`<br>`AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_krullDim_le_one` | partial: Lean states a special case | #224 |
+| `proposition-twisting-weight-zero-adding-dual--1` | `AlgebraicGeometry.WeilSheaf.exists_norm_eq_of_isPunctuallyPureOfWeight` | aligned (text taken from the PR) | #224 |
+| `proposition-twisting-weight-zero-adding-dual--2` | `AlgebraicGeometry.WeilSheaf.constantTwist` | states the clause | #224 |
+| `proposition-twisting-weight-zero-adding-dual--3` | `AlgebraicGeometry.WeilSheaf.realEnvelope` | states the clause | #224 |
+| `proposition-twisting-weight-zero-adding-dual--4` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.constantTwist_zero` | aligned (text taken from the PR) | #224 |
+| `proposition-twisting-weight-zero-adding-dual--5` | `AlgebraicGeometry.WeilSheaf.isReal_realEnvelope` | aligned (text taken from the PR) | #224 |
+| `proposition-twisting-weight-zero-adding-dual--6` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.realEnvelope` | aligned (text taken from the PR) | #224 |
+| `proposition-twisting-weight-zero-adding-dual--8` | `AlgebraicGeometry.WeilSheaf.map_traceFunction_dual` | aligned (text taken from the PR) | #224 |
+| `definition-growth-squared-traces--1` | `AlgebraicGeometry.WeilComplex.traceFunction` | states the clause | #224 |
+| `definition-growth-squared-traces--2` | `AlgebraicGeometry.WeilComplex.traceEnergy`<br>`AlgebraicGeometry.WeilSheaf.traceEnergy` | states the clause | #224 |
+| `definition-growth-squared-traces--3` | `AlgebraicGeometry.WeilComplex.l2Weight`<br>`AlgebraicGeometry.WeilSheaf.l2Weight` | states the clause | #224 |
+| `lemma-bounds-squared-traces--1` | `AlgebraicGeometry.WeilSheaf.exists_traceEnergy_le_of_hasWeightsAtMost` | partial: Lean states a special case | #224 |
+| `lemma-bounds-squared-traces--2` | `AlgebraicGeometry.WeilSheaf.l2Weight_le_of_hasWeightsAtMost` | partial: Lean states a special case | #224 |
+| `lemma-bounds-squared-traces--5` | `AlgebraicGeometry.WeilSheaf.l2Weight_eq_sub_of_traceEnergy_eq`<br>`AlgebraicGeometry.WeilSheaf.traceEnergy_constantTwist` | partial: Lean states a special case | #224 |
+| `theorem-weights-sums-squared-traces--1` | `AlgebraicGeometry.WeilSheaf.l2Weight_eq_of_isReal` | partial: Lean states a special case | #224 |
+| `corollary-sums-squared-traces-j-shriek--2` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.l2Weight_directImage` | partial: Lean states a special case | #224 |
+| `lemma-artin-schreier-character-sheaf--2` | `AlgebraicGeometry.artinSchreierOf`<br>`AlgebraicGeometry.nonempty_iso_tensorObj_artinSchreierOf` | aligned (text taken from the PR) | #225 |
+| `lemma-artin-schreier-character-sheaf--3` | `AlgebraicGeometry.nonempty_iso_dual_artinSchreier` | aligned (text taken from the PR) | #225 |
+| `lemma-artin-schreier-character-sheaf--6` | `AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier` | aligned (text taken from the PR) | #225 |
+| `lemma-artin-schreier-character-sheaf--7` | `AlgebraicGeometry.AddChar.norm_map_apply_eq_one`<br>`AlgebraicGeometry.WeilSheaf.exists_frobeniusEnd_stalk_artinSchreier` | aligned (text taken from the PR) | #225 |
+| `lemma-kunneth-formula-compact-supports--2` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicAlgCl` | aligned (text taken from the PR) | #225 |
+| `lemma-kunneth-formula-compact-supports--3` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleExceptionalProjectionMorphism` | aligned (text taken from the PR) | #225 |
+| `proposition-base-change-fourier-inversion--2` | `AlgebraicGeometry.nonempty_iso_fourierTransform_of_iso_constantTwist` | partial: Lean states a special case | #225 |
+| `proposition-base-change-fourier-inversion--3` | `AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_rationalPoint`<br>`AlgebraicGeometry.nonempty_iso_fourierTransform_comp_upperStar_rationalPointHom` | partial: Lean states a special case | #225 |
+| `proposition-fourier-inversion--1` | `AlgebraicGeometry.isEquivalence_fourierTransform`<br>`AlgebraicGeometry.nonempty_fourierTransform_comp_fourierTransform_inv_iso` | partial: Lean states a special case | #225 |
+| `corollary-plancherel--1` | `AlgebraicGeometry.WeilComplex.traceEnergy_affineSpaceFourierTransform` | aligned (text taken from the PR) | #225 |
+| `corollary-plancherel--2` | `AlgebraicGeometry.WeilComplex.l2Weight_fourierTransform` | aligned (text taken from the PR) | #225 |
+| `lemma-largest-punctual-subsheaf--1` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.eq_zero_of_support_finite` | partial: Lean states a special case | #225 |
+| `definition-perverse-sheaves-curve--1` | `AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper` | states the clause | #225 |
+| `definition-perverse-sheaves-curve--2` | `AlgebraicGeometry.WeilComplex.IsCurvePerverseLE`<br>`AlgebraicGeometry.WeilComplex.IsCurvePerverseLower` | states the clause | #225 |
+| `definition-perverse-sheaves-curve--4` | `AlgebraicGeometry.WeilComplex.IsCurvePerverse` | states the clause | #225 |
+| `lemma-perverse-sheaves-curve--2` | `AlgebraicGeometry.WeilComplex.isCurvePerverse_shift_one_toComplex`<br>`AlgebraicGeometry.WeilComplex.isCurvePerverse_toComplex_obj`<br>`AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isCurvePerverse_middleExtension` | partial: Lean states a special case | #225 |
+| `lemma-simple-objects--1` | `AlgebraicGeometry.WeilComplex.simple_iff` | partial: Lean states a special case | #225 |
+| `proposition-fourier-transform-perverse-heart--1` | `AlgebraicGeometry.isCurvePerverseLE_fourierTransform_inv_obj`<br>`AlgebraicGeometry.isCurvePerverseLE_fourierTransform_obj` | partial: Lean states a special case | #225 |
+| `proposition-fourier-transform-perverse-heart--2` | `AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff` | partial: Lean states a special case | #225 |
+| `proposition-fourier-transform-middle-extension--1` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.exists_hasLinearArtinSchreierConstituent_of_iso`<br>`AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isEmpty_iso_fourierTransform_middleExtension_toComplex` | partial: Lean states a special case | #225 |
+| `lemma-unramified-at-infinity-no-linear-characters--1` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isGeometricallyConstant_of_hasLinearArtinSchreierConstituent_zero`<br>`AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.not_hasLinearArtinSchreierConstituent_of_isUnramifiedAtInfinity'` | aligned (text taken from the PR) | #225 |
+| `lemma-fourier-transform-boundary-sequence--1` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.fourierTransformExtensionByZeroIso`<br>`AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection` | aligned (text taken from the PR) | #226 |
+| `proposition-purity-lisse-part-fourier-transform--1` | `AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner_weight_zero` | partial: Lean states a special case | #226 |
+| `corollary-h-1-c-stalk-fourier--2` | `AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner` | aligned (text taken from the PR) | #226 |
+| `corollary-h-1-c-stalk-fourier--3` | `AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one` | aligned (text taken from the PR) | #226 |
+| `lemma-local-duality-point-c-u--1` | `AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage` | partial: Lean states a special case | #226 |
+| `proposition-exactness-fixed-pure-weight--1` | `AlgebraicGeometry.shortExact_map_directImage` | partial: Lean states a special case | #226 |
+| `lemma-finite-quasi-finite-direct-images--1` | `AlgebraicGeometry.WeilSheaf.isZero_higherLowerShriek_and_isMixedOfWeightsAtMost_of_quasiFinite` | aligned (text taken from the PR) | #227 |
+| `lemma-finite-quasi-finite-direct-images--2` | `AlgebraicGeometry.HasDirectImageWeightBound.isMixedOfWeightsAtMost_derivedLowerShriek` | aligned (text taken from the PR) | #227 |
+| `lemma-finite-quasi-finite-direct-images--3` | `AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.lowerStar_of_isFinite` | aligned (text taken from the PR) | #227 |
+| `lemma-curve-preserving-finite-cover--1` | `AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback` | partial: Lean states a special case | #227 |
+| `lemma-mixedness-open-closed--1` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_openClosed` | aligned (text taken from the PR) | #227 |
+| `theorem-real-constructible-sheaves-are-mixed--1` | `AlgebraicGeometry.WeilSheaf.IsReal.isMixed` | states the clause | #227 |
+| `theorem-pure-lisse-sheaves-over-relative--1` | `AlgebraicGeometry.exists_isMixedOfWeightsAtMost_higherLowerShriek_of_isAffine_fiber`<br>`AlgebraicGeometry.hasWeightsAtMost_higherLowerShriek_of_isAffine_fiber`<br>`AlgebraicGeometry.isReal_higherLowerShriek_of_isAffine_fiber` | partial: Lean states a special case | #227 |
+| `lemma-weights-exact-sequence--1` | `AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_exact` | aligned (text taken from the PR) | #227 |
+| `lemma-weight-bounds-partitions--1` | `AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed` | partial: Lean states a special case | #227 |
+| `proposition-relative-affine-line--1` | `AlgebraicGeometry.hasDirectImageWeightBound_affineLine` | aligned (text taken from the PR) | #227 |
+| `theorem-direct-image-mixed-sheaf--1` | `AlgebraicGeometry.hasDirectImageWeightBound_over_finiteField` | aligned (text taken from the PR) | #227 |
+| `corollary-purity-cohomology-smooth-proper-variety--1` | `AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_adicConstant` | partial: Lean states a special case | #228 |
+| `lemma-hankel-rank-rationality--2` | `PowerSeries.exists_normalized_fraction_map_iff` | aligned (text taken from the PR) | #228 |
+| `theorem-weil-conjectures-smooth-proper-schemes--7` | `FrobeniusModule.natDegree_localPolynomial` | aligned (text taken from the PR) | #228 |
+| `definition-compactification-refinement--1` | `AlgebraicGeometry.Compactification` | states the clause | #229 |
+| `definition-compactification-refinement--2` | `AlgebraicGeometry.Compactification.IsDense` | states the clause | #229 |
+| `definition-compactification-refinement--3` | `AlgebraicGeometry.Compactification.Refinement` | states the clause | #229 |
+| `theorem-nagata-s-compactification-theorem--1` | `AlgebraicGeometry.exists_isDense_compactification` | aligned (text taken from the PR) | #229 |
+| `lemma-schematic-closure-uniqueness--1` | `AlgebraicGeometry.Scheme.Hom.ker_toImage` | aligned (text taken from the PR) | #229 |
+| `lemma-schematic-closure-uniqueness--2` | `AlgebraicGeometry.Scheme.Hom.ker_of_isPullback` | states the clause | #229 |
+| `lemma-uniqueness-maps-dense-open--1` | `AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant` | aligned (text taken from the PR) | #229 |
+| `definition-admissible-blow-up--1` | `AlgebraicGeometry.IsAdmissible`<br>`AlgebraicGeometry.Scheme.IdealSheafData.blowup`<br>`AlgebraicGeometry.Scheme.IdealSheafData.blowupMap` | states the clause | #229 |
+| `definition-strict-transform--1` | `AlgebraicGeometry.Scheme.IdealSheafData.strictTransform`<br>`AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι`<br>`AlgebraicGeometry.ker_strictTransformι` | states the clause | #229 |
+| `lemma-products-composites-u-admissible-blow--2` | `AlgebraicGeometry.IsAdmissible.exists_comp` | aligned (text taken from the PR) | #229 |
+| `lemma-products-composites-u-admissible-blow--3` | `AlgebraicGeometry.IsAdmissible.exists_extend`<br>`AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint` | aligned (text taken from the PR) | #229 |
+| `proposition-relative-form-zariski-s-main--2` | `AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite` | aligned (text taken from the PR) | #229 |
+| `theorem-extension-partial-section--1` | `AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection` | aligned (text taken from the PR) | #229 |
+| `theorem-elimination-indeterminacy--1` | `AlgebraicGeometry.coe_support_eliminationCentre`<br>`AlgebraicGeometry.isOpenImmersion_strictTransformMap_eliminationBlowup` | aligned (text taken from the PR) | #229 |
+| `lemma-extending-graph-from-compactification--1` | `AlgebraicGeometry.Compactification.ProperExtension`<br>`AlgebraicGeometry.Compactification.nonempty_properExtension` | aligned (text taken from the PR) | #229 |
+| `lemma-separation-closures--1` | `AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures` | aligned (text taken from the PR) | #229 |
+| `lemma-extending-isomorphism-over-closure-closed--1` | `AlgebraicGeometry.exists_isIso_strictTransformMap_isoNearClosureBlowup` | aligned (text taken from the PR) | #229 |
+| `lemma-gluing-after-admissible-blow-ups--1` | `AlgebraicGeometry.CommonModification.dense_range_j`<br>`AlgebraicGeometry.nonempty_commonModification` | partial: Lean states a special case | #229 |
+| `lemma-affine-covers-dense-intersection--1` | `AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter` | aligned (text taken from the PR) | #229 |
+| `theorem-chow-s-lemma-projective-form--1` | `AlgebraicGeometry.ProjectiveDomination.nonempty_of_isAffine` | partial: Lean states a special case | #229 |
+| `theorem-chow-s-lemma-projective-form--2` | `AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange` | partial: Lean states a special case | #229 |
+| `theorem-chow-s-lemma-projective-form--3` | `AlgebraicGeometry.exists_chow_finite_type` | new clause (from the PR) | #229 |
+| `lemma-triviality-fibres--1` | `AlgebraicGeometry.Scheme.Modules.nonempty_iso_unit_fiber_iff` | aligned (text taken from the PR) | #230 |
+| `lemma-triviality-fibres--2` | `AlgebraicGeometry.Scheme.Modules.isClosed_setOf_nonempty_iso_fiber` | aligned (text taken from the PR) | #230 |
+| `lemma-triviality-near-fibre--1` | `AlgebraicGeometry.TheoremOfCube.exists_mem_isFreeGenerator` | aligned (text taken from the PR) | #230 |
+| `definition-abelian-variety--1` | `AlgebraicGeometry.IsAbelianVariety` | states the clause | #230 |
+| `definition-abelian-variety--3` | `AlgebraicGeometry.torsionSubgroupScheme` | states the clause | #230 |
+| `lemma-abelian-variety-commutative--1` | `AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral` | aligned (text taken from the PR) | #230 |
+| `lemma-abelian-variety-commutative--2` | `AlgebraicGeometry.IsAbelianVariety.isCommMonObj` | aligned (text taken from the PR) | #230 |
+| `proposition-pullback-multiplication-n--2` | `AlgebraicGeometry.nonempty_iso_overPullback_npow_id` | aligned (text taken from the PR) | #230 |
+| `proposition-multiplication-n--1` | `AlgebraicGeometry.isFinite_npow_id` | partial: Lean states a special case | #230 |
+| `proposition-multiplication-n--2` | `AlgebraicGeometry.etale_torsionSubgroupScheme`<br>`AlgebraicGeometry.isFinite_torsionSubgroupScheme` | partial: Lean states a special case | #230 |
+| `definition-tate-module--1` | `AlgebraicGeometry.IsAbelianVariety.tateModule` | states the clause | #230 |
+| `definition-tate-module--2` | `AlgebraicGeometry.IsAbelianVariety.rationalTateModule` | states the clause | #230 |
+| `proposition-integral-tate-module--2` | `AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule` | partial: Lean states a special case | #230 |
+| `definition-relative-picard-functor--1` | `AlgebraicGeometry.picardFunctor` | states the clause | #231 |
+| `lemma-rigidification-along-section--2` | `AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq` | aligned (text taken from the PR) | #231 |
+| `lemma-rigidification-along-section--3` | `AlgebraicGeometry.bijective_pic_split` | aligned (text taken from the PR) | #231 |
+| `lemma-rigidification-along-section--4` | `AlgebraicGeometry.picardFunctorNormalized_eq_of_iso_tensorObj` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--1` | `AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--2` | `AlgebraicGeometry.Scheme.serreDuality` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--3` | `AlgebraicGeometry.Scheme.degree_relativeDifferentials` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--4` | `AlgebraicGeometry.Scheme.Modules.finrankH_one_eq_zero_of_degree` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--5` | `AlgebraicGeometry.Scheme.finrankH_zero_eq` | aligned (text taken from the PR) | #231 |
+| `theorem-riemann-roch-coherent-serre-duality--6` | `AlgebraicGeometry.Scheme.finrankH_relativeDifferentials_zero_eq_arithmeticGenus` | aligned (text taken from the PR) | #231 |
+| `corollary-serre-duality-field-extension--2` | `AlgebraicGeometry.Scheme.arithmeticGenus_pullback` | aligned (text taken from the PR) | #231 |
+| `lemma-coherent-base-change-invertible-sheaves--1` | `AlgebraicGeometry.Scheme.Modules.exists_isFiniteFreeComplex_higherDirectImage` | partial: Lean states a special case | #231 |
+| `lemma-coherent-base-change-invertible-sheaves--3` | `AlgebraicGeometry.Scheme.Modules.exists_opens_range_subset_iff_isFiniteLocallyFreeInDegree` | partial: Lean states a special case | #231 |
+| `theorem-hilbert-schemes-points-smooth-curve--1` | `AlgebraicGeometry.IsHilbertSubscheme.isInvertible`<br>`AlgebraicGeometry.hilbertPresheaf_curve_representable`<br>`AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero`<br>`AlgebraicGeometry.isRelativeEffectiveCartier_universal_hilbertPresheaf` | aligned (text taken from the PR) | #231 |
+| `proposition-divisors-degree-g-open-chart--1` | `AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert` | aligned (text taken from the PR) | #231 |
+| `proposition-divisors-degree-g-open-chart--2` | `AlgebraicGeometry.exists_representableBy_picardFunctorInvertibleDirectImage` | aligned (text taken from the PR) | #231 |
+| `lemma-twisting-h-0-1-h--2` | `AlgebraicGeometry.Scheme.exists_isInvertible_twist_of_finrankH_zero_eq` | partial: Lean states a special case | #231 |
+| `theorem-picard-scheme-jacobian-over-separably--1` | `AlgebraicGeometry.GrpObj.isSeparated_hom`<br>`AlgebraicGeometry.exists_decomposition_picardFunctor_representableBy`<br>`AlgebraicGeometry.isRepresentable_picardFunctor`<br>`AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor` | aligned (text taken from the PR) | #231 |
+| `theorem-picard-scheme-jacobian-over-separably--2` | `AlgebraicGeometry.geometricallyIntegral_of_representableBy_picardFunctorDegree`<br>`AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree`<br>`AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree` | aligned (text taken from the PR) | #231 |
+| `theorem-picard-scheme-jacobian-over-separably--3` | `AlgebraicGeometry.exists_jacobian` | aligned (text taken from the PR) | #231 |
+| `theorem-picard-scheme-jacobian-over-separably--5` | `AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback`<br>`AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback` | aligned (text taken from the PR) | #231 |
+| `corollary-degree-jacobian--1` | `AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom`<br>`AlgebraicGeometry.Scheme.picDegreeHom`<br>`AlgebraicGeometry.Scheme.picDegreeHom_ofClosedPoint`<br>`AlgebraicGeometry.Scheme.surjective_picDegreeHom` | partial: Lean states a special case | #231 |
+| `corollary-torsion-jacobian-field-extension--1` | `AlgebraicGeometry.nonempty_addEquiv_torsionBy` | aligned (text taken from the PR) | #231 |
+| `corollary-torsion-jacobian-field-extension--2` | `AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme` | partial: Lean states a special case | #231 |
+| `corollary-torsion-jacobian-field-extension--3` | `AlgebraicGeometry.Scheme.surjective_pow_picardZero`<br>`AlgebraicGeometry.surjective_npow_points` | aligned (text taken from the PR) | #231 |
+| `corollary-torsion-jacobian-field-extension--5` | `AlgebraicGeometry.Scheme.ker_picDegreeMod`<br>`AlgebraicGeometry.Scheme.nonempty_addEquiv_torsionBy_pic_and_quotient` | aligned (text taken from the PR) | #231 |
+| `proposition-jacobian-over-ground-field--1` | `AlgebraicGeometry.exists_commGrpObj_representableBy_picardFunctorDegree` | aligned (text taken from the PR) | #231 |
+| `proposition-jacobian-over-ground-field--5` | `AlgebraicGeometry.exists_jacobian_descent` | aligned (text taken from the PR) | #231 |
+| `lemma-cohomology-multiplicative-group--3` | `AlgebraicGeometry.Scheme.etaleRestrictionH_toCohomologicalPicardGroup` | aligned (text taken from the PR) | #232 |
+| `lemma-cohomology-multiplicative-group--4` | `AlgebraicGeometry.Scheme.gmCohomologyMap_toCohomologicalPicardGroup` | aligned (text taken from the PR) | #232 |
+| `lemma-cohomology-multiplicative-group--5` | `AlgebraicGeometry.Scheme.CohomologicalBrauerGroup` | partial: Lean states a special case | #232 |
+| `lemma-cohomology-multiplicative-group--6` | `AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth` | aligned (text taken from the PR) | #232 |
+| `lemma-cohomology-multiplicative-group--7` | `AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField`<br>`AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_functionField` | new clause (from the PR) | #232 |
+| `lemma-cohomology-multiplicative-group--8` | `AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two` | new clause (from the PR) | #232 |
+| `proposition-cohomology-smooth-affine-curve--2` | `AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine` | aligned (text taken from the PR) | #232 |
+| `proposition-cohomology-smooth-affine-curve--3` | `AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul` | partial: Lean states a special case | #232 |
+| `proposition-cohomology-smooth-affine-curve--4` | `AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine` | aligned (text taken from the PR) | #232 |
+| `proposition-p-torsion-smooth-proper-curve--1` | `AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_zero_constantZMod` | aligned (text taken from the PR) | #232 |
+| `proposition-p-torsion-smooth-proper-curve--2` | `AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model` | partial: Lean states a special case | #232 |
+| `proposition-p-torsion-smooth-proper-curve--3` | `AlgebraicGeometry.isZero_etaleCohomology_constantZMod_of_one_lt_of_charP` | aligned (text taken from the PR) | #232 |
+| `lemma-p-torsion-affine-curve-characteristic--2` | `AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine` | aligned (text taken from the PR) | #232 |
+| `lemma-p-torsion-affine-curve-characteristic--3` | `AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact`<br>`AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier` | new clause (from the PR) | #232 |
+| `lemma-p-torsion-affine-curve-characteristic--4` | `AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine` | new clause (from the PR) | #232 |
+| `lemma-finite-morphisms-cohomology--1` | `AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite` | partial: Lean states a special case | #232 |
+| `lemma-finite-morphisms-cohomology--2` | `AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite` | partial: Lean states a special case | #232 |
+| `lemma-finite-morphisms-cohomology--3` | `AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite` | partial: Lean states a special case | #232 |
+| `lemma-sheaves-finite-support-finite-morphisms--1` | `AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar`<br>`AlgebraicGeometry.zero_dimensional_etale_cohomology` | partial: Lean states a special case | #232 |
+| `lemma-sheaves-finite-support-finite-morphisms--2` | `AlgebraicGeometry.Etale.bijective_globalSectionsUpperStarMap_of_dim_zero` | partial: Lean states a special case | #232 |
+| `lemma-removing-finitely-many-points--1` | `AlgebraicGeometry.IsCurve.dense_open_base_change`<br>`AlgebraicGeometry.IsCurve.dense_open_high_cohomology`<br>`AlgebraicGeometry.IsCurve.dense_open_primary_finiteness` | partial: Lean states a special case | #232 |
+| `lemma-reduction-unipotent-local-system--1` | `AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_cover_filtration_sheaf` | aligned (text taken from the PR) | #232 |
+| `lemma-reduction-unipotent-local-system--2` | `AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_retraction` | aligned (text taken from the PR) | #232 |
+| `proposition-cartier-s-theorem--1` | `AlgebraicGeometry.isReduced_of_grpObj`<br>`AlgebraicGeometry.smooth_of_grpObj_of_isReduced` | aligned (text taken from the PR) | #233 |
+| `proposition-cartier-s-theorem--2` | `AlgebraicGeometry.GeneralLinearGroup.finrank_lieSubalgebra` | partial: Lean states a special case | #233 |
+| `lemma-connected-components-images-homomorphisms--1` | `AlgebraicGeometry.GrpObj.image_mulLeft_connectedComponent_onePoint`<br>`AlgebraicGeometry.GrpObj.irreducibleSpace_identityComponent`<br>`AlgebraicGeometry.GrpObj.isClopen_connectedComponent_onePoint`<br>`AlgebraicGeometry.GrpObj.range_conj_subset_connectedComponent`<br>`AlgebraicGeometry.GrpObj.range_identityComponentTranslate`<br>`AlgebraicGeometry.finite_connectedComponents`<br>`AlgebraicGeometry.instGrpObjOverSchemeSpecOfIdentityComponent` | states the clause | #233 |
+| `lemma-lie-s-theorem--1` | `LieModule.exists_ne_zero_forall_lie_eq_smul_of_isSolvable` | aligned (text taken from the PR) | #233 |
+| `proposition-lie-algebras-faithful-semisimple-representation--1` | `LieAlgebra.hasCentralRadical_of_isFaithful` | aligned (text taken from the PR) | #233 |
+| `proposition-lie-algebras-faithful-semisimple-representation--2` | `LieAlgebra.center_sup_derivedSeries_eq_top`<br>`LieAlgebra.hasTrivialRadical_quotient_center` | aligned (text taken from the PR) | #233 |
 
 ## Section arrows
 
