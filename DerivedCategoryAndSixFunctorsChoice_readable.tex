@@ -20323,9 +20323,10 @@ and an extension of two sheaves with a common upper bound has the same
 bound.  Tensor products of pure sheaves of weights $a$ and $b$ are pure
 of weight $a+b$, and the dual of a pure lisse sheaf of weight $a$ is
 pure of weight $-a$. A tensor product of mixed sheaves of weights at
-most $a$ and at most $b$ is mixed of weights at most $a+b$, and the dual
-of a mixed lisse sheaf is mixed, with graded pieces the duals of the
-given ones, of the negated weights.  Inverse image preserves purity,
+most $a$ and at most $b$ is mixed of weights at most $a+b$. The dual of
+a mixed lisse sheaf is mixed, of the negated weights; when its filtration
+has lisse graded pieces, their duals are the graded pieces of the
+annihilator filtration of the dual.  Inverse image preserves purity,
 mixedness and their upper bounds.  If a complex $K$ has weights at most
 $w$, then $K[r]$ has weights at most $w+r$.
 
@@ -20357,6 +20358,28 @@ product of the two associated gradeds. By
 Lemma~\ref{lemma-filtrations-spectra}, the eigenvalues of tensor
 products and duals are the products $\alpha_i\beta_j$ and the
 inverses $\alpha_i^{-1}$, whose weights are $a+b$ and $-a$.
+
+For the dual of a mixed lisse sheaf $G$ with mixed filtration
+$(G_i)$, suppose first that the graded pieces $G_i/G_{i-1}$ are lisse.
+Dualizing is exact on lisse sheaves, so the annihilator filtration
+$G_i^\perp=\ker(G^\vee\to G_i^\vee)$ has graded pieces
+$(G_i/G_{i-1})^\vee$, which are pure of the negated weights by the
+computation above. In general the graded pieces need not be lisse: on a
+curve, a pure lisse $G$ has the filtration $j_!j^*G\subseteq G$, whose
+quotient $i_*i^*G$ is a skyscraper with dual zero. We then argue by
+Noetherian induction on $X$. Let $U\subseteq X$ be a dense open, stable
+under Frobenius, on which all graded pieces are lisse, and let
+$i:Z\to X$ be its closed complement. On $U$ the first case applies to
+$j^*G$. Since $G$ is lisse, $i^*(G^\vee)\simeq(i^*G)^\vee$, and $i^*G$ is a
+mixed lisse sheaf on $Z$, so $i^*(G^\vee)$ is mixed by induction, of the
+negated weights. Extension by zero and direct image along a closed
+immersion are exact and do not change stalks, so they carry mixed
+filtrations to mixed filtrations of the same weights, and the exact
+sequence
+\[
+0\to j_!j^*(G^\vee)\to G^\vee\to i_*i^*(G^\vee)\to 0
+\]
+shows that $G^\vee$ is mixed, of the negated weights.
 
 Inverse images do not change weights, because the weight is normalized
 by the degree. Indeed, at a closed point of an inverse image the Frobenius is a
