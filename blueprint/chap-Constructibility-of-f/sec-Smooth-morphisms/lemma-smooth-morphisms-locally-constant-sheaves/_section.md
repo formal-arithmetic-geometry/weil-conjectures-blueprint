@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Smooth morphisms and locally constant sheaves"
 order = 564
 lean = ["AlgebraicGeometry.Etale.exists_nonempty_open_smooth_directImage_lisse_baseChange"]
+uses = ["definition-derived-base-change-map"]
 +++
 Let $S$ be integral and let $f:X\to S$ be separated, smooth and of finite type. For a finite locally constant
 $\Fell$-sheaf $L$ on $X_{\acute{e}t}$, there is a nonempty open

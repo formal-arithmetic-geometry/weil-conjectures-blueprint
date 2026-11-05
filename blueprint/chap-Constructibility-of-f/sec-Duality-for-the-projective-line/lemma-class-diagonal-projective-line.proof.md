@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-class-diagonal-projective-line"
 order = 551
+uses = ["lemma-cycle-class-cartier-divisor", "lemma-cohomology-projective-line-trace", "theorem-proper-base-change-classical-pro"]
 +++
 Let $x_0,x_1$ and $y_0,y_1$ be the pullbacks along $p_1$
 and $p_2$ of the homogeneous coordinates of $\mathbf P^1_S$. Then

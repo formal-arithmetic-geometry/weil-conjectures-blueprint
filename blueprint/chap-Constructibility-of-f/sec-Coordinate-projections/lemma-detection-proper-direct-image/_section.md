@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Detection by a proper direct image"
 order = 569
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_of_upperStar_of_rightDerivedLowerStar", "AlgebraicGeometry.Etale.isIso_of_isIso_upperStar_map_of_isIso_rightDerivedLowerStar_map"]
+uses = ["definition-constructible-sheaves"]
 +++
 Let $b:Y\to S$ be proper, let $j:U\hookrightarrow Y$ be an open
 immersion with reduced closed complement $i:Z\hookrightarrow Y$, and

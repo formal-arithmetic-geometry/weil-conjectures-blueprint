@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Generic constructibility and base change for $Rj_*$"
 order = 582
 lean = ["AlgebraicGeometry.Etale.exists_hasConstructibleDirectImageBaseChangeOn"]
+uses = ["definition-constructible-sheaves", "definition-derived-base-change-map"]
 +++
 Let $S$ be integral, and let $j:X\hookrightarrow Y$ be an open immersion of
 $S$-schemes. For a constructible

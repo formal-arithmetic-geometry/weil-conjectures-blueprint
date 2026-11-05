@@ -3,7 +3,7 @@ id = "lemma-extension-across-finite-subset"
 kind = "lemma"
 title = "Extension across a finite subset"
 order = 576
-lean = ["AlgebraicGeometry.Etale.HasDirectImageBaseChangeOnPlus.of_finite_boundary"]
+lean = []
 uses = ["definition-derived-base-change-map"]
 +++
 Let $S$ be integral and affine, let $b:Y\to S$ be projective, and let

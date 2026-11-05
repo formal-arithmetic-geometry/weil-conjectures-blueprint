@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The adjunction for the projective line"
 order = 553
 lean = ["AlgebraicGeometry.Etale.exists_projectiveLineAdjunction", "AlgebraicGeometry.Etale.projectiveLineAdjunctionBaseChange_of_isNormalized"]
-uses = ["proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves"]
+uses = ["definition-tate-twists", "lemma-cohomology-projective-line-trace", "lemma-cycle-class-cartier-divisor"]
 +++
 Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the
 projection. The functors

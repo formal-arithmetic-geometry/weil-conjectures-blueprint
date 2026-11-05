@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-coordinate-projections"
 order = 573
+uses = ["lemma-coordinate-projections--1", "lemma-coordinate-projections--2"]
 +++
 Part (1) is a transcendence degree count. For part (2), note that a point
 of $Z$ has all its coordinates in the finite sets of excluded values.

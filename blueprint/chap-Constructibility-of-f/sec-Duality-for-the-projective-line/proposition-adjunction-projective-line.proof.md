@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-adjunction-projective-line"
 order = 554
-uses = ["proposition-forgetting-supports-composition", "lemma-class-diagonal-projective-line"]
+uses = ["proposition-forgetting-supports-composition", "lemma-class-diagonal-projective-line", "lemma-cohomology-projective-line-trace", "definition-projection-formula-map", "theorem-proper-base-change-classical-pro", "lemma-identity-pasting", "proposition-composition-base-change-rf-shriek", "proposition-comparison-morphism-inverse-image", "proposition-adjunction-projective-line--1", "proposition-adjunction-projective-line--3"]
 +++
 The projection formula and proper base change reduce each of the two
 triangle identities to the identity $s_i=1$ of
