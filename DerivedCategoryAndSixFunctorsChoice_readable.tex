@@ -3393,7 +3393,8 @@ product. For coherent sheaves this fails, since
 $f^*M=\mathcal O_X\otimes_{f^{-1}\mathcal O_Y}f^{-1}M$ and
 $f^{-1}\mathcal O_Y\ne\mathcal O_X$ in general. For our coefficient sheaves
 the two notions agree, because all coefficient sheaves are pulled back
-from the point. The same holds for their Tate twists.
+from the point. The same holds for their Tate twists, where $\ell$
+is invertible.
 
 The second part of the next lemma says that extension of scalars to a
 finite extension $E'/E$ is a finite direct sum. We use this, for instance,
@@ -3408,8 +3409,9 @@ Let $f:X\to Y$ be a morphism of schemes.
   \[
    f^{-1}\Lambda_Y\longrightarrow\Lambda_X
   \]
-  is an isomorphism of sheaves of rings. The same holds for its Tate
-  twists, including the twists of a finite ring $A$.
+  is an isomorphism of sheaves of rings. If $\ell$ is invertible on $Y$,
+  the same holds for its Tate twists, including the twists of a finite
+  ring $A$.
 \item If $E\subset E'$ is a finite extension, then $\mathcal O_{E',X}$ is a
   finite free $\mathcal O_{E,X}$-module and $E'_X$ is a finite free
   $E_X$-module.
@@ -3424,7 +3426,9 @@ shows that
 \]
 and this proves the assertion for the coefficient rings themselves.
 
-The torsion twists $\mu_{\ell^n}$ are represented by finite \'etale group
+For the twists, $\ell$ is invertible on $Y$, hence on $X$, as
+Definition~\ref{definition-tate-twists} requires. The torsion twists
+$\mu_{\ell^n}$ are then represented by finite \'etale group
 schemes, and these commute with base change. Their inverse limit is
 represented by the inverse limit of these schemes, so that its inverse image
 is represented by the base change \stacks{09A5}. This proves the
@@ -4720,7 +4724,9 @@ lies in some $E_X$. We make this precise.
 Since $X$ is quasi-compact, we may choose a finite covering by
 quasi-compact pro-\'etale affines on which all the modules are
 free; such refinements exist by \stacks{0988}. Their pairwise
-intersections are quasi-compact since $X$ is quasi-separated. On a quasi-compact object, taking sections
+intersections $U_i\times_XU_j$ are quasi-compact since $X$ is quasi-separated,
+and quasi-separated since they are subschemes of the affine schemes
+$U_i\times U_j$. On a quasi-compact quasi-separated object, taking sections
 commutes with filtered colimits, because coverings admit finite
 quasi-compact refinements and the sheaf condition involves only finite
 limits \stacks{0739}. By Lemma~\ref{lemma-comparison-completed-coefficients} we have
@@ -7786,21 +7792,38 @@ $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. Hence
 
 \emph{The case $\Lambda=\Qbar$.} The bound for $E$ depends only on the
 strata and on $\operatorname{cd}_\ell$, not on $E$, so it passes to the
-colimit over finite extensions. By
-Lemma~\ref{lemma-descent-lisse-qbar-sheaves-finite}, there are a finite $E$ and
-lisse $E$-sheaves $L'$, $M'$ with $L=L'_{\Qbar}$ and $M=M'_{\Qbar}$. Then
-$a_!L=(a_!L')_{\Qbar}$ and $b_!M=(b_!M')_{\Qbar}$, and by Lemma~\ref{lemma-descent-finite-coefficient-field}(1),
+colimit over finite extensions. We first fix everything that depends on
+$L$ alone, before the target is given. By
+Lemma~\ref{lemma-descent-lisse-qbar-sheaves-finite}, applied to $L$ alone,
+there are a finite extension $E_0/\Ql$ and a lisse $E_0$-sheaf $L'$ with
+$L=L'_{\Qbar}$. After refining $S$
+(Lemma~\ref{lemma-lattices-after-finite-stratification}), $L'$ contains a
+lisse $\mathcal O_{E_0}$-lattice $L'_0$. As in the case $\Lambda=E$, the
+refinement replaces $a_!L$ by a finite extension of sheaves of the same
+form, and it depends only on $L$. For every finite extension
+$E'\supset E_0$, the sheaf $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_{E'}$
+is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata.
+The case $\Lambda=E'$ therefore gives
+$\Ext^q_{E'}\bigl((a_!L')_{E'},N'\bigr)=0$ for
+$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$, for each refined
+stratum $S$ and every $N'\in\Cons(X,E')$. This bound does not depend on
+$E'$ or on $N'$.
+
+Now let $b$ and $M$ be given. By
+Lemma~\ref{lemma-descent-lisse-qbar-sheaves-finite} again, applied to $M$,
+there are a finite extension $E\supset E_0$ (enlarge the field given by the
+lemma to contain $E_0$) and a lisse $E$-sheaf $M'$ with $M=M'_{\Qbar}$.
+The field $E$ depends on $M$, but neither the strata of the source nor the
+lattice $L'_0$ do. Then $a_!L=(a_!L')_{\Qbar}$ and
+$b_!M=(b_!M')_{\Qbar}$, and by
+Lemma~\ref{lemma-descent-finite-coefficient-field}(1),
 \[
  \Ext^q_{\Qbar}(a_!L,b_!M)
- =\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr),
+ =\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr).
 \]
-and the groups on the right vanish for $q$ above a bound independent of
-$E'$. Indeed, after refining the strata, $L'$ contains a lisse
-$\mathcal O_E$-lattice $L'_0$, and $L'_0\otimes_{\mathcal O_E}\mathcal O_{E'}$
-is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata. The
-case $\Lambda=E'$ therefore gives the bound
-$\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ for each refined
-stratum $S$, which does not depend on $E'$.
+Every group on the right vanishes for
+$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ by the previous
+paragraph, and hence so does the colimit.
 \end{proof}
 
 \begin{example}[The bound over a finite field]
@@ -16044,13 +16067,35 @@ complex $Q$ therefore degenerates, and it shows that
 All these stalks vanish. Since the cohomology sheaves of $Q$
 are supported on this finite set, $Q=0$.
 
-A finite base field reduces to its algebraic closure. This
-extension is a filtered limit of finite \'etale extensions, and the
-continuity and evaluation argument of
-Lemma~\ref{lemma-restriction-geometric-generic-fibre} shows that duality commutes with
-pullback along it. Hence the pullback of $\delta_K$ to the algebraic
-closure is the double-dual map there, which is an isomorphism by the case
-already proved. Since pullback to the algebraic closure is surjective on geometric points, it is conservative on constructible classical complexes, and the result therefore descends to the finite field.
+A finite base field reduces to its algebraic closure. Let $\bar k$ be
+an algebraic closure of $k$ and $g:X_{\bar k}=X\times_k\bar k\to X$ the
+projection. The three comparisons of
+Lemma~\ref{lemma-restriction-geometric-generic-fibre} hold for $g$, with
+the same proofs. Indeed, about $\bar\eta\to B$ these proofs use only that
+it is a limit of \'etale $B$-schemes, and here, with
+$B=\operatorname{Spec}k$ in place of a curve, $\operatorname{Spec}\bar k$
+is the limit of the finite \'etale $k$-schemes $\operatorname{Spec}k'$,
+for $k'\subset\bar k$ finite over $k$. Unlike in
+Lemma~\ref{lemma-double-dual-geometric-generic-fibre}, the dualizing
+complex does not change. For an affine open $V$ of $X$, choose a closed
+immersion $i:V\hookrightarrow\mathbf A^r_k$. By composition of exceptional
+inverse images and
+Theorem~\ref{theorem-smooth-purity-all-admissible-coefficients},
+$\omega_V\simeq i^!A(r)[2r]$. The base change
+$i_{\bar k}:V_{\bar k}\hookrightarrow\mathbf A^r_{\bar k}$ is a closed immersion
+into an affine space of the same dimension, so
+$\omega_{V_{\bar k}}\simeq i_{\bar k}^!A(r)[2r]$, and the second comparison gives
+$g_V^*\omega_V\simeq\omega_{V_{\bar k}}$, with no twist and no shift. The
+argument of Lemma~\ref{lemma-double-dual-geometric-generic-fibre}, with this
+isomorphism in place of $g_V^*\omega_V\simeq\omega_{V_{\bar\eta}}(1)[2]$,
+shows that the isomorphism
+$g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar k}}\mathbb D_{V_{\bar k}}g_V^*(K|_V)$
+it gives carries $g_V^*\delta_{K|_V}$ to $\delta_{g_V^*(K|_V)}$. The latter
+is an isomorphism by the case already proved, so $g^*Q$ vanishes on every
+$V_{\bar k}$, and $g^*Q=0$. Finally, every geometric point of $X$ factors
+through $X_{\bar k}$, since its algebraically closed residue field contains an
+algebraic closure of $k$. Hence all geometric stalks of $Q$ vanish, and
+$Q=0$ over the finite field as well.
 
 For coefficient rings that are not finite we reduce to finite ones. Indeed, the double-dual map $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is
 a natural transformation of exact functors, built from $a_X^!$, internal
@@ -16565,6 +16610,63 @@ base change maps. These maps are isomorphisms for every $f$, because
 $\operatorname{Fr}_X$ and $\operatorname{Fr}_Y$ are isomorphisms of schemes
 and base change along an isomorphism is transport of structure.
 
+For $Rf_!$ this needs a word, since $\operatorname{Fr}_X$ and
+$\operatorname{Fr}_Y$ are not $k$-morphisms, while $Rf_!$ is built from
+compactifications over $k$. We compute $Rf_!=R\bar f_*j_!$ with a
+compactification $X\overset{j}{\hookrightarrow}\bar X\xrightarrow{\bar f}Y$
+obtained by base change from a compactification of $f_0$ over $k_0$
+(Theorem~\ref{theorem-nagata-s-compactification-theorem}). Then
+$\operatorname{Fr}_{\bar X}$ is an automorphism of the scheme $\bar X$ with
+$\operatorname{Fr}_{\bar X}^{-1}(X)=X$ and
+$\bar f\operatorname{Fr}_{\bar X}=\operatorname{Fr}_Y\bar f$. For an
+automorphism $h$ of a scheme, $h^*\simeq(h^{-1})_*$, so transport of
+structure gives
+$\operatorname{Fr}_Y^*R\bar f_*\simeq R\bar f_*\operatorname{Fr}_{\bar X}^*$
+and $\operatorname{Fr}_{\bar X}^*j_!\simeq j_!\operatorname{Fr}_X^*$, and
+their composite is the base change map for $Rf_!$. It does not depend on
+the compactification. Indeed, two compactifications of $f_0$ are dominated
+by a third, the closure of $X_0$ in their fibre product over $Y_0$, and the
+refinement isomorphisms of $Rf_!$ come from proper maps over $k_0$, which
+commute with the Frobenii. The map for $f^!$ is the mate of the map for
+$Rf_!$, and it is an isomorphism because both functors
+$\operatorname{Fr}^*$ are equivalences.
+
+Pullback along $\operatorname{Fr}_T$ on compactly supported cohomology is
+constructed in the same way. For a morphism of schemes $h:S'\to S$ and
+$L\in D(S_{\proet},\Lambda)$, the \emph{pullback map}
+\[
+ \operatorname{pb}_{h,L}:R\Gamma(S,L)\longrightarrow R\Gamma(S',h^*L)
+\]
+is $R\Gamma$ of the unit $L\to Rh_*h^*L$, followed by the identification
+$R\Gamma(S,Rh_*-)=R\Gamma(S',-)$. We write $\operatorname{pb}_h$ when $L$
+is clear. It is natural in $L$, and it is transitive: for $g:S'\to S$ and
+$h:S''\to S'$ we have
+$\operatorname{pb}_{gh,L}=\operatorname{pb}_{h,g^*L}\circ\operatorname{pb}_{g,L}$
+under $(gh)^*\simeq h^*g^*$. Let $j:T\hookrightarrow\bar T$ be the base change of
+a compactification of $T_0$ over $k_0$. Then $\operatorname{Fr}_{\bar T}$
+is an automorphism of $\bar T$ with $\operatorname{Fr}_{\bar T}^{-1}(T)=T$,
+and \emph{pullback along $\operatorname{Fr}_T$} is the composite
+\[
+ \operatorname{pb}_{\operatorname{Fr}_T}:
+ R\Gamma_c(T,K)=R\Gamma(\bar T,j_!K)
+ \xrightarrow{\ \operatorname{pb}_{\operatorname{Fr}_{\bar T}}\ }
+ R\Gamma(\bar T,\operatorname{Fr}_{\bar T}^*j_!K)
+ \simeq R\Gamma(\bar T,j_!\operatorname{Fr}_T^*K)
+ =R\Gamma_c(T,\operatorname{Fr}_T^*K).
+\]
+It does not depend on $\bar T$. Indeed, a refinement $\pi:\bar T'\to\bar T$
+between two such compactifications comes from $k_0$, so
+$\pi\operatorname{Fr}_{\bar T'}=\operatorname{Fr}_{\bar T}\pi$. Transitivity
+of pullback maps for this composite, together with the base change
+$\operatorname{Fr}_{\bar T}^*R\pi_*\simeq R\pi_*\operatorname{Fr}_{\bar T'}^*$
+along the automorphisms $\operatorname{Fr}$ and with
+$R\pi_*j'_!\simeq j_!$, shows that the refinement isomorphism
+$R\Gamma(\bar T',j'_!K)\simeq R\Gamma(\bar T,R\pi_*j'_!K)
+\simeq R\Gamma(\bar T,j_!K)$ carries one pullback map to the other. In the
+same way, the pullback map along $\operatorname{Fr}_T^m$ is defined, and by
+transitivity it is the $m$-fold composite
+$\operatorname{pb}_{\operatorname{Fr}_T^m,K}=\operatorname{pb}_{\operatorname{Fr}_T,(\operatorname{Fr}_T^{m-1})^*K}\circ\cdots\circ\operatorname{pb}_{\operatorname{Fr}_T,K}$.
+
 \begin{definition}[Frobenius operator]
 \label{definition-frobenius-operator}
 For a Weil complex $(K,\phi_K)$ on $T$, the \emph{geometric Frobenius
@@ -16572,12 +16674,14 @@ operator} on compactly supported cohomology is the endomorphism
 \[
 \begin{gathered}
  \operatorname{Frob}_{T,K}:R\Gamma_c(T_{\proet},K)
-   \xrightarrow{\ \text{pullback along }\operatorname{Fr}_T\ }
+   \xrightarrow{\ \operatorname{pb}_{\operatorname{Fr}_T}\ }
  R\Gamma_c(T_{\proet},\operatorname{Fr}_T^*K)\\
    \xrightarrow{\ R\Gamma_c(T_{\proet},\phi_K)\ }
  R\Gamma_c(T_{\proet},K).
 \end{gathered}
 \]
+Here $\operatorname{pb}_{\operatorname{Fr}_T}$ is the pullback along $\operatorname{Fr}_T$
+constructed above.
 \end{definition}
 
 When $T$ and $K$ are clear, we write $F$ for $\operatorname{Frob}_{T,K}$ and
@@ -17232,9 +17336,28 @@ image with Hom, for $P,Q\in\Dctf(X\times X,A)$,
  c^!\cHom_A(P,Q)\simeq\cHom_A(c^*P,c^!Q),
 \]
 applied to $P=p_2^*K$ and $Q=p_1^!K$. To prove the exchange, we
-test against an object $M$ of $D(C_{\proet},A)$ and apply
-$c_!\dashv c^!$, the projection formula for $c_!$, and the tensor--Hom
-adjunction, in that order.
+use Yoneda inside $\Loc(\Dctf(C,A))$, the category on which
+$c_!\dashv c^!$ is defined
+(Theorem~\ref{theorem-exceptional-inverse-image}). Test objects in all
+of $D(C_{\proet},A)$ would not do, since $c^!$ is not defined there. Both
+sides of the exchange lie in $\Dctf(C,A)$ by
+Proposition~\ref{proposition-six-operations-dctf}, so these test objects
+suffice. By Proposition~\ref{proposition-comparison-etale-derived-category}
+the localizing categories are $D(C_{\et},A)$ and $D((X\times X)_{\et},A)$,
+where the projection formula for $c_!$ holds for all objects
+\stacks{0GL5}, and tensoring with $c^*P$ preserves $\Loc(\Dctf(C,A))$.
+For $M$ in $\Loc(\Dctf(C,A))$ we obtain
+\[
+\begin{aligned}
+ \Hom\bigl(M,c^!\cHom_A(P,Q)\bigr)
+ &\simeq\Hom\bigl(c_!M\otimes^{\mathbf L}P,Q\bigr)
+ \simeq\Hom\bigl(c_!(M\otimes^{\mathbf L}c^*P),Q\bigr)\\
+ &\simeq\Hom\bigl(M\otimes^{\mathbf L}c^*P,c^!Q\bigr)
+ \simeq\Hom\bigl(M,\cHom_A(c^*P,c^!Q)\bigr),
+\end{aligned}
+\]
+by $c_!\dashv c^!$ and the tensor--Hom adjunction, the projection formula,
+$c_!\dashv c^!$ again, and the tensor--Hom adjunction.
 \end{proof}
 
 In linear algebra the trace is evaluation $W\otimes W^\vee\to A$ on
@@ -17956,29 +18079,98 @@ of $\phi_m$.
 \begin{proof}
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
 absolute Frobenius, and pullback along the absolute Frobenius is
-naturally the identity on \'etale sheaves. This gives $\kappa_m$, and a
-formal argument with adjoints shows that $\kappa_m$ carries one pullback map
-on cohomology to the other.
+naturally the identity on \'etale sheaves. This gives $\kappa_m$, and we then compare the two pullback maps on one
+compactification.
 On coordinate rings the two maps are
 \[
  \Phi_X^\#(a\otimes b)=a^q\otimes b,
  \qquad \operatorname{Fr}_X^\#(a\otimes b)=a\otimes b^{1/q}
 \]
 so that $\Phi_X=F_X\operatorname{Fr}_X$, where
-$F_X$ is the absolute $q$-power Frobenius of $X$. Now, on the classical constructible category, pullback along absolute Frobenius is
-naturally isomorphic to the identity, because for an \'etale object
-its relative Frobenius is an isomorphism, functorial in that object.
-Transporting this natural isomorphism to $\Dctf(X,A)$ by the
-comparison with the pro-\'etale site, we obtain $\kappa_m$ together with its compatibility with
-iteration, and the latter gives $\psi_m=\phi_m\kappa_m$.
+$F_X$ is the absolute $q$-power Frobenius of $X$. The absolute Frobenius
+commutes with every morphism of schemes over $\mathbf F_p$, so also
+$\Phi_X^m=\operatorname{Fr}_X^mF_X^m$. On the classical constructible
+category, pullback along absolute Frobenius is naturally isomorphic to the
+identity, because for an \'etale object its relative Frobenius is an
+isomorphism, functorial in that object. Transporting this natural
+isomorphism to $\Dctf(X,A)$ by the comparison with the pro-\'etale site,
+we obtain $\theta:F_X^*\simeq\mathrm{id}$. It is compatible with pullback
+along every morphism $h$, that is, $h^*\theta=\theta h^*$ under
+$h^*F^*=F^*h^*$, since relative Frobenius of \'etale objects is
+compatible with base change. Let $\theta^m:(F_X^m)^*\simeq\mathrm{id}$ be
+its $m$-fold composite and put
+\[
+ \kappa_m=\theta^m_{(\operatorname{Fr}_X^m)^*K}:
+ (\Phi_X^m)^*K=(F_X^m)^*(\operatorname{Fr}_X^m)^*K
+ \xrightarrow{\sim}(\operatorname{Fr}_X^m)^*K .
+\]
+Compatibility with iteration means that
+$\kappa_{m+1}=\kappa_{m,\operatorname{Fr}_X^*K}\circ(\Phi_X^m)^*\kappa_1$,
+and it follows from the compatibility of $\theta$ with pullback along
+$\Phi_X^m$. Now $\psi_m=\phi_m\kappa_m$ follows by induction on $m$. If it
+holds for $m$, then
+\[
+\begin{aligned}
+ \psi_{m+1}&=\psi_m\circ(\Phi_X^m)^*\psi
+ =\phi_m\circ\kappa_m\circ(\Phi_X^m)^*\phi\circ(\Phi_X^m)^*\kappa_1\\
+ &=\phi_m\circ(\operatorname{Fr}_X^m)^*\phi\circ\kappa_{m,\operatorname{Fr}_X^*K}\circ(\Phi_X^m)^*\kappa_1
+ =\phi_{m+1}\kappa_{m+1},
+\end{aligned}
+\]
+where the third equality is the naturality of $\kappa_m$ in $K$.
 
-For the pullback maps $(\Phi_X^m)^*$ and
-$(\operatorname{Fr}_X^m)^*$ on compact cohomology, recall that a natural
-isomorphism of left adjoints has a unique mate, which is an
-isomorphism of the right adjoints. The unit and counit identities
-then show that $\kappa_m$ carries one pullback map to the other, and composing
-with $\phi_m$, or with an arbitrary morphism
-$(\operatorname{Fr}_X^m)^*K\to K$, we obtain the equality of operators.
+For the pullback maps on compact cohomology, let $j:X\hookrightarrow\bar X$
+be the base change of a compactification of $X_0$ over $k_0$, and use the
+pullback maps $\operatorname{pb}_h$ of \S\ref{section-weil-complexes}. The
+endomorphisms $\Phi_{\bar X}$, $\operatorname{Fr}_{\bar X}$ and
+$F_{\bar X}$ of the scheme $\bar X$ restrict to $\Phi_X$,
+$\operatorname{Fr}_X$ and $F_X$. Each of them has inverse image $X$ of $X$,
+so each commutes with $j_!$, and
+$\Phi_{\bar X}^m=\operatorname{Fr}_{\bar X}^mF_{\bar X}^m$. Put
+$L=j_!K$, so that $R\Gamma_c(X,K)=R\Gamma(\bar X,L)$.
+
+First, the map $(\Phi_X^m)^*$ of
+Definition~\ref{definition-frobenius-correspondences-their-operators} is
+$\operatorname{pb}_{\Phi_{\bar X}^m,L}$. Indeed, $\Phi_X^m$ is finite, so
+$R(\Phi_X^m)_!=R(\Phi_X^m)_*$, and the square $j\Phi_X^m=\Phi_{\bar X}^mj$
+is cartesian, so $j_!R(\Phi_X^m)_*\simeq R(\Phi_{\bar X}^m)_*j_!$. Under
+this isomorphism the identification
+$R\Gamma_c(X,R(\Phi_X^m)_*-)=R\Gamma_c(X,-)$ used there is the composition
+of direct images $R\Gamma(\bar X,R(\Phi_{\bar X}^m)_*-)=R\Gamma(\bar X,-)$,
+and the unit for $\Phi_X^m$ corresponds to the unit for $\Phi_{\bar X}^m$.
+
+Second, by transitivity,
+$\operatorname{pb}_{\Phi_{\bar X}^m,L}
+ =\operatorname{pb}_{F_{\bar X}^m,(\operatorname{Fr}_{\bar X}^m)^*L}\circ
+ \operatorname{pb}_{\operatorname{Fr}_{\bar X}^m,L}$. The absolute Frobenius
+$F_{\bar X}^m$ satisfies the hypothesis of \stacks{03SP}, since its
+relative Frobenius over each \'etale object is an isomorphism, functorial
+in that object. Since $A$ is finite, we may compute on the \'etale site
+(Proposition~\ref{proposition-comparison-etale-derived-category}). There
+the formal argument of \stacks{03SP} identifies $(F_{\bar X}^m)_*$ and
+$(F_{\bar X}^m)^{-1}$ with the identity functors of the topos, compatibly
+with the unit, and this identification is $\theta^m$, since both come from
+the relative Frobenius isomorphisms of \'etale objects. Hence for every
+$N\in\Dctf(\bar X,A)$ the pullback map
+$\operatorname{pb}_{F_{\bar X}^m,N}$ followed by
+$R\Gamma(\bar X,\theta^m_N)$ is the identity of $R\Gamma(\bar X,N)$. With $N=(\operatorname{Fr}_{\bar X}^m)^*L$
+this gives
+\[
+ R\Gamma_c(X,\kappa_m)\circ(\Phi_X^m)^*=\operatorname{pb}_{\operatorname{Fr}_X^m} .
+\]
+Finally, the naturality of $\operatorname{pb}_{\operatorname{Fr}_X}$ moves the maps
+$R\Gamma_c(X,(\operatorname{Fr}_X^i)^*\phi)$ past the pullback maps, and
+transitivity gives
+$\operatorname{Frob}_{X,K}^m=R\Gamma_c(X,\phi_m)\circ\operatorname{pb}_{\operatorname{Fr}_X^m}$.
+Hence
+\[
+ T_{c_m}(\psi_m)=R\Gamma_c(X,\phi_m)\circ R\Gamma_c(X,\kappa_m)\circ(\Phi_X^m)^*
+ =R\Gamma_c(X,\phi_m)\circ\operatorname{pb}_{\operatorname{Fr}_X^m}
+ =\operatorname{Frob}_{X,K}^m .
+\]
+The same computation with an arbitrary morphism
+$\chi:(\operatorname{Fr}_X^m)^*K\to K$ in place of $\phi_m$ gives
+$T_{c_m}(\chi\kappa_m)=R\Gamma_c(X,\chi)\circ\operatorname{pb}_{\operatorname{Fr}_X^m}$.
 \end{proof}
 
 For example, if $X_0$ is smooth and geometrically connected of
@@ -24268,8 +24460,20 @@ localization sequence for $v_*G$ reads
  H_c^0(Z,i^*v_*G)\longrightarrow H_c^1(V,G)
  \longrightarrow H_c^1(\mathbf A^1,v_*G)\longrightarrow0.
 \]
-The first group has weights at most $w$ by
-Proposition~\ref{proposition-weights-j-boundary-points}, and the last has weights at most $w+1$ by
+The first group has weights at most $w$. Indeed, the stalks of
+$i^*v_*G$ at the closed points of $Z_0$ have weights at most $w$ by
+Proposition~\ref{proposition-weights-j-boundary-points}, and
+$H_c^0(Z,i^*v_*G)$ is the direct sum, over the closed points $z$ of $Z_0$,
+of the stalks at the $e=[\kappa(z):k_m]$ geometric points over $z$, where
+$k_m$ is the constant field of $V_0$. The geometric Frobenius of $k_m$
+permutes these $e$ stalks cyclically, and its $e$th power on each of them
+is conjugate to the local Frobenius $F_z$. An eigenvalue $\beta$ on such a
+cycle therefore satisfies $\beta^e=\alpha$ for an eigenvalue $\alpha$ of
+$F_z$, so that $|\iota\beta|^e=|\iota\alpha|\le q_z^{w/2}=(q^m)^{ew/2}$,
+and $|\iota\beta|\le(q^m)^{w/2}$, which is weight at most $w$ over $k_m$.
+This is the case of the finite map $Z_0\to\operatorname{Spec}k_m$ in
+Lemma~\ref{lemma-finite-quasi-finite-direct-images}, whose proof is the same
+computation. The last group has weights at most $w+1$ by
 Theorem~\ref{theorem-weight-bound-affine-line}. As an extension of a
 subgroup of the last by a quotient of the first, the middle group therefore has
 weights at most $w+1$. This bound passes to quotients under the two
@@ -24320,7 +24524,10 @@ conditions on eigenvalues
 and~\ref{lemma-bounding-weights-mixed-sheaf}), and we read them off
 degree by degree. In degree zero, the group
 $H_c^0(C,j_*F)$ injects into $H^0(Z,i^*j_*F)$, which has weights
-at most $w$. In degree one, $H_c^1(C,j_*F)$ is a quotient of $H_c^1(V,F)$,
+at most $w$: Frobenius permutes the stalks at the geometric points over
+each closed point of $Z_0$ cyclically, with the local Frobenius as the
+power that returns to a stalk, as in the proof of
+Theorem~\ref{theorem-weight-bound-affine-curve}. In degree one, $H_c^1(C,j_*F)$ is a quotient of $H_c^1(V,F)$,
 which has weights at most $w+1$. In degree two the groups are
 isomorphic, and the bound $w+2$ holds for $V$.
 

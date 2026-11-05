@@ -54,6 +54,27 @@ c^!\cHom_A(P,Q)\simeq\cHom_A(c^*P,c^!Q),
 $$
 
 applied to $P=p_2^*K$ and $Q=p_1^!K$. To prove the exchange, we
-test against an object $M$ of $D(C_{\mathrm{pro}\acute{e}t},A)$ and apply
-$c_!\dashv c^!$, the projection formula for $c_!$, and the tensor–Hom
-adjunction, in that order.
+use Yoneda inside $\Loc(D^b_{\mathrm{ctf}}(C,A))$, the category on which
+$c_!\dashv c^!$ is defined
+(Theorem [theorem-exceptional-inverse-image]). Test objects in all
+of $D(C_{\mathrm{pro}\acute{e}t},A)$ would not do, since $c^!$ is not defined there. Both
+sides of the exchange lie in $D^b_{\mathrm{ctf}}(C,A)$ by
+Proposition [proposition-six-operations-dctf], so these test objects
+suffice. By Proposition [proposition-comparison-etale-derived-category]
+the localizing categories are $D(C_{\acute{e}t},A)$ and $D((X\times X)_{\acute{e}t},A)$,
+where the projection formula for $c_!$ holds for all objects
+[Stacks, [0GL5](https://stacks.math.columbia.edu/tag/0GL5)], and tensoring with $c^*P$ preserves $\Loc(D^b_{\mathrm{ctf}}(C,A))$.
+For $M$ in $\Loc(D^b_{\mathrm{ctf}}(C,A))$ we obtain
+
+$$
+\begin{aligned}
+\Hom\bigl(M,c^!\cHom_A(P,Q)\bigr)
+&\simeq\Hom\bigl(c_!M\otimes^{\mathbf L}P,Q\bigr)
+\simeq\Hom\bigl(c_!(M\otimes^{\mathbf L}c^*P),Q\bigr)\\
+&\simeq\Hom\bigl(M\otimes^{\mathbf L}c^*P,c^!Q\bigr)
+\simeq\Hom\bigl(M,\cHom_A(c^*P,c^!Q)\bigr),
+\end{aligned}
+$$
+
+by $c_!\dashv c^!$ and the tensor–Hom adjunction, the projection formula,
+$c_!\dashv c^!$ again, and the tensor–Hom adjunction.
