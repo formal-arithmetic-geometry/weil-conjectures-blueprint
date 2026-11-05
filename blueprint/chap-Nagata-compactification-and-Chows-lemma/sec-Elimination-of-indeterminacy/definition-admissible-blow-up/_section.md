@@ -3,7 +3,8 @@ id = "definition-admissible-blow-up"
 kind = "definition"
 title = "Admissible blow-up"
 order = 1422
-lean = ["AlgebraicGeometry.IsAdmissible", "AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap", "AlgebraicGeometry.IsAdmissible"]
+uses = []
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a
 quasi-compact open. For a quasi-coherent ideal of finite type

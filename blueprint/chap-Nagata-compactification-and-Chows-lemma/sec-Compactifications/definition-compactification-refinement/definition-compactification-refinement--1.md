@@ -5,6 +5,8 @@ title = "Compactification and refinement (1)"
 name_showing = false
 order = 1402001
 aliases = ["bp-r433-1"]
+lean = ["AlgebraicGeometry.Compactification"]
+uses = []
 +++
 Let $f:X\to S$ be a morphism. A compactification is a factorization
 

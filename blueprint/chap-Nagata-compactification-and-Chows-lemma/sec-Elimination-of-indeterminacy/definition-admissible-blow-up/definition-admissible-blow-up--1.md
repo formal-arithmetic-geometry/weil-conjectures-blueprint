@@ -5,6 +5,8 @@ title = "Admissible blow-up (1)"
 name_showing = false
 order = 1422001
 aliases = ["bp-r441-1"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap", "AlgebraicGeometry.IsAdmissible"]
+uses = []
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a
 quasi-compact open. For a quasi-coherent ideal of finite type

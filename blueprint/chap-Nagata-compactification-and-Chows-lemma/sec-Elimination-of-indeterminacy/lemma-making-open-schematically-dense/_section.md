@@ -3,7 +3,7 @@ id = "lemma-making-open-schematically-dense"
 kind = "lemma"
 title = "Making an open schematically dense"
 order = 1424
-lean = ["AlgebraicGeometry.exists_admissibleBlowup_cartierBoundary", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isSchemeTheoreticallyDominant_compl_support"]
+lean = ["AlgebraicGeometry.exists_isAdmissible_isSchemeTheoreticallyDominant_preimage", "AlgebraicGeometry.Scheme.IdealSheafData.isInvertible_comap_blowupMap"]
 uses = ["definition-admissible-blow-up"]
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a

@@ -3,7 +3,8 @@ id = "definition-compactification-refinement"
 kind = "definition"
 title = "Compactification and refinement"
 order = 1402
-lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.Compactification.IsDense", "AlgebraicGeometry.isSchemeTheoreticallyDominant_iff_app_injective", "AlgebraicGeometry.Compactification.Refinement", "AlgebraicGeometry.Compactification.Refinement.IsStrict", "AlgebraicGeometry.Compactification.quasiCompact_openImmersion_iff"]
+lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.Compactification.IsDense", "AlgebraicGeometry.Compactification.Refinement"]
+uses = []
 +++
 Let $f:X\to S$ be a morphism. A compactification is a factorization
 

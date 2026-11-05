@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-passing-schematic-closure"
 order = 1413
-uses = ["proposition-proper-direct-image-constructible-complexes"]
+uses = ["proposition-extension-zero-restriction-closed-subscheme", "proposition-topos-functoriality", "proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure--1", "lemma-passing-schematic-closure--2"]
 +++
 The first identification is a statement about supports, and the
 second follows from it by applying $Rp_*$. The only point that needs

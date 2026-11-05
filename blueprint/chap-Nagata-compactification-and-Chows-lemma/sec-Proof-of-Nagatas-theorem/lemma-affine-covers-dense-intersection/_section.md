@@ -3,7 +3,7 @@ id = "lemma-affine-covers-dense-intersection"
 kind = "lemma"
 title = "Affine covers with dense intersection"
 order = 1462
-lean = ["AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine", "AlgebraicGeometry.AffineSpace.projectiveClosure_spec"]
+lean = ["AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 uses = ["definition-compactification-refinement"]
 +++
 For a scheme $X$ of finite type over a Noetherian scheme $S$, there is

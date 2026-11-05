@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-chow-s-lemma-projective-form"
 order = 1469
-uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open"]
+uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-nagata-s-compactification-theorem", "theorem-chow-s-lemma-projective-form--1", "theorem-chow-s-lemma-projective-form--2", "theorem-chow-s-lemma-projective-form--3"]
 +++
 We take the immersion into projective space given by the Stacks
 Project and show that properness of $X$ makes it closed. The second

@@ -1,9 +1,12 @@
 +++
 id = "proposition-relative-form-zariski-s-main--2"
 kind = "proposition"
-title = "The relative form of Zariski's Main Theorem (2)"
+title = "Quasi-affineness of the morphism"
 name_showing = false
 order = 1435002
 aliases = ["bp-r447-2"]
+lean = ["AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite"]
 +++
-Consequently $Z\to T$ is quasi-affine.
+Let $f:Z\to T$ be separated, quasi-compact, locally quasi-finite
+and locally of finite type. Then $f$ is quasi-affine: for every
+affine open $U\subseteq T$, the scheme $f^{-1}(U)$ is quasi-affine.
