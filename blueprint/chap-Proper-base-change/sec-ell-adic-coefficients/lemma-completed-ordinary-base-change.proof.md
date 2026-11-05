@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-completed-ordinary-base-change"
 order = 421
-uses = ["definition-pro-etale-base-change-map"]
+uses = ["definition-pro-etale-base-change-map", "corollary-finite-quotients-their-transition-maps", "proposition-proper-base-change-complete-integral", "definition-derived-adic-completeness"]
 +++
 Both maps are built from the counit of $p^*\dashv Rp_*$, as in
 Definition [definition-pro-etale-base-change-map], and this counit is

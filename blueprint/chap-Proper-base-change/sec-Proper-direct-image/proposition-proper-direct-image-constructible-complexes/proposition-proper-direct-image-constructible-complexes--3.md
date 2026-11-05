@@ -4,6 +4,14 @@ kind = "proposition"
 title = "Finite extension of $\\Ql$"
 order = 425006
 aliases = ["bp-r129-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructible_rightDerivedLowerStar_obj"]
+uses = ["definition-constructible-sheaves"]
 +++
-$Rp_{*,E}:D(X_{\mathrm{pro}\acute{e}t},E)\to D(Y_{\mathrm{pro}\acute{e}t},E)$ maps
-$D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},E)$ into $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},E)$.
+Let $\ell$ be prime, let $k$ be a field of positive characteristic different from
+$\ell$, and let $E\subset\overline{\mathbf Q}_\ell$ be finite over $\Ql$.
+For any $k$-morphism $p:X\to Y$ of separated schemes of finite type over $k$,
+$$
+Rp_{*,E}:\Dbc(X,E)\longrightarrow\Dbc(Y,E).
+$$
+In particular this applies to the proper morphism of the proposition. The
+coefficient sheaf is obtained from the condensed field $E$.

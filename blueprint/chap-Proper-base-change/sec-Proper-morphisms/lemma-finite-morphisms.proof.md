@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-finite-morphisms"
 order = 385
+uses = ["lemma-finite-morphisms--1", "lemma-finite-morphisms--2", "lemma-finite-morphisms--3"]
 +++
 Everything follows from the stalk formula. To prove it, note that over a
 strict localization the source splits into strictly henselian local

@@ -3,7 +3,8 @@ id = "lemma-acyclic-resolutions"
 kind = "lemma"
 title = "Acyclic resolutions"
 order = 346
-lean = ["CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic", "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic"]
+lean = ["CategoryTheory.Functor.rightDerivedObjIsoOfResolution", "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic"]
+uses = []
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor
 between abelian categories with enough injectives. If

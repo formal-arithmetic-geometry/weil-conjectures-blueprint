@@ -3,7 +3,8 @@ id = "theorem-cohomology-curves"
 kind = "theorem"
 title = "Cohomology of curves"
 order = 360
-lean = ["AlgebraicGeometry.IsCurve.Assertions"]
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le", "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine", "AlgebraicGeometry.IsCurve.primeCoefficientCurveAssertions", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isAlgClosed"]
+uses = ["definition-classical-pro-etale-sheaves", "definition-torsion-sheaves", "definition-constructible-sheaves"]
 +++
 Let $k$ be algebraically closed, let $C$ be a separated scheme of finite
 type over $k$ with $\dim C\leq1$, and let $F$ be a classical torsion

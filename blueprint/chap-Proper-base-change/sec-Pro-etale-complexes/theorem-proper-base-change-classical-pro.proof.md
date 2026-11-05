@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-proper-base-change-classical-pro"
 order = 404
-uses = ["proposition-etale-implications", "theorem-comparison-direct-images", "lemma-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "definition-torsion-pbc-property", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "definition-compactification-refinement"]
+uses = ["theorem-proper-base-change-classical-pro--1", "corollary-bounded-below-classical-complexes", "definition-torsion-sheaves", "definition-torsion-pbc-property", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "lemma-cohomology-modules-underlying-abelian", "prose-04-17", "theorem-pbc-injective-acyclicity", "definition-derived-base-change-map", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images", "lemma-naturality-pasting-comparison"]
 +++
 We work on the étale site, where Propositions [proposition-proper-base-change-projective-line]
 and [proposition-proper-base-change-etale-site] apply to the torsion rings

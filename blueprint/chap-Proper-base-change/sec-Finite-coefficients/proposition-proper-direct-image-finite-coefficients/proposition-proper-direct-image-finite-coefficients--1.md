@@ -1,13 +1,17 @@
 +++
 id = "proposition-proper-direct-image-finite-coefficients--1"
 kind = "proposition"
-title = "Proper direct image for finite coefficients (1)"
+title = "Bounded constructibility on the étale site"
 name_showing = false
 order = 410001
 aliases = ["bp-r124-1"]
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian"]
+uses = ["definition-constructible-sheaves"]
 +++
-Let $A$ be a finite admissible ring, and let $p:X\to Y$ be a proper
-morphism of separated schemes of finite type over $k$. Then $Rp_*$ maps
-$D^b_{\mathrm{ctf}}(X,A)$ into $D^b_{\mathrm{ctf}}(Y,A)$. More precisely, if $C\in D^b_{\mathrm{ctf}}(X,A)$ has Tor
-amplitude in $[a,b]$ and $\operatorname{cd}_\ell(X_{\bar y})\leq d$ for all
-geometric points $\bar y$ of $Y$, then $Rp_*C$ has Tor amplitude in $[a,b+d]$.
+The mainline proof bypasses the Tor-amplitude bound and uses the following
+étale finiteness statement.
+
+Let $k$ be a field and let $A$ be a finite commutative ring annihilated by
+a positive integer invertible in $k$. Let $Y$ be a Noetherian $k$-scheme
+and let $p:X\to Y$ be proper. Then $Rp_*$ maps
+$D^b_c(X_{\acute{e}t},A)$ into $D^b_c(Y_{\acute{e}t},A)$.

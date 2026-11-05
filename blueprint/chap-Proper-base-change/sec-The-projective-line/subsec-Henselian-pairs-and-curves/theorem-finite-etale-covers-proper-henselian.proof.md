@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-finite-etale-covers-proper-henselian"
 order = 358
+uses = ["theorem-finite-etale-covers-proper-henselian--2", "theorem-finite-etale-covers-proper-henselian--3"]
 +++
 The equivalence is [Stacks, [0GS2](https://stacks.math.columbia.edu/tag/0GS2)], proved by algebraization, approximation,
 and descent of finite presentation. For the consequence, note that the groups in

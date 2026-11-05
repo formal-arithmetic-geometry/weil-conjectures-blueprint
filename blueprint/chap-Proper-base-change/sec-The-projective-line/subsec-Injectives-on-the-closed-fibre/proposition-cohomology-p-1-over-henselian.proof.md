@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-cohomology-p-1-over-henselian"
 order = 376
-uses = ["theorem-comparison-over-henselian-pair-degree", "lemma-acyclicity-closed-fibre", "definition-compactification-refinement"]
+uses = ["proposition-cohomology-p-1-over-henselian--1", "theorem-comparison-over-henselian-pair-degree", "lemma-acyclicity-closed-fibre", "lemma-cohomology-modules-underlying-abelian", "lemma-acyclic-resolutions", "lemma-finiteness-small-etale-topoi--2"]
 +++
 We treat sheaves killed by a prime first, where
 Lemma [lemma-acyclicity-closed-fibre] applies, and then reach all torsion

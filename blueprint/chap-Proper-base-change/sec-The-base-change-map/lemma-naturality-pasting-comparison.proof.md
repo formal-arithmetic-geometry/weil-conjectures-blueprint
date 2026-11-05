@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-naturality-pasting-comparison"
 order = 325
-uses = ["lemma-stability", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-comparison-direct-images-compatibilities", "lemma-acyclic-resolutions"]
+uses = ["definition-pro-etale-base-change-map", "proposition-topos-functoriality", "lemma-identity-pasting", "theorem-comparison-direct-images", "lemma-comparison-direct-images-compatibilities", "lemma-naturality-pasting-comparison--1", "lemma-naturality-pasting-comparison--3"]
 +++
 Every assertion holds because the base change map is
 assembled from units, counits and composition isomorphisms for inverse

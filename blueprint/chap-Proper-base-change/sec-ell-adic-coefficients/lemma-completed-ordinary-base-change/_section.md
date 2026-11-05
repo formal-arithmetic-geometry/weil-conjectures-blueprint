@@ -3,7 +3,7 @@ id = "lemma-completed-ordinary-base-change"
 kind = "lemma"
 title = "Completed and ordinary base change"
 order = 420
-uses = ["proposition-proper-base-change-complete-integral"]
+uses = ["proposition-proper-base-change-complete-integral", "definition-pro-etale-base-change-map", "definition-completed-inverse-image", "definition-derived-adic-completeness"]
 +++
 In the setting of
 Proposition [proposition-proper-base-change-complete-integral], the square

@@ -3,6 +3,8 @@ id = "proposition-proper-base-change-complete-integral"
 kind = "proposition"
 title = "Proper base change for complete complexes"
 order = 417
+lean = ["AlgebraicGeometry.ProEtale.internal_integral_direct_image_limits"]
+uses = ["definition-derived-adic-completeness", "definition-completed-inverse-image", "corollary-bounded-below-classical-complexes", "definition-pro-etale-base-change-map"]
 +++
 Let $p:X\to Y$ be proper, let $g:Y'\to Y$ be any morphism, and let
 $p':X'\to Y'$ and $g':X'\to X$ be the projections from $X'=X\times_YY'$.

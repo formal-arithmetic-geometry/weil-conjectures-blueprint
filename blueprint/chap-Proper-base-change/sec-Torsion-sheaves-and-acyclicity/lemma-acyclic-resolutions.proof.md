@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-acyclic-resolutions"
 order = 347
+uses = ["lemma-acyclic-resolutions--1"]
 +++
 This is Leray's acyclicity lemma [Stacks, [015E](https://stacks.math.columbia.edu/tag/015E)], and the first assertion
 is the case of a resolution of $F$. We recall the argument, which compares

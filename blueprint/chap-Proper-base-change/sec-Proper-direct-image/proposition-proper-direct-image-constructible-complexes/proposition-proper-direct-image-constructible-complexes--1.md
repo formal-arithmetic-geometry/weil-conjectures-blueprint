@@ -4,6 +4,14 @@ kind = "proposition"
 title = "Finite coefficients"
 order = 425002
 aliases = ["bp-r129-1"]
+lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian"]
+uses = ["definition-constructible-sheaves"]
 +++
-$Rp_{*,A}:D(X_{\mathrm{pro}\acute{e}t},A)\to D(Y_{\mathrm{pro}\acute{e}t},A)$ maps
-$D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ into $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$.
+Let $A$ be a finite commutative ring annihilated by an integer invertible in a field $k$.
+Let $Y$ be a Noetherian $k$-scheme and $p:X\to Y$ proper. Then
+$$
+Rp_{*,A}:\Dbc(X,A)\longrightarrow\Dbc(Y,A).
+$$
+Here bounded constructibility on the pro-étale site means that the complex is the
+pullback of a bounded constructible complex on the étale site. This statement
+records bounded constructibility; it does not assert a Tor-amplitude bound.

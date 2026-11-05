@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-projective-line"
 kind = "proposition"
 title = "Proper base change for $\\mathbf P^1$"
 order = 380
-lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine", "AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine"]
+lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
 uses = ["definition-torsion-pbc-property", "definition-injective-acyclicity"]
 +++
 Let $S$ be a scheme and $\Lambda$ a commutative ring.  In the

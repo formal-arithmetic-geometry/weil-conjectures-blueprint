@@ -3,7 +3,7 @@ id = "lemma-finite-morphisms"
 kind = "lemma"
 title = "Finite morphisms"
 order = 384
-lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
+lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite", "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++
 Let $u:V\to W$ be finite. For an abelian sheaf $F$ and a geometric point

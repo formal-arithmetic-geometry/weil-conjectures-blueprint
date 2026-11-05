@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Separably closed field extension"
 order = 364
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
-uses = ["definition-torsion-sheaves"]
+uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves", "definition-torsion-sheaves"]
 +++
 Let $k\subseteq k'$ be separably closed fields, let $C$ be proper over $k$
 with $\dim C\leq1$, and let $F$ be a classical torsion abelian sheaf

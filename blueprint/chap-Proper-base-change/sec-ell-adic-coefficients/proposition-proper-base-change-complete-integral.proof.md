@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-complete-integral"
 order = 418
-uses = ["corollary-finite-quotients-their-transition-maps", "definition-derived-adic-completeness", "theorem-proper-base-change-classical-pro"]
+uses = ["corollary-finite-quotients-their-transition-maps", "definition-derived-adic-completeness", "theorem-proper-base-change-classical-pro", "definition-projection-formula-map", "definition-completed-inverse-image", "lemma-inverse-image-coefficient-sheaves", "proposition-topos-functoriality"]
 +++
 Theorem [theorem-proper-base-change-classical-pro] applies at each
 finite level, so the point is that $Rp_*$ and the completed inverse

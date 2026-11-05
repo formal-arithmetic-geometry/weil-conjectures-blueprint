@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-sections-geometric-fibre"
 order = 333
-uses = ["theorem-comparison-over-henselian-pair-degree"]
+uses = ["theorem-comparison-over-henselian-pair-degree", "lemma-sections-geometric-fibre--1"]
 +++
 Let $y\in Y$ be the image of $\bar y$, let
 $Y_{(\bar y)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{Y,\bar y}$

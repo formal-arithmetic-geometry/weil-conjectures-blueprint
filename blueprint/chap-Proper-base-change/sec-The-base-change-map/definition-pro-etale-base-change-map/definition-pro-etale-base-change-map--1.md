@@ -5,6 +5,8 @@ title = "Pro-étale base change map (1)"
 name_showing = false
 order = 322001
 aliases = ["bp-r096-1"]
+lean = ["AlgebraicGeometry.ProEtale.derivedBaseChangeMap", "AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves"]
 +++
 Let $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$. The *base change map*
 

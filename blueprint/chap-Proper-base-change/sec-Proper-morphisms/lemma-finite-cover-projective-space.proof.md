@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-finite-cover-projective-space"
 order = 393
+uses = ["lemma-finite-cover-projective-space--1"]
 +++
 Recall that $\mathbf P^n$ parametrizes binary forms of degree $n$
 up to scalars, and the map $\sigma_n$ multiplies $n$ linear forms; over a field
