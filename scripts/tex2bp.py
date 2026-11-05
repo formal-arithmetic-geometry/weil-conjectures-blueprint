@@ -35,6 +35,9 @@ CITE = {
     'Ekedahl': 'ekedahl90', 'SGA4': 'sga4', 'SGA5': 'sga5', 'SGA4half': 'sga4-5',
     'SGA7II': 'sga7-2', 'IllusieNearby': 'illusie94', 'Varshavsky': 'varshavsky05',
     'ConradNagata': 'conrad07', 'MilneAV': 'milne-av', 'MilneJV': 'milne-jv', 'Stacks': 'stacks',
+    'Hasse': 'hasse36', 'WeilCourbes': 'weil48-courbes', 'WeilAV': 'weil48-av', 'Deuring': 'deuring41',
+    'Deninger': 'deninger22', 'WeilBlueprint': 'weil-blueprint', 'Rankin': 'rankin39',
+    'KatzLaumon': 'katz88', 'KiehlWeissauer': 'kiehl-weissauer01',
 }
 
 # Titles for declarations the tex leaves unnamed (marked name_showing = false).
@@ -237,12 +240,14 @@ def pass1():
             content = BODY[m.end():content_end]
             secno = chr(ord('A') + sec - 1) if appendix else str(sec)
             if env == 'equation':
-                eq += 1
+                tag = re.search(r'\\tag\{((?:[^{}]|\{[^{}]*\})*)\}', content)
+                if not tag:
+                    eq += 1     # an equation with a \tag of its own is not numbered
                 for lm in re.finditer(r'\\label\{([^}]*)\}', content):
-                    LABEL[lm.group(1)] = ('eq', f'{secno}.{eq}')
+                    LABEL[lm.group(1)] = ('eq', tag.group(1) if tag else f'{secno}.{eq}')
             else:
                 for line in re.split(r'\\\\', content):
-                    if re.search(r'\\(nonumber|notag)\b', line):
+                    if re.search(r'\\(nonumber|notag|tag)\b', line):
                         continue
                     eq += 1
                     for lm in re.finditer(r'\\label\{([^}]*)\}', line):
@@ -350,14 +355,16 @@ def shield_math(s, sh):
                 eqno = None
                 if env == 'equation':
                     lab = re.search(r'\\label\{([^}]*)\}', content)
-                    if lab:
+                    if re.search(r'\\tag\b', content):
+                        pass                     # its own tag, kept
+                    elif lab:
                         eqno = LABEL[lab.group(1)][1]
                     else:
                         problem('unlabelled numbered equation: ' + content[:60])
                 elif not env.endswith('*'):
                     rows = re.split(r'(\\\\)', content)
                     for r in range(0, len(rows), 2):
-                        if re.search(r'\\(nonumber|notag)\b', rows[r]):
+                        if re.search(r'\\(nonumber|notag|tag)\b', rows[r]):
                             continue
                         lab = re.search(r'\\label\{([^}]*)\}', rows[r])
                         if lab:

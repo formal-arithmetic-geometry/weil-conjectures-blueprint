@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-scheme-frobenius-geometric-frobenius"
-order = 948
+order = 954
 uses = ["definition-frobenius-operator"]
 +++
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
@@ -17,8 +17,7 @@ $$
 $$
 
 so that $\Phi_X=F_X\operatorname{Fr}_X$, where
-$F_X$ is the absolute $q$-power Frobenius of $X$. On the
-classical constructible category, pullback along absolute Frobenius is
+$F_X$ is the absolute $q$-power Frobenius of $X$. Now, on the classical constructible category, pullback along absolute Frobenius is
 naturally isomorphic to the identity, because for an étale object
 its relative Frobenius is an isomorphism, functorial in that object.
 Transporting this natural isomorphism to $D^b_{\mathrm{ctf}}(X,A)$ by the

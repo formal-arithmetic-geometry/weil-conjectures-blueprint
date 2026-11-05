@@ -24,10 +24,10 @@ $$
 
 To see that $L_0$ is a lattice, we split the finite étale cover
 locally on $S$ into $d$ copies of $S$. Then $p_*M_0$ is a direct sum of
-$d$ lattices $M_1,\dots,M_d$ in $L$, and the trace is their sum. Thus
+$d$ lattices $M_1,\dots,M_d$ in $L$, and the trace is their sum, so
 $L_0=M_1+\cdots+M_d$. If we further trivialize $L$ pro-étale locally,
 each $M_k$ becomes a locally constant function to the discrete set of lattices
-in $E^r$. After a common refinement each $M_k$ is the constant sheaf
+in $E^r$, and after a common refinement each $M_k$ is the constant sheaf
 attached to a lattice $N_k\subset E^r$. Then $L_0$ is the constant sheaf
 attached to $N_1+\cdots+N_d$, which is a finite free $\mathcal O_E$-lattice
 spanning $E^r$. Hence $L_0$ is lisse and $L_0[1/\ell]=L|_S$.

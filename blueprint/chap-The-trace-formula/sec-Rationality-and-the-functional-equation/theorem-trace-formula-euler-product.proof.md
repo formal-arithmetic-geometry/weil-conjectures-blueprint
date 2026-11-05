@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-trace-formula-euler-product"
-order = 1031
+order = 1037
 uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function"]
 +++
 Both sides are of the form $\exp$ of a power series, and we compare
@@ -23,12 +23,10 @@ terms of closed points. A closed point of degree $d$ has
 exactly $d$ points over $\mathbf F_{q^m}$ when $d\mid m$, and none
 otherwise. For instance, $\operatorname{Spec}\mathbf F_{q^2}$ has one closed
 point, of degree $2$, with no $\mathbf F_q$-points and two
-$\mathbf F_{q^2}$-points. The $d$ points form one Frobenius orbit, and the Weil
+$\mathbf F_{q^2}$-points. These $d$ points form one Frobenius orbit, and the Weil
 structure gives isomorphisms between the
-stalks at consecutive points of the orbit. The Frobenius on the stalk at a
-point of the orbit is the composite of these isomorphisms taken once
-around the orbit, starting at that point. Moving the starting point
-cyclically conjugates this composite by one of these isomorphisms. Hence the
+stalks at consecutive points of the orbit. The Frobenius on the stalk at a point of the orbit is then the composite of these isomorphisms taken once
+around the orbit, starting at that point. Moving the starting point cyclically therefore conjugates this composite by one of these isomorphisms. Hence the
 operators at the $\deg(x)$ points are conjugate. In the same way, iterating the Weil
 structure shows that for $\deg(x)\mid m$ the operator
 $\operatorname{Frob}_{y,m}$ at each of the $\deg(x)$ points $y\in X_0(\mathbf F_{q^m})$ over
@@ -46,8 +44,7 @@ $$
 We multiply (12.8) by $T^m/m$ and sum over
 $m\geq1$. By Lemma [lemma-logarithm-determinant], the left side becomes
 the logarithm of the right side of (12.7). In the
-sum over closed points on the right, we substitute $m=r\deg(x)$. The multiplicity $\deg(x)$ cancels the
-factor $\deg(x)$ in $m$, and Lemma [lemma-logarithm-determinant] applied to
+sum over closed points on the right, we substitute $m=r\deg(x)$. Then the multiplicity $\deg(x)$ cancels the factor $\deg(x)$ in $m$, and Lemma [lemma-logarithm-determinant] applied to
 $\operatorname{Frob}_x$ on $K_{\bar x}$, with $T^{\deg(x)}$ in place of $T$, shows that
 
 $$

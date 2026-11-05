@@ -2,7 +2,7 @@
 id = "prose-06-21"
 kind = "hidden"
 title = "The projective line (2)"
-order = 596
+order = 602
 +++
 To turn $\delta_\Lambda$ and $\operatorname{Tr}_q$ into an adjunction we
 repeat the torsion calculation. It used the projection formula and

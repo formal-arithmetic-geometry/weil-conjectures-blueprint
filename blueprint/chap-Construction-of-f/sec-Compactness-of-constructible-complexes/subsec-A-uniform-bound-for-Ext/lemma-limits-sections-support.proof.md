@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-limits-sections-support"
-order = 437
+order = 442
 +++
 The functor $R\underline\Gamma_Z$ is left $t$-exact because it is right
 adjoint to the exact functor $i_*$. Restricting along the open

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-jacobian-over-ground-field"
-order = 1557
+order = 1563
 uses = ["definition-small-pro-etale-site", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
 +++
 We descend the Jacobian of $C_{0,k_s}$, where $k_s\subseteq\bar
@@ -13,8 +13,8 @@ descended scheme represents the degree-zero Picard sheaf.
 
 Let $F=\operatorname{Pic}^0_{C_0/k}$ be the degree-zero part of the
 fppf Picard sheaf. Here we use that the fibrewise degree is locally
-constant, by coherent base change and Riemann–Roch. The Picard
-sheaf and the degree commute with base change. Hence
+constant, by coherent base change and Riemann–Roch. Since the Picard
+sheaf and the degree commute with base change,
 Theorem [theorem-picard-scheme-jacobian-over-separably] gives an
 abelian variety $J_s$ over $k_s$ representing the restriction of $F$ to
 $k_s$-schemes; $J_s$ is projective. Over $k_s\otimes_kk_s$ the two
@@ -31,7 +31,7 @@ presentation [Stacks, [01ZM](https://stacks.math.columbia.edu/tag/01ZM)], the de
 projective space, the descent isomorphism, its inverse and the group
 operations are defined over some finite stage. The finitely many
 identities among them (inverse, cocycle, group axioms) hold after
-enlarging the stage. We enlarge it further to a Galois extension. In
+enlarging the stage. Finally, we enlarge it further to a Galois extension. In
 this way we obtain a finite Galois extension $K/k$ in $k_s$ and a
 projective $K$-scheme $J_K$ with a group structure and a compatible
 descent datum for $K/k$, whose base change to $k_s$ is the datum on $J_s$.

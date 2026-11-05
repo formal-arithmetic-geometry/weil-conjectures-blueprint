@@ -2,7 +2,7 @@
 id = "prose-09-09"
 kind = "hidden"
 title = "The trace map of affine space (2)"
-order = 733
+order = 739
 +++
 The geometric computations with finite coefficients in
 Section [sec-Conventions-2] are stated on the pro-étale site
@@ -20,7 +20,7 @@ the two functors $Rf_!$ correspond to each other.
 
 By Proposition [proposition-comparison-etale-derived-category], the functor $f^!$ on
 $\Loc(D^b_{\mathrm{ctf}}(-,\mathbf Z/\ell^n\mathbf Z))$ of Theorem [theorem-existence-exceptional-inverse-image]
-is the functor $f^!$ on $D_{\mathrm{class}}$ of
+is the étale functor $f^!$ on $D(-_{\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$ of
 Section [sec-Conventions-2], and it preserves $D^b_{\mathrm{ctf}}$ by
 Theorem [theorem-f-shriek-finite-coefficients]. Hence, for $f:X\to Y$ smooth of pure
 relative dimension $d$, Proposition [proposition-exceptional-inverse-image-smooth-morphism](1) gives
@@ -37,8 +37,8 @@ with counit the sum over the fibres of $e$ followed by
 Since a right adjoint is unique up to a unique isomorphism preserving the
 counit, these counits on charts agree on overlaps with the counit of
 $Rf_!\dashv f^!$. With finite coefficients, then, $f^!$ exists first and
-the charts describe it. For towers there is no global functor yet, and we
-glue $f^!$ from models on charts by a Mayer–Vietoris argument. It uses the
+the charts describe it. For towers, by contrast, there is no global functor yet, and we
+glue $f^!$ from models on charts by a Mayer–Vietoris argument, which uses the
 triangle for an open cover $X=U\cup V$ and $N\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$:
 
 $$
@@ -60,10 +60,10 @@ $\operatorname{Hom}(-,H)$ and $\operatorname{Hom}(Rf_!(-),K)$ to
 (9.12) with $N=M$. The maps
 $b\mapsto\varepsilon\circ Rf_!(b)$ form a morphism between the two long exact
 sequences, which is bijective on the terms coming from $U$, $V$ and $U\cap V$.
-By the five lemma it is bijective on $\operatorname{Hom}(M,H)$. This means
-that $(H,\varepsilon)$ represents $\operatorname{Hom}(Rf_!(-),K)$. Such a
+By the five lemma it is bijective on $\operatorname{Hom}(M,H)$, which means
+that $(H,\varepsilon)$ represents $\operatorname{Hom}(Rf_!(-),K)$. Since such a
 pair is unique up to a unique isomorphism compatible with $\varepsilon$,
-so $H\simeq f^!K$ compatibly with the counits. In Section [sec-ell-adic-coefficients-4] we use this gluing to realize
+we get $H\simeq f^!K$ compatibly with the counits. In Section [sec-ell-adic-coefficients-4] we use this gluing to realize
 the compatible counits with finite coefficients as a single map of towers.
 
 On a vector bundle, the choice of a local trivialization transports

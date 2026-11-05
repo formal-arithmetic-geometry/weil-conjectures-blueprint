@@ -2,7 +2,7 @@
 id = "prose-09-37"
 kind = "hidden"
 title = "Proof of smooth purity (3)"
-order = 813
+order = 819
 +++
 As a check, take $X=\mathbf A^1_k$ with $k$ algebraically closed. The
 adjunction gives
@@ -15,4 +15,4 @@ $\operatorname{Tr}_a(\Lambda_{\operatorname{Spec}k})$ into a map
 $R\Gamma_c(X_{\mathrm{pro}\acute{e}t},\Lambda_X(d))[2d]\to\Lambda$, and taking $H^0$ of
 it gives the trace map
 $H_c^{2d}(X_{\mathrm{pro}\acute{e}t},\Lambda_X(d))\to\Lambda$.
-For $X=\mathbf P^1_k$ it sends $c_1(\mathcal O(1))$ to $1$.
+For example, for $X=\mathbf P^1_k$ it sends $c_1(\mathcal O(1))$ to $1$.

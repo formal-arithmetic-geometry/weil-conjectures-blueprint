@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-sp-integral-adjunction"
-order = 777
+order = 783
 uses = ["proposition-sp-unique-adjoint", "lemma-sp-tower-adjunction-foundation"]
 +++
 We move the adjunction on towers down to $\mathcal O_E$-complexes along the

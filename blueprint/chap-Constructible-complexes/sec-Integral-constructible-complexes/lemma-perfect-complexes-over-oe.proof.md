@@ -10,12 +10,12 @@ equalities of matrices and passed to the limit.
 
 Represent each $M_n$ by a minimal finite free complex, obtained by
 cancelling unit entries in the differential matrices. Its reduction
-modulo $\pi_E$ has zero differential. Hence its rank in degree $q$ is
+modulo $\pi_E$ has zero differential, so its rank in degree $q$ is
 $\dim_{\mathbf F_E}H^q(M_1)$, which is independent of $n$ and nonzero only in
 finitely many degrees. The given isomorphism
 $M_{n+1}/\pi_E^n\simeq M_n$ between minimal complexes is represented
-by a chain homotopy equivalence $f$, with homotopy inverse $g$. Both
-complexes have zero differential modulo $\pi_E$. Therefore the relations
+by a chain homotopy equivalence $f$, with homotopy inverse $g$. Since both
+complexes have zero differential modulo $\pi_E$, the relations
 $gf-1=dh+hd$ and $fg-1=dh'+h'd$ show that $f$ is an isomorphism modulo
 $\pi_E$ in each degree. By Nakayama's lemma its matrices are then invertible over
 $\mathcal O_E/\pi_E^n$. Lifting them to invertible matrices over

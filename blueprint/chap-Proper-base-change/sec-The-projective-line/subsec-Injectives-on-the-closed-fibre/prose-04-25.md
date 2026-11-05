@@ -1,11 +1,10 @@
 +++
 id = "prose-04-25"
 kind = "hidden"
-title = "Injectives on the closed fibre (3)"
-order = 369
+title = "Injectives on the closed fibre (2)"
+order = 371
 +++
-With this acyclicity, an injective resolution on $\mathbf P^1_R$ restricts
-to an acyclic resolution on the closed fibre. Applying the degree-zero
-comparison of Theorem [theorem-comparison-over-henselian-pair-degree] term by term, we obtain
-the comparison in all degrees. The lemma only concerns sheaves killed by
-a prime $\ell$. We then extend the result to all torsion sheaves by dévissage.
+The sheaves on the right of (4.9)
+are direct images along finite morphisms, and by
+Lemma [lemma-finiteness-small-etale-topoi](3) such direct
+images are exact functors and commute with restriction to the closed fibre.

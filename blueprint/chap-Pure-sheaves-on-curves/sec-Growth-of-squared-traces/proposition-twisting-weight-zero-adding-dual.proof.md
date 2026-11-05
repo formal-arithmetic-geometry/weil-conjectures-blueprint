@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-twisting-weight-zero-adding-dual"
-order = 1189
+order = 1195
 uses = ["proposition-weights-under-usual-operations"]
 +++
 A twist to weight zero puts all local eigenvalues on the unit circle,
@@ -15,7 +15,7 @@ $|\iota(b)|=|\iota(\alpha)|^{-1/d}=q^{-w/2}$, and
 Proposition [proposition-weights-under-usual-operations] shows that $\mathcal F^0$
 is pure of weight zero.
 
-Its local eigenvalues $\beta_j$ have absolute value one after applying
+Its local eigenvalues $\beta_j$ therefore have absolute value one after applying
 $\iota$. The local eigenvalues of its dual are the $\beta_j^{-1}$, and
 $\iota(\beta_j^{-1})=\overline{\iota(\beta_j)}$. So the union of the
 two multisets is stable under complex conjugation, and

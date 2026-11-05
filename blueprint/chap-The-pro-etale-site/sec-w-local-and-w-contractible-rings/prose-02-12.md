@@ -9,7 +9,7 @@ $\{0,1\}^{\mathbf N}$ is not. To see this, let $V_n$ be the clopen set of
 sequences beginning with $0^n1$, and let $U$ be the union of the $V_n$
 for odd $n$. The closure of $U$ is $U\cup\{000\cdots\}$, and it is not
 open, because every neighbourhood of $000\cdots$ contains some $V_n$ with
-$n$ even, which is disjoint from the closure. Infinite extremally
+$n$ even, which is disjoint from the closure. More generally, infinite extremally
 disconnected compact spaces have no nontrivial convergent sequences, and
 therefore they are never metrizable. In practice they arise as
 Stone–Čech compactifications.

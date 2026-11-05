@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-weil-conjectures-smooth-proper-schemes"
-order = 1383
+order = 1389
 uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-functional-equation", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For (1) and (2), we define $P_i$ using only the reduced fraction $A/B$
@@ -33,9 +33,9 @@ Lemma [lemma-reciprocal-roots-zeta], the embedding $\theta$ maps
 $R_i$ onto the multiset of Frobenius eigenvalues on $H^i_\ell$. Since
 both polynomials have constant coefficient one, $P_i=P_{i,\ell}$ in
 $\overline{\mathbf Q}_\ell[T]$, hence in $\mathbf Q_\ell[T]$. As $\ell$ was arbitrary,
-this proves the existence in (1). Uniqueness follows by comparing with
-a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is
-(19.1). Assertion (2) is
+this proves the existence in (1), and uniqueness follows by comparing with
+a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is then
+(19.1), and assertion (2) is
 Lemma [lemma-reciprocal-roots-zeta].
 
 The remaining assertions follow from Poincaré duality and the
@@ -54,8 +54,8 @@ $P_{2d}=1-q^dT$.
 For (4), Poincaré duality pairs the eigenvalues on $H^i_\ell$ with
 those on $H^{2d-i}_\ell$ by $\alpha\mapsto q^d/\alpha$. Substituting
 $T\mapsto1/(q^dT)$ in the product formula therefore exchanges the
-corresponding factors up to a monomial.
+corresponding factors up to a monomial, and
 Corollary [corollary-functional-equation] carries out this computation
-and gives (4) in $\mathbf Q_\ell(T)$. The zeta function is rational over
+and gives (4) in $\mathbf Q_\ell(T)$. Since the zeta function is rational over
 $\mathbf Q$, and the scalar $\varepsilon q^{d\chi/2}$ is a rational
-number. Hence the identity holds in $\mathbf Q(T)$.
+number, the identity holds in $\mathbf Q(T)$.

@@ -2,12 +2,12 @@
 id = "prose-09-26"
 kind = "hidden"
 title = "Field coefficients (1)"
-order = 780
+order = 786
 +++
 With coefficients in $E$ there is no tower to pass to the limit over, but none is
-needed. An object of $\Dbc(T,E)$ comes from an integral complex by inverting $\ell$, and its Hom
-groups are the integral Hom groups tensored with $E$ (9.21). An
-adjunction over $\mathcal O_E$ is a natural bijection of Hom groups, and tensoring it
+needed. Indeed, an object of $\Dbc(T,E)$ comes from an integral complex by inverting $\ell$, and its Hom
+groups are the integral Hom groups tensored with $E$ (9.21). Since an
+adjunction over $\mathcal O_E$ is a natural bijection of Hom groups, tensoring it
 with $E$ gives an adjunction over $E$ (Proposition [proposition-sp-rational]). For $\overline{\mathbf Q}_\ell$
 the Hom groups are colimits over finite extensions of $\mathbf Q_\ell$, and the adjunctions over
 these fields pass to the colimit (Theorem [theorem-sp-qbar]). For each coefficient
@@ -29,8 +29,8 @@ surjectivity provides the models, and (9.21) is its full
 faithfulness. To see the latter directly, note that the target is $\Hom(K_0,L_0[1/\ell][q])$ by adjunction, and
 $L_0[1/\ell]$ is the colimit of $L_0\xrightarrow{\ell}L_0\xrightarrow{\ell}\cdots$.
 The left side is the colimit of the same system of Hom groups, so the claim
-is that Hom out of $K_0$ commutes with this colimit. Both sides are
-cohomological functors of $K_0$, so by the five lemma and
+is that Hom out of $K_0$ commutes with this colimit. Since both sides are
+cohomological functors of $K_0$, by the five lemma and
 dévissage we may take $K_0=a_!C$ with $C$ dualizable on a stratum
 (Lemma [lemma-structure-integral-constructible-complexes](3)). The stratum formula of
 Lemma [lemma-sections-support-closed-subscheme](2), whose proof uses only that $C$ is dualizable,

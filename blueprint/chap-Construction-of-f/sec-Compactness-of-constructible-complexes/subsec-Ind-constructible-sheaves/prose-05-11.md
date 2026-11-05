@@ -2,7 +2,7 @@
 id = "prose-05-11"
 kind = "hidden"
 title = "Ind-constructible sheaves (2)"
-order = 450
+order = 455
 +++
 Since every ind-constructible sheaf is a filtered
 colimit of constructible ones, the continuity of $\Ext^q(C,-)$ lets us

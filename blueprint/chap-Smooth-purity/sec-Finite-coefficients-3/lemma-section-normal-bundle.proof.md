@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-section-normal-bundle"
-order = 743
+order = 749
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "proposition-purity-vector-bundles", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 The fibres of $\widetilde s^{*}\omega_{\widetilde g}$ at $t=1$ and $t=0$
@@ -10,11 +10,11 @@ shifted sheaf of rank one is pulled back from $S$, étale locally on $S$.
 In positive characteristic a locally constant sheaf on $\mathbf A^1_S$ need
 not be pulled back from $S$, so we use coordinates. Étale locally on
 $S$, near the section the deformation is étale over
-$\mathbf A^d_{\mathbf A^1_S}=\mathbf A^d_S\times\mathbf A^1$. This family
-is pulled back from $S$, and hence so is
-$\widetilde s^{*}\omega_{\widetilde g}[-2d]$. We normalize the local
-comparisons at $t=1$. Since the geometric fibres of $\mathbf A^1_S\to S$
-are connected, this makes them agree on overlaps. They glue because all
+$\mathbf A^d_{\mathbf A^1_S}=\mathbf A^d_S\times\mathbf A^1$, a family
+pulled back from $S$, and hence so is
+$\widetilde s^{*}\omega_{\widetilde g}[-2d]$. We then normalize the local
+comparisons at $t=1$; since the geometric fibres of $\mathbf A^1_S\to S$
+are connected, this makes them agree on overlaps. Finally, they glue because all
 objects involved are shifted locally constant sheaves.
 
 *Step 1: the objects.* The restrictions of
@@ -36,14 +36,14 @@ $s_\alpha:S_\alpha\to V\times_SS_\alpha$, a neighbourhood $U_\alpha$ of $s_\alph
 section. We may assume that the inverse image of the zero section under
 $e_\alpha$ is exactly $s_\alpha(S_\alpha)$. Indeed, this inverse image is
 separated and étale over $S_\alpha$, so $s_\alpha(S_\alpha)$ is open and
-closed in it. We remove the complement, which is closed in $U_\alpha$.
+closed in it, and we remove the complement, which is closed in $U_\alpha$.
 Then $e_\alpha$ is an étale map of pairs whose square of centers is
-cartesian. Blowing up and removing the strict transform commute with
-étale base change. Hence $e_\alpha$ induces an étale map from a
+cartesian. Since blowing up and removing the strict transform commute with
+étale base change, $e_\alpha$ induces an étale map from a
 neighbourhood of the deformed section in $\mathcal D_{s(S)}V$ to the
 deformation space of the zero section of $\mathbf A^d_{S_\alpha}$. The latter
 is $\mathbf A^d_{\mathbf A^1_{S_\alpha}}$, with coordinates $u_1,\ldots,u_d$
-and $t$. Its map to $\mathbf A^d_{S_\alpha}\times\mathbf A^1$ sends
+and $t$, and its map to $\mathbf A^d_{S_\alpha}\times\mathbf A^1$ sends
 $(u,t)$ to $(tu,t)$, that is, $x_i=tu_i$, and the deformed zero section is
 $u=0$.
 
@@ -53,7 +53,7 @@ $\mathbf A^d_{\mathbf A^1_{S_\alpha}}\to\mathbf A^1_{S_\alpha}$ with the
 constant sheaf $(\mathbf Z/\ell^n\mathbf Z)(d)[2d]$. Pulling back along the
 étale map just constructed, and composing adjunctions for it, gives the
 same identification for $\omega_{\widetilde g}$ near the deformed section.
-The chart $e_\alpha$ gives the analogous identification of
+Similarly, the chart $e_\alpha$ gives the analogous identification of
 $s^{*}\omega_{g}$ over $S_\alpha$. Composing the two identifications we
 obtain an isomorphism over $\mathbf A^1_{S_\alpha}$
 
@@ -72,7 +72,7 @@ overlaps, because of the normalization at $t=1$. Over $S_\alpha\times_SS_\beta$ 
 isomorphisms that are the identity at $t=1$ differ by an automorphism of the locally constant sheaf
 $a^{*}s^{*}\omega_g[-2d]$ of rank one, that is, by a section of a locally
 constant sheaf of units of $\mathbf Z/\ell^n\mathbf Z$. The locus where
-this section equals $1$ is open and closed. It contains the point $t=1$
+this section equals $1$ is open and closed, and it contains the point $t=1$
 of each geometric fibre $\mathbf A^1_{\bar b}$. As these fibres are
 connected, the section is $1$ at every geometric point. So the local
 isomorphisms glue to a unique isomorphism over $\mathbf A^1_S$ that is the

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-kunneth-finite-direct-image"
-order = 706
+order = 712
 uses = ["lemma-base-change-along-product-projection"]
 +++
 Both sides are additive in $Q$, so we may assume $Q=\pi_*A_{T'}$. Set
@@ -24,8 +24,8 @@ $$
 
 Since $hw=vh'$, the comparison between these two expressions is
 $v_*$ of the base change map of
-Lemma [lemma-base-change-along-product-projection] for $h'$. Hence it
+Lemma [lemma-base-change-along-product-projection] for $h'$, hence it
 is an isomorphism.
-This comparison is the Künneth map, because under the adjunction
-$h^*\dashv Rh_*$ and the adjunctions for the finite maps, both correspond to the counit
-$\varepsilon_f\otimes^{\mathbf L}1$ displayed in (8.4).
+Moreover, this comparison is $\kappa_{M,Q}$, because under the adjunction
+$h^*\dashv Rh_*$ and the adjunctions for the finite maps, both correspond to
+the counit $\varepsilon_f\otimes^{\mathbf L}1$ that defines $\kappa_{M,Q}$.

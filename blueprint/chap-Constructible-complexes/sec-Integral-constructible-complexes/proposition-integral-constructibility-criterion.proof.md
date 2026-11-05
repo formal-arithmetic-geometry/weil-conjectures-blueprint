@@ -20,10 +20,10 @@ $\mathcal O_E$ and of modules $\mathcal O_E/\pi_E^r$, so its sheaf has a
 two-term finite free resolution. The coefficient sheaf
 $\mathcal O_{E,U_i}$ on a member $U_i$ of the cover in
 Definition [definition-constructible-sheaves](1) is derived complete. Indeed, it is
-the limit of its finite quotients by Lemma [lemma-comparison-completed-coefficients].
-The transition maps between these quotients are surjective, so the
+the limit of its finite quotients by Lemma [lemma-comparison-completed-coefficients],
+and since the transition maps between these quotients are surjective, this
 limit agrees with the derived limit by Proposition [proposition-milnor-sequence].
-Completeness is preserved by finite sums and cones. Therefore the
+As completeness is preserved by finite sums and cones, the
 modules $\mathcal O_{E,U_i}\otimes_{\mathcal O_E}P_i$ of
 Definition [definition-constructible-sheaves](1) are complete, and their
 reductions are bounded locally constant finite complexes. We may check
@@ -32,13 +32,13 @@ is a localization of the topos, and it preserves limits and the cones
 defining the reductions.
 
 For a constructible sheaf, choose a finite stratification as in the
-definition. For a stratum $a:S\hookrightarrow X$, factored as
+definition. Then for a stratum $a:S\hookrightarrow X$, factored as
 $a=i\circ j$ as in Section [sec-Derived-functors], the open immersion $j$ is
 quasi-compact because $X$ is Noetherian. Extension by zero $a_!=i_*j_!$ preserves
 completeness, because it is exact, commutes
-with the cones defining the reductions, and preserves limits. For $j_!$ the
+with the cones defining the reductions, and preserves limits. Here, for $j_!$ the
 last point is the assertion about limits in Proposition [proposition-extension-zero-restriction-closed-subscheme], see
-[Stacks, [09BP](https://stacks.math.columbia.edu/tag/09BP)]. For $i_*$ it holds because $i_*$ is exact and
+[Stacks, [09BP](https://stacks.math.columbia.edu/tag/09BP)], while for $i_*$ it holds because $i_*$ is exact and
 a right adjoint. Using
 the finite filtration by open and closed pieces, we see that the whole
 sheaf is complete with constructible finite reductions. Applying this to
@@ -62,7 +62,7 @@ the condition of Definition [definition-constructible-sheaves](1). This proves (
 *(3) is equivalent to (4).*
 The complexes $\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ have finite Tor
 amplitude, and since the stratification is finite there is a common interval.
-The restrictions to the strata are exact and jointly conservative. Hence they
+Since the restrictions to the strata are exact and jointly conservative, they
 detect vanishing after tensoring with any sheaf of modules, and (3) implies (4).
 Conversely, (4) implies (1) by definition of $D^b_{\mathrm{ctf}}$, and hence (3) by
 the implications already proved.

@@ -2,7 +2,7 @@
 id = "prose-D-15"
 kind = "hidden"
 title = "Extension by zero (2)"
-order = 1601
+order = 1607
 +++
 When $j$ is dense, Lemma [lemma-removing-finitely-many-points], together with
 the calculation for constant $\mathbf F_\ell$ on $C$ via

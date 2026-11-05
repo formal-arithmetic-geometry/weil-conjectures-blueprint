@@ -1,10 +1,10 @@
 +++
 id = "prose-04-30"
 kind = "hidden"
-title = "Proper morphisms (3)"
-order = 383
+title = "Proper morphisms (2)"
+order = 386
 +++
-Stability under composition and descent along proper surjections are
-best proved on the level of injective acyclicity. By
-Theorem [theorem-pbc-injective-acyclicity] it is equivalent to proper
-base change, and it lends itself to a spectral sequence argument.
+For instance, if $u:\operatorname{Spec}k'\to\operatorname{Spec}k$ is a
+separable extension of degree $d$ and $\bar w$ is a geometric point, the
+formula says that $(u_*F)_{\bar w}$ is the product of the $d$ stalks of $F$
+at the $d$ embeddings of $k'$ into $\Omega$ over $k$.

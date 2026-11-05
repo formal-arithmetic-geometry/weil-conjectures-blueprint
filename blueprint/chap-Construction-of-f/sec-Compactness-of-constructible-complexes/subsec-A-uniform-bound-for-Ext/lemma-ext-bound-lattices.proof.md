@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-ext-bound-lattices"
-order = 440
+order = 445
 uses = ["lemma-cohomological-dimension-base-field", "lemma-limits-sections-support"]
 +++
 We first bound the complex in (3.1) for the torsion

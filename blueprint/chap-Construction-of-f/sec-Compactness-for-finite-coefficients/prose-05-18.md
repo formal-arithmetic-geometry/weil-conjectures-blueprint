@@ -2,7 +2,7 @@
 id = "prose-05-18"
 kind = "hidden"
 title = "Compactness for finite coefficients (3)"
-order = 471
+order = 476
 +++
 Proper direct image already preserves $D^b_{\mathrm{ctf}}$ by
 Proposition [proposition-proper-direct-image-finite-coefficients].

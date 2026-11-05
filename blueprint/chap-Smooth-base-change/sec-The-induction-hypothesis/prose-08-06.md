@@ -2,13 +2,13 @@
 id = "prose-08-06"
 kind = "hidden"
 title = "The induction hypothesis"
-order = 663
+order = 669
 +++
-In positive degrees we argue by induction on the degree. The induction
+In positive degrees we argue by induction on the degree. This induction
 hypothesis has to survive the reductions outlined above: composition of
 base changes, étale localization, and replacement of the source and of
-the base of the direct image by other schemes. A statement about the single
-square (8.1) does not survive them. Instead we fix an
+the base of the direct image by other schemes. But a statement about the single
+square (8.1) does not survive them, so instead we fix an
 integer $n$ invertible on $Y$ and use a property of a morphism $g:Y'\to Y$
 which concerns all direct images over all $Y$-schemes at once, as in
 [Stacks, [0F02](https://stacks.math.columbia.edu/tag/0F02)]. For $r\geq0$, we say that $\mathrm{BC}(g,n,r)$ holds if,
@@ -47,9 +47,9 @@ are projections. The case $d=0$ is étale localization. Hence, in the
 induction on the degree, it suffices to treat affine $Y$ and $Y'$ with $g$
 smooth of relative dimension one.
 
-The coefficients reduce to $\mathbf Z/n$-modules. A sheaf $F$ as in
+The coefficients reduce to $\mathbf Z/n$-modules. Indeed, a sheaf $F$ as in
 Theorem [theorem-smooth-base-change-classical-torsion] is
 the filtered union of the subsheaves $F[n]$, ordered by divisibility of
-integers invertible on $Y$. Inverse image commutes with this colimit, and
+integers invertible on $Y$, and inverse image commutes with this colimit, and
 so do higher direct images along qcqs morphisms [Stacks, [09Z1](https://stacks.math.columbia.edu/tag/09Z1)]. It therefore
 suffices to treat $\mathbf Z/n$-modules for each such $n$.

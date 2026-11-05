@@ -29,10 +29,29 @@ D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$. For an open immersion $j:U\to X$, extens
 zero $j_!:\operatorname{Mod}(U_{\mathrm{pro}\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is
 exact and left adjoint to $j^*$.
 
-For a locally closed immersion
-$a:S\hookrightarrow X$, we factor $a=i\circ j$ with $j:S\hookrightarrow\overline S$ the open
+Constructible sheaves will be built from lisse sheaves on the strata of a
+stratification, each extended by zero to all of $X$
+(Lemma [lemma-constructible-sheaves] and
+Corollary [corollary-coefficient-heart-b]). We fix this extension by
+zero now. Let $a:S\hookrightarrow X$ be a locally closed immersion, for
+instance the inclusion of a stratum. Then $S$ is open in its closure, so $a$
+factors as $a=i\circ j$, with $j:S\hookrightarrow\overline S$ the open
 immersion into the closure and $i:\overline S\hookrightarrow X$ the closed
-immersion, and we put
-$a_!=i_*j_!:\operatorname{Mod}(S_{\mathrm{pro}\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
-Since $j_!$ and $i_*$ are exact, so is $a_!$, and therefore it induces
-$a_!:D(S_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ without deriving.
+immersion. We put
+
+$$
+a_!=i_*j_!:\operatorname{Mod}(S_{\mathrm{pro}\acute{e}t},\Lambda)\longrightarrow\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda).
+$$
+
+For a $\Lambda_S$-module $L$, the sheaf $a_!L$ restricts to $L$ on $S$,
+and its restrictions to $\overline S\setminus S$ and to $X\setminus\overline S$
+are zero. Indeed $a^*a_!=j^*i^*i_*j_!=\mathrm{id}$, the sheaf $j_!L$
+vanishes on $\overline S\setminus S$, and $i_*$ of a sheaf vanishes on
+$X\setminus\overline S$
+(Proposition [proposition-extension-zero-restriction-closed-subscheme],
+which applies because the open immersions involved are quasi-compact, $X$
+being Noetherian). The same proposition shows that $j_!$ and $i_*$ are
+exact, so $a_!$ is exact. It therefore acts on complexes term by term and defines
+$a_!:D(S_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ with no derived functor
+needed. Once $Rf_!$ is constructed (Section [sec-Direct-image-with-compact-support]), this
+functor is $Ra_!$.

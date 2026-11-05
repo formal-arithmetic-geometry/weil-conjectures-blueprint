@@ -2,7 +2,7 @@
 id = "prose-12-04"
 kind = "hidden"
 title = "Frobenius correspondences (2)"
-order = 946
+order = 952
 +++
 The operator $T_{c_m}(\psi_m)$ is defined with the $k$-linear
 $\Phi_X$, while the Frobenius operator of Section [sec-Weil-complexes], whose

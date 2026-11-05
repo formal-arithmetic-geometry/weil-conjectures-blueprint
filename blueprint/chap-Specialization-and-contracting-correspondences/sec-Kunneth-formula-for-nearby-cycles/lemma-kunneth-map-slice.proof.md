@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-kunneth-map-slice"
-order = 1649
+order = 1655
 uses = ["definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-inverse-image-tensor-product"]
 +++
 In the middle line $P$ acts trivially, because the action on this

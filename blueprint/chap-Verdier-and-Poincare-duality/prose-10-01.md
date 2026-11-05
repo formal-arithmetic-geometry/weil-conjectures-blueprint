@@ -2,9 +2,9 @@
 id = "prose-10-01"
 kind = "hidden"
 title = "Verdier and Poincaré duality"
-order = 815
+order = 821
 +++
-The main estimate in the proof of Deligne's theorem, the goal of
+The main estimate in the proof of the Deligne–Laumon theorem, the goal of
 Part III, is an upper bound: every Frobenius eigenvalue on $H^i$ of a smooth proper variety has
 absolute value at most $q^{i/2}$. The lower bound comes from Weil's axiom (c).
 Suppose that the cup product pairs $H^i$ with $H^{2d-i}$ perfectly and that
@@ -17,7 +17,7 @@ chapter proves axiom (c).
 
 For the elliptic curve $y^2=x^3-x$ over $\mathbf F_3$ of the introduction,
 duality says that the two eigenvalues on $H^1$ have product $3$
-(Example [example-running-example-duality]). It does not bound them
+(Example [example-running-example-duality]), but it does not bound them
 separately.
 
 For a compact oriented manifold $M$ of dimension $n$ the model is Verdier's.
@@ -32,7 +32,7 @@ $a_X:X\to s=\operatorname{Spec}k$, put $\omega_X=a_X^!\Lambda_s$ and
 $\mathbb D_X=\cHom(-,\omega_X)$
 (Definition [definition-verdier-dual-evaluation]). The adjunction
 $Ra_{X!}\dashv a_X^!$ gives for free a pairing of $R\Gamma_c(X,K)$ with
-$R\Gamma(X,\mathbb D_XK)$. It also gives two exchange formulas
+$R\Gamma(X,\mathbb D_XK)$, and it also gives two exchange formulas
 
 $$
 \mathbb D_YRf_!\simeq Rf_*\mathbb D_X,\qquad
@@ -63,8 +63,8 @@ Theorem [theorem-poincare-duality-frobenius] in Section [sec-Weil-complexes]).
 What the adjunction does not give is that the pairing is perfect. For that we need
 Verdier biduality: the map $K\to\mathbb D_X\mathbb D_XK$ is an isomorphism for every
 $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and every admissible $\Lambda$
-(Theorem [theorem-verdier-biduality]). Then $\mathbb D_X$ is an anti-equivalence.
-Applying the first two exchange formulas to $\mathbb D_XK$ gives the other two,
+(Theorem [theorem-verdier-biduality]). Then $\mathbb D_X$ is an anti-equivalence, and
+applying the first two exchange formulas to $\mathbb D_XK$ gives the other two,
 $\mathbb D_YRf_*\simeq Rf_!\mathbb D_X$ and $\mathbb D_Xf^!\simeq f^*\mathbb D_Y$
 (Corollary [corollary-verdier-exchange-formulas]).
 

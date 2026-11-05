@@ -2,6 +2,6 @@
 id = "sec-Degree-zero"
 kind = "section"
 title = "Degree zero"
-order = 658
+order = 664
 uses = ["sec-The-base-change-map-2"]
 +++

@@ -1,15 +1,13 @@
 +++
 kind = "proof"
 of = "lemma-logarithm-determinant"
-order = 1028
+order = 1034
 +++
 For a single eigenvalue $\alpha$ the identity is
 $-\log(1-\alpha T)=\sum_m\alpha^mT^m/m$, and the general case could be
-reduced to this by triangularizing $v$ over an algebraic closure. We
-use logarithmic derivatives instead, which allows us to stay over $L$.
+reduced to this by triangularizing $v$ over an algebraic closure. Instead we use logarithmic derivatives, which allows us to stay over $L$.
 In $L[[T]]$, the matrix $1-Tv$ is invertible, with inverse
-$\sum_{r\geq0}T^rv^r$. The logarithmic derivative of the
-determinant of an invertible matrix $M$ over $L[[T]]$ is
+$\sum_{r\geq0}T^rv^r$. Moreover, the logarithmic derivative of the determinant of an invertible matrix $M$ over $L[[T]]$ is
 $\operatorname{Tr}(M^{-1}M')$, and hence
 
 $$

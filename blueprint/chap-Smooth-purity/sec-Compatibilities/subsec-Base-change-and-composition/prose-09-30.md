@@ -2,7 +2,7 @@
 id = "prose-09-30"
 kind = "hidden"
 title = "Base change and composition (1)"
-order = 790
+order = 796
 +++
 Fix a cartesian square
 
@@ -21,7 +21,7 @@ Definition [definition-sp-scalar-extension].
 
 **Base change.** The statement of
 Proposition [proposition-compatibility-purity-base-change] needs an
-exceptional base change isomorphism for $\mathbf Z_\ell$. We obtain it as a limit of
+exceptional base change isomorphism for $\mathbf Z_\ell$. It is obtained as a limit of
 the finite ones, and the limit exists once the finite isomorphisms commute
 with the reduction maps, that is, once base change commutes with change of
 coefficients. To state this we name the four comparison maps
@@ -58,10 +58,10 @@ To prove (9.22), choose a compactification
 $f=\bar f\circ j$ and pull it back to $Y'$. Since $b$ and $\beta$ for $f$
 are the composites of those for $j$ and for $\bar f$, it suffices to treat
 these two cases. For the open immersion $j$, extension by zero commutes
-with pullback and with extension of scalars. Both sides of
+with pullback and with extension of scalars, and both sides of
 (9.22) are this identification. For the proper map $\bar f$, both $b^{\bar f}$ and proper base change are
 transposes of the counit of $L\bar f^*\dashv R\bar f_*$, the first after
-extension of scalars and the second after pullback. Here we work on the derived
+extension of scalars and the second after pullback; here we work on the derived
 categories of sheaves of $A$-modules on the pro-étale sites. Therefore
 both sides of (9.22) transpose to the
 pulled-back counit with scalars extended.
@@ -73,7 +73,7 @@ sides of (9.23) under
 $Rf'_{!,B}\dashv f'^!_B$ thus gives two maps
 $Rf'_{!,B}\bigl(g'^*((f_A^!K)_B)\bigr)\to g^*K_B$. Each is built from the
 counit $\varepsilon_{f,A}(K)$, the comparisons $b$ and the base change
-maps $\beta$. The counit commutes with extension of scalars and with
+maps $\beta$, and the counit commutes with extension of scalars and with
 pullback. By naturality of $b$ and $\beta$, the two maps therefore agree
 once (9.22) holds.
 
@@ -89,11 +89,11 @@ under the adjunction on towers for $f'$ defines
 $e_{f,\bullet}:g'^*f_\bullet^!\to f'^!_\bullet g^*$. At
 level $n$ these are $\beta_{f,\mathcal O_E/\ell^n}$ and the exceptional
 base change map with coefficients $\mathcal O_E/\ell^n$, so they are
-isomorphisms. For the second, this is
+isomorphisms; for the second, this is
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](3) with
-$\Lambda=\mathcal O_E/\ell^n$. The transition maps of $f_\bullet^!$ are
+$\Lambda=\mathcal O_E/\ell^n$. Moreover, the transition maps of $f_\bullet^!$ are
 induced by the change-of-coefficients maps $c$
-(Proposition [proposition-sp-tower-geometric]). By
+(Proposition [proposition-sp-tower-geometric]), and by
 (9.23) the levels of $e_{f,\bullet}$
 commute with them. So $e_{f,\bullet}$ is an isomorphism of functors on
 towers. In particular, for a normalized tower $K_\bullet$ both
@@ -102,14 +102,14 @@ are normalized.
 
 The functors $\operatorname{red}$ of Lemma [lemma-sp-tower-adjunction-foundation]
 carry the maps over $\mathcal O_E$ (base change, composition, counits and
-transposes) to the maps on towers. We check this in steps. The functor
-$\operatorname{red}$ is a derived pullback of ringed topoi. Hence it
+transposes) to the maps on towers. We check this in steps. First, the functor
+$\operatorname{red}$ is a derived pullback of ringed topoi, so it
 commutes with $g^*$ by associativity of derived pullbacks, and it commutes
-with extension by zero because the right adjoints commute. For proper
+with extension by zero because the right adjoints commute. Next, for proper
 $\bar f$, the comparison
 $\operatorname{red}_YR\bar f_*M\to R\bar f_{*,\bullet}\operatorname{red}_XM$ is the
-transpose of $\operatorname{red}_X$ of the counit of $\bar f^*\dashv R\bar f_*$.
-Its level $n$ is the change-of-coefficients map of
+transpose of $\operatorname{red}_X$ of the counit of $\bar f^*\dashv R\bar f_*$,
+and its level $n$ is the change-of-coefficients map of
 Lemma [lemma-change-coefficients-direct-image] for
 $\mathcal O_E\to\mathcal O_E/\ell^n$. As evaluations detect isomorphisms,
 the comparison is an isomorphism for $M\in\Dbc(X,\mathcal O_E)$. Composing
@@ -119,14 +119,14 @@ for a compactification $f=\bar f\circ j$. The formal argument in the proof of
 Proposition [proposition-six-operations-change-coefficients] shows that,
 under these comparisons, $\operatorname{red}$ carries the unit and counit of
 $\bar f^*\dashv R\bar f_*$ over $\mathcal O_E$ to the unit and counit on towers.
-The base change and composition isomorphisms of
+Since the base change and composition isomorphisms of
 Proposition [proposition-composition-base-change-rf-shriek] are composites
 of such units and counits and of the identifications of pullbacks and of
-extensions by zero. Hence $\operatorname{red}$ carries them, with coefficients
+extensions by zero, $\operatorname{red}$ carries them, with coefficients
 $\mathcal O_E$, to $\beta_{f,\bullet}$ and to the corresponding composition
 isomorphisms on towers. For the counit, the adjunction of
 Proposition [proposition-sp-integral-adjunction] is transported from the
-adjunction on towers. So $\operatorname{red}_Y$ carries
+adjunction on towers, so $\operatorname{red}_Y$ carries
 $\varepsilon_f(K)$ to $\varepsilon_{f,\bullet}(\operatorname{red}_YK)$, once the
 sources are identified by this comparison and by the isomorphism
 $\operatorname{red}_Xf^!_{\mathcal O_E}K\simeq f^!_\bullet\operatorname{red}_YK$
@@ -141,11 +141,11 @@ $M\simeq R\varprojlim\operatorname{red}M$.
 
 Let $K\in\Dbc(Y,\mathcal O_E)$, and let
 $\operatorname{red}_YK=(K/\ell^n)_n$ be its tower of reductions
-(Lemma [lemma-sp-tower-adjunction-foundation]). Inverse image commutes
+(Lemma [lemma-sp-tower-adjunction-foundation]). Since inverse image commutes
 with reduction modulo $\ell^n$, and
 $f_{\mathcal O_E}^!K\simeq R\varprojlim_nf_{\mathcal O_E/\ell^n}^!(K/\ell^n)$
 by Proposition [proposition-sp-integral-adjunction] and
-(9.20). Hence both sides below are $R\varprojlim_n$
+(9.20), both sides below are $R\varprojlim_n$
 of the corresponding terms at level $n$ for $K/\ell^n$. Applying
 $R\varprojlim$ to $e_{f,\bullet}$ at $\operatorname{red}_YK$ we obtain the
 integral exceptional base change isomorphism
@@ -171,15 +171,15 @@ $Rf'_{!,\mathcal O_E}\dashv f'^!_{\mathcal O_E}$ of
 $g^*(\varepsilon_f(K))\circ\beta^{-1}$. By the preceding paragraph,
 $\operatorname{red}$ carries this composite to
 $g^*(\varepsilon_{f,\bullet})\circ\beta_{f,\bullet}^{-1}$ at
-$\operatorname{red}_YK$. It carries the transpose to the transpose on
+$\operatorname{red}_YK$, and it carries the transpose to the transpose on
 towers, which is $e_{f,\bullet}(\operatorname{red}_YK)$. Hence the map of
 the definition is $R\varprojlim$ of $e_{f,\bullet}(\operatorname{red}_YK)$,
 that is, (9.24). For $E$ and $\overline{\mathbf Q}_\ell$ we argue in
 the same way, with extension of scalars along $\mathcal O_E\to E$ and
-$E\to\overline{\mathbf Q}_\ell$ in place of $\operatorname{red}$. Extension of scalars commutes
+$E\to\overline{\mathbf Q}_\ell$ in place of $\operatorname{red}$. Indeed, extension of scalars commutes
 with $g^*$, extension by zero and $R\bar f_*$ through the
 change-of-coefficients maps of
-Definition [definition-change-of-coefficients-maps]. By
+Definition [definition-change-of-coefficients-maps], and by
 Proposition [proposition-six-operations-change-coefficients] it carries the
 units and counits of $\bar f^*\dashv R\bar f_*$ and of $Rf_!\dashv f^!$ to
 the corresponding units and counits. So it carries the base change maps for

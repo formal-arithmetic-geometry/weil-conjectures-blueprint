@@ -2,7 +2,7 @@
 id = "prose-11-04"
 kind = "hidden"
 title = "Traces of perfect complexes (3)"
-order = 891
+order = 897
 +++
 In the additivity statement of the proposition we ask for an endomorphism of
 the filtered object, and not merely of the three vertices of a triangle.

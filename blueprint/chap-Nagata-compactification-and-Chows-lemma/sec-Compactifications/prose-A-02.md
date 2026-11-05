@@ -2,7 +2,7 @@
 id = "prose-A-02"
 kind = "hidden"
 title = "Compactifications (1)"
-order = 1395
+order = 1401
 +++
 To show that $Rp_*j_!$ does not depend on the compactification, we must
 compare two of them, and in general neither maps to the other. The plane

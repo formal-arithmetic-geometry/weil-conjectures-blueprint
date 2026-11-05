@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree"
-order = 860
+order = 866
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-forgetting-supports-composition", "corollary-degreewise-duality-over-fields", "lemma-class-of-point", "theorem-nagata-s-compactification-theorem", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 We read off the top degree from Poincaré duality in degree zero
@@ -25,24 +25,21 @@ By Theorem [theorem-poincare-duality] this identification is given by
 pairing with $H^0$ and applying the trace map, so it is
 $\operatorname{tr}_X(d)$.
 
-A general finite ring $A$ need not be injective over itself, so we reach
-it by extension of scalars instead. Every finite $A$ is an algebra over some $\mathbf Z/\ell^n$, and by
+A general finite ring $A$ need not be injective over itself, so we reach it by extension of scalars instead. Every finite $A$ is an algebra over some $\mathbf Z/\ell^n$, and by
 Proposition [proposition-six-operations-change-coefficients] the complexes with constant coefficients
 and their traces over $A$ are obtained by derived extension of
-scalars from $\mathbf Z/\ell^n$. For a complex $P$ with cohomology in
-degrees $\le2d$, right exactness of the tensor product gives
+scalars from $\mathbf Z/\ell^n$. For a complex $P$ with cohomology in degrees $\le2d$, right exactness of the tensor product gives
 $H^{2d}(P\otimes^{\mathbf L}A)=H^{2d}(P)\otimes A$. The top cohomology is therefore
-$\mathbf Z/\ell^n\otimes A=A$, and the trace is an isomorphism. The same
+$\mathbf Z/\ell^n\otimes A=A$, and the trace is an isomorphism. Since
+derived extension of scalars does not raise the top degree, the same
 upper bound holds.
 
 For $\mathcal O_E$, we write $R\Gamma(X,\mathcal O_{E,X}(d))$ as the
 derived inverse limit of the complexes $R\Gamma(X,(\mathcal O_E/\pi_E^n)_X(d))$.
 Its cohomology fits into the Milnor sequence
-$0\to\lim^1_nH^{i-1}\to H^i\to\lim_nH^i\to0$. The cohomology groups at
-each level are finite, so they satisfy the Mittag–Leffler condition and there is no $\lim^1$
-contribution to the top group. Since the traces in top degree are
-compatible, we get $H^{2d}(X,\mathcal O_{E,X}(d))=\mathcal O_E$, with the same
-vanishing bounds. The lower bound and $H^0$
-also follow directly from ordinary sheaf cohomology and
-connectedness. Inverting $\ell$ and then extending scalars along
+$0\to\lim^1_nH^{i-1}\to H^i\to\lim_nH^i\to0$. Since the cohomology groups at each level are finite, they satisfy the Mittag–Leffler condition and there is no $\lim^1$
+contribution to the top group. The traces in top degree are
+compatible, so we get $H^{2d}(X,\mathcal O_{E,X}(d))=\mathcal O_E$, with the same
+vanishing bounds. The lower bound and $H^0$ also follow directly from ordinary sheaf cohomology and
+connectedness. Finally, inverting $\ell$ and then extending scalars along
 finite extensions of $E$, we obtain the cases $\mathbf Q_\ell$, $E$ and $\overline{\mathbf Q}_\ell$.

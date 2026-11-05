@@ -2,7 +2,7 @@
 id = "prose-05-07"
 kind = "hidden"
 title = "A uniform bound for Ext (1)"
-order = 435
+order = 440
 +++
 The idea of the bound is to count cohomological dimensions modulo
 $\pi_E^n$, add one degree for the derived limit over $n$, and invert

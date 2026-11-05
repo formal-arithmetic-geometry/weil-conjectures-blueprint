@@ -12,5 +12,5 @@ $\mathbf A^1_k$.
 
 For complexes we get the following. Since constructible sheaves form an
 abelian subcategory, complexes with constructible cohomology are stable under
-cones. The filtration of part (3) and the truncation triangles generate
+cones, and the filtration of part (3) together with the truncation triangles generates
 them from the sheaves $a_!L$.

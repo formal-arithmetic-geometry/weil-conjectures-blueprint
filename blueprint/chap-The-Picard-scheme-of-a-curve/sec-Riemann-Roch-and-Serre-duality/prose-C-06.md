@@ -2,7 +2,7 @@
 id = "prose-C-06"
 kind = "hidden"
 title = "Riemann–Roch and Serre duality (2)"
-order = 1520
+order = 1526
 +++
 For $C=\mathbf P^1_k$ and $\mathcal L=\mathcal O(d)$ with $d\geq0$, the
 sections are the binary forms of degree $d$, a space of dimension

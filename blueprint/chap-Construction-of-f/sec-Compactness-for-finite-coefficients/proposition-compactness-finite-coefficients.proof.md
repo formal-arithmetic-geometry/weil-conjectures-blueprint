@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-compactness-finite-coefficients"
-order = 467
+order = 472
 uses = ["proposition-unbounded-comparison-finite-coefficients"]
 +++
 The plan is to prove compactness on the étale
@@ -11,10 +11,9 @@ result to $X_{\mathrm{pro}\acute{e}t}$ by $\nu_X^*$.
 
 Recall that compact objects are closed under shifts,
 finite extensions and direct summands. Hence, by
-Lemma [lemma-flat-models-generators], it suffices to treat $a_!L$. Factor $a=i\circ u$ with
-$i:Z\hookrightarrow X$ closed and $u:S\hookrightarrow Z$ open, and let
+Lemma [lemma-flat-models-generators], it suffices to treat $a_!L$. To do so, factor $a=i\circ u$ with $i:Z\hookrightarrow X$ closed and $u:S\hookrightarrow Z$ open, and let
 $j:X\setminus Z\hookrightarrow X$ be the complementary open immersion.
-The idea is to write $R\!\operatorname{Hom}(a_!L,-)$ as a composite of functors each of
+The idea is then to write $R\!\operatorname{Hom}(a_!L,-)$ as a composite of functors each of
 which commutes with direct sums. Since $L$ has finite projective stalks, it is dualizable with dual
 $L^\vee=\underline{\operatorname{Hom}}_A(L,A_S)$, and the étale form of
 Lemma [lemma-sections-support-closed-subscheme](2) shows that for $K\in D(X_{\acute{e}t},A)$ we have
@@ -32,9 +31,7 @@ and $R\Gamma(S,-)$, this is [Stacks, [0F11](https://stacks.math.columbia.edu/tag
 of finite cohomological dimension commutes with direct sums of unbounded
 complexes. It applies to $A$-modules because derived direct
 image and global sections commute with forgetting the coefficient ring
-[Stacks, [0D6J](https://stacks.math.columbia.edu/tag/0D6J)]. The remaining functors are inverse images, tensor products
-with finite projective sheaves, and a fibre. Inverse images are left
-adjoints, tensor products commute with direct sums, and the fibre of a
+[Stacks, [0D6J](https://stacks.math.columbia.edu/tag/0D6J)]. The remaining functors are inverse images, tensor products with finite projective sheaves, and a fibre, and these also preserve direct sums: inverse images are left adjoints, tensor products commute with direct sums, and the fibre of a
 map between functors that preserve direct sums again preserves them.
 Hence $R\!\operatorname{Hom}_X(a_!L,-)$ commutes with direct sums. Taking $H^0$, we see
 that $\Hom(a_!L,-)$ commutes with direct sums, that is, $a_!L$ is compact.

@@ -1,10 +1,10 @@
 +++
 kind = "proof"
 of = "lemma-nearby-cycles-constant-family"
-order = 1617
+order = 1623
 +++
 The compatibilities (1) and (2) are formal. For the isomorphism we show
-that the cone $C_Y(L)$ of $\sigma_Y(L)$ vanishes. Like nearby
+that the cone $C_Y(L)$ of $\sigma_Y(L)$ vanishes. To do this we use that, like nearby
 cycles, the cone commutes with smooth pullback and proper direct image.
 Smooth pullback lets us check vanishing locally, and it also shows that
 the cone vanishes generically, by
@@ -37,11 +37,11 @@ closed immersion is conservative, it suffices to treat affine
 spaces.
 
 For $Y=\mathbf A^n$, the complex $C_Y(L)$ vanishes on a dense open
-subset.  Indeed, the truncation triangles reduce us to a
-sheaf, which we shrink until it is locally constant and pull back to a finite
-étale cover on which it is constant; this is allowed because $C$
-commutes with étale pullback, so that vanishing can be checked after a
-surjective étale pullback.  For a constant sheaf $M$ on a smooth
+subset.  Indeed, by the truncation triangles we may assume that $L$ is
+a sheaf. After shrinking, it is locally constant, and after pulling
+back to a finite étale cover, it is constant. The pullback does no
+harm: $C$ commutes with étale pullback, so vanishing can be checked
+after a surjective étale pullback.  For a constant sheaf $M$ on a smooth
 $k$-scheme, the base change isomorphism for its smooth structure map identifies $C$
 with the pullback of $C_{\operatorname{Spec}k}(M)$, which is zero
 because $R\Psi_S(M_\eta)=M$.

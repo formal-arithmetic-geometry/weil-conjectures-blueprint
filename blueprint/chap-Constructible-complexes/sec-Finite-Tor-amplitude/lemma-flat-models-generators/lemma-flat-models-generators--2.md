@@ -1,0 +1,11 @@
++++
+id = "lemma-flat-models-generators--2"
+kind = "lemma"
+title = "Flat models and generators (2)"
+name_showing = false
+order = 255002
+aliases = ["bp-r075-2"]
++++
+A flat constructible sheaf has a finite
+stratification on whose strata it is locally of the form $\underline M$ with
+$M$ a finite projective $A$-module.

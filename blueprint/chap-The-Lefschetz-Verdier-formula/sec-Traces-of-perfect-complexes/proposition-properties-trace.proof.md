@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-properties-trace"
-order = 890
+order = 896
 +++
 Everything follows from the chain formula, which we prove first by
 writing evaluation and coevaluation in a finite dual basis.
@@ -18,11 +18,10 @@ index.
 
 Tensoring a dual basis with $B$ preserves evaluation and coevaluation. Hence
 the trace is compatible with extension of scalars for every ring map
-$A\to B$. Linearity and invariance under conjugacy follow from the same
-description. For additivity, a two-step filtered object of the filtered derived category may be
+$A\to B$. Linearity and invariance under conjugacy follow from the same description. For additivity, note that a two-step filtered object of the filtered derived category may be
 represented by a filtered complex of projective modules whose filtration is
 split in each degree. The endomorphism is then block triangular, so its
-supertrace is the sum of the supertraces on the two graded pieces. Over a field the boundaries
+supertrace is the sum of the supertraces on the two graded pieces. Finally, over a field the boundaries
 $B^i$ and cycles $Z^i$ are $v$-invariant subspaces
 $B^i\subset Z^i\subset P^i$, with $Z^i/B^i=H^i(P)$, and the
 differential induces a $v$-equivariant isomorphism $P^i/Z^i\simeq B^{i+1}$.

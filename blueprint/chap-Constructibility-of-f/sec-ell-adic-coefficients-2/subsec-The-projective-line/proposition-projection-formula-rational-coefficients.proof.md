@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-projection-formula-rational-coefficients"
-order = 598
+order = 604
 uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-proper-direct-image-unbounded-complexes", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes"]
 +++
 Both claims are first checked on $\Dbc$ and then extended. Tensor

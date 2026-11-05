@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-affine-covers-dense-intersection"
-order = 1457
+order = 1463
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 The scheme $X$ has finitely many irreducible components.
