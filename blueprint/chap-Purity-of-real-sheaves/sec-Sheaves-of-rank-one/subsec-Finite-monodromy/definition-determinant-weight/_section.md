@@ -3,7 +3,8 @@ id = "definition-determinant-weight"
 kind = "definition"
 title = "Determinant weight"
 order = 1110
-lean = ["AlgebraicGeometry.WeilGroup.detWeight", "AlgebraicGeometry.WeilGroup.HasDetWeight", "AlgebraicGeometry.WeilGroup.detWeightMultiset"]
+lean = ["Representation.detWeight", "AlgebraicGeometry.WeilGroup.HasDetWeight"]
+uses = ["definition-weil-representation", "definition-weights"]
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth
 geometrically connected curve $U_0$, let $\rho$ be the corresponding

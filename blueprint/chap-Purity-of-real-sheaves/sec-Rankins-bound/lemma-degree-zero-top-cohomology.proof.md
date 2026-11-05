@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-degree-zero-top-cohomology"
 order = 1151
-uses = ["lemma-stability", "corollary-degreewise-duality-over-fields", "definition-weights"]
+uses = ["proposition-lattices-representations-normal-scheme", "corollary-degreewise-duality-over-fields", "definition-weights", "lemma-filtrations-spectra", "lemma-proper-smooth-model", "lemma-degree-zero-top-cohomology--1", "lemma-degree-zero-top-cohomology--2", "lemma-degree-zero-top-cohomology--3", "lemma-degree-zero-top-cohomology--4", "lemma-degree-zero-top-cohomology--5", "lemma-degree-zero-top-cohomology--6", "lemma-degree-zero-top-cohomology--7"]
 +++
 We deduce both formulas from the description of a lisse sheaf by its
 representation, using Poincaré duality to reduce $H^2_c$ to $H^0$, and

@@ -3,8 +3,8 @@ id = "theorem-rank-one-sheaves-have-finite"
 kind = "theorem"
 title = "Rank-one sheaves have finite geometric monodromy"
 order = 1104
-lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image", "AlgebraicGeometry.WeilGroup.finite_range_of_continuous"]
-uses = ["definition-weil-representation"]
+lean = ["AlgebraicGeometry.WeilGroup.finite_range_of_continuous", "AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image"]
+uses = ["situation-weil", "definition-weil-representation"]
 +++
 Let $U_0/k_0$ be a smooth geometrically connected curve, and let
 $\chi:W(U_0)\to E^\times$ be the character of a rank-one lisse Weil

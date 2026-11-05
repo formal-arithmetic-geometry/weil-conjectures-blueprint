@@ -1,15 +1,36 @@
 +++
 id = "lemma-determinant-weight-from-central-scalar--1"
 kind = "lemma"
-title = "Determinant weight from a central scalar (1)"
+title = "Determinant weight for a represented degree datum"
 name_showing = false
 order = 1142001
 aliases = ["bp-r351-1"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]
+uses = ["definition-monodromy-groups", "proposition-central-element-arithmetic-monodromy-group", "definition-determinant-weight"]
 +++
-In the setting of Proposition [proposition-central-element-arithmetic-monodromy-group], let $Q$
-be a nonzero subquotient of a tensor construction on $V$ on which the
-element $z$ acts by a scalar $c_Q$. Then
+Let $k$ be a field, let $W$ be a group with a surjective homomorphism
+$\deg:W\to\Z$ and a chosen element $s$ of degree one, and let
+$\rho:W\to\GL(k^n)$ be a representation. Put $P=\ker\deg$, and let
+$H\subseteq G$ be the Zariski closures of $\rho(P)$ and $\rho(W)$,
+as in [definition-monodromy-groups]. Let
+$\lambda:k^\times\to(\R,+)$ be a homomorphism. Suppose that $N>0$ is
+an integer and that
 
 $$
-\operatorname{dw}_\iota(Q)=\frac{\lambda_\iota(c_Q)}{N}.
+z=h\rho(s)^N,\qquad h\in H(k),\qquad z\in Z(G(k)),
+$$
+
+so that $(N,z)$ is a positive central pair of the form supplied by
+[proposition-central-element-arithmetic-monodromy-group].
+
+Let $U\subsetneq S\subseteq k^n$ be $W$-stable subspaces, and put
+$Q=S/U$. Assume that the determinant character $\delta_Q$ has finite
+image on $P$ and that $c_Q\in k^\times$ satisfies
+$zx-c_Qx\in U$ for every $x\in S$. With the determinant weight defined
+as in [definition-determinant-weight], using $\lambda$ and $s$, we have
+
+$$
+\operatorname{dw}_\lambda(Q)
+=\frac{\lambda(\delta_Q(s))}{\dim_k Q}
+=\frac{\lambda(c_Q)}{N}.
 $$

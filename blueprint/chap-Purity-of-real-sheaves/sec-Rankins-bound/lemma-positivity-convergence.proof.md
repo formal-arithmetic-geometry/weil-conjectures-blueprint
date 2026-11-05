@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-positivity-convergence"
 order = 1160
+uses = ["lemma-positivity-convergence--1"]
 +++
 We compare coefficients and then apply Cauchy's estimate. To compare, write
 $f_j=\sum_na_{j,n}t^n$ and $L=\sum_nA_nt^n$. Since the product is

@@ -4,6 +4,7 @@ kind = "definition"
 title = "Monodromy groups"
 order = 1128
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy"]
+uses = ["definition-weil-representation", "situation-weil"]
 +++
 Let $\rho:W(U_0)\to\GL(V)$ be a Weil representation. Its
 *geometric* and *arithmetic monodromy groups* are the Zariski

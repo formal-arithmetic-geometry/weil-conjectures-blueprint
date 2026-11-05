@@ -5,5 +5,8 @@ title = "Purity of real sheaves on curves (2)"
 name_showing = false
 order = 1166002
 aliases = ["bp-r359-2"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsReal.isMixed_of_isLisse"]
+uses = ["definition-weights", "definition-real-sheaves", "definition-weil-representation"]
 +++
-In particular, every $\iota$-real lisse Weil sheaf on the curve is mixed.
+Let $C_0$ be a smooth geometrically connected curve over $\mathbf F_q$.
+Every $\iota$-real lisse Weil sheaf on $C_0$ is $\iota$-mixed.

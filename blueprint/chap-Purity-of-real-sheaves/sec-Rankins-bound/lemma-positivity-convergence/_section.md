@@ -3,7 +3,8 @@ id = "lemma-positivity-convergence"
 kind = "lemma"
 title = "Positivity and convergence"
 order = 1159
-lean = ["PowerSeries.radius_tprod_le_radius"]
+lean = ["PowerSeries.radius_tprod_le_radius", "PowerSeries.eval_ne_zero_of_lt_radius_inv"]
+uses = []
 +++
 Let
 

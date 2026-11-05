@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-bound-largest-determinant-weight"
 order = 1163
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights", "proposition-determinant-weights-tensor-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-cohomological-range-curve", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-lattices-representations-normal-scheme", "proposition-determinant-weights-tensor-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-euler-factors", "lemma-positivity-convergence", "proposition-bound-largest-determinant-weight--1"]
 +++
 We bound the poles of $L(U_0,\mathcal G^{\otimes2m},t)$ by determinant
 weights through $H^2_c$, and positivity then passes the bound to each local

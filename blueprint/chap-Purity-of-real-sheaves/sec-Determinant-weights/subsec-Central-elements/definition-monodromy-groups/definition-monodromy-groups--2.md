@@ -5,5 +5,7 @@ title = "Monodromy groups (2)"
 name_showing = false
 order = 1128002
 aliases = ["bp-r346-2"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy"]
+uses = ["definition-weil-representation", "situation-weil"]
 +++
 and $G$ of $\rho(W(U_0))$ in $\GL(V)$.

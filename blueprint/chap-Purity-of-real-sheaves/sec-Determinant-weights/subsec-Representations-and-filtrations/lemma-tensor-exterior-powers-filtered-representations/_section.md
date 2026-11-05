@@ -3,7 +3,8 @@ id = "lemma-tensor-exterior-powers-filtered-representations"
 kind = "lemma"
 title = "Tensor and exterior powers of filtered representations"
 order = 1124
-lean = ["Representation.CompositionSeries.hasGradedPieces_tprod", "Representation.CompositionSeries.hasGradedPieces_exteriorPower", "Representation.CompositionSeries.constituentsLE_exteriorPower_semisimplification", "Representation.CompositionSeries.constituentsLE_exteriorPower_semisimplification'", "Subrepresentation.exists_subquotient_tprod_equiv", "Representation.nontrivial_piTensorProduct_exteriorPower_iff"]
+lean = []
+uses = ["definition-weil-representation"]
 +++
 Suppose $V$ and $V'$ have composition factors $A_1,\ldots,A_t$ and
 $B_1,\ldots,B_u$. There is a $W(U_0)$-stable filtration of $V\otimes V'$

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-normality-geometric-monodromy"
 order = 1131
+uses = ["situation-weil", "lemma-normality-geometric-monodromy--1", "lemma-normality-geometric-monodromy--2"]
 +++
 Each assertion holds for the images of $\pi_1(U)$ and $W(U_0)$, and we
 pass to Zariski closures by continuity.

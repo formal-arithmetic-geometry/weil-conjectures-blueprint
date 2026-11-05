@@ -1,18 +1,33 @@
 +++
 id = "lemma-positivity-convergence--1"
 kind = "lemma"
-title = "Positivity and convergence (1)"
+title = "Positive products and zero-free discs"
 name_showing = false
 order = 1159001
 aliases = ["bp-r357-1"]
+lean = ["PowerSeries.radius_tprod_le_radius", "PowerSeries.eval_ne_zero_of_lt_radius_inv"]
+uses = []
 +++
-Let
+For a power series $f$, write $\rad(f)\in[0,\infty]$ for its radius
+of convergence.
+
+Let $(f_j)_{j\in J}$ be a family in $1+t\mathbf R_{\ge0}[[t]]$,
+viewed as complex power series. Suppose that the finite subproducts
+converge coefficientwise in the usual topology on $\mathbf C$ to $L$.
+Then, for every $j\in J$,
 
 $$
-L(t)=\prod_j f_j(t),\qquad f_j\in1+t\mathbf R_{\ge0}[[t]],
+\rad(L)\le\rad(f_j).
 $$
 
-be a coefficientwise locally finite product. If $L$ is the Taylor
-series of a function holomorphic on $|t|<R$, then every $f_j$ has
-radius of convergence at least $R$, and if $f_j=P_j^{-1}$ with
-$P_j(0)=1$, then $P_j$ has no zero in that disc.
+Independently, let $K$ be a complete nontrivially normed field and
+$P\in K[t]$ with $P(0)\ne0$. Then
+
+$$
+|z|<\rad(P^{-1})\quad\Longrightarrow\quad P(z)\ne0
+\qquad(z\in K),
+$$
+
+where $P^{-1}$ is the formal power series inverse of $P$.
+In particular, if $f_j=P_j^{-1}$ for $P_j\in\mathbf C[t]$ with
+$P_j(0)=1$, then $P_j$ has no zero on $|t|<\rad(L)$.

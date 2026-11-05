@@ -5,6 +5,8 @@ title = "Determinant weight (1)"
 name_showing = false
 order = 1110001
 aliases = ["bp-r340-1"]
+lean = ["Representation.detWeight", "AlgebraicGeometry.WeilGroup.HasDetWeight"]
+uses = ["definition-weil-representation", "definition-weights"]
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth
 geometrically connected curve $U_0$, let $\rho$ be the corresponding

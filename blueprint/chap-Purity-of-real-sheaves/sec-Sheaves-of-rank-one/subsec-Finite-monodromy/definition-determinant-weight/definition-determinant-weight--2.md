@@ -5,6 +5,8 @@ title = "Determinant weight (2)"
 name_showing = false
 order = 1110002
 aliases = ["bp-r340-2"]
+lean = []
+uses = ["definition-determinant-weight--1"]
 +++
 For a lisse Weil sheaf $\mathcal V$ we write $\operatorname{DW}(\mathcal V)$
 for the set of determinant weights of its irreducible constituents.

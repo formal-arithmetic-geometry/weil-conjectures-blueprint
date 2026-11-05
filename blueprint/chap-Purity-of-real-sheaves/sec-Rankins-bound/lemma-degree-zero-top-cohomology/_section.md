@@ -3,8 +3,8 @@ id = "lemma-degree-zero-top-cohomology"
 kind = "lemma"
 title = "Degree zero and top cohomology"
 order = 1150
-lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_zero", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weil-representation", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilGroup.exists_globalSections_linearEquiv_invariants", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_neg", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_zero", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeightOver_compactlySupportedCohomology_two"]
+uses = ["definition-lisse-sheaves", "definition-weil-structure", "definition-weil-representation", "definition-frobenius-operator", "definition-weights", "proposition-construction-independence-rf-shriek"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected curve, let
 $\mathcal F$ be a lisse Weil sheaf on $U_0$, and let $V$ be its

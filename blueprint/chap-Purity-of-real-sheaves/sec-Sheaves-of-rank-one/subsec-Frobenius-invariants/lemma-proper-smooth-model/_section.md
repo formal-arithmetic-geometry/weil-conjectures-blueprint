@@ -3,7 +3,7 @@ id = "lemma-proper-smooth-model"
 kind = "lemma"
 title = "A proper smooth model"
 order = 1091
-lean = ["AlgebraicGeometry.exists_smooth_properCompactification", "AlgebraicGeometry.exists_smooth_projectiveCompactification"]
+lean = ["AlgebraicGeometry.exists_smooth_properCompactification"]
 uses = ["definition-compactification-refinement"]
 +++
 A smooth geometrically connected curve $U_0/k_0$ has a smooth
