@@ -3,7 +3,7 @@ id = "theorem-proper-pushforward-lefschetz-verdier--2"
 kind = "theorem"
 title = "Proper pushforward and Lefschetz–Verdier (2)"
 name_showing = false
-order = 926002
+order = 926003
 aliases = ["bp-r281-2"]
 +++
 If $X$ and $C$ are proper over $k$, this gives

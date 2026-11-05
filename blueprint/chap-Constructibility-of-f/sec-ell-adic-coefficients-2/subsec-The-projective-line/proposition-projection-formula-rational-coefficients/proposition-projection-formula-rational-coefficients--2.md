@@ -3,7 +3,7 @@ id = "proposition-projection-formula-rational-coefficients--2"
 kind = "proposition"
 title = "Projection formula with rational coefficients (2)"
 name_showing = false
-order = 604002
+order = 604003
 aliases = ["bp-r183-2"]
 +++
 and for proper $p:X\to Y$ the map

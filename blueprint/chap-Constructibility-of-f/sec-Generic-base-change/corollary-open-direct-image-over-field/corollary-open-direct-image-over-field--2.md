@@ -3,7 +3,7 @@ id = "corollary-open-direct-image-over-field--2"
 kind = "corollary"
 title = "Open direct image over a field (2)"
 name_showing = false
-order = 586002
+order = 586003
 aliases = ["bp-r178-2"]
 +++
 and for every $k$-scheme $T$ of finite type, with projections

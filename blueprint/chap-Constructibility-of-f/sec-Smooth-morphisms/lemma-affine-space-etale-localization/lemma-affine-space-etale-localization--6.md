@@ -3,7 +3,7 @@ id = "lemma-affine-space-etale-localization--6"
 kind = "lemma"
 title = "Affine space and étale localization (6)"
 name_showing = false
-order = 558007
+order = 558012
 aliases = ["bp-r168-6"]
 +++
 For a second separated étale morphism

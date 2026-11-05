@@ -3,7 +3,7 @@ id = "proposition-base-change-fourier-inversion--2"
 kind = "proposition"
 title = "Base change and stalks (2)"
 name_showing = false
-order = 1232003
+order = 1232004
 aliases = ["bp-r379-2"]
 +++
 For $N\in\Dbc(S,E)$, the projection formula for $p_2$ induces an

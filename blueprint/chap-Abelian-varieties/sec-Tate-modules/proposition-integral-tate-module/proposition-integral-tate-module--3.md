@@ -3,7 +3,7 @@ id = "proposition-integral-tate-module--3"
 kind = "proposition"
 title = "The integral Tate module (3)"
 name_showing = false
-order = 1512003
+order = 1512005
 aliases = ["bp-r471-3"]
 +++
 The canonical projection induces an isomorphism

@@ -3,7 +3,7 @@ id = "theorem-bounded-below-cohomology-comparison--3"
 kind = "theorem"
 title = "Bounded-below cohomology comparison (3)"
 name_showing = false
-order = 123003
+order = 123005
 aliases = ["bp-r035-3"]
 +++
 and there is a canonical isomorphism

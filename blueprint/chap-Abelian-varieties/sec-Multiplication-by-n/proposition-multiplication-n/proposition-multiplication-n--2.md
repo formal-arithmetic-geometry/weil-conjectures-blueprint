@@ -3,7 +3,7 @@ id = "proposition-multiplication-n--2"
 kind = "proposition"
 title = "Multiplication by $n$ (2)"
 name_showing = false
-order = 1506002
+order = 1506003
 aliases = ["bp-r469-2"]
 +++
 If

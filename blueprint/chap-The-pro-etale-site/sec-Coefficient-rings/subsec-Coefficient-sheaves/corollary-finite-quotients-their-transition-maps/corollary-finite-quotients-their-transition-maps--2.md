@@ -3,7 +3,7 @@ id = "corollary-finite-quotients-their-transition-maps--2"
 kind = "corollary"
 title = "Finite quotients and their transition maps (2)"
 name_showing = false
-order = 181002
+order = 181003
 aliases = ["bp-r052-2"]
 +++
 Thus the quotient is represented by the two-term complex

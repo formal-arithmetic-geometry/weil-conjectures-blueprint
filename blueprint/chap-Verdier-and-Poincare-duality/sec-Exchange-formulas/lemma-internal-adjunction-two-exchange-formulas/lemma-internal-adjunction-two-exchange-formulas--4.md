@@ -3,7 +3,7 @@ id = "lemma-internal-adjunction-two-exchange-formulas--4"
 kind = "lemma"
 title = "Internal adjunction and two exchange formulas (4)"
 name_showing = false
-order = 830004
+order = 830007
 aliases = ["bp-r248-4"]
 +++
 If $f$ is proper, then the composite

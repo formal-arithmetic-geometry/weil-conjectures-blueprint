@@ -3,7 +3,7 @@ id = "lemma-kunneth-map-slice--4"
 kind = "lemma"
 title = "The Künneth map on a slice (4)"
 name_showing = false
-order = 1657004
+order = 1657007
 aliases = ["bp-r514-4"]
 +++
 In

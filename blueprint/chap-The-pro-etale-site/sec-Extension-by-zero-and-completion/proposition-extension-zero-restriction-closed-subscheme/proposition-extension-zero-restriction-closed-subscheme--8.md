@@ -2,7 +2,7 @@
 id = "proposition-extension-zero-restriction-closed-subscheme--8"
 kind = "proposition"
 title = "Open–closed localization"
-order = 201009
+order = 201016
 aliases = ["bp-r058-8"]
 +++
 Every $\mathcal R$-module sheaf $M$ has the exact sequence

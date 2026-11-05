@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--2"
 kind = "corollary"
 title = "Alternating point-counting trace over a field"
-order = 1040003
+order = 1040004
 aliases = ["bp-r318-2"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$,

@@ -2,7 +2,7 @@
 id = "proposition-properties-trace--4"
 kind = "proposition"
 title = "Termwise trace"
-order = 896005
+order = 896008
 aliases = ["bp-r270-4"]
 +++
 For a bounded complex of finite projective modules and a chain

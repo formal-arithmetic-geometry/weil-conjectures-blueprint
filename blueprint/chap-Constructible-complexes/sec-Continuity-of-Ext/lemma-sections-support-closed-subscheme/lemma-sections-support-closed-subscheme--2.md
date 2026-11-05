@@ -3,7 +3,7 @@ id = "lemma-sections-support-closed-subscheme--2"
 kind = "lemma"
 title = "Sections with closed support (2)"
 name_showing = false
-order = 277003
+order = 277004
 aliases = ["bp-r083-2"]
 +++
 Consequently the adjunction of

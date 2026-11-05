@@ -3,7 +3,7 @@ id = "lemma-nearby-duality-proper-direct-image--3"
 kind = "lemma"
 title = "Duality for nearby cycles and proper direct image (3)"
 name_showing = false
-order = 1676003
+order = 1676005
 aliases = ["bp-r520-3"]
 +++
 If

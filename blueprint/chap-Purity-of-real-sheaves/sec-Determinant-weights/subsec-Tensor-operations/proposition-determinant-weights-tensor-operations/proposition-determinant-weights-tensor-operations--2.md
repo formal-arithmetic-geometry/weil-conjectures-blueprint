@@ -3,7 +3,7 @@ id = "proposition-determinant-weights-tensor-operations--2"
 kind = "proposition"
 title = "Determinant weights of tensor operations (2)"
 name_showing = false
-order = 1148003
+order = 1148004
 aliases = ["bp-r352-2"]
 +++
 $\operatorname{DW}(\bigwedge^rV)=\bigl\{\sum_an_a\gamma_a :

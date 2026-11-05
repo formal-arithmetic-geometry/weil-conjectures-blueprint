@@ -2,7 +2,7 @@
 id = "lemma-stability--8"
 kind = "lemma"
 title = "Weakly etale on affine charts"
-order = 32009
+order = 32016
 aliases = ["bp-r003-8"]
 +++
 A morphism $\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is weakly

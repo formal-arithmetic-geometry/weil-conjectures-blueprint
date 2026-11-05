@@ -3,7 +3,7 @@ id = "lemma-rigidification-along-section--4"
 kind = "lemma"
 title = "Rigidification along a section (4)"
 name_showing = false
-order = 1523004
+order = 1523007
 aliases = ["bp-r474-4"]
 +++
 The normalization map is

@@ -2,7 +2,7 @@
 id = "corollary-torsion-jacobian-field-extension--4"
 kind = "corollary"
 title = "Torsion of the Picard group"
-order = 1561005
+order = 1561008
 aliases = ["bp-r487-4"]
 +++
 One has $\operatorname{Pic}(C)[n]=J(C)[n](k)$.

@@ -3,7 +3,7 @@ id = "proposition-milnor-sequence--2"
 kind = "proposition"
 title = "The Milnor sequence (2)"
 name_showing = false
-order = 91002
+order = 91003
 aliases = ["bp-r024-2"]
 +++
 For a tower $(K_n)$ of complexes there is a short exact sequence of

@@ -3,7 +3,7 @@ id = "lemma-scheme-frobenius-geometric-frobenius--4"
 kind = "lemma"
 title = "Scheme Frobenius and geometric Frobenius (4)"
 name_showing = false
-order = 954004
+order = 954007
 aliases = ["bp-r290-4"]
 +++
 The same identity of

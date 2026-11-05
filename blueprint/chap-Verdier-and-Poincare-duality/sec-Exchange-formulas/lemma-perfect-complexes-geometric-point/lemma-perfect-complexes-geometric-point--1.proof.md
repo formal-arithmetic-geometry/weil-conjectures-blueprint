@@ -3,4 +3,6 @@ kind = "proof"
 of = "lemma-perfect-complexes-geometric-point--1"
 order = 825003
 +++
-Resolve by finite free modules and truncate below the Tor bound; the last finitely presented flat syzygy is projective.
+The comparisons of Section [sec-Continuous-cohomology] identify the category on the geometric point with the complexes of $A$-modules having bounded finite cohomology and finite Tor amplitude. Resolve such a complex by a bounded-above complex of finite free modules and truncate below its Tor bound. The last syzygy is finitely presented and flat, hence projective. This gives a bounded finite-projective representative. Conversely, every bounded finite-projective complex has the required constructibility and Tor bounds.
+
+*Source:* the proof of Lemma [lemma-perfect-complexes-geometric-point].

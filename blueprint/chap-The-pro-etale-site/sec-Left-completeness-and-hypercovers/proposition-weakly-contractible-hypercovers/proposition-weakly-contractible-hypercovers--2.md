@@ -3,7 +3,7 @@ id = "proposition-weakly-contractible-hypercovers--2"
 kind = "proposition"
 title = "Weakly contractible hypercovers (2)"
 name_showing = false
-order = 103002
+order = 103003
 aliases = ["bp-r028-2"]
 +++
 If

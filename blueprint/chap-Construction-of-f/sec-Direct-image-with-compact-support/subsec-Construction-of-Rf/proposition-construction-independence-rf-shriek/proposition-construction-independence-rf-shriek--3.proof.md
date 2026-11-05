@@ -1,6 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-construction-independence-rf-shriek--3"
-order = 512005
+order = 512007
 +++
-Use extension by zero and the corresponding coefficient clause of Proposition [proposition-proper-direct-image-constructible-complexes].
+For the coefficients of this clause, $j_!$ preserves $D^b_{\mathrm{ctf}}$ by Proposition [proposition-proper-direct-image-extension-zero--8], and $Rp_*$ does so by Proposition [proposition-proper-direct-image-constructible-complexes--1]. With $f=pj$, the defining composite $Rf_!=Rp_*j_!$ therefore preserves $D^b_{\mathrm{ctf}}$ as asserted.
+
+*Source:* the proof of Proposition [proposition-construction-independence-rf-shriek].

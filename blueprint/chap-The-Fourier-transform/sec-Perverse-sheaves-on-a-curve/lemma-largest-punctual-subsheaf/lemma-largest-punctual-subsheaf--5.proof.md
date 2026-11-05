@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "lemma-largest-punctual-subsheaf--5"
+order = 1248010
++++
+This clause is proved by the proof of Lemma [lemma-largest-punctual-subsheaf], with the hypotheses and choices shared there.
