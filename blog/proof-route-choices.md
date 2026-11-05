@@ -1,6 +1,9 @@
 +++
 title = "Notes on Proof Route Choices in the Weil Conjectures Blueprint"
+date = "October 2026"
 +++
+
+*PDF version:* <a href="files/NOTES%20ON%20PROOF%20ROUTE%20CHOICES.pdf" download>NOTES ON PROOF ROUTE CHOICES.pdf</a>
 
 *Abstract.* We explain the rationale behind the choice of constructions and
 proofs in our blueprint for the Weil conjectures. Our approach favors ordinary
