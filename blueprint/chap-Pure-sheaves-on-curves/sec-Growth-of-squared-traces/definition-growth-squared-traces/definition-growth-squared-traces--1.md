@@ -5,6 +5,8 @@ title = "Growth of squared traces (1)"
 name_showing = false
 order = 1197001
 aliases = ["bp-r369-1"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction"]
+uses = ["definition-trace-function"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. For
 $n\ge1$ and $x\in X_0(k_n)$, let $\operatorname{Frob}_{x,n}$ be the

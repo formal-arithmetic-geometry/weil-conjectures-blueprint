@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-cohomological-range-curve"
 order = 1190
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "lemma-degree-zero-top-cohomology", "lemma-finite-quasi-finite-direct-images"]
+uses = ["lemma-cohomological-range-curve--1", "corollary-degreewise-duality-over-fields", "lemma-degree-zero-top-cohomology", "lemma-finite-quasi-finite-direct-images", "proposition-composition-base-change-rf-shriek", "prose-10-20"]
 +++
 Choose a dense open $j:U\hookrightarrow C$ on which $F$ is lisse,
 and let $i$ be the inclusion of the finite complement. The sequence

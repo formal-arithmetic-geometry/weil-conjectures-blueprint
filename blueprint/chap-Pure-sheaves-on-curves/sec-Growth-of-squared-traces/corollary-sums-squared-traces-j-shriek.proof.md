@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-sums-squared-traces-j-shriek"
 order = 1212
-uses = ["definition-trace-function", "theorem-trace-formula-euler-product", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "lemma-growth-finite-corrections", "theorem-weights-sums-squared-traces", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-trace-function", "theorem-weights-sums-squared-traces", "proposition-weights-j-boundary-points", "lemma-bounds-squared-traces", "lemma-growth-finite-corrections", "corollary-sums-squared-traces-j-shriek--1", "corollary-sums-squared-traces-j-shriek--2"]
 +++
 For $j_!$ the trace function is that of $\mathcal G$ extended by zero,
 and for $j_*$ it differs from this at finitely many points of small

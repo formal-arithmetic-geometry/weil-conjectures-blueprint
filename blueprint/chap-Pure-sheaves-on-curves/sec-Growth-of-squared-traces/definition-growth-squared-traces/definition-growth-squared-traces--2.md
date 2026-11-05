@@ -5,6 +5,8 @@ title = "Growth of squared traces (2)"
 name_showing = false
 order = 1197002
 aliases = ["bp-r369-2"]
+lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilSheaf.traceEnergy"]
+uses = ["definition-growth-squared-traces--1"]
 +++
 $$
 \begin{aligned}

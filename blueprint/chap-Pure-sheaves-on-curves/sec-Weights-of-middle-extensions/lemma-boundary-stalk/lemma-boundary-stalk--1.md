@@ -5,7 +5,12 @@ title = "The boundary stalk (1)"
 name_showing = false
 order = 1173001
 aliases = ["bp-r361-1"]
+lean = []
+uses = ["definition-lisse-sheaves", "definition-weil-structure", "proposition-topos-functoriality"]
 +++
+This inertia-invariants description is bypassed by the Lean route; the
+current mainline has no declaration proving it.
+
 Let $j:U_0\hookrightarrow X_0$ be a dense open in a smooth curve, let
 $\mathcal F$ be a lisse Weil sheaf on $U_0$, and let $j_*$ be the
 ordinary direct image of sheaves. Let $\bar z$ be a geometric point

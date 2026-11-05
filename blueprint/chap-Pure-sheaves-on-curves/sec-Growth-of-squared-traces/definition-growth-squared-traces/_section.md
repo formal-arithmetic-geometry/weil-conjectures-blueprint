@@ -3,8 +3,8 @@ id = "definition-growth-squared-traces"
 kind = "definition"
 title = "Growth of squared traces"
 order = 1197
-lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilComplex.l2Weight", "AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.l2Weight"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-trace-function"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction", "AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilComplex.l2Weight", "AlgebraicGeometry.WeilSheaf.l2Weight"]
+uses = ["definition-trace-function"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. For
 $n\ge1$ and $x\in X_0(k_n)$, let $\operatorname{Frob}_{x,n}$ be the

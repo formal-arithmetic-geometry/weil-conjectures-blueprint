@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-boundary-stalk"
 order = 1174
-uses = ["theorem-pro-etale-refinements-weakly-etale"]
+uses = ["theorem-pro-etale-refinements-weakly-etale", "lemma-boundary-stalk--2"]
 +++
 We prove the formula for finite coefficients, where it is Galois
 theory of the punctured henselian neighbourhood, and pass to the limit.

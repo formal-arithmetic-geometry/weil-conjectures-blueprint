@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-bounds-squared-traces"
 order = 1203
-uses = ["definition-trace-function", "lemma-point-count-bound"]
+uses = ["definition-trace-function", "lemma-point-count-bound", "lemma-bounds-squared-traces--1", "lemma-bounds-squared-traces--2", "lemma-bounds-squared-traces--3", "lemma-bounds-squared-traces--4", "lemma-bounds-squared-traces--5"]
 +++
 For (1), the trace at
 each point of $X_0(k_n)$ has absolute value at most

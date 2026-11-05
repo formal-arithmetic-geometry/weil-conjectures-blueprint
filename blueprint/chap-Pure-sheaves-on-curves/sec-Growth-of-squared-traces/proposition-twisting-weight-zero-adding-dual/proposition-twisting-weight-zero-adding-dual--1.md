@@ -4,5 +4,9 @@ kind = "proposition"
 title = "Choice of a twist"
 order = 1194002
 aliases = ["bp-r368-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_norm_eq_of_isPunctuallyPureOfWeight"]
+uses = ["definition-weights"]
 +++
-There exists $b\in\overline{\mathbf Q}_\ell^\times$ with $|\iota(b)|=q^{-w/2}$ for which the following construction has the stated properties. Fix such a $b$ for the remaining clauses.
+Let $\mathcal F\ne0$ be a Weil sheaf pure of weight $w$ on a scheme
+locally of finite type over $k_0$. There exists
+$b\in\overline{\mathbf Q}_\ell^\times$ with $|\iota(b)|=q^{-w/2}$.

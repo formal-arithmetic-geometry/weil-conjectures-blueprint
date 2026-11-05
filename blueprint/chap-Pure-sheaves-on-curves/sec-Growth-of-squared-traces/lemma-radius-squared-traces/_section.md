@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Radius of convergence"
 order = 1199
 lean = ["AlgebraicGeometry.WeilSheaf.l2Series", "AlgebraicGeometry.WeilSheaf.lt_l2Weight_iff"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-growth-squared-traces"]
+uses = ["definition-growth-squared-traces"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. The
 series $\varphi_K(t)=\sum_{n\ge1}S_n(K)t^{n-1}$ has radius of

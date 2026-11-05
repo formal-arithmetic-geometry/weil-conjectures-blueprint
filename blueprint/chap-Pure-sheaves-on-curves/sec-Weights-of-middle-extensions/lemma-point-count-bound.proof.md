@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-point-count-bound"
 order = 1178
+uses = ["lemma-point-count-bound--1", "lemma-point-count-bound--2"]
 +++
 We map $U_0$ finitely and flatly onto the affine line, whose
 number of $k_n$-points is $q^n$, and bound the size of the fibres.
