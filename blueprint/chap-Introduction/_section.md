@@ -2,6 +2,6 @@
 id = "chap-Introduction"
 kind = "matter"
 title = "Introduction"
-show_content="false"
+hide_content = true
 order = 2
 +++
