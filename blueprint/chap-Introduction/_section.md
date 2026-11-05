@@ -1,6 +1,6 @@
 +++
 id = "chap-Introduction"
-kind = "chapter"
+kind = "matter"
 title = "Introduction"
 order = 2
 +++
