@@ -138,7 +138,7 @@ are directly syntactically equal. (The `@[reducible]` attribute was only
 retained to preserve the intended elaboration behavior.)
 
 We are especially grateful to Professor Joël Riou for providing the first
-construction of the derived tensor product (in Mathlib4 PR 25848). Based on
+construction of the derived tensor product (in [Mathlib4 PR 25848](https://github.com/leanprover-community/mathlib4/pull/25848)). Based on
 this, here we managed to improve the performance of the surrounding
 development. As reflected in Mathlib4 `IsLeftDerivedFunctor₂`, the multivariate
 derived-functor definitions are now `@[reducible] def`s rather than abbev.
