@@ -3,7 +3,6 @@ id = "lemma-lattices-lisse-e-sheaves"
 kind = "lemma"
 title = "Lattices in lisse $E$-sheaves"
 order = 260
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.continuousLisse_etale_lattice", "AlgebraicGeometry.ProEtale.exists_lisse_lattice_etale_local"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and let $L$ be a lisse $E_X$-module. The sheaf on

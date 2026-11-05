@@ -3,7 +3,6 @@ id = "theorem-generic-constructibility-base-change-rj"
 kind = "theorem"
 title = "Generic constructibility and base change for $Rj_*$"
 order = 583
-lean = ["AlgebraicGeometry.Etale.exists_hasConstructibleDirectImageBaseChangeOn"]
 +++
 Let $S$ be integral, and let $j:X\hookrightarrow Y$ be an open immersion of
 $S$-schemes. For a constructible

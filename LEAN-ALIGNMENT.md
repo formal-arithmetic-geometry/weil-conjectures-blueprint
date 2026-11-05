@@ -76,16 +76,36 @@ PRs #210–#216 and #218–#233 by littlebin530 aligned each chapter's layer 2 w
   - A fresh `retex.py` run on this branch reproduces `blueprint/` except for `order` values and #238's not yet converted proofs.
   - It keeps the Lean names of all 475 named clauses.
 
+## Follow-up (after #248)
+
+- **#238's clause proofs on the website (item 2 above).**
+  - #237 had the converter for them, but it was merged into its base branch `blueprint-lean-arrows` after #200 had reached `main`, so it never got there. Its `scripts/layer2bp.py` is now on `main`, and `blueprint/` is regenerated from `main`'s tex.
+  - That adds 938 clause proofs and replaces the 164 old "Justification" proofs.
+  - #235's wording of the introduction had been made in the markdown only. It is now in the readable tex, so the regeneration keeps it.
+- **The 29 rewrites of items 3 and 4 above.** 26 are now taken, and every new statement and proof was refereed:
+  - The 10 technical cases are all taken:
+    - The cited equation labels stay on the same displays.
+    - The two links to a hidden text node now point to the section "Coefficient sheaves".
+    - Six of them have new proofs.
+  - Of the 19 turned back for their proofs:
+    - 7 are taken with new proofs: `lemma-extremally-disconnected-covers--2`, `lemma-extremally-disconnected-covers--3`, `corollary-evaluation-weakly-contractible-objects--7`, `lemma-lattices-lisse-e-sheaves--2`, `lemma-inverse-image-tensor-product--1`, `lemma-inverse-image-tensor-product--4`, `proposition-properties-trace--3`.
+    - 9 are taken in a narrower form that their proof covers: `theorem-bounded-below-cohomology-comparison--2`, `proposition-comparison-immersions--2`, `corollary-finite-quotients-their-transition-maps--2`, `lemma-restriction-geometric-generic-fibre--2`, `lemma-restriction-geometric-generic-fibre--3`, `lemma-reduction-curve-over-normal-base--1`, `theorem-trace-isomorphism-top-degree--2`, `theorem-trace-isomorphism-top-degree--4`, `theorem-trace-isomorphism-top-degree--8`.
+    - 3 stay as they were:
+      - `proposition-inverting-ell--1`: The rewrite says that F(f)=F(g) implies l^n f = l^n g.
+      - `proposition-proper-direct-image-constructible-complexes--4`: The rewrite claims that Rp_* preserves D^b_c with Qbar_l coefficients for an arbitrary separated finite type p, not only a proper one.
+      - `theorem-verdier-biduality--1`: The rewrite states biduality over an arbitrary field k.
+- **The *partial* clauses (item 5) are kept as they are.**
+
 ## Still to do
 
 1. **The arrows.** `uses` are unchanged from `main`. Recomputing them by the rule of #200 needs a `lean-facts.json` covering the 373 new names.
    - With the next CI extraction, run `scripts/lean_uses.py lean-facts.json blueprint --write`.
    - Check for cycles among the new names.
    - Until then, `blueprint check --lean` will report the difference.
-2. **#238's clause proofs** are in the tex but not yet in `blueprint/`. A full `retex.py` run still reports what the converter does not handle: `\BPProofAnchor`, `\pageref`, `\hyperref` and the provenance lines. Its hidden "text" nodes would show those anchors.
-3. **Rewrites not applied for technical reasons**, which keep the notes' text:
+2. *(Done, see Follow-up.)* **#238's clause proofs** are in the tex but not yet in `blueprint/`. A full `retex.py` run still reports what the converter does not handle: `\BPProofAnchor`, `\pageref`, `\hyperref` and the provenance lines. Its hidden "text" nodes would show those anchors.
+3. *(Done, see Follow-up.)* **Rewrites not applied for technical reasons**, which keep the notes' text:
    - 8 clauses whose text holds a labelled equation that other passages cite (the rewrite would delete the label): `theorem-bounded-below-cohomology-comparison--1`, `proposition-comparison-immersions--1`, `proposition-milnor-sequence--2`, `theorem-finite-etale-covers-proper-henselian--3`, `corollary-open-direct-image-over-field--1`, `theorem-generic-constructibility-base-change-rj--1`, `theorem-generic-constructibility-base-change-rj--2`, `theorem-smooth-base-change-all-admissible--1`.
    - 2 that link to a hidden text node: `lemma-inverse-image-coefficient-sheaves--1`, `lemma-inverse-image-coefficient-sheaves--4`.
-4. **The 19 rewrites turned back because their proofs do not cover them**: `lemma-extremally-disconnected-covers--2`, `lemma-extremally-disconnected-covers--3`, `corollary-evaluation-weakly-contractible-objects--7`, `theorem-bounded-below-cohomology-comparison--2`, `proposition-comparison-immersions--2`, `corollary-finite-quotients-their-transition-maps--2`, `lemma-lattices-lisse-e-sheaves--2`, `proposition-inverting-ell--1`, `proposition-proper-direct-image-constructible-complexes--4`, `lemma-inverse-image-tensor-product--1`, `lemma-inverse-image-tensor-product--4`, `lemma-restriction-geometric-generic-fibre--2`, `lemma-restriction-geometric-generic-fibre--3`, `proposition-properties-trace--3`, `lemma-reduction-curve-over-normal-base--1`, `theorem-verdier-biduality--1`, `theorem-trace-isomorphism-top-degree--2`, `theorem-trace-isomorphism-top-degree--4`, `theorem-trace-isomorphism-top-degree--8`. They can be taken once the clause proofs are extended.
-5. **The 156 *partial* clauses** in `LEAN-MAPPING.md`. Lean states only a special case, so either the Lean statement is generalised or the clause is split.
+4. *(16 done, see Follow-up.)* **The 19 rewrites turned back because their proofs do not cover them**: `lemma-extremally-disconnected-covers--2`, `lemma-extremally-disconnected-covers--3`, `corollary-evaluation-weakly-contractible-objects--7`, `theorem-bounded-below-cohomology-comparison--2`, `proposition-comparison-immersions--2`, `corollary-finite-quotients-their-transition-maps--2`, `lemma-lattices-lisse-e-sheaves--2`, `proposition-inverting-ell--1`, `proposition-proper-direct-image-constructible-complexes--4`, `lemma-inverse-image-tensor-product--1`, `lemma-inverse-image-tensor-product--4`, `lemma-restriction-geometric-generic-fibre--2`, `lemma-restriction-geometric-generic-fibre--3`, `proposition-properties-trace--3`, `lemma-reduction-curve-over-normal-base--1`, `theorem-verdier-biduality--1`, `theorem-trace-isomorphism-top-degree--2`, `theorem-trace-isomorphism-top-degree--4`, `theorem-trace-isomorphism-top-degree--8`. They can be taken once the clause proofs are extended.
+5. *(Kept.)* **The 156 *partial* clauses** in `LEAN-MAPPING.md`. Lean states only a special case, so either the Lean statement is generalised or the clause is split.
 6. **The weil-conjectures pin.** Moving it to `08fcdf1` or later would allow the one left-out name.
