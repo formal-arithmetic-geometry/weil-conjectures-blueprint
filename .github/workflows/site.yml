@@ -85,12 +85,18 @@ jobs:
 
       # elan and the toolchain of lean-toolchain, plus the Mathlib cache for
       # the project's Mathlib dependency. Building is done explicitly below.
+      #
+      # No GitHub cache: the workspace survives between runs on this runner, so
+      # restoring `.lake` buys nothing, and saving it is a single-threaded tar of
+      # the whole project build (keyed on the commit, so it missed every time)
+      # that took up to an hour per run.
       - uses: leanprover/lean-action@v1
         with:
           build: false
           test: false
           lint: false
           use-mathlib-cache: true
+          use-github-cache: false
 
       # pdfLaTeX for `blueprint site --pdf` below (docs/pdf-export.md in the
       # blueprint tool). The runner keeps what was installed between runs, so

@@ -56,6 +56,8 @@ jobs:
           test: false
           lint: false
           use-mathlib-cache: false
+          # The workspace persists on this runner; see site.yml.
+          use-github-cache: false
 
       # `lake update` raises lean-toolchain to the newest toolchain among the
       # dependencies, which is the tool's and newer than the project's. The
