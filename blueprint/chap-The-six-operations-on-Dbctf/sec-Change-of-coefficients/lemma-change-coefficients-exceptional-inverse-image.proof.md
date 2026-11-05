@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-exceptional-inverse-image"
 order = 641
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "proposition-ell-adic-cycle-class-diagonal", "lemma-extension-scalars-preserves-dctf"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "proposition-ell-adic-cycle-class-diagonal", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-adjunction-projective-line", "definition-change-of-coefficients-maps", "proposition-composition-open-restriction-compactifications-f", "lemma-change-coefficients-exceptional-inverse-image--2", "lemma-change-coefficients-exceptional-inverse-image--4", "lemma-change-coefficients-exceptional-inverse-image--5", "lemma-change-coefficients-exceptional-inverse-image--6"]
 +++
 Since $f^!$ is only known through its adjunction, there is no formula into
 which we could substitute $K_{\Lambda'}$ directly. Instead we show that

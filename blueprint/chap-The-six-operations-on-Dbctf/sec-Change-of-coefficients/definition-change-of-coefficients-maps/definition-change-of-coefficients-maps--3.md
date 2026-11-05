@@ -5,6 +5,8 @@ title = "Change-of-coefficients maps (3)"
 name_showing = false
 order = 631004
 aliases = ["bp-r191-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedExtendScalarsTensorIso"]
+uses = ["definition-small-pro-etale-site", "lemma-inverse-image-coefficient-sheaves"]
 +++
 For $K,L\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the isomorphism
 $(K\otimes^{\mathbf L}_\Lambda L)_{\Lambda'}\simeq

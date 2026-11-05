@@ -3,8 +3,8 @@ id = "definition-change-of-coefficients-maps"
 kind = "definition"
 title = "Change-of-coefficients maps"
 order = 631
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-compactification-refinement"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedExtendScalarsTensorIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationExtendScalarsIso", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClIso", "CategoryTheory.Functor.LaxMonoidal.ihomComparison"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "proposition-extension-zero-restriction-closed-subscheme", "definition-constructible-sheaves", "definition-compactification-refinement", "proposition-construction-independence-rf-shriek", "lemma-extension-scalars-preserves-dctf", "proposition-inverting-ell", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps listed above, and let
 $f:X\to Y$ be a morphism of schemes of finite type over $k$.

@@ -2,6 +2,8 @@
 kind = "proof"
 of = "lemma-change-coefficients-direct-image--6"
 order = 635013
-uses = ["lemma-change-coefficients-direct-image--1", "lemma-change-coefficients-direct-image--2", "lemma-change-coefficients-direct-image--3", "lemma-change-coefficients-direct-image--4", "lemma-change-coefficients-direct-image--5"]
+uses = ["definition-change-of-coefficients-maps"]
 +++
-Associativity of scalar extension identifies the direct-image comparison for the composite with the composite of the comparisons: both are transposes of the extended counit. Apply the preceding cases successively.
+Restriction of scalars commutes with underived pushforward by maps that are the identity on underlying sheaves. These maps compose compatibly with $c=b\circ a$. Their right derived isomorphisms therefore compose as well.
+
+Take mates under the adjunctions between derived extension and restriction of scalars. The transitivity isomorphisms for extension of scalars are conjugate to the composition isomorphisms for restriction of scalars, so the mate identity gives the displayed formula. If the two component comparisons are isomorphisms, every factor on its right hand side is an isomorphism.

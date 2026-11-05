@@ -2,6 +2,6 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients--13"
 order = 645027
-uses = ["proposition-six-operations-change-coefficients--7"]
+uses = ["proposition-six-operations-change-coefficients--23"]
 +++
-Use associativity of tensor product for the left-adjoint comparisons. For the adjoint comparisons, taking the transpose of the composite gives the same extended counit or evaluation. For $Rf_!$ apply the same argument to $Rp_*j_!$.
+Characterize each comparison by its transpose, namely the tensorator followed by the image of evaluation. Uncurry both sides. Compatibility with evaluation, naturality of the tensorator, and the formula for the tensorator of a composite identify the resulting maps.

@@ -2,5 +2,6 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients--20"
 order = 645041
+uses = ["proposition-six-operations-change-coefficients--18"]
 +++
-The comparison is defined by transposing the extended counit (evaluation for tensor–Hom). The mate identities identify the units as well, exactly as in the last paragraph of the original proof.
+Apply the unit identity of [proposition-six-operations-change-coefficients--18] to $F=Rf_!$ and $G=f^!$. For the comparisons in [proposition-six-operations-change-coefficients--4] and [proposition-six-operations-change-coefficients--5], the exceptional comparison is defined as the mate of the inverse compact-support comparison.

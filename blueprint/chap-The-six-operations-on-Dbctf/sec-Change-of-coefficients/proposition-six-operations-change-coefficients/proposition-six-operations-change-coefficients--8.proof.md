@@ -4,4 +4,4 @@ of = "proposition-six-operations-change-coefficients--8"
 order = 645017
 uses = ["proposition-six-operations-change-coefficients--2"]
 +++
-Use associativity of tensor product for the left-adjoint comparisons. For the adjoint comparisons, taking the transpose of the composite gives the same extended counit or evaluation. For $Rf_!$ apply the same argument to $Rp_*j_!$.
+The retained mathematical argument uses associativity of scalar extension together with the pullback comparison of [proposition-six-operations-change-coefficients--2]. The transitivity isomorphism of scalar-extension functors is constructed in `CategoryTheory.Mod.derivedExtendScalarsCompIso` by conjugating the composition isomorphism for restriction of scalars. This construction alone does not assert the pullback coherence square in this clause.

@@ -2,5 +2,6 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients--16"
 order = 645033
+uses = ["proposition-composition-base-change-rf-shriek"]
 +++
-This is the corresponding composition check in the original joint proof: use pullback composition, transposition of counits, or the compactification comparison according to the operation.
+Paste the squares given by $\gamma_f^{-1}$ and $\gamma_g^{-1}$, then transport the source and target along the composition isomorphisms. The pasted square is invertible because each constituent is. Its inverse is `etaleReductionLowerShriekIsoOfComp`.

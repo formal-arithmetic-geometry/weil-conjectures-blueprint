@@ -2,6 +2,6 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients--11"
 order = 645023
-uses = ["proposition-six-operations-change-coefficients--5"]
+uses = ["proposition-six-operations-change-coefficients--5", "proposition-six-operations-change-coefficients--10"]
 +++
-Use associativity of tensor product for the left-adjoint comparisons. For the adjoint comparisons, taking the transpose of the composite gives the same extended counit or evaluation. For $Rf_!$ apply the same argument to $Rp_*j_!$.
+The retained mathematical claim follows by taking mates of the compact-support coefficient-transitivity square [proposition-six-operations-change-coefficients--10]. The mainline instead uses the separate invertibility arguments of [proposition-six-operations-change-coefficients--5]; no general equality of the exceptional comparisons for three coefficient rings was found on that route.

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-direct-image"
 order = 636
-uses = ["corollary-continuity-cohomology", "proposition-comparison-etale-derived-category"]
+uses = ["corollary-continuity-cohomology", "proposition-comparison-etale-derived-category", "lemma-inverse-image-coefficient-sheaves", "lemma-change-coefficients-direct-image--1", "lemma-change-coefficients-direct-image--2", "lemma-change-coefficients-direct-image--3", "lemma-change-coefficients-direct-image--4", "lemma-change-coefficients-direct-image--5", "lemma-change-coefficients-direct-image--6"]
 +++
 The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of finite rings we use a projection formula, whereas in the other cases extension of
 scalars is either a finite construction (finite sums and a cone), with

@@ -1,14 +1,27 @@
 +++
 id = "lemma-change-coefficients-exceptional-inverse-image--2"
 kind = "lemma"
-title = "Exceptional inverse image: finite reductions of integral coefficients"
+title = "Exceptional inverse image: reduction modulo powers of $\\ell$"
 order = 640004
 aliases = ["bp-r195-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.etaleReductionUpperShriekIso"]
+uses = ["theorem-exceptional-inverse-image", "definition-sp-scalar-extension", "proposition-comparison-etale-derived-category"]
 +++
-Assume $\Lambda=\mathcal O_E$ and $\Lambda'=A$ for a continuous map to a finite admissible ring (in particular $A=\mathcal O_E/\varpi^n$, where $\varpi=\pi_E$). The comparison
-
+Let $E\subset\overline{\mathbf Q}_\ell$ be finite over $\mathbf Q_\ell$ and
+$n\geq 0$. For $Z=X,Y$, let
 $$
-\beta_{f,K}:(f^!_\Lambda K)_{\Lambda'}\longrightarrow f^!_{\Lambda'}(K_{\Lambda'})
+\operatorname{red}_Z:\Dbc(Z,\mathcal O_E)\longrightarrow
+D(Z_{\acute{e}t},\mathcal O_E/\ell^n)
 $$
-
-is an isomorphism in $D(X_{\mathrm{pro}\acute{e}t},\Lambda')$.
+be derived reduction modulo $\ell^n$, followed by the comparison with the
+small étale site, namely $R\nu_{Z,*}$ after identifying finite condensed
+coefficients with finite coefficient sheaves. There is a canonical natural
+isomorphism
+$$
+\operatorname{red}_X(f^!_{\mathcal O_E}K)
+\xrightarrow{\ \sim\ }
+f^!_{\acute{e}t,\mathcal O_E/\ell^n}(\operatorname{red}_Y K),
+\qquad K\in\Dbc(Y,\mathcal O_E).
+$$
+It is the adjoint transpose of the inverse of the compactly supported
+comparison for the chosen compactification of $f$.

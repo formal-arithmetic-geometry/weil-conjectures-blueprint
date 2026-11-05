@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients"
 order = 646
-uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
+uses = ["lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "lemma-change-coefficients-internal-hom", "proposition-six-operations-change-coefficients--9", "proposition-six-operations-change-coefficients--14", "proposition-six-operations-change-coefficients--15", "proposition-six-operations-change-coefficients--18", "proposition-six-operations-change-coefficients--19", "proposition-six-operations-change-coefficients--23"]
 +++
 The first assertion is
 Lemma [lemma-extension-scalars-preserves-dctf]. Next, the maps for $f^*$ and $\otimes^{\mathbf L}$ are isomorphisms by definition, and those for $Rf_*$,

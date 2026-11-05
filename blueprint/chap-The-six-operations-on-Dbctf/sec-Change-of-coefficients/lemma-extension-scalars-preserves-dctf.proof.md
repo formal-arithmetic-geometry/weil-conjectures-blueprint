@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-extension-scalars-preserves-dctf"
 order = 634
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-flat-models-generators", "lemma-schematic-closure-uniqueness"]
+uses = ["proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-flat-models-generators", "definition-change-of-coefficients-maps--2", "lemma-extension-scalars-preserves-dctf--1"]
 +++
 An object that is locally $\Lambda_S\otimes P$ on a stratum $S$, with $P$
 perfect, remains of this form after derived extension of scalars, since

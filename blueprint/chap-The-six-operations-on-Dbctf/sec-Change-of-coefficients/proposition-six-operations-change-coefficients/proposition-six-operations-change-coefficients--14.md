@@ -4,5 +4,9 @@ kind = "proposition"
 title = "Inverse image: composition in morphisms"
 order = 645028
 aliases = ["bp-r197-14"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIsoCompCoherence"]
+uses = ["proposition-six-operations-change-coefficients--2"]
 +++
-For composable $f,g$ with the standing applicability conditions, the coefficient comparison commutes with the composition isomorphism $(gf)^*\simeq f^*g^*$: after scalar extension, the route through the comparison for $gf$ equals the route through the comparisons for $f$ and $g$.
+Let $a:\Lambda\to\Lambda'$ be a morphism of commutative condensed rings and $X\xrightarrow{f}Y\xrightarrow{g}Z$ morphisms of schemes. On all unbounded complexes, the pullback comparison of [proposition-six-operations-change-coefficients--2] commutes with the composition isomorphisms $(gf)^*\simeq f^*g^*$: the comparison for $gf$, followed by composition over $\Lambda'$, equals composition over $\Lambda$, followed by the comparisons for $f$ and $g$.
+
+If scalar extension along $a$ is exact on every scheme, the same identity holds for the comparison `derivedPullIso` constructed by conjugating the commutation isomorphism for restriction of scalars and derived direct image.
