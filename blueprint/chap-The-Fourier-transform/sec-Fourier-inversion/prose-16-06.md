@@ -28,8 +28,7 @@ Propositions [proposition-base-change-fourier-inversion]
 and [proposition-fourier-inversion], while the preservation of the heart is
 Proposition [proposition-fourier-transform-perverse-heart].
 
-Let $S$ be a scheme of finite type over $k_0$ or over $k$, let $V\to S$ be a vector
-bundle of rank $r$, and let $V^\vee$ be its dual bundle. Write
+Let $S$ be a separated scheme of finite type over $k$ (for instance $S=S_0\times_{k_0}k$ for a separated finite-type $k_0$-scheme $S_0$, or $S=\operatorname{Spec}k$; for the Weil applications we keep the descent data $S_0$, $V_0$ and compute over $k$), let $V\to S$ be a vector bundle of rank $r$, and let $V^\vee$ be its dual bundle. Write
 $p_1,p_2$ for the projections of $V\times_SV^\vee$, and set
 
 $$
