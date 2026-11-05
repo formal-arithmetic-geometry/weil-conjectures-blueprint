@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-verdier-s-theorem-specialization-zero"
-order = 1634
+order = 1640
 uses = ["lemma-nearby-cycles-constant-family", "lemma-base-change-cone-x-z"]
 +++
 The main step is that $C_{X,Z}(L)=0$ for every $L\in
@@ -15,13 +15,13 @@ and so assume that $i^*L=0$.  We may then
 replace $X$ by its blow-up $\pi:X'=\operatorname{Bl}_ZX\to X$ along $Z$.
 The reason is that a complex that vanishes on the centre is recovered
 from its pullback to the blow-up, that is, the unit
-$L\to R\pi_*\pi^*L$ is an isomorphism. Away from $Z$ this holds because
-$\pi$ is an isomorphism there. On $Z$ it holds because proper base
+$L\to R\pi_*\pi^*L$ is an isomorphism. Indeed, away from $Z$ this holds because
+$\pi$ is an isomorphism there, and on $Z$ it holds because proper base
 change identifies the target with the cohomology of a fibre with zero
-coefficients.  The base change isomorphism for proper maps now gives
+coefficients.  Using this, the base change isomorphism for proper maps gives
 $C_{X,Z}(L)\simeq C_{X,Z}(R\pi_*\pi^*L)\simeq R\pi_{Z*}C_{X',\pi^{-1}Z}(\pi^*L)$,
-and it suffices to treat the pair $(X',\pi^{-1}Z)$.  The pullback
-of the ideal is invertible on the blow-up, so we are reduced to the case of a Cartier divisor.
+and it suffices to treat the pair $(X',\pi^{-1}Z)$.  Since the pullback
+of the ideal is invertible on the blow-up, we are reduced to the case of a Cartier divisor.
 
 To have linear projections available, we move the pair into affine space.
 By the base change isomorphism for

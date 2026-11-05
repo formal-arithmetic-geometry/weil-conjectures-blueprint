@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-proper-smooth-model"
-order = 1086
+order = 1092
 uses = ["theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness"]
 +++
 We compactify by Nagata's theorem and then normalize. On a curve,
@@ -9,7 +9,7 @@ normality is the same as regularity, and over a perfect field
 regularity is smoothness, so the normalization is the model we want.
 
 By Theorem [theorem-nagata-s-compactification-theorem], $U_0$ is an open subscheme of a
-proper $k_0$-scheme. We take the reduced closure of $U_0$ in it and
+proper $k_0$-scheme, and we take the reduced closure of $U_0$ in it and
 normalize this closure in $k_0(U_0)$.  Since a scheme of finite type
 over a field is Nagata, the normalization is finite
 [Stacks, [035B](https://stacks.math.columbia.edu/tag/035B), [035S](https://stacks.math.columbia.edu/tag/035S)], and it is an isomorphism over the normal

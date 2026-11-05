@@ -1,15 +1,17 @@
 +++
 kind = "proof"
 of = "lemma-composition-cancellation"
-order = 385
+order = 390
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "definition-injective-acyclicity", "lemma-acyclic-resolutions"]
 +++
 Theorem [theorem-pbc-injective-acyclicity] reduces both parts to the
-condition $\mathrm{IA}_\Lambda$ of injective acyclicity. We read off
+condition $\mathrm{IA}_\Lambda$ of injective acyclicity, and we read off
 this vanishing from the Leray spectral sequence of the base-changed
 composite. For (ii) the hypotheses do not apply directly to an injective
 sheaf on $Y$, so we first realize it as a direct summand of $u_*J$ with
-$J$ injective on $X$. Fix an
+$J$ injective on $X$.
+
+To set up the spectral sequence, fix an
 arbitrary base change $Z'\to Z$. Write $g_X:X'\to X$ and $g_Y:Y'\to Y$
 for the projections, and $u':X'\to Y'$, $v':Y'\to Z'$ for the induced
 maps. The direct image $u'_*$ preserves injectives, because its left
@@ -26,8 +28,8 @@ $$
 
 *Part (i).* Let $J$ be an injective sheaf of $\Lambda$-modules on
 $X$. We show $R^m(v'u')_*g_X^*J=0$ for $m>0$, which is
-$\mathrm{IA}_\Lambda(vu)$. The $E_2$-terms of
-(4.13) vanish except for $p=q=0$. Indeed,
+$\mathrm{IA}_\Lambda(vu)$. For this it suffices that the $E_2$-terms of
+(4.13) vanish except for $p=q=0$, and they do. Indeed,
 $R^qu'_*g_X^*J=0$ for $q>0$ by $\mathrm{IA}_\Lambda(u)$. For $q=0$, proper
 base change in degree zero
 (Proposition [proposition-proper-base-change-degree-zero]) gives
@@ -50,7 +52,7 @@ $$
 with $J$ injective on $X$, and let $\iota:I\to u_*J$ be its adjoint.
 The map $\iota$ is a monomorphism. To see this, given a geometric point
 $\bar y$, choose a geometric point $\bar x$ above it, which exists because
-$u$ is surjective. The composite
+$u$ is surjective. Then the composite
 
 $$
 I_{\bar y}\xrightarrow{\iota_{\bar y}}(u_*J)_{\bar y}
@@ -84,6 +86,6 @@ R^pv'_*g_Y^*u_*J
 $$
 
 Now $g_Y^*I$ is a direct summand of $g_Y^*u_*J$, by applying $g_Y^*$ to the
-splitting $s\iota=\mathrm{id}_I$. As $R^pv'_*$ is additive,
+splitting $s\iota=\mathrm{id}_I$, and as $R^pv'_*$ is additive,
 $R^pv'_*g_Y^*I$ is a direct summand of $R^pv'_*g_Y^*u_*J$. Hence
 $R^pv'_*g_Y^*I=0$ for $p>0$, which is $\mathrm{IA}_\Lambda(v)$.

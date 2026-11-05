@@ -1,12 +1,10 @@
 +++
 id = "prose-04-33"
 kind = "hidden"
-title = "Proper morphisms (6)"
-order = 392
+title = "Proper morphisms (5)"
+order = 394
 +++
-We can now treat projective morphisms, since they factor as a closed
-immersion followed by the projection of a projective space. By Chow's lemma
-an arbitrary proper morphism is dominated by a projective one through a proper
-surjection. The cancellation of
-Lemma [lemma-composition-cancellation](ii) then passes proper base
-change to the proper morphism.
+For $n=1$ the map $\sigma_1$ is the identity of $\mathbf P^1_S$. For $n=2$
+it sends $([x_1:y_1],[x_2:y_2])$ to
+$[x_1x_2:x_1y_2+y_1x_2:y_1y_2]$, and over a field it is the quotient by
+swapping the two factors, of degree $2$.

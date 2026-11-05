@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-removing-finitely-many-points"
-order = 1600
+order = 1606
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "definition-underived-base-change-map", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-sheaves-finite-support-finite-morphisms"]
 +++
 The third term of the exact sequence displayed above is supported on the finite set $Z$, so

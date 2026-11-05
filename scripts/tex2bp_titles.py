@@ -4,10 +4,6 @@ GENERATED_TITLES = {
     # Constructible complexes
     'proposition-ctf-equals-bc': 'Constructible complexes have finite Tor amplitude for $\\ell$-adic coefficients',
     'corollary-coefficient-heart-b': 'Generators of $D^b_c$ with field coefficients',
-    # Proper base change
-    'remark-cohomology-modules-underlying-abelian': 'Cohomology of modules and of abelian sheaves',
-    'remark-henselian-pairs-facts': 'Facts on henselian pairs',
-    'remark-finiteness-small-etale-topoi': 'Finiteness facts for étale sheaves on the projective line',
     # Construction of f^!
     'corollary-ind-heart-b': 'Ext from a constructible sheaf into ind-constructible sheaves',
     'corollary-ambient-ind-derived': 'The derived category of ind-constructible sheaves',
@@ -43,7 +39,6 @@ UNLABELLED = {
     # Constructible complexes
     '\\leavevmode\n\\begin{enumerate}\n\\item For Noetherian $X$, every locally closed subset':
         ('remark-constructible-sheaves-coefficient-rings', 'Constructible sheaves for the individual coefficient rings'),
-    # Proper base change
     'For $f$ proper and $F$ a torsion sheaf on $X$, is the stalk':
         ('question-stalks-proper-direct-image', 'Stalks of higher direct images along a proper map'),
     'Properness in $(C_7)$ is needed':

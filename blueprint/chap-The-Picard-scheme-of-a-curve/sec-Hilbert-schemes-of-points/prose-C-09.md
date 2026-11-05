@@ -2,7 +2,7 @@
 id = "prose-C-09"
 kind = "hidden"
 title = "Hilbert schemes of points (2)"
-order = 1530
+order = 1536
 +++
 Assume now that $C(k)$ contains a point $P$, and let us describe
 $\operatorname{Pic}_{C/k}$ by rigidified invertible sheaves as in

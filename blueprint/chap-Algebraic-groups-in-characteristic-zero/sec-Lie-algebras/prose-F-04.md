@@ -2,12 +2,12 @@
 id = "prose-F-04"
 kind = "hidden"
 title = "Lie algebras"
-order = 1717
+order = 1723
 +++
 Let $G$ be a connected algebraic group with Lie algebra $\mathfrak g$.
-We need two facts (Lemma [lemma-stable-subspaces-center]). In a
+We need two facts (Lemma [lemma-stable-subspaces-center]). First, in a
 representation, $G$ and $\mathfrak g$ have the same stable subspaces.
-And the Lie algebra of the identity component of the center of $G$ is
+Second, the Lie algebra of the identity component of the center of $G$ is
 the center of $\mathfrak g$. In the proof of
 Lemma [lemma-identity-component] we compare the monodromy groups
 through their Lie algebras, and both facts are used there. By the

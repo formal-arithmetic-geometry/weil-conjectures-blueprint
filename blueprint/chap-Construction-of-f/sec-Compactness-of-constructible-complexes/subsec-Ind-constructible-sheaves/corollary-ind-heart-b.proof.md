@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-ind-heart-b"
-order = 452
+order = 457
 uses = ["definition-ind-constructible-sheaves"]
 +++
 Write $B=\varinjlim_\alpha B_\alpha$ as a filtered colimit of

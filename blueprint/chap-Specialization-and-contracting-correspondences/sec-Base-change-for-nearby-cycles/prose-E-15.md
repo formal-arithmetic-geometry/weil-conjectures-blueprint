@@ -2,7 +2,7 @@
 id = "prose-E-15"
 kind = "hidden"
 title = "Base change for nearby cycles (1)"
-order = 1652
+order = 1658
 +++
 Let $c$ be a correspondence over the trait $S$ and $u$ a cohomological
 correspondence on its generic fibre. Nearby cycles turn $u$ into a map
@@ -45,7 +45,7 @@ $$
 Since $p$ is proper, $\chi_p$ is invertible, and we put
 $\nu_f=\chi_p^{-1}\,Rp_{s*}(\nu_h)$, using
 $Rf_{s!}=Rp_{s*}h_{s!}$ and $Rf_{\eta!}=Rp_{\eta*}h_{\eta!}$.
-$\nu_f$ does not depend on the compactification. Indeed, if $q$ is a common
+The map $\nu_f$ does not depend on the compactification. Indeed, if $q$ is a common
 proper refinement of two
 compactifications, proper base change identifies $Rq_*h'_!$ with
 $h_!$ on both fibres. After taking adjoints for the open immersions,

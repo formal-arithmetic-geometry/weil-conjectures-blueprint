@@ -5,7 +5,7 @@ title = "Weakly contractible objects (1)"
 order = 74
 +++
 On a topological space we check exactness at points, and on the étale
-site at geometric points. On $X_{\mathrm{pro}\acute{e}t}$ we check exactness, and compute
+site at geometric points. On $X_{\mathrm{pro}\acute{e}t}$, instead, we check exactness, and compute
 limits and colimits, by evaluating on weakly contractible objects. Over
 these objects we can compute in the ordinary derived categories of
 sheaves of modules by taking sections. Until
@@ -19,13 +19,13 @@ contractible affine $W$, taking sections is exact and commutes with all
 limits and colimits of module sheaves. Moreover, these functors, for all
 such $W$, are jointly conservative.
 
-Stalk functors behave worse. A stalk functor is exact and commutes with
-colimits, but not with infinite products. Products of sheaves on $X_{\acute{e}t}$
-need not be exact either. The reason is that a section of a product of
+Stalk functors behave worse. Indeed, a stalk functor is exact and commutes with
+colimits, but not with infinite products. Moreover, products of sheaves on $X_{\acute{e}t}$
+need not be exact either, because a section of a product of
 surjections lifts in each factor only after its own refinement of the
 cover, and infinitely many refinements cannot in general be made at once.
-Evaluation at $W$ avoids both problems. It commutes with products because
-limits of sheaves are computed on sections. It is exact because covers of
+Evaluation at $W$ avoids both problems: it commutes with products because
+limits of sheaves are computed on sections, and it is exact because covers of
 $W$ split.
 
 In the simplest case, $X$ a geometric point, the site is that of profinite

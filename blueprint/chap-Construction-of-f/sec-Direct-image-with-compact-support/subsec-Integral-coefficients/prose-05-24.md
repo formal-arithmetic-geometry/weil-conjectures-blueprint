@@ -2,7 +2,7 @@
 id = "prose-05-24"
 kind = "hidden"
 title = "Integral coefficients (2)"
-order = 488
+order = 493
 +++
 For instance, $\mathcal O_{E,X}/\pi_E$ is the cokernel of
 $\pi_E:\mathcal O_{E,X}\to\mathcal O_{E,X}$, so it has Tor amplitude

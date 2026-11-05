@@ -2,20 +2,20 @@
 id = "prose-E-04"
 kind = "hidden"
 title = "Specialization to the normal cone (3)"
-order = 1618
+order = 1624
 +++
 The contracting argument needs a complex on the normal cone $N_ZX$ that
 still remembers $K$ near $Z$. Pulling $K|_Z$ back along the projection
 $N_ZX\to Z$ is not enough, since it forgets the directions leaving $Z$.
-Take $X=\mathbf A^1$, $Z$ the origin, and $K=j_!A$ for
+For example, take $X=\mathbf A^1$, $Z$ the origin, and $K=j_!A$ for
 $j:\mathbf A^1\setminus\{0\}\hookrightarrow\mathbf A^1$. Then $K|_Z=0$,
-so the pullback is zero. The deformation to the normal cone is
-$\operatorname{Spec}k[x,t,x/t]$ over the trait. This is the constant
+so the pullback is zero. By contrast, the deformation to the normal cone is
+$\operatorname{Spec}k[x,t,x/t]$ over the trait, that is, the constant
 family $\mathbf A^1\times S$ in the coordinate $x'=x/t$, and on its
-generic fibre $K$ is $j_!A$ for $x'\neq0$. By
-Lemma [lemma-nearby-cycles-constant-family] the nearby cycles are $j_!A$ on
+generic fibre $K$ is $j_!A$ for $x'\neq0$. Hence, by
+Lemma [lemma-nearby-cycles-constant-family], the nearby cycles are $j_!A$ on
 $N_ZX=\mathbf A^1$, which is not zero. This construction is the
-specialization functor $\operatorname{Sp}_{X,Z}$ defined below. By
+specialization functor $\operatorname{Sp}_{X,Z}$ defined below, and by
 Verdier's theorem
 (Theorem [theorem-verdier-s-theorem-specialization-zero]) it still
 recovers $K|_Z$ on the zero section.

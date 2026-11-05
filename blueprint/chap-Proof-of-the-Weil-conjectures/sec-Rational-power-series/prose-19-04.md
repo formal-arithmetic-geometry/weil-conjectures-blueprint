@@ -2,7 +2,7 @@
 id = "prose-19-04"
 kind = "hidden"
 title = "Rational power series (1)"
-order = 1369
+order = 1375
 +++
 The zeta function has integer coefficients by its definition, but the
 trace formula proves its rationality only over $\mathbf Q_\ell$, as an alternating

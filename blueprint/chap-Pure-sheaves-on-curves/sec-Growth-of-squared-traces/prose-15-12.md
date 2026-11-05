@@ -2,8 +2,8 @@
 id = "prose-15-12"
 kind = "hidden"
 title = "Growth of squared traces (4)"
-order = 1195
+order = 1201
 +++
 To compute $\nu$ we also need upper bounds for lisse sheaves and for
-complexes with finite support. We also need the effect of twisting by
+complexes with finite support, as well as the effect of twisting by
 $\mathcal B_b$.

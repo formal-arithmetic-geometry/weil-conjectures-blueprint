@@ -1,19 +1,22 @@
 +++
 id = "prose-04-39"
 kind = "hidden"
-title = "$\\ell$-adic coefficients (2)"
-order = 410
+title = "$\\ell$-adic coefficients (1)"
+order = 413
 +++
-The natural map $g^*M\to\hat g^*M$ is the completion map of $g^*M$, since
-$g^*$ commutes with the reductions. For constructible $M$ the completion
-does nothing. Indeed, let $Y$ and $Y'$ be of finite type over
-$k$ and $M\in D^b_{\mathrm{ctf}}(Y,\mathcal O_E)$. Then $g^*M$ lies in
-$\Dbc(Y',\mathcal O_E)$ by Lemma [lemma-integral-models](3). Hence it is
-derived complete by
-Proposition [proposition-integral-constructibility-criterion]
-((1)$\Rightarrow$(2)), and $\hat g^*M=g^*M$. Until we know that proper direct
-image preserves constructibility, we can only state base change with the
-completed inverse image.
+Pro-étale proper base change
+(Theorem [theorem-proper-base-change-classical-pro]) concerns
+classical complexes with torsion cohomology sheaves. For a finite ring $A$
+it therefore applies, with $\Lambda=A$, to every $K\in D^b_{\mathrm{ctf}}(X,A)$ for
+schemes of finite type over $k$, because bounded constructible complexes
+on quasi-compact quasi-separated schemes are classical
+(Theorem [theorem-comparison-constructible-sheaves]). For
+$\mathcal O_E$, however, the theorem gives proper base change only at each finite
+level $\mathcal O_E/\pi_E^n$, and we must pass to the limit. Later
+statements of this kind make this passage once and for all, by the reduction
+principle of Section [sec-Reduction-to-finite-coefficients]; here we make it directly.
 
-In the proof we use the following map, which also appears in the
-projection formula.
+The difficulty is completeness: the inverse image
+$g^*:D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)\to D(Y'_{\mathrm{pro}\acute{e}t},\mathcal O_E)$,
+which is exact on sheaves of modules, need not preserve derived
+completeness. We therefore complete after pulling back.

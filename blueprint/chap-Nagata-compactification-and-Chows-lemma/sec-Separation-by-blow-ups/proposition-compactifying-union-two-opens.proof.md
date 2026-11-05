@@ -1,14 +1,13 @@
 +++
 kind = "proof"
 of = "proposition-compactifying-union-two-opens"
-order = 1453
+order = 1459
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-extending-graph-from-compactification", "lemma-separation-closures", "lemma-extending-isomorphism-over-closure-closed", "lemma-gluing-after-admissible-blow-ups"]
 +++
 The idea is to glue $M$ to each compactification $X_i$ of $M_i$ after
 removing from $X_i$ the closure of the part lying over $M\setminus M_i$.
 This gives separated schemes $W_i$ containing $M$, and a common
-modification combines them into one separated $W$. We check that $W$ is
-proper by the valuative criterion. Separating the closures of the
+modification combines them into one separated $W$. It remains to check that $W$ is proper, and for this we use the valuative criterion. Separating the closures of the
 boundaries, we obtain
 (A.1), and from it we deduce that every
 valuation of $D$ extends into one of the $W_i$.
@@ -78,16 +77,12 @@ graph is a closed immersion, which proves separatedness.
 every valuation of $D$ extends into one of the $W_i$.
 Let $R$ be a valuation ring with fraction field $K$, and let
 $\operatorname{Spec}(K)\to D$ be an $S$-map over a given
-$\operatorname{Spec}(R)\to S$. It extends to both $X_i$, since they are
-proper. The pair of extensions factors through $X_{12}$, because the
+$\operatorname{Spec}(R)\to S$. It extends to both $X_i$, since they are proper, and the pair of extensions factors through $X_{12}$, because the
 closure of the graph contains its generic point and
 $\operatorname{Spec}(K)$ is schematically dense in
 $\operatorname{Spec}(R)$. By
 (A.1), the closed point cannot map into
-both of the removed closed subsets $B_{1,2}$ and $B_{2,1}$.
-Choose $i$ such that the closed point does not map into $B_{i,j}$. An open containing
-the closed point of a local scheme contains the whole scheme, so the
-extension factors through $X_i\setminus B_{i,j}\subseteq W_i$.
+both of the removed closed subsets $B_{1,2}$ and $B_{2,1}$. We may therefore choose $i$ such that the closed point does not map into $B_{i,j}$. Since an open containing the closed point of a local scheme contains the whole scheme, the extension factors through $X_i\setminus B_{i,j}\subseteq W_i$.
 
 *Gluing and properness.*
 Lemma [lemma-gluing-after-admissible-blow-ups], applied to

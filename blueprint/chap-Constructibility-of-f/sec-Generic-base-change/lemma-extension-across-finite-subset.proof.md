@@ -1,14 +1,12 @@
 +++
 kind = "proof"
 of = "lemma-extension-across-finite-subset"
-order = 571
+order = 577
 uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-proper-base-change-classical-pro", "lemma-detection-proper-direct-image"]
 +++
 Lemma [lemma-smooth-morphisms-locally-constant-sheaves] controls the
 direct image $R(bj)_*F$ of $Rj_*F$ to $S$.
-Lemma [lemma-detection-proper-direct-image] turns this, together with
-the hypothesis on $G$, into control of $Rj_*F$ along $Z$. We work on the
-étale sites.
+Then Lemma [lemma-detection-proper-direct-image] turns this, together with the hypothesis on $G$, into control of $Rj_*F$ along $Z$. Throughout, we work on the étale sites.
 
 For constructibility we check the hypotheses of part (1) of
 Lemma [lemma-detection-proper-direct-image] for $K=Rj_*F$ and

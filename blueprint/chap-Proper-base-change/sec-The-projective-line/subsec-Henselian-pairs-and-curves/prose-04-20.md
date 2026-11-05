@@ -2,10 +2,9 @@
 id = "prose-04-20"
 kind = "hidden"
 title = "Henselian pairs and curves (2)"
-order = 355
+order = 356
 +++
-The last step of the proof, the change of separably closed ground
-field, uses the following facts about curves over an algebraically
-closed field, which we also need later. For torsion divisible by the
-characteristic, proper and affine curves behave differently, which is
-why some of the assertions require $C$ to be proper.
+This is [Stacks, [09ZI](https://stacks.math.columbia.edu/tag/09ZI)]; Gabber proves it by an effacement argument on affines.
+The second fact concerns finite étale covers of a proper scheme. In degree
+one it says that $\mathbf Z/n$-torsors, like sections, are determined by the
+closed fibre.

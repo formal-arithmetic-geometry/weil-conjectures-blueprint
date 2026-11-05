@@ -2,9 +2,9 @@
 id = "prose-15-09"
 kind = "hidden"
 title = "Growth of squared traces (1)"
-order = 1187
+order = 1193
 +++
-The weight of a pure sheaf equals the growth rate of its sums of
+In Section [chap-The-Deligne-Laumon-theorem-for-curves] we know the trace function of the
+Fourier transform $M'$ exactly, but not its weight. For a pure sheaf the
+trace function determines the weight: it is the growth rate of the sums of
 squared traces (Theorem [theorem-weights-sums-squared-traces]).
-This lets us determine weights in Section [chap-Delignes-theorem-for-curves]
-from trace functions alone.

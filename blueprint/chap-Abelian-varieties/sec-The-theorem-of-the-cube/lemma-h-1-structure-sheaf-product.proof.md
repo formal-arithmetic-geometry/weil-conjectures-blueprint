@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-h-1-structure-sheaf-product"
-order = 1476
+order = 1482
 +++
 By the Künneth formula [Stacks, [0BED](https://stacks.math.columbia.edu/tag/0BED)], and since $H^0$ of $\mathcal O$ is
 $K$ on both factors, the source is

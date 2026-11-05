@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f"
-order = 526
+order = 531
 uses = ["proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint"]
 +++
 Each statement is the right adjoint of a statement about lower shriek

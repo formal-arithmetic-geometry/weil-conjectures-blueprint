@@ -1,0 +1,8 @@
++++
+id = "sec-The-Deligne-Laumon-theorem-2"
+kind = "section"
+title = "The Deligne–Laumon theorem"
+order = 1082
+uses = ["sec-Weil-sheaves-and-weights"]
+aliases = ["sec-Delignes-theorem-2"]
++++

@@ -2,7 +2,7 @@
 id = "prose-E-18"
 kind = "hidden"
 title = "Duality for nearby cycles (1)"
-order = 1664
+order = 1670
 +++
 Since the second factor of $K\boxtimes \mathbb DK$ is a Verdier dual,
 specializing a trace class also requires nearby cycles to commute with
@@ -29,5 +29,5 @@ $$
 \xrightarrow{\mu_X}\Psi_X(M\otimes \mathbb D_{X_\eta}M)
 \xrightarrow{\Psi_X\operatorname{ev}}\Psi_X\omega_{X_\eta}
 \xrightarrow{\theta_X}\omega_{X_s}.
-\tag{E.13}
+\tag{E.12}
 $$

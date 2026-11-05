@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Direct images (1)"
 order = 132
 +++
-The comparison of direct images below lets us transfer two things to the
-pro-étale site: proper base change, proved on the étale site in
-Section [chap-Proper-base-change], and the direct images used to
-define $Rf_!$.
+Proper base change is proved on the étale site
+(Section [chap-Proper-base-change]), while $Rf_!$ is defined by direct
+images on the pro-étale site. To transfer proper base change, and to
+compute these direct images, we compare direct images on the two sites.
 
 Let $g:X\to Y$ be a morphism of schemes. Base change of objects of the
 sites defines a commutative square of topoi
@@ -37,8 +37,9 @@ Evaluated on a pro-étale affine $V=\varprojlim_iV_i$ over $Y$, the
 comparison map is the map from $\varinjlim_iH^q(X\times_YV_i,F)$ to
 $H^q(X\times_YV,F)$. So the theorem below is the continuity of étale
 cohomology under affine limits, and like it, it needs $g$ to be
-quasi-compact. For $Y$ affine and connected, $X=\coprod_{n\in\mathbf N}Y$ and $F$ the constant sheaf
-$\mathbf Z/2$, the direct image $g_*F$ is the product of countably many
+quasi-compact. Without this the map fails to be surjective already for $q=0$.
+For example, let $Y$ be affine and connected, $X=\coprod_{n\in\mathbf N}Y$ and $F$ the
+constant sheaf $\mathbf Z/2$. Then $g_*F$ is the product of countably many
 copies of $\mathbf Z/2$ on $Y$. On $V=Y\times S$ with $S$ an infinite
 profinite set, the pro-étale side has as sections all sequences of
 locally constant functions $S\to\mathbf Z/2$, while the classical side

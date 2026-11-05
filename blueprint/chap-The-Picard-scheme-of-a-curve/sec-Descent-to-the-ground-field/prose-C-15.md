@@ -2,7 +2,7 @@
 id = "prose-C-15"
 kind = "hidden"
 title = "Descent to the ground field (1)"
-order = 1555
+order = 1561
 +++
 To compare the Galois action on the cohomology of a curve over $\bar k$
 with a Tate module, we need the Jacobian over the ground field $k$.
@@ -15,7 +15,7 @@ The construction so far works over a separably closed field and uses a
 rational point for the rigidification. However, a curve over $k$ need not
 have a $k$-point; for instance, the conic $x^2+y^2+z^2=0$ over $\mathbf R$ has none.
 We therefore define $J_0$ as the scheme representing the degree-zero part
-of the fppf Picard sheaf. We obtain it from the Jacobian over $k_s$
+of the fppf Picard sheaf. Concretely, we obtain it from the Jacobian over $k_s$
 by Galois descent through a finite Galois extension $k'/k$
 (Proposition [proposition-jacobian-over-ground-field]). The Kummer sequence then
 identifies $H^1(C,\mathbf Z/\ell^n(1))$ with $J_0[\ell^n](\bar k)$

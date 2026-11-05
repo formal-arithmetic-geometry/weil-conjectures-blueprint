@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-compatibility-purity-change-coefficients"
-order = 806
+order = 812
 uses = ["proposition-sp-tower-geometric"]
 +++
 Both kinds of comparison maps are compatible with composition of coefficient
@@ -18,12 +18,12 @@ whose level $n$ is $\gamma_{f,\mathcal O_E/\ell^n}(K/\ell^n)$. Here the
 targets are identified by the isomorphism
 $\operatorname{red}_Xf^!_{\mathcal O_E}K\simeq f^!_\bullet\operatorname{red}_YK$,
 whose level $n$ is an isomorphism
-$(f^!_{\mathcal O_E}K)/\ell^n\simeq f^!_{\mathcal O_E/\ell^n}(K/\ell^n)$. This
+$(f^!_{\mathcal O_E}K)/\ell^n\simeq f^!_{\mathcal O_E/\ell^n}(K/\ell^n)$, and this
 identification is the change-of-coefficients map of
 Proposition [proposition-six-operations-change-coefficients]. Indeed,
 the integral counit reduces to the finite one, namely to level $n$ of the
 counit on towers (Section [subsec-Base-change-and-composition] and
-Proposition [proposition-sp-tower-geometric]). And both maps are
+Proposition [proposition-sp-tower-geometric]), and both maps are
 transposes of that counit composed with the comparison for $Rf_!$. So this
 case follows from the finite one. For $\mathcal O_E\to E$ and $E\to\overline{\mathbf Q}_\ell$
 the assertion holds by construction, because $\gamma_{f,E}$ and

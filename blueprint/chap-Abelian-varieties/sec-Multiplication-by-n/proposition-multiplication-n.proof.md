@@ -1,15 +1,13 @@
 +++
 kind = "proof"
 of = "proposition-multiplication-n"
-order = 1498
+order = 1504
 uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n"]
 +++
 We use the isomorphism $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$
 twice: on curves in the fibres of $[n]$ it shows that $[n]$ is finite,
-and in Euler characteristics it computes the degree. In between,
-translation invariance shows that all fibres have the same length, which
-makes $[n]$ finite locally free. Whether $[n]$ is étale is decided by
-its differential.
+and in Euler characteristics it computes the degree. In between, translation invariance shows that all fibres have the same length, which
+makes $[n]$ finite locally free. Finally, whether $[n]$ is étale is decided by its differential.
 
 Since finiteness, flatness and the degree may be checked after base
 change to an algebraic closure, we may assume that $k$ is

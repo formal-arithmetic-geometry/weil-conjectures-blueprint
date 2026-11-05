@@ -2,13 +2,12 @@
 id = "prose-10-22"
 kind = "hidden"
 title = "Frobenius and Poincaré duality (1)"
-order = 874
+order = 880
 +++
 Let $X_0$ be smooth of pure dimension $d$ and let $K$ be locally perfect, so
-that $\mathbb D_XK\simeq K^\vee(d)[2d]$. Cup product pairs $H^i_c(X,K)$
-with $H^{2d-i}(X,K^\vee)$ and takes values in $H^{2d}_c(X,\Lambda)$. To
-use this pairing for the Weil conjectures we need to know how $F$ acts
-on both sides. The target is not the trivial Weil complex but
+that $\mathbb D_XK\simeq K^\vee(d)[2d]$. In this case cup product pairs $H^i_c(X,K)$
+with $H^{2d-i}(X,K^\vee)$ and takes values in $H^{2d}_c(X,\Lambda)$. To use this pairing for the Weil conjectures we need to know how $F$ acts on both sides.
+The target is not the trivial Weil complex but
 $\Lambda(-d)$, as for $\mathbf P^1$ above. If we forgot the twist, we
 would predict the relation $\alpha\leftrightarrow1/\alpha$ between
 eigenvalues in complementary degrees instead of

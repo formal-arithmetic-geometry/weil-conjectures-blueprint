@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-smooth-base-change-classical-torsion"
-order = 684
+order = 690
 uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "lemma-degree-zero-calculation", "lemma-injectivity-base-change-map-degree", "lemma-reduction-field", "lemma-integral-changes-source-base", "lemma-reduction-curve-over-normal-base"]
 +++
 We argue by induction on $q$. The degree-zero calculation starts the
@@ -21,16 +21,16 @@ where $g$ is affine and smooth of relative dimension one.
 
 If $\mathrm{BC}(g,n,q)$ failed, Lemma [lemma-reduction-curve-over-normal-base]
 would give $S$, $C$, $h$ and $m$ with $R^qh_*\underline{\mathbf Z/m}\neq0$.
-The hypotheses of
-Proposition [proposition-base-change-larger-algebraically-closed] hold.
-By construction $S$ is the spectrum of a normal domain with algebraically
-closed fraction field. Since $m$ divides $n$, it is invertible on $S$. And
-$C$ is a smooth affine curve over $S$. The conclusion
+These satisfy the hypotheses of
+Proposition [proposition-base-change-larger-algebraically-closed]:
+by construction $S$ is the spectrum of a normal domain with algebraically
+closed fraction field, $m$ is invertible on $S$ because it divides $n$, and
+$C$ is a smooth affine curve over $S$. Therefore the conclusion
 $R^qh_*\underline{\mathbf Z/m}=0$ of the proposition is a contradiction.
 Hence $\mathrm{BC}(g,n,q)$ holds for affine $g$ of relative dimension one,
 and by the reduction above it holds for every smooth $g$.
 
 Since $f$ and $f'$ are qcqs, both sides commute with the filtered union
-$F=\bigcup_nF[n]$. This gives the theorem for $F$ on the étale sites.
-Theorem [theorem-comparison-direct-images] transfers the isomorphism and
+$F=\bigcup_nF[n]$, which gives the theorem for $F$ on the étale sites.
+Finally, Theorem [theorem-comparison-direct-images] transfers the isomorphism and
 the base change map from the étale sites to $Y'_{\mathrm{pro}\acute{e}t}$.

@@ -1,13 +1,12 @@
 +++
 kind = "proof"
 of = "lemma-tangent-cones-on-cover"
-order = 979
+order = 985
 +++
 The two covers descend to finite flat morphisms $C_i'\to C_i$ of degree $d$
 between smooth curves, where $C_i$ is an étale neighbourhood of $y$ in
 $X$, étale away from $y$ and with a single point $y_i'$ over $y$
-(Lemma [lemma-covers-degree-prime-to-ell](1)). The product
-$C_1'\times C_2'\to C_1\times C_2$ is a finite flat morphism of degree $d^2$
+(Lemma [lemma-covers-degree-prime-to-ell](1)). Their product $C_1'\times C_2'\to C_1\times C_2$ is a finite flat morphism of degree $d^2$
 of smooth surfaces, étale away from the two fibres through $y$, with
 $y'$ the only point over $(y,y)$. Base change to the strict localization
 $T$ of $C_1\times C_2$ at $(y,y)$ gives a scheme finite over $T$ with one

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-class-of-point"
-order = 863
+order = 869
 uses = ["proposition-relative-dualizing-complex"]
 +++
 By definition, $[x]$ is the image

@@ -2,15 +2,15 @@
 id = "prose-A-09"
 kind = "hidden"
 title = "Elimination of indeterminacy (1)"
-order = 1415
+order = 1421
 +++
 Every modification in the proof of Nagata's theorem is a blow-up whose
 center avoids a fixed open, so that this open is not changed.
-The open $U$ is the scheme being compactified, or a piece of it, and
+Here the open $U$ is the scheme being compactified, or a piece of it, and
 only the boundary may be modified. For instance, the coordinate axes
 minus the origin are disjoint closed subsets of
 $U=\mathbf A^2\setminus\{0\}$, but their closures in $\mathbf A^2$ meet at
-the origin. The blow-up of the origin is an isomorphism over $U$. In it,
+the origin. The blow-up of the origin is an isomorphism over $U$, and in it
 the strict transforms of the axes meet the exceptional line in the two
 distinct points of slope $0$ and $\infty$, so they become disjoint.
 Lemma [lemma-separation-closures] proves the same in general.

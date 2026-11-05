@@ -2,7 +2,7 @@
 id = "prose-A-01"
 kind = "hidden"
 title = "Nagata compactification and Chow's lemma"
-order = 1393
+order = 1399
 +++
 The main text defines cohomology with compact support as in topology:
 to push forward along $f:X\to Y$, embed $X$ as an open subset of
@@ -23,19 +23,19 @@ X$ followed by a proper morphism $\overline X\to S$.
 
 Why is this hard? Locally a compactification is easy to find: if $S$ and
 $X$ are affine, we take the closure of $X$ in projective space over $S$.
-The difficulty is to glue. Cover $X=\mathbf A^1_k$ by
+The difficulty is to glue. For example, cover $X=\mathbf A^1_k$ by
 $U_1=\mathbf A^1\setminus\{0\}$ and $U_2=\mathbf A^1\setminus\{1\}$,
 compactify each by $\mathbf P^1$, and glue the two copies of $\mathbf
-P^1$ along $U_1\cap U_2$. The result is $\mathbf P^1$ with the three
+P^1$ along $U_1\cap U_2$. The result is then $\mathbf P^1$ with the three
 points $0$, $1$ and $\infty$ doubled, which is not separated. For curves
-blow-ups are not needed. They would not help either, since blowing up a
-point on a regular curve does nothing. In dimension at least two the
+blow-ups are not needed, and they would not help either, since blowing up a
+point on a regular curve does nothing. In dimension at least two, however, the
 closures of $U_1\setminus U_2$ and $U_2\setminus U_1$ can meet in the
-boundary. We pull them apart by blow-ups with centers in the boundary,
+boundary, and we pull them apart by blow-ups with centers in the boundary,
 which leave $X$ unchanged (Lemma [lemma-separation-closures] and
 Proposition [proposition-compactifying-union-two-opens]). Induction
 over an affine cover then gives the theorem over a Noetherian base
-(Section [sec-Proof-of-Nagatas-theorem]). Noetherian approximation gives the
+(Section [sec-Proof-of-Nagatas-theorem]), and Noetherian approximation gives the
 general case, which we need because proper base change is proved over
 arbitrary qcqs bases.
 

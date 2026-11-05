@@ -1,9 +1,9 @@
 +++
 kind = "proof"
 of = "lemma-determinant-weight-from-central-scalar"
-order = 1137
+order = 1143
 +++
-The determinant of $Q$ is an algebraic character of $H$. Its image on
+The determinant of $Q$ is an algebraic character of $H$, and its image on
 the dense subgroup $\rho(\pi_1(U))$ is finite, and hence its image on all of
 $H$ lies in the same finite group of roots of unity. Taking
 determinants in $z=h\rho(s)^N$, we find

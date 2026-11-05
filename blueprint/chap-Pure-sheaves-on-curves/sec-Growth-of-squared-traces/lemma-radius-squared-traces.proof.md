@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-radius-squared-traces"
-order = 1194
+order = 1200
 uses = ["definition-trace-function"]
 +++
 By the Cauchy–Hadamard formula the radius is the inverse of

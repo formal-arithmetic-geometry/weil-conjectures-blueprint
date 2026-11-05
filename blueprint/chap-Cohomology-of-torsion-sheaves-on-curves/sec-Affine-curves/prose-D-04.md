@@ -2,7 +2,7 @@
 id = "prose-D-04"
 kind = "hidden"
 title = "Affine curves (1)"
-order = 1572
+order = 1578
 +++
 Every smooth connected curve over an algebraically closed field that
 is not proper is affine and is the complement of a finite nonempty set
@@ -12,9 +12,9 @@ recall that regular curves over a perfect field are smooth.
 
 On the affine curve $U=\overline C\setminus D$ the Picard group is a
 quotient of $\operatorname{Pic}^0(\overline C)$. It is therefore divisible,
-and $H^2(U,\mu_n)=0$. Topologically, a punctured Riemann surface is
-homotopy equivalent to a graph. In degree one new torsors appear, since a
-Kummer torsor on $U$ need not extend over $\overline C$. The obstruction
+and $H^2(U,\mu_n)=0$; this matches the fact that, topologically, a punctured Riemann surface is
+homotopy equivalent to a graph. In degree one, on the other hand, new torsors appear, since a
+Kummer torsor on $U$ need not extend over $\overline C$. The obstruction to extending it
 at each puncture is the residue of the torsor, that is, the order modulo
 $n$ of the corresponding rational section. For example, on
 $\mathbf G_m=\mathbf P^1\setminus\{0,\infty\}$ the torsor $y^n=x$ has

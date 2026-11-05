@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-reduced-fractions-integer-coefficients"
-order = 1374
+order = 1380
 uses = ["lemma-hankel-rank-rationality"]
 +++
 We repeat the construction in the proof of Lemma [lemma-hankel-rank-rationality]

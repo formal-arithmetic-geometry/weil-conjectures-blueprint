@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Integral constructible complexes (5)"
 order = 237
 +++
-The bound $m\geq n+e$ cannot be improved. Take
+The bound $m\geq n+e$ cannot be improved. To see this, take
 $Q^\bullet=[\mathcal O_E\xrightarrow{\pi_E^e}\mathcal O_E]$ in degrees
 $0,1$, so that $H^0(Q^\bullet)=0$ and $H^1(Q^\bullet)=\mathcal O_E/\pi_E^e$.
 For $m\geq e$ the group $H^0(Q^\bullet/\pi_E^m)$ is $\pi_E^{m-e}\mathcal O_E/\pi_E^m$,

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-local-term-restriction-map"
-order = 961
+order = 967
 uses = ["definition-trace-morphism"]
 +++
 We show that the local term and the displayed composite are both

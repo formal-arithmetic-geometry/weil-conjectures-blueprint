@@ -1,12 +1,11 @@
 +++
 kind = "proof"
 of = "corollary-verdier-exchange-formulas"
-order = 842
+order = 848
 uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-composition-base-change-rf-shriek", "definition-verdier-dual-evaluation", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality"]
 +++
-Two of the formulas are Lemma [lemma-internal-adjunction-two-exchange-formulas]. We obtain the
-other two by applying these to the Verdier dual of the argument and
-using biduality on both schemes. For $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and
+Two of the formulas are Lemma [lemma-internal-adjunction-two-exchange-formulas], and we obtain the other two by applying these to the Verdier dual of the argument and
+using biduality on both schemes. Explicitly, for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and
 $L\in D^b_{\mathrm{ctf}}(Y,\Lambda)$ this reads
 
 $$

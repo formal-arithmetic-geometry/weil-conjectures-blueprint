@@ -2,10 +2,10 @@
 id = "prose-09-02"
 kind = "hidden"
 title = "Statement (1)"
-order = 719
+order = 725
 +++
 Smooth purity is stated for six kinds of coefficients at once, because the
-proof moves between them. The geometry is done with finite rings, the
+proof moves between them: the geometry is done with finite rings, the
 case $\mathcal O_E$ is a limit of finite levels, and the fields are
 obtained by inverting $\ell$. Throughout this section $\Lambda$ is an
 admissible coefficient ring, that is, a finite commutative ring killed by a
@@ -13,24 +13,24 @@ power of $\ell$, $\mathcal O_E$, $E$ or $\overline{\mathbf Q}_\ell$ (the rings $
 being the cases $E=\mathbf Q_\ell$), and Tate twists are those
 of Definition [definition-tate-twists].
 
-The theorem asserts one isomorphism on all of $X$. On a chart, an
+The theorem asserts one isomorphism on all of $X$, whereas on a chart an
 isomorphism of this shape is already given by
 Proposition [proposition-exceptional-inverse-image-smooth-morphism] with finite coefficients.
-A bare isomorphism for each $f$ separately would not be enough for what
-follows. The theorem therefore also lists three properties that the later
-chapters use. Property (2), compatibility with base change, restricts
-$\gamma_f$ to the fibres of $f$. It is what makes $\gamma_f$ commute with
+A bare isomorphism for each $f$ separately, however, would not be enough for
+what follows, and the theorem therefore also lists three properties that the
+later chapters use. Property (2), compatibility with base change, restricts
+$\gamma_f$ to the fibres of $f$, and it is what makes $\gamma_f$ commute with
 Frobenius, because the Frobenius square is a base change
 (Proposition [proposition-purity-trace-commute-frobenius]). Property (3),
 compatibility with composition, gives the transitivity of the trace map
-(Proposition [proposition-transitivity-trace-map]). This is the analogue
+(Proposition [proposition-transitivity-trace-map]), the analogue
 of integrating over the fibres of a composite in two steps. Property (4),
 compatibility with change of coefficients, lets us construct $\gamma_f$ with
-finite coefficients and pass to $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. It also
+finite coefficients and pass to $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$, and it also
 makes Poincaré duality compatible with change of coefficients
 (Theorem [theorem-poincare-duality]). Properties (1)
 and (2) involve maps that we define now, for every admissible
-$\Lambda$. The functors are those of
+$\Lambda$; the functors are those of
 Theorem [theorem-exceptional-inverse-image], restricted to $D^b_{\mathrm{ctf}}$.
 
 The first map compares $f^!$ before and after a change of base. Let

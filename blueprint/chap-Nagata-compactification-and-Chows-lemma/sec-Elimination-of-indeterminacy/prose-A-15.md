@@ -2,7 +2,7 @@
 id = "prose-A-15"
 kind = "hidden"
 title = "Elimination of indeterminacy (7)"
-order = 1431
+order = 1437
 +++
 Quasi-affine targets are the ones where a partial section can be
 extended by hand, by clearing denominators of finitely many

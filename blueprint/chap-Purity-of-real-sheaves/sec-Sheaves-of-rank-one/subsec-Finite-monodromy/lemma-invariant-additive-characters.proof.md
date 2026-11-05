@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-invariant-additive-characters"
-order = 1096
+order = 1102
 uses = ["proposition-no-fixed-class-degree-one"]
 +++
 After scaling, the coordinates of $a$ reduce modulo $\ell^n$ to a
@@ -13,11 +13,11 @@ identified with homomorphisms.
 Recall that for a finite abelian
 group $G$ the group $H^1(U,G)$ classifies $G$-torsors. By
 [Stacks, [0DV5](https://stacks.math.columbia.edu/tag/0DV5)], finite locally constant sheaves on the connected scheme
-$U$ correspond to finite continuous $\pi_1(U)$-sets. Under this
+$U$ correspond to finite continuous $\pi_1(U)$-sets, and under this
 correspondence a $G$-torsor becomes a finite $\pi_1(U)$-set with a commuting
 simply transitive action of $G$, that is, a continuous homomorphism
 $\pi_1(U)\to G$. Hence $H^1(U,G)=\Hom_{\mathrm{cont}}(\pi_1(U),G)$.
-Frobenius acts on $H^1(U,G)$ through the action of
+In this description Frobenius acts on $H^1(U,G)$ through the action of
 $s$ on $\pi_1(U)$ by conjugation. The Frobenius-fixed classes are therefore
 the homomorphisms $b$ with $b(s^{-1}gs)=b(g)$.
 

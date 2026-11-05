@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-sp-qbar"
-order = 785
+order = 791
 uses = ["theorem-smooth-base-change-all-admissible", "definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients", "proposition-sp-rational", "proposition-compatibility-purity-base-change"]
 +++
 As for $E$, we compare Hom groups, now as colimits over finite extensions

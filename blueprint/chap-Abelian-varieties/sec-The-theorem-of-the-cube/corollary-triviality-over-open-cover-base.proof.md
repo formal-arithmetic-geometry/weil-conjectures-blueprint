@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-triviality-over-open-cover-base"
-order = 1473
+order = 1479
 +++
 Both assertions are local on $T$, so we may replace $T$ by one of the
 $U_\alpha$ and assume that $\mathcal L\simeq\mathcal O_{P\times T}$.

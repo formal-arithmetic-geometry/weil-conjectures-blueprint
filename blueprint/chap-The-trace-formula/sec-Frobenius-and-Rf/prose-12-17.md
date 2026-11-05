@@ -2,7 +2,7 @@
 id = "prose-12-17"
 kind = "hidden"
 title = "Frobenius and $Rf_!$ (1)"
-order = 992
+order = 998
 +++
 The trace formula with finite coefficients is proved by induction on the
 number of affine coordinates. We project a closed subscheme of
@@ -15,9 +15,8 @@ $\psi$, and its stalk maps are the Frobenius operators on the cohomology of the
 fibres.
 
 The square formed by $f$ and the two Frobenii commutes, but it is
-usually not cartesian. Already for $f:\mathbf A^1\to s$ the Frobenius
-of $s$ is the identity, so the fibre product is $\mathbf A^1$ itself,
+usually not cartesian. Indeed, already for $f:\mathbf A^1\to s$ the Frobenius of $s$ is the identity, so the fibre product is $\mathbf A^1$ itself,
 while $\Phi_{\mathbf A^1}$ has degree $q$. The difference is
 measured by the relative Frobenius. It is a universal homeomorphism, so pullback
-along it is an equivalence on étale sheaves. This makes the comparison map
-we obtain from it an isomorphism.
+along it is an equivalence on étale sheaves, and the comparison map
+built from it is an isomorphism.

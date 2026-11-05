@@ -2,7 +2,7 @@
 id = "prose-16-05"
 kind = "hidden"
 title = "The Artin–Schreier sheaf (4)"
-order = 1218
+order = 1224
 +++
 Over a point, this is the Künneth isomorphism for cohomology with
 compact support. All three isomorphisms in the composite are natural,

@@ -2,16 +2,14 @@
 id = "prose-06-15"
 kind = "hidden"
 title = "Generic base change (1)"
-order = 569
+order = 575
 +++
 Let $j:X\hookrightarrow Y$ be an open immersion of schemes over an
 integral base $S$, and let $F$ be a constructible $\Fell$-sheaf on $X$.
-Deligne's generic base change theorem says that over a dense open of $S$
+For such data, Deligne's generic base change theorem says that over a dense open of $S$
 the complex $Rj_*F$ is bounded constructible and its formation commutes
-with base change. Over a field it gives the finiteness of
-$Rj_*$ (Corollary [corollary-open-direct-image-over-field]), and this is all that the
-computation of $f^!$ requires. The punctured plane over the $t$-line,
-discussed at the beginning of this section, shows that we cannot ask for
+with base change. In particular, over a field it gives the finiteness of $Rj_*$ (Corollary [corollary-open-direct-image-over-field]), and this is all that the
+computation of $f^!$ requires. On the other hand, the punctured plane over the $t$-line, discussed at the beginning of this section, shows that we cannot ask for
 more than a dense open.
 
 In characteristic $p$ the generic fibre need not contain a smooth dense
@@ -23,20 +21,16 @@ Theorem [theorem-generic-constructibility-base-change-rj] below allows a finite 
 homeomorphism of the base. Such a map changes neither the étale topoi
 nor the conclusion.
 
-We fix notation for base change. With $j$ as above and a morphism
-$T\to S$, we write
+We fix notation for base change. With $j$ as above and a morphism $T\to S$, we write
 $j_T:X_T\hookrightarrow Y_T$ for the base change and
-$g_X:X_T\to X$, $g_Y:Y_T\to Y$ for the projections. The base change map
-$g_Y^*Rj_*K\to Rj_{T,*}g_X^*K$ is the map (4.5).
+$g_X:X_T\to X$, $g_Y:Y_T\to Y$ for the projections. The base change map $g_Y^*Rj_*K\to Rj_{T,*}g_X^*K$ is then the map (4.5).
 
 The proof of Theorem [theorem-generic-constructibility-base-change-rj]
-is an induction on the dimension of the generic fibre, in three steps. The
-next three lemmas are the parts of the proof that do not use the
+is an induction on the dimension of the generic fibre, in three steps. The next three lemmas are the parts of this proof that do not use the
 induction hypothesis, and each serves one step.
-Lemma [lemma-extension-across-finite-subset] is Step 2. If $X$ is
-smooth and $F$ locally constant, it extends the conclusion from an open
+First, Lemma [lemma-extension-across-finite-subset] is Step 2: if $X$ is smooth and $F$ locally constant, it extends the conclusion from an open
 $G$ with complement finite over $S$, provided by Step 1, across that complement.
-Lemma [lemma-universal-homeomorphism-base] allows Step 3 to replace
+Next, Lemma [lemma-universal-homeomorphism-base] allows Step 3 to replace
 $S$ by a finite universal homeomorphism, as the example above requires.
 Lemma [lemma-generic-smooth-open] then provides, after this
 replacement, the dense open $V$ of Step 3, smooth with $F$ locally
