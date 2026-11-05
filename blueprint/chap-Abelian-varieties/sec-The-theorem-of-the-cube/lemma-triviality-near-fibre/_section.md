@@ -3,7 +3,8 @@ id = "lemma-triviality-near-fibre"
 kind = "lemma"
 title = "Triviality near a fibre"
 order = 1483
-lean = ["AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd_of_nonempty_iso_fiber"]
+lean = ["AlgebraicGeometry.TheoremOfCube.exists_mem_isFreeGenerator"]
+uses = []
 +++
 Let $P$ and $Q$ be proper geometrically integral $k$-schemes with points
 $p_0\in P(k)$ and $q_0\in Q(k)$, let $T$ be a $k$-scheme of finite type,

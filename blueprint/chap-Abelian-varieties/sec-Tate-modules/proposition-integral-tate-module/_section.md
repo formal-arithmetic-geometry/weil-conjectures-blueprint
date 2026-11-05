@@ -3,7 +3,7 @@ id = "proposition-integral-tate-module"
 kind = "proposition"
 title = "The integral Tate module"
 order = 1509
-lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
+lean = ["AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule", "AlgebraicGeometry.IsAbelianVariety.geometricPointsAddEquiv", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme"]
 uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$, and let $\ell$

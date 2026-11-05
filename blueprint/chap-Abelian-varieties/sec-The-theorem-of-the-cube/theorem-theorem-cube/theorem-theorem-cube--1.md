@@ -1,14 +1,24 @@
 +++
 id = "theorem-theorem-cube--1"
 kind = "theorem"
-title = "Theorem of the cube (1)"
+title = "Isomorphisms from local isomorphisms and a slice"
 name_showing = false
 order = 1486001
 aliases = ["bp-r463-1"]
+lean = ["AlgebraicGeometry.nonempty_iso_of_forall_exists_nonempty_iso_preimageSnd"]
+uses = []
 +++
-Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points
-$x\in X(k)$ and $y\in Y(k)$, let $Z$ be a connected $k$-scheme of finite
-type with a point $z\in Z(k)$, and let $\mathcal L$ be an invertible
-sheaf on $X\times Y\times Z$. If the restrictions of $\mathcal L$ to
-$x\times Y\times Z$, $X\times y\times Z$ and $X\times Y\times z$ are
-trivial, then $\mathcal L$ is trivial.
+Let $X$ and $Y$ be proper geometrically integral $k$-schemes, let
+$x\in X(k)$, and let $Z$ be a $k$-scheme. Let $\mathcal M$ and
+$\mathcal N$ be invertible sheaves on $X\times Y\times Z$. Suppose
+that for every $t\in Z$ there is an open neighbourhood $U$ of $t$
+such that
+
+$$
+\mathcal M|_{X\times Y\times U}\simeq
+\mathcal N|_{X\times Y\times U},
+$$
+
+and that the restrictions of $\mathcal M$ and $\mathcal N$ to
+$x\times Y\times Z$ are isomorphic. Then
+$\mathcal M\simeq\mathcal N$.

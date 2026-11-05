@@ -5,6 +5,8 @@ title = "Abelian variety (2)"
 name_showing = false
 order = 1493002
 aliases = ["bp-r465-2"]
+lean = []
+uses = ["definition-abelian-variety--1"]
 +++
 If $A$ is an abelian variety, $[n]$
 denotes multiplication by the integer $n$,

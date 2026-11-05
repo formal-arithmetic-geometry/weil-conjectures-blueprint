@@ -3,7 +3,8 @@ id = "definition-abelian-variety"
 kind = "definition"
 title = "Abelian variety"
 order = 1493
-lean = ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.isAbelianVariety_iff_geometricallyConnected", "AlgebraicGeometry.torsionSubgroupScheme"]
+lean = ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.torsionSubgroupScheme"]
+uses = []
 +++
 An *abelian variety* over $k$ is a smooth proper geometrically
 connected $k$-group scheme. If $A$ is an abelian variety, $[n]$
