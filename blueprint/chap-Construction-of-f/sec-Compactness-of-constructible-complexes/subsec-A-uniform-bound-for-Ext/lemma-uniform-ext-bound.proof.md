@@ -64,20 +64,37 @@ $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. Hence
 
 *The case $\Lambda=\overline{\mathbf Q}_\ell$.* The bound for $E$ depends only on the
 strata and on $\operatorname{cd}_\ell$, not on $E$, so it passes to the
-colimit over finite extensions. By
-Lemma [lemma-descent-lisse-qbar-sheaves-finite], there are a finite $E$ and
-lisse $E$-sheaves $L'$, $M'$ with $L=L'_{\overline{\mathbf Q}_\ell}$ and $M=M'_{\overline{\mathbf Q}_\ell}$. Then
-$a_!L=(a_!L')_{\overline{\mathbf Q}_\ell}$ and $b_!M=(b_!M')_{\overline{\mathbf Q}_\ell}$, and by Lemma [lemma-descent-finite-coefficient-field](1),
+colimit over finite extensions. We first fix everything that depends on
+$L$ alone, before the target is given. By
+Lemma [lemma-descent-lisse-qbar-sheaves-finite], applied to $L$ alone,
+there are a finite extension $E_0/\mathbf Q_\ell$ and a lisse $E_0$-sheaf $L'$ with
+$L=L'_{\overline{\mathbf Q}_\ell}$. After refining $S$
+(Lemma [lemma-lattices-after-finite-stratification]), $L'$ contains a
+lisse $\mathcal O_{E_0}$-lattice $L'_0$. As in the case $\Lambda=E$, the
+refinement replaces $a_!L$ by a finite extension of sheaves of the same
+form, and it depends only on $L$. For every finite extension
+$E'\supset E_0$, the sheaf $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_{E'}$
+is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata.
+The case $\Lambda=E'$ therefore gives
+$\Ext^q_{E'}\bigl((a_!L')_{E'},N'\bigr)=0$ for
+$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$, for each refined
+stratum $S$ and every $N'\in\Cons(X,E')$. This bound does not depend on
+$E'$ or on $N'$.
+
+Now let $b$ and $M$ be given. By
+Lemma [lemma-descent-lisse-qbar-sheaves-finite] again, applied to $M$,
+there are a finite extension $E\supset E_0$ (enlarge the field given by the
+lemma to contain $E_0$) and a lisse $E$-sheaf $M'$ with $M=M'_{\overline{\mathbf Q}_\ell}$.
+The field $E$ depends on $M$, but neither the strata of the source nor the
+lattice $L'_0$ do. Then $a_!L=(a_!L')_{\overline{\mathbf Q}_\ell}$ and
+$b_!M=(b_!M')_{\overline{\mathbf Q}_\ell}$, and by
+Lemma [lemma-descent-finite-coefficient-field](1),
 
 $$
 \Ext^q_{\overline{\mathbf Q}_\ell}(a_!L,b_!M)
-=\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr),
+=\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr).
 $$
 
-and the groups on the right vanish for $q$ above a bound independent of
-$E'$. Indeed, after refining the strata, $L'$ contains a lisse
-$\mathcal O_E$-lattice $L'_0$, and $L'_0\otimes_{\mathcal O_E}\mathcal O_{E'}$
-is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata. The
-case $\Lambda=E'$ therefore gives the bound
-$\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ for each refined
-stratum $S$, which does not depend on $E'$.
+Every group on the right vanishes for
+$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ by the previous
+paragraph, and hence so does the colimit.

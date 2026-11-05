@@ -13,7 +13,9 @@ $$
 
 and this proves the assertion for the coefficient rings themselves.
 
-The torsion twists $\mu_{\ell^n}$ are represented by finite étale group
+For the twists, $\ell$ is invertible on $Y$, hence on $X$, as
+Definition [definition-tate-twists] requires. The torsion twists
+$\mu_{\ell^n}$ are then represented by finite étale group
 schemes, and these commute with base change. Their inverse limit is
 represented by the inverse limit of these schemes, so that its inverse image
 is represented by the base change [Stacks, [09A5](https://stacks.math.columbia.edu/tag/09A5)]. This proves the

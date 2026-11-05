@@ -11,7 +11,8 @@ product. For coherent sheaves this fails, since
 $f^*M=\mathcal O_X\otimes_{f^{-1}\mathcal O_Y}f^{-1}M$ and
 $f^{-1}\mathcal O_Y\ne\mathcal O_X$ in general. For our coefficient sheaves
 the two notions agree, because all coefficient sheaves are pulled back
-from the point. The same holds for their Tate twists.
+from the point. The same holds for their Tate twists, where $\ell$
+is invertible.
 
 The second part of the next lemma says that extension of scalars to a
 finite extension $E'/E$ is a finite direct sum. We use this, for instance,
