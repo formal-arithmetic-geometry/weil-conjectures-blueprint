@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--7"
 kind = "corollary"
 title = "Rationality over the rationals"
-order = 1040008
+order = 1040013
 aliases = ["bp-r318-7"]
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
 +++

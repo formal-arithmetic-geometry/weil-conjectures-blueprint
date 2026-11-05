@@ -2,7 +2,7 @@
 id = "proposition-jacobian-over-ground-field--2"
 kind = "proposition"
 title = "Representation after field extension"
-order = 1565003
+order = 1565004
 aliases = ["bp-r488-2"]
 +++
 Let $X/k$ be proper and locally of finite presentation, let $k'/k$ be

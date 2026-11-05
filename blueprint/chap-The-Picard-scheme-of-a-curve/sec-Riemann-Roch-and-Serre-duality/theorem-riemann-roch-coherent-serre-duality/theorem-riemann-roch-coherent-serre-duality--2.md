@@ -3,7 +3,7 @@ id = "theorem-riemann-roch-coherent-serre-duality--2"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality (2)"
 name_showing = false
-order = 1528002
+order = 1528003
 aliases = ["bp-r475-2"]
 lean = ["AlgebraicGeometry.Scheme.serreDuality"]
 +++

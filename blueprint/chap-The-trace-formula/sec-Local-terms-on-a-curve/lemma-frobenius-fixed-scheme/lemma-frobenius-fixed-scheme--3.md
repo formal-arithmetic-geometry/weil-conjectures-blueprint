@@ -2,7 +2,7 @@
 id = "lemma-frobenius-fixed-scheme--3"
 kind = "lemma"
 title = "Reducedness"
-order = 960004
+order = 960006
 aliases = ["bp-r292-3"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.exists_isOpenImmersion_rationalPoint_of_isLimit"]
 +++

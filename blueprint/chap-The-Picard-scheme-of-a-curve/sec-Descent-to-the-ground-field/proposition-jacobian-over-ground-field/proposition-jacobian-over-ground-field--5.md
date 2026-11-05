@@ -2,7 +2,7 @@
 id = "proposition-jacobian-over-ground-field--5"
 kind = "proposition"
 title = "Galois equivariance"
-order = 1565006
+order = 1565010
 aliases = ["bp-r488-5"]
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 +++

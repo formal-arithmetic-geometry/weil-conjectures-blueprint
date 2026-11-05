@@ -2,7 +2,7 @@
 id = "lemma-tangent-cones-on-cover--2"
 kind = "lemma"
 title = "Separation of the tangent cones in the strict local ring"
-order = 985002
+order = 985003
 aliases = ["bp-r300-2"]
 lean = ["AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.tangentConesMeetAtOrigin"]
 +++

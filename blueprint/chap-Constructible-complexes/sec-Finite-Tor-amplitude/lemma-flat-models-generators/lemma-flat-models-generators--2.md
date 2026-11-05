@@ -3,7 +3,7 @@ id = "lemma-flat-models-generators--2"
 kind = "lemma"
 title = "Flat models and generators (2)"
 name_showing = false
-order = 255002
+order = 255003
 aliases = ["bp-r075-2"]
 +++
 A flat constructible sheaf has a finite

@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--7"
 kind = "lemma"
 title = "Finite stratification filtration"
-order = 268008
+order = 268014
 aliases = ["bp-r080-7"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_filtration"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-abelian-variety-commutative--2"
 kind = "lemma"
 title = "Commutativity of the group law"
-order = 1498002
+order = 1498003
 aliases = ["bp-r466-2"]
 lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
 +++

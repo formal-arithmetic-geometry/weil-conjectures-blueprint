@@ -2,7 +2,7 @@
 id = "definition-tate-twists--10"
 kind = "lemma"
 title = "Rank of the Tate twist"
-order = 184011
+order = 184014
 aliases = ["bp-r053-10"]
 lean = ["AlgebraicGeometry.ProEtale.isLocallyFree_integralTateTwist", "AlgebraicGeometry.ProEtale.isLocallyFree_tateTwist"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-artin-schreier-character-sheaf--6"
 kind = "lemma"
 title = "Frobenius trace"
-order = 1220007
+order = 1220012
 aliases = ["bp-r375-6"]
 lean = ["AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier"]
 +++

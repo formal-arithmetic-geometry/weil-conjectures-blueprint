@@ -1,8 +1,10 @@
 +++
 id = "lemma-extremally-disconnected-covers--3"
 kind = "lemma"
-title = "Profinite nature of the covering spaces"
-order = 53004
+title = "Extremally disconnected spaces are totally separated"
+order = 53006
 aliases = ["bp-r011-3"]
 +++
-Every extremally disconnected compact Hausdorff space is profinite.
+Every extremally disconnected Hausdorff space is totally separated: any
+two distinct points are separated by a clopen subset. In particular, every
+extremally disconnected compact Hausdorff space is profinite.

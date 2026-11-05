@@ -3,7 +3,7 @@ id = "proposition-pro-etale-site-separably-closed--3"
 kind = "proposition"
 title = "The pro-étale site of a separably closed field (3)"
 name_showing = false
-order = 173003
+order = 173005
 aliases = ["bp-r050-3"]
 lean = ["AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf", "Profinite.continuousMapRingSheaf"]
 +++

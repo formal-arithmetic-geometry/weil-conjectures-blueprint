@@ -3,7 +3,7 @@ id = "theorem-cohomology-curves--8"
 kind = "theorem"
 title = "Cohomology of curves (8)"
 name_showing = false
-order = 360009
+order = 360016
 aliases = ["bp-r109-8"]
 lean = ["AlgebraicGeometry.IsCurve.primeCoefficientCurveAssertions"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-integral-changes-source-base--2"
 kind = "lemma"
 title = "Integral changes of source and base (2)"
 name_showing = false
-order = 679002
+order = 679003
 aliases = ["bp-r204-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom"]
 +++

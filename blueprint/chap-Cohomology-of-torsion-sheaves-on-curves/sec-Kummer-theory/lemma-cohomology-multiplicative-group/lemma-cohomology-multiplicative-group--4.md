@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--4"
 kind = "lemma"
 title = "Naturality under field extension"
-order = 1574005
+order = 1574008
 aliases = ["bp-r490-4"]
 lean = ["AlgebraicGeometry.Scheme.gmCohomologyMap_toCohomologicalPicardGroup"]
 +++

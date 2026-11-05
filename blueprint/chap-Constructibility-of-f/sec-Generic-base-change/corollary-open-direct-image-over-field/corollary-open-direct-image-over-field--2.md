@@ -3,7 +3,7 @@ id = "corollary-open-direct-image-over-field--2"
 kind = "corollary"
 title = "Open direct image over a field (2)"
 name_showing = false
-order = 586002
+order = 586003
 aliases = ["bp-r178-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isOpenImmersion_of_field", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_isOpenImmersion_of_field", "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_field"]
 +++

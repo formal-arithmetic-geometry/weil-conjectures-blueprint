@@ -3,7 +3,7 @@ id = "lemma-filtrations-spectra--4"
 kind = "lemma"
 title = "Filtrations and spectra (4)"
 name_showing = false
-order = 1068004
+order = 1068007
 aliases = ["bp-r328-4"]
 lean = ["LinearMap.charpoly_roots_exteriorPower"]
 +++

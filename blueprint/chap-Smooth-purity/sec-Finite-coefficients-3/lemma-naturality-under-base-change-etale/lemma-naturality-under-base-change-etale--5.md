@@ -3,7 +3,7 @@ id = "lemma-naturality-under-base-change-etale--5"
 kind = "lemma"
 title = "Naturality under base change and étale maps (5)"
 name_showing = false
-order = 752006
+order = 752010
 aliases = ["bp-r227-5"]
 +++
 and the

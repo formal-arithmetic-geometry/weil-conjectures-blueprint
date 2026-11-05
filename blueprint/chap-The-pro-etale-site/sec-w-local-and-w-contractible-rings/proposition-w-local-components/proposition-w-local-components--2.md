@@ -3,7 +3,7 @@ id = "proposition-w-local-components--2"
 kind = "proposition"
 title = "Connected components of w-local spaces and rings (2)"
 name_showing = false
-order = 45002
+order = 45003
 aliases = ["bp-r008-2"]
 +++
 If $R$ is w-local, the component of $\operatorname{Spec}(R)$

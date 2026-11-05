@@ -2,7 +2,7 @@
 id = "proposition-composition-open-restriction-compactifications-f--5"
 kind = "proposition"
 title = "Restriction over an open subset of the base"
-order = 530006
+order = 530010
 aliases = ["bp-r161-5"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_of_isOpenImmersion"]
 +++

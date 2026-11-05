@@ -3,7 +3,7 @@ id = "lemma-weight-bounds-partitions--2"
 kind = "lemma"
 title = "Weight bounds and partitions (2)"
 name_showing = false
-order = 1355003
+order = 1355004
 aliases = ["bp-r418-2"]
 +++
 Let $V_0\subset Y_0$ be open with closed complement $W_0$, and let

@@ -3,7 +3,7 @@ id = "corollary-h-1-c-stalk-fourier--2"
 kind = "corollary"
 title = "$H^1_c$ as a stalk of the Fourier transform (2)"
 name_showing = false
-order = 1290002
+order = 1290003
 aliases = ["bp-r398-2"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]
 +++

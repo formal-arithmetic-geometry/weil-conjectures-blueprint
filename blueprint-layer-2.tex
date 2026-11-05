@@ -1770,23 +1770,44 @@ Give the underlying set $T^\delta$ the discrete topology and take $S=\beta(T^\de
 
 \begin{bplemma}[The profinite special case]
 \label{bp-r011-2}
-Every profinite space $T$ admits such a continuous surjection from a compact Hausdorff extremally disconnected space.
+Every profinite space $T$ admits a continuous surjection $S\to T$ with
+$S$ profinite and extremally disconnected.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r011-2}
 \begin{proof}[Proof of clause~\ref{bp-r011-2}]
-A profinite space is compact Hausdorff, so the construction and surjection in clause~\ref{bp-r011-1} apply to it without changing the hypotheses.
+A profinite space is compact Hausdorff, so clause~\ref{bp-r011-1} gives a
+continuous surjection $S\to T$ with $S$ compact Hausdorff and extremally
+disconnected, for instance $S=\beta(T^\delta)$. It remains to see that $S$ is
+profinite. By the definition of extremal disconnectedness
+(clause~\ref{bp-r007-1}), the closure of every open subset of $S$ is open,
+hence clopen. Let $s\neq s'$ be points of $S$. Since $S$ is Hausdorff, there
+are disjoint open sets $U\ni s$ and $V\ni s'$. The closure $\overline U$ is
+clopen and contains $s$. It does not contain $s'$, because $V$ is an open
+neighbourhood of $s'$ that does not meet $U$. Thus clopen subsets separate
+the points of $S$. A compact Hausdorff space in which clopen subsets separate points is profinite: the map to the inverse limit of its finite quotients by finite partitions into clopen subsets is continuous, injective because clopen subsets separate points, and surjective by compactness, and a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. Hence $S$ is profinite.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-007]{reference proof 007}\,(p.~\pageref{bp-proof-007}).}\par
 
 
 
-\begin{bplemma}[Profinite nature of the covering spaces]
+\begin{bplemma}[Extremally disconnected spaces are totally separated]
 \label{bp-r011-3}
-Every extremally disconnected compact Hausdorff space is profinite.
+Every extremally disconnected Hausdorff space is totally separated: any
+two distinct points are separated by a clopen subset. In particular, every
+extremally disconnected compact Hausdorff space is profinite.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r011-3}
 \begin{proof}[Proof of clause~\ref{bp-r011-3}]
-In an extremally disconnected compact Hausdorff space, the closure of every open set is clopen. By regularity, for two distinct points one can choose an open neighborhood of the first whose closure misses the second. Thus clopen sets separate points, and the space is totally disconnected and compact Hausdorff, hence profinite.
+Let $S$ be extremally disconnected and Hausdorff. By
+clause~\ref{bp-r007-1}, the closure of every open subset of $S$ is open,
+hence clopen. Let $s\neq s'$ be points of $S$, and choose disjoint open sets
+$U\ni s$ and $V\ni s'$, which exist because $S$ is Hausdorff. The closure
+$\overline U$ is clopen and contains $s$. It does not contain $s'$, since $V$
+is an open neighbourhood of $s'$ that does not meet $U$. Hence $\overline U$
+separates $s$ from $s'$. Neither compactness nor regularity is used.
+
+If $S$ is moreover compact, then it is a compact Hausdorff space in which
+clopen subsets separate points. A compact Hausdorff space in which clopen subsets separate points is profinite: the map to the inverse limit of its finite quotients by finite partitions into clopen subsets is continuous, injective because clopen subsets separate points, and surjective by compactness, and a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-007]{reference proof 007}\,(p.~\pageref{bp-proof-007}).}\par
 
@@ -2374,11 +2395,37 @@ degree it gives the statement for complexes; see \stacks{0945}.
 
 \begin{bpcorollary}[Detecting isomorphisms]
 \label{bp-r020-7}
-Isomorphisms of $\mathcal R$-module sheaves can be tested by evaluation on all affine weakly contractible objects.
+A morphism $f\colon A\to B$ of $\mathcal R$-module sheaves is an
+isomorphism if and only if $f(W)\colon A(W)\to B(W)$ is bijective for
+every affine weakly contractible $W$.
+
+Likewise, a morphism $v\colon K\to L$ of complexes of
+$\mathcal R$-module sheaves is a quasi-isomorphism if and only if
+$v(W)\colon K(W)\to L(W)$ is a quasi-isomorphism for every such $W$.
+No boundedness assumption is needed.
 \end{bpcorollary}
 \BPProofAnchor{bp-clause-proof-r020-7}
 \begin{proof}[Proof of clause~\ref{bp-r020-7}]
-If a map is an isomorphism on every affine weakly contractible $W$, its kernel and cokernel vanish on all such $W$, by exact evaluation. These objects cover every object of the site, so both sheaves vanish. The map is therefore an isomorphism.
+If $f$ is an isomorphism, so is every $f(W)$. Conversely, suppose that every
+$f(W)$ is bijective. Apply clause~\ref{bp-r020-6} to the sequence
+$0\to A\xrightarrow{f}B$. On every affine weakly contractible $W$ the sequence
+$0\to A(W)\to B(W)$ is exact because $f(W)$ is injective, so the sequence is
+exact at $A$, that is, $f$ is a monomorphism. Apply clause~\ref{bp-r020-6}
+to $A\xrightarrow{f}B\to0$. On every such $W$ it is exact at $B(W)$ because
+$f(W)$ is surjective, so $f$ is an epimorphism. In the abelian category of
+$\mathcal R$-module sheaves a monomorphism that is an epimorphism is an
+isomorphism.
+
+For complexes, let $C=\Cone(v)$, with $C^q=K^{q+1}\oplus L^q$ and the usual
+differential. The termwise split exact sequence $0\to L\to C\to K[1]\to0$
+gives a long exact cohomology sequence whose connecting maps are, up to sign,
+the maps $H^q(v)$. Hence $v$ is a quasi-isomorphism if and only if $C$ is
+acyclic. Evaluation at $W$ is additive and commutes with the differentials,
+so $C(W)$ is the cone of $v(W)$, and in the same way $v(W)$ is a
+quasi-isomorphism if and only if $C(W)$ is acyclic. By the second assertion
+of clause~\ref{bp-r020-6}, $C$ is acyclic if and only if $C(W)$ is acyclic
+for every affine weakly contractible $W$. This proves the assertion for
+complexes, again without any boundedness assumption.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-014]{reference proof 014}\,(p.~\pageref{bp-proof-014}).}\par
 
@@ -2662,32 +2709,77 @@ $\varprojlim_nH^q(K_n)$, which gives \eqref{equation-milnor-sequence}.
 
 \begin{bpproposition}[Source clause 2]
 \label{bp-r024-2}
-For a tower $(K_n)$ of complexes there is a short exact sequence of
-sheaves
+Let $\mathcal R$ be a sheaf of rings on $X_{\proet}$ and let $(K_n)$ be a
+countable tower of complexes of $\mathcal R$-modules, with no boundedness
+assumption. For each integer $q$ there are maps $a_K,b_K$, natural in maps
+of towers, giving a short exact sequence
+\[
+0\longrightarrow
+\coker\Bigl(\prod_nH^{q-1}(K_n)\xrightarrow{\,1-T\,}
+\prod_nH^{q-1}(K_n)\Bigr)
+\xrightarrow{\,a_K\,}H^q(\Cone(1-T)[-1])
+\xrightarrow{\,b_K\,}\varprojlim_nH^q(K_n)
+\longrightarrow0.
+\]
+Here the middle cone is formed on the termwise product of the $K_n$,
+as in \eqref{equation-rlim-cone}. Using the isomorphism $e_1$ of
+clause~\ref{bp-r024-1} for the tower $(H^{q-1}(K_n))$ gives the short
+exact sequence
 \begin{equation}\label{equation-milnor-sequence}
  0\longrightarrow R^1\varprojlim_n H^{q-1}(K_n)
- \longrightarrow H^q(R\varprojlim_nK_n)
- \longrightarrow \varprojlim_n H^q(K_n)
+ \xrightarrow{\,a_K\circ e_1\,} H^q(R\varprojlim_nK_n)
+ \xrightarrow{\,b_K\,} \varprojlim_n H^q(K_n)
  \longrightarrow 0.
 \end{equation}
+
+More generally, let $\mathcal A$ be an abelian category with exact
+countable products in which every complex has a K-injective resolution.
+Let $(F_n)$ be a tower in $D(\mathcal A)$ with transition maps
+$t_n:F_{n+1}\to F_n$, and let $L$, with its maps $L\to F_n$, be a
+homotopy limit of the tower, as in \eqref{equation-rlim-cone}. Let $i$ be
+an integer and put $j=i+1$. Let $P=\prod_nH^i(F_n)$, with the endomorphism
+$T$ satisfying $\operatorname{pr}_nT=H^i(t_n)\operatorname{pr}_{n+1}$.
+There is a short exact sequence in $\mathcal A$
+\[
+0\longrightarrow\coker(1-T:P\to P)
+\longrightarrow H^j(L)\longrightarrow\varprojlim_nH^j(F_n)\longrightarrow0,
+\]
+whose right map is induced by the maps $L\to F_n$.
 \end{bpproposition}
 \BPProofAnchor{bp-clause-proof-r024-2}
 \begin{proof}[Proof of clause~\ref{bp-r024-2}]
-Everything follows from the triangle \eqref{equation-rlim-cone}. For a tower of
-modules, $R\varprojlim_nM_n$ is the fibre of a map between two sheaves in
-degree $0$, so it has cohomology only in degrees $0$ and $1$, namely the
-kernel and the cokernel of $1-T$. The kernel is $\varprojlim_nM_n$, and
-the cokernel is $R^1\varprojlim_nM_n$, which proves the first two
-assertions. For a tower of complexes, the long exact cohomology sequence
-of \eqref{equation-rlim-cone} reads
+Everything follows from the triangle \eqref{equation-rlim-cone}. The cone
+is formed on the level of complexes, so the triangle
+$\Cone(1-T)[-1]\to\prod_nK_n\xrightarrow{1-T}\prod_nK_n\to$ is functorial in
+the tower, and its long exact cohomology sequence reads
 \[
  \prod_nH^{q-1}(K_n)\xrightarrow{1-T}\prod_nH^{q-1}(K_n)
- \to H^q(R\varprojlim_nK_n)\to\prod_nH^q(K_n)\xrightarrow{1-T}\prod_nH^q(K_n),
+ \to H^q(\Cone(1-T)[-1])\to\prod_nH^q(K_n)\xrightarrow{1-T}\prod_nH^q(K_n),
 \]
-where we used that by Proposition~\ref{proposition-exact-products} the cohomology of each
-product is the product of the cohomology sheaves. The cokernel on the left
-is $R^1\varprojlim_nH^{q-1}(K_n)$ and the kernel on the right is
-$\varprojlim_nH^q(K_n)$, which gives \eqref{equation-milnor-sequence}.
+where we used that by Proposition~\ref{proposition-exact-products} the
+cohomology of each product is the product of the cohomology sheaves. The
+kernel of $1-T$ on the right is $\varprojlim_nH^q(K_n)$. Let $a_K$ be the
+map induced on the cokernel on the left and $b_K$ the map to this kernel;
+both are natural in the tower because the triangle and its long exact
+sequence are. This gives the first sequence. By clause~\ref{bp-r024-1},
+applied to the tower of sheaves $(H^{q-1}(K_n))$, the isomorphism $e_1$
+identifies $R^1\varprojlim_nH^{q-1}(K_n)=H^1(R\varprojlim_nH^{q-1}(K_n))$
+with the cokernel on the left, and $\Cone(1-T)[-1]=R\varprojlim_nK_n$ by
+\eqref{equation-rlim-cone}. This gives \eqref{equation-milnor-sequence}.
+
+For the general statement, the homotopy limit $L$ sits in a distinguished
+triangle $L\to\prod_nF_n\xrightarrow{1-T}\prod_nF_n\to L[1]$ in
+$D(\mathcal A)$, whose first map has the maps $L\to F_n$ as components.
+The product in $D(\mathcal A)$ is the termwise product of K-injective
+representatives. Since countable products in $\mathcal A$ are exact, they
+commute with cohomology, so $H^i(\prod_nF_n)=\prod_nH^i(F_n)=P$, and
+$H^i(1-T)$ is $1-T$ for the endomorphism $T$ of the statement. The long
+exact cohomology sequence of the triangle,
+\[
+ P\xrightarrow{1-T}P\to H^j(L)\to\prod_nH^j(F_n)\xrightarrow{1-T}\prod_nH^j(F_n),
+\]
+then gives the asserted sequence, since the kernel on the right is
+$\varprojlim_nH^j(F_n)$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-017]{reference proof 017}\,(p.~\pageref{bp-proof-017}).}\par
 
@@ -3448,36 +3540,102 @@ by resolving a bounded-below complex by injectives.
 
 \begin{bptheorem}[Source clause 1]
 \label{bp-r035-1}
-For $K\in D^+(X_{\et},\Lambda)$ the unit of the adjunction between
-$\nu_X^*:D^+(X_{\et},\Lambda)\to D^+(X_{\proet},\Lambda)$ and
-$R\nu_{X,*}$ is an isomorphism
+Let $X$ be a scheme and $\mathcal A$ a Grothendieck abelian category.
+For a bounded below object $K\in D(X_{\et},\mathcal A)$, the unit of the
+derived adjunction $\nu_X^*\dashv R\nu_{X,*}$ is an isomorphism
 \begin{equation}\label{equation-derived-unit}
  K\xrightarrow{\ \sim\ }R\nu_{X,*}\nu_X^*K.
 \end{equation}
+Here $\nu_X^*$ on derived categories is induced by the exact inverse image
+on sheaves. In particular, taking $\mathcal A=\Mod(\Lambda)$ for a
+discrete commutative ring $\Lambda$ gives the comparison on
+$D^+(X_{\et},\Lambda)$.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r035-1}
 \begin{proof}[Proof of clause~\ref{bp-r035-1}]
-Choose a bounded-below injective resolution $K\to I^\bullet$. Since
-$\nu_X^*$ is exact, $\nu_X^*I^\bullet$ represents $\nu_X^*K$, and by
-Lemma~\ref{lemma-acyclicity-pulled-back-injectives} its terms are $\nu_{X,*}$-acyclic,
-so $R\nu_{X,*}\nu_X^*K$ is computed by the complex
-$\nu_{X,*}\nu_X^*I^\bullet$. By Theorem~\ref{theorem-classical-sheaves-essential-image} the
-unit $I^q\to\nu_{X,*}\nu_X^*I^q$ is an isomorphism for every $q$, so
-this complex is $I^\bullet$, which proves \eqref{equation-derived-unit}.
-Since $\Gamma(X_{\proet},-)=\Gamma(X_{\et},-)\circ\nu_{X,*}$, the statement on
-global sections follows by composing the derived functors; see
-\stackss{099V}{099W}.
+The category $\Sh(X_{\et},\mathcal A)$ is Grothendieck abelian, so we may
+choose a bounded-below injective resolution $K\to I^\bullet$. Since
+$\nu_X^*$ is exact, $\nu_X^*I^\bullet$ represents $\nu_X^*K$.
+
+Each $\nu_X^*I^q$ is $\nu_{X,*}$-acyclic. For sheaves of
+$\Lambda$-modules this is Lemma~\ref{lemma-acyclicity-pulled-back-injectives}.
+Its proof applies verbatim to an injective sheaf $I$ with values in
+$\mathcal A$, once the free sheaves of $\Lambda$-modules on the nerve of a
+covering are replaced as follows. For an object $a$ of $\mathcal A$ and an
+\'etale object $U$, let $a_U$ be the sheaf associated with
+$V\mapsto\bigoplus_{\Hom(V,U)}a$, so that
+$\Hom(a_U,I)=\Hom_{\mathcal A}(a,I(U))$. For an \'etale covering of $V$,
+the augmented complex of the sheaves $a_U$ on its nerve is exact: locally
+the covering has a section, and then the complex is $a$ tensored with the
+chain complex of the \v{C}ech nerve of a nonempty set, which is
+contractible. As $I$ is injective, applying $\Hom(-,I)$ shows that
+$\Hom_{\mathcal A}(a,-)$ of the augmented \v{C}ech complex of $I$ is exact
+for every $a$. Taking for $a$ the cycles in a given degree shows that the
+\v{C}ech complex of $I$ itself has no positive cohomology, and the rest of
+the argument is unchanged.
+
+By Theorem~\ref{theorem-classical-sheaves-essential-image}, $\nu_X^*$ is
+fully faithful on $\mathcal A$-valued sheaves, so the unit
+$I^q\to\nu_{X,*}\nu_X^*I^q$ is an isomorphism for every $q$. Hence
+$R\nu_{X,*}\nu_X^*K$ is computed by the complex
+$\nu_{X,*}\nu_X^*I^\bullet\simeq I^\bullet$, and the derived unit is
+identified with the resolution $K\to I^\bullet$. This proves
+\eqref{equation-derived-unit}. For $\mathcal A=\Mod(\Lambda)$ the derived
+categories involved are $D^+(X_{\et},\Lambda)$ and
+$D^+(X_{\proet},\Lambda)$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-025]{reference proof 025}\,(p.~\pageref{bp-proof-025}).}\par
 
 
-\begin{bptheorem}[Source clause 2]
+\begin{bptheorem}[Full faithfulness on bounded-below targets]
 \label{bp-r035-2}
-Consequently $\nu_X^*:D^+(X_{\et},\Lambda)\to D^+(X_{\proet},\Lambda)$ is fully faithful,
+For every $K\in D(X_{\et},\Lambda)$ and every $M\in D^+(X_{\et},\Lambda)$,
+the map
+\[
+ \Hom_{D(X_{\et},\Lambda)}(K,M)\longrightarrow
+ \Hom_{D(X_{\proet},\Lambda)}(\nu_X^*K,\nu_X^*M),\qquad
+ f\longmapsto\nu_X^*f,
+\]
+is bijective. Here $\nu_X^*$ is applied termwise to complexes, and no
+boundedness assumption on $K$ is needed. Consequently
+$\nu_X^*:D^+(X_{\et},\Lambda)\to D^+(X_{\proet},\Lambda)$ is fully faithful.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r035-2}
 \begin{proof}[Proof of clause~\ref{bp-r035-2}]
-For an adjunction, the left adjoint is fully faithful precisely when its unit is an isomorphism. The unit is an isomorphism by clause~\ref{bp-r035-1}, so $\nu_X^*$ is fully faithful on the stated bounded-below derived categories.
+Since $\nu_X^*$ is exact, applying it termwise preserves acyclic complexes
+and quasi-isomorphisms, so it defines
+$\nu_X^*:D(X_{\et},\Lambda)\to D(X_{\proet},\Lambda)$ on the unbounded derived
+categories. As in clause~\ref{bp-r027-1}, sheaves of $\Lambda$-modules on
+$X_{\proet}$ form a Grothendieck category, every complex $N$ has a K-injective
+resolution $N\to J$ \stacks{079P}, and $R\nu_{X,*}N$ is represented by
+$\nu_{X,*}J$.
+
+We first check that $R\nu_{X,*}$ is right adjoint to $\nu_X^*$ on the
+unbounded derived categories. Write $[C,C']$ for maps of complexes up to
+homotopy. The adjunction $\nu_X^*\dashv\nu_{X,*}$ on sheaves of modules gives,
+for complexes $C$ on $X_{\et}$ and $J$ on $X_{\proet}$, an isomorphism of Hom
+complexes, hence a bijection $[C,\nu_{X,*}J]\simeq[\nu_X^*C,J]$. If $J$ is
+K-injective and $C$ is acyclic, then $\nu_X^*C$ is acyclic, so
+$[\nu_X^*C,J]=0$ and therefore $[C,\nu_{X,*}J]=0$. Thus $\nu_{X,*}J$ is
+K-injective. Maps in the derived category into a K-injective complex are
+maps up to homotopy, so for every $K$ and every $N$ with K-injective
+resolution $N\to J$ we obtain bijections, natural in $K$ and $N$,
+\[
+ \Hom(K,R\nu_{X,*}N)=[K,\nu_{X,*}J]\simeq[\nu_X^*K,J]
+ =\Hom(\nu_X^*K,N).
+\]
+
+For any adjunction with unit $\eta$, the map $f\mapsto\nu_X^*f$ is the
+composite of $f\mapsto\eta_M\circ f$, from $\Hom(K,M)$ to
+$\Hom(K,R\nu_{X,*}\nu_X^*M)$, with the adjunction bijection; this is one of
+the triangle identities. It therefore suffices to show that
+$\eta_M:M\to R\nu_{X,*}\nu_X^*M$ is an isomorphism for
+$M\in D^+(X_{\et},\Lambda)$. For such $M$ the complex $\nu_X^*M$ is bounded
+below, and a bounded-below complex of injectives is K-injective. So
+$R\nu_{X,*}\nu_X^*M$ and $\eta_M$ are the object and the map of
+\eqref{equation-derived-unit}, and clause~\ref{bp-r035-1} shows that $\eta_M$ is an
+isomorphism. Restricting to $K\in D^+(X_{\et},\Lambda)$ gives the final
+assertion.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-025]{reference proof 025}\,(p.~\pageref{bp-proof-025}).}\par
 
@@ -3828,10 +3986,15 @@ identifies these functors on the two sites.
 \item
 \begin{bpproposition}[Source clause 1]
 \label{bp-r040-1}
-For an open immersion $j:U\hookrightarrow X$, there is a canonical
-  isomorphism
+Let $A$ be a Grothendieck abelian category. For an open immersion
+$j:U\hookrightarrow X$, there is a canonical isomorphism
+\[
+ \nu_X^*j_{\et,!}\simeq j_{\proet,!}\nu_U^*
+ \quad\text{of functors }\Sh(U_{\et},A)\to\Sh(X_{\proet},A).
+\]
+For $A=\Mod(\Lambda)$, this is the isomorphism
 \begin{equation}\label{equation-jshriek-comparison}
- \nu_X^*j_{\et,!}\simeq j_{\proet,!}\nu_U^*\quad\text{of functors }\Mod(U_{\et},\Lambda)\to\Mod(X_{\proet},\Lambda),
+ \nu_X^*j_{\et,!}\simeq j_{\proet,!}\nu_U^*\quad\text{of functors }\Mod(U_{\et},\Lambda)\to\Mod(X_{\proet},\Lambda).
 \end{equation}
 \end{bpproposition}
 \BPProofAnchor{bp-clause-proof-r040-1}
@@ -3841,9 +4004,17 @@ Both functors are left adjoint to restriction followed by $\nu_{U,*}$. Uniquenes
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-030]{reference proof 030}\,(p.~\pageref{bp-proof-030}).}\par
 
 
-\begin{bpproposition}[Source clause 2]
+\begin{bpproposition}[Extension by zero on unbounded derived categories]
 \label{bp-r040-2}
-and hence of functors $D(U_{\et},\Lambda)\to D(X_{\proet},\Lambda)$.
+For an open immersion $j:U\hookrightarrow X$, the isomorphism
+\eqref{equation-jshriek-comparison}, applied termwise to complexes, induces a
+canonical isomorphism
+\[
+ \nu_X^*j_{\et,!}\simeq j_{\proet,!}\nu_U^*
+ \quad\text{of functors }D(U_{\et},\Lambda)\to D(X_{\proet},\Lambda)
+\]
+on the unbounded derived categories. Here the four functors are exact on
+sheaves of $\Lambda$-modules, and on complexes they are applied termwise.
 \end{bpproposition}
 \BPProofAnchor{bp-clause-proof-r040-2}
 \begin{proof}[Proof of clause~\ref{bp-r040-2}]
@@ -5005,16 +5176,38 @@ It suffices to work over the point, since $p_X^*$ is exact. On a profinite set $
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-041]{reference proof 041}\,(p.~\pageref{bp-proof-041}).}\par
 
 
-\begin{bpcorollary}[Source clause 2]
+\begin{bpcorollary}[Two-term resolutions of the finite quotients]
 \label{bp-r052-2}
-Thus the quotient is represented by the two-term complex
-$[\mathcal O_{E,X}\xrightarrow{\pi_E^n}\mathcal O_{E,X}]$ in degrees
-$-1,0$. Under this representation, reduction from level $n+1$ to level
-$n$ is the chain map $(\pi_E,\mathrm{id})$.
+Put $R=\mathcal O_{E,X}$ and $B_n=(\mathcal O_E/\pi_E^n)_X$. For $n\geq1$, the
+augmentation
+\[
+ [R\xrightarrow{\pi_E^n}R]\longrightarrow B_n[0],
+\]
+with the two terms in degrees $-1,0$ and given in degree $0$ by the quotient
+map of clause~\ref{bp-r052-1}, is a quasi-isomorphism. Reduction from level
+$n+1$ to level $n$ is represented by the chain map $(\pi_E,\mathrm{id})$ from
+$[R\xrightarrow{\pi_E^{n+1}}R]$ to $[R\xrightarrow{\pi_E^n}R]$: it is compatible
+with the two augmentations and the reduction map $B_{n+1}\to B_n$, so under
+these quasi-isomorphisms it is that map in $D(X_{\proet},\mathcal O_E)$.
 \end{bpcorollary}
 \BPProofAnchor{bp-clause-proof-r052-2}
 \begin{proof}[Proof of clause~\ref{bp-r052-2}]
-Clause~\ref{bp-r052-1} identifies the cokernel of multiplication by $\pi_E^n$ with the quotient and makes its kernel zero, so the two-term complex is its resolution. The equality $\pi_E^n\pi_E=\pi_E^{n+1}$ verifies the chain-map condition, and its degree-zero identity induces the quotient projection.
+Write $q_n:R\to B_n$ for the quotient map of clause~\ref{bp-r052-1}. Since
+$q_n\circ\pi_E^n=0$ by exactness of that sequence in the middle, the zero map
+in degree $-1$ and $q_n$ in degree $0$ form a chain map
+$[R\xrightarrow{\pi_E^n}R]\to B_n[0]$. The cohomology of the two-term complex
+is $\ker(\pi_E^n)$ in degree $-1$ and $\coker(\pi_E^n)$ in degree $0$. By
+clause~\ref{bp-r052-1} the kernel is zero and $q_n$ induces an isomorphism
+$\coker(\pi_E^n)\simeq B_n$. Hence the augmentation is a quasi-isomorphism.
+
+The pair $(\pi_E,\mathrm{id})$ is a chain map from
+$[R\xrightarrow{\pi_E^{n+1}}R]$ to $[R\xrightarrow{\pi_E^n}R]$, because
+$\pi_E^n\circ\pi_E=\pi_E^{n+1}=\mathrm{id}\circ\pi_E^{n+1}$. In degree $0$
+it is the identity of $R$, and the reduction map $r:B_{n+1}\to B_n$ satisfies
+$r\circ q_{n+1}=q_n$. So the square formed by the two augmentations,
+$(\pi_E,\mathrm{id})$ and $r[0]$ commutes already on the level of complexes.
+Since the augmentations are quasi-isomorphisms, $(\pi_E,\mathrm{id})$
+represents $r$ in $D(X_{\proet},\mathcal O_E)$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-041]{reference proof 041}\,(p.~\pageref{bp-proof-041}).}\par
 
@@ -5241,7 +5434,14 @@ Proposition~\ref{proposition-proper-direct-image-constructible-complexes}.
 
 \begin{bplemma}[Inverse image of coefficients]
 \label{bp-r054-1}
-For every admissible $\Lambda$, the canonical map $f^{-1}\Lambda_Y\to\Lambda_X$ is an isomorphism of sheaves of rings.
+For every condensed ring $\Lambda$, put $\Lambda_T=p_T^*\Lambda$ for a
+scheme $T$, as in Section~\ref{section-coefficient-sheaves}. The canonical map
+\[
+ f^{-1}\Lambda_Y\longrightarrow\Lambda_X
+\]
+is a morphism of ring objects in abelian sheaves and an isomorphism on the
+underlying abelian sheaves, hence an isomorphism of sheaves of rings.
+No admissibility or commutativity assumption on $\Lambda$ is needed.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r054-1}
 \begin{proof}[Proof of clause~\ref{bp-r054-1}]
@@ -5292,7 +5492,15 @@ back along $p_X$, and invert $\ell$ for the fields.
 
 \begin{bplemma}[Rational finite extension]
 \label{bp-r054-4}
-For a finite extension $E\subset E'$, the sheaf $E'_X$ is finite free over $E_X$.
+Let $E\subset E'$ be finite extensions of $\Ql$ in the fixed
+algebraic closure, with the coefficient sheaves of
+Section~\ref{section-coefficient-sheaves}. There is an integer $d\geq 0$,
+independent of the scheme $X$, such that
+\[
+ E'_X\simeq E_X^{\oplus d}
+\]
+as $E_X$-modules, where $E_X$ acts on $E'_X$ through the coefficient
+inclusion. In particular, $E'_X$ is finite free over $E_X$.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r054-4}
 \begin{proof}[Proof of clause~\ref{bp-r054-4}]
@@ -7250,13 +7458,59 @@ scheme carries a universal lattice.
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-057]{reference proof 057}\,(p.~\pageref{bp-proof-057}).}\par
 
 
-\begin{bplemma}[Source clause 2]
+\begin{bplemma}[Lattices \'etale locally]
 \label{bp-r077-2}
-In particular, $L$ admits a lattice \'etale locally on $X$.
+Let $E/\Ql$ be finite and let $L$ be an $E_X$-module on $X_{\proet}$ which is
+locally free of finite rank. There are an \'etale covering
+$\{f_i:Y_i\to X\}_{i\in I}$ and, for every $i$, a locally free
+$\mathcal O_{E,Y_i}$-module $M_i$ of finite rank with an isomorphism
+\[
+ M_i\otimes_{\mathcal O_{E,Y_i}}E_{Y_i}\simeq f_i^{-1}L.
+\]
+If the underlying topological space of $X$ is Noetherian, there are a
+surjective \'etale morphism $p:U\to X$ with $U$ affine, in particular
+quasi-compact and quasi-separated, and a locally free
+$\mathcal O_{E,U}$-module $M$ of finite rank such that
+\[
+ M\otimes_{\mathcal O_{E,U}}E_U\simeq p^{-1}L.
+\]
+The ranks may vary, and rank zero and the empty scheme are allowed.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r077-2}
 \begin{proof}[Proof of clause~\ref{bp-r077-2}]
-The representing scheme in clause~\ref{bp-r077-1} is a surjective \'etale $X$-scheme. Its universal lattice is a lattice in the pullback of $L$ by the representing property. This gives the desired lattice on an \'etale covering.
+By Remark~\ref{bp-r065-1}(3), an $E_X$-module that is locally free of finite
+rank is lisse, so clause~\ref{bp-r077-1} applies to $L$. Let $Y\to X$ be the
+separated surjective \'etale $X$-scheme representing the sheaf of lattices
+in $L$, and let $M_Y\subset L|_Y$ be its universal lattice. Cover $Y$ by
+affine open subschemes $Y_i$, $i\in I$, and let $f_i:Y_i\to X$ be the
+composite. Each $f_i$ is \'etale, and together they are surjective because
+$Y\to X$ is, so $\{f_i\}$ is an \'etale covering. Since $Y_i$ is \'etale
+over $X$, it is an object of $X_{\proet}$ and $f_i^{-1}L=L|_{Y_i}$. Put
+$M_i=M_Y|_{Y_i}$. Since the lattices form a sheaf, $M_i$ is a lattice in
+$L|_{Y_i}$: by Definition~\ref{bp-r076-1} it is a lisse
+$\mathcal O_{E,Y_i}$-submodule with $M_i[1/\ell]=L|_{Y_i}$.
+
+The module $M_i$ is locally free of finite rank. Indeed, $\ell$ acts
+invertibly on $L|_{Y_i}$, so multiplication by $\ell$ is injective on the
+submodule $M_i$. Thus $M_i$ is a torsion free lisse
+$\mathcal O_{E,Y_i}$-module, and such a module is locally free of finite rank
+by Remark~\ref{bp-r065-1}(6). Finally, $E_{Y_i}=\mathcal O_{E,Y_i}[1/\ell]$ by
+clause~\ref{bp-r051-2}, and localization is a filtered colimit, so
+$M_i\otimes_{\mathcal O_{E,Y_i}}E_{Y_i}=M_i[1/\ell]$. Under this
+identification the map induced by the inclusion $M_i\subset L|_{Y_i}$ is the
+equality $M_i[1/\ell]=L|_{Y_i}$ in the definition of a lattice. This proves
+the first assertion.
+
+Now let the underlying space of $X$ be Noetherian, so that $X$ is
+quasi-compact. Since \'etale morphisms are open, the images $f_i(Y_i)$ form
+an open covering of $X$, and finitely many of them, say for $i\in I_0$,
+already cover $X$. Put $U=\coprod_{i\in I_0}Y_i$, let $p$ be induced by the
+$f_i$, and let $M$ be $M_i$ on $Y_i$. A finite disjoint union of affine
+schemes is affine, so $U$ is quasi-compact and quasi-separated. The map $p$
+is \'etale and surjective, and $M$ is locally free of finite rank with
+$M\otimes_{\mathcal O_{E,U}}E_U\simeq p^{-1}L$, componentwise by the first
+part. The argument nowhere uses that the rank is constant, and it applies
+verbatim when $L=0$ or $X$ is empty.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-057]{reference proof 057}\,(p.~\pageref{bp-proof-057}).}\par
 
@@ -10217,15 +10471,21 @@ descent of finite presentation.
 
 \begin{bpremark}[Finite torsors]
 \label{bp-r108-3}
-In particular, for a finite abelian
-group $M$, we obtain
+Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and let
+$i:Y_0\to Y$ be the closed fibre over $B/J$. For every finite abelian
+group $M$, restriction on \'etale cohomology is a bijection
 \begin{equation}
  H^1(Y,\underline M)\xrightarrow{\sim}H^1(Y_0,\underline M).
  \label{equation-finite-torsors}
 \end{equation}
-Indeed, these groups classify $M$-torsors, and the equivalence transports
-finite \'etale covers, their group actions, and the equations expressing
-simple transitivity.
+Here the target of the restriction map is first
+$H^1(Y_0,i^*\underline M)$, which we identify with
+$H^1(Y_0,\underline M)$ using the canonical isomorphism
+$i^*\underline M\simeq\underline M$.
+
+Indeed, these groups classify $M$-torsors, and the equivalence of
+clause~\ref{bp-r108-2} transports finite \'etale covers, their group
+actions, and the equations expressing simple transitivity.
 \end{bpremark}
 \end{enumerate}
 
@@ -14928,11 +15188,61 @@ uses preserve $\Dbc(-,\mathcal O_E)$.
 
 \begin{bplemma}[Inverse image]
 \label{bp-r149-1}
-For $f:X\to Y$, the functor $f^*_{\mathcal O_E}$ sends $\Dbc(Y_{\proet},\mathcal O_E)$ into $\Dbc(X_{\proet},\mathcal O_E)$.
+Let $\Lambda$ be a commutative condensed ring and $f:X\to Y$ a morphism of
+schemes. Then $\mathbf Lf^*$ sends $\Dbc(Y,\Lambda)$ into $\Dbc(X,\Lambda)$.
+No Noetherian or finite type hypothesis is required. In particular, for
+$\Lambda=\mathcal O_E$ the functor $f^*_{\mathcal O_E}$ sends
+$\Dbc(Y_{\proet},\mathcal O_E)$ into $\Dbc(X_{\proet},\mathcal O_E)$.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r149-1}
 \begin{proof}[Proof of clause~\ref{bp-r149-1}]
-Pull back a local finite-free model from Lemma~\ref{lemma-integral-models}(3). The comparison of coefficient sheaves identifies its inverse image with the same finite complex over the pulled-back coefficient sheaf. A pulled-back finite stratification and these models show that the result is integral constructible.
+The coefficient sheaves are pulled back from the point, and by
+clause~\ref{bp-r052-3} there is a canonical monoidal isomorphism
+$f^{-1}\circ p_Y^*\simeq p_X^*$. Hence $f^{-1}\Lambda_Y\simeq\Lambda_X$ as
+sheaves of rings, and the module inverse image
+$f^*=\Lambda_X\otimes_{f^{-1}\Lambda_Y}f^{-1}(-)$ is $f^{-1}$, which is exact.
+So $\mathbf Lf^*$ is computed termwise by $f^{-1}$, and
+$H^q(\mathbf Lf^*K)=f^{-1}H^q(K)$. If $K$ is bounded, so is $\mathbf Lf^*K$,
+and it remains to show that $f^{-1}N$ is constructible for every
+constructible $\Lambda_Y$-module $N$.
+
+First let $g:V\to W$ be a quasi-compact morphism of qcqs schemes, and let
+$N$ be constructible on $W$ in the sense of Definition~\ref{bp-r063-2}, with
+stratification $W=\coprod_aW_a$. The inverse image of a quasi-compact open
+under $g$ is quasi-compact, so the inverse images $V_a=g^{-1}(W_a)$ are
+constructible. They are locally closed, and with the subscheme structures
+$V\times_WW_a$ they form a finite stratification of $V$. Let
+$\{U_{a,i}\to W_a\}$ be a pro-\'etale cover with
+$N|_{U_{a,i}}\simeq\Lambda_{U_{a,i}}\otimes_{\Lambda(*)}P_{a,i}$ as in
+condition (1) of Definition~\ref{bp-r063-1}. The base changes
+$\{U_{a,i}\times_{W_a}V_a\to V_a\}$ form a pro-\'etale cover. Inverse image
+commutes with restriction and with colimits, hence with
+$-\otimes_{\Lambda(*)}P_{a,i}$ for the constant sheaf $P_{a,i}$, and it
+carries $\Lambda_{U_{a,i}}$ to $\Lambda_{U_{a,i}\times_{W_a}V_a}$ by
+clause~\ref{bp-r052-3}. So $(g^{-1}N)|_{V_a}$ satisfies condition (1) with the
+same finitely presented modules $P_{a,i}$, and $g^{-1}N$ is constructible on
+$V$. Applied to a quasi-compact open immersion, this shows that
+constructibility on a qcqs scheme passes to quasi-compact opens. Conversely,
+if a qcqs scheme $V$ is covered by quasi-compact opens $V_1,\dots,V_m$ on each
+of which a module is constructible, then it is constructible on $V$:
+intersect the strata on $V_b$ with the constructible locally closed subset
+$V_b\setminus(V_1\cup\dots\cup V_{b-1})$; condition (1) persists on the
+smaller strata by restricting the covers.
+
+Now let $f:X\to Y$ be arbitrary and $N$ constructible on $Y$. Then $Y$ is
+covered by affine opens on which $N$ is constructible: by definition if $Y$
+is arbitrary, and by the previous paragraph if $Y$ is qcqs, since an affine
+open of $Y$ is then a quasi-compact open. By the previous paragraph, $N$ is
+also constructible on every affine open contained in one of them. Let $V\subset X$
+be an affine open. Its image is quasi-compact, so $V$ is covered by finitely
+many affine opens $V_b$, each mapping into an affine open $W_b\subset Y$ on
+which $N$ is constructible. The morphisms $V_b\to W_b$ are morphisms of affine
+schemes, hence quasi-compact, so $(f^{-1}N)|_{V_b}$ is constructible, and by
+the gluing remark $(f^{-1}N)|_V$ is constructible. Thus $f^{-1}N$ is
+constructible on every affine open of $X$. If $X$ is qcqs, the gluing remark
+applied to a finite covering of $X$ by affine opens shows that $f^{-1}N$ is
+constructible on $X$ in the sense of Definition~\ref{bp-r063-2} for qcqs
+schemes. Hence $\mathbf Lf^*K\in\Dbc(X,\Lambda)$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-104]{reference proof 104}\,(p.~\pageref{bp-proof-104}).}\par
 
@@ -14976,11 +15286,39 @@ Use Lemma~\ref{lemma-integral-models}(3) on the open stratum and add the closed 
 
 \begin{bplemma}[Closed direct image]
 \label{bp-r149-4}
-For a closed immersion $i:Z\hookrightarrow X$, the functor $i_{*,\mathcal O_E}$ sends $\Dbc(Z_{\proet},\mathcal O_E)$ into $\Dbc(X_{\proet},\mathcal O_E)$.
+Let $\Lambda$ be a commutative condensed ring, let $X$ be a scheme whose
+underlying topological space is Noetherian, and let $i:Z\hookrightarrow X$
+be a closed immersion. For $K\in\Dbc(Z,\Lambda)$ one has
+\[
+ \mathbf Ri_*K\in\Dbc(X,\Lambda).
+\]
+In particular, for $\Lambda=\mathcal O_E$ the functor $i_{*,\mathcal O_E}$
+sends $\Dbc(Z_{\proet},\mathcal O_E)$ into $\Dbc(X_{\proet},\mathcal O_E)$.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r149-4}
 \begin{proof}[Proof of clause~\ref{bp-r149-4}]
-Closed direct image is exact and preserves limits by \stackss{09AA}{09BM}. It therefore preserves the derived-completeness and reduction conditions of Lemma~\ref{lemma-integral-models}(3). On the closed subscheme the models are the given ones, and on its open complement they vanish, proving constructibility.
+Here $i_*$ sends $\Lambda_Z$-modules to $\Lambda_X$-modules through
+$\Lambda_X\to i_*i^{-1}\Lambda_X=i_*\Lambda_Z$, where $i^{-1}\Lambda_X=\Lambda_Z$
+because both are pulled back from the point (clause~\ref{bp-r052-3}). On the
+pro-\'etale sites $i_*$ is exact and $i^{-1}i_*=\mathrm{id}$
+\stacksss{09AA}{09AH}{09BM}. Hence $\mathbf Ri_*$ is computed termwise,
+$H^q(\mathbf Ri_*K)=i_*H^q(K)$, and $\mathbf Ri_*K$ is bounded when $K$ is. It
+remains to show that $i_*N$ is constructible for a constructible
+$\Lambda_Z$-module $N$.
+
+Since the underlying space of $X$ is Noetherian, $X$ and its closed subscheme
+$Z$ are quasi-compact and quasi-separated, and every locally closed subset of
+$X$ is constructible (Remark~\ref{bp-r065-1}(1)). Choose a finite
+stratification $Z=\coprod_aS_a$ for $N$ as in Definition~\ref{bp-r063-2}. The
+$S_a$, regarded as locally closed subschemes of $X$ via $i$, together with the
+open complement $U$ of $Z$, form a finite stratification of $X$ by
+constructible locally closed subschemes. On $S_a$ the restriction of $i_*N$ is
+the restriction of $i^{-1}i_*N=N$, which satisfies condition (1) of
+Definition~\ref{bp-r063-1} by the choice of the stratification. On $U$ the
+restriction vanishes: for an object $V$ of $X_{\proet}$ lying over $U$ one has
+$V\times_XZ=\emptyset$, so $(i_*N)(V)=N(\emptyset)=0$. The zero module
+satisfies condition (1) with $P=0$. Hence $i_*N$ is constructible, and
+$\mathbf Ri_*K\in\Dbc(X,\Lambda)$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-104]{reference proof 104}\,(p.~\pageref{bp-proof-104}).}\par
 
@@ -18768,31 +19106,124 @@ Hence the generic fibre of the complement has dimension less than $n$.
 
 \begin{bptheorem}[Source clause 1]
 \label{bp-r177-1}
-Let $S$ be integral, and let $j:X\hookrightarrow Y$ be an open immersion of
-$S$-schemes. For a constructible
-$\Fell$-sheaf $F$ on $X_{\proet}$, there is a nonempty open
-$S_0\subset S$ such that
+Let $k$ be a field, let $S$ be integral and of finite type over $k$, and
+let $Y\to S$ be of finite type. Let $\Lambda$ be a finite commutative ring
+such that some positive integer annihilating $\Lambda$ is invertible on
+$S$, and let $j:X\hookrightarrow Y$ be an open immersion. We work on the
+\'etale site, and write $\Dbc(Z,\Lambda)$ for bounded complexes of \'etale
+$\Lambda$-sheaves with constructible cohomology.
+
+For a constructible $\Lambda$-sheaf $F$ on $X_{\et}$, there is a
+nonempty open $S_0\subset S$ such that for every noetherian scheme $T$
+and every morphism $t:T\to S$ whose image lies in $S_0$, with base change
+$j_T:X_T\hookrightarrow Y_T$ and projection $g_X:X_T\to X$, one has
+\[
+ Rj_{T,*}g_X^*F\in\Dbc(Y_T,\Lambda).
+\]
+In particular, taking $T=S_0$ gives
 \begin{equation}\label{equation-g21}
- Rj_{S_0,*}(F|_{X_{S_0}})\in\Dbc(Y_{S_0},\Fell),
+ Rj_{S_0,*}(F|_{X_{S_0}})\in\Dbc(Y_{S_0},\Lambda).
 \end{equation}
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r177-1}
-\noindent{\small\textit{Proof of clause~\ref{bp-r177-1}.} The proof in \hyperref[bp-proof-127]{reference proof 127}\,(p.~\pageref{bp-proof-127}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-177}. The complete source argument is retained at its original position below or at the named proof location.}\par
+\begin{proof}[Proof of clause~\ref{bp-r177-1}]
+We prove clauses~\ref{bp-r177-1} and~\ref{bp-r177-2} together. Since
+$S_0\subset S$ is open, a morphism $t:T\to S$ with image in $S_0$ factors
+through $S_0$, and then $X_T=(X_{S_0})_T$ and $Y_T=(Y_{S_0})_T$. Write
+$F_0=F|_{X_{S_0}}$.
+
+\emph{Step 1: $\Lambda=\Fell$ and $T$ of finite type over $k$.} The prime
+$\ell$ is invertible on $S$. The argument of
+the proof of Theorem~\ref{theorem-generic-constructibility-base-change-rj}, applied to the \'etale sheaf
+$F$, gives a nonempty open $S_0$ for which \eqref{equation-g21} holds and
+\eqref{equation-g22} is an isomorphism for every $k$-scheme $T\to S_0$ of
+finite type.
+
+\emph{Step 2: finite $\Lambda$ and $T$ of finite type over $k$.} Let $N$
+be a positive integer killing $\Lambda$ and invertible on $S$. Then
+$\Lambda$ is the product of its $p$-primary parts for the primes $p$
+dividing $N$, and $F$, $Rj_*$, the inverse images and the base change maps
+decompose accordingly. So we may assume that $\Lambda$ is killed by $p^r$
+for a prime $p$ invertible on $S$. The functors $Rj_*$ commute with the
+forgetful functors to $\mathbf Z/p^r$-modules \stacks{0D6J}, the base
+change maps are built from units and counits and so commute with them
+too, and a $\Lambda$-sheaf is constructible if and only if its underlying
+sheaf is, as shown in the proof of Corollary~\ref{corollary-open-direct-image-over-field}. So we
+may assume $\Lambda=\mathbf Z/p^r$. The filtration
+$F\supset pF\supset\cdots\supset p^rF=0$ has constructible
+$\mathbf F_p$-sheaves as successive quotients. Apply Step~1 to each of
+these $r$ quotients and intersect the resulting opens to get $S_0$. The
+short exact sequences of the filtration are triangles, and $Rj_{S_0,*}$
+and $Rj_{T,*}g_{X,0}^*$ carry them to triangles. By induction on $r$ and
+the long exact cohomology sequences, $Rj_{S_0,*}F_0$ is bounded with
+constructible cohomology sheaves, these being extensions of kernels by
+cokernels of maps between constructible sheaves \stacks{09BH}. The base
+change maps form morphisms between these triangles, so they are
+isomorphisms by the five lemma.
+
+\emph{Step 3: noetherian $T$.} Let $T\to S_0$ with $T$ noetherian. By
+\stacks{09MV}, $T=\varprojlim_\lambda T_\lambda$ for a directed system of
+$S_0$-schemes $T_\lambda$ of finite presentation over $S_0$, hence of
+finite type over $k$, with affine transition morphisms. Write
+$F_\lambda$ and $F_T$ for the pullbacks of $F_0$ to $X_{T_\lambda}$ and $X_T$, and
+$h_\lambda:Y_T\to Y_{T_\lambda}$, $h_{\mu\lambda}:Y_{T_\mu}\to Y_{T_\lambda}$
+for the projections. Base change maps are compatible with composition of
+cartesian squares. Hence the base change map \eqref{equation-g22} for $T$
+is $h_\lambda^*$ of the one for $T_\lambda$ followed by the base change map
+$\gamma_\lambda:h_\lambda^*Rj_{T_\lambda,*}F_\lambda\to Rj_{T,*}F_T$ for
+$T\to T_\lambda$, and similarly for $T_\mu\to T_\lambda$. By Step~2 the
+base change maps for $T_\lambda$ and $T_\mu$ are isomorphisms, and so
+$h_{\mu\lambda}^*R^ij_{T_\lambda,*}F_\lambda\to R^ij_{T_\mu,*}F_\mu$ is an
+isomorphism for $\mu\geq\lambda$. The open immersions $j_{T_\lambda}$ are base changes of $j$, which is
+quasi-compact because $Y$ is Noetherian, so they are quasi-compact and
+quasi-separated; and $X_T=\varprojlim_\lambda X_{T_\lambda}$,
+$Y_T=\varprojlim_\lambda Y_{T_\lambda}$ with affine transition morphisms.
+So by \stacks{0EYM}
+\[
+ R^ij_{T,*}F_T=\varinjlim_\mu h_\mu^{-1}R^ij_{T_\mu,*}F_\mu,
+\]
+a colimit whose transition maps are isomorphisms. Thus $H^i(\gamma_\lambda)$
+is an isomorphism for every $i$, and so is \eqref{equation-g22} for $T$.
+
+Finally, \eqref{equation-g22} identifies $Rj_{T,*}g_X^*F$ with
+$g_{Y,0}^*Rj_{S_0,*}F_0$. By \eqref{equation-g21} and since inverse image
+preserves boundedness and constructibility, this lies in
+$\Dbc(Y_T,\Lambda)$.
+\end{proof}
 
 
 \begin{bptheorem}[Source clause 2]
 \label{bp-r177-2}
-and such that for every $k$-scheme $T\to S_0$ of finite type, with base change
-$j_T:X_T\hookrightarrow Y_T$ and projections $g_X:X_T\to X_{S_0}$ and
-$g_Y:Y_T\to Y_{S_0}$, the base change map
+With the data of clause~\ref{bp-r177-1}, the same nonempty open $S_0$
+can be chosen so that, for every noetherian scheme $T$ and every morphism
+$t:T\to S$ whose image lies in $S_0$, the base change map
+\[
+ g_Y^*Rj_*F\longrightarrow Rj_{T,*}g_X^*F
+\]
+is an isomorphism. Here $g_X:X_T\to X$ and $g_Y:Y_T\to Y$ are the
+projections. Thus bounded constructibility and base change hold on one
+open, uniformly for all such $T$; no finite type hypothesis on $T$ is
+needed.
+
+Equivalently, writing $F_0=F|_{X_{S_0}}$ and
+$g_{X,0}:X_T\to X_{S_0}$, $g_{Y,0}:Y_T\to Y_{S_0}$ for the projections,
+the map
 \begin{equation}\label{equation-g22}
- g_Y^*Rj_{S_0,*}(F|_{X_{S_0}})
-          \longrightarrow Rj_{T,*}g_X^*(F|_{X_{S_0}})
+ g_{Y,0}^*Rj_{S_0,*}F_0\longrightarrow Rj_{T,*}g_{X,0}^*F_0
 \end{equation}
-is an isomorphism.
+is an isomorphism for every morphism $T\to S_0$ with $T$ noetherian.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r177-2}
-\noindent{\small\textit{Proof of clause~\ref{bp-r177-2}.} The proof in \hyperref[bp-proof-127]{reference proof 127}\,(p.~\pageref{bp-proof-127}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-177}. The complete source argument is retained at its original position below or at the named proof location.}\par
+\begin{proof}[Proof of clause~\ref{bp-r177-2}]
+That \eqref{equation-g22} is an isomorphism for every noetherian
+$T\to S_0$ was shown, with the same $S_0$, in the proof of
+clause~\ref{bp-r177-1}. The two formulations agree: $g_Y$ factors as
+$Y_T\to Y_{S_0}\subset Y$, the restriction of $Rj_*F$ to the open
+$Y_{S_0}$ is $Rj_{S_0,*}F_0$, and by the compatibility of base change maps
+with composition of cartesian squares, the base change map over $S$ is the
+one over $S_0$ composed with the base change map for the open immersion
+$Y_{S_0}\subset Y$, which is an isomorphism.
+\end{proof}
 
 
 \BPEndSource{177}
@@ -18952,13 +19383,32 @@ without any shrinking.
 
 \begin{bpcorollary}[Source clause 1]
 \label{bp-r178-1}
-Let $j:X\hookrightarrow Y$ be an open immersion. Then
+Let $k$ be a field, let $A$ be a finite commutative ring killed by a
+positive integer invertible in $k$, and let $j:X\hookrightarrow Y$ be an
+open immersion with $Y$ of finite type over $k$. On the \'etale sites,
 \begin{equation}\label{equation-g25}
- Rj_*:\Dbc(X,\Lambda)\longrightarrow\Dbc(Y,\Lambda),
+ Rj_*:\Dbc(X,A)\longrightarrow\Dbc(Y,A).
 \end{equation}
 \end{bpcorollary}
 \BPProofAnchor{bp-clause-proof-r178-1}
-\noindent{\small\textit{Proof of clause~\ref{bp-r178-1}.} The proof in \hyperref[bp-proof-128]{reference proof 128}\,(p.~\pageref{bp-proof-128}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-178}. The complete source argument is retained at its original position below or at the named proof location.}\par
+\begin{proof}[Proof of clause~\ref{bp-r178-1}]
+Let $n$ be a positive integer killing $A$ and invertible in $k$. The
+finite ring $A$ is the product of its $\ell$-primary parts $A_\ell$ for the
+primes $\ell$ dividing $n$, cut out by orthogonal idempotents, and each
+$\ell$ is invertible in $k$. Every \'etale sheaf of $A$-modules, and every
+complex of such sheaves, is the direct sum of its parts on which $A$ acts
+through $A_\ell$. Since $Rj_*$ is additive and a sheaf is constructible if
+and only if each of its finitely many parts is, we may assume that $A$ is
+killed by a power of a single prime $\ell$ invertible in $k$. The scheme
+$X$ is of finite type over $k$, being open in $Y$. For such $A$ the
+argument of the proof of Corollary~\ref{corollary-open-direct-image-over-field} applies: the case
+of constructible $\Fell$-sheaves is
+Theorem~\ref{theorem-generic-constructibility-base-change-rj} with
+$S=\operatorname{Spec}k$, whose only nonempty open is $S$ itself, and one
+passes to $\mathbf Z/\ell^r$-sheaves by the filtration by the
+$\ell^iF$, to $A$-sheaves by forgetting the $A$-structure \stacks{0D6J},
+and to bounded complexes by truncation triangles.
+\end{proof}
 
 
 \begin{bpcorollary}[Source clause 2]
@@ -23042,15 +23492,17 @@ ground field.
 
 \label{lemma-reduction-curve-over-normal-base}
 
-\begin{bplemma}[Source clause 1]
+\begin{bplemma}[Reduction to a curve over a normal base]
 \label{bp-r205-1}
-Suppose $g:Y'\to Y$ is affine and smooth of relative dimension
-one, $n$ is invertible on $Y$, and $\mathrm{BC}(g,n,q-1)$ holds. If
-$\mathrm{BC}(g,n,q)$ fails, there are an affine scheme
-$S=\operatorname{Spec}R$ over $Y$ with $R$ a normal domain whose fraction
-field $L$ is algebraically closed, an algebraically closed extension
-field $\Omega$ of $L$, an integer $m\mid n$, and, for the smooth affine curve
-$C=Y'\times_YS$, the cartesian square
+Let $g:Y'\to Y$ be a morphism of schemes, let $n\geq1$ be an integer
+invertible on $Y$, and let $q\geq1$. Suppose that $\mathrm{BC}(g,n,q-1)$ holds
+and that $\mathrm{BC}(g,n,q)$ fails, that is, for some scheme $T$ over $Y$,
+some qcqs morphism $Z\to T$ and some sheaf of $\mathbf Z/n$-modules on
+$Z_{\et}$, the base change map in degree $q$ along $Y'\times_YT\to T$ is not
+an isomorphism. Then there are an affine scheme $S=\operatorname{Spec}R$ over
+$Y$ with $R$ a normal domain whose fraction field $L$ is algebraically closed,
+an algebraically closed extension field $\Omega$ of $L$, an integer $m\geq1$
+with $m\mid n$, and, for $C=Y'\times_YS$, the cartesian square
 \[
 \begin{CD}
 C_\Omega @>{h}>> C\\
@@ -23062,9 +23514,63 @@ such that
 \[
  R^qh_*\underline{\mathbf Z/m}\ne0.
 \]
+If $g$ is affine and smooth of relative dimension one, then $C$ is a smooth
+affine curve over $S$.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r205-1}
-\noindent{\small\textit{Proof of clause~\ref{bp-r205-1}.} The proof in \hyperref[bp-proof-151]{reference proof 151}\,(p.~\pageref{bp-proof-151}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-205}. The complete source argument is retained at its original position below or at the named proof location.}\par
+\begin{proof}[Proof of clause~\ref{bp-r205-1}]
+The argument does not use that $g$ is affine or smooth. These hypotheses only
+serve to make $C$ a smooth affine curve, by base change.
+
+Since $\mathrm{BC}(g,n,q-1)$ holds and $\mathrm{BC}(g,n,q)$ fails,
+Lemma~\ref{lemma-reduction-field} gives a failure in degree $q$ for an affine
+base change $T=\operatorname{Spec}B\to Y$, direct image along a morphism
+$f:\operatorname{Spec}\Omega_0\to T$ with $\Omega_0$ a field, and a sheaf $M$
+of $\mathbf Z/n$-modules on $\operatorname{Spec}\Omega_0$.
+
+\emph{Algebraic closure.} Let $\Omega$ be an algebraic closure of $\Omega_0$,
+and let $\pi:\operatorname{Spec}\Omega\to\operatorname{Spec}\Omega_0$ be the
+projection, which is integral and surjective. The hypothesis of
+clause~\ref{bp-r204-1}, for $\Lambda=\mathbf Z/n$ and the base change
+$Y'\times_YT\to T$, is degree-$(q-1)$ base change for all qcqs morphisms to
+$T$ and all sheaves, which is part of $\mathrm{BC}(g,n,q-1)$. The morphism $f$
+is a morphism of affine schemes, hence qcqs. So by
+clause~\ref{bp-r204-1} base change in degree $q$ also fails for $f\circ\pi$
+and $\pi^{-1}M$.
+
+\emph{Normal base.} Let $R$ be the integral closure in $\Omega$ of the image
+of $B\to\Omega$. It is a domain, integrally closed in $\Omega$ and hence
+normal. Its fraction field $L$ is algebraically closed: if $\alpha\in\Omega$
+is algebraic over the fraction field of the image of $B$, then $d\alpha$ is
+integral over that image for some nonzero $d$ in it, so $\alpha\in L$. Thus
+$L$ is the algebraic closure of that fraction field in the algebraically
+closed field $\Omega$. The morphism $\operatorname{Spec}\Omega\to T$ factors
+through $S=\operatorname{Spec}R$, and $S\to T$ is integral. By
+clause~\ref{bp-r204-2}, base change in degree $q$ fails for the square with
+base change $C=Y'\times_YS\to S$ and direct image along
+$f_1:\operatorname{Spec}\Omega\to S$, with the same sheaf $\pi^{-1}M$.
+
+\emph{Constant coefficients.} A sheaf of $\mathbf Z/n$-modules on
+$(\operatorname{Spec}\Omega)_{\et}$ is a $\mathbf Z/n$-module $N$. An abelian
+group of bounded exponent is a direct sum of cyclic groups, so
+$N\simeq\bigoplus_i\mathbf Z/m_i$ with $m_i\mid n$. Inverse images commute
+with direct sums, and so do higher direct images along the qcqs morphisms
+$f_1$ and $h$, because they commute with filtered colimits \stacks{09Z1}.
+Hence the base change map for $N$ is the direct sum of those for the
+$\mathbf Z/m_i$, and it fails for some $m=m_i$.
+
+\emph{The source vanishes.} The source of this base change map is the
+pullback to $C$ of $R^qf_{1,*}\underline{\mathbf Z/m}$. Its stalk at a
+geometric point $\bar s$ of $S$ is the cohomology of
+$\operatorname{Spec}\Omega\times_S\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{S,\bar s}$.
+This scheme is a limit of \'etale $\Omega$-schemes. Since $\Omega$ is
+algebraically closed, these are disjoint unions of copies of
+$\operatorname{Spec}\Omega$. By continuity of cohomology the stalk vanishes
+for $q\geq1$. The target is
+$R^qh_*$ of the inverse image of $\underline{\mathbf Z/m}$ to $C_\Omega$,
+which is $R^qh_*\underline{\mathbf Z/m}$. As the source is zero, the failure
+means that $R^qh_*\underline{\mathbf Z/m}\neq0$, and $m\geq2$.
+\end{proof}
 
 
 \BPEndSource{205}
@@ -23472,20 +23978,44 @@ square commutes.
 
 \begin{bptheorem}[Finite coefficients]
 \label{bp-r210-1}
-For $K\in\Dctf(X_{\proet},A)$, the map
+For the finite-coefficient step we use the following more general
+statement. In the cartesian square \eqref{equation-square-sbc}, let $g$ be
+smooth and $f$ quasi-compact and quasi-separated. Let $A$ be a discrete
+commutative ring killed by a positive integer $N$ whose image in
+$\Gamma(Y,\mathcal O_Y)$ is a unit. Suppose that
+$K\in D(X_{\proet},A)$ is of bounded constructible \'etale origin: there
+are a $K_{\et}\in\Dbc(X_{\et},A)$ and an isomorphism
+$\nu_X^*K_{\et}\simeq K$. Then the map \eqref{equation-exchange}
 \begin{equation}\label{equation-uniform-exchange}
- g^*_{A}Rf_{*,A}K\xrightarrow{\sim}Rf'_{*,A}g'^*_{A}K
+ g^*_{A}Rf_{*,A}K\longrightarrow Rf'_{*,A}g'^*_{A}K
 \end{equation}
-is an isomorphism.
+is an isomorphism. No finite Tor amplitude or finite-type hypothesis over
+$k$ is required in this statement. In particular, under the hypotheses of
+the theorem, \eqref{equation-uniform-exchange} is an isomorphism for every
+$K\in\Dctf(X_{\proet},A)$ when $A$ is a finite ring killed by a power of
+$\ell$.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r210-1}
 \begin{proof}[Proof of clause~\ref{bp-r210-1}]
-\emph{Finite rings $A$.} The torsion theorem is stated for classical
-complexes, so we first check that $K$ is one. By Theorem~\ref{theorem-comparison-constructible-sheaves}, constructible
-pro-\'etale sheaves with discrete Noetherian coefficients are
-classical. The cohomology sheaves of $K$ are constructible, and so $K$ is a bounded classical complex. Since $A$ is
-killed by a power of $\ell$, which is invertible on $Y$, smooth base change
-for torsion complexes (Theorem~\ref{theorem-smooth-base-change-classical-torsion-2}) applies to $K$.
+The inverse image $\nu_X^*$ is exact and its values are classical, so the
+cohomology sheaves $H^q(K)\simeq\nu_X^*H^q(K_{\et})$ are classical and
+vanish for all but finitely many $q$. Thus $K$ lies in
+$D^+_{\mathrm{class}}(X_{\proet},A)$. Since $N$ is invertible on $Y$,
+smooth base change for classical torsion complexes
+(Theorem~\ref{theorem-smooth-base-change-classical-torsion-2}, with
+$\Lambda=A$ and $n=N$) shows that \eqref{equation-uniform-exchange} is an
+isomorphism. Neither finite Tor amplitude nor a finite type hypothesis
+enters.
+
+For the last assertion, let $A$ be finite and killed by a power of $\ell$,
+which is invertible on $Y$, and let $K\in\Dctf(X_{\proet},A)$. Then $K$ is
+bounded with constructible cohomology, $X$ is of finite type over $k$,
+hence quasi-compact and quasi-separated, $f$ is a morphism of schemes of
+finite type over $k$, hence quasi-compact and quasi-separated, and $A$
+is Noetherian. By
+Theorem~\ref{theorem-comparison-constructible-sheaves}
+(clause~\ref{bp-r043-3}) there are a $K_{\et}\in\Dbc(X_{\et},A)$ and an
+isomorphism $\nu_X^*K_{\et}\simeq K$, so the first part applies.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-156]{reference proof 156}\,(p.~\pageref{bp-proof-156}).}\par
 
@@ -28144,13 +28674,19 @@ induces the same classical \'etale topos.
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-184]{reference proof 184}\,(p.~\pageref{bp-proof-184}).}\par
 
 
-\begin{bplemma}[Source clause 2]
+\begin{bplemma}[Comparison for the exceptional inverse image]
 \label{bp-r251-2}
+In the setting above, let $X$ be a $B$-scheme of finite type, let
+$i:Z\hookrightarrow X$ be a closed immersion with open complement
+$j:U\hookrightarrow X$, and let $i_{\bar\eta}:Z_{\bar\eta}\hookrightarrow X_{\bar\eta}$
+be its base change. For every $M\in\Dbc(X,A)$ the map
 \[
-\begin{aligned}
- g_Z^*i^!M&\longrightarrow i_{\bar\eta}^!g_X^*M,
-\end{aligned}
+ g_Z^*i^!M\longrightarrow i_{\bar\eta}^!g_X^*M
 \]
+defined above is an isomorphism. Here $i^!$ is the derived exceptional
+inverse image, and the map corresponds under
+$i_{\bar\eta,*}\dashv i_{\bar\eta}^!$ to the pullback
+$i_{\bar\eta,*}g_Z^*i^!M=g_X^*i_*i^!M\to g_X^*M$ of the counit.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r251-2}
 \begin{proof}[Proof of clause~\ref{bp-r251-2}]
@@ -28180,15 +28716,16 @@ faithful, the comparison map itself is an isomorphism.
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-184]{reference proof 184}\,(p.~\pageref{bp-proof-184}).}\par
 
 
-\begin{bplemma}[Source clause 3]
+\begin{bplemma}[Comparison for internal Hom]
 \label{bp-r251-3}
+In the setting above, let $X$ be a $B$-scheme of finite type, and let
+$K\in\Dctf(X,A)$ and $M\in\Dbc(X,A)$. The map
 \[
-\begin{aligned}
- g_X^*\cHom_X(K,M)&\longrightarrow
+ g_X^*\cHom_X(K,M)\longrightarrow
  \cHom_{X_{\bar\eta}}(g_X^*K,g_X^*M)
-\end{aligned}
 \]
-defined above are isomorphisms.
+defined above, the tensor--Hom adjoint of $g_X^*$ of evaluation, is an
+isomorphism.
 \end{bplemma}
 \BPProofAnchor{bp-clause-proof-r251-3}
 \begin{proof}[Proof of clause~\ref{bp-r251-3}]
@@ -29252,17 +29789,39 @@ For finite coefficients, a global section of the constant sheaf is a locally con
 
 \begin{bptheorem}[Vanishing: finite coefficients]
 \label{bp-r260-2}
-$H^i(X,A_X)=0$ for $i\notin[0,2d]$.
+Let $S$ be a scheme of finite type and of dimension at most $d$ over a
+separably closed field $k'$, and let $A$ be a finite abelian group whose order
+is invertible in $k'$. Write $\mathcal C_A$ for the sheaf
+$V\mapsto C(V,A)$ on $S_{\proet}$. Then
+\[
+ H^i(S_{\proet},\mathcal C_A)=0\qquad(i\notin[0,2d]).
+\]
+In particular $H^i(X,A_X)=0$ for $i\notin[0,2d]$; properness, smoothness and
+connectedness of $X$ are not needed for this.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r260-2}
 \begin{proof}[Proof of clause~\ref{bp-r260-2}]
-A sheaf in degree zero has no negative cohomology.
+A sheaf placed in degree zero has no cohomology in negative degrees. By
+clause~\ref{bp-r050-3}, $\mathcal C_A$ is the constant pro-\'etale sheaf with
+value $A$, that is, $\nu_S^*$ of the constant \'etale sheaf $A$, since inverse
+image preserves constant sheaves. Let $N$ be the order of $A$. By
+Theorem~\ref{theorem-bounded-below-cohomology-comparison}, in the form of
+clause~\ref{bp-r035-3} with $\Lambda=\mathbf Z/N$, we have
+$H^i(S_{\proet},\mathcal C_A)=H^i(S_{\et},A)$. Write $A=\bigoplus_\ell A_\ell$
+as the sum of its $\ell$-primary parts, for the finitely many primes $\ell$
+dividing $N$, all different from the characteristic of $k'$. \'Etale
+cohomology commutes with finite direct sums, so we may assume that $A$ is
+$\ell$-primary. Let $\bar k$ be an algebraic closure of $k'$. Since $k'$ is
+separably closed, $\bar k/k'$ is purely inseparable, so
+$S_{\bar k}=S\times_{k'}\bar k$ has the same \'etale topos and the same
+dimension as $S$. By \cite[X, Cor.~4.3]{SGA4},
+$\operatorname{cd}_\ell(S_{\bar k})\le2\dim S_{\bar k}\le2d$. Hence
+$H^i(S_{\et},A)=0$ for $i>2d$.
 
-With finite coefficients, \'etale cohomology of a $d$-dimensional
-scheme of finite type over an algebraically closed field vanishes above
-degree $2d$, that is, $\operatorname{cd}_\ell(X)\le2d$ in the
-notation of Definition~\ref{definition-cohomological-dimension} \cite[X, Cor.~4.3]{SGA4}.
-This gives the vanishing outside $[0,2d]$, and $H^0=\Lambda$ because $X$ is connected.
+For the last assertion, $X$ is of finite type and of dimension $d$ over the
+algebraically closed field $k$, and for the finite coefficient ring $A$ the
+coefficient sheaf $A_X$ is $\mathcal C_A$ by clause~\ref{bp-r050-3}. The order
+of $A$ is a power of $\ell$, which is invertible in $k$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-191]{reference proof 191}\,(p.~\pageref{bp-proof-191}).}\par
 
@@ -29304,12 +29863,59 @@ upper bound holds.
 
 \begin{bptheorem}[Vanishing: integral coefficients]
 \label{bp-r260-4}
-$H^i(X,\mathcal O_{E,X})=0$ for $i\notin[0,2d]$.
+Let $S$ and $k'$ be as in clause~\ref{bp-r260-2}. Let $A$ be a compact
+topological abelian group with a decreasing sequence of open subgroups
+$U_0\supset U_1\supset\cdots$ such that $\bigcap_nU_n=0$ and every quotient
+$A/U_n$ has order invertible in $k'$. For the sheaf
+$\mathcal C_A:V\mapsto C(V,A)$ on $S_{\proet}$,
+\[
+ H^i(S_{\proet},\mathcal C_A)=0\qquad(i\notin[0,2d]).
+\]
+This applies to $A=\mathcal O_E$ and $U_n=\pi_E^n\mathcal O_E$ when
+$\ell$ is invertible in $k'$, and then $\mathcal C_A=\mathcal O_{E,S}$. In
+particular $H^i(X,\mathcal O_{E,X})=0$ for $i\notin[0,2d]$.
 \end{bptheorem}
 \noindent{\small\textit{Dependencies:} \ref{bp-r260-2}.}\par
 \BPProofAnchor{bp-clause-proof-r260-4}
 \begin{proof}[Proof of clause~\ref{bp-r260-4}]
-The derived inverse limit description of $R\Gamma(X,\mathcal O_{E,X})$ gives the Milnor sequence $0\to\lim^1_n H^{i-1}(X,(\mathcal O_E/\pi_E^n)_X)\to H^i(X,\mathcal O_{E,X})\to\lim_n H^i(X,(\mathcal O_E/\pi_E^n)_X)\to0$. The finite groups form Mittag--Leffler systems, so the left term vanishes. Clause~\ref{bp-r260-2} makes the right term zero outside $[0,2d]$.
+Negative degrees vanish because $\mathcal C_A$ is a sheaf in degree zero. Each
+$U_n$ is an open subgroup of the compact group $A$, so $A/U_n$ is finite. The
+map $A\to\varprojlim_nA/U_n$ is continuous and injective because
+$\bigcap_nU_n=0$. It has dense image, hence is surjective since $A$ is
+compact, and it is a homeomorphism because the target is Hausdorff. Therefore
+$C(V,A)=\varprojlim_nC(V,A/U_n)$ for every $V$, that is,
+$\mathcal C_A=\varprojlim_n\mathcal C_{A/U_n}$, and $\mathcal C_{A/U_n}$ is the
+constant sheaf with value $A/U_n$ by clause~\ref{bp-r050-3}. For
+$A=\mathcal O_E$ and $U_n=\pi_E^n\mathcal O_E$, clause~\ref{bp-r051-1} then
+identifies $\mathcal C_A$ with $\mathcal O_{E,S}$.
+
+The transition maps $\mathcal C_{A/U_{n+1}}\to\mathcal C_{A/U_n}$ are
+epimorphisms. Indeed, on an affine $V$ a continuous map $V\to A/U_n$ takes
+finitely many values on a finite partition of $V$ into clopen subsets, and
+lifting each value to $A/U_{n+1}$ gives a continuous lift. Their kernels are
+the constant sheaves $\mathcal C_{U_n/U_{n+1}}$, with $U_n/U_{n+1}$ finite of
+order invertible in $k'$. By clause~\ref{bp-r024-3},
+$\mathcal C_A\simeq R\varprojlim_n\mathcal C_{A/U_n}$. By
+clause~\ref{bp-r027-2}, $R\Gamma(S,-)$ commutes with derived inverse limits, so
+$R\Gamma(S,\mathcal C_A)\simeq R\varprojlim_nR\Gamma(S,\mathcal C_{A/U_n})$.
+Countable products of abelian groups are exact, so the derived limit of this
+tower of complexes of abelian groups is given by \eqref{equation-rlim-cone}, and
+the argument of clause~\ref{bp-r024-2} gives the Milnor sequence
+\[
+ 0\to R^1\varprojlim_nH^{i-1}(S,\mathcal C_{A/U_n})\to
+ H^i(S,\mathcal C_A)\to\varprojlim_nH^i(S,\mathcal C_{A/U_n})\to0.
+\]
+Let $i>2d$. The right term vanishes by clause~\ref{bp-r260-2}. If $i-1>2d$, so
+does the left term. If $i-1=2d$, the long exact sequence for
+$0\to\mathcal C_{U_n/U_{n+1}}\to\mathcal C_{A/U_{n+1}}\to\mathcal C_{A/U_n}\to0$
+and the vanishing of $H^{2d+1}(S,\mathcal C_{U_n/U_{n+1}})$
+(clause~\ref{bp-r260-2}) show that the transition maps
+$H^{2d}(S,\mathcal C_{A/U_{n+1}})\to H^{2d}(S,\mathcal C_{A/U_n})$ are
+surjective. For a tower of abelian groups with surjective transition maps,
+$R^1\varprojlim$ vanishes: given $(a_n)$, choose $m_0$ arbitrarily and then
+$m_{n+1}$ with $t_n(m_{n+1})=m_n-a_n$, as in the proof of
+clause~\ref{bp-r024-3}. Hence $H^i(S,\mathcal C_A)=0$ for $i>2d$. The last
+assertion is the case $S=X$, $k'=k$, $A=\mathcal O_E$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-191]{reference proof 191}\,(p.~\pageref{bp-proof-191}).}\par
 
@@ -29360,12 +29966,34 @@ By Proposition~\ref{proposition-six-operations-change-coefficients}, the cohomol
 
 \begin{bptheorem}[Vanishing: algebraically closed coefficients]
 \label{bp-r260-8}
-$H^i(X,\QbarX)=0$ for $i\notin[0,2d]$.
+Let $S$ be a scheme of finite type and of dimension at most $d$ over a
+separably closed field $k'$ in which $\ell$ is invertible. Then
+\[
+ H^i(S,\overline{\mathbf Q}_{\ell,S})=0\qquad(i\notin[0,2d]).
+\]
+In particular $H^i(X,\QbarX)=0$ for $i\notin[0,2d]$; properness and
+connectedness of $X$ are not needed for this.
 \end{bptheorem}
-\noindent{\small\textit{Dependencies:} \ref{bp-r260-6}.}\par
+\noindent{\small\textit{Dependencies:} \ref{bp-r260-4}.}\par
 \BPProofAnchor{bp-clause-proof-r260-8}
 \begin{proof}[Proof of clause~\ref{bp-r260-8}]
-By Proposition~\ref{proposition-six-operations-change-coefficients}, the cohomology complex and its trace over $\Qbar$ are obtained from those over $E$ by flat extension of scalars through the filtered system of finite extensions of $E$. Flatness commutes with cohomology and preserves vanishing. Clause~\ref{bp-r260-6} therefore gives the assertion.
+Let $E\subset\Qbar$ be finite over $\Ql$. By clause~\ref{bp-r051-2},
+$E_S=\mathcal O_{E,S}[1/\ell]$ is the colimit of
+$\mathcal O_{E,S}\xrightarrow{\ell}\mathcal O_{E,S}\xrightarrow{\ell}\cdots$, and
+by clause~\ref{bp-r051-3}, $\overline{\mathbf Q}_{\ell,S}=\varinjlim_EE_S$ over
+the finite subextensions $E$. Both are filtered colimits of sheaves in degree
+zero, and $S$, being of finite type over a field, is quasi-compact and
+quasi-separated. So Corollary~\ref{corollary-continuity-cohomology}, in the
+form of clause~\ref{bp-r029-1}, gives
+\[
+ H^i(S,E_S)=\varinjlim H^i(S,\mathcal O_{E,S}),\qquad
+ H^i(S,\overline{\mathbf Q}_{\ell,S})=\varinjlim_EH^i(S,E_S).
+\]
+By clause~\ref{bp-r260-4}, applied to $A=\mathcal O_E$ and
+$U_n=\pi_E^n\mathcal O_E$, whose quotients have $\ell$-power order invertible
+in $k'$, we have $H^i(S,\mathcal O_{E,S})=0$ for $i\notin[0,2d]$. Hence the
+same holds for $E_S$ and for $\overline{\mathbf Q}_{\ell,S}$. The last assertion
+is the case $S=X$, $k'=k$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-191]{reference proof 191}\,(p.~\pageref{bp-proof-191}).}\par
 
@@ -30348,11 +30976,86 @@ An isomorphism $u:P\to Q$ transports the duality maps by $u$ on the object and $
 
 \begin{bpproposition}[Scalar extension]
 \label{bp-r270-3}
-For every ring map $A\to B$, the image of $\operatorname{tr}_A(v\mid P)$ is $\operatorname{tr}_B(v\otimes_A^{\mathbf L}B\mid P\otimes_A^{\mathbf L}B)$.
+Let $F:\mathcal C\to\mathcal D$ be an additive braided strong monoidal
+functor between preadditive braided monoidal categories, with unit
+isomorphism $\phi_0:\mathbf 1_{\mathcal D}\xrightarrow{\sim}F(\mathbf 1_{\mathcal C})$.
+Then
+\[
+ \rho_F:\operatorname{End}(\mathbf 1_{\mathcal C})\longrightarrow
+ \operatorname{End}(\mathbf 1_{\mathcal D}),\qquad
+ a\longmapsto\phi_0^{-1}\circ F(a)\circ\phi_0,
+\]
+is a ring map. Suppose that $P$, $F(P)$ and $P'$ have right duals, and that
+an isomorphism $e:F(P)\xrightarrow{\sim}P'$ satisfies $e\circ F(v)=v'\circ e$
+for endomorphisms $v$ of $P$ and $v'$ of $P'$. Then
+\[
+ \operatorname{tr}(v'\mid P')=\rho_F(\operatorname{tr}(v\mid P)).
+\]
+In particular, for every ring map $A\to B$, the image of
+$\operatorname{tr}_A(v\mid P)$ in $B$ is
+$\operatorname{tr}_B(v\otimes_A^{\mathbf L}B\mid P\otimes_A^{\mathbf L}B)$.
 \end{bpproposition}
 \BPProofAnchor{bp-clause-proof-r270-3}
 \begin{proof}[Proof of clause~\ref{bp-r270-3}]
-Represent $P$ by a bounded finite-projective complex. Tensoring its finite dual bases with $B$ transports evaluation and coevaluation to those of $P\otimes_A^{\mathbf L}B$, and preserves the symmetry with its degree signs. The new trace composite is consequently the scalar extension of the old one.
+Write $\phi_{Q,Q'}:F(Q)\otimes F(Q')\xrightarrow{\sim}F(Q\otimes Q')$ for the
+monoidal structure of $F$ and $\beta$ for the braidings, so that
+$F(\beta_{Q,Q'})\circ\phi_{Q,Q'}=\phi_{Q',Q}\circ\beta_{F(Q),F(Q')}$. Since $F$
+is an additive functor, $a\mapsto F(a)$ is additive and multiplicative on
+$\operatorname{End}(\mathbf 1_{\mathcal C})$ and preserves $1$, and conjugation
+by $\phi_0$ preserves these properties. So $\rho_F$ is a ring map.
+
+\emph{The trace does not depend on the right dual.} Let $(P^\vee,\mathrm{ev},
+\mathrm{coev})$ and $(Q,\mathrm{ev}_Q,\mathrm{coev}_Q)$ be right duals of $P$,
+with $\mathrm{ev}:P^\vee\otimes P\to\mathbf 1$ and
+$\mathrm{coev}:\mathbf 1\to P\otimes P^\vee$ as in
+Definition~\ref{bp-r269-2}. The composite
+$u:P^\vee\to P^\vee\otimes P\otimes Q\to Q$ of $1\otimes\mathrm{coev}_Q$ and
+$\mathrm{ev}\otimes1$ (with the unit and associativity constraints) is an
+isomorphism, and the triangle identities give
+$\mathrm{ev}_Q\circ(u\otimes1_P)=\mathrm{ev}$ and
+$(1_P\otimes u)\circ\mathrm{coev}=\mathrm{coev}_Q$. Using these and the
+naturality of $\beta$,
+\[
+ \mathrm{ev}_Q\circ\beta_{P,Q}\circ(v\otimes1_Q)\circ\mathrm{coev}_Q
+ =\mathrm{ev}_Q\circ\beta_{P,Q}\circ(1_P\otimes u)\circ(v\otimes1)\circ\mathrm{coev}
+ =\mathrm{ev}_Q\circ(u\otimes1_P)\circ\beta_{P,P^\vee}\circ(v\otimes1)\circ\mathrm{coev},
+\]
+which is the trace computed with $P^\vee$.
+
+\emph{Transport of the dual.} Put
+$\mathrm{ev}'=\phi_0^{-1}\circ F(\mathrm{ev})\circ\phi_{P^\vee,P}$ and
+$\mathrm{coev}'=\phi_{P,P^\vee}^{-1}\circ F(\mathrm{coev})\circ\phi_0$.
+Applying $F$ to the two triangle identities of $(P,P^\vee)$ and using the
+naturality of $\phi$ and its compatibility with the associativity and unit
+constraints gives the triangle identities for $(\mathrm{ev}',\mathrm{coev}')$,
+so $F(P^\vee)$ with these maps is a right dual of $F(P)$. With this dual, the
+braided compatibility of $\phi$ and its naturality,
+$\phi_{P,P^\vee}\circ(F(v)\otimes1)=F(v\otimes1)\circ\phi_{P,P^\vee}$, give
+\[
+ \mathrm{ev}'\circ\beta_{F(P),F(P^\vee)}\circ(F(v)\otimes1)\circ\mathrm{coev}'
+ =\phi_0^{-1}\circ F\bigl(\mathrm{ev}\circ\beta_{P,P^\vee}\circ(v\otimes1)
+ \circ\mathrm{coev}\bigr)\circ\phi_0
+ =\rho_F(\operatorname{tr}(v\mid P)).
+\]
+By the previous paragraph, the left side is $\operatorname{tr}(F(v)\mid F(P))$
+for any right dual of $F(P)$. By conjugacy invariance
+(clause~\ref{bp-r270-2}) applied to $e$,
+$\operatorname{tr}(v'\mid P')=\operatorname{tr}(F(v)\mid F(P))$, which proves
+the formula.
+
+\emph{Scalar extension.} Let $A\to B$ be a ring map, and represent perfect
+complexes by bounded complexes of finite projective modules, so that derived
+tensor products are total tensor products. Then $F=-\otimes_AB$ is an additive
+functor from perfect $A$-complexes to perfect $B$-complexes. The isomorphisms
+$(M\otimes_AB)\otimes_B(N\otimes_AB)\to(M\otimes_AN)\otimes_AB$,
+$(m\otimes b)\otimes(n\otimes b')\mapsto(m\otimes n)\otimes bb'$, and
+$B\simeq A\otimes_AB$ make it strong monoidal. It is braided because both
+symmetries carry the same Koszul sign $(-1)^{|m||n|}$. The endomorphism rings
+of the units are $A$ and $B$, with $a$ acting by multiplication, and
+$F(a)$ is multiplication by the image of $a$ in $B$, so $\rho_F$ is the given
+map $A\to B$. Every perfect complex has the right dual $P^\vee$ of
+Definition~\ref{bp-r269-1}. Taking $P'=F(P)$, $e=\mathrm{id}$ and
+$v'=v\otimes_A^{\mathbf L}B$ gives the last assertion.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-196]{reference proof 196}\,(p.~\pageref{bp-proof-196}).}\par
 

@@ -2,7 +2,7 @@
 id = "lemma-constructible-sheaves--5"
 kind = "lemma"
 title = "Exact inclusion"
-order = 268006
+order = 268010
 aliases = ["bp-r080-5"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_closure"]
 +++

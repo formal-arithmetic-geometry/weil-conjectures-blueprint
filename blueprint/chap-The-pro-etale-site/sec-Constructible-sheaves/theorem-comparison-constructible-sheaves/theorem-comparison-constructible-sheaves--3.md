@@ -2,7 +2,7 @@
 id = "theorem-comparison-constructible-sheaves--3"
 kind = "theorem"
 title = "Equivalence of derived categories"
-order = 149004
+order = 149006
 aliases = ["bp-r043-3"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison_boundedRestriction"]
 +++

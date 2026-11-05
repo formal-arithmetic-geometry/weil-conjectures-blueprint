@@ -3,7 +3,7 @@ id = "proposition-determinant-weights-tensor-operations--2"
 kind = "proposition"
 title = "Determinant weights of tensor operations (2)"
 name_showing = false
-order = 1148003
+order = 1148004
 aliases = ["bp-r352-2"]
 lean = ["Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower"]
 +++

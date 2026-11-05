@@ -3,7 +3,7 @@ id = "lemma-base-change-cone-x-z--2"
 kind = "lemma"
 title = "Base change for the cone of $\\tau_{X,Z}$ (2)"
 name_showing = false
-order = 1633002
+order = 1633003
 aliases = ["bp-r506-2"]
 +++
 $$

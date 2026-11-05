@@ -3,7 +3,7 @@ id = "lemma-affine-space-etale-localization--5"
 kind = "lemma"
 title = "Affine space and étale localization (5)"
 name_showing = false
-order = 558006
+order = 558010
 aliases = ["bp-r168-5"]
 +++
 under which the counit of $R(fu)_!\dashv(fu)^!$ is the composite

@@ -2,7 +2,7 @@
 id = "corollary-torsion-jacobian-field-extension--2"
 kind = "corollary"
 title = "Invariance under algebraically closed extension"
-order = 1561003
+order = 1561004
 aliases = ["bp-r487-2"]
 lean = ["AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme"]
 +++

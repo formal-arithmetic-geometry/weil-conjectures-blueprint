@@ -2,7 +2,7 @@
 id = "corollary-verdier-exchange-formulas--5"
 kind = "corollary"
 title = "Open extension by zero"
-order = 848006
+order = 848010
 aliases = ["bp-r254-5"]
 lean = ["AlgebraicGeometry.Etale.verdierDualLowerShriekIso"]
 +++

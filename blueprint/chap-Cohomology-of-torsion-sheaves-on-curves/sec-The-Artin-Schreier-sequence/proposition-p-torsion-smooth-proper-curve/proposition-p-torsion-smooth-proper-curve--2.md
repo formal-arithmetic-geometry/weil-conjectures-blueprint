@@ -3,7 +3,7 @@ id = "proposition-p-torsion-smooth-proper-curve--2"
 kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$ (2)"
 name_showing = false
-order = 1587002
+order = 1587003
 aliases = ["bp-r494-2"]
 lean = ["AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model"]
 +++

@@ -2,7 +2,7 @@
 id = "corollary-point-counting-zeta-function--5"
 kind = "corollary"
 title = "Cohomological determinant product"
-order = 1040006
+order = 1040009
 aliases = ["bp-r318-5"]
 lean = ["TraceDatum.map_zetaSeries", "TraceDatum.zeta_mul_prod_even_eq_prod_odd"]
 +++

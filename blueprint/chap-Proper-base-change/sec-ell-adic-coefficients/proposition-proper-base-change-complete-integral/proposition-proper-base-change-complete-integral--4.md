@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-complete-integral--4"
 kind = "proposition"
 title = "Proper base change for complete complexes (4)"
 name_showing = false
-order = 417004
+order = 417007
 aliases = ["bp-r127-4"]
 +++
 and under them the derived limit of the base change maps

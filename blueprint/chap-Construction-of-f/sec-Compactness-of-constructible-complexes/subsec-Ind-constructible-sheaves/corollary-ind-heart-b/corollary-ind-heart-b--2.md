@@ -3,7 +3,7 @@ id = "corollary-ind-heart-b--2"
 kind = "corollary"
 title = "Ext from a constructible sheaf into ind-constructible sheaves (2)"
 name_showing = false
-order = 456002
+order = 456003
 aliases = ["bp-r139-2"]
 +++
 and each functor $\Ext^q(C,-)$

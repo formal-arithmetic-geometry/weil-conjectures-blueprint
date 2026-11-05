@@ -2,7 +2,7 @@
 id = "lemma-kunneth-formula-compact-supports--3"
 kind = "lemma"
 title = "Projection formula for compact supports"
-order = 1225003
+order = 1225005
 aliases = ["bp-r377-3"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleExceptionalProjectionMorphism"]
 +++

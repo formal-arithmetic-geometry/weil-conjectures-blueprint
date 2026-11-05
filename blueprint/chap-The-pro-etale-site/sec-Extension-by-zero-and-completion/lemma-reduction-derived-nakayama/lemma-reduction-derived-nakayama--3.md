@@ -3,7 +3,7 @@ id = "lemma-reduction-derived-nakayama--3"
 kind = "lemma"
 title = "Reduction and derived Nakayama (3)"
 name_showing = false
-order = 210003
+order = 210005
 aliases = ["bp-r062-3"]
 +++
 Consequently a morphism between derived complete complexes is

@@ -3,7 +3,7 @@ id = "lemma-reduction-unipotent-local-system--2"
 kind = "lemma"
 title = "Reduction to a unipotent local system (2)"
 name_showing = false
-order = 1613002
+order = 1613003
 aliases = ["bp-r501-2"]
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_retraction"]
 +++

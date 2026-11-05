@@ -3,7 +3,7 @@ id = "definition-verdier-dual-evaluation--4"
 kind = "definition"
 title = "Verdier dual and evaluation (4)"
 name_showing = false
-order = 828004
+order = 828005
 aliases = ["bp-r247-4"]
 lean = ["AlgebraicGeometry.Etale.verdierDualDoubleDual", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.verdierBiduality", "AlgebraicGeometry.ProEtale.CondensedRing.verdierBiduality"]
 +++

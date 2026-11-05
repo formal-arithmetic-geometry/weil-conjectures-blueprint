@@ -2,7 +2,7 @@
 id = "lemma-artin-schreier-character-sheaf--7"
 kind = "lemma"
 title = "Local Frobenius and purity"
-order = 1220008
+order = 1220014
 aliases = ["bp-r375-7"]
 lean = ["AlgebraicGeometry.AddChar.norm_map_apply_eq_one", "AlgebraicGeometry.WeilSheaf.exists_frobeniusEnd_stalk_artinSchreier"]
 +++

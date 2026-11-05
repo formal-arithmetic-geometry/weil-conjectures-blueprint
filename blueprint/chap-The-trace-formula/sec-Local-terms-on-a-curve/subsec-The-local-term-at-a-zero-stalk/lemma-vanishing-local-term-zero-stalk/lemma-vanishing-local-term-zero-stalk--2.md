@@ -3,7 +3,7 @@ id = "lemma-vanishing-local-term-zero-stalk--2"
 kind = "lemma"
 title = "Vanishing of the local term at a zero stalk (2)"
 name_showing = false
-order = 990002
+order = 990003
 aliases = ["bp-r302-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_zero_of_smooth"]
 +++

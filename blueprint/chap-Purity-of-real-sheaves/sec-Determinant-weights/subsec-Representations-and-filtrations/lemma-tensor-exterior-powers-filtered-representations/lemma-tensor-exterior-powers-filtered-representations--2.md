@@ -3,7 +3,7 @@ id = "lemma-tensor-exterior-powers-filtered-representations--2"
 kind = "lemma"
 title = "Tensor and exterior powers of filtered representations (2)"
 name_showing = false
-order = 1127002
+order = 1127003
 aliases = ["bp-r345-2"]
 +++
 There is a $W(U_0)$-stable filtration of $\bigwedge^rV$ with graded pieces

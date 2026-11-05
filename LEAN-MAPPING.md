@@ -8,7 +8,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 - **Coverage.** 421 of 538 declarations have Lean names: 233 high, 148 medium and 40 low confidence. Medium and low mean the Lean states only part of the declaration, a special case, or a variant (often with other coefficients); the notes below say which. 117 declarations, mostly examples and remarks, have none.
 - **Second review: the pro-étale chapter and Appendices A–D and F** (139 declarations). Each node's statement was gone through part by part against the Lean of slopmaster2 (`f3cad3b`, now pinned): every part that Lean states gets the declaration stating it, and names that only serve a proof, duplicate another name, or state another node's content were dropped. 81 nodes are fully stated in Lean, 43 partly and 15 not at all; 64 names were added and 48 removed. In the table their confidence reads *full*, *partial* or *none* (reviewed), and the note says what Lean does not state.
 - **Declaration arrows** (PR #200, the tool's rule). `A uses B` exactly when a Lean name of `A` depends on a Lean name of `B`, as `blueprint extract` records it in `lean-facts.json` (extracted at weil-conjectures `f3cad3b`): the walk goes through unmapped constants of the project and stops at mapped ones. Dependencies of the Lean statement go on the declaration and those of the proof on its proof, which is what `blueprint check --lean` compares the arrows with. Declarations without Lean names get no arrows, and the layer-2 clauses keep the arrows of their "Dependencies:" lines. `scripts/lean_uses.py` writes them.
-- **Names on clauses** (from the Lean-alignment PRs #210–#233, by littlebin530). The layer-2 clauses (`<declaration>--<k>`) now carry Lean names too: a name sits on the most specific node whose statement it states, a clause rather than its declaration. 475 clauses carry 678 names; 373 names are new to the blueprint, and no earlier name was dropped (a name the PRs removed stays where it was, unless it moved to a clause). Every name exists at the pinned `f3cad3b` (checked against the `.ilean` files of the built project). Clause texts that the PRs rewrote to state the Lean statement were taken into `blueprint-layer-2.tex` when they state what the tex states, or more; the others keep their text, and where Lean states only a special case of such a clause the table below says *partial*. Six names were moved back from clauses to their declarations because the finer placement made cycles (as for PR #200). The arrows are not yet recomputed from these names: `scripts/lean_uses.py` now treats a clause with Lean names like a declaration, and is to be run with the next `lean-facts.json` from CI.
+- **Names on clauses** (from the Lean-alignment PRs #210–#233, by littlebin530). The layer-2 clauses (`<declaration>--<k>`) now carry Lean names too: a name sits on the most specific node whose statement it states, a clause rather than its declaration. 494 clauses carry 701 names; 374 names are new to the blueprint, and no earlier name was dropped (a name the PRs removed stays where it was, unless it moved to a clause). Every name exists at the pinned `f3cad3b` (checked against the `.ilean` files of the built project). Clause texts that the PRs rewrote to state the Lean statement were taken into `blueprint-layer-2.tex` when they state what the tex states, or more; the others keep their text, and where Lean states only a special case of such a clause the table below says *partial*. Six names were moved back from clauses to their declarations because the finer placement made cycles (as for PR #200). The arrows are not yet recomputed from these names: `scripts/lean_uses.py` now treats a clause with Lean names like a declaration, and is to be run with the next `lean-facts.json` from CI.
 - **Cycles.** None. The facts first gave 11 cycles; Lean has none, so each came from how names were grouped onto declarations. A declaration keeps only the names stating it: nine names were removed or moved, and in eight places a clause moved between declarations of the notes (in both tex files) so that each name sits on the declaration stating it. Two declarations were added for this: `lemma-subobjects-quotients-weil-sheaves` and `definition-exceptional-base-change-finite`. The table counts are those after the moves.
 - **Sections and subsections** use each other where the unit itself builds on the other as the notes present it: its constructions, main results or arguments need what the other develops. Each arrow was decided by reading the unit (prose, statements and proofs) and what the notes say about the two units; the arrows of the declarations are not merged into it. One incidental citation (an example, a remark, a comparison) makes no arrow, and neither does a forward pointer ("proved below", "until Section X"). An arrow goes to the most specific unit used, a subsection when only that subsection is used, and arrows between a section and a subsection are allowed. A theorem stated in one section and proved in a later one: its users point at the section where the proof is completed, and that section points back to the statement. Chapters keep the arrows written on them by hand.
 - **Every unit is used**, except: the units of Appendix E, which the main text does not use; the last section of the main text (Integrality and independence of ℓ, which proves the Weil conjectures); smooth base change for all admissible coefficients (`sec-ell-adic-coefficients-3`), since the later text uses only the torsion version; and five overview sections of the Introduction (the six operations, the trace formula, Deligne's theorem, Outline, Prerequisites and reading guide), which nothing builds on. `sec-The-projective-line` and `sec-Compatibilities` have no arrow of their own because all their content is in subsections, which are used.
@@ -43,7 +43,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `definition-repleteness` | 1 | full (reviewed) | Exact definition for sheaf topoi of sites. |
 | `proposition-repleteness-pro-etale-topos` | 1 | full (reviewed) | Exact statement. |
 | `proposition-exact-products` | 4 | full (reviewed) | Exact products for any index type; derived products are termwise, with cohomology commuting. 3 of the names are on its clauses. |
-| `proposition-milnor-sequence` | 3 | full (reviewed) | milnor_sequence covers R^p lim and (2.2); milnor_epimorphic the epimorphic case; the general D(C) Milnor sequence is kept for (2.2). 2 of the names are on its clauses. |
+| `proposition-milnor-sequence` | 3 | full (reviewed) | milnor_sequence covers R^p lim and (2.2); milnor_epimorphic the epimorphic case; the general D(C) Milnor sequence is kept for (2.2). 3 of the names are on its clauses. |
 | `example-nonzero-rlim-one` | 0 | none (reviewed) | Example; nothing in Lean. Not in Lean: The whole example (R^1 lim of multiplication by ℓ is Z_ℓ/Z). |
 | `proposition-left-completeness` | 2 | full (reviewed) | The pro-étale statement and the general one for abelian categories with exact countable products. Lean's left_complete is a duplicate (not added). |
 | `proposition-unbounded-functors-products` | 1 | partial (reviewed) | Only Rf_* is covered, with countable products and derived limits of towers. Not in Lean: RΓ(U,-) on unbounded complexes preserving products and derived limits; Rf_* for f_*R-modules (Lean has A-valued sheaves) and arbitrary products (Lean has countable ones). |
@@ -54,12 +54,12 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `theorem-classical-sheaves-essential-image` | 6 | full (reviewed) | proEtaleClassicalSheaves states all three parts; full/faithful instances give full faithfulness for any Grothendieck abelian coefficient category. 5 of the names are on its clauses. |
 | `example-coefficient-sheaf-outside-classical-part` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the whole example (Z_ell,X not classical, reductions classical) |
 | `lemma-acyclicity-pulled-back-injectives` | 2 | full (reviewed) | General Grothendieck abelian coefficients; covers Lambda-modules. 1 of the names are on its clauses. |
-| `theorem-bounded-below-cohomology-comparison` | 5 | full (reviewed) | boundedBelowComparison: unit iso, full faithfulness, RGamma iso (map = boundedBelowComparisonGlobalSections); unit_app is the general-coefficient form of (2.7). 1 of the names are on its clauses. |
+| `theorem-bounded-below-cohomology-comparison` | 5 | full (reviewed) | boundedBelowComparison: unit iso, full faithfulness, RGamma iso (map = boundedBelowComparisonGlobalSections); unit_app is the general-coefficient form of (2.7). 3 of the names are on its clauses. |
 | `corollary-cohomology-pro-etale-affine` | 2 | partial (reviewed) | The étale continuity for D^+ (AlgebraicGeometry.derivedEtaleCohomology_limit) is only the proof's étale step, so it is not listed. Not in Lean: bounded-below complexes K (Lean: single abelian sheaves, degreewise); right side is pro-étale cohomology of the stages, equal to étale one via comparison |
 | `corollary-bounded-below-classical-complexes` | 1 | partial (reviewed) | Hypothesis hunit is discharged by boundedBelowComparison (other node); coefficients CommRing with discrete topology. Not in Lean: weak Serre property (closure under kernels, cokernels, extensions) of classical module sheaves; Lean equivalence assumes the D+ unit iso as hypothesis |
 | `theorem-comparison-direct-images` | 6 | full (reviewed) | General Grothendieck abelian coefficients on D+. isIso_comparisonDirectImagePlus is a Ring-Λ duplicate, not listed. 3 of the names are on its clauses. |
 | `lemma-comparison-direct-images-compatibilities` | 2 | partial (reviewed) | Both use c_g = rightDerivedFunctorPlusBaseChange(lowerStarComparisonUpperStarBaseChange), the map of theorem-comparison-direct-images. Not in Lean: part (1) (unit compatibility) not stated; part (2) only for finite Λ and qcqs g |
-| `proposition-comparison-immersions` | 2 | partial (reviewed) | Closed-immersion direct-image iso is the content of theorem-comparison-direct-images, left there. Not in Lean: part (2): transport of the localization triangle to the pro-étale one with counit/unit identification |
+| `proposition-comparison-immersions` | 2 | partial (reviewed) | Closed-immersion direct-image iso is the content of theorem-comparison-direct-images, left there. Not in Lean: part (2): transport of the localization triangle to the pro-étale one with counit/unit identification 1 of the names are on its clauses. |
 | `lemma-torsors-under-classical-groups` | 0 | none (reviewed) | Doubtful: AlgebraicGeometry.Scheme.proEtale_locallyClassical_etaleCover (1),(3) (locally classical => classical, étale-local sections) implies it; assigned to the next proposition. Not in Lean: torsors under classical groups are classical with étale trivialization (no torsor statement in Lean) |
 | `proposition-locally-constant-sheaves-finite-presentation` | 4 | partial (reviewed) | Lean: set-valued sheaves; locally constant => classical, with étale-local sections. Its parts (1),(3) also cover the torsor lemma. Not in Lean: Λ-module/finite presentation form; ν^* identifying étale and pro-étale local systems of finite presentation 3 of the names are on its clauses. |
 | `theorem-comparison-constructible-sheaves` | 4 | full (reviewed) | Covers classicality, the sheaf equivalence and the D^b_c equivalence (Noetherian coefficients, qcqs X). 3 of the names are on its clauses. |
@@ -71,9 +71,9 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `proposition-unbounded-comparison-finite-coefficients` | 1 | partial (reviewed) | k finite or algebraically closed, A finite ell-primary. unboundedDirectImageComparison_boundedBelow is only the bounded-below case. Not in Lean: unbounded direct-image comparison (2.9) for all K in D(X_et,A); Lean only has the bounded-below case |
 | `proposition-pro-etale-site-separably-closed` | 6 | partial (reviewed) | Sheaves of continuous functions are definitions (Profinite.continuousMapRingSheaf) of prose, not listed. Not in Lean: equivalence of pro-étale affines with profinite sets stated only as a dense subsite; topos equivalence stated for abelian sheaves 3 of the names are on its clauses. |
 | `lemma-comparison-completed-coefficients` | 1 | full (reviewed) | Integral limit, inverting ell, colimit over E and compatibility with pullback. |
-| `corollary-finite-quotients-their-transition-maps` | 3 | full (reviewed) | Also contains the cone identification K_n = cone(π^n) of lemma-reduction-derived-nakayama part 1; one name, kept here. 2 of the names are on its clauses. |
+| `corollary-finite-quotients-their-transition-maps` | 3 | full (reviewed) | Also contains the cone identification K_n = cone(π^n) of lemma-reduction-derived-nakayama part 1; one name, kept here. 3 of the names are on its clauses. |
 | `definition-tate-twists` | 20 | full (reviewed) | Doubtful: two parallel formalizations. Chose sk-def-sp family (follows text, used by spTwists_locallyFree); tateModule/tateTwistOne kept for the 'equivalently Qbar⊗Z_ell(1)' clause. 12 of the names are on its clauses. |
-| `lemma-inverse-image-coefficient-sheaves` | 5 | full (reviewed) | isIso_condensedPullbackHom gives f^{-1}Λ_Y ≅ Λ_X for every condensed ring; cartesianCoefficients adds twists and finite freeness. |
+| `lemma-inverse-image-coefficient-sheaves` | 5 | full (reviewed) | isIso_condensedPullbackHom gives f^{-1}Λ_Y ≅ Λ_X for every condensed ring; cartesianCoefficients adds twists and finite freeness. 3 of the names are on its clauses. |
 | `proposition-continuous-cohomology-pro-etale-cohomology` | 1 | full (reviewed) | Abelian sheaves presented as modules over the constant integer sheaf. |
 | `corollary-continuous-etale-cohomology` | 0 | none (reviewed) | No Lean statement found. Not in Lean: identification with continuous étale cohomology (derived functor on inverse systems) |
 | `example-first-cohomology-finite-field` | 0 | none (reviewed) | Example; not formalized. Not in Lean: the whole example (H^1 of F_q with Z_ell and Q_ell coefficients) |
@@ -101,7 +101,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `proposition-ctf-equals-bc` | 1 | high | States Dctf=Dbc for Z_l, Q_l, O_E, E, Qlbar (det-def-localizing-closure-ctf-equals-bc). |
 | `lemma-flat-models-generators` | 5 | medium | Old sk-lem-sf-flat-model (etale flat model) plus pro-etale flat model and etale generation by a_!L. 2 of the names are on its clauses. |
 | `definition-lattice` | 0 | — | No Lean definition of lattices found; lattice existence results are stated inline. |
-| `lemma-lattices-lisse-e-sheaves` | 2 | low | Only the "in particular" clause (lattice etale locally) is formalized; representability of the lattice sheaf is not. |
+| `lemma-lattices-lisse-e-sheaves` | 2 | low | Only the "in particular" clause (lattice etale locally) is formalized; representability of the lattice sheaf is not. 2 of the names are on its clauses. |
 | `example-lattices-nodal-curve` | 0 | — | Example; not formalized. |
 | `lemma-descent-lisse-qbar-sheaves-finite` | 1 | high | Docstring cites det-lem-coefficient-finite-descent-lisse; descends lisse Qlbar modules and morphisms to finite E. |
 | `lemma-constructible-sheaves` | 6 | medium | coefficientHeart states all clauses of sk-lem-coefficient-heart; the other three are its clause-wise theorems. 5 of the names are on its clauses. |
@@ -111,7 +111,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-continuity-ext-out-constructible-complex` | 2 | medium | Lean cites sk-lem-constructible-ext-continuity; continuity for generated complexes, clause 1 via generation. |
 | `lemma-descent-finite-coefficient-field` | 3 | medium | Lean cites sk-thm-sfb-qlbar-two-colimit assertions (Hom colimit, object descent); old list had only helper defs. |
 | `lemma-lattices-after-finite-stratification` | 2 | medium | Stratified lisse integral lattices (sk-lem-stratified-lattice); old node had no lean. 1 of the names are on its clauses. |
-| `lemma-integral-models` | 5 | medium | Old detail lean (clause 1) plus det-lem-integral-models-stacks (clause 2); clauses 3-4 not found as single theorems. 3 of the names are on its clauses. |
+| `lemma-integral-models` | 4 | medium | Old detail lean (clause 1) plus det-lem-integral-models-stacks (clause 2); clauses 3-4 not found as single theorems. 2 of the names are on its clauses. |
 | `proposition-inverting-ell-full-derived-categories` | 0 | — | Old sk-prop-sfb-rationalization-full had no lean; no Lean statement found. |
 | `proposition-inverting-ell` | 4 | medium | Old sk-thm-sfb-rationalization-comparison: the equivalence and localization statements; helper defs dropped. 3 of the names are on its clauses. |
 
@@ -182,7 +182,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-uniform-bound-proper-direct-image` | 2 | medium | Docstrings cite sk-lem-proper-heart-bound: finite amplitude and sums on ind-constructible heart, E and Qlbar. |
 | `lemma-proper-direct-image-unbounded-complexes` | 1 | low | Only part 3 in a weaker form (sums on Loc(Dbc), docstring sk-lem-proper-unbounded-window-ii); parts 1-2 not stated. |
 | `lemma-structure-integral-constructible-complexes` | 1 | low | Only part (1) heart: Cons(X,O_E) closed under kernels, cokernels, extensions; local structure and duals not found. |
-| `lemma-inverse-image-tensor-product` | 5 | low | Tensor and closed direct image preservation; pullback/j_! covered by general nodes; completed pullback agreement not found. 3 of the names are on its clauses. |
+| `lemma-inverse-image-tensor-product` | 6 | low | Tensor and closed direct image preservation; pullback/j_! covered by general nodes; completed pullback agreement not found. 5 of the names are on its clauses. |
 | `proposition-compactness-proper-direct-image` | 2 | high | Docstrings cite sk-prop-int-compactness: compactness and Rp_* sums on Loc(Dbc(O_E)). |
 | `proposition-proper-direct-image-extension-zero` | 5 | medium | Docstrings sk-prop-proper-image-localizing / det-proper-image-localizing-open; finite-A proper part not separately stated. |
 | `lemma-checking-isomorphisms-constructible-complexes` | 1 | high | Docstring sk-lem-sf-determination; replaces old auxiliary five-lemma isIso3_of_isIso12. |
@@ -216,8 +216,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-extension-across-finite-subset` | 1 | medium | Finite-boundary step of Deligne induction (abstract form, takes the smooth direct-image input as hypothesis). |
 | `lemma-universal-homeomorphism-base` | 1 | high | Old detail lem-fin-radicial-exchange-descent. |
 | `lemma-generic-smooth-open` | 1 | high | Old detail lem-fin-generic-radicial-smoothing. |
-| `theorem-generic-constructibility-base-change-rj` | 1 | high | Old detail thm-fin-deligne-generic-open. |
-| `corollary-open-direct-image-over-field` | 4 | high | Old detail cor-fin-deligne-open-finite-coefficients plus base change (det-geo-open-finiteness-base-change), etale and pro-etale. 3 of the names are on its clauses. |
+| `theorem-generic-constructibility-base-change-rj` | 1 | high | Old detail thm-fin-deligne-generic-open. 1 of the names are on its clauses. |
+| `corollary-open-direct-image-over-field` | 4 | high | Old detail cor-fin-deligne-open-finite-coefficients plus base change (det-geo-open-finiteness-base-change), etale and pro-etale. 4 of the names are on its clauses. |
 | `proposition-open-direct-image-preserves-finite` | 3 | high | Old sk-cor-sf-direct-image-ctf list plus the precise [a,b+d], d >= cd(j) open-immersion bound. |
 | `theorem-f-shriek-finite-coefficients` | 3 | medium | Old list kept exists_shift; dropped closed-immersion step; f^! preserves Dctf and restricted adjunction (transported etale f^!, not Brown adjoint). |
 | `proposition-direct-image-along-open-immersion` | 3 | high | Docstrings cite sk-prop-open-coefficients, one per coefficient ring. |
@@ -254,12 +254,12 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-injectivity-base-change-map-degree` | 3 | high | Old sk-prop-injectivity lean list. 3 of the names are on its clauses. |
 | `lemma-reduction-field` | 3 | high | Old sk-lem-failure-field lean list. 1 of the names are on its clauses. |
 | `lemma-integral-changes-source-base` | 2 | high | Main theorems of old details sbc-lem-bc-integral-surjective / -base; helpers dropped. 2 of the names are on its clauses. |
-| `lemma-reduction-curve-over-normal-base` | 3 | high | Old sk-lem-universal-datum lean list. |
+| `lemma-reduction-curve-over-normal-base` | 3 | high | Old sk-lem-universal-datum lean list. 1 of the names are on its clauses. |
 | `example-reduction-end-affine-line` | 0 | — | Example; nothing states it. |
 | `proposition-base-change-larger-algebraically-closed` | 2 | high | Old sk-thm-vanishing lean list. 1 of the names are on its clauses. |
-| `theorem-smooth-base-change-classical-torsion-2` | 4 | medium | Pro-etale D+ classical torsion version; etale D+ version from old detail of sk-thm-sbc-derived. 1 of the names are on its clauses. |
+| `theorem-smooth-base-change-classical-torsion-2` | 3 | medium | Pro-etale D+ classical torsion version; etale D+ version from old detail of sk-thm-sbc-derived. 1 of the names are on its clauses. |
 | `lemma-change-coefficients` | 6 | medium | CoefficientChangeCube: base change map commutes with flat coefficient change (formal part of sk-lem-sbc-exchange-compatibility). 2 of the names are on its clauses. |
-| `theorem-smooth-base-change-all-admissible` | 3 | medium | Old sketch empty; finite, O_E and Qbar cases (last docstring cites sk-thm-sbc-coefficients). |
+| `theorem-smooth-base-change-all-admissible` | 4 | medium | Old sketch empty; finite, O_E and Qbar cases (last docstring cites sk-thm-sbc-coefficients). 1 of the names are on its clauses. |
 | `remark-smooth-base-change-proper-base` | 0 | — | Remark. |
 | `lemma-base-change-along-product-projection` | 1 | low | Old sketch empty; lem-kun-0f1n base change of Rg_* along product projection over a field (tensored form). |
 | `definition-kunneth-map` | 2 | medium | Kunneth map for f1 x f2 (Qbar, ProperKunneth) and identity-factor map (8.4) on etale site. 2 of the names are on its clauses. |
@@ -310,7 +310,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-internal-adjunction-two-exchange-formulas` | 8 | medium | (10.2) tensor-Hom exchange, (10.3)/(10.4) natural isos, proper δ compatibility; old sketch had no lean 3 of the names are on its clauses. |
 | `example-biduality-punctured-line` | 0 | — | example; not formalized |
 | `lemma-verdier-duality-preserves-constructibility` | 2 | medium | old sketch empty; étale finite-coefficient preservation of Dctf 1 of the names are on its clauses. |
-| `lemma-restriction-geometric-generic-fibre` | 3 | medium | old lem-weil-geometric-generic-exchange: three comparisons (direct image only for open immersions) 1 of the names are on its clauses. |
+| `lemma-restriction-geometric-generic-fibre` | 3 | medium | old lem-weil-geometric-generic-exchange: three comparisons (direct image only for open immersions) 3 of the names are on its clauses. |
 | `lemma-double-dual-geometric-generic-fibre` | 2 | medium | old lem-weil-geometric-generic-duality main statements; helpers dropped |
 | `theorem-verdier-biduality` | 5 | high | old lem-sf-verdier-biduality-equivalence (finite) plus pro-étale Q̄ℓ / O_E constructible biduality 2 of the names are on its clauses. |
 | `corollary-verdier-exchange-formulas` | 4 | medium | old sk-thm-sf-verdier-exchange names plus f^!D≅Df^* and i^*D≅Di^!; D Rf_* ≅ Rf_! D not found 2 of the names are on its clauses. |
@@ -319,7 +319,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `theorem-poincare-duality` | 5 | medium | old sk-thm-sf-identification + derived/proper Poincaré details; coefficient-change clause not covered |
 | `corollary-degreewise-duality-over-fields` | 6 | medium | finite-field degreewise perfectness (étale) and Q̄ℓ lisse/constant Weil-sheaf forms; old details of sk-thm-derived-duality 2 of the names are on its clauses. |
 | `remark-duality-cohomology-groups-over-oe` | 0 | — | remark; not formalized as such |
-| `theorem-trace-isomorphism-top-degree` | 7 | medium | finite-coeff étale trace iso and Q̄ℓ Weil-sheaf form (old thm-pod-trace-isomorphism), vanishing outside [0,2d] 1 of the names are on its clauses. |
+| `theorem-trace-isomorphism-top-degree` | 8 | medium | finite-coeff étale trace iso and Q̄ℓ Weil-sheaf form (old thm-pod-trace-isomorphism), vanishing outside [0,2d] 5 of the names are on its clauses. |
 | `lemma-class-of-point` | 1 | medium | trace of point class is 1 for normalized orientation (finite self-injective coefficients) |
 | `corollary-cup-product-pairing` | 3 | medium | Q̄ℓ constant coefficients over finite field: perfect cup pairing with (-1)^i symmetry; old sk-cor-trace name 1 of the names are on its clauses. |
 | `definition-weil-structure` | 7 | medium | old def-trf-strict-weil-complex; étale and Q̄ℓ Weil-object variants 3 of the names are on its clauses. |
@@ -334,7 +334,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | Declaration | Lean names (with its clauses) | Confidence | Note |
 |---|---|---|---|
 | `definition-categorical-trace` | 1 | high | old sk-d-trace 1 of the names are on its clauses. |
-| `proposition-properties-trace` | 7 | high | old sk-p-trace + prop-trf-trace-formal-laws; additivity via short exact sequences of complexes 2 of the names are on its clauses. |
+| `proposition-properties-trace` | 7 | high | old sk-p-trace + prop-trf-trace-formal-laws; additivity via short exact sequences of complexes 3 of the names are on its clauses. |
 | `remark-coherent-additivity` | 0 | — | remark |
 | `example-trace-not-determined-cohomology` | 0 | — | example |
 | `definition-correspondence` | 9 | high | Q̄ℓ endocorrespondence + fixed locus (used downstream) and finite-coefficient étale version; not in old facts 6 of the names are on its clauses. |
@@ -678,7 +678,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 ## Clause names
 
-The clauses with Lean names, in the order of the notes. *aligned*: the clause text was rewritten by the PR to state the Lean statement and taken into the tex. *partial*: the clause keeps the text of the notes, and the Lean names state a special case of it (the PR's narrower rewrite was not taken).
+The clauses with Lean names, in the order of the notes. *aligned*: the clause text was rewritten by the PR to state the Lean statement and taken into the tex. *partial*: the clause keeps the text of the notes, and the Lean names state a special case of it (the PR's narrower rewrite was not taken). *new*: a clause added from a PR.
 
 | Clause | Lean names | Text | From |
 |---|---|---|---|
@@ -712,10 +712,10 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `definition-weak-contractibility--1` | `CategoryTheory.GrothendieckTopology.IsWeaklyContractible` | states the clause | #210 |
 | `corollary-evaluation-weakly-contractible-objects--1` | `AlgebraicGeometry.Scheme.ProEt.affine_weaklyContractible_abelian_evaluation_colimits` | partial: Lean states a special case | #210 |
 | `corollary-evaluation-weakly-contractible-objects--5` | `CategoryTheory.peSectionsLimitsColimits` | aligned (text taken from the PR) | #210 |
-| `corollary-evaluation-weakly-contractible-objects--6` | `AlgebraicGeometry.Scheme.ProEt.sections_conservative` | aligned (text taken from the PR) | #210 |
+| `corollary-evaluation-weakly-contractible-objects--7` | `AlgebraicGeometry.Scheme.ProEt.sections_conservative` | aligned (text taken from the PR) | #210 |
 | `proposition-exact-products--1` | `AlgebraicGeometry.Scheme.ProEt.products_exact` | aligned (text taken from the PR) | #210 |
 | `proposition-exact-products--2` | `DerivedCategory.isLimitFanMkQObj`<br>`HomologicalComplex.isLimitFanHomology` | aligned (text taken from the PR) | #210 |
-| `proposition-milnor-sequence--1` | `AlgebraicGeometry.Scheme.ProEt.milnor_sequence` | aligned (text taken from the PR) | #210 |
+| `proposition-milnor-sequence--2` | `AlgebraicGeometry.Scheme.ProEt.milnor_sequence`<br>`DerivedCategory.shortExact_milnor_of_isHomotopyLimit` | aligned (text taken from the PR) | #210 |
 | `proposition-milnor-sequence--3` | `AlgebraicGeometry.ProEtale.milnor_epimorphic` | aligned (text taken from the PR) | #210 |
 | `corollary-continuity-cohomology--1` | `AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small` | partial: Lean states a special case | #210 |
 | `corollary-continuity-cohomology--2` | `AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar` | partial: Lean states a special case | #210 |
@@ -723,8 +723,11 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `proposition-comparison-morphism-inverse-image--2` | `AlgebraicGeometry.ProEtale.comparisonAdjunction`<br>`AlgebraicGeometry.ProEtale.comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar` | partial: Lean states a special case | #210 |
 | `theorem-classical-sheaves-essential-image--1` | `AlgebraicGeometry.ProEtale.coefficientClassicalModule_origin`<br>`AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar`<br>`AlgebraicGeometry.ProEtale.full_comparisonUpperStar`<br>`AlgebraicGeometry.Scheme.proEtaleClassicalSheavesImage`<br>`AlgebraicGeometry.Scheme.proEtaleComparisonUnitSets_isIso` | aligned (text taken from the PR) | #210 |
 | `lemma-acyclicity-pulled-back-injectives--1` | `AlgebraicGeometry.ProEtale.isZero_rightDerived_globalSectionsFunctor_comparisonUpperStar` | partial: Lean states a special case | #210 |
+| `theorem-bounded-below-cohomology-comparison--1` | `AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app` | aligned (text taken from the PR) | #210 |
+| `theorem-bounded-below-cohomology-comparison--2` | `AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map` | aligned (text taken from the PR) | #210 |
 | `theorem-bounded-below-cohomology-comparison--3` | `AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso` | aligned (text taken from the PR) | #210 |
 | `theorem-comparison-direct-images--1` | `AlgebraicGeometry.ProEtale.isIso_lowerStarComparisonUpperStarBaseChange`<br>`AlgebraicGeometry.ProEtale.lowerStarComparisonUpperStarBaseChange`<br>`AlgebraicGeometry.ProEtale.rightAcyclic_lowerStar_comparisonUpperStar_obj_of_injective` | partial: Lean states a special case | #210 |
+| `proposition-comparison-immersions--1` | `AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso` | aligned (text taken from the PR) | #210 |
 | `proposition-locally-constant-sheaves-finite-presentation--1` | `AlgebraicGeometry.Scheme.etale_origin_of_finite_models` | partial: Lean states a special case | #210 |
 | `proposition-locally-constant-sheaves-finite-presentation--2` | `AlgebraicGeometry.Scheme.etale_cover_of_proetale_finite_models` | partial: Lean states a special case | #210 |
 | `proposition-locally-constant-sheaves-finite-presentation--3` | `AlgebraicGeometry.Scheme.proEtale_lisse_origin` | partial: Lean states a special case | #210 |
@@ -734,6 +737,7 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `corollary-finite-tor-amplitude-under-comparison--1` | `AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian` | aligned (text taken from the PR) | #210 |
 | `proposition-pro-etale-site-separably-closed--1` | `AlgebraicGeometry.ProEtale.geometricFieldProfiniteDenseSubsite` | aligned (text taken from the PR) | #210 |
 | `proposition-pro-etale-site-separably-closed--3` | `AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf`<br>`Profinite.continuousMapRingSheaf` | aligned (text taken from the PR) | #210 |
+| `corollary-finite-quotients-their-transition-maps--2` | `AlgebraicGeometry.ProEtale.PrincipalNormalization.principal_cone_tensor_normalization` | aligned (text taken from the PR) | #210 |
 | `corollary-finite-quotients-their-transition-maps--3` | `AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp`<br>`AlgebraicGeometry.ProEtale.upperStarFromPointComp` | aligned (text taken from the PR) | #210 |
 | `definition-tate-twists--1` | `AlgebraicGeometry.ProEtale.rootsOfUnitySheaf` | states the clause | #210 |
 | `definition-tate-twists--10` | `AlgebraicGeometry.ProEtale.isLocallyFree_integralTateTwist`<br>`AlgebraicGeometry.ProEtale.isLocallyFree_tateTwist` | partial: Lean states a special case | #210 |
@@ -743,6 +747,8 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `definition-tate-twists--5` | `AlgebraicGeometry.ProEtale.integralTateTwistOne`<br>`AlgebraicGeometry.ProEtale.spIntegralTwist` | states the clause | #210 |
 | `definition-tate-twists--6` | `AlgebraicGeometry.ProEtale.spRationalTwist` | states the clause | #210 |
 | `definition-tate-twists--8` | `AlgebraicGeometry.ProEtale.tateModule` | states the clause | #210 |
+| `lemma-inverse-image-coefficient-sheaves--1` | `AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom`<br>`AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom` | aligned (text taken from the PR) | #210 |
+| `lemma-inverse-image-coefficient-sheaves--4` | `AlgebraicGeometry.ProEtale.CondensedRing.exists_comap_regular_iso_finiteFree` | aligned (text taken from the PR) | #210 |
 | `definition-derived-adic-completeness--1` | `AlgebraicGeometry.ProEtale.IsDerivedComplete` | states the clause | #210 |
 | `lemma-reduction-derived-nakayama--1` | `AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution` | aligned (text taken from the PR) | #210 |
 | `definition-constructible-sheaves--1` | `AlgebraicGeometry.ProEtale.finiteConstantLocalModelOnCover_iff_scalarMatrix`<br>`AlgebraicGeometry.ProEtale.finiteConstantLocalModel_iff_exists_cover` | states the clause | #211 |
@@ -754,6 +760,7 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `definition-lisse-sheaves--1` | `AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel` | states the clause | #211 |
 | `proposition-integral-constructibility-criterion--1` | `AlgebraicGeometry.ProEtale.internal_integral_residue_criterion` | partial: Lean states a special case | #211 |
 | `lemma-flat-models-generators--1` | `AlgebraicGeometry.Etale.DerivedCategory.exists_flatConstructibleModel_of_boundedConstructibleFiniteTor`<br>`AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel` | partial: Lean states a special case | #211 |
+| `lemma-lattices-lisse-e-sheaves--2` | `AlgebraicGeometry.ProEtale.CondensedRing.continuousLisse_etale_lattice`<br>`AlgebraicGeometry.ProEtale.exists_lisse_lattice_etale_local` | aligned (text taken from the PR) | #211 |
 | `lemma-constructible-sheaves--5` | `AlgebraicGeometry.ProEtale.coefficientHeart_closure` | aligned (text taken from the PR) | #211 |
 | `lemma-constructible-sheaves--6` | `AlgebraicGeometry.ProEtale.coefficientHeart_essentiallySmall` | aligned (text taken from the PR) | #211 |
 | `lemma-constructible-sheaves--7` | `AlgebraicGeometry.ProEtale.coefficientHeart_filtration` | partial: Lean states a special case | #211 |
@@ -761,7 +768,6 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `lemma-lattices-after-finite-stratification--1` | `AlgebraicGeometry.ProEtale.CondensedRing.continuousLisse_stratified_lattices` | aligned (text taken from the PR) | #211 |
 | `lemma-integral-models--1` | `AlgebraicGeometry.ProEtale.IntegralModelsStacks.completion_transport` | aligned (text taken from the PR) | #211 |
 | `lemma-integral-models--2` | `AlgebraicGeometry.ProEtale.IntegralModelsStacks.integral_models_stacks` | aligned (text taken from the PR) | #211 |
-| `lemma-integral-models--5` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion` | partial: Lean states a special case | #211 |
 | `proposition-inverting-ell--2` | `AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars`<br>`AlgebraicGeometry.ProEtale.rationalizationEquivalence`<br>`AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso` | aligned (text taken from the PR) | #211 |
 | `lemma-cohomology-modules-underlying-abelian--1` | `AlgebraicGeometry.Scheme.isZero_rightDerived_globalSections_forget_of_injective` | partial: Lean states a special case | #212 |
 | `definition-underived-base-change-map--1` | `AlgebraicGeometry.Etale.baseChangeMap`<br>`AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit` | states the clause | #212 |
@@ -779,6 +785,7 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `definition-torsion-pbc-property--1` | `AlgebraicGeometry.Etale.HasTorsionBaseChange` | states the clause | #212 |
 | `definition-injective-acyclicity--1` | `AlgebraicGeometry.Etale.HasInjectiveAcyclicity` | states the clause | #212 |
 | `theorem-finite-etale-covers-proper-henselian--2` | `AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing` | aligned (text taken from the PR) | #212 |
+| `theorem-finite-etale-covers-proper-henselian--3` | `AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing` | aligned (text taken from the PR) | #212 |
 | `theorem-cohomology-curves--1` | `AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le` | aligned (text taken from the PR) | #212 |
 | `theorem-cohomology-curves--2` | `AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine` | aligned (text taken from the PR) | #212 |
 | `theorem-cohomology-curves--7` | `AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isAlgClosed` | aligned (text taken from the PR) | #212 |
@@ -807,8 +814,10 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `proposition-comparison-etale-derived-category--3` | `CategoryTheory.Functor.preservesColimitsOfShape_mapDerivedCategory` | aligned (text taken from the PR) | #213 |
 | `proposition-comparison-etale-derived-category--5` | `AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso` | aligned (text taken from the PR) | #213 |
 | `proposition-comparison-etale-derived-category--6` | `AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso` | aligned (text taken from the PR) | #213 |
+| `lemma-inverse-image-tensor-product--1` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj_of_scheme` | aligned (text taken from the PR) | #213 |
 | `lemma-inverse-image-tensor-product--2` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isMonoidal_boundedConstructible` | aligned (text taken from the PR) | #213 |
 | `lemma-inverse-image-tensor-product--3` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj` | partial: Lean states a special case | #213 |
+| `lemma-inverse-image-tensor-product--4` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isClosedImmersion` | aligned (text taken from the PR) | #213 |
 | `lemma-inverse-image-tensor-product--6` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_of_openClosed` | new clause (from the PR) | #213 |
 | `proposition-composition-base-change-rf-shriek--1` | `AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl`<br>`AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicIntegers` | partial: Lean states a special case | #213 |
 | `proposition-composition-base-change-rf-shriek--2` | `AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekComp_padicAlgCl_assoc` | partial: Lean states a special case | #213 |
@@ -830,6 +839,8 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `lemma-detection-proper-direct-image--2` | `AlgebraicGeometry.Etale.isIso_of_isIso_upperStar_map_of_isIso_rightDerivedLowerStar_map` | aligned (text taken from the PR) | #214 |
 | `lemma-coordinate-projections--1` | `AlgebraicGeometry.topologicalKrullDim_fiber_genericPoint_add_one_le` | aligned (text taken from the PR) | #214 |
 | `lemma-coordinate-projections--2` | `AlgebraicGeometry.exists_isFinite_morphismRestrict_of_range_subset` | aligned (text taken from the PR) | #214 |
+| `theorem-generic-constructibility-base-change-rj--2` | `AlgebraicGeometry.Etale.exists_hasConstructibleDirectImageBaseChangeOn` | aligned (text taken from the PR) | #214 |
+| `corollary-open-direct-image-over-field--1` | `AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_isOpenImmersion` | aligned (text taken from the PR) | #214 |
 | `corollary-open-direct-image-over-field--2` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isOpenImmersion_of_field`<br>`AlgebraicGeometry.Etale.isIso_baseChange_app_of_isOpenImmersion_of_field`<br>`AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_field` | aligned (text taken from the PR) | #214 |
 | `definition-change-of-coefficients-maps--2` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso` | states the clause | #215 |
 | `definition-change-of-coefficients-maps--4` | `AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom` | states the clause | #215 |
@@ -861,9 +872,11 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `lemma-reduction-field--1` | `AlgebraicGeometry.Etale.nonempty_fieldFailure` | partial: Lean states a special case | #216 |
 | `lemma-integral-changes-source-base--1` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isIntegralHom_of_surjective` | aligned (text taken from the PR) | #216 |
 | `lemma-integral-changes-source-base--2` | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom` | aligned (text taken from the PR) | #216 |
+| `lemma-reduction-curve-over-normal-base--1` | `AlgebraicGeometry.Etale.exists_isPullback_not_isZero_higherDirectImage` | aligned (text taken from the PR) | #216 |
 | `proposition-base-change-larger-algebraically-closed--1` | `AlgebraicGeometry.Etale.CurveTestDatum.exists_cover_cohomologyMap_eq_zero` | partial: Lean states a special case | #216 |
 | `theorem-smooth-base-change-classical-torsion-2--1` | `AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth_of_isTorsionSheafOfInvertibleOrder` | partial: Lean states a special case | #216 |
 | `lemma-change-coefficients--1` | `AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_boundedConstructibleBaseChange_extendScalars`<br>`AlgebraicGeometry.ProEtale.CondensedRing.nonempty_arrowIso_map_exchangeRight_derivedExtendScalars` | partial: Lean states a special case | #216 |
+| `theorem-smooth-base-change-all-admissible--1` | `AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_smooth` | aligned (text taken from the PR) | #216 |
 | `definition-kunneth-map--1` | `AlgebraicGeometry.Etale.externalProductRightDerivedLowerStarMap`<br>`AlgebraicGeometry.ProEtale.CondensedRing.prodLowerStarExternalProduct` | states the clause | #216 |
 | `lemma-kunneth-one-identity-factor--1` | `AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar` | partial: Lean states a special case | #216 |
 | `definition-exceptional-base-change-map--1` | `AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.upperShriekBaseChange`<br>`AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.upperShriekBaseChange` | states the clause | #218 |
@@ -888,12 +901,17 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `lemma-internal-adjunction-two-exchange-formulas--2` | `AlgebraicGeometry.WeilComplex.nonempty_verdierDual_derivedLowerShriek_iso` | partial: Lean states a special case | #219 |
 | `lemma-verdier-duality-preserves-constructibility--1` | `AlgebraicGeometry.Etale.constructibleFiniteTor_and_torAmplitudeIn_verdierDual_of_perfectField` | partial: Lean states a special case | #219 |
 | `lemma-restriction-geometric-generic-fibre--1` | `AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_generic` | partial: Lean states a special case | #219 |
+| `lemma-restriction-geometric-generic-fibre--2` | `AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_app_of_generic` | aligned (text taken from the PR) | #219 |
+| `lemma-restriction-geometric-generic-fibre--3` | `AlgebraicGeometry.Etale.isIso_derivedHomUpperStarComparison_of_generic` | aligned (text taken from the PR) | #219 |
 | `theorem-verdier-biduality--2` | `AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isIso_verdierBiduality` | aligned (text taken from the PR) | #219 |
 | `theorem-verdier-biduality--4` | `AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality` | aligned (text taken from the PR) | #219 |
 | `corollary-verdier-exchange-formulas--1` | `AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek` | partial: Lean states a special case | #219 |
 | `corollary-verdier-exchange-formulas--5` | `AlgebraicGeometry.Etale.verdierDualLowerShriekIso` | partial: Lean states a special case | #219 |
 | `corollary-degreewise-duality-over-fields--1` | `AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual`<br>`AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_dual_mul` | partial: Lean states a special case | #219 |
 | `theorem-trace-isomorphism-top-degree--1` | `AlgebraicGeometry.WeilSheaf.exists_linearEquiv_cohomology_zero_adicConstant` | partial: Lean states a special case | #219 |
+| `theorem-trace-isomorphism-top-degree--2` | `AlgebraicGeometry.ProEtale.subsingleton_H_continuousSheaf_of_two_mul_lt` | aligned (text taken from the PR) | #219 |
+| `theorem-trace-isomorphism-top-degree--4` | `AlgebraicGeometry.ProEtale.subsingleton_H_continuousSheaf_of_profinite` | aligned (text taken from the PR) | #219 |
+| `theorem-trace-isomorphism-top-degree--8` | `AlgebraicGeometry.ProEtale.isZero_rightDerived_Γ_adicConstantSheaf_of_two_mul_lt`<br>`AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant` | aligned (text taken from the PR) | #219 |
 | `corollary-cup-product-pairing--1` | `AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect` | partial: Lean states a special case | #219 |
 | `definition-weil-structure--1` | `CategoryTheory.Endofunctor.IsoAlgebra.str` | states the clause | #219 |
 | `definition-weil-structure--2` | `AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible` | states the clause | #219 |
@@ -901,6 +919,7 @@ The clauses with Lean names, in the order of the notes. *aligned*: the clause te
 | `definition-categorical-trace--2` | `CategoryTheory.MonoidalCategory.trace` | states the clause | #220 |
 | `proposition-properties-trace--1` | `CategoryTheory.MonoidalCategory.trace_add` | partial: Lean states a special case | #220 |
 | `proposition-properties-trace--2` | `CategoryTheory.MonoidalCategory.trace_eq_of_iso` | aligned (text taken from the PR) | #220 |
+| `proposition-properties-trace--3` | `CategoryTheory.Functor.trace_eq_unitEndRingHom_trace` | aligned (text taken from the PR) | #220 |
 | `definition-correspondence--1` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.support` | states the clause | #220 |
 | `definition-correspondence--2` | `AlgebraicGeometry.ProEtale.CondensedRing.Correspondence` | states the clause | #220 |
 | `definition-correspondence--3` | `AlgebraicGeometry.Scheme.fixedScheme`<br>`AlgebraicGeometry.Scheme.fixedSchemeProj`<br>`AlgebraicGeometry.Scheme.fixedSchemeι`<br>`AlgebraicGeometry.Scheme.instIsClosedImmersionFixedSchemeιOfIsSeparated` | states the clause | #220 |

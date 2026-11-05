@@ -3,7 +3,7 @@ id = "proposition-comparison-immersions--4"
 kind = "proposition"
 title = "Comparison for immersions (4)"
 name_showing = false
-order = 139004
+order = 139007
 aliases = ["bp-r040-4"]
 +++
 Let $f:X\to Y$ be a separated morphism of finite type with a

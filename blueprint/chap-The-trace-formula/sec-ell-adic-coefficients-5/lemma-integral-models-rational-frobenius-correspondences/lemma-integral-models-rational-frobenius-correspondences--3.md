@@ -3,7 +3,7 @@ id = "lemma-integral-models-rational-frobenius-correspondences--3"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences (3)"
 name_showing = false
-order = 1014003
+order = 1014005
 aliases = ["bp-r309-3"]
 +++
 $$

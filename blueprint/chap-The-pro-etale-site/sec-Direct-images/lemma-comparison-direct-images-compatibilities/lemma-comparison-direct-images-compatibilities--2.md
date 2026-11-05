@@ -3,7 +3,7 @@ id = "lemma-comparison-direct-images-compatibilities--2"
 kind = "lemma"
 title = "Compatibilities of the comparison of direct images (2)"
 name_showing = false
-order = 136003
+order = 136004
 aliases = ["bp-r039-2"]
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$, the composite

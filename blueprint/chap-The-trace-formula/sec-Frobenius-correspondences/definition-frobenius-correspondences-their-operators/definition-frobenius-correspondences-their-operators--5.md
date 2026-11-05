@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators--5"
 kind = "definition"
 title = "Frobenius correspondences and their operators (5)"
 name_showing = false
-order = 952005
+order = 952006
 aliases = ["bp-r289-5"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.globalOperator_ofGraph", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ofGraph", "AlgebraicGeometry.ProEtale.CondensedRing.compactPullback", "AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCompactOperator"]
 +++

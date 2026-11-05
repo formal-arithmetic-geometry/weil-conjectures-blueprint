@@ -2,7 +2,7 @@
 id = "lemma-frobenius-fixed-scheme--2"
 kind = "lemma"
 title = "Finiteness"
-order = 960003
+order = 960004
 aliases = ["bp-r292-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.finite_fixedPoint", "AlgebraicGeometry.ProEtale.CondensedRing.instIsFiniteHomSchemeSigmaPointOfFinite"]
 +++

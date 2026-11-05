@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--7"
 kind = "lemma"
 title = "Tsen's theorem and the function-field Brauer group"
-order = 1574008
+order = 1574014
 aliases = ["bp-r490-7"]
 lean = ["AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_functionField"]
 +++

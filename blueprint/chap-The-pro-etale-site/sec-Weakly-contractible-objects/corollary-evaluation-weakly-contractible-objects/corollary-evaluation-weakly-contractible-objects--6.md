@@ -2,9 +2,8 @@
 id = "corollary-evaluation-weakly-contractible-objects--6"
 kind = "corollary"
 title = "Detecting exactness"
-order = 79007
+order = 79012
 aliases = ["bp-r020-6"]
-lean = ["AlgebraicGeometry.Scheme.ProEt.sections_conservative"]
 +++
 Let $A\xrightarrow{f}B\xrightarrow{g}C$ be a sequence of
 $\mathcal R$-module sheaves with $g\circ f=0$. It is exact at $B$ if and

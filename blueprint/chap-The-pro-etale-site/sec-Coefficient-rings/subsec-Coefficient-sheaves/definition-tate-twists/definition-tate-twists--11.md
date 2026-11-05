@@ -2,7 +2,7 @@
 id = "definition-tate-twists--11"
 kind = "definition"
 title = "Nonnegative twists"
-order = 184012
+order = 184016
 aliases = ["bp-r053-11"]
 lean = ["AlgebraicGeometry.ProEtale.integralTateTwistNat", "AlgebraicGeometry.ProEtale.tateTwistNat"]
 +++

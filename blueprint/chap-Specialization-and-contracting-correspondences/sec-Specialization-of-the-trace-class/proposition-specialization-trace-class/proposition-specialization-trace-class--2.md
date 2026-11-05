@@ -3,7 +3,7 @@ id = "proposition-specialization-trace-class--2"
 kind = "definition"
 title = "Specialization of the trace class (2)"
 name_showing = false
-order = 1687002
+order = 1687003
 aliases = ["bp-r523-2"]
 +++
 For a section $z:A_{F_\eta}\to\omega_{F_\eta}$ of the dualizing complex, its

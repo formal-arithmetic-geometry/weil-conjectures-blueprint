@@ -2,7 +2,7 @@
 id = "proposition-twisting-weight-zero-adding-dual--2"
 kind = "definition"
 title = "Twisted sheaf"
-order = 1197003
+order = 1197004
 aliases = ["bp-r368-2"]
 lean = ["AlgebraicGeometry.WeilSheaf.constantTwist"]
 +++

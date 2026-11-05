@@ -2,7 +2,7 @@
 id = "proposition-dctf-x-qbar-2-colimit--3"
 kind = "proposition"
 title = "Descent of morphisms"
-order = 649004
+order = 649006
 aliases = ["bp-r198-3"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_homInj", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj"]
 +++

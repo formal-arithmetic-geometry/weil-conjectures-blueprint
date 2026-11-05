@@ -2,7 +2,7 @@
 id = "proposition-composition-base-change-rf-shriek--4"
 kind = "proposition"
 title = "Base-change isomorphism"
-order = 516005
+order = 516008
 aliases = ["bp-r157-4"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicIntegers"]
 +++

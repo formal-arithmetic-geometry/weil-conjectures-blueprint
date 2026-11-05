@@ -15,8 +15,11 @@ its clauses become detail nodes under it:
 - clause k is <id>/<id>--<k>.md, of the clause's kind, titled by the clause's
   title or, for an unnamed clause, by the sketch's title and its number
   (name_showing = false), with alias bp-r<NNN>-<k>;
-- a proof in the block ("Justification of clause~\\ref{bp-r…}", or one after a
-  clause) is the proof of that clause, <id>/<id>--<k>.proof.md;
+- a proof in the block ("Proof of clause~\\ref{bp-r…}", or one after a clause) is
+  the proof of that clause, <id>/<id>--<k>.proof.md; a "Proof provenance" line after
+  it adds the declaration whose proof it was taken from.  A clause that the
+  declaration's whole proof proves ("Proof of clause~\\ref{…}. The proof in reference
+  proof NNN …") gets a proof saying so;
 - a "Dependencies:" line after a clause gives its `uses` (on its proof when it
   has one), leaving out every arrow with a definition at either end;
 - text in the block between clauses (shared context, the statement's opening
@@ -75,6 +78,10 @@ secs = [m.start() for m in re.finditer(r'\\section\*?\{', BODY)]
 clause_re = re.compile(r'\\begin\{(bp[a-z]+)\}(?:\[([^\]]*)\])?\s*\\label\{(bp-r\d+-\d+)\}(.*?)\\end\{\1\}', re.S)
 proof_re = re.compile(r'\\begin\{proof\}(?:\[([^\]]*)\])?(.*?)\\end\{proof\}', re.S)
 deps_re = re.compile(r'\\noindent\{\\small\\textit\{Dependencies:\}(.*?)\}\\par', re.S)
+# A clause proved by the block's whole argument: "Proof of clause~\ref{bp-r…}. The proof in
+# reference proof NNN establish this clause …"; and the source line after a clause's own proof.
+pointer_re = re.compile(r'\\noindent\{\\small\\textit\{Proof of clause~\\ref\{(bp-r\d+-\d+)\}\.\}(.*?)\}\\par', re.S)
+prov_re = re.compile(r'\\noindent\{\\footnotesize\\textit\{Proof provenance:\}(.*?)\\par', re.S)
 block_re = re.compile(r'\\BPSource\{([^}]*)\}\{(\d+)\}\{(\d+)\}\{((?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*)\}(.*?)\\BPEndSource\{\2\}', re.S)
 
 
@@ -124,6 +131,27 @@ for c, (head, cdir, rows) in plan.items():
                 kind_of[f'{sid}--{int(cm.group(3).split("-")[-1])}'] = KIND[cm.group(1)]
 for k, (p, fm, b) in nodes.items():
     kind_of.setdefault(k, fm['kind'])
+
+
+# Each reference proof (\\BPProofAnchor{bp-proof-NNN} after a block) is the proof of that
+# block's declaration.
+proof_owner = {}
+_blocks = list(block_re.finditer(BODY))
+for _i, _b in enumerate(_blocks):
+    _end = _blocks[_i + 1].start() if _i + 1 < len(_blocks) else len(BODY)
+    _lab = re.search(r'\\label\{([^}]*)\}', _b.group(5)).group(1)
+    for _a in re.findall(r'\\BPProofAnchor\{(bp-proof-\d+)\}', BODY[_b.end():_end]):
+        proof_owner[_a] = (_b.group(1), _lab)
+
+
+def source_of(tex):
+    """'Lemma~\\ref{x}' (and …) for the reference proofs named in tex."""
+    out = []
+    for a in dict.fromkeys(re.findall(r'\\hyperref\[(bp-proof-\d+)\]', tex)):
+        if a in proof_owner:
+            kind, lab = proof_owner[a]
+            out.append(f'{kind}~\\ref{{{lab}}}')
+    return ' and '.join(out)
 
 
 def words(s):
@@ -187,6 +215,8 @@ for CHAP in CHAPTERS:
         marks = [(m.start(), m.end(), 'clause', m) for m in clause_re.finditer(content)]
         marks += [(m.start(), m.end(), 'proof', m) for m in proof_re.finditer(content)]
         marks += [(m.start(), m.end(), 'deps', m) for m in deps_re.finditer(content)]
+        marks += [(m.start(), m.end(), 'pointer', m) for m in pointer_re.finditer(content)]
+        marks += [(m.start(), m.end(), 'prov', m) for m in prov_re.finditer(content)]
         marks.sort(key=lambda x: x[0])
         pieces, pos = [], 0
         for s0, e0, kind, m in marks:
@@ -198,9 +228,10 @@ for CHAP in CHAPTERS:
         pieces.append(('text', content[pos:]))
         k_text, order, clause_words, last = 0, base, set(), None
         n_proof = {}
+        last_proof = None
         for kind, x in pieces:
             if kind == 'text':
-                t = re.sub(r'\\label\{[^}]*\}|\\leavevmode|\\begin\{enumerate\}(\[[^\]]*\])?|\\end\{enumerate\}|'
+                t = re.sub(r'\\label\{[^}]*\}|\\BPProofAnchor\{[^}]*\}|\\leavevmode|\\begin\{enumerate\}(\[[^\]]*\])?|\\end\{enumerate\}|'
                            r'\\begin\{itemize\}|\\end\{itemize\}|\\item(\[[^\]]*\])?', ' ', x)
                 if not t.strip():
                     continue
@@ -219,6 +250,35 @@ for CHAP in CHAPTERS:
                     if tgt != last:
                         arrows.append((last, tgt))
                 continue
+            if kind == 'prov':
+                # the declaration whose proof this clause proof was taken from
+                src = source_of(x.group(1))
+                if last_proof is None or not src:
+                    problems.append(f'{sid}: a proof source line without a proof before it')
+                    continue
+                pt = open(last_proof, encoding='utf-8').read().rstrip()
+                open(last_proof, 'w', encoding='utf-8').write(pt + '\n\n' + to_markdown(
+                    r'\emph{Source:} the proof of ' + src + '.') + '\n')
+                continue
+            if kind == 'pointer':
+                # the clause is proved by the declaration's own proof
+                of = LABEL[x.group(1)][1] if x.group(1) in LABEL else None
+                src = source_of(x.group(2))
+                if of is None or not src:
+                    problems.append(f'{sid}: a proof pointer for {x.group(1)} not understood')
+                    continue
+                item = re.search(r'The original internal item is \\texttt\{([^}]*)\}', x.group(2))
+                tex = f'This clause is proved by the proof of {src}, with the hypotheses and choices shared there.'
+                if item:
+                    tex += (f' It is part ({item.group(1)}) of that statement.' if item.group(1).isdigit()
+                            else f' It is the {item.group(1)} of that statement.')
+                n_proof[of] = n_proof.get(of, 0) + 1
+                order += 1
+                k = n_proof[of]
+                fields = ([('id', f'proof/{of}/{k}')] if k > 1 else []) + [('kind', 'proof'), ('of', of), ('order', order)]
+                last_proof = os.path.join(d, f'{of}.proof.md' if k == 1 else f'{of}.proof-{k}.md')
+                write(last_proof, fields, to_markdown(tex))
+                continue
             if kind == 'proof':
                 title, body = x.group(1) or '', x.group(2)
                 named = re.search(r'\\ref\{(bp-r\d+-\d+)\}', title)
@@ -233,7 +293,8 @@ for CHAP in CHAPTERS:
                 if title and not named:
                     fields.append(('title', G['heading_title'](title)))
                 fields.append(('order', order))
-                write(os.path.join(d, f'{of}.proof.md' if k == 1 else f'{of}.proof-{k}.md'), fields, to_markdown(body.strip()))
+                last_proof = os.path.join(d, f'{of}.proof.md' if k == 1 else f'{of}.proof-{k}.md')
+                write(last_proof, fields, to_markdown(body.strip()))
                 continue
             env, title, lab, body = x.groups()
             k = int(lab.split('-')[-1])

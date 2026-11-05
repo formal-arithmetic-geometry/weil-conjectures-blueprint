@@ -3,7 +3,7 @@ id = "lemma-triviality-fibres--2"
 kind = "lemma"
 title = "Triviality on fibres (2)"
 name_showing = false
-order = 1478003
+order = 1478004
 aliases = ["bp-r459-2"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isClosed_setOf_nonempty_iso_fiber"]
 +++

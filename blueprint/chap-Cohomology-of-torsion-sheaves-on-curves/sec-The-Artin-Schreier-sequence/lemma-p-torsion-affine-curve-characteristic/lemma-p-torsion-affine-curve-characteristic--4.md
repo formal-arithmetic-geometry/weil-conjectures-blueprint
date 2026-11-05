@@ -2,7 +2,7 @@
 id = "lemma-p-torsion-affine-curve-characteristic--4"
 kind = "lemma"
 title = "Affine acyclicity of the additive group"
-order = 1590004
+order = 1590007
 aliases = ["bp-r495-4"]
 lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine"]
 +++

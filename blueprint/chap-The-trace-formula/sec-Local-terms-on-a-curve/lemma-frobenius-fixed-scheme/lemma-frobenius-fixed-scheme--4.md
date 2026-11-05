@@ -2,7 +2,7 @@
 id = "lemma-frobenius-fixed-scheme--4"
 kind = "lemma"
 title = "Properness"
-order = 960005
+order = 960008
 aliases = ["bp-r292-4"]
 +++
 Let $X_0$ be of finite type over $k_0=\Fq$, let $k$ be an algebraically

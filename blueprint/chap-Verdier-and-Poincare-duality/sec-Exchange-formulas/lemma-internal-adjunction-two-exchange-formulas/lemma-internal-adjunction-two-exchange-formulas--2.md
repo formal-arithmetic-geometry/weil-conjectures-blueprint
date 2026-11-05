@@ -3,7 +3,7 @@ id = "lemma-internal-adjunction-two-exchange-formulas--2"
 kind = "lemma"
 title = "Internal adjunction and two exchange formulas (2)"
 name_showing = false
-order = 830002
+order = 830003
 aliases = ["bp-r248-2"]
 lean = ["AlgebraicGeometry.WeilComplex.nonempty_verdierDual_derivedLowerShriek_iso"]
 +++

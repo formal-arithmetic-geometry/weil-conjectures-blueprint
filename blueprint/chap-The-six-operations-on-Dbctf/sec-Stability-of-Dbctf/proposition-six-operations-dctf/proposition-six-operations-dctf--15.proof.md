@@ -4,10 +4,30 @@ of = "proposition-six-operations-dctf--15"
 order = 625031
 uses = ["proposition-six-operations-dctf--2", "proposition-six-operations-dctf--3", "proposition-six-operations-dctf--4", "proposition-six-operations-dctf--5", "proposition-six-operations-dctf--10", "proposition-six-operations-dctf--11", "proposition-six-operations-dctf--12", "proposition-six-operations-dctf--13", "proposition-six-operations-dctf--14"]
 +++
-Reduce the first variable to $a_{!,\Lambda}P$ with $a:S\hookrightarrow X$ locally closed and $P$ locally constant perfect, using finite cones. Tensor–Hom adjunction gives
+For internal Hom we reduce to a
+first argument supported on a single stratum, where $\cHom$ can be
+written in terms of $Ra_*$, $a^!$ and $\otimes^{\mathbf L}$.
+The functor $\cHom(-,K)$ sends triangles in the first argument to
+triangles, and $D^b_{\mathrm{ctf}}$ is closed under cones and shifts. Hence, for a
+triangle $M'\to M\to M''$, the complex $\cHom(M,K)$ lies in $D^b_{\mathrm{ctf}}$
+whenever $\cHom(M',K)$ and $\cHom(M'',K)$ do. Using a finite
+stratification and finite cones, we may therefore reduce to the case where
+the first argument is $a_!P$. Here $a:S\hookrightarrow X$ is locally closed
+and $P$ is a locally constant perfect complex on $S$. For finite $A$ this
+reduction follows from the bounded flat model and its stupid filtration.
+For $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ it follows from the same description of
+constructible sheaves on strata. By tensor-Hom adjunction and the
+projection formula for $a_!$ we have
 
 $$
-\cHom_{\Lambda_X}(a_{!,\Lambda}P,L)\simeq Ra_{*,\Lambda}\cHom_{\Lambda_S}(P,a^!_\Lambda L).
+\cHom_X(a_!P,K)
+\simeq Ra_*\cHom_S(P,a^!K)
+\simeq Ra_*(P^\vee\otimes^{\mathbf L}a^!K).
 $$
 
-Dualizability identifies the internal Hom on $S$ with $P^\vee\otimes^{\mathbf L}_{\Lambda_S}a^!_\Lambda L$. The direct-image, exceptional-inverse-image and tensor clauses above then apply for the same coefficient ring.
+Here $P^\vee=\cHom_S(P,\Lambda_S)$, and the second identity holds
+because $P$ is dualizable. The last term belongs to $D^b_{\mathrm{ctf}}(-,\Lambda)$ by
+the cases already established, namely those of $a^!$, of tensor product
+and of $Ra_*$.
+
+*Source:* the proof of Proposition [proposition-six-operations-dctf].

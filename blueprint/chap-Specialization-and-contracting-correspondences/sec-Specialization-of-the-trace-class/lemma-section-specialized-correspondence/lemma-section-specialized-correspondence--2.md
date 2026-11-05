@@ -3,7 +3,7 @@ id = "lemma-section-specialized-correspondence--2"
 kind = "lemma"
 title = "The section defined by the specialized correspondence (2)"
 name_showing = false
-order = 1692002
+order = 1692003
 aliases = ["bp-r525-2"]
 +++
 Consequently, if $k_u:A_{C_\eta}\to c_\eta^!P_X$ is the section

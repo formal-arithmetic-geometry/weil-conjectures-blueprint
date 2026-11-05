@@ -3,7 +3,7 @@ id = "corollary-continuity-cohomology--2"
 kind = "corollary"
 title = "Continuity of cohomology (2)"
 name_showing = false
-order = 106002
+order = 106003
 aliases = ["bp-r029-2"]
 lean = ["AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar"]
 +++

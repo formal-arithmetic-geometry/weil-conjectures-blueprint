@@ -3,7 +3,7 @@ id = "proposition-pullback-multiplication-n--2"
 kind = "proposition"
 title = "Pullback of invertible sheaves by {$[n]$} (2)"
 name_showing = false
-order = 1503002
+order = 1503003
 aliases = ["bp-r468-2"]
 lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
 +++

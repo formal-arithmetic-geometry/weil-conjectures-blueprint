@@ -3,7 +3,7 @@ id = "corollary-plancherel--2"
 kind = "corollary"
 title = "Plancherel (2)"
 name_showing = false
-order = 1241002
+order = 1241003
 aliases = ["bp-r382-2"]
 lean = ["AlgebraicGeometry.WeilComplex.l2Weight_fourierTransform"]
 +++

@@ -2,7 +2,7 @@
 id = "proposition-jacobian-over-ground-field--3"
 kind = "proposition"
 title = "Representation over the algebraic closure"
-order = 1565004
+order = 1565006
 aliases = ["bp-r488-3"]
 +++
 For the same representing variety $J_0$ and representation $r$,

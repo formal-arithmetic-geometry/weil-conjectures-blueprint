@@ -3,7 +3,7 @@ id = "lemma-additivity-open-subscheme-complement--2"
 kind = "lemma"
 title = "Additivity for an open subscheme and its complement (2)"
 name_showing = false
-order = 1003002
+order = 1003003
 aliases = ["bp-r306-2"]
 +++
 Writing $T_{c_m}$ also for the endomorphisms

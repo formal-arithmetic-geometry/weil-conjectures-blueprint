@@ -2,7 +2,7 @@
 id = "lemma-artin-schreier-character-sheaf--3"
 kind = "lemma"
 title = "Dual character"
-order = 1220004
+order = 1220006
 aliases = ["bp-r375-3"]
 lean = ["AlgebraicGeometry.nonempty_iso_dual_artinSchreier"]
 +++

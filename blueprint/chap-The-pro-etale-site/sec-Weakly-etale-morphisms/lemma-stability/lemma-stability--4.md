@@ -2,7 +2,7 @@
 id = "lemma-stability--4"
 kind = "lemma"
 title = "Zariski locality on the target"
-order = 32005
+order = 32008
 aliases = ["bp-r003-4"]
 lean = ["AlgebraicGeometry.WeaklyEtale.hasRingHomProperty"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-cohomology-near-two-transverse-divisors--2"
 kind = "lemma"
 title = "Vanishing of restriction to a geometric point of the boundary"
-order = 973002
+order = 973003
 aliases = ["bp-r296-2"]
 lean = ["AlgebraicGeometry.Scheme.TransverseCorner.derivedGlobalSectionsRestriction_boundaryComplex_eq_zero"]
 +++

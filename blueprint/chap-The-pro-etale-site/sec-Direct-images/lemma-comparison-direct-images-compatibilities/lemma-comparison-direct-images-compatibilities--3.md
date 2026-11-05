@@ -3,7 +3,7 @@ id = "lemma-comparison-direct-images-compatibilities--3"
 kind = "lemma"
 title = "Compatibilities of the comparison of direct images (3)"
 name_showing = false
-order = 136004
+order = 136006
 aliases = ["bp-r039-3"]
 +++
 For a second morphism $h:Y\to Z$, under the identifications

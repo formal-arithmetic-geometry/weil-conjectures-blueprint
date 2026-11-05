@@ -3,7 +3,7 @@ id = "theorem-trace-formula-euler-product--3"
 kind = "theorem"
 title = "The trace formula as an Euler product (3)"
 name_showing = false
-order = 1037003
+order = 1037005
 aliases = ["bp-r317-3"]
 lean = ["AlgebraicGeometry.WeilSheaf.hasProd_lFactor", "AlgebraicGeometry.WeilSheaf.lSeries"]
 +++

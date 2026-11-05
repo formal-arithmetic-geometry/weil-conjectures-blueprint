@@ -2,7 +2,7 @@
 id = "corollary-torsion-jacobian-field-extension--3"
 kind = "corollary"
 title = "Divisibility of the Jacobian points"
-order = 1561004
+order = 1561006
 aliases = ["bp-r487-3"]
 lean = ["AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.surjective_npow_points"]
 +++

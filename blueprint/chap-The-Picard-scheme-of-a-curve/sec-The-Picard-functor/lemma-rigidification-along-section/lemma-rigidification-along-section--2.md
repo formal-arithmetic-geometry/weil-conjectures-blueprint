@@ -3,7 +3,7 @@ id = "lemma-rigidification-along-section--2"
 kind = "lemma"
 title = "Rigidification along a section (2)"
 name_showing = false
-order = 1523002
+order = 1523003
 aliases = ["bp-r474-2"]
 lean = ["AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq"]
 +++
