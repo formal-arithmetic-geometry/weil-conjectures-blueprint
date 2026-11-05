@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-stability"
 order = 33
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--4", "lemma-stability--5", "lemma-stability--6", "lemma-stability--7"]
 +++
 Since weakly étale means that a morphism and its diagonal are flat,
 each assertion about weakly étale morphisms comes down to writing the

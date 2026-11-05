@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-pro-etale-coverings"
 order = 37
-uses = ["definition-ind-etale-pro-etale-weakly"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-etale-implications", "lemma-stability"]
 +++
 Part (1) is the covering condition of Definition [definition-small-pro-etale-site] with
 $W=U$. For (2), recall that flat morphisms locally of finite presentation

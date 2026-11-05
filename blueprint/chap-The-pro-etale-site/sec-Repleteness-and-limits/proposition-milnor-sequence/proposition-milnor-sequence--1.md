@@ -5,11 +5,24 @@ title = "The Milnor sequence (1)"
 name_showing = false
 order = 91001
 aliases = ["bp-r024-1"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence"]
+uses = ["definition-small-pro-etale-site", "prose-02-23"]
 +++
-For a countable tower of $\mathcal R$-modules, $R^p\varprojlim=0$
-for $p>1$, and
+Let $\mathcal R$ be a sheaf of rings on $X_{\mathrm{pro}\acute{e}t}$ and
+let $(M_n)$ be a countable tower of $\mathcal R$-modules, regarded as
+complexes concentrated in degree zero. Use the model
+$R\varprojlim_nM_n=\Cone(1-T)[-1]$ of (2.1). There are isomorphisms,
+natural in maps of towers,
 
 $$
-R^1\varprojlim_n M_n
-=\coker\left(\prod_n M_n\xrightarrow{\,1-T\,}\prod_n M_n\right).
+e_0:H^0(R\varprojlim_nM_n)\xrightarrow{\sim}\varprojlim_nM_n,
+\qquad
+e_1:H^1(R\varprojlim_nM_n)\xrightarrow{\sim}
+\coker\left(\prod_nM_n\xrightarrow{\,1-T\,}\prod_nM_n\right).
 $$
+
+Moreover, $H^p(R\varprojlim_nM_n)=0$ for every integer $p\ne0,1$.
+In particular, $R^p\varprojlim_nM_n=0$ for $p>1$, and $e_1$ computes
+$R^1\varprojlim_nM_n$. Naturality uses the maps induced by a tower map
+on the Roos complex, the ordinary inverse limit, and the cokernel of
+$1-T$.

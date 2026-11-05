@@ -3,7 +3,7 @@ id = "definition-cohomological-dimension"
 kind = "definition"
 title = "Cohomological dimension"
 order = 157
-lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension", "AlgebraicGeometry.ProEtale.relativeCohomologicalDimension"]
+lean = []
 uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves"]
 +++
 For a qcqs scheme $S$ and a qcqs morphism $g:X\to Y$, the

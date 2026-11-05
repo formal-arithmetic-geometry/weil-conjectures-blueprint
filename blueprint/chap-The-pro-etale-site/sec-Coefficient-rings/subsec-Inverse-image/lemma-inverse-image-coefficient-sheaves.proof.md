@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-coefficient-sheaves"
 order = 188
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-comparison-morphism-inverse-image", "proposition-topos-functoriality", "prose-02-51", "definition-tate-twists", "lemma-inverse-image-coefficient-sheaves--1", "lemma-inverse-image-coefficient-sheaves--2", "lemma-inverse-image-coefficient-sheaves--3", "lemma-inverse-image-coefficient-sheaves--4"]
 +++
 (1) For every condensed ring $\Lambda$, the identity $p_Y\circ f=p_X$
 shows that

@@ -3,7 +3,7 @@ id = "proposition-pro-etale-site-separably-closed"
 kind = "proposition"
 title = "The pro-étale site of a separably closed field"
 order = 173
-lean = ["AlgebraicGeometry.ProEtale.geometricFieldProfiniteDenseSubsite", "AlgebraicGeometry.ProEtale.isEquivalence_upperStarFromPoint", "AlgebraicGeometry.ProEtale.constantSheafIsoContinuousMapAddSheaf"]
+lean = ["AlgebraicGeometry.ProEtale.geometricFieldProfiniteDenseSubsite", "AlgebraicGeometry.ProEtale.isEquivalence_upperStarFromPoint", "AlgebraicGeometry.ProEtale.geometric_field_proetale_evaluation", "AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf", "Profinite.continuousMapRingSheaf"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
 Let $\Omega$ be a separably closed field. The category of pro-étale

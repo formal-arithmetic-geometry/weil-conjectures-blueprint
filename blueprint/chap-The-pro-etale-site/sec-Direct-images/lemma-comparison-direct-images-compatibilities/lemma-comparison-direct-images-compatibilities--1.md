@@ -5,7 +5,11 @@ title = "Compatibilities of the comparison of direct images (1)"
 name_showing = false
 order = 136002
 aliases = ["bp-r039-1"]
+lean = []
+uses = ["proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images"]
 +++
+This unit compatibility is bypassed by the Lean proof of the main theorem, which uses the counit compatibility in [lemma-comparison-direct-images-compatibilities--2] directly.
+
 For $L\in D^+(Y_{\acute{e}t},\Lambda)$, the composite
 $\nu_Y^*L\to\nu_Y^*Rg_{\acute{e}t,*}g_{\acute{e}t}^*L\xrightarrow{c_g}
   Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*g_{\acute{e}t}^*L$ of $\nu_Y^*$ of the unit with $c_g$

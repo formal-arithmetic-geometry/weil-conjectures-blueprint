@@ -3,8 +3,8 @@ id = "proposition-milnor-sequence"
 kind = "proposition"
 title = "The Milnor sequence"
 order = 91
-lean = ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence", "AlgebraicGeometry.ProEtale.milnor_epimorphic", "DerivedCategory.shortExact_milnor_of_isHomotopyLimit"]
-uses = ["definition-small-pro-etale-site"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence", "DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "AlgebraicGeometry.ProEtale.milnor_epimorphic"]
+uses = ["definition-small-pro-etale-site", "prose-02-23"]
 +++
 For a countable tower of $\mathcal R$-modules, $R^p\varprojlim=0$
 for $p>1$, and

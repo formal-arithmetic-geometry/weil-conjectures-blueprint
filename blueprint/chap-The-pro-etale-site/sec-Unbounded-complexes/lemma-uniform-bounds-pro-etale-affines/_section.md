@@ -3,8 +3,8 @@ id = "lemma-uniform-bounds-pro-etale-affines"
 kind = "lemma"
 title = "Uniform bounds"
 order = 162
-lean = ["AlgebraicGeometry.ProEtale.hasClassicalUniformBounds", "AlgebraicGeometry.ProEtale.relativeCohomologicalDimension_lt_top_of_finiteType"]
-uses = ["definition-cohomological-dimension"]
+lean = []
+uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves", "definition-cohomological-dimension"]
 +++
 Let $X$ and $Y$ be of finite type over $k$, let $A$ be a finite
 commutative $\ell$-primary ring, let $g:X\to Y$ be of finite type, and

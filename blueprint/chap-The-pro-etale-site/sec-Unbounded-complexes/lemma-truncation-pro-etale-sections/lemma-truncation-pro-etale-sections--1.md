@@ -5,7 +5,12 @@ title = "Truncation on the pro-étale site (1)"
 name_showing = false
 order = 164001
 aliases = ["bp-r048-1"]
+lean = []
+uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves"]
 +++
+This truncation estimate is bypassed by the Lean proof of the main theorem,
+which uses comparison on bounded-below complexes.
+
 Let $A$ be a finite commutative $\ell$-primary ring, let $W$ be an object
 of $X_{\mathrm{pro}\acute{e}t}$, and let $e$ be an integer such that $H^q(W,F)=0$ for
 $q>e$ and every classical sheaf $F$ of $A$-modules on $X_{\mathrm{pro}\acute{e}t}$. Let

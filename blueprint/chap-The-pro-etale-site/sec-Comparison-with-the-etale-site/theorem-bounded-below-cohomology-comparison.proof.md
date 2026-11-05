@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-bounded-below-cohomology-comparison"
 order = 124
-uses = ["definition-ind-etale-pro-etale-weakly", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions"]
+uses = ["proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions", "theorem-bounded-below-cohomology-comparison--3"]
 +++
 We compute $R\nu_{X,*}\nu_X^*K$ with an injective resolution of $K$ on
 the étale site. By the lemma its pullback is still acyclic for

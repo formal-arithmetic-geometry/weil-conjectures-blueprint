@@ -3,8 +3,8 @@ id = "definition-derived-adic-completeness"
 kind = "definition"
 title = "Derived adic completeness"
 order = 208
-lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete", "AlgebraicGeometry.ProEtale.AdicCompletion.isDerivedComplete_iff"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-proper-direct-image-unbounded-complexes"]
+lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
+uses = ["definition-small-pro-etale-site", "subsec-Coefficient-sheaves"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let
 $\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and

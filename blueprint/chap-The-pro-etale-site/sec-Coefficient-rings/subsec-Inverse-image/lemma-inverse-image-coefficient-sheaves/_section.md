@@ -3,8 +3,8 @@ id = "lemma-inverse-image-coefficient-sheaves"
 kind = "lemma"
 title = "Inverse image of the coefficient sheaves"
 order = 187
-lean = ["AlgebraicGeometry.ProEtale.cartesianCoefficients", "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = ["AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom", "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom", "AlgebraicGeometry.Etale.leftDerivedUpperStarTateTwistObjectIso", "AlgebraicGeometry.ProEtale.CondensedRing.exists_comap_regular_iso_finiteFree"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "prose-02-50", "prose-02-51", "definition-tate-twists"]
 +++
 Let $f:X\to Y$ be a morphism of schemes.
 

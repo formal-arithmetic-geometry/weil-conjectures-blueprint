@@ -3,7 +3,7 @@ id = "theorem-bounded-below-cohomology-comparison"
 kind = "theorem"
 title = "Bounded-below cohomology comparison"
 order = 123
-lean = ["AlgebraicGeometry.ProEtale.boundedBelowComparison", "AlgebraicGeometry.ProEtale.boundedBelowComparisonGlobalSections", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
 uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$ the unit of the adjunction between

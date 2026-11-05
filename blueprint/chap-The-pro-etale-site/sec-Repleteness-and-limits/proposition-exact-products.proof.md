@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-exact-products"
 order = 89
-uses = ["corollary-evaluation-weakly-contractible-objects"]
+uses = ["corollary-evaluation-weakly-contractible-objects", "proposition-exact-products--1", "proposition-exact-products--2"]
 +++
 By Corollary [corollary-evaluation-weakly-contractible-objects](3),
 exactness of sheaves can be checked on affine weakly contractible $W$, and

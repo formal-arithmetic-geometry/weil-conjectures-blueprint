@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-direct-images-compatibilities"
 order = 137
+uses = ["lemma-comparison-direct-images-compatibilities--2", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 Part (2) is the definition of $c_g$ as an adjoint. For (1), by (2) and
 the naturality of $\beta_g$, the adjoint of the composite in (1) is

@@ -4,5 +4,7 @@ kind = "definition"
 title = "Twisting a complex"
 order = 184014
 aliases = ["bp-r053-13"]
+lean = []
+uses = ["definition-tate-twists--11", "definition-tate-twists--12"]
 +++
 For a complex $K$ of $\Lambda_X$-modules, put $K(d)=K\otimes^{\mathbf L}_{\Lambda_X}\Lambda_X(d)$.

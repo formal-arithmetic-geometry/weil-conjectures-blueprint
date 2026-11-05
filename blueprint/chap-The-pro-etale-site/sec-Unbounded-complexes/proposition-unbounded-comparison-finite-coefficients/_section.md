@@ -3,7 +3,8 @@ id = "proposition-unbounded-comparison-finite-coefficients"
 kind = "proposition"
 title = "Unbounded comparison for finite coefficients"
 order = 166
-lean = ["AlgebraicGeometry.ProEtale.finiteCoefficientDerivedComparison_fullyFaithful"]
+lean = []
+uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images"]
 +++
 Let $X$ and $Y$ be of finite type over the base field $k$, let
 $A$ be a finite commutative $\ell$-primary ring, and let

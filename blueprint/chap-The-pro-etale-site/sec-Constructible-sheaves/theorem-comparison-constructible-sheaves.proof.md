@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-comparison-constructible-sheaves"
 order = 150
+uses = ["theorem-comparison-constructible-sheaves--1", "theorem-comparison-constructible-sheaves--2", "theorem-comparison-constructible-sheaves--3", "proposition-locally-constant-sheaves-finite-presentation", "proposition-comparison-immersions", "theorem-comparison-direct-images", "theorem-classical-sheaves-essential-image", "corollary-bounded-below-classical-complexes"]
 +++
 The preceding proposition treats the case of a single stratum. For a finite
 stratification we argue locally, by induction on the number of strata.

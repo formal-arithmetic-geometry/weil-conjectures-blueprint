@@ -3,7 +3,7 @@ id = "lemma-reduction-derived-nakayama"
 kind = "lemma"
 title = "Reduction and derived Nakayama"
 order = 210
-lean = ["AlgebraicGeometry.ProEtale.derived_nakayama_first_reduction"]
+lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution", "AlgebraicGeometry.ProEtale.isZero_of_derivedCompleteIntegers_of_isZero_derivedReduction", "AlgebraicGeometry.ProEtale.isIso_of_derivedCompleteIntegers_of_isIso_derivedReduction_map"]
 uses = ["definition-small-pro-etale-site", "definition-derived-adic-completeness"]
 +++
 Let $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$. Then $K_n$ is the cone of

@@ -5,12 +5,22 @@ title = "The comparison morphism and its inverse image (1)"
 name_showing = false
 order = 112001
 aliases = ["bp-r031-1"]
+lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.Scheme.isContinuous_toProEt", "AlgebraicGeometry.Scheme.preservesFiniteLimits_toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar"]
+uses = ["definition-small-pro-etale-site"]
 +++
-Inclusion of étale objects defines a morphism of topoi
+Let $X$ be a scheme and $A$ a Grothendieck abelian category. We take
+schemes in universe $u$, and morphisms and the Grothendieck abelian
+structure on $A$ in universe $u+1$.
+The inclusion of étale objects
 
 $$
-\nu_X:X_{\mathrm{pro}\acute{e}t}\longrightarrow X_{\acute{e}t}.
+i_X:X_{\acute{e}t}\longrightarrow X_{\mathrm{pro}\acute{e}t}
 $$
 
-Its direct image $\nu_{X,*}:\Sh(X_{\mathrm{pro}\acute{e}t})\to\Sh(X_{\acute{e}t})$ is
-restriction to the étale subsite.
+is continuous and preserves finite limits. It defines the restriction functor
+
+$$
+\nu_{X,*}:\Sh(X_{\mathrm{pro}\acute{e}t},A)
+\longrightarrow\Sh(X_{\acute{e}t},A),
+\qquad (\nu_{X,*}G)(U)=G(i_XU).
+$$

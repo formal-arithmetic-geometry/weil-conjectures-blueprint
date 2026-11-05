@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-extremally-disconnected-covers"
 order = 54
+uses = ["lemma-extremally-disconnected-covers--1", "lemma-extremally-disconnected-covers--3"]
 +++
 Write $T^{\delta}$ for the underlying set of $T$ with the discrete
 topology and take $S=\beta(T^{\delta})$, its Stone–Čech

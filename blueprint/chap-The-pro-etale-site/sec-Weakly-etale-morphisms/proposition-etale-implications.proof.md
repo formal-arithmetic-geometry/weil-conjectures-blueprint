@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-etale-implications"
 order = 30
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications--1", "proposition-etale-implications--2"]
 +++
 The first implication in (1) is immediate from the definition, since an
 étale algebra is the colimit of the constant system on itself. For the

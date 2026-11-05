@@ -4,5 +4,8 @@ kind = "lemma"
 title = "Ind-etale composition"
 order = 32008
 aliases = ["bp-r003-7"]
+lean = ["RingHom.IndEtale.comp"]
+uses = ["definition-ind-etale-pro-etale-weakly--1"]
 +++
-Ind-étale ring maps are stable under composition.
+Let $R\to B$ and $B\to C$ be ind-étale maps of commutative rings.
+Then their composite $R\to C$ is ind-étale.

@@ -3,8 +3,8 @@ id = "definition-local-cohomology"
 kind = "definition"
 title = "Local cohomology"
 order = 204
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport", "AlgebraicGeometry.ProEtale.CondensedRing.closedSupport_fiber"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = []
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-extension-zero-restriction-closed-subscheme"]
 +++
 The *local cohomology functor*
 $R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},\mathcal R)\to D(Z_{\mathrm{pro}\acute{e}t},i^*\mathcal R)$

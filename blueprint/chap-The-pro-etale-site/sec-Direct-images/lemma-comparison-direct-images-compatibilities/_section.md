@@ -3,7 +3,8 @@ id = "lemma-comparison-direct-images-compatibilities"
 kind = "lemma"
 title = "Compatibilities of the comparison of direct images"
 order = 136
-lean = ["AlgebraicGeometry.ProEtale.fixedComparisonDirectImageMatePlus_counit", "AlgebraicGeometry.ProEtale.comparisonDirectImagePlus_comp"]
+lean = []
+uses = ["proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "theorem-comparison-direct-images"]
 +++
 Let $g:X\to Y$ be a morphism of schemes.
 

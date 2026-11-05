@@ -4,5 +4,16 @@ kind = "lemma"
 title = "Inverse image of coefficients"
 order = 187002
 aliases = ["bp-r054-1"]
+lean = ["AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom", "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom"]
+uses = ["prose-02-51", "proposition-topos-functoriality"]
 +++
-For every admissible $\Lambda$, the canonical map $f^{-1}\Lambda_Y\to\Lambda_X$ is an isomorphism of sheaves of rings.
+For every condensed ring $\Lambda$, put $\Lambda_T=p_T^*\Lambda$ for a
+scheme $T$, as in [prose-02-51]. The canonical map
+
+$$
+f^{-1}\Lambda_Y\longrightarrow\Lambda_X
+$$
+
+is a morphism of ring objects in abelian sheaves and an isomorphism on the
+underlying abelian sheaves, hence an isomorphism of sheaves of rings.
+No admissibility or commutativity assumption on $\Lambda$ is needed.

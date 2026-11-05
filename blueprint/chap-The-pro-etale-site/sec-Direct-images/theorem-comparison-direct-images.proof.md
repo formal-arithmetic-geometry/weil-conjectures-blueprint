@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-comparison-direct-images"
 order = 134
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "lemma-acyclic-resolutions"]
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images--1", "lemma-acyclic-resolutions"]
 +++
 We work over an affine open of $Y$ and evaluate on the
 covering basis $V=\varprojlim_iV_i$, with $V_i$ affine and étale

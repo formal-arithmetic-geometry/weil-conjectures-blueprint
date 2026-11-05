@@ -3,6 +3,8 @@ id = "lemma-truncation-pro-etale-sections"
 kind = "lemma"
 title = "Truncation on the pro-étale site"
 order = 164
+lean = []
+uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves"]
 +++
 Let $A$ be a finite commutative $\ell$-primary ring, let $W$ be an object
 of $X_{\mathrm{pro}\acute{e}t}$, and let $e$ be an integer such that $H^q(W,F)=0$ for

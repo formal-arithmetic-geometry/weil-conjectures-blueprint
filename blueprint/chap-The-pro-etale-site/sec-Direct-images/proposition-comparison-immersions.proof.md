@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-comparison-immersions"
 order = 140
+uses = ["proposition-comparison-immersions--1", "proposition-comparison-immersions--2", "theorem-comparison-direct-images", "proposition-comparison-immersions--3", "lemma-comparison-direct-images-compatibilities", "proposition-extension-zero-restriction-closed-subscheme", "proposition-comparison-immersions--4"]
 +++
 For (1), both functors are left adjoint to restriction followed by
 $\nu_{U,*}$, and this also identifies the adjunction maps
