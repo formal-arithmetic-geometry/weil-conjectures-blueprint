@@ -24,5 +24,5 @@ Proposition [proposition-comparison-morphism-inverse-image] defines
 the pullback $\nu_X^*$ by this rule, and
 Theorem [theorem-classical-sheaves-essential-image] characterizes its
 image by it. The part that is not formal is cohomology, because pro-étale covers
-are not étale covers. In the next subsection we show that they create
+are not étale covers. In the next section we show that they create
 no new cohomology classes for classical sheaves.

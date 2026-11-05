@@ -14,7 +14,7 @@ rationality and the functional equation (Section [sec-Rationality-and-the-functi
 
 For the elliptic curve $y^2=x^3-x$ over $\mathbf F_3$ these two axioms,
 together with the single count $N_1=4$, determine the zeta function and
-every $N_m$ (Section [chap-The-trace-formula],
+every $N_m$ (Chapter [chap-The-trace-formula],
 Example [example-running-example-trace-formula]).
 
 Both axioms are statements about the diagonal. For example, on a compact

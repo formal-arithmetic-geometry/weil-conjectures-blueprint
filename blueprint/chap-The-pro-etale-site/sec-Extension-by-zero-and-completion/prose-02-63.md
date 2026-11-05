@@ -34,6 +34,6 @@ The rational coefficient sheaves are obtained by inverting $\ell$ and
 passing to the colimit over $E$:
 $E_X\simeq\mathcal O_{E,X}[1/\ell]$ and $\QbarX\simeq\varinjlim_E E_X$
 (Lemma [lemma-comparison-completed-coefficients]).
-Section [chap-Constructible-complexes] also compares constructible
+Chapter [chap-Constructible-complexes] also compares constructible
 complexes over $E_X$ and $\QbarX$ with the classical adic categories. It
 does so by lattices and by descent to a finite extension.

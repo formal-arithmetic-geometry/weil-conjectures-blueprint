@@ -6,7 +6,7 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 +++
 For a single compactification there is nothing new to prove, and two
 compactifications are compared through a third one that refines both,
-by the argument described at the start of this subsubsection.
+by the argument described at the start of this subsection.
 
 The properties of $Rp_*\circ j_!$ for a single compactification follow from
 Proposition [proposition-proper-direct-image-extension-zero] and the preservation

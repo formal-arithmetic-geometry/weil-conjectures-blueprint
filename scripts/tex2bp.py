@@ -196,6 +196,7 @@ ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']
 HEAD_RE = re.compile(r'\\(part|section|subsection|subsubsection)\*?\{')
 HEADING_IDS = []    # in document order, ids made unique by a suffix
 LABEL = {}          # tex label -> ('node', id) | ('eq', '2.3') | ('part', 'I')
+APPENDIX_CHAPTERS = set()   # the ids of the \\section's after \\appendix
 EQ_ENVS = {'equation', 'align', 'gather', 'multline'}
 
 
@@ -229,6 +230,8 @@ def pass1():
             hid = hid + ('' if k == 2 else f'-{k - 1}')
             ids[hid] = title
             HEADING_IDS.append(hid)
+            if kind == 'section' and appendix:
+                APPENDIX_CHAPTERS.add(hid)
             pending = ('node', hid)
             current = hid
         elif m.group(0) == '\\appendix':
@@ -437,6 +440,58 @@ def replace_cmd(s, name, fn, nargs=1, opt=False):
         s = s[:m.start()] + fn(o, *args) + s[i:]
 
 
+# The tex is an article: its \\section is a chapter of the blueprint (an
+# appendix after \\appendix), its \\subsection a section and its
+# \\subsubsection a subsection.  The prose names them by the tex's words, which
+# are moved up a level here.
+IN_APPENDIX = False     # whether the text converted is in an appendix chapter
+ID_RE = r'\[((?:chap|sec|subsec)-[^\]\s]+)\]'
+NAMED_RE = re.compile(r'\b((?:[Ss]ub)?[Ss]ections?|[Cc]hapters?|[Aa]ppendix|[Aa]ppendices)(\s+)'
+                      rf'({ID_RE}(?:\s*(?:–|,|, and|and|or)\s*{ID_RE})*)')
+# "this section" of a sheaf is not one of these
+HERE_RE = re.compile(r'\b(?:(?:[Tt]hroughout|[Ii]n|(?<!extension )of|[Tt]o|[Aa]t|[Ff]rom|[Bb]y)\s+(?:this|that)'
+                     r'|(?<![A-Za-z] )This'
+                     r'|(?:start|beginning|end|opening|rest)\s+of\s+the'
+                     r'|the\s+(?:next|previous|preceding|following|last|later)(?:\s+(?:two|three|four))?'
+                     r'|this\s+(?=sub))'
+                     r'\s+((?:sub)*sections?)\b'
+                     r'|\bthe\s+((?:sub)*section)\s+opening\b')
+
+
+def structure_word(level, plural, upper, appendix):
+    """The blueprint's word for a heading: `level` 0 is a chapter (an appendix
+    if `appendix`), 1 a section, 2 a subsection."""
+    w = ['appendix' if appendix else 'chapter', 'section', 'subsection'][level]
+    if plural:
+        w = 'appendices' if w == 'appendix' else w + 's'
+    return w[0].upper() + w[1:] if upper else w
+
+
+def structure_words(s):
+    """The word before a reference to a heading names that heading's kind, and
+    "this section", "the next subsection", ... are a level up from the tex's."""
+    def named(m):
+        ids = re.findall(ID_RE, m.group(3))
+        kinds = {(i.split('-')[0], i in APPENDIX_CHAPTERS) for i in ids}
+        if len(kinds) != 1:
+            problem(f'one word for headings of different kinds: {m.group(0)}')
+            return m.group(0)
+        prefix, appendix = kinds.pop()
+        w = m.group(1)
+        new = structure_word(['chap', 'sec', 'subsec'].index(prefix),
+                             w.lower() in ('sections', 'subsections', 'chapters', 'appendices'),
+                             w[0].isupper(), appendix)
+        return new + m.group(2) + m.group(3)
+
+    def here(m):
+        g = 1 if m.group(1) else 2
+        w = m.group(g)
+        new = structure_word(w.count('sub'), w.endswith('s'), False, IN_APPENDIX)
+        return m.group(0)[:m.start(g) - m.start()] + new + m.group(0)[m.end(g) - m.start():]
+    s = NAMED_RE.sub(named, s)
+    return HERE_RE.sub(here, s)
+
+
 def stacks_link(tag):
     return f'[{tag}](https://stacks.math.columbia.edu/tag/{tag})'
 
@@ -488,6 +543,7 @@ def inline(s, sh):
     s = s.replace('``', '“').replace("''", '”')
     s = re.sub(r'(?<!\\)~', ' ', s)
     s = re.sub(r'\\[,;!]', '', s)
+    s = structure_words(s)
     s = s.replace('\\ ', ' ').replace('\\@', '')
     for a, b in (('\\%', '%'), ('\\&', '&'), ('\\_', '\\_'), ('\\#', '#'), ('\\$', '\\$'), ('\\{', '{'), ('\\}', '}')):
         s = s.replace(a, b)
@@ -726,6 +782,7 @@ def heading_index(pos_in_region):
 
 
 def walk(region, chapno):
+    global IN_APPENDIX
     chapno -= 1
     path = []                 # [(level, id, title, dir)]
     prose_count = {}
@@ -782,6 +839,7 @@ def walk(region, chapno):
             break
         if m.group(0) == '\\appendix':
             appendix_no = 0
+            IN_APPENDIX = True
             pos = m.end()
             continue
         if m.group(1):

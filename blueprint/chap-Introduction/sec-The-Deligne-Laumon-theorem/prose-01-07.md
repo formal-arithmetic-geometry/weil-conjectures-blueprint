@@ -120,7 +120,7 @@ $\mathcal G$ by its largest determinant weight. To bound those of a single
 constituent we apply Step 2 to exterior powers of $\mathcal G$, in which that
 constituent is multiplied by the determinants of the others, which are now
 known; this isolates its weight (as in the example
-$\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ of Section [chap-Purity-of-real-sheaves]). Applied also to
+$\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ of Chapter [chap-Purity-of-real-sheaves]). Applied also to
 the dual, which gives the lower bound, it yields the second intermediate
 result:
 

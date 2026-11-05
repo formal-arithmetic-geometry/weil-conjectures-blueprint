@@ -16,24 +16,24 @@ with references.
 On a first reading one can take the foundations on trust and follow the
 main line:
 
-- the statements of Section [chap-Constructible-complexes] and of the main
+- the statements of Chapter [chap-Constructible-complexes] and of the main
   theorem of Part I, Theorem [theorem-exceptional-inverse-image];
 - the base change map and the statement of proper base change
   (Theorem [theorem-proper-base-change-classical-pro]);
-- Section [chap-Constructibility-of-f] on why $f^!$ preserves
+- Chapter [chap-Constructibility-of-f] on why $f^!$ preserves
   constructibility with torsion coefficients;
 - smooth purity with finite coefficients (Section [sec-The-tensor-product-map]),
   which is where the twist $(d)$, the shift $[2d]$ and the trace map
   come from;
-- Section [chap-Verdier-and-Poincare-duality] on duality;
+- Chapter [chap-Verdier-and-Poincare-duality] on duality;
 - Frobenius and Weil complexes (Section [sec-Weil-complexes]); in
-  Section [chap-The-trace-formula], the local
+  Chapter [chap-The-trace-formula], the local
   calculation at a fixed point of Frobenius on a curve;
-- Sections [chap-Weights]–[chap-Proof-of-the-Weil-conjectures], beginning with
+- Chapters [chap-Weights]–[chap-Proof-of-the-Weil-conjectures], beginning with
   the plan in the opening of Part III.
 
 The passages between coefficient rings (most of which are applications of
 Proposition [proposition-isomorphisms-reduce-finite-coefficients]), the coherence of the various
-comparison maps, smooth base change (Section [chap-Smooth-base-change]),
-and the pro-étale foundations of Section [chap-The-pro-etale-site]
+comparison maps, smooth base change (Chapter [chap-Smooth-base-change]),
+and the pro-étale foundations of Chapter [chap-The-pro-etale-site]
 can be read when needed.

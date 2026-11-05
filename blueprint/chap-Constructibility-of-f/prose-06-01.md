@@ -17,14 +17,14 @@ ring. It tells us nothing about the values of $f^!$. A priori, $f^!$ of a
 constructible complex is just some object of the large category on the right,
 possibly unbounded and with cohomology sheaves that are not constructible.
 
-The rest of the notes needs more than this. For example, Verdier duality (Section [chap-Verdier-and-Poincare-duality]) says that
+The rest of the notes needs more than this. For example, Verdier duality (Chapter [chap-Verdier-and-Poincare-duality]) says that
 $\mathbb D_X=\cHom(-,a_X^!\Lambda)$ is an involution of $D^b_{\mathrm{ctf}}(X,\Lambda)$,
 and this makes sense only if the dualizing complex $a_X^!\Lambda$ lies in
 $D^b_{\mathrm{ctf}}(X,\Lambda)$. Similarly, the local terms of the trace formula are defined through the isomorphism
 $\cHom(c_2^*K,c_1^!K)\simeq c^!(K\boxtimes\mathbb D_XK)$ for a
 correspondence $c=(c_1,c_2)$
 (Lemma [lemma-external-duality-trace-morphism]), which also needs $f^!$
-to preserve constructible complexes. In this section we prove what both need
+to preserve constructible complexes. In this chapter we prove what both need
 (part (4) of Theorem [theorem-exceptional-inverse-image]): $f^!$ maps
 $D^b_{\mathrm{ctf}}(Y,\Lambda)$ into $D^b_{\mathrm{ctf}}(X,\Lambda)$. A universal property cannot give this, so we have to compute $f^!$, and the computation is local.
 
@@ -72,7 +72,7 @@ $S=\mathbf A^1$ with coordinate $t$, let $Y=\mathbf A^2$ with coordinates
 $(t,x)$, viewed over $S$, and let $j$ be the inclusion of
 $X=Y\setminus\{(0,0)\}$. By purity
 (Theorem [theorem-smooth-purity-all-admissible-coefficients], proved in
-Section [chap-Smooth-purity] below), the punctured strict henselization of
+Chapter [chap-Smooth-purity] below), the punctured strict henselization of
 $Y$ at the origin has cohomology $\Lambda$ in degree $0$ and
 $\Lambda(-2)$ in degree $3$ only. Hence $R^1j_*\Lambda=0$. On the fibre
 over $t=0$, however, $j$ becomes $\mathbf G_m\hookrightarrow\mathbf A^1$,

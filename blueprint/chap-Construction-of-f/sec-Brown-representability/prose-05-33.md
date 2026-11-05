@@ -10,7 +10,7 @@ the functor $M\mapsto\Hom(Rf_!M,N)$ turns direct sums into products. If
 the objects of $D^b_{\mathrm{ctf}}(X,\Lambda)$ are compact generators of the
 localizing category, Brown representability produces an object $f^!N$
 representing it. The next lemma checks this hypothesis for every admissible $\Lambda$; for $\mathcal O_E$ it uses the compactness proved in
-Section [subsec-Integral-coefficients] by reduction to torsion coefficients.
+Subsection [subsec-Integral-coefficients] by reduction to torsion coefficients.
 
 Compactness enters a second time. The functor $Rf_!$ also maps
 $D^b_{\mathrm{ctf}}(X,\Lambda)$ into $D^b_{\mathrm{ctf}}(Y,\Lambda)$, so it sends the compact

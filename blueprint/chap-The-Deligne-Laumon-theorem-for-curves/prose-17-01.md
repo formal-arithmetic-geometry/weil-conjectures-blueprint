@@ -15,12 +15,12 @@ Indeed, on an affine curve $H^0_c$ vanishes, while by
 Lemma [lemma-extreme-degrees-affine-curve] $H^2_c$ is a twist of
 the coinvariants of geometric monodromy, pure of weight $w+2$. For
 $r=1$ the bound can be strict: on $\mathbf G_m$ the group $H^1_c$ comes from the boundary
-and has weight $0$ (see the example of Section [chap-Weights]).
+and has weight $0$ (see the example of Chapter [chap-Weights]).
 
 For a Gauss sum the answer takes two steps. The transform
 $\hat\chi(y)=\overline\chi(y)g$ has the same absolute value for all
 $y\ne0$, and Plancherel finds the common value $\sqrt q$. On an open of
-the affine line, Section [chap-The-Fourier-transform] makes the same two steps
+the affine line, Chapter [chap-The-Fourier-transform] makes the same two steps
 available for sheaves. More precisely, let $M$ be irreducible on a dense open
 $j:U_0\hookrightarrow\mathbf A^1$, with no geometric constituent of the
 form $\mathcal L_{\psi(ax)}$, and let $M'$ be the lisse sheaf with
@@ -36,7 +36,7 @@ extension has weights at most the weight of the lisse sheaf
 (Proposition [proposition-weights-j-boundary-points]), it
 suffices to show that $M'$ is pure of weight $w+1$. Here the second step
 is the easy one, because once $M'$ is pure, the sums of squared traces of
-Section [chap-Pure-sheaves-on-curves] give its weight $w+1$
+Chapter [chap-Pure-sheaves-on-curves] give its weight $w+1$
 (Theorem [theorem-weight-fourier-transform]).
 
 The first step, purity of $M'$, is the deep one. The only purity theorem
@@ -44,7 +44,7 @@ we have is Theorem [theorem-purity-real-sheaves-curves], for real
 sheaves. But the transform of a real sheaf is not real, since $\psi$
 takes nonreal values. For example, over $\mathbf F_3$ let $M$ be the
 Kummer sheaf of the quadratic character $\chi$ on $\mathbf G_m$, which
-is real. By the computation of Section [chap-The-Fourier-transform] and the
+is real. By the computation of Chapter [chap-The-Fourier-transform] and the
 signs in (16.3), the trace of $M'$ at
 $y\in\mathbf F_3^\times$ is $-\chi(y)g$. Here
 $g=\sum_x\chi(x)\psi(x)=\omega-\omega^2=1+2\omega$ is a square root of

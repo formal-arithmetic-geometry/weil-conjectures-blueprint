@@ -27,7 +27,7 @@ among its finitely many rational points.
 Appendices [chap-Abelian-varieties], [chap-The-Picard-scheme-of-a-curve]
 and [chap-Cohomology-of-torsion-sheaves-on-curves] prove both facts.
 
-Rankin's argument in Section [chap-Purity-of-real-sheaves] rests on
+Rankin's argument in Chapter [chap-Purity-of-real-sheaves] rests on
 the determinant weights of tensor and exterior powers
 (Proposition [proposition-determinant-weights-tensor-operations]).
 These come from the structure of the monodromy group
@@ -37,5 +37,5 @@ groups over $\overline{\mathbf Q}_\ell$ behind it.
 
 Appendix [chap-Specialization-and-contracting-correspondences] is of a different kind. Following
 Varshavsky [varshavsky05], it computes the local terms of contracting
-correspondences in a second way; Section [chap-The-trace-formula]
+correspondences in a second way; Chapter [chap-The-trace-formula]
 does not depend on it.

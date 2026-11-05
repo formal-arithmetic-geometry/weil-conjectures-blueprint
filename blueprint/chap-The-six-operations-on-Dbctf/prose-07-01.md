@@ -7,7 +7,7 @@ order = 622
 Smooth base change and Verdier biduality will be proved with torsion
 coefficients, as were proper base change and Deligne's theorem on $Rj_*$.
 The Weil conjectures, however, need them over $\overline{\mathbf Q}_\ell$, where Frobenius
-eigenvalues live. This section provides the principle that carries every
+eigenvalues live. This chapter provides the principle that carries every
 such statement across. A canonical map built from the six operations is an
 isomorphism for all admissible $\Lambda$ as soon as it is one for every
 finite ring (Proposition [proposition-isomorphisms-reduce-finite-coefficients]).

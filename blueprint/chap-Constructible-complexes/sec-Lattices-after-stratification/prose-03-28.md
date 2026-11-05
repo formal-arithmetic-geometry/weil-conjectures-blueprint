@@ -13,7 +13,7 @@ dévissage arguments. In particular, from the stratified statement we obtain the
 generators of Lemma [lemma-integral-models](4).
 Lemma [lemma-lattices-after-finite-stratification] is also the
 first step in the proofs of the uniform Ext bound and of the degree bound for
-proper direct image in Section [chap-Construction-of-f]. On a
+proper direct image in Chapter [chap-Construction-of-f]. On a
 connected normal scheme, by contrast, there is a global lattice, and lisse $E$-sheaves are
 representations of $\pi_1(X,\bar x)$; we prove this where it is used, in
 Proposition [proposition-lattices-representations-normal-scheme].

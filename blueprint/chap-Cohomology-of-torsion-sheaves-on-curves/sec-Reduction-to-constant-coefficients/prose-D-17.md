@@ -25,7 +25,7 @@ Since $j'_!$ is exact, the filtration of $v^*G$
 gives a filtration of $j'_!v^*G$ with graded pieces $j'_!\mathbf F_\ell$.
 The assertions of Theorem [theorem-cohomology-curves] hold for these
 pieces by the calculation for constant sheaves extended by zero. As we
-show at the start of the next subsection, they pass along
+show at the start of the next section, they pass along
 extensions, so they hold for $j'_!v^*G$. Since
 $\bar v_*$ is exact, they hold for $j_!v_*v^*G$. By the splitting
 given by the trace, they hold for its direct summand $j_!G$. For

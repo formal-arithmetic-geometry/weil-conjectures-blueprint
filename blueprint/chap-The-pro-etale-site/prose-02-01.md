@@ -22,7 +22,7 @@ We need three properties of this site.
 Property (b) can be seen on a point. Over a separably closed field the topos
 of $X_{\mathrm{pro}\acute{e}t}$ is, up to a set-theoretic cutoff, that of condensed sets
 (Proposition [proposition-pro-etale-site-separably-closed], proved in
-Section [subsec-Condensed-rings] below), and there the sections of $\mathbf Z_\ell$ over a
+Subsection [subsec-Condensed-rings] below), and there the sections of $\mathbf Z_\ell$ over a
 profinite set $S$ are all continuous maps $S\to\mathbf Z_\ell$, not only the locally
 constant ones.
 
@@ -89,8 +89,8 @@ sections see the topology of $\mathbf Z_\ell$. So the comparison applies to the
 $\mathbf Z/\ell^n$ but not to $\mathbf Z_\ell$ itself, and we reach $\mathbf Z_\ell$ from them by derived completion
 (Section [sec-Extension-by-zero-and-completion]).
 
-Throughout this section, schemes are arbitrary unless a result states a
+Throughout this chapter, schemes are arbitrary unless a result states a
 finiteness hypothesis, because objects of $X_{\mathrm{pro}\acute{e}t}$ are in general neither
 Noetherian nor of finite type, even when $X$ is a variety. The standing
 assumption that schemes are of finite type over $k$ resumes in
-Section [chap-Constructible-complexes].
+Chapter [chap-Constructible-complexes].

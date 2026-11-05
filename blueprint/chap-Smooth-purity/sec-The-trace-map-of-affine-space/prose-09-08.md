@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The trace map of affine space (1)"
 order = 738
 +++
-Every identification of $f^!$ in this section is ultimately an
+Every identification of $f^!$ in this chapter is ultimately an
 adjunction whose counit is integration along affine lines, so we first make
 that integration explicit. The affine line is not proper, so we cannot
 integrate on it directly; instead we integrate on $\mathbf P^1$. There, on a

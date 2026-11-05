@@ -32,4 +32,4 @@ For $m=p$ in characteristic $p$ the argument breaks down already over $C$
 itself. Indeed, the group $H^1(\mathbf A^1_\Omega,\mathbf F_p)$ is the
 cokernel of $u\mapsto u^p-u$ on $\Omega[x]$, and for $\omega\in\Omega$ transcendental over
 $L$ it contains the class of $\omega x$, which does not come from $C$
-(compare the class of $tx$ at the beginning of the section).
+(compare the class of $tx$ at the beginning of the chapter).

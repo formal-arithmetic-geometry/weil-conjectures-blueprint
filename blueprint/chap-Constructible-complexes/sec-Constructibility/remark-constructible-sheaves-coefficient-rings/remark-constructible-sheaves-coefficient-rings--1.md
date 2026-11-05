@@ -28,7 +28,7 @@ aliases = ["bp-r065-1"]
    Lemma [lemma-constructible-sheaves],
    Corollary [corollary-coefficient-heart-b] and
    Lemma [lemma-structure-integral-constructible-complexes], which we
-   prove in Section [subsec-Integral-coefficients].
+   prove in Subsection [subsec-Integral-coefficients].
 6. For finite $A$, a lisse $A_X$-module is the same as a locally
    constant sheaf with finite stalks. For $\Lambda=\mathcal O_E$ a lisse
    module may have torsion, such as $\mathcal O_{E,X}/\pi_E$; the lisse

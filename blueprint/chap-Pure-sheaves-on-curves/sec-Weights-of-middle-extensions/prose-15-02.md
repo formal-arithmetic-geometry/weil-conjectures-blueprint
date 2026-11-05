@@ -18,5 +18,5 @@ space of inertia invariants.
 If $\mathcal F$ is punctually of weights $\le a$, then so is
 $j_*\mathcal F$, at the boundary points as well
 (Proposition [proposition-weights-j-boundary-points]). In
-Section [chap-The-Deligne-Laumon-theorem-for-curves] this bounds the weights of
+Chapter [chap-The-Deligne-Laumon-theorem-for-curves] this bounds the weights of
 the boundary terms in the Fourier transform of a middle extension.

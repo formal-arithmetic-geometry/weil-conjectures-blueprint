@@ -46,17 +46,17 @@ determinants. These determinants are pure because a lisse sheaf of rank one has
 finite geometric monodromy (Section [sec-Sheaves-of-rank-one]). The outcome is the bound $|\iota(\alpha)|^2\le q_x^\beta$, where $\beta$ is the largest determinant weight
 (Proposition [proposition-bound-largest-determinant-weight]). Applied to exterior powers, this bound shows that every irreducible constituent of a real sheaf is
 pure (Theorem [theorem-purity-real-sheaves-curves],
-Section [chap-Purity-of-real-sheaves]).
+Chapter [chap-Purity-of-real-sheaves]).
 
 This bounds eigenvalues at points of a curve. What we must bound, however, is
 a cohomology group $H^1_c(\mathbf A^1,j_*M)$, for a pure lisse sheaf $M$ on a
-dense open $j:U_0\hookrightarrow\mathbf A^1$. The Fourier transform (Section [chap-The-Fourier-transform]) turns this group into the stalk of a sheaf on
+dense open $j:U_0\hookrightarrow\mathbf A^1$. The Fourier transform (Chapter [chap-The-Fourier-transform]) turns this group into the stalk of a sheaf on
 the dual line, and a twist of that sheaf is a quotient of a real sheaf. The
 Plancherel formula, together with two facts about pure sheaves on curves
-(Section [chap-Pure-sheaves-on-curves]), shows that the sheaf has weight $w+1$.
+(Chapter [chap-Pure-sheaves-on-curves]), shows that the sheaf has weight $w+1$.
 
 In higher dimension the same positivity shows that real sheaves on any
 base are mixed (Theorem [theorem-real-constructible-sheaves-are-mixed]).
 This lets us apply the curve case along a fibration
-(Section [chap-The-Deligne-Laumon-theorem-in-general]). The Weil conjectures are then a
-short deduction (Section [chap-Proof-of-the-Weil-conjectures]).
+(Chapter [chap-The-Deligne-Laumon-theorem-in-general]). The Weil conjectures are then a
+short deduction (Chapter [chap-Proof-of-the-Weil-conjectures]).

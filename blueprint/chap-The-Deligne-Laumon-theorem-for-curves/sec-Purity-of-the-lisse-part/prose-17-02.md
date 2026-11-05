@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Purity of the lisse part (1)"
 order = 1275
 +++
-Throughout this subsection and the next, $j:U_0\hookrightarrow\mathbf A^1_{k_0}$
+Throughout this section and the next, $j:U_0\hookrightarrow\mathbf A^1_{k_0}$
 is a dense open and $M$ is a nonzero irreducible lisse Weil sheaf
 on $U_0$, pure of weight $w$. We assume that no geometric irreducible
 constituent of $M$ is the restriction of $\mathcal L_{\psi(ax)}$ for

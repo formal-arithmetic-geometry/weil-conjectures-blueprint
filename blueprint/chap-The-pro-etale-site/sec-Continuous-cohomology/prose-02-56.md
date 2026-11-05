@@ -9,7 +9,7 @@ and rational $\ell$-adic coefficient rings of Section [sec-Coefficient-rings]
 are defined directly on the pro-étale site, because the discrete constant
 sheaves with the same values have the wrong cohomology
 (Example [example-first-cohomology-finite-field]). The main result of
-this subsection,
+this section,
 Proposition [proposition-continuous-cohomology-pro-etale-cohomology],
 says that pro-étale cohomology with coefficients $\mathbf Z_\ell$ is
 the classical continuous cohomology, that is, the derived limit of

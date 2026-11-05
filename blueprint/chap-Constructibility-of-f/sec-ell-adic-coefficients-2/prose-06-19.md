@@ -16,5 +16,5 @@ $R\varprojlim$ and with cones (Proposition [proposition-direct-image-along-open-
 For the projective line it is not, because the unit and counit are morphisms, and a compatible family of morphisms modulo $\ell^n$ need not come from a
 morphism of the limits. We therefore construct the class of the diagonal
 and the trace once, at the level of inverse systems
-(Section [subsec-The-projective-line]). Besides this, the integral case uses the structure of integral constructible complexes and the fact that proper
-direct image preserves direct sums (Section [subsec-Integral-coefficients]).
+(Subsection [subsec-The-projective-line]). Besides this, the integral case uses the structure of integral constructible complexes and the fact that proper
+direct image preserves direct sums (Subsection [subsec-Integral-coefficients]).

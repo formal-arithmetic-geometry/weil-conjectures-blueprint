@@ -30,7 +30,7 @@ $W$ split.
 
 In the simplest case, $X$ a geometric point, the site is that of profinite
 sets (Proposition [proposition-pro-etale-site-separably-closed], proved
-in Section [subsec-Condensed-rings] below). The
+in Subsection [subsec-Condensed-rings] below). The
 weakly contractible affines are then the extremally disconnected ones, among
 them $\beta(T^\delta)$ for a set $T$. Indeed, a surjection of profinite sets
 onto such an $S$ has a section by Gleason's theorem.

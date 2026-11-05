@@ -5,7 +5,7 @@ title = "Torsion sheaves (2)"
 order = 664
 +++
 As for proper base change, we transport the problem to the étale site by
-the comparison theorems of Section [chap-The-pro-etale-site]. Since
+the comparison theorems of Chapter [chap-The-pro-etale-site]. Since
 $F$ is classical, $F=\nu_X^*F_{\acute{e}t}$ for a torsion abelian sheaf
 $F_{\acute{e}t}$ on $X_{\acute{e}t}$. As $f$ and $f'$ are qcqs,
 Theorem [theorem-comparison-direct-images] and

@@ -128,7 +128,7 @@ $0\to\operatorname{Pic}^0(C)\to\operatorname{Pic}(C)\xrightarrow{\deg}\mathbf Z\
 and since $\mathbf Z$ has no torsion, every line bundle killed by $n$ has
 degree zero. So $\operatorname{Pic}(C)[n]=\operatorname{Pic}^0(C)[n]$. The group
 $\operatorname{Pic}^0(C)$ is the group of points of the *Jacobian* $J$ of
-$C$, an abelian variety of dimension $g$ (Appendix [sec-The-Jacobian]), and on an
+$C$, an abelian variety of dimension $g$ (Section [sec-The-Jacobian]), and on an
 abelian variety of dimension $g$ the $n$-torsion points form a group
 $(\mathbf Z/n)^{2g}$ when $n$ is prime to the characteristic
 (Proposition [proposition-integral-tate-module]). Altogether,

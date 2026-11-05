@@ -6,4 +6,4 @@ order = 817
 +++
 For the structure morphism of a smooth scheme, Theorem [theorem-smooth-purity-all-admissible-coefficients] computes the
 dualizing complex used in Poincaré duality
-(Section [chap-Verdier-and-Poincare-duality]).
+(Chapter [chap-Verdier-and-Poincare-duality]).

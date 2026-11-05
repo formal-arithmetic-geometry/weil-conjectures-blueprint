@@ -29,6 +29,6 @@ fibres (Corollary [corollary-trace-functions-direct-image-compact]).
 Let $f:X\to Y$ be a separated morphism of finite type. For a
 compactification $f=p\circ j$, with $j$ an open immersion and $p$ proper,
 we define $Rf_!=Rp_*\circ j_!$. We must show that this functor
-preserves direct sums. In the following subsubsection we take
+preserves direct sums. In the following subsection we take
 $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, so that
 $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))=\Loc(\Dbc(X,\Lambda))$.

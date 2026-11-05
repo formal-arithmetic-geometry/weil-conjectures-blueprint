@@ -14,7 +14,7 @@ overcome two difficulties. The first concerns the coefficients: we must pass
 to the limit over $n$ without losing cohomology.
 Classically one does this with systems $(F_n)$ and makes every derived
 construction by hand [ekedahl90]. We work instead on the pro-étale site
-of Bhatt and Scholze (Section [chap-The-pro-etale-site]). There $\mathbf Z_\ell$ is a sheaf
+of Bhatt and Scholze (Chapter [chap-The-pro-etale-site]). There $\mathbf Z_\ell$ is a sheaf
 of rings with the expected cohomology, and one definition serves all the
 coefficient rings
 
@@ -47,18 +47,18 @@ closed immersion $i$ with open complement $j$ its value is not obvious: we know 
 sits in a triangle $i^!K\to i^*K\to i^*Rj_*j^*K$. To see that it is
 constructible we need to know that $Rj_*$ preserves constructibility, and this
 is Deligne's generic base change theorem. Accordingly, we construct $f^!$ in
-Section [chap-Construction-of-f] and prove that it preserves
-constructible complexes in Section [chap-Constructibility-of-f], as
+Chapter [chap-Construction-of-f] and prove that it preserves
+constructible complexes in Chapter [chap-Constructibility-of-f], as
 sketched in Section [sec-The-six-operations].
 
 The two difficulties are handled separately, so that each geometric
 argument is made only once. The geometric inputs, namely proper base change
-(Section [chap-Proper-base-change]) and the computation of $f^!$ on
-charts (Section [chap-Constructibility-of-f]), are proved with
+(Chapter [chap-Proper-base-change]) and the computation of $f^!$ on
+charts (Chapter [chap-Constructibility-of-f]), are proved with
 torsion coefficients on the étale site, where SGA 4 applies. They are then
 transferred to $\ell$-adic coefficients without being proved again. Two
 facts make this transfer possible
-(Sections [chap-Constructible-complexes]
+(Chapters [chap-Constructible-complexes]
 and [chap-The-six-operations-on-Dbctf]). First, a constructible complex over
 $\mathcal O_E$ is determined by its reductions modulo $\pi_E^n$
 (Proposition [proposition-integral-constructibility-criterion]), so its

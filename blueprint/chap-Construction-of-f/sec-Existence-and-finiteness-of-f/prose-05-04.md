@@ -11,7 +11,7 @@ For proper $p$ we may use the trivial compactification, so that $Rp_!=Rp_*$.
 By part (4), the functor $Rp_*:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$ then has the
 right adjoint $p^!$.
 
-Parts (1)–(3) are proved in this section and part (4) in
-Section [chap-Constructibility-of-f]. For smooth $f$, smooth purity
-(Section [chap-Smooth-purity]) gives a global isomorphism
+Parts (1)–(3) are proved in this chapter and part (4) in
+Chapter [chap-Constructibility-of-f]. For smooth $f$, smooth purity
+(Chapter [chap-Smooth-purity]) gives a global isomorphism
 $f^!\simeq f^*(d)[2d]$, compatible with trace and composition.

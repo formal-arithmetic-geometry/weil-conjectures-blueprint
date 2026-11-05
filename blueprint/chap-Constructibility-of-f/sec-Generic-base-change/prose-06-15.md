@@ -9,7 +9,7 @@ integral base $S$, and let $F$ be a constructible $\Fell$-sheaf on $X$.
 For such data, Deligne's generic base change theorem says that over a dense open of $S$
 the complex $Rj_*F$ is bounded constructible and its formation commutes
 with base change. In particular, over a field it gives the finiteness of $Rj_*$ (Corollary [corollary-open-direct-image-over-field]), and this is all that the
-computation of $f^!$ requires. On the other hand, the punctured plane over the $t$-line, discussed at the beginning of this section, shows that we cannot ask for
+computation of $f^!$ requires. On the other hand, the punctured plane over the $t$-line, discussed at the beginning of this chapter, shows that we cannot ask for
 more than a dense open.
 
 In characteristic $p$ the generic fibre need not contain a smooth dense

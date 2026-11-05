@@ -57,7 +57,7 @@ coefficients it holds by definition. On towers the composition isomorphism
 is the one of the composite adjunction, so in $D(\operatorname{Tow})$ it
 carries the counit on towers of $g\circ f$ to the composite of the counits
 on towers. By the comparison following the construction of $e_{f,\bullet}$
-in Section [subsec-Base-change-and-composition], $\operatorname{red}$ carries the counits
+in Subsection [subsec-Base-change-and-composition], $\operatorname{red}$ carries the counits
 and the composition isomorphism for $Rf_!$ with coefficients $\mathcal O_E$
 to those on towers, and applying $R\varprojlim$ gives the property over
 $\mathcal O_E$. Similarly, the same comparison shows that extension of scalars along

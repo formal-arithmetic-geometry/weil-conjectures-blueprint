@@ -14,7 +14,7 @@ $A(-1)$. Twisting by $(1)$ and shifting by $[2]$ therefore moves this summand to
 of a point to $1$. It is the counit of
 $Rp_*\dashv p^*(1)[2]$ in
 Proposition [proposition-adjunction-projective-line]. After its lift to
-$\mathcal O_E$ in Section [subsec-The-projective-line], it is also the trace
+$\mathcal O_E$ in Subsection [subsec-The-projective-line], it is also the trace
 map $\operatorname{Tr}_p$ of $\mathbf P^1$ in
 Section [sec-Compatibilities].
 

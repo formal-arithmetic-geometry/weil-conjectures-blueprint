@@ -8,7 +8,7 @@ The trace formula needs the local term at an isolated fixed point to be
 the trace on the stalk. This is not a formal fact. A local term is
 computed from $\cHom(c_2^*K,c_1^!K)$ near the fixed point, and the stalk
 does not determine this complex (Remark [remark-locality-warning]).
-Instead, Section [chap-The-trace-formula] proves the equality by a computation
+Instead, Chapter [chap-The-trace-formula] proves the equality by a computation
 for Frobenius on a smooth curve
 (Proposition [proposition-frobenius-local-term-curve]) and reduces
 everything else to that case. In particular, its trace formula
@@ -73,7 +73,7 @@ and [proposition-nearby-cycles-commute-verdier-duality] prove both,
 by a dimension argument of Illusie [illusie94].
 
 We use the six operations and the notation for correspondences and
-trace classes of Section [chap-The-Lefschetz-Verdier-formula], and classical
+trace classes of Chapter [chap-The-Lefschetz-Verdier-formula], and classical
 results on nearby cycles over a trait, which we recall where they are
 first needed. Throughout this appendix, $k$ is algebraically closed,
 $\ell$ is invertible in $k$, and $A$ is a finite commutative ring

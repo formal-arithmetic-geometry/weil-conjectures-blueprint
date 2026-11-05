@@ -39,7 +39,7 @@ a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is then
 Lemma [lemma-reciprocal-roots-zeta].
 
 The remaining assertions follow from Poincaré duality and the
-functional equation of Section [chap-The-trace-formula]. For (3), since
+functional equation of Chapter [chap-The-trace-formula]. For (3), since
 $P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\mathbf Q_\ell}H^i_\ell$, which does not
 depend on $\ell$, and $b_i=b_{2d-i}$ by
 Corollary [corollary-functional-equation].

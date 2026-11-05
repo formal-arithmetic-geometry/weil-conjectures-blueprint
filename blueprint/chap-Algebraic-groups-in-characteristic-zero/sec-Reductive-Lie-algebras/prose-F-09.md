@@ -19,5 +19,5 @@ Second, the quotient by the center has zero radical. For such a Lie
 algebra the Killing form is nondegenerate by Cartan's criterion. This
 forces the algebra to equal its derived algebra
 (Lemma [lemma-killing]). The upper triangular
-algebra $\mathfrak b$ of the previous subsection shows that the
+algebra $\mathfrak b$ of the previous section shows that the
 hypothesis of semisimplicity cannot be dropped.

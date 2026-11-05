@@ -16,7 +16,7 @@ pro-étale affine $U=\varprojlim_iU_i$, a sheaf pulled back from
 $X_{\acute{e}t}$ can be evaluated by a colimit, and for this reason the comparison theorems of
 Section [sec-Classical-sheaves] are proved on such affines. On a w-contractible
 affine, by contrast, every epimorphism of sheaves is surjective on sections, so the
-homological results of the next three subsections are proved there.
+homological results of the next three sections are proved there.
 
 In Lemma [lemma-w-contractible-affines-projective] we turn the splitting
 of ring maps in Proposition [proposition-splitting-ind-etale-covers]

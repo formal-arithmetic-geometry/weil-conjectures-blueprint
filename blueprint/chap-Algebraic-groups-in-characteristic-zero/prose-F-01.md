@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Algebraic groups in characteristic zero"
 order = 1717
 +++
-Rankin's argument (Section [chap-Purity-of-real-sheaves]) bounds the
+Rankin's argument (Chapter [chap-Purity-of-real-sheaves]) bounds the
 eigenvalues of a real sheaf by the largest determinant weight of its
 constituents, that is, the weight of the determinant divided by the rank.
 For this it needs the determinant weights of the factors of tensor and

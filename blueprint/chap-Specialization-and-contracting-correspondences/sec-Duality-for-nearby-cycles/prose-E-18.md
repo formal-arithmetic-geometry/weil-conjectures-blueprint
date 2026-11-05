@@ -18,7 +18,7 @@ the result to the pro-étale site at the end.
 
 We use the base change maps $\chi_f$, $\nu_f$, $\beta_f$, the lax monoidal
 map $\mu_X$ and the map $\theta_X:\Psi_X\omega_{X_\eta}\to\omega_{X_s}$ of
-the preceding subsection.  Recall that $\beta_f$ is the adjoint, for $Rf_{s!}\dashv f_s^!$, of
+the preceding section.  Recall that $\beta_f$ is the adjoint, for $Rf_{s!}\dashv f_s^!$, of
 (E.6) and that $\nu_f=\chi_f^{-1}$ for proper $f$.
 For $M\in D^b_{\mathrm{ctf}}(X_\eta,A)$, define the morphism
 $\delta_{X,M}:\Psi_X\mathbb D_{X_\eta}M\to\mathbb D_{X_s}(\Psi_XM)$

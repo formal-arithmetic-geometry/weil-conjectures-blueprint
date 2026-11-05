@@ -37,7 +37,7 @@ torsion cohomology sheaves (Theorem [theorem-proper-base-change-classical-pro]).
 In particular, taking for $g$ a geometric point gives the stalk formula
 (Corollary [corollary-cohomology-geometric-fibres]). The theorem is due to
 Artin [sga4, XII–XIII], and unlike smooth base change
-(Section [chap-Smooth-base-change]), it holds for torsion of every
+(Chapter [chap-Smooth-base-change]), it holds for torsion of every
 order, including torsion divisible by the residue characteristics.
 
 The content of the theorem is already visible in degree zero, where it is
@@ -57,7 +57,7 @@ $\mathbf P^n$ and Chow's lemma
 We make these calculations on the étale site, where the classical
 tools are available, and transport them to
 classical complexes on the pro-étale site by the comparison
-theorems of Section [chap-The-pro-etale-site]. For $\mathcal O_E$ we pass
+theorems of Chapter [chap-The-pro-etale-site]. For $\mathcal O_E$ we pass
 to the limit over the reductions modulo $\pi_E^n$
 (Proposition [proposition-proper-base-change-complete-integral]). Since pullback need not
 preserve derived completeness, at this stage the statement for

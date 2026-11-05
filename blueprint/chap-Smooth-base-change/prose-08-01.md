@@ -24,7 +24,7 @@ $(y,t)$ is the colimit of the cohomology groups of $f^{-1}(V)\times B$ over
 small neighbourhoods $V\times B$ of $(y,t)$, and the contractible ball $B$
 does not change them. For schemes the analogue is less clear: a smooth morphism of schemes is, Zariski locally on the source, étale over some
 $\mathbf A^d_Y$, but the affine line has no small contractible
-neighbourhoods. Nevertheless, the theorem of this section, due to Artin (SGA 4,
+neighbourhoods. Nevertheless, the theorem of this chapter, due to Artin (SGA 4,
 Exposé XVI [sga4]), says that for coefficients prime to the
 characteristic the affine line behaves as if it had them. More precisely, let $g:Y'\to Y$ be smooth, let $f$ be quasi-compact and quasi-separated, and
 let $F$ be a torsion sheaf whose torsion orders are invertible on $Y$.

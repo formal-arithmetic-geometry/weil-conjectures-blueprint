@@ -7,7 +7,7 @@ order = 214
 A lisse $E$-sheaf is the analogue of a local system: pro-étale locally it is
 isomorphic to $E_X^r$ for some $r$ (Definition [definition-lisse-sheaves] below).
 Inside such a sheaf $L$, a lattice is a locally free $\mathcal O_E$-subsheaf
-$L_0$ with $L_0[1/\ell]=L$, and the first point of this section is that a lattice need
+$L_0$ with $L_0[1/\ell]=L$, and the first point of this chapter is that a lattice need
 not exist. For an example, glue $0$ and $\infty$ on $\mathbf P^1$ to obtain a nodal curve $X$. Then the infinite
 chain $Y$ of projective lines, with $\infty$ on each line glued to $0$ on the next,
 maps to $X$ by an étale covering. Moreover, the group $\mathbf Z$ acts on $Y$ by
@@ -23,7 +23,7 @@ $\widehat{\mathbf Z}$, the sheaf has no classical counterpart as a system $(F_n)
 the example is in [bhatt-scholze15]).
 
 This matters because every geometric input to the
-next sections (proper base change, the cohomology of curves, Deligne's generic
+next chapters (proper base change, the cohomology of curves, Deligne's generic
 base change) is a theorem about torsion sheaves, whereas a rational sheaf has no
 reduction modulo $\ell$: since $E_X$ is $\ell$-divisible, we have
 $E_X\otimes^{\mathbf L}\mathcal O_E/\pi_E=0$. To use the torsion theory we must
@@ -86,7 +86,7 @@ complex commutes with filtered colimits of complexes bounded below
 by a common degree
 (Lemma [lemma-continuity-ext-out-constructible-complex]); this continuity is
 used, together with descent to a finite $E$, in
-Section [chap-Construction-of-f].
+Chapter [chap-Construction-of-f].
 
-Throughout this section
+Throughout this chapter
 schemes are again separated and of finite type over $k$, as in our conventions.

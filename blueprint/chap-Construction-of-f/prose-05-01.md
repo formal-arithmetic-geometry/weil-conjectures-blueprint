@@ -5,13 +5,13 @@ title = "Construction of $f^!$"
 order = 428
 +++
 Verdier duality, Poincaré duality and the trace formula all rest on a
-right adjoint $f^!$ of $Rf_!$. Indeed, Verdier duality (Section [chap-Verdier-and-Poincare-duality])
+right adjoint $f^!$ of $Rf_!$. Indeed, Verdier duality (Chapter [chap-Verdier-and-Poincare-duality])
 is duality with respect to the dualizing complex $a_X^!\Lambda$, where
 $a_X:X\to\operatorname{Spec}k$ is the structure map, and Poincaré duality
 follows from it once smooth purity
 (Theorem [theorem-smooth-purity-all-admissible-coefficients]) computes
 $f^!$ for smooth morphisms. Similarly, the local terms of the trace formula
-(Section [chap-The-trace-formula]) are built from $f^!$ for the two
+(Chapter [chap-The-trace-formula]) are built from $f^!$ for the two
 projections of a correspondence.
 
 The functor $Rf_!$ itself is easy to
