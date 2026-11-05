@@ -1,10 +1,15 @@
 +++
 id = "lemma-weil-sheaves-point-mixed--1"
 kind = "lemma"
-title = "Weil sheaves on a point are mixed (1)"
+title = "Weil sheaves on a quasi-finite scheme are mixed"
 name_showing = false
 order = 1059001
 aliases = ["bp-r325-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.isMixed_of_locallyQuasiFinite"]
+uses = ["definition-weil-structure", "definition-weights"]
 +++
-Every constructible Weil $\overline{\mathbf Q}_\ell$-sheaf on $\operatorname{Spec}k_0$ is
-mixed.
+Let $k_0=\Fq$, let $\ell\nmid q$ be prime, and fix an embedding
+$\iota:\overline{\mathbf Q}_\ell\hookrightarrow\C$. Let $X_0$ be a
+separated quasi-finite $k_0$-scheme. Every constructible Weil
+$\overline{\mathbf Q}_\ell$-sheaf on $X_0$ is $\iota$-mixed.
+In particular, this holds for $X_0=\operatorname{Spec}k_0$.

@@ -3,8 +3,8 @@ id = "proposition-lattices-representations-normal-scheme"
 kind = "proposition"
 title = "Lattices and representations on a normal scheme"
 order = 1080
-lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy_of_isIntegrallyClosed_stalk", "AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = []
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-lisse-sheaves", "definition-lattice", "lemma-global-lattice-normal-scheme"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a
 field, let $E/\mathbf Q_\ell$ be finite, and fix a geometric point $\bar x$. By

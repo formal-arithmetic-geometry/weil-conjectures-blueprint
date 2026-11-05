@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-filtrations-spectra"
 order = 1068
+uses = ["lemma-filtrations-spectra--1", "lemma-filtrations-spectra--2", "lemma-filtrations-spectra--3", "lemma-filtrations-spectra--4", "lemma-filtrations-spectra--5"]
 +++
 In a basis adapted to the filtration, the matrix of $u$ is block upper
 triangular, so its characteristic polynomial is the product of those

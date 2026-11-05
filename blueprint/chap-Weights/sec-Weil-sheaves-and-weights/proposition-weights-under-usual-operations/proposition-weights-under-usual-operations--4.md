@@ -4,5 +4,7 @@ kind = "proposition"
 title = "Mixed extensions"
 order = 1070005
 aliases = ["bp-r329-4"]
+lean = []
+uses = ["definition-weights"]
 +++
-An extension of mixed sheaves is mixed.
+An extension of mixed Weil sheaves is mixed.

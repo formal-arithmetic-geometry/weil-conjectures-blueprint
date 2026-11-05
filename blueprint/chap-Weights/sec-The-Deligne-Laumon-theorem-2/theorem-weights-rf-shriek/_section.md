@@ -3,8 +3,8 @@ id = "theorem-weights-rf-shriek"
 kind = "theorem"
 title = "Weights of $Rf_!$"
 order = 1084
-lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant"]
+uses = ["definition-weil-structure", "definition-weights", "proposition-construction-independence-rf-shriek", "definition-frobenius-operator"]
 +++
 For every separated morphism of finite type $f:X_0\to Y_0$,
 

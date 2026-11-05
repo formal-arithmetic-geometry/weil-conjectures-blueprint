@@ -5,7 +5,13 @@ title = "Filtrations and spectra (3)"
 name_showing = false
 order = 1067003
 aliases = ["bp-r328-3"]
+lean = ["LinearMap.charpoly_roots_dualMap_symm"]
+uses = []
 +++
-If the eigenvalues of
-$u$ on $V$ are $\alpha_1,\ldots,\alpha_d$, then those on $V^\vee$ are
-$\alpha_i^{-1}$,
+Let $K$ be an algebraically closed field, $V$ a finite-dimensional
+$K$-vector space, and $u$ an automorphism of $V$. On $V^\vee$ take
+the contragredient action $(u^{-1})^\vee$, sending
+$\varphi$ to $\varphi\circ u^{-1}$. If the eigenvalues of $u$ are
+$\alpha_1,\ldots,\alpha_d$, counted with algebraic multiplicity,
+then the eigenvalues of this action on $V^\vee$, with the same
+multiplicities, are $\alpha_1^{-1},\ldots,\alpha_d^{-1}$.

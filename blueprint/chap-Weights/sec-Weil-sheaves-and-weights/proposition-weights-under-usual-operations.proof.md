@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-weights-under-usual-operations"
 order = 1071
-uses = ["lemma-weights-exact-sequence"]
+uses = ["lemma-filtrations-spectra", "proposition-weights-under-usual-operations--1", "proposition-weights-under-usual-operations--2", "proposition-weights-under-usual-operations--3", "proposition-weights-under-usual-operations--4", "proposition-weights-under-usual-operations--5", "proposition-weights-under-usual-operations--6", "proposition-weights-under-usual-operations--7", "proposition-weights-under-usual-operations--8", "proposition-weights-under-usual-operations--9", "proposition-weights-under-usual-operations--10", "proposition-weights-under-usual-operations--11", "proposition-weights-under-usual-operations--12", "proposition-weights-under-usual-operations--13", "proposition-weights-under-usual-operations--15", "proposition-weights-under-usual-operations--16", "proposition-weights-under-usual-operations--17"]
 +++
 Each assertion has two parts: a statement about eigenvalues at closed
 points, which follows from Lemma [lemma-filtrations-spectra], and, for
