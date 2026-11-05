@@ -5,6 +5,8 @@ title = "Trace class and local terms (1)"
 name_showing = false
 order = 916001
 aliases = ["bp-r277-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.mate", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass"]
+uses = ["definition-correspondence", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "definition-verdier-dual-evaluation"]
 +++
 Let $u:c_2^*K\to c_1^!K$ be a cohomological correspondence on $(X,K)$.
 By adjunction, $u$ is a section $A_C\to\mathcal H_c(K)$.

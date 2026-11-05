@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Local terms on the point"
 order = 918
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.integral_traceClass_ofEnd"]
-uses = ["definition-correspondence"]
+uses = ["definition-correspondence", "definition-trace-class-local-terms", "definition-categorical-trace"]
 +++
 Let $P\in\operatorname{Perf}(A)$, viewed as an object of
 $D^b_{\mathrm{ctf}}(s,A)$, and let $u:P\to P$ be a cohomological correspondence on

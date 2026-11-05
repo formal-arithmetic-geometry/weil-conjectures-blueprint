@@ -5,6 +5,8 @@ title = "Pushforward of a correspondence (1)"
 name_showing = false
 order = 923001
 aliases = ["bp-r280-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.coeff", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffUnit", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeffCounit", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.pushforwardCoeff"]
+uses = ["definition-correspondence", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "proposition-proper-direct-image-constructible-complexes", "theorem-exceptional-inverse-image", "proposition-forgetting-supports-composition", "proposition-composition-base-change-rf-shriek"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper morphisms, and let
 $c'=(c'_1,c'_2):C'\to Y\times Y$ be a correspondence with $c'_ig=fc_i$ for

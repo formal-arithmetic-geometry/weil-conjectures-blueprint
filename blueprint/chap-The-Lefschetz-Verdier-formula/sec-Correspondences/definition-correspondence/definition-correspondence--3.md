@@ -5,6 +5,8 @@ title = "Correspondences (3)"
 name_showing = false
 order = 903003
 aliases = ["bp-r273-3"]
+lean = ["AlgebraicGeometry.Scheme.fixedScheme", "AlgebraicGeometry.Scheme.instIsClosedImmersionFixedSchemeιOfIsSeparated", "AlgebraicGeometry.Scheme.fixedSchemeι", "AlgebraicGeometry.Scheme.fixedSchemeProj"]
+uses = ["definition-correspondence--1"]
 +++
 The *fixed locus* of $c$ is the closed subscheme
 

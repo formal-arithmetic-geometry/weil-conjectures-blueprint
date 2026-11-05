@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-properties-trace"
 order = 896
+uses = ["definition-categorical-trace", "proposition-properties-trace--1", "proposition-properties-trace--2", "proposition-properties-trace--3", "proposition-properties-trace--4", "proposition-properties-trace--5", "proposition-properties-trace--6"]
 +++
 Everything follows from the chain formula, which we prove first by
 writing evaluation and coevaluation in a finite dual basis.

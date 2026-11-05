@@ -5,6 +5,8 @@ title = "Trace morphism (1)"
 name_showing = false
 order = 913001
 aliases = ["bp-r276-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.evaluationKernel", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceMap"]
+uses = ["definition-constructible-sheaves", "definition-correspondence", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "theorem-existence-exceptional-inverse-image", "proposition-composition-base-change-rf-shriek", "proposition-composition-open-restriction-compactifications-f"]
 +++
 In the setting of Lemma [lemma-external-duality-trace-morphism], let
 $e_K:P_X\to R\Delta_{X*}\omega_X$ be adjoint to the evaluation
