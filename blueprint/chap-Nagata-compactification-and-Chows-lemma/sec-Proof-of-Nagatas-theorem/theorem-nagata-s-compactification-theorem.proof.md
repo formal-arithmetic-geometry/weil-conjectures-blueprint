@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-nagata-s-compactification-theorem"
-order = 1465
+order = 1468
 uses = ["lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 If $S$ is Noetherian, we choose a cover as in

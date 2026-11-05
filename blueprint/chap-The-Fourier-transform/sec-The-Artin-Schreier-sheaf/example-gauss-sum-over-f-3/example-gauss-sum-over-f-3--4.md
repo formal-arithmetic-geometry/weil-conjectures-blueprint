@@ -3,7 +3,7 @@ id = "example-gauss-sum-over-f-3--4"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$ (4)"
 name_showing = false
-order = 1220004
+order = 1223004
 aliases = ["bp-r376-4"]
 +++
 Thus Frobenius acts on the line $H^1_c(\mathbf A^1,h^*\mathcal L_\psi)$

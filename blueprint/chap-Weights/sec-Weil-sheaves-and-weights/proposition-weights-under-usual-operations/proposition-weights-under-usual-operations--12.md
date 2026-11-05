@@ -1,8 +1,9 @@
 +++
 id = "proposition-weights-under-usual-operations--12"
 kind = "proposition"
-title = "Upper bounds under inverse image"
-order = 1070013
+title = "Weight of a constant twist"
+order = 1073013
 aliases = ["bp-r329-12"]
 +++
-Inverse image preserves upper weight bounds.
+Tensoring by $\mathcal B_b$ adds
+$\lambda_\iota(b)=2\log_q|\iota(b)|$ to every weight.

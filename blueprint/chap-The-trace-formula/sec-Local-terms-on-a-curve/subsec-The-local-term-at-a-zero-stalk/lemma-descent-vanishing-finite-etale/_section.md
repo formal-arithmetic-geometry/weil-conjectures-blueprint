@@ -2,7 +2,7 @@
 id = "lemma-descent-vanishing-finite-etale"
 kind = "lemma"
 title = "Descent of vanishing along a finite étale cover"
-order = 986
+order = 987
 lean = ["AlgebraicGeometry.Etale.exists_rightDerivedPullback_app_comp_eq_smul", "AlgebraicGeometry.Etale.exists_sectionsRestriction_app_comp_eq_smul", "DerivedCategory.eq_zero_of_comp_trace_of_isUnit"]
 +++
 Let $f:W'\to W$ be a finite étale morphism of schemes of constant degree

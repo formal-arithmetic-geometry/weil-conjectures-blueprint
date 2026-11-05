@@ -3,7 +3,7 @@ id = "lemma-finite-quasi-finite-direct-images--2"
 kind = "lemma"
 title = "Finite and quasi-finite direct images (2)"
 name_showing = false
-order = 1321002
+order = 1324002
 aliases = ["bp-r408-2"]
 +++
 It also carries

@@ -2,7 +2,7 @@
 id = "prose-10-07"
 kind = "hidden"
 title = "Verdier biduality (3)"
-order = 837
+order = 838
 +++
 We prove biduality by induction on dimension, restricting the
 double-dual morphism to the geometric generic fibre of a map to

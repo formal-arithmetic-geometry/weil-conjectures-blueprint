@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-normalization-constant-sheaf"
-order = 1601
-uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "remark-base-change-compactification"]
+order = 1604
+uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 The map is computed on stalks by the formula for stalks of finite direct
 images, and the cokernel has finite support because $\pi$ is an

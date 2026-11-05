@@ -3,7 +3,7 @@ id = "lemma-verdier-duality-preserves-constructibility--1"
 kind = "lemma"
 title = "Verdier duality preserves constructibility (1)"
 name_showing = false
-order = 835001
+order = 836001
 aliases = ["bp-r250-1"]
 +++
 For every admissible $\Lambda$, $\mathbb D_X$ restricts to a functor

@@ -3,7 +3,7 @@ id = "definition-correspondence--1"
 kind = "definition"
 title = "Correspondences (1)"
 name_showing = false
-order = 903001
+order = 904001
 aliases = ["bp-r273-1"]
 +++
 Let $X$ be a separated $k$-scheme of finite type. A *correspondence*

@@ -2,7 +2,7 @@
 id = "proposition-weights-j-boundary-points"
 kind = "proposition"
 title = "Weights of $j_*$ at the boundary points"
-order = 1180
+order = 1183
 lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsLisse.hasWeightsAtMost_directImage"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-weil-representation"]
 +++

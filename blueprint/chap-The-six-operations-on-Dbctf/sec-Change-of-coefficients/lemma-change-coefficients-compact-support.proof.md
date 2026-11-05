@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients-compact-support"
-order = 638
+order = 639
 uses = ["theorem-comparison-direct-images", "proposition-inverting-ell", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site"]
 +++
 The map is the composite of the isomorphism of

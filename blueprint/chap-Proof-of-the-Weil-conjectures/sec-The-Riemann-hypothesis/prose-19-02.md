@@ -2,7 +2,7 @@
 id = "prose-19-02"
 kind = "hidden"
 title = "The Riemann hypothesis (1)"
-order = 1368
+order = 1371
 +++
 For a proper map we have $Rf_!=Rf_*$, so the upper bound of
 Theorem [theorem-direct-image-mixed-sheaf] applies to ordinary

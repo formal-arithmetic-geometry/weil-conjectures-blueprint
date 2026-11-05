@@ -2,7 +2,7 @@
 id = "prose-P3-01"
 kind = "hidden"
 title = "Weights and the Riemann hypothesis"
-order = 1050
+order = 1051
 +++
 After Parts I and II we can write
 the number of points of a smooth proper variety as an alternating sum of

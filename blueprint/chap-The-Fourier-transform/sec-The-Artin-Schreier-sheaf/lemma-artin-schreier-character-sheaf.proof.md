@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-artin-schreier-character-sheaf"
-order = 1218
+order = 1221
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 We define $\mathcal L_\psi$ as an eigensheaf in the direct image of the

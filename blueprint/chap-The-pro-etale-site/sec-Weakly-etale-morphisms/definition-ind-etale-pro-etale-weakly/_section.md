@@ -3,8 +3,7 @@ id = "definition-ind-etale-pro-etale-weakly"
 kind = "definition"
 title = "Ind-étale, pro-étale and weakly étale morphisms"
 order = 27
-lean = ["Algebra.IndEtale", "RingHom.IndEtale", "AlgebraicGeometry.proAffineEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty", "Algebra.WeaklyEtale", "RingHom.WeaklyEtale"]
-uses = ["lemma-stability"]
+lean = ["Algebra.IndEtale", "RingHom.IndEtale", "AlgebraicGeometry.proAffineEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale", "Algebra.WeaklyEtale", "RingHom.WeaklyEtale"]
 +++
 A ring map $R\to B$ is *ind-étale* if
 $B=\varinjlim_\alpha B_\alpha$ for a filtered system of étale
@@ -21,12 +20,4 @@ $$
 with $R\to B$ ind-étale.
 
 A scheme morphism $u:U\to X$ is *weakly étale* if $u$ and its
-diagonal $\Delta_u:U\to U\times_XU$ are flat. On affine charts this
-means that both
-
-$$
-R\longrightarrow B,
-\qquad B\otimes_RB\longrightarrow B
-$$
-
-are flat.
+diagonal $\Delta_u:U\to U\times_XU$ are flat.

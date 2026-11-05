@@ -2,7 +2,7 @@
 id = "prose-07-02"
 kind = "hidden"
 title = "Stability of $\\Dctf$"
-order = 623
+order = 624
 +++
 Pullback and tensor product are local, and they preserve the description
 of a complex of $D^b_{\mathrm{ctf}}$ on the strata of a stratification as

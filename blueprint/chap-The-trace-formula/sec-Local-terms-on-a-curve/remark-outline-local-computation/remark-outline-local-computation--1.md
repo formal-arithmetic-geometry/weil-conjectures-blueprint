@@ -3,7 +3,7 @@ id = "remark-outline-local-computation--1"
 kind = "remark"
 title = "Outline of the local computation (1)"
 name_showing = false
-order = 962001
+order = 963001
 aliases = ["bp-r293-1"]
 +++
 Let $X_0$ be a smooth curve and $y\in X_0(\mathbf F_{q^m})$. The

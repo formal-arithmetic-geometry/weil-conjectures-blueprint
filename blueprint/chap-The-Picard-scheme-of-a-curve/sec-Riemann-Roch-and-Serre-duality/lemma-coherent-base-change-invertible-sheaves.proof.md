@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-coherent-base-change-invertible-sheaves"
-order = 1531
+order = 1534
 uses = ["definition-constructible-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form"]
 +++
 This is base change for coherent cohomology along a proper morphism,

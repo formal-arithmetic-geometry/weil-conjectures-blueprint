@@ -2,7 +2,7 @@
 id = "prose-16-06"
 kind = "hidden"
 title = "Fourier inversion (1)"
-order = 1228
+order = 1231
 +++
 We integrate with compact supports, $Rp_{2!}$ rather than $Rp_{2*}$,
 for two reasons. First, proper base change computes the stalks

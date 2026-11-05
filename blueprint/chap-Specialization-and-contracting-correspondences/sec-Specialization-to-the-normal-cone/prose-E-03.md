@@ -2,7 +2,7 @@
 id = "prose-E-03"
 kind = "hidden"
 title = "Specialization to the normal cone (2)"
-order = 1621
+order = 1624
 +++
 For a morphism $g:\mathcal Y'\to\mathcal Y$ of separated
 $S$-schemes of finite type, there is a base change map for pullback

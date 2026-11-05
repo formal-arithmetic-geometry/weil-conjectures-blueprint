@@ -2,7 +2,7 @@
 id = "prose-12-24"
 kind = "hidden"
 title = "The function–sheaf dictionary (1)"
-order = 1021
+order = 1022
 +++
 Under the trace formula, $Rf_!$ becomes summation over fibres and $\otimes$
 becomes multiplication of functions on rational points. This is Grothendieck's

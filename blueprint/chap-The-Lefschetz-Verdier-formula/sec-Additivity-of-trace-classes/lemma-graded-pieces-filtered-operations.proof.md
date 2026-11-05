@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-graded-pieces-filtered-operations"
-order = 931
+order = 932
 +++
 The operations are derived using filtered flat and filtered injective
 resolutions. For finite filtrations these resolutions can be built successively on the graded pieces by mapping cylinders, and on them

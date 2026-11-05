@@ -2,7 +2,7 @@
 id = "prose-C-07"
 kind = "hidden"
 title = "Riemann–Roch and Serre duality (3)"
-order = 1529
+order = 1532
 +++
 Recall that the chart of the Picard scheme consists of the invertible
 sheaves $\mathcal L$ for which $Rf_{T,*}\mathcal L$ is an invertible

@@ -2,7 +2,7 @@
 id = "prose-16-16"
 kind = "hidden"
 title = "Middle extensions (1)"
-order = 1263
+order = 1266
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open, and let
 $M$ be an irreducible lisse Weil sheaf on $U_0$. The argument of

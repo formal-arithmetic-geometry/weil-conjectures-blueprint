@@ -2,7 +2,7 @@
 id = "lemma-making-open-schematically-dense"
 kind = "lemma"
 title = "Making an open schematically dense"
-order = 1424
+order = 1427
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_cartierBoundary", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isSchemeTheoreticallyDominant_compl_support"]
 uses = ["definition-admissible-blow-up"]
 +++

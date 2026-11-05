@@ -2,7 +2,7 @@
 id = "lemma-mixedness-open-closed"
 kind = "lemma"
 title = "Mixedness on an open and its complement"
-order = 1339
+order = 1342
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_openClosed"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++

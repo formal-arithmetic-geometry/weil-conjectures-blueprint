@@ -3,7 +3,7 @@ id = "lemma-closed-piece-pushforward--1"
 kind = "lemma"
 title = "The closed piece as a pushforward (1)"
 name_showing = false
-order = 939001
+order = 940001
 aliases = ["bp-r286-1"]
 +++
 In the situation of

@@ -2,7 +2,7 @@
 id = "prose-13-09"
 kind = "hidden"
 title = "Lisse sheaves as representations (1)"
-order = 1073
+order = 1076
 +++
 Let $X$ be a connected normal scheme of finite type over a field and $L$ a
 lisse $E_X$-module. Lemma [lemma-lattices-after-finite-stratification]

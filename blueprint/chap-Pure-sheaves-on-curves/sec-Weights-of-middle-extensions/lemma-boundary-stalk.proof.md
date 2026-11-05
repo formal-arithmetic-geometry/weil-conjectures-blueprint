@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-boundary-stalk"
-order = 1174
+order = 1177
 uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint"]
 +++
 We prove the formula for finite coefficients, where it is Galois

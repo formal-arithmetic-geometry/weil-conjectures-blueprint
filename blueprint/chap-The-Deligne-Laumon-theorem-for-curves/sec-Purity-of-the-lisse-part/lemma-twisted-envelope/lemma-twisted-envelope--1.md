@@ -3,7 +3,7 @@ id = "lemma-twisted-envelope--1"
 kind = "lemma"
 title = "Twisting and adding the dual (1)"
 name_showing = false
-order = 1277001
+order = 1280001
 aliases = ["bp-r395-1"]
 +++
 Let $\mathcal A$ be lisse and pure of weight zero, and let $\mathcal L$

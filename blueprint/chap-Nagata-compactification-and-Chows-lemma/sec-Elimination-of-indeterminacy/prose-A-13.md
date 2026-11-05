@@ -2,7 +2,7 @@
 id = "prose-A-13"
 kind = "hidden"
 title = "Elimination of indeterminacy (5)"
-order = 1432
+order = 1435
 +++
 Blow-ups commute with flat base change [Stacks, [0805](https://stacks.math.columbia.edu/tag/0805)], because flat
 pullback preserves the inclusions $\mathcal I^m\subseteq\mathcal O_T$.

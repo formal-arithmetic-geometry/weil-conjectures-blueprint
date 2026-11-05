@@ -2,7 +2,7 @@
 id = "proposition-fourier-transform-middle-extension"
 kind = "proposition"
 title = "The Fourier transform of a middle extension"
-order = 1264
+order = 1267
 lean = ["AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.WeilSheaf.IsNonexceptional"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "lemma-artin-schreier-character-sheaf", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-class-diagonal-projective-line--1"
 kind = "lemma"
 title = "The class of the diagonal of $\\mathbf P^1_S$ (1)"
 name_showing = false
-order = 550001
+order = 551001
 aliases = ["bp-r166-1"]
 +++
 Let $S$ be of finite type over $k$ and let $\Lambda$ be a finite
@@ -25,7 +25,7 @@ s_i:\Lambda_{\mathbf P^1_S}=Rp_{i*}\Delta_*\Lambda_{\mathbf P^1_S}
 \xrightarrow{Rp_{i*}\delta}
 Rp_{i*}\Lambda_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]
 \xrightarrow{\operatorname{Tr}_{p_i}}\Lambda_{\mathbf P^1_S}
-\tag{6.4}
+\tag{6.6}
 $$
 
 is the identity.

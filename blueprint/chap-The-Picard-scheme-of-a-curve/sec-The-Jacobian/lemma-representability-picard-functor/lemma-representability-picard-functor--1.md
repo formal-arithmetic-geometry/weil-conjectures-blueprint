@@ -3,7 +3,7 @@ id = "lemma-representability-picard-functor--1"
 kind = "lemma"
 title = "Representability of the Picard functor (1)"
 name_showing = false
-order = 1544001
+order = 1547001
 aliases = ["bp-r481-1"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper connected

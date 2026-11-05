@@ -3,7 +3,7 @@ id = "remark-coherent-additivity--1"
 kind = "remark"
 title = "Additivity needs a filtered endomorphism (1)"
 name_showing = false
-order = 898001
+order = 899001
 aliases = ["bp-r271-1"]
 +++
 The coherence condition is needed over a general ring: three

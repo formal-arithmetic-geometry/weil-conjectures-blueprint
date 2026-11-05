@@ -2,7 +2,7 @@
 id = "prose-11-08"
 kind = "hidden"
 title = "The exceptional Künneth formula (1)"
-order = 906
+order = 907
 +++
 A cohomological correspondence $u:c_2^*K\to c_1^!K$ is a morphism on $C$, so to obtain from it a class on the fixed locus we must first view
 it as a section of $c^!$ of a single complex on $X\times X$, which can

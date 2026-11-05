@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-twisting-weight-zero-adding-dual"
-order = 1195
+order = 1198
 uses = ["proposition-sp-unique-adjoint", "proposition-weights-under-usual-operations"]
 +++
 A twist to weight zero puts all local eigenvalues on the unit circle,

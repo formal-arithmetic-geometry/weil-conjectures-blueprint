@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-functional-equation"
-order = 1045
+order = 1046
 uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Duality gives the relations $b_{2d-i}=b_i$ and $D^2=q^{d\chi}$. If we substitute

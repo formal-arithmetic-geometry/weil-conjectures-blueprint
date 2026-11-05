@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-smooth-proper-curves-torsion-prime"
-order = 1575
+order = 1578
 uses = ["definition-constructible-sheaves", "definition-underived-base-change-map", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 Pulling back the Kummer sequence of $C_{\acute{e}t}$ by $\nu_C^*$, we get

@@ -3,7 +3,7 @@ id = "proposition-exactness-fixed-pure-weight--1"
 kind = "proposition"
 title = "Exactness at a fixed pure weight (1)"
 name_showing = false
-order = 1295001
+order = 1298001
 aliases = ["bp-r401-1"]
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be as in

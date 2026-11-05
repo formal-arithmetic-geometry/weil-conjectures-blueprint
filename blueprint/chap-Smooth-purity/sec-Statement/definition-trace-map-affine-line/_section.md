@@ -2,7 +2,7 @@
 id = "definition-trace-map-affine-line"
 kind = "definition"
 title = "Trace map of the affine line"
-order = 728
+order = 729
 +++
 The *trace map of the affine line* is the composite
 
@@ -16,7 +16,7 @@ $$
 
 where the first arrow is induced by the counit $j_!j^*\to\mathrm{id}$ and
 $\operatorname{Tr}_q$ is the trace map of the projective line: for finite
-$\Lambda$ it is the map (6.3) of
+$\Lambda$ it is the map (6.5) of
 Lemma [lemma-cohomology-projective-line-trace] for the projection $q$, and
 otherwise it is the trace of
 Proposition [proposition-ell-adic-cycle-class-diagonal].

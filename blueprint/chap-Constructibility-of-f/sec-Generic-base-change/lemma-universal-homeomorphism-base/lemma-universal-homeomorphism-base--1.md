@@ -3,7 +3,7 @@ id = "lemma-universal-homeomorphism-base--1"
 kind = "lemma"
 title = "Universal homeomorphisms of the base (1)"
 name_showing = false
-order = 578001
+order = 579001
 aliases = ["bp-r175-1"]
 +++
 Let $S$ be integral, let $j:X\hookrightarrow Y$ be an open immersion of

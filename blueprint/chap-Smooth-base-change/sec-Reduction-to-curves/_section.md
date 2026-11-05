@@ -2,7 +2,7 @@
 id = "sec-Reduction-to-curves"
 kind = "section"
 title = "Reduction to curves"
-order = 670
+order = 671
 uses = ["sec-The-induction-hypothesis"]
 hide_content = true
 +++

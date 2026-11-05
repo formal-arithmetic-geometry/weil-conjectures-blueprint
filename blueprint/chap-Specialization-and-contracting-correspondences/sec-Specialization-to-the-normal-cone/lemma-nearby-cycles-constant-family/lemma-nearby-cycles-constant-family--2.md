@@ -3,7 +3,7 @@ id = "lemma-nearby-cycles-constant-family--2"
 kind = "lemma"
 title = "Nearby cycles of a constant family (2)"
 name_showing = false
-order = 1622002
+order = 1625002
 aliases = ["bp-r503-2"]
 +++
 If $f:Y'\to Y$ is proper and $L'\in\Dbc(Y',A)$, then the composite

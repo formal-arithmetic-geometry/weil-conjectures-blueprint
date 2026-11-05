@@ -2,7 +2,7 @@
 id = "lemma-degree-zero-top-cohomology"
 kind = "lemma"
 title = "Degree zero and top cohomology"
-order = 1150
+order = 1153
 lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_zero", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-weights", "definition-weil-representation", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

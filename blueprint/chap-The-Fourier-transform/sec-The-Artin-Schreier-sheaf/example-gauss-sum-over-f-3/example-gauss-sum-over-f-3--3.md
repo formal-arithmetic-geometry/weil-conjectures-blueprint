@@ -3,7 +3,7 @@ id = "example-gauss-sum-over-f-3--3"
 kind = "example"
 title = "A Gauss sum over $\\mathbf F_3$ (3)"
 name_showing = false
-order = 1220003
+order = 1223003
 aliases = ["bp-r376-3"]
 +++
 Hence its geometric coinvariants vanish, and $H^0_c=H^2_c=0$

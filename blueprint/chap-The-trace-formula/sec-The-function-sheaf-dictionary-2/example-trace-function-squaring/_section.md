@@ -2,7 +2,7 @@
 id = "example-trace-function-squaring"
 kind = "example"
 title = "The squaring map"
-order = 1026
+order = 1027
 +++
 Let $q$ be odd, let $f_0:\mathbf A^1_{\mathbf F_q}\to\mathbf A^1_{\mathbf F_q}$
 be $x\mapsto x^2$, and let $K=\Lambda_X$ with its constant Weil structure, so

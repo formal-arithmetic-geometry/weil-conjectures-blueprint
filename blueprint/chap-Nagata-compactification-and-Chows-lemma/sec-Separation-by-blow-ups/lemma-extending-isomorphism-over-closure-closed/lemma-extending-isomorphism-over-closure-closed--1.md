@@ -3,7 +3,7 @@ id = "lemma-extending-isomorphism-over-closure-closed--1"
 kind = "lemma"
 title = "Extending an isomorphism over the closure of a closed subset (1)"
 name_showing = false
-order = 1452001
+order = 1455001
 aliases = ["bp-r453-1"]
 +++
 Let $q:P\to T$ be a proper morphism of qcqs schemes, let $V\subseteq T$

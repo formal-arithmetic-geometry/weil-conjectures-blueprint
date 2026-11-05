@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-purity-trace-commute-frobenius"
-order = 882
+order = 883
 uses = ["proposition-compatibility-purity-base-change"]
 +++
 Both identities are instances of base change for smooth purity, applied

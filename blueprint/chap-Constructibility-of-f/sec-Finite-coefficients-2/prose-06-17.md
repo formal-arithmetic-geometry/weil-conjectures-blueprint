@@ -2,7 +2,7 @@
 id = "prose-06-17"
 kind = "hidden"
 title = "Finite coefficients (1)"
-order = 588
+order = 589
 +++
 Let $A$ be a finite commutative $\ell$-primary ring and $f$ a separated
 morphism of finite type. We show that the right adjoint $f^!$ of

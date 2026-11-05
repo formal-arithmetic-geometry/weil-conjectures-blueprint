@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-reciprocal-roots-zeta"
-order = 1387
+order = 1390
 uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reduced-fractions-integer-coefficients", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The identity (19.2) holds because both sides

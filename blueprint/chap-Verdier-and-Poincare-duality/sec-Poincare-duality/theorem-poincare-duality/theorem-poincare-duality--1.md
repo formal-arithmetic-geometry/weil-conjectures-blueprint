@@ -3,7 +3,7 @@ id = "theorem-poincare-duality--1"
 kind = "theorem"
 title = "Poincaré duality (1)"
 name_showing = false
-order = 856001
+order = 857001
 aliases = ["bp-r257-1"]
 +++
 Let $X/k$ be smooth, separated of pure dimension $d$, with

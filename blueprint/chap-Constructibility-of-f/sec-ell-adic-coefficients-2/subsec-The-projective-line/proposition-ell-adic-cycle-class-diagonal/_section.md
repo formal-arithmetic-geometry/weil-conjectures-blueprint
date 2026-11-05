@@ -2,7 +2,7 @@
 id = "proposition-ell-adic-cycle-class-diagonal"
 kind = "proposition"
 title = "The $\\ell$-adic cycle class of the diagonal"
-order = 600
+order = 601
 +++
 Let $q:\mathbf P^1_Y\to Y$ be the projection, $\Delta$ the diagonal of
 $\mathbf P^1_Y\times_Y\mathbf P^1_Y$ and $p_1,p_2$ its projections. There

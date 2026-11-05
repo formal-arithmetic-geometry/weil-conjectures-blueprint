@@ -3,7 +3,7 @@ id = "remark-non-noetherian-compactifications"
 kind = "remark"
 title = "Non-Noetherian compactifications"
 name_showing = false
-order = 1414
+order = 1417
 lean = ["AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.isDense_denseRefinement"]
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++

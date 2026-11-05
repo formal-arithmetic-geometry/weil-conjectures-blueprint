@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-composition-exceptional-base-change-maps"
-order = 1662
+order = 1665
 +++
 The first identity follows by taking
 adjoints for the adjunctions $Rh_{s!}\dashv h_s^!$ ($h=f,g,gf$) and using the compatibility of $\nu$ with

@@ -2,7 +2,7 @@
 id = "corollary-verdier-exchange-formulas--7"
 kind = "corollary"
 title = "Closed restriction"
-order = 847008
+order = 848008
 aliases = ["bp-r254-7"]
 +++
 For an open $j:U\hookrightarrow X$ and a closed $i:Z\hookrightarrow X$, the indicated specialization is

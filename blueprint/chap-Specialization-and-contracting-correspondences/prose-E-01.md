@@ -2,7 +2,7 @@
 id = "prose-E-01"
 kind = "hidden"
 title = "Specialization and contracting correspondences"
-order = 1617
+order = 1620
 +++
 The trace formula needs the local term at an isolated fixed point to be
 the trace on the stalk. This is not a formal fact. A local term is

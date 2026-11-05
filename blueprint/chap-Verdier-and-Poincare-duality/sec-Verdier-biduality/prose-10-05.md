@@ -2,7 +2,7 @@
 id = "prose-10-05"
 kind = "hidden"
 title = "Verdier biduality (1)"
-order = 832
+order = 833
 +++
 On a smooth curve $C$ over an algebraically closed field, with
 $\omega_C=\Lambda_C(1)[2]$, biduality is easy to see for the two basic kinds of sheaves. Indeed, for a locally constant sheaf $L$ of free

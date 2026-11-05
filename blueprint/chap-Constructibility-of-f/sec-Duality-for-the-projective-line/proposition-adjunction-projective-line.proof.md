@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-adjunction-projective-line"
-order = 554
+order = 555
 uses = ["lemma-identity-pasting", "lemma-class-diagonal-projective-line", "theorem-smooth-base-change-classical-torsion"]
 +++
 The projection formula and proper base change reduce each of the two
@@ -24,15 +24,15 @@ Rp_*\bigl(M\otimes_A^{\mathbf L}
 Rp_{1*}A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]\bigr)\\
 &\xrightarrow{Rp_*(1_M\otimes \operatorname{Tr}_{p_1})}Rp_*M .
 \end{split}
-\tag{6.8}
+\tag{6.10}
 $$
 
-Here the first arrow is $Rp_*$ of the first arrow of (6.5), with
+Here the first arrow is $Rp_*$ of the first arrow of (6.7), with
 $R(pp_2)_*$ rewritten as $R(pp_1)_*$. The middle isomorphism is the
 projection formula for $p_1$. It replaces the proper base change
-isomorphism of (6.5), after $Rp_*$, followed by the projection formula
-isomorphism of (6.6). The last arrow replaces $1\otimes\operatorname{Tr}_p$
-in (6.6) by $\operatorname{Tr}_{p_1}$, the base change of
+isomorphism of (6.7), after $Rp_*$, followed by the projection formula
+isomorphism of (6.8). The last arrow replaces $1\otimes\operatorname{Tr}_p$
+in (6.8) by $\operatorname{Tr}_{p_1}$, the base change of
 $\operatorname{Tr}_p$ along $p$ (Lemma [lemma-cohomology-projective-line-trace]).
 In this form, the trace is applied to $Rp_{1*}\delta$, that is, to the
 factor $\Delta_*A$, and $M$ only appears as a coefficient.
@@ -45,10 +45,10 @@ Therefore the two routes from $R(pp_2)_*p_1^*M=R(pp_1)_*p_1^*M$ to
 $Rp_*M\otimes Rp_*A(1)[2]$ have the same adjoint transpose, as in
 the pasting Lemma [lemma-identity-pasting].
 
-On the route through (6.8) we identify
+On the route through (6.10) we identify
 $Rp_{1*}A=p^*Rp_*A$ by proper base change and then use the
 projection formula for $p$. By naturality of the projection formula in its
-second variable, the first arrow of (6.8) is then
+second variable, the first arrow of (6.10) is then
 $1_M\otimes Rp_{1*}\delta$ under the projection identification. The
 composite is therefore $Rp_*(1_M\otimes s_1)$, which is $1_{Rp_*M}$ by
 Lemma [lemma-class-diagonal-projective-line].
@@ -56,11 +56,11 @@ Lemma [lemma-class-diagonal-projective-line].
 *Second triangle identity.* Here the roles of the two projections
 are exchanged: we must show that
 $p^*(\varepsilon_N)(1)[2]\circ\eta_{p^*N(1)[2]}$ is the identity.
-Take $M=p^*N(1)[2]$ in (6.5). Since $N$ and the Tate twist are
+Take $M=p^*N(1)[2]$ in (6.7). Since $N$ and the Tate twist are
 pulled back from $S$, both $p_1^*M$ and $p_2^*M$ are
 $(pp_1)^*N(1)[2]=(pp_2)^*N(1)[2]$. The projection formula moves this common
 factor outside $Rp_{2*}$, and $\eta_{p^*N(1)[2]}$ becomes
-$1\otimes Rp_{2*}\delta$. By the base change compatibility of (6.3),
+$1\otimes Rp_{2*}\delta$. By the base change compatibility of (6.5),
 $p^*(\varepsilon_N)(1)[2]$ becomes $1\otimes\operatorname{Tr}_{p_2}$,
 applied to the target of $Rp_{2*}\delta$. We obtain
 
@@ -69,12 +69,12 @@ p^*(\varepsilon_N)(1)[2]\circ\eta_{p^*N(1)[2]}
 =1_{p^*N(1)[2]}\otimes
 (\operatorname{Tr}_{p_2}\circ Rp_{2*}\delta)
 =1_{p^*N(1)[2]}\otimes s_2=1_{p^*N(1)[2]}.
-\tag{6.9}
+\tag{6.11}
 $$
 
-All shifts moved in (6.8) and (6.9) are even, so no Koszul signs appear.
+All shifts moved in (6.10) and (6.11) are even, so no Koszul signs appear.
 
 The unit is constructed from $\delta$ and proper base change, and
-the counit from (6.3) and the projection formula. All of these ingredients are compatible with base change and change of coefficients, and hence so
+the counit from (6.5) and the projection formula. All of these ingredients are compatible with base change and change of coefficients, and hence so
 are $\eta$ and $\varepsilon$. Transported by $\nu^*$, the same then holds for the corresponding adjunction
 on the pro-étale categories.

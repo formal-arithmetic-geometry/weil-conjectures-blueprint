@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-compatibility-purity-change-coefficients"
-order = 812
+order = 813
 +++
 Both kinds of comparison maps are compatible with composition of coefficient
 maps, so it suffices to treat the elementary maps in the list of

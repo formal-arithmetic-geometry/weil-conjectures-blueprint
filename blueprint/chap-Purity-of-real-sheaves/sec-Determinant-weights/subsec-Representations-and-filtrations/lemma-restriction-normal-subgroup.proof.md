@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-restriction-normal-subgroup"
-order = 1122
+order = 1125
 +++
 It suffices to consider a simple $\Gamma$-module $V$. A nonzero
 $N$-submodule $A$ of least dimension is simple, and since $N$ is

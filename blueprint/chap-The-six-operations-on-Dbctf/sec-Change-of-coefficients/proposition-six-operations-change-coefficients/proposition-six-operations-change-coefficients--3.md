@@ -2,7 +2,7 @@
 id = "proposition-six-operations-change-coefficients--3"
 kind = "proposition"
 title = "Direct image: coefficient comparison"
-order = 645006
+order = 646006
 aliases = ["bp-r197-3"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison

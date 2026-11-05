@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-frobenius-local-term-curve"
-order = 994
+order = 995
 uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "lemma-change-coefficients", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "lemma-local-terms-point", "definition-pushforward-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-vanishing-local-term-zero-stalk", "lemma-passing-schematic-closure"]
 +++
 Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.

@@ -2,7 +2,7 @@
 id = "prose-08-13"
 kind = "hidden"
 title = "Change of base field (2)"
-order = 688
+order = 689
 +++
 The simplest case already shows how the proof goes. Take $C=\mathbf G_{m,S}$
 with coordinate $x$. Then $H^1(\mathbf G_{m,\Omega},\mathbf Z/m)$ is cyclic

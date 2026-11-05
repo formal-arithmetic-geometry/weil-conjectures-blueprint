@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients-direct-image"
-order = 636
+order = 637
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "corollary-continuity-cohomology", "lemma-acyclic-resolutions"]
 +++
 The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of finite rings we use a projection formula, whereas in the other cases extension of

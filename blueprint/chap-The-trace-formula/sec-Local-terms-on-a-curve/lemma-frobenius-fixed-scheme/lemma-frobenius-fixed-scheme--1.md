@@ -2,7 +2,7 @@
 id = "lemma-frobenius-fixed-scheme--1"
 kind = "lemma"
 title = "Description of the fixed scheme"
-order = 959002
+order = 960002
 aliases = ["bp-r292-1"]
 +++
 The fixed point scheme satisfies

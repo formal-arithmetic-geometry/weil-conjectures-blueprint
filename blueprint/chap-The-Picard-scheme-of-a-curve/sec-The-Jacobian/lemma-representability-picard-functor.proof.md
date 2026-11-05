@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-representability-picard-functor"
-order = 1545
+order = 1548
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-rigidification-along-section", "lemma-coherent-base-change-invertible-sheaves", "proposition-divisors-degree-g-open-chart", "lemma-twisting-h-0-1-h"]
 +++
 The preceding lemmas assume $C$ geometrically integral. To see that this

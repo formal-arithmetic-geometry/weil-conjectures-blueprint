@@ -2,7 +2,7 @@
 id = "prose-11-02"
 kind = "hidden"
 title = "Traces of perfect complexes (1)"
-order = 892
+order = 893
 +++
 Both sides of the trace formula are traces of endomorphisms of perfect
 $A$-complexes, namely of $R\Gamma_c(X,K)$ on the global side and of the

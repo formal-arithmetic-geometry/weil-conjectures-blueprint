@@ -1,8 +1,8 @@
 +++
 id = "proposition-weights-under-usual-operations--2"
 kind = "proposition"
-title = "Quotients of a pure sheaf"
-order = 1070003
+title = "Upper bounds for extensions"
+order = 1073003
 aliases = ["bp-r329-2"]
 +++
-A quotient of a pure Weil sheaf of weight $w$ is pure of weight $w$.
+An extension of two sheaves with a common upper weight bound has that same bound.

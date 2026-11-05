@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-hilbert-schemes-points-smooth-curve"
-order = 1535
-uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "remark-base-change-compactification"]
+order = 1538
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Representability is a general theorem, once we know that finite sets of
 points lie in affine opens. We then obtain the geometric properties from the addition map $\operatorname{Hilb}^{d}_{C/k}\times C\to \operatorname{Hilb}^{d+1}_{C/k}$, which we show to be finite

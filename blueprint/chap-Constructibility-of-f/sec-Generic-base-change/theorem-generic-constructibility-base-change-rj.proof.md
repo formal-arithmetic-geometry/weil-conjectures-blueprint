@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-generic-constructibility-base-change-rj"
-order = 583
+order = 584
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "lemma-smooth-morphisms-locally-constant-sheaves", "lemma-coordinate-projections", "lemma-extension-across-finite-subset", "lemma-generic-smooth-open", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 We work with the étale sheaf corresponding to $F$, in

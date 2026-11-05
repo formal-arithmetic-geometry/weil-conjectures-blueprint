@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-relative-noether-normalization-over-stratification"
-order = 1359
+order = 1362
 +++
 We spread out Noether normalization from the generic points of the
 target, and then argue by induction on the dimension of the complement.

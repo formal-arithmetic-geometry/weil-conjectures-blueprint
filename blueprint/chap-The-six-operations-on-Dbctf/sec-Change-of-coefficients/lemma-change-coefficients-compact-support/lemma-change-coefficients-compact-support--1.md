@@ -3,7 +3,7 @@ id = "lemma-change-coefficients-compact-support--1"
 kind = "lemma"
 title = "Change of coefficients for compactly supported direct image (1)"
 name_showing = false
-order = 637001
+order = 638001
 aliases = ["bp-r194-1"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above, every separated morphism

@@ -3,7 +3,7 @@ id = "lemma-composition-exceptional-base-change-maps--1"
 kind = "lemma"
 title = "Composition of the exceptional base change maps (1)"
 name_showing = false
-order = 1661001
+order = 1664001
 aliases = ["bp-r516-1"]
 +++
 Let $f:V\to W$ and $g:W\to Y$ be morphisms of separated $S$-schemes of

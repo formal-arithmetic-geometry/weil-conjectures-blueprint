@@ -2,7 +2,7 @@
 id = "prose-C-14"
 kind = "hidden"
 title = "Torsion points"
-order = 1556
+order = 1559
 +++
 The Kummer sequence on a curve $C$ over an algebraically closed field
 identifies $H^1(C,\mu_n)$ with $\operatorname{Pic}(C)[n]$ and

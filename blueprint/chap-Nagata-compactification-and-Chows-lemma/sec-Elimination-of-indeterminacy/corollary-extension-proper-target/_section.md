@@ -2,7 +2,7 @@
 id = "corollary-extension-proper-target"
 kind = "corollary"
 title = "Extension to a proper target"
-order = 1440
+order = 1443
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_of_isProper"]
 uses = ["definition-admissible-blow-up"]
 +++

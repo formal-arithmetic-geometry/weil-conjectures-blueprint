@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-triviality-near-fibre"
-order = 1484
+order = 1487
 uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "lemma-triviality-fibres"]
 +++
 We want a section of $\mathcal L$ over $X\times U$, where $X=P\times Q$,

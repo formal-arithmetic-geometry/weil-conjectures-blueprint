@@ -3,7 +3,7 @@ id = "lemma-rigidity--1"
 kind = "lemma"
 title = "Rigidity (1)"
 name_showing = false
-order = 1489001
+order = 1492001
 aliases = ["bp-r464-1"]
 +++
 Let $X$ be a proper geometrically integral $k$-scheme, let $Y$ be a

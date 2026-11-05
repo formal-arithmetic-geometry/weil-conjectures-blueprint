@@ -3,7 +3,7 @@ id = "proposition-ordinary-external-kunneth--1"
 kind = "proposition"
 title = "Ordinary external Künneth (1)"
 name_showing = false
-order = 719001
+order = 720001
 aliases = ["bp-r217-1"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of finite

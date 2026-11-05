@@ -2,7 +2,7 @@
 id = "prose-06-23"
 kind = "hidden"
 title = "Finiteness of $f^!$ (1)"
-order = 609
+order = 610
 +++
 For admissible $\Lambda$ and a closed immersion $i:Z\hookrightarrow X$
 with complement $j$, the local cohomology functor $R\underline\Gamma_Z$

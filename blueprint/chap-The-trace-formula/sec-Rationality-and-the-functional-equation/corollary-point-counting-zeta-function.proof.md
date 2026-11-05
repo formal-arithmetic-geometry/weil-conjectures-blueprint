@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-point-counting-zeta-function"
-order = 1040
+order = 1041
 uses = ["definition-categorical-trace", "proposition-properties-trace", "theorem-grothendieck-lefschetz-trace-formula", "lemma-hankel-rank-rationality"]
 +++
 The identities over $\Lambda$ are the trace formula and the Euler

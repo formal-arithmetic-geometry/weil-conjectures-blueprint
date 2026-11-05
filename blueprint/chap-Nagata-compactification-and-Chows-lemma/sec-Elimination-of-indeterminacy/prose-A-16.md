@@ -2,7 +2,7 @@
 id = "prose-A-16"
 kind = "hidden"
 title = "Elimination of indeterminacy (8)"
-order = 1439
+order = 1442
 +++
 We quote this theorem from [conrad07, Theorem 2.4], with the
 auxiliary base equal to $T$, and explain below the structure of its

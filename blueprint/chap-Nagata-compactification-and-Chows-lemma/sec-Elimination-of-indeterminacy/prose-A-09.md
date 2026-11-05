@@ -2,7 +2,7 @@
 id = "prose-A-09"
 kind = "hidden"
 title = "Elimination of indeterminacy (1)"
-order = 1421
+order = 1424
 +++
 Every modification in the proof of Nagata's theorem is a blow-up whose
 center avoids a fixed open, so that this open is not changed.

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-simple-objects"
-order = 1256
+order = 1259
 uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint", "lemma-boundary-stalk", "lemma-largest-punctual-subsheaf"]
 +++
 Since a middle extension has no punctual subobject or

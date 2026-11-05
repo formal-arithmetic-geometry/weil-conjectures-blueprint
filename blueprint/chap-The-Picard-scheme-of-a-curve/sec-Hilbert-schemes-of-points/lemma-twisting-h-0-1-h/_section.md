@@ -2,7 +2,7 @@
 id = "lemma-twisting-h-0-1-h"
 kind = "lemma"
 title = "Twisting to $h^0=1$ and $h^1=0$"
-order = 1540
+order = 1543
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
 Suppose that $k$ is separably closed. For every field extension

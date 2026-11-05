@@ -2,7 +2,7 @@
 id = "prose-A-25"
 kind = "hidden"
 title = "Chow's lemma"
-order = 1467
+order = 1470
 +++
 Let $f:X\to S$ be proper. In Section [sec-Proper-morphisms] proper base change is first proved for projective morphisms. By
 Lemma [lemma-composition-cancellation] it then descends along a

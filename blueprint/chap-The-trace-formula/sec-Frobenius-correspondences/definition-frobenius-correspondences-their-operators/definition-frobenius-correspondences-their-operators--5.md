@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators--5"
 kind = "definition"
 title = "Frobenius correspondences and their operators (5)"
 name_showing = false
-order = 951005
+order = 952005
 aliases = ["bp-r289-5"]
 +++
 Let $c_m=(\operatorname{id}_X,\Phi_X^m):X\to X\times_sX$ be the graph

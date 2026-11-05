@@ -2,7 +2,7 @@
 id = "prose-11-09"
 kind = "hidden"
 title = "The exceptional Künneth formula (2)"
-order = 909
+order = 910
 +++
 Using the Künneth formulas for both kinds of direct image and for $f^!$,
 we now identify cohomological correspondences with sections of

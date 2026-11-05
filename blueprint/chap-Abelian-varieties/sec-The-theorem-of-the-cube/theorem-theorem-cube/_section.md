@@ -2,7 +2,7 @@
 id = "theorem-theorem-cube"
 kind = "theorem"
 title = "Theorem of the cube"
-order = 1486
+order = 1489
 lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
 +++
 Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points

@@ -2,7 +2,7 @@
 id = "theorem-weil-conjectures-smooth-proper-schemes"
 kind = "theorem"
 title = "The Weil conjectures for smooth proper schemes"
-order = 1388
+order = 1391
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.weil_integral_factors", "AlgebraicGeometry.Scheme.riemann_hypothesis", "AlgebraicGeometry.Scheme.weil_betti", "AlgebraicGeometry.Scheme.weil_functional_equation"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
 +++

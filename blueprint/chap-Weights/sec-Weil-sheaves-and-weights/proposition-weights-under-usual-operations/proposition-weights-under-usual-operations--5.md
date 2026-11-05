@@ -1,8 +1,8 @@
 +++
 id = "proposition-weights-under-usual-operations--5"
 kind = "proposition"
-title = "Upper bounds for extensions"
-order = 1070006
+title = "Tensor products of mixed sheaves"
+order = 1073006
 aliases = ["bp-r329-5"]
 +++
-An extension of two sheaves with a common upper weight bound has that same bound.
+The tensor product of mixed sheaves of weights at most $a,b$ is mixed of weights at most $a+b$.

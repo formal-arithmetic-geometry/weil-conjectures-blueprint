@@ -2,7 +2,7 @@
 id = "lemma-artin-schreier-character-sheaf"
 kind = "lemma"
 title = "The Artin–Schreier character sheaf"
-order = 1217
+order = 1220
 lean = ["AlgebraicGeometry.artinSchreier", "AlgebraicGeometry.isLisse_artinSchreier", "AlgebraicGeometry.nonempty_iso_tensorObj_artinSchreierOf", "AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier", "AlgebraicGeometry.isPunctuallyPureOfWeight_artinSchreier"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-trace-function", "definition-weights"]
 +++

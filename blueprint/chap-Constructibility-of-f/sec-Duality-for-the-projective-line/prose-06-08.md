@@ -2,7 +2,7 @@
 id = "prose-06-08"
 kind = "hidden"
 title = "Duality for the projective line (5)"
-order = 552
+order = 553
 +++
 We build the unit and counit of the adjunction from $\delta$ and from
 the trace. For $M\in D((\mathbf P^1_S)_{\acute{e}t},A)$,
@@ -15,7 +15,7 @@ $$
 &\longrightarrow Rp_{2*}\bigl(p_1^*M(1)[2]\bigr)
 \xrightarrow{\ \sim\ }p^*Rp_*M(1)[2] .
 \end{split}
-\tag{6.5}
+\tag{6.7}
 $$
 
 Here the first arrow is $Rp_{2*}$ applied to $\delta\otimes p_1^*M$,
@@ -28,7 +28,7 @@ $$
 \xrightarrow{\ \sim\ }N\otimes_A^{\mathbf L}
 Rp_*A_{\mathbf P^1_S}(1)[2]
 \xrightarrow{1\otimes \operatorname{Tr}_p}N,
-\tag{6.6}
+\tag{6.8}
 $$
 
 where the first arrow is the projection formula. These maps exist for

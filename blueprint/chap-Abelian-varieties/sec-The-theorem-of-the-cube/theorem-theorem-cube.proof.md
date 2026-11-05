@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-theorem-cube"
-order = 1487
+order = 1490
 uses = ["definition-compactification-refinement", "lemma-triviality-fibres", "lemma-triviality-near-fibre"]
 +++
 The local trivializations are glued by

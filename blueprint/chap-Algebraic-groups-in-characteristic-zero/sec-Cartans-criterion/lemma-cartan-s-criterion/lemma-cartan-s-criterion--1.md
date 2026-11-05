@@ -3,7 +3,7 @@ id = "lemma-cartan-s-criterion--1"
 kind = "lemma"
 title = "Cartan's criterion (1)"
 name_showing = false
-order = 1732001
+order = 1735001
 aliases = ["bp-r538-1"]
 +++
 Let $M$ be a finite-dimensional $\Omega$-vector space, and let

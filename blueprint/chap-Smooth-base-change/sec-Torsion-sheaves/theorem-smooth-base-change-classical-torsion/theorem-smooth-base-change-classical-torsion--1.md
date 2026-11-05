@@ -3,7 +3,7 @@ id = "theorem-smooth-base-change-classical-torsion--1"
 kind = "theorem"
 title = "Smooth base change for classical torsion sheaves (1)"
 name_showing = false
-order = 662001
+order = 663001
 aliases = ["bp-r200-1"]
 +++
 In (8.1), suppose $g$ is smooth and $f$ is

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas"
-order = 830
+order = 831
 uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-composition-base-change-rf-shriek", "lemma-change-coefficients"]
 +++
 We check each isomorphism by Yoneda. After applying

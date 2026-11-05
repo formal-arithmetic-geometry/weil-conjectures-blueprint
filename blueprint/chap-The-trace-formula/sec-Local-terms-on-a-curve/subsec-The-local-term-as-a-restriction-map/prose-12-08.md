@@ -2,7 +2,7 @@
 id = "prose-12-08"
 kind = "hidden"
 title = "The local term as a restriction map (1)"
-order = 964
+order = 965
 +++
 The vanishing of a local term when $K_{\bar y}=0$ is hard to see from the
 definition through the trace morphism

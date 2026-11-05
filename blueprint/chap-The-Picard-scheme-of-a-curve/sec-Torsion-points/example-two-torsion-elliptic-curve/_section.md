@@ -2,7 +2,7 @@
 id = "example-two-torsion-elliptic-curve"
 kind = "example"
 title = "Two-torsion of an elliptic curve"
-order = 1557
+order = 1560
 +++
 Let $k$ be algebraically closed of characteristic different from two
 and let $E\colon y^2=(x-e_1)(x-e_2)(x-e_3)$ with distinct $e_i\in k$,

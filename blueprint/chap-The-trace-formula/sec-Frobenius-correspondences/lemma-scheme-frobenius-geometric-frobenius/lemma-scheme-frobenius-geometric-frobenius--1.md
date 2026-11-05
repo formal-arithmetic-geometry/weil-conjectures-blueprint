@@ -3,7 +3,7 @@ id = "lemma-scheme-frobenius-geometric-frobenius--1"
 kind = "lemma"
 title = "Scheme Frobenius and geometric Frobenius (1)"
 name_showing = false
-order = 953001
+order = 954001
 aliases = ["bp-r290-1"]
 +++
 Let $\operatorname{Fr}_X$ be the semilinear geometric Frobenius

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-restriction-punctured-curve"
-order = 976
+order = 977
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "theorem-comparison-over-henselian-pair-degree", "lemma-cohomology-near-two-transverse-divisors"]
 +++
 The source is $R\Gamma(X-D_2,j'_!N)=R\Gamma(X,M)$, by the definition

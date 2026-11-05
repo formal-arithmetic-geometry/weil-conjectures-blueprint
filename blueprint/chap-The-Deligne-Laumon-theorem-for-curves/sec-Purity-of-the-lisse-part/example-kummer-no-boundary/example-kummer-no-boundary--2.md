@@ -3,7 +3,7 @@ id = "example-kummer-no-boundary--2"
 kind = "example"
 title = "A Kummer sheaf has no boundary term (2)"
 name_showing = false
-order = 1275002
+order = 1278002
 aliases = ["bp-r394-2"]
 +++
 Hence

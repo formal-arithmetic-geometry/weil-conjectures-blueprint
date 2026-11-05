@@ -2,7 +2,7 @@
 id = "prose-F-04"
 kind = "hidden"
 title = "Lie algebras"
-order = 1723
+order = 1726
 +++
 Let $G$ be a connected algebraic group with Lie algebra $\mathfrak g$.
 We need two facts (Lemma [lemma-stable-subspaces-center]). First, in a

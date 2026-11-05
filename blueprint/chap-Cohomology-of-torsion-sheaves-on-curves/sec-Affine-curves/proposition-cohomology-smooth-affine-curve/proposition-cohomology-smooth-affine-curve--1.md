@@ -3,7 +3,7 @@ id = "proposition-cohomology-smooth-affine-curve--1"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve (1)"
 name_showing = false
-order = 1579001
+order = 1582001
 aliases = ["bp-r493-1"]
 +++
 Let $\overline C$ be a smooth proper connected curve of genus $g$

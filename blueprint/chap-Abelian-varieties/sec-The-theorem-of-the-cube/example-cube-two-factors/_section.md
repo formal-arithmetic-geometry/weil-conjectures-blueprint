@@ -2,7 +2,7 @@
 id = "example-cube-two-factors"
 kind = "example"
 title = "Two factors do not suffice"
-order = 1474
+order = 1477
 +++
 Let $E$ be an elliptic curve over an algebraically closed field, with
 origin $O$, and let $\Delta\subset E\times E$ be the diagonal. On

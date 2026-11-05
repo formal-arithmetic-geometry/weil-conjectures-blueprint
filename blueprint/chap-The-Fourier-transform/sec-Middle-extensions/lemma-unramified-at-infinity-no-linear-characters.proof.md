@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-unramified-at-infinity-no-linear-characters"
-order = 1268
+order = 1271
 uses = ["definition-w-local-w-strictly-local", "proposition-w-local-components", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 For $a\ne0$ the sheaf $\mathcal L_{\psi(ax)}$ is ramified at infinity,

@@ -2,7 +2,7 @@
 id = "proposition-cohomology-smooth-affine-curve"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve"
-order = 1579
+order = 1582
 lean = ["AlgebraicGeometry.Scheme.residueSequence_exact", "AlgebraicGeometry.Scheme.gysinH2_eq_zero_iff", "AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-compactification-refinement"]
 +++

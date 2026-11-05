@@ -2,7 +2,7 @@
 id = "prose-06-09"
 kind = "hidden"
 title = "Smooth morphisms (1)"
-order = 556
+order = 557
 +++
 Let $f:X\to S$ be smooth of relative dimension $d$. Extending the formula
 $p^!=p^*(1)[2]$ for $p:\mathbf P^1_S\to S$, we show in

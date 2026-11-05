@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-composition--3"
 kind = "proposition"
 title = "Finite extension of $\\Ql$"
-order = 800006
+order = 801006
 aliases = ["bp-r240-3"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},E)$,

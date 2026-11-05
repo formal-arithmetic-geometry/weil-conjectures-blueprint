@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-vanishing-restrictions-after-blowing-up"
-order = 979
+order = 980
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-underived-base-change-map", "theorem-comparison-over-henselian-pair-degree", "lemma-cohomology-near-two-transverse-divisors"]
 +++
 After blowing up $t$, the three curves are separated along the

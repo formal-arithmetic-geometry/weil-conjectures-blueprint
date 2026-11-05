@@ -3,7 +3,7 @@ id = "proposition-sp-integral-towers--1"
 kind = "proposition"
 title = "Integral constructible complexes as towers (1)"
 name_showing = false
-order = 773001
+order = 774001
 aliases = ["bp-r233-1"]
 +++
 For $K\in\Dbc(T,\mathcal O_E)$ there are integers $a\le b$ such that

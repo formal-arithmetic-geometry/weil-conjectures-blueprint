@@ -3,7 +3,7 @@ id = "theorem-picard-scheme-jacobian-over-separably--1"
 kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field (1)"
 name_showing = false
-order = 1549001
+order = 1552001
 aliases = ["bp-r483-1"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper

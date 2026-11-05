@@ -2,7 +2,7 @@
 id = "prose-11-07"
 kind = "hidden"
 title = "Correspondences (2)"
-order = 904
+order = 905
 +++
 Here $c_2$ is the leg along which $K$ is pulled back and $c_1$ is the
 leg along which we take $c_1^!$; in [sga5, III, §3] the two names are

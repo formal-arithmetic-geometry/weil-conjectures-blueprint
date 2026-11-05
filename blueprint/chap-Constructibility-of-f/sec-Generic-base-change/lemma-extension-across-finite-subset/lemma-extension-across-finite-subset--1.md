@@ -3,7 +3,7 @@ id = "lemma-extension-across-finite-subset--1"
 kind = "lemma"
 title = "Extension across a finite subset (1)"
 name_showing = false
-order = 576001
+order = 577001
 aliases = ["bp-r174-1"]
 +++
 Let $S$ be integral and affine, let $b:Y\to S$ be projective, and let

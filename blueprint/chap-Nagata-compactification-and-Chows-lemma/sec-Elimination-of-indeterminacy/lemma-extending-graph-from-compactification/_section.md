@@ -2,7 +2,7 @@
 id = "lemma-extending-graph-from-compactification"
 kind = "lemma"
 title = "Extending a graph from a compactification"
-order = 1446
+order = 1449
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension", "AlgebraicGeometry.Compactification.ProperExtension"]
 uses = ["definition-compactification-refinement"]
 +++

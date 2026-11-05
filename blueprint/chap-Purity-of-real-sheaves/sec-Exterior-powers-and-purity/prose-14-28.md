@@ -2,7 +2,7 @@
 id = "prose-14-28"
 kind = "hidden"
 title = "Exterior powers and purity"
-order = 1165
+order = 1168
 +++
 Proposition [proposition-bound-largest-determinant-weight] only bounds the local eigenvalues
 by the largest determinant weight. To bound the eigenvalues of each

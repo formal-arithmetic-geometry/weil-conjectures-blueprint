@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-picard-scheme-jacobian-over-separably"
-order = 1550
+order = 1553
 uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "lemma-coherent-base-change-invertible-sheaves", "theorem-hilbert-schemes-points-smooth-curve", "proposition-divisors-degree-g-open-chart", "lemma-twisting-h-0-1-h", "lemma-representability-picard-functor", "lemma-tangent-space-picard-functor"]
 +++
 Representability is Lemma [lemma-representability-picard-functor].

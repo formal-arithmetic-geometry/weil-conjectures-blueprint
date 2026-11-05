@@ -2,7 +2,7 @@
 id = "remark-integral-frobenius-correspondences-not-invertible"
 kind = "remark"
 title = "Integral Frobenius correspondences need not be invertible"
-order = 1015
+order = 1016
 +++
 In Lemma [lemma-integral-models-rational-frobenius-correspondences], $K_0$ need not be a lattice in a
 lisse sheaf, and $\theta$ need not be invertible even when $\psi_E$ is.

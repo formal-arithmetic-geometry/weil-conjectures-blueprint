@@ -2,7 +2,7 @@
 id = "prose-A-04"
 kind = "hidden"
 title = "Compactifications (3)"
-order = 1405
+order = 1408
 +++
 This is [Stacks, [0F41](https://stacks.math.columbia.edu/tag/0F41)], and we give the proof in
 Section [sec-Proof-of-Nagatas-theorem]. We need it in this generality

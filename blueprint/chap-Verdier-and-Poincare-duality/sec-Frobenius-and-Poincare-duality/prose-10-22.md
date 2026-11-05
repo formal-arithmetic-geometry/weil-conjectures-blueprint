@@ -2,7 +2,7 @@
 id = "prose-10-22"
 kind = "hidden"
 title = "Frobenius and Poincaré duality (1)"
-order = 880
+order = 881
 +++
 Let $X_0$ be smooth of pure dimension $d$ and let $K$ be locally perfect, so
 that $\mathbb D_XK\simeq K^\vee(d)[2d]$. In this case cup product pairs $H^i_c(X,K)$

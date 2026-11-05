@@ -2,7 +2,7 @@
 id = "lemma-affine-covers-dense-intersection"
 kind = "lemma"
 title = "Affine covers with dense intersection"
-order = 1462
+order = 1465
 lean = ["AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine", "AlgebraicGeometry.AffineSpace.projectiveClosure_spec"]
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++

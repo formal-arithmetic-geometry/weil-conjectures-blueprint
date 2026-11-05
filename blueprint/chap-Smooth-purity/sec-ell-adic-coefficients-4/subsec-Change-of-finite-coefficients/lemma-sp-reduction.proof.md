@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-sp-reduction"
-order = 769
+order = 770
 uses = ["lemma-change-coefficients-compact-support"]
 +++
 The comparison $b$ for $Rf_!$ is a direct computation, and $c_{A,B}$ is

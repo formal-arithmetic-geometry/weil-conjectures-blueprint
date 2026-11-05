@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-integral-tate-module"
-order = 1510
+order = 1513
 uses = ["definition-compactification-refinement", "proposition-multiplication-n", "theorem-picard-scheme-jacobian-over-separably"]
 +++
 A finite abelian group of order $\ell^{2gn}$ killed by $\ell^n$ need not

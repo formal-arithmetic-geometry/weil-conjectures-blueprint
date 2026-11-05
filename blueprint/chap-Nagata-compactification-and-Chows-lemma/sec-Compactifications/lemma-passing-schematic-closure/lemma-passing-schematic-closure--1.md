@@ -3,7 +3,7 @@ id = "lemma-passing-schematic-closure--1"
 kind = "lemma"
 title = "Passing to the schematic closure (1)"
 name_showing = false
-order = 1412001
+order = 1415001
 aliases = ["bp-r437-1"]
 +++
 Let $X\xrightarrow{j}\overline X\xrightarrow{p}S$ be any

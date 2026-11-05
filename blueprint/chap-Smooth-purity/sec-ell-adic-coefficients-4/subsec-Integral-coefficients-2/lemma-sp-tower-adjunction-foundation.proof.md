@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-sp-tower-adjunction-foundation"
-order = 777
+order = 778
 +++
 The adjunction is a composite of two standard adjunctions of ringed topoi.
 For the equivalence we check that the unit is an isomorphism on $\Dbc$ and

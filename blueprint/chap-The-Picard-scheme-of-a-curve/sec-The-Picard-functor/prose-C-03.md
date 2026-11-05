@@ -2,7 +2,7 @@
 id = "prose-C-03"
 kind = "hidden"
 title = "The Picard functor (2)"
-order = 1519
+order = 1522
 +++
 Equivalently, one may sheafify
 $T\mapsto\operatorname{Pic}(C_T)$, since an invertible sheaf on $T$

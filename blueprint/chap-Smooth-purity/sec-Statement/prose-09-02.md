@@ -2,7 +2,7 @@
 id = "prose-09-02"
 kind = "hidden"
 title = "Statement (1)"
-order = 725
+order = 726
 +++
 Smooth purity is stated for six kinds of coefficients at once, because the
 proof moves between them: the geometry is done with finite rings, the

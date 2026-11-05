@@ -2,7 +2,7 @@
 id = "definition-determinant-weight"
 kind = "definition"
 title = "Determinant weight"
-order = 1110
+order = 1113
 lean = ["AlgebraicGeometry.WeilGroup.detWeight", "AlgebraicGeometry.WeilGroup.HasDetWeight", "AlgebraicGeometry.WeilGroup.detWeightMultiset"]
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth

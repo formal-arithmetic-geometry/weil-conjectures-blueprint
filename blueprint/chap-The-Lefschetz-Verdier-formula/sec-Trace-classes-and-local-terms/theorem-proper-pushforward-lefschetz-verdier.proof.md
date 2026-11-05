@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-proper-pushforward-lefschetz-verdier"
-order = 926
+order = 927
 uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-proper-direct-image-constructible-complexes", "lemma-change-coefficients", "proposition-ordinary-external-kunneth", "definition-verdier-dual-evaluation", "proposition-properties-trace", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-local-terms-point", "lemma-passing-schematic-closure"]
 +++
 The trace class of $u$ is built in three steps: $u$ becomes a map into

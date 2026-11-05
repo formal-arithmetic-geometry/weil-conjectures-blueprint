@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-scheme-frobenius-geometric-frobenius"
-order = 954
+order = 955
 uses = ["proposition-w-local-components", "proposition-proper-direct-image-constructible-complexes", "lemma-passing-schematic-closure"]
 +++
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the

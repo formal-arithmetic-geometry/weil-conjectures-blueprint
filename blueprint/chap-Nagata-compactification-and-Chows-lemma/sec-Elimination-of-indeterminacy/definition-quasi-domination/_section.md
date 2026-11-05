@@ -2,7 +2,7 @@
 id = "definition-quasi-domination"
 kind = "definition"
 title = "Quasi-domination"
-order = 1433
+order = 1436
 lean = ["AlgebraicGeometry.QuasiDomination"]
 +++
 Let $X$ and $Y$ be $S$-schemes, with $Y\to S$ separated. A

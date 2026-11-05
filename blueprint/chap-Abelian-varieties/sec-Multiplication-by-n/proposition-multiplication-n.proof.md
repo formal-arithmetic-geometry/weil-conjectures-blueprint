@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-multiplication-n"
-order = 1504
+order = 1507
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "theorem-picard-scheme-jacobian-over-separably"]
 +++
 We use the isomorphism $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$

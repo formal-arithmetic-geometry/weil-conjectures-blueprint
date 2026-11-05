@@ -2,7 +2,7 @@
 id = "prose-08-18"
 kind = "hidden"
 title = "The Künneth formula (1)"
-order = 705
+order = 706
 +++
 The trace formula needs the Künneth formula for ordinary direct images
 (Proposition [proposition-ordinary-external-kunneth]), which is a base change

@@ -2,7 +2,7 @@
 id = "prose-16-15"
 kind = "hidden"
 title = "Perverse t-exactness"
-order = 1259
+order = 1262
 +++
 The transform $\operatorname{FT}_\psi$ is
 t-exact for the perverse t-structure on the line

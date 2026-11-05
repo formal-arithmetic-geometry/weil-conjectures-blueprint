@@ -2,7 +2,7 @@
 id = "lemma-unramified-at-infinity-no-linear-characters"
 kind = "lemma"
 title = "Sheaves unramified at infinity"
-order = 1267
+order = 1270
 lean = ["AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity", "AlgebraicGeometry.not_isUnramifiedAtInfinity_artinSchreier"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-artin-schreier-character-sheaf", "proposition-fourier-transform-middle-extension"]
 +++

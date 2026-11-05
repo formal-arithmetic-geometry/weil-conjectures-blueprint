@@ -2,7 +2,7 @@
 id = "proposition-six-operations-change-coefficients"
 kind = "proposition"
 title = "The six operations and change of coefficients"
-order = 645
+order = 646
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom_comp_app"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-change-of-coefficients-maps"]
 +++

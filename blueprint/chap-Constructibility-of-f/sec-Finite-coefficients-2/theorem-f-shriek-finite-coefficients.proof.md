@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-f-shriek-finite-coefficients"
-order = 593
-uses = ["theorem-bounded-below-cohomology-comparison", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-adjunction-projective-line", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex"]
+order = 594
+uses = ["theorem-bounded-below-cohomology-comparison", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "definition-relative-dualizing-complex"]
 +++
 Locally on $X$ and $Y$, the morphism $f$ is a closed immersion followed by
 the projection from an affine space. We therefore treat these two cases and

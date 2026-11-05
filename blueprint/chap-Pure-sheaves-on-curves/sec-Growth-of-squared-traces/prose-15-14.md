@@ -2,7 +2,7 @@
 id = "prose-15-14"
 kind = "hidden"
 title = "Growth of squared traces (6)"
-order = 1207
+order = 1210
 +++
 By counting points, Lemma [lemma-bounds-squared-traces](1) gives
 $\nu\le w$ for a sheaf pure of weight $w$. A priori, however, the squared traces could

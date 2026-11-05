@@ -3,7 +3,7 @@ id = "proposition-no-fixed-class-degree-one--1"
 kind = "proposition"
 title = "No fixed class in degree one (1)"
 name_showing = false
-order = 1097001
+order = 1100001
 aliases = ["bp-r336-1"]
 +++
 For a smooth geometrically connected curve $U_0/k_0$, geometric

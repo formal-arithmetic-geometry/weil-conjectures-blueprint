@@ -2,7 +2,7 @@
 id = "prose-A-01"
 kind = "hidden"
 title = "Nagata compactification and Chow's lemma"
-order = 1399
+order = 1402
 +++
 The main text defines cohomology with compact support as in topology:
 to push forward along $f:X\to Y$, embed $X$ as an open subset of

@@ -2,7 +2,7 @@
 id = "proposition-integral-tate-module"
 kind = "proposition"
 title = "The integral Tate module"
-order = 1509
+order = 1512
 lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
 uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module"]
 +++

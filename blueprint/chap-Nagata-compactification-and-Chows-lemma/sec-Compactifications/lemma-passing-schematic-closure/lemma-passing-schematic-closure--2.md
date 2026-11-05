@@ -3,7 +3,7 @@ id = "lemma-passing-schematic-closure--2"
 kind = "lemma"
 title = "Passing to the schematic closure (2)"
 name_showing = false
-order = 1412002
+order = 1415002
 aliases = ["bp-r437-2"]
 +++
 $$

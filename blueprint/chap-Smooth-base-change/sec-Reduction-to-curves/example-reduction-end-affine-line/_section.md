@@ -2,7 +2,7 @@
 id = "example-reduction-end-affine-line"
 kind = "example"
 title = "Where the reduction ends"
-order = 684
+order = 685
 +++
 The square of the lemma is itself an instance of smooth base change, and
 the simplest case shows what remains to be proved. Let $Y=S=\operatorname{Spec}L$

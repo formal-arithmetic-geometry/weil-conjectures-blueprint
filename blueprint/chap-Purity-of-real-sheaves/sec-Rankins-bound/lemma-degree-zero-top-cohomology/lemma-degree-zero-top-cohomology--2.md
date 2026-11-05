@@ -3,7 +3,7 @@ id = "lemma-degree-zero-top-cohomology--2"
 kind = "lemma"
 title = "Degree zero and top cohomology (2)"
 name_showing = false
-order = 1150002
+order = 1153002
 aliases = ["bp-r353-2"]
 +++
 $$

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-h-1-curve-tate-module"
-order = 1566
+order = 1569
 uses = ["definition-compactification-refinement", "definition-tate-module", "proposition-integral-tate-module", "corollary-degree-jacobian", "proposition-jacobian-over-ground-field"]
 +++
 The isomorphism comes from the Kummer sequence and the identification

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-contracting-local-terms-point"
-order = 1712
+order = 1715
 uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contractible-objects", "corollary-evaluation-weakly-contractible-objects", "corollary-continuity-cohomology", "theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "lemma-change-coefficients", "definition-deformation-normal-bundle", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-local-terms-point", "definition-pushforward-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-sheaves-finite-support-finite-morphisms", "lemma-functoriality-deformation", "theorem-verdier-s-theorem-specialization-zero", "proposition-external-kunneth-formula-nearby-cycles", "proposition-nearby-cycles-commute-verdier-duality", "proposition-specialization-trace-class", "corollary-specialization-when-fixed-point-scheme", "lemma-normal-cones-contracting-ideals", "theorem-contracting-correspondences-local-terms"]
 +++
 We apply Theorem [theorem-contracting-correspondences-local-terms] with $Z=\{y\}$

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-rigidity"
-order = 1490
+order = 1493
 uses = ["definition-compactification-refinement"]
 +++
 Near $X\times y_0$ the map $h$ lands in an affine open of $Z$, and a

@@ -2,7 +2,7 @@
 id = "proposition-isomorphisms-reduce-finite-coefficients"
 kind = "proposition"
 title = "Isomorphisms reduce to finite coefficients"
-order = 653
+order = 654
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_of_isIso_etaleReduction_map"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "example-locally-constant-functions-w-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++

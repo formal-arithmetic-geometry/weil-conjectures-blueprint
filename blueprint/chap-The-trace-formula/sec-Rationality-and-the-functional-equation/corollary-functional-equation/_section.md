@@ -2,7 +2,7 @@
 id = "corollary-functional-equation"
 kind = "corollary"
 title = "Functional equation"
-order = 1044
+order = 1045
 lean = ["AlgebraicGeometry.Scheme.duality_reciprocity", "AlgebraicGeometry.Scheme.reciprocity"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-compactification-refinement"]
 +++

@@ -3,7 +3,7 @@ id = "proposition-open-direct-image-preserves-finite--1"
 kind = "proposition"
 title = "Open direct image preserves finite Tor amplitude (1)"
 name_showing = false
-order = 589001
+order = 590001
 aliases = ["bp-r179-1"]
 +++
 Let $j:U\hookrightarrow X$ be an open immersion. Then

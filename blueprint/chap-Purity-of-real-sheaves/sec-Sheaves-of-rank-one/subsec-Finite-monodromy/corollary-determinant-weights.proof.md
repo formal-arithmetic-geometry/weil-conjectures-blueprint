@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-determinant-weights"
-order = 1112
+order = 1115
 uses = ["lemma-filtrations-spectra", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights"]
 +++
 The sheaf $\det\mathcal V$ is a rank-one lisse Weil sheaf defined over a

@@ -2,7 +2,7 @@
 id = "prose-16-03"
 kind = "hidden"
 title = "The Artin–Schreier sheaf (2)"
-order = 1219
+order = 1222
 +++
 We check the lemma by hand at two points. Over $\mathbf F_p$ with
 $a=1$, the fibre of the cover over $x=1$ is $u^p-u=1$, which has no root in

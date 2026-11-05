@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-ell-adic-cycle-class-diagonal"
-order = 601
+order = 602
 +++
 The cycle class comes from a single map defined with
 $\mathbf Z$-coefficients, the boundary of the divisor sequence. Hence all

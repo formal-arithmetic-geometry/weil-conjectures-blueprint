@@ -2,9 +2,9 @@
 id = "lemma-separation-closures"
 kind = "lemma"
 title = "Separation of closures"
-order = 1450
+order = 1453
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
-uses = ["remark-base-change-compactification", "definition-admissible-blow-up", "definition-strict-transform"]
+uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform"]
 +++
 Let $T$ be qcqs and let $V\subseteq T$ be a quasi-compact open.
 If $F_1,F_2\subseteq V$ are disjoint constructible closed subsets,

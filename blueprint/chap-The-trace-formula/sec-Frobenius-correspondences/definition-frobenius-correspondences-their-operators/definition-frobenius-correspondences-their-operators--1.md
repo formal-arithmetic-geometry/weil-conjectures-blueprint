@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators--1"
 kind = "definition"
 title = "Frobenius correspondences and their operators (1)"
 name_showing = false
-order = 951001
+order = 952001
 aliases = ["bp-r289-1"]
 +++
 Let $X_0/k_0$ be separated and of finite type, and put

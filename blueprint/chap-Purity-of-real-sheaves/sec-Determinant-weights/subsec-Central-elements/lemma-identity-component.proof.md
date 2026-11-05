@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-identity-component"
-order = 1134
+order = 1137
 uses = ["lemma-restriction-normal-subgroup", "proposition-lie-algebras-faithful-semisimple-representation"]
 +++
 A connected algebraic group is determined by its Lie algebra among its

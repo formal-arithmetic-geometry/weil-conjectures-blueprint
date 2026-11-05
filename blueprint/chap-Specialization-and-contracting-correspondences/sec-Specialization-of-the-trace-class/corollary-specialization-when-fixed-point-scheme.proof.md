@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-specialization-when-fixed-point-scheme"
-order = 1694
+order = 1697
 uses = ["definition-trace-class-local-terms", "remark-non-noetherian-compactifications", "lemma-composition-exceptional-base-change-maps", "lemma-normal-cones-contracting-ideals"]
 +++
 By naturality it suffices to show that

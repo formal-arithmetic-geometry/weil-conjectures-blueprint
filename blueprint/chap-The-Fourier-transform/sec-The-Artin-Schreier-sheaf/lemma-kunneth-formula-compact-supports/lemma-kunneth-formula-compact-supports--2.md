@@ -3,7 +3,7 @@ id = "lemma-kunneth-formula-compact-supports--2"
 kind = "lemma"
 title = "Künneth formula for compact supports (2)"
 name_showing = false
-order = 1222002
+order = 1225002
 aliases = ["bp-r377-2"]
 +++
 $$

@@ -2,7 +2,7 @@
 id = "prose-09-27"
 kind = "hidden"
 title = "Field coefficients (2)"
-order = 789
+order = 790
 +++
 Since $f^*(-)(d)[2d]$ is now a right adjoint of $Rf_{!,E}$, as is $f^!_E$,
 Proposition [proposition-sp-unique-adjoint] gives an isomorphism

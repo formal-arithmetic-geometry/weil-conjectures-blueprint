@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-lie-algebras-faithful-semisimple-representation"
-order = 1741
+order = 1744
 uses = ["lemma-lie-s-theorem"]
 +++
 We follow the two halves described at the start of this subsection:

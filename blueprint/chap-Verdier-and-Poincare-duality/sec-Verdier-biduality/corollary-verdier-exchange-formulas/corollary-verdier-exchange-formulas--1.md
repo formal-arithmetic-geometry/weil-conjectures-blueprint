@@ -2,7 +2,7 @@
 id = "corollary-verdier-exchange-formulas--1"
 kind = "corollary"
 title = "Dual of compact direct image"
-order = 847002
+order = 848002
 aliases = ["bp-r254-1"]
 +++
 On $D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ there is the natural isomorphism

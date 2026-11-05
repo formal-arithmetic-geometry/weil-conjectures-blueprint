@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-trace-formula-euler-product"
-order = 1037
+order = 1038
 uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function"]
 +++
 Both sides are of the form $\exp$ of a power series, and we compare

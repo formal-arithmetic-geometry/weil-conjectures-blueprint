@@ -3,7 +3,7 @@ id = "proposition-function-sheaf-dictionary--4"
 kind = "proposition"
 title = "The function–sheaf dictionary (4)"
 name_showing = false
-order = 1028005
+order = 1029005
 aliases = ["bp-r315-4"]
 +++
 For $U_0\subset X_0$ open with closed complement $Z_0$, and

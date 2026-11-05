@@ -2,7 +2,7 @@
 id = "definition-admissible-blow-up"
 kind = "definition"
 title = "Admissible blow-up"
-order = 1422
+order = 1425
 lean = ["AlgebraicGeometry.IsAdmissible", "AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap"]
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a

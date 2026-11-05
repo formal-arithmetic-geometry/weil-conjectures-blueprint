@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-degree-zero-top-cohomology"
-order = 1151
+order = 1154
 uses = ["corollary-degreewise-duality-over-fields"]
 +++
 We deduce both formulas from the description of a lisse sheaf by its

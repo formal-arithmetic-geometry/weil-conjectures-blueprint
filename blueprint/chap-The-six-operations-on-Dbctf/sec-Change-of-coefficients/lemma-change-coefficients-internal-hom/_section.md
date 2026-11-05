@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients-internal-hom"
 kind = "lemma"
 title = "Change of coefficients for internal Hom"
-order = 642
+order = 643
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_ihomComparison_leftDerivedIntegersModPowReduction"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++

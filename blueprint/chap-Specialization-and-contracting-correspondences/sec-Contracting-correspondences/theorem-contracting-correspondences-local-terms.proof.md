@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-contracting-correspondences-local-terms"
-order = 1708
+order = 1711
 uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contractible-objects", "corollary-evaluation-weakly-contractible-objects", "corollary-continuity-cohomology", "theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "lemma-change-coefficients", "definition-deformation-normal-bundle", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-sheaves-finite-support-finite-morphisms", "lemma-functoriality-deformation", "theorem-verdier-s-theorem-specialization-zero", "proposition-external-kunneth-formula-nearby-cycles", "proposition-nearby-cycles-commute-verdier-duality", "proposition-specialization-trace-class", "corollary-specialization-when-fixed-point-scheme", "lemma-normal-cones-contracting-ideals"]
 +++
 We split $K$ by the triangle $j_!j^*K\to K\to Ri_*i^*K$ and use

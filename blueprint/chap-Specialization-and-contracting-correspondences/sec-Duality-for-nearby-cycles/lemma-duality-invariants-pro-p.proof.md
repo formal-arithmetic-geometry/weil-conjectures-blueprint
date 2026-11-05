@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-duality-invariants-pro-p"
-order = 1677
+order = 1680
 +++
 Let $G$ be a finite quotient of $P$. Since $G$ is a $p$-group, the
 order $|G|$ is invertible in $A$, and the invariants are the image of

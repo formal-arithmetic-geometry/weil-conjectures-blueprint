@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-perverse-sheaves-curve"
-order = 1250
+order = 1253
 uses = ["lemma-largest-punctual-subsheaf"]
 +++
 The truncation triangle of $K$ splits $\mathcal H^0K$ into its largest

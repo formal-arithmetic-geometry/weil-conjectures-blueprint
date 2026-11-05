@@ -2,7 +2,7 @@
 id = "proposition-compactifying-union-two-opens"
 kind = "proposition"
 title = "Compactifying a union of two opens"
-order = 1458
+order = 1461
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 uses = ["definition-compactification-refinement"]
 +++

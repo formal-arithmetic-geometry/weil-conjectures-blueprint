@@ -2,7 +2,7 @@
 id = "lemma-reduction-field"
 kind = "lemma"
 title = "Reduction to a field"
-order = 675
+order = 676
 lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure"]
 uses = ["definition-derived-base-change-map"]
 +++

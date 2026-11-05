@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-divisors-degree-g-open-chart"
-order = 1538
+order = 1541
 +++
 We construct mutually inverse maps: a divisor gives its invertible sheaf,
 normalized along $P$, and a family in $F$ has, up to units on $T$, a

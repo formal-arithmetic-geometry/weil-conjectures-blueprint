@@ -3,7 +3,7 @@ id = "lemma-logarithm-determinant--1"
 kind = "lemma"
 title = "Logarithm of a determinant (1)"
 name_showing = false
-order = 1033001
+order = 1034001
 aliases = ["bp-r316-1"]
 +++
 Let $L$ be a field of characteristic zero. For an endomorphism $v$ of

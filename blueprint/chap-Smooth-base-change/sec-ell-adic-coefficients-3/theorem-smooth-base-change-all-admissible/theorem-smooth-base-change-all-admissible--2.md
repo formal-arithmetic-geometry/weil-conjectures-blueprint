@@ -2,7 +2,7 @@
 id = "theorem-smooth-base-change-all-admissible--2"
 kind = "theorem"
 title = "Integral coefficients"
-order = 700004
+order = 701004
 aliases = ["bp-r210-2"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the map

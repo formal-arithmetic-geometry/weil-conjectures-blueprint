@@ -2,7 +2,7 @@
 id = "prose-06-05"
 kind = "hidden"
 title = "Duality for the projective line (2)"
-order = 544
+order = 545
 +++
 The lemma will be applied twice: to the section at infinity of $\mathbf P^1_S$,
 which gives the trace, and to the diagonal of

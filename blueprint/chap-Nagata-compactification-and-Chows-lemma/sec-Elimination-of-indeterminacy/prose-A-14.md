@@ -2,7 +2,7 @@
 id = "prose-A-14"
 kind = "hidden"
 title = "Elimination of indeterminacy (6)"
-order = 1434
+order = 1437
 +++
 Since $Y\to S$ is separated, the graph is always closed in
 $U\times_SY$; the condition is about its behaviour over $X\setminus U$.

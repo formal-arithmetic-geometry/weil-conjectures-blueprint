@@ -2,7 +2,7 @@
 id = "prose-12-25"
 kind = "hidden"
 title = "The function–sheaf dictionary (2)"
-order = 1023
+order = 1024
 +++
 For $\Lambda$ a field, $t_{K,m}(x)$ is the alternating sum of the traces of
 Frobenius on the stalks $\mathcal H^i(K)_{\bar x}$

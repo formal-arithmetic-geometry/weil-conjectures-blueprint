@@ -2,7 +2,7 @@
 id = "lemma-finite-support-global-sections"
 kind = "lemma"
 title = "Complexes with finite support"
-order = 1648
+order = 1651
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isZero_of_isZero_upperStar_finsetComplOpens"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-constructible-sheaves"]
 +++

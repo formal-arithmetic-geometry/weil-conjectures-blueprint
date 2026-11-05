@@ -2,7 +2,7 @@
 id = "prose-E-08"
 kind = "hidden"
 title = "Specialization to the normal cone (7)"
-order = 1635
+order = 1638
 +++
 Near a generic point of a principal divisor in a normal scheme, the
 pair $(X,Z)$ is a smooth pullback of $(\mathbf A^1,V(x^m))$, so by

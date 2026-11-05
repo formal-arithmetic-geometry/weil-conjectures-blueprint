@@ -2,7 +2,7 @@
 id = "prose-09-28"
 kind = "hidden"
 title = "Field coefficients (3)"
-order = 792
+order = 793
 +++
 Applying Proposition [proposition-sp-unique-adjoint] once more and inverting the resulting isomorphism, we get
 $\gamma_{f,\overline{\mathbf Q}_\ell}:f_{\overline{\mathbf Q}_\ell}^*(-)(d)[2d]\xrightarrow{\sim}f^!_{\overline{\mathbf Q}_\ell}$, whose counit is

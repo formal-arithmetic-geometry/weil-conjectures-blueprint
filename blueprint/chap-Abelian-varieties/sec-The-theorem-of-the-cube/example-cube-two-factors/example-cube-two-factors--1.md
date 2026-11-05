@@ -3,7 +3,7 @@ id = "example-cube-two-factors--1"
 kind = "example"
 title = "Two factors do not suffice (1)"
 name_showing = false
-order = 1474001
+order = 1477001
 aliases = ["bp-r458-1"]
 +++
 Let $E$ be an elliptic curve over an algebraically closed field, with

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-passing-schematic-closure"
-order = 1413
+order = 1416
 uses = ["proposition-proper-direct-image-constructible-complexes"]
 +++
 The first identification is a statement about supports, and the

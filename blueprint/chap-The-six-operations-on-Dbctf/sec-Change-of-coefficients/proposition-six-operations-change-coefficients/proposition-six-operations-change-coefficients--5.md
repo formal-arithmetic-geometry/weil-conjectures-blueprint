@@ -2,7 +2,7 @@
 id = "proposition-six-operations-change-coefficients--5"
 kind = "proposition"
 title = "Exceptional inverse image: coefficient comparison"
-order = 645010
+order = 646010
 aliases = ["bp-r197-5"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\Lambda)$, the comparison

@@ -3,7 +3,7 @@ id = "lemma-triviality-fibres--1"
 kind = "lemma"
 title = "Triviality on fibres (1)"
 name_showing = false
-order = 1475002
+order = 1478002
 aliases = ["bp-r459-1"]
 +++
 $\mathcal L_t$ is trivial if and only if $H^0(P_t,\mathcal L_t)\ne0$

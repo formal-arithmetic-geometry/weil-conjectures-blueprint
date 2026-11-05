@@ -2,7 +2,7 @@
 id = "prose-11-14"
 kind = "hidden"
 title = "Trace classes and local terms (4)"
-order = 922
+order = 923
 +++
 In the first arrow we use the ordinary unit together with
 $Rc_{2*}=Rc_{2!}$, which holds since $c_2$ is proper, and the displayed

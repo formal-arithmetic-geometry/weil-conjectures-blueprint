@@ -2,7 +2,7 @@
 id = "example-boundary-stalks-g-m"
 kind = "example"
 title = "Boundary stalks on $\\mathbf G_m\\subset\\mathbf A^1$"
-order = 1175
+order = 1178
 +++
 Let $j:\mathbf G_{m,k_0}\hookrightarrow\mathbf A^1_{k_0}$ and $z=0$. The
 covers $u^n=t$ are totally ramified at $0$, so the inertia $I_0$ maps onto

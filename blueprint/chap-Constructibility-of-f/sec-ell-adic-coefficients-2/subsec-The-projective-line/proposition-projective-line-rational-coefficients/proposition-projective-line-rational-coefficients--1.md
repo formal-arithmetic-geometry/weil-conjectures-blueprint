@@ -3,7 +3,7 @@ id = "proposition-projective-line-rational-coefficients--1"
 kind = "proposition"
 title = "The projective line, rational coefficients (1)"
 name_showing = false
-order = 606001
+order = 607001
 aliases = ["bp-r184-1"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, the functor

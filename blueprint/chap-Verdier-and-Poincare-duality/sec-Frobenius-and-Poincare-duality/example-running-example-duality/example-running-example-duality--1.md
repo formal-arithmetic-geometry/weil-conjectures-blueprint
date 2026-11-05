@@ -3,7 +3,7 @@ id = "example-running-example-duality--1"
 kind = "example"
 title = "The running example: duality (1)"
 name_showing = false
-order = 888001
+order = 889001
 aliases = ["bp-r268-1"]
 +++
 Let $C_0\colon y^2=x^3-x$ over $\mathbf F_3$ be the elliptic curve of

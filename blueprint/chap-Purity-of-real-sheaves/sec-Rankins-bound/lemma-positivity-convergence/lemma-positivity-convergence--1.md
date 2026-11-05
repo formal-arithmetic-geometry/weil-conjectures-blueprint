@@ -3,7 +3,7 @@ id = "lemma-positivity-convergence--1"
 kind = "lemma"
 title = "Positivity and convergence (1)"
 name_showing = false
-order = 1159001
+order = 1162001
 aliases = ["bp-r357-1"]
 +++
 Let

@@ -3,7 +3,7 @@ id = "example-extension-by-zero-not-simple--1"
 kind = "example"
 title = "Extension by zero is not simple (1)"
 name_showing = false
-order = 1257001
+order = 1260001
 aliases = ["bp-r389-1"]
 +++
 Let $j:\mathbf G_m\hookrightarrow\mathbf A^1$ and $i:0\hookrightarrow\mathbf A^1$

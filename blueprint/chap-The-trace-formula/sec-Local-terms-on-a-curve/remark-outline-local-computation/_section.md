@@ -2,7 +2,7 @@
 id = "remark-outline-local-computation"
 kind = "remark"
 title = "Outline of the local computation"
-order = 962
+order = 963
 +++
 Let $X_0$ be a smooth curve and $y\in X_0(\mathbf F_{q^m})$. The
 trace formula on $\mathbf P^1$ needs Proposition [proposition-frobenius-local-term-curve]

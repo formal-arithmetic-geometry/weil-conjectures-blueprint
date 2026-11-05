@@ -2,7 +2,7 @@
 id = "proposition-jacobian-over-ground-field"
 kind = "proposition"
 title = "The Jacobian over the ground field"
-order = 1562
+order = 1565
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 uses = ["definition-compactification-refinement", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++

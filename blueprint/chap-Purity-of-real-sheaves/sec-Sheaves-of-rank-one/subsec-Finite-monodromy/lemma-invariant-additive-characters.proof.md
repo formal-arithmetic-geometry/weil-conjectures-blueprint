@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-invariant-additive-characters"
-order = 1102
+order = 1105
 uses = ["proposition-no-fixed-class-degree-one"]
 +++
 After scaling, the coordinates of $a$ reduce modulo $\ell^n$ to a

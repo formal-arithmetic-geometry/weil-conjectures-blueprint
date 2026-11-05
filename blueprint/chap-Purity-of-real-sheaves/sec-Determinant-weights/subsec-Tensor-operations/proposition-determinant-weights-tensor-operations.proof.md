@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-determinant-weights-tensor-operations"
-order = 1146
+order = 1149
 uses = ["theorem-rank-one-sheaves-have-finite", "lemma-tensor-exterior-powers-filtered-representations", "definition-monodromy-groups", "lemma-normality-geometric-monodromy", "proposition-central-element-arithmetic-monodromy-group", "lemma-determinant-weight-from-central-scalar"]
 +++
 We use one central element for $V$ and $V'$ simultaneously, so that

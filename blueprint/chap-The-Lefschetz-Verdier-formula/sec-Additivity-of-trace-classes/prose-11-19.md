@@ -2,7 +2,7 @@
 id = "prose-11-19"
 kind = "hidden"
 title = "Additivity of trace classes (4)"
-order = 938
+order = 939
 +++
 The graded piece on the closed part is a correspondence on $Z$ pushed
 forward to $X$. This is the form in which

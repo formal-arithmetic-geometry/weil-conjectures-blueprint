@@ -2,7 +2,7 @@
 id = "theorem-smooth-purity-all-admissible-coefficients--9"
 kind = "theorem"
 title = "Base change"
-order = 730018
+order = 731018
 aliases = ["bp-r220-9"]
 +++
 For $g:Y'\to Y$ as in

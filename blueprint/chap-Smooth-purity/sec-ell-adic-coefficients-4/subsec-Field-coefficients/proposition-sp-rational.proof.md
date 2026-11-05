@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-sp-rational"
-order = 788
+order = 789
 +++
 An adjunction is a natural bijection of Hom groups, and by
 (9.21) every Hom group over $E$ is an integral Hom group

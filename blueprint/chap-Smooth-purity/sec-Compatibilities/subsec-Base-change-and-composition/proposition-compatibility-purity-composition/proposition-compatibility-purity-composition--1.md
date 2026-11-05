@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-composition--1"
 kind = "proposition"
 title = "Finite coefficients"
-order = 800002
+order = 801002
 aliases = ["bp-r240-1"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},A)$,

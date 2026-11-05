@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree"
-order = 866
+order = 867
 uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "corollary-degreewise-duality-over-fields", "lemma-class-of-point"]
 +++
 We read off the top degree from Poincaré duality in degree zero

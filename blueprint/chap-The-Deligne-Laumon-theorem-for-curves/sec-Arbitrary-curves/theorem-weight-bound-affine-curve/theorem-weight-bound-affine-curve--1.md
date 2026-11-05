@@ -3,7 +3,7 @@ id = "theorem-weight-bound-affine-curve--1"
 kind = "theorem"
 title = "The weight bound on an affine curve (1)"
 name_showing = false
-order = 1312001
+order = 1315001
 aliases = ["bp-r406-1"]
 +++
 For a pure lisse Weil sheaf $F$ of weight $w$ on a smooth

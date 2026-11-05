@@ -2,7 +2,7 @@
 id = "prose-06-20"
 kind = "hidden"
 title = "The projective line (1)"
-order = 599
+order = 600
 +++
 With torsion coefficients, $Rq_*\dashv q^*(1)[2]$ is built from the cycle
 class $\delta:\Delta_*\Lambda\to\Lambda(1)[2]$ of the diagonal of

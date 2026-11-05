@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-largest-punctual-subsheaf"
-order = 1246
+order = 1249
 +++
 Let $L$ be a lisse sheaf. For a geometric point $\bar x$ and a
 geometric generic point $\bar\eta$ specializing to it, the

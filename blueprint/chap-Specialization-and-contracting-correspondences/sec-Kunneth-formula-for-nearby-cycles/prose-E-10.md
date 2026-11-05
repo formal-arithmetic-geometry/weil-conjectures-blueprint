@@ -2,7 +2,7 @@
 id = "prose-E-10"
 kind = "hidden"
 title = "Künneth formula for nearby cycles (1)"
-order = 1642
+order = 1645
 +++
 To specialize a trace class we have to specialize the external product
 $K\boxtimes \mathbb DK$, so we need the comparison

@@ -3,7 +3,7 @@ id = "lemma-filtrations-spectra--2"
 kind = "lemma"
 title = "Filtrations and spectra (2)"
 name_showing = false
-order = 1067002
+order = 1068002
 aliases = ["bp-r328-2"]
 +++
 In particular, the eigenvalues, with algebraic multiplicity, are the

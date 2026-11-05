@@ -2,7 +2,7 @@
 id = "theorem-global-verdier-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 851
+order = 852
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_ihom_compactlySupportedGlobalSections_verdierDual", "AlgebraicGeometry.Etale.globalVerdierDualityIso"]
 uses = ["definition-relative-dualizing-complex", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++

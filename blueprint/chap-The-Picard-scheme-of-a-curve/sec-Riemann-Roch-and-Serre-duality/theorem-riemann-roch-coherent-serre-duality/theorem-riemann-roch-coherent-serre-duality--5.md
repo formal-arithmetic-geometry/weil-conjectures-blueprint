@@ -3,7 +3,7 @@ id = "theorem-riemann-roch-coherent-serre-duality--5"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality (5)"
 name_showing = false
-order = 1525005
+order = 1528005
 aliases = ["bp-r475-5"]
 +++
 $$

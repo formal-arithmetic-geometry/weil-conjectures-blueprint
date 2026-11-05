@@ -3,7 +3,7 @@ id = "lemma-degree-zero-calculation--1"
 kind = "lemma"
 title = "The degree-zero calculation (1)"
 name_showing = false
-order = 666001
+order = 667001
 aliases = ["bp-r201-1"]
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite

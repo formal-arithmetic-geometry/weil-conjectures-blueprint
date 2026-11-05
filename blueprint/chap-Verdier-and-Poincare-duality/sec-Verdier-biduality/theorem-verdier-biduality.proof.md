@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-verdier-biduality"
-order = 845
-uses = ["proposition-pro-etale-site-separably-closed", "lemma-flat-models-generators", "lemma-lattices-after-finite-stratification", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "proposition-composition-base-change-rf-shriek", "lemma-coordinate-projections", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "lemma-change-coefficients-internal-hom", "proposition-six-operations-change-coefficients", "proposition-dctf-x-qbar-2-colimit", "lemma-internal-adjunction-two-exchange-formulas", "lemma-verdier-duality-preserves-constructibility", "lemma-double-dual-geometric-generic-fibre"]
+order = 846
+uses = ["proposition-pro-etale-site-separably-closed", "lemma-flat-models-generators", "lemma-lattices-after-finite-stratification", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "proposition-composition-base-change-rf-shriek", "proposition-exceptional-inverse-image-smooth-morphism", "lemma-coordinate-projections", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "lemma-change-coefficients-internal-hom", "proposition-six-operations-change-coefficients", "proposition-dctf-x-qbar-2-colimit", "lemma-internal-adjunction-two-exchange-formulas", "lemma-verdier-duality-preserves-constructibility", "lemma-double-dual-geometric-generic-fibre"]
 +++
 We first treat finite coefficients $A$ over an algebraically closed field $k$, and deduce the other coefficient rings and a finite base field at the end. In this main case we reduce
 to proper $X$, show by induction that the cone of $\delta_K$ has zero

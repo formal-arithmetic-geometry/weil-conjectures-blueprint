@@ -2,7 +2,7 @@
 id = "prose-17-01"
 kind = "hidden"
 title = "The Deligne–Laumon theorem for curves"
-order = 1270
+order = 1273
 +++
 Let $F$ be a pure lisse Weil sheaf of weight $w$ on a smooth curve $C$.
 Why should $H^1_c(C,F)$ have weights at most $w+1$? For the constant

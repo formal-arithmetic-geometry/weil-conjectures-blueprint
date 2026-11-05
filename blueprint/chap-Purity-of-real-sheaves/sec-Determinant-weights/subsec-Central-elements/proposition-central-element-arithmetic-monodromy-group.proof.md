@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-central-element-arithmetic-monodromy-group"
-order = 1139
+order = 1142
 uses = ["lemma-identity-component"]
 +++
 We write a power of $\rho(s)$ as a central torus element times an

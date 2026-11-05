@@ -3,7 +3,7 @@ id = "lemma-restriction-punctured-curve--1"
 kind = "lemma"
 title = "Restriction to a punctured curve (1)"
 name_showing = false
-order = 975001
+order = 976001
 aliases = ["bp-r297-1"]
 +++
 In the situation of Lemma [lemma-cohomology-near-two-transverse-divisors] with $D_2$

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-stable-subspaces-center"
-order = 1725
+order = 1728
 uses = ["proposition-cartier-s-theorem"]
 +++
 In both assertions we compare a closed subgroup with $G$, namely the

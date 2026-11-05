@@ -3,7 +3,7 @@ id = "proposition-central-element-arithmetic-monodromy-group--1"
 kind = "proposition"
 title = "A central element of the arithmetic monodromy group (1)"
 name_showing = false
-order = 1138001
+order = 1141001
 aliases = ["bp-r350-1"]
 +++
 Let $V_1,\ldots,V_n$ be semisimple Weil representations and form the

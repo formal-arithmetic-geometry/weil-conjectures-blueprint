@@ -2,7 +2,7 @@
 id = "lemma-detecting-irreducibility-finite-quotient"
 kind = "lemma"
 title = "Detecting irreducibility in a finite quotient"
-order = 1324
+order = 1327
 lean = ["Representation.exists_forall_isIrreducible_baseChange_of_congr"]
 +++
 Let $\Pi$ be profinite and let $\rho:\Pi\to\GL_E(V)$

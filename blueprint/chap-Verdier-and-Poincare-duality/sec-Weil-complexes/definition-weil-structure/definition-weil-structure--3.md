@@ -3,7 +3,7 @@ id = "definition-weil-structure--3"
 kind = "definition"
 title = "Weil structure (3)"
 name_showing = false
-order = 875003
+order = 876003
 aliases = ["bp-r263-3"]
 +++
 A morphism $(K,\phi_K)\to(L,\phi_L)$ is a morphism

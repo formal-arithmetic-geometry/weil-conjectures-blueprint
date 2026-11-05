@@ -3,7 +3,7 @@ id = "lemma-stable-subspaces-center--1"
 kind = "lemma"
 title = "Stable subspaces and the center (1)"
 name_showing = false
-order = 1724001
+order = 1727001
 aliases = ["bp-r535-1"]
 +++
 Let $G\subseteq\GL(V)$ be a connected closed subgroup and

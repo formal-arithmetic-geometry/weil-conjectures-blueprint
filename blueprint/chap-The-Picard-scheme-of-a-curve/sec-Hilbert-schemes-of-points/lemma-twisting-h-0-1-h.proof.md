@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-twisting-h-0-1-h"
-order = 1541
+order = 1544
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-riemann-roch-coherent-serre-duality"]
 +++
 We first twist by a large power of an ample sheaf on $C$, which kills

@@ -2,7 +2,7 @@
 id = "prose-18-08"
 kind = "hidden"
 title = "Relative affine curves"
-order = 1344
+order = 1347
 +++
 Let $h:U_0\to Y_0$ be a smooth family of affine curves and $F$ a pure
 lisse sheaf on $U_0$. On each stalk of $R^ih_!F$,

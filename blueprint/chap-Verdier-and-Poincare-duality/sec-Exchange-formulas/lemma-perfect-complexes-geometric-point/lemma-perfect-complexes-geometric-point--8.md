@@ -2,7 +2,7 @@
 id = "lemma-perfect-complexes-geometric-point--8"
 kind = "lemma"
 title = "Evaluation isomorphism"
-order = 824012
+order = 825012
 aliases = ["bp-r246-8"]
 +++
 For each such $P$, the evaluation map

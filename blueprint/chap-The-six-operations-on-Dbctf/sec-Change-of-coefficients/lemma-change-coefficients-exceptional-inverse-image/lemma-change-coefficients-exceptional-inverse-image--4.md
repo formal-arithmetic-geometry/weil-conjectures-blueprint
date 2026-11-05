@@ -2,7 +2,7 @@
 id = "lemma-change-coefficients-exceptional-inverse-image--4"
 kind = "lemma"
 title = "Exceptional inverse image: finite extension of coefficient fields"
-order = 640008
+order = 641008
 aliases = ["bp-r195-4"]
 +++
 Assume $\Lambda=E$ and $\Lambda'=F$ for a finite extension $F/E$. The comparison

@@ -2,7 +2,7 @@
 id = "proposition-bound-largest-determinant-weight"
 kind = "proposition"
 title = "A bound by the largest determinant weight"
-order = 1162
+order = 1165
 lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal", "AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal"]
 uses = ["definition-determinant-weight", "definition-weil-representation", "definition-real-sheaves"]
 +++

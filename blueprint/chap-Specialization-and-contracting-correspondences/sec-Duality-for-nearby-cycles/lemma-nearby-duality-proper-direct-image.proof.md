@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-nearby-duality-proper-direct-image"
-order = 1674
+order = 1677
 uses = ["lemma-internal-adjunction-two-exchange-formulas"]
 +++
 Under Verdier duality for the proper map $f_\eta$, evaluation on

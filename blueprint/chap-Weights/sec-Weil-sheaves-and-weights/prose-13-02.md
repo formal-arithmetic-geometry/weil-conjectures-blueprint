@@ -2,7 +2,7 @@
 id = "prose-13-02"
 kind = "hidden"
 title = "Weil sheaves and weights (1)"
-order = 1054
+order = 1055
 +++
 Weights are defined by the absolute values of the Frobenius
 eigenvalues on stalks at closed points, so we first fix how Frobenius

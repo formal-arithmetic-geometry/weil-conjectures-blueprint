@@ -3,7 +3,7 @@ id = "theorem-extension-partial-section--1"
 kind = "theorem"
 title = "Extension of a partial section (1)"
 name_showing = false
-order = 1438001
+order = 1441001
 aliases = ["bp-r448-1"]
 +++
 Let $T$ be qcqs, let $U\subseteq V\subseteq T$ be quasi-compact opens

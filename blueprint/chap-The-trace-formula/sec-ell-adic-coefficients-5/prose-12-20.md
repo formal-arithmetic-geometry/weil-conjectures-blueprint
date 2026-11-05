@@ -2,7 +2,7 @@
 id = "prose-12-20"
 kind = "hidden"
 title = "$\\ell$-adic coefficients (1)"
-order = 1009
+order = 1010
 +++
 To pass from finite coefficient rings to $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$
 we follow the steps of

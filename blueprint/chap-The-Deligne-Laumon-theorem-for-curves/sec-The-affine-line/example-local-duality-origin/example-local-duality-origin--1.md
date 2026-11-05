@@ -3,7 +3,7 @@ id = "example-local-duality-origin--1"
 kind = "example"
 title = "Local duality at the origin of the line (1)"
 name_showing = false
-order = 1294001
+order = 1297001
 aliases = ["bp-r400-1"]
 +++
 Let $j:\mathbf G_m\hookrightarrow\mathbf A^1$ over $k_0$, let $F=\overline{\mathbf Q}_\ell$,

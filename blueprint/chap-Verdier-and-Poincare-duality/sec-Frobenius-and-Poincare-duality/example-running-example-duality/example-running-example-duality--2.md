@@ -3,7 +3,7 @@ id = "example-running-example-duality--2"
 kind = "example"
 title = "The running example: duality (2)"
 name_showing = false
-order = 888002
+order = 889002
 aliases = ["bp-r268-2"]
 +++
 Hence $\det(F\mid H^1)=3$. If $\alpha,\beta$ are the

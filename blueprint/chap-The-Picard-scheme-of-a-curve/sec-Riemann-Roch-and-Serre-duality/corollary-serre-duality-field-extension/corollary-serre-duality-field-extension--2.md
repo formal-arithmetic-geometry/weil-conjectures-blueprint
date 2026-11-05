@@ -1,8 +1,8 @@
 +++
 id = "corollary-serre-duality-field-extension--2"
 kind = "corollary"
-title = "Dimension of regular differentials"
-order = 1527003
+title = "Invariance of genus"
+order = 1530003
 aliases = ["bp-r476-2"]
 +++
-One has $\dim_kH^0(C,\omega_{C/k})=g$.
+The genus of $C$ is unchanged by field extension.

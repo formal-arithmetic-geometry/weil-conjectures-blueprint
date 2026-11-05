@@ -2,7 +2,7 @@
 id = "definition-kunneth-map"
 kind = "definition"
 title = "Künneth map"
-order = 709
+order = 710
 lean = ["AlgebraicGeometry.Etale.externalProductRightDerivedLowerStarMap"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of

@@ -2,7 +2,7 @@
 id = "example-derived-reduction-point"
 kind = "example"
 title = "Reducing cohomology modulo $\\ell$"
-order = 629
+order = 630
 +++
 Let $X=\operatorname{Spec}\mathbf F_q$ and consider $\mathbf Z/\ell^2\to\mathbf F_\ell$.
 Let $K$ be the lisse sheaf $\mathbf Z/\ell^2$ on which Frobenius, the

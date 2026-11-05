@@ -3,7 +3,7 @@ id = "remark-smooth-base-change-proper-base--1"
 kind = "remark"
 title = "Smooth base change, proper base change and base change for $f^!$ (1)"
 name_showing = false
-order = 703001
+order = 704001
 aliases = ["bp-r211-1"]
 +++
 In (8.1), smooth base change assumes that $g$ is smooth and

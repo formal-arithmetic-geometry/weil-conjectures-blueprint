@@ -2,7 +2,7 @@
 id = "prose-19-07"
 kind = "hidden"
 title = "Integrality and independence of $\\ell$ (1)"
-order = 1383
+order = 1386
 +++
 Let $X_0$ be smooth and proper over $\mathbf F_q$, of pure dimension
 $d$, and let $A/B$ be the reduced fraction of $Z(X_0,T)$

@@ -3,7 +3,7 @@ id = "corollary-rank-one-weights--1"
 kind = "corollary"
 title = "Rank-one weights (1)"
 name_showing = false
-order = 1107001
+order = 1110001
 aliases = ["bp-r339-1"]
 +++
 Every rank-one lisse Weil sheaf on a smooth geometrically connected

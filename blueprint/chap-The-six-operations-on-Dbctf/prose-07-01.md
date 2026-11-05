@@ -2,7 +2,7 @@
 id = "prose-07-01"
 kind = "hidden"
 title = "The six operations on $\\Dctf$"
-order = 621
+order = 622
 +++
 Smooth base change and Verdier biduality will be proved with torsion
 coefficients, as were proper base change and Deligne's theorem on $Rj_*$.

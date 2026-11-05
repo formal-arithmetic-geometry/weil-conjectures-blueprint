@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-specialization-trace-class"
-order = 1691
+order = 1694
 +++
 We compare the trace morphisms on the two fibres and then evaluate
 them on the sections of

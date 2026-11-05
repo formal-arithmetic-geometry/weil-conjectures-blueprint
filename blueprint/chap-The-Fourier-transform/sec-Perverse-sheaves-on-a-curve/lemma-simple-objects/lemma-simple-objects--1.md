@@ -3,7 +3,7 @@ id = "lemma-simple-objects--1"
 kind = "lemma"
 title = "The simple objects (1)"
 name_showing = false
-order = 1255001
+order = 1258001
 aliases = ["bp-r388-1"]
 +++
 In the category of perverse sheaves on $C$, and in that of perverse

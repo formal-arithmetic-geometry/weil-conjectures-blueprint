@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-comparison-via-relative-frobenius"
-order = 1000
+order = 1001
 uses = ["proposition-w-local-components"]
 +++
 The only geometric fact we use is that, since $r_m$ is a universal

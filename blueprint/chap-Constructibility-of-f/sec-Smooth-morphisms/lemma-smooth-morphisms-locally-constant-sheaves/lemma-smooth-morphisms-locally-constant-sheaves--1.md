@@ -3,7 +3,7 @@ id = "lemma-smooth-morphisms-locally-constant-sheaves--1"
 kind = "lemma"
 title = "Smooth morphisms and locally constant sheaves (1)"
 name_showing = false
-order = 564001
+order = 565001
 aliases = ["bp-r170-1"]
 +++
 Let $S$ be integral and let $f:X\to S$ be separated, smooth and of finite type. For a finite locally constant

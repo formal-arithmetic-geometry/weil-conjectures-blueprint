@@ -2,7 +2,7 @@
 id = "prose-15-05"
 kind = "hidden"
 title = "Weights of middle extensions (4)"
-order = 1182
+order = 1185
 +++
 The proposition gives only an upper bound at the boundary, and in
 general nothing better is true. For example, for a family of elliptic curves with

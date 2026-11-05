@@ -3,7 +3,7 @@ id = "definition-weil-representation--1"
 kind = "definition"
 title = "Weil representation (1)"
 name_showing = false
-order = 1119001
+order = 1122001
 aliases = ["bp-r343-1"]
 +++
 A *Weil representation* is a finite-dimensional

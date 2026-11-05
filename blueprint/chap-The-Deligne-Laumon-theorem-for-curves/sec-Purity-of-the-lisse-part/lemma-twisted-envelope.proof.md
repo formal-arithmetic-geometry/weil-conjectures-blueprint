@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-twisted-envelope"
-order = 1278
+order = 1281
 +++
 As in the proof of Proposition [proposition-twisting-weight-zero-adding-dual], the local
 eigenvalues of $\mathcal A\otimes\mathcal L$ have absolute value one

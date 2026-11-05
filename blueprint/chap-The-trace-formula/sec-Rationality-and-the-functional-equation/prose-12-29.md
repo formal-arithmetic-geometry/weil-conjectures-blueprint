@@ -2,7 +2,7 @@
 id = "prose-12-29"
 kind = "hidden"
 title = "Rationality and the functional equation (2)"
-order = 1035
+order = 1036
 +++
 The local factors of the Euler product are indexed by closed points.
 A closed point $x\in|X_0|$ of degree $d$ over $\mathbf F_q$

@@ -2,7 +2,7 @@
 id = "prose-09-32"
 kind = "hidden"
 title = "The trace map (1)"
-order = 803
+order = 804
 +++
 On a compact oriented manifold of dimension $n$, Poincaré duality
 pairs $H^i$ with $H^{n-i}$ by cup product followed by integration

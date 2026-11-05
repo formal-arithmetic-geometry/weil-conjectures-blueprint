@@ -2,7 +2,7 @@
 id = "prose-09-21"
 kind = "hidden"
 title = "Integral coefficients (1)"
-order = 772
+order = 773
 +++
 Fix a finite extension $E/\mathbf Q_\ell$. An object $M$ of $\Dbc(T,\mathcal O_E)$ is derived
 complete, $M\simeq R\varprojlim_nM/\ell^n$, and the finite theory applies to each

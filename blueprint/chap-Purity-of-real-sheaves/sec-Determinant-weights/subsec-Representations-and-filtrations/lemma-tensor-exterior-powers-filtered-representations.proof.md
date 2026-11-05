@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-tensor-exterior-powers-filtered-representations"
-order = 1125
+order = 1128
 +++
 We construct the two filtrations and then compare simple factors by
 the Jordan–Hölder argument. The tensor product is filtered

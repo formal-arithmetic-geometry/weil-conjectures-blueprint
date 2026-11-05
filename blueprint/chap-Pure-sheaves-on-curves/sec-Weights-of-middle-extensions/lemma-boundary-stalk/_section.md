@@ -2,7 +2,7 @@
 id = "lemma-boundary-stalk"
 kind = "lemma"
 title = "The boundary stalk"
-order = 1173
+order = 1176
 lean = ["AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_stalk_directImage_boundaryStalk_eq_invariants", "AlgebraicGeometry.WeilSheaf.IsLisse.isIso_upperStarLowerStarAdjunction_unit_app", "AlgebraicGeometry.Scheme.isIso_unit_upperStarLowerStarAdjunction"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weil-representation"]
 +++

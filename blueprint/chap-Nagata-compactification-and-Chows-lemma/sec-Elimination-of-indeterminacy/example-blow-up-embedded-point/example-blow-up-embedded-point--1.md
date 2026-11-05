@@ -3,7 +3,7 @@ id = "example-blow-up-embedded-point--1"
 kind = "example"
 title = "Blowing up removes an embedded point (1)"
 name_showing = false
-order = 1426001
+order = 1429001
 aliases = ["bp-r443-1"]
 +++
 Let $T=\operatorname{Spec}R$ with $R=k[x,y]/(xy,y^2)$, the line $y=0$

@@ -2,7 +2,7 @@
 id = "lemma-comparison-via-relative-frobenius--text-1"
 kind = "hidden"
 title = "Comparison via relative Frobenius"
-order = 999001
+order = 1000001
 +++
 Let $f_0:X_0\to Y_0$ be a morphism of separated schemes of finite
 type over $k_0$, write $f:X\to Y$ for its geometric base change, and

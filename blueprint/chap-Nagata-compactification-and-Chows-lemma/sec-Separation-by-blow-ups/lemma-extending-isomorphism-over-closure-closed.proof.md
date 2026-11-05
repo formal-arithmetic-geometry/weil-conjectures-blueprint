@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-extending-isomorphism-over-closure-closed"
-order = 1453
-uses = ["definition-compactification-refinement", "remark-base-change-compactification", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "theorem-extension-partial-section"]
+order = 1456
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-making-open-schematically-dense", "lemma-products-composites-u-admissible-blow", "theorem-extension-partial-section"]
 +++
 We separate the closure of $F$ from the closure of the locus where $q$
 fails to be an isomorphism, and then apply elimination of

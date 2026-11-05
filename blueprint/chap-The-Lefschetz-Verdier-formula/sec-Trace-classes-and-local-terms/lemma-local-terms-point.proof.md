@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-local-terms-point"
-order = 919
+order = 920
 uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "lemma-change-coefficients", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-passing-schematic-closure"]
 +++
 On the point each step of the construction of the trace class is a

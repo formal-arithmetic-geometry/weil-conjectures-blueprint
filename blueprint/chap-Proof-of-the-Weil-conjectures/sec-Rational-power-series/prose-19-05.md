@@ -2,7 +2,7 @@
 id = "prose-19-05"
 kind = "hidden"
 title = "Rational power series (2)"
-order = 1378
+order = 1381
 +++
 Applied with $K=\mathbf Q$ and $K'=\mathbf Q_\ell$, the lemma shows that the zeta
 function, which the trace formula writes as a quotient of polynomials

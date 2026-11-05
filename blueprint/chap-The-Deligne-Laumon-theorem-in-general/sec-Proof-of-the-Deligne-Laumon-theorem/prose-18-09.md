@@ -2,7 +2,7 @@
 id = "prose-18-09"
 kind = "hidden"
 title = "Proof of the Deligne–Laumon theorem (1)"
-order = 1348
+order = 1351
 +++
 An arbitrary $f$ reduces to relative affine curves and quasi-finite
 maps. Over a field, Noether normalization makes an affine

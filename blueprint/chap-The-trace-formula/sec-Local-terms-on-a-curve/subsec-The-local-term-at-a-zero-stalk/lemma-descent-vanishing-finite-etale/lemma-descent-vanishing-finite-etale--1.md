@@ -3,7 +3,7 @@ id = "lemma-descent-vanishing-finite-etale--1"
 kind = "lemma"
 title = "Descent of vanishing along a finite étale cover (1)"
 name_showing = false
-order = 986001
+order = 987001
 aliases = ["bp-r301-1"]
 +++
 Let $f:W'\to W$ be a finite étale morphism of schemes of constant degree

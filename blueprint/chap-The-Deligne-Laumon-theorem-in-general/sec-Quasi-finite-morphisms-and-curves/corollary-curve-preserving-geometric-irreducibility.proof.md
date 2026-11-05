@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-curve-preserving-geometric-irreducibility"
-order = 1331
+order = 1334
 uses = ["proposition-etale-implications", "theorem-pro-etale-refinements-weakly-etale", "proposition-sp-unique-adjoint", "lemma-curve-preserving-finite-cover", "definition-compactification-refinement"]
 +++
 We translate irreducibility into the surjectivity of $\pi_1(C)$ onto

@@ -2,7 +2,7 @@
 id = "prose-09-29"
 kind = "hidden"
 title = "Compatibilities"
-order = 794
+order = 795
 +++
 The isomorphism $\gamma_f$ now exists for every admissible coefficient ring,
 and it remains to prove the properties (2)–(4) of

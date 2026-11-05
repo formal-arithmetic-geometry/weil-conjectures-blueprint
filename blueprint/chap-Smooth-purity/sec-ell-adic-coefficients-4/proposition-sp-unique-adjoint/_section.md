@@ -3,7 +3,7 @@ id = "proposition-sp-unique-adjoint"
 kind = "proposition"
 title = "Uniqueness of the right adjoint of $Rf_!$"
 name_showing = false
-order = 762
+order = 763
 lean = ["CategoryTheory.Adjunction.rightAdjointUniq", "CategoryTheory.Adjunction.rightAdjointUniq_hom_counit"]
 +++
 Let $\Lambda$ be an admissible coefficient ring and let $J$ be a right adjoint of

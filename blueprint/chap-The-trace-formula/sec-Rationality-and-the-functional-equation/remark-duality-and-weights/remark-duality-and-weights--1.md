@@ -3,7 +3,7 @@ id = "remark-duality-and-weights--1"
 kind = "remark"
 title = "Duality and weights (1)"
 name_showing = false
-order = 1048001
+order = 1049001
 aliases = ["bp-r322-1"]
 +++
 The functional equation is an

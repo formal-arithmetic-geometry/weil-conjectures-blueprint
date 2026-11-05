@@ -2,7 +2,7 @@
 id = "prose-07-08"
 kind = "hidden"
 title = "Change of coefficients (6)"
-order = 647
+order = 648
 +++
 Without the condition on Tor amplitude, change of coefficients would not
 preserve the categories. For instance, let $X$ be a geometric point. The

@@ -2,7 +2,7 @@
 id = "proposition-dctf-x-qbar-2-colimit--1"
 kind = "proposition"
 title = "The category comparison"
-order = 648002
+order = 649002
 aliases = ["bp-r198-1"]
 +++
 Extension of scalars identifies

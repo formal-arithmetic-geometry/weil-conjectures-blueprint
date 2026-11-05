@@ -2,7 +2,7 @@
 id = "proposition-compatibility-purity-base-change--2"
 kind = "proposition"
 title = "Integral coefficients"
-order = 797004
+order = 798004
 aliases = ["bp-r239-2"]
 +++
 Let

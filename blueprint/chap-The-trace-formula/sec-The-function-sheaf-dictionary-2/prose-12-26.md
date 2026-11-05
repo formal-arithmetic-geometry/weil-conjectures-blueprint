@@ -2,7 +2,7 @@
 id = "prose-12-26"
 kind = "hidden"
 title = "The function–sheaf dictionary (3)"
-order = 1027
+order = 1028
 +++
 The other operations on functions also have counterparts on sheaves.
 These counterparts, together with the corollary, are the entries of the dictionary that we

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "corollary-degree-jacobian"
-order = 1553
+order = 1556
 uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 The degree is additive under tensor product, so it is a homomorphism.

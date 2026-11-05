@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-poincare-duality"
-order = 857
+order = 858
 uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "theorem-global-verdier-duality"]
 +++
 The theorem is global duality rewritten by means of smooth purity: once

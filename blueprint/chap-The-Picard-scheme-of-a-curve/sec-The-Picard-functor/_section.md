@@ -2,6 +2,6 @@
 id = "sec-The-Picard-functor"
 kind = "section"
 title = "The Picard functor"
-order = 1516
+order = 1519
 hide_content = true
 +++

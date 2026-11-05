@@ -2,7 +2,7 @@
 id = "lemma-positivity-convergence"
 kind = "lemma"
 title = "Positivity and convergence"
-order = 1159
+order = 1162
 lean = ["PowerSeries.radius_tprod_le_radius"]
 +++
 Let

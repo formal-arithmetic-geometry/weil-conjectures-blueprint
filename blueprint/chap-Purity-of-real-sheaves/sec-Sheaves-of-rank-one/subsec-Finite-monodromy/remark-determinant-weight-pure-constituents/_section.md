@@ -3,7 +3,7 @@ id = "remark-determinant-weight-pure-constituents"
 kind = "remark"
 title = "Determinant weight of a sheaf with pure constituents"
 name_showing = false
-order = 1114
+order = 1117
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth
 geometrically connected curve. If the irreducible constituents

@@ -2,7 +2,7 @@
 id = "example-leading-coefficient-stratification"
 kind = "example"
 title = "Why the leading coefficient is inverted"
-order = 1356
+order = 1359
 +++
 Let $Y_0=\mathbf A^1_{k_0}=\operatorname{Spec}k_0[y]$, and suppose that $G$
 is lisse on the relative line $\mathbf A^1_{Y_0}=\operatorname{Spec}k_0[y,T]$

@@ -3,7 +3,7 @@ id = "lemma-sp-tower-adjunction-foundation"
 kind = "lemma"
 title = "Reduction to towers is left adjoint to the derived limit"
 name_showing = false
-order = 776
+order = 777
 +++
 The functor $\operatorname{red}_TM=(M/\ell^n)_n$ is left adjoint to
 $R\varprojlim:D(\operatorname{Tow}(T))\to D(T_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, with unit the

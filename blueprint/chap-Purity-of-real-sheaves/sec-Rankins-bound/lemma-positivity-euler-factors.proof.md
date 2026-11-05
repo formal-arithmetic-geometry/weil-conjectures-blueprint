@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-positivity-euler-factors"
-order = 1156
+order = 1159
 uses = ["lemma-filtrations-spectra"]
 +++
 We write an inverse characteristic polynomial as the exponential of a

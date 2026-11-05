@@ -1,10 +1,10 @@
 +++
 kind = "proof"
 of = "proposition-projective-line-rational-coefficients"
-order = 607
+order = 608
 +++
-Define the unit and counit by the formulas (6.5) and
-(6.6) of
+Define the unit and counit by the formulas (6.7) and
+(6.8) of
 Proposition [proposition-adjunction-projective-line], using
 $\Delta_*M\simeq p_1^*M\otimes^{\mathbf L}\Delta_*\Lambda$ [Stacks, [09AD](https://stacks.math.columbia.edu/tag/09AD)] and
 the maps $\delta_\Lambda$ and $\operatorname{Tr}_q$ in place of their

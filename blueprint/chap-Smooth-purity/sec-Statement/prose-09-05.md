@@ -2,7 +2,7 @@
 id = "prose-09-05"
 kind = "hidden"
 title = "Statement (4)"
-order = 731
+order = 732
 +++
 We recall what $D^b_{\mathrm{ctf}}$ means for each coefficient ring. For integral
 coefficients and for coefficients in a field, $D^b_{\mathrm{ctf}}=\Dbc$, and we write

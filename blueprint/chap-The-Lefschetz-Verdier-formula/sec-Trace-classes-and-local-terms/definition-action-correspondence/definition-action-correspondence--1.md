@@ -3,7 +3,7 @@ id = "definition-action-correspondence--1"
 kind = "definition"
 title = "Action of a correspondence on cohomology (1)"
 name_showing = false
-order = 921001
+order = 922001
 aliases = ["bp-r279-1"]
 +++
 Let $u$ be a cohomological correspondence on $(X,K)$ for a

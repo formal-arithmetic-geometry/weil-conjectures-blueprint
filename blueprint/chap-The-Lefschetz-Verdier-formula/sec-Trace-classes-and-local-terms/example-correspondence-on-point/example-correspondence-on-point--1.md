@@ -3,7 +3,7 @@ id = "example-correspondence-on-point--1"
 kind = "example"
 title = "A correspondence on the point (1)"
 name_showing = false
-order = 927001
+order = 928001
 aliases = ["bp-r282-1"]
 +++
 Let $X=s$, let $C=\coprod_{i=1}^ns$ be $n$ points, with $c_1=c_2$ the

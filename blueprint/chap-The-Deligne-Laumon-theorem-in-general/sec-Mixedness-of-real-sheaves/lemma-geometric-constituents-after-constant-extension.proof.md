@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-geometric-constituents-after-constant-extension"
-order = 1335
+order = 1338
 +++
 An irreducible Weil representation is geometrically semisimple. A
 power of Frobenius fixes each isotypic component, and on it we can

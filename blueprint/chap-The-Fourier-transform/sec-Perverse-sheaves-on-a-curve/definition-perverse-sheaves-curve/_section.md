@@ -2,7 +2,7 @@
 id = "definition-perverse-sheaves-curve"
 kind = "definition"
 title = "Perverse sheaves on a curve"
-order = 1247
+order = 1250
 lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++

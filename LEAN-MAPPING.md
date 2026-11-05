@@ -7,8 +7,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 - **Lean names.** Each declaration was matched with the sketch node of `blueprint_old/` that states it, and that node's `lean` list (and its detail nodes') was checked against the Lean statements at the pinned revision of weil-conjectures. Names that only serve the proof were dropped. Where the old blueprint had none, the formalisation was searched for a declaration that states it. Every name exists at the pinned revision, and no name belongs to two declarations.
 - **Coverage.** 421 of 538 declarations have Lean names: 233 high, 148 medium and 40 low confidence. Medium and low mean the Lean states only part of the declaration, a special case, or a variant (often with other coefficients); the notes below say which. 117 declarations, mostly examples and remarks, have none.
 - **Second review: the pro-étale chapter and Appendices A–D and F** (139 declarations). Each node's statement was gone through part by part against the Lean of slopmaster2 (`f3cad3b`, now pinned): every part that Lean states gets the declaration stating it, and names that only serve a proof, duplicate another name, or state another node's content were dropped. 81 nodes are fully stated in Lean, 43 partly and 15 not at all; 64 names were added and 48 removed. In the table their confidence reads *full*, *partial* or *none* (reviewed), and the note says what Lean does not state.
-- **Declaration arrows.** `A uses B` when a Lean name of `A` depends on a Lean name of `B`, reached as `blueprint extract` walks it: through unmapped constants of the project and stopping at mapped ones. Dependencies of the Lean statement go on the declaration and those of the proof on its proof. The walk uses the dependency facts of the last site build (the `site` branch). For the Lean names those facts do not cover, it follows references in the Lean source instead. These are 446 of the 1066 names; they add 375 of the arrows. Where one end has no Lean name, the references in the text (statement or proof) give the arrow instead.
-- **Cycles.** Lean dependencies between names grouped by declaration can form cycles; within each strongly connected component only the arrows to earlier declarations are kept (87 arrows dropped).
+- **Declaration arrows** (PR #200, the tool's rule). `A uses B` exactly when a Lean name of `A` depends on a Lean name of `B`, as `blueprint extract` records it in `lean-facts.json` (extracted at weil-conjectures `f3cad3b`): the walk goes through unmapped constants of the project and stops at mapped ones. Dependencies of the Lean statement go on the declaration and those of the proof on its proof, which is what `blueprint check --lean` compares the arrows with. Declarations without Lean names get no arrows, and the layer-2 clauses keep the arrows of their "Dependencies:" lines. `scripts/lean_uses.py` writes them.
+- **Cycles.** None. The facts first gave 11 cycles; Lean has none, so each came from how names were grouped onto declarations. A declaration keeps only the names stating it: nine names were removed or moved, and in eight places a clause moved between declarations of the notes (in both tex files) so that each name sits on the declaration stating it. Two declarations were added for this: `lemma-subobjects-quotients-weil-sheaves` and `definition-exceptional-base-change-finite`. The table counts are those after the moves.
 - **Sections and subsections** use each other where the unit itself builds on the other as the notes present it: its constructions, main results or arguments need what the other develops. Each arrow was decided by reading the unit (prose, statements and proofs) and what the notes say about the two units; the arrows of the declarations are not merged into it. One incidental citation (an example, a remark, a comparison) makes no arrow, and neither does a forward pointer ("proved below", "until Section X"). An arrow goes to the most specific unit used, a subsection when only that subsection is used, and arrows between a section and a subsection are allowed. A theorem stated in one section and proved in a later one: its users point at the section where the proof is completed, and that section points back to the statement. Chapters keep the arrows written on them by hand.
 - **Every unit is used**, except: the units of Appendix E, which the main text does not use; the last section of the main text (Integrality and independence of ℓ, which proves the Weil conjectures); smooth base change for all admissible coefficients (`sec-ell-adic-coefficients-3`), since the later text uses only the torsion version; and five overview sections of the Introduction (the six operations, the trace formula, Deligne's theorem, Outline, Prerequisites and reading guide), which nothing builds on. `sec-The-projective-line` and `sec-Compatibilities` have no arrow of their own because all their content is in subsections, which are used.
 - **No circular reasoning.** No chain of arrows returns to where it started: there is no cycle among the declarations, among the sections and subsections, or in all of them together. The two-way section arrows before came from merging all declaration arrows of a section into section arrows; two sections whose declarations use each other's in both directions got arrows both ways.
@@ -19,9 +19,9 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 | Declaration | Lean names | Confidence | Note |
 |---|---|---|---|
-| `definition-ind-etale-pro-etale-weakly` | 8 | full (reviewed) | Ind-étale (algebra and ring-hom forms), pro-affine étale with its affine case, and weakly étale (scheme class, ring property, affine-chart description) are all stated. |
+| `definition-ind-etale-pro-etale-weakly` | 7 | full (reviewed) | Ind-étale (algebra and ring-hom forms), pro-affine étale with its affine case, and weakly étale (scheme class, ring property) are all stated. The affine-chart description is in lemma-stability (PR #200). |
 | `proposition-etale-implications` | 4 | full (reviewed) | Lean has no ring-level étale⇒ind-étale or weakly étale+fp⇒étale with a name; the scheme forms with affine source cover them via Spec. |
-| `lemma-stability` | 7 | full (reviewed) | Mathlib's unnamed instances, under their auto-generated names (checked with Lean against the pinned Mathlib). |
+| `lemma-stability` | 8 | full (reviewed) | Mathlib's unnamed instances, under their auto-generated names (checked with Lean against the pinned Mathlib), and hasRingHomProperty for the affine-chart description (moved here in PR #200). |
 | `definition-small-pro-etale-site` | 4 | full (reviewed) | proetalePrecoverage is the quasi-compact (fpqc-type) covers by weakly étale maps; Mathlib's QuasiCompactCover gives the explicit open-cover condition. |
 | `proposition-pro-etale-coverings` | 3 | partial (reviewed) | (1) is stated for any qcqs object; (2) as étale/Zariski precoverages contained in the pro-étale one. Not in Lean: In (1), that the disjoint union of the finite affine refinement is affine and faithfully flat over U. |
 | `proposition-topos-functoriality` | 6 | partial (reviewed) | toposFunctorialityInverseImage bundles the morphism of sites, f^{-1}⊣f_*, exactness of f^{-1} (sets and abelian) and the composition isomorphism. Not in Lean: That Sh(X_proét) is a Grothendieck topos. |
@@ -34,9 +34,9 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `theorem-existence-contractible-covers` | 1 | full (reviewed) | Exact statement. |
 | `theorem-pro-etale-refinements-weakly-etale` | 2 | full (reviewed) | Algebra and ring-hom forms of the same statement. |
 | `proposition-pro-etale-affines-form-basis` | 5 | full (reviewed) | The sheaf equivalence holds for any coefficient category with enough limits, so it covers sets and abelian groups. |
-| `lemma-w-contractible-affines-projective` | 2 | full (reviewed) | Splitting of epimorphisms onto h_U; projectivity follows by definition-weak-contractibility's equivalences. |
+| `lemma-w-contractible-affines-projective` | 3 | full (reviewed) | Splitting of epimorphisms onto h_U; projectivity; and the equivalent forms of splitting, which the lemma now states (PR #200). |
 | `theorem-enough-affine-weakly-contractible-objects` | 1 | full (reviewed) | Lean also has duplicates weaklyContractible_basis (part 1) and exists_isWeaklyContractible_cover; not added. |
-| `definition-weak-contractibility` | 2 | full (reviewed) | The definition (the third, surjectivity form) plus the theorem giving the equivalent forms. |
+| `definition-weak-contractibility` | 1 | full (reviewed) | The definition (the third, surjectivity form). The equivalence of the forms is in lemma-w-contractible-affines-projective (PR #200). |
 | `example-weak-contractibility-point` | 0 | none (reviewed) | Example; nothing in Lean. Not in Lean: The whole example (the convergent sequence is not weakly contractible). |
 | `corollary-evaluation-weakly-contractible-objects` | 4 | partial (reviewed) | (1) exactness and H^q vanishing for Λ-modules; (2) and (3) for R-modules. Not in Lean: In (1), RΓ(W,K) ≃ K(W) for every (unbounded) complex K. |
 | `definition-repleteness` | 1 | full (reviewed) | Exact definition for sheaf topoi of sites. |
@@ -48,7 +48,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `proposition-unbounded-functors-products` | 1 | partial (reviewed) | Only Rf_* is covered, with countable products and derived limits of towers. Not in Lean: RΓ(U,-) on unbounded complexes preserving products and derived limits; Rf_* for f_*R-modules (Lean has A-valued sheaves) and arbitrary products (Lean has countable ones). |
 | `proposition-weakly-contractible-hypercovers` | 2 | full (reviewed) | Existence of the single-affine weakly contractible hypercover and formula (2.3) for bounded-below complexes. |
 | `corollary-continuity-cohomology` | 2 | partial (reviewed) | Lean has the abelian-sheaf (degree 0) case of both assertions. Not in Lean: Both assertions for uniformly bounded-below complexes and ring sheaves R; the first for a general qcqs object U (Lean: U = X qcqs). |
-| `definition-classical-pro-etale-sheaves` | 4 | full (reviewed) | Presentation, continuity map (2.4), classical sheaves, and classical complexes of module sheaves. |
+| `definition-classical-pro-etale-sheaves` | 5 | full (reviewed) | Presentation, continuity map (2.4), classical sheaves, and classical complexes of module sheaves. |
 | `proposition-comparison-morphism-inverse-image` | 7 | partial (reviewed) | ν, ν_*, ν^* with general coefficients, the adjunction, exactness, and (2.6) for qcqs étale towers. Not in Lean: Formula (2.5), (ν^*F)(V) = Γ(V_ét, h^*F). |
 | `theorem-classical-sheaves-essential-image` | 3 | full (reviewed) | proEtaleClassicalSheaves states all three parts; full/faithful instances give full faithfulness for any Grothendieck abelian coefficient category. |
 | `example-coefficient-sheaf-outside-classical-part` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the whole example (Z_ell,X not classical, reductions classical) |
@@ -77,8 +77,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `corollary-continuous-etale-cohomology` | 0 | none (reviewed) | No Lean statement found. Not in Lean: identification with continuous étale cohomology (derived functor on inverse systems) |
 | `example-first-cohomology-finite-field` | 0 | none (reviewed) | Example; not formalized. Not in Lean: the whole example (H^1 of F_q with Z_ell and Q_ell coefficients) |
 | `proposition-extension-zero-restriction-closed-subscheme` | 10 | partial (reviewed) | Sheaf of R-algebras B; every assertion except j^* exactness has a matching RingSheaf declaration. Not in Lean: exactness of j^* not stated separately for module sheaves |
-| `definition-local-cohomology` | 2 | partial (reviewed) | Lean defines i^*ker(id→j_*j^*) and its right derived functor; closedSupport_fiber gives the fibre formula. Not in Lean: arbitrary sheaf of rings R (Lean: pulled-back condensed coefficient ring Λ) |
-| `lemma-local-cohomology-right-adjoint` | 1 | partial (reviewed) | i_* ⊣ RΓ_Z on derived categories of condensed-coefficient modules. Not in Lean: arbitrary sheaf of rings R; full faithfulness of derived i_* not part of this statement |
+| `definition-local-cohomology` | 1 | partial (reviewed) | Lean defines i^*ker(id→j_*j^*) and its right derived functor. The fibre formula is in lemma-local-cohomology-right-adjoint (PR #200). Not in Lean: arbitrary sheaf of rings R (Lean: pulled-back condensed coefficient ring Λ) |
+| `lemma-local-cohomology-right-adjoint` | 2 | partial (reviewed) | i_* ⊣ RΓ_Z on derived categories of condensed-coefficient modules, and the fibre formula (closedSupport_fiber, moved here in PR #200). Not in Lean: arbitrary sheaf of rings R; full faithfulness of derived i_* not part of this statement |
 | `definition-derived-adic-completeness` | 2 | full (reviewed) | Completion map via K-flat representative; iff shows independence of representative. |
 | `lemma-reduction-derived-nakayama` | 1 | partial (reviewed) | States K_1=0 ⇒ K=0 for derived complete K and the isomorphism criterion. Not in Lean: K_n = cone(π^n: K→K) stated in derived_nakayama_resolution, assigned to corollary-finite-quotients-their-transition-maps |
 
@@ -86,7 +86,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 | Declaration | Lean names | Confidence | Note |
 |---|---|---|---|
-| `definition-constructible-sheaves` | 8 | medium | Old sk-def-sfb-constructible plus constant-model defs whose docstrings cite its clauses 1-2; Tor amplitude defs. |
+| `definition-constructible-sheaves` | 7 | medium | Old sk-def-sfb-constructible plus constant-model defs whose docstrings cite its clauses 1-2; Tor amplitude defs. |
 | `definition-lisse-sheaves` | 2 | medium | Condition (1) on X itself (locally finitely presented); IsLisseCoefficientModule is the lisse (locally free) predicate used for field coefficients. |
 | `remark-constructible-sheaves-coefficient-rings` | 0 | — | Remark (sk-rem-n-constructible); no Lean statement of exactly it. |
 | `example-integral-criterion-point` | 0 | — | Example; nothing formalizes it. |
@@ -206,7 +206,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-class-diagonal-projective-line` | 2 | medium | Docstrings cite lem-amb-p1-diagonal-integrals: s_1 = s_2 = id; relative Cartier divisor part not stated. |
 | `proposition-adjunction-projective-line` | 2 | medium | Docstrings cite sk-prop-geo-p1-adjunction / det-sp-p1-adjunction: adjunction and base change of counit (etale site). |
 | `lemma-affine-space-etale-localization` | 3 | high | Old sk-lem-geo-affine-local detail names (parts 1, 2) plus affineSpaceAdjunction_baseChange (docstring clause 1). |
-| `proposition-exceptional-inverse-image-smooth-morphism` | 5 | high | Old sk-prop-cohsm list plus canonical-map isomorphisms for parts 2 and 3. |
+| `definition-exceptional-base-change-finite` | 1 | high | rightDerivedUpperShriekBaseChangeMap: the mate of the inverse compact-support base change, for finite Λ on the étale site (new in PR #200). |
+| `proposition-exceptional-inverse-image-smooth-morphism` | 5 | high | Old sk-prop-cohsm list plus canonical-map isomorphisms for parts 2 and 3. The map β of part (3) is defined in definition-exceptional-base-change-finite (PR #200). |
 | `lemma-smooth-morphisms-locally-constant-sheaves` | 1 | high | Old detail lem-asd-smooth-generic-direct-image states this lemma. |
 | `example-shrinking-base-smooth` | 0 | — | Example; not formalized. |
 | `lemma-detection-proper-direct-image` | 2 | high | Old sk-lem-geo-finite-boundary details: parts (1) and (2). |
@@ -260,7 +261,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `theorem-smooth-base-change-all-admissible` | 4 | medium | Old sketch empty; finite, O_E and Qbar cases (last docstring cites sk-thm-sbc-coefficients). |
 | `remark-smooth-base-change-proper-base` | 0 | — | Remark. |
 | `lemma-base-change-along-product-projection` | 1 | low | Old sketch empty; lem-kun-0f1n base change of Rg_* along product projection over a field (tensored form). |
-| `definition-kunneth-map` | 2 | medium | Kunneth map for f1 x f2 (Qbar, ProperKunneth) and identity-factor map (8.4) on etale site. |
+| `definition-kunneth-map` | 1 | medium | Kunneth map for f1 x f2 (Qbar, ProperKunneth) and identity-factor map (8.4) on etale site. |
 | `lemma-kunneth-finite-direct-image` | 0 | — | Proof step not formalized (Lean proves Kunneth via Stacks 0F1N instead). |
 | `lemma-kunneth-field-coefficients` | 0 | — | Proof step not formalized. |
 | `lemma-kunneth-one-identity-factor` | 2 | high | Old sk-lem-sf-kunneth-star; Lean statement is exactly Rf_*M box Q = R(f x id)_*(M box Q). |
@@ -270,7 +271,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 | Declaration | Lean names | Confidence | Note |
 |---|---|---|---|
-| `definition-exceptional-base-change-map` | 2 | high | Docstrings define exactly the adjoint of inverse compact-support base change composed with counit. |
+| `definition-exceptional-base-change-map` | 1 | high | Docstrings define exactly the adjoint of inverse compact-support base change composed with counit. The finite-coefficient étale map β is definition-exceptional-base-change-finite (PR #200). |
 | `definition-trace-map-affine-line` | 0 | — | Projective-line-based affine trace not found as a def. |
 | `theorem-smooth-purity-all-admissible-coefficients` | 2 | low | Old sketch empty; Qbar orientation gamma_f (docstring cites sk-thm-purity-transport) at the unit only. |
 | `definition-relative-dualizing-complex` | 1 | medium | omega_f = Rf^! Lambda_Y on etale site, finite coefficients. |
@@ -303,15 +304,15 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 | Declaration | Lean names | Confidence | Note |
 |---|---|---|---|
-| `lemma-perfect-complexes-geometric-point` | 9 | medium | old sk-lem-finite minus helpers; added stalk/compact perfectness (finite coeff) and biduality at the point |
+| `lemma-perfect-complexes-geometric-point` | 8 | medium | old sk-lem-finite minus helpers; added stalk/compact perfectness (finite coeff) and biduality at the point |
 | `definition-verdier-dual-evaluation` | 6 | medium | old sk-def-ops (dropped derivedDual/cohomology); added double-dual morphism δ_K (pro-étale Q̄ℓ and étale finite) |
-| `lemma-internal-adjunction-two-exchange-formulas` | 5 | medium | (10.2) tensor-Hom exchange, (10.3)/(10.4) natural isos, proper δ compatibility; old sketch had no lean |
+| `lemma-internal-adjunction-two-exchange-formulas` | 6 | medium | (10.2) tensor-Hom exchange, (10.3)/(10.4) natural isos, proper δ compatibility; old sketch had no lean |
 | `example-biduality-punctured-line` | 0 | — | example; not formalized |
 | `lemma-verdier-duality-preserves-constructibility` | 1 | medium | old sketch empty; étale finite-coefficient preservation of Dctf |
 | `lemma-restriction-geometric-generic-fibre` | 3 | medium | old lem-weil-geometric-generic-exchange: three comparisons (direct image only for open immersions) |
 | `lemma-double-dual-geometric-generic-fibre` | 2 | medium | old lem-weil-geometric-generic-duality main statements; helpers dropped |
 | `theorem-verdier-biduality` | 4 | high | old lem-sf-verdier-biduality-equivalence (finite) plus pro-étale Q̄ℓ / O_E constructible biduality |
-| `corollary-verdier-exchange-formulas` | 4 | medium | old sk-thm-sf-verdier-exchange names plus f^!D≅Df^* and i^*D≅Di^!; D Rf_* ≅ Rf_! D not found |
+| `corollary-verdier-exchange-formulas` | 2 | medium | old sk-thm-sf-verdier-exchange names plus f^!D≅Df^* and i^*D≅Di^!; D Rf_* ≅ Rf_! D not found |
 | `theorem-global-verdier-duality` | 3 | medium | old sk-thm-sf-global-duality; (10.5) only, (10.6) not found |
 | `definition-perfect-pairing` | 2 | high | docstring cites sk-def-pairing: adjoint Y→[X,1] iso |
 | `theorem-poincare-duality` | 5 | medium | old sk-thm-sf-identification + derived/proper Poincaré details; coefficient-change clause not covered |
@@ -400,7 +401,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-bounding-weights-mixed-sheaf` | 2 | high | sk-lem-wgen-punctual-cutoff (both directions). |
 | `example-kummer-extension` | 0 | — | Example; not formalized. |
 | `lemma-filtrations-spectra` | 5 | high | sk-p-linear-filtration and p-linear-spectra (filtration product, dual, wedge, tensor). |
-| `proposition-weights-under-usual-operations` | 15 | medium | sk-r-real-linear parts at sheaf level; mixed tensor/dual parts not found. |
+| `lemma-subobjects-quotients-weil-sheaves` | 4 | high | of_mono/of_epi for pure and for mixed of weights at most w state exactly the lemma (new in PR #200, split from the next proposition). |
+| `proposition-weights-under-usual-operations` | 11 | medium | sk-r-real-linear parts at sheaf level; mixed tensor/dual parts not found. Subobjects and quotients are in lemma-subobjects-quotients-weil-sheaves (PR #200). |
 | `lemma-geometric-coverings-normal-scheme` | 0 | — | sk-lem-wrp-normal-geometric-cover: no Lean found (old had none). |
 | `lemma-global-lattice-normal-scheme` | 2 | low | Lattice of a lisse sheaf (cocycle form) on regular schemes; tex is normal schemes. |
 | `proposition-lattices-representations-normal-scheme` | 2 | medium | sk-p-real-integral: lisse Qlbar-sheaves ≃ continuous reps on connected normal (regular) scheme. |
@@ -530,7 +532,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `lemma-reduced-fractions-integer-coefficients` | 1 | high | Old sketch sk-lem-wweil-integer-rationality. |
 | `definition-reciprocal-root` | 0 | — | No Lean definition of reciprocal root; Lean uses roots of P.reverse (Polynomial.ordinary_reciprocal_roots is a lemma). |
 | `lemma-reciprocal-roots-zeta` | 2 | low | From old sk-thm-weil-final details: parity products N_l/D_l separation and A^(l)=N_l, B^(l)=D_l; Lean route differs. |
-| `theorem-weil-conjectures-smooth-proper-schemes` | 6 | high | Old sketch sk-thm-weil-final; parts (1)-(4) via integral factors, RH, Betti, functional equation. |
+| `theorem-weil-conjectures-smooth-proper-schemes` | 5 | high | Old sketch sk-thm-weil-final; parts (1)-(4) via integral factors, RH, Betti, functional equation. |
 | `example-zeta-projective-space-elliptic-curve` | 0 | — | Example; nothing states it. |
 | `example-running-example-purity` | 0 | — | Example; old sk-ex-ex-run-end had no lean. |
 | `corollary-point-count-estimates` | 2 | high | Old sketch sk-cor-hasse; general bound and curve case. Dropped abstract-form complement name. |
@@ -541,12 +543,12 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 |---|---|---|---|
 | `definition-compactification-refinement` | 6 | partial (reviewed) | Refinement has hj'=j and S-morphism; IsStrict is h^{-1}(X)=X; iff_app_injective is the 'i.e.' injectivity (for qc f). Not in Lean: Quasi-compactness of j is not a field of Compactification; it holds iff f is quasi-compact. |
 | `theorem-nagata-s-compactification-theorem` | 1 | full (reviewed) | Finite type = LocallyOfFiniteType + QuasiCompact; base CompactSpace + QuasiSeparatedSpace. |
-| `lemma-schematic-closure-uniqueness` | 4 | full (reviewed) | Mathlib image is a closed subscheme by construction; anonymous Mathlib instance gives U open in image. Lean needs no quasi-separatedness of T. |
+| `lemma-schematic-closure-uniqueness` | 5 | full (reviewed) | Mathlib image is a closed subscheme by construction; anonymous Mathlib instance gives U open in image; ker_pullback_snd gives flat base change (PR #200). Lean needs no quasi-separatedness of T. |
 | `lemma-uniqueness-maps-dense-open` | 1 | full (reviewed) | Primed version is literally the S-scheme form; the dense open is any scheme-theoretically dominant morphism. |
 | `lemma-passing-schematic-closure` | 4 | partial (reviewed) | Pushforward comparison j_!≅i_*j_{Z,!} and Rp_*j_!≅R(pi)_*j_{Z,!} for E and Q̄_ℓ, with i the proper refinement Z→X̄. Not in Lean: Only bounded constructible complexes of E- or Q̄_ℓ-sheaves over a field k, not arbitrary Λ and unbounded K; stated for any proper strict refinement h, not specifically the schematic closure. |
 | `remark-non-noetherian-compactifications` | 2 | partial (reviewed) | Lean states only the last sentence: dense refinements exist for any compactification of a quasi-compact morphism. Not in Lean: The scope remarks (same proof when complement is quasi-compact; failure of exactness otherwise) are not stated. |
 | `proposition-dense-compactifications-form-cofiltered-category` | 3 | full (reviewed) | Common dense refinement holds for any nonempty finite family of compactifications of qc f; refinement_morphisms gives proper, h^{-1}(X)=X, unique. |
-| `remark-base-change-compactification` | 3 | partial (reviewed) | Closure of X×S' being dense is denseRefinement (given to remark-non-noetherian-compactifications). Not in Lean: Agreement of the base-changed direct image with the schematic-closure one, and comparisons on common refinements, are not stated as such. |
+| `remark-base-change-compactification` | 2 | partial (reviewed) | Closure of X×S' being dense is denseRefinement (given to remark-non-noetherian-compactifications). Not in Lean: Agreement of the base-changed direct image with the schematic-closure one, and comparisons on common refinements, are not stated as such. |
 | `definition-admissible-blow-up` | 3 | full (reviewed) | Blow-up glued from affine Rees-algebra charts; IsAdmissible has finite-type ideal and center disjoint from U. Lean drops the qcqs hypotheses. |
 | `lemma-making-open-schematically-dense` | 2 | full (reviewed) | Cartier boundary J with support = complement of preimage of U; complement of an invertible ideal's support is dense, so the preimage is dense. |
 | `example-blow-up-embedded-point` | 0 | none (reviewed) | Example. Not in Lean: Lean has no computation of this example. |
@@ -591,20 +593,20 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 |---|---|---|---|
 | `definition-relative-picard-functor` | 2 | full (reviewed) | Lean sheafifies T ↦ Pic(C_T) and does not quotient by Pic(T) first; Zariski-locally trivial classes die, so the fppf sheaf is the same. Representability is used as RepresentableBy, with no named Picard-scheme definition. |
 | `lemma-rigidification-along-section` | 8 | full (reviewed) | Rigidified pairs are classes with σ_T^*L trivial. Surjectivity onto Pic_{C/S}(T) and the splitting are in bijective_pic_split. The normalization formula is picMulEquivProdPicardFunctorNormalized. |
-| `theorem-riemann-roch-coherent-serre-duality` | 5 | full (reviewed) | Lean's Modules.degree is defined as χ(L)-χ(O), so RR is χ(O)=1-g. deg L ≥ 2g-1 matches deg L > 2g-2. |
-| `corollary-serre-duality-field-extension` | 2 | partial (reviewed) | Only the consequences dim H^0(ω)=g and invariance of the genus under field extension. Not in Lean: compatibility of the Serre duality pairing with extension of scalars |
+| `theorem-riemann-roch-coherent-serre-duality` | 6 | full (reviewed) | Lean's Modules.degree is defined as χ(L)-χ(O), so RR is χ(O)=1-g. deg L ≥ 2g-1 matches deg L > 2g-2. dim H^0(ω)=g moved here in PR #200. |
+| `corollary-serre-duality-field-extension` | 1 | partial (reviewed) | Only the invariance of the genus under field extension. Not in Lean: compatibility of the Serre duality pairing with extension of scalars. dim H^0(ω)=g is in theorem-riemann-roch-coherent-serre-duality (PR #200). |
 | `lemma-coherent-base-change-invertible-sheaves` | 6 | partial (reviewed) | Use i=0, r=1: the open locus U_{0,1}, f_*L invertible there, base change of f_*L, and R^1=0. Perfectness is stated over a Noetherian base only. Not in Lean: local perfectness of Rf_*L over an arbitrary (non-Noetherian) k-scheme T |
 | `theorem-hilbert-schemes-points-smooth-curve` | 4 | full (reviewed) | The Hilbert functor is by definition finite locally free degree-d closed subschemes; isInvertible gives the Cartier property for every T. |
 | `proposition-divisors-degree-g-open-chart` | 3 | full (reviewed) | Lean assumes k separably closed with a rational point σ; F is picardFunctorInvertibleDirectImage. |
 | `lemma-twisting-h-0-1-h` | 1 | full (reviewed) | Exact match: k separably closed, any extension K, an invertible M_0 on C. |
 | `lemma-representability-picard-functor` | 1 | partial (reviewed) | Lean assumes geometrically integral, which the text derives from connected over k separably closed. Represented by a group scheme compatible with ⊗. Not in Lean: locally of finite type; cover by the translates M^{-1}F (only the general criterion exists_isOpenImmersion_of_representable_open_subfunctor) |
 | `lemma-tangent-space-picard-functor` | 1 | full (reviewed) | ker(Pic(X[ε]) -> Pic X) ≅ H^1(X,O_X), also compatible with scaling. |
-| `theorem-picard-scheme-jacobian-over-separably` | 6 | partial (reviewed) | theorem_of_the_base gives representability, the decomposition, the components and their k-points; exists_jacobian_baseChange gives J abelian, J(k)=Pic^0 and base change. Not in Lean: base change of the degree-d components (stated by nonempty_representableBy_picardFunctorDegree_baseChange, assigned to proposition-jacobian-over-ground-field) |
+| `theorem-picard-scheme-jacobian-over-separably` | 7 | partial (reviewed) | theorem_of_the_base gives representability, the decomposition, the components and their k-points; exists_jacobian_baseChange gives J abelian, J(k)=Pic^0 and base change. Not in Lean: base change of the degree-d components (stated by nonempty_representableBy_picardFunctorDegree_baseChange, assigned to proposition-jacobian-over-ground-field) |
 | `corollary-degree-jacobian` | 5 | full (reviewed) | Kernel is Pic^0; J(C)(k)=Pic^0 comes from the main theorem (exists_jacobian_baseChange). |
 | `example-degree-sequence-genus-zero-one` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the computations for P^1 and elliptic curves |
 | `example-two-torsion-elliptic-curve` | 0 | none (reviewed) | Example; nothing in Lean states it. Not in Lean: the 2-torsion of y^2=(x-e1)(x-e2)(x-e3) |
 | `corollary-torsion-jacobian-field-extension` | 4 | full (reviewed) | J[n](k) ≅ (Z/n)^{2g} is stated through Pic[n]. Field invariance comes from bijective_toUnit together with jacobian_compatibility (J(C_k') = J(C)_k'). ker of deg mod n is nPic. |
-| `proposition-jacobian-over-ground-field` | 2 | full (reviewed) | exists_jacobian_descent: J_0 proper, smooth of dim g, geometrically integral commutative group representing Pic^0, base change to kbar, Galois-equivariant J_0(kbar)=Pic^0(C). |
+| `proposition-jacobian-over-ground-field` | 1 | full (reviewed) | exists_jacobian_descent: J_0 proper, smooth of dim g, geometrically integral commutative group representing Pic^0, base change to kbar, Galois-equivariant J_0(kbar)=Pic^0(C). |
 | `proposition-h-1-curve-tate-module` | 4 | partial (reviewed) | Lean's version is for finite K, the case the main text needs. Possible overlap with proposition-kummer-duality-integral-tate-module, which holds JacobianTorsionDatum. Not in Lean: a general ground field (Lean: finite fields only); pro-étale rather than étale cohomology; the inverse-limit isomorphism with T_l J_0 |
 
 ### Cohomology of torsion sheaves on curves
@@ -615,7 +617,7 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 | `proposition-smooth-proper-curves-torsion-prime` | 1 | full (reviewed) | Single theorem bundling H^0..H^q, J[n](k), degree mod n, and invariance under algebraically closed extension (etale site). |
 | `remark-twists-projective-line` | 0 | none (reviewed) | Remark; nothing in Lean states it. Not in Lean: Twist identification H^2(C,Z/n)=(Z/n)(-1) and the P^1 normalization are not stated. |
 | `proposition-cohomology-smooth-affine-curve` | 5 | partial (reviewed) | IsConnectedCurve.sheafH_constantZMod_of_isAffine is declared inside namespace AlgebraicGeometry (lk.py indexes it without the prefix). Not in Lean: Surjectivity of the sum map onto Z/n; H^1(U) only as cardinality n^(2g+#D-1), not as (Z/n)^r; Lean uses Z/n coefficients with residues in Z/n(-1) instead of mu_n. |
-| `proposition-p-torsion-smooth-proper-curve` | 5 | partial (reviewed) | Finiteness and base change are stated for Lambda/r coefficients (r prime), which include F_p. Not in Lean: H^1 is identified with the Frobenius fixed points of an unnamed finite-dimensional V, not explicitly H^1(C,O_C); the bound dim_Fp H^1 <= g is not stated. |
+| `proposition-p-torsion-smooth-proper-curve` | 4 | partial (reviewed) | Finiteness and base change are stated for Lambda/r coefficients (r prime), which include F_p. Not in Lean: H^1 is identified with the Frobenius fixed points of an unnamed finite-dimensional V, not explicitly H^1(C,O_C); the bound dim_Fp H^1 <= g is not stated. |
 | `lemma-p-torsion-affine-curve-characteristic` | 1 | partial (reviewed) | Vanishing for q>=2 holds for any affine scheme with p=0. Not in Lean: H^1(U,F_p) = Gamma(U,O)/(phi-1)Gamma(U,O) is not stated; pro-etale transfer not stated. |
 | `example-affine-line-characteristic-p` | 0 | none (reviewed) | Example; no Lean statement. Not in Lean: The computation of H^1(A^1,F_p) and its failure of finiteness/invariance are only mentioned in docstrings. |
 | `lemma-finite-morphisms-cohomology` | 1 | partial (reviewed) | Etale-site statements only. Not in Lean: Exactness and base change of h_* (on the etale site they are lemma-finite-morphisms' names); pro-etale classical versions not stated. |
@@ -664,8 +666,8 @@ How the `lean` and `uses` attributes of `blueprint/` were filled in, and how sur
 
 | Declaration | Lean names | Confidence | Note |
 |---|---|---|---|
-| `proposition-cartier-s-theorem` | 4 | full (reviewed) | Algebraic group = group scheme of finite type over Omega, so the general GrpObj statements suffice. |
-| `lemma-connected-components-images-homomorphisms` | 7 | full (reviewed) | Subgroup structure of G° is an instance (GrpObj, IsMonHom.Normal) on GrpObj.identityComponent. |
+| `proposition-cartier-s-theorem` | 3 | full (reviewed) | Algebraic group = group scheme of finite type over Omega, so the general GrpObj statements suffice. Lie(G°)=Lie(G) is in lemma-connected-components-images-homomorphisms (PR #200). |
+| `lemma-connected-components-images-homomorphisms` | 8 | full (reviewed) | Subgroup structure of G° is an instance (GrpObj, IsMonHom.Normal) on GrpObj.identityComponent; Lie(G°)=Lie(G) moved here in PR #200. |
 | `lemma-stable-subspaces-center` | 2 | full (reviewed) | Stability statement for connected G with rational representation; centre formula for connected closed subgroups of GL_n. |
 | `lemma-lie-s-theorem` | 1 | full (reviewed) | Lean assumes char 0 and triangularizable action, automatic over Omega. |
 | `lemma-engel-s-theorem` | 2 | partial (reviewed) | Solvability follows from nilpotency by a Mathlib instance. Not in Lean: The strictly upper triangular basis is stated only as nilpotency of M as a Lie module (equivalent flag form). |

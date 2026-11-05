@@ -3,7 +3,7 @@ id = "lemma-sp-reduction"
 kind = "lemma"
 title = "Extension of scalars commutes with $Rf_!$ and $f^!$"
 name_showing = false
-order = 768
+order = 769
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekExtendScalarsMap", "AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerShriekExtendScalarsMap_app"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-sp-scalar-extension", "definition-compactification-refinement"]
 +++

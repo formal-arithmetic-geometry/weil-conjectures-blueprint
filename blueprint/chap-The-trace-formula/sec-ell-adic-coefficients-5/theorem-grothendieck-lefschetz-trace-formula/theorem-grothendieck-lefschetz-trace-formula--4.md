@@ -2,7 +2,7 @@
 id = "theorem-grothendieck-lefschetz-trace-formula--4"
 kind = "theorem"
 title = "Trace formula: algebraically closed coefficients"
-order = 1017008
+order = 1018008
 aliases = ["bp-r311-4"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$ with the stated Weil structure and every $m\geq1$, one has in $\overline{\mathbf Q}_\ell$:

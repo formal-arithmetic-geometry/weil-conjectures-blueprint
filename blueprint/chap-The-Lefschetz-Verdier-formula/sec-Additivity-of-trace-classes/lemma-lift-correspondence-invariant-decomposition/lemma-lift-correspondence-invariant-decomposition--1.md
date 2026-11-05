@@ -3,7 +3,7 @@ id = "lemma-lift-correspondence-invariant-decomposition--1"
 kind = "lemma"
 title = "Lifting a correspondence to an invariant decomposition (1)"
 name_showing = false
-order = 936001
+order = 937001
 aliases = ["bp-r285-1"]
 +++
 Let $c:C\to X\times X$ be a correspondence, $i:Z\to X$ a closed

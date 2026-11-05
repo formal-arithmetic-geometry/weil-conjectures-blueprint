@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-enough-affine-weakly-contractible-objects"
 order = 72
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "theorem-existence-contractible-covers"]
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-existence-contractible-covers"]
 +++
 Cover the given object by pro-étale affines
 $\operatorname{Spec}(B)$

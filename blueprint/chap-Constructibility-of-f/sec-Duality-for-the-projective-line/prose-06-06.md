@@ -2,9 +2,9 @@
 id = "prose-06-06"
 kind = "hidden"
 title = "Duality for the projective line (3)"
-order = 547
+order = 548
 +++
-Over $S=\operatorname{Spec}\bar k$, (6.2) reads
+Over $S=\operatorname{Spec}\bar k$, (6.4) reads
 $R\Gamma(\mathbf P^1_{\bar k},A)\simeq A\oplus A(-1)[-2]$.
 Here the shift $[-2]$ places the second summand in degree $2$, so that it is
 $H^2$, and the twist $(-1)$ records how Galois acts on $H^2$: the

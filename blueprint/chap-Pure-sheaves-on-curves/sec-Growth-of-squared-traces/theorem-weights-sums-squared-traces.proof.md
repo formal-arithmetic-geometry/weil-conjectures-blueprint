@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-weights-sums-squared-traces"
-order = 1209
+order = 1212
 uses = ["proposition-sp-unique-adjoint", "definition-trace-function", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-real-sheaves", "lemma-positivity-convergence", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "proposition-twisting-weight-zero-adding-dual", "lemma-radius-squared-traces", "lemma-bounds-squared-traces", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Lemma [lemma-bounds-squared-traces](1) gives $\nu(\mathcal G)\le w$, so,

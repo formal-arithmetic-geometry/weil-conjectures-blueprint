@@ -2,7 +2,7 @@
 id = "corollary-determinant-weights"
 kind = "corollary"
 title = "Determinant weights"
-order = 1111
+order = 1114
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.hasDetWeight", "AlgebraicGeometry.WeilGroup.IsLisse.hasFiniteGeometricDet", "AlgebraicGeometry.WeilGroup.existsUnique_isPunctuallyPure_detLine", "AlgebraicGeometry.WeilGroup.isPunctuallyPure_det_baseChange_iff"]
 uses = ["definition-determinant-weight", "definition-weil-representation"]
 +++

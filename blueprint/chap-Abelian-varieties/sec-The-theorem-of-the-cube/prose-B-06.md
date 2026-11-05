@@ -2,7 +2,7 @@
 id = "prose-B-06"
 kind = "hidden"
 title = "The theorem of the cube (5)"
-order = 1488
+order = 1491
 +++
 The second tool, which we use to show that an abelian variety is
 commutative (Lemma [lemma-abelian-variety-commutative]), is a

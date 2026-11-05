@@ -3,7 +3,7 @@ id = "lemma-cycle-class-cartier-divisor--1"
 kind = "lemma"
 title = "The cycle class of a Cartier divisor (1)"
 name_showing = false
-order = 542001
+order = 543001
 aliases = ["bp-r163-1"]
 +++
 Let $i:D\hookrightarrow Z$ be an effective Cartier divisor on a

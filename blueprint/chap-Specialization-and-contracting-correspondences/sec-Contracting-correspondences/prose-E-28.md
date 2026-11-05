@@ -2,7 +2,7 @@
 id = "prose-E-28"
 kind = "hidden"
 title = "Contracting correspondences (3)"
-order = 1703
+order = 1706
 +++
 Up to nilpotents, then, the fixed scheme of the deformed
 correspondence is the constant family $F_T$. This is why the

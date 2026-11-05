@@ -2,7 +2,7 @@
 id = "prose-12-19"
 kind = "hidden"
 title = "Finite coefficients"
-order = 1005
+order = 1006
 +++
 The proof uses a single compactification, $\mathbf A^1\subset\mathbf P^1$, so the
 Lefschetz–Verdier formula and the curve

@@ -2,7 +2,7 @@
 id = "prose-10-01"
 kind = "hidden"
 title = "Verdier and Poincaré duality"
-order = 821
+order = 822
 +++
 The main estimate in the proof of the Deligne–Laumon theorem, the goal of
 Part III, is an upper bound: every Frobenius eigenvalue on $H^i$ of a smooth proper variety has

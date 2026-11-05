@@ -2,7 +2,7 @@
 id = "lemma-integral-models-rational-frobenius-correspondences"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences"
-order = 1013
+order = 1014
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_integralModel_frobeniusCorrespondence", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_frobeniusCoefficientIterate_eq", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_upperStar_map_frobeniusCoefficientIterate_eq"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "definition-frobenius-correspondences-their-operators"]
 +++

@@ -3,7 +3,7 @@ id = "remark-non-noetherian-compactifications--1"
 kind = "remark"
 title = "Non-Noetherian compactifications (1)"
 name_showing = false
-order = 1414001
+order = 1417001
 aliases = ["bp-r438-1"]
 +++
 The same proof works for qcqs $\overline X$ whenever

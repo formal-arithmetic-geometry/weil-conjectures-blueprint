@@ -2,7 +2,7 @@
 id = "prose-E-21"
 kind = "hidden"
 title = "Duality for nearby cycles (4)"
-order = 1678
+order = 1681
 +++
 We fix the notation for the slice. Let $b:X\to\mathbf A^1_S$ be a
 coordinate map and let $S'=(\mathbf A^1_S)_{(s')}$ be the trait at the

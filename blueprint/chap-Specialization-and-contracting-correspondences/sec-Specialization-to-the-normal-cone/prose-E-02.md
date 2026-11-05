@@ -2,7 +2,7 @@
 id = "prose-E-02"
 kind = "hidden"
 title = "Specialization to the normal cone (1)"
-order = 1619
+order = 1622
 +++
 Let $S$ be the strict henselization of $\operatorname{Spec}k[t]_{(t)}$,
 with generic point $\eta$. Nearby cycles move a complex from the generic

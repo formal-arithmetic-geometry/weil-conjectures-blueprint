@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-kunneth-map-proper-direct-image"
-order = 1646
+order = 1649
 +++
 Write the two product maps in terms of the
 tensor maps of $R\bar j_*$, commute proper direct image past these maps

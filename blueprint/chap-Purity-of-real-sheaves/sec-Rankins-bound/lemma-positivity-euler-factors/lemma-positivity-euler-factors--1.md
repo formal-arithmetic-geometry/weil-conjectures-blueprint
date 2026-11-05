@@ -3,7 +3,7 @@ id = "lemma-positivity-euler-factors--1"
 kind = "lemma"
 title = "Positivity of Euler factors (1)"
 name_showing = false
-order = 1155001
+order = 1158001
 aliases = ["bp-r355-1"]
 +++
 Let $\mathcal G$ be an $\iota$-real Weil sheaf, let $m\ge1$, and let

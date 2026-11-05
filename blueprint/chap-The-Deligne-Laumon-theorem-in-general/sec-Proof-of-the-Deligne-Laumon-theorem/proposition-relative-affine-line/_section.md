@@ -2,7 +2,7 @@
 id = "proposition-relative-affine-line"
 kind = "proposition"
 title = "A relative affine line"
-order = 1354
+order = 1357
 lean = ["AlgebraicGeometry.hasDirectImageWeightBound_affineLine"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++

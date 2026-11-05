@@ -2,7 +2,7 @@
 id = "prose-C-02"
 kind = "hidden"
 title = "The Picard functor (1)"
-order = 1517
+order = 1520
 +++
 We want a scheme whose points over $T$ are families of invertible sheaves
 on $C$ parametrized by $T$. The obvious candidate $T\mapsto\operatorname{Pic}(C_T)$, however, contains too much. For example, for $C=\mathbf P^1_k$ and connected $T$, every invertible sheaf on $\mathbf P^1_T$ is

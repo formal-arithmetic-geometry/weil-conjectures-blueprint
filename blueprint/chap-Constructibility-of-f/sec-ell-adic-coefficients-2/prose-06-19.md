@@ -2,7 +2,7 @@
 id = "prose-06-19"
 kind = "hidden"
 title = "$\\ell$-adic coefficients"
-order = 595
+order = 596
 +++
 For $\Lambda=\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ we have $D^b_{\mathrm{ctf}}=\Dbc$, and we
 show that $f^!$ preserves $\Dbc$. The argument of

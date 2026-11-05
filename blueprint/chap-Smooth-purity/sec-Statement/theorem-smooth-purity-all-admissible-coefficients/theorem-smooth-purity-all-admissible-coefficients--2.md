@@ -2,7 +2,7 @@
 id = "theorem-smooth-purity-all-admissible-coefficients--2"
 kind = "theorem"
 title = "Purity isomorphism: integral coefficients"
-order = 730004
+order = 731004
 aliases = ["bp-r220-2"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the specified natural isomorphism is

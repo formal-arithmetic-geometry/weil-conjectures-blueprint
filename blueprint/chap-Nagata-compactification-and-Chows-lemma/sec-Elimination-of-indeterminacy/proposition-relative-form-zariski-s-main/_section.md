@@ -2,7 +2,7 @@
 id = "proposition-relative-form-zariski-s-main"
 kind = "proposition"
 title = "The relative form of Zariski's Main Theorem"
-order = 1435
+order = 1438
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isAffineHom_of_locallyQuasiFinite", "AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite"]
 +++
 A separated, quasi-compact, locally quasi-finite morphism

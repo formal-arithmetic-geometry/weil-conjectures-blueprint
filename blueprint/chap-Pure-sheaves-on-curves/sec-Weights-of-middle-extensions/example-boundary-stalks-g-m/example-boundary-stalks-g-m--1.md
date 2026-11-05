@@ -3,7 +3,7 @@ id = "example-boundary-stalks-g-m--1"
 kind = "example"
 title = "Boundary stalks on $\\mathbf G_m\\subset\\mathbf A^1$ (1)"
 name_showing = false
-order = 1175001
+order = 1178001
 aliases = ["bp-r362-1"]
 +++
 Let $j:\mathbf G_{m,k_0}\hookrightarrow\mathbf A^1_{k_0}$ and $z=0$. The

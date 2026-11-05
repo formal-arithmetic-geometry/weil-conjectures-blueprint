@@ -2,7 +2,7 @@
 id = "lemma-universal-homeomorphism-base"
 kind = "lemma"
 title = "Universal homeomorphisms of the base"
-order = 578
+order = 579
 lean = ["AlgebraicGeometry.Etale.HasConstructibleDirectImageBaseChangeOn.of_isFinite_of_surjective"]
 +++
 Let $S$ be integral, let $j:X\hookrightarrow Y$ be an open immersion of

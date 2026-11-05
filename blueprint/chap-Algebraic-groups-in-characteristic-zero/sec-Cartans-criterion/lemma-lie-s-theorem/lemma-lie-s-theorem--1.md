@@ -3,7 +3,7 @@ id = "lemma-lie-s-theorem--1"
 kind = "lemma"
 title = "Lie's theorem (1)"
 name_showing = false
-order = 1728001
+order = 1731001
 aliases = ["bp-r536-1"]
 +++
 A solvable Lie algebra acting on a nonzero vector space $M$ has a

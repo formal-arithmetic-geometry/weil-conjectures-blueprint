@@ -1,9 +1,8 @@
 +++
 id = "proposition-weights-under-usual-operations--13"
 kind = "proposition"
-title = "Shifts"
-order = 1070014
+title = "Frobenius of the Tate sheaf"
+order = 1073014
 aliases = ["bp-r329-13"]
 +++
-If a complex $K$ has weights at most
-$w$, then $K[r]$ has weights at most $w+r$.
+The Tate sheaf $\overline{\mathbf Q}_\ell(1)$ has geometric Frobenius $q^{-1}$.

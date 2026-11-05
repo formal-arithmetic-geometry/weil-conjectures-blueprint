@@ -3,7 +3,7 @@ id = "lemma-base-change-cone-x-z--1"
 kind = "lemma"
 title = "Base change for the cone of $\\tau_{X,Z}$ (1)"
 name_showing = false
-order = 1630001
+order = 1633001
 aliases = ["bp-r506-1"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,

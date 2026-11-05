@@ -2,7 +2,7 @@
 id = "proposition-integral-trace-formula"
 kind = "proposition"
 title = "Integral trace formula"
-order = 1010
+order = 1011
 +++
 Let $K\in\Dbc(X,\mathcal O_E)$ and let $\theta:\Phi_X^*K\to K$ be any
 morphism, that is, a Frobenius correspondence with integral coefficients. Define its iterates $\theta_m$, the

@@ -2,7 +2,7 @@
 id = "prose-12-33"
 kind = "hidden"
 title = "Rationality and the functional equation (6)"
-order = 1046
+order = 1047
 +++
 For the elliptic curve of Example [example-running-example-trace-formula] we have $d=1$ and
 $b_0=b_2=1$, $b_1=2$. So $\chi=0$ and $D=\det(F_1)^{-1}\det(F_2)=3/3=1$.

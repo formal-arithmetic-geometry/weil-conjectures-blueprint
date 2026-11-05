@@ -2,7 +2,7 @@
 id = "prose-09-13"
 kind = "hidden"
 title = "Finite coefficients (3)"
-order = 750
+order = 751
 +++
 The orientation of $\omega_f$ will be the comparison (9.13)
 for the diagonal. Two things have to be checked about it: on a coordinate

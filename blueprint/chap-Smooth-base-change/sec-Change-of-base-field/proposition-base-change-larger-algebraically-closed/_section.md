@@ -2,7 +2,7 @@
 id = "proposition-base-change-larger-algebraically-closed"
 kind = "proposition"
 title = "Base change to a larger algebraically closed field"
-order = 687
+order = 688
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum.isZero_higherDirectImage_constantSheaf"]
 uses = ["lemma-reduction-curve-over-normal-base"]
 +++

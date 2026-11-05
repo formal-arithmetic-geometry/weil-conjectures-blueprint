@@ -2,7 +2,7 @@
 id = "situation-weil"
 kind = "hidden"
 title = "Convention"
-order = 1055
+order = 1056
 +++
 **Convention.** Put $k_0=\mathbf F_q$, $k=\overline{\mathbf F}_q$, and fix a prime
 $\ell\nmid q$ and a field embedding $\iota:\overline{\mathbf Q}_\ell\hookrightarrow\mathbf C$.

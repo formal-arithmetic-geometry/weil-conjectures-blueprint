@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-cycle-class-cartier-divisor"
-order = 543
+order = 544
 uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "definition-underived-base-change-map", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 The map $c_D$ will be the boundary map of the extension of
@@ -26,7 +26,7 @@ a short exact sequence of abelian sheaves on $Z_{\acute{e}t}$
 $$
 \Sigma_D:\ 0\longrightarrow\mathbf G_m\longrightarrow \mathcal M_D
 \longrightarrow i_*\mathbf Z_D\longrightarrow0,
-\tag{6.1}
+\tag{6.3}
 $$
 
 whose exactness can be checked on geometric stalks. Away from $D$, the function $t$ is a unit, so there $\mathcal M_D=\mathbf G_m$, and both the

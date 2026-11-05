@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-exceptional-inverse-image"
-order = 619
+order = 620
 +++
 Part (1) is Lemma [lemma-hypotheses-brown-representability]. Its
 compactness statement was proved separately for each kind of coefficient

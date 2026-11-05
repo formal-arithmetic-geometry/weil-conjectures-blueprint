@@ -3,7 +3,7 @@ id = "corollary-determinant-weights--1"
 kind = "corollary"
 title = "Determinant weights (1)"
 name_showing = false
-order = 1111001
+order = 1114001
 aliases = ["bp-r341-1"]
 +++
 Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth

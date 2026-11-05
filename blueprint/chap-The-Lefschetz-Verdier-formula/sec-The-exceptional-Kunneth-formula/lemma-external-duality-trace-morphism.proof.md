@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-external-duality-trace-morphism"
-order = 911
-uses = ["proposition-w-local-components", "definition-tate-twists", "lemma-flat-models-generators", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-finite-coefficients", "lemma-base-change-along-product-projection", "definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients", "theorem-sp-qbar", "proposition-compatibility-purity-base-change", "definition-trace-map", "lemma-internal-adjunction-two-exchange-formulas", "theorem-verdier-biduality", "proposition-exceptional-external-kunneth"]
+order = 912
+uses = ["proposition-w-local-components", "definition-tate-twists", "lemma-flat-models-generators", "proposition-composition-base-change-rf-shriek", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-f-shriek-finite-coefficients", "lemma-base-change-along-product-projection", "definition-exceptional-base-change-map", "theorem-smooth-purity-all-admissible-coefficients", "theorem-sp-qbar", "proposition-compatibility-purity-base-change", "definition-trace-map", "lemma-internal-adjunction-two-exchange-formulas", "theorem-verdier-biduality", "proposition-exceptional-external-kunneth"]
 +++
 The exceptional Künneth formula
 (Proposition [proposition-exceptional-external-kunneth]) and the ordinary one

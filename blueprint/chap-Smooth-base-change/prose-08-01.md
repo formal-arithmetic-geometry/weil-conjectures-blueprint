@@ -2,7 +2,7 @@
 id = "prose-08-01"
 kind = "hidden"
 title = "Smooth base change"
-order = 657
+order = 658
 +++
 To construct the trace classes in the trace formula we need the Künneth
 formula for ordinary direct images,

@@ -2,7 +2,7 @@
 id = "prose-11-01"
 kind = "hidden"
 title = "The Lefschetz–Verdier formula"
-order = 890
+order = 891
 +++
 The trace formula has to express the trace of Frobenius on $R\Gamma_c(X,K)$ as a
 sum over the fixed points of Frobenius, that is, over $X_0(\mathbf F_{q^m})$. We

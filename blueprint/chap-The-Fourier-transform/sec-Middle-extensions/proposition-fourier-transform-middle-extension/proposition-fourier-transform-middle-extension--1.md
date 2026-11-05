@@ -3,7 +3,7 @@ id = "proposition-fourier-transform-middle-extension--1"
 kind = "proposition"
 title = "The Fourier transform of a middle extension (1)"
 name_showing = false
-order = 1264001
+order = 1267001
 aliases = ["bp-r391-1"]
 +++
 Suppose that $M$ is nonzero and irreducible, and that none of its

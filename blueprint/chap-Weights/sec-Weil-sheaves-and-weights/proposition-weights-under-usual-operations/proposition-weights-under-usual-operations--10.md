@@ -1,8 +1,9 @@
 +++
 id = "proposition-weights-under-usual-operations--10"
 kind = "proposition"
-title = "Purity under inverse image"
-order = 1070011
+title = "Shifts"
+order = 1073011
 aliases = ["bp-r329-10"]
 +++
-Inverse image preserves purity and its weight.
+If a complex $K$ has weights at most
+$w$, then $K[r]$ has weights at most $w+r$.

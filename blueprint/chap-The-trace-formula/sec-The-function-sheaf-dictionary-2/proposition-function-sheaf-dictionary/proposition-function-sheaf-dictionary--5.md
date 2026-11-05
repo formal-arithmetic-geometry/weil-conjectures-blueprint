@@ -3,7 +3,7 @@ id = "proposition-function-sheaf-dictionary--5"
 kind = "proposition"
 title = "The function–sheaf dictionary (5)"
 name_showing = false
-order = 1028006
+order = 1029006
 aliases = ["bp-r315-5"]
 +++
 $\sum_{x\in X_0(\mathbf F_{q^m})}t_{K,m}(x)

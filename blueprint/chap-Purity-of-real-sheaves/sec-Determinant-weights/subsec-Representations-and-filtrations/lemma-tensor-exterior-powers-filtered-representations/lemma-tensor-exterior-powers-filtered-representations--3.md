@@ -3,7 +3,7 @@ id = "lemma-tensor-exterior-powers-filtered-representations--3"
 kind = "lemma"
 title = "Tensor and exterior powers of filtered representations (3)"
 name_showing = false
-order = 1124003
+order = 1127003
 aliases = ["bp-r345-3"]
 +++
 The simple factors of $V\otimes V'$ and $\bigwedge^rV$, counted with

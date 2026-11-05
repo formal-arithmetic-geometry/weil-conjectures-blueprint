@@ -3,7 +3,7 @@ id = "lemma-injectivity-base-change-map-degree--1"
 kind = "lemma"
 title = "Injectivity of the base change map in degree $q$ (1)"
 name_showing = false
-order = 672001
+order = 673001
 aliases = ["bp-r202-1"]
 +++
 Suppose $q\geq1$ and $\mathrm{BC}(g,n,q-1)$ holds. For every square

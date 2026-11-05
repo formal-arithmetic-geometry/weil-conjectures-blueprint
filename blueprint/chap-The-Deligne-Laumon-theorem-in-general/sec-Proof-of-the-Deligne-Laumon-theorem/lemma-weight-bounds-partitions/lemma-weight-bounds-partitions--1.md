@@ -3,7 +3,7 @@ id = "lemma-weight-bounds-partitions--1"
 kind = "lemma"
 title = "Weight bounds and partitions (1)"
 name_showing = false
-order = 1352002
+order = 1355002
 aliases = ["bp-r418-1"]
 +++
 Let $j:U_0\to X_0$ be an open immersion with closed complement

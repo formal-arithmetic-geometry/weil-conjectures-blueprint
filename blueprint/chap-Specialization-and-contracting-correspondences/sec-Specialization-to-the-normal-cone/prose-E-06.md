@@ -2,7 +2,7 @@
 id = "prose-E-06"
 kind = "hidden"
 title = "Specialization to the normal cone (5)"
-order = 1629
+order = 1632
 +++
 Theorem [theorem-verdier-s-theorem-specialization-zero] asserts that $\tau_{X,Z}$ is an
 isomorphism, that is, that the cofibre

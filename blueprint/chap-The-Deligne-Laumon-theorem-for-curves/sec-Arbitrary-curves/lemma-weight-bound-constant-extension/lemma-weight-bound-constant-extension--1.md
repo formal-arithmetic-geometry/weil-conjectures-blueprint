@@ -3,7 +3,7 @@ id = "lemma-weight-bound-constant-extension--1"
 kind = "lemma"
 title = "Weight bounds and finite constant extensions (1)"
 name_showing = false
-order = 1303001
+order = 1306001
 aliases = ["bp-r403-1"]
 +++
 Let $X_0$ be a separated scheme of finite type over $k_0$, let $F$ be a

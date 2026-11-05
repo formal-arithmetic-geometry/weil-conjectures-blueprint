@@ -2,7 +2,7 @@
 id = "lemma-bounding-weights-mixed-sheaf"
 kind = "lemma"
 title = "Bounding the weights of a mixed sheaf"
-order = 1062
+order = 1063
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.hasWeightsAtMost"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++

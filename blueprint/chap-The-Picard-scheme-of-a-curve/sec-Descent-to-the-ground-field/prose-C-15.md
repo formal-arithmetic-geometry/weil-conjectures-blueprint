@@ -2,7 +2,7 @@
 id = "prose-C-15"
 kind = "hidden"
 title = "Descent to the ground field (1)"
-order = 1561
+order = 1564
 +++
 To compare the Galois action on the cohomology of a curve over $\bar k$
 with a Tate module, we need the Jacobian over the ground field $k$.

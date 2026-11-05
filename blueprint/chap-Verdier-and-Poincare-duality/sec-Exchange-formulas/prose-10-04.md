@@ -2,7 +2,7 @@
 id = "prose-10-04"
 kind = "hidden"
 title = "Exchange formulas (3)"
-order = 828
+order = 829
 +++
 On the geometric point we have $\omega_s=\Lambda_s$, so $\delta$ is the
 evaluation map of Lemma [lemma-perfect-complexes-geometric-point].

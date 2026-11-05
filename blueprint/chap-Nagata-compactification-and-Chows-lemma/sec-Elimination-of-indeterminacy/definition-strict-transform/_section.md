@@ -2,7 +2,7 @@
 id = "definition-strict-transform"
 kind = "definition"
 title = "Strict transform"
-order = 1428
+order = 1431
 lean = ["AlgebraicGeometry.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι"]
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up"]
 +++

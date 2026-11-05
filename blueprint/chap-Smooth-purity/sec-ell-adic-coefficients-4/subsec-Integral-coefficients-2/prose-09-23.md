@@ -2,7 +2,7 @@
 id = "prose-09-23"
 kind = "hidden"
 title = "Integral coefficients (3)"
-order = 778
+order = 779
 +++
 All operations on towers are defined levelwise, and the functor $Rg_*$ is
 computed levelwise as well, since an injective tower is levelwise a summand

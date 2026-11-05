@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-closed-piece-pushforward"
-order = 940
+order = 941
 +++
 The maps $\alpha$ and $\beta$ of
 Definition [definition-pushforward-correspondence] are here

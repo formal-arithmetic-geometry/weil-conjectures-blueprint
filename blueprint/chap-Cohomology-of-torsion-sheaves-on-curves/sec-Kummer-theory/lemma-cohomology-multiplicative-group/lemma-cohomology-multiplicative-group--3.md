@@ -2,7 +2,7 @@
 id = "lemma-cohomology-multiplicative-group--3"
 kind = "lemma"
 title = "Naturality under restriction"
-order = 1571004
+order = 1574004
 aliases = ["bp-r490-3"]
 +++
 The preceding identifications are natural under restriction.

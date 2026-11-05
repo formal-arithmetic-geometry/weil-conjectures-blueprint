@@ -3,7 +3,7 @@ id = "proposition-smooth-proper-curves-torsion-prime--4"
 kind = "proposition"
 title = "Smooth proper curves, torsion prime to the characteristic (4)"
 name_showing = false
-order = 1574004
+order = 1577004
 aliases = ["bp-r491-4"]
 +++
 $$

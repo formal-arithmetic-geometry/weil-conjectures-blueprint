@@ -3,7 +3,7 @@ id = "lemma-nearby-duality-proper-direct-image--1"
 kind = "lemma"
 title = "Duality for nearby cycles and proper direct image (1)"
 name_showing = false
-order = 1673001
+order = 1676001
 aliases = ["bp-r520-1"]
 +++
 Let $f:X\to Y$ be a proper morphism of separated $S$-schemes of finite

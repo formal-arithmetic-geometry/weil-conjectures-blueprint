@@ -3,7 +3,7 @@ id = "lemma-fourier-transform-boundary-sequence--1"
 kind = "lemma"
 title = "Fourier transform of the boundary sequence (1)"
 name_showing = false
-order = 1273001
+order = 1276001
 aliases = ["bp-r393-1"]
 +++
 Put $B=j_*M/j_!M$. There are sheaves $G$ and $B'$ on the dual line such

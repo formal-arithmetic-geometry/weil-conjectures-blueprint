@@ -2,7 +2,7 @@
 id = "example-duality-multiplicative-group"
 kind = "example"
 title = "Duality on the punctured line"
-order = 887
+order = 888
 +++
 Let $X_0=\mathbf G_{m,\mathbf F_q}$, with coordinate $t$, let $X$ be its base
 change to $k$, and let $\Lambda=\overline{\mathbf Q}_\ell$, with the constant Weil sheaf. Since

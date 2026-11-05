@@ -3,7 +3,7 @@ id = "proposition-cohomology-smooth-affine-curve--4"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve (4)"
 name_showing = false
-order = 1579004
+order = 1582004
 aliases = ["bp-r493-4"]
 +++
 and

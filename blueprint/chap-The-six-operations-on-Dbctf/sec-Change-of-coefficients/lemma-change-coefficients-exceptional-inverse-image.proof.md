@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients-exceptional-inverse-image"
-order = 641
+order = 642
 +++
 Since $f^!$ is only known through its adjunction, there is no formula into
 which we could substitute $K_{\Lambda'}$ directly. Instead we show that

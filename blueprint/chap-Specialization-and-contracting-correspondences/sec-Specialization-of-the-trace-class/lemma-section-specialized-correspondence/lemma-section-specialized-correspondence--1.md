@@ -3,7 +3,7 @@ id = "lemma-section-specialized-correspondence--1"
 kind = "lemma"
 title = "The section defined by the specialized correspondence (1)"
 name_showing = false
-order = 1689001
+order = 1692001
 aliases = ["bp-r525-1"]
 +++
 In the setting above,

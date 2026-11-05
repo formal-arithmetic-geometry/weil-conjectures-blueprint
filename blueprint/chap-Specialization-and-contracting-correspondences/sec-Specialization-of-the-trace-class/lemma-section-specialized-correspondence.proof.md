@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-section-specialized-correspondence"
-order = 1690
+order = 1693
 +++
 After taking tensor–Hom adjoints, we factor the ordinary
 comparison map through $c_2=p_2c$ and the exceptional comparison map

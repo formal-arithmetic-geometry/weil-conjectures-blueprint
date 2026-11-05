@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-cohomology-smooth-affine-curve"
-order = 1580
+order = 1583
 uses = ["definition-constructible-sheaves", "definition-underived-base-change-map", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve", "lemma-representability-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 By the Kummer sequence, the vanishing above degree one follows from the

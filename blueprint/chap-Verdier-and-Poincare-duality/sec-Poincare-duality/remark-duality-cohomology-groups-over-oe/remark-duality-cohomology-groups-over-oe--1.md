@@ -3,7 +3,7 @@ id = "remark-duality-cohomology-groups-over-oe--1"
 kind = "remark"
 title = "Duality on cohomology groups over $\\mathcal O_E$ and finite rings (1)"
 name_showing = false
-order = 862001
+order = 863001
 aliases = ["bp-r259-1"]
 +++
 Over $\mathcal O_E$, derived duality gives only the natural

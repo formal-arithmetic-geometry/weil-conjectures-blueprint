@@ -3,7 +3,7 @@ id = "proposition-sp-tower-geometric"
 kind = "proposition"
 title = "The adjunction $Rf_!\\dashv f^!$ on constructible towers"
 name_showing = false
-order = 779
+order = 780
 +++
 There is an adjunction
 

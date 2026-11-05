@@ -3,7 +3,7 @@ id = "lemma-tensor-exterior-powers-filtered-representations--1"
 kind = "lemma"
 title = "Tensor and exterior powers of filtered representations (1)"
 name_showing = false
-order = 1124001
+order = 1127001
 aliases = ["bp-r345-1"]
 +++
 Suppose $V$ and $V'$ have composition factors $A_1,\ldots,A_t$ and

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-universal-homeomorphism-base"
-order = 579
+order = 580
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "definition-compactification-refinement"]
 +++
 A finite universal homeomorphism is a homeomorphism of underlying spaces,

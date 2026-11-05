@@ -2,7 +2,7 @@
 id = "prose-11-18"
 kind = "hidden"
 title = "Additivity of trace classes (3)"
-order = 935
+order = 936
 +++
 To apply this to an open subscheme $U$ and its closed
 complement $Z$, we must lift $u$ to the localization triangle. For

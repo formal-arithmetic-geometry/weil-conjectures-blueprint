@@ -3,7 +3,7 @@ id = "lemma-connected-components-images-homomorphisms--3"
 kind = "lemma"
 title = "Connected components and images of homomorphisms (3)"
 name_showing = false
-order = 1720004
+order = 1723004
 aliases = ["bp-r534-3"]
 +++
 If $G$ is connected and $K\subseteq G$ is a closed subgroup scheme

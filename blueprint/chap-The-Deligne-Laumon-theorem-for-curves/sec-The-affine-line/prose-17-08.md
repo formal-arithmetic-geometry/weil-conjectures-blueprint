@@ -2,7 +2,7 @@
 id = "prose-17-08"
 kind = "hidden"
 title = "The affine line (2)"
-order = 1293
+order = 1296
 +++
 For $F$ pure lisse of weight $w$, the pairing shows that
 $(R^1j_*F)_{\bar s}$ has weights at least $w+2$. Indeed, it puts this

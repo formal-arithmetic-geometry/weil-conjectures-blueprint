@@ -2,7 +2,7 @@
 id = "lemma-filtered-trace-morphism"
 kind = "lemma"
 title = "Filtered trace morphism"
-order = 933
+order = 934
 +++
 Let $c:C\to X\times X$ be a correspondence and let $\mathcal K$ be a
 finitely filtered complex on $X$ with underlying complex $K$ and graded

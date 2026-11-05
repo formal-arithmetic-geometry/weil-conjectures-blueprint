@@ -3,7 +3,7 @@ id = "example-biduality-punctured-line--2"
 kind = "example"
 title = "The dual of $j_!\\Lambda$ on the line (2)"
 name_showing = false
-order = 833002
+order = 834002
 aliases = ["bp-r249-2"]
 +++
 $$

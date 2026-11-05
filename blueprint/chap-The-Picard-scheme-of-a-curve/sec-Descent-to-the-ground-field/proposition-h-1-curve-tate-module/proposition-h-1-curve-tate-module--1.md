@@ -3,7 +3,7 @@ id = "proposition-h-1-curve-tate-module--1"
 kind = "proposition"
 title = "$H^1$ of a curve and the Tate module of its Jacobian (1)"
 name_showing = false
-order = 1565001
+order = 1568001
 aliases = ["bp-r489-1"]
 +++
 In the preceding setting, suppose $\ell$ is invertible in $k$.

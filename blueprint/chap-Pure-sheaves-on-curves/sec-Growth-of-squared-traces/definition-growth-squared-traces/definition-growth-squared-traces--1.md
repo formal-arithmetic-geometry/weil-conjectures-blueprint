@@ -3,7 +3,7 @@ id = "definition-growth-squared-traces--1"
 kind = "definition"
 title = "Growth of squared traces (1)"
 name_showing = false
-order = 1197001
+order = 1200001
 aliases = ["bp-r369-1"]
 +++
 Let $K$ be a constructible Weil complex on an affine curve $X_0$. For

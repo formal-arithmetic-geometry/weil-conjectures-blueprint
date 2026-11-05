@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-chow-s-lemma-projective-form"
-order = 1469
+order = 1472
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 We take the immersion into projective space given by the Stacks

@@ -3,7 +3,7 @@ id = "corollary-cup-product-pairing--3"
 kind = "corollary"
 title = "The cup product pairing (3)"
 name_showing = false
-order = 871003
+order = 872003
 aliases = ["bp-r262-3"]
 +++
 In

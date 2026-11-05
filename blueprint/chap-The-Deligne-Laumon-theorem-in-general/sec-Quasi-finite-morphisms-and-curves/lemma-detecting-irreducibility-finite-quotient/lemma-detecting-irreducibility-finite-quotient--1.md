@@ -3,7 +3,7 @@ id = "lemma-detecting-irreducibility-finite-quotient--1"
 kind = "lemma"
 title = "Detecting irreducibility in a finite quotient (1)"
 name_showing = false
-order = 1324001
+order = 1327001
 aliases = ["bp-r409-1"]
 +++
 Let $\Pi$ be profinite and let $\rho:\Pi\to\GL_E(V)$

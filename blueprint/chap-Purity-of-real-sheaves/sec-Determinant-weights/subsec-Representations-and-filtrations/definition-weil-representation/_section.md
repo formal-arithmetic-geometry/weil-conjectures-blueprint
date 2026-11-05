@@ -2,7 +2,7 @@
 id = "definition-weil-representation"
 kind = "definition"
 title = "Weil representation"
-order = 1119
+order = 1122
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse"]
 +++
 A *Weil representation* is a finite-dimensional

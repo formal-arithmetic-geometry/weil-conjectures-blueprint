@@ -2,7 +2,7 @@
 id = "example-functional-equation-projective-line"
 kind = "example"
 title = "The functional equation of the projective line"
-order = 1047
+order = 1048
 +++
 For $X_0=\mathbf P^1_{\mathbf F_q}$ we have $d=1$, $b_0=b_2=1$, $b_1=0$, so
 $\chi=2$, and $D=\det(F_0)\det(F_2)=1\cdot q=q$, so that $\varepsilon=1$. The

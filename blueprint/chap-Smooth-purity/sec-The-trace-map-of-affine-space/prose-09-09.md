@@ -2,7 +2,7 @@
 id = "prose-09-09"
 kind = "hidden"
 title = "The trace map of affine space (2)"
-order = 739
+order = 740
 +++
 The geometric computations with finite coefficients in
 Section [sec-Conventions-2] are stated on the pro-étale site

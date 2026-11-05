@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-additivity-trace-classes"
-order = 943
+order = 944
 uses = ["theorem-comparison-direct-images", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "lemma-change-coefficients", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-lift-correspondence-invariant-decomposition", "lemma-closed-piece-pushforward"]
 +++
 For (1), the section $A_C\to\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)$

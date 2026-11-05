@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-smooth-purity-finite-coefficients"
-order = 759
+order = 760
 uses = ["proposition-exceptional-inverse-image-smooth-morphism", "proposition-relative-dualizing-complex"]
 +++
 The calculation so far was made with coefficients $\mathbf Z/\ell^n\mathbf Z$,

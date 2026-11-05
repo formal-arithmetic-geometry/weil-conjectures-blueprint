@@ -2,7 +2,7 @@
 id = "lemma-twisted-envelope"
 kind = "lemma"
 title = "Twisting and adding the dual"
-order = 1277
+order = 1280
 +++
 Let $\mathcal A$ be lisse and pure of weight zero, and let $\mathcal L$
 be lisse of rank one with local eigenvalues of finite order. Then

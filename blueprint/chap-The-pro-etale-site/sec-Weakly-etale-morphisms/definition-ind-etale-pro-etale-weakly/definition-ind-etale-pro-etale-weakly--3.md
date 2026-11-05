@@ -7,12 +7,4 @@ order = 27003
 aliases = ["bp-r001-3"]
 +++
 A scheme morphism $u:U\to X$ is *weakly étale* if $u$ and its
-diagonal $\Delta_u:U\to U\times_XU$ are flat. On affine charts this
-means that both
-
-$$
-R\longrightarrow B,
-\qquad B\otimes_RB\longrightarrow B
-$$
-
-are flat.
+diagonal $\Delta_u:U\to U\times_XU$ are flat.

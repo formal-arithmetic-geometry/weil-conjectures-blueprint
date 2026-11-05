@@ -2,7 +2,7 @@
 id = "lemma-reduction-unipotent-local-system"
 kind = "lemma"
 title = "Reduction to a unipotent local system"
-order = 1610
+order = 1613
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_reduction"]
 +++
 Let $\ell$ be a prime, let $U$ be a connected scheme, and let $G$ be a finite classical

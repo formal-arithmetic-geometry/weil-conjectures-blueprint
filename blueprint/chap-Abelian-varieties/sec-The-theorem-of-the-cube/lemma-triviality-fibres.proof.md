@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-triviality-fibres"
-order = 1476
+order = 1479
 uses = ["definition-constructible-sheaves", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-chow-s-lemma-projective-form"]
 +++
 The proof uses only that $P_t$ is proper and integral with

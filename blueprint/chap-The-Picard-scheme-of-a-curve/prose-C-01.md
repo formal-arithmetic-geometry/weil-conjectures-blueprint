@@ -2,7 +2,7 @@
 id = "prose-C-01"
 kind = "hidden"
 title = "The Picard scheme of a curve"
-order = 1515
+order = 1518
 +++
 For a curve $C$ proper and connected over a separably closed field and
 $n$ invertible in that field, the Kummer sequence shows that

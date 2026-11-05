@@ -2,7 +2,7 @@
 id = "prose-A-18"
 kind = "hidden"
 title = "Elimination of indeterminacy (10)"
-order = 1445
+order = 1448
 +++
 The blow-up is not uniquely determined. However, on any such
 modification with $U$ schematically dense, the graph of the extension

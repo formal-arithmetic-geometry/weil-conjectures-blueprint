@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-pullback-multiplication-n"
-order = 1501
+order = 1504
 uses = ["theorem-theorem-cube", "lemma-abelian-variety-commutative"]
 +++
 The idea is to produce one

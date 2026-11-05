@@ -2,7 +2,7 @@
 id = "prose-08-04"
 kind = "hidden"
 title = "Torsion sheaves (2)"
-order = 663
+order = 664
 +++
 As for proper base change, we transport the problem to the étale site by
 the comparison theorems of Section [chap-The-pro-etale-site]. Since

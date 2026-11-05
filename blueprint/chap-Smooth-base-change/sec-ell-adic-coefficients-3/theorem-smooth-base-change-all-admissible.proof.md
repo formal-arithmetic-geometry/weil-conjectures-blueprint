@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible"
-order = 702
+order = 703
 uses = ["theorem-comparison-direct-images", "proposition-inverting-ell", "lemma-naturality-pasting-comparison", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion", "theorem-smooth-base-change-classical-torsion-2", "lemma-change-coefficients"]
 +++
 For finite rings the theorem is the torsion theorem once we know that $K$

@@ -2,7 +2,7 @@
 id = "prose-18-07"
 kind = "hidden"
 title = "Mixedness of real sheaves (2)"
-order = 1336
+order = 1339
 +++
 In the example above, after the quadratic extension the sheaf
 $g_*\mathcal K_\chi$ becomes the direct sum of the Kummer sheaves of

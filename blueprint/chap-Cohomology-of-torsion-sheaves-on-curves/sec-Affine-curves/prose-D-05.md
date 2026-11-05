@@ -2,7 +2,7 @@
 id = "prose-D-05"
 kind = "hidden"
 title = "Affine curves (2)"
-order = 1581
+order = 1584
 +++
 For the constant sheaf $\mathbf F_\ell$, with $\ell$ a prime different
 from $\operatorname{char}k$,

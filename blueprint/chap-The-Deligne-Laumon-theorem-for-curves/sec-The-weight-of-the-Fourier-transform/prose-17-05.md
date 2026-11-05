@@ -2,7 +2,7 @@
 id = "prose-17-05"
 kind = "hidden"
 title = "The weight of the Fourier transform (1)"
-order = 1283
+order = 1286
 +++
 By Proposition [proposition-purity-lisse-part-fourier-transform],
 $M'$ is pure of some weight $v$, and Plancherel now finds $v$. Purity had

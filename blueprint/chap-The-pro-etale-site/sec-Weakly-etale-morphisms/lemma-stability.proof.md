@@ -23,6 +23,13 @@ U\times_VU$ is the base change of $\Delta_{U/X}$ along the monomorphism
 $U\times_VU\to U\times_XU$, so it is flat as well. Finally, Zariski locality
 follows from the fact that flatness is Zariski local.
 
+On affine charts, the diagonal of
+$\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is the closed immersion
+$\operatorname{Spec}(B)\to\operatorname{Spec}(B\otimes_RB)$ given by the
+multiplication map, so the morphism is weakly étale exactly when
+$R\to B$ and $B\otimes_RB\to B$ are flat. By Zariski locality on source and
+target, this describes weakly étale morphisms on any affine charts.
+
 For ind-étale ring maps, base change is clear because tensor products
 commute with filtered colimits. For composition, let $R\to B$ and $B\to C$
 be ind-étale, with $B=\varinjlim_\alpha B_\alpha$. Each étale

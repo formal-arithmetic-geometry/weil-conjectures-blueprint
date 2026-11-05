@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-properties-trace"
-order = 896
+order = 897
 +++
 Everything follows from the chain formula, which we prove first by
 writing evaluation and coevaluation in a finite dual basis.

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-covers-degree-prime-to-ell"
-order = 983
+order = 984
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-compactification-refinement"]
 +++
 We take the fixed field of an $\ell$-Sylow subgroup of the monodromy, adjust

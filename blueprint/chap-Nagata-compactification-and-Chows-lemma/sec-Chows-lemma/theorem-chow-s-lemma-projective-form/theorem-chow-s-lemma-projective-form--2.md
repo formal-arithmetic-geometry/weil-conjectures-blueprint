@@ -3,7 +3,7 @@ id = "theorem-chow-s-lemma-projective-form--2"
 kind = "theorem"
 title = "Chow's lemma, projective form (2)"
 name_showing = false
-order = 1468002
+order = 1471002
 aliases = ["bp-r457-2"]
 +++
 Moreover,

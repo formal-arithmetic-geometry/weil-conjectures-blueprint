@@ -2,7 +2,7 @@
 id = "prose-C-06"
 kind = "hidden"
 title = "Riemann–Roch and Serre duality (2)"
-order = 1526
+order = 1529
 +++
 For $C=\mathbf P^1_k$ and $\mathcal L=\mathcal O(d)$ with $d\geq0$, the
 sections are the binary forms of degree $d$, a space of dimension
@@ -17,7 +17,8 @@ divisor of zeros. Hence an invertible sheaf of negative degree has no
 nonzero section. If $\deg\mathcal L>2g-2$, then
 $\omega_{C/k}\otimes\mathcal L^{-1}$ has negative degree, and
 $H^1(C,\mathcal L)=0$ by duality. The dimension formula then follows from
-Riemann–Roch.
+Riemann–Roch. For $\mathcal L=\mathcal O_C$ the duality gives
+$\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$.
 
 The Picard scheme is constructed over a separably closed field, but its
 points are tested over arbitrary extensions. Hence Riemann–Roch and

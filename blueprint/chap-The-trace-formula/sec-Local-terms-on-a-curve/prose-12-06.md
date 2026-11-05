@@ -2,7 +2,7 @@
 id = "prose-12-06"
 kind = "hidden"
 title = "Local terms on a curve (1)"
-order = 957
+order = 958
 +++
 The local terms of the trace formula live on the fixed point scheme
 $\Fix(\Phi_X^m)=\Fix(c_m)$ of the graph $c_m$. More precisely, a local term is defined on each open and closed part of this scheme that is proper over $k$. The next lemma

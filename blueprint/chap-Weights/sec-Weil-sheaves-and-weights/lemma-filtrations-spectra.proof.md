@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-filtrations-spectra"
-order = 1068
+order = 1069
 +++
 In a basis adapted to the filtration, the matrix of $u$ is block upper
 triangular, so its characteristic polynomial is the product of those

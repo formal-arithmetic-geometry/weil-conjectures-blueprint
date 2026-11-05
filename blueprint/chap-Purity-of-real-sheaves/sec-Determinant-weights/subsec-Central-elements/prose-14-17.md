@@ -2,7 +2,7 @@
 id = "prose-14-17"
 kind = "hidden"
 title = "Central elements (3)"
-order = 1132
+order = 1135
 +++
 For example, for $V=\mathcal B_b$ of Proposition [proposition-weights-under-usual-operations]
 the group $H$ is trivial. Hence $\rho(s)=b$ is central in $G$, and the

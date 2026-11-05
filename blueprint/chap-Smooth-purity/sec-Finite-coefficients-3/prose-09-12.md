@@ -2,7 +2,7 @@
 id = "prose-09-12"
 kind = "hidden"
 title = "Finite coefficients (2)"
-order = 746
+order = 747
 +++
 It comes with a smooth morphism
 $\widetilde g:\mathcal D_{s(S)}V\to\mathbf A^1_S$ and a section
