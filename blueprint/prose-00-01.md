@@ -29,8 +29,7 @@ of sheaves. We follow Laumon's proof: fibring by curves reduces the theorem to
 curves, where the $\ell$-adic Fourier transform and a positivity argument that
 Deligne took from Rankin bound the weights.
 
-The notes grew out of the blueprint of a Lean formalization of the Weil
-conjectures [weil-blueprint]. Like the blueprint, they quote some
+The documents speak some of the most important definitions and theorems in our lean formalization. They quote some
 foundational results from algebraic geometry and from étale cohomology with
 torsion coefficients, each stated precisely. We assume a first course in
 algebraic geometry and some familiarity with derived categories and singular
