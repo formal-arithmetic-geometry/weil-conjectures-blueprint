@@ -117,7 +117,7 @@ export function render(root, app) {
   const known = app.knownIds();
   const entries = M.documentPageEntries(outline, pageId, shown);
 
-  // Cross references in the prose read "Lemma 2.3.1" in this order's numbers,
+  // Cross references in the prose read "Lemma 2.3" in this order's numbers,
   // and stay in the paper: they lead to the level of the entry, as its heading
   // does.  A reader who wants the object page has the "object" link beside the
   // entry's heading for that.  Objects the document does not number keep their
@@ -192,7 +192,10 @@ export function render(root, app) {
   //
   // The numbers come with the outline; building the sections is chunked and
   // the prose inside them is deferred until it is scrolled to.
+  let previous = null; // the entry built last, for a proof right after its statement
   const build = (entry) => {
+    const before = previous;
+    previous = entry;
     const o = entry.object;
     // A piece of text belonging to no statement (the lines that open a
     // section, a paragraph between two lemmas) is read where it stands: its
@@ -216,6 +219,17 @@ export function render(root, app) {
       flow.appendChild(text);
       return;
     }
+    // A proof read in its section (`M.proofPlacement`) is set as any proof is:
+    // "Proof." right after its statement, and where it is read away from it,
+    // "Proof of Theorem 2.1.".  No heading, no number, not in the contents.
+    if (entry.proof) {
+      if (entry.duplicate) return; // read once, where it is placed
+      const of = M.attachedTo(o);
+      const right = before && before.object.id === of;
+      flow.appendChild(proofBlock(app, o, outline, known, refs,
+        right ? M.proofLeadRest(o) : M.proofLeadAway(m, outline, o)));
+      return;
+    }
     const num = entry.number;
     const isHead = entry === pageEntry;
     const rel = isHead ? -1 : entry.depth - base;
@@ -229,26 +243,27 @@ export function render(root, app) {
     const prog = app.showProgress ? M.progressMixOf(m, kind, o.id) : null;
 
     // Sections are headings; everything else is a numbered statement in the
-    // way a paper sets one: "Definition 1.2.14 (Title)." with the kind as the
+    // way a paper sets one: "Definition 1.14 (Title)." with the kind as the
     // lead word, and the body indented under it.  The heading, kind, number
     // and title, is one link, to this very place on this page: clicked, it
     // stays here, scrolled to the top (the handler above), whatever entry it
-    // is; the page's own heading too.  "Read 1.2 →" beside it leads on.
+    // is; the page's own heading too.  "Show details 1.2 →" beside it
+    // leads on.
     const isSection = M.isSectionKind(o.kind);
     const head = el('div.head',
       el('h' + hLevel, el('a.doc-title', { href: href(pageId, o.id), 'data-here': o.id },
         isSection ? null : [el('span.kindword', M.kindWord(o.kind)), ' '],
-        el('span.num', num), ' ',
+        numbered(el, num, o.kind),
         el('span.doc-title-text', M.titleOf(o)))),
       // An entry whose children are on a page of their own leads on there,
       // beside its title.
-      leadsOn ? el('a.doc-open', { href: href(o.id) }, 'Read ', num, ' →') : null,
+      leadsOn ? el('a.doc-open', { href: href(o.id) }, 'Show details ', num == null ? M.titleOf(o) : num, ' →') : null,
       // The heading leads into the paper; the object page is a step aside.
       // Resting on the link shows the object's Lean names, when it has any,
       // in a card (preview.js), so the heading keeps one word.
       el('a.doc-object', {
         href: app.objectHref(o.id),
-        title: 'the object page of ' + num,
+        title: 'the object page of ' + (num == null ? M.titleOf(o) : num),
         'data-lean': M.leanNamesOf(o).length ? o.id : null,
       }, 'object'),
       isSection ? null : app.kindBadge(o.kind),
@@ -279,7 +294,7 @@ export function render(root, app) {
       // Written out once, under its first parent; here it is a pointer there.
       const first = outline.byId.get(o.id);
       const where = first.parent
-        ? [first.parent.number, ' ', M.titleOf(first.parent.object)]
+        ? [numbered(null, first.parent.number, first.parent.object.kind), M.titleOf(first.parent.object)]
         : ['the top level'];
       const back = el('p.muted.small', 'Written out under ',
         el('a', { href: levelHref(o.id) }, ...where), '.');
@@ -392,10 +407,10 @@ function breadcrumbs(app, outline, pageEntry, href) {
     el('a', { href: href(null) }, m.project.title || m.project.name || 'Contents'),
     ...chain.map((e) => [
       el('span.sep', '›'),
-      el('a', { href: href(e.id) }, e.number, ' ', M.titleOf(e.object)),
+      el('a', { href: href(e.id) }, numbered(null, e.number, e.object.kind), M.titleOf(e.object)),
     ]),
     el('span.sep', '›'),
-    el('span.here', pageEntry.number, ' ', M.titleOf(pageEntry.object)));
+    el('span.here', numbered(null, pageEntry.number, pageEntry.object.kind), M.titleOf(pageEntry.object)));
   app.renderMath(nav);
   return nav;
 }
@@ -404,12 +419,17 @@ function breadcrumbs(app, outline, pageEntry, href) {
 function pager(app, outline, pageEntry, href) {
   const { el } = app;
   if (!pageEntry) return null;
+  // Its neighbours in its own layer, as its number counts them: a heading's
+  // among the headings, a statement's among the statements.  Section 4.1 is
+  // the first of chapter 4's sections, and has no previous one, whatever
+  // statements stand before it in the chapter.
+  const heading = M.isSectionKind(pageEntry.object.kind);
   const siblings = (pageEntry.parent ? pageEntry.parent.children : outline.roots)
-    .filter((e) => !e.duplicate && !e.text);
+    .filter((e) => !e.duplicate && !e.text && !e.proof && M.isSectionKind(e.object.kind) === heading);
   const i = siblings.indexOf(pageEntry);
   const prev = i > 0 ? siblings[i - 1] : null;
   const next = i >= 0 && i + 1 < siblings.length ? siblings[i + 1] : null;
-  const label = (e) => [el('span.num', e.number), ' ', M.titleOf(e.object)];
+  const label = (e) => [numbered(el, e.number, e.object.kind), M.titleOf(e.object)];
   const nav = el('nav.doc-pager',
     prev ? el('a.prev', { href: href(prev.id), rel: 'prev' }, '← ', ...label(prev)) : el('span'),
     el('a.up', { href: href(pageEntry.parent ? pageEntry.parent.id : null) },
@@ -516,13 +536,11 @@ function stepBlock(app, o, outline, known, refs, seen = new Set()) {
 /** A proof, set after its statement as a paper sets it: "Proof." run in,
  *  the prose, the steps filed under it, and an end mark; it folds away with
  *  the reader's "Fold proofs". */
-function proofBlock(app, o, outline, known, refs) {
+function proofBlock(app, o, outline, known, refs, rest = M.proofLeadRest(o)) {
   const { el } = app;
-  const rest = M.proofLeadRest(o);
-  // The lead words link to the proof's object page, as a statement's title
-  // links to the statement's.
-  const head = el('span.proof-word-wrap',
-    el('a.objlink.proof-word', { href: app.objectHref(o.id) }, 'Proof' + rest));
+  // The lead words are the disclosure's summary: a click on them folds or
+  // unfolds the proof, rather than leaving the page.
+  const head = el('span.proof-word-wrap', el('span.proof-word', 'Proof' + rest));
   if (rest !== '.') app.renderMath(head);
   const body = el('div.proof-body');
   if (o.body && o.body.trim()) {
@@ -549,21 +567,38 @@ function proofBlock(app, o, outline, known, refs) {
  * 1.2, …, and the sidebar 1 as a heading over 1.1, with 1.1.1, 1.1.2, … under
  * it, then 1.2, ….
  *
+ * The Outline style (`toc-outline`) has the contents unfolded down to the
+ * level instead: every level along the chain listed whole, so on the page of
+ * 2.1 the sidebar is 1, 2, 3, … with 2 unfolded on 2.1, 2.2, …, and 2.1 on
+ * 2.1.1, 2.1.2, ….  There a click on the page's own entry folds its entries
+ * away, and another unfolds them again.
+ *
+ * Either way it lists only the headings, chapters, sections and subsections,
+ * as the contents page does; a statement is read on the page its heading
+ * leads to, and a focus on one opens that heading.
+ *
  * Every entry, in the list or in the chain, leads to the page it heads, as
  * the contents do (`pageHref`): chapter 2 to the page of 2 with 2.1, 2.2, ….
- * Something with nothing under it heads no page and leads to the page it is
+ * A heading with nothing under it heads no page and leads to the page it is
  * read on, scrolled to it and opened; when that is this page the sidebar only
  * scrolls the page there.  The page's own entry scrolls to the top.
  */
 function levelSidebar(app, outline, pageEntry, focus, pageHref, toc) {
   const { el, clear } = app;
   const pageId = pageEntry ? pageEntry.id : null;
-  const kids = (e) => (e ? e.children : outline.roots).filter((c) => !c.duplicate && !c.text);
-  const listed = (e) => !!e && !e.duplicate && !e.text;
-  // What the page is scrolled to: an entry below it opens there; a step or
-  // a proof stands for what it is filed under.
+  // The contents unfolded, every level whole (the Outline style), and whether
+  // the reader has folded the page's own entries away there.
+  const whole = toc.classList.contains('toc-outline');
+  let shut = false;
+  // Only the headings have rows, as on the contents page (`M.isContentsEntry`):
+  // the statements are read on the pages they lead to.
+  const listed = (e) => M.isContentsEntry(e) && !e.duplicate;
+  const kids = (e) => (e ? e.children : outline.roots).filter(listed);
+  // What the page is scrolled to: the heading it is under opens there; a
+  // step or a proof stands for what it is filed under.
   const fid = focus && outline.stepOf.has(focus) ? outline.stepOf.get(focus) : focus;
-  const f = fid ? outline.byId.get(fid) : null;
+  let f = fid ? outline.byId.get(fid) : null;
+  while (f && !listed(f)) f = f.parent;
   const below = (e) => {
     for (let p = e.parent; p; p = p.parent) if (p === pageEntry) return true;
     return pageEntry === null;
@@ -595,20 +630,51 @@ function levelSidebar(app, outline, pageEntry, focus, pageHref, toc) {
     if (!t) return;
     ev.preventDefault();
     t.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (e === pageEntry) return;
+    if (e === pageEntry) {
+      if (whole && kids(e).length) {
+        shut = !shut;
+        draw();
+        const a = toc.querySelector('a[data-id="' + e.id + '"]');
+        if (a && typeof a.focus === 'function') a.focus({ preventScroll: true });
+      }
+      return;
+    }
     level = e.parent;
     opened = e;
     redraw(e, e.id);
   };
   const item = (e, cls) => el('li', {
     class: cls + (kids(e).length ? ' has-kids' : '') + (e === pageEntry ? ' current' : '') +
-      (e === opened ? ' open' : ''),
+      (e === opened ? ' open' : '') + (e === pageEntry && shut ? ' shut' : ''),
   }, el('a', { href: pageHref(e.id), 'data-id': e.id, onclick: go(e) },
-    el('span.num', e.number), ' ', M.titleOf(e.object)));
+    numbered(el, e.number, e.object.kind), M.titleOf(e.object)));
+
+  // The contents unfolded down to the level: the chain, `toc-up`, unfolded
+  // where it stands among its siblings, and the opened entry; the page's own
+  // entry stays folded while the reader keeps it so.
+  const drawWhole = () => {
+    const chain = new Set();
+    for (let e = level; e; e = e.parent) chain.add(e);
+    const list = (parent, ul) => {
+      for (const e of kids(parent)) {
+        const li = ul.appendChild(item(e, chain.has(e) ? 'toc-up' : 'toc-entry'));
+        const unfolded = (chain.has(e) || e === opened) && !(e === pageEntry && shut);
+        if (unfolded && kids(e).length) list(e, li.appendChild(el('ul')));
+      }
+      return ul;
+    };
+    return list(null, el('ul.toc-levels'));
+  };
 
   const draw = () => {
     clear(toc);
     toc.appendChild(el('h3', { class: 'toc-head' }, 'Contents'));
+    if (whole) {
+      const top = drawWhole();
+      app.renderMath(top); // titles carry maths
+      toc.appendChild(top);
+      return;
+    }
     const top = el('ul.toc-levels');
     let into = top;
     const chain = [];
@@ -654,6 +720,18 @@ function pickLevels(app) {
   if (raw === 'all') return Infinity;
   const n = Number(raw);
   return Number.isInteger(n) && n >= 1 ? n : DEFAULT_LEVELS;
+}
+
+/**
+ * An entry's number and the space after it, before its title; nothing for an
+ * entry its `serial` leaves unnumbered.  In a `span.num` when `el` is given.
+ * A part's number is read with its word, "Part I" (`M.headingWord`).
+ */
+function numbered(el, number, kind) {
+  if (number == null) return null;
+  const word = kind ? M.headingWord(kind) : null;
+  const text = word ? word + ' ' + number : number;
+  return [el ? el('span.num', text) : text, ' '];
 }
 
 function cssId(id) {

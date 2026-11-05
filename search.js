@@ -10,6 +10,12 @@
 // a magnifier that shows the statement itself in place of its line.  Beside
 // it, the number of results per page and how to write a query.
 //
+// Every link leads into the document, as its references do: a chapter or a
+// section to the page it heads, a statement to its section's page, scrolled
+// to it, a proof to its statement.  Text between statements is found as the
+// section it is read in.  A query with an unquoted hyphenated word gets the
+// Stacks project's hint to try it in double quotes (`model.queryAlternative`).
+//
 // A query that is exactly an object's id goes to that object's page, as a
 // Stacks tag does.  The top bar's box (app.js) asks this page, and the two
 // boxes say the same while this page is on screen.
@@ -38,7 +44,7 @@ export function render(root, app) {
 
   const kind = m.defaultCollapse || m.collapseKinds[0] || null;
   const outline = kind ? M.documentOutline(m, kind) : null;
-  const hits = query.trim() ? M.fullTextSearch(m, query, { radius, kind }) : [];
+  const hits = query.trim() ? headingsForText(outline, M.fullTextSearch(m, query, { radius, kind })) : [];
   const size = perpage === 'all' ? Math.max(hits.length, 1) : Number(perpage);
   const pages = Math.max(1, Math.ceil(hits.length / size));
   const page = Math.min(pages, Math.max(1, Math.floor(Number(params.get('page'))) || 1));
@@ -64,7 +70,9 @@ export function render(root, app) {
     main.appendChild(el('h2.search-count', !hits.length ? 'No results'
       : [`${hits.length} ${hits.length === 1 ? 'result' : 'results'} `,
         el('span.search-showing', `(now showing results ${from + 1}–${from + shown.length})`)]));
-    if (shown.length) main.appendChild(resultTree(app, outline, shown));
+    const alt = M.queryAlternative(query);
+    if (alt) main.appendChild(alternativeHint(app, alt, href));
+    if (shown.length) main.appendChild(resultTree(app, { outline, kind }, shown));
     pager();
     if (hits.length) aside.appendChild(perPageNav(app, perpage, href));
   }
@@ -109,6 +117,20 @@ function searchForm(app, query, radius, perpage) {
   el('div.search-options',
     el('button.search-submit', { type: 'submit' }, 'Search'),
     el('div.search-radii', ...radii)));
+}
+
+/**
+ * "If the keyword pro-etale is not giving you the results you expect, then
+ * try searching for "pro-etale"." — the Stacks project's words.
+ */
+function alternativeHint(app, alt, href) {
+  const { el } = app;
+  const vars = [];
+  alt.keywords.forEach((k, i) => vars.push(i ? ', ' : null, el('var', k)));
+  return el('p.search-alternative',
+    `If the keyword${alt.keywords.length > 1 ? '(s)' : ''} `, ...vars,
+    ' is not giving you the results you expect, then try searching for ',
+    el('a', { href: href({ query: alt.alternative, page: 1 }) }, el('var', alt.alternative)), '.');
 }
 
 // ------------------------------------------------------------- pagination
@@ -157,11 +179,51 @@ function tips(app) {
       el('li', 'use wildcards: ', v('ideal'), ' doesn’t match ', v('ideals'), ', but ', v('ideal*'), ' matches both;'),
       el('li', 'strings like ', v('quasi-compact'), ' should be enclosed by double quotes, otherwise you are looking for objects containing ',
         v('quasi'), ' but not ', v('compact'), ';'),
+      el('li', 'a hyphenated word is also found written as one: ', v('proetale'), ' finds ', v('pro-étale'), ';'),
       el('li', v('OR'), ' between two words finds objects with either of them;'),
       el('li', 'an object’s id goes straight to its page.')));
 }
 
 // ------------------------------------------------------------ the results
+
+/**
+ * Text is found as the chapter or section it is read in: a hit in the prose
+ * between two statements is a hit on their section, listed once however much
+ * of its text matches.  `hits` is in document order and a section comes
+ * before its text, so a section found for its own sake keeps its place.
+ * Text under no heading stays text.
+ */
+export function headingsForText(outline, hits) {
+  if (!outline) return hits;
+  const seen = new Set();
+  const out = [];
+  for (const o of hits) {
+    const e = outline.byId.get(o.id);
+    const hit = e && e.text && e.parent ? e.parent.object : o;
+    if (seen.has(hit.id)) continue;
+    seen.add(hit.id);
+    out.push(hit);
+  }
+  return out;
+}
+
+/**
+ * Where a result leads: into the document.  A chapter or a section to the
+ * page it heads, under its own title; a proof to the statement it proves; anything
+ * else (a statement, text, a reference, a step) to the page of the level it
+ * is read on, its section's, scrolled to it.  What the document does not
+ * hold, to its object page.
+ */
+function resultHref(app, doc, o) {
+  const { outline, kind } = doc;
+  let inDoc = null;
+  if (outline) {
+    const host = o.kind === 'proof' ? outline.stepOf.get(o.id) : null;
+    if (M.isSectionKind(o.kind)) inDoc = app.documentHeadHref(outline, kind, o.id);
+    else inDoc = app.documentLevelHref(outline, kind, host || o.id);
+  }
+  return inDoc || app.objectHref(o.id);
+}
 
 /**
  * The results as the document's tree: each under the entries it is read in,
@@ -184,8 +246,10 @@ function resultNodes(outline, hits) {
   };
   for (const o of hits) {
     const entry = outline && outline.byId.get(o.id);
-    if (entry) { nodeFor(entry).match = true; continue; }
-    const host = outline ? outline.byId.get(outline.stepOf.get(o.id)) : null;
+    // A proof is listed under what it proves, wherever it is read (a proof
+    // read in its section is an entry of its own, `M.proofPlacement`).
+    if (entry && !entry.proof) { nodeFor(entry).match = true; continue; }
+    const host = outline ? outline.byId.get(outline.stepOf.get(o.id) || (entry && M.attachedTo(o))) : null;
     const n = { object: o, entry: null, match: true, children: [] };
     if (host) nodeFor(host).children.push(n);
     else elsewhere.push(n);
@@ -194,9 +258,9 @@ function resultNodes(outline, hits) {
   return roots;
 }
 
-function resultTree(app, outline, hits) {
+function resultTree(app, doc, hits) {
   const { el } = app;
-  const tree = el('ul.search-tree', ...resultNodes(outline, hits).map((n) => treeItem(app, n)));
+  const tree = el('ul.search-tree', ...resultNodes(doc.outline, hits).map((n) => treeItem(app, doc, n)));
   const setAll = (open) => {
     for (const li of tree.querySelectorAll('li.has-children')) setOpen(li, open);
   };
@@ -218,7 +282,7 @@ function setOpen(li, open) {
   for (const ul of li.children) if (ul.tagName === 'UL') ul.hidden = !open;
 }
 
-function treeItem(app, n) {
+function treeItem(app, doc, n) {
   const { el } = app;
   const o = n.object;
   const li = el('li', { class: 'expanded' + (n.match ? ' match' : '') + (o ? ' kind-' + o.kind : ' elsewhere') });
@@ -229,7 +293,7 @@ function treeItem(app, n) {
       onclick: () => setOpen(li, li.classList.contains('collapsed')),
     }));
   }
-  const title = el('span.preview-title', ...lineOf(app, n));
+  const title = el('span.preview-title', ...lineOf(app, doc, n));
   if (n.match && o && M.displayBody(o).trim() && !M.isSectionKind(o.kind)) {
     // The magnifier: the statement itself in place of its line, rendered the
     // first time it is asked for.
@@ -238,7 +302,7 @@ function treeItem(app, n) {
     const lens = el('button.previewable', {
       type: 'button', 'aria-expanded': 'false', title: 'show the statement', 'aria-label': 'show the statement',
       onclick: () => {
-        if (!preview.firstChild) fillPreview(app, n, preview);
+        if (!preview.firstChild) fillPreview(app, doc, n, preview);
         const open = preview.hidden;
         preview.hidden = !open;
         title.hidden = open;
@@ -253,7 +317,7 @@ function treeItem(app, n) {
   } else {
     li.appendChild(title);
   }
-  if (n.children.length) li.appendChild(el('ul', ...n.children.map((c) => treeItem(app, c))));
+  if (n.children.length) li.appendChild(el('ul', ...n.children.map((c) => treeItem(app, doc, c))));
   return li;
 }
 
@@ -261,20 +325,22 @@ const ownTitle = (o) => (typeof o.attrs.title === 'string' && o.attrs.title ? o.
 
 /**
  * A result's line: "Section 1.2: Filters", "Lemma 1.2.3: Title", the number
- * being the link to the object's page, as the tag is on the Stacks project;
- * "Proof" or the kind of a step under what it is read with; the kind and the
- * title of what the document does not hold.
+ * being the link into the document (`resultHref`), as the tag is on the
+ * Stacks project; "Proof" or the kind of a step under what it is read with;
+ * the kind and the title of what the document does not hold.
  */
-function lineOf(app, n) {
+function lineOf(app, doc, n) {
   const { el } = app;
   const o = n.object;
   if (!o) return ['Not in the document'];
-  const link = (text) => el('a', { href: app.objectHref(o.id), title: o.id }, text);
+  const link = (text) => el('a', { href: resultHref(app, doc, o), title: o.id }, text);
   const e = n.entry;
   if (e && e.reference) return [link('[' + (e.label || o.id) + ']'), ownTitle(o) ? [' ', ownTitle(o)] : null];
   if (e && e.text) return [link('Text')];
   if (e) {
     const t = ownTitle(o);
+    // Unnumbered by its `serial`: the kind word is the link.
+    if (e.number == null) return [link(M.kindWord(o.kind)), t ? [': ', t] : null];
     return [M.kindWord(o.kind), ' ', link(e.number), t ? [': ', t] : null];
   }
   if (o.kind === 'proof') return [link('Proof'), ownTitle(o) ? ' (' + ownTitle(o) + ')' : null];
@@ -282,13 +348,13 @@ function lineOf(app, n) {
 }
 
 /** The statement written out into `target`: "Lemma 1.2.3 (Title)." and its prose. */
-function fillPreview(app, n, target) {
+function fillPreview(app, doc, n, target) {
   const { el } = app;
   const o = n.object;
   const e = n.entry;
-  const link = (text) => el('a.environment-identifier', { href: app.objectHref(o.id) }, text);
+  const link = (text) => el('a.environment-identifier', { href: resultHref(app, doc, o) }, text);
   const t = ownTitle(o);
-  const word = e ? [M.kindWord(o.kind), ' ', e.number] : o.kind === 'proof' ? 'Proof' : M.kindWord(o.kind);
+  const word = e && e.number != null ? [M.kindWord(o.kind), ' ', e.number] : o.kind === 'proof' ? 'Proof' : M.kindWord(o.kind);
   const lead = e && e.text ? null : el('strong', link(word), t ? [' (', t, ')'] : null, '. ');
   const body = target.appendChild(el('div.prose.body-prose'));
   app.renderBody(body, M.displayBody(o), app.knownIds());

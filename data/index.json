@@ -362,4 +362,8 @@
     "byStatus": {"stated": 169, "proved": 2707, "missing": 7, "absent": 1029}},
    "sha": "7f538207eadbd23e331faea20c44e390219ec25f",
    "file": "data/7f538207eadbd23e331faea20c44e390219ec25f.json",
-   "date": "2026-11-03"}]}
+   "date": "2026-11-03"},
+  {"summary": {"total": 1718, "proved": 0, "byStatus": {"absent": 1718}},
+   "sha": "834a3a9760f145d75041b870f6a02bc6d5a7c3fa",
+   "file": "blueprint.json",
+   "date": "2026-11-05"}]}

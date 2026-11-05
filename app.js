@@ -23,6 +23,7 @@ const PAGES = {
   document: () => import('./document.js'),
   progress: () => import('./progress.js'),
   search: () => import('./search.js'),
+  blog: () => import('./blog.js'),
 };
 const pageModules = new Map(); // view -> Promise of its module
 const loadedPages = new Map(); // view -> its module, once it is in
@@ -262,17 +263,17 @@ function setSanitizedHtml(target, html) {
 
 // A body's `## Proof` heading and everything after it, up to the next heading
 // of the same level or above, becomes a disclosure: the heading is its
-// summary, so a click on "Proof." folds or unfolds that one proof.  Whether
-// proofs start folded is the reader's choice, kept in localStorage and offered
-// by `proofToggle` on the pages that show proofs.
+// summary, so a click on "Proof." folds or unfolds that one proof.  Proofs
+// start folded unless the reader has chosen otherwise, a choice kept in
+// localStorage and offered by `proofToggle` on the pages that show proofs.
 const PROOFS_KEY = 'blueprint.proofs';
 let proofsFolded = readProofsFolded();
 
 function readProofsFolded() {
   try {
-    return typeof localStorage !== 'undefined' && localStorage.getItem(PROOFS_KEY) === 'folded';
+    return typeof localStorage === 'undefined' || localStorage.getItem(PROOFS_KEY) !== 'shown';
   } catch (e) {
-    return false;
+    return true;
   }
 }
 
@@ -283,7 +284,7 @@ function isProofHeading(node) {
 
 /**
  * A proof as a disclosure: `head` is its summary, `body` what folds away, an
- * end mark closes it.  Open or folded as the reader last chose.  The one shape
+ * end mark closes it.  Folded, unless the reader has chosen to show proofs.  The one shape
  * for a proof object (`DESIGN.md` §2.5) and for a `## Proof` section still in
  * a body.
  */
@@ -400,6 +401,16 @@ function documentPageHref(outline, kind, id) {
   const q = new URLSearchParams({ collapse: kind });
   if (page !== id) q.set('focus', id);
   return buildHash('document', page, q);
+}
+
+/**
+ * The document's page that `id` heads, at its top, whether or not anything is
+ * under it: where the search sends a chapter or a section, so that the page
+ * reads with its title.  null when the document leaves it out.
+ */
+function documentHeadHref(outline, kind, id) {
+  if (!outline.byId.has(id)) return null;
+  return buildHash('document', id, new URLSearchParams({ collapse: kind }));
 }
 
 /**
@@ -606,11 +617,15 @@ export function linkifySlugs(root, known, refs) {
         last = m.index + m[0].length;
         continue;
       }
-      if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
       const ok = !known || known.has(slug);
       const ref = ok && refs ? refs(slug) : null;
-      // "Lemma [x]" and "Thm [x]" already have their word.
-      const label = ref && app.model ? model.referenceLabel(app.model, ref, text.slice(0, m.index)) : slug;
+      // "Lemma [x]" and "Thm [x]" already have their word: it is not
+      // repeated, and it goes into the link, which reads "Lemma 2.3" either way.
+      const naming = ref && app.model ? model.referenceNaming(app.model, ref, text.slice(last, m.index)) : '';
+      const start = m.index - naming.length;
+      if (start > last) frag.appendChild(document.createTextNode(text.slice(last, start)));
+      const label = naming ? naming.replace(/\s+/g, ' ') + ref.number
+        : ref && app.model ? model.referenceLabel(app.model, ref, '') : slug;
       frag.appendChild(
         el(
           'a',
@@ -727,6 +742,7 @@ const app = {
   dataUrl: null,
   baseUrl: null,
   history: null, // {snapshots:[...]} from data/index.json, or null
+  blogData: undefined, // {posts:[...]} from blog.json, null for none, undefined until known
   viewingSha: null, // non-null while a historical snapshot is displayed
   showProgress: false, // true once the reader shows the formalization progress
 
@@ -754,7 +770,7 @@ const app = {
   referenceFor: pageReferences,
   documentLevelHref,
   documentPageHref,
-  introButton,
+  documentHeadHref,
   /**
    * SHA-256 of the bytes of the snapshot on screen (a Promise), which its
    * prepared PDFs are filed under.  Worked out the first time it is asked
@@ -818,6 +834,9 @@ const app = {
     await render();
   },
 
+  /** The blog's posts (a Promise of {posts}, or of null for no blog). */
+  blog: () => loadBlog(),
+
   /** Show or hide the formalization progress, remembered for the reader. */
   setShowProgress: (shown) => setShowProgress(shown),
 
@@ -857,12 +876,16 @@ function fetchSnapshot(url) {
   return fetch(url, { cache: 'no-cache' });
 }
 
-async function loadInto(url, { sha = null, keepBase = false, entry = null } = {}) {
+async function loadInto(url, { sha = null, keepBase = false, entry = null, before = null } = {}) {
   // The bytes, not just the JSON: the PDF export finds what was prepared for
   // this snapshot by their hash.
   const res = await fetchSnapshot(url);
   if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} for ${url}`);
-  const bytes = new Uint8Array(await res.arrayBuffer());
+  const buffer = await res.arrayBuffer();
+  // What follows keeps the page busy, for a second or more with a large
+  // snapshot: not while the intro's title is still playing (`before`).
+  if (before) await before;
+  const bytes = new Uint8Array(buffer);
   const snapshot = JSON.parse(new TextDecoder('utf-8').decode(bytes));
   if (!snapshot || !Array.isArray(snapshot.objects)) {
     throw new Error(`${url} is not a blueprint snapshot (no "objects" array)`);
@@ -894,6 +917,31 @@ async function loadHistory() {
   } catch (e) {
     app.history = null; // no history index: the slider stays hidden
   }
+}
+
+// The blog, blog.json beside the snapshot, which `blueprint site` writes for
+// `[site] blog`: asked for once, after the first page is drawn unless that is
+// the Blog page.  Its tab is shown only once it is known to have posts.
+let blogPromise = null;
+
+function loadBlog() {
+  if (!blogPromise) {
+    blogPromise = (async () => {
+      try {
+        const blog = await fetchJson(new URL('blog.json', snapshotBase(app)).href);
+        return blog && Array.isArray(blog.posts) && blog.posts.length ? blog : null;
+      } catch (e) {
+        return null; // no blog.json: no blog
+      }
+    })().then((blog) => {
+      app.blogData = blog;
+      for (const a of document.querySelectorAll('#tabs a')) {
+        if (a.dataset.view === 'blog') a.hidden = !blog;
+      }
+      return blog;
+    });
+  }
+  return blogPromise;
 }
 
 function dataUrlFromQuery() {
@@ -1028,17 +1076,31 @@ function progressToggle() {
 }
 
 /**
- * See the project's intro again, on the landing page where it ends.  In the
- * graph's toolbar, beside Show sidebar (graph.js); null when the project has
- * no intro.
+ * The top bar's icon (the website's mark, or the project's logo) plays the
+ * project's intro again, on the landing page where it ends; the rest of the
+ * brand, and the icon of a project with no intro, is the link to the graph it
+ * always was.  A click that opens the link elsewhere (a new tab) is left alone.
  */
-function introButton() {
-  if (!app.model || !introOf(app.model.project)) return null;
-  return el('button.intro-replay', {
-    type: 'button',
-    title: 'Play the introduction again',
-    onclick: () => replayIntro(app, { atLanding: parseHash().raw === '/graph' }),
-  }, 'Replay intro');
+export function watchBrand(brand = typeof document !== 'undefined' && document.querySelector('.brand')) {
+  if (!brand) return;
+  brand.addEventListener('click', (ev) => {
+    const icon = ev.target && ev.target.closest && ev.target.closest('.brand-mark, .brand-logo');
+    if (!icon || !app.model || !introOf(app.model.project)) return;
+    if (ev.button || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    ev.preventDefault();
+    replayIntro(app, { atLanding: parseHash().raw === '/graph' });
+  });
+}
+
+/** Say on the top bar's icon what a click on it does, when it replays the intro. */
+function brandTitle(project) {
+  const brand = typeof document !== 'undefined' && document.querySelector('.brand');
+  if (!brand) return;
+  const title = introOf(project) ? 'Play the introduction again' : '';
+  for (const icon of brand.querySelectorAll('.brand-mark, .brand-logo')) {
+    if (title) icon.setAttribute('title', title);
+    else icon.removeAttribute('title');
+  }
 }
 
 function themeMenu() {
@@ -1102,6 +1164,7 @@ function updateChrome() {
   document.getElementById('project-title').textContent = title;
   document.title = title;
   brandLogo(app.model && app.model.project);
+  brandTitle(app.model && app.model.project);
 
   const aside = document.getElementById('topbar-aside');
   clear(aside);
@@ -1327,6 +1390,7 @@ function scriptsReady() {
 async function boot() {
   applyTheme(currentTheme()); // before anything is drawn, so nothing flashes
   watchTopbar();
+  watchBrand();
   applyShowProgress(currentShowProgress());
   const url = dataUrlFromQuery();
   app.dataUrlOriginal = url;
@@ -1340,13 +1404,20 @@ async function boot() {
   let intro = null;
   const early = earlyIntro().then(async (project) => {
     if (!project) return;
-    await proseReady();
+    // Markdown wants marked; a title in HTML, an animated SVG, plays without.
+    if (!/^\s*</.test(project.intro.body)) await proseReady();
     if (!app.model && wantsIntro(project, parseHash(), location.search)) {
       intro = showIntro(app, { project });
     }
   });
+  // The snapshot is asked for once the intro has started, or is known to be
+  // none (index.html, `blueprintSnapshotGo`).
+  early.finally(() => { if (window.blueprintSnapshotGo) window.blueprintSnapshotGo(); });
+  // Reading the snapshot waits for a moving title to have played (`held` in
+  // intro.js); downloading it does not.
+  const titlePlayed = early.then(() => (intro && intro.held ? intro.held() : null)).catch(() => null);
   try {
-    await loadInto(url);
+    await loadInto(url, { before: titlePlayed });
   } catch (err) {
     await early;
     if (intro) intro.leave();
@@ -1374,6 +1445,7 @@ async function boot() {
   loadHistory().then(() => {
     if (app.history && app.route && app.route.view === 'progress' && !app.viewingSha) render();
   });
+  loadBlog();
   setupGlobalSearch();
   setupPreviews(app);
   setupExport(app);
@@ -1423,6 +1495,7 @@ function prefetchTasks() {
       run: async () => (await import('./graph.js')).warmElk(),
     },
     page('search'), page('progress'),
+    { ...page('blog'), needed: () => !!app.blogData && !pageModules.has('blog') },
     { name: 'export', needed: () => true, run: () => prefetchModule('./export/latex.js') },
   ];
 }

@@ -34,6 +34,9 @@
   --graph-edge: #7b848d;
   --graph-junction: #55606a;
   --graph-hl: #f0a202;
+  /* A highlighted arc: its own grey, darkened (toward the text colour, so
+     lighter on a dark background), at the same width. */
+  --graph-edge-strong: color-mix(in srgb, var(--graph-edge) 40%, var(--fg));
 
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
           "Liberation Mono", monospace;
@@ -253,6 +256,8 @@ label.chk input { margin: 0; }
 }
 .tabs a:hover { background: var(--panel-2); text-decoration: none; }
 .tabs a.active { color: var(--fg); background: var(--accent-soft); font-weight: 560; }
+/* The Blog tab, until blog.json says the site has posts (app.js, `loadBlog`). */
+.tabs a[hidden] { display: none; }
 
 /* The experimental style menu (app.js, THEMES). */
 .topbar-aside .theme-select { font-size: .8rem; padding: .15em .3em; max-width: 7.5rem; }
@@ -828,13 +833,14 @@ table.grid tr:last-child td { border-bottom: 0; }
 .gedge path {
   fill: none;
   stroke: var(--graph-edge);
-  stroke-width: 1.6;
+  stroke-width: 1.3;
 }
 .gedge.state-derived-only path { stroke-dasharray: 5 4; }
+.gedge.unwitnessed path { stroke-dasharray: 3 2; }
 .gedge.kind-refines path { stroke-dasharray: 2 3; }
 .gedge.dim { opacity: .18; }
 .gedge .elabel { fill: var(--muted); font-size: 9.5px; pointer-events: none; }
-.gedge.hover path, .gedge.selected path { stroke: var(--accent); stroke-width: 2.6; }
+.gedge.hover path, .gedge.selected path { stroke: var(--graph-edge-strong); }
 
 .glayer { transition: transform .28s cubic-bezier(.3, .7, .3, 1); }
 .glayer.no-anim { transition: none; }
@@ -848,10 +854,10 @@ table.grid tr:last-child td { border-bottom: 0; }
   font-size: .9rem;
 }
 .side h2 { margin-top: 0; font-size: 1.05rem; }
-/* The title, and beside it the link to the object's page (graph.js). */
+/* The title, a link into the document, and beside it the kind (graph.js). */
 .side .side-head { display: flex; align-items: baseline; gap: .3rem .8rem; flex-wrap: wrap; margin-bottom: .5rem; }
 .side .side-head h2 { flex: 1 1 10rem; margin-bottom: 0; }
-.side .side-open { flex: none; font-size: .82rem; white-space: nowrap; }
+.side .side-head .badge.kind { flex: none; }
 .side .meta { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .7rem; }
 .side .excerpt { color: var(--fg); font-size: .88rem; max-height: 16rem; overflow: auto; }
 .side section { margin-top: 1.1rem; }
@@ -1100,7 +1106,7 @@ ul.objlist .role {
    and an end mark at the right (`proofDisclosure` in app.js, which also
    makes it fold; see "Proofs fold" below). */
 .proof { margin: .6rem 0 1rem; }
-a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
+.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 .proof-prose > p:first-child { margin-top: 0; }
 .proof-body > :last-child { margin-bottom: .3em; }
 .proof-end { text-align: right; line-height: 1; color: var(--muted); }
@@ -1149,6 +1155,31 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 .toc-levels li.on-path > a { font-weight: 600; }
 .toc-levels li.current > a { color: var(--fg); }
 .doc-layout { display: grid; grid-template-columns: 15rem 1fr; gap: 2rem; align-items: start; }
+
+/* The blog (blog.js): the posts in the document's sidebar, a post's words,
+   then its PDF read in the page. */
+.blog-toc .toc-head a { color: inherit; }
+.blog-list { list-style: none; margin: 0; padding: 0; }
+.blog-list li {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .7rem;
+  padding: .55rem 0; border-bottom: 1px solid var(--border);
+}
+.blog-list .blog-title { font-weight: 560; }
+.blog-date { color: var(--muted); font-size: .86rem; font-variant-numeric: tabular-nums; }
+.blog-head { margin-bottom: 1.2rem; }
+.blog-head h1 { margin: 0; }
+.blog-head .blog-date { margin: .3rem 0 0; }
+.blog-tag {
+  font-size: .72rem; color: var(--muted); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0 .4em;
+}
+.blog-pdf { margin: 1.4rem 0; }
+.blog-pdf-links { font-size: .88rem; margin: 0 0 .5rem; }
+.blog-pdf iframe {
+  display: block; width: 100%; height: calc(100vh - var(--topbar-h) - 6rem); min-height: 24rem;
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel);
+}
+.blog-pager { margin-top: 2rem; }
 
 /* The split document: where a page sits, and its neighbours. */
 .doc-crumbs { font-size: .86rem; color: var(--muted); margin: 0 0 .6rem; }
@@ -1527,31 +1558,14 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 }
 .gnode.compound .label { fill: var(--muted); font-size: 12.5px; }
 
-/* Node type by shape (graph.js, `nodeShape`): a remark's folded corner and a
-   section's inner frame take the outline colour of the status. */
-.gnode { --node-stroke: var(--border-strong); }
-.gnode.status-absent { --node-stroke: var(--st-absent); }
-.gnode.status-missing { --node-stroke: var(--st-missing); }
-.gnode.status-stated { --node-stroke: var(--st-stated); }
-.gnode.status-proved { --node-stroke: var(--st-proved); }
-.gnode.status-proved_with_axioms { --node-stroke: var(--st-proved_with_axioms); }
-.gnode.compound { --node-stroke: var(--border-strong); }
-.gnode .fold, .gnode .frame2 { fill: none; stroke: var(--node-stroke); stroke-width: 1; pointer-events: none; }
-.gnode.type-section > .shape { stroke-width: 2; }
-.gnode.compound.type-section > .shape { stroke-dasharray: none; }
-
-/* A box that matches the search itself: its outline, over the status and
-   shape outlines above, which would otherwise keep it grey, and a glow, which
-   tells it from a stated box when the progress is shown. */
-.gnode.match { --node-stroke: var(--graph-hl); }
+/* A box that matches the search itself: its outline, over the status
+   outlines above, which would otherwise keep it grey, and a glow, which tells
+   it from a stated box when the progress is shown. */
 .gnode.match > .shape {
   stroke: var(--graph-hl); stroke-width: 2.6;
   filter: drop-shadow(0 0 4px var(--graph-hl));
 }
 .legend .shp { width: 1.6em; height: .9em; flex: none; border: 1.5px solid currentColor; color: var(--muted); }
-.legend .shp.definition { border-radius: 1px; }
-.legend .shp.statement { border-radius: 999px; }
-.legend .shp.remark { border-radius: 0; clip-path: polygon(0 0, 70% 0, 100% 35%, 100% 100%, 0 100%); }
 .graph-stage:not(.inner-arcs):not(.derived-arcs) .legend .lg-derived { display: none; }
 .graph-stage:not(.searching) .legend .lg-search { display: none; }
 .legend .shp.hit { color: var(--graph-hl); border-width: 2.5px; border-radius: 2px; box-shadow: 0 0 4px var(--graph-hl); }
@@ -1559,7 +1573,6 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
   min-width: 1.6em; flex: none; border-radius: 999px; text-align: center;
   background: var(--graph-hl); color: #1b1d1e; font-size: .78em; font-weight: 650; line-height: 1.35;
 }
-.legend .shp.section { border-radius: 3px; border-width: 1px; box-shadow: inset 0 0 0 1.5px var(--panel), inset 0 0 0 2.5px currentColor; }
 
 /* A title with maths: KaTeX's HTML in a <foreignObject> (see graph.js,
    `measureMathTitles`).  The same font as the SVG labels, the colour from
@@ -1582,14 +1595,13 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 .gnode.junction .shape { fill: var(--graph-junction); stroke: var(--bg); stroke-width: 2; }
 .gnode.junction.selected .shape { fill: var(--accent); stroke: var(--accent); }
 
-.arrowhead { fill: var(--graph-edge); stroke: none; }
-.arrowhead.hollow { fill: var(--bg); stroke: var(--graph-edge); stroke-width: 1.4; }
+.arrowhead { fill: none; stroke: var(--graph-edge); stroke-linecap: round; stroke-linejoin: round; }
 
 .gedge .hit { stroke: transparent; stroke-width: 12; fill: none; cursor: pointer; }
 .gtitle .title-hit { fill: transparent; cursor: pointer; }
-.gedge.hovered path:not(.hit) { stroke: var(--accent); stroke-width: 2.4; }
+.gedge.hovered path:not(.hit) { stroke: var(--graph-edge-strong); }
 .gedge.synthetic path:not(.hit) { opacity: .8; }
-.gedge.spoke path:not(.hit) { stroke-width: 1.3; }
+.gedge.spoke path:not(.hit) { stroke-width: 1.1; }
 .edges.fade-in { opacity: 0; }
 .edges { transition: opacity .25s ease; }
 
@@ -1598,12 +1610,11 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 .glayer.focusing .gnode:not(.focus) { opacity: .28; }
 .glayer.focusing .gnode.compound:not(.focus) { opacity: .45; }
 .glayer.focusing .gedge:not(.focus) { opacity: .12; }
-.glayer.focusing .gedge.focus path:not(.hit) { stroke: var(--accent); stroke-width: 2.4; }
-.glayer.focusing .gedge.focus .elabel { fill: var(--accent); font-weight: 600; }
+.glayer.focusing .gedge.focus path:not(.hit) { stroke: var(--graph-edge-strong); }
+.glayer.focusing .gedge.focus .elabel { fill: var(--graph-edge-strong); font-weight: 600; }
 .glayer.focusing .gnode.selected:not(.compound) .shape { stroke-width: 3.2; }
 .glayer.focusing .gnode.selected .label { font-weight: 700; }
-.arrowhead.focus { fill: var(--accent); }
-.arrowhead.hollow.focus { fill: var(--bg); stroke: var(--accent); }
+.arrowhead.focus { stroke: var(--graph-edge-strong); }
 
 .legend .sw.status-none { color: var(--border-strong); background: var(--graph-node); }
 .legend .sw.status-absent { color: var(--st-absent); background: color-mix(in srgb, var(--st-absent) 25%, transparent); }
@@ -1745,6 +1756,11 @@ details.proof > summary:hover > :is(h1, h2, h3, h4, h5, h6) { color: var(--accen
 .comment-list { display: flex; flex-direction: column; gap: .8rem; margin-bottom: 1.2rem; }
 .comment { border-left: 2px solid var(--border); padding-left: .8rem; }
 .comment-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .6rem; margin-bottom: .2rem; }
+/* A comment's title, which on Zulip is its topic and leads there. */
+.comment-title-row { margin-bottom: .15rem; }
+.comment-title { font-weight: 650; font-size: 1.02em; }
+a.comment-title { color: inherit; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: .18em; }
+a.comment-title:hover { text-decoration-color: currentColor; }
 .comment-anchor { margin-left: auto; font-family: var(--mono); }
 .comment-form { border-top: 1px solid var(--border); padding-top: .9rem; }
 .comment-form h4 { margin: 0 0 .6rem; }
@@ -1758,7 +1774,7 @@ details.proof > summary:hover > :is(h1, h2, h3, h4, h5, h6) { color: var(--accen
   margin-bottom: .6rem;
   min-height: 7.5em;
 }
-.comment-preview[hidden], .comment-field textarea[hidden] { display: none; }
+.comment-preview[hidden], .comment-field textarea[hidden], .comment-field[hidden] { display: none; }
 
 /* ---------------------------------------------------------------- intro */
 

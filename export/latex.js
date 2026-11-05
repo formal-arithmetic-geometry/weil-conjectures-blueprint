@@ -15,6 +15,10 @@
 //     one level below it;
 //   * an appendix (a kind the graph may hide, `graph = "optional"`) inside the
 //     scope can be left out;
+//   * with `[site] pdfDetails = false` (`project.pdfDetails`) no detail
+//     (`M.isDetailEntry`: a statement refining a statement, text inside one,
+//     and what is below them) is written out, counted, offered as a part or
+//     named: a reference to one reads as one to the statement it lies in;
 //   * an object with several parents is written out once, where this export
 //     first meets it, with what is below it, and is a pointer to that place
 //     everywhere else.  When its first place in the full document is outside
@@ -55,14 +59,19 @@ function isAppendix(model, o) {
  * (`id: null`), then every entry of the document with entries below it, in
  * reading order, as {id, number, title, word, depth, appendix}.  These are the
  * document's pages, so a section, a subsection and a refined statement or
- * relation are all parts.
+ * relation are all parts.  Without details (`M.exportsDetails`) a detail is no
+ * part, and a statement whose entries below are all details has none.  With
+ * `[site] pdfScopes` only entries of those kinds are (`M.isPdfScope`).
  */
 export function exportScopes(model, collapse) {
   const kind = pickCollapse(model, collapse);
   const outline = M.documentOutline(model, kind);
+  const details = M.exportsDetails(model);
   const out = [{ id: null, number: null, title: projectTitle(model), word: null, depth: -1, appendix: false }];
   for (const e of outline.entries) {
     if (e.duplicate || e.text || !e.children.length) continue;
+    if (!details && (M.isDetailEntry(e) || e.children.every(M.isDetailEntry))) continue;
+    if (!M.isPdfScope(model, e)) continue;
     out.push({ id: e.id, number: e.number, title: entryTitle(model, outline, e), word: M.kindWord(e.object.kind),
       depth: e.depth, appendix: isAppendix(model, e.object) });
   }
@@ -80,9 +89,24 @@ export function entryTitle(model, outline, entry) {
   if (!t && o.kind === 'proof') {
     const of = M.attachedTo(o);
     const ref = of ? M.referenceOf(outline, of) : null;
-    if (ref) return `Proof of ${ref.word} ${ref.number}`;
+    if (ref) return `Proof of ${M.referenceText(ref)}`;
   }
   return M.titleOf(o);
+}
+
+/** An entry's number and a space, as plain text; nothing when its `serial` leaves it unnumbered. */
+function numPrefix(number) {
+  return number == null ? '' : number + ' ';
+}
+
+/** The same in TeX. */
+function texPrefix(number) {
+  return number == null ? '' : escapeText(number) + ' ';
+}
+
+/** An entry's number in TeX, or empty. */
+function texNumber(number) {
+  return number == null ? '' : escapeText(number);
 }
 
 function projectTitle(model) {
@@ -136,14 +160,25 @@ export function resolveRequest(model, raw = {}) {
     if (!entry) {
       throw new ExportError('invalid', `'${scope}' is not in the document along '${collapse}': it carries no prose and contains nothing`);
     }
-    if (entry.text) {
+    if (entry.text || entry.proof) {
       const where = entry.parent ? entry.parent.id : null;
-      throw new ExportError('invalid', `'${scope}' is text read in place` + (where ? ` inside '${where}'; export '${where}' instead` : '; export the whole blueprint instead'));
+      throw new ExportError('invalid', `'${scope}' is ${entry.proof ? 'a proof' : 'text'} read in place` + (where ? ` inside '${where}'; export '${where}' instead` : '; export the whole blueprint instead'));
+    }
+    if (!M.exportsDetails(model) && M.isDetailEntry(entry)) {
+      const host = M.detailHost(entry);
+      throw new ExportError('invalid', `'${scope}' is a detail of '${host.id}', and this blueprint's PDFs leave details out ([site] pdfDetails = false); export '${host.id}' instead`);
+    }
+    if (!M.isPdfScope(model, entry)) {
+      const up = M.pdfScopeOf(model, entry);
+      const kinds = M.pdfScopeKinds(model)
+        .map((k) => (model.byId.has(k) ? `'${k}'` : M.kindWord(k).toLowerCase())).join(', ');
+      throw new ExportError('invalid', `'${scope}' is a ${M.kindWord(entry.object.kind).toLowerCase()}, and this blueprint's PDFs are of the whole blueprint or a ${kinds} ([site] pdfScopes); ` +
+        (up ? `export '${up.id}' instead` : 'export the whole blueprint instead'));
     }
   }
   const wanted = parseDepth(raw.depth);
   const appendicesWanted = raw.appendices === undefined ? true : raw.appendices !== false && raw.appendices !== 'false' && raw.appendices !== '0';
-  const full = planTree(model, outline, entry, Infinity, true);
+  const full = planTree(model, outline, entry, Infinity, true, M.exportsDetails(model));
   if (!full.nodes.length) throw new ExportError('empty', 'nothing to export: no object of this blueprint carries prose');
   const depth = wanted >= full.height ? 'all' : wanted;
   const appendices = full.appendices ? appendicesWanted : true;
@@ -171,18 +206,22 @@ export function requestKey(req) {
  * else; `hidden` that the entry hides its content (`M.isHiddenEntry`) and is
  * not the scope: its heading, prose, proofs and steps are left out, as the
  * website leaves it off its parent's page, while its children and its line in
- * the contents stay.  Returns {nodes, written, height, appendices}: `written` maps an id
+ * the contents stay.  Without `details` no detail (`M.isDetailEntry`) is
+ * met at all.  Returns {nodes, written, height, appendices}: `written` maps an id
  * to its node, `height` is the deepest `rel` written with depth all (at
  * least 1), `appendices` whether an appendix other than the scope was met.
  */
-function planTree(model, outline, scopeEntry, depth, appendices) {
+function planTree(model, outline, scopeEntry, depth, appendices, details) {
   const written = new Map();
   let height = 1;
   let sawAppendix = false;
   const visit = (e, rel, parent) => {
-    if (e.text) {
+    if (!details && M.isDetailEntry(e)) return null;
+    // Text, and a proof read in its section (`M.proofPlacement`), are written
+    // where they are read, once.
+    if (e.text || e.proof) {
       if (e.duplicate || written.has(e.id)) return null; // said once, under its first parent
-      const node = { type: 'text', entry: e, rel, parent };
+      const node = { type: e.proof ? 'proof' : 'text', entry: e, rel, parent };
       written.set(e.id, node);
       return node;
     }
@@ -209,7 +248,7 @@ function planTree(model, outline, scopeEntry, depth, appendices) {
         if (n) node.children.push(n);
       }
     } else {
-      node.omitted = countBelow(real, new Set());
+      node.omitted = countBelow(real, new Set(), details);
     }
     return node;
   };
@@ -226,14 +265,15 @@ function planTree(model, outline, scopeEntry, depth, appendices) {
   return { nodes, written, height, appendices: sawAppendix };
 }
 
-/** How many entries, other than text, are below an entry. */
-function countBelow(entry, seen) {
+/** How many entries, other than text and proofs (and details, without `details`), are below an entry. */
+function countBelow(entry, seen, details) {
   let n = 0;
   for (const c of entry.children) {
-    if (c.text || seen.has(c.id)) continue;
+    if (c.text || c.proof || seen.has(c.id)) continue;
+    if (!details && M.isDetailEntry(c)) continue;
     seen.add(c.id);
     n += 1;
-    if (!c.duplicate) n += countBelow(c, seen);
+    if (!c.duplicate) n += countBelow(c, seen, details);
   }
   return n;
 }
@@ -247,11 +287,12 @@ export function planExport(model, request) {
   const req = resolveRequest(model, request);
   const outline = M.documentOutline(model, req.collapse);
   const scopeEntry = req.scope === null ? null : outline.byId.get(req.scope);
-  const plan = planTree(model, outline, scopeEntry, req.depth === 'all' ? Infinity : req.depth, req.appendices);
+  const plan = planTree(model, outline, scopeEntry, req.depth === 'all' ? Infinity : req.depth, req.appendices, M.exportsDetails(model));
   let entries = 0;
   let proofs = 0;
   const walk = (nodes) => {
     for (const n of nodes) {
+      if (n.type === 'proof') proofs += 1;
       if (n.type !== 'entry') continue;
       if (!n.hidden) {
         entries += 1;
@@ -278,12 +319,19 @@ export function slugify(s, max = 48) {
 }
 
 /** The file name, without extension, an export is downloaded as. */
+/** An entry's number as it is read alone: a part's with its word, "Part I". */
+function shownNumber(e) {
+  if (!e || e.number == null) return e ? e.number : null;
+  const word = M.headingWord(e.object.kind);
+  return word ? word + ' ' + e.number : e.number;
+}
+
 export function exportFileName(model, req) {
   const project = slugify(model.project.name || model.project.title || 'blueprint', 32);
   let scope = 'whole';
   if (req.scope !== null) {
     const e = M.documentOutline(model, req.collapse).byId.get(req.scope);
-    scope = (e && e.number ? e.number.replace(/\./g, '-') + '-' : '') + slugify(e ? entryTitle(model, M.documentOutline(model, req.collapse), e) : req.scope);
+    scope = (e && e.number ? slugify(shownNumber(e).replace(/\./g, '-'), 24) + '-' : '') + slugify(e ? entryTitle(model, M.documentOutline(model, req.collapse), e) : req.scope);
   }
   const parts = [project, scope];
   if (req.depth !== 'all') parts.push('depth-' + req.depth);
@@ -297,9 +345,10 @@ export function describeRequest(model, req) {
   const outline = M.documentOutline(model, req.collapse);
   const e = req.scope === null ? null : outline.byId.get(req.scope);
   const scope = e
-    ? `${M.kindWord(e.object.kind)} ${e.number} ${entryTitle(model, outline, e)}`
+    ? `${M.kindWord(e.object.kind)} ${numPrefix(e.number)}${entryTitle(model, outline, e)}`
     : 'The whole blueprint';
-  const below = e ? `${M.kindWord(e.object.kind)} ${e.number}` : 'the top level';
+  const below = !e ? 'the top level'
+    : e.number == null ? entryTitle(model, outline, e) : `${M.kindWord(e.object.kind)} ${e.number}`;
   const detail = req.depth === 'all'
     ? 'all levels'
     : req.depth === 1 && !e ? 'the top level only'
@@ -385,6 +434,7 @@ const PREAMBLE = String.raw`\usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage[a4paper,margin=2.5cm,headheight=14pt]{geometry}
 \usepackage{amsmath,amssymb,amsthm}
+\usepackage{amscd}  % KaTeX's CD diagrams; part of amsmath, so always there
 \usepackage{mathtools}
 \usepackage{bm}
 \usepackage{graphicx}
@@ -505,11 +555,29 @@ export function exportLatex(model, request, options = {}) {
   for (const id of filedHere) labelOf(id);
 
   const outside = new Map(); // id -> {ref, entry}
+  // Works cited here whose bibliography entries the export does not write out
+  // in place: they are set at the end, under References.  With `[site]
+  // pdfReferences = "all"` that is every entry, cited or not.
+  const cited = new Set();
+  const allReferences = M.exportsAllReferences(model);
+  if (allReferences) for (const o of model.objects) if (M.isReference(o) && !plan.written.has(o.id)) cited.add(o.id);
 
-  /** One cited label, linked to its entry when the entry is written out here. */
+  // Without details, a detail, or a proof or step read with one, is named as
+  // the statement it lies in (`M.detailHost`): the PDF says nothing of it.
+  const details = M.exportsDetails(model);
+  const shown = (id) => {
+    if (details) return id;
+    let of = id;
+    while (outline.stepOf.has(of)) of = outline.stepOf.get(of);
+    const e = outline.byId.get(of);
+    return M.isDetailEntry(e) ? M.detailHost(e).id : id;
+  };
+
+  /** One cited label, linked to its entry: in place, or at the end. */
   const citeLabel = (id) => {
     const text = escapeText(M.referenceLabelOf(model, id) || id);
-    return writtenHere(id) || plan.written.has(id) ? `\\hyperref[${labelOf(id)}]{${text}}` : text;
+    if (!plan.written.has(id)) cited.add(id);
+    return `\\hyperref[${labelOf(id)}]{${text}}`;
   };
   /** A citation: the labels, linked, and the locator's Markdown; `null` when `inner` does not cite. */
   const cite = (inner) => {
@@ -525,6 +593,17 @@ export function exportLatex(model, request, options = {}) {
     if (!o) {
       warn('unresolved-reference', `[${slug}] resolves to no object of this blueprint`);
       return `\\bpbroken{${escapeText(slug)}}`;
+    }
+    if (shown(slug) !== slug) {
+      // "Theorem 2.4" for "[x]"; for "Lemma [x]", whose word is the detail's,
+      // "Lemma (in Theorem 2.4)".
+      const host = shown(slug);
+      const ref = M.referenceOf(outline, host);
+      const whole = escapeText(ref.word + ' ' + ref.number);
+      const named = M.referenceLabel(model, ref, before) === ref.number;
+      const link = writtenHere(host) ? `\\hyperref[${labelOf(host)}]{${whole}}` : `\\bpout{${whole}}`;
+      if (!writtenHere(host)) outside.set(host, { ref, entry: outline.byId.get(host) });
+      return named ? `(in ${link})` : link;
     }
     const ref = M.referenceOf(outline, slug);
     if (ref) {
@@ -543,12 +622,13 @@ export function exportLatex(model, request, options = {}) {
   const objectName = (id) => {
     const o = model.byId.get(id);
     if (!o) return `\\bpbroken{${escapeText(id)}}`;
+    if (shown(id) !== id) return objectName(shown(id));
     const ref = M.referenceOf(outline, id);
     // An object with no title is named by its id, as the website names it.
     const title = o.attrs && typeof o.attrs.title === 'string' && o.attrs.title
       ? titleTex(o.attrs.title) : `\\bpslug{${escapeCode(id)}}`;
     if (!ref) return filedHere.has(id) ? `\\hyperref[${labelOf(id)}]{${title}}` : title;
-    const tag = escapeText(ref.word + ' ' + ref.number);
+    const tag = escapeText(M.referenceText(ref));
     if (writtenHere(id)) return `\\hyperref[${labelOf(id)}]{${title}} (${tag})`;
     outside.set(id, { ref, entry: outline.byId.get(id) });
     return `${title} (\\bpout{${tag}})`;
@@ -556,6 +636,7 @@ export function exportLatex(model, request, options = {}) {
 
   const math = (span) => {
     if (unsafeMath(span.body)) warn('unsafe-maths', `a formula uses a TeX command no formula on the website can (${UNSAFE_TEX.exec(span.body)[0]}); it is set as its source`);
+    else if (unbalancedMath(span.body)) warn('broken-maths', `a formula's braces do not pair up (${span.source.replace(/\s+/g, ' ').slice(0, 60)}); it is set as its source, as the website shows it`);
     return mathToLatex(span);
   };
   const image = (src, alt, { block }) => {
@@ -590,14 +671,15 @@ export function exportLatex(model, request, options = {}) {
   const top = req.scope === null ? 1 : 0;
   let tocLines = 0;
 
-  const tocLine = (level, number, tex, plain) => {
+  // `number` is TeX already, or empty for an entry its `serial` leaves unnumbered.
+  const tocLine = (level, number, tex, plain, raw) => {
     tocLines += 1;
-    out.push(`\\addcontentsline{toc}{${HEADINGS[Math.min(level, 2)]}}{\\texorpdfstring{${number}\\quad ${tex}}{${escapePdf(number + ' ' + plain)}}}`);
+    out.push(`\\addcontentsline{toc}{${HEADINGS[Math.min(level, 2)]}}{\\texorpdfstring{${number ? number + '\\quad ' : ''}${tex}}{${escapePdf(numPrefix(raw) + plain)}}}`);
   };
 
   const statementHead = (o, word, number) => {
     const t = o.attrs && typeof o.attrs.title === 'string' && o.attrs.title ? ` (${titleTex(o.attrs.title)})` : '';
-    return { lead: `${escapeText(word)}~${escapeText(number)}`, rest: t };
+    return { lead: number == null ? escapeText(word) : `${escapeText(word)}~${escapeText(number)}`, rest: t };
   };
 
   const writeSteps = (id, seen) => {
@@ -617,10 +699,10 @@ export function exportLatex(model, request, options = {}) {
     }
   };
 
-  const writeProof = (p) => {
+  const writeProof = (p, lead = M.proofLeadRest(p)) => {
     comment(`proof: ${p.id}`);
     current = p.id;
-    const rest = M.proofLeadRest(p).replace(/\.$/, '');
+    const rest = lead.replace(/\.$/, '');
     out.push(`\\begin{proof}[{Proof${titleTex(rest)}}]\\phantomsection\\label{${labelOf(p.id)}}%`);
     const b = body(p);
     if (b) out.push(b);
@@ -632,12 +714,26 @@ export function exportLatex(model, request, options = {}) {
     const p = node.parent;
     if (!p) return 'at the top level of this export';
     const e = p.entry;
-    return `under \\hyperref[${labelOf(e.id)}]{${escapeText(e.number)} ${titleTex(M.titleOf(e.object))}}`;
+    return `under \\hyperref[${labelOf(e.id)}]{${texPrefix(e.number)}${titleTex(M.titleOf(e.object))}}`;
   };
 
+  let lastWritten = null; // the entry written last, for a proof right after its statement
+  // The parts (`M.PART_KIND`) open around the entry being written: a part is
+  // set as `\part*`, and what is in it at the depth it would have without it.
+  let partsOpen = 0;
   const writeNode = (node) => {
     const e = node.entry;
     const o = e.object;
+    const before = lastWritten;
+    lastWritten = e.id;
+    if (node.type === 'proof') {
+      // A proof read in its section: "Proof." right after its statement,
+      // "Proof of Theorem 2.1." anywhere else, as on the website.
+      const right = before === M.attachedTo(o);
+      writeProof(o, right ? M.proofLeadRest(o) : M.proofLeadAway(model, outline, o));
+      out.push('');
+      return;
+    }
     if (node.type === 'text' && e.reference) {
       // A bibliography entry, as `thebibliography` sets one: the label
       // hanging in the margin, the entry beside it.
@@ -659,46 +755,79 @@ export function exportLatex(model, request, options = {}) {
       comment(`repeated: ${o.id}`);
       current = o.id;
       const word = M.kindWord(o.kind);
-      out.push(`\\begin{bpnote}\\hyperref[${labelOf(o.id)}]{${escapeText(word + ' ' + e.number)}} (${titleTex(M.titleOf(o))}) ` +
+      out.push(`\\begin{bpnote}\\hyperref[${labelOf(o.id)}]{${escapeText(e.number == null ? word : word + ' ' + e.number)}} (${titleTex(M.titleOf(o))}) ` +
         `belongs here too; it is written out ${whereWritten(node.target)}, on page~\\pageref{${labelOf(o.id)}}.\\end{bpnote}`);
       return;
     }
 
-    const level = node.rel - top;
+    // With `[site] pdfReferences = "all"` the bibliography is on pages of its
+    // own, written out in place too.
+    if (allReferences && node.children.some((c) => c.type === 'text' && c.entry.reference)) out.push('\\clearpage');
+
+    const isPart = o.kind === M.PART_KIND;
+    const level = node.rel - top - partsOpen;
     const number = e.number;
     const isSection = M.isSectionKind(o.kind);
     const label = labelOf(o.id);
     comment(`object: ${o.id}` + (o.source && o.source.file ? ` (${o.source.file})` : '') + (node.hidden ? ', content hidden' : ''));
     current = o.id;
     const title = entryTitle(model, outline, e);
-    if (node.hidden) {
-      // Its line in the contents and a place for references to land, then
-      // its children; nothing of its own.
+    // A part is read with its word, "Part I", and has a line of its own in
+    // the contents, at the level of LaTeX's parts.
+    const shown = number == null ? null : isPart ? `Part ${number}` : number;
+    const partLead = shown == null ? '' : `${escapeText(shown)}\\quad `;
+    const partPlain = escapePdf((shown == null ? '' : shown + ' ') + plainTitle(title));
+    const partLine = () => {
+      tocLines += 1;
+      out.push(`\\addcontentsline{toc}{part}{\\texorpdfstring{${partLead}${titleTex(title)}}{${partPlain}}}`);
+    };
+    // A heading: its number and title, a place for references to land, its line in the contents.
+    const heading = () => {
+      if (isPart) {
+        // "Part I  The six operations".
+        out.push(`\\part*{\\texorpdfstring{${partLead}${titleTex(title)}}{${partPlain}}}`);
+        out.push(`\\phantomsection\\label{${label}}%`);
+        partLine();
+        return;
+      }
+      const cmd = HEADINGS[Math.min(level, HEADINGS.length - 1)];
+      out.push(`\\${cmd}*{\\texorpdfstring{${number == null ? '' : escapeText(number) + '\\quad '}${titleTex(title)}}{${escapePdf(numPrefix(number) + plainTitle(title))}}}`);
       out.push(`\\phantomsection\\label{${label}}%`);
-      if (level < 3) tocLine(level, escapeText(number), titleTex(title), plainTitle(title));
+      if (level < 3) tocLine(level, texNumber(number), titleTex(title), plainTitle(title), number);
+    };
+    if (node.hidden) {
+      // Its children, and of its own only what places them: a heading (a part,
+      // a chapter, a section, ...) keeps its heading line, anything else its
+      // line in the contents and a place for references to land.  Its prose,
+      // proofs and steps are left out.
+      if (isPart || isSection) {
+        heading();
+      } else {
+        out.push(`\\phantomsection\\label{${label}}%`);
+        if (level < 3) tocLine(level, texNumber(number), titleTex(title), plainTitle(title), number);
+      }
+      if (isPart) partsOpen += 1;
       for (const c of node.children) writeNode(c);
+      if (isPart) partsOpen -= 1;
       if (node.omitted) {
         const n = node.omitted;
-        out.push(`\\bpomitted{${n} ${n === 1 ? 'entry' : 'entries'} below ${escapeText(number)} ${n === 1 ? 'is' : 'are'} left out at this detail level.}`);
+        out.push(`\\bpomitted{${n} ${n === 1 ? 'entry' : 'entries'} below ${shown == null ? titleTex(title) : escapeText(shown)} ${n === 1 ? 'is' : 'are'} left out at this detail level.}`);
       }
       out.push('');
       return;
     }
-    if (isSection) {
-      const cmd = HEADINGS[Math.min(level, HEADINGS.length - 1)];
-      out.push(`\\${cmd}*{\\texorpdfstring{${escapeText(number)}\\quad ${titleTex(title)}}{${escapePdf(number + ' ' + plainTitle(title))}}}`);
-      out.push(`\\phantomsection\\label{${label}}%`);
-      if (level < 3) tocLine(level, escapeText(number), titleTex(title), plainTitle(title));
+    if (isPart || isSection) {
+      heading();
     } else {
       out.push(`\\phantomsection\\label{${label}}%`);
-      if (node.children.length && level < 3) tocLine(level, escapeText(number), titleTex(title), plainTitle(title));
+      if (node.children.length && level < 3) tocLine(level, texNumber(number), titleTex(title), plainTitle(title), number);
     }
 
     if (node.displaced) {
       const first = e.parent;
       let where = 'at the top level';
       if (first) {
-        const fp = `${escapeText(first.number)} ${titleTex(M.titleOf(first.object))}`;
+        const fp = `${texPrefix(first.number)}${titleTex(M.titleOf(first.object))}`;
         where = `under ${writtenHere(first.id) ? `\\hyperref[${labelOf(first.id)}]{${fp}}` : fp + ', outside this export'}`;
       }
       out.push(`\\begin{bpnote}Written out here; in the full blueprint it is read ${where}.\\end{bpnote}`);
@@ -708,7 +837,7 @@ export function exportLatex(model, request, options = {}) {
     if (isProof) {
       const rest = M.proofLeadRest(o).replace(/\.$/, '');
       const of = M.attachedTo(o);
-      out.push(`\\begin{proof}[{Proof ${escapeText(number)}${titleTex(rest)}}]`);
+      out.push(`\\begin{proof}[{Proof${number == null ? '' : ' ' + escapeText(number)}${titleTex(rest)}}]`);
       if (of && model.byId.has(of) && rest === '') {
         out.push(`{\\small\\color{bpmuted}Of ${objectName(of)}.}\\par`);
       }
@@ -729,10 +858,12 @@ export function exportLatex(model, request, options = {}) {
 
     for (const p of outline.proofs.get(o.id) || []) writeProof(p);
     writeSteps(o.id, new Set());
+    if (isPart) partsOpen += 1;
     for (const c of node.children) writeNode(c);
+    if (isPart) partsOpen -= 1;
     if (node.omitted) {
       const n = node.omitted;
-      out.push(`\\bpomitted{${n} ${n === 1 ? 'entry' : 'entries'} below ${escapeText(number)} ${n === 1 ? 'is' : 'are'} left out at this detail level.}`);
+      out.push(`\\bpomitted{${n} ${n === 1 ? 'entry' : 'entries'} below ${number == null ? titleTex(title) : escapeText(number)} ${n === 1 ? 'is' : 'are'} left out at this detail level.}`);
     }
     if (isProof) out.push('\\end{proof}');
     out.push('');
@@ -745,27 +876,54 @@ export function exportLatex(model, request, options = {}) {
   const project = projectTitle(model);
   const described = describeRequest(model, req);
   const scopeTex = scopeEntry
-    ? `${escapeText(M.kindWord(scopeEntry.object.kind))} ${escapeText(scopeEntry.number)}: ${titleTex(entryTitle(model, outline, scopeEntry))}`
+    ? `${escapeText(M.kindWord(scopeEntry.object.kind))}${scopeEntry.number == null ? '' : ' ' + escapeText(scopeEntry.number)}: ${titleTex(entryTitle(model, outline, scopeEntry))}`
     : 'The complete blueprint';
-  const detailBits = [escapeText(described.detail.charAt(0).toUpperCase() + described.detail.slice(1))];
-  detailBits.push(`read along the \\texttt{${escapeText(req.collapse)}} order`);
-  if (described.appendices) detailBits.push(escapeText(described.appendices));
+  // What the dialog does not ask is said only when the command line chose it:
+  // fewer levels, another hierarchy.
+  const detailBits = [];
+  if (req.depth !== 'all') detailBits.push(escapeText(described.detail.charAt(0).toUpperCase() + described.detail.slice(1)));
+  if (req.collapse !== (model.defaultCollapse || model.collapseKinds[0])) detailBits.push(`read along the \\texttt{${escapeText(req.collapse)}} order`);
+  if (described.appendices) detailBits.push(escapeText(described.appendices.charAt(0).toUpperCase() + described.appendices.slice(1)));
   const snapshotLabel = options.snapshot && options.snapshot.label ? options.snapshot.label : null;
+
+  // The entries of the works cited from outside the export, each written once;
+  // an entry may cite another.
+  const bibliography = [];
+  for (let fresh = [...cited]; fresh.length; fresh = [...cited].filter((id) => !bibliography.some((b) => b.id === id))) {
+    for (const id of fresh) {
+      current = id;
+      bibliography.push({ id, label: M.referenceLabelOf(model, id) || id, tex: body(model.byId.get(id)) });
+    }
+  }
+  current = null;
+  bibliography.sort((a, b) => a.label.localeCompare(b.label, 'en'));
 
   const back = [];
   if (outside.size) {
-    back.push('\\bigskip\\phantomsection\\hypertarget{bp-outside}{}%');
+    back.push('\\clearpage\\phantomsection\\hypertarget{bp-outside}{}%');
     back.push('\\section*{Outside this export}');
     back.push('\\addcontentsline{toc}{section}{Outside this export}');
     back.push('References marked \\ensuremath{{}^\\ast} are to parts of the blueprint this document leaves out:');
     back.push('\\begin{description}');
-    const sorted = [...outside.entries()].sort((a, b) => compareNumbers(a[1].ref.number, b[1].ref.number));
+    // In reading order: headings and statements are numbered in two series,
+    // so their numbers do not sort.
+    const place = new Map(outline.entries.map((e, i) => [e, i]));
+    const sorted = [...outside.entries()].sort((a, b) => place.get(a[1].entry) - place.get(b[1].entry));
     for (const [id, { ref, entry }] of sorted) {
       const top = entry && topAncestor(entry);
-      const where = top && top !== entry ? `, in ${escapeText(top.number)} ${titleTex(M.titleOf(top.object))}` : '';
-      back.push(`\\item[${escapeText(ref.word + ' ' + ref.number)}] ${titleTex(M.titleOf(model.byId.get(id)))}${where} (\\bpslug{${escapeCode(id)}})`);
+      const where = top && top !== entry ? `, in ${texPrefix(top.number)}${titleTex(M.titleOf(top.object))}` : '';
+      back.push(`\\item[${escapeText(M.referenceText(ref))}] ${titleTex(M.titleOf(model.byId.get(id)))}${where} (\\bpslug{${escapeCode(id)}})`);
     }
     back.push('\\end{description}');
+  }
+  if (bibliography.length) {
+    back.push('\\clearpage\\phantomsection%');
+    back.push('\\section*{References}');
+    back.push('\\addcontentsline{toc}{section}{References}');
+    for (const b of bibliography) {
+      back.push(`\\bpbibitem{${escapeText(b.label)}}{${labelOf(b.id)}}{${b.tex}}`);
+      back.push('');
+    }
   }
 
   const macroLines = macroDefinitions(model.project.katexMacros, (code, message) => {
@@ -773,7 +931,7 @@ export function exportLatex(model, request, options = {}) {
   });
 
   const title = titleTex(project);
-  const pdfTitle = escapePdf(plainTitle(project) + (scopeEntry ? ' — ' + scopeEntry.number + ' ' + plainTitle(entryTitle(model, outline, scopeEntry)) : ''));
+  const pdfTitle = escapePdf(plainTitle(project) + (scopeEntry ? ' — ' + numPrefix(shownNumber(scopeEntry)) + plainTitle(entryTitle(model, outline, scopeEntry)) : ''));
   const frontMatter = [
     '\\begin{document}',
     '\\pagestyle{plain}',
@@ -782,7 +940,7 @@ export function exportLatex(model, request, options = {}) {
     '\\vspace{0.7em}',
     `{\\large ${scopeTex}\\par}`,
     '\\vspace{0.5em}',
-    `{\\small\\color{bpmuted}${detailBits.join(' \\textperiodcentered{} ')}\\par}`,
+    detailBits.length ? `{\\small\\color{bpmuted}${detailBits.join(' \\textperiodcentered{} ')}\\par}` : null,
     snapshotLabel ? `{\\small\\color{bpmuted}${escapeText(snapshotLabel)}\\par}` : null,
     '\\end{center}',
     tocLines >= 2 ? '\\vspace{0.5em}\n{\\small\\tableofcontents}\n\\bigskip\\hrule\\bigskip' : '\\bigskip',
@@ -833,7 +991,7 @@ export function exportLatex(model, request, options = {}) {
     description: described,
     assets,
     diagnostics: unique,
-    stats: { ...stats, outside: outside.size, labels: labels.size },
+    stats: { ...stats, outside: outside.size, cited: bibliography.length, labels: labels.size },
   };
 }
 
@@ -841,16 +999,6 @@ function topAncestor(entry) {
   let e = entry;
   while (e.parent) e = e.parent;
   return e;
-}
-
-function compareNumbers(a, b) {
-  const pa = String(a).split('.').map(Number);
-  const pb = String(b).split('.').map(Number);
-  for (let i = 0; i < Math.max(pa.length, pb.length); i += 1) {
-    const d = (pa[i] || 0) - (pb[i] || 0);
-    if (d) return d;
-  }
-  return 0;
 }
 
 /** Text for a PDF string (bookmarks, metadata): no TeX specials at all. */
@@ -873,9 +1021,27 @@ export function unsafeMath(body) {
   return UNSAFE_TEX.test(String(body));
 }
 
+/**
+ * Whether a formula's braces do not pair up, as when a `$` inside `\text{…}`
+ * ends an inline formula early: `$x\text{ for $a$}$` is read as `$x\text{ for $`,
+ * `a`, `$}$`.  KaTeX sets such a formula as its source, in red, and the page
+ * goes on; LaTeX would stop at it, so it is set as its source here too.
+ */
+export function unbalancedMath(body) {
+  let depth = 0;
+  const s = String(body);
+  for (let i = 0; i < s.length; i += 1) {
+    const c = s[i];
+    if (c === '\\') i += 1; // `\{`, `\}`, `\\`: never a group
+    else if (c === '{') depth += 1;
+    else if (c === '}' && --depth < 0) return true;
+  }
+  return depth !== 0;
+}
+
 /** A maths span as LaTeX: its source between LaTeX's own delimiters. */
 export function mathToLatex(span, { title = false } = {}) {
-  if (unsafeMath(span.body)) return `\\texttt{${escapeText(span.source)}}`;
+  if (unsafeMath(span.body) || unbalancedMath(span.body)) return `\\texttt{${escapeText(span.source)}}`;
   let body = String(span.body)
     // A blank line ends a paragraph in TeX, and with it the formula.
     .replace(/\n[ \t]*(?:\n[ \t]*)+/g, '\n')

@@ -26,8 +26,8 @@
 // screen grows the first picture of `zoom`, boxes and arrows drawn as the
 // graph draws them; it grows on and fades while the next one grows out of the
 // middle, and so on, the last being the graph itself.  Every step takes
-// `stepMs` and makes everything `ZOOM` times bigger, so the zoom keeps one
-// speed throughout.  `stepMs` may instead give each step a length of its own
+// `stepMs` and makes everything `ZOOM` times bigger, quickly at first and then
+// settling slowly into place (`SETTLE`), each step alike.  `stepMs` may instead give each step a length of its own
 // (the last one standing for any steps after it); the speed is still one, so
 // a shorter step grows less: the longest grow `ZOOM` times (`zoomFactors`).
 //
@@ -40,6 +40,18 @@
 // the top bar's logo, which is not there before it lands, while the top bar's
 // title fades in with the rest of the bar.
 //
+// A title that moves runs on a clock of its own, which goes on frame by
+// frame and by at most `MAX_FRAME_MS` a frame (`filmFrame`): a page busy for a
+// moment, or a tab out of sight, stops it where it is rather than letting it
+// jump on, so it always plays through whole, and the zoom starts only once it
+// has.  The zoom's own clock does the same.
+//
+// A title that moves also holds the page's heavy work back until it has
+// played (`held`): reading a large snapshot and drawing the graph keep the
+// page busy for a second or more, and the title would stop in mid-stroke
+// meanwhile.  Only the download goes on beside it.  So the title plays
+// through, and then stays, at its end, until the graph is drawn.
+//
 // The title stays until the snapshot is in and the graph
 // is drawn, so a large snapshot is waited for here rather than on a blank
 // page: `blueprint site` writes the intro to intro.json as well, which
@@ -51,16 +63,18 @@
 // Only on the way in: when the site is opened at its landing page, the bare
 // graph.  A link to anything else (an object, the document, a graph with a
 // selection) is something the reader asked for and opens straight on it, and
-// `?intro=0` in the page's URL leaves the intro out anywhere.  The graph's
-// toolbar has a button to see it again (`replayIntro`).
+// `?intro=0` in the page's URL leaves the intro out anywhere.  The top bar's
+// icon plays it again (`replayIntro`, app.js `watchBrand`).
 
 export const DEFAULT_MS = 3000;
 export const FADE_MS = 700; // the `.intro.leaving` transition in style.css
 export const HOLD_MS = 500; // how long a zooming intro's title stays, at least
 export const STEP_MS = 1000; // how long each step of the zoom takes
 export const FILM_END_S = 3600; // a moving title's time with reduced motion: its end
+export const MAX_FRAME_MS = 50; // the most a moving title, or the zoom, goes on in one frame
 export const TITLE_IN_MS = 700; // the title growing in: `intro-title-in` in style.css
 export const ZOOM = 10; // how much bigger each step of the zoom makes everything
+export const SETTLE = 3; // each step quick, then slow: 1 - (1 - t)^SETTLE of the way at t
 export const PICTURE_MAX = 2; // the largest a picture is drawn, in units of the graph's
 export const PICTURE_FIT = 0.45; // and at most this share of the stage's width and height, at rest
 export const CROSSFADE = 0.3; // the share of a step in which one picture fades out and the next in
@@ -189,7 +203,8 @@ const URL_ATTRS = [
   ['object', 'data'], ['a', 'href'],
 ];
 
-function resolveUrls(root, base) {
+/** Every address in `root` resolved against `base` (`resolveUrl`). */
+export function resolveUrls(root, base) {
   for (const [tag, attr] of URL_ATTRS) {
     for (const node of root.querySelectorAll(tag)) {
       const v = node.getAttribute(attr);
@@ -251,11 +266,11 @@ export function showIntro(app, { host = document.body, project = app.model && ap
 
   host.appendChild(layer);
   try { layer.focus({ preventScroll: true }); } catch (e) { /* an old browser */ }
-  return { layer, leave, loaded() {} };
+  return { layer, leave, loaded() {}, held: () => Promise.resolve() };
 }
 
 /**
- * The intro again, as the reader asked for it from the graph's toolbar: on
+ * The intro again, as the reader asked for it with the top bar's icon: on
  * the landing page, the bare graph, which is where it ends.  From anywhere
  * else (a graph with a selection, say) the page goes there first and the
  * intro starts with it, after the route change (which would otherwise end
@@ -264,7 +279,7 @@ export function showIntro(app, { host = document.body, project = app.model && ap
  */
 export function replayIntro(app, { atLanding, host = document.body, landing = '#/graph' } = {}) {
   if (!introOf(app.model && app.model.project)) return null;
-  // Not over itself: the top bar, and so this button, is there while it plays.
+  // Not over itself: the top bar, and so its icon, is there while it plays.
   for (const n of host.children) if (n.classList.contains('intro') && !n.classList.contains('leaving')) return null;
   if (atLanding) return showIntro(app, { host });
   return new Promise((resolve) => {
@@ -280,10 +295,11 @@ export function replayIntro(app, { atLanding, host = document.body, landing = '#
 
 /**
  * How far the zoom has got after `t` of its `steps` steps: one step per unit
- * of `t`, except that the first step starts from rest and the last comes to
- * rest, each joining the steady part at its speed.  Clamped to [0, steps].
- * `steps` may instead be the steps' lengths, `t` then counted in their unit:
- * each step takes its length, the first still from rest and the last to rest.
+ * of `t`, each step quick at first and settling slowly (`SETTLE`): what comes
+ * in reaches about 60% of its size in the first 40% of the step, and the rest
+ * of the step brings it to rest.  Clamped to [0, steps].  `steps` may instead
+ * be the steps' lengths, `t` then counted in their unit: each step takes its
+ * length.
  */
 export function zoomProgress(t, steps) {
   const lengths = Array.isArray(steps) ? steps : Array.from({ length: Math.max(0, steps) }, () => 1);
@@ -294,17 +310,12 @@ export function zoomProgress(t, steps) {
   let i = 0;
   while (i < n - 1 && u >= lengths[i]) { u -= lengths[i]; i += 1; }
   const x = Math.min(1, u / lengths[i]);
-  const out = (y) => y + y * y - y * y * y; // speed 1 down to 0
-  const into = (y) => 1 - out(1 - y); // speed 0 up to 1
-  if (n === 1) return x * x * (3 - 2 * x);
-  if (i === 0) return into(x);
-  if (i === n - 1) return n - 1 + out(x);
-  return i + x;
+  return i + 1 - Math.pow(1 - x, SETTLE);
 }
 
 /**
  * How much each step of the zoom grows everything, for steps of `lengths`:
- * one speed for all, at which the longest grow `zoom` times.
+ * one pace for all, at which the longest grow `zoom` times.
  */
 export function zoomFactors(lengths, zoom = ZOOM) {
   const longest = Math.max(...lengths);
@@ -417,11 +428,31 @@ function playZoom(app, intro, { host }) {
   let giveUp = null;
   const timers = [];
   const later = (f, ms) => timers.push(setTimeout(f, Math.max(0, ms)));
-  if (!reduced) {
-    later(() => {
-      for (const f of films) try { f.unpauseAnimations(); } catch (e) { /* as it is */ }
-    }, titleIn);
+  // What the page may do only once a moving title has played (`held`).
+  let heldDone;
+  const held = new Promise((resolve) => { heldDone = resolve; });
+  // A moving title on its own clock: frame by frame, never more than
+  // MAX_FRAME_MS at once, so that it never skips a part.
+  const filming = films.length > 0 && !reduced;
+  let filmMs = 0;
+  let filmDone = !filming;
+  let lastFrame = null;
+  function filmFrame(now) {
+    if (left || filmDone) return;
+    if (lastFrame !== null) filmMs += Math.max(0, Math.min(now - lastFrame, MAX_FRAME_MS));
+    lastFrame = now;
+    for (const f of films) try { f.setCurrentTime(filmMs / 1000); } catch (e) { /* a still picture */ }
+    if (filmMs >= intro.holdMs) {
+      filmDone = true;
+      heldDone();
+      later(() => { if (!started) title.classList.add('waiting'); }, 600);
+      maybeStart();
+      return;
+    }
+    requestAnimationFrame(filmFrame);
   }
+  if (filming) requestAnimationFrame(filmFrame);
+  else heldDone();
 
   import('./graph.js')
     .then((g) => Promise.all(intro.zoom.map((l) => g.sketch(app, l))))
@@ -432,12 +463,15 @@ function playZoom(app, intro, { host }) {
     .then((p) => { pictures = p; maybeStart(); });
   function onDrawn() { drawn = true; maybeStart(); }
   document.addEventListener('graphdrawn', onDrawn);
-  later(maybeStart, holdUntil - performance.now());
-  // A snapshot slow to arrive: say so under the title.
-  later(() => { if (!started) title.classList.add('waiting'); }, titleIn + intro.holdMs + 600);
+  if (!filming) {
+    later(maybeStart, holdUntil - performance.now());
+    // A snapshot slow to arrive: say so under the title.
+    later(() => { if (!started) title.classList.add('waiting'); }, titleIn + intro.holdMs + 600);
+  }
 
   function maybeStart() {
-    if (left || started || !drawn || !pictures || performance.now() < holdUntil - 5) return;
+    if (left || started || !drawn || !pictures || !filmDone) return;
+    if (!filming && performance.now() < holdUntil - 5) return;
     started = true;
     clearTimeout(giveUp);
     title.classList.remove('waiting');
@@ -513,10 +547,13 @@ function playZoom(app, intro, { host }) {
     const lengths = Array.from({ length: count - 1 },
       (_, i) => intro.stepsMs[Math.min(i, intro.stepsMs.length - 1)]);
     const factors = reduced ? lengths.map(() => 1) : zoomFactors(lengths);
-    const z0 = performance.now();
+    let zoomMs = 0;
+    let zoomLast = null;
     const frame = (now) => {
       if (left) return;
-      const p = zoomProgress(now - z0, lengths);
+      if (zoomLast !== null) zoomMs += Math.max(0, Math.min(now - zoomLast, MAX_FRAME_MS));
+      zoomLast = now;
+      const p = zoomProgress(zoomMs, lengths);
       const at = zoomLayers(p, count, factors);
       for (let i = 0; i < count; i += 1) {
         const node = layers[i];
@@ -551,6 +588,7 @@ function playZoom(app, intro, { host }) {
   function end() {
     left = true;
     for (const t of timers) clearTimeout(t);
+    heldDone();
     clearTimeout(giveUp);
     document.removeEventListener('graphdrawn', onDrawn);
     window.removeEventListener('keydown', onKey, true);
@@ -582,5 +620,6 @@ function playZoom(app, intro, { host }) {
     loaded() {
       if (!left && !started && !giveUp) giveUp = setTimeout(leave, WAIT_MS);
     },
+    held: () => held,
   };
 }

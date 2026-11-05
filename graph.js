@@ -80,12 +80,13 @@ function readState(app) {
     status: app.showProgress && p.has('status') ? split('status') : null, // null = all
     q: p.get('q') || '',
     sel: p.get('sel') || null,
-    // Off unless asked for, as every option that changes which arcs are
-    // drawn: by default the graph draws A -> B for two nodes exactly when A,
-    // or something inside A, has an arc to B itself, or A itself has an arc
-    // to B or to something inside B (`M.ownEdges`).
-    // Hide arcs implied by a longer path of their kind.
-    reduce: p.get('reduce') === '1',
+    // The options below change which arcs are drawn.  By default the graph
+    // draws A -> B for two nodes exactly when A, or something inside A, has
+    // an arc to B itself, or A itself has an arc to B or to something inside
+    // B (`M.ownEdges`), less the arcs a longer path implies.
+    // Hide arcs implied by a longer path of their kind: on unless the reader
+    // asks for every arc.
+    reduce: p.get('reduce') !== '0',
     // Draw a collapsed object's contents' arcs on it as well (DESIGN 3's
     // derived arcs).
     inner: p.get('inner') === '1',
@@ -200,20 +201,23 @@ function mount(root, app) {
   lastSignature = null;
 }
 
+// An arc's head is two strokes meeting at its end, "—>", one head for every
+// arc whether solid or dashed.  A marker is scaled by the stroke width of its
+// line, so a stroke of 10 / HEAD units draws the head as thick as the line.
+const HEAD = 7;
+function arrowMarker(svgEl, id, cls) {
+  return svgEl('marker', {
+    id, viewBox: '0 0 10 10', refX: 9, refY: 5,
+    markerWidth: HEAD, markerHeight: HEAD, orient: 'auto-start-reverse',
+  }, svgEl('path', { d: 'M 1 1.2 L 9 5 L 1 8.8', class: cls, 'stroke-width': round(10 / HEAD) }));
+}
+
 function defs(app) {
   const { svgEl } = app;
-  const marker = (id, hollow) =>
-    svgEl('marker', {
-      id, viewBox: '0 0 10 10', refX: 9, refY: 5,
-      markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse',
-    }, svgEl('path', {
-      d: 'M 0 0.8 L 10 5 L 0 9.2 z',
-      class: (hollow ? 'arrowhead hollow' : 'arrowhead') + (id.endsWith('-focus') ? ' focus' : ''),
-    }));
-  // The `-focus` pair is the accent-coloured head an edge of the selected node
-  // switches to, so the arrow matches its highlighted stroke.
-  return svgEl('defs', marker('bp-arrow', false), marker('bp-arrow-hollow', true),
-    marker('bp-arrow-focus', false), marker('bp-arrow-hollow-focus', true));
+  // `bp-arrow-focus` is the darker head a highlighted edge switches to, so the
+  // arrow matches its darkened stroke.
+  return svgEl('defs', arrowMarker(svgEl, 'bp-arrow', 'arrowhead'),
+    arrowMarker(svgEl, 'bp-arrow-focus', 'arrowhead focus'));
 }
 
 /** The key to the drawing; the fills say the statuses, so without the progress there are none. */
@@ -224,30 +228,26 @@ function legend(app, progress) {
     for (const c of children) s.appendChild(c);
     return s;
   };
+  // The dashes as style.css draws them on the arcs (`.gedge`).
   const line = (dash) => svgEl('line', {
-    x1: 1, y1: 5, x2: dash === 'hollow' ? 17 : 23, y2: 5,
-    stroke: 'currentColor', 'stroke-width': 1.6,
-    'stroke-dasharray': dash === 'dashed' ? '4 3' : null,
+    x1: 1, y1: 5, x2: 23, y2: 5,
+    stroke: 'currentColor', 'stroke-width': 1.3,
+    'stroke-dasharray': dash === 'short' ? '3 2' : dash === 'long' ? '5 4' : null,
   });
-  const head = (hollow) => svgEl('path', {
-    d: 'M 17 2 L 23 5 L 17 8 z',
-    fill: hollow ? 'none' : 'currentColor', stroke: 'currentColor', 'stroke-width': 1,
+  const head = () => svgEl('path', {
+    d: 'M 18 1.8 L 23 5 L 18 8.2',
+    fill: 'none', stroke: 'currentColor', 'stroke-width': 1.3,
+    'stroke-linecap': 'round', 'stroke-linejoin': 'round',
   });
   const swatch = (s, text) =>
     el('div.row', el('span', { class: 'sw status-' + s }), el('span', text));
-  const shape = (t, text) => el('div.row', el('span', { class: 'shp ' + t }), el('span', text));
   return el('div.legend',
-    el('b', 'shapes'),
-    shape('definition', 'definition'),
-    shape('statement', 'theorem, proposition, lemma'),
-    shape('remark', 'remark'),
-    shape('section', 'section'),
-    el('b', { style: { marginTop: '.3em' } }, 'lines'),
-    el('div.row', sample(line(), head(false)), 'declared + derived'),
-    el('div.row', sample(line('hollow'), head(true)), 'declared, unwitnessed'),
+    el('b', 'lines'),
+    el('div.row', sample(line(), head()), 'declared + derived'),
+    el('div.row', sample(line('short'), head()), 'declared, unwitnessed'),
     // Only arcs into the contents of collapsed objects are drawn so (`arcs of
     // contents`, or out of an expanded section into a collapsed one).
-    el('div.row.lg-derived', sample(line('dashed'), head(false)), 'derived, undeclared'),
+    el('div.row.lg-derived', sample(line('long'), head()), 'derived, undeclared'),
     // Only while the graph is searched (`applyHighlight`).
     el('b.lg-search', { style: { marginTop: '.3em' } }, 'search'),
     el('div.row.lg-search', el('span.shp.hit'), el('span', 'matches')),
@@ -302,7 +302,8 @@ function renderToolbar(app, st) {
   // button (style.css): unfolded, on a wide screen the wrapper is `display:
   // contents` and the toolbar is the one row it always was, and on a phone it
   // is a second row.
-  const filtered = !!(st.ekinds || st.status || st.reduce || st.inner || !st.appendix);
+  // Hiding implied arcs is the default, and no dot.
+  const filtered = !!(st.ekinds || st.status || st.inner || !st.appendix);
   bar.classList.toggle('open', !!ui.toolbarOpen);
   const toggle = bar.appendChild(el('button.tb-toggle', {
     type: 'button',
@@ -339,12 +340,12 @@ function renderToolbar(app, st) {
       }), k))));
 
   // Transitive reduction of what is drawn (see `buildElk`): a group of its
-  // own, since it is not a kind and is off when all the kinds are on.
+  // own, since it is not a kind.  On by default.
   filters.appendChild(el('div.group.reduce',
     el('label.chk', { title: 'hide arcs already implied by a longer path of the same kind' },
       el('input', {
         type: 'checkbox', checked: st.reduce,
-        onchange: (e) => writeState(app, { reduce: e.target.checked ? '1' : null }),
+        onchange: (e) => writeState(app, { reduce: e.target.checked ? null : '0' }),
       }), 'hide implied'),
     el('label.chk', { title: 'also draw, on a collapsed object, the arcs of what is hidden inside it' },
       el('input', {
@@ -396,9 +397,6 @@ function renderToolbar(app, st) {
     el('button', { onclick: () => zoomBy(app, 1.25) }, '+'),
     el('button', { onclick: () => zoomBy(app, 1 / 1.25) }, '\u2212')));
   bar.appendChild(statsToggle(app));
-  // Replay intro is the graph's alone, where the intro lands (app.js).
-  const intro = app.introButton ? app.introButton() : null;
-  if (intro) bar.appendChild(intro);
   bar.appendChild(sideToggle(app));
 }
 
@@ -732,13 +730,26 @@ function mathSettled(app, titles) {
 }
 
 /** [title, drawn expanded] of every object the view could draw as a box. */
-function boxTitles(m, view) {
+function boxTitles(app, st, view) {
   const out = [];
   for (const id of new Set([...view.visible, ...view.expanded])) {
-    const o = m.byId.get(id);
-    if (o && (o.boundary.length === 0 || view.isExpanded(id))) out.push([M.titleOf(o), view.isExpanded(id)]);
+    const o = view.model.byId.get(id);
+    if (o && (o.boundary.length === 0 || view.isExpanded(id))) out.push([nodeTitle(app, st, o), view.isExpanded(id)]);
   }
   return out;
+}
+
+/**
+ * The title a box shows: a section's (a chapter, a section, a subsection, an
+ * appendix) after its number in the document, "2.1 Groups", as the contents
+ * have it; the title alone for anything else, and for a section its `serial`
+ * leaves unnumbered.
+ */
+function nodeTitle(app, st, o) {
+  const title = M.titleOf(o);
+  if (!M.isSectionKind(o.kind)) return title;
+  const e = M.documentOutline(app.model, st.collapse).byId.get(o.id);
+  return e && e.number != null ? e.number + ' ' + title : title;
 }
 
 /** The wrapped title of a node: KaTeX's lines when measured, plain text otherwise. */
@@ -755,6 +766,7 @@ function sizeLeaf(node, expandable, section) {
   node.width = Math.max(section ? 120 : 104, width + pad);
   node.height = (section || (prog && prog.total > 1) ? NODE_H2 : NODE_H) + height - LINE_H;
 }
+
 
 /**
  * Turn the quotient into an ELK graph.
@@ -796,7 +808,7 @@ export function buildElk(app, st, view, quot) {
   const mk = (id) => {
     const o = m.byId.get(id);
     const compound = view.isExpanded(id);
-    const title = M.titleOf(o);
+    const title = nodeTitle(app, st, o);
     const prog = st.progress ? M.progressMixOf(app.model, st.collapse, id) : null;
     const node = {
       id,
@@ -826,7 +838,7 @@ export function buildElk(app, st, view, quot) {
   };
 
   // Titles with maths are measured by the browser, all of them in one go.
-  measureMathTitles(app, [...nodeIds].map((id) => [M.titleOf(m.byId.get(id)), view.isExpanded(id)]));
+  measureMathTitles(app, [...nodeIds].map((id) => [nodeTitle(app, st, m.byId.get(id)), view.isExpanded(id)]));
   for (const id of nodeIds) nodes.set(id, mk(id));
 
   const rootChildren = [];
@@ -1126,7 +1138,7 @@ async function scheduleLayout(app, st, view, quot) {
   const token = ++layoutToken;
   // The first titles with maths on the page wait for KaTeX's fonts before
   // they are measured for good; a graph without maths goes straight on.
-  const fonts = mathSettled(app, boxTitles(view.model, view));
+  const fonts = mathSettled(app, boxTitles(app, st, view));
   if (fonts) {
     ui.stage.classList.add('laying-out');
     await fonts;
@@ -1653,37 +1665,10 @@ function cssEscape(s) {
 
 // --- node shapes -----------------------------------------------------------
 
-// Colour says the status, so the type is told by shape: a definition is a
-// sharp box, a theorem, proposition, lemma or corollary a stadium, a remark a
-// note with a folded corner, and a section a double frame; see `M.nodeType`.
-const FOLD = 9;          // the folded corner of a remark
-const FRAME_GAP = 3;     // the gap between a section's two frames
-const STADIUM_R = 18;    // a statement's end radius: a full half-circle on a one-line
-                         // leaf, no deeper than LEAF_PAD into a taller one's title
-
-function nodeShape(svgEl, shape, w, h, compound) {
-  if (shape === 'remark') {
-    const f = Math.min(FOLD, w / 2, h / 2);
-    return [
-      svgEl('path', { class: 'shape', d: `M0,0 H${w - f} L${w},${f} V${h} H0 Z` }),
-      svgEl('path', { class: 'fold', d: `M${w - f},0 V${f} H${w}` }),
-    ];
-  }
-  if (shape === 'section') {
-    return [
-      svgEl('rect', { class: 'shape', x: 0, y: 0, width: w, height: h, rx: 5, ry: 5 }),
-      svgEl('rect', {
-        class: 'frame2', x: FRAME_GAP, y: FRAME_GAP,
-        width: Math.max(0, w - 2 * FRAME_GAP), height: Math.max(0, h - 2 * FRAME_GAP), rx: 3, ry: 3,
-      }),
-    ];
-  }
-  // A stadium's ends would swallow a container's title, so an open
-  // (compound) statement only rounds its corners well.
-  const rx = shape === 'definition' ? 1.5
-    : shape === 'statement' ? (compound ? 16 : Math.min(h / 2, STADIUM_R))
-      : 8;
-  return [svgEl('rect', { class: 'shape', x: 0, y: 0, width: w, height: h, rx, ry: rx })];
+// Every object is the same sharp box, whatever its kind: colour says the
+// status, and the mark in the top right corner the kind (`M.nodeType`).
+function nodeShape(svgEl, w, h) {
+  return [svgEl('rect', { class: 'shape', x: 0, y: 0, width: w, height: h, rx: 1.5, ry: 1.5 })];
 }
 
 function drawNode(app, box, meta, st, view) {
@@ -1694,17 +1679,17 @@ function drawNode(app, box, meta, st, view) {
   const type = M.nodeType(m, o);
   const g = svgEl('g', {
     class: 'gnode' + (meta.compound ? ' compound' : '') + ' kind-' + o.kind +
-      ' type-' + type.shape + ' status-' + (status || 'none'),
+      ' status-' + (status || 'none'),
     transform: `translate(${box.x},${box.y})`,
     'data-nid': box.node.id,
     'data-id': o.id,
     tabindex: 0,
   });
-  for (const s of nodeShape(svgEl, type.shape, box.w, box.h, meta.compound)) g.appendChild(s);
+  for (const s of nodeShape(svgEl, box.w, box.h)) g.appendChild(s);
 
   // The whole title, on the lines `buildElk` sized the node for: a section's
   // at the top left after the expander, a leaf's centred above its progress bar.
-  const wrap = meta.wrap || { lines: [M.titleOf(o)], width: 0, height: LINE_H };
+  const wrap = meta.wrap || { lines: [nodeTitle(app, st, o)], width: 0, height: LINE_H };
   const lines = wrap.lines;
   const expandable = view.isExpandable(o.id);
   const bar = !meta.compound && meta.prog && meta.prog.total > 1 ? 10 : 0;
@@ -1732,11 +1717,7 @@ function drawNode(app, box, meta, st, view) {
     }, ...lines.map((line, i) => svgEl('tspan', { x: tx, y: ty + i * LINE_H }, line))));
   }
 
-  g.appendChild(svgEl('text', {
-    // Clear of a remark's folded corner and a statement's round end.
-    class: 'kindmark', y: 12, 'text-anchor': 'end',
-    x: box.w - (type.shape === 'remark' ? 6 + FOLD : type.shape === 'statement' && !meta.compound ? 11 : 6),
-  }, type.mark));
+  g.appendChild(svgEl('text', { class: 'kindmark', y: 12, 'text-anchor': 'end', x: box.w - 6 }, type.mark));
 
   const prog = meta.prog;
   if (prog && prog.total > 1 && !meta.compound) {
@@ -1787,12 +1768,14 @@ function drawNode(app, box, meta, st, view) {
  * One picture as an `<svg>` whose viewBox is the drawing, and that box as
  * `{x, y, w, h}`.  Layouts are remembered as the graph's are.
  */
+let sketchCount = 0; // the pictures drawn so far, for their markers' ids
+
 export async function sketch(app, layer) {
   const { svgEl } = app;
   const types = { _types: new Map() };
   const nodes = (layer.nodes || []).map((n) => {
     const type = M.nodeType(types, { id: n.id, kind: n.kind || 'section' });
-    const expandable = type.shape === 'section';
+    const expandable = M.isSectionKind(type.word);
     const node = { id: n.id, bp: { wrap: titleWrap(n.title, false), prog: null } };
     sizeLeaf(node, expandable, false);
     return { ...n, type, expandable, node };
@@ -1817,13 +1800,13 @@ export async function sketch(app, layer) {
     viewBox: `${box.x - pad} ${box.y - pad} ${box.w + 2 * pad} ${box.h + 2 * pad}`,
     width: box.w + 2 * pad, height: box.h + 2 * pad,
   });
-  // Arrowheads of its own: an id shared with the graph's would resolve to
-  // the graph's, which the intro keeps hidden.
-  const head = svgEl('marker', {
-    id: 'bp-sketch-arrow', viewBox: '0 0 10 10', refX: 9, refY: 5,
-    markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse',
-  }, svgEl('path', { d: 'M 0 0.8 L 10 5 L 0 9.2 z', class: 'arrowhead' }));
-  svg.appendChild(svgEl('defs', head));
+  // Arrowheads of its own, the graph's "declared + derived" head: an id
+  // shared with the graph's, or with another picture's, would resolve to the
+  // first of them in the page, which the intro may keep hidden, and a marker
+  // is drawn as visible as the place it is defined in.
+  sketchCount += 1;
+  const headId = 'bp-sketch-arrow-' + sketchCount;
+  svg.appendChild(svgEl('defs', arrowMarker(svgEl, headId, 'arrowhead')));
   const gEdges = svgEl('g', { class: 'edges' });
   const gNodes = svgEl('g', { class: 'nodes' });
   svg.appendChild(gEdges);
@@ -1834,7 +1817,7 @@ export async function sketch(app, layer) {
     if (!a || !b) continue;
     const pts = pathPoints(e, a, b, { x: 0, y: 0 });
     gEdges.appendChild(svgEl('g', { class: 'gedge kind-uses' },
-      svgEl('path', { d: pathD(pts), 'marker-end': 'url(#bp-sketch-arrow)' })));
+      svgEl('path', { d: pathD(pts), 'marker-end': `url(#${headId})` })));
   }
   for (const n of nodes) {
     const b = abs.get(n.id);
@@ -1848,19 +1831,16 @@ function sketchNode(app, box, n) {
   const { svgEl } = app;
   const { type, expandable } = n;
   const g = svgEl('g', {
-    class: 'gnode kind-' + (n.kind || 'section') + ' type-' + type.shape + ' status-none',
+    class: 'gnode kind-' + (n.kind || 'section') + ' status-none',
     transform: `translate(${box.x},${box.y})`,
   });
-  for (const s of nodeShape(svgEl, type.shape, box.w, box.h, false)) g.appendChild(s);
+  for (const s of nodeShape(svgEl, box.w, box.h)) g.appendChild(s);
   const wrap = n.node.bp.wrap;
   const tx = box.w / 2 + (expandable ? 5 : 0);
   const ty = box.h / 2 - wrap.height / 2 + LINE_H / 2 + 4;
   g.appendChild(svgEl('text', { class: 'label', 'text-anchor': 'middle' },
     ...wrap.lines.map((line, i) => svgEl('tspan', { x: tx, y: ty + i * LINE_H }, line))));
-  g.appendChild(svgEl('text', {
-    class: 'kindmark', y: 12, 'text-anchor': 'end',
-    x: box.w - (type.shape === 'remark' ? 6 + FOLD : type.shape === 'statement' ? 11 : 6),
-  }, type.mark));
+  g.appendChild(svgEl('text', { class: 'kindmark', y: 12, 'text-anchor': 'end', x: box.w - 6 }, type.mark));
   if (expandable) g.appendChild(svgEl('text', { class: 'expander', x: 8, y: box.h / 2 + 4 }, '+'));
   return g;
 }
@@ -2009,18 +1989,16 @@ function drawEdge(app, meta, pts, a, b) {
   if (state) classes.push('state-' + state);
   if (entity && entity.synthetic) classes.push('synthetic');
   if (isSpoke) classes.push('spoke');
+  // Declared, but nothing inside witnesses it: drawn in short dashes.
+  if (state === 'declared-only' && elaborable) classes.push('unwitnessed');
 
   const g = svgEl('g', {
     class: classes.join(' '),
     'data-id': isSpoke ? meta.item.id : (entity.members[0] ? entity.members[0].id : entity.id),
   });
 
-  const hollow = state === 'declared-only' && elaborable;
   const directed = isSpoke ? meta.directed : (entity.directed !== false);
-  const path = svgEl('path', {
-    d: pathD(pts),
-    'marker-end': directed ? (hollow ? 'url(#bp-arrow-hollow)' : 'url(#bp-arrow)') : null,
-  });
+  const path = svgEl('path', { d: pathD(pts), 'marker-end': directed ? 'url(#bp-arrow)' : null });
   g.appendChild(path);
 
   // a wide invisible path makes the edge easy to hit with the mouse
@@ -2049,8 +2027,14 @@ function drawEdge(app, meta, pts, a, b) {
       ].filter(Boolean).join('\n');
   g.appendChild(svgEl('title', names));
 
-  g.addEventListener('mouseenter', () => g.classList.add('hovered'));
-  g.addEventListener('mouseleave', () => g.classList.remove('hovered'));
+  g.addEventListener('mouseenter', () => {
+    g.classList.add('hovered');
+    focusArrowhead(g, true);
+  });
+  g.addEventListener('mouseleave', () => {
+    g.classList.remove('hovered');
+    focusArrowhead(g, ui.layer.classList.contains('focusing') && g.classList.contains('focus'));
+  });
   g.addEventListener('click', (ev) => {
     ev.stopPropagation();
     if (panSuppressClick) return;
@@ -2216,7 +2200,7 @@ function applyFocus(own) {
   ui.layer.classList.add('focusing');
 }
 
-/** Give a highlighted edge the accent-coloured head of `defs`, or take it back. */
+/** Give a highlighted edge the darker head of `defs`, or take it back. */
 function focusArrowhead(g, on) {
   const p = g.querySelector('path'); // the drawn path; the wide hit path comes after it
   const mk = p && p.getAttribute('marker-end');
@@ -2505,18 +2489,18 @@ function renderSide(app, st, view, quot) {
       onclick: () => select(app, null),
     }, '\u2715')));
 
-  // The title, and beside it the way into the document: the page with the
-  // object's level, scrolled to it, as every link to it there leads.  What the
-  // document leaves out (a plain sugar edge, say) has its object page instead.
+  // The title is the way into the document: the page with the object's level,
+  // scrolled to it, as every link to it there leads.  What the document leaves
+  // out (a plain sugar edge, say) has its object page instead.  The kind sits
+  // beside it.
   const status = M.badgeStatusOf(m, id);
-  const heading = el('h2', M.titleOf(o));
   const inDoc = app.documentLevelHref(M.documentOutline(app.model, st.collapse), st.collapse, id);
-  side.appendChild(el('div.side-head', { 'data-id': id },
-    heading,
-    inDoc
-      ? el('a.side-open', { href: inDoc }, 'Open in document \u2192')
-      : el('a.side-open', { href: app.objectHref(id) }, 'Open object page \u2192')));
-  side.appendChild(el('div.meta', app.kindBadge(o.kind), status === null ? null : app.statusBadge(status)));
+  const heading = el('h2', el('a.side-title', {
+    href: inDoc || app.objectHref(id),
+    title: inDoc ? 'open in the document' : 'open the object page',
+  }, M.titleOf(o)));
+  side.appendChild(el('div.side-head', { 'data-id': id }, heading, app.kindBadge(o.kind)));
+  if (status !== null) side.appendChild(el('div.meta', app.statusBadge(status)));
 
   const prog = st.progress ? M.progressMixOf(app.model, st.collapse, id) : null;
   if (prog) {
@@ -2530,9 +2514,9 @@ function renderSide(app, st, view, quot) {
         ' (', String(M.childrenOf(view.order, id).length), ' children)')));
   }
 
-  // What the object says comes first, open, though the reader may fold it
-  // away; only then its neighbourhood, which on a real project easily runs to
-  // dozens of rows.
+  // What the object says comes first, folded until the reader opens it; only
+  // then its neighbourhood, which on a real project easily runs to dozens of
+  // rows.
   if (o.body && o.body.trim()) {
     const box = el('div.excerpt.body-prose');
     side.appendChild(fold(el, 'prose', 'Prose', box));
@@ -2570,17 +2554,15 @@ function renderSide(app, st, view, quot) {
   for (const list of side.querySelectorAll('ul.objlist')) app.renderMath(list);
 }
 
-// A section behind a disclosure: the long listings shut until the reader opens
-// them, the count in the summary saying what is there, and the prose open until
-// the reader folds it (`FOLD_STARTS_OPEN`). The panel is rebuilt on every route
-// change (a checkbox, an expand, the next selection), so whether it is open is
-// kept in `ui.folded` under `key` rather than snapping back each time.
-const FOLD_STARTS_OPEN = new Set(['prose']);
-
+// A section behind a disclosure: the prose and the long listings shut until the
+// reader opens them, a listing's count in the summary saying what is there. The
+// panel is rebuilt on every route change (a checkbox, an expand, the next
+// selection), so whether it is open is kept in `ui.folded` under `key` rather
+// than snapping back each time.
 function fold(el, key, title, ...children) {
   return el('section.fold', { 'data-fold': key },
     el('details', {
-      open: ui.folded.has(key) ? ui.folded.get(key) : FOLD_STARTS_OPEN.has(key),
+      open: ui.folded.get(key) || false,
       ontoggle: (ev) => { ui.folded.set(key, ev.target.open); },
     }, el('summary', title), ...children));
 }

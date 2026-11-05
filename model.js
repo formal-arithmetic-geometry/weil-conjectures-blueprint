@@ -119,6 +119,7 @@ export function buildModel(snapshot) {
     _positions: new Map(), // memoised document positions, per collapse kind
     _countable: null, // countable objects by title, for the progress listing
     _outlines: new Map(), // memoised document outlines, per collapse kind
+    _proofPlacement: new Map(), // memoised `proofPlacement`, per collapse kind
     _mixes: new Map(), // memoised status counts under each object, per collapse kind
     _types: new Map(), // memoised `nodeType`, per object
     _graphModels: new Map(), // memoised `graphModel`, per choice of what to hide
@@ -184,18 +185,53 @@ export function progressOf(model, kind, id) {
 /** The statement words a node's type can be, with their short marks. */
 const TYPE_MARK = {
   definition: 'def', theorem: 'thm', proposition: 'prop', lemma: 'lem',
-  corollary: 'cor', remark: 'rem',
+  corollary: 'cor', remark: 'rem', question: 'q?', example: 'ex', chapter: 'chap',
 };
 
 /**
  * Kinds the document sets as headings rather than as numbered statements, and
- * the graph draws as sections: a section, and an appendix (a section the graph
- * can hide).
+ * the graph draws as sections: a part (which the graph does not draw, though
+ * it draws what is in it), a chapter, a section, a subsection, an appendix (a
+ * section the graph can hide) and matter (a section the graph never draws: an
+ * introduction, the references).
  */
-const SECTION_KINDS = new Set(['section', 'appendix']);
+const SECTION_KINDS = new Set(['part', 'chapter', 'section', 'subsection', 'appendix', 'matter']);
+
+/**
+ * The kind of a part of the document, "Part I": a heading above chapters,
+ * numbered in a series of its own with what is in it numbered as if it were
+ * not there (`documentOutline`), and left out of the graph without what is in
+ * it (`graph = "through"`, `outOfGraph`).
+ */
+export const PART_KIND = 'part';
+
+/** The word a heading's number is read with in a heading or a contents row: "Part" for a part, none for the others. */
+export function headingWord(kind) {
+  return kind === PART_KIND ? 'Part' : null;
+}
+
+/** I, II, III, …: the number of the `n`th part. */
+export function romanNumeral(n) {
+  let out = '';
+  for (const [v, r] of [[1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'],
+    [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']]) {
+    while (n >= v) { out += r; n -= v; }
+  }
+  return out;
+}
 
 export function isSectionKind(kind) {
   return SECTION_KINDS.has(kind);
+}
+
+/**
+ * Whether an entry of the outline has a row in the contents, the contents
+ * page's and the document's sidebar alike: a heading (a chapter, a section, a
+ * subsection, an appendix), and not a statement, a proof, a relation or the
+ * text between them, which are read on the pages the headings lead to.
+ */
+export function isContentsEntry(e) {
+  return !!e && !e.text && isSectionKind(e.object.kind);
 }
 
 /**
@@ -468,25 +504,18 @@ export function parseCitation(model, inner) {
  */
 export const CITE_PATTERN = '\\[([A-Za-z0-9][A-Za-z0-9._~/-]*\\s*,[^\\[\\]\\n]*)\\](?!\\()';
 
-/** The shape family of each statement word. */
-const TYPE_SHAPE = {
-  definition: 'definition', theorem: 'statement', proposition: 'statement',
-  lemma: 'statement', corollary: 'statement', remark: 'remark',
-};
-
 /**
- * What a node is, for drawing: {word, mark, shape}.  The word is its kind; a
+ * What a node is, for drawing: {word, mark}.  The word is its kind; a
  * sketch of a statement is an object of that statement's kind (`blueprint
- * migrate` turns the sections that used to stand for one into it).  `shape`
- * is `definition`, `statement`, `remark`, `section`, or `other`.  Memoised on
- * the model.
+ * migrate` turns the sections that used to stand for one into it).  The mark
+ * is the short word the graph sets in the corner of every node, which are all
+ * drawn alike.  Memoised on the model.
  */
 export function nodeType(model, o) {
   let t = model._types.get(o.id);
   if (t) return t;
   const word = o.kind;
-  const shape = TYPE_SHAPE[word] || (isSectionKind(word) ? 'section' : 'other');
-  t = { word, mark: TYPE_MARK[word] || word.slice(0, 3), shape };
+  t = { word, mark: TYPE_MARK[word] || word.slice(0, 3) };
   model._types.set(o.id, t);
   return t;
 }
@@ -581,6 +610,24 @@ export function proofLeadRest(object) {
   const t = object && object.attrs && object.attrs.title;
   if (typeof t !== 'string' || !t) return '.';
   return /^of\s/.test(t) ? ' ' + t + '.' : ' (' + t + ').';
+}
+
+/**
+ * `proofLeadRest` for a proof read away from its statement (`proofPlacement`),
+ * which says what it proves: "Proof of Theorem 2.1.", "Proof of Theorem 2.1
+ * (by induction).", "Proof of the detailed form (Theorem 2.1).".  Right after
+ * its statement it is `proofLeadRest`, "Proof." as ever.
+ */
+export function proofLeadAway(model, outline, object) {
+  const rest = proofLeadRest(object);
+  const of = attachedTo(object);
+  const stmt = of == null ? null : model.byId.get(of);
+  if (!stmt) return rest;
+  const ref = referenceOf(outline, of);
+  const name = ref && ref.number ? ref.word + ' ' + ref.number : titleOf(stmt);
+  if (rest === '.') return ' of ' + name + '.';
+  if (rest.startsWith(' (')) return ' of ' + name + rest;
+  return rest.slice(0, -1) + ' (' + name + ').';
 }
 
 /**
@@ -1072,7 +1119,7 @@ export function quotient(view, options = {}) {
         // `elaborable` is true when at least one end still has finer structure
         // under K.  A declared edge between two K-leaves cannot be witnessed by
         // anything finer, so "declared but not derived" is not interesting
-        // there; the `unwitnessed-edge` lint and the hollow arrow head are for
+        // there; the `unwitnessed-edge` lint and the short-dashed arc are for
         // the elaborable case.
         elaborable: view.order.expandable.has(s) || view.order.expandable.has(t),
       };
@@ -1500,13 +1547,13 @@ function stronglyConnected(succ) {
 
 /**
  * The `graph` display hint of a kind: `always` (the default), `optional` (an
- * appendix: drawn unless the reader hides it) or `never` (read in the
- * document only).
+ * appendix: drawn unless the reader hides it), `never` (read in the document
+ * only) or `through` (a part: not drawn, though what is in it is).
  */
 export function graphHint(model, kindName) {
   const k = model.kinds[kindName];
   const g = k && k.graph;
-  return g === 'optional' || g === 'never' ? g : 'always';
+  return g === 'optional' || g === 'never' || g === 'through' ? g : 'always';
 }
 
 /**
@@ -1516,7 +1563,10 @@ export function graphHint(model, kindName) {
  * graph is driven by; and every object with one of them on its boundary, so a
  * relation never points at something that is not there.  The last two apply
  * again to what they add, which takes a proof along with its statement and a
- * lemma refining a left-out relation along with that relation.
+ * lemma refining a left-out relation along with that relation.  An object of
+ * a kind drawn `through` (a part) is left out with the relations touching it,
+ * but not with what is below it, which then stands where it stood: its
+ * chapters become roots.
  */
 export function outOfGraph(model, { hideOptional = false } = {}) {
   const out = new Set();
@@ -1524,6 +1574,11 @@ export function outOfGraph(model, { hideOptional = false } = {}) {
   for (const o of model.objects) {
     const g = graphHint(model, o.kind);
     if (g === 'never' || (g === 'optional' && hideOptional)) stack.push(o.id);
+  }
+  for (const o of model.objects) {
+    if (graphHint(model, o.kind) !== 'through' || out.has(o.id)) continue;
+    out.add(o.id);
+    for (const { object } of incidentTo(model, o.id)) stack.push(object.id);
   }
   // Built only when something is left out: most snapshots leave nothing, and
   // the graph and object pages then need no order but the one they show.
@@ -1588,10 +1643,10 @@ function compareIds(model, a, b) {
  * itself one of its details keeps its place as a root, so the walk below still
  * reaches both.
  */
-function detailedProofs(model, order) {
+function detailedProofs(model, order, skip) {
   const out = new Map();
   for (const o of model.objects) {
-    if (o.kind !== 'proof') continue;
+    if (o.kind !== 'proof' || skip.has(o.id)) continue;
     if (parentsOf(order, o.id).length || !childrenOf(order, o.id).length) continue;
     const of = attachedTo(o);
     if (of == null || of === o.id || !model.byId.has(of)) continue;
@@ -1604,29 +1659,96 @@ function detailedProofs(model, order) {
 }
 
 /**
+ * The collapse kind the `_section.md` convention builds, as `blueprint` picks
+ * it (`sectionCollapseKind` in Parse.lean): `refines` when it collapses, else
+ * the main one.
+ */
+function sectionKind(model) {
+  return model.kinds.refines && model.kinds.refines.collapse ? 'refines' : model.defaultCollapse || null;
+}
+
+/**
+ * Where proofs are read along the collapse order `kind`: like any other file,
+ * a proof is read in the section of its directory (the object of the
+ * `_section.md` beside it), where its `order` puts it among that section's
+ * entries.  A proof with no `order` of its own in its statement's section is
+ * read right after its statement, as it always was (filed under it in
+ * `documentOutline`, or with details of its own in `detailedProofs`), and so
+ * is one with no section beside it, or along an order other than the one the
+ * sections build (`sectionKind`).  The collapse order itself is left alone: a
+ * proof is still below nothing in it, so the graph never draws it and it
+ * stands for its statement there (`anchor`).
+ * Returns { bySection: section id -> [proof id], placed: Set of proof ids },
+ * memoised per kind.
+ */
+export function proofPlacement(model, kind) {
+  if (model._proofPlacement.has(kind)) return model._proofPlacement.get(kind);
+  const bySection = new Map();
+  const placed = new Set();
+  if (kind && kind === sectionKind(model)) {
+    const order = collapseOrder(model, kind);
+    // directory -> the object of its `_section.md`
+    const sections = new Map();
+    const dirOf = (o) => {
+      const f = o && o.source && !o.source.anonymous ? o.source.file : null;
+      return typeof f === 'string' ? f.slice(0, Math.max(0, f.lastIndexOf('/'))) : null;
+    };
+    // The node a `_section.md` defines; the sugar written in it (a `uses` on
+    // the section) names the same file.
+    for (const o of model.objects) {
+      const f = o.source && !o.source.anonymous && !o.boundary.length ? o.source.file : null;
+      if (typeof f === 'string' && f.slice(f.lastIndexOf('/') + 1) === '_section.md') sections.set(dirOf(o), o.id);
+    }
+    for (const o of model.objects) {
+      if (o.kind !== 'proof' || parentsOf(order, o.id).length) continue;
+      const sec = sections.get(dirOf(o));
+      if (sec == null || sec === o.id || !model.byId.has(sec)) continue;
+      if (descendantsOf(order, o.id).includes(sec)) continue; // it would be read inside itself
+      // Next to its statement, with no place of its own: right after it.
+      const own = o.attrs && typeof o.attrs.order === 'number';
+      if (!own && childrenOf(order, sec).includes(attachedTo(o))) continue;
+      if (!bySection.has(sec)) bySection.set(sec, []);
+      bySection.get(sec).push(o.id);
+      placed.add(o.id);
+    }
+  }
+  const out = { bySection, placed };
+  model._proofPlacement.set(kind, out);
+  return out;
+}
+
+/**
+ * A section's entries in reading order: its children and the proofs read in
+ * it (`proofPlacement`), by `order` then id, as any entries are.
+ */
+function sectionEntries(model, kids, proofs) {
+  return kids.concat(proofs).sort((a, b) => compareIds(model, a, b));
+}
+
+/**
  * The linear document: roots of the collapse order sorted by `order` then id,
  * recursively through their children.  Objects with several parents appear
- * under each, the later occurrences flagged `duplicate`.  A proof with details
- * of its own is read right after its statement, before what refines the
- * statement (`detailedProofs`).
+ * under each, the later occurrences flagged `duplicate`.  A proof is read in
+ * the section of its file (`proofPlacement`); one with no section there but
+ * with details of its own is read right after its statement, before what
+ * refines the statement (`detailedProofs`).
  */
 export function readingOrder(model, kind) {
   const order = collapseOrder(model, kind);
   const seen = new Set();
   const out = [];
 
-  const proofsAfter = detailedProofs(model, order);
-  const placed = new Set([...proofsAfter.values()].flat());
-  const roots = [...order.roots].filter((id) => !placed.has(id)).sort((a, b) => compareIds(model, a, b));
+  const { bySection, placed: inSections } = proofPlacement(model, kind);
+  const proofsAfter = detailedProofs(model, order, inSections);
+  const placed = new Set([...proofsAfter.values()].flat().concat([...inSections]));
+  const roots = sectionEntries(model, [...order.roots].filter((id) => !placed.has(id)), []);
 
   const walk = (id, depth, path) => {
     const duplicate = seen.has(id);
     seen.add(id);
     out.push({ id, object: model.byId.get(id), depth, duplicate });
     if (duplicate) return; // do not repeat a whole subtree
-    const kids = (proofsAfter.get(id) || []).concat(childrenOf(order, id)
-      .slice()
-      .sort((a, b) => compareIds(model, a, b)));
+    const kids = (proofsAfter.get(id) || []).concat(sectionEntries(model, childrenOf(order, id), bySection.get(id) || []));
     for (const c of kids) {
       if (path.includes(c)) continue; // defensive
       walk(c, depth + 1, path.concat([id]));
@@ -1668,18 +1790,37 @@ export function topLevel(model, kind) {
  * Objects of the collapse kind itself are never in the flow: they *are* the
  * structure.
  *
- * Numbers are the paper's: the third entry under the second top-level entry is
- * "2.3".  An object with several parents is written out under the first and
- * repeated, as a pointer, under the others; the repetition carries the number
- * of the first occurrence and uses none of its own, so every object has exactly
- * one number and a cross reference to it means one place.  A piece of text
- * (`TEXT_KIND`) is read where it stands and numbered not at all: the lemma
- * after the lines that open a section is still that section's first.
+ * Numbers are the paper's, in two series.  The headings (`isSectionKind`) are
+ * numbered by their place among the headings alone: the second section of
+ * chapter 4 is "4.2" however many statements stand before it, and its first
+ * subsection "4.2.1".  Every other entry, a statement at whatever depth, is
+ * "n.m": n the number of the outermost heading it lies in (its chapter), m its
+ * place among all the statements of that chapter, whatever sections lie
+ * between; a statement under no heading is numbered among the others under
+ * none, by m alone.  With `project.numbering` "nested" (`[site] numbering` in
+ * `blueprint.toml`) a statement whose parent entry is itself a statement is
+ * numbered within it instead, "n.m.k" under "n.m", and leaves the chapter's
+ * series alone.  An object with several parents is written out under the
+ * first and repeated, as a pointer, under the others; the repetition carries
+ * the number of the first occurrence and uses none of its own, so every object
+ * has exactly one number and a cross reference to it means one place.  A piece
+ * of text (`TEXT_KIND`) is read where it stands and numbered not at all.
+ *
+ * A part (`PART_KIND`) is numbered in a series of its own, "I", "II", …, and
+ * is otherwise not there for the numbers: what is in it is numbered as if it
+ * stood where the part stands, so the chapters of a book in parts count on
+ * from one part to the next.
+ *
+ * An object's `serial` attribute (`serialOf`) overrides its number: a number
+ * of its own ("A"), or none.  It takes no place among its siblings, so they
+ * are numbered as if it were not there, and it heads a series of its own:
+ * what is inside it is numbered under its number ("A.1", "A.2"), or, when it
+ * has none, by its place in it alone ("1", "2").
  *
  * Returns
  *   { kind,
  *     entries,  // the flow, in reading order: {id, object, depth, number,
- *               //   duplicate, text, parent, children}; `parent` is the enclosing
+ *               //   duplicate, text, proof, parent, children}; `parent` is the enclosing
  *               //   entry (null at the top), `children` the entries under it
  *     roots,    // the top-level entries
  *     byId,     // id -> its first (written-out) entry, text entries included
@@ -1693,7 +1834,9 @@ export function documentOutline(model, kind) {
 
   const hasProse = (o) => !!(o.body && o.body.trim());
   const hasTitle = (o) => !!(o.attrs && typeof o.attrs.title === 'string' && o.attrs.title);
-  const hasKids = (id) => childrenOf(order, id).length > 0;
+  // A section contains the proofs read in it, too (`proofPlacement`).
+  const { bySection } = proofPlacement(model, kind);
+  const hasKids = (id) => childrenOf(order, id).length > 0 || bySection.has(id);
   // An object earns a place in the flow if it says something or contains
   // something.
   const inFlow = (o) => o.kind !== kind && (hasProse(o) || hasKids(o.id) || (isReference(o) && hasTitle(o)));
@@ -1714,10 +1857,13 @@ export function documentOutline(model, kind) {
     stepOf.set(o.id, src);
   }
 
-  // Proofs: attached to a statement in the flow, filed under it.
+  // Proofs: attached to a statement in the flow, filed under it, unless they
+  // are read in the section of their file, as entries of their own
+  // (`proofPlacement`).
   const proofs = new Map();
+  const { placed: inSections } = proofPlacement(model, kind);
   for (const o of model.objects) {
-    if (o.kind !== 'proof' || hasKids(o.id)) continue;
+    if (o.kind !== 'proof' || hasKids(o.id) || inSections.has(o.id)) continue;
     const of = attachedTo(o);
     const ofObj = of && model.byId.get(of);
     if (!ofObj || !inFlow(ofObj)) continue;
@@ -1734,7 +1880,17 @@ export function documentOutline(model, kind) {
   const entries = [];
   const roots = [];
   const byId = new Map();
-  const counts = new Map(); // entry (or null) -> written-out children so far
+  // Written-out entries so far: headings per enclosing heading, statements
+  // per chapter (null for none).
+  const nested = !!(model.project && model.project.numbering === 'nested');
+  const headingCounts = new Map();
+  const statementCounts = new Map();
+  let parts = 0; // the parts written out so far, for their numbers
+  const nextNumber = (counts, key) => {
+    const k = (counts.get(key) || 0) + 1;
+    counts.set(key, k);
+    return key && key.number ? key.number + '.' + k : String(k);
+  };
   const stack = []; // the chain of open entries, with their walk depths
   for (const e of readingOrder(model, kind)) {
     if (!e.object || !inFlow(e.object) || stepOf.has(e.id)) continue;
@@ -1752,23 +1908,50 @@ export function documentOutline(model, kind) {
       // A reference is read in place as well, under its label.
       text: (e.object.kind === TEXT_KIND || isReference(e.object)) && !hasKids(e.id),
       reference: isReference(e.object) && !hasKids(e.id),
+      // A proof read in its section (`proofPlacement`), with no details of its
+      // own: set as a proof, with no number and taking none from its siblings.
+      proof: e.object.kind === 'proof' && !hasKids(e.id),
       parent,
       children: [],
     };
     if (entry.reference) entry.label = referenceLabelOf(model, e.id);
-    if (entry.text) {
+    if (entry.text || entry.proof) {
       if (!first) byId.set(e.id, entry);
     } else if (first) {
       entry.number = first.number;
+    } else if (serialOf(e.object) !== undefined) {
+      // A number of its own, or none, taking no place among its siblings.
+      entry.number = serialOf(e.object);
+      entry.serial = e.object.kind !== PART_KIND; // a part heads no series
+      byId.set(e.id, entry);
+    } else if (e.object.kind === PART_KIND) {
+      // A part: in a series of its own, taking no place among the headings.
+      entry.number = romanNumeral(++parts);
+      byId.set(e.id, entry);
     } else {
-      const k = (counts.get(parent) || 0) + 1;
-      counts.set(parent, k);
-      entry.number = parent ? parent.number + '.' + k : String(k);
+      // The headings above it, nearest first; a part is not there for the numbers.
+      const headings = [];
+      for (let a = parent; a; a = a.parent) {
+        if (isSectionKind(a.object.kind) && a.object.kind !== PART_KIND) headings.push(a);
+      }
+      // Under `[site] numbering = "nested"`, inside a statement: numbered within it.
+      const host = nested && !isSectionKind(e.object.kind) && parent && !isSectionKind(parent.object.kind)
+        ? parent : null;
+      // The nearest entry above with a `serial` of its own heads the series
+      // of what is inside it, a statement as well as a heading.
+      let scope = null;
+      for (let a = parent; a && !scope; a = a.parent) if (a.serial) scope = a;
+      const within = (a) => { for (let p = a; p; p = p.parent) if (p === scope) return true; return false; };
+      const heading = headings[0] || null;
+      const chapter = headings[headings.length - 1] || null;
+      entry.number = isSectionKind(e.object.kind)
+        ? nextNumber(headingCounts, scope && !within(heading) ? scope : heading)
+        : nextNumber(statementCounts, host || (scope && !within(chapter) ? scope : chapter));
       byId.set(e.id, entry);
     }
     (parent ? parent.children : roots).push(entry);
     entries.push(entry);
-    if (!entry.duplicate && !entry.text) stack.push({ walkDepth: e.depth, entry });
+    if (!entry.duplicate && !entry.text && !entry.proof) stack.push({ walkDepth: e.depth, entry });
   }
 
   const outline = { kind, entries, roots, byId, steps, proofs, stepOf };
@@ -1778,6 +1961,8 @@ export function documentOutline(model, kind) {
 
 /** "Definition", "Section", "Main theorem": the lead word of a numbered entry. */
 export function kindWord(kind) {
+  // Matter is a section to the reader: "Section 1", not "Matter 1".
+  if (kind === 'matter') return 'Section';
   const s = String(kind);
   return s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g, ' ');
 }
@@ -1794,8 +1979,28 @@ export function kindWord(kind) {
 export function referenceOf(outline, id) {
   const entry = outline.byId.get(id);
   if (entry && entry.reference) return { word: '', number: entry.label, cite: true };
-  if (!entry || entry.text) return null;
+  if (!entry || entry.text || entry.proof) return null;
+  // Unnumbered by its `serial`: read by its title, "see Introduction".
+  if (entry.number == null) return { word: '', number: titleOf(entry.object), unnumbered: true };
   return { word: kindWord(entry.object.kind), number: entry.number };
+}
+
+/** "Lemma 2.3" for what `referenceOf` returns; the title alone for an unnumbered entry. */
+export function referenceText(ref) {
+  return ref.word ? ref.word + ' ' + ref.number : String(ref.number);
+}
+
+/**
+ * An object's `serial` attribute: its own number, a string or a whole number
+ * ("A", 0); `null` for none (`false`, or an empty string); `undefined` when it
+ * says neither, and the document numbers it.
+ */
+export function serialOf(o) {
+  const v = o && o.attrs ? o.attrs.serial : undefined;
+  if (v === false) return null;
+  if (typeof v === 'number' && Number.isInteger(v)) return String(v);
+  if (typeof v === 'string') return v.trim() || null;
+  return undefined;
 }
 
 // The words prose names a reference with, besides the schema's own kind words:
@@ -1824,21 +2029,37 @@ function escapeRegExp(s) {
  * links and the PDF export both read references this way.
  */
 export function referenceLabel(model, ref, before) {
+  if (!ref.word) return String(ref.number);
+  return referenceNaming(model, ref, before) ? ref.number : ref.word + ' ' + ref.number;
+}
+
+/**
+ * The words at the end of the prose `before` a `[slug]` reference that name
+ * it, the space after them included: "Chapter " in "by Chapter [x]", "Props. "
+ * in "see Props. [x]"; `''` when the prose does not name it, or when the
+ * reference has no word of its own (a citation, an unnumbered entry).  The
+ * website links them with the number, so that "Chapter 3" is one link, as
+ * "Theorem 2.1" is where the prose wrote only `[x]`.
+ */
+export function referenceNaming(model, ref, before) {
+  if (!ref.word) return '';
   const text = String(before || '');
-  const said = new RegExp('(?:^|[^\\p{L}])' + escapeRegExp(ref.word) + '\\s+$', 'iu');
-  return said.test(text) || namesReference(model, text) ? ref.number : ref.word + ' ' + ref.number;
+  const said = new RegExp('(?:^|[^\\p{L}])(' + escapeRegExp(ref.word) + '\\s+)$', 'iu').exec(text);
+  const named = said || namingRegExp(model).exec(text);
+  return named ? named[1] : '';
 }
 
 // One pattern per model: "<word>[s][.] " at the end of the text before the
 // reference, the word whole (`\p{L}`, so "dilemma [x]" does not count).
-function namesReference(model, before) {
+// Group 1 is the word with its space.
+function namingRegExp(model) {
   if (!model._namingRe) {
     const words = new Set(REFERENCE_WORDS);
     for (const k of Object.keys(model.kinds || {})) words.add(kindWord(k).toLowerCase());
     const alt = [...words].sort((a, b) => b.length - a.length).map(escapeRegExp).join('|');
-    model._namingRe = new RegExp('(?:^|[^\\p{L}])(?:' + alt + ')s?\\.?\\s+$', 'iu');
+    model._namingRe = new RegExp('(?:^|[^\\p{L}])((?:' + alt + ')s?\\.?\\s+)$', 'iu');
   }
-  return model._namingRe.test(before);
+  return model._namingRe;
 }
 
 /** A `[slug]` reference in prose: the slug is group 1.  Not `[text](url)`. */
@@ -1878,6 +2099,68 @@ export function isHiddenEntry(outline, entry) {
   if (!entry) return false;
   const real = outline.byId.get(entry.id) || entry;
   return real.children.length > 0 && hidesContent(real.object);
+}
+
+/**
+ * Whether an entry is a detail: it lies inside a statement rather than
+ * directly under a heading (`isSectionKind`), as a statement refining another
+ * does, or text read inside one.  Everything below a detail is a detail too.
+ * A statement's own proof with details of its own is no detail, though it lies
+ * under the statement: it is read with it (`detailedProofs`); its details are.
+ * These are the entries `[site] numbering = "nested"` numbers `n.m.k`.
+ */
+export function isDetailEntry(entry) {
+  const p = entry && entry.parent;
+  if (!p || isSectionKind(p.object.kind)) return false;
+  if (entry.object.kind === 'proof' && attachedTo(entry.object) === p.id) return false;
+  return true;
+}
+
+/** The statement a detail lies in: up past details, and past the proof they detail. */
+export function detailHost(entry) {
+  let e = entry;
+  while (e.parent && (isDetailEntry(e) || e.object.kind === 'proof')) e = e.parent;
+  return e;
+}
+
+/**
+ * Whether the PDF export writes out details (`isDetailEntry`): `[site]
+ * pdfDetails` in `blueprint.toml`, `project.pdfDetails`, true unless `false`.
+ */
+export function exportsDetails(model) {
+  return !(model.project && model.project.pdfDetails === false);
+}
+
+/**
+ * What a PDF may be made of, besides the whole blueprint: `[site] pdfScopes`
+ * in `blueprint.toml`, `project.pdfScopes`, each a kind (every entry of it) or
+ * an object's id (that entry alone: an introduction, say, whose kind it shares
+ * with the references).  `null` when the project names none, and any entry
+ * with entries below it may be.
+ */
+export function pdfScopeKinds(model) {
+  const k = model.project && model.project.pdfScopes;
+  return Array.isArray(k) && k.length ? k : null;
+}
+
+/** Whether a PDF may be made of this entry (`pdfScopeKinds`): its kind or its id is named. */
+export function isPdfScope(model, entry) {
+  const kinds = pdfScopeKinds(model);
+  return !kinds || kinds.includes(entry.object.kind) || kinds.includes(entry.id);
+}
+
+/**
+ * Whether every PDF ends with the whole bibliography, `[site] pdfReferences =
+ * "all"` (`project.pdfReferences`), rather than the entries it cites.
+ */
+export function exportsAllReferences(model) {
+  return !!(model.project && model.project.pdfReferences === 'all');
+}
+
+/** The nearest entry at or above this one a PDF may be made of; `null` for the whole blueprint. */
+export function pdfScopeOf(model, entry) {
+  for (let e = entry; e; e = e.parent) if (isPdfScope(model, e)) return e;
+  return null;
 }
 
 /**
@@ -2074,21 +2357,48 @@ export function hiddenHits(view, ids) {
 // 6b. The search page's full-text search, after the Stacks project's
 // ---------------------------------------------------------------------------
 
+// TeX's accents in prose, `\'e`, `\'{e}`, `\v{C}`: the letter alone, as the
+// accent is dropped from a letter written with one ("é" is `e`).
+const TEX_ACCENT = /\\(?:['`"^~=.]\s*\{?([A-Za-z])\}?|[vcuH]\{([A-Za-z])\})/g;
+
+// A text as the search reads it: TeX accents and accents dropped, lowercased.
+function searchText(text) {
+  return String(text || '').replace(TEX_ACCENT, (_, a, b) => a || b)
+    .normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
 /**
  * The words of a text as the search page reads them: runs of letters and
- * digits, lowercased, accents dropped ("Čech" is `cech`), the way the Stacks
- * project's full-text index (SQLite FTS) splits its text.  A Lean name
- * splits at its dots and underscores: `Nat.succ_le` is `nat succ le`.
+ * digits, lowercased, accents dropped ("Čech" and `\v{C}ech` are `cech`),
+ * the way the Stacks project's full-text index (SQLite FTS) splits its text.
+ * A Lean name splits at its dots and underscores: `Nat.succ_le` is
+ * `nat succ le`.
  */
 export function searchWords(text) {
-  return String(text || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
-    .match(/[\p{L}\p{N}]+/gu) || [];
+  return searchText(text).match(/[\p{L}\p{N}]+/gu) || [];
+}
+
+/**
+ * The words a hyphenated word is also found as, written as one: "pro-étale"
+ * (or `pro-\'etale`) is also `proetale`, "w-contractible" `wcontractible`.
+ * Every run of two to four neighbouring pieces counts, so the id
+ * `small-pro-etale-site` has `proetale` too.  These words are not in a
+ * text's sequence of words, so phrases are read as written.
+ */
+export function compoundWords(text) {
+  const out = [];
+  for (const run of searchText(text).match(/[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)+/gu) || []) {
+    const pieces = run.split('-');
+    for (let i = 0; i < pieces.length; i += 1) {
+      for (let k = i + 2; k <= Math.min(pieces.length, i + 4); k += 1) out.push(pieces.slice(i, k).join(''));
+    }
+  }
+  return out;
 }
 
 // The words of a piece of query, each with whether it ends in `*`.
 function queryWords(text) {
-  return (String(text).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
-    .match(/[\p{L}\p{N}]+\*?/gu) || [])
+  return (searchText(text).match(/[\p{L}\p{N}]+\*?/gu) || [])
     .map((w) => (w.endsWith('*') ? { word: w.slice(0, -1), prefix: true } : { word: w, prefix: false }));
 }
 
@@ -2104,6 +2414,10 @@ function queryWords(text) {
  *   * `-word` (or `-"a phrase"`) leaves out what has it, which is why an
  *     unquoted `quasi-compact` asks for quasi but not compact;
  *   * `OR` between two terms wants either of them.
+ *
+ * Unlike SQLite's index, a hyphenated word is also found written as one
+ * (`compoundWords`): `proetale` finds "pro-étale", and the phrase
+ * `"pro-etale"` finds "proetale".
  *
  * Returns `{ all, none }`: `all` a list of groups, every group to be matched
  * by one of its terms, and `none` the terms nothing found may match.  A term
@@ -2133,6 +2447,23 @@ export function parseQuery(query) {
   return { all, none };
 }
 
+/**
+ * What the search page suggests when a query may not ask what its writer
+ * meant, as the Stacks project does: an unquoted hyphenated word asks for
+ * the first part but not the rest (`pro-etale` is pro without etale), so the
+ * same query with it in double quotes, a phrase.  `{ keywords, alternative }`,
+ * or null when there is nothing to suggest.
+ */
+export function queryAlternative(query) {
+  const keywords = [];
+  const alternative = String(query || '').replace(/"[^"]*"?|[^\s"]+/g, (t) => {
+    if (t.startsWith('"') || !/^[^-*]+-[^\s]/.test(t) || !/[\p{L}\p{N}]-[\p{L}\p{N}\\]/u.test(t)) return t;
+    keywords.push(t);
+    return '"' + t + '"';
+  });
+  return keywords.length ? { keywords, alternative } : null;
+}
+
 /** Which objects the search page looks through: all of them, or the statements alone. */
 export const SEARCH_RADII = ['all', 'statements'];
 
@@ -2160,9 +2491,11 @@ export function isBareSugar(model, o) {
 function fullTextIndex(model) {
   if (!model._fullText) {
     model._fullText = model.objects.map((o) => {
-      const fields = [searchWords(o.id), searchWords(o.attrs.title), ...leanNamesOf(o).map(searchWords), searchWords(displayBody(o))]
-        .filter((f) => f.length);
-      return { object: o, fields, words: new Set(fields.flat()) };
+      const texts = [o.id, o.attrs.title, ...leanNamesOf(o), displayBody(o)];
+      const fields = texts.map(searchWords).filter((f) => f.length);
+      const words = new Set(fields.flat());
+      for (const t of texts) for (const w of compoundWords(t)) words.add(w);
+      return { object: o, fields, words };
     });
   }
   return model._fullText;
@@ -2177,6 +2510,8 @@ function termMatches(row, term) {
     for (const w of row.words) if (w.startsWith(q.word)) return true;
     return false;
   }
+  // A phrase written as one word: "pro-etale" finds "proetale".
+  if (!term.some((q) => q.prefix) && row.words.has(term.map((q) => q.word).join(''))) return true;
   for (const field of row.fields) {
     for (let i = 0; i + term.length <= field.length; i += 1) {
       let k = 0;
