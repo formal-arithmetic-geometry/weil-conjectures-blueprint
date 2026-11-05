@@ -3,8 +3,8 @@ id = "lemma-cohomology-multiplicative-group"
 kind = "lemma"
 title = "Cohomology of the multiplicative group"
 order = 1571
-lean = ["AlgebraicGeometry.IsCurve.sheafH_gmSheaf_of_smooth", "AlgebraicGeometry.IsCurve.rightDerived_globalSections_comparisonUpperStar_gmSheaf", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
+uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-multiplicative-group--5"]
 +++
 For a smooth separated curve $C$ of finite type over an algebraically
 closed field, one has

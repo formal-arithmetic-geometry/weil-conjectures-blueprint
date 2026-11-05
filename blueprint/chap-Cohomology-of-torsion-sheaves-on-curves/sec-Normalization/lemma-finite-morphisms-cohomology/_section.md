@@ -3,8 +3,8 @@ id = "lemma-finite-morphisms-cohomology"
 kind = "lemma"
 title = "Finite morphisms and cohomology"
 order = 1594
-lean = ["AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite"]
-uses = ["lemma-finite-morphisms"]
+lean = ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite", "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite"]
+uses = ["definition-classical-pro-etale-sheaves", "definition-underived-base-change-map"]
 +++
 Let $h:Y\to C$ be a finite morphism of schemes. The direct image $h_*$
 of classical sheaves is exact, its formation commutes with arbitrary

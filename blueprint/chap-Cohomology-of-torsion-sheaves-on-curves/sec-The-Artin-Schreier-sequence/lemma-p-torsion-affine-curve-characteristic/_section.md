@@ -4,6 +4,7 @@ kind = "lemma"
 title = "$p$-torsion on an affine curve in characteristic $p$"
 order = 1587
 lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine"]
+uses = ["definition-classical-pro-etale-sheaves"]
 +++
 If $U$ is affine over an algebraically closed field $k$ of
 characteristic $p$, then, for the classical constant sheaf $\mathbf F_p$ and

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-removing-finitely-many-points"
 order = 1606
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "definition-underived-base-change-map", "lemma-finite-morphisms", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-sheaves-finite-support-finite-morphisms"]
+uses = ["prose-D-14", "lemma-finite-morphisms", "lemma-finite-morphisms-cohomology", "lemma-sheaves-finite-support-finite-morphisms", "lemma-removing-finitely-many-points--1", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions"]
 +++
 The third term of the exact sequence displayed above is supported on the finite set $Z$, so
 by Lemma [lemma-sheaves-finite-support-finite-morphisms] it has finite sections and no

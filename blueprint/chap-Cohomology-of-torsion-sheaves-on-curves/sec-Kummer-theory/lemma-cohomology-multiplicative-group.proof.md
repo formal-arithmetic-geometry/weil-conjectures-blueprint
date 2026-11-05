@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-multiplicative-group"
 order = 1572
-uses = ["theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-p-torsion-affine-curve-characteristic"]
+uses = ["theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "definition-compactification-refinement", "theorem-riemann-roch-coherent-serre-duality", "theorem-bounded-below-cohomology-comparison", "lemma-cohomology-multiplicative-group--1", "lemma-cohomology-multiplicative-group--3", "lemma-cohomology-multiplicative-group--4", "lemma-cohomology-multiplicative-group--6"]
 +++
 We compute on $C_{\acute{e}t}$. In degree one, descent for invertible modules
 identifies $\mathbf G_m$-torsors with line bundles. In degrees at least two, by contrast, the vanishing comes from Tsen's theorem, which we prove first (see

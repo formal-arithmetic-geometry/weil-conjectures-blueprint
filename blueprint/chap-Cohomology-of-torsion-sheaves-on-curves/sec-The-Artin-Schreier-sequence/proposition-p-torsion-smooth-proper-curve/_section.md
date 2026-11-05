@@ -4,6 +4,7 @@ kind = "proposition"
 title = "$p$-torsion on a smooth proper curve in characteristic $p$"
 order = 1584
 lean = ["AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_zero_constantZMod", "AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model", "AlgebraicGeometry.isZero_etaleCohomology_constantZMod_of_one_lt_of_charP", "AlgebraicGeometry.IsCurve.finite_sheafH_constantModSheaf_of_isProper", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_isProper"]
+uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $C$ be a smooth proper connected curve of genus $g$ over an
 algebraically closed field of characteristic $p>0$, and let $\varphi$ be

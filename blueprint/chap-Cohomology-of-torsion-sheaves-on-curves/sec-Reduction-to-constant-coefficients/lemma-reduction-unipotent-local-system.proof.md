@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-unipotent-local-system"
 order = 1611
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-comparison-morphism-inverse-image", "proposition-locally-constant-sheaves-finite-presentation", "lemma-reduction-unipotent-local-system--1", "lemma-reduction-unipotent-local-system--2"]
 +++
 The filtration comes from the representation theory of
 $\ell$-groups, whose only simple module over $\mathbf F_\ell$ is the
