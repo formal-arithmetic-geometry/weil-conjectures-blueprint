@@ -32,8 +32,20 @@ H_c^0(Z,i^*v_*G)\longrightarrow H_c^1(V,G)
 \longrightarrow H_c^1(\mathbf A^1,v_*G)\longrightarrow0.
 $$
 
-The first group has weights at most $w$ by
-Proposition [proposition-weights-j-boundary-points], and the last has weights at most $w+1$ by
+The first group has weights at most $w$. Indeed, the stalks of
+$i^*v_*G$ at the closed points of $Z_0$ have weights at most $w$ by
+Proposition [proposition-weights-j-boundary-points], and
+$H_c^0(Z,i^*v_*G)$ is the direct sum, over the closed points $z$ of $Z_0$,
+of the stalks at the $e=[\kappa(z):k_m]$ geometric points over $z$, where
+$k_m$ is the constant field of $V_0$. The geometric Frobenius of $k_m$
+permutes these $e$ stalks cyclically, and its $e$th power on each of them
+is conjugate to the local Frobenius $F_z$. An eigenvalue $\beta$ on such a
+cycle therefore satisfies $\beta^e=\alpha$ for an eigenvalue $\alpha$ of
+$F_z$, so that $|\iota\beta|^e=|\iota\alpha|\le q_z^{w/2}=(q^m)^{ew/2}$,
+and $|\iota\beta|\le(q^m)^{w/2}$, which is weight at most $w$ over $k_m$.
+This is the case of the finite map $Z_0\to\operatorname{Spec}k_m$ in
+Lemma [lemma-finite-quasi-finite-direct-images], whose proof is the same
+computation. The last group has weights at most $w+1$ by
 Theorem [theorem-weight-bound-affine-line]. As an extension of a
 subgroup of the last by a quotient of the first, the middle group therefore has
 weights at most $w+1$. This bound passes to quotients under the two

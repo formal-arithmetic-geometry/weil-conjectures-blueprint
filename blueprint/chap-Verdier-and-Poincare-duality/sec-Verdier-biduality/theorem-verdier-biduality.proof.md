@@ -77,13 +77,35 @@ $$
 All these stalks vanish. Since the cohomology sheaves of $Q$
 are supported on this finite set, $Q=0$.
 
-A finite base field reduces to its algebraic closure. This
-extension is a filtered limit of finite étale extensions, and the
-continuity and evaluation argument of
-Lemma [lemma-restriction-geometric-generic-fibre] shows that duality commutes with
-pullback along it. Hence the pullback of $\delta_K$ to the algebraic
-closure is the double-dual map there, which is an isomorphism by the case
-already proved. Since pullback to the algebraic closure is surjective on geometric points, it is conservative on constructible classical complexes, and the result therefore descends to the finite field.
+A finite base field reduces to its algebraic closure. Let $\bar k$ be
+an algebraic closure of $k$ and $g:X_{\bar k}=X\times_k\bar k\to X$ the
+projection. The three comparisons of
+Lemma [lemma-restriction-geometric-generic-fibre] hold for $g$, with
+the same proofs. Indeed, about $\bar\eta\to B$ these proofs use only that
+it is a limit of étale $B$-schemes, and here, with
+$B=\operatorname{Spec}k$ in place of a curve, $\operatorname{Spec}\bar k$
+is the limit of the finite étale $k$-schemes $\operatorname{Spec}k'$,
+for $k'\subset\bar k$ finite over $k$. Unlike in
+Lemma [lemma-double-dual-geometric-generic-fibre], the dualizing
+complex does not change. For an affine open $V$ of $X$, choose a closed
+immersion $i:V\hookrightarrow\mathbf A^r_k$. By composition of exceptional
+inverse images and
+Theorem [theorem-smooth-purity-all-admissible-coefficients],
+$\omega_V\simeq i^!A(r)[2r]$. The base change
+$i_{\bar k}:V_{\bar k}\hookrightarrow\mathbf A^r_{\bar k}$ is a closed immersion
+into an affine space of the same dimension, so
+$\omega_{V_{\bar k}}\simeq i_{\bar k}^!A(r)[2r]$, and the second comparison gives
+$g_V^*\omega_V\simeq\omega_{V_{\bar k}}$, with no twist and no shift. The
+argument of Lemma [lemma-double-dual-geometric-generic-fibre], with this
+isomorphism in place of $g_V^*\omega_V\simeq\omega_{V_{\bar\eta}}(1)[2]$,
+shows that the isomorphism
+$g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar k}}\mathbb D_{V_{\bar k}}g_V^*(K|_V)$
+it gives carries $g_V^*\delta_{K|_V}$ to $\delta_{g_V^*(K|_V)}$. The latter
+is an isomorphism by the case already proved, so $g^*Q$ vanishes on every
+$V_{\bar k}$, and $g^*Q=0$. Finally, every geometric point of $X$ factors
+through $X_{\bar k}$, since its algebraically closed residue field contains an
+algebraic closure of $k$. Hence all geometric stalks of $Q$ vanish, and
+$Q=0$ over the finite field as well.
 
 For coefficient rings that are not finite we reduce to finite ones. Indeed, the double-dual map $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is
 a natural transformation of exact functors, built from $a_X^!$, internal

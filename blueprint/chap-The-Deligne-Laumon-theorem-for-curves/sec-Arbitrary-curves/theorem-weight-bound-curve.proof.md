@@ -36,7 +36,10 @@ conditions on eigenvalues
 and [lemma-bounding-weights-mixed-sheaf]), and we read them off
 degree by degree. In degree zero, the group
 $H_c^0(C,j_*F)$ injects into $H^0(Z,i^*j_*F)$, which has weights
-at most $w$. In degree one, $H_c^1(C,j_*F)$ is a quotient of $H_c^1(V,F)$,
+at most $w$: Frobenius permutes the stalks at the geometric points over
+each closed point of $Z_0$ cyclically, with the local Frobenius as the
+power that returns to a stalk, as in the proof of
+Theorem [theorem-weight-bound-affine-curve]. In degree one, $H_c^1(C,j_*F)$ is a quotient of $H_c^1(V,F)$,
 which has weights at most $w+1$. In degree two the groups are
 isomorphic, and the bound $w+2$ holds for $V$.
 
