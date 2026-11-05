@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Representability of the Picard functor"
 order = 1544
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor"]
-uses = ["definition-relative-picard-functor"]
+uses = ["definition-relative-picard-functor", "proposition-divisors-degree-g-open-chart"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper connected
 curve. The fppf Picard functor $\operatorname{Pic}_{C/k}$ is represented

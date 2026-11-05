@@ -3,8 +3,8 @@ id = "theorem-picard-scheme-jacobian-over-separably"
 kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field"
 order = 1549
-lean = ["AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.GrpObj.isSeparated_hom", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange", "AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback"]
-uses = ["definition-relative-picard-functor", "corollary-degree-jacobian"]
+lean = ["AlgebraicGeometry.isRepresentable_picardFunctor", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.GrpObj.isSeparated_hom", "AlgebraicGeometry.exists_decomposition_picardFunctor_representableBy", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.geometricallyIntegral_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback"]
+uses = ["definition-relative-picard-functor", "definition-abelian-variety"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper
 connected curve of genus $g$. The fppf Picard functor is represented

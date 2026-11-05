@@ -3,7 +3,8 @@ id = "definition-relative-picard-functor"
 kind = "definition"
 title = "Relative Picard functor"
 order = 1518
-lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardPresheaf"]
+lean = ["AlgebraicGeometry.picardFunctor"]
+uses = []
 +++
 For a morphism of schemes $f:C\to S$, let
 

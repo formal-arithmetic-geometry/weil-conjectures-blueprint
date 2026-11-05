@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-serre-duality-field-extension"
 order = 1528
-uses = ["theorem-riemann-roch-coherent-serre-duality"]
+uses = ["theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension--1", "corollary-serre-duality-field-extension--2", "corollary-serre-duality-field-extension--3"]
 +++
 We factor the duality on $C$ through a finite map to $\mathbf P^1_k$,
 where the trace is an explicit residue, and check that each step is

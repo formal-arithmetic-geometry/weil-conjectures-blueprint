@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-rigidification-along-section"
 order = 1521
+uses = ["lemma-rigidification-along-section--1", "lemma-rigidification-along-section--2", "lemma-rigidification-along-section--3", "lemma-rigidification-along-section--4"]
 +++
 The point is that rigidified pairs have no automorphisms other than the
 identity. Because of this they form a sheaf, and the quotient presheaf

@@ -4,4 +4,8 @@ kind = "hidden"
 title = "The Jacobian over the ground field"
 order = 1562001
 +++
-*Shared context.* Let $C_0/k$ be a smooth proper geometrically connected curve of genus $g$, and put $C=C_0\times_k\bar k$. All clauses refer to the same representing abelian variety.
+*Shared context.* Let $C_0/k$ be a smooth proper geometrically connected
+curve of genus $g$, and put $C=C_0\times_k\bar k$. Here $g$ is the
+arithmetic genus. Choose a separable closure $k_s\subseteq\bar k$ of
+$k$, and write $F=\operatorname{Pic}^0_{C_0/k}$. All clauses refer to the
+same representing abelian variety $J_0$ and representation $r$.

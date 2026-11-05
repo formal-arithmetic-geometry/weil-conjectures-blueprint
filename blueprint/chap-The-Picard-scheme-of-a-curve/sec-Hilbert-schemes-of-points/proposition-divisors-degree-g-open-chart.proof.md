@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-divisors-degree-g-open-chart"
 order = 1538
+uses = ["proposition-divisors-degree-g-open-chart--1", "proposition-divisors-degree-g-open-chart--2", "lemma-rigidification-along-section", "lemma-coherent-base-change-invertible-sheaves", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-hilbert-schemes-points-smooth-curve"]
 +++
 We construct mutually inverse maps: a divisor gives its invertible sheaf,
 normalized along $P$, and a family in $F$ has, up to units on $T$, a

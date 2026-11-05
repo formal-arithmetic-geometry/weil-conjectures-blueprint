@@ -3,7 +3,8 @@ id = "proposition-h-1-curve-tate-module"
 kind = "proposition"
 title = "$H^1$ of a curve and the Tate module of its Jacobian"
 order = 1565
-lean = ["AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_restrictMuH", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_map_rootsOfUnityPowMap", "AlgebraicGeometry.JacobianTorsionDatum.exists_kummerEquiv_eq"]
+lean = []
+uses = ["proposition-jacobian-over-ground-field", "definition-tate-twists", "definition-tate-module"]
 +++
 In the preceding setting, suppose $\ell$ is invertible in $k$.
 For every $n\geq1$ there is a canonical
