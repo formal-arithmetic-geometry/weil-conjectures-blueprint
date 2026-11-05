@@ -4,5 +4,11 @@ kind = "lemma"
 title = "Compactly supported cohomology"
 order = 824008
 aliases = ["bp-r246-4"]
+lean = ["AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections"]
+uses = ["definition-constructible-sheaves", "definition-compactification-refinement"]
 +++
-For every admissible $\Lambda$ and $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, $R\Gamma_c(X,K)=Ra_{X!,\Lambda}K$ is perfect.
+Let $\Lambda$ be a finite commutative ring whose exponent is invertible in
+the separably closed field $k$. Let $a_X:X\to s$ be locally of finite type
+and admit a compactification. For
+$K\in D^b_{\mathrm{ctf}}(X_{\acute{e}t},\Lambda)$, the complex
+$R\Gamma_c(X,K)$ is perfect over $\Lambda$.

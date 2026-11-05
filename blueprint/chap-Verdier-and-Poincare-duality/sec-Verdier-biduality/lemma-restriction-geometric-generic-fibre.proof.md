@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-restriction-geometric-generic-fibre"
 order = 839
-uses = ["lemma-stability", "lemma-flat-models-generators", "lemma-finite-cover-projective-space", "corollary-cohomology-geometric-fibres", "proposition-comparison-etale-derived-category", "proposition-forgetting-supports-composition", "theorem-generic-constructibility-base-change-rj", "corollary-open-direct-image-over-field", "lemma-perfect-complexes-geometric-point", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
+uses = ["lemma-restriction-geometric-generic-fibre--1", "lemma-restriction-geometric-generic-fibre--2", "lemma-restriction-geometric-generic-fibre--3", "proposition-comparison-etale-derived-category", "corollary-continuity-cohomology", "definition-cohomological-dimension", "lemma-flat-models-generators", "lemma-verdier-duality-preserves-constructibility", "lemma-internal-adjunction-two-exchange-formulas", "lemma-sections-support-closed-subscheme", "theorem-proper-base-change-classical-pro"]
 +++
 We prove the comparisons in the order stated, each using the
 previous ones: the direct image by continuity along a limit of étale

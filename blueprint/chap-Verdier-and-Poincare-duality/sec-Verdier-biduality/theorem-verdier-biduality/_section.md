@@ -3,8 +3,8 @@ id = "theorem-verdier-biduality"
 kind = "theorem"
 title = "Verdier biduality"
 order = 844
-lean = ["AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app", "AlgebraicGeometry.Etale.verdierDualEquivalence", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isIso_verdierBiduality"]
-uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
+lean = ["AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_of_field", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isIso_verdierBiduality", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality"]
+uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation"]
 +++
 For every admissible coefficient ring $\Lambda$ and every scheme $X$,
 

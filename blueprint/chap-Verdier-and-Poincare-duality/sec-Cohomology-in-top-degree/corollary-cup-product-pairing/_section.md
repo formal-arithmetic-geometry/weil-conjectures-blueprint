@@ -3,8 +3,8 @@ id = "corollary-cup-product-pairing"
 kind = "corollary"
 title = "The cup product pairing"
 order = 871
-lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_poincarePairing", "AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect", "FrobeniusModule.TraceCup.pairing_comm_of_eq_two_mul"]
+uses = ["definition-perfect-pairing", "definition-trace-map"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension $d$, with
 $k$ algebraically closed, and let $\Lambda$ be a field. For every $i$

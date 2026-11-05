@@ -3,8 +3,8 @@ id = "lemma-perfect-complexes-geometric-point"
 kind = "lemma"
 title = "Perfect complexes at the geometric point"
 order = 824
-lean = ["DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "DerivedCategory.IsPerfect.isIso_toIhomIhomUnit", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_geometricStalk"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-compactification-refinement"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isPerfect_pointFiberFunctorIntegral_obj", "AlgebraicGeometry.ProEtale.CondensedRing.exists_fiberFunctor_point", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections"]
+uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-compactification-refinement"]
 +++
 Suppose $k$ is algebraically closed. The category
 $D^b_{\mathrm{ctf}}(s,\Lambda)$ identifies with

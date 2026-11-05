@@ -5,6 +5,8 @@ title = "Frobenius operator (1)"
 name_showing = false
 order = 877001
 aliases = ["bp-r264-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible.compactFrobenius", "AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible.compactFrobenius_eq"]
+uses = ["definition-weil-structure", "proposition-construction-independence-rf-shriek", "proposition-six-operations-dctf", "proposition-forgetting-supports-composition", "proposition-composition-base-change-rf-shriek", "lemma-comparison-via-relative-frobenius--1"]
 +++
 For a Weil complex $(K,\phi_K)$ on $T$, the *geometric Frobenius
 operator* on compactly supported cohomology is the endomorphism

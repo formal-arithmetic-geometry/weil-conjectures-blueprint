@@ -2,5 +2,12 @@
 kind = "proof"
 of = "theorem-verdier-biduality--1"
 order = 844003
+uses = ["lemma-perfect-complexes-geometric-point", "lemma-internal-adjunction-two-exchange-formulas", "lemma-verdier-duality-preserves-constructibility", "lemma-double-dual-geometric-generic-fibre", "lemma-restriction-geometric-generic-fibre", "theorem-nagata-s-compactification-theorem", "theorem-f-shriek-finite-coefficients"]
 +++
-Use the dimension induction and the passage from the algebraic closure of the base field in the original proof.
+First suppose that $k$ is algebraically closed. Run strong induction on $\dim X$, simultaneously over all such fields. Biduality commutes with restriction to an open subscheme, so we may work on affine opens and use a dense compactification of the same dimension. Extension by zero then reduces the assertion to the proper case.
+
+Complete $\delta_K$ to a distinguished triangle with cone $Q$. By [lemma-verdier-duality-preserves-constructibility], $Q$ is bounded constructible. At a nonclosed point, choose an affine neighbourhood and a coordinate mapping the point to the generic point of $\mathbf A^1_k$. The geometric generic fibre has smaller dimension. Induction and [lemma-double-dual-geometric-generic-fibre] show that the pullback of $\delta_K$ is invertible there, so the stalks of $Q$ at all nonclosed points vanish.
+
+The cohomology of $Q$ is therefore supported on a finite closed subscheme. For proper $a_X$, its direct image carries $\delta_K$ to the biduality morphism of $Ra_{X,*}K$, by [lemma-internal-adjunction-two-exchange-formulas]. This complex has finite Tor amplitude by [theorem-f-shriek-finite-coefficients], and its biduality is invertible by [lemma-perfect-complexes-geometric-point]. Thus $Ra_{X,*}Q=0$. Direct image detects zero objects supported on this finite subscheme, whence $Q=0$. This proves `AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_of_isAlgClosed`.
+
+For a perfect field, work on affine opens, embed them as closed subschemes of affine space, and pull back to an algebraic closure. The comparisons for internal Hom and the dualizing complex from [lemma-restriction-geometric-generic-fibre] identify invertibility of the pulled-back double-dual map with biduality over the algebraic closure. The dualizing complexes may differ by an invertible tensor factor, which does not affect this test. Surjectivity of the base change detects isomorphisms. For an arbitrary field, first pass to its perfect closure. This base change is a universal homeomorphism, so pullback is an equivalence on étale derived categories and commutes with internal Hom. Apply the perfect-field case and descend along the surjective base change. Finally, the affine opens cover $X$.

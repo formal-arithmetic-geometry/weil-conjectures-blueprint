@@ -5,6 +5,8 @@ title = "Verdier dual and evaluation (1)"
 name_showing = false
 order = 827001
 aliases = ["bp-r247-1"]
+lean = ["AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.dualizingComplex", "AlgebraicGeometry.ProEtale.CondensedRing.dualizingComplex"]
+uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "theorem-existence-exceptional-inverse-image", "theorem-f-shriek-finite-coefficients", "theorem-f-shriek-ell-adic-coefficients"]
 +++
 The *dualizing complex* and the *Verdier dual* are
 
