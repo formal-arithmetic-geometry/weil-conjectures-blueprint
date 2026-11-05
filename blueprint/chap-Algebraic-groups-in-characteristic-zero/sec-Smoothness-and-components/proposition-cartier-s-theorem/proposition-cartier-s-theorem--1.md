@@ -1,9 +1,14 @@
 +++
 id = "proposition-cartier-s-theorem--1"
 kind = "proposition"
-title = "Cartier's theorem (1)"
+title = "Reducedness and smoothness"
 name_showing = false
 order = 1717001
 aliases = ["bp-r533-1"]
+lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_isReduced"]
+uses = []
 +++
-Every algebraic group over $\Omega$ is smooth and reduced.
+Let $k$ be a field of characteristic zero and let $G$ be a group scheme
+locally of finite type over $k$. Then $G$ is reduced and smooth over $k$.
+The smoothness step holds more generally: a reduced group scheme locally
+of finite type over a perfect field is smooth.

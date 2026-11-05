@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-cartier-s-theorem"
 order = 1718
+uses = ["proposition-cartier-s-theorem--1", "proposition-cartier-s-theorem--2", "proposition-cartier-s-theorem--3", "lemma-connected-components-images-homomorphisms--1"]
 +++
 We first show, using translations, that the reduced subscheme
 $G_{\mathrm{red}}$ is a smooth group scheme. It then suffices to show
