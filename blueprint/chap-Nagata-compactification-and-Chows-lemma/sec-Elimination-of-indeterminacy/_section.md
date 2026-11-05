@@ -4,4 +4,5 @@ kind = "section"
 title = "Elimination of indeterminacy"
 order = 1420
 uses = ["sec-Compactifications"]
+hide_content = true
 +++

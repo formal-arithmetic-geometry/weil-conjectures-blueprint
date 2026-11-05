@@ -4,4 +4,5 @@ kind = "section"
 title = "Descent to a finite extension"
 order = 283
 uses = ["sec-Field-coefficients", "sec-Continuity-of-Ext"]
+hide_content = true
 +++

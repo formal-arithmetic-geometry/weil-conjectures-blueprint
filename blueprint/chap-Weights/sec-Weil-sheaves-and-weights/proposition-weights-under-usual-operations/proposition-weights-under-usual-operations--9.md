@@ -5,4 +5,4 @@ title = "Dual of a mixed lisse sheaf"
 order = 1070010
 aliases = ["bp-r329-9"]
 +++
-The dual of a mixed lisse sheaf is mixed; its graded pieces are the duals of the given ones, with negated weights.
+The dual of a mixed lisse sheaf is mixed, of the negated weights. When its filtration has lisse graded pieces, their duals are the graded pieces of the annihilator filtration of the dual.

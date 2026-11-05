@@ -4,4 +4,5 @@ kind = "section"
 title = "Reduction to curves"
 order = 670
 uses = ["sec-The-induction-hypothesis"]
+hide_content = true
 +++
