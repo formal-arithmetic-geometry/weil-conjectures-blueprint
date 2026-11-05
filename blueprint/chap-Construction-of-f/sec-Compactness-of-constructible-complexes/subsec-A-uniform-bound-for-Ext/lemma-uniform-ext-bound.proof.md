@@ -64,20 +64,18 @@ $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. Hence
 
 *The case $\Lambda=\overline{\mathbf Q}_\ell$.* The bound for $E$ depends only on the
 strata and on $\operatorname{cd}_\ell$, not on $E$, so it passes to the
-colimit over finite extensions. By
-Lemma [lemma-descent-lisse-qbar-sheaves-finite], there are a finite $E$ and
-lisse $E$-sheaves $L'$, $M'$ with $L=L'_{\overline{\mathbf Q}_\ell}$ and $M=M'_{\overline{\mathbf Q}_\ell}$. Then
-$a_!L=(a_!L')_{\overline{\mathbf Q}_\ell}$ and $b_!M=(b_!M')_{\overline{\mathbf Q}_\ell}$, and by Lemma [lemma-descent-finite-coefficient-field](1),
+colimit over finite extensions. By Lemma [lemma-descent-lisse-qbar-sheaves-finite], there are a finite extension $E_0$ of $\mathbf Q_\ell$ and a lisse $E_0$-sheaf $L'$ with $L=L'_{\overline{\mathbf Q}_\ell}$. We fix $E_0$, refine the source strata so that $L'$ contains a lisse $\mathcal O_{E_0}$-lattice $L'_0$ on each of them, and fix these lattices, all before choosing $M$. Now let $M$ be given. By the same lemma there are a finite extension $E\supset E_0$ and a lisse $E$-sheaf $M'$ with $M=M'_{\overline{\mathbf Q}_\ell}$, and $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_E$ is a lisse $\mathcal O_E$-lattice in $L'_E$ on the same strata. Then
+$a_!L=(a_!L'_E)_{\overline{\mathbf Q}_\ell}$ and $b_!M=(b_!M')_{\overline{\mathbf Q}_\ell}$, and by Lemma [lemma-descent-finite-coefficient-field](1),
 
 $$
 \Ext^q_{\overline{\mathbf Q}_\ell}(a_!L,b_!M)
 =\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr),
 $$
 
-and the groups on the right vanish for $q$ above a bound independent of
-$E'$. Indeed, after refining the strata, $L'$ contains a lisse
-$\mathcal O_E$-lattice $L'_0$, and $L'_0\otimes_{\mathcal O_E}\mathcal O_{E'}$
-is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata. The
-case $\Lambda=E'$ therefore gives the bound
-$\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ for each refined
-stratum $S$, which does not depend on $E'$.
+and the groups on the right vanish for $q$ above a bound independent of $E'$ and of $M$. Indeed, $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_{E'}$ is a lisse $\mathcal O_{E'}$-lattice in $L'_{E'}$ on the fixed refined source strata $S_k$, with open complements $j_k$ of their closures. The case $\Lambda=E'$ therefore gives the bound $\operatorname{cd}_\ell(j_k)+\operatorname{cd}_\ell(S_k)+2$ on each $S_k$, and the maximum
+
+$$
+c_{a,L}=\max_k\bigl(\operatorname{cd}_\ell(j_k)+\operatorname{cd}_\ell(S_k)+2\bigr)
+$$
+
+over the finitely many refined source strata depends only on the source, not on $E'$ or $M$.
