@@ -45,7 +45,10 @@ it the bot in its environment; without it, `serve` keeps the comments locally
 in `comments/`:
 
 ```
-export BLUEPRINT_ZULIP_EMAIL=<the bot's email>
-read -s BLUEPRINT_ZULIP_KEY && export BLUEPRINT_ZULIP_KEY   # paste the bot's API key
-lake exe blueprint serve            # --port 8001 if 8000 is taken
+scripts/serve.sh --port 8001        # serve with the bot of ~/.config/blueprint-comments/zulip.env
 ```
+
+`scripts/serve.sh` reads the bot from the file the relay on fuxi reads
+(`BLUEPRINT_ZULIP_EMAIL=…` and `BLUEPRINT_ZULIP_KEY=…`, one per line); by hand,
+export the two variables and run `lake exe blueprint serve`. A comment posted
+locally goes to the same channel as the website's.
