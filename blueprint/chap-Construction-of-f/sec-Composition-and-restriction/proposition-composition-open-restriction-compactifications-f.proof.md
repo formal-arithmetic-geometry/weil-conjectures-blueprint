@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f"
 order = 531
-uses = ["proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint"]
+uses = ["proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint", "theorem-existence-exceptional-inverse-image", "proposition-construction-independence-rf-shriek", "proposition-proper-direct-image-extension-zero", "proposition-proper-base-change-localizing-categories", "proposition-extension-zero-restriction-closed-subscheme", "proposition-composition-open-restriction-compactifications-f--1", "proposition-composition-open-restriction-compactifications-f--2", "proposition-composition-open-restriction-compactifications-f--3", "proposition-composition-open-restriction-compactifications-f--4", "proposition-composition-open-restriction-compactifications-f--5", "proposition-composition-open-restriction-compactifications-f--6"]
 +++
 Each statement is the right adjoint of a statement about lower shriek
 functors already proved, and we conclude by uniqueness of adjoints.

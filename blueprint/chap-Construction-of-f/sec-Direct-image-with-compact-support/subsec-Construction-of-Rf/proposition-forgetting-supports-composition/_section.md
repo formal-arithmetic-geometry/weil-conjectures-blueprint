@@ -3,8 +3,8 @@ id = "proposition-forgetting-supports-composition"
 kind = "proposition"
 title = "Forgetting supports and composition"
 order = 519
-lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekToLowerStarComp", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekToLowerStarComp_of_isProper", "AlgebraicGeometry.Etale.properShriekComp_comp_forgetSupports"]
-uses = ["definition-compactification-refinement"]
+lean = ["AlgebraicGeometry.Etale.compactificationForgetSupports", "AlgebraicGeometry.Etale.derivedOpenImmersionLowerShriekToLowerStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriekToLowerStarComp", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso_hom_app_comp_toLowerStar", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekToLowerStarComp_of_isProper", "AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar", "AlgebraicGeometry.Etale.properShriekComp_comp_forgetSupports"]
+uses = ["definition-compactification-refinement", "definition-localizing-subcategory", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek"]
 +++
 There is a natural map $\eta_f:Rf_!\to Rf_*$ on
 $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. For a compactification $f=pj$ it is

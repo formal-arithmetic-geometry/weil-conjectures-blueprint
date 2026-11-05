@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-tensor-product"
 order = 495
-uses = ["lemma-stability", "proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
+uses = ["lemma-inverse-image-tensor-product--1", "lemma-inverse-image-tensor-product--2", "lemma-inverse-image-tensor-product--3", "lemma-inverse-image-tensor-product--4", "lemma-integral-models", "lemma-structure-integral-constructible-complexes", "proposition-extension-zero-restriction-closed-subscheme"]
 +++
 The preservation statements follow from
 Lemma [lemma-integral-models](3), since closed

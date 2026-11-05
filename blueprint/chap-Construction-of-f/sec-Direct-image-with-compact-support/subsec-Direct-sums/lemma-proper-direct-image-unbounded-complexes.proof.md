@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes"
 order = 488
+uses = ["lemma-uniform-bound-proper-direct-image--1", "lemma-uniform-bound-proper-direct-image--2", "proposition-ind-constructible-sheaves--5", "proposition-ind-constructible-sheaves--6", "proposition-ind-constructible-sheaves--7", "proposition-left-completeness", "proposition-milnor-sequence", "corollary-ambient-ind-derived--1"]
 +++
 For bounded below $K$ everything is read off from the hypercohomology
 spectral sequence, which has only $2d+2$ nonzero columns. A general $K$, in turn, is the derived limit of its truncations $\tau_{\geq-n}K$, and the

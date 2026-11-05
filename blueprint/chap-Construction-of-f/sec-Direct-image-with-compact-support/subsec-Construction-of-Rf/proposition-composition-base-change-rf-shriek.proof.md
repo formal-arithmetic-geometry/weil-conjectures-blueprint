@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-composition-base-change-rf-shriek"
 order = 517
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "proposition-proper-base-change-etale-site", "theorem-nagata-s-compactification-theorem", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
+uses = ["proposition-construction-independence-rf-shriek", "proposition-proper-direct-image-constructible-complexes", "proposition-proper-base-change-localizing-categories", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes", "proposition-comparison-immersions", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "theorem-nagata-s-compactification-theorem", "proposition-dense-compactifications-form-cofiltered-category", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "prose-05-31"]
 +++
 For composition, the only new ingredient is a map that moves an
 extension by zero past a proper direct image. It is an isomorphism by

@@ -5,7 +5,13 @@ title = "Proper direct image of unbounded complexes (2)"
 name_showing = false
 order = 487003
 aliases = ["bp-r147-2"]
+lean = []
+uses = ["corollary-ambient-ind-derived--1"]
 +++
+This statement is bypassed by the Lean proof of the main theorem, which
+does not use this truncation window for unbounded ind-constructible
+complexes. The assertion is retained here:
+
 For $K\in\Dic(X,\Lambda)$ and every integer $q$, the truncation maps
 $K\leftarrow\tau_{\leq q}K\to\tau_{\geq q-2d-1}\tau_{\leq q}K$ induce an
 isomorphism in $\IndCons(Y,\Lambda)$

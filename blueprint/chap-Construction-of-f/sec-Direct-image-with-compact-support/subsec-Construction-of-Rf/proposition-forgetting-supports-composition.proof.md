@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-forgetting-supports-composition"
 order = 520
+uses = ["proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition--1", "proposition-forgetting-supports-composition--2", "proposition-forgetting-supports-composition--3"]
 +++
 All maps involved are maps out of an extension by zero, so each of them
 is determined by its restriction to the open subscheme, where it is

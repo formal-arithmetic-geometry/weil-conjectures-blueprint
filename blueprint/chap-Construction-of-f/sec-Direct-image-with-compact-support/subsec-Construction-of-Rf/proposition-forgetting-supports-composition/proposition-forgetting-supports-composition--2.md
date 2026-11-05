@@ -5,18 +5,25 @@ title = "Forgetting supports and composition (2)"
 name_showing = false
 order = 519002
 aliases = ["bp-r158-2"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso_hom_app_comp_toLowerStar"]
+uses = ["proposition-forgetting-supports-composition--1", "proposition-construction-independence-rf-shriek"]
 +++
-It is independent of the
-compactification, and the square
+The unrestricted composition square is bypassed by the Lean route; its
+composition compatibility is the proper case in
+[proposition-forgetting-supports-composition--3].
+
+Let $\Lambda$ be a finite commutative ring, let $f:X\to Y$ be
+quasi-compact, and let $c,d$ be compactifications of $f$.
+On $D(\et{X},\Lambda)$, write
+$\kappa_{c,d}:Rf_!^{\,c}\xrightarrow{\sim}Rf_!^{\,d}$ for the
+comparison isomorphism of
+[proposition-construction-independence-rf-shriek]. Then, for every
+$K\in D(\et{X},\Lambda)$,
 
 $$
-\begin{CD}
-Rg_!Rf_! @>{c^!_{g,f}}>> R(gf)_!\\
-@V{Rg_*(\eta_f)\,\circ\,(\eta_g Rf_!)}VV @VV{\eta_{gf}}V\\
-Rg_*Rf_* @>{c^*_{g,f}}>> R(gf)_*
-\end{CD}
+\eta_f^{\,d}(K)\circ\kappa_{c,d}(K)=\eta_f^{\,c}(K),
 $$
 
-commutes. Here $c^!_{g,f}$ is the composition map of
-Proposition [proposition-composition-base-change-rf-shriek], and $c^*_{g,f}$ is the
-composition map for ordinary direct images.
+where the maps $\eta_f^{\,c}$ and $\eta_f^{\,d}$ are those of
+[proposition-forgetting-supports-composition--1]. Thus the forget-supports
+map is independent of the compactification under these comparisons.
