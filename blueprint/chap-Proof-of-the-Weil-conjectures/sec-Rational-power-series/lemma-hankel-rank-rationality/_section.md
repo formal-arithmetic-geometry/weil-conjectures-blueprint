@@ -3,7 +3,8 @@ id = "lemma-hankel-rank-rationality"
 kind = "lemma"
 title = "Hankel rank and rationality"
 order = 1376
-lean = ["PowerSeries.exists_normalized_fraction_iff_finiteDimensional_shiftSpan", "Matrix.bddAbove_range_rank_submatrix_iff", "PowerSeries.exists_normalized_fraction_map_iff"]
+lean = ["PowerSeries.exists_normalized_fraction_iff_finiteDimensional_shiftSpan", "PowerSeries.exists_normalized_fraction_map_iff"]
+uses = []
 +++
 For a field $K$ and $C(T)=\sum_{n\geq0}c_nT^n\in K[[T]]$, the
 following conditions are equivalent:

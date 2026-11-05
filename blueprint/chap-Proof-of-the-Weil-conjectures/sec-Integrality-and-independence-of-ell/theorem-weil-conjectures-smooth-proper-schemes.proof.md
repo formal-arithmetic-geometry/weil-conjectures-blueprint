@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-weil-conjectures-smooth-proper-schemes"
 order = 1389
-uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-functional-equation", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing", "corollary-point-counting-zeta-function", "corollary-functional-equation", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reduced-fractions-integer-coefficients", "theorem-weil-conjectures-smooth-proper-schemes--1", "theorem-weil-conjectures-smooth-proper-schemes--2", "theorem-weil-conjectures-smooth-proper-schemes--4", "theorem-weil-conjectures-smooth-proper-schemes--16"]
 +++
 For (1) and (2), we define $P_i$ using only the reduced fraction $A/B$
 of Lemma [lemma-reduced-fractions-integer-coefficients], by sorting

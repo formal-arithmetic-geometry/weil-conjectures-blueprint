@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-hankel-rank-rationality"
 order = 1377
+uses = ["lemma-hankel-rank-rationality--1", "lemma-hankel-rank-rationality--2"]
 +++
 The equivalence of (2) and (3) is linear algebra. For the equivalence
 of (1) and (3), note that a denominator $Q$ gives a linear recurrence
