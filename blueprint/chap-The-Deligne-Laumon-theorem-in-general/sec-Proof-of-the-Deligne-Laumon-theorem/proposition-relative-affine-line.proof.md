@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-relative-affine-line"
 order = 1355
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images", "theorem-pure-lisse-sheaves-over-relative", "lemma-weights-exact-sequence"]
+uses = ["definition-constructible-sheaves", "proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images", "theorem-pure-lisse-sheaves-over-relative", "proposition-composition-base-change-rf-shriek", "lemma-weight-bounds-partitions", "lemma-weights-exact-sequence"]
 +++
 We stratify the target so that over each stratum, $G$ is lisse off a
 subscheme that is finite over the base. On the lisse part the

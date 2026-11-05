@@ -3,8 +3,8 @@ id = "lemma-weight-bounds-partitions"
 kind = "lemma"
 title = "Weight bounds and partitions"
 order = 1352
-lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed", "AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed_target"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-weights", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed"]
+uses = ["definition-weil-structure", "definition-weights", "proposition-construction-independence-rf-shriek"]
 +++
 Let $f:X_0\to Y_0$ be separated of finite type, and let $K$ be a
 constructible Weil sheaf on $X_0$, mixed of weights at most $w$.

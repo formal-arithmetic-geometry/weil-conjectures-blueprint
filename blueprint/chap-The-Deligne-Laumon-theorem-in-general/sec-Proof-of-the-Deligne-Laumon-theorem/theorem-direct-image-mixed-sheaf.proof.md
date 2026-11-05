@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-direct-image-mixed-sheaf"
 order = 1362
-uses = ["lemma-finite-quasi-finite-direct-images", "lemma-weights-exact-sequence", "lemma-weight-bounds-partitions", "proposition-relative-affine-line"]
+uses = ["lemma-finite-quasi-finite-direct-images", "lemma-weights-exact-sequence", "lemma-weight-bounds-partitions", "proposition-relative-affine-line", "lemma-relative-noether-normalization-over-stratification", "proposition-composition-base-change-rf-shriek", "theorem-direct-image-mixed-sheaf--1"]
 +++
 Say that a morphism has the property if the conclusion holds for it,
 for every $w$ and every mixed $F$ of weights at most $w$. Quasi-finite

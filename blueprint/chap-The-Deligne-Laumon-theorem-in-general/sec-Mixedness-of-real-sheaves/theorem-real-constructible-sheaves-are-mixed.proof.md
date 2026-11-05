@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-real-constructible-sheaves-are-mixed"
 order = 1342
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "theorem-grothendieck-lefschetz-trace-formula", "proposition-weights-under-usual-operations", "proposition-lattices-representations-normal-scheme", "theorem-purity-real-sheaves-curves", "lemma-finite-quasi-finite-direct-images", "lemma-curve-preserving-finite-cover", "lemma-mixedness-descends-constant-extension", "lemma-mixedness-open-closed", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "theorem-grothendieck-lefschetz-trace-formula", "proposition-weights-under-usual-operations", "proposition-lattices-representations-normal-scheme", "theorem-purity-real-sheaves-curves", "lemma-finite-quasi-finite-direct-images", "lemma-curve-preserving-finite-cover", "lemma-mixedness-descends-constant-extension", "lemma-mixedness-open-closed", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-real-constructible-sheaves-are-mixed--1", "lemma-geometric-constituents-after-constant-extension", "corollary-curve-preserving-geometric-irreducibility", "lemma-weil-sheaves-point-mixed"]
 +++
 We join a fixed point $x_*$ to an arbitrary point $x$ by a
 curve on which the geometrically irreducible constituents stay

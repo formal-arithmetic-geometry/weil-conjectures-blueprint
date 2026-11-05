@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-finite-quasi-finite-direct-images"
 order = 1322
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "theorem-grothendieck-lefschetz-trace-formula", "lemma-weights-exact-sequence"]
+uses = ["lemma-finite-morphisms", "proposition-composition-base-change-rf-shriek", "theorem-grothendieck-lefschetz-trace-formula", "lemma-weights-exact-sequence", "proposition-weights-under-usual-operations"]
 +++
 We first treat a finite map and then reduce to it by Zariski's main
 theorem, which writes a quasi-finite map as an open immersion followed

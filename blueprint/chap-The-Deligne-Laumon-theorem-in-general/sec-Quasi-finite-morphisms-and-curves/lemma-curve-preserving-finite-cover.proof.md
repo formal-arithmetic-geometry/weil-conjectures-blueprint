@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-curve-preserving-finite-cover"
 order = 1328
+uses = ["lemma-curve-preserving-finite-cover--1"]
 +++
 We cut $X$ by a general hypersurface through $S$, show that it is
 smooth and that both it and its inverse image in $T$ are connected,

@@ -5,6 +5,12 @@ title = "Finite and quasi-finite direct images (3)"
 name_showing = false
 order = 1321003
 aliases = ["bp-r408-3"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.lowerStar_of_isFinite"]
+uses = ["definition-weil-structure", "definition-weights"]
 +++
-For a finite map, direct image carries a pure sheaf of weight $w$
-to a pure sheaf of weight $w$.
+Let $k_0=\Fq$, let $\ell\ne\operatorname{char}(k_0)$ be prime, and fix
+$\iota:\Qbarl\hookrightarrow\C$. Let $g:Z_0\to Y_0$ be a finite
+morphism of schemes of finite type over $k_0$, with $Y_0$
+quasi-separated. If $F$ is a constructible Weil sheaf on $Z_0$ that is
+punctually pure of weight $w\in\R$, then $g_*F$ is punctually pure of
+weight $w$.
