@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-pro-etale-refinements-weakly-etale"
 order = 63
-uses = ["lemma-stability"]
+uses = ["lemma-stability", "definition-w-local-w-strictly-local", "proposition-w-local-components"]
 +++
 Weakly étale and ind-étale maps differ only in
 how local rings are glued. Namely, after strict localization of the base a

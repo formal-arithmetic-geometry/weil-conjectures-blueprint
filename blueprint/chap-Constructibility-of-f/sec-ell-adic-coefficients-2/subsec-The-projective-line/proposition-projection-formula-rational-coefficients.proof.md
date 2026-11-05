@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-projection-formula-rational-coefficients"
-order = 598
-uses = ["corollary-coefficient-heart-b", "proposition-proper-direct-image-constructible-complexes", "lemma-checking-isomorphisms-constructible-complexes"]
+order = 604
+uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-proper-direct-image-unbounded-complexes", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes"]
 +++
 Both claims are first checked on $\Dbc$ and then extended. Tensor
 products and both sides of the projection map commute with direct sums

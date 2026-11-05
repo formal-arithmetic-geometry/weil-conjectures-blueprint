@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-point-counting-zeta-function"
-order = 1034
-uses = ["theorem-grothendieck-lefschetz-trace-formula", "theorem-trace-formula-euler-product"]
+order = 1040
+uses = ["theorem-grothendieck-lefschetz-trace-formula", "lemma-hankel-rank-rationality"]
 +++
 The identities over $\Lambda$ are the trace formula and the Euler
 product for the constant sheaf. What needs an argument is that
@@ -21,12 +21,11 @@ closed points has integer coefficients. By the orbit count, its
 logarithm is the series defining $Z(X_0,T)$. The last equality is
 Theorem [theorem-trace-formula-euler-product] for $K=\Lambda_X$.
 
-Rationality descends from $\mathbf Q_\ell$ to $\mathbf Q$ for the following reason. A power
-series is rational exactly when its coefficients eventually satisfy a
+Rationality descends from $\mathbf Q_\ell$ to $\mathbf Q$ for the following reason. A power series is rational exactly when its coefficients eventually satisfy a
 linear recurrence with constant coefficients. The existence of such
 a recurrence is a system of linear equations, and a system with rational
 coefficients has a rational solution as soon as it has any solution.
-Write $Z(X_0,T)=\sum_{n\geq0}z_nT^n$, with $z_n\in\mathbf Z$.
+More precisely, write $Z(X_0,T)=\sum_{n\geq0}z_nT^n$, with $z_n\in\mathbf Z$.
 Rationality over $\mathbf Q_\ell$ means that there are integers $d,N$ and
 $b_1,\ldots,b_d\in\mathbf Q_\ell$ such that
 $z_n+b_1z_{n-1}+\cdots+b_dz_{n-d}=0$ for all $n>N$.

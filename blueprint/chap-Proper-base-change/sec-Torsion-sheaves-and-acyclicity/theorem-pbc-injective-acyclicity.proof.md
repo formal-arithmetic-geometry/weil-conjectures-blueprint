@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-pbc-injective-acyclicity"
-order = 349
-uses = ["proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions"]
+order = 350
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "lemma-acyclic-resolutions"]
 +++
 We prove (i)$\Rightarrow$(ii)$\Rightarrow$(iii)$\Rightarrow$(ii)$\Rightarrow$(i).
 The step (iii)$\Rightarrow$(ii) is the main one: it applies the
@@ -18,10 +18,10 @@ and this is (iii).
 compare the two sides of the base change map through an injective
 resolution $F\to I^\bullet$ by sheaves of $\Lambda$-modules. The complex
 $f'_*g'^*I^\bullet$ computes $Rf'_*g'^*F$. Indeed, since $g'^*$ is exact,
-$g'^*I^\bullet$ is a resolution of $g'^*F$. Its terms are
+$g'^*I^\bullet$ is a resolution of $g'^*F$, and its terms are
 $f'_*$-acyclic by (iii), so Lemma [lemma-acyclic-resolutions] applies.
-The complex $g^*f_*I^\bullet$ computes $g^*Rf_*F$, because inverse image is
-exact. Proposition [proposition-proper-base-change-degree-zero] gives an
+Similarly, the complex $g^*f_*I^\bullet$ computes $g^*Rf_*F$, because inverse image is
+exact. Between the two, Proposition [proposition-proper-base-change-degree-zero] gives an
 isomorphism
 
 $$
@@ -34,12 +34,12 @@ change map for $F$, which proves (ii).
 
 *(ii)$\Rightarrow$(i).* Let $K\in D^+(X_{\acute{e}t},\Lambda)$. For bounded $K$
 we argue by induction on the cohomological length. A complex of length one
-is a shifted sheaf, which (ii) covers. A longer one is, by a canonical
+is a shifted sheaf, which (ii) covers, while a longer one is, by a canonical
 truncation triangle, an extension of two complexes of smaller length.
-The base change map is a morphism of triangles, so the five lemma on
+Since the base change map is a morphism of triangles, the five lemma on
 cohomology sheaves shows that it is an isomorphism for $K$.
 An unbounded $K$ reduces to the bounded case, because a given
-cohomology sheaf only depends on a bounded truncation. Fix a degree $m$
+cohomology sheaf only depends on a bounded truncation. More precisely, fix a degree $m$
 and choose $N\geq m$, so that $\tau_{\leq N}K$ is bounded and has the desired
 comparison. Both functors $g^*Rf_*$ and $Rf'_*g'^*$ send
 $D^{\geq N+1}(X_{\acute{e}t},\Lambda)$ into $D^{\geq N+1}(Y'_{\acute{e}t},\Lambda)$, since inverse images are exact

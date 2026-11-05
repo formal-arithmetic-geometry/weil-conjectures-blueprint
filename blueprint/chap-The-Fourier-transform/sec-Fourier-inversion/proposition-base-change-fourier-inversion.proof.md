@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-base-change-fourier-inversion"
-order = 1224
+order = 1230
+uses = ["lemma-stability", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For (1), the formation of $V\times_SV^\vee$, of the pairing and of
 $\mathcal K_\psi$ commutes with base change along $g$, and proper base

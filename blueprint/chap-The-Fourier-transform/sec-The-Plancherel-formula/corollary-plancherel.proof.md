@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-plancherel"
-order = 1233
+order = 1239
+uses = ["theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-function-sheaf-dictionary"]
 +++
 As for the classical transform, the proof is by orthogonality of
 characters. We expand the square of the sum in (16.3),
@@ -20,8 +21,8 @@ Indeed, for $x\ne z$ the linear form
 $y\mapsto\operatorname{Tr}_{\mathbf F_{q^n}/k_0}\langle x-z,y\rangle$ is
 nonzero, since the trace pairing is nondegenerate, and hence
 surjective onto $k_0$. As $\psi$ is nontrivial, there is $y_0$ with
-$c=\psi(\operatorname{Tr}\langle x-z,y_0\rangle)\ne1$. Substituting
-$y+y_0$ for $y$ multiplies the sum by $\iota(c)$, so the sum is zero.
-Only the diagonal terms remain, and they
-give the asserted identity. On a line, the factor $q^n$ raises
+$c=\psi(\operatorname{Tr}\langle x-z,y_0\rangle)\ne1$, and
+substituting $y+y_0$ for $y$ multiplies the sum by $\iota(c)$, so the sum is zero.
+Therefore only the diagonal terms remain, and they
+give the asserted identity. On a line, finally, the factor $q^n$ raises
 $\nu$ by one.

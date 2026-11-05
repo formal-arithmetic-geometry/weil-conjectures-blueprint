@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-ext-bound-lattices"
-order = 440
-uses = ["lemma-cohomological-dimension-base-field", "lemma-sections-support-closed-subscheme", "lemma-integral-models", "lemma-limits-sections-support"]
+order = 445
+uses = ["lemma-cohomological-dimension-base-field", "lemma-limits-sections-support"]
 +++
 We first bound the complex in (3.1) for the torsion
 reductions of $b_!M_0$ by cohomological dimensions, and then pass to the

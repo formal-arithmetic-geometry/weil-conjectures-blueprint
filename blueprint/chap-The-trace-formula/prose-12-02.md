@@ -2,7 +2,7 @@
 id = "prose-12-02"
 kind = "hidden"
 title = "The trace formula (2)"
-order = 942
+order = 948
 +++
 For constant coefficients the local term at a transverse fixed point is $1$, so on a
 proper $X$ transversality would be enough. Two
@@ -16,12 +16,9 @@ stalk $K_{\bar y}$ does not determine this complex
 point where the stalk vanishes is a real statement, which transversality alone
 does not give.
 
-One computation on a curve settles both problems.
-Proposition [proposition-frobenius-local-term-curve] says that for any morphism
+One computation on a curve settles both problems: Proposition [proposition-frobenius-local-term-curve] says that for any morphism
 $\psi:(\Phi_X^m)^*K\to K$ on a smooth curve, the local term at a rational point $y$
-is $\operatorname{tr}(\psi_{\bar y}\mid K_{\bar y})$. The proof, which is
-Grothendieck's [sga5, XV, §3], uses $d\Phi_X=0$ a second time. The graph
-$v=u^{q^m}$ is tangent to the axis $v=0$ and the diagonal is not, so blowing up
+is $\operatorname{tr}(\psi_{\bar y}\mid K_{\bar y})$. The proof, which is Grothendieck's [sga5, XV, §3], uses $d\Phi_X=0$ a second time: the graph $v=u^{q^m}$ is tangent to the axis $v=0$ and the diagonal is not, so blowing up
 $(y,y)$ separates them, and near the exceptional divisor the local term becomes a
 restriction map that vanishes when $K_{\bar y}=0$
 (Remark [remark-outline-local-computation]). Since both sides of the formula
@@ -46,11 +43,11 @@ $$
 Here $\operatorname{tr}_\Lambda$ is the trace of an endomorphism of a perfect complex
 (Definition [definition-categorical-trace]), and $\operatorname{Frob}_{y,m}$ is the
 $m$-th iterate of the Weil structure on the stalk at the fixed point $\bar y$. For
-$K=\Lambda_X$ and $\Lambda$ a field the formula is Weil's axiom (b).
-
-For $K=\Lambda_X$ and $\Lambda$ a field it gives the rationality of the zeta
+$K=\Lambda_X$ and $\Lambda$ a field the formula is Weil's axiom (b), and it
+gives the rationality of the zeta
 function (Corollary [corollary-point-counting-zeta-function]).
-Purity needs the formula for general $K$. For $\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, in the
+
+Purity, however, needs the formula for general $K$. For $\Lambda\in\{\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, in the
 form of an Euler product (Theorem [theorem-trace-formula-euler-product]), it reads
 
 $$

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-left-completeness"
 order = 98
-uses = ["proposition-milnor-sequence"]
+uses = ["proposition-exact-products", "proposition-milnor-sequence"]
 +++
 We compute the cohomology sheaves of the derived limit with the Milnor
 sequence and find that they are those of $K$.

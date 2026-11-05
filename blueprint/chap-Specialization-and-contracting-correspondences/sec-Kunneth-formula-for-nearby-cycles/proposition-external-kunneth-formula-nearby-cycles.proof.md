@@ -1,23 +1,23 @@
 +++
 kind = "proof"
 of = "proposition-external-kunneth-formula-nearby-cycles"
-order = 1650
-uses = ["lemma-kunneth-map-proper-direct-image", "lemma-finite-support-global-sections", "lemma-quasi-finite-coordinates", "lemma-kunneth-map-slice"]
+order = 1656
+uses = ["lemma-quasi-finite-coordinates", "lemma-kunneth-map-slice"]
 +++
 We argue by induction on
 $n=\dim(X_{\bar\eta}\times_{\bar\eta}Y_{\bar\eta})$, simultaneously for
-all such traits.  Global sections require proper families, and
+all such traits.  Before slicing we need two reductions: global sections require proper families, and
 bounding fibre dimensions after slicing requires flatness, so we
-arrange both.  The assertion is local on $X_s\times_kY_s$.  On
-affine neighbourhoods of the two factors, we take projective closures
+arrange both.  For properness, note first that the assertion is local on $X_s\times_kY_s$.  We may therefore pass to
+affine neighbourhoods of the two factors, take projective closures
 over $S$ and extend the coefficients by zero on their generic fibres.
 By the base change isomorphism for nearby cycles along open immersions,
-the restriction of the new map is the original map. So we may assume
-that $X$ and $Y$ are projective.  The base change isomorphism for
+the restriction of the new map is the original map, so we may assume
+that $X$ and $Y$ are projective.  For flatness, the base change isomorphism for
 the closed immersions of the closures of their generic fibres, together with
 invariance under nilpotent thickenings, lets us also assume that they are
 reduced with dense generic fibres, hence flat
-over the trait.  None of these reductions increases $n$.
+over the trait.  Moreover, none of these reductions increases $n$.
 
 Let $Q$ be the cone of (E.4). For proper
 families, global sections of nearby cycles on the special fibre are

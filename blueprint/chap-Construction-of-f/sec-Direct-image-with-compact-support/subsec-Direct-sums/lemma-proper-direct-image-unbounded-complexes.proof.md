@@ -1,12 +1,10 @@
 +++
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes"
-order = 483
-uses = ["proposition-milnor-sequence", "proposition-left-completeness", "proposition-ind-constructible-sheaves", "lemma-uniform-bound-proper-direct-image"]
+order = 488
 +++
 For bounded below $K$ everything is read off from the hypercohomology
-spectral sequence, which has only $2d+2$ nonzero columns. A general $K$
-is the derived limit of its truncations $\tau_{\geq-n}K$, and the
+spectral sequence, which has only $2d+2$ nonzero columns. A general $K$, in turn, is the derived limit of its truncations $\tau_{\geq-n}K$, and the
 column bound shows that in each fixed degree the tower of direct images
 is eventually constant. The window (5.6) and the
 preservation of direct sums follow from this.
@@ -69,16 +67,13 @@ $\mathcal H^q(Rp_*\tau_{\leq q}K)\simeq
 \mathcal H^q(Rp_*\tau_{\geq q-2d-1}\tau_{\leq q}K)$.
 
 *Direct sums, assertion (3).* The window (5.6)
-reduces us to families with cohomology in a common finite interval. For
-such a family $(M_\alpha)$ we show by induction on the length of the interval
+reduces us to families with cohomology in a common finite interval, and for such a family $(M_\alpha)$ we show by induction on the length of the interval
 that the map
 $\bigoplus_\alpha Rp_*M_\alpha\to Rp_*(\bigoplus_\alpha M_\alpha)$ is an
-isomorphism. For length zero,
-$M_\alpha$ is a shifted object of $\IndCons(X,\Lambda)$, and the claim is
+isomorphism. When the length is zero, each $M_\alpha$ is a shifted object of $\IndCons(X,\Lambda)$, and the claim is
 the assertion about direct sums in Lemma [lemma-uniform-bound-proper-direct-image], in
-each degree. For the inductive step, we take the direct sum of the truncation
-triangles that split off the top cohomology sheaf and apply the five lemma
-to the long exact cohomology sequences.
+each degree. Then, for the inductive step, we take the direct sum of the truncation
+triangles that split off the top cohomology sheaf and apply the five lemma to the long exact cohomology sequences.
 
 Now let $(K_\alpha)$ be arbitrary and fix $q$. Since direct sums of sheaves
 are exact, cohomology and truncations commute with direct sums. The

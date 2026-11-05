@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-topos-functoriality"
 order = 40
-uses = ["lemma-stability"]
 +++
 There are two things to check: that the coverings form a subcanonical
 topology, and that base change of objects is a morphism of sites.

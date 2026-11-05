@@ -1,20 +1,13 @@
 +++
 kind = "proof"
 of = "lemma-projection-formula-integral-coefficients"
-order = 607
-uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-compactness-proper-direct-image", "lemma-checking-isomorphisms-constructible-complexes"]
+order = 613
+uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-proper-direct-image-unbounded-complexes", "lemma-inverse-image-tensor-product", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes"]
 +++
-On $\Dbc$ this is Proposition [proposition-proper-direct-image-constructible-complexes], and we
-extend it by checking one variable at a time. Both sides make sense, since
-$M\otimes^{\mathbf L}p^*N$ lies in $\Loc(D^b_{\mathrm{ctf}}(X,\mathcal O_E))$. For $M$
-and $N$ in $\Dbc$ this is Lemma [lemma-inverse-image-tensor-product].
-The tensor product commutes with direct sums and cones in each variable.
-Hence the argument of
+On $\Dbc$ this is Proposition [proposition-proper-direct-image-constructible-complexes]. Both sides make sense on the localizing categories, because
+$M\otimes^{\mathbf L}p^*N$ lies in $\Loc(D^b_{\mathrm{ctf}}(X,\mathcal O_E))$. For $M$ and $N$ in $\Dbc$ this is Lemma [lemma-inverse-image-tensor-product], and since the tensor product commutes with direct sums and cones in each variable, the argument of
 Proposition [proposition-projection-formula-rational-coefficients]
-extends it first to all $M$ and then to all $N$. In each variable, with the
-other fixed, both sides are exact and preserve direct sums. For the
-variable $M$ this holds because $Rp_*$ preserves direct sums
+extends it to the localizing categories. Indeed, fix one variable. Both sides are then exact and preserve direct sums in the other; for the variable $M$ this holds because $Rp_*$ preserves direct sums
 (Proposition [proposition-compactness-proper-direct-image]).
-Lemma [lemma-checking-isomorphisms-constructible-complexes], applied
-first in $M$ and then in $N$, now extends the isomorphism to the
+Therefore Lemma [lemma-checking-isomorphisms-constructible-complexes], applied first in $M$ and then in $N$, extends the isomorphism from $\Dbc$ to the
 localizing categories.

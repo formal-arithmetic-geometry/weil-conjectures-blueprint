@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-perfect-complexes-geometric-point"
-order = 819
-uses = ["proposition-six-operations-dctf"]
+order = 825
+uses = ["proposition-etale-implications", "lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "corollary-open-direct-image-over-field", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 Once $D^b_{\mathrm{ctf}}(s,\Lambda)$ is identified with
 $\operatorname{Perf}(\Lambda)$, the other assertions follow, because the direct images
@@ -16,12 +16,12 @@ separately for the three kinds of coefficients.
 A constructible complex with finite coefficients has
 bounded finite cohomology and finite Tor amplitude, so it is perfect:
 take a bounded-above resolution by finite free modules and
-truncate it below the Tor bound. The last syzygy that remains is finitely
+truncate it below the Tor bound. Then the last syzygy that remains is finitely
 presented and flat, hence projective, so the truncated resolution is a
-bounded complex of finite projective modules. With integral coefficients the
+bounded complex of finite projective modules. With integral coefficients, by contrast, the
 constructible complexes on the point are those with bounded finitely
-generated $\mathcal O_E$-cohomology. Since a discrete valuation ring has
-global dimension one, these complexes are perfect. With field
+generated $\mathcal O_E$-cohomology, and since a discrete valuation ring has
+global dimension one, these complexes are perfect. Finally, with field
 coefficients, bounded complexes with finite-dimensional cohomology are perfect.
 
 By Proposition [proposition-six-operations-dctf], the two

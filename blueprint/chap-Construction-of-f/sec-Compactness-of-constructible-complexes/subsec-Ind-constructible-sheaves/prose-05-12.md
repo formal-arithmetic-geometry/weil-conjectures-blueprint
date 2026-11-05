@@ -2,7 +2,7 @@
 id = "prose-05-12"
 kind = "hidden"
 title = "Ind-constructible sheaves (3)"
-order = 453
+order = 458
 +++
 Objects of $\Loc(\Dbc(X,\Lambda))$ can be unbounded, and we do not know
 a priori that their truncations stay in $\Loc(\Dbc(X,\Lambda))$. For this

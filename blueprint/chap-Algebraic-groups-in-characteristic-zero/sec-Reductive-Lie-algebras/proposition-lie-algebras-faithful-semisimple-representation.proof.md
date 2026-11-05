@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-lie-algebras-faithful-semisimple-representation"
-order = 1735
-uses = ["lemma-lie-s-theorem", "lemma-killing"]
+order = 1741
+uses = ["lemma-lie-s-theorem"]
 +++
 We follow the two halves described at the start of this subsection:
 first the radical is central, and then the quotient by the center
@@ -12,10 +12,10 @@ Put $\mathfrak r=\operatorname{rad}\mathfrak l$, and write the
 faithful module as a direct sum of simple modules. Let $M$ be one of
 them. By Lemma [lemma-lie-s-theorem], there is a nonzero
 simultaneous $\lambda$-eigenspace $M_\lambda$ for $\mathfrak r$. We
-claim that $M_\lambda$ is $\mathfrak l$-stable. Fix $x\in\mathfrak l$ and
+claim that $M_\lambda$ is $\mathfrak l$-stable. To prove this, fix $x\in\mathfrak l$ and
 $0\ne v\in M_\lambda$, and consider
 $U=\operatorname{span}\{v,xv,x^2v,\ldots\}$. For
-$a\in\mathfrak r$ we have $[a,x]\in\mathfrak r$, and the identity
+every $a\in\mathfrak r$ we have $[a,x]\in\mathfrak r$, and the identity
 
 $$
 ax^j=x^ja+\sum_{i=0}^{j-1}x^i[a,x]x^{j-1-i}
@@ -26,7 +26,7 @@ triangular matrix with constant diagonal $\lambda(a)$ in the basis
 $v,xv,x^2v,\ldots$ of $U$. Indeed, the identity gives
 $ax^jv=\lambda(a)x^jv$ plus terms $x^i[a,x]x^{j-1-i}v$, and by induction
 applied to $[a,x]\in\mathfrak r$ these lie in the span of
-$v,\ldots,x^{j-1}v$. The trace of $[x,a]$ on $U$ can be computed in two
+$v,\ldots,x^{j-1}v$. With this, the trace of $[x,a]$ on $U$ can be computed in two
 ways. Since $x$ and $a$ preserve $U$, the restriction of $[x,a]$ to $U$
 is a commutator, whose trace is zero. On the other hand,
 $[x,a]\in\mathfrak r$ acts on $U$ with constant diagonal

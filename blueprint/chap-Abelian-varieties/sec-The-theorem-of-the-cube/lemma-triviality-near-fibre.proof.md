@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-triviality-near-fibre"
-order = 1478
-uses = ["lemma-h-1-structure-sheaf-product"]
+order = 1484
+uses = ["definition-constructible-sheaves", "lemma-perfect-complexes-geometric-point", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-triviality-fibres", "lemma-h-1-structure-sheaf-product"]
 +++
 We want a section of $\mathcal L$ over $X\times U$, where $X=P\times Q$,
 that does not vanish on the fibre over $t$. Its zero locus then misses a
@@ -20,20 +20,20 @@ rank one, as we need.
 
 *Setup.* Since $X_{\bar k}=P_{\bar k}\times Q_{\bar k}$ is a
 product of integral varieties, $X$ is geometrically integral
-[Stacks, [05P3](https://stacks.math.columbia.edu/tag/05P3)]. We may assume that $T=\operatorname{Spec}R$ is affine, and
-we let $\mathfrak p$ be the prime of $t$. Below, “shrinking $T$” means
-replacing $R$ by $R_g$ for some $g\notin\mathfrak p$; everything already
-constructed survives this. Consider the projections
+[Stacks, [05P3](https://stacks.math.columbia.edu/tag/05P3)]. We may assume that $T=\operatorname{Spec}R$ is affine,
+and we let $\mathfrak p$ be the prime of $t$. Below, “shrinking $T$”
+means replacing $R$ by $R_g$ for some $g\notin\mathfrak p$; everything
+already constructed survives this. Consider the projections
 
 $$
 f:X\times T\to T,\qquad f_1:P\times T\to T,\qquad f_2:Q\times T\to T,
 $$
 
 and the restrictions $\mathcal L_1$ and $\mathcal L_2$ of $\mathcal L$ to
-$P\times q_0\times T$ and $p_0\times Q\times T$, which are trivial. The complexes
-$E=Rf_*\mathcal L$ and $E_i=Rf_{i*}\mathcal L_i$ are perfect, and their
-formation commutes with base change [Stacks, [0B91](https://stacks.math.columbia.edu/tag/0B91)]. Restriction of
-sections gives a map $E\to E_1\oplus E_2$, compatible with base change.
+$P\times q_0\times T$ and $p_0\times Q\times T$, which are trivial. The complexes $E=Rf_*\mathcal L$ and
+$E_i=Rf_{i*}\mathcal L_i$ are perfect, and their formation commutes
+with base change [Stacks, [0B91](https://stacks.math.columbia.edu/tag/0B91)]. Restriction of sections gives a map
+$E\to E_1\oplus E_2$, also compatible with base change.
 Since $T$ is affine, $H^0(X\times T,\mathcal L)=H^0(E)$ and likewise for
 $E_i$.
 
@@ -41,7 +41,7 @@ $E_i$.
 represented by a complex of free modules whose differentials vanish
 modulo the maximal ideal; the ranks are then the dimensions of the
 cohomology of the fibre. We use this to read off the ranks from the
-fibre over $t$, where everything is trivial. Put $h^j=\dim H^j(X_t,\mathcal O)$ and
+fibre over $t$, where everything is trivial. To do so, put $h^j=\dim H^j(X_t,\mathcal O)$ and
 $h_i^j=\dim H^j$ of $\mathcal O$ on the fibres $P_t$ and $Q_t$. Since
 $\mathcal L$ is trivial on $X_t$ and the $\mathcal L_i$ are trivial,
 $E\otimes^{\mathbf L}_R\kappa(t)$ and $E_i\otimes^{\mathbf L}_R\kappa(t)$

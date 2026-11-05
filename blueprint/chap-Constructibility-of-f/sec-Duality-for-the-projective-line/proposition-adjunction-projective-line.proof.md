@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-adjunction-projective-line"
-order = 548
-uses = ["lemma-cohomology-projective-line-trace", "lemma-class-diagonal-projective-line"]
+order = 554
+uses = ["proposition-forgetting-supports-composition", "lemma-class-diagonal-projective-line"]
 +++
 The projection formula and proper base change reduce each of the two
 triangle identities to the identity $s_i=1$ of
@@ -20,8 +20,8 @@ Rp_*M
 &=R(pp_1)_*\Delta_*M\\
 &\longrightarrow R(pp_1)_*p_1^*M(1)[2]\\
 &\xrightarrow{\ \sim\ }
-Rp_*\bigl(M\otimes_\Lambda^{\mathbf L}
-Rp_{1*}\Lambda_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]\bigr)\\
+Rp_*\bigl(M\otimes_A^{\mathbf L}
+Rp_{1*}A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]\bigr)\\
 &\xrightarrow{Rp_*(1_M\otimes \operatorname{Tr}_{p_1})}Rp_*M .
 \end{split}
 \tag{6.8}
@@ -35,20 +35,18 @@ isomorphism of (6.6). The last arrow replaces $1\otimes\operatorname{Tr}_p$
 in (6.6) by $\operatorname{Tr}_{p_1}$, the base change of
 $\operatorname{Tr}_p$ along $p$ (Lemma [lemma-cohomology-projective-line-trace]).
 In this form, the trace is applied to $Rp_{1*}\delta$, that is, to the
-factor $\Delta_*\Lambda$, and $M$ only appears as a coefficient.
+factor $\Delta_*A$, and $M$ only appears as a coefficient.
 
 This rewriting is an equality of maps because the projection formula
 isomorphism is compatible with proper base change. To see this, recall
 that the proper base change map is the adjoint transpose of the counit of
-$g^*\dashv Rg_*$ for the relevant pullback $g$. The projection map is the
-adjoint transpose of the same counit tensored with the identity. The
-counit of a composite adjunction is the composite of the counits.
+$g^*\dashv Rg_*$ for the relevant pullback $g$. The projection map is the adjoint transpose of the same counit tensored with the identity, and the counit of a composite adjunction is the composite of the counits.
 Therefore the two routes from $R(pp_2)_*p_1^*M=R(pp_1)_*p_1^*M$ to
-$Rp_*M\otimes Rp_*\Lambda(1)[2]$ have the same adjoint transpose, as in
+$Rp_*M\otimes Rp_*A(1)[2]$ have the same adjoint transpose, as in
 the pasting Lemma [lemma-identity-pasting].
 
 On the route through (6.8) we identify
-$Rp_{1*}\Lambda=p^*Rp_*\Lambda$ by proper base change and then use the
+$Rp_{1*}A=p^*Rp_*A$ by proper base change and then use the
 projection formula for $p$. By naturality of the projection formula in its
 second variable, the first arrow of (6.8) is then
 $1_M\otimes Rp_{1*}\delta$ under the projection identification. The
@@ -77,7 +75,6 @@ $$
 All shifts moved in (6.8) and (6.9) are even, so no Koszul signs appear.
 
 The unit is constructed from $\delta$ and proper base change, and
-the counit from (6.3) and the projection formula. All of these
-are compatible with base change and change of coefficients, and hence so
-are $\eta$ and $\varepsilon$. By the comparison, the same holds on the
-pro-étale categories of (6.7).
+the counit from (6.3) and the projection formula. All of these ingredients are compatible with base change and change of coefficients, and hence so
+are $\eta$ and $\varepsilon$. Transported by $\nu^*$, the same then holds for the corresponding adjunction
+on the pro-étale categories.

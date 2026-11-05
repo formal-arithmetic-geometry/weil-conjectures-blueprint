@@ -2,7 +2,7 @@
 id = "prose-15-06"
 kind = "hidden"
 title = "Weights of middle extensions (5)"
-order = 1179
+order = 1185
 +++
 The proof of Proposition [proposition-weights-j-boundary-points],
 together with Lemma [lemma-degree-zero-top-cohomology], also gives the

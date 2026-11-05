@@ -1,11 +1,12 @@
 +++
 kind = "proof"
 of = "lemma-normal-cones-contracting-ideals"
-order = 1692
+order = 1698
+uses = ["definition-small-pro-etale-site"]
 +++
 We read everything off from the graded algebras. The first leg sends
 $I$ onto generators of $I_1$, so it identifies the ideals of the zero
-sections. The second leg sends $I$ into $I_2$, and by the hypothesis
+sections. The second leg, on the other hand, sends $I$ into $I_2$, and by the hypothesis
 $I_2^n\subset I_1^{n+1}$ the images of degree-one classes are
 nilpotent in $\operatorname{gr}_{I_1}\mathcal O_C$.
 

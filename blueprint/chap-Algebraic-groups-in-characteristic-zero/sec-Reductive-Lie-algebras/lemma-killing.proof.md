@@ -1,12 +1,11 @@
 +++
 kind = "proof"
 of = "lemma-killing"
-order = 1732
-uses = ["lemma-cartan-s-criterion"]
+order = 1738
 +++
-By Cartan's criterion, the kernel of $B$ is a solvable ideal, hence
-zero. Then nondegeneracy identifies the orthogonal of the derived
-algebra with the center. By invariance of $B$, that is,
+We first use Cartan's criterion to show that the kernel of $B$ is a
+solvable ideal, hence zero; nondegeneracy then identifies the orthogonal
+of the derived algebra with the center. By invariance of $B$, that is,
 $B([x,y],z)=B(x,[y,z])$, the kernel $\mathfrak k$ of $B$
 is an ideal. For $x\in[\mathfrak k,\mathfrak k]$ and $y\in\mathfrak k$,
 the operators $\operatorname{ad}x$ and $\operatorname{ad}y$ map

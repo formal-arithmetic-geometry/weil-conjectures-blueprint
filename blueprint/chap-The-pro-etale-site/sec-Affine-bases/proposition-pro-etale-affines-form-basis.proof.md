@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-pro-etale-affines-form-basis"
 order = 67
-uses = ["theorem-pro-etale-refinements-weakly-etale"]
+uses = ["lemma-stability", "theorem-pro-etale-refinements-weakly-etale"]
 +++
 The first assertion is the refinement theorem applied chart by chart, and
 the second is then formal.

@@ -1,0 +1,28 @@
++++
+id = "theorem-trace-isomorphism-top-degree"
+kind = "theorem"
+title = "The trace isomorphism in top degree"
+order = 865
+lean = ["AlgebraicGeometry.Etale.traceIsomorphism", "AlgebraicGeometry.Etale.TateOrientation.bijective_untwistedTraceMap", "AlgebraicGeometry.WeilSheaf.traceIsomorphism_adicConstant", "AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant"]
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-relative-dualizing-complex", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
++++
+Let $X/k$ be smooth, proper and connected of pure dimension
+$d$, with $k$ algebraically closed. For every admissible
+coefficient ring,
+
+$$
+H^i(X,\Lambda_X)=0\quad(i\notin[0,2d]),\qquad
+H^0(X,\Lambda_X)=\Lambda,
+$$
+
+and the map
+
+$$
+\operatorname{tr}_X:H^{2d}(X,\Lambda_X)
+\xrightarrow{\sim}\Lambda(-d),
+$$
+
+the twist by $(-d)$ of the map
+$\operatorname{tr}_X(d):H^{2d}(X,\Lambda_X(d))\to\Lambda$ induced on
+$H^{2d}$ by $\operatorname{Tr}_X$ of Definition [definition-trace-map],
+is an isomorphism.

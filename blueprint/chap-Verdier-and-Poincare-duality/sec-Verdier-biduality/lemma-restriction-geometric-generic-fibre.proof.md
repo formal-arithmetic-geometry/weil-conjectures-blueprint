@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-restriction-geometric-generic-fibre"
-order = 833
-uses = ["corollary-continuity-cohomology", "proposition-comparison-etale-derived-category", "lemma-verdier-duality-preserves-constructibility"]
+order = 839
+uses = ["lemma-stability", "lemma-flat-models-generators", "lemma-finite-cover-projective-space", "corollary-cohomology-geometric-fibres", "proposition-comparison-etale-derived-category", "proposition-forgetting-supports-composition", "theorem-generic-constructibility-base-change-rj", "corollary-open-direct-image-over-field", "lemma-perfect-complexes-geometric-point", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 We prove the comparisons in the order stated, each using the
 previous ones: the direct image by continuity along a limit of étale
@@ -42,16 +42,13 @@ i_*i^!M\longrightarrow M\longrightarrow Rj_*j^*M
 $$
 
 We compare the pulled-back triangle with the triangle with closed support
-on the generic fibre, whose first term is $i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$.
-The second terms agree. The third terms agree too, because the first
+on the generic fibre, whose first term is $i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$. Their second terms agree. The third terms agree too, because the first
 comparison identifies the pullback of $Rj_*j^*M$ with
 $Rj_{\bar\eta,*}j_{\bar\eta}^*g_X^*M$, and the map between them is the same.
-The first terms are then determined functorially. Indeed, there are no nonzero
+It follows that the first terms are determined functorially. Indeed, there are no nonzero
 maps, in any degree, from a complex supported on $Z_{\bar\eta}$ to one of the form
-$Rj_{\bar\eta,*}N$, so the first term of each triangle is the fibre of the
-second map. Pullback commutes with direct image along a closed immersion, so
-the first term of the pulled-back triangle is $i_{\bar\eta,*}g_Z^*i^!M$. The
-induced map $i_{\bar\eta,*}g_Z^*i^!M\to i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$
+$Rj_{\bar\eta,*}N$, so the first term of each triangle is the fibre of the second map. Now pullback commutes with direct image along a closed immersion, so
+the first term of the pulled-back triangle is $i_{\bar\eta,*}g_Z^*i^!M$. By construction, the induced map $i_{\bar\eta,*}g_Z^*i^!M\to i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$
 is adjoint to the pulled-back counit, that is, it is $i_{\bar\eta,*}$ of our
 comparison map, and it is an isomorphism. Since $i_{\bar\eta,*}$ is fully
 faithful, the comparison map itself is an isomorphism.
@@ -62,8 +59,7 @@ functors of $K$. The dévissage of
 Lemma [lemma-verdier-duality-preserves-constructibility] therefore
 reduces us to $K=t_!P$,
 where $t$ is the inclusion of a stratum and $P$ is locally perfect
-on it. For these generators, internal adjunction and the
-dualizability of the locally perfect complex $P$ express internal Hom
+on it. For these generators, internal adjunction and the dualizability of the locally perfect complex $P$ express internal Hom
 through operations we have already compared:
 
 $$
@@ -71,12 +67,9 @@ $$
 \simeq Rt_*(P^\vee\otimes^{\mathbf L}t^!M).
 $$
 
-We check that $g^*$ commutes with each operation on the right. Factor $t$
-as a closed immersion followed by an open immersion. For the open immersion
-$t^!$ is restriction, which commutes with $g^*$, and for the closed immersion
-we use the second comparison. Pullback commutes with $Rt_*$ by the first
-comparison, and it commutes with tensor products and with $P^\vee$. The
-first two comparisons apply here, because by
+We check that $g^*$ commutes with each operation on the right. For $t^!$ we factor $t$ as a closed immersion followed by an open immersion: for the open immersion $t^!$ is restriction, which commutes with $g^*$, and for the closed immersion
+we use the second comparison. Similarly, pullback commutes with $Rt_*$ by the first
+comparison, and it commutes with tensor products and with $P^\vee$. The first two comparisons apply here, because by
 Lemma [lemma-verdier-duality-preserves-constructibility]
 all complexes used remain bounded constructible. Hence the comparison holds
 for $K=t_!P$.

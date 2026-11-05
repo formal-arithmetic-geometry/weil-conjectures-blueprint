@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-vanishing-local-term-zero-stalk"
-order = 984
-uses = ["lemma-flat-models-generators", "lemma-local-term-restriction-map", "lemma-vanishing-restrictions-after-blowing-up", "lemma-covers-degree-prime-to-ell", "lemma-tangent-cones-on-cover", "lemma-descent-vanishing-finite-etale"]
+order = 990
+uses = ["definition-change-of-coefficients-maps", "proposition-dctf-x-qbar-2-colimit", "lemma-local-term-restriction-map", "lemma-vanishing-restrictions-after-blowing-up", "lemma-descent-vanishing-finite-etale"]
 +++
 We use the notation introduced before
 Lemma [lemma-covers-degree-prime-to-ell] and compute on the étale
@@ -40,17 +40,14 @@ $$
 projective lisse models of $N$ and $Q$ by
 Lemma [lemma-flat-models-generators]; their terms are finite locally
 constant, as a punctured strictly local trait is its generic point.
-Lemma [lemma-covers-degree-prime-to-ell], applied to the terms of the
+Then Lemma [lemma-covers-degree-prime-to-ell], applied to the terms of the
 model of $N$ on $X_1-y$ and to those of $Q$ on $X_2-y$, gives integers
-$d_1,d_2$ prime to $\ell$. With $d=\operatorname{lcm}(d_1,d_2)$ we obtain
-covers $X_1'\to X_1$ and $X_2'\to X_2$ of the same degree $d$. We want equal
+$d_1,d_2$ prime to $\ell$. With $d=\operatorname{lcm}(d_1,d_2)$ we then obtain covers $X_1'\to X_1$ and $X_2'\to X_2$ of the same degree $d$. We want equal
 degrees so that $u$ and $v$ become $d$th powers for the same $d$ in
 Lemma [lemma-tangent-cones-on-cover]. Let $T'$, $\Gamma'$, $V'$,
 $\Delta'$, $H'$ be as in that lemma, and let $N'$ and $Q'$ be the pullbacks
-of $N$ and $Q$ to $X_1'-y_1'$ and $X_2'-y_2'$. The complex $N'\boxtimes Q'$
-has finite $\ell$-group monodromy on $T'-(H'\cup V')$, hence also on the
-smaller open set obtained by removing $\Gamma'$. The restriction $r'$ on
-$T'$, defined like $r$, is zero by
+of $N$ and $Q$ to $X_1'-y_1'$ and $X_2'-y_2'$. By construction, the complex $N'\boxtimes Q'$ has finite $\ell$-group monodromy on $T'-(H'\cup V')$, hence also on the
+smaller open set obtained by removing $\Gamma'$. Then the restriction $r'$ on $T'$, defined like $r$, is zero by
 Lemma [lemma-vanishing-restrictions-after-blowing-up], applied to $T'$
 with $D=(\Gamma'\cup V')_{\mathrm{red}}$, the regular curve
 $H'_{\mathrm{red}}$ and $C=\Delta'_{\mathrm{red}}$; its hypotheses hold by

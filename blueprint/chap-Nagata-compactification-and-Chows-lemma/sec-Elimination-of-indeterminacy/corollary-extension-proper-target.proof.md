@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-extension-proper-target"
-order = 1435
-uses = ["theorem-extension-partial-section"]
+order = 1441
+uses = ["lemma-making-open-schematically-dense", "definition-quasi-domination", "theorem-extension-partial-section"]
 +++
 A map $U\to Y$ is the same as a section over $U$ of the projection
 $Y\times_SX\to X$. The theorem extends this section to an open of a

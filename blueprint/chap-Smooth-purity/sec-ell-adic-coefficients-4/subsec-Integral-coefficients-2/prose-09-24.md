@@ -2,17 +2,17 @@
 id = "prose-09-24"
 kind = "hidden"
 title = "Integral coefficients (4)"
-order = 775
+order = 781
 +++
 The orientation passes to towers as well. By the finite case each level of
 $\omega_{f,\bullet}[-2d]$ is an invertible sheaf, so it is an invertible
-sheaf of towers. The comparisons for vector bundles and for the deformation
-family are maps of sheaves of towers in degree zero. Equality of such maps
+sheaf of towers. Moreover, the comparisons for vector bundles and for the deformation
+family are maps of sheaves of towers in degree zero, and equality of such maps
 can be tested level by level, unlike equality of maps in
 $D(\operatorname{Tow})$ in general. Hence the uniqueness in
 Lemma [lemma-section-normal-bundle] holds for them,
 because it holds at each level. Composing the inverse of the orientation with the map
-(9.4) on towers, we obtain an isomorphism, natural in the constructible tower $K_\bullet$,
+$\mu_{f,K}$ on towers, we obtain an isomorphism, natural in the constructible tower $K_\bullet$,
 
 $$
 \gamma_{f,\bullet}(K_\bullet):f_\bullet^*K_\bullet(d)[2d]\xrightarrow{\sim}f_\bullet^!K_\bullet,

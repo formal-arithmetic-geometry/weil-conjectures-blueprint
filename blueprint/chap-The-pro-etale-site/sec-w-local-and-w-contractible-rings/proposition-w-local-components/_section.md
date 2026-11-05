@@ -1,0 +1,17 @@
++++
+id = "proposition-w-local-components"
+kind = "proposition"
+title = "Connected components of w-local spaces and rings"
+name_showing = false
+order = 45
+lean = ["WLocalSpace.isHomeomorph_connectedComponents_closedPoints", "IsStrictlyHenselianLocalRing.isWContractibleRing"]
+uses = ["definition-w-local-w-strictly-local"]
++++
+1. If $T$ is a w-local spectral space, the natural map
+   $T^c\to\pi_0(T)$ is a homeomorphism.
+2. If $R$ is w-local, the component of $\operatorname{Spec}(R)$
+   containing a closed point $\mathfrak m$ is the image of
+   $\operatorname{Spec}(R_{\mathfrak m})$. In particular, if $R$ is
+   w-strictly local, every component is the spectrum of a strictly
+   henselian local ring.
+3. A strictly henselian local ring is w-contractible.

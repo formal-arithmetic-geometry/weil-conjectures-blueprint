@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-naturality-pasting-comparison"
-order = 324
-uses = ["lemma-comparison-direct-images-compatibilities"]
+order = 325
+uses = ["lemma-stability", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-comparison-direct-images-compatibilities", "lemma-acyclic-resolutions"]
 +++
 Every assertion holds because the base change map is
 assembled from units, counits and composition isomorphisms for inverse
@@ -13,9 +13,9 @@ By definition, the base change map is the adjoint transpose of a counit preceded
 by the composition isomorphism for inverse images. Since the counit for a
 composite adjunction is the composite of the two counits, taking
 adjoint transposes proves pasting, in either order of composing the
-two directions of a rectangle. The assertion about identity squares
+two directions of a rectangle. Similarly, the assertion about identity squares
 follows from the triangle identities, as in Lemma [lemma-identity-pasting].
-The comparisons of sites of Theorem [theorem-comparison-direct-images]
+Finally, the comparisons of sites of Theorem [theorem-comparison-direct-images]
 identify the composition maps for inverse images and the units and counits
 (Lemma [lemma-comparison-direct-images-compatibilities]),
 and hence also the base change maps constructed from them.

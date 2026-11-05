@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-rigidity"
-order = 1484
+order = 1490
+uses = ["definition-compactification-refinement"]
 +++
 Near $X\times y_0$ the map $h$ lands in an affine open of $Z$, and a
 map to an affine scheme is given by functions. Since $X$ is proper and

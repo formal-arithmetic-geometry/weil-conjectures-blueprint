@@ -2,7 +2,7 @@
 id = "prose-E-03"
 kind = "hidden"
 title = "Specialization to the normal cone (2)"
-order = 1615
+order = 1621
 +++
 For a morphism $g:\mathcal Y'\to\mathcal Y$ of separated
 $S$-schemes of finite type, there is a base change map for pullback
@@ -22,9 +22,8 @@ $$
 
 These base change maps commute with composition and with the specialization
 map defined below. Their invertibility follows from two base change
-theorems for torsion coefficients. Proper base change [Stacks, [095T](https://stacks.math.columbia.edu/tag/095T)]
-says that restriction to a fibre commutes with proper direct image.
-Smooth base change [Stacks, [0F09](https://stacks.math.columbia.edu/tag/0F09)] (for sheaves [Stacks, [0EYU](https://stacks.math.columbia.edu/tag/0EYU)]) says that
+theorems for torsion coefficients. First, proper base change [Stacks, [095T](https://stacks.math.columbia.edu/tag/095T)] says that restriction to a fibre commutes with proper direct image.
+Second, smooth base change [Stacks, [0F09](https://stacks.math.columbia.edu/tag/0F09)] (for sheaves [Stacks, [0EYU](https://stacks.math.columbia.edu/tag/0EYU)]) says that
 pullback along a smooth map commutes with direct image along a qcqs
 morphism, when the coefficients are torsion of order invertible on the
 base. Suppose first that $g$ is proper. The two direct images on the

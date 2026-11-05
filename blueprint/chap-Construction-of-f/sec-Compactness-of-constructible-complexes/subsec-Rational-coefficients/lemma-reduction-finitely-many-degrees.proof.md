@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-reduction-finitely-many-degrees"
-order = 459
+order = 464
 uses = ["theorem-enough-affine-weakly-contractible-objects", "proposition-exact-products", "corollary-ind-heart-b"]
 +++
 Cutting off the cohomology above degree $m$ is harmless for degree
@@ -14,8 +14,7 @@ Replacing $K$ by $K[m]$, we may assume $m=0$. The truncation
 $\tau_{>0}K$ lies in $D^{\geq1}$, and $C$ is a sheaf in degree $0$, so
 there are no nonzero maps from $C$ to an object of $D^{\geq1}$. Hence
 $\Hom(C,\tau_{>0}K[s])=0$ for
-$s=0,-1$. In the long exact sequence of $\Hom(C,-)$ for the truncation
-triangle $\tau_{\leq0}K\to K\to\tau_{>0}K\to$, these are the two groups
+$s=0,-1$. In the long exact sequence of $\Hom(C,-)$ for the truncation triangle $\tau_{\leq0}K\to K\to\tau_{>0}K\to$, these are the two groups
 adjacent to $\Hom(C,K)$, and so
 $\Hom(C,K)=\Hom(C,\tau_{\leq0}K)$. To remove the cohomology
 in degrees $\leq-d_C-1$ from $K'=\tau_{\leq0}K$, we use the triangle

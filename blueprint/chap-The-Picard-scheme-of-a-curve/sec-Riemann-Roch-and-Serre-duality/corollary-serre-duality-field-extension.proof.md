@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-serre-duality-field-extension"
-order = 1522
+order = 1528
+uses = ["theorem-riemann-roch-coherent-serre-duality"]
 +++
 We factor the duality on $C$ through a finite map to $\mathbf P^1_k$,
 where the trace is an explicit residue, and check that each step is
@@ -16,5 +17,4 @@ duality on $\mathbf P^1_k$, whose trace $H^1(\mathbf P^1_k,\omega)\to k$
 takes the coefficient of $t^{-1}dt$ in a Čech cocycle for the
 standard cover. Both steps commute with extension of scalars, hence so
 does the resulting pairing. For $\mathcal L=\mathcal O_C$ the duality gives
-$\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$. Flat base
-change shows that $g$ is unchanged by field extension.
+$\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$. Moreover, flat base change shows that $g$ is unchanged by field extension.

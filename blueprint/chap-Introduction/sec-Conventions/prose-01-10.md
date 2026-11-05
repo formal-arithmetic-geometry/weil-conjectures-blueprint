@@ -7,33 +7,35 @@ order = 21
 We fix a prime $\ell$ and a field $k$ that is finite or algebraically
 closed, of characteristic different from $\ell$. Unless said otherwise,
 schemes are separated and of finite type over $k$, and morphisms are
-$k$-morphisms. We need the hypothesis on $k$ to bound the
+$k$-morphisms. The hypothesis on $k$ is needed to bound the
 $\ell$-cohomological dimension of $k$
-(Lemma [lemma-cohomological-dimension-base-field]). The constructions of
+(Lemma [lemma-cohomological-dimension-base-field]), while the constructions of
 Sections [sec-Coefficient-rings] and [sec-Derived-functors] make sense for arbitrary
-schemes. A citation such as [Stacks, [0F0C](https://stacks.math.columbia.edu/tag/0F0C)] refers to the tag of a result in the
+schemes. Finally, a citation such as [Stacks, [0F0C](https://stacks.math.columbia.edu/tag/0F0C)] refers to the tag of a result in the
 Stacks Project [stacks].
 
-We regard every coefficient ring $\Lambda$ as a condensed ring, that is,
-as a sheaf of rings on profinite sets, which remembers the topology of
-$\Lambda$. The coefficient sheaf $\Lambda_X$ on $X$ is then the pullback
+On the pro-étale site we regard every coefficient ring $\Lambda$ as a
+condensed ring, that is, as a sheaf of rings on profinite sets, which
+remembers the topology of $\Lambda$. (On the étale site, which we use only
+with finite coefficients, a finite ring is simply a ring.) The coefficient sheaf $\Lambda_X$ on $X$ is then the pullback
 of $\Lambda$ along the map from $X$ to a point
 (Section [sec-Coefficient-rings]). For a finite ring $A$ this pullback
 is the classical constant sheaf.
 
 Derived categories are the classical ones. Namely, $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is
 the derived category of the abelian category of sheaves of
-$\Lambda_X$-modules. All functors are derived, and we write them $f^*$,
+$\Lambda_X$-modules. On these categories all functors are derived, and we write them $f^*$,
 $Rf_*$, $Rf_!$ and $f^!$. Unless another category is named, we have
 $f^*:D(Y_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ and
-$Rf_*:D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$. The
+$Rf_*:D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$, whereas the
 categories on which $Rf_!$ and $f^!$ act are fixed where these functors
-are defined. We take sizes with respect to a fixed universe that is large
+are defined. To avoid set-theoretic problems, we take sizes with respect to a fixed universe that is large
 enough to contain the w-contractible covers of
 Theorem [theorem-existence-contractible-covers].
 
-The table below lists the main notation and the place where each symbol
-is defined. The Frobenius $F$ of the Introduction, which raises
+The table below lists the main notation, together with the technical terms
+(lisse, Weil structure, pure, mixed, real) whose meaning in these notes is
+fixed by a definition, and the place where each is defined. The Frobenius $F$ of the Introduction, which raises
 coordinates to their $q$-th powers, is written $\Phi_X$ in the body of the
 notes. A Frobenius structure $F^*K\simeq K$ becomes there a Weil structure
 $\operatorname{Fr}_X^*K\simeq K$ for the geometric Frobenius

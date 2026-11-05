@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-six-operations-dctf"
-order = 619
-uses = ["lemma-flat-models-generators", "proposition-proper-direct-image-constructible-complexes", "theorem-exceptional-inverse-image", "lemma-inverse-image-tensor-product", "proposition-open-direct-image-preserves-finite", "proposition-direct-image-along-open-immersion"]
+order = 625
+uses = ["lemma-stability", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "proposition-comparison-immersions", "lemma-flat-models-generators", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "corollary-cohomology-geometric-fibres", "theorem-exceptional-inverse-image", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "corollary-open-direct-image-over-field", "theorem-f-shriek-finite-coefficients", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "lemma-perfect-complexes-geometric-point", "definition-verdier-dual-evaluation", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality", "corollary-verdier-exchange-formulas", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 We treat the operations in the order in which they depend on each other:
 first the local operations $f^*$ and $\otimes^{\mathbf L}$, then the two
@@ -11,19 +11,14 @@ others.
 
 Pullback and tensor product preserve the property of being, on the strata
 of a finite stratification, locally $\Lambda_S\otimes P$ with $P$ a perfect
-complex. For pullback this is clear, since the strata pull back to a
-stratification. For tensor products we take a common refinement of the two
+complex. For pullback this is clear, since the strata pull back to a stratification, while for tensor products we take a common refinement of the two
 stratifications, and on each of its strata we use that
-$P\otimes^{\mathbf L}Q$ is perfect when $P$ and $Q$ are. Extension by zero
-preserves finite Tor amplitude, since it is exact and satisfies the
+$P\otimes^{\mathbf L}Q$ is perfect when $P$ and $Q$ are. Similarly, extension by zero preserves finite Tor amplitude, since it is exact and satisfies the
 projection formula $a_!K\otimes^{\mathbf L}N\simeq a_!(K\otimes^{\mathbf L}a^*N)$.
-For finite $A$ these statements can be checked on the bounded flat
-constructible models of Lemma [lemma-flat-models-generators]. For
-$\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ they follow from Lemma [lemma-inverse-image-tensor-product] and
-from Definition [definition-constructible-sheaves] of constructible sheaves: on each stratum, such a sheaf is
+Concretely, for finite $A$ these statements can be checked on the bounded flat
+constructible models of Lemma [lemma-flat-models-generators]. For $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$, on the other hand, they follow from Lemma [lemma-inverse-image-tensor-product] and from Definition [definition-constructible-sheaves] of constructible sheaves: on each stratum, such a sheaf is
 locally $\Lambda_X\otimes_{\Lambda(*)}P$ with $P$ finitely generated over
-the discrete valuation ring or field $\Lambda(*)$. Over such a ring a
-finitely generated module has a finite free resolution of length at most
+the discrete valuation ring or field $\Lambda(*)$. Over such a ring a finitely generated module has a finite free resolution of length at most
 one. Hence $P$ is perfect.
 
 For the direct images we use a compactification to separate the proper
@@ -39,15 +34,12 @@ preserves $D^b_{\mathrm{ctf}}(-,\Lambda)$ is part of Theorem [theorem-exceptiona
 For internal Hom we reduce to a
 first argument supported on a single stratum, where $\cHom$ can be
 written in terms of $Ra_*$, $a^!$ and $\otimes^{\mathbf L}$.
-The functor $\cHom(-,K)$ sends triangles in the first argument to
-triangles, and $D^b_{\mathrm{ctf}}$ is closed under cones and shifts. Hence, for a
+This is possible because the functor $\cHom(-,K)$ sends triangles in the first argument to triangles, and $D^b_{\mathrm{ctf}}$ is closed under cones and shifts. Hence, for a
 triangle $M'\to M\to M''$, the complex $\cHom(M,K)$ lies in $D^b_{\mathrm{ctf}}$
 whenever $\cHom(M',K)$ and $\cHom(M'',K)$ do. Using a finite
 stratification and finite cones, we may therefore reduce to the case where
 the first argument is $a_!P$. Here $a:S\hookrightarrow X$ is locally closed
-and $P$ is a locally constant perfect complex on $S$. For finite $A$ this
-reduction follows from the bounded flat model and its stupid filtration.
-For $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ it follows from the same description of
+and $P$ is a locally constant perfect complex on $S$. For finite $A$ this reduction follows from the bounded flat model and its stupid filtration, and for $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ it follows from the same description of
 constructible sheaves on strata. By tensor-Hom adjunction and the
 projection formula for $a_!$ we have
 

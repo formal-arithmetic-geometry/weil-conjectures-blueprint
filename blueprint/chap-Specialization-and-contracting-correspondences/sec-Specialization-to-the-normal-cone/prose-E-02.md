@@ -2,14 +2,15 @@
 id = "prose-E-02"
 kind = "hidden"
 title = "Specialization to the normal cone (1)"
-order = 1613
+order = 1619
 +++
-Nearby cycles move a complex from the generic fibre of a family to its
-special fibre, where no restriction functor is available. The obvious
+Let $S$ be the strict henselization of $\operatorname{Spec}k[t]_{(t)}$,
+with generic point $\eta$. Nearby cycles move a complex from the generic
+fibre of a family over $S$ to its special fibre. Since the special fibre
+does not lie in the generic fibre, we cannot simply restrict. The obvious
 attempt is to extend by $Rj_*$ along the open generic fibre and restrict
-by $i^*$ to the special fibre. This fails already for the trait $S$
-itself, defined below. The fraction field of $S$ is not separably closed.
-Its absolute Galois group is the inertia group, whose tame quotient is
+by $i^*$ to the special fibre. This fails already for $S$ itself,
+because the fraction field of $S$ is not separably closed. Its absolute Galois group is the inertia group, whose tame quotient is
 $\prod_{\ell'\neq p}\mathbf Z_{\ell'}(1)$. For $n$ invertible in $k$,
 the stalk of $R^1j_*(\mathbf Z/n)$ at the closed point is therefore
 $H^1(\eta,\mathbf Z/n)=\mathbf Z/n(-1)\neq0$. This class comes from
@@ -34,13 +35,11 @@ not move (Corollary [corollary-specialization-when-fixed-point-scheme]).
 Its proof uses only the definition of nearby cycles, their base change
 maps and two calculations, which we now recall.
 
-Let $S$ be the strict henselization of
-$\operatorname{Spec}k[t]_{(t)}$, choose a geometric generic point
-$\bar\eta$, and let $\mathcal Y\to S$ be separated of finite type.
-We pull $\mathcal Y$ back to the integral closure of $S$ in
+Choose a geometric generic point $\bar\eta$ of $S$, and let $\mathcal Y\to S$ be separated of finite type.
+To define nearby cycles, we pull $\mathcal Y$ back to the integral closure of $S$ in
 the chosen separable closure of its fraction field, and let $\bar i$
 and $\bar j$ be the inclusions of the special fibre and of the
-geometric generic fibre of this pullback.  For $L$ on
+geometric generic fibre of this pullback.  Then, for $L$ on
 $\mathcal Y_\eta$ with pullback $L_{\bar\eta}$ to the geometric generic
 fibre, the geometric nearby cycles are
 

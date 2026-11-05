@@ -2,7 +2,7 @@
 id = "prose-16-12"
 kind = "hidden"
 title = "Perverse sheaves on a curve (3)"
-order = 1242
+order = 1248
 +++
 By Lemma [lemma-perverse-sheaves-curve] below these classes form a
 t-structure, the perverse t-structure. We write ${}^pD^{[a,b]}$ and

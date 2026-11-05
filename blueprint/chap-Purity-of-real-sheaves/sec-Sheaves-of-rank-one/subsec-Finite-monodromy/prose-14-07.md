@@ -2,7 +2,7 @@
 id = "prose-14-07"
 kind = "hidden"
 title = "Finite monodromy (2)"
-order = 1097
+order = 1103
 +++
 The invariance hypothesis of the lemma is automatic for characters of
 the Weil group. If $\chi:W(U_0)\to E^\times$ is a character, then

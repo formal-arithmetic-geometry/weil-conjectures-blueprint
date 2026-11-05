@@ -11,3 +11,5 @@ it on stalks.
 
 From Definition [definition-torsion-pbc-property] on, we fix the
 coefficient ring. Integral and rational coefficients are treated in Section [sec-ell-adic-coefficients].
+Results for abelian sheaves apply to sheaves of modules, by the following
+lemma.

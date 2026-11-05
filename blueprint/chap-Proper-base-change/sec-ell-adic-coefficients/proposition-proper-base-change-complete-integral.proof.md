@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-proper-base-change-complete-integral"
-order = 413
-uses = ["corollary-finite-quotients-their-transition-maps", "theorem-proper-base-change-classical-pro"]
+order = 418
+uses = ["corollary-finite-quotients-their-transition-maps", "definition-derived-adic-completeness", "theorem-proper-base-change-classical-pro"]
 +++
 Theorem [theorem-proper-base-change-classical-pro] applies at each
 finite level, so the point is that $Rp_*$ and the completed inverse
@@ -19,22 +19,22 @@ $$
 $$
 
 which we regard in $D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)$. We claim that it is an
-isomorphism. Restriction of scalars to $\mathcal O_E$ is conservative, so
+isomorphism. Since restriction of scalars to $\mathcal O_E$ is conservative,
 we may check this after forgetting the $\mathcal O_E/\pi_E^n$-structure.
-The ring $\mathcal O_E/\pi_E^n$ has the free resolution
-$[\mathcal O_E\xrightarrow{\pi_E^n}\mathcal O_E]$. By
-Corollary [corollary-finite-quotients-their-transition-maps], the source is therefore the cone of
+Now the ring $\mathcal O_E/\pi_E^n$ has the free resolution
+$[\mathcal O_E\xrightarrow{\pi_E^n}\mathcal O_E]$, so by
+Corollary [corollary-finite-quotients-their-transition-maps] the source is the cone of
 $\pi_E^n$ on $Rp_*K$, and the target is $Rp_*$ of the cone of $\pi_E^n$ on
 $K$. These agree because $Rp_*$ is triangulated and $\mathcal O_E$-linear.
-The resolutions for $n+1$ and $n$ are related by the chain map
+Moreover, the resolutions for $n+1$ and $n$ are related by the chain map
 $(\pi_E,\mathrm{id})$, and applying $Rp_*$ to it shows that these
-comparisons form an isomorphism of towers. All these constructions can
-be made on complexes with functorial resolutions, so the comparisons
+comparisons form an isomorphism of towers. Since all these constructions can
+be made on complexes with functorial resolutions, the comparisons
 define a map in the derived category of towers of
 Definition [definition-derived-adic-completeness].
 
 Since $K$ is derived complete, it is the derived
-limit of its reductions $K_n$. The functor $Rp_*$ is a right adjoint, so it
+limit of its reductions $K_n$, and since the functor $Rp_*$ is a right adjoint, it
 commutes with derived limits, and we obtain
 
 $$

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "theorem-trace-formula-frobenius-correspondence"
-order = 1001
-uses = ["proposition-six-operations-dctf", "lemma-perfect-complexes-geometric-point", "theorem-proper-pushforward-lefschetz-verdier", "proposition-frobenius-local-term-curve", "lemma-comparison-via-relative-frobenius", "lemma-additivity-open-subscheme-complement"]
+order = 1007
+uses = ["lemma-additivity-open-subscheme-complement"]
 +++
 Both sides are defined, because the complexes are perfect by
 Lemma [lemma-perfect-complexes-geometric-point]. We prove the assertion
@@ -15,11 +15,10 @@ projecting away one coordinate; and arbitrary $X_0$, by
 cutting it into affine pieces.
 
 *Finite schemes.* If $X_0$ is finite, both sides of the formula can
-be read off from a block matrix. Up to nilpotents, $X$ is
+be read off from a block matrix. Indeed, up to nilpotents, $X$ is
 the finite disjoint union of its geometric points. By nilpotent
 invariance, $R\Gamma_c(X,K)=\bigoplus_{z\in X(k)}K_z$.
-The pullback along $\Phi_X^m$ given by the unit permutes these summands.
-The block of $T_{c_m}(\psi_m)$ from $K_{\Phi_X^m(z)}$ to $K_z$ is
+In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of $T_{c_m}(\psi_m)$ from $K_{\Phi_X^m(z)}$ to $K_z$ is
 the stalk of $\psi_m$ at $z$, a map
 $K_{\Phi_X^m(z)}=((\Phi_X^m)^*K)_z\to K_z$. On a finite projective model only the diagonal blocks
 contribute to the trace. These occur exactly at the points
@@ -46,8 +45,7 @@ intertwines the endomorphisms $T_{c_m}$ induced by $\psi$ and $\bar\psi$.
 The graph is proper on the proper curve $\mathbf P^1$, so by
 Theorem [theorem-proper-pushforward-lefschetz-verdier] the trace on the
 right is the sum of the local terms at the fixed points.
-Proposition [proposition-frobenius-local-term-curve] shows that each local
-term is a trace on a stalk. The local term at infinity vanishes, because
+By Proposition [proposition-frobenius-local-term-curve], each local term is a trace on a stalk. In particular, the local term at infinity vanishes, because
 the stalk of $j_!K$ there is zero. The other fixed points and stalk
 maps are those of $\mathbf A^1_{\mathbf F_q}$. This proves the formula for
 the affine line.
@@ -81,10 +79,8 @@ $$
 
 By Lemma [lemma-comparison-via-relative-frobenius](4), each summand is the
 trace on the cohomology with compact support of the fibre $X_{0,y}$, a closed
-subscheme of $\mathbf A^1_{\mathbf F_{q^m}}$. The endomorphism is given by
-the restriction of $\psi_m$ to the fibre and the first power of the
-Frobenius over $\mathbf F_{q^m}$. The case of closed
-subschemes of the affine line turns this summand into the sum of the traces on stalks
+subscheme of $\mathbf A^1_{\mathbf F_{q^m}}$. Here the endomorphism is given by the restriction of $\psi_m$ to the fibre and the first power of the
+Frobenius over $\mathbf F_{q^m}$. The case of closed subschemes of the affine line then turns this summand into the sum of the traces on stalks
 over $X_{0,y}(\mathbf F_{q^m})$. As $y$ varies, these sets partition
 $X_0(\mathbf F_{q^m})$, which proves the affine case.
 

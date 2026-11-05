@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-ambient-ind-derived"
-order = 455
-uses = ["proposition-ind-constructible-sheaves"]
+order = 460
+uses = ["definition-localizing-subcategory"]
 +++
 In the long exact cohomology sequence of a triangle, each cohomology
 sheaf of the third term is an extension of a kernel by a cokernel of maps

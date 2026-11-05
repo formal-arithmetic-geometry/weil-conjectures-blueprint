@@ -2,7 +2,7 @@
 id = "prose-10-12"
 kind = "hidden"
 title = "Poincaré duality (2)"
-order = 847
+order = 853
 +++
 Over a finite base field $k$ the same argument gives us isomorphisms
 $Ra_{X*}\mathbb D_XK\simeq\mathbb D_sRa_{X!}K$ and

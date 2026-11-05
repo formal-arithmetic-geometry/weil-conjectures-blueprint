@@ -2,14 +2,14 @@
 kind = "proof"
 of = "proposition-milnor-sequence"
 order = 92
-uses = ["corollary-evaluation-weakly-contractible-objects", "proposition-exact-products"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "corollary-evaluation-weakly-contractible-objects", "proposition-exact-products"]
 +++
-Everything follows from the triangle (2.1). For a tower of
+Everything follows from the triangle (2.1). Indeed, for a tower of
 modules, $R\varprojlim_nM_n$ is the fibre of a map between two sheaves in
 degree $0$, so it has cohomology only in degrees $0$ and $1$, namely the
-kernel and the cokernel of $1-T$. The kernel is $\varprojlim_nM_n$, and
+kernel and the cokernel of $1-T$. Here the kernel is $\varprojlim_nM_n$, and
 the cokernel is $R^1\varprojlim_nM_n$, which proves the first two
-assertions. For a tower of complexes, the long exact cohomology sequence
+assertions. Similarly, for a tower of complexes, the long exact cohomology sequence
 of (2.1) reads
 
 $$

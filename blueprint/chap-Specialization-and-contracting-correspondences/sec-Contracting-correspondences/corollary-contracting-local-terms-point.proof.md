@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-contracting-local-terms-point"
-order = 1706
-uses = ["theorem-contracting-correspondences-local-terms"]
+order = 1712
+uses = ["definition-trace-class-local-terms", "lemma-local-terms-point", "definition-pushforward-correspondence", "theorem-contracting-correspondences-local-terms"]
 +++
 We apply Theorem [theorem-contracting-correspondences-local-terms] with $Z=\{y\}$
 and $W$ the neighbourhood of the statement;

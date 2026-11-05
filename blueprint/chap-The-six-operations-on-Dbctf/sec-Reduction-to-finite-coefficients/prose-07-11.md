@@ -2,7 +2,7 @@
 id = "prose-07-11"
 kind = "hidden"
 title = "Reduction to finite coefficients (2)"
-order = 649
+order = 655
 +++
 After a rewriting, the proposition also applies to some contravariant
 constructions. For instance, the double-dual map $K\to\mathbb D\mathbb DK$

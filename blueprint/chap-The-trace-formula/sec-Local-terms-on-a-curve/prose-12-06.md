@@ -2,16 +2,14 @@
 id = "prose-12-06"
 kind = "hidden"
 title = "Local terms on a curve (1)"
-order = 951
+order = 957
 +++
-This subsection shows that for Frobenius on a smooth curve the local term
-at a rational point is the trace on the stalk. The local terms of the trace
-formula live on the fixed point scheme
-$\Fix(\Phi_X^m)=\Fix(c_m)$ of the graph $c_m$. A local term is defined on each open and
-closed part of this scheme that is proper over $k$. The next lemma shows that
-the fixed scheme is a finite reduced set of points, one for each
-$\mathbf F_{q^m}$-rational point of $X_0$. Hence every such point has
-its own local term.
+The local terms of the trace formula live on the fixed point scheme
+$\Fix(\Phi_X^m)=\Fix(c_m)$ of the graph $c_m$. More precisely, a local term is defined on each open and closed part of this scheme that is proper over $k$. The next lemma
+shows that the fixed scheme is a finite reduced set of points, one for each
+$\mathbf F_{q^m}$-rational point of $X_0$, so every such point has its own
+local term. For Frobenius on a smooth curve we then show that this local term is
+the trace on the stalk.
 
 On $\mathbf A^1$ the fixed scheme of $\Phi^m$ is
 $\operatorname{Spec}k[t]/(t^{q^m}-t)$. Its $q^m$ points are reduced

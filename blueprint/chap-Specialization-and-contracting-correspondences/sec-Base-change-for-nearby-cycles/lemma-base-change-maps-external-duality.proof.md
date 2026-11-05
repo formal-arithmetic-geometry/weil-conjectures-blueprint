@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-base-change-maps-external-duality"
-order = 1659
-uses = ["lemma-compatibilities-base-change-maps"]
+order = 1665
 +++
 Since
 $\kappa_M=t_{p_1}(\xi\otimes1)$, the main point is
@@ -11,12 +10,12 @@ the case of the constant complex,
 $$
 \beta_{p_1}\Psi(\xi)\alpha_{p_2}
 =p_{1s}^!\sigma_X\,\xi_s\,p_{2s}^*\theta_X,
-\tag{E.11}
+\tag{C}
 $$
 
-from which the general case follows by
+and the general case follows from (C) by
 Lemma [lemma-compatibilities-base-change-maps]. Since the proof uses
-proper base change, we prove (E.11) for a proper
+proper base change, we prove (C) for a proper
 family and then extend it by compactification.
 
 Suppose first that $a=a_X:X\to S$ is proper. On the fibre over $\eta$,
@@ -41,7 +40,7 @@ composition rule for $\alpha$ and $ap_1=ap_2$, both adjoints are the composite o
 $\alpha_{ap_1}=\alpha_{ap_2}$, and the pullback by $p_{2\eta}$ of the
 counit $a_\eta^*Ra_{\eta*}L\to L$. Substituting this identity into the
 $Rp_{1s!}$-adjoint of the left side of
-(E.11), and using naturality of $\alpha_a$ with
+(C), and using naturality of $\alpha_a$ with
 respect to $\varepsilon_{a_\eta}$ and $\alpha_a(A)=\sigma_X$, we find that this
 adjoint is the composite
 
@@ -56,17 +55,17 @@ $$
 By (E.6) for $a$, this composite equals
 $\sigma_X a_s^*(\varepsilon_{a_s}Ra_{s!}\theta_X)$, which is the
 $Rp_{1s!}$-adjoint of the right side. This proves
-(E.11) for proper $X$.
+(C) for proper $X$.
 
 If $X$ is not proper over $S$, we choose an open immersion
 $j:X\hookrightarrow\overline X$ into a proper $S$-scheme and restrict
 both factors of the product from $\overline X$ to $X$. Both sides of
-(E.11) are compatible with this restriction.
+(C) are compatible with this restriction.
 For the maps $\xi$ this follows from the composition rule for
 exceptional inverse images. For the base change maps it holds because
 $j^!=j^*$, the map $\alpha_j$ is invertible by smooth base change, and
 $\beta_j=\alpha_j^{-1}$. So
-(E.11) on $\overline X$ implies it on $X$.
+(C) on $\overline X$ implies it on $X$.
 Applying Lemma [lemma-compatibilities-base-change-maps] to $p_1$ and using
 $\mu(\sigma\otimes1)=1$, we deduce
 (E.10).

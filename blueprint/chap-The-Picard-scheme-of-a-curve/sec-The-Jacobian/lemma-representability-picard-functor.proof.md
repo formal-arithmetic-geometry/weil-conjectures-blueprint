@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-representability-picard-functor"
-order = 1539
-uses = ["lemma-coherent-base-change-invertible-sheaves", "lemma-twisting-h-0-1-h"]
+order = 1545
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-rigidification-along-section", "lemma-coherent-base-change-invertible-sheaves", "theorem-hilbert-schemes-points-smooth-curve", "proposition-divisors-degree-g-open-chart", "lemma-twisting-h-0-1-h"]
 +++
 The preceding lemmas assume $C$ geometrically integral. To see that this
 holds, note that $\bar k/k$ is purely inseparable. Hence $C_{\bar k}\to C$

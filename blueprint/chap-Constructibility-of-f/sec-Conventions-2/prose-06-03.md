@@ -2,7 +2,7 @@
 id = "prose-06-03"
 kind = "hidden"
 title = "Conventions (2)"
-order = 533
+order = 539
 +++
 The global isomorphism $f^!\simeq f^*(d)[2d]$ for smooth $f$ of relative
 dimension $d$, and its compatibility with composition, are treated with smooth purity in

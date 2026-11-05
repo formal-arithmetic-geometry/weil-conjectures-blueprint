@@ -2,20 +2,16 @@
 id = "prose-08-01"
 kind = "hidden"
 title = "Smooth base change"
-order = 651
+order = 657
 +++
 To construct the trace classes in the trace formula we need the Künneth
 formula for ordinary direct images,
 $Rf_{1*}M_1\boxtimes Rf_{2*}M_2\simeq R(f_1\times f_2)_*(M_1\boxtimes M_2)$
 (Proposition [proposition-ordinary-external-kunneth],
-Section [sec-The-Kunneth-formula]). For $Rf_!$ this formula follows from
-proper base change and the projection formula. For $Rf_*$ this argument does not
-work, because $Rf_*$ does not commute with base change in general. For example,
+Section [sec-The-Kunneth-formula]). For $Rf_!$ this formula follows from proper base change and the projection formula, but for $Rf_*$ this argument does not work, because $Rf_*$ does not commute with base change in general. For example,
 let $j:U=\mathbf A^1\setminus\{0\}\hookrightarrow\mathbf A^1$ over an
-algebraically closed field, and let $n$ be invertible in it. The stalk of
-$R^1j_*(\mathbf Z/n)$ at $0$ is $H^1$ of the punctured strictly henselian
-disc, which is $\mathbf Z/n(-1)\neq0$. The fibre of $j$ over $0$ is empty,
-so base change along the closed immersion of $0$ fails.
+algebraically closed field, and let $n$ be invertible in it. Then the stalk of $R^1j_*(\mathbf Z/n)$ at $0$ is $H^1$ of the punctured strictly henselian
+disc, which is $\mathbf Z/n(-1)\neq0$, whereas the fibre of $j$ over $0$ is empty, so base change along the closed immersion of $0$ fails.
 
 The Künneth formula only needs base change along a product projection
 $Y\times T\to Y$ (Lemma [lemma-base-change-along-product-projection]).
@@ -26,17 +22,14 @@ homeomorphism, base change along $g$ is restriction to open subsets. If $g$
 is the projection $Y\times\mathbf R^m\to Y$, then the stalk of $R^qf'_*$ at
 $(y,t)$ is the colimit of the cohomology groups of $f^{-1}(V)\times B$ over
 small neighbourhoods $V\times B$ of $(y,t)$, and the contractible ball $B$
-does not change them. For schemes the analogue is less clear. A smooth
-morphism of schemes is, Zariski locally on the source, étale over some
+does not change them. For schemes the analogue is less clear: a smooth morphism of schemes is, Zariski locally on the source, étale over some
 $\mathbf A^d_Y$, but the affine line has no small contractible
-neighbourhoods. The theorem of this section, due to Artin (SGA 4,
+neighbourhoods. Nevertheless, the theorem of this section, due to Artin (SGA 4,
 Exposé XVI [sga4]), says that for coefficients prime to the
-characteristic the affine line behaves as if it had them. Precisely, let
-$g:Y'\to Y$ be smooth, let $f$ be quasi-compact and quasi-separated, and
+characteristic the affine line behaves as if it had them. More precisely, let $g:Y'\to Y$ be smooth, let $f$ be quasi-compact and quasi-separated, and
 let $F$ be a torsion sheaf whose torsion orders are invertible on $Y$.
 Then the base change map $g^*R^qf_*F\to R^qf'_*g'^*F$ is an isomorphism
-(Theorem [theorem-smooth-base-change-classical-torsion]). On
-$D^b_{\mathrm{ctf}}(-,\Lambda)$ the same holds for every admissible $\Lambda$
+(Theorem [theorem-smooth-base-change-classical-torsion]). Moreover, on $D^b_{\mathrm{ctf}}(-,\Lambda)$ the same holds for every admissible $\Lambda$
 (Theorem [theorem-smooth-base-change-all-admissible]).
 
 A product projection $Y\times T\to Y$ is not smooth when $T$ is singular.

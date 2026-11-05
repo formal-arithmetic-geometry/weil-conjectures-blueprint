@@ -2,7 +2,7 @@
 id = "prose-12-21"
 kind = "hidden"
 title = "$\\ell$-adic coefficients (2)"
-order = 1006
+order = 1012
 +++
 To pass from $\mathcal O_E$ to $E$ we need an integral Frobenius
 correspondence whose rationalization is the given one, up to a power of

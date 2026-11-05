@@ -1,11 +1,10 @@
 +++
 id = "prose-04-36"
 kind = "hidden"
-title = "Pro-étale complexes (3)"
-order = 400
+title = "Pro-étale complexes (2)"
+order = 403
 +++
-Taking for $g$ a geometric point, we answer the question at the start of
-the section. The only additional point is to make sense of a stalk on the
-pro-étale site. There the stalk is the value of $\bar y^*Rf_*K$ on the
-point $\operatorname{Spec}\Omega$, whose topos is that of condensed sets.
-We check that for a classical complex this value is the étale stalk.
+Suppose $\Lambda$ is killed by a positive integer, for instance that
+$\Lambda$ is a finite ring. Then every complex of $\Lambda_X$-modules has
+torsion cohomology sheaves, and the theorem applies to every
+$K\in D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.

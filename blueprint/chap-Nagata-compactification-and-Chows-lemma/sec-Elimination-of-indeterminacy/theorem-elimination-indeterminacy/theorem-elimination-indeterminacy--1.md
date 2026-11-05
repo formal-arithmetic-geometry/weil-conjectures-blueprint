@@ -1,0 +1,13 @@
++++
+id = "theorem-elimination-indeterminacy--1"
+kind = "theorem"
+title = "Elimination of indeterminacy (1)"
+name_showing = false
+order = 1443001
+aliases = ["bp-r450-1"]
++++
+Let $T$ be qcqs, let $U\subseteq T$ be a quasi-compact open, and let
+$W\to T$ be separated and of finite type, with $W_U\to U$ an
+isomorphism. There is a $U$-admissible blow-up $T'\to T$ such that
+the inverse image of $U$ is schematically dense in $T'$ and the strict
+transform $W'\to T'$ of $W\to T$ is an open immersion.

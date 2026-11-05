@@ -2,7 +2,7 @@
 id = "prose-09-31"
 kind = "hidden"
 title = "Base change and composition (2)"
-order = 793
+order = 799
 +++
 **Composition.** For composition we again fix the composition
 isomorphisms for $f^!$ with every coefficient ring before comparing the maps
@@ -23,17 +23,17 @@ c^{g\circ f}(K)=f_B^!c^g(K)\circ c^f(g_A^!K).
 $$
 
 The first identity holds on each free term of a resolution of $B$ over $A$,
-since the composition isomorphism is natural. The totalization in
+since the composition isomorphism is natural, and the totalization in
 Lemma [lemma-sp-reduction] extends it to arbitrary $A\to B$. We get the
 second by transposing under the composite adjunction.
 
 On towers, the composition isomorphism for $Rf_{!,\bullet}$ is built from
 the same constructions. The isomorphism
 $(g\circ f)^!_\bullet\simeq f^!_\bullet g^!_\bullet$ is the isomorphism of
-right adjoints given by the composite adjunction on towers. Evaluation at
+right adjoints given by the composite adjunction on towers. Since evaluation at
 level $n$ carries the counits on towers to the finite counits
-(Proposition [proposition-sp-tower-geometric]). Hence the level $n$ of
-these isomorphisms is the finite one. By the identities above they commute
+(Proposition [proposition-sp-tower-geometric]), the level $n$ of
+these isomorphisms is the finite one, and by the identities above they commute
 with the transition maps, which are built from $b$ and $c$. Applying
 $R\varprojlim$ gives the integral composition isomorphisms
 
@@ -48,21 +48,21 @@ coefficients are $\mathbf Z_\ell$. As for base change, inverting $\ell$ and exte
 scalars give the composition isomorphisms with coefficients $E$ and $\overline{\mathbf Q}_\ell$.
 These isomorphisms $(g\circ f)^!\simeq f^!g^!$ are the composition isomorphisms of
 Proposition [proposition-composition-open-restriction-compactifications-f](1).
-The isomorphism of that proposition is characterized by the following
+Indeed, the isomorphism of that proposition is characterized by the following
 property: it carries the counit of $R(g\circ f)_!\dashv(g\circ f)^!$,
 composed with the composition isomorphism for $Rf_!$, to the composite of
 the counits for $f$ and $g$. By uniqueness of adjoints it therefore
 suffices to check this property for every coefficient ring. With finite
 coefficients it holds by definition. On towers the composition isomorphism
-is the one of the composite adjunction. So in $D(\operatorname{Tow})$ it
+is the one of the composite adjunction, so in $D(\operatorname{Tow})$ it
 carries the counit on towers of $g\circ f$ to the composite of the counits
 on towers. By the comparison following the construction of $e_{f,\bullet}$
 in Section [subsec-Base-change-and-composition], $\operatorname{red}$ carries the counits
 and the composition isomorphism for $Rf_!$ with coefficients $\mathcal O_E$
-to those on towers. Applying $R\varprojlim$ gives the property over
-$\mathcal O_E$. The same comparison shows that extension of scalars along
+to those on towers, and applying $R\varprojlim$ gives the property over
+$\mathcal O_E$. Similarly, the same comparison shows that extension of scalars along
 $\mathcal O_E\to E$ and $E\to\overline{\mathbf Q}_\ell$ carries the counits and the
-composition isomorphisms for $Rf_!$ to the corresponding ones. This gives
+composition isomorphisms for $Rf_!$ to the corresponding ones, which gives
 the property over $E$ and $\overline{\mathbf Q}_\ell$.
 
 With these composition isomorphisms in place for every coefficient ring,

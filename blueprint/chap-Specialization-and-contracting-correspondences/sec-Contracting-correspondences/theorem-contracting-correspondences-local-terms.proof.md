@@ -1,12 +1,12 @@
 +++
 kind = "proof"
 of = "theorem-contracting-correspondences-local-terms"
-order = 1702
-uses = ["theorem-proper-pushforward-lefschetz-verdier", "lemma-closed-piece-pushforward", "proposition-additivity-trace-classes", "theorem-verdier-s-theorem-specialization-zero", "proposition-specialization-trace-class", "corollary-specialization-when-fixed-point-scheme", "lemma-normal-cones-contracting-ideals", "lemma-fixed-point-scheme-deformation", "remark-reduction-connected-fixed-point-scheme"]
+order = 1708
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "proposition-additivity-trace-classes", "lemma-passing-schematic-closure", "lemma-fixed-point-scheme-deformation", "remark-reduction-connected-fixed-point-scheme"]
 +++
 We split $K$ by the triangle $j_!j^*K\to K\to Ri_*i^*K$ and use
 additivity of trace classes. The piece supported on $Z$ gives the trace
-of $u_Z$. The piece $j_!j^*K$ has zero trace, which we show by deforming
+of $u_Z$. The piece $j_!j^*K$, on the other hand, has zero trace, which we show by deforming
 to the normal cone.
 
 *Reductions.* We may assume that $W=C$, that $\Fix(c)=F_0$ and that
@@ -30,8 +30,8 @@ $$
 because Verdier's theorem on the zero section
 (Theorem [theorem-verdier-s-theorem-specialization-zero]) identifies the restriction of
 $\operatorname{Sp}_{X,Z}(K)$ to the zero section with the restriction
-of $K$ to $Z$, and we combine this with invariance under the nilpotent
-thickening $Z_{\mathrm{red}}\to Z$.
+of $K$ to $Z$, and invariance under the nilpotent thickening
+$Z_{\mathrm{red}}\to Z$ passes from $Z$ to $Z_{\mathrm{red}}$.
 
 Next, consider the leg $\gamma_2$ of the correspondence on the special
 fibre, along which we take ordinary pullback. It maps set-theoretically
@@ -60,15 +60,15 @@ $$
 
 whose hypothesis $c_1^{-1}(Z_{\mathrm{red}})\subset c_2^{-1}(Z_{\mathrm{red}})$
 follows from $I_2\subset I_1$.
-The open piece has zero trace by the case just treated. The closed
+The open piece has zero trace by the case just treated, while the closed
 graded piece is the proper pushforward of $u_Z$ along $i$ and $i'$, by
 Lemma [lemma-closed-piece-pushforward], and
 Theorem [theorem-proper-pushforward-lefschetz-verdier] identifies its trace with the
 pushforward of the trace class of $u_Z$.
-The map $h_{F_0}$ is an isomorphism after reduction, because $\Fix(c)$ lies
+To compare with $F_0$, note that the map $h_{F_0}$ is an isomorphism after reduction, because $\Fix(c)$ lies
 in $c_1^{-1}(Z)$ set-theoretically by
 Lemma [lemma-fixed-point-scheme-deformation]. This proves the displayed formula.
-If $F_0$ is proper, then so is $F_{0,Z}$. Pushing both sides forward to
+If $F_0$ is proper, then so is $F_{0,Z}$, and pushing both sides forward to
 $\operatorname{Spec}k$ and composing with the trace map of
 Definition [definition-trace-class-local-terms] gives the equality of
 local terms.

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-artin-schreier-character-sheaf"
-order = 1212
+order = 1218
 +++
 We define $\mathcal L_\psi$ as an eigensheaf in the direct image of the
 constant sheaf under an Artin–Schreier cover, and read off its
@@ -21,15 +21,15 @@ $$
 
 on the direct image of the constant sheaf $E$ under this cover. It is
 lisse of rank one, since its stalk is the $\psi_0$-eigenspace in the
-regular representation. The root $u=0$ over $x=0$ specifies the
-trivialization at zero. Adding roots of two Artin–Schreier equations
-identifies the contracted product of the two torsors with the torsor
-for the sum. Passing to the character eigenspaces, we obtain the first
-isomorphism. For the second, the pairing on the direct image given by
+regular representation, and the root $u=0$ over $x=0$ specifies the
+trivialization at zero. For the first isomorphism, adding roots of two
+Artin–Schreier equations identifies the contracted product of the two
+torsors with the torsor for the sum, and passing to the character
+eigenspaces we obtain the isomorphism. For the second, the pairing on the direct image given by
 summing products over the fibres is perfect and invariant under the
-translations. For an invariant pairing, the $\chi$- and
+translations. Since, for an invariant pairing, the $\chi$- and
 $\chi'$-eigenspaces of two characters are orthogonal unless
-$\chi\chi'=1$. Hence our pairing pairs the $\psi_0$-eigenspace perfectly
+$\chi\chi'=1$, our pairing pairs the $\psi_0$-eigenspace perfectly
 with the $\psi_0^{-1}$-eigenspace. Since
 $\psi^{-1}(z)=\psi_0^{-1}(\operatorname{Tr}_{k_0/\mathbf F_p}(az))$, the
 $\psi_0^{-1}$-eigenspace of the same cover is $\mathcal L_{\psi^{-1}}$,

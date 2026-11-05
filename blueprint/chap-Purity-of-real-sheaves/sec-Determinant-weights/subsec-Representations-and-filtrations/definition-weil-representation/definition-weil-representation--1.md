@@ -1,0 +1,11 @@
++++
+id = "definition-weil-representation--1"
+kind = "definition"
+title = "Weil representation (1)"
+name_showing = false
+order = 1119001
+aliases = ["bp-r343-1"]
++++
+A *Weil representation* is a finite-dimensional
+$\overline{\mathbf Q}_\ell$-representation of $W(U_0)$ whose restriction to $\pi_1(U)$ is
+continuous.

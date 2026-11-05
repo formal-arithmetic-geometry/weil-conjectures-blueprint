@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-injectivity-base-change-map-degree"
-order = 667
+order = 673
+uses = ["definition-underived-base-change-map"]
 +++
 We embed $M$ into an injective sheaf and compare the long exact sequences
 of the two sides. The induction hypothesis identifies everything in degree
@@ -10,9 +11,9 @@ a diagram chase shows that $b^q_M$ is injective with cokernel inside
 $R^qf'_*g'^{-1}I$.
 
 Choose $0\to M\to I\to Q\to0$ with $I$ as in the statement. By the long
-exact sequences, the rows of the following diagram are exact. The upper
-row ends in $0$ because $R^qf_*I=0$ for the injective sheaf $I$. The lower
-row does not, because $g'^{-1}I$ need not be injective.
+exact sequences, the rows of the following diagram are exact. Here the upper
+row ends in $0$ because $R^qf_*I=0$ for the injective sheaf $I$, whereas the
+lower row does not, because $g'^{-1}I$ need not be injective.
 
 $$
 \begin{CD}
@@ -25,12 +26,11 @@ R^{q-1}f'_*g'^{-1}I @>>> R^{q-1}f'_*g'^{-1}Q
 $$
 
 The first two vertical arrows are isomorphisms by
-$\mathrm{BC}(g,n,q-1)$, applied to $I$ and to $Q$. Exactness of the upper
-row says that $g^{-1}R^qf_*M$ is the cokernel of the map
-$g^{-1}R^{q-1}f_*I\to g^{-1}R^{q-1}f_*Q$. Exactness of the lower row says
-that the kernel of $R^qf'_*g'^{-1}M\to R^qf'_*g'^{-1}I$ is the cokernel of
-the corresponding map in the lower row. The first two vertical isomorphisms
-identify these two maps. Hence $b_M^q$ is an isomorphism onto this kernel.
+$\mathrm{BC}(g,n,q-1)$, applied to $I$ and to $Q$. Exactness of the upper row says that $g^{-1}R^qf_*M$ is the cokernel of the
+map $g^{-1}R^{q-1}f_*I\to g^{-1}R^{q-1}f_*Q$, and exactness of the lower row
+says that the kernel of $R^qf'_*g'^{-1}M\to R^qf'_*g'^{-1}I$ is the cokernel
+of the corresponding map in the lower row. Since the first two vertical
+isomorphisms identify these two maps, $b_M^q$ is an isomorphism onto this kernel.
 In particular $b^q_M$ is injective, and its cokernel embeds into
 $R^qf'_*g'^{-1}I$, which is the last assertion. For $M\subset N$, choose an
 injective $I$ containing $N$.

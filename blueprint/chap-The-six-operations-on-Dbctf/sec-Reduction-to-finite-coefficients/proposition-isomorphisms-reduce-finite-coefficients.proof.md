@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-isomorphisms-reduce-finite-coefficients"
-order = 648
-uses = ["lemma-reduction-derived-nakayama", "proposition-integral-constructibility-criterion", "lemma-integral-models", "proposition-dctf-x-qbar-2-colimit"]
+order = 654
+uses = ["theorem-bounded-below-cohomology-comparison", "definition-constructible-sheaves"]
 +++
 The three kinds of coefficients are reached from finite ones in three
 different ways: $\mathcal O_E$ by completion, $E$ by inverting $\ell$, and
@@ -10,17 +10,13 @@ $\overline{\mathbf Q}_\ell$ as a colimit over finite extensions. We treat them i
 each case using the previous one.
 
 Let $\Lambda=\mathcal O_E$, and put $C=\Cone(\theta(K))$; we must show
-$C=0$. The complexes $F(K)$ and $G(K)$ lie in $\Dbc(Y,\mathcal O_E)$.
-Hence they are derived $\pi_E$-complete by
-Proposition [proposition-integral-constructibility-criterion]. Derived
-complete complexes are closed under cones, and so $C$ is derived complete
-too. Derived Nakayama (Lemma [lemma-reduction-derived-nakayama])
-therefore reduces $C=0$ to $C/\pi_E=0$. Reduction modulo $\pi_E$ is a
-change of coefficients along $\mathcal O_E\to\mathcal O_E/\pi_E$. By the
+$C=0$. Since the complexes $F(K)$ and $G(K)$ lie in $\Dbc(Y,\mathcal O_E)$, they are derived $\pi_E$-complete by
+Proposition [proposition-integral-constructibility-criterion]. Moreover, derived complete complexes are closed under cones, and so $C$ is derived complete
+too. Derived Nakayama (Lemma [lemma-reduction-derived-nakayama]) therefore reduces $C=0$ to $C/\pi_E=0$. Now reduction modulo $\pi_E$ is a change of coefficients along $\mathcal O_E\to\mathcal O_E/\pi_E$. By the
 compatibility assumed in the statement, it identifies $\theta(K)/\pi_E$
 with $\theta_{\mathcal O_E/\pi_E}(K/\pi_E)$. This is an isomorphism by the
 hypothesis for finite rings, applied to $A=\mathcal O_E/\pi_E$. Thus
-$C/\pi_E=0$, and so $C=0$. The case $E=\mathbf Q_\ell$ gives $\Lambda=\mathbf Z_\ell$.
+$C/\pi_E=0$, and so $C=0$. In particular, the case $E=\mathbf Q_\ell$ gives $\Lambda=\mathbf Z_\ell$.
 
 Let $\Lambda=E$. Here completeness is of no help, since a complex over
 $E$ is killed by reduction modulo $\pi_E$. Instead we use integral models.

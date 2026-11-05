@@ -1,17 +1,16 @@
 +++
 kind = "proof"
 of = "proposition-exceptional-external-kunneth"
-order = 902
-uses = ["lemma-flat-models-generators", "proposition-six-operations-dctf", "theorem-smooth-purity-all-admissible-coefficients", "corollary-verdier-exchange-formulas"]
+order = 908
+uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-map"]
 +++
 Both sides of $\alpha$ are exact in each variable, so by dévissage it is
 enough to check $\alpha$ on generators.
-For constant coefficients we compute $f_i^!$ by
-Theorem [theorem-smooth-purity-all-admissible-coefficients] for smooth maps and by localization, and check $\alpha$ directly. General
-coefficients are built from extensions by zero $j_!F$ of lisse sheaves.
+First, for constant coefficients we compute $f_i^!$ by
+Theorem [theorem-smooth-purity-all-admissible-coefficients] for smooth maps and by localization, and check $\alpha$ directly. Next, general coefficients are built from extensions by zero $j_!F$ of lisse sheaves.
 Since $f^!$ does not commute with $j_!$, we replace $j_!$ by
 $Rj_*$, which does. The difference has smaller support, and we treat it
-by induction. For the classical statements see
+by induction. For the classical statements we refer to
 [sga5, III, (1.6.4), (1.7.3), Proposition 1.7.4 and (3.1.1)].
 
 *Constant and lisse coefficients.*
@@ -26,16 +25,12 @@ a smooth map the trace map is the counit composed with $\gamma_f$.
 
 For closed immersions we use the localization triangle and the case of
 ordinary external Künneth where one factor is the identity, applied
-to the complementary open immersions. Every map factors locally as a
+to the complementary open immersions. In general, every map factors locally as a
 closed immersion followed by a smooth projection of affine spaces. Since
 $\alpha$ is compatible with composition of morphisms and with
 restriction to open subschemes, Zariski localization gives the constant case for general
-maps. Lisse finite flat coefficients become
-constant with finite projective values on an étale cover. Descent
-therefore gives the lisse case, and then the case of bounded perfect lisse
-models. In each of these steps the isomorphism we obtain is $\alpha$ itself.
-For smooth maps this holds because $\gamma_f$ identifies the counit with the
-trace map. For localization and descent it holds because $\alpha$ is natural
+maps. Next, lisse finite flat coefficients become constant with finite projective values on an étale cover, so descent gives the lisse case, and then the case of bounded perfect lisse models. In each of these steps the isomorphism we obtain is $\alpha$ itself:
+for smooth maps because $\gamma_f$ identifies the counit with the trace map, and for localization and descent because $\alpha$ is natural
 and compatible with restriction.
 
 *General coefficients.*

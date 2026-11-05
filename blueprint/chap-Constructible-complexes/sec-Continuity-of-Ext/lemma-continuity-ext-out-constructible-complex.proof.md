@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-continuity-ext-out-constructible-complex"
 order = 282
-uses = ["corollary-continuity-cohomology", "corollary-coefficient-heart-b", "lemma-sections-support-closed-subscheme"]
+uses = ["definition-lisse-sheaves", "corollary-coefficient-heart-b"]
 +++
 We reduce to a single generator $a_!L$ and then use
 (3.1) to turn Hom into cohomology on the stratum $S$,
@@ -15,7 +15,7 @@ $L$ a finite locally free $\Lambda_S$-module: in case (1) by
 Corollary [corollary-coefficient-heart-b], and in case (2) by assumption.
 Both sides are cohomological functors of $M$. By the five lemma, the class
 of objects $M$ for which the claim holds is therefore closed under
-extensions and shifts. It suffices to treat $M=a_!L$, with $a=i\circ
+extensions and shifts, so it suffices to treat $M=a_!L$, with $a=i\circ
 u:S\hookrightarrow Z\hookrightarrow X$ as in
 Lemma [lemma-sections-support-closed-subscheme]. The only property of $L$ used
 below is that $L^\vee\otimes-$ is exact.

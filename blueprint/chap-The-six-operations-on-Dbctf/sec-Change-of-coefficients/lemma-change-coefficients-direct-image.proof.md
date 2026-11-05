@@ -1,11 +1,10 @@
 +++
 kind = "proof"
 of = "lemma-change-coefficients-direct-image"
-order = 630
+order = 636
 uses = ["corollary-continuity-cohomology", "proposition-comparison-etale-derived-category"]
 +++
-The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of
-finite rings we use a projection formula. In the other cases extension of
+The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of finite rings we use a projection formula, whereas in the other cases extension of
 scalars is either a finite construction (finite sums and a cone), with
 which every exact functor commutes, or a filtered colimit, with which
 $Rf_*$ commutes on uniformly bounded below systems.
@@ -26,8 +25,8 @@ $$
 Here the first identification uses the projection formula on $V$ and
 then $R\Gamma(V,Rf_*K)=R\Gamma(X_V,K)$, and the second is the projection
 formula on $X_V$. This projection formula needs only cohomological bounds
-for $\ell$-primary coefficients. These hold for schemes of finite type over
-$k$, and so the formula applies to every finite $A$-algebra $B$. Since
+for $\ell$-primary coefficients, which hold for schemes of finite type over
+$k$, and so it applies to every finite $A$-algebra $B$. Since
 these isomorphisms commute with restriction in $V$, the comparison map is
 an isomorphism in $D(Y_{\acute{e}t},B)$, and hence, by
 Proposition [proposition-comparison-etale-derived-category], in

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-uniform-ext-bound"
-order = 443
-uses = ["lemma-descent-lisse-qbar-sheaves-finite", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex", "lemma-descent-finite-coefficient-field", "lemma-lattices-after-finite-stratification", "lemma-ext-bound-lattices"]
+order = 448
+uses = ["definition-constructible-sheaves", "lemma-ext-bound-lattices"]
 +++
 We reduce to extensions by zero of lisse sheaves on strata, prove the bound
 for $\Lambda=E$ by choosing lattices, applying
@@ -32,9 +32,8 @@ $d=\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ works.
 integral structures, we choose lattices. After refining the
 stratifications (Lemma [lemma-lattices-after-finite-stratification]),
 $L$ and $M$ contain lisse $\mathcal O_E$-lattices $L_0$ and $M_0$.
-The refinement replaces $a_!L$ and $b_!M$ by
-finite extensions of sheaves of the same form, which the first step allows.
-The refinement of the source stratum depends only on $L$, and that of the
+Refining is harmless, because it replaces $a_!L$ and $b_!M$ by finite extensions of sheaves of the same form, and the first step handles finite extensions.
+Moreover, the refinement of the source stratum depends only on $L$, and that of the
 target only on $M$. So the bound obtained for the refined source strata
 is still independent of $N$.
 

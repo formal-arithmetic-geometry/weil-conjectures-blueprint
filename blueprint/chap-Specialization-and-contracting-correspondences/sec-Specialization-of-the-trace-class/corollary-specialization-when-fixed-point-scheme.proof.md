@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-specialization-when-fixed-point-scheme"
-order = 1688
-uses = ["lemma-nearby-cycles-constant-family", "lemma-composition-exceptional-base-change-maps"]
+order = 1694
+uses = ["definition-small-pro-etale-site", "lemma-nearby-cycles-constant-family"]
 +++
 By naturality it suffices to show that
 $\theta_Y\sigma_Y(\omega_Y)$ is the identity of $\omega_Y$. For proper
@@ -31,13 +31,13 @@ dualizing complex.
 
 *General $Y$.* Choose a proper compactification
 $j:Y\hookrightarrow\overline Y$, so that
-$\omega_Y=j^*\omega_{\overline Y}$. Under restriction, the units for the
-constant families correspond by base change along the open immersion.
-The map $\theta_Y$ corresponds to $j^*\theta_{\overline Y}$ by the composition
+$\omega_Y=j^*\omega_{\overline Y}$. We compare the two sides of the identity under
+restriction along $j$. The units for the
+constant families correspond by base change along the open immersion, and the map $\theta_Y$ corresponds to $j^*\theta_{\overline Y}$ by the composition
 rule (E.9) together with
 $\beta_j=\alpha_j^{-1}$ for the open immersion. Restricting the identity
 $\theta_{\overline Y}\sigma_{\overline Y}(\omega_{\overline Y})=1$
-therefore gives $\theta_Y\sigma_Y(\omega_Y)=1$. By naturality the
+therefore gives $\theta_Y\sigma_Y(\omega_Y)=1$, and by naturality the
 assertion follows again for all sections of the dualizing complex.
 
 *Nonreduced $F$.* If only $F_{\mathrm{red}}=Y\times S$, we replace $F$

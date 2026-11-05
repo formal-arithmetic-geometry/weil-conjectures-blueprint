@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-sp-reduction"
-order = 763
-uses = ["lemma-flat-models-generators", "proposition-adjunction-projective-line", "proposition-exceptional-inverse-image-smooth-morphism", "proposition-six-operations-change-coefficients"]
+order = 769
+uses = ["lemma-change-coefficients-compact-support", "definition-compactification-refinement"]
 +++
 The comparison $b$ for $Rf_!$ is a direct computation, and $c_{A,B}$ is
 then determined by the adjunction. To see that $c_{A,B}$ is invertible we
@@ -10,12 +10,12 @@ use the explicit form of $f^!$ on a chart, where it is an ordinary inverse
 image.
 
 The map $b$ is the change of coefficients for $Rf_!$ (Proposition [proposition-six-operations-change-coefficients]).
-Extension by zero commutes with $-\otimes^{\mathbf L}_AB$. For $R\bar f_*$ we resolve
+To see that it is an isomorphism, note that extension by zero commutes with $-\otimes^{\mathbf L}_AB$, and for $R\bar f_*$ we resolve
 $B$ by finite free $A$-modules and use the flat models of Lemma [lemma-flat-models-generators].
-The comparison holds on each free term, being a finite direct sum. Since
+The comparison holds on each free term, which is a finite direct sum of copies of $A$, and since
 $R\bar f_*$ has finite cohomological dimension, only finitely many terms of
-the resolution contribute in each degree, and so the comparison holds for every $B$.
-We define $c_{A,B}(K)$ as the transpose of the right-hand side of (9.16).
+the resolution contribute in each degree, so the comparison holds for every $B$.
+Next, we define $c_{A,B}(K)$ as the transpose of the right-hand side of (9.16).
 Whether it is an isomorphism is a local question, so we may restrict to a chart
 $f|_U=p_d\circ e$ of Proposition [proposition-exceptional-inverse-image-smooth-morphism](1). There the counit is built from
 the trace of the projective line and sums over the fibres of $e$, which commute with

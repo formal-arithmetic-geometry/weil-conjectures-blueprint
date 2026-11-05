@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-cohomology-smooth-affine-curve"
-order = 1574
-uses = ["corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "proposition-smooth-proper-curves-torsion-prime"]
+order = 1580
+uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 By the Kummer sequence, the vanishing above degree one follows from the
 divisibility of $\operatorname{Pic}(U)$ and the vanishing of
@@ -31,9 +31,9 @@ $H^2(U,\mu_n)=\operatorname{Pic}(U)/n=0$ and $H^q(U,\mu_n)=0$ for
 $q\geq3$.
 
 We construct the sequence (D.1) using line
-bundles.  A $\mu_n$-torsor on $U$ is given by a pair
+bundles.  Recall that a $\mu_n$-torsor on $U$ is given by a pair
 $(L,\alpha:L^{\otimes n}\simeq\mathcal O_U)$ of a line bundle and a
-trivialization of its $n$th power.  We extend $L$ to a line
+trivialization of its $n$th power.  To define its residues, we extend $L$ to a line
 bundle $\overline L$ on $\overline C$ and let $s=\alpha^{-1}(1)$ be the
 corresponding rational section of $\overline L^{\otimes n}$.  The
 divisor of $s$ is supported on $D$, since $s$ generates on $U$. Its
@@ -60,12 +60,13 @@ zero, and the section trivializes the torsor on $\overline C$.
 To see that $\partial$ maps onto the kernel of $\sum$, we lift a
 residue vector with sum zero modulo $n$ to an integral divisor $B$
 supported on $D$. Its degree is divisible by $n$ because the residues sum
-to zero. We claim there is a line bundle $\overline L$ with
+to zero. We claim that, as a consequence, there is a line bundle $\overline L$ with
 $\overline L^{\otimes n}\simeq\mathcal O_{\overline C}(B)$. To find it, choose
-$P\in\overline C(k)$ and put $L_1=\mathcal O_{\overline C}((\deg B/n)P)$. The
+$P\in\overline C(k)$ and put $L_1=\mathcal O_{\overline C}((\deg B/n)P)$, so that the
 line bundle $\mathcal O_{\overline C}(B)\otimes L_1^{\otimes-n}$ has degree
 zero. By divisibility of $J(\overline C)(k)$ it is $N^{\otimes n}$
-for some $N$ of degree zero, and $\overline L=L_1\otimes N$ works. The
+for some $N$ of degree zero, and $\overline L=L_1\otimes N$ works. It remains to
+produce the torsor. The
 canonical section of $\mathcal O_{\overline C}(B)$ has divisor $B$ and is
 nowhere zero on $U$. It therefore defines a trivialization of
 $\overline L^{\otimes n}|_U$, that is, a Kummer torsor on $U$ whose

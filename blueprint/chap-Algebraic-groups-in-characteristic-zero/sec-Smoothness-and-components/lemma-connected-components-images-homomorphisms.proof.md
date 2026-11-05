@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-connected-components-images-homomorphisms"
-order = 1715
-uses = ["proposition-cartier-s-theorem"]
+order = 1721
 +++
 For (1) we use smoothness to see that irreducible and connected components
 coincide; for (2), Chevalley's theorem gives an open subset of the closure

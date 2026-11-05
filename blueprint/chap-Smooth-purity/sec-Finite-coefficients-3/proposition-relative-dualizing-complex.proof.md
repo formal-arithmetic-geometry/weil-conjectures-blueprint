@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-relative-dualizing-complex"
-order = 750
-uses = ["proposition-exceptional-inverse-image-smooth-morphism", "proposition-purity-vector-bundles", "lemma-section-normal-bundle"]
+order = 756
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 We define the isomorphism as a chain of three steps: restrict $\omega_f$ to
 the diagonal of $X\times_YX$, move the diagonal to the zero section of
@@ -28,5 +28,5 @@ $\Delta$ of $p_1$, and the third is the inverse of the
 isomorphism of Proposition [proposition-purity-vector-bundles]
 at the constant sheaf, applied to the vector bundle $T_{X/Y}$ over $X$.
 The last one holds because the pullback of a constant sheaf is constant.
-Each step is attached to $f$ without choices, so the composite is
+Since each step is attached to $f$ without choices, the composite is
 canonical.

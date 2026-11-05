@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-inverse-image-tensor-product"
-order = 490
-uses = ["lemma-integral-models", "lemma-structure-integral-constructible-complexes"]
+order = 495
+uses = ["lemma-stability", "proposition-topos-functoriality", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 The preservation statements follow from
 Lemma [lemma-integral-models](3), since closed

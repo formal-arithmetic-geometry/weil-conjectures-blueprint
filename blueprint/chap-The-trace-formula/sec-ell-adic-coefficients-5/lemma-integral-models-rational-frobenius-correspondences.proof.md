@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-integral-models-rational-frobenius-correspondences"
-order = 1008
-uses = ["proposition-inverting-ell", "proposition-six-operations-change-coefficients"]
+order = 1014
 +++
 Morphisms in the rational category are integral morphisms divided by a
 power of $\pi_E$. This gives $K_0$ and $\theta$. The formulas for the operators

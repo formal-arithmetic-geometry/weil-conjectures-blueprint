@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "proposition-forgetting-supports-composition"
-order = 515
-uses = ["proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek"]
+order = 520
 +++
 All maps involved are maps out of an extension by zero, so each of them
 is determined by its restriction to the open subscheme, where it is

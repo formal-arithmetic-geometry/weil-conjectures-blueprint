@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-construction-independence-rf-shriek"
-order = 508
-uses = ["proposition-proper-direct-image-constructible-complexes", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes", "proposition-proper-base-change-localizing-categories", "proposition-dense-compactifications-form-cofiltered-category"]
+order = 513
+uses = ["proposition-comparison-immersions", "corollary-proper-direct-image-finite-coefficients-localizing", "lemma-uniform-bound-proper-direct-image", "proposition-compactness-proper-direct-image"]
 +++
 For a single compactification there is nothing new to prove, and two
 compactifications are compared through a third one that refines both,
@@ -43,11 +43,7 @@ Lemma [lemma-checking-isomorphisms-constructible-complexes] we may assume that
 $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, where proper base change is available.
 
 By the exact sequence for an open and its closed complement, applied in
-each degree [Stacks, [09AH](https://stacks.math.columbia.edu/tag/09AH)], a morphism in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$ that is an
-isomorphism on $X$ and on $Z\setminus X$ is an isomorphism. On $X$ our
-map is the identity. On $Z\setminus X$ both sides vanish. For
-$j_!K$ this holds by definition of extension by zero. For $Rh_*j'_!K$
-we use proper base change on $D^b_{\mathrm{ctf}}$
+each degree [Stacks, [09AH](https://stacks.math.columbia.edu/tag/09AH)], a morphism in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$ that is an isomorphism on $X$ and on $Z\setminus X$ is an isomorphism. On $X$ our map is the identity, so it remains to see that on $Z\setminus X$ both sides vanish. For $j_!K$ this holds by definition of extension by zero, while for $Rh_*j'_!K$ we use proper base change on $D^b_{\mathrm{ctf}}$
 (Proposition [proposition-proper-base-change-localizing-categories]) for the inclusion
 of $Z\setminus X$ into $Z$. It shows that the restriction of $Rh_*j'_!K$
 is the direct image of the
@@ -61,13 +57,10 @@ with $j'':X\to Z''$ the open immersion, then $Rh_*(e_{k,K})\circ e_{h,K}$ and $e
 $R(hk)_*j''_!K$ that both restrict to the identity on $X$. By the
 observation before the proposition, they are equal.
 
-*Common refinements.* Two arbitrary compactifications need not be
-related by a refinement, but they have a common one. Given dense compactifications $Z_1$ and
+*Common refinements.* Two arbitrary compactifications need not be related by a refinement, but they have a common one. Indeed, given dense compactifications $Z_1$ and
 $Z_2$, Proposition [proposition-dense-compactifications-form-cofiltered-category] provides a dense
 compactification $Z$ with proper maps $h_i:Z\to Z_i$ satisfying
-$h_i^{-1}(X)=X$, and similarly for finitely many compactifications. The
-refinement isomorphisms for $h_1$ and $h_2$ compose to an isomorphism
-between the functors defined by $Z_1$ and $Z_2$. Transitivity of the
-refinement maps on a common refinement shows that this comparison does
+$h_i^{-1}(X)=X$, and similarly for finitely many compactifications. The refinement isomorphisms for $h_1$ and $h_2$ then compose to an isomorphism
+between the functors defined by $Z_1$ and $Z_2$, and transitivity of the refinement maps on a common refinement shows that this comparison does
 not depend on the chosen refinement and satisfies the cocycle
 condition.

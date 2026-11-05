@@ -2,7 +2,7 @@
 id = "prose-05-23"
 kind = "hidden"
 title = "Integral coefficients (1)"
-order = 485
+order = 490
 +++
 For $\mathcal O_E$ the rational arguments for compactness
 (Theorem [theorem-compactness-rational-coefficients]) and for direct

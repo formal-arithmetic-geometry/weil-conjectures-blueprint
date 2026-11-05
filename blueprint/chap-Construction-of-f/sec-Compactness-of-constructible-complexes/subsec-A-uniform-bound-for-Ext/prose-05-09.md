@@ -2,7 +2,7 @@
 id = "prose-05-09"
 kind = "hidden"
 title = "A uniform bound for Ext (3)"
-order = 442
+order = 447
 +++
 Suppose $C=a_!L$, with $a$ factored as $S\hookrightarrow Z\hookrightarrow X$
 and $j$ the open complement of $Z$, and suppose that $L$ contains a lisse

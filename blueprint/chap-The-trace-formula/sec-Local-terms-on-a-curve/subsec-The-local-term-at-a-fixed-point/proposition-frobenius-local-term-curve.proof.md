@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-frobenius-local-term-curve"
-order = 988
-uses = ["lemma-local-terms-point", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-vanishing-local-term-zero-stalk"]
+order = 994
+uses = ["definition-trace-class-local-terms", "lemma-local-terms-point", "definition-pushforward-correspondence", "lemma-vanishing-local-term-zero-stalk"]
 +++
 Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.
 We split $\psi$ along the localization triangle and compute the two local
@@ -23,8 +23,7 @@ filtration to the filtration itself, with induced correspondences
 $\psi_U$ and $i_*\psi_{\bar y}$ on the pieces. This rests on two base
 change identities. For the open part,
 $(\Phi_X^m)^*j_!\simeq j_!(\Phi_X^m|_U)^*$ by base change along inverse
-images in the cartesian square. The square for the point is cartesian only
-after passing to reductions, so there proper base change followed by
+images in the cartesian square. The square for the point, by contrast, is cartesian only after passing to reductions, so there proper base change followed by
 nilpotent invariance gives $(\Phi_X^m)^*i_*\simeq i_*(\Phi_X^m|_y)^*$. Both
 comparisons are mates of the adjunction units for $j$ and $i$ used in the
 triangle, which is why the induced maps are compatible with the filtration.

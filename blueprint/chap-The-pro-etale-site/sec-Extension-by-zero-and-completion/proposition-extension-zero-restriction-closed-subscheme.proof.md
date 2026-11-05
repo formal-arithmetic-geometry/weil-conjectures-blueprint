@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme"
 order = 202
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis"]
 +++
 The special feature of the pro-étale site is that $i^*$ preserves
 limits; we prove this first, deduce exactness of $j_!$ from the
@@ -31,8 +32,8 @@ $M\to i_*i^*M$ is surjective with kernel $j_!j^*M$.
 *Step 2: exactness of $j^*$ and $j_!$.* The functor $j^*$ is
 restriction to $U_{\mathrm{pro}\acute{e}t}$, hence exact. The functor $j_!$ is exact
 because its composites $j^*j_!$ and $i^*j_!$ are exact and the pair
-$(j^*,i^*)$ detects exactness. The first composite is $j^*j_!=\mathrm{id}$.
-The second is $i^*j_!=0$. Indeed, in the localization sequence of $j_!N$
+$(j^*,i^*)$ detects exactness. Here the first composite is $j^*j_!=\mathrm{id}$,
+and the second is $i^*j_!=0$. Indeed, in the localization sequence of $j_!N$
 the first map $j_!j^*j_!N\to j_!N$ is an isomorphism since $j^*j_!N=N$.
 Hence $i_*i^*j_!N=0$, and $i^*j_!N=0$ because $i_*$ is fully faithful. The pair
 $(j^*,i^*)$ detects exactness, because both functors are exact, hence

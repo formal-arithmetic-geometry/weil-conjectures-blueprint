@@ -2,12 +2,9 @@
 id = "prose-05-35"
 kind = "hidden"
 title = "Composition and restriction (1)"
-order = 524
+order = 529
 +++
-Brown representability gives $f^!$ one morphism at a time. To
-compute it in Section [chap-Constructibility-of-f], however, we factor $f$
-locally. The link is uniqueness of adjoints. An isomorphism between
-composites of left adjoints, such as $Rg_!\circ Rf_!\simeq R(gf)_!$ or
+Brown representability gives $f^!$ one morphism at a time. To compute it in Section [chap-Constructibility-of-f], however, we factor $f$ locally. The two are linked by uniqueness of adjoints: an isomorphism between composites of left adjoints, such as $Rg_!\circ Rf_!\simeq R(gf)_!$ or
 $Rf_!=Rp_*\circ j_!$, gives an isomorphism between the right
 adjoints, composed in the opposite order. Since $j^!=j^*$ for an open
 immersion $j$, it follows that $f^!$ is local on $X$ and on $Y$. For example, a smooth $f$ is

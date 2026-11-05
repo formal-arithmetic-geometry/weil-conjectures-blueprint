@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-coherent-base-change-invertible-sheaves"
-order = 1525
+order = 1531
+uses = ["definition-constructible-sheaves", "lemma-acyclic-resolutions", "lemma-perfect-complexes-geometric-point", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++
 This is base change for coherent cohomology along a proper morphism,
 applied to a flat finitely presented module, together with the openness
@@ -9,7 +10,7 @@ criterion for a perfect complex (see [Stacks, [0B91](https://stacks.math.columbi
 To construct the complex, one may use a projective embedding,
 sufficiently large twists and a finite affine Čech complex; by Serre
 vanishing we then obtain models that are finite locally free.
-Given such a model, openness follows from a calculation with matrices. Near a point $t$
+Given such a model, openness follows from a calculation with matrices. Indeed, near a point $t$
 where the derived fibre of the complex has cohomology only in degree
 $0$, of dimension $1$, we may cancel the differentials that are
 invertible at $t$, and what remains is an invertible module in

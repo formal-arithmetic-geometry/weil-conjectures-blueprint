@@ -1,7 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-detection-proper-direct-image"
-order = 564
+order = 570
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
 +++
 Using the localization triangle we split $K$ into a part on $U$, which is
 known, and a part on $Z$. Since $Z$ is finite over $S$, the part on $Z$ is
@@ -26,8 +27,7 @@ by [Stacks, [03QP](https://stacks.math.columbia.edu/tag/03QP)]. Suppose $h_*F$ i
 $h^*h_*F\to F$ is surjective, since on stalks it is a projection from the
 finite product (6.17). Its source is constructible, and a
 quotient of a constructible sheaf is constructible [Stacks, [09BH](https://stacks.math.columbia.edu/tag/09BH)]. Hence $F$
-is constructible. For a complex $M$ we have $H^n(Rh_*M)=h_*H^n(M)$ because
-$h_*$ is exact. The statement for complexes then follows from
+is constructible. For a complex $M$ we have $H^n(Rh_*M)=h_*H^n(M)$ because $h_*$ is exact, so the statement for complexes follows from
 conservativity and the sheaf case in each degree.
 
 *The localization triangle.* The exact sequence for an open and its

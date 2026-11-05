@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-smooth-proper-curves-torsion-prime"
-order = 1569
-uses = ["corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group"]
+order = 1575
+uses = ["definition-underived-base-change-map", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 Pulling back the Kummer sequence of $C_{\acute{e}t}$ by $\nu_C^*$, we get
 the exact sequence of sheaves on $C_{\mathrm{pro}\acute{e}t}$
@@ -15,8 +15,7 @@ $$
 
 Here surjectivity of the $n$th power map is a local question. For a
 unit $a$ the equation $T^n=a$ defines an étale cover, since its
-derivative $nT^{n-1}$ is a unit. The global
-units on the proper connected curve form the group $k^\times$, which is
+derivative $nT^{n-1}$ is a unit. Moreover, the global units on the proper connected curve form the group $k^\times$, which is
 $n$-divisible because $k$ is algebraically closed. Hence the long exact
 sequence starts with $H^0(C,\mu_n)=\mu_n(k)$. Since the map
 $H^0(C,\mathbf G_m)\to H^0(C,\mathbf G_m)$ is onto, $H^1(C,\mu_n)$

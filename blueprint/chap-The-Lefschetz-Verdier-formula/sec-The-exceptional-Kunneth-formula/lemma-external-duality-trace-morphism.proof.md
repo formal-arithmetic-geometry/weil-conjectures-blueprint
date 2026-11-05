@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-external-duality-trace-morphism"
-order = 905
-uses = ["lemma-flat-models-generators", "proposition-exceptional-external-kunneth"]
+order = 911
+uses = ["lemma-flat-models-generators", "proposition-composition-base-change-rf-shriek", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-f-shriek-finite-coefficients", "lemma-base-change-along-product-projection", "definition-exceptional-base-change-map", "theorem-sp-qbar", "proposition-exceptional-external-kunneth"]
 +++
 The exceptional Künneth formula
 (Proposition [proposition-exceptional-external-kunneth]) and the ordinary one
@@ -39,15 +39,14 @@ $$
 *The two isomorphisms.*
 The first isomorphism is the sheaf version of
 $\Hom(V,W)\simeq W\otimes V^\vee$, and we obtain it by writing
-internal Hom as a dual of a tensor product.
-For $M\in D^b_{\mathrm{ctf}}(U,A)$, $N\in D^b_{\mathrm{ctf}}(V,A)$ and the projections
+internal Hom as a dual of a tensor product. Indeed, for $M\in D^b_{\mathrm{ctf}}(U,A)$, $N\in D^b_{\mathrm{ctf}}(V,A)$ and the projections
 $p_U,p_V$ of $V\times U$, Verdier exchange and biduality let us rewrite
 $\cHom_A(p_U^*M,p_V^!N)$ as
 $\mathbb D_{V\times U}(\mathbb D_VN\boxtimes M)$. By the formula for
 duals of exterior products this is
 $N\boxtimes \mathbb D_UM$. Taking $M=N=K$, with the
 factors of the product ordered as above, we obtain the first isomorphism.
-The second follows from the canonical exchange of exceptional inverse
+The second isomorphism follows from the canonical exchange of exceptional inverse
 image with Hom, for $P,Q\in D^b_{\mathrm{ctf}}(X\times X,A)$,
 
 $$

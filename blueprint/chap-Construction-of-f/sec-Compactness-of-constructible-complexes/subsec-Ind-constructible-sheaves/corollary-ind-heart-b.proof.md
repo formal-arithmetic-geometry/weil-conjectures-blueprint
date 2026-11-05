@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "corollary-ind-heart-b"
-order = 452
-uses = ["lemma-continuity-ext-out-constructible-complex", "proposition-ind-constructible-sheaves"]
+order = 457
+uses = ["definition-ind-constructible-sheaves"]
 +++
 Write $B=\varinjlim_\alpha B_\alpha$ as a filtered colimit of
 constructible sheaves, which is possible by

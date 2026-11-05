@@ -1,8 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-vanishing-generic-points-principal-divisor"
-order = 1631
-uses = ["lemma-base-change-cone-x-z", "lemma-case-z-v-x-m"]
+order = 1637
 +++
 For a constant sheaf extended by zero, a smooth map
 $X\to\mathbf A^1$ near the generic point reduces the claim to
@@ -43,14 +42,14 @@ C_{X,Z}(j_!G)=
 z^*\operatorname{Sp}_{X,Z}(j_!G)[1]\in D^{\geq-1}.
 $$
 
-so the statement holds for every $r<-1$, which starts the induction.
+Therefore the statement holds for every $r<-1$, which starts the induction.
 
 For the induction step, we compare $F=j_!G$ with a sheaf to which the
-first part of the proof applies. Choose a finite étale surjection $f_U:U'\to U$ trivializing $G$,
+first part of the proof applies. To construct it, choose a finite étale surjection $f_U:U'\to U$ trivializing $G$,
 and let $f:X'\to X$ be the normalization of $X$ in $U'$; it
-is finite since $X$ is excellent, and $X'$ is normal.  Set
-$Z'=f^{-1}Z$ and $j':U'\hookrightarrow X'$.
-The sheaf $f^*F=j'_!f_U^*G$ is $j'_!$ of a sheaf that is constant on
+is finite since $X$ is excellent, and $X'$ is normal.  With
+$Z'=f^{-1}Z$ and $j':U'\hookrightarrow X'$,
+the sheaf $f^*F=j'_!f_U^*G$ is $j'_!$ of a sheaf that is constant on
 each component of $U'$, and $Z'$ is a principal divisor in the normal
 scheme $X'$. Since $f$ is finite, the points of $Z'$ over a generic
 point of $Z$ are generic points of $Z'$, so the first part of the

@@ -8,9 +8,9 @@ To deduce statements over $E$ and $\overline{\mathbf Q}_\ell$ from statements ov
 $\mathcal O_E$, we need integral objects that generate $\Dbc(X,E)$ and
 $\Dbc(X,\overline{\mathbf Q}_\ell)$. We also want to know that our integral constructible
 complexes are those of the Stacks Project, so that results proved there
-apply. We prove both in the next lemma.
+apply, and we prove both in the next lemma.
 Recall from
-Proposition [proposition-integral-constructibility-criterion] in Section [sec-Constructibility] that an object lies in
+Proposition [proposition-integral-constructibility-criterion] in Section [sec-Integral-constructible-complexes] that an object lies in
 $\Dbc(X,\mathcal O_E)=D^b_{\mathrm{ctf}}(X,\mathcal O_E)$ precisely when it is derived complete and its
 reduction modulo $\pi_E$ is a bounded constructible complex pulled back
 from $X_{\acute{e}t}$.

@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-h-1-curve-tate-module"
-order = 1560
-uses = ["theorem-bounded-below-cohomology-comparison", "proposition-jacobian-over-ground-field"]
+order = 1566
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form"]
 +++
 The isomorphism comes from the Kummer sequence and the identification
 of the preceding proposition. The point is that both are compatible with
@@ -23,11 +23,11 @@ H^0(C,\mathbf G_m)/\ell^n
 $$
 
 The first term vanishes. Indeed, $C$ is proper and connected, so
-$H^0(C,\mathbf G_m)=\bar k^{\times}$, and this group is divisible. The
-degree map takes values in the torsion-free group $\mathbf Z$, so
-$\operatorname{Pic}(C)[\ell^n]=\operatorname{Pic}^0(C)[\ell^n]$.
+$H^0(C,\mathbf G_m)=\bar k^{\times}$, and this group is divisible. For the
+last term, note that the degree map takes values in the torsion-free group $\mathbf Z$, so
+$\operatorname{Pic}(C)[\ell^n]=\operatorname{Pic}^0(C)[\ell^n]$, and
 Proposition [proposition-jacobian-over-ground-field] identifies this
-group with $J_0[\ell^n](\bar k)$. The map induced by
+group with $J_0[\ell^n](\bar k)$. It remains to check Galois equivariance. The map induced by
 $\mu_{\ell^n}\to\mathbf G_m$ and the identification of
 Proposition [proposition-jacobian-over-ground-field] are natural in the
 curve and in the field, and hence Galois-equivariant.

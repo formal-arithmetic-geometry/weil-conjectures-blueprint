@@ -2,7 +2,7 @@
 id = "prose-F-01"
 kind = "hidden"
 title = "Algebraic groups in characteristic zero"
-order = 1708
+order = 1714
 +++
 Rankin's argument (Section [chap-Purity-of-real-sheaves]) bounds the
 eigenvalues of a real sheaf by the largest determinant weight of its
@@ -16,8 +16,8 @@ scalar on each simple factor of every tensor construction. This scalar
 then gives the determinant weight.
 
 In a simple example Frobenius itself does this. Take
-$V=\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ on a curve over $\mathbf F_q$. A Frobenius
-element $s$ of degree one acts by $\operatorname{diag}(1,q)$. The
+$V=\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ on a curve over $\mathbf F_q$, on which a Frobenius
+element $s$ of degree one acts by $\operatorname{diag}(1,q)$. Here the
 geometric monodromy is trivial, so the arithmetic monodromy group $G$ is
 the torus $\{\operatorname{diag}(1,t)\}$, and $\rho(s)$ is central in
 it. Hence on every tensor construction $\rho(s)$ acts by a scalar on each
@@ -27,7 +27,7 @@ $V$, of weights $0$ and $2$, and by $q$ on $\bigwedge^2V$.
 In general $\rho(s)$ is not central, and we must correct a power of it
 by an element of the geometric monodromy group $H$. An element of $H$
 alone would not do, since its determinants on these factors are roots of
-unity. What we want is a central element of the form $h\rho(s)^N$ with
+unity. What we want instead is a central element of the form $h\rho(s)^N$ with
 $h\in H$ and $N>0$.
 
 Such an element exists by Lemma [lemma-identity-component]. For a
@@ -57,17 +57,16 @@ The tools behind this argument need characteristic zero. Cartier's
 theorem that algebraic groups are smooth
 (Proposition [proposition-cartier-s-theorem]) lets us recognize a
 closed subgroup by its Lie algebra; this fails for
-$\mu_p\subset\mathbf G_m$ in characteristic $p$. The decomposition of
-$\mathfrak g$ rests on Cartan's criterion, which fails there too. Since
+$\mu_p\subset\mathbf G_m$ in characteristic $p$. Similarly, the decomposition of $\mathfrak g$ rests on Cartan's criterion, which fails there too. Since
 the monodromy groups are defined over $\overline{\mathbf Q}_\ell$, this does not restrict
 us. For the theorems of Lie, Engel and Cartan we refer to
 Humphreys [humphreys72].
 
 Throughout, $\Omega$ is an algebraically closed
 field of characteristic zero, and all Lie algebras and representations
-are finite-dimensional. An algebraic group is a group scheme of finite
-type over $\Omega$. Stabilizers and centralizers are taken as subgroup
+are finite-dimensional. By an algebraic group we mean a group scheme of finite
+type over $\Omega$. In particular, stabilizers and centralizers are taken as subgroup
 schemes, and by Cartier's theorem below they are smooth. The Lie algebra
 $\operatorname{Lie}(G)$ of an algebraic group $G$ is its tangent space
-at the identity. For a closed subgroup of $\GL(V)$ we describe it by
+at the identity; for a closed subgroup of $\GL(V)$ we describe it by
 dual numbers in Section [sec-Lie-algebras].

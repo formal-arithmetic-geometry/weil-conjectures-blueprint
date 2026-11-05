@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "proposition-purity-vector-bundles"
-order = 735
-uses = ["proposition-exceptional-inverse-image-smooth-morphism"]
+order = 741
+uses = ["proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "lemma-affine-space-etale-localization"]
 +++
 We transport the trace map of affine space along local trivializations,
 show that the result does not depend on the trivialization, so that the
@@ -51,7 +51,7 @@ u\in H^0\bigl((\GL_{d,S})_{\acute{e}t},
 $$
 
 a locally constant function with values in
-$(\mathbf Z/\ell^n\mathbf Z)^{\times}$. It is constant on each geometric
+$(\mathbf Z/\ell^n\mathbf Z)^{\times}$. It is therefore constant on each geometric
 fibre $\GL_{d,\bar s}$, which is connected: for $d\geq1$ it
 is a nonempty open subset of the affine space of $d\times d$ matrices,
 and for $d=0$ it is a point. As $\theta$ is the identity at the identity
@@ -60,8 +60,8 @@ matrix, which lies on every geometric fibre, $u=1$.
 The local trace maps agree on overlaps of trivializing opens. Indeed, let
 $\tau$ and $\tau'$ be two trivializations over $U$. Then
 $\tau'\circ\tau^{-1}$ is the pullback of $\theta$ along the transition
-matrix $U\to\GL_{d,S}$. By base change the equality $u=1$ implies
-$\operatorname{Tr}_{\tau'}=\operatorname{Tr}_{\tau}$. Morphisms between
+matrix $U\to\GL_{d,S}$, so by base change the equality $u=1$ implies
+$\operatorname{Tr}_{\tau'}=\operatorname{Tr}_{\tau}$. Moreover, morphisms between
 source and target form a sheaf, as both are locally sheaves in degree zero.
 Hence the local maps glue over a trivializing cover to an isomorphism
 
@@ -84,6 +84,6 @@ Its adjoint under $R\pi_!\dashv\pi^{!}$
 (Proposition [proposition-exceptional-inverse-image-smooth-morphism](1)) is the asserted map.
 We show that it is an isomorphism. This may be checked locally on $V$,
 because $\pi^!$ commutes with restriction to opens. Over each trivializing
-open, $\operatorname{Tr}_\pi$ is $\operatorname{Tr}_\tau$ by construction.
-There the map is therefore the isomorphism given by the adjunction for
+open, $\operatorname{Tr}_\pi$ is $\operatorname{Tr}_\tau$ by construction,
+so there the map is the isomorphism given by the adjunction for
 affine space following (9.11).

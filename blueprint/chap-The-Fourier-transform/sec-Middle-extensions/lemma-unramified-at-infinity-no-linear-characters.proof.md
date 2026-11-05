@@ -1,8 +1,8 @@
 +++
 kind = "proof"
 of = "lemma-unramified-at-infinity-no-linear-characters"
-order = 1262
-uses = ["lemma-restriction-normal-subgroup"]
+order = 1268
+uses = ["definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
 +++
 For $a\ne0$ the sheaf $\mathcal L_{\psi(ax)}$ is ramified at infinity,
 and the trivial character is excluded because $M$ is irreducible and
@@ -16,7 +16,8 @@ have $v(u)<0$, so that $v(u^p)=pv(u)<v(u)$ and
 $v(u^p-u)=pv(u)$. Now $pv(u)=-e$ forces $p\mid e$, and so
 $e=p$: the cover is totally ramified. Inertia at
 infinity therefore maps onto the Galois group $\mathbf F_p$ of this cover, on
-which $\psi$ is nontrivial. A character that is nontrivial on
+which $\psi$ is nontrivial. Since $M$ is unramified at infinity, this
+proves the first point, because a character that is nontrivial on
 inertia cannot be a constituent of a representation on which
 inertia acts trivially.
 
