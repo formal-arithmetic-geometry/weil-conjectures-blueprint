@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-lattices-after-finite-stratification"
 order = 291
-uses = ["lemma-lattices-lisse-e-sheaves"]
+uses = ["lemma-lattices-lisse-e-sheaves", "lemma-lattices-after-finite-stratification--1"]
 +++
 Let $Y\to X$ be the étale $X$-scheme representing lattices in $L$
 (Lemma [lemma-lattices-lisse-e-sheaves]), with its universal lattice.

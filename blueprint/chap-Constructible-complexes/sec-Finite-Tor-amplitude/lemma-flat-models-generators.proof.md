@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-flat-models-generators"
 order = 256
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "definition-underived-base-change-map", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "proposition-proper-base-change-etale-site", "definition-compactification-refinement", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-abelian-variety", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "definition-tate-module", "definition-relative-picard-functor", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "lemma-cohomology-multiplicative-group", "lemma-p-torsion-affine-curve-characteristic", "lemma-finite-morphisms-cohomology"]
+uses = ["corollary-finite-tor-amplitude-under-comparison", "proposition-comparison-morphism-inverse-image", "proposition-comparison-immersions", "lemma-flat-models-generators--1", "lemma-flat-models-generators--2"]
 +++
 The flat model exists on the étale site by a classical result, and we
 pull it back. The generators then come from two filtrations: the stupid

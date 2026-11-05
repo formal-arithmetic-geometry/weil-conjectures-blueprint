@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models"
 order = 296
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["proposition-comparison-morphism-inverse-image", "lemma-integral-models--1", "lemma-integral-models--2", "lemma-integral-models--3", "lemma-integral-models--4", "lemma-integral-models--5", "proposition-integral-constructibility-criterion--1", "proposition-local-structure-integral-constructible-complexes", "lemma-inverse-image-coefficient-sheaves", "proposition-extension-zero-restriction-closed-subscheme", "corollary-finite-tor-amplitude-under-comparison", "corollary-coefficient-heart-b", "lemma-lattices-after-finite-stratification", "lemma-descent-finite-coefficient-field"]
 +++
 In (1) and (2) we compare two coefficient sheaves related by a flat map
 that is an isomorphism modulo every $\pi_E^n$, so they have the same

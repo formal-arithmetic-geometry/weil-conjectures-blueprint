@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-integral-constructibility-criterion"
 order = 248
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-comparison-morphism-inverse-image", "lemma-integral-models"]
+uses = ["proposition-comparison-morphism-inverse-image", "lemma-integral-models", "proposition-local-structure-integral-constructible-complexes", "lemma-comparison-completed-coefficients", "proposition-milnor-sequence", "proposition-extension-zero-restriction-closed-subscheme"]
 +++
 The substantial implication is (2)$\Rightarrow$(3), which is
 Proposition [proposition-local-structure-integral-constructible-complexes]. The others hold because

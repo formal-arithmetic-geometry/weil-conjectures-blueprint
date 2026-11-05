@@ -5,6 +5,8 @@ title = "Constructible sheaves (1)"
 name_showing = false
 order = 219002
 aliases = ["bp-r063-1"]
+lean = ["AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel", "AlgebraicGeometry.ProEtale.finiteConstantLocalModel_iff_exists_cover", "AlgebraicGeometry.ProEtale.finiteConstantLocalModelOnCover_iff_scalarMatrix"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "subsec-Coefficient-sheaves", "lemma-inverse-image-coefficient-sheaves"]
 +++
 Consider the following condition on a $\Lambda_X$-module $M$:
 there is a pro-étale cover $\{U_i\to X\}$ and finitely presented

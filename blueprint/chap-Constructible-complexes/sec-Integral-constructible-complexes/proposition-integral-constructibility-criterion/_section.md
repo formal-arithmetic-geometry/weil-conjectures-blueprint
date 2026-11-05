@@ -3,7 +3,7 @@ id = "proposition-integral-constructibility-criterion"
 kind = "proposition"
 title = "The integral constructibility criterion"
 order = 246
-lean = ["AlgebraicGeometry.ProEtale.IntegralModelsStacks.internal_integral_criterion_forward", "AlgebraicGeometry.ProEtale.IntegralModelsStacks.internal_integral_criterion_reverse", "AlgebraicGeometry.ProEtale.internal_integral_residue_criterion"]
+lean = ["AlgebraicGeometry.ProEtale.internal_integral_residue_criterion"]
 uses = ["definition-small-pro-etale-site", "definition-derived-adic-completeness", "definition-constructible-sheaves"]
 +++
 Let $X$ be Noetherian. The following conditions on

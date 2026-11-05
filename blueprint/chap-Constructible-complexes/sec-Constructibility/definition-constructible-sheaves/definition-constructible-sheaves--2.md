@@ -5,6 +5,8 @@ title = "Constructible sheaves (2)"
 name_showing = false
 order = 219003
 aliases = ["bp-r063-2"]
+lean = ["AlgebraicGeometry.ProEtale.IsFiniteConstantStratified", "AlgebraicGeometry.ProEtale.IsConstantModelConstructible"]
+uses = ["definition-constructible-sheaves--1", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves"]
 +++
 For qcqs $X$, a $\Lambda_X$-module $M$ is *constructible* if
 there is a finite stratification of $X$ by constructible locally

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ctf-equals-bc"
 order = 253
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["lemma-inverse-image-coefficient-sheaves", "proposition-extension-zero-restriction-closed-subscheme", "proposition-ctf-equals-bc--1", "proposition-integral-constructibility-criterion"]
 +++
 For $\mathcal O_E$, and hence for $\mathbf Z_\ell$, this is the equivalence of (1)
 and (4) in the criterion above. For the fields we show that every

@@ -3,8 +3,8 @@ id = "definition-constructible-sheaves"
 kind = "definition"
 title = "Constructible sheaves"
 order = 219
-lean = ["AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel", "AlgebraicGeometry.ProEtale.IsFiniteConstantStratified", "AlgebraicGeometry.ProEtale.IsConstantModelConstructible", "AlgebraicGeometry.ProEtale.constantModelBoundedConstructible", "DerivedCategory.torAmplitudeIn", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.IsConstructibleModuleObject", "CategoryTheory.Mod.IsFinitelyPresented"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
+lean = ["AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel", "AlgebraicGeometry.ProEtale.finiteConstantLocalModel_iff_exists_cover", "AlgebraicGeometry.ProEtale.finiteConstantLocalModelOnCover_iff_scalarMatrix", "AlgebraicGeometry.ProEtale.IsFiniteConstantStratified", "AlgebraicGeometry.ProEtale.IsConstantModelConstructible", "AlgebraicGeometry.ProEtale.ConstantModelConstructible", "AlgebraicGeometry.ProEtale.constantModelBoundedConstructible", "AlgebraicGeometry.ProEtale.ConstantModelBoundedConstructible", "DerivedCategory.torAmplitudeIn", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.ConstantModelConstructibleFiniteTor"]
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality", "subsec-Coefficient-sheaves", "lemma-inverse-image-coefficient-sheaves", "sec-Derived-functors"]
 +++
 Let $\Lambda$ be a commutative condensed ring.
 
