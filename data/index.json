@@ -376,4 +376,11 @@
     "byStatus": {"stated": 101, "proved": 730, "absent": 887}},
    "sha": "1be73fa0b383ef444acc9dd73d052a1ce8dfda72",
    "file": "data/1be73fa0b383ef444acc9dd73d052a1ce8dfda72.json",
+   "date": "2026-11-06"},
+  {"summary":
+   {"total": 1719,
+    "proved": 731,
+    "byStatus": {"stated": 101, "proved": 731, "absent": 887}},
+   "sha": "eb44fe8dd1be20a5d4999e93297b4fc978168710",
+   "file": "data/eb44fe8dd1be20a5d4999e93297b4fc978168710.json",
    "date": "2026-11-06"}]}
