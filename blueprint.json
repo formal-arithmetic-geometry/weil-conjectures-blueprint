@@ -353,6 +353,49 @@
   "defaultCollapse": "refines"},
  "project":
  {"title": "Weil Conjectures",
+  "sources":
+  {".lake/packages/weil-conjectures/":
+   {"url": "https://github.com/formal-arithmetic-geometry/weil-conjectures",
+    "rev": "94ce2d8d1c495ee39df3abeb098875ac1ac7440e"},
+   ".lake/packages/upstreamer/":
+   {"url": "https://github.com/chrisflav/upstreamer",
+    "rev": "f0cd4b14367ecd61b3e15e8269a287ea405365bb"},
+   ".lake/packages/proofwidgets/":
+   {"url": "https://github.com/leanprover-community/ProofWidgets4",
+    "rev": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"},
+   ".lake/packages/proetale/":
+   {"url": "https://github.com/Thmoas-Guan/slopetale_fork",
+    "rev": "372da951e5f36c0c160a52da1cb0e2505e2e74ab"},
+   ".lake/packages/plausible/":
+   {"url": "https://github.com/leanprover-community/plausible",
+    "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb"},
+   ".lake/packages/mathlib/":
+   {"url": "https://github.com/leanprover-community/mathlib4",
+    "rev": "0df444a360eaa60ab8c11dca51a86af692955474"},
+   ".lake/packages/importGraph/":
+   {"url": "https://github.com/leanprover-community/import-graph",
+    "rev": "16f02aa7642864af59f1ff0e384a015994db9118"},
+   ".lake/packages/checkdecls/":
+   {"url": "https://github.com/PatrickMassot/checkdecls",
+    "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4"},
+   ".lake/packages/blueprint/":
+   {"url": "https://github.com/chrisflav/blueprint",
+    "rev": "fa6fa3f4cda4bc4e29febb7b128f0df2cedd9d57"},
+   ".lake/packages/batteries/":
+   {"url": "https://github.com/leanprover-community/batteries",
+    "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d"},
+   ".lake/packages/aesop/":
+   {"url": "https://github.com/leanprover-community/aesop",
+    "rev": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e"},
+   ".lake/packages/Qq/":
+   {"url": "https://github.com/leanprover-community/quote4",
+    "rev": "92c15be17b7caf78c2ad767ec40f89052d908d81"},
+   ".lake/packages/LeanSearchClient/":
+   {"url": "https://github.com/leanprover-community/LeanSearchClient",
+    "rev": "5f4d51b81cbd3f6b32b156bfad9056621a040404"},
+   ".lake/packages/Cli/":
+   {"url": "https://github.com/leanprover/lean4-cli",
+    "rev": "6130a47896ce867c6a4a55373441e59e565bad0f"}},
   "pdfScopes": ["part", "chapter", "appendix", "chap-Introduction"],
   "pdfReferences": "all",
   "pdfDetails": false,
