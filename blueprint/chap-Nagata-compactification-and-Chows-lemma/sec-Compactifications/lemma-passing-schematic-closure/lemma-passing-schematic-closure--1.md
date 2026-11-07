@@ -5,7 +5,6 @@ title = "Passing to the schematic closure (1)"
 name_showing = false
 order = 1415001
 aliases = ["bp-r437-1"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl"]
 +++
 Let $X\xrightarrow{j}\overline X\xrightarrow{p}S$ be any
 compactification with $\overline X$ Noetherian, and let

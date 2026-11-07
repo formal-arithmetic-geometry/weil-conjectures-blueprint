@@ -5,7 +5,6 @@ title = "The class of the diagonal of $\\mathbf P^1_S$ (1)"
 name_showing = false
 order = 551001
 aliases = ["bp-r166-1"]
-lean = ["AlgebraicGeometry.Etale.projectiveLineTrace_diagonal", "AlgebraicGeometry.Etale.projectiveLineTrace_diagonal_swap", "AlgebraicGeometry.Etale.projectiveLine_diagonal_ker_isInvertible"]
 +++
 Let $S$ be of finite type over $k$ and let $\Lambda$ be a finite
 commutative $\ell$-primary ring; we work on the étale sites, and $p_i$ and
