@@ -5,6 +5,7 @@ title = "Projection formula with integral coefficients (1)"
 name_showing = false
 order = 613001
 aliases = ["bp-r186-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_of_localizingBoundedConstructible_padicIntegersRingObj"]
 +++
 For proper $p:X\to Y$ the map
 $(Rp_*M)\otimes^{\mathbf L}N\to Rp_*(M\otimes^{\mathbf L}p^*N)$ is an

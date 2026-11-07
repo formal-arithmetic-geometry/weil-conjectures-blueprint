@@ -5,6 +5,7 @@ title = "Smooth proper curves, torsion prime to the characteristic (1)"
 name_showing = false
 order = 1579001
 aliases = ["bp-r491-1"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_of_isProper"]
 +++
 Let $C$ be smooth, proper and connected over an algebraically closed
 field $k$, with genus $g$, and let $n\geq1$ be invertible in $k$.

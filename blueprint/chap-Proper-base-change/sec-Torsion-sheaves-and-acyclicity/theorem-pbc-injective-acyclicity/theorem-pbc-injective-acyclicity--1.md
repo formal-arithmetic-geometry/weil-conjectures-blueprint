@@ -5,6 +5,7 @@ title = "PBC and injective acyclicity (1)"
 name_showing = false
 order = 349001
 aliases = ["bp-r107-1"]
+lean = ["AlgebraicGeometry.Etale.tfae_hasTorsionBaseChange", "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_forall_isIso_baseChangeHomologyMap"]
 +++
 Let $f:X\to Y$ be proper. The following are equivalent:
 

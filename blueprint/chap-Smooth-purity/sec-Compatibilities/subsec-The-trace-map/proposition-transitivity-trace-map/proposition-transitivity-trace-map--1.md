@@ -5,6 +5,7 @@ title = "Transitivity of the trace map (1)"
 name_showing = false
 order = 808001
 aliases = ["bp-r243-1"]
+lean = ["AlgebraicGeometry.Etale.smoothPurityTrace_comp"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative
 dimensions $d$ and $e$, and $K\in D^b_{\mathrm{ctf}}(Z,\Lambda)$ for any admissible

@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Essential image"
 order = 453004
 aliases = ["bp-r138-2"]
+lean = ["AlgebraicGeometry.ProEtale.indHeart_fullFaithfulness"]
 +++
 The essential image of the same functor is $\IndCons(X,\Lambda)$.

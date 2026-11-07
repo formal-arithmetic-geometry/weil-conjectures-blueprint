@@ -5,6 +5,7 @@ title = "Comparison via relative Frobenius (3)"
 name_showing = false
 order = 1000006
 aliases = ["bp-r305-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.frobeniusCompactOperator_lowerShriekFrobeniusCoefficient"]
 +++
 The composition isomorphism
 $R\Gamma_c(Y,L)\simeq R\Gamma_c(X,K)$ intertwines the

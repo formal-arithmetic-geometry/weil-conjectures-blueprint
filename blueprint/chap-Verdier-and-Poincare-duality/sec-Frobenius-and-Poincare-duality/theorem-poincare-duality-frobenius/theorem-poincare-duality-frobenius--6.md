@@ -4,5 +4,6 @@ kind = "theorem"
 title = "Inverse transpose"
 order = 885011
 aliases = ["bp-r266-6"]
+lean = ["AlgebraicGeometry.Etale.TateOrientation.conj_frobeniusOperator_eq_smul_inverse_dualMap"]
 +++
 If $\Lambda$ is a field, then with respect to the untwisted pairing, $F$ on $H^{2d-i}(X,K^\vee)$ is $q^d$ times the inverse transpose of $F$ on $H_c^i(X,K)$.

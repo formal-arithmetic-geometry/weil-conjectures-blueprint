@@ -5,6 +5,7 @@ title = "Smooth proper curves, torsion prime to the characteristic (4)"
 name_showing = false
 order = 1579007
 aliases = ["bp-r491-4"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_of_isProper"]
 +++
 $$
 H^q(C,\mu_n)=0\quad(q>2).

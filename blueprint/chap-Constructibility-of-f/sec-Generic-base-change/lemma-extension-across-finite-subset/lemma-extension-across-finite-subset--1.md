@@ -5,6 +5,7 @@ title = "Extension across a finite subset (1)"
 name_showing = false
 order = 577001
 aliases = ["bp-r174-1"]
+lean = ["AlgebraicGeometry.Etale.HasDirectImageBaseChangeOnPlus.of_finite_boundary"]
 +++
 Let $S$ be integral and affine, let $b:Y\to S$ be projective, and let
 $j:X\hookrightarrow Y$ be an open immersion with $X$ smooth over $S$. Let

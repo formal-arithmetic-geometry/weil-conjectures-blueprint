@@ -5,6 +5,7 @@ title = "Continuous cohomology as pro-étale cohomology (1)"
 name_showing = false
 order = 192001
 aliases = ["bp-r055-1"]
+lean = ["AlgebraicGeometry.ProEtale.continuousCohomology"]
 +++
 Let $X$ be a scheme and $(F_n)$ an inverse system of abelian sheaves
 on $X_{\mathrm{pro}\acute{e}t}$ with epimorphic transition maps.

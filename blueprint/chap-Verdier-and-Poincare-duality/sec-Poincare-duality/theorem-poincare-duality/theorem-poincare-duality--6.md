@@ -5,6 +5,7 @@ title = "Poincaré duality (6)"
 name_showing = false
 order = 857010
 aliases = ["bp-r257-6"]
+lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing_of_isSepClosed_of_isDualizable", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing"]
 +++
 Let $\operatorname{Tr}_X$ be the map induced on $R\Gamma_c$ by
 the trace map of $a_X$ (Definition [definition-trace-map]). The

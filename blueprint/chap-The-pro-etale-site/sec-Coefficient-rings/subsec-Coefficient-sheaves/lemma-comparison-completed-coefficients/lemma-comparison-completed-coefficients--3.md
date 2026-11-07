@@ -5,6 +5,7 @@ title = "Comparison with completed coefficients (3)"
 name_showing = false
 order = 178005
 aliases = ["bp-r051-3"]
+lean = ["AlgebraicGeometry.ProEtale.isColimitPadicAlgClRingObjCocone"]
 +++
 $$
 \begin{aligned}

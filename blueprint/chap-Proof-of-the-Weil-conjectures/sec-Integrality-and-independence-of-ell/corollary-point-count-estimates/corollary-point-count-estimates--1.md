@@ -5,6 +5,7 @@ title = "Point-count estimates (1)"
 name_showing = false
 order = 1397001
 aliases = ["bp-r432-1"]
+lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank"]
 +++
 Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected
 of dimension $d\geq1$, and let $b_i$ be as in

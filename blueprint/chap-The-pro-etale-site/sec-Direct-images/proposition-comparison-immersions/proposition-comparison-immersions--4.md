@@ -5,6 +5,7 @@ title = "Comparison for immersions (4)"
 name_showing = false
 order = 139007
 aliases = ["bp-r040-4"]
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationComparisonIso"]
 +++
 Let $f:X\to Y$ be a separated morphism of finite type with a
 factorization $f=\bar f\circ j$, where $j$ is an open immersion and

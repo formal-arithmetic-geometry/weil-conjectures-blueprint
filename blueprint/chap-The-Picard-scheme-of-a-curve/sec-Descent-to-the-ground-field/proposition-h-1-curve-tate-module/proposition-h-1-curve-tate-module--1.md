@@ -5,6 +5,7 @@ title = "$H^1$ of a curve and the Tate module of its Jacobian (1)"
 name_showing = false
 order = 1568001
 aliases = ["bp-r489-1"]
+lean = ["AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_restrictMuH", "AlgebraicGeometry.JacobianTorsionDatum.kummerEquiv_map_rootsOfUnityPowMap"]
 +++
 In the preceding setting, suppose $\ell$ is invertible in $k$.
 For every $n\geq1$ there is a canonical

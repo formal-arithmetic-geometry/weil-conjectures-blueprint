@@ -5,6 +5,7 @@ title = "Cohomological dimension (2)"
 name_showing = false
 order = 157002
 aliases = ["bp-r045-2"]
+lean = ["AlgebraicGeometry.ProEtale.relativeCohomologicalDimension"]
 +++
 $$
 \begin{aligned}

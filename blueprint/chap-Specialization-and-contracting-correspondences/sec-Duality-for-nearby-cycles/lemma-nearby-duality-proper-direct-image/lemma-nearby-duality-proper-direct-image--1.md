@@ -5,6 +5,7 @@ title = "Duality for nearby cycles and proper direct image (1)"
 name_showing = false
 order = 1678001
 aliases = ["bp-r520-1"]
+lean = ["CategoryTheory.Verdier.nearbyDualityMap_proper"]
 +++
 Let $f:X\to Y$ be a proper morphism of separated $S$-schemes of finite
 type, and let $M\in D^b_{\mathrm{ctf}}(X_\eta,A)$. Under the

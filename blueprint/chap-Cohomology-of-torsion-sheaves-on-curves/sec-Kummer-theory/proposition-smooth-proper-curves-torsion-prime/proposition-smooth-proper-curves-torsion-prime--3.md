@@ -5,6 +5,7 @@ title = "Smooth proper curves, torsion prime to the characteristic (3)"
 name_showing = false
 order = 1579005
 aliases = ["bp-r491-3"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_of_isProper"]
 +++
 $$
 H^2(C,\mu_n)=\mathbf Z/n.

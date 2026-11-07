@@ -5,6 +5,7 @@ title = "Trace formula for a Frobenius correspondence (1)"
 name_showing = false
 order = 1007001
 aliases = ["bp-r307-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.trace_frobeniusCompactOperator_eq_sum"]
 +++
 Let $X_0/\mathbf F_q$ be separated and of finite type, put
 $X=X_0\times_{\mathbf F_q}k$, let $A$ be any finite commutative

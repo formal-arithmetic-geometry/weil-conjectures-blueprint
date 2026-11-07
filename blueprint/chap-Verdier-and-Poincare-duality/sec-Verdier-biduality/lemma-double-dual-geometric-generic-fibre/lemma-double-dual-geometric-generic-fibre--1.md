@@ -5,6 +5,7 @@ title = "Double duals on the geometric generic fibre (1)"
 name_showing = false
 order = 842001
 aliases = ["bp-r252-1"]
+lean = ["AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_dualizingComplex_of_generic", "AlgebraicGeometry.Etale.isIso_leftDerivedUpperStar_map_verdierDualDoubleDual_app_iff_of_generic"]
 +++
 In the setting of Lemma [lemma-restriction-geometric-generic-fibre],
 let $B=\mathbf A^1_k$ and $K\in D^b_{\mathrm{ctf}}(X,A)$. For every affine open $V$

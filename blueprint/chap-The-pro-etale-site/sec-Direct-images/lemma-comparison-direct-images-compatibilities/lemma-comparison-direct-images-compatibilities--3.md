@@ -5,6 +5,7 @@ title = "Compatibilities of the comparison of direct images (3)"
 name_showing = false
 order = 136006
 aliases = ["bp-r039-3"]
+lean = ["AlgebraicGeometry.ProEtale.comparisonDirectImagePlus_comp"]
 +++
 For a second morphism $h:Y\to Z$, under the identifications
 $R(h\circ g)_*\simeq Rh_*Rg_*$ on both sites, $c_{h\circ g}$ is the

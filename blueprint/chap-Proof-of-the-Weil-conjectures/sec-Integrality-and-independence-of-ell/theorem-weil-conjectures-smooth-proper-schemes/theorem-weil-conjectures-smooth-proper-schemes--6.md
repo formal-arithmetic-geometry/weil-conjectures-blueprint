@@ -4,5 +4,6 @@ kind = "definition"
 title = "Degrees"
 order = 1391012
 aliases = ["bp-r429-6"]
+lean = ["AlgebraicGeometry.weilBettiNumber"]
 +++
 Define $b_i=\deg P_i$.

@@ -5,6 +5,7 @@ title = "Deformation to the normal bundle (1)"
 name_showing = false
 order = 746001
 aliases = ["bp-r224-1"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.deformationSpaceIsoBlowupModelOpen", "AlgebraicGeometry.Scheme.IdealSheafData.range_deformationSpaceToBlowup_eq_compl_strictTransform_of_ofFiniteType"]
 +++
 The *deformation to the normal bundle* of $s$ is the open subscheme
 $\mathcal D_{s(S)}V$ of the blowup of $V\times\mathbf A^1$ along

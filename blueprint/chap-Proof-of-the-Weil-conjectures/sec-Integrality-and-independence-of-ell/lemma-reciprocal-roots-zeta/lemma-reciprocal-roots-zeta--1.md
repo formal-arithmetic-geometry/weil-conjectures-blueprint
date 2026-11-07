@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Odd-degree product"
 order = 1389002
 aliases = ["bp-r428-1"]
+lean = ["AlgebraicGeometry.Scheme.integral_recovery"]
 +++
 In $\mathbf Q_\ell[T]$, one has
 

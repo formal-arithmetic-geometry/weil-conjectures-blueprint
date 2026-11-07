@@ -5,6 +5,7 @@ title = "Scheme Frobenius and geometric Frobenius (2)"
 name_showing = false
 order = 954003
 aliases = ["bp-r290-2"]
+lean = ["AlgebraicGeometry.Etale.weilDatumIterate_schemeFrobeniusForm_hom"]
 +++
 For a Weil structure
 $\phi:\operatorname{Fr}_X^*K\xrightarrow{\sim}K$, put

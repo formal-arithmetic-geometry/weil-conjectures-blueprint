@@ -5,6 +5,7 @@ title = "Purity of higher direct images under a smooth proper morphism (1)"
 name_showing = false
 order = 1372001
 aliases = ["bp-r423-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.higherLowerShriekObjIsoOfIsProper"]
 +++
 Let $f_0:X_0\to Y_0$ be smooth proper of pure relative dimension $d$,
 and let $F$ be a lisse Weil sheaf, punctually $\iota$-pure of weight

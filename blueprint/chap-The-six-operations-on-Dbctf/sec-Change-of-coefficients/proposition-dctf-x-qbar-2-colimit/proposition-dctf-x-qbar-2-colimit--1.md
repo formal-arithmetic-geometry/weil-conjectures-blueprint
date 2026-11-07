@@ -4,6 +4,7 @@ kind = "proposition"
 title = "The category comparison"
 order = 649002
 aliases = ["bp-r198-1"]
+lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
 +++
 Extension of scalars identifies
 

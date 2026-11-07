@@ -5,6 +5,7 @@ title = "Affine space and étale localization (3)"
 name_showing = false
 order = 558006
 aliases = ["bp-r168-3"]
+lean = ["AlgebraicGeometry.Etale.affineSpaceAdjunction_baseChange"]
 +++
 The same holds for the unit, which is determined by the counit through
 the triangle identities.

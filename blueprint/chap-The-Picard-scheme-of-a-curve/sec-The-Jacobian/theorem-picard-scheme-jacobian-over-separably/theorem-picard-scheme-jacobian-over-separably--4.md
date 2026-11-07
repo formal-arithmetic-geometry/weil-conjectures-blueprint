@@ -5,6 +5,7 @@ title = "The Picard scheme and the Jacobian over a separably closed field (4)"
 name_showing = false
 order = 1552007
 aliases = ["bp-r483-4"]
+lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 +++
 $$
 T_0J(C)=H^1(C,\mathcal O_C).

@@ -5,6 +5,7 @@ title = "Tensor and exterior powers of filtered representations (1)"
 name_showing = false
 order = 1127001
 aliases = ["bp-r345-1"]
+lean = ["Representation.CompositionSeries.hasGradedPieces_tprod"]
 +++
 Suppose $V$ and $V'$ have composition factors $A_1,\ldots,A_t$ and
 $B_1,\ldots,B_u$. There is a $W(U_0)$-stable filtration of $V\otimes V'$

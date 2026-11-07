@@ -5,6 +5,7 @@ title = "Étale, ind-étale and weakly étale ring maps (2)"
 name_showing = false
 order = 29004
 aliases = ["bp-r002-2"]
+lean = ["AlgebraicGeometry.WeaklyEtale.etale"]
 +++
 If $R\to B$ is weakly étale and of finite presentation, it is
 étale.

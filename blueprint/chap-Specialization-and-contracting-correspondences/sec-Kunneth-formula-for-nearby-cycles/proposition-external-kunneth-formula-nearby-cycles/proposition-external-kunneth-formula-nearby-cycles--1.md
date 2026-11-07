@@ -5,6 +5,7 @@ title = "External Künneth formula for nearby cycles (1)"
 name_showing = false
 order = 1648001
 aliases = ["bp-r510-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_kunnethMap"]
 +++
 Let $X,Y$ be separated of finite type over $S$, and let
 $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$ and

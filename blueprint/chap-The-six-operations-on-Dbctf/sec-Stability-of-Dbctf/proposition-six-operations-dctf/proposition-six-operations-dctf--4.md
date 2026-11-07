@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Direct image: finite extension of $\\Ql$"
 order = 625008
 aliases = ["bp-r188-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructibleLowerStar"]
 +++
 $Rf_{*,E}$ sends $D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},E)$ into $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},E)$.

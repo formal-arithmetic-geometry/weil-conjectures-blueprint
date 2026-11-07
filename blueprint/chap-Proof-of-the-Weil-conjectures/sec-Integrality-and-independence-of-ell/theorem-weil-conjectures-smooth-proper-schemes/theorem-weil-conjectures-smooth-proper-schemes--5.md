@@ -4,5 +4,6 @@ kind = "theorem"
 title = "Absolute values of reciprocal roots"
 order = 1391010
 aliases = ["bp-r429-5"]
+lean = ["AlgebraicGeometry.Scheme.riemann_hypothesis"]
 +++
 Every reciprocal root of $P_i$ has absolute value $q^{i/2}$ under every complex embedding.

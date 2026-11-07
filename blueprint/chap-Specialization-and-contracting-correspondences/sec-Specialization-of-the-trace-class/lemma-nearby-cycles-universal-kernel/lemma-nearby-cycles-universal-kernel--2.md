@@ -5,6 +5,7 @@ title = "Nearby cycles of the universal kernel (2)"
 name_showing = false
 order = 1691003
 aliases = ["bp-r524-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.universalKernelSpecialization_comp_evaluationKernel"]
 +++
 $$
 e_{K'}\rho=R\Delta_{s*}\theta_X\,\chi_\Delta\,\Psi(e_K).

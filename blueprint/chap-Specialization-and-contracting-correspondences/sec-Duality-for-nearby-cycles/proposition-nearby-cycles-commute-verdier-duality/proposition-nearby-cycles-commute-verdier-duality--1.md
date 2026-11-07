@@ -5,6 +5,7 @@ title = "Nearby cycles commute with Verdier duality (1)"
 name_showing = false
 order = 1676001
 aliases = ["bp-r519-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_nearbyDualityMap"]
 +++
 For every separated $S$-scheme $X$ of finite type and
 $M\in D^b_{\mathrm{ctf}}(X_\eta,A)$, the map

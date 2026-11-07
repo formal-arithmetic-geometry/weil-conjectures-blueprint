@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Functional equation in determinant form"
 order = 1045011
 aliases = ["bp-r320-7"]
+lean = ["AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq_prod_determinant"]
 +++
 In $\mathbf Q_\ell(T)$,
 

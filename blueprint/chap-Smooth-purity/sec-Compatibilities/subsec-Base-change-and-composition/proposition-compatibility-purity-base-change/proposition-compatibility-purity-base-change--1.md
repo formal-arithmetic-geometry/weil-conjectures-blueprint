@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Finite coefficients"
 order = 798002
 aliases = ["bp-r239-1"]
+lean = ["AlgebraicGeometry.Etale.canonicalSmoothPurityMap_baseChange"]
 +++
 Let
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$. Identify the sources by

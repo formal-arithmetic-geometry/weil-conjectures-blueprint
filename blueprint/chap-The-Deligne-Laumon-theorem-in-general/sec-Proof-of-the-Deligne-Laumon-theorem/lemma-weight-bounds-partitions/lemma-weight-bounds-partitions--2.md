@@ -5,6 +5,7 @@ title = "Weight bounds and partitions (2)"
 name_showing = false
 order = 1355004
 aliases = ["bp-r418-2"]
+lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed_target"]
 +++
 Let $V_0\subset Y_0$ be open with closed complement $W_0$, and let
 $f_V$ and $f_W$ be the base changes of $f$ to $V_0$ and $W_0$. If

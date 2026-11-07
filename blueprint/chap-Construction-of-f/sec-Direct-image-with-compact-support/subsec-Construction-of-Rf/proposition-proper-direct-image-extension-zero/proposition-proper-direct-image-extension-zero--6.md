@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Extension by zero on localizing categories"
 order = 502012
 aliases = ["bp-r151-6"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.localizingClosure_boundedConstructible_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.localizingClosure_constructibleFiniteTor_openImmersionLowerShriek"]
 +++
 For an open immersion $j:U\to X$, $j_{!,\Lambda}$ restricts to an exact functor $\Loc(D^b_{\mathrm{ctf}}(U_{\mathrm{pro}\acute{e}t},\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda))$.

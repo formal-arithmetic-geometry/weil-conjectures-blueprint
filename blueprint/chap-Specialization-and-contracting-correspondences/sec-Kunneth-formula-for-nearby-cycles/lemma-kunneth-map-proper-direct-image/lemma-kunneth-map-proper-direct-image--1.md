@@ -5,6 +5,7 @@ title = "The Künneth map and proper direct image (1)"
 name_showing = false
 order = 1650001
 aliases = ["bp-r511-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.kunnethMap_comp_pushforwardExchange"]
 +++
 Let $f:X\to X_1$ and $g:Y\to Y_1$ be proper morphisms of separated
 $S$-schemes of finite type, and let $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$

@@ -5,6 +5,7 @@ title = "Compactness with rational coefficients (1)"
 name_showing = false
 order = 466001
 aliases = ["bp-r142-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_padicAlgClRingObj"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, every object of $\Dbc(X,\Lambda)$ is compact in $\Loc(\Dbc(X,\Lambda))$.
 More precisely, for $C\in\Dbc(X,\Lambda)$ and every family $(K_\lambda)$

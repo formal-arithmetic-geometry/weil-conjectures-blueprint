@@ -5,6 +5,7 @@ title = "The cycle class of a Cartier divisor (2)"
 name_showing = false
 order = 543003
 aliases = ["bp-r163-2"]
+lean = ["AlgebraicGeometry.ProEtale.geoCartierCanonicalClass_scalar", "AlgebraicGeometry.ProEtale.geoCartierCanonicalClass_pullback"]
 +++
 It is compatible with change of
 coefficients and with every base change along which the pullback of the

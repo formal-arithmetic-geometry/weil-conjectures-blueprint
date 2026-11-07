@@ -5,6 +5,7 @@ title = "Comparison with completed coefficients (2)"
 name_showing = false
 order = 178003
 aliases = ["bp-r051-2"]
+lean = ["AlgebraicGeometry.ProEtale.completedCondensedRational"]
 +++
 $$
 \begin{aligned}

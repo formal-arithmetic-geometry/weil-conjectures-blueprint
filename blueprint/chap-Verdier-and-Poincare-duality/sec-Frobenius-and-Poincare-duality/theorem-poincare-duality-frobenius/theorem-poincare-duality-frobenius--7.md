@@ -4,5 +4,6 @@ kind = "theorem"
 title = "Equality of dimensions"
 order = 885013
 aliases = ["bp-r266-7"]
+lean = ["Module.finrank_of_isPerfPair"]
 +++
 Over a coefficient field the two spaces in the preceding clause have the same dimension, denoted by $b$.

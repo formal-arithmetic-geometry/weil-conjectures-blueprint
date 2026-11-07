@@ -5,6 +5,7 @@ title = "Comparison via relative Frobenius (1)"
 name_showing = false
 order = 1000002
 aliases = ["bp-r305-1"]
+lean = ["AlgebraicGeometry.isFinite_relativeFrobenius", "AlgebraicGeometry.isUniversalHomeomorphism_relativeFrobenius", "AlgebraicGeometry.isFinite_and_isUniversalHomeomorphism_relativeFrobenius", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriekFrobeniusComparison", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriekFrobeniusComparison_add", "AlgebraicGeometry.relativeFrobenius_fst", "AlgebraicGeometry.relativeFrobenius_snd"]
 +++
 The relative Frobenius $r_m$ is a finite universal homeomorphism,
 $p_mr_m=\Phi_X^m$ and $f'_mr_m=f$, and there are natural isomorphisms

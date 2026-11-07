@@ -5,6 +5,7 @@ title = "Restriction to a punctured curve (1)"
 name_showing = false
 order = 976001
 aliases = ["bp-r297-1"]
+lean = ["AlgebraicGeometry.Etale.puncturedRestriction_eq_zero"]
 +++
 In the situation of Lemma [lemma-cohomology-near-two-transverse-divisors] with $D_2$
 connected, let $C\subset X$ be a closed curve with $C\cap D_2=\{w\}$,

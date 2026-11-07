@@ -4,6 +4,7 @@ kind = "proposition"
 title = "The projective-line adjunction"
 order = 554002
 aliases = ["bp-r167-1"]
+lean = ["AlgebraicGeometry.Etale.exists_projectiveLineAdjunction"]
 +++
 Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the
 projection. The functors

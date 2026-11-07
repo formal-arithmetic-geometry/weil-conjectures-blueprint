@@ -5,6 +5,7 @@ title = "Quasi-domination (1)"
 name_showing = false
 order = 1436001
 aliases = ["bp-r446-1"]
+lean = ["AlgebraicGeometry.QuasiDomination"]
 +++
 Let $X$ and $Y$ be $S$-schemes, with $Y\to S$ separated. A
 *quasi-domination of $X$ over $Y$* consists of a dense open

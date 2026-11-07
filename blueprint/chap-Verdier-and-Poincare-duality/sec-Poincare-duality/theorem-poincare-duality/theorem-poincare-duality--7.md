@@ -5,6 +5,7 @@ title = "Poincaré duality (7)"
 name_showing = false
 order = 857012
 aliases = ["bp-r257-7"]
+lean = ["AlgebraicGeometry.Etale.curry_poincarePairing_eq", "AlgebraicGeometry.Etale.inv_curry_poincarePairing_eq"]
 +++
 and its adjoint is the canonical isomorphism
 

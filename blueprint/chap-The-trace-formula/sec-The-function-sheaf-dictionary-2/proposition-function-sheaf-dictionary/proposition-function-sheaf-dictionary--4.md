@@ -5,6 +5,7 @@ title = "The function–sheaf dictionary (4)"
 name_showing = false
 order = 1029008
 aliases = ["bp-r315-4"]
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction_eq_add_openClosed", "AlgebraicGeometry.WeilComplex.traceFunction_derivedLowerShriek_upperStar_mapFieldPoints", "AlgebraicGeometry.WeilComplex.traceFunction_derivedLowerShriek_upperStar_of_notMem_range"]
 +++
 For $U_0\subset X_0$ open with closed complement $Z_0$, and
 $j:U\to X$, $i:Z\to X$ the inclusions,

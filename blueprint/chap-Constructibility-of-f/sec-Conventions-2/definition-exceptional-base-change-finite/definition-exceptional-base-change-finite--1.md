@@ -4,6 +4,7 @@ kind = "definition"
 title = "The base change map for $f^!$"
 order = 539001
 aliases = ["bp-r542-1"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChangeMap"]
 +++
 Let $f:X\to S$ be separated and of finite type, let $g:S'\to S$ be a
 morphism, let $X'=X\times_SS'$, and let $f':X'\to S'$, $g':X'\to X$ be the

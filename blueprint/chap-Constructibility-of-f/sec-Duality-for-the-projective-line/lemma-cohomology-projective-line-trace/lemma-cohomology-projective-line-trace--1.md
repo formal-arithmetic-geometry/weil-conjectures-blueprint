@@ -5,6 +5,7 @@ title = "Cohomology of the projective line and the trace (1)"
 name_showing = false
 order = 546001
 aliases = ["bp-r164-1"]
+lean = ["AlgebraicGeometry.ProEtale.geoP1DecompositionMap", "AlgebraicGeometry.ProEtale.geoP1Cohomology"]
 +++
 Let $S$ be a Noetherian scheme on which $\ell$ is invertible, and let
 $p:\mathbf P^1_S\to S$ be the projection. The unit

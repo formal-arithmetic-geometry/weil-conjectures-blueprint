@@ -4,5 +4,6 @@ kind = "definition"
 title = "Alternating determinant"
 order = 1045004
 aliases = ["bp-r320-3"]
+lean = ["AlgebraicGeometry.weilDeterminantScalar", "AlgebraicGeometry.Scheme.map_weilDeterminantConstant_eq_det"]
 +++
 Put $D=\prod_i\det(F_i)^{(-1)^i}$.

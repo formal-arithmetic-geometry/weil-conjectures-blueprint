@@ -5,6 +5,7 @@ title = "Integral models for rational Frobenius correspondences (1)"
 name_showing = false
 order = 1014001
 aliases = ["bp-r309-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_integralModel_frobeniusCorrespondence"]
 +++
 Let $K_E\in\Dbc(X,E)$ and let
 $\psi_E:\Phi_X^*K_E\to K_E$ be any morphism. There

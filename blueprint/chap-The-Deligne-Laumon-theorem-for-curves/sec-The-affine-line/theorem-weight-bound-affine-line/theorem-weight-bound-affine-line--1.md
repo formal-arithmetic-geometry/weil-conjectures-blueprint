@@ -5,6 +5,7 @@ title = "The weight bound on the affine line (1)"
 name_showing = false
 order = 1301001
 aliases = ["bp-r402-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.hasWeightsAtMostOver_compactlySupportedCohomology_one"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open, and let
 $F$ be a lisse sheaf on $U_0$, pure of weight $w$ and unramified at

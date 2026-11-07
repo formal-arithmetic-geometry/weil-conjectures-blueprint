@@ -5,6 +5,7 @@ title = "The section defined by the specialized correspondence (2)"
 name_showing = false
 order = 1694003
 aliases = ["bp-r525-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.curry_comp_eq_supportSpecializationUnit_comp_map_comp"]
 +++
 Consequently, if $k_u:A_{C_\eta}\to c_\eta^!P_X$ is the section
 corresponding to $u$, then the section corresponding to $u_s$ is

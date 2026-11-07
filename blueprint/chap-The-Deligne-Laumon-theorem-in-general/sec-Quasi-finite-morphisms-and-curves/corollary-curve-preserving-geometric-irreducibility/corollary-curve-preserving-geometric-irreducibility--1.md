@@ -5,6 +5,7 @@ title = "A curve preserving geometric irreducibility (1)"
 name_showing = false
 order = 1333001
 aliases = ["bp-r411-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme of positive
 dimension. Given finitely many geometrically irreducible lisse Weil

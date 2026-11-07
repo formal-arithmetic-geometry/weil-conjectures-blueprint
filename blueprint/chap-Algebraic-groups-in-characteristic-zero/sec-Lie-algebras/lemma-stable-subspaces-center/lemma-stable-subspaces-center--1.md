@@ -5,6 +5,7 @@ title = "Stable subspaces and the center (1)"
 name_showing = false
 order = 1729001
 aliases = ["bp-r535-1"]
+lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant"]
 +++
 Let $G\subseteq\GL(V)$ be a connected closed subgroup and
 $r:G\to\GL(M)$ an algebraic representation. A subspace of $M$ is $G$-stable if and only if it is

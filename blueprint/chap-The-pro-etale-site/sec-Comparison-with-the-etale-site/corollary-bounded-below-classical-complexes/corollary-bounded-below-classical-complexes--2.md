@@ -5,6 +5,7 @@ title = "Bounded-below classical complexes (2)"
 name_showing = false
 order = 129003
 aliases = ["bp-r037-2"]
+lean = ["AlgebraicGeometry.ProEtale.classicalDerivedEquivalence"]
 +++
 There is an equivalence
 

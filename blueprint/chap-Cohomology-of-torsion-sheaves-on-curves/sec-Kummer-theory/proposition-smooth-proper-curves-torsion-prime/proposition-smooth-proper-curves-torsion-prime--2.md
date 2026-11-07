@@ -5,6 +5,7 @@ title = "Smooth proper curves, torsion prime to the characteristic (2)"
 name_showing = false
 order = 1579003
 aliases = ["bp-r491-2"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.exists_addEquiv_sheafH_rootsOfUnitySheaf_one_jacobian"]
 +++
 $$
 H^1(C,\mu_n)=J(C)[n](k).

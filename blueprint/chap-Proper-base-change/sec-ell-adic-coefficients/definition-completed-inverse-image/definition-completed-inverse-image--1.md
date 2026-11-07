@@ -5,6 +5,7 @@ title = "Completed inverse image (1)"
 name_showing = false
 order = 414001
 aliases = ["bp-r125-1"]
+lean = ["AlgebraicGeometry.Scheme.completedPullbackObject", "AlgebraicGeometry.Scheme.completedPullbackFunctor"]
 +++
 Let $g:Y'\to Y$ be a morphism. For $M\in D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the
 *completed inverse image* is

@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Dual of inverse image"
 order = 848006
 aliases = ["bp-r254-3"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_verdierDual"]
 +++
 On $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ there is the natural isomorphism
 

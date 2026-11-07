@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Functional equation"
 order = 1391030
 aliases = ["bp-r429-16"]
+lean = ["AlgebraicGeometry.Scheme.weil_functional_equation"]
 +++
 There is $\varepsilon\in\{1,-1\}$ such that
 

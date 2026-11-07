@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The fibre formula"
 order = 205003
 aliases = ["bp-r060-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport_fiber"]
 +++
 The functor $R\underline\Gamma_Z$ is computed by
 

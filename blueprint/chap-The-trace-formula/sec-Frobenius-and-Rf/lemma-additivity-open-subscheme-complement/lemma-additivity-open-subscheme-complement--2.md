@@ -5,6 +5,7 @@ title = "Additivity for an open subscheme and its complement (2)"
 name_showing = false
 order = 1003003
 aliases = ["bp-r306-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.trace_compactPullback_comp_eq_add"]
 +++
 Writing $T_{c_m}$ also for the endomorphisms
 of $R\Gamma_c$ induced by the Frobenius correspondences on $U$ and $Z$, for

@@ -5,6 +5,7 @@ title = "An unramified boundary point (1)"
 name_showing = false
 order = 1186001
 aliases = ["bp-r365-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeight_stalk_directImage_of_isLisse"]
 +++
 Let $\mathcal F$ be a lisse sheaf, pure of weight $a$, on a smooth
 geometrically connected curve with a point removed. If the inertia at the removed point acts

@@ -4,5 +4,6 @@ kind = "theorem"
 title = "Integral coefficients"
 order = 616002
 aliases = ["bp-r187-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightAdjoint_rightDerivedLowerShriekLocalizing_padicIntegersRingObj"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, one has $f^!_{\mathcal O_E}K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$.

@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Integral coefficients"
 order = 701004
 aliases = ["bp-r210-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_app_padicIntegers_of_smooth"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the map
 

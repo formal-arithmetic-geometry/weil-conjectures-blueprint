@@ -5,6 +5,7 @@ title = "Cohomological dimension (1)"
 name_showing = false
 order = 157001
 aliases = ["bp-r045-1"]
+lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension"]
 +++
 For a qcqs scheme $S$ and a qcqs morphism $g:X\to Y$, the
 *$\ell$-cohomological dimensions* are

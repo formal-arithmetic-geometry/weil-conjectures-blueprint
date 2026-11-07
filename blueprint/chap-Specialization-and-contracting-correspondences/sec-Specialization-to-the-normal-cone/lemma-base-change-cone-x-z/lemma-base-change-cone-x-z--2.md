@@ -5,6 +5,7 @@ title = "Base change for the cone of $\\tau_{X,Z}$ (2)"
 name_showing = false
 order = 1635003
 aliases = ["bp-r506-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_upperStar_iso"]
 +++
 $$
 \begin{aligned}

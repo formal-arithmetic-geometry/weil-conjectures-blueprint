@@ -5,6 +5,7 @@ title = "Logarithm of a determinant (1)"
 name_showing = false
 order = 1034001
 aliases = ["bp-r316-1"]
+lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 +++
 Let $L$ be a field of characteristic zero. For an endomorphism $v$ of
 a finite-dimensional $L$-vector space $V$ we have
