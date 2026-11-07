@@ -196,10 +196,43 @@ jobs:
               -name '*.setup.json' -delete
           fi
 
+      # The facts depend only on the pinned weil-conjectures revision, the extractor
+      # (lean-toolchain and the tool's Extract.lean) and the Lean names the blueprint
+      # asks for; scripts/facts-key.sh makes a key of the three. Facts extracted once
+      # are kept under it in the runner's home, which survives between runs, so a push
+      # that changes none of them (a website-only bump of the tool, say) reuses them
+      # instead of spending half an hour or more extracting the same facts again.
+      - name: Look up earlier Lean facts
+        id: facts
+        run: |
+          set -euo pipefail
+          store="$HOME/.cache/blueprint-facts"
+          rm -f lean-facts.json
+          bash scripts/facts-key.sh . | tee "$RUNNER_TEMP/facts-key.txt"
+          key=$(sed -n 's/^key=//p' "$RUNNER_TEMP/facts-key.txt")
+          { echo "key=$key"; echo "store=$store"; } >> "$GITHUB_OUTPUT"
+          if [ -s "$store/$key.json" ]; then
+            cp "$store/$key.json" lean-facts.json
+            echo "hit=true" >> "$GITHUB_OUTPUT"
+            echo "reusing the facts extracted earlier for this key"
+          else
+            echo "hit=false" >> "$GITHUB_OUTPUT"
+          fi
+
       # Proof status and the actual dependency graph, read out of the oleans.
-      # Modules come from `[lean] modules` in blueprint.toml.
+      # Modules come from `[lean] modules` in blueprint.toml. Stored for the next run
+      # with the same key; the ten newest are kept.
       - name: Extract the Lean facts
-        run: lake exe blueprint extract --root . --out lean-facts.json
+        if: steps.facts.outputs.hit != 'true'
+        env:
+          KEY: ${{ steps.facts.outputs.key }}
+          STORE: ${{ steps.facts.outputs.store }}
+        run: |
+          set -euo pipefail
+          lake exe blueprint extract --root . --out lean-facts.json
+          mkdir -p "$STORE"
+          cp lean-facts.json "$STORE/$KEY.json"
+          ls -t "$STORE"/*.json | tail -n +11 | xargs -r rm -f
 
       # Informational: the site is published regardless, and its checks page
       # shows the same findings. A content error, such as a Lean name that no
