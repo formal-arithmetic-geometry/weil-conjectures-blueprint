@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Transport of counits through a mate square"
 order = 646038
 aliases = ["bp-r197-19"]
+lean = ["CategoryTheory.mateEquiv_counit"]
 +++
 Let $F\dashv G$ and $F'\dashv G'$ be adjunctions, and suppose that the comparison isomorphisms $c_F:T_2F\simeq F'T_1$ and $c_G:T_1G\simeq G'T_2$ form a mate square, with $c_G$ the mate of $c_F^{-1}$. If $\varepsilon,\varepsilon'$ are the counits, then
 

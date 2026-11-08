@@ -5,6 +5,7 @@ title = "Open direct image preserves finite Tor amplitude (1)"
 name_showing = false
 order = 590001
 aliases = ["bp-r179-1"]
+lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.projection_torAmplitudeIn_rightDerivedLowerStar_of_isOpenImmersion"]
 +++
 Let $j:U\hookrightarrow X$ be an open immersion. Then
 $Rj_*:D(U_{\mathrm{pro}\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ restricts to

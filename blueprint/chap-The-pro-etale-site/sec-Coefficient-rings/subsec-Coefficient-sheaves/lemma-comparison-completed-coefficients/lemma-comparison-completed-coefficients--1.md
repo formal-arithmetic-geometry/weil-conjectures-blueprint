@@ -5,6 +5,7 @@ title = "Comparison with completed coefficients (1)"
 name_showing = false
 order = 178001
 aliases = ["bp-r051-1"]
+lean = ["AlgebraicGeometry.ProEtale.sfb_normalized_integral_quotient_cone"]
 +++
 Write $\mathcal O_{E,X}$, $E_X$ and $\QbarX$ for the pullbacks to
 $X_{\mathrm{pro}\acute{e}t}$ of $\underline{\mathcal O_E}$, $\underline E$ and

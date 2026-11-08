@@ -5,6 +5,7 @@ title = "Change-of-coefficients maps (1)"
 name_showing = false
 order = 632002
 aliases = ["bp-r191-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso"]
 +++
 For $K\in D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$, the isomorphism
 $(f^*K)_{\Lambda'}\simeq f^*(K_{\Lambda'})$ is the one given by

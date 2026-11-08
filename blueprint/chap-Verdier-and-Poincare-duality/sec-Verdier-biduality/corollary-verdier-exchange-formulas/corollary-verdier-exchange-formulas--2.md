@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Dual of ordinary direct image"
 order = 848004
 aliases = ["bp-r254-2"]
+lean = ["AlgebraicGeometry.WeilComplex.nonempty_verdierDual_derivedLowerStar_iso"]
 +++
 On $D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ there is the natural isomorphism
 

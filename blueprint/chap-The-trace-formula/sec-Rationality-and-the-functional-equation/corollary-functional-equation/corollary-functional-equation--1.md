@@ -4,5 +4,6 @@ kind = "definition"
 title = "Betti numbers"
 order = 1045002
 aliases = ["bp-r320-1"]
+lean = ["AlgebraicGeometry.Scheme.weilBettiNumber_eq_finrank"]
 +++
 Put $b_i=\dim_{\mathbf Q_\ell}H^i$.

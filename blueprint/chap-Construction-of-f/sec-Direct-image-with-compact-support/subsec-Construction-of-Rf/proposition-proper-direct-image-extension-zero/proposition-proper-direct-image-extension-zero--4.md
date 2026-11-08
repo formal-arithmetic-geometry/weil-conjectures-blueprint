@@ -4,5 +4,6 @@ kind = "proposition"
 title = "Proper direct sums: finite extension of $\\Ql$"
 order = 502008
 aliases = ["bp-r151-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.localizingBoundedConstructible_lowerStar_lowerShriek_continuousMapRingObj"]
 +++
 For proper $p:X\to Y$, $Rp_{*,E}$ preserves direct sums of objects of $\Loc(D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},E))$.

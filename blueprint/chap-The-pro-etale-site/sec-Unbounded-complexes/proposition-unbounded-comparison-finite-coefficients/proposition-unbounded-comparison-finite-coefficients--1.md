@@ -5,6 +5,7 @@ title = "Unbounded comparison for finite coefficients (1)"
 name_showing = false
 order = 166001
 aliases = ["bp-r049-1"]
+lean = ["AlgebraicGeometry.ProEtale.finiteCoefficientDerivedComparison_fullyFaithful"]
 +++
 Let $X$ and $Y$ be of finite type over the base field $k$, let
 $A$ be a finite commutative $\ell$-primary ring, and let

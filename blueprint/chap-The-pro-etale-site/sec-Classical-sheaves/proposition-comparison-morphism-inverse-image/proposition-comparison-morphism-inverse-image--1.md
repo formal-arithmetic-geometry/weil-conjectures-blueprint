@@ -5,6 +5,7 @@ title = "The comparison morphism and its inverse image (1)"
 name_showing = false
 order = 112001
 aliases = ["bp-r031-1"]
+lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar"]
 +++
 Inclusion of étale objects defines a morphism of topoi
 

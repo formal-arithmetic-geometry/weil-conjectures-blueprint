@@ -5,5 +5,6 @@ title = "Functoriality of the deformation (3)"
 name_showing = false
 order = 1632005
 aliases = ["bp-r505-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isPullback_zeroSectionSpecialFibreMap"]
 +++
 Moreover, $\widetilde f_s^{-1}(Z)=Z'$ schematically.

@@ -5,6 +5,7 @@ title = "The boundary stalk (1)"
 name_showing = false
 order = 1176001
 aliases = ["bp-r361-1"]
+lean = ["AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_stalk_directImage_boundaryStalk_eq_invariants"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open in a smooth curve, let
 $\mathcal F$ be a lisse Weil sheaf on $U_0$, and let $j_*$ be the

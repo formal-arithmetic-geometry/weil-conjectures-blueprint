@@ -5,6 +5,7 @@ title = "Cohomology of the projective line and the trace (3)"
 name_showing = false
 order = 546005
 aliases = ["bp-r164-3"]
+lean = ["AlgebraicGeometry.ProEtale.geoP1Trace"]
 +++
 Let
 

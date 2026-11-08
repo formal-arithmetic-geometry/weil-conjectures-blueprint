@@ -5,6 +5,7 @@ title = "Duality and invariants under $P$ (1)"
 name_showing = false
 order = 1681001
 aliases = ["bp-r521-1"]
+lean = ["Representation.invariantsDualEquiv", "CategoryTheory.invariantsDualIso", "CategoryTheory.uncurry_invariantsDualIso_hom"]
 +++
 Let $Y$ be a scheme of finite type over a separably closed field, and
 let $L\in D^b_{\mathrm{ctf}}(Y_{\acute et},A)$ carry a continuous action

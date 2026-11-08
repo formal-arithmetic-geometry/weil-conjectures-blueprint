@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Properness"
 order = 960008
 aliases = ["bp-r292-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isProper_hom"]
 +++
 Let $X_0$ be of finite type over $k_0=\Fq$, let $k$ be an algebraically
 closed extension of $k_0$, and let $\Phi_X$ be the model Frobenius on

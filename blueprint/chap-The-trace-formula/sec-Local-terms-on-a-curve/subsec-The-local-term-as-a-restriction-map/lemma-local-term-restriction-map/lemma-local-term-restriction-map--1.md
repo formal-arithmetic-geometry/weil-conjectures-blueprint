@@ -5,6 +5,7 @@ title = "The local term as a restriction map (1)"
 name_showing = false
 order = 966001
 aliases = ["bp-r294-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_point_traceClass_eq_supportedRestriction", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_frobeniusGraph_eq_supportedRestriction"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, let $X=X_0\times_{k_0}k$,
 let $K\in D^b_{\mathrm{ctf}}(X,A)$, and let $y$ be a

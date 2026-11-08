@@ -5,6 +5,7 @@ title = "Purity for vector bundles (1)"
 name_showing = false
 order = 741001
 aliases = ["bp-r223-1"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpace"]
 +++
 Let $\pi:V\to S$ be a vector bundle of rank $d$.
 For $K\in D^b_{\mathrm{ctf}}(S_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$, the trace map induces an

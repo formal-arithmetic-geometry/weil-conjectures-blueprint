@@ -5,6 +5,7 @@ title = "Purity and trace commute with Frobenius (4)"
 name_showing = false
 order = 882007
 aliases = ["bp-r265-4"]
+lean = ["AlgebraicGeometry.Etale.isWeilMorphism_smoothPurityIso_hom", "AlgebraicGeometry.Etale.PurityFrobeniusDatum.isWeilMorphism_schemeFrobenius_smoothPurityIso_hom"]
 +++
 With these identifications, and the Kummer identification
 $\operatorname{Fr}_T^*\Lambda_T(1)\simeq\Lambda_T(1)$ for the twists,

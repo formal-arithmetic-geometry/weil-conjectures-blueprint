@@ -5,6 +5,7 @@ title = "Base change maps and external duality (1)"
 name_showing = false
 order = 1669001
 aliases = ["bp-r517-1"]
+lean = ["CategoryTheory.exceptionalTwisted_of_constant"]
 +++
 Let $X$ be a separated $S$-scheme of finite type with projections
 $p_1,p_2$ of $X\times_SX$, and let $M\in D^b_c(X_\eta,A)$. Then the

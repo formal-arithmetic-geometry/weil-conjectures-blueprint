@@ -5,6 +5,7 @@ title = "Finite corrections (1)"
 name_showing = false
 order = 1208001
 aliases = ["bp-r372-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_le_max_of_traceEnergy_le_add"]
 +++
 Let $K$ and $L$ be constructible Weil complexes on an affine curve
 $X_0$, and let $a$ be a real number. Suppose that there is a constant

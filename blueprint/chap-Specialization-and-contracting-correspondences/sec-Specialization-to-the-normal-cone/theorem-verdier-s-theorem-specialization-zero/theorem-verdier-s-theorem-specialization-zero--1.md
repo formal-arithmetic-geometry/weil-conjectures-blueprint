@@ -5,6 +5,7 @@ title = "Verdier's theorem on specialization to the zero section (1)"
 name_showing = false
 order = 1644001
 aliases = ["bp-r509-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_zeroSectionMap"]
 +++
 For every separated $k$-scheme $X$ of finite type, every closed subscheme
 $Z\subset X$, and $K\in D^b_{\mathrm{ctf}}(X,A)$, the

@@ -5,6 +5,7 @@ title = "Dense compactifications form a cofiltered category (2)"
 name_showing = false
 order = 1419003
 aliases = ["bp-r439-2"]
+lean = ["AlgebraicGeometry.Compactification.refinement_morphisms"]
 +++
 Morphisms between dense compactifications that
 restrict to the identity on $X$ are unique, proper, and automatically satisfy

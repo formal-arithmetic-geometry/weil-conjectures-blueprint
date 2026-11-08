@@ -5,6 +5,7 @@ title = "Projection formula with rational coefficients (2)"
 name_showing = false
 order = 604003
 aliases = ["bp-r183-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_of_localizingBoundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_of_localizingBoundedConstructible_padicAlgClRingObj"]
 +++
 and for proper $p:X\to Y$ the map
 $(Rp_*M)\otimes^{\mathbf L}N\to Rp_*(M\otimes^{\mathbf L}p^*N)$ is an

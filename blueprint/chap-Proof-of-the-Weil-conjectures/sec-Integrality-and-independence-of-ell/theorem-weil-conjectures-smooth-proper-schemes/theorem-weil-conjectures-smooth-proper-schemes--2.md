@@ -4,5 +4,6 @@ kind = "theorem"
 title = "Uniqueness of the characteristic polynomials"
 order = 1391004
 aliases = ["bp-r429-2"]
+lean = ["AlgebraicGeometry.Scheme.IsIntegralFrobeniusFactor.unique"]
 +++
 The family of polynomials satisfying the preceding normalization and comparison conditions is unique.

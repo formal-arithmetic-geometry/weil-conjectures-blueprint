@@ -5,6 +5,7 @@ title = "Acyclic resolutions (1)"
 name_showing = false
 order = 346001
 aliases = ["bp-r106-1"]
+lean = ["CategoryTheory.Functor.rightDerivedObjIsoOfResolution", "CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic", "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor
 between abelian categories with enough injectives. If

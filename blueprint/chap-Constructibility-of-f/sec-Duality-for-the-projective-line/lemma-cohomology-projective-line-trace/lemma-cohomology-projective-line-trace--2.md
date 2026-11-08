@@ -5,6 +5,7 @@ title = "Cohomology of the projective line and the trace (2)"
 name_showing = false
 order = 546003
 aliases = ["bp-r164-2"]
+lean = ["AlgebraicGeometry.ProEtale.geoP1Cohomology"]
 +++
 compatible with base change in the sense that for $g:S'\to S$ with $S'$
 Noetherian, the base change map $g^*Rp_*\Lambda\to Rp'_*\Lambda$ carries the pullback of (6.4) to (6.4) for

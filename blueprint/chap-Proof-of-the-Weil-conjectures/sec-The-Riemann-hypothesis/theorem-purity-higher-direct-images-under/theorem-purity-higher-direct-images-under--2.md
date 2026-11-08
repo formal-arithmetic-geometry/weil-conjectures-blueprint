@@ -5,6 +5,7 @@ title = "Purity of higher direct images under a smooth proper morphism (2)"
 name_showing = false
 order = 1372003
 aliases = ["bp-r423-2"]
+lean = ["AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_higherLowerStar"]
 +++
 and this constructible sheaf is punctually
 $\iota$-pure of weight $w+i$.

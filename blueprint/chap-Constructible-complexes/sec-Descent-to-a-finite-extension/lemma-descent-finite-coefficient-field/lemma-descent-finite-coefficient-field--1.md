@@ -5,6 +5,7 @@ title = "Descent to a finite coefficient field (1)"
 name_showing = false
 order = 285001
 aliases = ["bp-r085-1"]
+lean = ["AlgebraicGeometry.ProEtale.coefficient_finite_descent_hom"]
 +++
 For $C,D\in\Dbc(X,E)$ and every integer $r$, extension of scalars
 induces an isomorphism

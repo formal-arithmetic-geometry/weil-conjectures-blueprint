@@ -5,6 +5,7 @@ title = "Proper pushforward and Lefschetz–Verdier (3)"
 name_showing = false
 order = 926005
 aliases = ["bp-r281-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.BorelMooreSection.integral_eq_sum_localTerm"]
 +++
 $$
 \int_{\Fix(c)}\operatorname{Tr}_c(u)=\sum_B\operatorname{LT}_B(u).

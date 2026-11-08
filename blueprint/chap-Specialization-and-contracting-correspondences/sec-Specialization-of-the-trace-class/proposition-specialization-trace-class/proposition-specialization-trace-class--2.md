@@ -5,6 +5,7 @@ title = "Specialization of the trace class (2)"
 name_showing = false
 order = 1689003
 aliases = ["bp-r523-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.TraceSpecialization.sp"]
 +++
 For a section $z:A_{F_\eta}\to\omega_{F_\eta}$ of the dualizing complex, its
 specialization is

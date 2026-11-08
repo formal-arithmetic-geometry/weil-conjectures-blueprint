@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Integral finite extension"
 order = 187006
 aliases = ["bp-r054-3"]
+lean = ["AlgebraicGeometry.ProEtale.cartesianCoefficients_finiteFree"]
 +++
 For a finite extension $E\subset E'$, the sheaf $\mathcal O_{E',X}$ is finite free over $\mathcal O_{E,X}$.

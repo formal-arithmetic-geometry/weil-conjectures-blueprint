@@ -5,6 +5,7 @@ title = "Detecting irreducibility in a finite quotient (1)"
 name_showing = false
 order = 1327001
 aliases = ["bp-r409-1"]
+lean = ["Representation.exists_forall_isIrreducible_baseChange_of_congr"]
 +++
 Let $\Pi$ be profinite and let $\rho:\Pi\to\GL_E(V)$
 be continuous and absolutely irreducible, with $\dim_E V=n$.

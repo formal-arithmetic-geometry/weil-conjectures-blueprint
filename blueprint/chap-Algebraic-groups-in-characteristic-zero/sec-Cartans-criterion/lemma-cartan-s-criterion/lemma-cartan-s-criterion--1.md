@@ -5,6 +5,7 @@ title = "Cartan's criterion (1)"
 name_showing = false
 order = 1737001
 aliases = ["bp-r538-1"]
+lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
 +++
 Let $M$ be a finite-dimensional $\Omega$-vector space, and let
 $\mathfrak a\subseteq\operatorname{End}(M)$ be a Lie subalgebra

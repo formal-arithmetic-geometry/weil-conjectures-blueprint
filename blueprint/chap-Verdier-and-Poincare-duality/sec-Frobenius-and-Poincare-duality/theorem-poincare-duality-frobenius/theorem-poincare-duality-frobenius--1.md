@@ -4,6 +4,7 @@ kind = "definition"
 title = "Contragredient Weil structure"
 order = 885002
 aliases = ["bp-r266-1"]
+lean = ["AlgebraicGeometry.Etale.contragredientWeilDatum", "AlgebraicGeometry.Etale.contragredientWeilDatumIso"]
 +++
 Equip $K^\vee$ with the Weil structure
 

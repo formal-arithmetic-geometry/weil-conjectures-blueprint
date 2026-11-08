@@ -5,5 +5,6 @@ title = "Change of coefficients for compactly supported direct image (2)"
 name_showing = false
 order = 638003
 aliases = ["bp-r194-2"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.BoundedConstructibleCoefficientChange.squareCompatible_lowerShriekOfCompactificationIso"]
 +++
 and it does not depend on the compactification.

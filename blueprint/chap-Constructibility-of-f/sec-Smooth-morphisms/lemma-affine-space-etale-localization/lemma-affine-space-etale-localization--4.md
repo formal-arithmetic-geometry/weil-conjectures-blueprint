@@ -5,6 +5,7 @@ title = "Affine space and étale localization (4)"
 name_showing = false
 order = 558008
 aliases = ["bp-r168-4"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftDerivedUpperStar_of_etale"]
 +++
 Let $f:X\to S$ be separated of finite type, let
 $N\in D_{\mathrm{class}}(S_{\mathrm{pro}\acute{e}t},\Lambda)$, and let $u:U\to X$ be separated, étale

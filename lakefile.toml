@@ -18,7 +18,7 @@ rev = "main"
 [[require]]
 name = "weil-conjectures"
 git = "https://github.com/formal-arithmetic-geometry/weil-conjectures"
-# The branch the blueprint is extracted against: it names declarations (the Nagata
-# compactification, the Chow lemma, the Segre embedding) that master does not
-# carry yet. Move this to "master" once that work has landed there.
-rev = "slopmaster2"
+# The branch the blueprint is extracted against. Every Lean name of the blueprint
+# is declared on master (master 0dd0a42: `blueprint extract` finds all of them),
+# and the cluster's Lake cache covers master's commits.
+rev = "master"

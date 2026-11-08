@@ -5,6 +5,7 @@ title = "Proper base change on the localizing categories (1)"
 name_showing = false
 order = 508001
 aliases = ["bp-r153-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizing_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizing_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_baseChangeMap_of_localizingBoundedConstructible_padicIntegersRingObj"]
 +++
 Let $\Lambda$ be admissible. Consider a cartesian square
 

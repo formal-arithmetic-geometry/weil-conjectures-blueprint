@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Evaluation isomorphism"
 order = 825016
 aliases = ["bp-r246-8"]
+lean = ["DerivedCategory.IsPerfect.isIso_toIhomIhomUnit"]
 +++
 For each such $P$, the evaluation map
 

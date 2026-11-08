@@ -4,5 +4,6 @@ kind = "definition"
 title = "Euler characteristic"
 order = 1045003
 aliases = ["bp-r320-2"]
+lean = ["Polynomial.alternatingNatDegreeSum"]
 +++
 Put $\chi=\sum_i(-1)^ib_i$.

@@ -5,6 +5,7 @@ title = "Relative Noether normalization over a stratification (1)"
 name_showing = false
 order = 1361001
 aliases = ["bp-r421-1"]
+lean = ["AlgebraicGeometry.exists_partition_isFinite_toIteratedAffineLine"]
 +++
 Let $f:X_0\to Y_0$ be a morphism of finite type. There are finite
 partitions of $X_0$ and of $Y_0$ into locally closed pieces such that

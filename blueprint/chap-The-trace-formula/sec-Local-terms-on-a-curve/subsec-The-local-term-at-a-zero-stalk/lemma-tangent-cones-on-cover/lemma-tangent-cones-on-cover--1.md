@@ -5,6 +5,7 @@ title = "Tangent cones on the cover (1)"
 name_showing = false
 order = 985001
 aliases = ["bp-r300-1"]
+lean = ["AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.flat_π", "AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.free_and_finrank_π", "AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.etale_π_openComplement", "AlgebraicGeometry.Etale.CurveLocalModel.CoverDatum.natCard_geometricFiber_π"]
 +++
 For $i=1,2$ let $X_i'\to X_i$ be a finite flat morphism of degree $d$ as in
 Lemma [lemma-covers-degree-prime-to-ell], with $y_i'$ the point over

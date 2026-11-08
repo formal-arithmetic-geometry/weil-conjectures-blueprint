@@ -5,6 +5,7 @@ title = "Global Verdier duality (3)"
 name_showing = false
 order = 852005
 aliases = ["bp-r255-3"]
+lean = ["AlgebraicGeometry.Etale.uncurry_derivedHomLowerShriekIsoOfAdjunction_hom_app_app"]
 +++
 The first is the adjoint of the pairing formed by the cup product
 with mixed supports, evaluation, and the counit $\varepsilon_{a_X}$ of

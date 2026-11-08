@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Even-degree product"
 order = 1389004
 aliases = ["bp-r428-2"]
+lean = ["AlgebraicGeometry.Scheme.integral_recovery"]
 +++
 In $\mathbf Q_\ell[T]$, one has $B=\prod_{i\ \mathrm{even}}P_{i,\ell}$.

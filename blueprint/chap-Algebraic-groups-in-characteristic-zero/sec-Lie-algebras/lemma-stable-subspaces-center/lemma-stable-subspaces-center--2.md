@@ -5,6 +5,7 @@ title = "Stable subspaces and the center (2)"
 name_showing = false
 order = 1729003
 aliases = ["bp-r535-2"]
+lean = ["AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
 +++
 Moreover
 

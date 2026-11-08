@@ -5,6 +5,7 @@ title = "Theorem of the cube (1)"
 name_showing = false
 order = 1489001
 aliases = ["bp-r463-1"]
+lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
 +++
 Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points
 $x\in X(k)$ and $y\in Y(k)$, let $Z$ be a connected $k$-scheme of finite

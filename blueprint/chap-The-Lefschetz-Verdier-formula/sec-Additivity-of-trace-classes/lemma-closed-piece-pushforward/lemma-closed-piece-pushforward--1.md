@@ -5,6 +5,7 @@ title = "The closed piece as a pushforward (1)"
 name_showing = false
 order = 940001
 aliases = ["bp-r286-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.upperStar_map_unit_comp_restrictedClosedPieceCoeff"]
 +++
 In the situation of
 Lemma [lemma-lift-correspondence-invariant-decomposition], put

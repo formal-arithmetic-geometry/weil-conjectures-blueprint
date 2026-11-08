@@ -5,6 +5,7 @@ title = "Change of coefficients for compactly supported direct image (1)"
 name_showing = false
 order = 638001
 aliases = ["bp-r194-1"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerShriekOfCompactificationExtendScalarsMap_app"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above, every separated morphism
 $f:X\to Y$ of finite type and every $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, the map

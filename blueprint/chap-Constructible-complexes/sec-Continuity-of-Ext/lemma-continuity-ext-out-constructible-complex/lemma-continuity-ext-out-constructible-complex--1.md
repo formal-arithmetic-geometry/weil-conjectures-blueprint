@@ -5,6 +5,7 @@ title = "Continuity of Ext (1)"
 name_showing = false
 order = 280001
 aliases = ["bp-r084-1"]
+lean = ["AlgebraicGeometry.ProEtale.constructible_ext_continuity"]
 +++
 Let $(K_\alpha^\bullet)$ be a filtered diagram of complexes of
 $\Lambda_X$-modules that all vanish below a fixed degree, and let $M$ be

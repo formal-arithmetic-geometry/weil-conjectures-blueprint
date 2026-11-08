@@ -5,6 +5,7 @@ title = "Tensor and exterior powers of filtered representations (2)"
 name_showing = false
 order = 1127003
 aliases = ["bp-r345-2"]
+lean = ["Representation.CompositionSeries.hasGradedPieces_exteriorPower", "Representation.nontrivial_piTensorProduct_exteriorPower_iff"]
 +++
 There is a $W(U_0)$-stable filtration of $\bigwedge^rV$ with graded pieces
 

@@ -5,6 +5,7 @@ title = "Cohomology of a smooth affine curve (1)"
 name_showing = false
 order = 1584001
 aliases = ["bp-r493-1"]
+lean = ["AlgebraicGeometry.Scheme.residueSequence_exact", "AlgebraicGeometry.Scheme.gysinH2_eq_zero_iff"]
 +++
 Let $\overline C$ be a smooth proper connected curve of genus $g$
 over an algebraically closed field $k$.  Let

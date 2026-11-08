@@ -5,6 +5,7 @@ title = "Contracting local terms at a point (1)"
 name_showing = false
 order = 1715001
 aliases = ["bp-r532-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_eq_integral_of_isContractingAt"]
 +++
 Let $y\in X(k)$, and suppose that $c_1^{-1}(y)$ is a single reduced point
 $z$, with $c_2(z)=y$. Suppose that $F_0=\{z\}$ is an isolated reduced

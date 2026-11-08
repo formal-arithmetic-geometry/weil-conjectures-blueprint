@@ -5,6 +5,7 @@ title = "Rigidity (1)"
 name_showing = false
 order = 1492001
 aliases = ["bp-r464-1"]
+lean = ["AlgebraicGeometry.exists_mem_and_comp_eq_of_subsingleton_image"]
 +++
 Let $X$ be a proper geometrically integral $k$-scheme, let $Y$ be a
 $k$-scheme of finite type, let $Z$ be a $k$-scheme, and let

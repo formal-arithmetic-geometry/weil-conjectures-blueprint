@@ -5,6 +5,7 @@ title = "Affine space and étale localization (5)"
 name_showing = false
 order = 558010
 aliases = ["bp-r168-5"]
+lean = ["AlgebraicGeometry.Etale.existsUnique_etaleAmbientAdjointLocalityIso"]
 +++
 under which the counit of $R(fu)_!\dashv(fu)^!$ is the composite
 

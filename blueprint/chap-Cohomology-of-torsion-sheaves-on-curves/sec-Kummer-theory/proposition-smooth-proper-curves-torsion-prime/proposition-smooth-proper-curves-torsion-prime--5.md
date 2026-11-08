@@ -5,6 +5,7 @@ title = "Smooth proper curves, torsion prime to the characteristic (5)"
 name_showing = false
 order = 1579009
 aliases = ["bp-r491-5"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.rootsOfUnityCohomologyMap_baseChangeField"]
 +++
 These identifications commute with extension
 of algebraically closed fields.

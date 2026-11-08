@@ -5,6 +5,7 @@ title = "The section defined by the specialized correspondence (1)"
 name_showing = false
 order = 1694001
 aliases = ["bp-r525-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.map_exceptionalHomIso_inv_comp_supportHomSpecialization_of_kunneth"]
 +++
 In the setting above,
 

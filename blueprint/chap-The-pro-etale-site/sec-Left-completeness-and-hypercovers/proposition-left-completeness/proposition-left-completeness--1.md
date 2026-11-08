@@ -5,6 +5,7 @@ title = "Left completeness (1)"
 name_showing = false
 order = 97001
 aliases = ["bp-r026-1"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.left_complete_quasiIso", "DerivedCategory.isHomotopyLimit_truncGECone"]
 +++
 The standard $t$-structure on $D(X_{\mathrm{pro}\acute{e}t},\mathcal R)$ is left complete:
 for every complex $K$ the natural map

@@ -5,6 +5,7 @@ title = "The Künneth map on a slice (3)"
 name_showing = false
 order = 1659005
 aliases = ["bp-r514-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.map_kunnethMap_sliceSpecial_comp_pullbackExchange"]
 +++
 $$
 R\Psi_{(X\times Y)/S}(L\boxtimes M)|_{s'}\simeq(R\Psi_{(X'\times Y')/S'}(L'\boxtimes M'))^P.

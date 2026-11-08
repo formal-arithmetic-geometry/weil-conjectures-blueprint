@@ -5,6 +5,7 @@ title = "Repleteness (1)"
 name_showing = false
 order = 84001
 aliases = ["bp-r021-1"]
+lean = ["CategoryTheory.GrothendieckTopology.IsReplete"]
 +++
 A topos $\mathcal T$ is *replete* if, for every inverse sequence
 $\cdots\to F_2\to F_1\to F_0$ of sheaves of sets with epimorphic
