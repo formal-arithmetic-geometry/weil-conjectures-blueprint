@@ -15,6 +15,7 @@ assets = "site-assets"   # copied into the site as assets/
 blog = "blog"            # posts, Markdown and PDFs, on the Blog page
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
+docgen = "https://formal-arithmetic-geometry.github.io/weil-conjectures/"   # doc-gen4 documentation; Lean names link to their pages
 pdfScopes = ["part", "chapter", "appendix", "chap-Introduction"]   # PDFs of the whole, each part, each chapter (appendices too) and the introduction; no section, not the references
 pdfDetails = false       # PDFs hold the sketch only: no declaration inside another, nor what is below it
 pdfReferences = "all"    # every PDF ends with the whole bibliography, on a new page
