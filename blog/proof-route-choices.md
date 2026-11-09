@@ -1,9 +1,8 @@
 +++
 title = "Notes on Proof Route Choices in the Weil Conjectures Blueprint"
+author = "Xiangyu Pan"
 date = "October 2026"
 +++
-
-*Xiangyu Pan*
 
 *PDF version:* <a href="files/NOTES%20ON%20PROOF%20ROUTE%20CHOICES.pdf" download>NOTES ON PROOF ROUTE CHOICES.pdf</a>
 

@@ -1,9 +1,8 @@
 +++
 title = "Challenges and Lessons from Human-Led Formalization"
+author = "Nailin Guan"
 date = "October 2026"
 +++
-
-*Weil Conjectures Project*
 
 *PDF version:* <a href="files/Lessons%20from%20Human-Led%20Weil%20Formalization.pdf" download>Lessons from Human-Led Weil Formalization.pdf</a>
 
