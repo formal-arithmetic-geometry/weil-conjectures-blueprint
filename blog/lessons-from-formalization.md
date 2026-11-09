@@ -4,11 +4,11 @@ author = "Nailin Guan"
 date = "October 2026"
 +++
 
-*PDF version:* <a href="files/Lessons%20from%20Human-Led%20Weil%20Formalization.pdf" download>Lessons from Human-Led Weil Formalization.pdf</a>
+*PDF version:* <a href="files/FormalizationReport_refined.pdf" download>FormalizationReport_refined.pdf</a>
 
 The Weil conjectures project relies heavily on category theory, particularly
 derived categories. This has presented challenges at two different levels:
-technical difficulties, most notably with the performance of Lean's kernel, and
+technical difficulties, most notably with the performance of Lean’s kernel, and
 broader questions about how to choose and organize the mathematical
 constructions underlying the formalization. Here we describe several concrete
 problems we encountered, how we addressed them, and what they taught us about
@@ -113,9 +113,9 @@ lemmas already characterized the natural transformation at the level where it
 was used.
 
 This is a reusable technique: marking a construction that already
-characterized by related lemmas `@[no_expose]`. However, it isn't widely
+characterized by related lemmas `@[no_expose]`. However, it isn’t widely
 applicable, since there need to be suitable declaration with enough
-characterization to work on, for example even until now we didn't find a way
+characterization to work on, for example even until now we didn’t find a way
 to replace the workaround by marking some `@[no_expose]`, because it is too
 close to the basic constructions of pullback and pushforward. Thus,
 `@[no_expose]` is particularly attractive when the existing API already
@@ -134,7 +134,7 @@ checking. We found that changing `Functor.IsLeftDerivedFunctor₂` from an
 
 This is because instead of `abbrev` that would expand in kernel directly,
 because any `def` is marked as regular, the kernel could use same-head argument
-comparison through lazy delta reduction i.e. doing congr, checking whether they
+comparison through lazy delta reduction i.e. doing `congr`, checking whether they
 are directly syntactically equal. (The `@[reducible]` attribute was only
 retained to preserve the intended elaboration behavior.)
 
@@ -142,7 +142,7 @@ We are especially grateful to Professor Joël Riou for providing the first
 construction of the derived tensor product (in [Mathlib4 PR 25848](https://github.com/leanprover-community/mathlib4/pull/25848)). Based on
 this, here we managed to improve the performance of the surrounding
 development. As reflected in Mathlib4 `IsLeftDerivedFunctor₂`, the multivariate
-derived-functor definitions are now `@[reducible] def`s rather than abbev.
+derived-functor definitions are now `@[reducible] def`s rather than `abbev`.
 
 ### 1.3 Timeout in the Derived-Completion Cone
 
@@ -164,7 +164,7 @@ noncomputable def DerivedCategory.derivedCompletionCone
 In our investigation, `Kernel.check(type)` and `Kernel.check(value)` both
 completed in a reasonable time, whereas `Kernel.isDefEq(inferredType,
 declaredType)` timed out. The comparison involved proof terms that were not
-syntactically identical after Lean's `abstractNestedProofs` processing. Such
+syntactically identical after Lean’s `abstractNestedProofs` processing. Such
 differences are ordinarily harmless because of proof irrelevance, but the
 kernel may still have to compare the propositions in which the proofs live.
 Here those propositions involved large proof-carrying instance expressions,
@@ -211,8 +211,8 @@ optimization was therefore to move the equality obligation above the expensive
 projections, rather than merely splitting the proof into smaller lemmas.
 
 Second, passing a compatibility `Prop` to a generic constructor could trigger
-an expensive type conversion. Although the theorem's type and the
-constructor's expected binder proposition were definitionally equal, their
+an expensive type conversion. Although the theorem’s type and the
+constructor’s expected binder proposition were definitionally equal, their
 elaborated expressions are not directly syntactically equal. Unfolding and
 comparing the large propositions could lead to extensive recursive reduction.
 We addressed this by giving the compatibility condition a stable name using an
@@ -236,8 +236,8 @@ kernel-checking context, where it proved substantially cheaper. An `abbrev`
 did not give the same benefit, because it led to more aggressive unfolding.
 
 These remedies addressed different bottlenecks. The first changed where a
-proof's equality was established, while the second made the type of a proof
-argument easier for the kernel to match against the constructor's expected
+proof’s equality was established, while the second made the type of a proof
+argument easier for the kernel to match against the constructor’s expected
 binder type. Together they made the entire file as much as five times faster
 to check; applying either strategy alone still left a significant
 type-checking bottleneck.
@@ -259,7 +259,7 @@ conventional mathematical writing, but a formalization project must make them
 explicit at the right time.
 
 There are hidden or vague parts in natural language that needs to be pinned
-down, for example universe issue, which wouldn't be exhibited in any natural
+down, for example universe issue, which wouldn’t be exhibited in any natural
 language proof. Initially, we considered `X : Scheme.{u}` and a Grothendieck
 abelian coefficient category `A` of universe level `u`. In this setting, we
 could construct the sheafification of `A`-valued presheaves on the *étale* site
@@ -274,12 +274,12 @@ development. Identifying such constraints immediately after the blueprint
 stage, before large-scale formalization began, would have saved considerable
 rework.
 
-Apart from corners that haven't being considered in natural language, the
+Apart from corners that haven’t being considered in natural language, the
 blueprint itself should also be adjusted for formalization, it cannot always
 use the same shorthand as a blueprint for human readers. For example, despite
 its suggestive notation, $Rf_!$ is not simply the total right-derived functor
 of the underived $f_!$. While I was not sufficiently familiar with this part of
-the mathematics thus not aware of this difference, Opus also didn't notice and
+the mathematics thus not aware of this difference, Opus also didn’t notice and
 correct the implementation either. Similar ambiguities arise in the
 six-functor notation: identical symbols can refer to functors constructed with
 different coefficient categories, sometimes by quite different methods. A
