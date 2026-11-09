@@ -19,7 +19,7 @@ docgen = "https://formal-arithmetic-geometry.github.io/weil-conjectures/"   # do
 pdfScopes = ["part", "chapter", "appendix", "chap-Introduction"]   # PDFs of the whole, each part, each chapter (appendices too) and the introduction; no section, not the references
 pdfDetails = false       # PDFs hold the sketch only: no declaration inside another, nor what is below it
 pdfReferences = "all"    # every PDF ends with the whole bibliography, on a new page
-visits = true            # count the visits (each time the site is opened in a browser tab, through the comment server) and show the number on the Progress page
+visits = true            # count the visits (once per browser tab, through the comment server): the site's on the Progress page, each blog note's on its page
 
 # Comments go to Zulip, one topic per object; public ones are also shown below
 # the page. The bot comes from BLUEPRINT_ZULIP_EMAIL and BLUEPRINT_ZULIP_KEY
