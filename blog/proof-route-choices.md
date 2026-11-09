@@ -3,6 +3,8 @@ title = "Notes on Proof Route Choices in the Weil Conjectures Blueprint"
 date = "October 2026"
 +++
 
+*Xiangyu Pan*
+
 *PDF version:* <a href="files/NOTES%20ON%20PROOF%20ROUTE%20CHOICES.pdf" download>NOTES ON PROOF ROUTE CHOICES.pdf</a>
 
 *Abstract.* We explain the rationale behind the choice of constructions and
@@ -12,11 +14,11 @@ applicable tools.
 
 This note records the rationale behind our proof-route choices in the Weil
 conjectures. We first state the general principles that guide the proof as a
-whole (§1), then discuss the choices made for individual topics (§2). The route
+whole ([§1](#sec-1)), then discuss the choices made for individual topics ([§2](#sec-2)). The route
 itself uses modern methods for a good part of the argument, some of which have
 not been written down in this setting before.
 
-## 1. Guiding principles
+## <span id="sec-1"></span>1. Guiding principles
 
 **Ordinary categories.** We work only with 1-categories. Using higher category
 theory, such as 2-categories or $\infty$-categories, would make the proof depend
@@ -38,17 +40,17 @@ in *Weil II* [[D2](#ref-D2)] over the route via Lefschetz pencils in *Weil I*
 [[D1](#ref-D1)]: the result of *Weil II* is more general than that of *Weil
 I*; weight theory and the Fourier transform tend to be used more broadly in the
 literature than Lefschetz-pencil theory; and the improved Fourier-transform
-proof adopted here avoids vanishing cycles (§2.6), whereas the Lefschetz-pencil
+proof adopted here avoids vanishing cycles ([§2.6](#sec-2-6)), whereas the Lefschetz-pencil
 proof relies on them.
 
 For coefficients we choose $\ell$-adic, specifically pro-étale, cohomology.
-Pro-étale cohomology is already available in Mathlib, and the proetale
+Pro-étale cohomology is already available in Mathlib, and the `proetale`
 repository [[JM](#ref-JM)] formalizes the comparison theorems with étale cohomology, so
 this material can be reused rather than developed from scratch. By contrast,
 the $p$-adic alternative relevant here is rigid cohomology, which would require
 developing a separate foundation, including rigid analytic spaces.
 
-## 2. Choices for individual topics
+## <span id="sec-2"></span>2. Choices for individual topics
 
 The choices below are grouped by topic; each records what we chose and why.
 
@@ -75,8 +77,8 @@ higher-categorical framework of the paper.
 ### 2.2. Proper and smooth base change
 
 We use the Stacks Project proofs of proper and smooth base change [Stacks, Tags
-[095T](https://stacks.math.columbia.edu/tag/095T),
-[0EYU](https://stacks.math.columbia.edu/tag/0EYU)]. The proper-base-change
+[`095T`](https://stacks.math.columbia.edu/tag/095T),
+[`0EYU`](https://stacks.math.columbia.edu/tag/0EYU)]. The proper-base-change
 argument remains close to SGA 4, while the direct smooth-base-change argument
 avoids the local-acyclicity formalism used in the classical organization [[SGA4](#ref-SGA4),
 Exp. XVI]. Their use of curve cohomology fits well with the Jacobian theory
@@ -96,18 +98,18 @@ reader, since the same construction is used in intersection theory [[Ful](#ref-F
 Lefschetz–Verdier pairing of SGA 5 [[SGA5](#ref-SGA5), Exp. III]. The Nielsen–Wecken type
 route in SGA 4½ [[SGA4½](#ref-SGA4half), *Rapport sur la formule des traces*], also followed by
 the Stacks Project [Stacks, Tags
-[03U1](https://stacks.math.columbia.edu/tag/03U1),
-[03UF](https://stacks.math.columbia.edu/tag/03UF)], uses Weil's fixed-point
+[`03U1`](https://stacks.math.columbia.edu/tag/03U1),
+[`03UF`](https://stacks.math.columbia.edu/tag/03UF)], uses Weil’s fixed-point
 theorem for curves [[Wei](#ref-Wei)]. Taking that route would require
-developing Weil's classical algebraic geometry and classical, non-derived
+developing Weil’s classical algebraic geometry and classical, non-derived
 intersection theory. The Lefschetz–Verdier pairing instead reuses our
 six-functor formalism and is useful for later applications.
 
 **The Künneth formula.** For the ordinary, non-compact-support Künneth formula
 needed in the Künneth–Verdier isomorphism, we choose the direct Stacks Project
-proof [Stacks, Tag [0F1P](https://stacks.math.columbia.edu/tag/0F1P)] to avoid
+proof [Stacks, Tag [`0F1P`](https://stacks.math.columbia.edu/tag/0F1P)] to avoid
 the general acyclicity machinery. For the pairing itself we follow SGA 5 rather
-than the relative formulation of Lu–Zheng [[LZ](#ref-LZ)]: the latter's
+than the relative formulation of Lu–Zheng [[LZ](#ref-LZ)]: the latter’s
 2-categorical framework and broader relative setting would add more work beyond
 our application over a finite field.
 
@@ -129,12 +131,12 @@ irreducible lisse Weil sheaves, rather than deriving it from the geometric
 monodromy results as in [[D2](#ref-D2), Prop. 1.3.14]. This reduces its prerequisites of
 the trace formula for Weil sheaves.
 
-### 2.6. The Deligne–Laumon estimate
+### <span id="sec-2-6"></span>2.6. The Deligne–Laumon estimate
 
 We use a further refinement of the Fourier–Deligne approach, taking
-Kiehl–Weissauer's treatment [[KW](#ref-KW), Chap. I] as a reference. This version is not
-Laumon's original argument [[Lau](#ref-Lau)], but a refinement that avoids
-vanishing cycles. Compared with Deligne's original proof [[D2](#ref-D2), §3] and Laumon's
+Kiehl–Weissauer’s treatment [[KW](#ref-KW), Chap. I] as a reference. This version is not
+Laumon’s original argument [[Lau](#ref-Lau)], but a refinement that avoids
+vanishing cycles. Compared with Deligne’s original proof [[D2](#ref-D2), §3] and Laumon’s
 original development, it has the advantage of a smaller set of prerequisites
 compatible with our 1-categorical foundations.
 
@@ -160,13 +162,13 @@ theorem retains the generality that motivated our choice of the Weil II route.
   sheaves on schemes*, Adv. Math. **429** (2023), article 109179.
   [doi:10.1016/j.aim.2023.109179](https://doi.org/10.1016/j.aim.2023.109179).
 - [<span id="ref-JM">JM</span>] J. Jiang and C. Merten, *Proétale cohomology in Lean*, GitHub
-  repository, <https://github.com/chrisflav/proetale>, accessed 30 October 2026.
+  repository, [`https://github.com/chrisflav/proetale`](https://github.com/chrisflav/proetale), accessed 30 October 2026.
 - [<span id="ref-KW">KW</span>] R. Kiehl and R. Weissauer, *Weil Conjectures, Perverse
-  Sheaves and l'adic Fourier Transform*, Ergebnisse der Mathematik und ihrer
+  Sheaves and l’adic Fourier Transform*, Ergebnisse der Mathematik und ihrer
   Grenzgebiete (3), vol. 42, Springer-Verlag, Berlin–Heidelberg, 2001.
   [doi:10.1007/978-3-662-04576-3](https://doi.org/10.1007/978-3-662-04576-3).
 - [<span id="ref-Lau">Lau</span>] G. Laumon, *Transformation de Fourier, constantes
-  d'équations fonctionnelles et conjecture de Weil*, Publ. Math. IHÉS **65**
+  d’équations fonctionnelles et conjecture de Weil*, Publ. Math. IHÉS **65**
   (1987), 131–210. [doi:10.1007/BF02698937](https://doi.org/10.1007/BF02698937).
 - [<span id="ref-LZ">LZ</span>] Q. Lu and W. Zheng, *Categorical traces and a relative
   Lefschetz–Verdier formula*, Forum Math. Sigma **10** (2022), e10, 1–24.
@@ -188,8 +190,8 @@ theorem retains the generality that motivated our choice of the Weil II route.
   en géométrie algébrique*, SGA 7 II, Lecture Notes in Mathematics, vol. 340,
   Springer-Verlag, Berlin–New York, 1973.
 - [<span id="ref-Stacks">Stacks</span>] The Stacks Project Authors, *The Stacks Project*,
-  <https://stacks.math.columbia.edu>, accessed 30 October 2026. Permanent tags
+  [`https://stacks.math.columbia.edu`](https://stacks.math.columbia.edu), accessed 30 October 2026. Permanent tags
   for individual results are given in the text.
 - [<span id="ref-Wei">Wei</span>] A. Weil, *Sur les courbes algébriques et les variétés qui
-  s'en déduisent*, Actualités Scientifiques et Industrielles, no. 1041,
+  s’en déduisent*, Actualités Scientifiques et Industrielles, no. 1041,
   Hermann, Paris, 1948.
