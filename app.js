@@ -1017,6 +1017,32 @@ export function watchBrand(brand = typeof document !== 'undefined' && document.q
   });
 }
 
+/**
+ * A link to a place on the page, `#name` in prose (a post's citation to its
+ * own reference list, say), scrolls to the element with that id.  Every other
+ * fragment is a route (`#/graph`), so followed it would open the graph.  A
+ * click that opens the link elsewhere (a new tab), or whose target is not on
+ * the page, is left alone.
+ */
+export function watchAnchors(root = typeof document !== 'undefined' && document) {
+  if (!root) return;
+  root.addEventListener('click', (ev) => {
+    const a = ev.target && ev.target.closest && ev.target.closest('a[href^="#"]');
+    if (!a || ev.defaultPrevented) return;
+    if (ev.button || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    const href = a.getAttribute('href');
+    if (href === '#' || href.startsWith('#/')) return;
+    let id = href.slice(1);
+    try {
+      id = decodeURIComponent(id);
+    } catch (e) { /* not encoded: the id as written */ }
+    const target = document.getElementById(id);
+    if (!target) return;
+    ev.preventDefault();
+    target.scrollIntoView({ block: 'start' });
+  });
+}
+
 /** Say on the top bar's icon what a click on it does, when it replays the intro. */
 function brandTitle(project) {
   const brand = typeof document !== 'undefined' && document.querySelector('.brand');
@@ -1076,11 +1102,35 @@ function brandLogo(project) {
   else holder.appendChild(el('img', { src: href, alt: '', decoding: 'async' }));
 }
 
+/**
+ * The browser tab's icon: the project's logo (`project.logo`), as it is, when
+ * it has one; otherwise whatever the browser shows for a site without one.
+ */
+export function pageIcon(project) {
+  const head = typeof document !== 'undefined' && document.head;
+  if (!head) return;
+  const logo = project && typeof project.logo === 'string' ? project.logo : '';
+  const href = logo ? resolveUrl(logo, snapshotBase(app)) : '';
+  let link = head.querySelector('link[data-logo-icon]');
+  if (!href) {
+    if (link) link.parentNode.removeChild(link);
+    return;
+  }
+  if (!link) {
+    link = el('link', { rel: 'icon', 'data-logo-icon': '' });
+    head.appendChild(link);
+  }
+  if (link.getAttribute('href') !== href) link.setAttribute('href', href);
+  if (/\.svg(?:[?#]|$)/i.test(logo)) link.setAttribute('type', 'image/svg+xml');
+  else link.removeAttribute('type');
+}
+
 function updateChrome() {
   const title = (app.model && (app.model.project.title || app.model.project.name)) || 'Blueprint';
   document.getElementById('project-title').textContent = title;
   document.title = title;
   brandLogo(app.model && app.model.project);
+  pageIcon(app.model && app.model.project);
   brandTitle(app.model && app.model.project);
 
   const aside = document.getElementById('topbar-aside');
@@ -1306,6 +1356,7 @@ function scriptsReady() {
 async function boot() {
   watchTopbar();
   watchBrand();
+  watchAnchors();
   applyShowProgress(currentShowProgress());
   const url = dataUrlFromQuery();
   app.dataUrlOriginal = url;
@@ -1358,6 +1409,8 @@ async function boot() {
   setupPreviews(app);
   setupExport(app);
   setupPrefetch(prefetchTasks());
+  // A site with `[site] visits` counts this visit (comments.js).
+  import('./comments.js').then((c) => c.countVisit()).catch(() => {});
   window.addEventListener('hashchange', () => {
     if (suppressRoute > 0) {
       suppressRoute -= 1;

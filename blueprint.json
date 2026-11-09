@@ -380,7 +380,7 @@
     "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4"},
    ".lake/packages/blueprint/":
    {"url": "https://github.com/chrisflav/blueprint",
-    "rev": "0e7ba3fff5921dbb667f1d3c30db7cb6adc12fa0"},
+    "rev": "f8fd998097c15e35ee5c4c2543082b160ca92f5f"},
    ".lake/packages/batteries/":
    {"url": "https://github.com/leanprover-community/batteries",
     "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d"},

@@ -932,6 +932,8 @@ dl.kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .body-prose { overflow-wrap: break-word; }
 .body-prose p:first-child { margin-top: 0; }
 .body-prose img { max-width: 100%; }
+/* Where an in-page link (`#name`, app.js `watchAnchors`) lands: below the top bar. */
+.body-prose [id] { scroll-margin-top: calc(var(--topbar-h) + 1rem); }
 .body-prose blockquote {
   margin: 1em 0;
   padding: .1em 1em;
@@ -1171,7 +1173,10 @@ ul.objlist .role {
 .blog-date { color: var(--muted); font-size: .86rem; font-variant-numeric: tabular-nums; }
 .blog-head { margin-bottom: 1.2rem; }
 .blog-head h1 { margin: 0; }
+.blog-author { font-size: .92rem; }
+.blog-head .blog-author { margin: .3rem 0 0; font-size: 1rem; }
 .blog-head .blog-date { margin: .3rem 0 0; }
+.blog-head .blog-visits { margin: .2rem 0 0; color: var(--muted); font-size: .86rem; font-variant-numeric: tabular-nums; }
 .blog-tag {
   font-size: .72rem; color: var(--muted); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 0 .4em;
@@ -1295,6 +1300,9 @@ ul.objlist .role {
 .stat.s-stated { border-left-color: var(--st-stated); }
 .stat.s-proved { border-left-color: var(--st-proved); }
 .stat.s-proved_with_axioms { border-left-color: var(--st-proved_with_axioms); }
+.stat.visits { border-left-color: var(--accent); }
+/* One box, as wide as one of the five status boxes above it. */
+.visit-row { grid-template-columns: minmax(9rem, calc((100% - 4 * .7rem) / 5)); }
 
 .stackbar { display: flex; height: 14px; border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
 .stackbar > span { display: block; }
