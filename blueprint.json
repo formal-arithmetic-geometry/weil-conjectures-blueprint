@@ -356,7 +356,7 @@
   "sources":
   {".lake/packages/weil-conjectures/":
    {"url": "https://github.com/formal-arithmetic-geometry/weil-conjectures",
-    "rev": "0dd0a42a876d873581b21501fbf4e8642fd816b4"},
+    "rev": "b282c1ed5957b5ebb8178a3d851a95f1bde7cb70"},
    ".lake/packages/upstreamer/":
    {"url": "https://github.com/chrisflav/upstreamer",
     "rev": "f0cd4b14367ecd61b3e15e8269a287ea405365bb"},
@@ -375,9 +375,6 @@
    ".lake/packages/importGraph/":
    {"url": "https://github.com/leanprover-community/import-graph",
     "rev": "16f02aa7642864af59f1ff0e384a015994db9118"},
-   ".lake/packages/checkdecls/":
-   {"url": "https://github.com/PatrickMassot/checkdecls",
-    "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4"},
    ".lake/packages/blueprint/":
    {"url": "https://github.com/chrisflav/blueprint",
     "rev": "f8fd998097c15e35ee5c4c2543082b160ca92f5f"},
@@ -350686,10 +350683,10 @@
    "signature":
    "theorem AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree.{u} {k : Type u}\n  [Field k] {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] (d : ℤ)\n  (P : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (hP :\n    (AlgebraicGeometry.picardFunctorDegree (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            d).obj.RepresentableBy\n      P) :\n  AlgebraicGeometry.SmoothOfRelativeDimension (AlgebraicGeometry.Scheme.arithmeticGenus k X) P.hom",
    "range":
-   {"startLine": 1218,
+   {"startLine": 1219,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1232},
+    "endLine": 1233},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -351470,10 +351467,10 @@
    "signature":
    "def AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback.{u} {k : Type u} [Field k] {K : Type u}\n  [Field K] [Algebra k K] {C C' : AlgebraicGeometry.Scheme}\n  [C.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [C'.Over (AlgebraicGeometry.Spec (CommRingCat.of K))]\n  [AlgebraicGeometry.IsProper (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.LocallyOfFinitePresentation (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  (q : C' ⟶ C)\n  (h :\n    CategoryTheory.IsPullback q (C' ↘ AlgebraicGeometry.Spec (CommRingCat.of K))\n      (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n      (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k K))))\n  (d : ℤ) :\n  (CategoryTheory.Over.map\n            (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k K)))).op.comp\n      (AlgebraicGeometry.picardFunctorDegree (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n          d).obj ≅\n    (AlgebraicGeometry.picardFunctorDegree (C' ↘ AlgebraicGeometry.Spec (CommRingCat.of K)) d).obj",
    "range":
-   {"startLine": 1931,
+   {"startLine": 1932,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1946},
+    "endLine": 1947},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "definition",
    "exists": true,
@@ -351879,10 +351876,10 @@
    "signature":
    "theorem AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one.{u} {k : Type u} [Field k]\n  {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  (J : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))) [CategoryTheory.GrpObj J]\n  (e :\n    (AlgebraicGeometry.picardFunctorDegree (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            0).obj.RepresentableBy\n      J)\n  (he : AlgebraicGeometry.IsPicardZeroMul (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) e) :\n  Nonempty\n    (AlgebraicGeometry.tangentSpaceAt J CategoryTheory.MonObj.one ≃ₗ[k]\n      (AlgebraicGeometry.Scheme.Modules.unit X).H 1)",
    "range":
-   {"startLine": 1488,
+   {"startLine": 1489,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1635},
+    "endLine": 1636},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -351914,10 +351911,10 @@
    "signature":
    "theorem AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange.{u} {k : Type u} [Field k]\n  {K : Type u} [Field K] [Algebra k K] {C C' : AlgebraicGeometry.Scheme}\n  [C.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [C'.Over (AlgebraicGeometry.Spec (CommRingCat.of K))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  (q : C' ⟶ C)\n  (h :\n    CategoryTheory.IsPullback q (C' ↘ AlgebraicGeometry.Spec (CommRingCat.of K))\n      (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n      (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k K))))\n  (d : ℤ) {J : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))}\n  (r :\n    (AlgebraicGeometry.picardFunctorDegree (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            d).obj.RepresentableBy\n      J)\n  (JK : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) (qJ : JK.left ⟶ J.left)\n  (hJ :\n    CategoryTheory.IsPullback qJ JK.hom J.hom\n      (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k K)))) :\n  Nonempty\n    ((AlgebraicGeometry.picardFunctorDegree (C' ↘ AlgebraicGeometry.Spec (CommRingCat.of K))\n            d).obj.RepresentableBy\n      JK)",
    "range":
-   {"startLine": 2048,
+   {"startLine": 2049,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 2072},
+    "endLine": 2073},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -360583,10 +360580,10 @@
    "signature":
    "theorem AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree.{u} {k : Type u} [Field k]\n  {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] (d : ℤ)\n  (P : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (hP :\n    (AlgebraicGeometry.picardFunctorDegree (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            d).obj.RepresentableBy\n      P) :\n  AlgebraicGeometry.IsProper P.hom",
    "range":
-   {"startLine": 1205,
+   {"startLine": 1206,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1216},
+    "endLine": 1217},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -363725,10 +363722,10 @@
    "signature":
    "theorem AlgebraicGeometry.hilbertToPicardNormalized_invertibleDirectImageToHilbert.{u} {k : Type u}\n  [Field k] {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  (σ : AlgebraicGeometry.Spec (CommRingCat.of k) ⟶ X)\n  (hσ :\n    CategoryTheory.CategoryStruct.comp σ (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) =\n      CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  [∀ (T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))),\n      CategoryTheory.HasInjectiveResolutions\n        (CategoryTheory.Limits.pullback (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            T.hom).Modules]\n  (T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (ℒ :\n    (AlgebraicGeometry.picardFunctorInvertibleDirectImage\n            (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) σ hσ).toFunctor.obj\n      (Opposite.op T)) :\n  AlgebraicGeometry.hilbertToPicardNormalized σ hσ T\n      ((CategoryTheory.ConcreteCategory.hom\n            ((AlgebraicGeometry.invertibleDirectImageToHilbert σ hσ).app (Opposite.op T)))\n          ℒ).down =\n    ↑ℒ",
    "range":
-   {"startLine": 827,
+   {"startLine": 824,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/ZeroScheme.lean",
-    "endLine": 847},
+    "endLine": 844},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.ZeroScheme",
    "kind": "theorem",
    "exists": true,
@@ -367236,10 +367233,10 @@
    "signature":
    "theorem AlgebraicGeometry.geometricallyIntegral_of_representableBy_picardFunctorDegree.{u} {k : Type u}\n  [Field k] {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] (d : ℤ)\n  (P : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (hP :\n    (AlgebraicGeometry.picardFunctorDegree (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            d).obj.RepresentableBy\n      P) :\n  AlgebraicGeometry.GeometricallyIntegral P.hom",
    "range":
-   {"startLine": 1254,
+   {"startLine": 1255,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1265},
+    "endLine": 1266},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -367543,10 +367540,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert.{u} {k : Type u} [Field k]\n  {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k] (σ : AlgebraicGeometry.Spec (CommRingCat.of k) ⟶ X)\n  (hσ :\n    CategoryTheory.CategoryStruct.comp σ (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) =\n      CategoryTheory.CategoryStruct.id (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  [∀ (T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))),\n      CategoryTheory.HasInjectiveResolutions\n        (CategoryTheory.Limits.pullback (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n            T.hom).Modules]\n  (H : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (e :\n    (AlgebraicGeometry.hilbertPresheaf (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n          (AlgebraicGeometry.Scheme.arithmeticGenus k X)).RepresentableBy\n      H) :\n  ∃ W j,\n    ∃ (_ : AlgebraicGeometry.IsOpenImmersion j),\n      ∃ R,\n        ∀ {T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))}\n          (a : T ⟶ CategoryTheory.Over.mk (CategoryTheory.CategoryStruct.comp j H.hom)),\n          (CategoryTheory.ConcreteCategory.hom\n                ((AlgebraicGeometry.invertibleDirectImageToHilbert σ hσ).app (Opposite.op T)))\n              (R.homEquiv a) =\n            {\n              down :=\n                e.homEquiv (CategoryTheory.CategoryStruct.comp a (CategoryTheory.Over.homMk j ⋯)) }",
    "range":
-   {"startLine": 882,
+   {"startLine": 879,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/ZeroScheme.lean",
-    "endLine": 1021},
+    "endLine": 1018},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.ZeroScheme",
    "kind": "theorem",
    "exists": true,
@@ -368891,10 +368888,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_jacobian_descent.{u} (k₀ ks K : Type u) [Field k₀] [Field ks] [Field K]\n  [Algebra k₀ ks] [Algebra k₀ K] [Algebra ks K] [IsScalarTower k₀ ks K] [IsSepClosure k₀ ks]\n  [IsAlgClosure k₀ K] (C₀ : AlgebraicGeometry.Scheme)\n  [C₀.Over (AlgebraicGeometry.Spec (CommRingCat.of k₀))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀))]\n  [AlgebraicGeometry.IsProper (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀))]\n  [AlgebraicGeometry.GeometricallyConnected (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀))]\n  (g : ℕ) (hg : AlgebraicGeometry.Scheme.arithmeticGenus k₀ C₀ = g) (C : AlgebraicGeometry.Scheme)\n  [C.Over (AlgebraicGeometry.Spec (CommRingCat.of K))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec (CommRingCat.of K))]\n  [AlgebraicGeometry.IsProper (C ↘ AlgebraicGeometry.Spec (CommRingCat.of K))] (p : C ⟶ C₀)\n  (hC :\n    CategoryTheory.IsPullback p (C ↘ AlgebraicGeometry.Spec (CommRingCat.of K))\n      (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀))\n      (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k₀ K)))) :\n  ∃ J₀ x r,\n    AlgebraicGeometry.IsProper J₀.hom ∧\n      AlgebraicGeometry.SmoothOfRelativeDimension g J₀.hom ∧\n        AlgebraicGeometry.GeometricallyIntegral J₀.hom ∧\n          AlgebraicGeometry.IsPicardZeroMul (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀)) r ∧\n            (∃ rK,\n                ∀ (T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K)))\n                  (y :\n                    (AlgebraicGeometry.picardFunctorDegree\n                            (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀)) 0).obj.obj\n                      (Opposite.op\n                        ((CategoryTheory.Over.map\n                              (AlgebraicGeometry.Spec.map\n                                (CommRingCat.ofHom (Algebra.algebraMap k₀ K)))).obj\n                          T))),\n                  rK.homEquiv.symm\n                      ((CategoryTheory.ConcreteCategory.hom\n                          ((AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback p hC 0).hom.app\n                            (Opposite.op T)))\n                        y) =\n                    ((CategoryTheory.Over.mapPullbackAdj\n                            (AlgebraicGeometry.Spec.map\n                              (CommRingCat.ofHom (Algebra.algebraMap k₀ K)))).homEquiv\n                        T J₀)\n                      (r.homEquiv.symm y)) ∧\n              ∃ e,\n                (∀ (L : ↥(AlgebraicGeometry.picardZero K C)),\n                    ∃ (h :\n                      AlgebraicGeometry.Scheme.Pic.map hC.isoPullback.inv ↑L ∈\n                        (AlgebraicGeometry.picardSubfunctorDegree\n                              (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀)) 0).obj\n                          (Opposite.op\n                            (CategoryTheory.Over.mk\n                              (AlgebraicGeometry.Spec.map\n                                (CommRingCat.ofHom (Algebra.algebraMap k₀ K)))))),\n                      e L =\n                        r.homEquiv.symm\n                          ((CategoryTheory.ConcreteCategory.hom\n                              ((CategoryTheory.toSheafify\n                                    (AlgebraicGeometry.Scheme.fppfTopology.over\n                                      (AlgebraicGeometry.Spec (CommRingCat.of k₀)))\n                                    (AlgebraicGeometry.picardSubfunctorDegree\n                                        (C₀ ↘ AlgebraicGeometry.Spec (CommRingCat.of k₀))\n                                        0).toFunctor).app\n                                (Opposite.op\n                                  (CategoryTheory.Over.mk\n                                    (AlgebraicGeometry.Spec.map\n                                      (CommRingCat.ofHom (Algebra.algebraMap k₀ K)))))))\n                            ⟨AlgebraicGeometry.Scheme.Pic.map hC.isoPullback.inv ↑L, h⟩)) ∧\n                  ∀ (σ : Gal(K/k₀)),\n                    ∃ γ,\n                      CategoryTheory.CategoryStruct.comp γ p = p ∧\n                        CategoryTheory.CategoryStruct.comp γ\n                              (C ↘ AlgebraicGeometry.Spec (CommRingCat.of K)) =\n                            CategoryTheory.CategoryStruct.comp\n                              (C ↘ AlgebraicGeometry.Spec (CommRingCat.of K))\n                              (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (↑σ).toRingHom)) ∧\n                          ∃ act,\n                            (∀ (L : ↥(AlgebraicGeometry.picardZero K C)),\n                                ↑(act L) = AlgebraicGeometry.Scheme.Pic.map γ ↑L) ∧\n                              ∀ (L : ↥(AlgebraicGeometry.picardZero K C)),\n                                e (act L) =\n                                  CategoryTheory.CategoryStruct.comp\n                                    (AlgebraicGeometry.specAlgEquivOver σ) (e L)",
    "range":
-   {"startLine": 3040,
+   {"startLine": 3036,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 3121},
+    "endLine": 3117},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -368932,10 +368929,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_jacobian_baseChange.{u} {k : Type u} [Field k] [IsSepClosed k]\n  (X : AlgebraicGeometry.Scheme) [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] :\n  ∃ J x e,\n    AlgebraicGeometry.IsProper J.hom ∧\n      AlgebraicGeometry.SmoothOfRelativeDimension (AlgebraicGeometry.Scheme.arithmeticGenus k X)\n          J.hom ∧\n        AlgebraicGeometry.GeometricallyIntegral J.hom ∧\n          AlgebraicGeometry.IsPicardZeroMul (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) e ∧\n            (∃ ψ,\n                ∀ (L : ↥(AlgebraicGeometry.picardZero k X)),\n                  ∃ (h :\n                    AlgebraicGeometry.Scheme.Pic.map\n                        (CategoryTheory.Limits.pullback.fst\n                          (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                          (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                              (CategoryTheory.Over\n                                (AlgebraicGeometry.Spec (CommRingCat.of k)))).hom)\n                        ↑L ∈\n                      (AlgebraicGeometry.picardSubfunctorDegree\n                            (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) 0).obj\n                        (Opposite.op\n                          (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                            (CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))))),\n                    ψ L =\n                      e.homEquiv.symm\n                        ((CategoryTheory.ConcreteCategory.hom\n                            ((CategoryTheory.toSheafify\n                                  (AlgebraicGeometry.Scheme.fppfTopology.over\n                                    (AlgebraicGeometry.Spec (CommRingCat.of k)))\n                                  (AlgebraicGeometry.picardSubfunctorDegree\n                                      (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                                      0).toFunctor).app\n                              (Opposite.op\n                                (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                                  (CategoryTheory.Over\n                                    (AlgebraicGeometry.Spec (CommRingCat.of k)))))))\n                          ⟨AlgebraicGeometry.Scheme.Pic.map\n                              (CategoryTheory.Limits.pullback.fst\n                                (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                                (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                                    (CategoryTheory.Over\n                                      (AlgebraicGeometry.Spec (CommRingCat.of k)))).hom)\n                              ↑L,\n                            h⟩)) ∧\n              ∀ (k' : Type u) [inst : Field k'] [inst_1 : Algebra k k']\n                (X' : AlgebraicGeometry.Scheme)\n                [inst_2 : X'.Over (AlgebraicGeometry.Spec (CommRingCat.of k'))] (q : X' ⟶ X),\n                CategoryTheory.IsPullback q (X' ↘ AlgebraicGeometry.Spec (CommRingCat.of k'))\n                    (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                    (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k k'))) →\n                  ∀ (J' : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k')))\n                    (qJ : J'.left ⟶ J.left),\n                    CategoryTheory.IsPullback qJ J'.hom J.hom\n                        (AlgebraicGeometry.Spec.map (CommRingCat.ofHom (Algebra.algebraMap k k'))) →\n                      ∃ x e',\n                        AlgebraicGeometry.IsPicardZeroMul\n                          (X' ↘ AlgebraicGeometry.Spec (CommRingCat.of k')) e'",
    "range":
-   {"startLine": 2074,
+   {"startLine": 2075,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 2113},
+    "endLine": 2114},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -368982,10 +368979,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_jacobian.{u} {k : Type u} [Field k] {X : AlgebraicGeometry.Scheme}\n  [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))] [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] :\n  ∃ J x e,\n    AlgebraicGeometry.IsProper J.hom ∧\n      AlgebraicGeometry.SmoothOfRelativeDimension (AlgebraicGeometry.Scheme.arithmeticGenus k X)\n          J.hom ∧\n        AlgebraicGeometry.GeometricallyIntegral J.hom ∧\n          AlgebraicGeometry.IsPicardZeroMul (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) e ∧\n            ∃ ψ,\n              ∀ (L : ↥(AlgebraicGeometry.picardZero k X)),\n                ∃ (h :\n                  AlgebraicGeometry.Scheme.Pic.map\n                      (CategoryTheory.Limits.pullback.fst\n                        (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                        (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                            (CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))).hom)\n                      ↑L ∈\n                    (AlgebraicGeometry.picardSubfunctorDegree\n                          (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) 0).obj\n                      (Opposite.op\n                        (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                          (CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))))),\n                  ψ L =\n                    e.homEquiv.symm\n                      ((CategoryTheory.ConcreteCategory.hom\n                          ((CategoryTheory.toSheafify\n                                (AlgebraicGeometry.Scheme.fppfTopology.over\n                                  (AlgebraicGeometry.Spec (CommRingCat.of k)))\n                                (AlgebraicGeometry.picardSubfunctorDegree\n                                    (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                                    0).toFunctor).app\n                            (Opposite.op\n                              (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                                (CategoryTheory.Over\n                                  (AlgebraicGeometry.Spec (CommRingCat.of k)))))))\n                        ⟨AlgebraicGeometry.Scheme.Pic.map\n                            (CategoryTheory.Limits.pullback.fst\n                              (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                              (CategoryTheory.MonoidalCategoryStruct.tensorUnit\n                                  (CategoryTheory.Over\n                                    (AlgebraicGeometry.Spec (CommRingCat.of k)))).hom)\n                            ↑L,\n                          h⟩)",
    "range":
-   {"startLine": 1751,
+   {"startLine": 1752,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1799},
+    "endLine": 1800},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -370814,10 +370811,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_decomposition_picardFunctor_representableBy.{u} {k : Type u} [Field k]\n  {X : AlgebraicGeometry.Scheme} [X.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [IsSepClosed k]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  (P : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k)))\n  (hP :\n    (AlgebraicGeometry.picardFunctor\n            (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))).obj.RepresentableBy\n      P) :\n  ∃ Pd j e,\n    (∀ (d : ℤ), AlgebraicGeometry.IsOpenImmersion (CategoryTheory.Over.Hom.left (j d))) ∧\n      (∀ (d : ℤ),\n          Set.range ⇑(CategoryTheory.Over.Hom.left (j d)) =\n            AlgebraicGeometry.picardDegree (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                (hP.homEquiv (CategoryTheory.CategoryStruct.id P)) ⁻¹'\n              {d}) ∧\n        (∀ (d : ℤ), IsClopen (Set.range ⇑(CategoryTheory.Over.Hom.left (j d)))) ∧\n          (∀ (d d' : ℤ),\n              d ≠ d' →\n                Disjoint (Set.range ⇑(CategoryTheory.Over.Hom.left (j d)))\n                  (Set.range ⇑(CategoryTheory.Over.Hom.left (j d')))) ∧\n            ⋃ d, Set.range ⇑(CategoryTheory.Over.Hom.left (j d)) = Set.univ ∧\n              ∀ (d : ℤ) {T : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))}\n                (L :\n                  (AlgebraicGeometry.picardPresheaf\n                        (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))).obj\n                    (Opposite.op T))\n                (hL :\n                  L ∈\n                    (AlgebraicGeometry.picardSubfunctorDegree\n                          (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) d).obj\n                      (Opposite.op T)),\n                CategoryTheory.CategoryStruct.comp\n                    ((e d).homEquiv.symm\n                      ((CategoryTheory.ConcreteCategory.hom\n                          ((CategoryTheory.toSheafify\n                                (AlgebraicGeometry.Scheme.fppfTopology.over\n                                  (AlgebraicGeometry.Spec (CommRingCat.of k)))\n                                (AlgebraicGeometry.picardSubfunctorDegree\n                                    (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))\n                                    d).toFunctor).app\n                            (Opposite.op T)))\n                        ⟨L, hL⟩))\n                    (j d) =\n                  hP.homEquiv.symm\n                    ((CategoryTheory.ConcreteCategory.hom\n                        ((AlgebraicGeometry.toPicardFunctor\n                              (X ↘ AlgebraicGeometry.Spec (CommRingCat.of k))).app\n                          (Opposite.op T)))\n                      L)",
    "range":
-   {"startLine": 873,
+   {"startLine": 874,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 1003},
+    "endLine": 1004},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -370868,10 +370865,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_commGrpObj_representableBy_picardFunctorDegree.{u} {k : Type u} [Field k]\n  (ks : Type u) [Field ks] [Algebra k ks] [IsSepClosure k ks] (C : AlgebraicGeometry.Scheme)\n  [C.Over (AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.IsProper (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))]\n  [AlgebraicGeometry.GeometricallyIntegral (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k))] (g : ℕ)\n  (hg : AlgebraicGeometry.Scheme.arithmeticGenus k C = g) :\n  ∃ J x e,\n    AlgebraicGeometry.IsProper J.hom ∧\n      AlgebraicGeometry.SmoothOfRelativeDimension g J.hom ∧\n        AlgebraicGeometry.GeometricallyIntegral J.hom ∧\n          AlgebraicGeometry.IsPicardZeroMul (C ↘ AlgebraicGeometry.Spec (CommRingCat.of k)) e",
    "range":
-   {"startLine": 2949,
+   {"startLine": 2945,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Picard/Jacobian.lean",
-    "endLine": 3007},
+    "endLine": 3003},
    "module": "WeilConjectures.AlgebraicGeometry.Picard.Jacobian",
    "kind": "theorem",
    "exists": true,
@@ -386009,6 +386006,7 @@
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small",
     "AlgebraicGeometry.Scheme.ProEt.affine_weaklyContractible_abelian_evaluation_colimits",
+    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
     "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology",
     "AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
@@ -386330,6 +386328,7 @@
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small",
     "AlgebraicGeometry.Scheme.ProEt.affine_weaklyContractible_abelian_evaluation_colimits",
+    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
     "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology",
     "AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
@@ -419805,8 +419804,7 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine":
   {"valueDeps":
-   ["AlgebraicGeometry.QuasiCompactCover",
-    "AlgebraicGeometry.Scheme.ProEt",
+   ["AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
     "AlgebraicGeometry.Scheme.toProEt",
@@ -419835,8 +419833,7 @@
    "doc":
    "**`𝔾ₐ` is acyclic on affine schemes.** For an affine scheme `X` and `q > 0`,\n`Hᵠ(X_ét, 𝔾ₐ) = 0`. Every étale covering of an affine étale `X`-scheme is refined by a finite\nfamily of affine étale schemes, whose Čech nerve consists of affine schemes, and on such\nfamilies the Čech complex of `𝔾ₐ` is exact in positive degrees\n(`AlgebraicGeometry.Scheme.exactAt_cechComplex_gaPresheaf`); the Čech criterion\n`CategoryTheory.Sheaf.subsingleton_H_succ_of_exactAt_cechComplex` concludes.\n(blueprint: `lem-sc-etale-affine-qcoherent`, for `𝓕 = 𝒪_X`)",
    "deps":
-   ["AlgebraicGeometry.QuasiCompactCover",
-    "AlgebraicGeometry.Scheme.ProEt",
+   ["AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
     "AlgebraicGeometry.Scheme.toProEt",
@@ -423605,7 +423602,6 @@
   "AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two":
   {"valueDeps":
    ["AlgebraicGeometry.Etale.cohomologyMap_map",
-    "AlgebraicGeometry.QuasiCompactCover",
     "CategoryTheory.Functor.RepresentableBy"],
    "typeDeps": ["CategoryTheory.Functor.RepresentableBy"],
    "status": "proved",
@@ -423623,7 +423619,6 @@
    "**Grothendieck's residue injection for the Brauer group.** Let `X` be an integral regular\nnoetherian scheme with function field `k(X)`. Then the pullback along the generic point\n`i : Spec k(X) ⟶ X`\n\n```\n   Spec k(X) ──── i ────▶ X            H²(X_ét, 𝔾ₘ)\n                                            │ cohomologyMap i 𝔾ₘ 2\n                                            ▼\n                                       H²(Spec k(X)_ét, i^* 𝔾ₘ)\n```\n\nis injective, that is, `Br(X) = H²(X, 𝔾ₘ) ↪ H²(Spec k(X), 𝔾ₘ) = Br(k(X))`; the target is\nidentified with the cohomological Brauer group of `k(X)` by\n`AlgebraicGeometry.Scheme.isIso_upperStarGmSheafToGmSheaf_fromSpecFunctionField`. In particular\nthis holds for a smooth curve.\n\nThe map factors as `H²(X, 𝔾ₘ) ⟶ H²(X, i_* i^* 𝔾ₘ) ⟶ H²(Spec k(X), i^* 𝔾ₘ)`, the unit of\n`i^* ⊣ i_*` followed by the edge map of the Leray spectral sequence of `i`. The first map is\ninjective by the long exact cohomology sequence of the divisor sequence, since\n`H¹(X, ⨁_x i_{x*} ℤ) = 0`; the second is injective since `R¹i_*(i^* 𝔾ₘ) = 0`.\n(blueprint: `lem-sc-brauer-injectivity`, and the subsection statement `lem-sc-brauer-injectivity`)",
    "deps":
    ["AlgebraicGeometry.Etale.cohomologyMap_map",
-    "AlgebraicGeometry.QuasiCompactCover",
     "CategoryTheory.Functor.RepresentableBy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Scheme.gysinH2_eq_zero_iff":
@@ -423709,10 +423704,10 @@
    "signature":
    "theorem AlgebraicGeometry.Scheme.gmCohomologyMap_toCohomologicalPicardGroup.{u}\n  {X Y : AlgebraicGeometry.Scheme} (g : X ⟶ Y) (L : Y.Pic) :\n  (AlgebraicGeometry.Scheme.gmCohomologyMap g 1)\n      ((AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup Y) L) =\n    (AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup X)\n      (AlgebraicGeometry.Scheme.Pic.map g L)",
    "range":
-   {"startLine": 174,
+   {"startLine": 170,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Sites/GmPicardPullback.lean",
-    "endLine": 192},
+    "endLine": 188},
    "module": "WeilConjectures.AlgebraicGeometry.Sites.GmPicardPullback",
    "kind": "theorem",
    "exists": true,
@@ -427312,7 +427307,7 @@
    "signature":
    "theorem AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition.{u}\n  (X : AlgebraicGeometry.Scheme) :\n  (AlgebraicGeometry.Scheme.ProEt.precoverage X).IsStableUnderComposition",
    "range":
-   {"startLine": 59,
+   {"startLine": 60,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/Proetale/Basic.lean",
     "endLine": 61},
@@ -427340,7 +427335,7 @@
    {"startLine": 63,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/Proetale/Basic.lean",
-    "endLine": 65},
+    "endLine": 64},
    "module": "WeilConjectures.AlgebraicGeometry.ProEtale.Proetale.Basic",
    "kind": "theorem",
    "exists": true,
@@ -427362,10 +427357,10 @@
    "signature":
    "theorem AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos.{u} (X : AlgebraicGeometry.Scheme) :\n  (AlgebraicGeometry.Scheme.ProEt.precoverage X).HasIsos",
    "range":
-   {"startLine": 55,
+   {"startLine": 57,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/Proetale/Basic.lean",
-    "endLine": 57},
+    "endLine": 58},
    "module": "WeilConjectures.AlgebraicGeometry.ProEtale.Proetale.Basic",
    "kind": "theorem",
    "exists": true,
@@ -427609,10 +427604,10 @@
    "signature":
    "theorem AlgebraicGeometry.Scheme.ProEt.hypercover_computes_boundedBelow_complex.{w, u}\n  (X : AlgebraicGeometry.Scheme)\n  (R : CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) CommRingCat) (W : X.ProEt)\n  (U : CategoryTheory.SimplicialObject (CategoryTheory.Over W))\n  [HasDerivedCategory\n      (ModuleCat\n        ↑(((CategoryTheory.sheafCompose (AlgebraicGeometry.Scheme.ProEt.topology X)\n                      (CategoryTheory.forget₂ CommRingCat RingCat)).obj\n                  R).obj.obj\n            (Opposite.op W)))]\n  (hweak :\n    ∀ (n : ℕ)\n      (F G : CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) (Type (u + 1)))\n      (f : F ⟶ G),\n      CategoryTheory.Epi f →\n        Function.Surjective\n          ⇑(CategoryTheory.ConcreteCategory.hom\n              (f.hom.app (Opposite.op (U.obj (Opposite.op { len := n })).left))))\n  (hzero :\n    CategoryTheory.Epi\n      ((AlgebraicGeometry.Scheme.ProEt.topology X).yoneda.map\n        (U.obj (Opposite.op { len := 0 })).hom))\n  (hone :\n    ∃ c,\n      Nonempty (CategoryTheory.Limits.IsLimit c) ∧\n        ∃ μ,\n          (∀ (i : Fin 2), CategoryTheory.CategoryStruct.comp μ (c.proj i) = U.δ i) ∧\n            CategoryTheory.Epi\n              ((AlgebraicGeometry.Scheme.ProEt.topology X).yoneda.map\n                (CategoryTheory.Over.Hom.left μ)))\n  (hhigher :\n    ∀ (n : ℕ),\n      ∃ c,\n        Nonempty (CategoryTheory.Limits.IsLimit c) ∧\n          ∃ μ,\n            (∀ (i : Fin (n + 3)),\n                CategoryTheory.CategoryStruct.comp μ\n                    (c.π.app (CategoryTheory.Limits.WalkingMulticospan.left i)) =\n                  U.δ i) ∧\n              CategoryTheory.Epi\n                ((AlgebraicGeometry.Scheme.ProEt.topology X).yoneda.map\n                  (CategoryTheory.Over.Hom.left μ))) :\n  (∃ c,\n      ∀\n        (E F J L :\n          CochainComplex.Plus\n            (CategoryTheory.ringedSiteModules\n              ((CategoryTheory.sheafCompose (AlgebraicGeometry.Scheme.ProEt.topology X)\n                    (CategoryTheory.forget₂ CommRingCat RingCat)).obj\n                R)))\n        (hJ : ∀ (n : ℤ), CategoryTheory.Injective (J.obj.X n))\n        (hL : ∀ (n : ℤ), CategoryTheory.Injective (L.obj.X n)) (i : E.obj ⟶ J.obj)\n        (j : F.obj ⟶ L.obj) (hi : QuasiIso i) (hj : QuasiIso j) (f : E ⟶ F) (a : J ⟶ L),\n        Nonempty\n            (Homotopy (CategoryTheory.CategoryStruct.comp i a.hom)\n              (CategoryTheory.CategoryStruct.comp f.hom j)) →\n          CategoryTheory.CategoryStruct.comp\n              (DerivedCategory.Q.map\n                ((AlgebraicGeometry.Scheme.ProEt.hypercoverTotal X R W U).map f.hom))\n              (c F L hL j hj).hom =\n            CategoryTheory.CategoryStruct.comp (c E J hJ i hi).hom\n              (DerivedCategory.Q.map\n                (((SheafOfModules.evaluation\n                          ((CategoryTheory.sheafCompose (AlgebraicGeometry.Scheme.ProEt.topology X)\n                                (CategoryTheory.forget₂ CommRingCat RingCat)).obj\n                            R)\n                          (Opposite.op W)).mapHomologicalComplex\n                      (ComplexShape.up ℤ)).map\n                  a.hom))) ∧\n    ∀\n      (E F :\n        CochainComplex.Plus\n          (CategoryTheory.ringedSiteModules\n            ((CategoryTheory.sheafCompose (AlgebraicGeometry.Scheme.ProEt.topology X)\n                  (CategoryTheory.forget₂ CommRingCat RingCat)).obj\n              R)))\n      (f : E ⟶ F),\n      QuasiIso f.hom → QuasiIso ((AlgebraicGeometry.Scheme.ProEt.hypercoverTotal X R W U).map f.hom)",
    "range":
-   {"startLine": 84,
+   {"startLine": 83,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/Hypercover/ProEtaleHypercoverComputesBoundedComplexSupplement.lean",
-    "endLine": 209},
+    "endLine": 208},
    "module":
    "WeilConjectures.AlgebraicGeometry.ProEtale.Hypercover.ProEtaleHypercoverComputesBoundedComplexSupplement",
    "kind": "theorem",
@@ -430808,6 +430803,7 @@
     "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
     "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.ProEt",
+    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
     "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
@@ -430834,10 +430830,10 @@
    "signature":
    "theorem AlgebraicGeometry.ProEtale.subsingleton_H_continuousSheaf_of_profinite.{u} {A : Type}\n  [TopologicalSpace A] [AddCommGroup A] [IsTopologicalAddGroup A] [CompactSpace A] {K : Type u}\n  [Field K] [IsSepClosed K] {S : AlgebraicGeometry.Scheme}\n  (a : S ⟶ AlgebraicGeometry.Spec (CommRingCat.of K)) [AlgebraicGeometry.LocallyOfFiniteType a]\n  [AlgebraicGeometry.QuasiCompact a] (d : ℕ) (hS : topologicalKrullDim ↥S ≤ ↑d)\n  (U : ℕ → OpenAddSubgroup A) (hU : ∀ (m : ℕ), U (m + 1) ≤ U m)\n  (hU₀ : ∀ (x : A), (∀ (m : ℕ), x ∈ U m) → x = 0) (q : ℕ) (hq : 2 * d < q) :\n  Subsingleton ((AlgebraicGeometry.ProEtale.continuousSheaf S A).H q)",
    "range":
-   {"startLine": 292,
+   {"startLine": 283,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/ProfiniteCoefficientCohomology.lean",
-    "endLine": 324},
+    "endLine": 315},
    "module":
    "WeilConjectures.AlgebraicGeometry.ProEtale.ProfiniteCoefficientCohomology",
    "kind": "theorem",
@@ -430856,6 +430852,7 @@
     "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
     "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.ProEt",
+    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
     "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
@@ -431337,10 +431334,10 @@
    "signature":
    "def AlgebraicGeometry.ProEtale.spRationalTwist.{u} (X : AlgebraicGeometry.Scheme) (ℓ : ℕ)\n  [Fact (Nat.Prime ℓ)] (E : PadicAlgCl.FiniteIntermediateField ℓ) :\n  CategoryTheory.Mod\n    (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) AddCommGrpCat)\n    (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.continuousMapRingObj ↥↑E) X)",
    "range":
-   {"startLine": 497,
+   {"startLine": 498,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtaleTateTwistLevels.lean",
-    "endLine": 505},
+    "endLine": 506},
    "module": "WeilConjectures.AlgebraicGeometry.ProEtaleTateTwistLevels",
    "kind": "definition",
    "exists": true,
@@ -431489,10 +431486,10 @@
    "signature":
    "def AlgebraicGeometry.ProEtale.spIntegralTwist.{u} (X : AlgebraicGeometry.Scheme) (ℓ : ℕ)\n  [Fact (Nat.Prime ℓ)] (E : PadicAlgCl.FiniteIntermediateField ℓ) :\n  CategoryTheory.Mod\n    (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) AddCommGrpCat)\n    (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicIntegersRingObj ℓ ↥↑E) X)",
    "range":
-   {"startLine": 490,
+   {"startLine": 491,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtaleTateTwistLevels.lean",
-    "endLine": 495},
+    "endLine": 496},
    "module": "WeilConjectures.AlgebraicGeometry.ProEtaleTateTwistLevels",
    "kind": "definition",
    "exists": true,
@@ -432922,7 +432919,6 @@
     "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
@@ -432966,7 +432962,6 @@
     "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
@@ -437137,10 +437132,10 @@
    "signature":
    "theorem AlgebraicGeometry.ProEtale.integral_finite_residue_tor.{u} (l : ℕ) [Fact (Nat.Prime l)] (E : Type u)\n  [Field E] [Algebra ℚ_[l] E] [FiniteDimensional ℚ_[l] E] (X : AlgebraicGeometry.Scheme)\n  [AlgebraicGeometry.IsNoetherian X] (n : ℕ)\n  (L :\n    DerivedCategory\n      (CategoryTheory.Mod (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) Ab)\n        (AlgebraicGeometry.ProEtale.AdicCompletion.finiteRing l E X n)))\n  (hc :\n    AlgebraicGeometry.ProEtale.constantModelBoundedConstructible\n      (AlgebraicGeometry.ProEtale.DerivedNakayama.quotientRing l E (n + 1)) X L)\n  (a b : ℤ) (hab : a ≤ b)\n  (hbound :\n    ∀ (q : ℤ),\n      q < a ∨ b < q →\n        CategoryTheory.Limits.IsZero\n          ((DerivedCategory.homologyFunctor\n                (CategoryTheory.Mod\n                  (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) Ab)\n                  (AlgebraicGeometry.ProEtale.AdicCompletion.finiteRing l E X 0))\n                q).obj\n            ((CategoryTheory.Mod.extendScalars\n                    (AlgebraicGeometry.ProEtale.integralResidueTransition l E X\n                      n)).leftDerivedFunctor.obj\n              L))) :\n  DerivedCategory.torAmplitudeIn\n    (CategoryTheory.Mod (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) Ab)\n      (AlgebraicGeometry.ProEtale.AdicCompletion.finiteRing l E X n))\n    a b L",
    "range":
-   {"startLine": 430,
+   {"startLine": 429,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/Integral/Finite/IntegralFiniteResidueTor.lean",
-    "endLine": 524},
+    "endLine": 523},
    "module":
    "WeilConjectures.AlgebraicGeometry.Integral.Finite.IntegralFiniteResidueTor",
    "kind": "theorem",
@@ -438079,17 +438074,12 @@
     "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
     "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
     "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
-    "AlgebraicGeometry.ProEtale.IsClassical",
-    "AlgebraicGeometry.ProEtale.cohomologicalDimension",
-    "AlgebraicGeometry.ProEtale.cohomologicalDimension_baseField",
     "AlgebraicGeometry.ProEtale.comparisonAdjunction",
     "AlgebraicGeometry.ProEtale.comparisonLowerStar",
-    "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso",
     "AlgebraicGeometry.ProEtale.comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.full_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.lowerStar",
-    "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.rightAcyclic_comparisonUpperStar_obj_of_injective",
     "AlgebraicGeometry.ProEtale.upperStar",
@@ -438110,8 +438100,8 @@
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
-    "AlgebraicGeometry.Scheme.proEtaleClassicalSheavesImage",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
+    "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine",
     "AlgebraicGeometry.Scheme.toProEt",
     "AlgebraicGeometry.WeaklyEtale",
     "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty",
@@ -438123,6 +438113,8 @@
     "AlgebraicGeometry.proAffineEtale_Spec_iff",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "CategoryTheory.Limits.biprod.inl_fst",
+    "CategoryTheory.ObjectProperty.preservesCokernels_ι",
+    "CategoryTheory.ObjectProperty.preservesKernels_ι",
     "RingHom.IndEtale",
     "RingHom.IndEtale.comp",
     "RingHom.IndEtale.weaklyEtale",
@@ -438138,10 +438130,10 @@
    "signature":
    "theorem AlgebraicGeometry.ProEtale.hasClassicalUniformBounds.{u} {k : Type u} [Field k]\n  (hk : Finite k ∨ IsAlgClosed k) {X Y : AlgebraicGeometry.Scheme}\n  (aX : X ⟶ AlgebraicGeometry.Spec (CommRingCat.of k))\n  (aY : Y ⟶ AlgebraicGeometry.Spec (CommRingCat.of k)) [AlgebraicGeometry.LocallyOfFiniteType aX]\n  [AlgebraicGeometry.QuasiCompact aX] [AlgebraicGeometry.LocallyOfFiniteType aY]\n  [AlgebraicGeometry.QuasiCompact aY] (g : X ⟶ Y) [AlgebraicGeometry.LocallyOfFiniteType g]\n  [AlgebraicGeometry.QuasiCompact g] (G : CategoryTheory.Sheaf X.smallEtaleTopology AddCommGrpCat)\n  (hG : G.IsTorsion) :\n  AlgebraicGeometry.ProEtale.HasClassicalUniformBounds g G ∧\n    ∀ {Z : AlgebraicGeometry.Scheme} (aZ : Z ⟶ AlgebraicGeometry.Spec (CommRingCat.of k))\n      [AlgebraicGeometry.LocallyOfFiniteType aZ] [AlgebraicGeometry.QuasiCompact aZ] (h : Y ⟶ Z)\n      [AlgebraicGeometry.LocallyOfFiniteType h] [AlgebraicGeometry.QuasiCompact h]\n      (H : CategoryTheory.Sheaf Y.smallEtaleTopology AddCommGrpCat),\n      H.IsTorsion → AlgebraicGeometry.ProEtale.HasClassicalUniformBounds h H",
    "range":
-   {"startLine": 255,
+   {"startLine": 256,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtale/Classical/ProEtaleClassicalBounds.lean",
-    "endLine": 346},
+    "endLine": 347},
    "module":
    "WeilConjectures.AlgebraicGeometry.ProEtale.Classical.ProEtaleClassicalBounds",
    "kind": "theorem",
@@ -438160,17 +438152,12 @@
     "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
     "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
     "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
-    "AlgebraicGeometry.ProEtale.IsClassical",
-    "AlgebraicGeometry.ProEtale.cohomologicalDimension",
-    "AlgebraicGeometry.ProEtale.cohomologicalDimension_baseField",
     "AlgebraicGeometry.ProEtale.comparisonAdjunction",
     "AlgebraicGeometry.ProEtale.comparisonLowerStar",
-    "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso",
     "AlgebraicGeometry.ProEtale.comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.full_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.lowerStar",
-    "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
     "AlgebraicGeometry.ProEtale.rightAcyclic_comparisonUpperStar_obj_of_injective",
     "AlgebraicGeometry.ProEtale.upperStar",
@@ -438191,8 +438178,8 @@
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
-    "AlgebraicGeometry.Scheme.proEtaleClassicalSheavesImage",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
+    "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine",
     "AlgebraicGeometry.Scheme.toProEt",
     "AlgebraicGeometry.WeaklyEtale",
     "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty",
@@ -438204,6 +438191,8 @@
     "AlgebraicGeometry.proAffineEtale_Spec_iff",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "CategoryTheory.Limits.biprod.inl_fst",
+    "CategoryTheory.ObjectProperty.preservesCokernels_ι",
+    "CategoryTheory.ObjectProperty.preservesKernels_ι",
     "RingHom.IndEtale",
     "RingHom.IndEtale.comp",
     "RingHom.IndEtale.weaklyEtale",
@@ -532883,7 +532872,8 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine":
   {"valueDeps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite",
@@ -532932,7 +532922,8 @@
    "doc":
    "**Cohomological dimension of an affine curve.** Let `C` be an affine curve over an\nalgebraically closed field `k`. Then `H^q(C_ét, F) = 0` for `q ≥ 2` and every torsion abelian\nsheaf `F` on `C_ét`: the étale cohomological dimension of an affine curve over an\nalgebraically closed field is at most one.\n\nDegrees `q ≥ 3` are `AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le`. Degree two\nreduces (`AlgebraicGeometry.IsCurve.subsingleton_sheafH_two_of_isAffine_of_forall`) to smooth\naffine connected curves, where it is\n`AlgebraicGeometry.IsConnectedCurve.subsingleton_sheafH_of_two_le_of_isAffine_of_smooth`.\n(blueprint: `lem-sc-arbitrary-curve-cd`)",
    "deps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite",
@@ -532969,17 +532960,19 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le":
   {"valueDeps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.IndEtale",
+    "Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite",
     "AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar",
     "AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField",
     "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.CohomologicalBrauerGroup",
     "AlgebraicGeometry.Scheme.Hom.image",
     "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine",
+    "AlgebraicGeometry.WeaklyEtale",
     "CategoryTheory.Functor.RepresentableBy",
     "CategoryTheory.ObjectProperty.preservesCokernels_ι",
     "CategoryTheory.ObjectProperty.preservesKernels_ι",
@@ -532999,17 +532992,19 @@
    "doc":
    "**Vanishing in high degrees.** Let `C` be a curve over an algebraically closed field `k`.\nThen `H^q(C_ét, F) = 0` for `q ≥ 3` and every torsion abelian sheaf `F` on `C_ét`: the étale\ncohomological dimension of a curve over an algebraically closed field is at most two. The\nsharper bound for affine `C` is\n`AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine`.\n\nThe proof reduces to integral curves\n(`AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le_generic`, blueprint\n`lem-sc-arbitrary-curve-cd`, Step 1): the units `F ⟶ cₚ_* cₚ^* F` for the irreducible components\n`cₚ : Zₚ ⟶ C` with their reduced structure assemble to a map `F ⟶ ⨁ₚ cₚ_* cₚ^* F` which is an\nisomorphism away from finitely many closed points, hence bijective on `Hᵠ` for `q ≥ 2`. On an\nintegral curve the vanishing is the generic-point argument of\n`AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le_of_isIntegral`: `Hᵠ(C, F)` agrees\nwith `Hᵠ(C, η_* η^* F)` for the generic point `η`, and the function field has cohomological\ndimension at most one. (blueprint: `lem-sc-arbitrary-curve-cd`)",
    "deps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.IndEtale",
+    "Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite",
     "AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar",
     "AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField",
     "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.CohomologicalBrauerGroup",
     "AlgebraicGeometry.Scheme.Hom.image",
     "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine",
+    "AlgebraicGeometry.WeaklyEtale",
     "CategoryTheory.Functor.RepresentableBy",
     "CategoryTheory.ObjectProperty.preservesCokernels_ι",
     "CategoryTheory.ObjectProperty.preservesKernels_ι",
@@ -533071,7 +533066,8 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.IsCurve.sheafH_gmSheaf_of_smooth":
   {"valueDeps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.IndEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.cohomologyMap_map",
     "AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar",
@@ -533116,7 +533112,8 @@
    "doc":
    "Blueprint `sk-thm-br`: the cohomology of `𝔾ₘ` on a smooth curve, étale version.\n\nLet `C` be a smooth separated curve of finite type over an algebraically closed field `k`. Then\nthe canonical map `Pic(C) → H¹(C_ét, 𝔾ₘ)`, `L ↦ [Isom(𝒪_C, L)]`\n(`AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv`), is an isomorphism of\ngroups, and `Hᵠ(C_ét, 𝔾ₘ) = 0` for `q ≥ 2`; in particular `Br(C) = 0`. The identification in\ndegree one is natural under restriction to open subschemes `U ⊆ C`, and more generally under\npullback along any morphism `h : X ⟶ C`, for instance the projection `C_{k'} ⟶ C` for an\nextension `k ⊆ k'` of algebraically closed fields (in degrees `q ≥ 2` both sides vanish).\n\nThe vanishing is `AlgebraicGeometry.IsCurve.subsingleton_sheafH_gmSheaf_of_smooth` (blueprint\n`det-thm-br-higher-vanishing`), the identification in degree one is Hilbert 90 (blueprint\n`lem-sc-h1-gm-pic`) and its naturality is\n`AlgebraicGeometry.Scheme.etaleRestrictionH_toCohomologicalPicardGroup` and\n`AlgebraicGeometry.Scheme.gmCohomologyMap_toCohomologicalPicardGroup`.",
    "deps":
-   ["AlgebraicGeometry.Compactification",
+   ["Algebra.IndEtale",
+    "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.cohomologyMap_map",
     "AlgebraicGeometry.Etale.subsingleton_H_of_isZero_upperStar",
@@ -537746,7 +537743,6 @@
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_forall_isIso_baseChangeHomologyMap",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
@@ -537779,7 +537775,6 @@
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_forall_isIso_baseChangeHomologyMap",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
@@ -537875,7 +537870,7 @@
    "deps": ["AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.strictLocalizationPullback_sections":
-  {"valueDeps": [],
+  {"valueDeps": ["AlgebraicGeometry.Compactification"],
    "typeDeps": [],
    "status": "proved",
    "signature":
@@ -537891,7 +537886,7 @@
    "exists": true,
    "doc":
    "**Sections over the base change to the strict localization.** For `f` proper, the sections\nof the pullback of `F` to `S_(y) ×_Y X` are the colimit of the sections of `F` over the\n`V ×_Y X`, for the affine pointed étale neighbourhoods `(V, v)` of `y`: every section over\n`S_(y) ×_Y X` is the pullback of a section over some `V ×_Y X`, and a section over `V ×_Y X`\nwhose pullback vanishes already vanishes over `V' ×_Y X` for some `(V', v') ⟶ (V, v)`. This is\nthe continuity of sections at inverse limits\n(`AlgebraicGeometry.Etale.unitComparison_app_isColimit_of_isLimit`)\nfor the cofiltered system of the `V ×_Y X` with `V` refining a fixed affine neighbourhood.",
-   "deps": [],
+   "deps": ["AlgebraicGeometry.Compactification"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.smoothPurityTrace_comp":
   {"valueDeps":
@@ -541906,8 +541901,7 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.isZero_homology_rightDerivedGlobalSections_of_isZero_sheafFiber":
   {"valueDeps":
-   ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
-    "AlgebraicGeometry.QuasiCompactCover"],
+   ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite"],
    "typeDeps": [],
    "status": "proved",
    "signature":
@@ -541923,8 +541917,7 @@
    "doc":
    "Blueprint `lem-kun-0f1f-vanish`: **vanishing for sheaves supported on closed points.** Let\n`K` be a separably closed field, `X` a quasi-compact scheme locally of finite type over `K` and\n`F` an étale sheaf of `Λ`-modules on `X` whose stalks at the geometric points over the\nnon-closed points vanish. Then `H^q(X_ét, F) = 0` for all `q ≠ 0`.",
    "deps":
-   ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
-    "AlgebraicGeometry.QuasiCompactCover"],
+   ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.isWeilPairing_poincarePairing":
   {"valueDeps":
@@ -544861,7 +544854,6 @@
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz",
     "AlgebraicGeometry.Etale.exists_isPullback_not_isZero_higherDirectImage",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
@@ -544890,7 +544882,6 @@
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz",
     "AlgebraicGeometry.Etale.exists_isPullback_not_isZero_higherDirectImage",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
@@ -545532,7 +545523,6 @@
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
@@ -545558,7 +545548,6 @@
     "AlgebraicGeometry.Etale.baseChangeMap",
     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
@@ -547025,7 +547014,6 @@
     "AlgebraicGeometry.Etale.mono_baseChangeHomologyMap",
     "AlgebraicGeometry.Etale.nonempty_fieldFailure_of_not_universalBaseChangeProperty",
     "AlgebraicGeometry.Etale.nonempty_higherDirectImage_forget_iso",
-    "AlgebraicGeometry.QuasiCompactCover",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "CategoryTheory.mateEquiv_counit",
     "CategoryTheory.unit_mateEquiv"],
@@ -547052,7 +547040,6 @@
     "AlgebraicGeometry.Etale.mono_baseChangeHomologyMap",
     "AlgebraicGeometry.Etale.nonempty_fieldFailure_of_not_universalBaseChangeProperty",
     "AlgebraicGeometry.Etale.nonempty_higherDirectImage_forget_iso",
-    "AlgebraicGeometry.QuasiCompactCover",
     "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "CategoryTheory.mateEquiv_counit",
     "CategoryTheory.unit_mateEquiv"],
@@ -549015,7 +549002,8 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.bijective_restrictAlong_fibreToStrictLocalization":
   {"valueDeps":
-   ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing"],
+   ["AlgebraicGeometry.Compactification",
+    "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing"],
    "typeDeps": [],
    "status": "proved",
    "signature":
@@ -549032,7 +549020,8 @@
    "doc":
    "**Sections over the base change to the strict localization are sections over the geometric\nfibre.** For `f` proper and `Ω` algebraically closed, restriction of sections of the pullback of\n`F` along `X_y ⟶ S_(y) ×_Y X` is bijective. The ring of `S_(y)` is strictly henselian, so these\nsections are those over the closed geometric fibre over an algebraic closure `κ̄` of the residue\nfield (`AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_geometricFibre`),\nand `X_y` is the base change of the closed geometric fibre along an embedding `κ̄ ⟶ Ω`\n(`AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_isAlgClosed`).",
    "deps":
-   ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing"],
+   ["AlgebraicGeometry.Compactification",
+    "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.Etale.bijective_globalSectionsUpperStarMap_of_dim_zero":
   {"valueDeps":
@@ -549111,7 +549100,6 @@
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField_zmod",
     "AlgebraicGeometry.Etale.cohomologyMap_map",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion"],
    "typeDeps": ["AlgebraicGeometry.Scheme.IsTorsionModuleSheaf"],
@@ -549133,7 +549121,6 @@
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField_zmod",
     "AlgebraicGeometry.Etale.cohomologyMap_map",
-    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
