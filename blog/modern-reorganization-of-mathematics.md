@@ -4,9 +4,7 @@ author = "Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, 
 date = "November 2026"
 +++
 
-*First published as a guest post on the Xena Project blog, 11 November 2026:* <https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/>
-
-[Everyone is doing guest posts these days, so here’s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang]
+This is a repost of a blog post originally published on the Xena project, hosted by Kevin Buzzard, available at https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/
 
 > We mathematicians need to put far greater effort into communicating mathematical ideas. To accomplish this, we need to pay much more attention to communicating not just our definitions, theorems, and proofs, but also our ways of thinking.
 >
