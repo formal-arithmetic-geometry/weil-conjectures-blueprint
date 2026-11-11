@@ -4,8 +4,6 @@ author = "Nailin Guan"
 date = "October 2026"
 +++
 
-*PDF version:* <a href="files/FormalizationReport_refined.pdf" download>FormalizationReport_refined.pdf</a>
-
 The Weil conjectures project relies heavily on category theory, particularly
 derived categories. This has presented challenges at two different levels:
 technical difficulties, most notably with the performance of Lean’s kernel, and
