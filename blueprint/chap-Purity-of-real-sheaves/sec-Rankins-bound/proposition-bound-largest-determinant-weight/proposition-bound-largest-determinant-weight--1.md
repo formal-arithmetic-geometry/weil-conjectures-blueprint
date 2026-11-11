@@ -5,7 +5,8 @@ title = "A bound by the largest determinant weight (1)"
 name_showing = false
 order = 1165001
 aliases = ["bp-r358-1"]
-lean = ["AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal"]
+lean = ["AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal", "AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal"]
+uses = ["definition-determinant-weight--1", "definition-weil-representation--1", "definition-real-sheaves--1"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected affine curve
 and let $\mathcal G\ne0$ be a lisse $\iota$-real Weil sheaf.  If $\beta$

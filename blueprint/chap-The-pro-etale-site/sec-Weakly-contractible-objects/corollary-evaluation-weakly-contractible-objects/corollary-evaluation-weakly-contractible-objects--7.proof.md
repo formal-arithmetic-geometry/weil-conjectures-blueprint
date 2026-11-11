@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-evaluation-weakly-contractible-objects--7"
 order = 79015
-uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--7", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--8", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1"]
 +++
 If $f$ is an isomorphism, so is every $f(W)$. Conversely, suppose that every
 $f(W)$ is bijective. Apply clause [corollary-evaluation-weakly-contractible-objects--6] to the sequence

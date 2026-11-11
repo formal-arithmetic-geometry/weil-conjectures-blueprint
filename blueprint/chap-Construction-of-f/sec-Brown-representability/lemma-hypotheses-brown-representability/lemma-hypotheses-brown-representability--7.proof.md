@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-hypotheses-brown-representability--7"
 order = 523015
+uses = ["proposition-compactness-proper-direct-image--1", "lemma-hypotheses-brown-representability--4", "lemma-hypotheses-brown-representability--5", "definition-relative-picard-functor--2"]
 +++
 Compactness for these coefficients is proved in [proposition-compactness-proper-direct-image]. Clause [lemma-hypotheses-brown-representability--5] allows a small skeleton. Generation follows as follows.
 

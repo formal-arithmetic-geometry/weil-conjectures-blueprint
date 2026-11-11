@@ -5,7 +5,7 @@ title = "The zero and nonzero linear characters"
 order = 1270001
 aliases = ["bp-r392-1"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isGeometricallyConstant_of_hasLinearArtinSchreierConstituent_zero", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.not_hasLinearArtinSchreierConstituent_of_isUnramifiedAtInfinity'"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "definition-compactification-refinement--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-artin-schreier-character-sheaf--1"]
 +++
 Let $k_0$ be a finite field of characteristic $p$, let $\ell\ne p$ be
 prime, and let $M$ be a lisse Weil $\overline{\mathbf Q}_\ell$-sheaf on a

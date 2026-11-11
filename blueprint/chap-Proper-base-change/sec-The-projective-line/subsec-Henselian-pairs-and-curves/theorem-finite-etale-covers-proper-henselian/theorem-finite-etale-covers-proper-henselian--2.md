@@ -1,11 +1,11 @@
 +++
 id = "theorem-finite-etale-covers-proper-henselian--2"
-kind = "remark"
+kind = "theorem"
 title = "Lifting finite covers"
 order = 357001
 aliases = ["bp-r108-2"]
 lean = ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing"]
-uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "lemma-uniqueness-maps-dense-open--1", "theorem-chow-s-lemma-projective-form--2", "theorem-chow-s-lemma-projective-form--3"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "lemma-acyclic-resolutions--1", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "lemma-schematic-closure-uniqueness--2", "lemma-uniqueness-maps-dense-open--1", "theorem-chow-s-lemma-projective-form--3"]
 +++
 *Lifting finite étale covers over a proper henselian pair.*
 Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and let

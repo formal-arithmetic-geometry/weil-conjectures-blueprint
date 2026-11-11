@@ -5,6 +5,8 @@ title = "Forgetting supports and composition (2)"
 name_showing = false
 order = 519003
 aliases = ["bp-r158-2"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso_hom_app_comp_toLowerStar"]
+uses = ["proposition-construction-independence-rf-shriek--7", "proposition-forgetting-supports-composition--1", "definition-compactification-refinement--1"]
 +++
 It is independent of the
 compactification, and the square

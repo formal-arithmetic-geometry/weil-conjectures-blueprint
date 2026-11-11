@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-closed-piece-pushforward"
 order = 941
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "theorem-nagata-s-compactification-theorem"]
 +++
 The maps $\alpha$ and $\beta$ of
 Definition [definition-pushforward-correspondence] are here

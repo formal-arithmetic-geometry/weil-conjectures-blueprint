@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-nearby-cycles-constant-family"
 order = 1628
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-integral-models", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "proposition-six-operations-dctf", "definition-change-of-coefficients-maps", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-all-admissible", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-functoriality-deformation"]
 +++
 The compatibilities (1) and (2) are formal. For the isomorphism we show
 that the cone $C_Y(L)$ of $\sigma_Y(L)$ vanishes. To do this we use that, like nearby

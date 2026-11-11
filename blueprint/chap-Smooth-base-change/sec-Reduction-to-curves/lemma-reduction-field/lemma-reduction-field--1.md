@@ -5,7 +5,7 @@ title = "Reduction to a field (1)"
 name_showing = false
 order = 676001
 aliases = ["bp-r203-1"]
-lean = ["AlgebraicGeometry.Etale.nonempty_fieldFailure"]
+lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure_of_not_universalBaseChangeProperty", "AlgebraicGeometry.Etale.nonempty_fieldFailure"]
 uses = ["definition-derived-base-change-map--1"]
 +++
 If $\mathrm{BC}(g,n,q-1)$ holds but $\mathrm{BC}(g,n,q)$ fails, then

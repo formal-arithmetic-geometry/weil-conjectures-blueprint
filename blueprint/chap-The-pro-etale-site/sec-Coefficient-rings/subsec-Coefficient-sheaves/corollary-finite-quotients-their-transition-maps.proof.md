@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-finite-quotients-their-transition-maps"
 order = 182
+uses = ["proposition-pro-etale-affines-form-basis"]
 +++
 It suffices to prove exactness on the point, since $p_X^*$ is exact and
 inverse image along $f:X\to Y$ satisfies $p_Y\circ f=p_X$. Now, on a profinite

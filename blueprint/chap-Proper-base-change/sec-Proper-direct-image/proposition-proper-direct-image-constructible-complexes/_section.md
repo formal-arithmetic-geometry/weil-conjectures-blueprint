@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Proper direct image of constructible complexes"
 order = 425
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.finiteProperBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.integralProperDirectImageAndFormulas"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness", "definition-constructible-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "definition-pro-etale-base-change-map", "definition-projection-formula-map"]
 +++
 Let $p:X\to Y$ be proper and let $\Lambda$ be admissible.
 

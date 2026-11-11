@@ -6,6 +6,7 @@ name_showing = false
 order = 842001
 aliases = ["bp-r252-1"]
 lean = ["AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_dualizingComplex_of_generic", "AlgebraicGeometry.Etale.isIso_leftDerivedUpperStar_map_verdierDualDoubleDual_app_iff_of_generic"]
+uses = ["proposition-exceptional-inverse-image-smooth-morphism", "definition-constructible-sheaves--6", "definition-verdier-dual-evaluation--2", "definition-verdier-dual-evaluation--4", "definition-compactification-refinement--1"]
 +++
 In the setting of Lemma [lemma-restriction-geometric-generic-fibre],
 let $B=\mathbf A^1_k$ and $K\in D^b_{\mathrm{ctf}}(X,A)$. For every affine open $V$

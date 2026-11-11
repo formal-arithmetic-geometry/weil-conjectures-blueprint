@@ -5,7 +5,7 @@ title = "Rational finite extension"
 order = 187008
 aliases = ["bp-r054-4"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_comap_regular_iso_finiteFree"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3"]
 +++
 Let $E\subset E'$ be finite extensions of $\mathbf Q_\ell$ in the fixed
 algebraic closure, with the coefficient sheaves of

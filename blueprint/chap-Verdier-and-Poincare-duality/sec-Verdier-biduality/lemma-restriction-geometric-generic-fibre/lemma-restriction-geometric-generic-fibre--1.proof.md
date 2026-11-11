@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-restriction-geometric-generic-fibre--1"
 order = 839002
-uses = ["theorem-generic-constructibility-base-change-rj--2"]
+uses = ["theorem-generic-constructibility-base-change-rj--1"]
 +++
 *Direct image.* The geometric generic point is a limit of étale
 $B$-schemes. Indeed, a separable closure of $k(B)$ is the inverse limit of

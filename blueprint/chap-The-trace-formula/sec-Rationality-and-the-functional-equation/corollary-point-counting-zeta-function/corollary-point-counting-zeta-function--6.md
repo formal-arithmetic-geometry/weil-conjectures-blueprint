@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Integral power series"
 order = 1040011
 aliases = ["bp-r318-6"]
-lean = ["AlgebraicGeometry.Scheme.Hom.constantCoeff_zetaSeries", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
 uses = ["corollary-point-counting-zeta-function--3"]
 +++
 Let $X_0$ be any scheme of finite type over $\mathbf F_q$. There is a

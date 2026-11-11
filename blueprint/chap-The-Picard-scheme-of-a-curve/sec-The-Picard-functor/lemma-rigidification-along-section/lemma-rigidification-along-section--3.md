@@ -5,8 +5,8 @@ title = "Rigidification along a section (3)"
 name_showing = false
 order = 1523005
 aliases = ["bp-r474-3"]
-lean = ["AlgebraicGeometry.bijective_pic_split"]
-uses = ["definition-relative-picard-functor--1"]
+lean = ["AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.surjective_toPicardFunctorHom", "AlgebraicGeometry.pic_map_sectionBaseChange_snd"]
+uses = ["definition-relative-picard-functor", "definition-relative-picard-functor--1"]
 +++
 Let $f:C\to S$ have a section $\sigma:S\to C$, and suppose that
 $\mathcal O_U\to f_{U,*}\mathcal O_{C_U}$ is an isomorphism for every

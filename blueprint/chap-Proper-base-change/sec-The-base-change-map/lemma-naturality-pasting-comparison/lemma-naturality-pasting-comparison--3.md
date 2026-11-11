@@ -6,7 +6,7 @@ name_showing = false
 order = 324005
 aliases = ["bp-r097-3"]
 lean = ["AlgebraicGeometry.ProEtale.baseChangeSourceComparisonIso", "AlgebraicGeometry.ProEtale.baseChangeTargetComparisonIso", "AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--2", "definition-derived-base-change-map--1", "definition-pro-etale-base-change-map--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-derived-base-change-map--1", "definition-pro-etale-base-change-map--1"]
 +++
 Let (4.1) be a cartesian square, let $\Lambda$ be a discrete commutative
 ring, and let $K\in D^+(X_{\acute{e}t},\Lambda)$. Suppose that $f$ and

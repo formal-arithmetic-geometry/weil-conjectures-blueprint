@@ -1,6 +1,6 @@
 +++
 id = "theorem-results-from-etale-theory--6"
-kind = "remark"
+kind = "theorem"
 title = "Finite cohomological dimension"
 order = 537007
 aliases = ["bp-r162-6"]

@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Reducedness and smoothness"
 order = 1722001
 aliases = ["bp-r533-1"]
-lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_isReduced"]
+lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_isReduced", "AlgebraicGeometry.smooth_of_grpObj_of_charZero"]
 +++
 Let $k$ be a field of characteristic zero and let $G$ be a group scheme
 locally of finite type over $k$. Then $G$ is reduced and smooth over $k$.

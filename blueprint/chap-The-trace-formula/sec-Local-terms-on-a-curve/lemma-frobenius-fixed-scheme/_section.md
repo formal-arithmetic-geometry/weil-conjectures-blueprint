@@ -3,8 +3,8 @@ id = "lemma-frobenius-fixed-scheme"
 kind = "lemma"
 title = "The Frobenius fixed scheme"
 order = 960
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isFinite_hom", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isProper_hom", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isReduced", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isoSigmaPointFixedFieldPoints"]
-uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "proposition-composition-open-restriction-compactifications-f", "definition-correspondence", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isProper_hom"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "definition-correspondence", "definition-frobenius-correspondences-their-operators"]
 +++
 For $m\geq1$, the fixed point scheme of $\Phi_X^m$ satisfies
 

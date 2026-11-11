@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models--1"
 order = 294003
-uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--7", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--8", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "lemma-acyclic-resolutions--1", "proposition-sp-unique-adjoint--1"]
 +++
 In (1) and (2) we compare two coefficient sheaves related by a flat map
 that is an isomorphism modulo every $\pi_E^n$, so they have the same

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-sp-reduction"
 order = 770
-uses = ["lemma-change-coefficients-compact-support"]
+uses = ["definition-change-of-coefficients-maps", "lemma-change-coefficients-compact-support"]
 +++
 The comparison $b$ for $Rf_!$ is a direct computation, and $c_{A,B}$ is
 then determined by the adjunction. To see that $c_{A,B}$ is invertible we

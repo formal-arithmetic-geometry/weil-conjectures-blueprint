@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-bounds-finite-reductions--2"
 order = 228005
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--7", "lemma-stability--8", "proposition-topos-functoriality--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "lemma-reduction-derived-nakayama--1", "lemma-bounds-finite-reductions--1", "definition-sp-scalar-extension--2"]
 +++
 For the Tor bound we use
 $K_n\otimes^{\mathbf L}_{\mathcal O_E/\pi_E^n}\mathbf F_E\simeq K_1$.

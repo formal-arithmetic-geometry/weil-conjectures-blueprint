@@ -3,7 +3,7 @@ id = "proposition-cohomology-p-1-over-henselian"
 kind = "proposition"
 title = "Cohomology of $\\mathbf P^1$ over henselian rings"
 order = 375
-lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField", "AlgebraicGeometry.Etale.cohomologyMap_map"]
+uses = ["definition-torsion-sheaves"]
 +++
 Let $R$ be a henselian local ring with residue field $\kappa$. For every
 torsion abelian sheaf $F$ on $\mathbf P^1_{R,\acute{e}t}$, restriction

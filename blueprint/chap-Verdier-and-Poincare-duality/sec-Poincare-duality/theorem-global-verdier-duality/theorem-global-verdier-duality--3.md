@@ -6,6 +6,7 @@ name_showing = false
 order = 852005
 aliases = ["bp-r255-3"]
 lean = ["AlgebraicGeometry.Etale.uncurry_derivedHomLowerShriekIsoOfAdjunction_hom_app_app"]
+uses = ["definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1"]
 +++
 The first is the adjoint of the pairing formed by the cup product
 with mixed supports, evaluation, and the counit $\varepsilon_{a_X}$ of

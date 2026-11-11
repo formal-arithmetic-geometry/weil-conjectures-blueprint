@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-punctured-surface-punctured-curve"
 order = 972
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "lemma-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "proposition-relative-dualizing-complex", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "lemma-finite-direct-images", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 Both complexes have cohomology $\mathbf F_\ell$ in degree zero,
 $\mathbf F_\ell(-1)$ in degree one, and zero in all other degrees.

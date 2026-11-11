@@ -5,6 +5,7 @@ title = "Contragredient Weil structure"
 order = 885002
 aliases = ["bp-r266-1"]
 lean = ["AlgebraicGeometry.Etale.contragredientWeilDatum", "AlgebraicGeometry.Etale.contragredientWeilDatumIso"]
+uses = ["lemma-smooth-morphisms-locally-constant-sheaves--2", "proposition-sp-unique-adjoint--1", "definition-perfect-pairing--1"]
 +++
 Equip $K^\vee$ with the Weil structure
 

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-composition-base-change-rf-shriek--2"
 order = 516005
-uses = ["proposition-proper-direct-image-constructible-complexes--8", "lemma-inverse-image-tensor-product--1", "definition-compactification-refinement--2", "definition-compactification-refinement--3", "theorem-nagata-s-compactification-theorem--1"]
+uses = ["definition-derived-base-change-map", "lemma-stability--3", "lemma-integral-models--3", "definition-underived-base-change-map--1", "definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "theorem-proper-base-change-classical-pro--1", "proposition-proper-direct-image-constructible-complexes--8", "proposition-construction-independence-rf-shriek--8", "proposition-construction-independence-rf-shriek--9", "proposition-sp-unique-adjoint--1", "definition-compactification-refinement--2", "definition-compactification-refinement--3", "theorem-nagata-s-compactification-theorem--1", "lemma-schematic-closure-uniqueness--2", "lemma-uniqueness-maps-dense-open--1", "lemma-passing-schematic-closure--1", "lemma-passing-schematic-closure--2"]
 +++
 *Verification of canonicity and associativity.* Every map used is characterized by
 its restriction to an open subscheme, since the refinement maps

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-determinant-weights-tensor-operations--2"
 order = 1148005
-uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2", "proposition-central-element-arithmetic-monodromy-group--1", "proposition-central-element-arithmetic-monodromy-group--2", "lemma-determinant-weight-from-central-scalar--1"]
+uses = ["lemma-filtrations-spectra--2", "theorem-rank-one-sheaves-have-finite--1", "corollary-determinant-weights--2", "lemma-tensor-exterior-powers-filtered-representations--3", "definition-monodromy-groups--1", "definition-monodromy-groups--2", "lemma-normality-geometric-monodromy--1", "proposition-central-element-arithmetic-monodromy-group--1", "proposition-central-element-arithmetic-monodromy-group--2", "lemma-determinant-weight-from-central-scalar--1", "proposition-determinant-weights-tensor-operations--1"]
 +++
 We use one central element for $V$ and $V'$ simultaneously, so that
 its scalars on the factors of $V\otimes V'$ are products of its scalars

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-reciprocal-roots-zeta--1"
 order = 1389003
+uses = ["theorem-poincare-duality-frobenius", "theorem-trace-isomorphism-top-degree--8", "theorem-grothendieck-lefschetz-trace-formula--5", "theorem-trace-formula-euler-product--6", "corollary-point-counting-zeta-function--2", "corollary-point-counting-zeta-function--6", "corollary-purity-cohomology-smooth-proper-variety--1", "lemma-hankel-rank-rationality--1", "lemma-hankel-rank-rationality--2", "lemma-reduced-fractions-integer-coefficients--1"]
 +++
 The identity (19.2) holds because both sides
 are reduced fractions for $Z(X_0,T)$ over $\mathbf Q_\ell$. By

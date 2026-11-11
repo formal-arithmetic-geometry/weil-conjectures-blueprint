@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-poincare-duality--8"
 order = 857015
+uses = ["theorem-poincare-duality--6"]
 +++
 For proper $X$, the comparison $Ra_{X!}\to Ra_{X*}$ is an isomorphism by Proposition [proposition-forgetting-supports-composition--3]. Replacing compact direct image by ordinary direct image through this comparison in the construction of the pairing and its adjoint gives the asserted proper version.
 

@@ -5,6 +5,7 @@ title = "Images of cohomology at finite levels (1)"
 name_showing = false
 order = 234001
 aliases = ["bp-r069-1"]
+lean = ["Padic.integral_scalar_cohomology_images"]
 +++
 Let $Q^\bullet$ be a bounded complex of finite free
 $\mathcal O_E$-modules, and let $\pi_E^e$ kill the torsion of

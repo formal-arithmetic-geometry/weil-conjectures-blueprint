@@ -5,7 +5,8 @@ title = "Degree and the Jacobian (1)"
 name_showing = false
 order = 1555001
 aliases = ["bp-r484-1"]
-lean = ["AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom", "AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.picDegreeHom_ofClosedPoint", "AlgebraicGeometry.Scheme.surjective_picDegreeHom"]
+lean = ["AlgebraicGeometry.Scheme.exists_jacobian_addEquiv_prod", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom", "AlgebraicGeometry.Scheme.picDegreeHom_ofClosedPoint", "AlgebraicGeometry.Scheme.surjective_picDegreeHom"]
+uses = ["definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "definition-abelian-variety--1", "definition-relative-picard-functor--2"]
 +++
 Let $C$ be a smooth proper connected curve over an algebraically closed
 field $k$. There is an exact sequence

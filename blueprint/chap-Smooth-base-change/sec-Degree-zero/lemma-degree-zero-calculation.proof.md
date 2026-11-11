@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-degree-zero-calculation"
 order = 668
+uses = ["definition-small-pro-etale-site", "lemma-finite-direct-images"]
 +++
 Both sides are sheaves on $Y'_{\acute{e}t}$, so it is enough to compare their
 sections on a family of étale objects $U\to Y'$ that cover $Y'$. We

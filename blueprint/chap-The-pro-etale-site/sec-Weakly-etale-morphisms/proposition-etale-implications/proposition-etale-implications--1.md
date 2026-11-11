@@ -5,7 +5,7 @@ title = "Étale, ind-étale and weakly étale ring maps (1)"
 name_showing = false
 order = 29002
 aliases = ["bp-r002-1"]
-lean = ["AlgebraicGeometry.proAffineEtale.of_isAffine", "RingHom.IndEtale.weaklyEtale"]
+lean = ["Algebra.IndEtale.weaklyEtale", "AlgebraicGeometry.proAffineEtale.of_isAffine", "RingHom.IndEtale.weaklyEtale"]
 uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "definition-ind-etale-pro-etale-weakly--3"]
 +++
 Let $f:X\to Y$ be an étale morphism of schemes with $X$ affine.

@@ -6,6 +6,7 @@ name_showing = false
 order = 452001
 aliases = ["bp-r137-1"]
 lean = ["AlgebraicGeometry.ProEtale.IsIndConstructibleModuleObject"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "lemma-constructible-sheaves--8"]
 +++
 An *ind-constructible sheaf* on $X$ is a sheaf of $\Lambda_X$-modules
 on $X_{\mathrm{pro}\acute{e}t}$ that is a filtered colimit, computed in

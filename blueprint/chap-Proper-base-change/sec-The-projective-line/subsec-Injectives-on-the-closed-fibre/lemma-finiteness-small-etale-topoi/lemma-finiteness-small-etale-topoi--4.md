@@ -1,6 +1,6 @@
 +++
 id = "lemma-finiteness-small-etale-topoi--4"
-kind = "remark"
+kind = "lemma"
 title = "Higher direct-image vanishing"
 order = 369005
 aliases = ["bp-r112-4"]

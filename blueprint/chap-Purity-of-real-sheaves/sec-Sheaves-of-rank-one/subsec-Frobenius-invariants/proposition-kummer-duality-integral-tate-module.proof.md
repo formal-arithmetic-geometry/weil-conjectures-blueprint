@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-kummer-duality-integral-tate-module"
 order = 1098
-uses = ["lemma-stability", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "proposition-integral-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h", "corollary-degree-jacobian"]
+uses = ["lemma-acyclic-resolutions", "theorem-cohomology-curves", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-finite-morphisms-cohomology"]
 +++
 By the Kummer sequence, $H^1(C,\mu_{\ell^n})$ is
 the $\ell^n$-torsion of the Picard group, and Poincaré duality

@@ -3,7 +3,7 @@ id = "lemma-products-composites-u-admissible-blow"
 kind = "lemma"
 title = "Products and composites of $U$-admissible blow-ups"
 order = 1433
-lean = ["AlgebraicGeometry.IsAdmissible.mul", "AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
+uses = ["definition-admissible-blow-up"]
 +++
 Finitely many $U$-admissible blow-ups of $T$ admit a common
 $U$-admissible blow-up. A composite of two $U$-admissible blow-ups is

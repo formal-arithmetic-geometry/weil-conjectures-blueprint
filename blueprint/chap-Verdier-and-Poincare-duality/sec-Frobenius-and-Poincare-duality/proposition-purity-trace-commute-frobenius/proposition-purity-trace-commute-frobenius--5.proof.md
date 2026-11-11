@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-purity-trace-commute-frobenius--5"
 order = 882010
+uses = ["proposition-composition-base-change-rf-shriek--4", "proposition-purity-trace-commute-frobenius--4"]
 +++
 Use the purity compatibility in clause [proposition-purity-trace-commute-frobenius--4].
 

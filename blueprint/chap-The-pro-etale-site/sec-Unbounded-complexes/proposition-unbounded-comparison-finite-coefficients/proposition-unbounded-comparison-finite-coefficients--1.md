@@ -6,6 +6,7 @@ name_showing = false
 order = 166001
 aliases = ["bp-r049-1"]
 lean = ["AlgebraicGeometry.ProEtale.finiteCoefficientDerivedComparison_fullyFaithful"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 Let $X$ and $Y$ be of finite type over the base field $k$, let
 $A$ be a finite commutative $\ell$-primary ring, and let

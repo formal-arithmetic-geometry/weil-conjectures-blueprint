@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-p-torsion-smooth-proper-curve"
 order = 1590
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "definition-derived-base-change-map", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "lemma-proper-smooth-model", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-p-torsion-affine-curve-characteristic"]
 +++
 The Artin–Schreier sequence turns the question into one about
 $\varphi-1$ on $H^0(C,\mathcal O_C)=k$ and on $H^1(C,\mathcal O_C)$. The

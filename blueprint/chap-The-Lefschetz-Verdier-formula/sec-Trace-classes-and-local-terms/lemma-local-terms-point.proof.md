@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-local-terms-point"
 order = 920
+uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-kunneth-formula-compact-supports", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 On the point each step of the construction of the trace class is a
 step of the categorical trace. Here $\omega_s=A_s$, so $\mathbb D_sP=P^\vee$, and $P_s=P\boxtimes

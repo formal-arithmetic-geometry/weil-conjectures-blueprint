@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-function-sheaf-dictionary--2"
 order = 1029005
+uses = ["lemma-stability--8", "lemma-perfect-complexes-geometric-point--6"]
 +++
 For (2), the stalk of $K\otimes^{\mathbf L}_\Lambda L$ at $\bar x$ is
 $K_{\bar x}\otimes^{\mathbf L}_\Lambda L_{\bar x}$, since pullback to

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-lattices-lisse-e-sheaves--1"
 order = 260002
+uses = ["lemma-stability--5", "proposition-pro-etale-coverings--2"]
 +++
 The rank of $L$ is a locally constant function on $|X|$. Indeed, on a
 trivializing covering the subsets of constant rank are open, closed

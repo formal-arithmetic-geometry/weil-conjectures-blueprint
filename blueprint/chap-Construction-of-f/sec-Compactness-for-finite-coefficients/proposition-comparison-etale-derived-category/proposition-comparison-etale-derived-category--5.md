@@ -5,7 +5,7 @@ title = "Inverse-image comparison"
 order = 474010
 aliases = ["bp-r144-5"]
 lean = ["AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--2"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 For any commutative ring $A$ and any morphism of schemes $g:X\to Y$,
 there is a natural isomorphism

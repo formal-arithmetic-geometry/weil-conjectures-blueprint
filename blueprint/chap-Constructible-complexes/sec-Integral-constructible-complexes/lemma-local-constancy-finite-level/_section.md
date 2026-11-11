@@ -3,6 +3,7 @@ id = "lemma-local-constancy-finite-level"
 kind = "lemma"
 title = "Locally constant perfect complexes"
 order = 238
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $S$ be a connected Noetherian scheme, let $A$ be a finite local ring,
 and let $L\in D^b(S_{\acute{e}t},A)$ have finite Tor amplitude and cohomology

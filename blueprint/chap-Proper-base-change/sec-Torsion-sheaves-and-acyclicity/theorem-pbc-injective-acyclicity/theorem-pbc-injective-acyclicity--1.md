@@ -6,6 +6,7 @@ name_showing = false
 order = 349001
 aliases = ["bp-r107-1"]
 lean = ["AlgebraicGeometry.Etale.tfae_hasTorsionBaseChange", "AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_forall_isIso_baseChangeHomologyMap"]
+uses = ["definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "definition-torsion-pbc-property--1", "definition-injective-acyclicity--1"]
 +++
 Let $f:X\to Y$ be proper. The following are equivalent:
 

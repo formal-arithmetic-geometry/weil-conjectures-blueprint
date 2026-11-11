@@ -6,6 +6,7 @@ name_showing = false
 order = 1523007
 aliases = ["bp-r474-4"]
 lean = ["AlgebraicGeometry.picardFunctorNormalized_eq_of_iso_tensorObj"]
+uses = ["definition-relative-picard-functor"]
 +++
 Let $f:C\to S$ have a section $\sigma:S\to C$. For an invertible sheaf
 $\mathcal L$ on $C_T$, its normalization is

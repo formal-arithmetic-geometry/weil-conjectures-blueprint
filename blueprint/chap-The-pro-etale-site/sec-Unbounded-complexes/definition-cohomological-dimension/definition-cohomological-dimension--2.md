@@ -6,6 +6,7 @@ name_showing = false
 order = 157002
 aliases = ["bp-r045-2"]
 lean = ["AlgebraicGeometry.ProEtale.relativeCohomologicalDimension"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "definition-classical-pro-etale-sheaves--1"]
 +++
 $$
 \begin{aligned}

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-coefficient-heart-b--1"
 order = 273003
+uses = ["definition-lisse-sheaves", "lemma-inverse-image-coefficient-sheaves--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--2", "definition-constructible-sheaves--3", "definition-constructible-sheaves--5", "definition-constructible-sheaves--6", "lemma-constructible-sheaves--3"]
 +++
 The first assertion is closure under cones, which we check on cohomology sheaves.
 Let $K\to K'\to K''\to K[1]$ be a distinguished triangle with $K,K'$ in

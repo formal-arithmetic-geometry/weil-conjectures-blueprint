@@ -4,8 +4,6 @@ kind = "corollary"
 title = "Open extension by zero"
 order = 848010
 aliases = ["bp-r254-5"]
-lean = ["AlgebraicGeometry.Etale.verdierDualLowerShriekIso"]
-uses = ["definition-compactification-refinement--1"]
 +++
 For an open $j:U\hookrightarrow X$ and a closed $i:Z\hookrightarrow X$, the indicated specialization is
 

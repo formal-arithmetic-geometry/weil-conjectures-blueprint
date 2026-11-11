@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-unbounded-comparison-finite-coefficients--1"
 order = 166002
+uses = ["proposition-pro-etale-affines-form-basis", "theorem-bounded-below-cohomology-comparison", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--7", "lemma-stability--8", "proposition-topos-functoriality--1", "proposition-topos-functoriality--2", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "proposition-left-completeness--1", "definition-classical-pro-etale-sheaves--1", "definition-classical-pro-etale-sheaves--2", "theorem-classical-sheaves-essential-image--1", "lemma-acyclicity-pulled-back-injectives--1", "corollary-bounded-below-classical-complexes--2", "lemma-uniform-bounds-pro-etale-affines--2", "lemma-acyclic-resolutions--1", "proposition-sp-unique-adjoint--1", "definition-compactification-refinement--1"]
 +++
 By the two lemmas, both sides in a fixed degree depend only on a
 bounded-below truncation of $K$, where

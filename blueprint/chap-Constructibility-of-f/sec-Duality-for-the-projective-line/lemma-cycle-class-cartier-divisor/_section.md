@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The cycle class of a Cartier divisor"
 order = 543
 lean = ["AlgebraicGeometry.ProEtale.exists_geoCartierCycleClass", "AlgebraicGeometry.ProEtale.geoCartierCanonicalClass"]
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-relative-picard-functor"]
 +++
 Let $\Lambda$ be a finite commutative $\ell$-primary ring, and let
 $i:D\hookrightarrow Z$ be an effective Cartier divisor on a

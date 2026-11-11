@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-ind-constructible-sheaves--3"
 order = 453007
+uses = ["definition-lisse-sheaves", "lemma-inverse-image-coefficient-sheaves--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--3", "lemma-constructible-sheaves--3", "proposition-ind-constructible-sheaves--2"]
 +++
 *Canonical presentations.* The closure properties below involve
 several ind-constructible sheaves at once. To compare their

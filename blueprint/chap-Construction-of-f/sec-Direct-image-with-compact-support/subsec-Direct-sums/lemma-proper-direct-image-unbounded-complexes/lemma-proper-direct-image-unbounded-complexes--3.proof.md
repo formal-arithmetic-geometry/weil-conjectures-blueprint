@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes--3"
 order = 487007
+uses = ["definition-lisse-sheaves", "definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "proposition-splitting-ind-etale-covers--1", "theorem-existence-contractible-covers--1", "theorem-pro-etale-refinements-weakly-etale--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--3", "definition-constructible-sheaves--4", "lemma-constructible-sheaves--3", "lemma-constructible-sheaves--6", "proposition-ind-constructible-sheaves--2", "proposition-ind-constructible-sheaves--3", "proposition-ind-constructible-sheaves--7", "lemma-proper-direct-image-unbounded-complexes--1", "definition-compactification-refinement--1", "definition-relative-picard-functor--2"]
 +++
 The finite window used here is clause [lemma-proper-direct-image-unbounded-complexes--2].
 

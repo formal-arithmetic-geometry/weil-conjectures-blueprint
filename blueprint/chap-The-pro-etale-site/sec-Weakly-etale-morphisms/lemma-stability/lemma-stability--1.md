@@ -4,6 +4,8 @@ kind = "lemma"
 title = "Weakly etale base change"
 order = 32002
 aliases = ["bp-r003-1"]
+lean = ["AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme"]
+uses = ["definition-ind-etale-pro-etale-weakly--3"]
 +++
 Let $f:U\to X$ be weakly étale and let $X'\to X$ be any morphism
 of schemes. Then $U\times_XX'\to X'$ is weakly étale.

@@ -6,6 +6,7 @@ name_showing = false
 order = 558010
 aliases = ["bp-r168-5"]
 lean = ["AlgebraicGeometry.Etale.existsUnique_etaleAmbientAdjointLocalityIso"]
+uses = ["definition-underived-base-change-map--1", "theorem-proper-base-change-classical-pro--2", "proposition-construction-independence-rf-shriek--7", "definition-compactification-refinement--1", "definition-compactification-refinement--3", "lemma-schematic-closure-uniqueness--1", "lemma-finite-direct-images--2"]
 +++
 under which the counit of $R(fu)_!\dashv(fu)^!$ is the composite
 

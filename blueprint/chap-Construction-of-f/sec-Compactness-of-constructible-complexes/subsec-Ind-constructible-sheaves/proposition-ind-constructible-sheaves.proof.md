@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ind-constructible-sheaves"
 order = 454
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves", "proposition-six-operations-change-coefficients"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves", "proposition-sp-unique-adjoint"]
 +++
 The proof uses one property of constructible sheaves: maps out of them
 commute with filtered colimits. Because of this, the formal colimits of

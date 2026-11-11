@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ordinary-external-kunneth"
 order = 721
-uses = ["proposition-pro-etale-coverings", "theorem-comparison-direct-images", "proposition-inverting-ell", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "lemma-change-coefficients", "lemma-kunneth-field-coefficients"]
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "proposition-proper-direct-image-constructible-complexes", "lemma-kunneth-field-coefficients", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
 We apply Lemma [lemma-kunneth-one-identity-factor] once in each factor
 of the factorization

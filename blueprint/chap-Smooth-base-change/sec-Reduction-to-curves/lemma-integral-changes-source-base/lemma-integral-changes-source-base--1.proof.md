@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-changes-source-base--1"
 order = 679002
-uses = ["definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "lemma-identity-pasting--3", "theorem-comparison-over-henselian-pair-degree--1", "lemma-injectivity-base-change-map-degree--1", "lemma-injectivity-base-change-map-degree--2", "lemma-finite-direct-images--1"]
+uses = ["definition-derived-base-change-map", "definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "lemma-identity-pasting--3", "theorem-comparison-over-henselian-pair-degree--1", "lemma-injectivity-base-change-map-degree--1", "lemma-injectivity-base-change-map-degree--2", "lemma-schematic-closure-uniqueness--1", "lemma-finite-direct-images--1", "lemma-finite-direct-images--2"]
 +++
 Use the injectivity and cokernel comparison in Lemma [lemma-injectivity-base-change-map-degree], together with exactness and integral base change [Stacks, [04C2](https://stacks.math.columbia.edu/tag/04C2), [0EYP](https://stacks.math.columbia.edu/tag/0EYP), [0F04](https://stacks.math.columbia.edu/tag/0F04)].
 

@@ -5,6 +5,7 @@ title = "Weight bounds and finite constant extensions (1)"
 name_showing = false
 order = 1306001
 aliases = ["bp-r403-1"]
+lean = ["FrobeniusModule.HasWeightsAtMost.of_powFrobenius"]
 +++
 Let $X_0$ be a separated scheme of finite type over $k_0$, let $F$ be a
 constructible Weil sheaf on $X_0$, let $k_m\supset k_0$ be the

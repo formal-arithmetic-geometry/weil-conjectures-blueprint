@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Scalar extension"
 order = 896006
 aliases = ["bp-r270-3"]
-lean = ["CategoryTheory.Functor.trace_eq_unitEndRingHom_trace"]
+lean = ["CategoryTheory.Functor.trace_eq_unitEndRingHom_trace", "DerivedCategory.exists_trace_eq_algebraMap_and_trace_extendScalars_eq_algebraMap"]
 uses = ["definition-categorical-trace--2"]
 +++
 Let $F:\mathcal C\to\mathcal D$ be an additive braided strong monoidal

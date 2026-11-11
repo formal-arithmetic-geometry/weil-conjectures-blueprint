@@ -1,11 +1,11 @@
 +++
 id = "theorem-finite-etale-covers-proper-henselian--3"
-kind = "remark"
+kind = "theorem"
 title = "Finite torsors"
 order = 357002
 aliases = ["bp-r108-3"]
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "theorem-finite-etale-covers-proper-henselian--2"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--1", "proposition-comparison-morphism-inverse-image--1", "theorem-finite-etale-covers-proper-henselian--2"]
 +++
 Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and let
 $i:Y_0\to Y$ be the closed fibre over $B/J$. For every finite abelian

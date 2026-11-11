@@ -6,6 +6,7 @@ name_showing = false
 order = 1461001
 aliases = ["bp-r455-1"]
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
+uses = ["definition-compactification-refinement--1"]
 +++
 Let $S$ be Noetherian and let $M\to S$ be separated of finite type.
 Suppose that $M=M_1\cup M_2$, that each $M_i$ has a compactification over

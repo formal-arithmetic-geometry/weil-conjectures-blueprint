@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Smooth purity with finite coefficients"
 order = 759
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift", "AlgebraicGeometry.Etale.smoothPurityIso"]
-uses = ["proposition-composition-open-restriction-compactifications-f", "definition-relative-dualizing-complex"]
+uses = ["definition-constructible-sheaves", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "definition-compactification-refinement"]
 +++
 Let $A$ be any finite admissible coefficient ring, and let
 $f:X\to Y$ be smooth of pure relative dimension $d$.

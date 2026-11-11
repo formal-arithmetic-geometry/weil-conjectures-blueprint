@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-exceptional-inverse-image--3"
 order = 641007
-uses = ["lemma-change-coefficients-direct-image--3", "proposition-ell-adic-cycle-class-diagonal--1", "proposition-ell-adic-cycle-class-diagonal--2"]
+uses = ["lemma-change-coefficients-direct-image--3"]
 +++
 Assume $\Lambda=\mathcal O_E$ and $\Lambda'=\mathcal O_F$ for a finite extension $F/E$.
 

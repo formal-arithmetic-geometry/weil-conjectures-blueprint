@@ -5,7 +5,8 @@ title = "The derived category of ind-constructible sheaves (1)"
 name_showing = false
 order = 459001
 aliases = ["bp-r140-1"]
-lean = ["DerivedCategory.homologyProperty_isTriangulated", "DerivedCategory.homologyProperty_sigma", "DerivedCategory.homologyProperty_truncLE", "DerivedCategory.homologyProperty_truncGE"]
+lean = ["DerivedCategory.homologyProperty_sigma"]
+uses = ["definition-relative-picard-functor--2"]
 +++
 The full subcategory
 

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-poincare-duality-frobenius"
 order = 886
+uses = ["definition-perfect-pairing", "theorem-trace-isomorphism-top-degree", "corollary-cup-product-pairing"]
 +++
 The pairing $\beta_K$ is a composite of maps each of which commutes with
 pullback along Frobenius, so it is equivariant. Over a

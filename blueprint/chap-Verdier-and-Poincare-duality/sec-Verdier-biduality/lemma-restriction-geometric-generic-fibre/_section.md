@@ -3,6 +3,7 @@ id = "lemma-restriction-geometric-generic-fibre"
 kind = "lemma"
 title = "Restriction to a geometric generic fibre"
 order = 839
+uses = ["definition-constructible-sheaves", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "definition-compactification-refinement"]
 +++
 In the setting above, let $X$ be a $B$-scheme of finite type, let
 $h:T\to X$ be a separated morphism of $B$-schemes of finite type, let

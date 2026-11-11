@@ -6,7 +6,7 @@ name_showing = false
 order = 39003
 aliases = ["bp-r006-2"]
 lean = ["AlgebraicGeometry.ProEtale.lowerStar", "AlgebraicGeometry.ProEtale.preservesHomology_upperStar", "AlgebraicGeometry.ProEtale.setPullback", "AlgebraicGeometry.ProEtale.setPullbackAdjunction", "AlgebraicGeometry.ProEtale.upperStar"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1"]
 +++
 Let $f:X\to Y$ be a morphism of schemes in a universe $u$, and take
 sheaves of sets in universe $u+1$. Base change

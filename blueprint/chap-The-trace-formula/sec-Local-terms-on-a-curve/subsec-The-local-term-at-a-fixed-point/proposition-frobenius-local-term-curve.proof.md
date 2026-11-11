@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-frobenius-local-term-curve"
 order = 995
+uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-sp-unique-adjoint", "lemma-local-terms-point", "definition-pushforward-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-vanishing-local-term-zero-stalk", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.
 We split $\psi$ along the localization triangle and compute the two local

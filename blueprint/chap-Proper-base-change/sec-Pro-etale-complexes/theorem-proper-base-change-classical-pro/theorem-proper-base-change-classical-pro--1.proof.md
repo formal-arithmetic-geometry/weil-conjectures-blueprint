@@ -2,5 +2,6 @@
 kind = "proof"
 of = "theorem-proper-base-change-classical-pro--1"
 order = 402002
+uses = ["proposition-proper-base-change-etale-site", "definition-torsion-pbc-property--1", "proposition-proper-base-change-projective-line--1"]
 +++
 This clause is proved by the proof of Theorem [theorem-proper-base-change-classical-pro], with the hypotheses and choices shared there.

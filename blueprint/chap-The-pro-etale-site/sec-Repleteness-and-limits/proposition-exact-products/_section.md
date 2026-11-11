@@ -3,7 +3,7 @@ id = "proposition-exact-products"
 kind = "proposition"
 title = "Exact products"
 order = 88
-lean = ["AlgebraicGeometry.Scheme.ProEt.products_derived"]
+uses = ["definition-small-pro-etale-site"]
 +++
 Arbitrary set-indexed products are exact in
 $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\mathcal R)$. Products in

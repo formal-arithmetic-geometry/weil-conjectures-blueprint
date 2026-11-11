@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Classical sheaves as the essential image"
 order = 115
 lean = ["AlgebraicGeometry.proEtaleClassicalSheaves"]
-uses = ["proposition-comparison-morphism-inverse-image"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image"]
 +++
 The functor $\nu_X^*$ is fully faithful. Its essential image is exactly
 the classical sheaves of Definition [definition-classical-pro-etale-sheaves].

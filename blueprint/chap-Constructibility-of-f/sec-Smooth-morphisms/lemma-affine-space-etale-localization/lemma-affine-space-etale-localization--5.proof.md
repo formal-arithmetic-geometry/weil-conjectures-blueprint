@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-affine-space-etale-localization--5"
 order = 558011
+uses = ["definition-small-pro-etale-site--1", "theorem-comparison-over-henselian-pair-degree--1", "lemma-degree-zero-calculation--1", "proposition-sp-unique-adjoint--1", "proposition-compactifying-union-two-opens--1", "lemma-affine-covers-dense-intersection--1", "lemma-affine-covers-dense-intersection--2", "lemma-finite-direct-images--1"]
 +++
 (2) For an étale $u$, the functor $Ru_!$ is extension by zero. By its
 elementary construction [Stacks, [03S2](https://stacks.math.columbia.edu/tag/03S2)], it is an exact functor

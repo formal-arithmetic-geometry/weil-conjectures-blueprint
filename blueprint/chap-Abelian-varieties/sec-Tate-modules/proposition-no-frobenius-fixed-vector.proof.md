@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-no-frobenius-fixed-vector"
 order = 1516
-uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n"]
+uses = ["definition-compactification-refinement", "corollary-torsion-jacobian-field-extension"]
 +++
 A fixed vector is a compatible system of torsion points, each rational
 over $\mathbf F_{q^m}$. But the rational points form a finite group, so the orders of the $\ell$-power torsion points in it are bounded, and

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible--1"
 order = 701003
-uses = ["definition-derived-base-change-map--1", "lemma-naturality-pasting-comparison--3", "theorem-smooth-base-change-classical-torsion-2--1"]
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "lemma-extremally-disconnected-covers--3", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "proposition-comparison-morphism-inverse-image--3", "theorem-classical-sheaves-essential-image--1", "theorem-bounded-below-cohomology-comparison--1", "theorem-bounded-below-cohomology-comparison--2", "proposition-comparison-immersions--1", "proposition-comparison-immersions--2", "proposition-locally-constant-sheaves-finite-presentation--3", "definition-derived-base-change-map--1", "lemma-naturality-pasting-comparison--3", "proposition-comparison-etale-derived-category--5", "theorem-smooth-base-change-classical-torsion-2--1", "definition-compactification-refinement--1"]
 +++
 The inverse image $\nu_X^*$ is exact and its values are classical, so the
 cohomology sheaves $H^q(K)\simeq\nu_X^*H^q(K_{\acute{e}t})$ are classical and

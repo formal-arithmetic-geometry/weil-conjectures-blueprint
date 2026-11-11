@@ -6,5 +6,6 @@ name_showing = false
 order = 159001
 aliases = ["bp-r046-1"]
 lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension_baseField"]
+uses = ["definition-cohomological-dimension--1"]
 +++
 If $k'$ is an algebraically closed field, then $\operatorname{cd}_\ell(k')=0$.

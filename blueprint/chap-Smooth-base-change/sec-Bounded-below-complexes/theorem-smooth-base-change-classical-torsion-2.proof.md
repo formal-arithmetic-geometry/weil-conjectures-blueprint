@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-classical-torsion-2"
 order = 695
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "lemma-acyclicity-pulled-back-injectives", "theorem-comparison-direct-images", "lemma-cohomology-modules-underlying-abelian", "definition-derived-base-change-map", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "theorem-smooth-base-change-classical-torsion"]
 +++
 We first treat a single sheaf, where the only point is $\Lambda$-linearity,
 and then pass to complexes by comparing hypercohomology spectral sequences.

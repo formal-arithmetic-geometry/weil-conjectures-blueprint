@@ -3,6 +3,7 @@ id = "corollary-open-direct-image-over-field"
 kind = "corollary"
 title = "Open direct image over a field"
 order = 586
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 Let $j:X\hookrightarrow Y$ be an open immersion. Then
 

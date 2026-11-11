@@ -5,7 +5,7 @@ title = "Comparison preserves and reflects each Tor interval"
 order = 152001
 aliases = ["bp-r044-1"]
 lean = ["AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--1"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $\Lambda$ be a discrete
 commutative Noetherian ring. There is a derived comparison functor

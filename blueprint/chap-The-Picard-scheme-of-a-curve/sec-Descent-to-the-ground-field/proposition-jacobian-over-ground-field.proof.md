@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-jacobian-over-ground-field"
 order = 1566
+uses = ["definition-small-pro-etale-site", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-integral-tate-module", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "proposition-cartier-s-theorem", "lemma-connected-components-images-homomorphisms"]
 +++
 We descend the Jacobian of $C_{0,k_s}$, where $k_s\subseteq\bar
 k$ is a separable closure of $k$. In general $k_s/k$ is infinite, hence

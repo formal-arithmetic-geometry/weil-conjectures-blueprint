@@ -5,6 +5,8 @@ title = "The Milnor sequence (1)"
 name_showing = false
 order = 91001
 aliases = ["bp-r024-1"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $\mathcal R$ be a sheaf of rings on $X_{\mathrm{pro}\acute{e}t}$ and
 let $(M_n)$ be a countable tower of $\mathcal R$-modules, regarded as

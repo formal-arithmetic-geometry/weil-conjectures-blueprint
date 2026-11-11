@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-evaluation-weakly-contractible-objects--6"
 order = 79013
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--8", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1"]
 +++
 (3) Suppose that a sequence $F'\to F\to F''$ with composite zero becomes
 exact on all affine weakly contractible $W$. A local section of the

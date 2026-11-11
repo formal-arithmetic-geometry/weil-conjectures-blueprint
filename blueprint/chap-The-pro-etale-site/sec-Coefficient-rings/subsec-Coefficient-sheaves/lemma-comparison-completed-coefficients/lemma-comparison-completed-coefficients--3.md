@@ -6,6 +6,7 @@ name_showing = false
 order = 178005
 aliases = ["bp-r051-3"]
 lean = ["AlgebraicGeometry.ProEtale.isColimitPadicAlgClRingObjCocone"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-pro-etale-site-separably-closed--3"]
 +++
 $$
 \begin{aligned}

@@ -5,8 +5,8 @@ title = "Tate module (1)"
 name_showing = false
 order = 1511001
 aliases = ["bp-r470-1"]
-lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
-uses = ["definition-abelian-variety--1", "lemma-abelian-variety-commutative--2"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule", "AlgebraicGeometry.IsAbelianVariety.tateModuleEquivTorsionPoints"]
+uses = ["definition-abelian-variety--1", "definition-abelian-variety--3", "lemma-abelian-variety-commutative--2", "definition-relative-picard-functor--2"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime
 invertible in $k$. The *Tate module* of $A$ is

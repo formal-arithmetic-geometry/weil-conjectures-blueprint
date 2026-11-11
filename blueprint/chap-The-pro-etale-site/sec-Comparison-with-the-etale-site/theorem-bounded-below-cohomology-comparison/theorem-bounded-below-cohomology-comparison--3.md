@@ -6,7 +6,7 @@ name_showing = false
 order = 123005
 aliases = ["bp-r035-3"]
 lean = ["AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
+uses = ["definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--1"]
 +++
 Let $X$ be a scheme and $\mathcal A$ a Grothendieck abelian category.
 For every $L\in D(X_{\mathrm{pro}\acute{e}t},\mathcal A)$ there is a canonical

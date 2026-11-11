@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-additivity-trace-classes"
 order = 944
-uses = ["lemma-lift-correspondence-invariant-decomposition", "lemma-closed-piece-pushforward"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-construction-independence-rf-shriek", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-lift-correspondence-invariant-decomposition", "lemma-closed-piece-pushforward", "lemma-kunneth-formula-compact-supports"]
 +++
 For (1), the section $A_C\to\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)$
 defined by $\tilde u$ comes from the unit in weight zero, so it lands in

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Morphisms between weakly etale objects"
 order = 32010
 aliases = ["bp-r003-5"]
-lean = ["AlgebraicGeometry.WeaklyEtale.of_comp_eq"]
+lean = ["AlgebraicGeometry.WeaklyEtale.of_comp", "AlgebraicGeometry.WeaklyEtale.of_comp_eq"]
 uses = ["definition-ind-etale-pro-etale-weakly--3"]
 +++
 Let $u:U\to X$ and $v:V\to X$ be weakly étale morphisms of

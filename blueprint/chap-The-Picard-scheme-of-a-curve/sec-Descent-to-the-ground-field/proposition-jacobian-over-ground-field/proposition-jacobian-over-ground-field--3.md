@@ -4,6 +4,8 @@ kind = "proposition"
 title = "Representation over the algebraic closure"
 order = 1565006
 aliases = ["bp-r488-3"]
+lean = ["AlgebraicGeometry.exists_jacobian_descent", "AlgebraicGeometry.exists_representableBy_picardFunctorDegree_pullback_homEquiv"]
+uses = ["definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "definition-compactification-refinement--1", "definition-relative-picard-functor--2", "theorem-picard-scheme-jacobian-over-separably--5"]
 +++
 For the same representing variety $J_0$ and representation $r$,
 $J_0\times_k\bar k$ represents $\operatorname{Pic}^0_{C/\bar k}$. The

@@ -5,8 +5,8 @@ title = "Divisors of degree $g$ as an open chart (1)"
 name_showing = false
 order = 1540001
 aliases = ["bp-r479-1"]
-lean = ["AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert"]
-uses = ["definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "lemma-uniqueness-maps-dense-open--1", "theorem-chow-s-lemma-projective-form--2", "corollary-serre-duality-field-extension--2", "lemma-coherent-base-change-invertible-sheaves--1", "lemma-coherent-base-change-invertible-sheaves--3"]
+lean = ["AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert", "AlgebraicGeometry.hilbertToPicardNormalized_invertibleDirectImageToHilbert"]
+uses = ["definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-acyclic-resolutions--1", "definition-compactification-refinement--1", "definition-relative-picard-functor--2", "theorem-riemann-roch-coherent-serre-duality--1", "corollary-serre-duality-field-extension--2", "lemma-coherent-base-change-invertible-sheaves--1", "lemma-coherent-base-change-invertible-sheaves--3", "theorem-hilbert-schemes-points-smooth-curve--1"]
 +++
 Let $C$ be a smooth proper geometrically integral curve of genus $g$ over
 the separably closed field $k$, with $P\in C(k)$. Let $F$ be the subfunctor

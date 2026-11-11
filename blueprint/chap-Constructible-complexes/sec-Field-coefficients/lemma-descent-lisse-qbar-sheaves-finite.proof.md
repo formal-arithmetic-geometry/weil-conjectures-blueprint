@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-descent-lisse-qbar-sheaves-finite"
 order = 266
-uses = ["proposition-six-operations-change-coefficients"]
+uses = ["lemma-comparison-completed-coefficients", "lemma-inverse-image-coefficient-sheaves", "proposition-sp-unique-adjoint"]
 +++
 The data are described by finitely many matrices with entries in
 $\QbarX$ over finitely many quasi-compact objects, and each entry already

@@ -6,7 +6,7 @@ name_showing = false
 order = 1540003
 aliases = ["bp-r479-2"]
 lean = ["AlgebraicGeometry.exists_representableBy_picardFunctorInvertibleDirectImage"]
-uses = ["definition-compactification-refinement--1", "lemma-coherent-base-change-invertible-sheaves--3"]
+uses = ["definition-relative-picard-functor", "lemma-rigidification-along-section", "definition-compactification-refinement--1", "definition-relative-picard-functor--2", "lemma-coherent-base-change-invertible-sheaves--3"]
 +++
 For the smooth proper geometrically integral curve $C$ over the separably
 closed field $k$, with $P\in C(k)$ and $g$ its genus, there are a

@@ -6,7 +6,7 @@ name_showing = false
 order = 384003
 aliases = ["bp-r116-2"]
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
-uses = ["definition-underived-base-change-map--1"]
+uses = ["definition-derived-base-change-map"]
 +++
 Let $u:V\to W$ be finite and let $\Lambda$ be a constant coefficient ring.
 For every base change $g:W'\to W$, with $u'$ and $g'$ as in

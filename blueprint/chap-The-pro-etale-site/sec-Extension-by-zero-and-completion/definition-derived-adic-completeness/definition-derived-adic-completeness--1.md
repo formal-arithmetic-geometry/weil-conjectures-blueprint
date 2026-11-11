@@ -6,7 +6,7 @@ name_showing = false
 order = 208001
 aliases = ["bp-r061-1"]
 lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let
 $\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and

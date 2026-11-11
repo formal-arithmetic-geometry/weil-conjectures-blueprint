@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The Artin–Schreier character sheaf"
 order = 1220
 lean = ["AlgebraicGeometry.artinSchreier", "AlgebraicGeometry.isLisse_artinSchreier", "AlgebraicGeometry.isPunctuallyPureOfWeight_artinSchreier", "AlgebraicGeometry.WeilSheaf.finrank_stalk_artinSchreier", "AlgebraicGeometry.nonempty_artinSchreier_zero_iso_adicConstant"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "definition-trace-function", "definition-weights"]
 +++
 Let $\psi:k_0\to E^\times$ be a nontrivial additive character.
 There is a lisse rank-one $E$-sheaf $\mathcal L_\psi$ on

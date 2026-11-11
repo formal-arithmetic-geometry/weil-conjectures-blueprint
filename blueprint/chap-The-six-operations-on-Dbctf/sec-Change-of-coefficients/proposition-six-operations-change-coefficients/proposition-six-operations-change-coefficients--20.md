@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Transport of the unit for $Rf_{!,\\Lambda}\\dashv f^!_\\Lambda$"
 order = 646040
 aliases = ["bp-r197-20"]
-lean = ["CategoryTheory.NatTrans.SquareCompatible.unit"]
 +++
 Suppose the compact-support and exceptional-image comparisons for a coefficient change are natural isomorphisms $c_!:T_YRf_!\simeq Rf'_!T_X$ and $c^!:T_Xf^!\simeq f'^!T_Y$, and $c^!$ is the mate of $c_!^{-1}$. Then
 

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-milnor-sequence--3"
 order = 91006
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-weak-contractibility--1", "corollary-evaluation-weakly-contractible-objects--5", "corollary-evaluation-weakly-contractible-objects--7", "proposition-milnor-sequence--2"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-weak-contractibility--1", "corollary-evaluation-weakly-contractible-objects--5", "corollary-evaluation-weakly-contractible-objects--6", "proposition-milnor-sequence--1"]
 +++
 Suppose now that the transition maps of a tower of modules are
 epimorphisms. We show that $1-T$ is an epimorphism; then

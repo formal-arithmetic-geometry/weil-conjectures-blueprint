@@ -4,6 +4,8 @@ kind = "proposition"
 title = "Extension by zero on unbounded derived categories"
 order = 139003
 aliases = ["bp-r040-2"]
+lean = ["AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 For an open immersion $j:U\hookrightarrow X$, the isomorphism
 (2.10), applied termwise to complexes, induces a

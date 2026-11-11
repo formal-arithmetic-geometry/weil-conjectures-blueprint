@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-six-operations-change-coefficients"
 order = 647
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-inverting-ell", "lemma-change-coefficients-internal-hom", "proposition-dctf-x-qbar-2-colimit"]
 +++
 The first assertion is
 Lemma [lemma-extension-scalars-preserves-dctf]. Next, the maps for $f^*$ and $\otimes^{\mathbf L}$ are isomorphisms by definition, and those for $Rf_*$,

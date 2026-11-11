@@ -4,8 +4,6 @@ kind = "proposition"
 title = "Transport of tensor–Hom evaluation"
 order = 646046
 aliases = ["bp-r197-23"]
-lean = ["CategoryTheory.Functor.LaxMonoidal.ihomComparison_ev"]
-uses = ["definition-change-of-coefficients-maps--6"]
 +++
 Let $T:\mathcal C\to\mathcal D$ be a lax monoidal functor between monoidal closed categories. With tensorator $\mu$ and internal-Hom comparison $v$, evaluation satisfies
 

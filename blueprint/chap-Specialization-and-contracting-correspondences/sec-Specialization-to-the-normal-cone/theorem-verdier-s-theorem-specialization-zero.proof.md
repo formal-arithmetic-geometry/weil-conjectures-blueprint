@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-verdier-s-theorem-specialization-zero"
 order = 1645
-uses = ["lemma-w-contractible-affines-projective", "lemma-comparison-direct-images-compatibilities", "theorem-comparison-constructible-sheaves", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness", "lemma-integral-models", "lemma-cohomology-modules-underlying-abelian", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-smooth-morphisms-locally-constant-sheaves", "lemma-extension-across-finite-subset", "lemma-generic-smooth-open", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-change-coefficients", "lemma-kunneth-field-coefficients", "definition-relative-dualizing-complex", "lemma-passing-schematic-closure", "lemma-making-open-schematically-dense", "lemma-base-change-cone-x-z", "lemma-vanishing-generic-points-principal-divisor"]
+uses = ["lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "definition-admissible-blow-up", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "lemma-base-change-cone-x-z", "lemma-vanishing-generic-points-principal-divisor"]
 +++
 The main step is that $C_{X,Z}(L)=0$ for every $L\in
 D^b_c(X_{\acute et},A)$, which the last paragraph transports to

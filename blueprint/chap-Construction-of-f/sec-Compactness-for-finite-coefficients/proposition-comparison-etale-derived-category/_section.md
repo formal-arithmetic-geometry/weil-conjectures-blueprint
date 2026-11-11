@@ -3,6 +3,7 @@ id = "proposition-comparison-etale-derived-category"
 kind = "proposition"
 title = "Comparison with the étale derived category"
 order = 474
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 For a finite admissible ring $A$, the comparison functor
 $\nu_X^*:D(X_{\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ identifies

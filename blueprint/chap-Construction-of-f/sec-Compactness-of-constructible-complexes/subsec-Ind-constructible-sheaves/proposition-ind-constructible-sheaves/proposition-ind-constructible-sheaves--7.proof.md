@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-ind-constructible-sheaves--7"
 order = 453015
+uses = ["definition-lisse-sheaves", "lemma-continuity-ext-out-constructible-complex", "lemma-inverse-image-coefficient-sheaves--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--3", "definition-constructible-sheaves--4", "lemma-constructible-sheaves--3", "lemma-continuity-ext-out-constructible-complex--1", "proposition-ind-constructible-sheaves--2"]
 +++
 *Extensions.* Let $0\to N\to M\to B\to0$ be exact in
 $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, with $N=\varinjlim_\beta D_\beta$ and

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-compactifying-union-two-opens"
 order = 1462
-uses = ["lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-products-composites-u-admissible-blow", "theorem-elimination-indeterminacy", "lemma-extending-isomorphism-over-closure-closed", "lemma-gluing-after-admissible-blow-ups"]
+uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-extending-graph-from-compactification", "lemma-separation-closures", "lemma-extending-isomorphism-over-closure-closed", "lemma-gluing-after-admissible-blow-ups"]
 +++
 The idea is to glue $M$ to each compactification $X_i$ of $M_i$ after
 removing from $X_i$ the closure of the part lying over $M\setminus M_i$.

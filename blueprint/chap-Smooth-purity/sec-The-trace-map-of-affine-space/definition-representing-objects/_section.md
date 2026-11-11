@@ -3,6 +3,7 @@ id = "definition-representing-objects"
 kind = "definition"
 title = "Representing objects"
 order = 739
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-compactification-refinement"]
 +++
 Let $f$ be smooth, and let us work in $D(Y,\mathbf Z/\ell^n\mathbf Z)$ and
 $D(X,\mathbf Z/\ell^n\mathbf Z)$ on either the étale or the

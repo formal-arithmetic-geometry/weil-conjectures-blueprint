@@ -5,6 +5,7 @@ title = "Hilbert schemes of points over an arbitrary field"
 order = 1537001
 aliases = ["bp-r478-1"]
 lean = ["AlgebraicGeometry.IsHilbertSubscheme.isInvertible", "AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero", "AlgebraicGeometry.isRelativeEffectiveCartier_universal_hilbertPresheaf"]
+uses = ["definition-relative-picard-functor--2"]
 +++
 Let $k$ be a field, let $C$ be a smooth proper geometrically integral
 curve over $k$, and let $d\geq0$. The functor

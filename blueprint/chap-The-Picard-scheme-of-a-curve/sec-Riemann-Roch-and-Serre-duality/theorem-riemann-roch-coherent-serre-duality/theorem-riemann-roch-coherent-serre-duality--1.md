@@ -5,7 +5,7 @@ title = "Riemann–Roch and coherent Serre duality (1)"
 name_showing = false
 order = 1528001
 aliases = ["bp-r475-1"]
-lean = ["AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add"]
+lean = ["AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.degree_dual_toModules", "AlgebraicGeometry.Scheme.Modules.finiteDimensional_H", "AlgebraicGeometry.Scheme.Modules.subsingleton_H_of_two_le"]
 +++
 Let $C$ be a smooth proper curve over a field $k$ such that
 $k\to H^0(C,\mathcal O_C)$ is an isomorphism, and put

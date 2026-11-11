@@ -5,7 +5,7 @@ title = "Compactification and refinement (2)"
 name_showing = false
 order = 1405002
 aliases = ["bp-r433-2"]
-lean = ["AlgebraicGeometry.Compactification.IsDense"]
+lean = ["AlgebraicGeometry.Compactification.IsDense", "AlgebraicGeometry.isSchemeTheoreticallyDominant_iff_app_injective"]
 uses = ["definition-compactification-refinement--1"]
 +++
 We say that it is

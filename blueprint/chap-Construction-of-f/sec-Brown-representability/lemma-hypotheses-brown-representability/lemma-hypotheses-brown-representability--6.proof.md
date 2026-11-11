@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-hypotheses-brown-representability--6"
 order = 523013
+uses = ["definition-constructible-sheaves--5", "proposition-compactness-finite-coefficients--1", "lemma-hypotheses-brown-representability--4", "lemma-hypotheses-brown-representability--5", "definition-relative-picard-functor--2"]
 +++
 Compactness for these coefficients is proved in [proposition-compactness-finite-coefficients]. Clause [lemma-hypotheses-brown-representability--5] allows a small skeleton. Generation follows as follows.
 

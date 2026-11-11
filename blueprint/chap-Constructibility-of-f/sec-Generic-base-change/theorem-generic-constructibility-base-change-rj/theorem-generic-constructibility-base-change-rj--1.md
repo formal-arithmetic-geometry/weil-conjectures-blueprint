@@ -5,6 +5,7 @@ title = "Generic constructibility and base change for $Rj_*$ (1)"
 name_showing = false
 order = 583001
 aliases = ["bp-r177-1"]
+lean = ["AlgebraicGeometry.Etale.exists_hasConstructibleDirectImageBaseChangeOn"]
 +++
 Let $k$ be a field, let $S$ be integral and of finite type over $k$, and
 let $Y\to S$ be of finite type. Let $\Lambda$ be a finite commutative ring

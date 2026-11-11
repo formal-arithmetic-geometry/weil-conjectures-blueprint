@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-pro-etale-site-separably-closed"
 order = 174
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis"]
+uses = ["proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis"]
 +++
 Since a finitely presented étale $\Omega$-algebra is a finite product of
 copies of $\Omega$, filtered colimits of such algebras correspond,

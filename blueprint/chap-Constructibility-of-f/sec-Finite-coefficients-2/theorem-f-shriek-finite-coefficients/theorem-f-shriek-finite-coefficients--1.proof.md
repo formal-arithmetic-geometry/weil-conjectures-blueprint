@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-f-shriek-finite-coefficients--1"
 order = 593002
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "theorem-classical-sheaves-essential-image--1", "theorem-bounded-below-cohomology-comparison--1", "definition-constructible-sheaves--5"]
 +++
 *Closed immersions.* Let $i:Z\hookrightarrow X$ be a closed immersion with open
 complement $j:U\hookrightarrow X$, and let $R\underline\Gamma_Z$ be the

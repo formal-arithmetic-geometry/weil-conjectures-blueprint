@@ -5,6 +5,7 @@ title = "Cohomological trace"
 order = 896012
 aliases = ["bp-r270-6"]
 lean = ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_trace_homologyMap"]
+uses = ["definition-categorical-trace--2"]
 +++
 Over a field $L$ it is
 also

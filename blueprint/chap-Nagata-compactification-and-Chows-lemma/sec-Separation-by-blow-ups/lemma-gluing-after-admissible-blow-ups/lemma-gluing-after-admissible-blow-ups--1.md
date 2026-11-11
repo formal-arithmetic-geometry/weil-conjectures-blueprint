@@ -5,7 +5,7 @@ title = "Gluing after admissible blow-ups (1)"
 name_showing = false
 order = 1458001
 aliases = ["bp-r454-1"]
-lean = ["AlgebraicGeometry.CommonModification.dense_range_j", "AlgebraicGeometry.nonempty_commonModification"]
+lean = ["AlgebraicGeometry.CommonModification", "AlgebraicGeometry.nonempty_commonModification", "AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs"]
 uses = ["definition-admissible-blow-up--1"]
 +++
 Let $S$ be qcqs, and let $U\subseteq T_i$ ($i=1,2$) be open immersions

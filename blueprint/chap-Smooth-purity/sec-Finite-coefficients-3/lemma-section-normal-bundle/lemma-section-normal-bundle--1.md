@@ -5,7 +5,8 @@ title = "A section and its normal bundle (1)"
 name_showing = false
 order = 749001
 aliases = ["bp-r226-1"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.sectionInvariantIso"]
+uses = ["proposition-exceptional-inverse-image-smooth-morphism", "definition-deformation-normal-bundle", "definition-constructible-sheaves--6", "definition-compactification-refinement--1"]
 +++
 There is a canonical isomorphism
 

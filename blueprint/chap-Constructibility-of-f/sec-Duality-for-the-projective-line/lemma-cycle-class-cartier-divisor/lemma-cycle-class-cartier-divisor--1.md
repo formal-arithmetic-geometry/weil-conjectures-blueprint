@@ -6,6 +6,7 @@ name_showing = false
 order = 543001
 aliases = ["bp-r163-1"]
 lean = ["AlgebraicGeometry.ProEtale.geoCartierCanonicalClass_chern"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-relative-picard-functor--2"]
 +++
 Let $i:D\hookrightarrow Z$ be an effective Cartier divisor on a
 scheme $Z$ on which $\ell$ is invertible. There is a morphism

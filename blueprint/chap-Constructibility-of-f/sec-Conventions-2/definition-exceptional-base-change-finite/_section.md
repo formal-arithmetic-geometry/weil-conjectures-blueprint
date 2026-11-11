@@ -3,8 +3,8 @@ id = "definition-exceptional-base-change-finite"
 kind = "definition"
 title = "The base change map for $f^!$, finite coefficients"
 order = 539
-lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChangeMap"]
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "proposition-composition-open-restriction-compactifications-f", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChangeMap", "AlgebraicGeometry.Etale.upperShriekBaseChangeMap"]
+uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-composition-open-restriction-compactifications-f", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
 Let $f:X\to S$ be separated and of finite type, let $g:S'\to S$ be a
 morphism, let $X'=X\times_SS'$, and let $f':X'\to S'$, $g':X'\to X$ be the

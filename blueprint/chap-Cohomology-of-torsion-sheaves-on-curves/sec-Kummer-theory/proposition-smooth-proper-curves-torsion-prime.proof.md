@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-smooth-proper-curves-torsion-prime"
 order = 1580
-uses = ["proposition-cohomology-p-1-over-henselian", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
+uses = ["lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve"]
 +++
 Pulling back the Kummer sequence of $C_{\acute{e}t}$ by $\nu_C^*$, we get
 the exact sequence of sheaves on $C_{\mathrm{pro}\acute{e}t}$

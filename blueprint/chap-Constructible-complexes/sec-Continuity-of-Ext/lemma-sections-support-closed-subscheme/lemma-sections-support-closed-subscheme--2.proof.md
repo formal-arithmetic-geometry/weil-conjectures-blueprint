@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-sections-support-closed-subscheme--2"
 order = 277005
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "definition-local-cohomology--1", "lemma-local-cohomology-right-adjoint--1", "lemma-local-cohomology-right-adjoint--2", "proposition-sp-unique-adjoint--1"]
 +++
 Use the derived-functor identification of clause [lemma-sections-support-closed-subscheme--1].
 

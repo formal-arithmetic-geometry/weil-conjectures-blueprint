@@ -5,7 +5,7 @@ title = "Ext from a constructible sheaf into ind-constructible sheaves"
 name_showing = false
 order = 456
 lean = ["AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound", "AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound.of_continuity"]
-uses = ["definition-constructible-sheaves", "lemma-uniform-ext-bound"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-constructible-sheaves", "lemma-uniform-ext-bound"]
 +++
 Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in
 Lemma [lemma-uniform-ext-bound]. Then $\Ext^q(C,B)=0$ for all $q>d_C$

@@ -5,7 +5,7 @@ title = "Multiplication by $n$ (2)"
 name_showing = false
 order = 1506003
 aliases = ["bp-r469-2"]
-lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_torsionSubgroupScheme"]
+lean = ["AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme"]
 uses = ["definition-abelian-variety--1", "definition-abelian-variety--3"]
 +++
 If

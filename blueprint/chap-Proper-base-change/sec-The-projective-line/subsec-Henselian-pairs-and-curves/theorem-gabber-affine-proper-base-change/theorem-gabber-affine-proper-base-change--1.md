@@ -1,6 +1,6 @@
 +++
 id = "theorem-gabber-affine-proper-base-change--1"
-kind = "remark"
+kind = "theorem"
 title = "Henselian-pair cohomology"
 order = 355001
 aliases = ["bp-r108-1"]

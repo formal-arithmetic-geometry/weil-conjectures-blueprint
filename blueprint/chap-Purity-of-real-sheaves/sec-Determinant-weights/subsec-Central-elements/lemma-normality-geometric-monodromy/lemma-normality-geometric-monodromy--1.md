@@ -5,7 +5,8 @@ title = "Normality of geometric monodromy (1)"
 name_showing = false
 order = 1133001
 aliases = ["bp-r347-1"]
-lean = ["Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal", "Matrix.GeneralLinearGroup.isRadical_vanishingIdeal"]
+lean = ["Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal", "Matrix.GeneralLinearGroup.isRadical_vanishingIdeal", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy"]
+uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2"]
 +++
 The groups $H$ and $G$ are reduced closed algebraic subgroups of
 $\GL(V)$, and $H\triangleleft G$.

@@ -6,6 +6,7 @@ name_showing = false
 order = 1419003
 aliases = ["bp-r439-2"]
 lean = ["AlgebraicGeometry.Compactification.refinement_morphisms"]
+uses = ["definition-compactification-refinement--1"]
 +++
 Morphisms between dense compactifications that
 restrict to the identity on $X$ are unique, proper, and automatically satisfy

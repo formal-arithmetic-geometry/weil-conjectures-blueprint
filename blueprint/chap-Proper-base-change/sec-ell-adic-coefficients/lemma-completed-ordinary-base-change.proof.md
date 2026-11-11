@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-completed-ordinary-base-change"
 order = 421
+uses = ["proposition-etale-implications", "lemma-extremally-disconnected-covers", "proposition-pro-etale-affines-form-basis", "proposition-proper-direct-image-constructible-complexes", "definition-change-of-coefficients-maps", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients"]
 +++
 Both maps are built from the counit of $p^*\dashv Rp_*$, as in
 Definition [definition-pro-etale-base-change-map], and this counit is

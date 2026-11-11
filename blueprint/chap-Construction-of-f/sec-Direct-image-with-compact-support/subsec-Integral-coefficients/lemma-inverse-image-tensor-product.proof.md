@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-inverse-image-tensor-product"
 order = 495
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "definition-lisse-sheaves", "lemma-integral-models", "proposition-six-operations-change-coefficients"]
+uses = ["proposition-sp-unique-adjoint"]
 +++
 The preservation statements follow from
 Lemma [lemma-integral-models](3), since closed

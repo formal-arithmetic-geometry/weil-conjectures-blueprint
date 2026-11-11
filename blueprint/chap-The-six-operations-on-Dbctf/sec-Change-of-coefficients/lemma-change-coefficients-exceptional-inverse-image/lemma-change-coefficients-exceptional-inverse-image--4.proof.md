@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-change-coefficients-exceptional-inverse-image--4"
 order = 641009
-uses = ["lemma-constructible-sheaves--8"]
 +++
 Assume $\Lambda=E$ and $\Lambda'=F$ for a finite extension $F/E$.
 

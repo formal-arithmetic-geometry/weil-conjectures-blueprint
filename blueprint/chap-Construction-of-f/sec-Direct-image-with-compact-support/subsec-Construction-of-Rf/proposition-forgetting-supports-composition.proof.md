@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-forgetting-supports-composition"
 order = 520
+uses = ["lemma-finite-direct-images"]
 +++
 All maps involved are maps out of an extension by zero, so each of them
 is determined by its restriction to the open subscheme, where it is

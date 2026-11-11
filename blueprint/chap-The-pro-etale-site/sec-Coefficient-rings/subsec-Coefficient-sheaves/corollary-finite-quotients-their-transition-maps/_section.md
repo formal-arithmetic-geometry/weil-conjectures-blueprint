@@ -3,6 +3,7 @@ id = "corollary-finite-quotients-their-transition-maps"
 kind = "corollary"
 title = "Finite quotients and their transition maps"
 order = 181
+uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
 For every $n\geq1$ there is a canonical exact sequence on $X_{\mathrm{pro}\acute{e}t}$
 

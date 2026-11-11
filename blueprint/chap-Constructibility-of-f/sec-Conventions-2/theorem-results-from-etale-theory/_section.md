@@ -4,6 +4,8 @@ kind = "theorem"
 title = "Results from the étale theory"
 order = 537
 aliases = ["remark-results-from-etale-theory"]
+lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerShriek_singleFunctor"]
+uses = ["definition-compactification-refinement"]
 +++
 Let $f:X\to S$ be a morphism of schemes of finite type over $k$.
 

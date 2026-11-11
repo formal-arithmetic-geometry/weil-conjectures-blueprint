@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-existence-exceptional-inverse-image--1"
 order = 526003
+uses = ["proposition-construction-independence-rf-shriek--1", "lemma-hypotheses-brown-representability--3", "lemma-hypotheses-brown-representability--6", "definition-relative-picard-functor--2"]
 +++
 For $N\in\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, the functor
 

@@ -5,7 +5,7 @@ title = "A proper smooth model (1)"
 name_showing = false
 order = 1094001
 aliases = ["bp-r334-1"]
-lean = ["AlgebraicGeometry.exists_smooth_properCompactification_of_perfectField"]
+lean = ["AlgebraicGeometry.exists_smooth_properCompactification_of_perfectField", "AlgebraicGeometry.exists_smooth_projectiveCompactification", "AlgebraicGeometry.exists_smooth_properCompactification"]
 uses = ["definition-compactification-refinement--1"]
 +++
 A smooth geometrically connected curve $U_0/k_0$ has a smooth

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-exceptional-inverse-image--5"
 order = 641011
-uses = ["lemma-change-coefficients-direct-image--4", "proposition-ell-adic-cycle-class-diagonal--5", "proposition-ell-adic-cycle-class-diagonal--6"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-inverting-ell--2"]
 +++
 Assume $\Lambda=\mathcal O_E$ and $\Lambda'=E$.
 

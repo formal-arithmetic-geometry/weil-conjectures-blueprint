@@ -5,6 +5,8 @@ title = "Global lattices on a normal scheme (1)"
 name_showing = false
 order = 1080001
 aliases = ["bp-r331-1"]
+lean = ["AlgebraicGeometry.exists_isTwistedSection_compactOpenLattice_of_connectedSpace", "AlgebraicGeometry.exists_isTwistedSection_compactOpenLattice"]
+uses = ["definition-ind-etale-pro-etale-weakly--3"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a
 field, and let $E/\mathbf Q_\ell$ be finite. Every lisse $E_X$-module $L$, in the

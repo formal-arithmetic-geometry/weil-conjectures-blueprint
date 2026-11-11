@@ -3,6 +3,7 @@ id = "definition-trace-morphism"
 kind = "definition"
 title = "Trace morphism"
 order = 914
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "lemma-inverse-image-tensor-product", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "definition-verdier-dual-evaluation", "definition-correspondence", "lemma-external-duality-trace-morphism", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 In the setting of Lemma [lemma-external-duality-trace-morphism], let
 $e_K:P_X\to R\Delta_{X*}\omega_X$ be adjoint to the evaluation

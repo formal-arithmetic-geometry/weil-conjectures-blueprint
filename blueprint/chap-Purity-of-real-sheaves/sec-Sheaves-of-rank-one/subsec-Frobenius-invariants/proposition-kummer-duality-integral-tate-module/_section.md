@@ -3,7 +3,7 @@ id = "proposition-kummer-duality-integral-tate-module"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module"
 order = 1097
-lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_picTorsionPairing"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module", "proposition-integral-tate-module"]
 +++
 Let $C_0/k_0$ be a smooth proper geometrically connected curve with
 Jacobian $J_0$, and put $A_n=\mathbf Z/\ell^n$.  There are canonical compatible Galois-equivariant

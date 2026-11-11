@@ -3,6 +3,7 @@ id = "lemma-mixedness-open-closed"
 kind = "lemma"
 title = "Mixedness on an open and its complement"
 order = 1342
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++
 Let $j:U_0\to X_0$ be an open immersion with closed complement
 $i:Z_0\to X_0$, and let $G$ be a constructible Weil sheaf on $X_0$. If

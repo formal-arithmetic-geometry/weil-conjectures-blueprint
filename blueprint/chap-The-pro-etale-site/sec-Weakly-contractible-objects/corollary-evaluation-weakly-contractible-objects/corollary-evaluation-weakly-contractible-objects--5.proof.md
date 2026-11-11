@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-evaluation-weakly-contractible-objects--5"
 order = 79011
+uses = ["lemma-stability--3"]
 +++
 (2) Limits of sheaves are computed on sections, so only colimits need an
 argument. We first consider a direct sum $\bigoplus_iM_i$. The direct sum

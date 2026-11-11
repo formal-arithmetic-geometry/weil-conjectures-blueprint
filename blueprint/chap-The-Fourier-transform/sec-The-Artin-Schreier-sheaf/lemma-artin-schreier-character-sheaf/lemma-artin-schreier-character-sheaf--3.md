@@ -5,7 +5,7 @@ title = "Dual character"
 order = 1220006
 aliases = ["bp-r375-3"]
 lean = ["AlgebraicGeometry.nonempty_iso_dual_artinSchreier"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-change-of-coefficients-maps--6", "proposition-six-operations-change-coefficients--23", "proposition-sp-unique-adjoint--1", "definition-weil-structure--1", "definition-weil-structure--3", "definition-compactification-refinement--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-sp-unique-adjoint--1", "lemma-artin-schreier-character-sheaf--1"]
 +++
 For $a\in k_0$ write $\mathcal L_{\psi(ax)}=\mathcal L_{\psi,ax}$ for the
 pullback of $\mathcal L_\psi$ along $x\mapsto ax$, in the notation of

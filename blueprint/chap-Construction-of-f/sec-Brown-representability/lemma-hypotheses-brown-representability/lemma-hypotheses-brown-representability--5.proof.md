@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-hypotheses-brown-representability--5"
 order = 523011
+uses = ["lemma-inverse-image-coefficient-sheaves--1", "definition-underived-base-change-map--1", "lemma-finite-morphisms--1", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "lemma-finite-direct-images--1"]
 +++
 To see that $D^b_{\mathrm{ctf}}(X,\Lambda)$ is essentially small, note first that the
 constructible sheaves in the heart have a set of representatives for each

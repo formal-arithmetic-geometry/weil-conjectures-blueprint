@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-generic-constructibility-base-change-rj--1"
 order = 583002
+uses = ["lemma-cohomology-modules-underlying-abelian", "definition-derived-base-change-map", "definition-underived-base-change-map--1", "lemma-identity-pasting--2", "lemma-identity-pasting--3", "lemma-acyclic-resolutions--1", "lemma-finite-morphisms--2", "lemma-smooth-morphisms-locally-constant-sheaves--1", "lemma-coordinate-projections--1", "lemma-coordinate-projections--2", "lemma-extension-across-finite-subset--1", "lemma-generic-smooth-open--1", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "lemma-finite-direct-images--2"]
 +++
 We prove clauses [theorem-generic-constructibility-base-change-rj--1] and [theorem-generic-constructibility-base-change-rj--2] together. Since
 $S_0\subset S$ is open, a morphism $t:T\to S$ with image in $S_0$ factors

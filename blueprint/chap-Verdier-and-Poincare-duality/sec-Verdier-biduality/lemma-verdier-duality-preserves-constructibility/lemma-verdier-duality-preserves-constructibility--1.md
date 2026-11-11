@@ -5,7 +5,7 @@ title = "Verdier duality preserves constructibility (1)"
 name_showing = false
 order = 836001
 aliases = ["bp-r250-1"]
-lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_and_torAmplitudeIn_verdierDual_of_perfectField"]
+lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_and_torAmplitudeIn_verdierDual_of_perfectField", "AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual"]
 uses = ["definition-constructible-sheaves--5", "definition-constructible-sheaves--6", "definition-verdier-dual-evaluation--2", "definition-compactification-refinement--1"]
 +++
 For every admissible $\Lambda$, $\mathbb D_X$ restricts to a functor

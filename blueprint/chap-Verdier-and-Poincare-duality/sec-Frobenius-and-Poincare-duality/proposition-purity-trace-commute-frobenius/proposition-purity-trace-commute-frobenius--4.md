@@ -6,6 +6,7 @@ name_showing = false
 order = 882007
 aliases = ["bp-r265-4"]
 lean = ["AlgebraicGeometry.Etale.isWeilMorphism_smoothPurityIso_hom", "AlgebraicGeometry.Etale.PurityFrobeniusDatum.isWeilMorphism_schemeFrobenius_smoothPurityIso_hom"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "definition-constructible-sheaves--6", "proposition-smooth-purity-finite-coefficients--1", "proposition-purity-trace-commute-frobenius--1", "definition-compactification-refinement--1"]
 +++
 With these identifications, and the Kummer identification
 $\operatorname{Fr}_T^*\Lambda_T(1)\simeq\Lambda_T(1)$ for the twists,

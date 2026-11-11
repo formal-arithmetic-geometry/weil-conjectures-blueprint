@@ -3,6 +3,7 @@ id = "corollary-continuity-cohomology"
 kind = "corollary"
 title = "Continuity of cohomology"
 order = 106
+uses = ["definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Suppose $U$ is quasi-compact and quasi-separated and
 $(K_i^\bullet)$ is a filtered diagram of complexes of $\mathcal R$-modules

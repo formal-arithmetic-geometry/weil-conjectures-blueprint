@@ -3,8 +3,6 @@ id = "proposition-base-change-larger-algebraically-closed"
 kind = "proposition"
 title = "Base change to a larger algebraically closed field"
 order = 688
-lean = ["AlgebraicGeometry.Etale.CurveTestDatum.isZero_higherDirectImage_constantSheaf"]
-uses = ["lemma-reduction-curve-over-normal-base"]
 +++
 Let $S=\operatorname{Spec}R$ for a normal domain $R$ with algebraically
 closed fraction field $L$, and let $a:C\to S$ be affine and smooth

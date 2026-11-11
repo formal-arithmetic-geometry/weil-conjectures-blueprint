@@ -5,7 +5,7 @@ title = "Picard group modulo $n$"
 order = 1561010
 aliases = ["bp-r487-5"]
 lean = ["AlgebraicGeometry.Scheme.ker_picDegreeMod", "AlgebraicGeometry.Scheme.nonempty_addEquiv_torsionBy_pic_and_quotient"]
-uses = ["corollary-degree-jacobian--1"]
+uses = ["theorem-picard-scheme-jacobian-over-separably"]
 +++
 There is an isomorphism
 

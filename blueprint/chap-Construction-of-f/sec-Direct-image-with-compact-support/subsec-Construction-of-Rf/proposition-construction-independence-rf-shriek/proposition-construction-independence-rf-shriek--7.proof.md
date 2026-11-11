@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-construction-independence-rf-shriek--7"
 order = 512015
+uses = ["definition-derived-base-change-map", "definition-underived-base-change-map--1", "definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "theorem-proper-base-change-classical-pro--1", "theorem-proper-base-change-classical-pro--2", "lemma-schematic-closure-uniqueness--1", "lemma-schematic-closure-uniqueness--2"]
 +++
 For independence it suffices to
 compare a compactification with a refinement of it. Indeed, the

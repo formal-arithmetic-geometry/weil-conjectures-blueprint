@@ -4,8 +4,8 @@ kind = "lemma"
 title = "Local freeness of finite presentations"
 order = 268016
 aliases = ["bp-r080-8"]
-lean = ["AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp", "AlgebraicGeometry.ProEtale.condensedQbar_lfp_locally_free"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1"]
+lean = ["AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp", "AlgebraicGeometry.ProEtale.condensedQbar_lfp_locally_free", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-inverse-image-coefficient-sheaves--1"]
 +++
 Let $X$ be a scheme whose underlying topological space is Noetherian,
 and let $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, where

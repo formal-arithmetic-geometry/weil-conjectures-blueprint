@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree--8"
 order = 866017
-uses = ["theorem-trace-isomorphism-top-degree--4"]
+uses = ["lemma-cohomology-modules-underlying-abelian", "proposition-pro-etale-coverings--1", "theorem-trace-isomorphism-top-degree--4"]
 +++
 Let $E\subset\overline{\mathbf Q}_\ell$ be finite over $\mathbf Q_\ell$. By clause [lemma-comparison-completed-coefficients--2],
 $E_S=\mathcal O_{E,S}[1/\ell]$ is the colimit of

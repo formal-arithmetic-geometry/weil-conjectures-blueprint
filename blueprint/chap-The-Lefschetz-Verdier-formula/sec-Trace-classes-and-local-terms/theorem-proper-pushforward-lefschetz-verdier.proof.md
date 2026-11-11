@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-proper-pushforward-lefschetz-verdier"
 order = 927
-uses = ["proposition-ordinary-external-kunneth", "lemma-local-terms-point"]
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "definition-kunneth-map", "proposition-ordinary-external-kunneth", "proposition-sp-unique-adjoint", "definition-verdier-dual-evaluation", "proposition-properties-trace", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-local-terms-point", "lemma-kunneth-formula-compact-supports", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 The trace class of $u$ is built in three steps: $u$ becomes a map into
 $P_X=K\boxtimes\mathbb D_XK$, evaluation maps $P_X$ to the

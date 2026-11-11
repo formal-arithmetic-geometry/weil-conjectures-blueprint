@@ -1,6 +1,6 @@
 +++
 id = "theorem-results-from-etale-theory--2"
-kind = "remark"
+kind = "theorem"
 title = "Geometric fibre cohomology"
 order = 537003
 aliases = ["bp-r162-2"]

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-naturality-under-base-change-etale"
 order = 754
+uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-purity-vector-bundles", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology", "lemma-functoriality-deformation"]
 +++
 The geometric identifications follow from the coordinate description of
 the deformation space. Every comparison of dualizing complexes is then

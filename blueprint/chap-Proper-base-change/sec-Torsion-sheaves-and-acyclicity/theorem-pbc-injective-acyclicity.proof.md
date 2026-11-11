@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-pbc-injective-acyclicity"
 order = 350
-uses = ["proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions"]
+uses = ["definition-underived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "definition-compactification-refinement", "lemma-finite-direct-images"]
 +++
 We prove (i)$\Rightarrow$(ii)$\Rightarrow$(iii)$\Rightarrow$(ii)$\Rightarrow$(i).
 The step (iii)$\Rightarrow$(ii) is the main one: it applies the

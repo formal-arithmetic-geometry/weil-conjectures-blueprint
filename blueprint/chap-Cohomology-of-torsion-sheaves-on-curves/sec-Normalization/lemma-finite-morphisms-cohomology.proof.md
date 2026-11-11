@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-finite-morphisms-cohomology"
 order = 1600
+uses = ["lemma-finite-direct-images"]
 +++
 On the étale sites, Lemma [lemma-finite-direct-images] shows that $h_*$
 is exact and that its stalks are finite products of stalks of $G$.  Since $h_*$ is exact, the Leray spectral

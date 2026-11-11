@@ -5,6 +5,7 @@ title = "Categorical trace (1)"
 name_showing = false
 order = 894001
 aliases = ["bp-r269-1"]
+lean = ["DerivedCategory.nonempty_exactPairing_Q_obj_rightDual"]
 +++
 For $P\in\operatorname{Perf}(A)$ put
 $P^\vee=R\!\operatorname{Hom}_A(P,A)$.

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-etale-site"
 order = 399
-uses = ["lemma-acyclic-resolutions", "lemma-composition-cancellation", "lemma-pbc-projective-space", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "lemma-composition-cancellation", "lemma-pbc-projective-space", "definition-compactification-refinement", "theorem-chow-s-lemma-projective-form", "lemma-finite-direct-images"]
 +++
 Let $f:X\to Y$ be proper. We first reduce to the case that $Y$ is affine,
 as Chow's lemma requires. Let $Y=\bigcup U$ be an affine open cover, and

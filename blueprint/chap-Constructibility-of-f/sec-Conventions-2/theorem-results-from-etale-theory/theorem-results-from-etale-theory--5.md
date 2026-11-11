@@ -1,6 +1,6 @@
 +++
 id = "theorem-results-from-etale-theory--5"
-kind = "remark"
+kind = "theorem"
 title = "Cohomological amplitude for compact support"
 order = 537006
 aliases = ["bp-r162-5"]

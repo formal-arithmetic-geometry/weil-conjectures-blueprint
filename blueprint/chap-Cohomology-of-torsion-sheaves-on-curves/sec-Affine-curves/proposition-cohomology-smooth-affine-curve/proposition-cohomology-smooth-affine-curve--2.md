@@ -5,6 +5,7 @@ title = "Kummer computation on a smooth affine curve"
 order = 1584003
 aliases = ["bp-r493-2"]
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine"]
+uses = ["definition-relative-picard-functor--2"]
 +++
 Let $U$ be a smooth affine connected curve over an algebraically closed
 field $k$, and let $n\geq1$ be invertible in $k$. Choose a primitive

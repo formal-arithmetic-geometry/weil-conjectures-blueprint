@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-section-specialized-correspondence"
 order = 1695
+uses = ["definition-constructible-sheaves", "lemma-identity-pasting", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "corollary-open-direct-image-over-field", "lemma-change-coefficients-exceptional-inverse-image", "proposition-dctf-x-qbar-2-colimit", "lemma-nearby-cycles-universal-kernel"]
 +++
 After taking tensor–Hom adjoints, we factor the ordinary
 comparison map through $c_2=p_2c$ and the exceptional comparison map

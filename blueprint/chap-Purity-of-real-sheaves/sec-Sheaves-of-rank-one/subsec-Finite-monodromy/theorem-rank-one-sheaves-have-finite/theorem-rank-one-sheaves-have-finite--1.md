@@ -4,7 +4,7 @@ kind = "theorem"
 title = "A uniform exponent for the geometric character"
 order = 1107001
 aliases = ["bp-r338-1"]
-lean = ["AlgebraicGeometry.WeilGroup.exists_pow_eq_one_of_continuous"]
+lean = ["AlgebraicGeometry.WeilGroup.exists_pow_eq_one_of_continuous", "AlgebraicGeometry.WeilGroup.finite_range_of_continuous"]
 +++
 Let $U_0/k_0$ be a smooth geometrically connected curve over a finite
 field, and let $\ell\ne\operatorname{char}(k_0)$ be prime. Let $W(U_0)$ be

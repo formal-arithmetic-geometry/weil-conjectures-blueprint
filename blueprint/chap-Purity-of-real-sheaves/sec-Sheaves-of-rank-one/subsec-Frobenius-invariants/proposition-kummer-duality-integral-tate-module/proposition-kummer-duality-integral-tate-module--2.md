@@ -5,6 +5,8 @@ title = "Kummer, duality and the integral Tate module (2)"
 name_showing = false
 order = 1097003
 aliases = ["bp-r335-2"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.sheafHOneLimitAddEquivDualJacobianTateModule"]
+uses = ["definition-abelian-variety--1", "lemma-abelian-variety-commutative--2", "definition-tate-module--1"]
 +++
 $$
 \begin{aligned}

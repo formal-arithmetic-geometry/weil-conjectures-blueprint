@@ -5,7 +5,8 @@ title = "Gleason's theorem (1)"
 name_showing = false
 order = 50001
 aliases = ["bp-r010-1"]
-lean = ["CompactT2.projective_iff_extremallyDisconnected"]
+lean = ["CompactT2.projective_iff_extremallyDisconnected", "CompactT2.ExtremallyDisconnected.projective", "CompactT2.Projective.extremallyDisconnected"]
+uses = ["definition-w-local-w-strictly-local--1"]
 +++
 A compact Hausdorff space $S$ is extremally disconnected if and only if
 it is projective with respect to continuous surjections of compact

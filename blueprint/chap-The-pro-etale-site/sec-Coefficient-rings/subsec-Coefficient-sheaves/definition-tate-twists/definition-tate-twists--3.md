@@ -5,5 +5,6 @@ title = "Finite Tate twist"
 order = 184005
 aliases = ["bp-r053-3"]
 lean = ["AlgebraicGeometry.ProEtale.spFiniteTwist"]
+uses = ["definition-small-pro-etale-site--1", "definition-tate-twists--1", "definition-relative-picard-functor--2"]
 +++
 For finite $A$ and $\ell^rA=0$, put $A_X(1)=\mu_{\ell^r,X}\otimes_{\mathbf Z/\ell^r\mathbf Z}A_X$.

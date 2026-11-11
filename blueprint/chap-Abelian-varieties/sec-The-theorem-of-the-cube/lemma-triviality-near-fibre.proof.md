@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-triviality-near-fibre"
 order = 1487
-uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness"]
+uses = ["lemma-acyclic-resolutions", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-triviality-fibres", "lemma-coherent-base-change-invertible-sheaves"]
 +++
 We want a section of $\mathcal L$ over $X\times U$, where $X=P\times Q$,
 that does not vanish on the fibre over $t$. Its zero locus then misses a

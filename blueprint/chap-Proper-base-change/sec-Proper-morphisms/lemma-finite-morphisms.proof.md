@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-finite-morphisms"
 order = 385
+uses = ["lemma-finite-direct-images"]
 +++
 By Lemma [lemma-finite-direct-images], $u_*$ is exact, and its stalks are
 given by the stalk formula there. In a cartesian square over $W'\to W$, a

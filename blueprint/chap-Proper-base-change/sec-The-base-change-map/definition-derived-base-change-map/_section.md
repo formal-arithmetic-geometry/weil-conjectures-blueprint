@@ -4,6 +4,7 @@ kind = "definition"
 title = "Derived base change map"
 order = 317
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus"]
+uses = ["definition-underived-base-change-map"]
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$, the *base change map*
 

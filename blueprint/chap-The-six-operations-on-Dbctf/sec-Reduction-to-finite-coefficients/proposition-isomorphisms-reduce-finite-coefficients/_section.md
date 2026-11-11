@@ -3,8 +3,7 @@ id = "proposition-isomorphisms-reduce-finite-coefficients"
 kind = "proposition"
 title = "Isomorphisms reduce to finite coefficients"
 order = 654
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_of_isIso_etaleReduction_map"]
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-lisse-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "lemma-constructible-sheaves", "lemma-extension-scalars-preserves-dctf"]
 +++
 For each admissible $\Lambda$ let
 $F_\Lambda,G_\Lambda:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$ be exact

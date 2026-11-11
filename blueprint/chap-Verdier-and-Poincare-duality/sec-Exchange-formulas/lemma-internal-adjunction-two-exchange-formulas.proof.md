@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas"
 order = 831
-uses = ["proposition-pro-etale-coverings", "theorem-comparison-direct-images", "lemma-inverse-image-coefficient-sheaves", "lemma-reduction-derived-nakayama", "proposition-inverting-ell", "proposition-proper-base-change-degree-zero", "proposition-proper-base-change-etale-site", "proposition-forgetting-supports-composition", "definition-exceptional-base-change-finite", "proposition-adjunction-projective-line", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-change-coefficients", "lemma-kunneth-field-coefficients", "lemma-passing-schematic-closure"]
+uses = ["proposition-exact-products", "proposition-milnor-sequence", "definition-lisse-sheaves", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-proper-direct-image-constructible-complexes", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients"]
 +++
 We check each isomorphism by Yoneda. After applying
 $\Hom(N,-)$, we identify both sides with the same Hom group by the

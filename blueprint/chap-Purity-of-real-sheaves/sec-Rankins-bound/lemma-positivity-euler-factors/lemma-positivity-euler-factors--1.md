@@ -5,7 +5,8 @@ title = "Positivity of Euler factors (1)"
 name_showing = false
 order = 1158001
 aliases = ["bp-r355-1"]
-lean = ["AlgebraicGeometry.WeilSheaf.IsReal.inv_localPolynomial_stalk_tensorPow_nonneg"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsReal.inv_localPolynomial_stalk_tensorPow_nonneg", "AlgebraicGeometry.WeilGroup.IsReal.hasNonnegCoeffs_eulerFactor_tensorPower"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-sp-unique-adjoint--1", "lemma-perfect-complexes-geometric-point--6", "definition-real-sheaves--1"]
 +++
 Let $\mathcal G$ be an $\iota$-real Weil sheaf, let $m\ge1$, and let
 $x$ be a closed point. Then the power series

@@ -5,8 +5,8 @@ title = "Multiplication by $n$ (1)"
 name_showing = false
 order = 1506001
 aliases = ["bp-r469-1"]
-lean = ["AlgebraicGeometry.isFinite_npow_id"]
-uses = ["definition-abelian-variety--1"]
+lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_npow_id", "AlgebraicGeometry.isFinite_torsionSubgroupScheme"]
+uses = ["definition-abelian-variety--1", "definition-abelian-variety--3"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$. For every
 $n>0$, the morphism $[n]$ is surjective and finite locally free of

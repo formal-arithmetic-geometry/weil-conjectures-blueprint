@@ -6,6 +6,7 @@ name_showing = false
 order = 1552007
 aliases = ["bp-r483-4"]
 lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
+uses = ["definition-relative-picard-functor", "definition-relative-picard-functor--2"]
 +++
 $$
 T_0J(C)=H^1(C,\mathcal O_C).

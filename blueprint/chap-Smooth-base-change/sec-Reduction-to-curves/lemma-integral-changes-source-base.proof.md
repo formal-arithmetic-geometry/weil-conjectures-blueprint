@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-integral-changes-source-base"
 order = 680
+uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "lemma-injectivity-base-change-map-degree", "lemma-schematic-closure-uniqueness", "lemma-finite-direct-images"]
 +++
 Both assertions are [Stacks, [0F04](https://stacks.math.columbia.edu/tag/0F04), [0F05](https://stacks.math.columbia.edu/tag/0F05)]. They use three properties of
 direct image along an integral morphism $\pi$: it is exact and

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-poincare-duality--6"
 order = 857011
+uses = ["theorem-proper-base-change-classical-pro--2", "lemma-internal-adjunction-two-exchange-formulas--1"]
 +++
 We show below that $\beta_K$ is the pairing of
 Theorem [theorem-global-verdier-duality] for $K$, transported along the

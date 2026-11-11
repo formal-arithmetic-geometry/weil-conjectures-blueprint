@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Vanishing at the generic points of a principal divisor"
 order = 1641
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_dense_isZero_specializationDefect"]
-uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-deformation-normal-bundle", "lemma-functoriality-deformation"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "definition-deformation-normal-bundle", "definition-compactification-refinement", "lemma-functoriality-deformation"]
 +++
 Suppose that $X$ is normal, that $Z\subset X$ is an effective principal Cartier
 divisor, and that $i^*L=0$.  Then $C_{X,Z}(L)$ vanishes at every generic

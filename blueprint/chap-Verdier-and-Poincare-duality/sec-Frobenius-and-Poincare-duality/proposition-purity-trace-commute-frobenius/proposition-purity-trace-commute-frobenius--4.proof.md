@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-purity-trace-commute-frobenius--4"
 order = 882008
+uses = ["proposition-compatibility-purity-base-change--1"]
 +++
 The first identity is Proposition [proposition-compatibility-purity-base-change] for this
 square. Since $\operatorname{Fr}_X$ is not a morphism over $k$, the only

@@ -5,7 +5,7 @@ title = "Scheme Frobenius and geometric Frobenius (1)"
 name_showing = false
 order = 954001
 aliases = ["bp-r290-1"]
-lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStarGeometricFiberFrobeniusIterateIso", "AlgebraicGeometry.Etale.leftDerivedUpperStarIterateHomIso_add_hom_app"]
+lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStarGeometricFiberFrobeniusIso", "AlgebraicGeometry.Etale.leftDerivedUpperStarGeometricFiberFrobeniusIterateIso", "AlgebraicGeometry.Etale.leftDerivedUpperStarIterateHomIso_add_hom_app"]
 +++
 Let $\operatorname{Fr}_X$ be the semilinear geometric Frobenius
 of Definition [definition-weil-structure], and for a morphism

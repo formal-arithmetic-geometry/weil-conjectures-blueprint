@@ -6,6 +6,7 @@ name_showing = false
 order = 389004
 aliases = ["bp-r118-2"]
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.of_comp"]
+uses = ["definition-torsion-pbc-property--1"]
 +++
 If $u$ is surjective and $\mathrm{PBC}_\Lambda(u)$ and
 $\mathrm{PBC}_\Lambda(vu)$ hold, then $\mathrm{PBC}_\Lambda(v)$ holds.

@@ -1,6 +1,6 @@
 +++
 id = "lemma-cohomology-modules-underlying-abelian--1"
-kind = "remark"
+kind = "lemma"
 title = "Modules and abelian sheaves (1)"
 name_showing = false
 order = 312001

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-completed-coefficients"
 order = 179
-uses = ["proposition-topos-functoriality"]
+uses = ["lemma-extremally-disconnected-covers"]
 +++
 The functor $p_X^*$ commutes with colimits, so the second and third
 isomorphisms reduce to identities on the point. The first is an inverse

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-constructible-sheaves--2"
 order = 268005
+uses = ["definition-constructible-sheaves--1", "lemma-constructible-sheaves--8"]
 +++
 Part (1) is the substantial one. All three closure properties are local on a common
 stratification, so it suffices to treat lisse sheaves on a single stratum.

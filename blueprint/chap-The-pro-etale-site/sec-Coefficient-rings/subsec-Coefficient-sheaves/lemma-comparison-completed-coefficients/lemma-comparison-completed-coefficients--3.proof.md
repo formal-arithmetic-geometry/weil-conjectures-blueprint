@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-completed-coefficients--3"
 order = 178006
+uses = ["lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "example-locally-constant-functions-w-local--1"]
 +++
 A continuous map from a profinite set to $E$ has compact image, and hence
 lands in $\ell^{-m}\mathcal O_E$ for some $m$. Thus

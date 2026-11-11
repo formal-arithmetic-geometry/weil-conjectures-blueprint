@@ -5,8 +5,8 @@ title = "Strict transform (1)"
 name_showing = false
 order = 1431001
 aliases = ["bp-r444-1"]
-lean = ["AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι", "AlgebraicGeometry.ker_strictTransformι"]
-uses = ["definition-admissible-blow-up--1"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι", "AlgebraicGeometry.ker_strictTransformι", "AlgebraicGeometry.strictTransform"]
+uses = ["lemma-schematic-closure-uniqueness--1", "definition-admissible-blow-up--1"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of
 finite type, with exceptional divisor $E\subseteq T'$, and let $W\to T$

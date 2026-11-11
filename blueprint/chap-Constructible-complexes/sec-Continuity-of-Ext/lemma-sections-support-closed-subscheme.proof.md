@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-sections-support-closed-subscheme"
 order = 278
-uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "definition-local-cohomology", "lemma-local-cohomology-right-adjoint"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "definition-local-cohomology", "lemma-local-cohomology-right-adjoint", "proposition-sp-unique-adjoint"]
 +++
 Lemma [lemma-local-cohomology-right-adjoint] gives the adjunction
 between $i_*$ and $R\underline\Gamma_Z$ on derived categories. What is new

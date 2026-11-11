@@ -3,7 +3,7 @@ id = "theorem-rank-one-sheaves-have-finite"
 kind = "theorem"
 title = "Rank-one sheaves have finite geometric monodromy"
 order = 1107
-lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image", "AlgebraicGeometry.WeilGroup.finite_range_of_continuous"]
+lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image"]
 uses = ["definition-weil-representation"]
 +++
 Let $U_0/k_0$ be a smooth geometrically connected curve, and let

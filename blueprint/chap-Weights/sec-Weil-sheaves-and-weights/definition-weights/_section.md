@@ -4,6 +4,7 @@ kind = "definition"
 title = "Weights, purity and mixedness"
 name_showing = false
 order = 1058
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-perfect-complexes-geometric-point"]
 +++
 Let $K$ be a constructible Weil sheaf on $X$, let $x$ be a closed point of
 $X_0$, and let $\alpha$ be an eigenvalue of $\operatorname{Frob}_x$ on

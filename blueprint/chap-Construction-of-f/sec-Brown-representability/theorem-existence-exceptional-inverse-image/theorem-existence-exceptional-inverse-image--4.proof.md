@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-existence-exceptional-inverse-image--4"
 order = 526009
+uses = ["lemma-hypotheses-brown-representability--3"]
 +++
 To see that $f^!$ preserves direct sums, we test the canonical map
 $\bigoplus_\alpha f^!N_\alpha\to f^!(\bigoplus_\alpha N_\alpha)$

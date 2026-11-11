@@ -3,7 +3,6 @@ id = "theorem-chow-s-lemma-projective-form"
 kind = "theorem"
 title = "Chow's lemma, projective form"
 order = 1471
-lean = ["AlgebraicGeometry.chow_relative_ample"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper
 surjection $\pi:\widetilde X\to X$ and a closed immersion

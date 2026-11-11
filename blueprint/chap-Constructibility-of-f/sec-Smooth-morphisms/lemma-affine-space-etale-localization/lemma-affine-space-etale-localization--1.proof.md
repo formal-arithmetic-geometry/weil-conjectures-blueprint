@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-affine-space-etale-localization--1"
 order = 558003
+uses = ["definition-derived-base-change-map", "definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "definition-torsion-sheaves--3", "lemma-acyclic-resolutions--1", "theorem-cohomology-curves--1", "theorem-cohomology-curves--2", "lemma-finiteness-small-etale-topoi--2", "proposition-proper-base-change-projective-line--1", "theorem-proper-base-change-classical-pro--1", "theorem-proper-base-change-classical-pro--2", "proposition-construction-independence-rf-shriek--7", "proposition-composition-base-change-rf-shriek--1", "proposition-forgetting-supports-composition--1", "proposition-adjunction-projective-line--3", "definition-relative-picard-functor--2", "lemma-finite-direct-images--1", "lemma-finite-direct-images--2", "lemma-finite-morphisms-cohomology--2"]
 +++
 Both parts follow formally from uniqueness of right adjoints. Part (1)
 comes from (6.9) and $j_!\dashv j^*$ for $\mathbf A^1\subset\mathbf P^1$, and

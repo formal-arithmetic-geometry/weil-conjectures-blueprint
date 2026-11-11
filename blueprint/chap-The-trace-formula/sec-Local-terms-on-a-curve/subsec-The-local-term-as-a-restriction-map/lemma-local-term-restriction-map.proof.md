@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-local-term-restriction-map"
 order = 968
+uses = ["lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint", "definition-trace-morphism", "lemma-passing-schematic-closure"]
 +++
 We show that the local term and the displayed composite are both
 adjoint to one map $R\gamma_*\gamma^!P\to R\delta_*\omega_X$. Once the class

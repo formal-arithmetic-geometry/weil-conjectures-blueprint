@@ -5,6 +5,7 @@ title = "Termwise trace"
 order = 896008
 aliases = ["bp-r270-4"]
 lean = ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"]
+uses = ["definition-categorical-trace--2"]
 +++
 For a bounded complex of finite projective modules and a chain
 endomorphism $v^\bullet$ representing $v$ one has

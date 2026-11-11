@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-projective-line-rational-coefficients"
 order = 608
+uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contractible-objects", "corollary-evaluation-weakly-contractible-objects", "proposition-repleteness-pro-etale-topos", "lemma-comparison-completed-coefficients", "definition-local-cohomology", "lemma-local-cohomology-right-adjoint", "lemma-integral-models", "definition-pro-etale-base-change-map", "lemma-finite-morphisms", "definition-projection-formula-map", "lemma-checking-isomorphisms-constructible-complexes", "lemma-cycle-class-cartier-divisor", "lemma-cohomology-projective-line-trace", "lemma-class-diagonal-projective-line", "definition-change-of-coefficients-maps", "definition-kunneth-map", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve"]
 +++
 Define the unit and counit by the formulas (6.7) and
 (6.8) of

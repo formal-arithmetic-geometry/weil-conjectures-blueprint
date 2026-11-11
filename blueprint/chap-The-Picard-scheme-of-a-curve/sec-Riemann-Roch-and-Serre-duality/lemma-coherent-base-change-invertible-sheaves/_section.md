@@ -3,7 +3,6 @@ id = "lemma-coherent-base-change-invertible-sheaves"
 kind = "lemma"
 title = "Coherent base change for invertible sheaves"
 order = 1533
-lean = ["AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.nonempty_higherDirectImage_iso_pullback_of_isPullback", "AlgebraicGeometry.exists_isIso_canonicalModuleBaseChange_of_isFlatOver", "AlgebraicGeometry.noetherian_perfect_directImage"]
 +++
 Let $T$ be a $k$-scheme and let $\mathcal L$ be invertible on $C_T$. Then
 $Rf_{T,*}\mathcal L$ is locally represented

@@ -5,6 +5,7 @@ title = "Functional equation in sign form"
 order = 1045016
 aliases = ["bp-r320-10"]
 lean = ["AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq"]
+uses = ["corollary-functional-equation--2", "corollary-functional-equation--8"]
 +++
 In $\mathbf Q_\ell(T)$,
 

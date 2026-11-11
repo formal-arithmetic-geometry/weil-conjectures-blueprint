@@ -5,7 +5,7 @@ title = "Constructible complexes have finite Tor amplitude for $\\ell$-adic coef
 name_showing = false
 order = 252
 lean = ["AlgebraicGeometry.ProEtale.localizingClosure_ctf_equals_bc"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves"]
 +++
 For $\Lambda=\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, we have
 

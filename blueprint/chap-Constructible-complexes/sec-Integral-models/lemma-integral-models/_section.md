@@ -3,8 +3,8 @@ id = "lemma-integral-models"
 kind = "lemma"
 title = "Integral models"
 order = 294
-lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensorObj"]
-uses = ["lemma-stability", "definition-constructible-sheaves"]
+lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-constructible-sheaves"]
 +++
 1. Restriction of scalars along the map from the constant sheaf
    $\mathcal O_E$ to $\mathcal O_{E,X}$ is an equivalence between the

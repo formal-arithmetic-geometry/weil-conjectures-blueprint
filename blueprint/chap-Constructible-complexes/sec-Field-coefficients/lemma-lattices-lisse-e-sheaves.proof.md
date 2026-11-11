@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-lattices-lisse-e-sheaves"
 order = 261
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "proposition-locally-constant-sheaves-finite-presentation", "proposition-sp-unique-adjoint"]
 +++
 Where $L$ is free of rank $r$, a lattice is the same as a lattice in $E^r$,
 so the sheaf of lattices is locally the constant sheaf on the discrete set

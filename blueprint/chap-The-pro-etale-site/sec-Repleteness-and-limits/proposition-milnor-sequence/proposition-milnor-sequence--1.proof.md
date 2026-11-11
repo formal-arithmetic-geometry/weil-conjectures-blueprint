@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-milnor-sequence--1"
 order = 91002
+uses = ["proposition-exact-products--1"]
 +++
 Everything follows from the triangle (2.1). For a tower of
 modules, $R\varprojlim_nM_n$ is the fibre of a map between two sheaves in

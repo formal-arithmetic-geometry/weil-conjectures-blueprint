@@ -1,0 +1,10 @@
++++
+id = "theorem-f-shriek-ell-adic-coefficients--6"
+kind = "theorem"
+title = "The compatibilities of $f^!$ on $\\Dctf$"
+order = 616011
+aliases = ["bp-r187-6"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekComp", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekComp_padicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekComp_padicAlgCl_assoc", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekId", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.upperShriekComp_id_left_hom_app", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekIsoUpperStar_padicIntegers", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekIsoUpperStar_padicAlgCl"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3", "lemma-inverse-image-coefficient-sheaves--1", "lemma-constructible-sheaves--8", "lemma-integral-models--3", "theorem-f-shriek-ell-adic-coefficients--5", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1", "proposition-compactifying-union-two-opens--1", "lemma-affine-covers-dense-intersection--1", "lemma-affine-covers-dense-intersection--2"]
++++
+For each $\Lambda\in\{\mathcal O_E,E,\overline{\mathbf Q}_\ell\}$, the isomorphisms of Proposition [proposition-composition-open-restriction-compactifications-f] restrict to $D^b_{\mathrm{ctf}}(-_{\mathrm{pro}\acute{e}t},\Lambda)$: for composable $X\xrightarrow fY\xrightarrow gZ$ one has $(gf)^!\simeq f^!g^!$, compatibly with $\mathrm{id}^!\simeq\mathrm{id}$; for an open immersion $j$ one has $j^!\simeq j^*$; and for an open immersion $v:V\to Y$, with $u:X_V=f^{-1}(V)\to X$ and $f_V:X_V\to V$, one has $u^*f^!\simeq f_V^!v^*$.

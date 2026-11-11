@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-adjunction-projective-line"
 order = 555
-uses = ["lemma-cohomology-modules-underlying-abelian", "lemma-class-diagonal-projective-line", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "lemma-identity-pasting", "lemma-finite-morphisms", "proposition-composition-base-change-rf-shriek", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "lemma-class-diagonal-projective-line", "theorem-smooth-base-change-classical-torsion", "theorem-smooth-base-change-classical-torsion-2", "proposition-sp-unique-adjoint"]
 +++
 The projection formula and proper base change reduce each of the two
 triangle identities to the identity $s_i=1$ of

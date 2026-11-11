@@ -3,8 +3,8 @@ id = "proposition-dctf-x-qbar-2-colimit"
 kind = "proposition"
 title = "$\\Dctf(X,\\Qbar)$ as a $2$-colimit"
 order = 649
-lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
-uses = ["lemma-stability", "definition-constructible-sheaves"]
+lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit", "AlgebraicGeometry.ProEtale.finiteCoefficientDescentTwoColimit"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field"]
 +++
 Extension of scalars identifies
 
