@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Geometric points"
 order = 1565008
 aliases = ["bp-r488-4"]
+lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 +++
 The representation $r$ induces a group isomorphism
 

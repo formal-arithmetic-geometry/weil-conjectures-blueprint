@@ -5,6 +5,7 @@ title = "$H^1_c$ as a stalk of the Fourier transform (1)"
 name_showing = false
 order = 1290001
 aliases = ["bp-r398-1"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]
 +++
 Let $k_0=\Fq$, let $\ell$ be a prime different from
 $\operatorname{char}(k_0)$, and let

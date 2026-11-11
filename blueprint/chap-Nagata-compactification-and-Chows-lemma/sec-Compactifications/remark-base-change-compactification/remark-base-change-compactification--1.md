@@ -5,6 +5,7 @@ title = "Base change of a compactification (1)"
 name_showing = false
 order = 1422001
 aliases = ["bp-r440-1"]
+lean = ["AlgebraicGeometry.Compactification.baseChange", "AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_i_baseChange", "AlgebraicGeometry.Compactification.baseChangeFunctor", "AlgebraicGeometry.Compactification.infBaseChange", "AlgebraicGeometry.Compactification.isClosedImmersion_infBaseChange_hom", "AlgebraicGeometry.Compactification.isIso_infBaseChange_hom"]
 +++
 For every $S'\to S$, the base change of a compactification is an open
 immersion followed by a proper morphism, which suffices to define

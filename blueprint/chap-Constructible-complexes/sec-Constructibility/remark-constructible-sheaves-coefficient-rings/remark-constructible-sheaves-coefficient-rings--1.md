@@ -5,6 +5,7 @@ title = "Constructible sheaves for the individual coefficient rings (1)"
 name_showing = false
 order = 223001
 aliases = ["bp-r065-1"]
+lean = ["IsLocallyClosed.isConstructible_of_noetherianSpace", "AlgebraicGeometry.Scheme.Stratification.ofNoetherianSpace"]
 +++
 1. For Noetherian $X$, every locally closed subset is constructible,
    so in Definition [definition-constructible-sheaves](2) any finite stratification

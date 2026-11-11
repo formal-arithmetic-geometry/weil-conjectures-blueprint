@@ -5,6 +5,7 @@ title = "A uniform bound for proper direct image (1)"
 name_showing = false
 order = 483001
 aliases = ["bp-r146-1"]
+lean = ["AlgebraicGeometry.ProEtale.proper_indConstructible_boundedBelow", "AlgebraicGeometry.ProEtale.proper_indConstructible_boundedBelow_padicAlgCl"]
 +++
 Let $p:X\to Y$ be proper, and let $d$ be an integer bounding the
 dimensions of all geometric fibres of $p$ (for instance $d=\dim X$). For

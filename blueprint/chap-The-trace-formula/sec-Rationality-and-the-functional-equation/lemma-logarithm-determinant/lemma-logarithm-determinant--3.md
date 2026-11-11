@@ -5,6 +5,7 @@ title = "Logarithm of a determinant (3)"
 name_showing = false
 order = 1034004
 aliases = ["bp-r316-3"]
+lean = ["LinearMap.inv_alternatingCharpolyRevProd_eq_exp"]
 +++
 Then (12.5) holds for $P$, with
 $\operatorname{Tr}(v^m\mid V)$ replaced by the categorical trace

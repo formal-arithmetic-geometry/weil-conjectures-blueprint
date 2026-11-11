@@ -3,7 +3,7 @@ id = "corollary-unramified-boundary-point"
 kind = "corollary"
 title = "An unramified boundary point"
 order = 1186
-lean = ["AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeight_stalk_directImage_of_isLisse"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeight_stalk_directImage_of_isLisse"]
 uses = ["lemma-stability", "definition-weil-representation"]
 +++
 Let $\mathcal F$ be a lisse sheaf, pure of weight $a$, on a smooth

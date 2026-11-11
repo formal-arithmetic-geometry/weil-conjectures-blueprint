@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Compatibility with base change"
 order = 1552009
 aliases = ["bp-r483-5"]
-lean = ["AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback"]
+lean = ["AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback", "AlgebraicGeometry.nonempty_picardFunctorDegree_iso_of_isPullback", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange", "AlgebraicGeometry.jacobian_compatibility"]
 uses = ["definition-relative-picard-functor--1"]
 +++
 For a morphism $X\to S$ and a base change $S'\to S$, put

@@ -5,6 +5,7 @@ title = "Representing objects (1)"
 name_showing = false
 order = 739001
 aliases = ["bp-r222-1"]
+lean = ["AlgebraicGeometry.Etale.FiniteRepresentingPair", "AlgebraicGeometry.ProEtale.FiniteRepresentingPair"]
 +++
 Let $f$ be smooth, and let us work in $D(Y,\mathbf Z/\ell^n\mathbf Z)$ and
 $D(X,\mathbf Z/\ell^n\mathbf Z)$ on either the étale or the

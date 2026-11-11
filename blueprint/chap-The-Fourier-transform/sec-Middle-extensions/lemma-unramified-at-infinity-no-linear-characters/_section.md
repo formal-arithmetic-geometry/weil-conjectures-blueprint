@@ -3,7 +3,7 @@ id = "lemma-unramified-at-infinity-no-linear-characters"
 kind = "lemma"
 title = "Sheaves unramified at infinity"
 order = 1270
-lean = ["AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity", "AlgebraicGeometry.not_isUnramifiedAtInfinity_artinSchreier"]
+lean = ["AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 uses = ["lemma-stability", "lemma-artin-schreier-character-sheaf", "proposition-fourier-transform-middle-extension"]
 +++
 Let $M$ be an irreducible lisse Weil sheaf on a dense open

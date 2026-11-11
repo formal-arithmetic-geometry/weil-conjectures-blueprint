@@ -3,7 +3,7 @@ id = "theorem-grothendieck-lefschetz-trace-formula"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
 order = 1018
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction", "AlgebraicGeometry.WeilSheaf.sum_trace_compactlySupportedCohomology"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction"]
 uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-additivity-open-subscheme-complement", "definition-trace-function", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, put

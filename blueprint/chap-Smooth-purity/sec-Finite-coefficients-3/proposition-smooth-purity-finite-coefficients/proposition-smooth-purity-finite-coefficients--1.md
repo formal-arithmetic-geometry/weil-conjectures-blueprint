@@ -5,7 +5,7 @@ title = "Smooth purity with finite coefficients (1)"
 name_showing = false
 order = 759001
 aliases = ["bp-r229-1"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift", "AlgebraicGeometry.Etale.smoothPurityIso"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift", "AlgebraicGeometry.Etale.smoothPurityIso", "AlgebraicGeometry.Etale.canonicalSmoothPurityMap", "AlgebraicGeometry.Etale.canonicalSmoothPurityMap_naturality"]
 +++
 Let $A$ be any finite admissible coefficient ring, and let
 $f:X\to Y$ be smooth of pure relative dimension $d$.

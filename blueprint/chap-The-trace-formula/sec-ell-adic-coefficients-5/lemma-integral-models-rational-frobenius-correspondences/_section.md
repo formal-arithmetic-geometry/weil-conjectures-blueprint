@@ -3,7 +3,7 @@ id = "lemma-integral-models-rational-frobenius-correspondences"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences"
 order = 1014
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_integralModel_frobeniusCorrespondence", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_frobeniusCoefficientIterate_eq", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_upperStar_map_frobeniusCoefficientIterate_eq"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_integralModel_frobeniusCorrespondence", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_upperStar_map_frobeniusCoefficientIterate_eq"]
 uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-change-of-coefficients-maps"]
 +++
 Let $K_E\in\Dbc(X,E)$ and let

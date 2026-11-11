@@ -3,7 +3,7 @@ id = "lemma-base-change-cone-x-z"
 kind = "lemma"
 title = "Base change for the cone of $\\tau_{X,Z}$"
 order = 1635
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_lowerStar_centreι", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_lowerStar_centreι", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso_finiteCoefficient", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_lowerStar_centreι_finiteCoefficient", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_iso_finiteCoefficient"]
 uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "definition-deformation-normal-bundle", "lemma-functoriality-deformation"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,

@@ -5,6 +5,7 @@ title = "Proper direct image on the localizing categories (1)"
 name_showing = false
 order = 477001
 aliases = ["bp-r145-1"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_sigmaComparison_rightDerivedLowerStar_of_etaleOriginHomology"]
 +++
 Let $A$ be a finite admissible ring and let $p:X\to Y$ be proper. The
 functor $Rp_*$ restricts to an exact functor

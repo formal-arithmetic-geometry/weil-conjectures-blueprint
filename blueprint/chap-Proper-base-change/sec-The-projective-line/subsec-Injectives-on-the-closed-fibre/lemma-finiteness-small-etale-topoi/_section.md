@@ -3,7 +3,6 @@ id = "lemma-finiteness-small-etale-topoi"
 kind = "lemma"
 title = "Finiteness facts on $\\mathbf P^1_R$"
 order = 369
-lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar"]
 aliases = ["remark-finiteness-small-etale-topoi"]
 +++
 1. A sheaf of $\mathbf F_\ell$-modules on $\mathbf P^1_{R,\acute{e}t}$ is a filtered

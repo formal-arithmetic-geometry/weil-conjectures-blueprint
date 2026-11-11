@@ -4,6 +4,6 @@ kind = "proposition"
 title = "Compatibility with the tensor description"
 order = 562016
 aliases = ["bp-r169-8"]
-lean = ["CategoryTheory.Adjunction.projectionTensorMap_mateEquiv"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekTensorMap_baseChange"]
 +++
 The base change isomorphism (6.1) is compatible with the tensor description (6.13), under the canonical pullback and tensor identifications.

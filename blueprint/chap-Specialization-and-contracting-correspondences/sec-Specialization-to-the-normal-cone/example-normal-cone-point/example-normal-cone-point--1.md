@@ -5,6 +5,7 @@ title = "Normal cones of a point (1)"
 name_showing = false
 order = 1630001
 aliases = ["bp-r504-1"]
+lean = ["IsLocalRing.exists_mvPolynomial_residueField_ringEquiv_associatedGraded", "MvPolynomial.nonempty_cusp_ringEquiv_associatedGraded", "Polynomial.associatedGradedPieceEquivXPow"]
 +++
 If $X$ is smooth at a point $Z=\{y\}$, then
 $\bigoplus_rI^r/I^{r+1}$ is the symmetric algebra of $I/I^2$ and

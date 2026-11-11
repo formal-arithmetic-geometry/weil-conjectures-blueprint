@@ -5,7 +5,7 @@ title = "Correspondences (3)"
 name_showing = false
 order = 904003
 aliases = ["bp-r273-3"]
-lean = ["AlgebraicGeometry.Scheme.fixedScheme", "AlgebraicGeometry.Scheme.fixedSchemeProj", "AlgebraicGeometry.Scheme.fixedSchemeι", "AlgebraicGeometry.Scheme.instIsClosedImmersionFixedSchemeιOfIsSeparated"]
+lean = ["AlgebraicGeometry.Scheme.fixedScheme", "AlgebraicGeometry.Scheme.fixedSchemeProj", "AlgebraicGeometry.Scheme.fixedSchemeι", "AlgebraicGeometry.Scheme.instIsClosedImmersionFixedSchemeιOfIsSeparated", "AlgebraicGeometry.Etale.CohomologicalCorrespondence.fixedScheme", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isPullback"]
 +++
 The *fixed locus* of $c$ is the closed subscheme
 

@@ -5,6 +5,7 @@ title = "Finite quotients and their transition maps (1)"
 name_showing = false
 order = 181001
 aliases = ["bp-r052-1"]
+lean = ["AlgebraicGeometry.ProEtale.shortExact_continuousMapReductionShortComplex"]
 +++
 For every $n\geq1$ there is a canonical exact sequence on $X_{\mathrm{pro}\acute{e}t}$
 

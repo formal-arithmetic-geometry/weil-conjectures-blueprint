@@ -3,7 +3,7 @@ id = "corollary-torsion-jacobian-field-extension"
 kind = "corollary"
 title = "Torsion of the Jacobian and field extension"
 order = 1561
-lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.jacobian_compatibility"]
+lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.surjective_npow_points"]
 uses = ["definition-relative-picard-functor"]
 +++
 Let $k$ be algebraically closed, let $C/k$ be a smooth proper

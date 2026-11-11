@@ -5,7 +5,7 @@ title = "Internal adjunction and two exchange formulas (3)"
 name_showing = false
 order = 830005
 aliases = ["bp-r248-3"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_leftDerivedUpperStar", "AlgebraicGeometry.WeilComplex.nonempty_upperShriek_verdierDual_iso"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_leftDerivedUpperStar", "AlgebraicGeometry.WeilComplex.nonempty_upperShriek_verdierDual_iso", "AlgebraicGeometry.ProEtale.CondensedRing.verdierDualUpperStarIso"]
 +++
 $$
 \begin{aligned}

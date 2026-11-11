@@ -5,6 +5,7 @@ title = "Normalization of a constant sheaf (1)"
 name_showing = false
 order = 1605001
 aliases = ["bp-r499-1"]
+lean = ["AlgebraicGeometry.exists_mono_lowerShriek_constantModSheaf_lowerStar"]
 +++
 Let $C$ be a reduced curve of finite type over an algebraically closed
 field, and let $\pi:C^{\mathrm{nor}}\to C$ be its normalization.  For a

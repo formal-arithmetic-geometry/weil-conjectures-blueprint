@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Étale, ind-étale and weakly étale ring maps"
 name_showing = false
 order = 29
-lean = ["Algebra.IndEtale.weaklyEtale", "AlgebraicGeometry.WeaklyEtale.etale"]
+lean = ["AlgebraicGeometry.WeaklyEtale.etale"]
 +++
 Let $R\to B$ be a ring map.
 

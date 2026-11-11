@@ -5,7 +5,7 @@ title = "Tate module (1)"
 name_showing = false
 order = 1511001
 aliases = ["bp-r470-1"]
-lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule", "AlgebraicGeometry.IsAbelianVariety.tateModuleEquivTorsionPoints"]
 uses = ["definition-abelian-variety--1", "lemma-abelian-variety-commutative--2"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime

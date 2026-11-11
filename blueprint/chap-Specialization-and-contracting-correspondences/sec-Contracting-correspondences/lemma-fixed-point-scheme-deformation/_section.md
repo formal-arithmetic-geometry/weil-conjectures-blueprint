@@ -3,6 +3,7 @@ id = "lemma-fixed-point-scheme-deformation"
 kind = "lemma"
 title = "The fixed point scheme of the deformation"
 order = 1706
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.subsingleton_component", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.isUniversalHomeomorphism_componentFixedLocusTotalLift_of_connected"]
 +++
 In the situation of Lemma [lemma-normal-cones-contracting-ideals],
 suppose that $F$ is connected and that $d(F)$ meets $Z$. Then

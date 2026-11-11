@@ -3,6 +3,7 @@ id = "lemma-nearby-cycles-constant-family"
 kind = "lemma"
 title = "Nearby cycles of a constant family"
 order = 1627
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_deformationModel_bot_unit_of_smooth", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_deformationModel_bot_unit_of_smooth_finiteCoefficient", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.Hom.map_unit_comp_pullbackExchange_app"]
 +++
 For a separated $k$-scheme $Y$ of finite type and
 $L\in\Dbc(Y,A)$, the specialization map

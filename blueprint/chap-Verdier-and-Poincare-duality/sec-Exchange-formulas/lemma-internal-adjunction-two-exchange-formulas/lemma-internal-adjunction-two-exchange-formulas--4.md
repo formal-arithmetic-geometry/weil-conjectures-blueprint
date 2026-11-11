@@ -5,6 +5,7 @@ title = "Internal adjunction and two exchange formulas (4)"
 name_showing = false
 order = 830007
 aliases = ["bp-r248-4"]
+lean = ["AlgebraicGeometry.Etale.nonempty_arrowIso_rightDerivedLowerStar_map_verdierDualDoubleDual"]
 +++
 If $f$ is proper, then the composite
 

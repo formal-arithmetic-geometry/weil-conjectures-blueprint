@@ -5,6 +5,7 @@ title = "Kummer, duality and the integral Tate module (3)"
 name_showing = false
 order = 1097005
 aliases = ["bp-r335-3"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.sheafHOneLimitAddEquivDualJacobianTateModule_galois"]
 +++
 If
 arithmetic Frobenius on $T_\ell J$ has matrix $B$, then geometric

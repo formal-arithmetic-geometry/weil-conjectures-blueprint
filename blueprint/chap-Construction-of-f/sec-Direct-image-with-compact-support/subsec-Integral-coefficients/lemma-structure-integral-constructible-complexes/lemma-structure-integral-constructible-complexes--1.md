@@ -5,6 +5,7 @@ title = "Structure of integral constructible complexes (1)"
 name_showing = false
 order = 491001
 aliases = ["bp-r148-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isConstructibleModuleObject_serre_padicIntegersRingObj"]
 +++
 $\Dbc(X,\mathcal O_E)$ is a triangulated subcategory of
 $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ of bounded objects, stable under truncation;

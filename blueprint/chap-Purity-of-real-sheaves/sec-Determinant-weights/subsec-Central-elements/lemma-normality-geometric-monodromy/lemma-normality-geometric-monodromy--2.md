@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Commutators over coefficient algebras"
 order = 1133003
 aliases = ["bp-r347-2"]
-lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy"]
 uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2"]
 +++
 In the setting of [lemma-normality-geometric-monodromy--1], for every

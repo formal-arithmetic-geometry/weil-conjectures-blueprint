@@ -3,7 +3,7 @@ id = "lemma-perfect-complexes-geometric-point"
 kind = "lemma"
 title = "Perfect complexes at the geometric point"
 order = 825
-lean = ["AlgebraicGeometry.Etale.isPerfect_geometricStalk", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "DerivedCategory.IsPerfect.ihom_unit", "DerivedCategory.IsPerfect.isIso_toIhomIhomUnit"]
+lean = ["AlgebraicGeometry.Etale.isPerfect_geometricStalk", "DerivedCategory.IsPerfect.ihom_unit", "DerivedCategory.IsPerfect.isIso_toIhomIhomUnit"]
 uses = ["lemma-stability"]
 +++
 Suppose $k$ is algebraically closed. The category

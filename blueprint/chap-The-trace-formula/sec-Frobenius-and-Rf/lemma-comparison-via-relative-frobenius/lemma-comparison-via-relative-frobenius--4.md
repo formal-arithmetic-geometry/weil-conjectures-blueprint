@@ -5,7 +5,7 @@ title = "Comparison via relative Frobenius (4)"
 name_showing = false
 order = 1000008
 aliases = ["bp-r305-4"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.stalk_lowerShriekFrobeniusCoefficient_iterate"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.stalk_lowerShriekFrobeniusCoefficient_iterate", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.isModelFrobenius_fibreFrobenius"]
 +++
 At $y\in Y_0(\mathbf F_{q^m})$, base change for compact supports
 identifies $(L_{\bar y},\psi'_{m,\bar y})$ with

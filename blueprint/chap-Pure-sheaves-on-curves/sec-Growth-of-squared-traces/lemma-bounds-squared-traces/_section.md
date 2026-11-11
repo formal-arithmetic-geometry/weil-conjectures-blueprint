@@ -3,7 +3,6 @@ id = "lemma-bounds-squared-traces"
 kind = "lemma"
 title = "Bounds for squared traces"
 order = 1205
-lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_le_of_traceEnergy_le"]
 uses = ["lemma-stability", "definition-trace-function"]
 +++
 Let $X_0$ be a smooth affine curve over $k_0$, and let $a$ be a real

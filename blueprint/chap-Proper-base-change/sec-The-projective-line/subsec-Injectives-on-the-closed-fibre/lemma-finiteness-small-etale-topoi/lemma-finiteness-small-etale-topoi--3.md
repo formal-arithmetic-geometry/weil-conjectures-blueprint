@@ -4,6 +4,7 @@ kind = "remark"
 title = "Finite embedding"
 order = 369004
 aliases = ["bp-r112-3"]
+lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar"]
 +++
 A constructible sheaf $G$ of $\mathbf F_\ell$-modules on
 $\mathbf P^1_{R,\acute{e}t}$ admits a monomorphism

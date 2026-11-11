@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Determinant weight for a represented degree datum"
 order = 1145001
 aliases = ["bp-r351-1"]
-lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair_of_basis"]
 uses = ["definition-determinant-weight--1", "definition-monodromy-groups--1", "definition-monodromy-groups--2"]
 +++
 Let $k$ be a field, let $W$ be a group with a surjective homomorphism

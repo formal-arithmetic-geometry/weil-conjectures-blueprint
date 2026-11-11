@@ -5,6 +5,7 @@ title = "Quasi-finite coordinates (1)"
 name_showing = false
 order = 1656001
 aliases = ["bp-r513-1"]
+lean = ["AlgebraicGeometry.exists_quasiFinite_affineSpace_chart_trait"]
 +++
 Let $X$ be flat, separated and of finite type over $S$, and let $x$ be
 a closed point of $X_s$. Put $q=\dim_xX_s$. Then $q\leq\dim X_{\bar\eta}$,

@@ -3,7 +3,7 @@ id = "lemma-subobjects-quotients-weil-sheaves"
 kind = "lemma"
 title = "Subobjects and quotients of Weil sheaves"
 order = 1071
-lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_epi"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono"]
 uses = ["lemma-stability"]
 +++
 Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of

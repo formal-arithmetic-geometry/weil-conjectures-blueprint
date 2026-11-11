@@ -5,6 +5,7 @@ title = "Duality for nearby cycles on a slice (1)"
 name_showing = false
 order = 1684001
 aliases = ["bp-r522-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_sliceSpecialMap_nearbyDualityMapOfGenericBase_traitFibreModel"]
 +++
 In the situation just described, suppose that $X$ is affine, and let
 $i:X\hookrightarrow\mathbf A^r_{\mathbf A^1_S}$ be a closed immersion over

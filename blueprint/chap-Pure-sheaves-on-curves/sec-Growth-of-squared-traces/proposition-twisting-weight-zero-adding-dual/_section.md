@@ -3,7 +3,6 @@ id = "proposition-twisting-weight-zero-adding-dual"
 kind = "proposition"
 title = "Twisting to weight zero and adding the dual"
 order = 1197
-lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.exists_units_norm_eq"]
 uses = ["lemma-stability"]
 +++
 Let $\mathcal F\ne0$ be lisse and pure of weight $w$ on a nonempty

@@ -3,7 +3,6 @@ id = "corollary-degreewise-duality-over-fields"
 kind = "corollary"
 title = "Degreewise duality over fields"
 order = 860
-lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfPair_degreewisePoincarePairing", "AlgebraicGeometry.Etale.TateOrientation.isPerfPair_degreewisePoincarePairing_of_isProper", "AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.poincareDuality_compactlySupportedCohomology_adicConstant"]
 uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-six-operations-change-coefficients", "definition-relative-dualizing-complex", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 Let $X/k$ be smooth and separated of pure dimension $d$, with $k$

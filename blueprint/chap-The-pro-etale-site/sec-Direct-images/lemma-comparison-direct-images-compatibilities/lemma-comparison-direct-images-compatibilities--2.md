@@ -5,6 +5,7 @@ title = "Compatibilities of the comparison of direct images (2)"
 name_showing = false
 order = 136004
 aliases = ["bp-r039-2"]
+lean = ["AlgebraicGeometry.ProEtale.fixedComparisonDirectImageMatePlus_counit"]
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$, the composite
 $g_{\mathrm{pro}\acute{e}t}^*\nu_Y^*Rg_{\acute{e}t,*}K\xrightarrow{g^*c_g}

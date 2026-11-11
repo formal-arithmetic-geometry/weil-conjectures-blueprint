@@ -5,6 +5,7 @@ title = "Lattices in lisse $E$-sheaves (1)"
 name_showing = false
 order = 260001
 aliases = ["bp-r077-1"]
+lean = ["AlgebraicGeometry.ProEtale.exists_lisse_lattice_class_sheaf"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and let $L$ be a lisse $E_X$-module. The sheaf on
 $X_{\mathrm{pro}\acute{e}t}$ of lattices in $L$ is represented

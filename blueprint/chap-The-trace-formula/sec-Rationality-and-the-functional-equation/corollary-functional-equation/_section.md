@@ -3,7 +3,7 @@ id = "corollary-functional-equation"
 kind = "corollary"
 title = "Functional equation"
 order = 1045
-lean = ["AlgebraicGeometry.Scheme.duality_reciprocity", "AlgebraicGeometry.Scheme.reciprocity"]
+lean = ["AlgebraicGeometry.Scheme.duality_reciprocity", "AlgebraicGeometry.Scheme.reciprocity", "AlgebraicGeometry.Scheme.functional_equation_frobeniusCharpolyRev"]
 uses = ["lemma-stability"]
 +++
 Let $X_0/\mathbf F_q$ be smooth and proper of pure dimension $d$, and let

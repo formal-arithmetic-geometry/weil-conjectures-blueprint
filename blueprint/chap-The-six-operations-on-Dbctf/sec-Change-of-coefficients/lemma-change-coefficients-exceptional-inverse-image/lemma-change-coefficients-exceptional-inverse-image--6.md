@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exceptional inverse image: passage to the algebraic closure"
 order = 641012
 aliases = ["bp-r195-6"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleUpperShriekToPadicAlgCl"]
 +++
 Let $E\subset\overline{\mathbf Q}_\ell$ be finite over $\mathbf Q_\ell$,
 and take $\Lambda=E$ and $\Lambda'=\overline{\mathbf Q}_\ell$. For every

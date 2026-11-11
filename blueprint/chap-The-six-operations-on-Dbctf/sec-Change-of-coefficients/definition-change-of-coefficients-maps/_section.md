@@ -3,7 +3,7 @@ id = "definition-change-of-coefficients-maps"
 kind = "definition"
 title = "Change-of-coefficients maps"
 order = 632
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso"]
 uses = ["lemma-stability"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps listed above, and let

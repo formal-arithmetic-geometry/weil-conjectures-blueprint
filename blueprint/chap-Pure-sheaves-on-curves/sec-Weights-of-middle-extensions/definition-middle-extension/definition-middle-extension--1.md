@@ -5,7 +5,7 @@ title = "Middle extension (1)"
 name_showing = false
 order = 1175001
 aliases = ["bp-r360-1"]
-lean = ["AlgebraicGeometry.Etale.middleExtension"]
+lean = ["AlgebraicGeometry.Etale.middleExtension", "AlgebraicGeometry.WeilSheaf.directImage"]
 +++
 Let $j:U\hookrightarrow X$ be a dense open in a smooth curve and let
 $\mathcal F$ be a lisse sheaf on $U$. The *middle extension* of

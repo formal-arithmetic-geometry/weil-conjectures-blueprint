@@ -3,7 +3,7 @@ id = "lemma-reciprocal-roots-zeta"
 kind = "lemma"
 title = "Reciprocal roots of the zeta function"
 order = 1389
-lean = ["AlgebraicGeometry.Scheme.weight_separation", "AlgebraicGeometry.Scheme.integral_recovery"]
+lean = ["AlgebraicGeometry.Scheme.integral_recovery"]
 uses = ["lemma-stability"]
 +++
 Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$, let

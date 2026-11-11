@@ -3,7 +3,6 @@ id = "definition-tate-module"
 kind = "definition"
 title = "Tate module"
 order = 1511
-lean = ["AlgebraicGeometry.IsAbelianVariety.tateModuleEquivTorsionPoints"]
 +++
 Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime
 invertible in $k$. The *Tate module* of $A$ is

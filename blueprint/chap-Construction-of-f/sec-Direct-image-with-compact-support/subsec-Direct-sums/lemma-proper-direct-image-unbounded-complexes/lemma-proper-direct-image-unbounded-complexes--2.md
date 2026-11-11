@@ -5,6 +5,7 @@ title = "Proper direct image of unbounded complexes (2)"
 name_showing = false
 order = 487004
 aliases = ["bp-r147-2"]
+lean = ["AlgebraicGeometry.ProEtale.properUnboundedWindow", "AlgebraicGeometry.ProEtale.properUnboundedWindow_padicAlgCl"]
 +++
 For $K\in\Dic(X,\Lambda)$ and every integer $q$, the truncation maps
 $K\leftarrow\tau_{\leq q}K\to\tau_{\geq q-2d-1}\tau_{\leq q}K$ induce an

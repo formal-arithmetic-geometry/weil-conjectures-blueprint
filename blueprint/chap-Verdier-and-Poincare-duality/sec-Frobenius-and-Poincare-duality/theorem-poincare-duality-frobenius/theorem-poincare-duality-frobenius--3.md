@@ -4,6 +4,6 @@ kind = "theorem"
 title = "Twisted cohomological pairing"
 order = 885005
 aliases = ["bp-r266-3"]
-lean = ["AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq_of_iso", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq"]
+lean = ["AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq_of_iso", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator"]
 +++
 The pairing between $H_c^i(X,K)$ and $H^{2d-i}(X,K^\vee(d))$, with values in $\Lambda$, satisfies $\langle Fx,Fy\rangle=\langle x,y\rangle$.

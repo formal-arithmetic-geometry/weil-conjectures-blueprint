@@ -5,6 +5,7 @@ title = "The running example: the trace formula (2)"
 name_showing = false
 order = 1043002
 aliases = ["bp-r319-2"]
+lean = ["AlgebraicGeometry.Scheme.frobeniusCharpolyRev_one_of_finrank_eq_two", "AlgebraicGeometry.Scheme.pointCount_eq_of_pointCount_one_eq"]
 +++
 Hence
 

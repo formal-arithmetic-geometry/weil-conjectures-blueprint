@@ -5,6 +5,7 @@ title = "Contracting correspondences and local terms (1)"
 name_showing = false
 order = 1711001
 aliases = ["bp-r531-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.restrict_traceClass_eq_pushforward_of_isContractingAt"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, and let
 $Z\hookrightarrow X$ have ideal $I$. Let $F_0$ be a connected component

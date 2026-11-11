@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Extension of scalars commutes with $Rf_!$ and $f^!$"
 name_showing = false
 order = 769
-lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekExtendScalarsMap", "AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerShriekExtendScalarsMap_app"]
 uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-sp-scalar-extension"]
 +++
 For $M\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ and $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$ there are natural isomorphisms

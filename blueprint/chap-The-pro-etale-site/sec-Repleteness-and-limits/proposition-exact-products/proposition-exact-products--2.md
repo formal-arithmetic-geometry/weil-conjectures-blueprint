@@ -5,7 +5,7 @@ title = "Exact products (2)"
 name_showing = false
 order = 88003
 aliases = ["bp-r023-2"]
-lean = ["DerivedCategory.isLimitFanMkQObj", "HomologicalComplex.isLimitFanHomology"]
+lean = ["AlgebraicGeometry.Scheme.ProEt.products_derived", "DerivedCategory.isLimitFanMkQObj", "HomologicalComplex.isLimitFanHomology"]
 +++
 Let $\mathcal A$ be an abelian category and $I$ a set such that
 $I$-indexed products exist and are exact in $\mathcal A$. For a family

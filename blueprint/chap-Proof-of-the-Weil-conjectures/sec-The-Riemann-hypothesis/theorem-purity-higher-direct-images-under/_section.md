@@ -3,7 +3,7 @@ id = "theorem-purity-higher-direct-images-under"
 kind = "theorem"
 title = "Purity of higher direct images under a smooth proper morphism"
 order = 1372
-lean = ["AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity", "AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStarOfIsProper"]
+lean = ["AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity"]
 uses = ["lemma-stability", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $f_0:X_0\to Y_0$ be smooth proper of pure relative dimension $d$,

@@ -3,7 +3,6 @@ id = "lemma-verdier-duality-preserves-constructibility"
 kind = "lemma"
 title = "Verdier duality preserves constructibility"
 order = 836
-lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual"]
 uses = ["definition-relative-dualizing-complex"]
 +++
 For every admissible $\Lambda$, $\mathbb D_X$ restricts to a functor

@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exceptional inverse image: finite ring maps"
 order = 641002
 aliases = ["bp-r195-1"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedUpperShriek"]
 +++
 Assume $\Lambda=A$, $\Lambda'=B$ for a homomorphism of finite admissible rings. The comparison
 

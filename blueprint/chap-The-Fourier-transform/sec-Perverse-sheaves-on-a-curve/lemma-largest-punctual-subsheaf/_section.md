@@ -3,7 +3,7 @@ id = "lemma-largest-punctual-subsheaf"
 kind = "lemma"
 title = "The largest punctual subsheaf"
 order = 1248
-lean = ["AlgebraicGeometry.WeilSheaf.isZero_upperStar_of_isLisse", "AlgebraicGeometry.WeilSheaf.support_finite_kernel_unit_app"]
+lean = ["AlgebraicGeometry.WeilSheaf.support_finite_kernel_unit_app"]
 uses = ["lemma-stability", "lemma-schematic-closure-uniqueness"]
 +++
 A lisse sheaf on $C$ has no nonzero punctual subsheaf. Let $F$ be a

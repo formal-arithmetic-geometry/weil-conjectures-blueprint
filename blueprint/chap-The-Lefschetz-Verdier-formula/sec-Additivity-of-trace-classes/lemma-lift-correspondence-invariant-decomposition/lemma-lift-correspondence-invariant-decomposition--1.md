@@ -5,6 +5,7 @@ title = "Lifting a correspondence to an invariant decomposition (1)"
 name_showing = false
 order = 937001
 aliases = ["bp-r285-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.openPieceCoeff_comp_map_counit", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.eq_openPieceCoeff_of_comp_map_counit", "AlgebraicGeometry.ProEtale.CondensedRing.homEquiv_symm_restrictedCoeffOfIsPullback", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.pointOpenPieceCoeff_comp_map_counit"]
 +++
 Let $c:C\to X\times X$ be a correspondence, $i:Z\to X$ a closed
 immersion with open complement $j:U\to X$, and suppose

@@ -5,6 +5,7 @@ title = "Nearby cycles of a constant family (1)"
 name_showing = false
 order = 1627001
 aliases = ["bp-r503-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_deformationModel_bot_unit_of_smooth", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_deformationModel_bot_unit_of_smooth_finiteCoefficient"]
 +++
 For a separated $k$-scheme $Y$ of finite type and
 $L\in\Dbc(Y,A)$, the specialization map

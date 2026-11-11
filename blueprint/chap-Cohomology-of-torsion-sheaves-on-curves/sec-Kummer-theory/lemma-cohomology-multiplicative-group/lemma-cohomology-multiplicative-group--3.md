@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Naturality under restriction"
 order = 1576006
 aliases = ["bp-r490-3"]
-lean = ["AlgebraicGeometry.Scheme.etaleRestrictionH_toCohomologicalPicardGroup"]
+lean = ["AlgebraicGeometry.Scheme.etaleRestrictionH_toCohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 For a scheme $Y$, descent for invertible modules identifies

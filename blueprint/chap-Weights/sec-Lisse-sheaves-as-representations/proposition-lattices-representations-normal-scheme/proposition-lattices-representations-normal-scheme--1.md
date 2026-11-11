@@ -5,6 +5,7 @@ title = "Lattices and representations on a normal scheme (1)"
 name_showing = false
 order = 1083001
 aliases = ["bp-r332-1"]
+lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy", "AlgebraicGeometry.ProEtale.exists_lisseMonodromy_of_isIntegrallyClosed_stalk"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a
 field, let $E/\mathbf Q_\ell$ be finite, and fix a geometric point $\bar x$. By

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Reducedness"
 order = 960006
 aliases = ["bp-r292-3"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.exists_isOpenImmersion_rationalPoint_of_isLimit"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.exists_isOpenImmersion_rationalPoint_of_isLimit", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isReduced"]
 uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $k_0=\Fq$, let $k$ be an algebraically closed extension of $k_0$, and

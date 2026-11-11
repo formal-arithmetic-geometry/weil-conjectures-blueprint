@@ -3,7 +3,6 @@ id = "theorem-smooth-purity-all-admissible-coefficients"
 kind = "theorem"
 title = "Smooth purity for all admissible coefficients"
 order = 731
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_smoothOrientation", "AlgebraicGeometry.ProEtale.CondensedRing.smoothOrientation"]
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-site-separably-closed", "definition-tate-twists", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-integral-models", "proposition-composition-open-restriction-compactifications-f", "proposition-six-operations-change-coefficients", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For every

@@ -5,6 +5,7 @@ title = "Reciprocal roots (1)"
 name_showing = false
 order = 1387001
 aliases = ["bp-r427-1"]
+lean = ["Polynomial.ordinary_reciprocal_roots"]
 +++
 A *reciprocal root* of a polynomial $P$ over a field is an element
 $\alpha$ of an algebraic closure such that $1-\alpha T$ divides $P$.

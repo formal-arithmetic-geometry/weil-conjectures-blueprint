@@ -3,7 +3,7 @@ id = "corollary-cup-product-pairing"
 kind = "corollary"
 title = "The cup product pairing"
 order = 872
-lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_poincarePairing", "FrobeniusModule.TraceCup.pairing_comm_of_eq_two_mul"]
+lean = ["FrobeniusModule.TraceCup.pairing_comm_of_eq_two_mul"]
 uses = ["lemma-stability"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension $d$, with

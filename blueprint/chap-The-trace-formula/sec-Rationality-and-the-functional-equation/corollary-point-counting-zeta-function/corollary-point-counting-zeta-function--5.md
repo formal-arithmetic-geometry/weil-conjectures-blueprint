@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Cohomological determinant product"
 order = 1040009
 aliases = ["bp-r318-5"]
-lean = ["TraceDatum.map_zetaSeries", "TraceDatum.zeta_mul_prod_even_eq_prod_odd"]
+lean = ["AlgebraicGeometry.WeilSheaf.map_zetaSeries_eq_inv_alternatingCharpolyRevProd"]
 uses = ["corollary-point-counting-zeta-function--3"]
 +++
 For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, in $\Lambda[[T]]$,

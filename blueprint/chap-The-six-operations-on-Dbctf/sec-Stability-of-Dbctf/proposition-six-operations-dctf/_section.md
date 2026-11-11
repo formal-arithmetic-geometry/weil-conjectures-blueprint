@@ -3,7 +3,7 @@ id = "proposition-six-operations-dctf"
 kind = "proposition"
 title = "The six operations on $\\Dctf$"
 order = 625
-lean = ["AlgebraicGeometry.Etale.boundedConstructible_preservation", "AlgebraicGeometry.Etale.constructibleFiniteTor_preservation", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_derivedHom_mapDerivedCategory"]
+lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_preservation", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_derivedHom_mapDerivedCategory"]
 uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "proposition-composition-open-restriction-compactifications-f", "definition-relative-dualizing-complex"]
 +++
 For every admissible $\Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$, the

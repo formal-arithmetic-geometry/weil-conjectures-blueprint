@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The degree-zero component and its rational points"
 order = 1552005
 aliases = ["bp-r483-3"]
-lean = ["AlgebraicGeometry.exists_jacobian"]
+lean = ["AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.exists_isJacobian"]
 uses = ["corollary-degree-jacobian--1"]
 +++
 Let $k$ and $C$ be as in

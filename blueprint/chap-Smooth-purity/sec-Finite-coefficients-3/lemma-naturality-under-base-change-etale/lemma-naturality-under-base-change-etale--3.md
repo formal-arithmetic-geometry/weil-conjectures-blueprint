@@ -5,6 +5,7 @@ title = "Naturality under base change and étale maps (3)"
 name_showing = false
 order = 752006
 aliases = ["bp-r227-3"]
+lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStar_mapIso_iso_sectionInvariant_normalCone"]
 +++
 Under these identifications and the exceptional base change
 isomorphisms of Proposition [proposition-exceptional-inverse-image-smooth-morphism](3), the

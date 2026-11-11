@@ -3,7 +3,7 @@ id = "lemma-external-duality-trace-morphism"
 kind = "lemma"
 title = "External duality"
 order = 911
-lean = ["AlgebraicGeometry.Etale.hasKunnethComparisons", "AlgebraicGeometry.Etale.nonempty_iso_kunnethVerdier"]
+lean = ["AlgebraicGeometry.Etale.hasKunnethComparisons"]
 uses = ["proposition-composition-open-restriction-compactifications-f", "definition-relative-dualizing-complex"]
 +++
 Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $p_1,p_2:X\times X\to X$ be the

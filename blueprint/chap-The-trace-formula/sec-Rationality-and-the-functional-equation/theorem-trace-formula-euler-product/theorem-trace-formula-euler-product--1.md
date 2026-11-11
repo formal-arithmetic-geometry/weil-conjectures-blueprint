@@ -5,7 +5,7 @@ title = "The trace formula as an Euler product (1)"
 name_showing = false
 order = 1037001
 aliases = ["bp-r317-1"]
-lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt"]
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAt", "AlgebraicGeometry.WeilSheaf.lSeries"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "theorem-grothendieck-lefschetz-trace-formula--6"]
 +++
 Let $X_0$ be separated and of finite type over $\mathbf F_q$, let

@@ -5,6 +5,7 @@ title = "Non-Noetherian compactifications (1)"
 name_showing = false
 order = 1417001
 aliases = ["bp-r438-1"]
+lean = ["AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.isDense_denseRefinement"]
 +++
 The same proof works for qcqs $\overline X$ whenever
 $\overline X\setminus Z$ is quasi-compact. For a non-Noetherian

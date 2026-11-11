@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Finite ring maps"
 order = 636002
 aliases = ["bp-r193-1"]
+lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarExtendScalarsMap_app"]
 +++
 If $\Lambda=A$, $\Lambda'=B$ for a homomorphism of finite admissible rings, then $(Rf_{*,\Lambda}K)_{\Lambda'}\longrightarrow Rf_{*,\Lambda'}(K_{\Lambda'})$ is an isomorphism in $D(Y_{\mathrm{pro}\acute{e}t},\Lambda')$.

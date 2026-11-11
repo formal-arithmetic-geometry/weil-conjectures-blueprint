@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Local Frobenius and purity"
 order = 1220014
 aliases = ["bp-r375-7"]
-lean = ["AlgebraicGeometry.AddChar.norm_map_apply_eq_one", "AlgebraicGeometry.WeilSheaf.exists_frobeniusEnd_stalk_artinSchreier"]
+lean = ["AlgebraicGeometry.AddChar.norm_map_apply_eq_one", "AlgebraicGeometry.WeilSheaf.exists_frobeniusEnd_stalk_artinSchreier", "AlgebraicGeometry.isPunctuallyPureOfWeight_artinSchreier"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "theorem-grothendieck-lefschetz-trace-formula--6", "definition-compactification-refinement--1"]
 +++
 For every $a\in k_0$ and every closed point $x$ of $\mathbf A^1_{k_0}$,

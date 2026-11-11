@@ -5,5 +5,6 @@ title = "The pro-étale site of a separably closed field (2)"
 name_showing = false
 order = 173003
 aliases = ["bp-r050-2"]
+lean = ["AlgebraicGeometry.ProEtale.isEquivalence_upperStarFromPoint", "AlgebraicGeometry.ProEtale.geometric_field_proetale_evaluation"]
 +++
 Consequently its topos is, up to a set-theoretic cutoff, the topos of condensed sets.

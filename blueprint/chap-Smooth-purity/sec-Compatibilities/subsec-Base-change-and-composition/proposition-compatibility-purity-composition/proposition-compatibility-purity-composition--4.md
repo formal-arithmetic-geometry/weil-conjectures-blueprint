@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Algebraically closed coefficients"
 order = 801008
 aliases = ["bp-r240-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.smoothOrientation_comp_openImmersion", "AlgebraicGeometry.ProEtale.CondensedRing.smoothPurityIso_comp_openImmersion"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$,
 the map $\gamma_{g\circ f}(K)$ of (9.2) is the composite

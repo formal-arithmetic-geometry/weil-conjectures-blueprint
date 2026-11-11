@@ -5,7 +5,7 @@ title = "Fourier inversion (2)"
 name_showing = false
 order = 1234003
 aliases = ["bp-r380-2"]
-lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_comp_self"]
+lean = ["AlgebraicGeometry.nonempty_iso_fourierTransform_comp_self", "AlgebraicGeometry.Etale.nonempty_iso_affineFourierTransform_comp_self"]
 +++
 $$
 \begin{aligned}

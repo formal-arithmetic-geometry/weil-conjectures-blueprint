@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Purity isomorphism: algebraically closed coefficients"
 order = 731008
 aliases = ["bp-r220-4"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.smoothOrientation", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_smoothOrientation"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$, the specified natural isomorphism is
 

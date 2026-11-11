@@ -5,6 +5,7 @@ title = "Specialization of the trace class (3)"
 name_showing = false
 order = 1689004
 aliases = ["bp-r523-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.TraceSpecialization.sp_traceClass_eq_traceClass"]
 +++
 Then
 

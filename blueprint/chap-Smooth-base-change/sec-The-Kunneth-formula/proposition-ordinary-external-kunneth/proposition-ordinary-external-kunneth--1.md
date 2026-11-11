@@ -5,6 +5,7 @@ title = "Ordinary external Künneth (1)"
 name_showing = false
 order = 720001
 aliases = ["bp-r217-1"]
+lean = ["AlgebraicGeometry.Etale.isIso_kunnethMap_of_isSepClosed", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_prodLowerStarExternalProduct"]
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of finite
 type, and let $M_i\in D^b_{\mathrm{ctf}}(X_i,A)$. Then the Künneth map

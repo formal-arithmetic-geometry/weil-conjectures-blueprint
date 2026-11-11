@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Frobenius of the Tate sheaf"
 order = 1073025
 aliases = ["bp-r329-13"]
-lean = ["AlgebraicGeometry.WeilSheaf.cyclotomicUnit_eq"]
+lean = ["AlgebraicGeometry.WeilSheaf.cyclotomicUnit_eq", "AlgebraicGeometry.WeilSheaf.stalk_frobenius_tateTwistSheaf"]
 +++
 The scalar by which geometric Frobenius acts on the cyclotomic Tate
 module is $q^{-1}$ in $\overline{\mathbf Q}_\ell^\times$.

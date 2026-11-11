@@ -5,6 +5,7 @@ title = "Additivity of trace classes (1)"
 name_showing = false
 order = 943002
 aliases = ["bp-r287-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.traceClass_eq_add_of_distTriang"]
 +++
 Let $\mathcal K$ be a finitely filtered complex on $X$ with
 underlying complex $K$ and graded pieces $K_a$ in $D^b_{\mathrm{ctf}}(X,A)$, and let

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Zariski locality on the target"
 order = 32008
 aliases = ["bp-r003-4"]
-lean = ["AlgebraicGeometry.WeaklyEtale.hasRingHomProperty"]
+lean = ["AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtTarget"]
 uses = ["definition-ind-etale-pro-etale-weakly--3"]
 +++
 Let $f:U\to X$ be a morphism of schemes and let $X=\bigcup_iX_i$

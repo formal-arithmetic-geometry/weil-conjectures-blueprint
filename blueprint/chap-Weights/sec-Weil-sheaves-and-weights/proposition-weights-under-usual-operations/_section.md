@@ -3,7 +3,6 @@ id = "proposition-weights-under-usual-operations"
 kind = "proposition"
 title = "Weights under the usual operations"
 order = 1073
-lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.dual", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.tateTwist", "AlgebraicGeometry.WeilSheaf.IsMixed.of_epi"]
 uses = ["lemma-stability", "proposition-six-operations-change-coefficients"]
 +++
 Extensions of mixed sheaves are mixed, and an extension of two sheaves with a common upper bound has the same

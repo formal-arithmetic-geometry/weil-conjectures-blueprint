@@ -3,7 +3,7 @@ id = "lemma-finite-quasi-finite-direct-images"
 kind = "lemma"
 title = "Finite and quasi-finite direct images"
 order = 1324
-lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_locallyQuasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite"]
+lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_locallyQuasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite"]
 uses = ["lemma-stability", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $g:Z_0\to Y_0$ be separated and quasi-finite. Then $Rg_!$ is

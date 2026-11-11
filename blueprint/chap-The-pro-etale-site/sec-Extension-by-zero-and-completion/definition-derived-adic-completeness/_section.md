@@ -3,7 +3,7 @@ id = "definition-derived-adic-completeness"
 kind = "definition"
 title = "Derived adic completeness"
 order = 208
-lean = ["AlgebraicGeometry.ProEtale.AdicCompletion.isDerivedComplete_iff"]
+lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-affines-form-basis"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let

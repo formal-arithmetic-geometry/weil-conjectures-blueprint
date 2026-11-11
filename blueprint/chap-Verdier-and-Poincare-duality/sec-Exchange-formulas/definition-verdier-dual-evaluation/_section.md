@@ -3,7 +3,6 @@ id = "definition-verdier-dual-evaluation"
 kind = "definition"
 title = "Verdier dual and evaluation"
 order = 828
-lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.CondensedRing.dualizingComplex"]
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-integral-models", "proposition-composition-open-restriction-compactifications-f", "proposition-six-operations-change-coefficients", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The *dualizing complex* and the *Verdier dual* are

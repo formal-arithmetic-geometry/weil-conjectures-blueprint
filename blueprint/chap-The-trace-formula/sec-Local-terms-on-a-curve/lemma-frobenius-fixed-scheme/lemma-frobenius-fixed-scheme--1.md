@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Description of the fixed scheme"
 order = 960002
 aliases = ["bp-r292-1"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.fixedPointEquiv", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.nonempty_isLimit_fixedPointsFork"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.fixedPointEquiv", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.nonempty_isLimit_fixedPointsFork", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isoSigmaPointFixedFieldPoints"]
 uses = ["definition-frobenius-correspondences-their-operators--1"]
 +++
 Let $k_0=\Fq$, let $k$ be an algebraically closed extension of $k_0$, and

@@ -3,7 +3,7 @@ id = "lemma-cohomology-projective-line-trace"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace"
 order = 546
-lean = ["AlgebraicGeometry.ProEtale.geoP1Cohomology", "AlgebraicGeometry.ProEtale.geoP1DecompositionMap", "AlgebraicGeometry.ProEtale.geoP1Trace"]
+lean = ["AlgebraicGeometry.Etale.isIso_projectiveLineDecompositionMap", "AlgebraicGeometry.Etale.projectiveLineDecompositionMap_baseChange", "AlgebraicGeometry.Etale.projectiveLineTrace", "AlgebraicGeometry.Etale.projectiveLineTrace_baseChange"]
 uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "lemma-class-diagonal-projective-line", "proposition-six-operations-change-coefficients", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h", "corollary-degree-jacobian"]
 +++
 Let $\Lambda$ be a finite commutative $\ell$-primary ring, let $S$ be a

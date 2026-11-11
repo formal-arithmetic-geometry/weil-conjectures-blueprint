@@ -3,7 +3,7 @@ id = "proposition-pro-etale-affines-form-basis"
 kind = "proposition"
 title = "Pro-étale affines form a basis"
 order = 66
-lean = ["AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt"]
+lean = ["AlgebraicGeometry.Scheme.AffineProEt", "AlgebraicGeometry.Scheme.AffineProEt.instFaithfulProEtToProEt", "AlgebraicGeometry.Scheme.AffineProEt.instFullProEtToProEt", "AlgebraicGeometry.Scheme.AffineProEt.toProEt"]
 uses = ["proposition-etale-implications", "lemma-stability"]
 +++
 Every object of $X_{\mathrm{pro}\acute{e}t}$ has a pro-étale covering by

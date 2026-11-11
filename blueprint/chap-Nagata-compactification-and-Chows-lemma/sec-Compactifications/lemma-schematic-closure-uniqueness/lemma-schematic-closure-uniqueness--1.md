@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Schematic density in the image"
 order = 1409001
 aliases = ["bp-r435-1"]
-lean = ["AlgebraicGeometry.Scheme.Hom.ker_toImage"]
+lean = ["AlgebraicGeometry.Scheme.Hom.ker_toImage", "AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact"]
 +++
 Let $i:U\to T$ be a quasi-compact morphism, and write
 $U\xrightarrow{j}\overline U\xrightarrow{k}T$ for its factorization through

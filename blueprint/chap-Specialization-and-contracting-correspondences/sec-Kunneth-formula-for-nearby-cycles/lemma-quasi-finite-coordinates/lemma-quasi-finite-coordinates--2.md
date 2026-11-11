@@ -5,6 +5,7 @@ title = "Quasi-finite coordinates (2)"
 name_showing = false
 order = 1656003
 aliases = ["bp-r513-2"]
+lean = ["AlgebraicGeometry.topologicalKrullDim_pullback_le_of_chart"]
 +++
 In particular
 $\dim V_{\bar\eta}\leq q$.

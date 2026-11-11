@@ -4,7 +4,6 @@ kind = "remark"
 title = "Non-Noetherian compactifications"
 name_showing = false
 order = 1417
-lean = ["AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.isDense_denseRefinement"]
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 The same proof works for qcqs $\overline X$ whenever

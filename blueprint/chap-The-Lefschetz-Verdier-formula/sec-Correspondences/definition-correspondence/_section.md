@@ -3,7 +3,6 @@ id = "definition-correspondence"
 kind = "definition"
 title = "Correspondences"
 order = 904
-lean = ["AlgebraicGeometry.Etale.CohomologicalCorrespondence", "AlgebraicGeometry.Etale.CohomologicalCorrespondence.fixedScheme", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus"]
 uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "proposition-composition-open-restriction-compactifications-f", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X$ be a separated $k$-scheme of finite type. A *correspondence*

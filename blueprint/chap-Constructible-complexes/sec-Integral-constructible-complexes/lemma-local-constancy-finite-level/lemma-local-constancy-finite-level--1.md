@@ -5,6 +5,7 @@ title = "Locally constant perfect complexes (1)"
 name_showing = false
 order = 238001
 aliases = ["bp-r070-1"]
+lean = ["AlgebraicGeometry.Scheme.coefficient_connected_stalk_constant"]
 +++
 Let $S$ be a connected Noetherian scheme, let $A$ be a finite local ring,
 and let $L\in D^b(S_{\acute{e}t},A)$ have finite Tor amplitude and cohomology

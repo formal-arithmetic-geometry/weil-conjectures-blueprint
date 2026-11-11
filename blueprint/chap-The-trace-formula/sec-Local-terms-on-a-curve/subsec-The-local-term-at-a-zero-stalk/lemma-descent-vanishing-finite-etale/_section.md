@@ -3,6 +3,7 @@ id = "lemma-descent-vanishing-finite-etale"
 kind = "lemma"
 title = "Descent of vanishing along a finite étale cover"
 order = 987
+lean = ["AlgebraicGeometry.Etale.exists_rightDerivedPullback_app_comp_eq_id", "AlgebraicGeometry.Etale.eq_zero_of_comp_rightDerivedPullback_app_eq_zero"]
 +++
 Let $f:W'\to W$ be a finite étale morphism of schemes of constant degree
 $n$, with $n$ invertible in $A$, and let $L\in D(W_{\acute{e}t},A)$. Then the

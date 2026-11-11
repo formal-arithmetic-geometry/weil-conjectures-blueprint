@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Closure under kernels"
 order = 268002
 aliases = ["bp-r080-1"]
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_closure"]
 +++
 Let $X$ be a Noetherian scheme and let $\Lambda=E$ or
 $\overline{\mathbf Q}_\ell$, where $E/\mathbf Q_\ell$ is finite and the

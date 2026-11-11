@@ -5,7 +5,7 @@ title = "Finite direct images of constant sheaves (1)"
 name_showing = false
 order = 712001
 aliases = ["bp-r214-1"]
-lean = ["AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap_lowerStar_unit", "AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap_rightDerivedLowerStar_unit"]
+lean = ["AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap_lowerStar_unit"]
 +++
 In the situation of (8.4), let $Q$ be a finite
 direct sum of sheaves $\pi_*A_{T'}$ with $\pi:T'\to T$ finite. Then the

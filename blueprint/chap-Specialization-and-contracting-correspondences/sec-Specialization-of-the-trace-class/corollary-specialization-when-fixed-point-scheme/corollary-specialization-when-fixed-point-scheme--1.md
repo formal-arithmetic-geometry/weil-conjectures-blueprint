@@ -5,6 +5,7 @@ title = "Specialization when the fixed point scheme is a constant family (1)"
 name_showing = false
 order = 1698001
 aliases = ["bp-r526-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.IsContractingAt.integral_sp_eq_map_integral_restrict"]
 +++
 If $F_{\mathrm{red}}=Y\times S$, with $Y$ separated
 and of finite type over $k$, then the specialization $\operatorname{sp}_F$ of

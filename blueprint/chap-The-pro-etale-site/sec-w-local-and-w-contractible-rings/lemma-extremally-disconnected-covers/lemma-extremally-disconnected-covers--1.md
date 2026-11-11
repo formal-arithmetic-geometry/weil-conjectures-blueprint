@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Extremally disconnected cover"
 order = 53002
 aliases = ["bp-r011-1"]
-lean = ["CompHaus.projectivePresentation"]
+lean = ["CompHaus.presentation", "CompHaus.presentation.epi_π", "CompHaus.presentation.π", "CompHaus.projectivePresentation"]
 +++
 Every compact Hausdorff space $T$ admits a continuous surjection
 $S\to T$ with $S$ compact Hausdorff and extremally disconnected.

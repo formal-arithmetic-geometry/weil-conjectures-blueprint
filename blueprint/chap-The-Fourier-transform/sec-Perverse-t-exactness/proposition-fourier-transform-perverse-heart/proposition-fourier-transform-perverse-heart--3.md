@@ -5,6 +5,7 @@ title = "Fourier transform and the perverse heart (3)"
 name_showing = false
 order = 1263005
 aliases = ["bp-r390-3"]
+lean = ["AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 +++
 and its canonical Frobenius
 compatibilities induce an exact equivalence of the categories of

@@ -5,6 +5,7 @@ title = "Perfect complexes over $\\mathcal O_E$ (1)"
 name_showing = false
 order = 231001
 aliases = ["bp-r068-1"]
+lean = ["Padic.integral_scalar_tower_lift"]
 +++
 For $n\ge1$ let $M_n\in D(\mathcal O_E/\pi_E^n)$ be perfect, with
 maps $M_{n+1}\to M_n$ inducing isomorphisms

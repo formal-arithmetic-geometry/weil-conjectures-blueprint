@@ -3,7 +3,7 @@ id = "proposition-topos-functoriality"
 kind = "proposition"
 title = "The topos and its functoriality"
 order = 39
-lean = ["AlgebraicGeometry.ProEtale.toposFunctorialityInverseImage", "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology"]
+lean = ["AlgebraicGeometry.ProEtale.toposFunctorialityInverseImage"]
 uses = ["lemma-stability"]
 +++
 The above coverings define a subcanonical site. Its category of sheaves

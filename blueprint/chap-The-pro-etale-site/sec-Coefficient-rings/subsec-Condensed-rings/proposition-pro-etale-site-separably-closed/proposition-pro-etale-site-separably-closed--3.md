@@ -5,7 +5,7 @@ title = "The pro-étale site of a separably closed field (3)"
 name_showing = false
 order = 173005
 aliases = ["bp-r050-3"]
-lean = ["AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf", "Profinite.continuousMapRingSheaf"]
+lean = ["AlgebraicGeometry.ProEtale.constantSheafIsoContinuousSheaf", "AlgebraicGeometry.ProEtale.constantSheafIsoContinuousMapAddSheaf", "Profinite.continuousMapRingSheaf"]
 uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $X$ be a scheme and $A$ a discrete abelian group. The constant

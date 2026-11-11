@@ -3,7 +3,6 @@ id = "proposition-isomorphisms-reduce-finite-coefficients"
 kind = "proposition"
 title = "Isomorphisms reduce to finite coefficients"
 order = 654
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_of_isIso_etaleReduction_map"]
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++
 For each admissible $\Lambda$ let

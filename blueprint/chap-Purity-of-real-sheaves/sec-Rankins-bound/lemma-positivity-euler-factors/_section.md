@@ -3,7 +3,7 @@ id = "lemma-positivity-euler-factors"
 kind = "lemma"
 title = "Positivity of Euler factors"
 order = 1158
-lean = ["AlgebraicGeometry.WeilSheaf.IsReal.inv_localPolynomial_stalk_tensorPow_nonneg", "AlgebraicGeometry.WeilGroup.IsReal.hasNonnegCoeffs_eulerFactor_tensorPower"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsReal.inv_localPolynomial_stalk_tensorPow_nonneg"]
 uses = ["lemma-stability", "proposition-six-operations-change-coefficients"]
 +++
 Let $\mathcal G$ be an $\iota$-real Weil sheaf, let $m\ge1$, and let

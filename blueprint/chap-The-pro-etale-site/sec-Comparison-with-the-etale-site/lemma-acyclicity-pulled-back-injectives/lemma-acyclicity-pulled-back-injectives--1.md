@@ -5,7 +5,7 @@ title = "Acyclicity of pulled-back injectives (1)"
 name_showing = false
 order = 120001
 aliases = ["bp-r034-1"]
-lean = ["AlgebraicGeometry.ProEtale.isZero_rightDerived_globalSectionsFunctor_comparisonUpperStar"]
+lean = ["AlgebraicGeometry.ProEtale.rightAcyclic_comparisonUpperStar_obj_of_injective"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 If $I$ is an injective sheaf of $\Lambda$-modules on $X_{\acute{e}t}$, then

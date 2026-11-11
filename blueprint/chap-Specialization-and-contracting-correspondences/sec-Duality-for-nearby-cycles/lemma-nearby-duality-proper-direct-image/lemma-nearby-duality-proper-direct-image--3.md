@@ -5,6 +5,7 @@ title = "Duality for nearby cycles and proper direct image (3)"
 name_showing = false
 order = 1678005
 aliases = ["bp-r520-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.pushforwardExchange_comp_lowerStar_map_nearbyDualityMap", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_lowerStar_nearbyDualityMap_of_isProper"]
 +++
 If
 $X$ is proper over $S$, then under global Verdier duality on both fibres

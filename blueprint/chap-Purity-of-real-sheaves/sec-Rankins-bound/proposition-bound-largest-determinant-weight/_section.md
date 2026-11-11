@@ -3,7 +3,7 @@ id = "proposition-bound-largest-determinant-weight"
 kind = "proposition"
 title = "A bound by the largest determinant weight"
 order = 1165
-lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal", "AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal"]
+lean = ["AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal"]
 uses = ["definition-weil-representation"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected affine curve

@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exceptional inverse image: inverting the uniformizer"
 order = 641010
 aliases = ["bp-r195-5"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleUpperShriekExtendScalars"]
 +++
 Let $E\subset\overline{\mathbf Q}_\ell$ be finite over $\mathbf Q_\ell$,
 and take $\Lambda=\mathcal O_E$ and $\Lambda'=E$. For every

@@ -3,7 +3,6 @@ id = "corollary-point-counting-zeta-function"
 kind = "corollary"
 title = "Point counting and the zeta function"
 order = 1040
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilPointCount"]
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-integral-models", "proposition-six-operations-change-coefficients", "lemma-additivity-open-subscheme-complement", "definition-trace-function"]
 +++
 Give $\Lambda_X$ the Weil structure of constant sheaves defined after

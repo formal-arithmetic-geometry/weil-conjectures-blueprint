@@ -5,7 +5,7 @@ title = "Chow's lemma, projective form (2)"
 name_showing = false
 order = 1471003
 aliases = ["bp-r457-2"]
-lean = ["AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
+lean = ["AlgebraicGeometry.chow_relative_ample_geometric", "AlgebraicGeometry.chow_relative_ample"]
 +++
 Moreover,
 

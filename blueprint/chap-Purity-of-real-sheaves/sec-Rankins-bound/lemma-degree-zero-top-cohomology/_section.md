@@ -3,7 +3,7 @@ id = "lemma-degree-zero-top-cohomology"
 kind = "lemma"
 title = "Degree zero and top cohomology"
 order = 1153
-lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilGroup.exists_globalSections_linearEquiv_invariants", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeightOver_compactlySupportedCohomology_two"]
+lean = ["AlgebraicGeometry.WeilGroup.exists_globalSections_linearEquiv_invariants"]
 uses = ["lemma-stability", "definition-weil-representation", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected curve, let

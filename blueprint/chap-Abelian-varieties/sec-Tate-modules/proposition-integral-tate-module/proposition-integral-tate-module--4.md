@@ -5,6 +5,7 @@ title = "The integral Tate module (4)"
 name_showing = false
 order = 1512007
 aliases = ["bp-r471-4"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.galoisRepresentation", "AlgebraicGeometry.IsAbelianVariety.geometricPointsAddEquiv"]
 +++
 The groups $A[\ell^n](\bar k)$, the transition maps and the projections
 from $T_\ell A$ are $\operatorname{Gal}(\bar k/k)$-equivariant, and they

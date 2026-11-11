@@ -5,7 +5,7 @@ title = "Smooth base change for classical torsion complexes (1)"
 name_showing = false
 order = 694001
 aliases = ["bp-r208-1"]
-lean = ["AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth_of_isTorsionSheafOfInvertibleOrder"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_smooth_of_torsion", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth_of_isTorsionSheafOfInvertibleOrder", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth"]
 uses = ["definition-derived-base-change-map--1"]
 +++
 In (8.1), let $g$ be smooth and $f$ quasi-compact and

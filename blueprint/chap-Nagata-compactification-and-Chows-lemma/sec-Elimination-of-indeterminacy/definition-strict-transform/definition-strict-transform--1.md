@@ -5,7 +5,7 @@ title = "Strict transform (1)"
 name_showing = false
 order = 1431001
 aliases = ["bp-r444-1"]
-lean = ["AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι", "AlgebraicGeometry.ker_strictTransformι"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι", "AlgebraicGeometry.ker_strictTransformι", "AlgebraicGeometry.strictTransform"]
 uses = ["definition-admissible-blow-up--1"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of

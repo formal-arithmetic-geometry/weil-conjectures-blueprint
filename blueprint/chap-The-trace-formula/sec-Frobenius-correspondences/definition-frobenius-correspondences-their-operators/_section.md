@@ -3,7 +3,6 @@ id = "definition-frobenius-correspondences-their-operators"
 kind = "definition"
 title = "Frobenius correspondences and their operators"
 order = 952
-lean = ["AlgebraicGeometry.ProEtale.stalkFrobenius", "AlgebraicGeometry.ProEtale.weilDatumIterate"]
 uses = ["lemma-stability"]
 +++
 Let $X_0/k_0$ be separated and of finite type, and put

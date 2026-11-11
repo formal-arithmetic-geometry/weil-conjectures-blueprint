@@ -4,6 +4,6 @@ kind = "lemma"
 title = "Tor bound for the reductions"
 order = 228004
 aliases = ["bp-r067-2"]
-lean = ["AlgebraicGeometry.ProEtale.integral_finite_residue_tor"]
+lean = ["AlgebraicGeometry.ProEtale.integral_finite_levels"]
 +++
 Every $K_n$ has Tor amplitude in $[a,b]$.

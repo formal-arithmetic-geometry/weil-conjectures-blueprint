@@ -5,7 +5,7 @@ title = "Base change for the cone of $\\tau_{X,Z}$ (4)"
 name_showing = false
 order = 1635007
 aliases = ["bp-r506-4"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_iso_finiteCoefficient"]
 +++
 Consequently, writing $j:X\setminus Z\hookrightarrow X$, we have
 

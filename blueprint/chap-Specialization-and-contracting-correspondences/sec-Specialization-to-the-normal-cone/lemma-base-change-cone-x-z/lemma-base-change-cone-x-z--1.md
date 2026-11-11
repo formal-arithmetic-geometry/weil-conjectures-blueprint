@@ -5,7 +5,7 @@ title = "Base change for the cone of $\\tau_{X,Z}$ (1)"
 name_showing = false
 order = 1635001
 aliases = ["bp-r506-1"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso_finiteCoefficient"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,
 let $Z'=f^{-1}Z$ schematically, and let $f_Z:Z'\to Z$ be the

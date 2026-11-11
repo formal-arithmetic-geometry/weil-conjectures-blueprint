@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Local weights of a rank-one character"
 order = 1110001
 aliases = ["bp-r339-1"]
-lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_continuous"]
+lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_continuous", "AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one", "AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_deg_eq_one"]
 +++
 Let $U_0/\Fq$ be a smooth geometrically connected curve, put
 $U=U_0\times_{\Fq}\Fbar$, and fix a prime $\ell\nmid q$ and an embedding

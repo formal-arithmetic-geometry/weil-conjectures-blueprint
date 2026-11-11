@@ -3,7 +3,6 @@ id = "definition-strict-transform"
 kind = "definition"
 title = "Strict transform"
 order = 1431
-lean = ["AlgebraicGeometry.strictTransform"]
 uses = ["lemma-schematic-closure-uniqueness"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of
