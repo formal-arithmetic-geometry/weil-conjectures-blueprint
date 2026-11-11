@@ -5,7 +5,6 @@ title = "The squaring map (2)"
 name_showing = false
 order = 1027002
 aliases = ["bp-r314-2"]
-lean = ["AlgebraicGeometry.WeilComplex.traceFunction_derivedLowerShriek_squaring", "AlgebraicGeometry.WeilComplex.finsum_traceFunction_derivedLowerShriek_squaring", "sum_one_add_quadraticChar"]
 +++
 Hence
 

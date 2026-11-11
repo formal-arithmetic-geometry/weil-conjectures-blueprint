@@ -1,6 +1,6 @@
 +++
 id = "lemma-finiteness-small-etale-topoi--1"
-kind = "remark"
+kind = "lemma"
 title = "Filtered presentation"
 order = 369002
 aliases = ["bp-r112-1"]

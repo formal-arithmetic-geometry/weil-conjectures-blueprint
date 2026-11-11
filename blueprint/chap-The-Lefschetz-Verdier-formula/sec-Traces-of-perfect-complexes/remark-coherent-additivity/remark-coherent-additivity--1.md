@@ -5,7 +5,6 @@ title = "Additivity needs a filtered endomorphism (1)"
 name_showing = false
 order = 899001
 aliases = ["bp-r271-1"]
-lean = ["DerivedCategory.exists_triangle_endomorphism_trace_ne_add"]
 +++
 The coherence condition is needed over a general ring: three
 endomorphisms of a distinguished triangle whose squares commute only in

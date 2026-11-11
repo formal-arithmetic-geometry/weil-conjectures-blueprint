@@ -1,6 +1,6 @@
 +++
 id = "theorem-finite-etale-covers-proper-henselian--2"
-kind = "remark"
+kind = "theorem"
 title = "Lifting finite covers"
 order = 357001
 aliases = ["bp-r108-2"]

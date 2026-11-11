@@ -1,6 +1,6 @@
 +++
 id = "lemma-finiteness-small-etale-topoi--2"
-kind = "remark"
+kind = "lemma"
 title = "Continuity of cohomology"
 order = 369003
 aliases = ["bp-r112-2"]

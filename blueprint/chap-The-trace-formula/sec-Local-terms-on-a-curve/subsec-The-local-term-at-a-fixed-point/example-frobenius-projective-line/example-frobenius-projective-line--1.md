@@ -5,7 +5,6 @@ title = "Frobenius on the projective line (1)"
 name_showing = false
 order = 997001
 aliases = ["bp-r304-1"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.projectiveLine_weilTraceFormula", "AlgebraicGeometry.projectiveLine_frobenius_trace_formula"]
 +++
 Let $X=\mathbf P^1_k$, $K=A_X$, and let $\psi$ be the constant Frobenius
 correspondence, so that $\psi_m$ is the identity on every stalk. Both sides of

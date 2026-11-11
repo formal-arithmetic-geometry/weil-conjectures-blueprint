@@ -5,7 +5,6 @@ title = "Squaring on the line (1)"
 name_showing = false
 order = 1704001
 aliases = ["bp-r528-1"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.isContractingAt_ofGraph_squaring", "Polynomial.span_X_sq_sub_X_eq_inf", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_squaringFixedLocus"]
 +++
 Let $X=C=\mathbf A^1=\operatorname{Spec}k[x]$, let $Z$ be the origin,
 with $I=(x)$, and let $c_1=\mathrm{id}$ and $c_2(x)=x^2$, so that

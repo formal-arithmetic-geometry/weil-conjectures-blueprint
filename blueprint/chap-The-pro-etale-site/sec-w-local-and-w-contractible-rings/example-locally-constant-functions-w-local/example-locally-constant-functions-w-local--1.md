@@ -1,6 +1,6 @@
 +++
 id = "example-locally-constant-functions-w-local--1"
-kind = "example"
+kind = "lemma"
 title = "Finite quotients and the spectrum"
 order = 48001
 aliases = ["bp-r009-1"]

@@ -5,7 +5,7 @@ title = "Base change along a product projection (1)"
 name_showing = false
 order = 707001
 aliases = ["bp-r212-1"]
-lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_field", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_prodMap"]
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_field"]
 +++
 Let $f:X\to Y$ be a morphism of separated $k$-schemes of finite type,
 let $T$ be a separated $k$-scheme of finite type, and let

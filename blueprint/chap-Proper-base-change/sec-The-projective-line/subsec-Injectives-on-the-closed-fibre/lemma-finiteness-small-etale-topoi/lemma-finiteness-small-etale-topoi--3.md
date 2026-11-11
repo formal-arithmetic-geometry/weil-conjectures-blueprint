@@ -1,6 +1,6 @@
 +++
 id = "lemma-finiteness-small-etale-topoi--3"
-kind = "remark"
+kind = "lemma"
 title = "Finite embedding"
 order = 369004
 aliases = ["bp-r112-3"]

@@ -1,6 +1,6 @@
 +++
 id = "theorem-results-from-etale-theory--1"
-kind = "remark"
+kind = "theorem"
 title = "Proper base change"
 order = 537002
 aliases = ["bp-r162-1"]

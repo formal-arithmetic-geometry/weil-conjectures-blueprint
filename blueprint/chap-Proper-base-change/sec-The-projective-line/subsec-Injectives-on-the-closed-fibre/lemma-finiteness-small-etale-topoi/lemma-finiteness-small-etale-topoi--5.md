@@ -1,6 +1,6 @@
 +++
 id = "lemma-finiteness-small-etale-topoi--5"
-kind = "remark"
+kind = "lemma"
 title = "Finite base change"
 order = 369006
 aliases = ["bp-r112-5"]

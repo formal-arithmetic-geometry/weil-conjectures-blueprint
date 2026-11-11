@@ -1620,7 +1620,7 @@ is such a family indexed by an extremally disconnected profinite set.
 
 \label{example-locally-constant-functions-w-local}
 
-\begin{bpexample}[Finite quotients and the spectrum]
+\begin{bplemma}[Finite quotients and the spectrum]
 \label{bp-r009-1}
 Let $A$ be a commutative ring and let $S$ be a compact topological
 space. The finite discrete quotients $Q$ of $S$, ordered by refinement,
@@ -1676,7 +1676,7 @@ is closed and is its own component, so $R$ is w-local with
 $\pi_0(\operatorname{Spec}(R))=S$. The local ring at $s$ is the colimit
 of the local rings $k'$ of the $k'^{\,S_i}$ at the image of $s$, that is,
 $k'$, which is strictly henselian.
-\end{bpexample}
+\end{bplemma}
 
 \begin{bpexample}[Source clause 2]
 \label{bp-r009-2}
@@ -9549,11 +9549,11 @@ it on stalks.
 
 From Definition~\ref{definition-torsion-pbc-property} on, we fix the
 coefficient ring. Integral and rational coefficients are treated in \S\ref{section-pbc-adic}.
-\BPSource{Remark}{092}{1}{}
+\BPSource{Lemma}{092}{1}{}
 
 \label{remark-cohomology-modules-underlying-abelian}
 
-\begin{bpremark}[Source clause 1]
+\begin{bplemma}[Source clause 1]
 \label{bp-r092-1}
 Results for abelian sheaves apply to sheaves of modules, because the
 cohomology of a sheaf of $\Lambda$-modules agrees with the cohomology
@@ -9563,7 +9563,7 @@ every object of the site, although it need not be injective as an
 abelian sheaf. Applying this to the \'etale objects over the target
 gives the same compatibility for $R^qu_*$. Bounded below resolutions
 then give it for $Ru_*$.
-\end{bpremark}
+\end{bplemma}
 
 \BPEndSource{092}
 
@@ -10430,7 +10430,7 @@ its closed fibre. Besides the comparison in degree zero of
 Theorem~\ref{theorem-comparison-over-henselian-pair-degree}, the proof
 uses two facts about henselian pairs.
 
-\BPSource{Remark}{108}{3}{}
+\BPSource{Theorem}{108}{3}{}
 
 \label{remark-henselian-pairs-facts}
 
@@ -10438,7 +10438,7 @@ uses two facts about henselian pairs.
 \begin{enumerate}[label=(\roman*)]
 \item
 
-\begin{bpremark}[Henselian-pair cohomology]
+\begin{bptheorem}[Henselian-pair cohomology]
 \label{bp-r108-1}
 \emph{Gabber's affine analogue of proper base change.}
 If $(B,J)$ is a henselian pair and $G$ is a torsion abelian sheaf on
@@ -10450,10 +10450,10 @@ $\operatorname{Spec}(B)_{\et}$, restriction induces
  \qquad(q\geq0).
 \]
 This is \stacks{09ZI}, and its proof is an effacement argument on affines.
-\end{bpremark}
+\end{bptheorem}
 \item
 
-\begin{bpremark}[Lifting finite covers]
+\begin{bptheorem}[Lifting finite covers]
 \label{bp-r108-2}
 \emph{Lifting finite \'etale covers over a proper henselian pair.}
 Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and let
@@ -10469,9 +10469,9 @@ Base change along $i$ is an equivalence between the categories of finite
 
 This is \stacks{0GS2}, proved by algebraization, approximation, and
 descent of finite presentation.
-\end{bpremark}
+\end{bptheorem}
 
-\begin{bpremark}[Finite torsors]
+\begin{bptheorem}[Finite torsors]
 \label{bp-r108-3}
 Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and let
 $i:Y_0\to Y$ be the closed fibre over $B/J$. For every finite abelian
@@ -10488,7 +10488,7 @@ $i^*\underline M\simeq\underline M$.
 Indeed, these groups classify $M$-torsors, and the equivalence of
 clause~\ref{bp-r108-2} transports finite \'etale covers, their group
 actions, and the equations expressing simple transitivity.
-\end{bpremark}
+\end{bptheorem}
 \end{enumerate}
 
 \BPEndSource{108}
@@ -10719,7 +10719,7 @@ and embed these into direct images along finite morphisms, using three
 standard finiteness facts about small \'etale topoi of quasi-compact
 quasi-separated schemes.
 
-\BPSource{Remark}{112}{5}{}
+\BPSource{Lemma}{112}{5}{}
 
 \label{remark-finiteness-small-etale-topoi}
 
@@ -10727,18 +10727,18 @@ quasi-separated schemes.
 \begin{enumerate}
 \item
 
-\begin{bpremark}[Filtered presentation]
+\begin{bplemma}[Filtered presentation]
 \label{bp-r112-1}
 A sheaf of $\mathbf F_\ell$-modules is a filtered colimit of constructible ones \stacks{03SA}.
-\end{bpremark}
+\end{bplemma}
 
-\begin{bpremark}[Continuity of cohomology]
+\begin{bplemma}[Continuity of cohomology]
 \label{bp-r112-2}
 Cohomology commutes with filtered colimits \stacks{03Q5}.
-\end{bpremark}
+\end{bplemma}
 \item
 
-\begin{bpremark}[Finite embedding]
+\begin{bplemma}[Finite embedding]
 \label{bp-r112-3}
 A constructible sheaf $G$ of $\mathbf F_\ell$-modules on
   $\mathbf P^1_{R,\et}$ admits a monomorphism
@@ -10749,21 +10749,21 @@ A constructible sheaf $G$ of $\mathbf F_\ell$-modules on
  \label{equation-constructible-finite-embedding}
 \end{equation}
   with $M_a$ finite $\mathbf F_\ell$-modules \stacks{09Z7}.
-\end{bpremark}
+\end{bplemma}
 \item
 
-\begin{bpremark}[Higher direct-image vanishing]
+\begin{bplemma}[Higher direct-image vanishing]
 \label{bp-r112-4}
 For a finite $h:Y\to\mathbf P^1_R$ and an abelian sheaf $G$ on $Y_{\et}$,
 \begin{equation}\label{equation-finite-direct-image-used}
  R^qh_*G=0\quad(q>0).
 \end{equation}
-\end{bpremark}
+\end{bplemma}
 
-\begin{bpremark}[Finite base change]
+\begin{bplemma}[Finite base change]
 \label{bp-r112-5}
 For the same $h,G$, let $h_0:Y_0=Y\times_{\mathbf P^1_R}\mathbf P^1_\kappa\to\mathbf P^1_\kappa$ and $i_Y:Y_0\to Y$ be the base changes of $h,i$. The underived map \eqref{equation-underived-exchange} is an isomorphism $i^*h_*G\xrightarrow{\sim}(h_0)_*i_Y^*G$.
-\end{bpremark}
+\end{bplemma}
 \end{enumerate}
 
 \BPEndSource{112}
@@ -15712,7 +15712,7 @@ $X$. They are unique because, for an open immersion $j:X\to Z$, the functor
 $j_!$ is left adjoint to $j^*$ on the pro-\'etale derived categories, so
 that a map out of $j_!K$ is determined by its restriction to $X$.
 
-\BPSource{Proposition}{155}{8}{Construction and independence of $Rf_!$}
+\BPSource{Proposition}{155}{9}{Construction and independence of $Rf_!$}
 
 \label{proposition-construction-independence-rf-shriek}
 
@@ -15871,6 +15871,16 @@ The refinement comparisons in the proof of clause~\ref{bp-r155-7} are characteri
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-109]{reference proof 109}\,(p.~\pageref{bp-proof-109}).}\par
 
 
+\begin{bpproposition}[Independence on $\Dctf$ for $\ell$-adic coefficients]
+\label{bp-r155-9}
+Let $\Lambda\in\{\mathcal O_E,E,\Qbar\}$. For two compactifications of $f$, the isomorphism of clause~\ref{bp-r155-7} between the corresponding functors $Rf_{!,\Lambda}$ restricts to an isomorphism between their restrictions $\Dctf(X_{\proet},\Lambda)\to\Dctf(Y_{\proet},\Lambda)$.
+\end{bpproposition}
+\noindent{\small\textit{Dependencies:} \ref{bp-r155-4}, \ref{bp-r155-5}, \ref{bp-r155-6}, \ref{bp-r155-7}.}\par
+\BPProofAnchor{bp-clause-proof-r155-9}
+\begin{proof}[Proof of clause~\ref{bp-r155-9}]
+Both functors map $\Dctf$ into $\Dctf$ by clauses~\ref{bp-r155-4}, \ref{bp-r155-5} and~\ref{bp-r155-6} (and $u^*$, $v^*$ preserve $\Dctf$), and $\Dctf(-_{\proet},\Lambda)$ is a full subcategory of $\Loc(\Dctf(-,\Lambda))$. An isomorphism between functors on the localizing categories therefore restricts to an isomorphism between their restrictions to $\Dctf$.
+\end{proof}
+
 \BPEndSource{155}
 
 
@@ -15986,7 +15996,7 @@ base change map for $Rf_!$ is the composite
 of the base change map \eqref{equation-exchange} for $p$ and $Rp'_*$ of the
 inverse of this isomorphism.
 
-\BPSource{Proposition}{157}{6}{Composition and base change for $Rf_!$}
+\BPSource{Proposition}{157}{8}{Composition and base change for $Rf_!$}
 
 \label{proposition-composition-base-change-rf-shriek}
 
@@ -16136,6 +16146,26 @@ For a fixed compactification the comparison is the composite of the base-change 
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-110]{reference proof 110}\,(p.~\pageref{bp-proof-110}).}\par
 
 \end{enumerate}
+
+\begin{bpproposition}[Composition on $\Dctf$ for $\ell$-adic coefficients]
+\label{bp-r157-7}
+Let $\Lambda\in\{\mathcal O_E,E,\Qbar\}$. The canonical isomorphism $Rg_{!,\Lambda}Rf_{!,\Lambda}\simeq R(gf)_{!,\Lambda}$ of clause~\ref{bp-r157-1}, on the localizing categories, restricts to an isomorphism of functors $\Dctf(X_{\proet},\Lambda)\to\Dctf(Z_{\proet},\Lambda)$.
+\end{bpproposition}
+\noindent{\small\textit{Dependencies:} \ref{bp-r157-1}, \ref{bp-r155-4}, \ref{bp-r155-5}, \ref{bp-r155-6}.}\par
+\BPProofAnchor{bp-clause-proof-r157-7}
+\begin{proof}[Proof of clause~\ref{bp-r157-7}]
+Both functors map $\Dctf$ into $\Dctf$ by clauses~\ref{bp-r155-4}, \ref{bp-r155-5} and~\ref{bp-r155-6} (and $u^*$, $v^*$ preserve $\Dctf$), and $\Dctf(-_{\proet},\Lambda)$ is a full subcategory of $\Loc(\Dctf(-,\Lambda))$. An isomorphism between functors on the localizing categories therefore restricts to an isomorphism between their restrictions to $\Dctf$.
+\end{proof}
+
+\begin{bpproposition}[Base change on $\Dctf$ for $\ell$-adic coefficients]
+\label{bp-r157-8}
+Let $\Lambda\in\{\mathcal O_E,E,\Qbar\}$. In the situation of clause~\ref{bp-r157-4}, the isomorphism $v^*Rf_{!,\Lambda}\simeq Rf'_{!,\Lambda}u^*$ restricts to an isomorphism of functors $\Dctf(X_{\proet},\Lambda)\to\Dctf(Y'_{\proet},\Lambda)$.
+\end{bpproposition}
+\noindent{\small\textit{Dependencies:} \ref{bp-r157-4}, \ref{bp-r155-4}, \ref{bp-r155-5}, \ref{bp-r155-6}.}\par
+\BPProofAnchor{bp-clause-proof-r157-8}
+\begin{proof}[Proof of clause~\ref{bp-r157-8}]
+Both functors map $\Dctf$ into $\Dctf$ by clauses~\ref{bp-r155-4}, \ref{bp-r155-5} and~\ref{bp-r155-6} (and $u^*$, $v^*$ preserve $\Dctf$), and $\Dctf(-_{\proet},\Lambda)$ is a full subcategory of $\Loc(\Dctf(-,\Lambda))$. An isomorphism between functors on the localizing categories therefore restricts to an isomorphism between their restrictions to $\Dctf$.
+\end{proof}
 
 \BPEndSource{157}
 
@@ -17061,7 +17091,7 @@ adjoints, we see that it identifies the composition maps for $f^!$ as well.
 
 We use three classical theorems about the \'etale site.
 
-\BPSource{Remark}{162}{6}{Results from the \'etale theory}
+\BPSource{Theorem}{162}{6}{Results from the \'etale theory}
 
 \label{remark-results-from-etale-theory}
 
@@ -17069,7 +17099,7 @@ We use three classical theorems about the \'etale site.
 \begin{itemize}
 \item
 
-\begin{bpremark}[Proper base change]
+\begin{bptheorem}[Proper base change]
 \label{bp-r162-1}
 \emph{Proper base change}: let $p:X\to S$ be proper, let $g:S'\to S$ be
   a morphism, and let $p':X'\to S'$, $g':X'\to X$ be the projections of
@@ -17079,37 +17109,36 @@ We use three classical theorems about the \'etale site.
   Theorem~\ref{theorem-proper-base-change-classical-pro} for bounded below torsion complexes
   and \stacks{0F0C} for unbounded complexes with finite coefficients, and
   by comparison it holds on the pro-\'etale site.
-\end{bpremark}
+\end{bptheorem}
 
-\begin{bpremark}[Geometric fibre cohomology]
+\begin{bptheorem}[Geometric fibre cohomology]
 \label{bp-r162-2}
 In particular, the
   geometric stalk of $Rp_*K$ is the pro-\'etale cohomology of the fibre.
-\end{bpremark}
+\end{bptheorem}
 \item
 
-\begin{bpremark}[Finiteness for compact support]
+\begin{bptheorem}[Finiteness for compact support]
 \label{bp-r162-3}
-\emph{Finiteness}: for $f$ separated of finite type,
-  \stacks{0GL0} says, after comparison with the \'etale site, that $Rf_!$ maps
-  $\Dbc(X,\Lambda)$ into $\Dbc(S,\Lambda)$.
-\end{bpremark}
+\emph{Finiteness}: for $f$ separated of finite type, $Rf_!$ maps
+  $\Dbc(X,A)$ into $\Dbc(S,A)$ \stacks{0GL0}.
+\end{bptheorem}
 \item
 
-\begin{bpremark}[Cohomological amplitude for direct image]
+\begin{bptheorem}[Cohomological amplitude for direct image]
 \label{bp-r162-4}
 For a morphism $f:X\to S$ of finite-type $k$-schemes, $Rf_*$ has finite cohomological amplitude on classical torsion sheaves, by the \'etale bound \stacks{0F10} and comparison.
-\end{bpremark}
+\end{bptheorem}
 
-\begin{bpremark}[Cohomological amplitude for compact support]
+\begin{bptheorem}[Cohomological amplitude for compact support]
 \label{bp-r162-5}
 Under the applicability hypotheses for $Rf_!$, the same bound holds for $Rf_!:D^+_{\mathrm{class}}(X_{\proet},\Lambda)\to D^+_{\mathrm{class}}(S_{\proet},\Lambda)$ on classical torsion coefficient sheaves.
-\end{bpremark}
+\end{bptheorem}
 
-\begin{bpremark}[Finite cohomological dimension]
+\begin{bptheorem}[Finite cohomological dimension]
 \label{bp-r162-6}
 Consequently $\operatorname{cd}_\ell(f)<\infty$ in the sense of Definition~\ref{definition-cohomological-dimension}.
-\end{bpremark}
+\end{bptheorem}
 \end{itemize}
 
 \BPEndSource{162}
@@ -20232,7 +20261,7 @@ localizing categories.
 We can now repeat the argument for finite coefficients with
 $\mathcal O_E$, $E$ and $\Qbar$.
 
-\BPSource{Theorem}{187}{4}{$f^!$ with $\ell$-adic coefficients}
+\BPSource{Theorem}{187}{6}{$f^!$ with $\ell$-adic coefficients}
 
 \label{theorem-f-shriek-ell-adic-coefficients}
 
@@ -20370,6 +20399,26 @@ The ambient adjunction is $Rf_{!,\Lambda}\dashv f^!_\Lambda$. Proposition~\ref{p
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-136]{reference proof 136}\,(p.~\pageref{bp-proof-136}).}\par
 
 
+
+\begin{bpdefinition}[$f^!$ on $\Dctf$ from a compactification]
+\label{bp-r187-5}
+Let $\Lambda\in\{\mathcal O_E,E,\Qbar\}$ and let $f=p\circ j$ be a compactification, with $j$ an open immersion and $p$ proper. By the preceding clauses the right adjoint $p^!_\Lambda$ of $Rp_{*,\Lambda}$ preserves $\Dctf$, and we consider the functor
+$$
+j^*\circ p^!_\Lambda:\Dctf(Y_{\proet},\Lambda)\to\Dctf(X_{\proet},\Lambda).
+$$
+By Proposition~\ref{proposition-composition-open-restriction-compactifications-f}(4) it is the restriction of $f^!_\Lambda$ to $\Dctf$.
+\end{bpdefinition}
+\noindent{\small\textit{Dependencies:} \ref{bp-r187-1}, \ref{bp-r187-2}, \ref{bp-r187-3}.}\par
+
+\begin{bptheorem}[The compatibilities of $f^!$ on $\Dctf$]
+\label{bp-r187-6}
+For each $\Lambda\in\{\mathcal O_E,E,\Qbar\}$, the isomorphisms of Proposition~\ref{proposition-composition-open-restriction-compactifications-f} restrict to $\Dctf(-_{\proet},\Lambda)$: for composable $X\xrightarrow fY\xrightarrow gZ$ one has $(gf)^!\simeq f^!g^!$, compatibly with $\mathrm{id}^!\simeq\mathrm{id}$; for an open immersion $j$ one has $j^!\simeq j^*$; and for an open immersion $v:V\to Y$, with $u:X_V=f^{-1}(V)\to X$ and $f_V:X_V\to V$, one has $u^*f^!\simeq f_V^!v^*$.
+\end{bptheorem}
+\noindent{\small\textit{Dependencies:} \ref{bp-r187-1}, \ref{bp-r187-2}, \ref{bp-r187-3}, \ref{bp-r187-4}.}\par
+\BPProofAnchor{bp-clause-proof-r187-6}
+\begin{proof}[Proof of clause~\ref{bp-r187-6}]
+By the first three clauses, $f^!_\Lambda$ maps $\Dctf$ into $\Dctf$ for every separated $f$ of finite type, and so do $j^*$ and $v^*$. Since $\Dctf(-_{\proet},\Lambda)$ is a full subcategory of $\Loc(\Dctf(-,\Lambda))$, the isomorphisms of Proposition~\ref{proposition-composition-open-restriction-compactifications-f}, which are isomorphisms between composites of these functors, restrict to isomorphisms between the restricted functors.
+\end{proof}
 
 \BPEndSource{187}
 
@@ -24132,7 +24181,7 @@ for the external tensor product.
 We start with the base change statement, which is the case of the
 K\"unneth formula in which the second coefficient is constant.
 
-\BPSource{Lemma}{212}{1}{Base change along a product projection}
+\BPSource{Lemma}{212}{2}{Base change along a product projection}
 
 \label{lemma-base-change-along-product-projection}
 
@@ -24151,6 +24200,16 @@ is an isomorphism.
 \BPProofAnchor{bp-clause-proof-r212-1}
 \noindent{\small\textit{Proof of clause~\ref{bp-r212-1}.} The proof in \hyperref[bp-proof-157]{reference proof 157}\,(p.~\pageref{bp-proof-157}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-212}. The complete source argument is retained at its original position below or at the named proof location.}\par
 
+
+\begin{bplemma}[$\ell$-adic coefficients]
+\label{bp-r212-2}
+For $\Lambda\in\{\mathcal O_E,E,\Qbar\}$ and $M\in\Dctf(X_{\proet},\Lambda)$, the base change map $p_Y^*Rf_*M\to R(f\times\operatorname{id}_T)_*p_X^*M$ is an isomorphism.
+\end{bplemma}
+\noindent{\small\textit{Dependencies:} \ref{bp-r212-1}.}\par
+\BPProofAnchor{bp-clause-proof-r212-2}
+\begin{proof}[Proof of clause~\ref{bp-r212-2}]
+For $\Lambda=\mathcal O_E$, both sides lie in $\Dctf$, and the base change map is compatible with reduction modulo $\pi_E^n$ (Lemma~\ref{lemma-change-coefficients}). Its reduction is the base change map for $M\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\pi_E^n\in\Dctf(X,\mathcal O_E/\pi_E^n)$, an isomorphism by clause~\ref{bp-r212-1}. A map in $\Dctf(-,\mathcal O_E)$ whose reduction modulo $\pi_E$ is an isomorphism is an isomorphism, by derived Nakayama. The cases $E$ and $\Qbar$ follow by inverting $\ell$ and extending scalars, which commute with $p_Y^*$, $p_X^*$ and the direct images (Proposition~\ref{proposition-six-operations-change-coefficients}).
+\end{proof}
 
 \BPEndSource{212}
 
@@ -24199,7 +24258,7 @@ namely $A$ in degree $0$ and $A(-1)$ in degree $1$, whatever $T$ is.
 The K\"unneth formula allows an arbitrary constructible second factor
 in place of the constant one. We first define the map it concerns.
 
-\BPSource{Definition}{213}{1}{K\"unneth map}
+\BPSource{Definition}{213}{2}{K\"unneth map}
 
 \label{definition-kunneth-map}
 
@@ -24222,6 +24281,12 @@ is the adjoint transpose, for $h^*\dashv Rh_*$, of the morphism
 where $\varepsilon_{f_i}$ is the counit of $f_i^*\dashv Rf_{i*}$ and the first
 isomorphism comes from $h^*p_i^*\simeq p_i^*f_i^*$.
 \end{bpdefinition}
+
+\begin{bpdefinition}[K\"unneth map for $\ell$-adic coefficients]
+\label{bp-r213-2}
+For $\Lambda\in\{\mathcal O_E,E,\Qbar\}$ and $M_i\in\Dctf(X_i,\Lambda)$, the K\"unneth map~\eqref{equation-kunneth-map} is defined in the same way, as the adjoint transpose for $h^*\dashv Rh_*$ on $\Dctf$ of the same morphism.
+\end{bpdefinition}
+\noindent{\small\textit{Dependencies:} \ref{bp-r213-1}.}\par
 
 \BPEndSource{213}
 

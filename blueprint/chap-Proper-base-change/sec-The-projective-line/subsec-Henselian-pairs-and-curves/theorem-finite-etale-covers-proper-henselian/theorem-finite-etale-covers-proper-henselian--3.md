@@ -1,6 +1,6 @@
 +++
 id = "theorem-finite-etale-covers-proper-henselian--3"
-kind = "remark"
+kind = "theorem"
 title = "Finite torsors"
 order = 357002
 aliases = ["bp-r108-3"]

@@ -1,6 +1,6 @@
 +++
 id = "theorem-results-from-etale-theory--4"
-kind = "remark"
+kind = "theorem"
 title = "Cohomological amplitude for direct image"
 order = 537005
 aliases = ["bp-r162-4"]

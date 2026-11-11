@@ -5,7 +5,6 @@ title = "Local terms are not computed stalk by stalk (1)"
 name_showing = false
 order = 959001
 aliases = ["bp-r291-1"]
-lean = ["AlgebraicGeometry.Etale.isZero_leftDerivedUpperStar_zeroSection_and_not_isZero_ihom", "AlgebraicGeometry.Etale.ihomOpenImmersionLowerShriekConstantIso"]
 +++
 The vanishing of the local term at a rational point $y$ with $K_{\bar y}=0$, proved below, is a
 geometric fact about the restriction from cohomology with supports in the
