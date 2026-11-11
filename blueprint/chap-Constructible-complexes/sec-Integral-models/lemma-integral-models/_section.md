@@ -3,7 +3,7 @@ id = "lemma-integral-models"
 kind = "lemma"
 title = "Integral models"
 order = 294
-lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensorObj"]
+lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion"]
 uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 1. Restriction of scalars along the map from the constant sheaf

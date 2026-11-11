@@ -8619,11 +8619,31 @@ $\Qbar$ is reduced to one for a finite $E$, as in
 Lemma~\ref{lemma-integral-models}(4) and in the uniform Ext bound
 (Lemma~\ref{lemma-uniform-ext-bound}).
 
-\BPSource{Lemma}{085}{2}{Descent to a finite coefficient field}
+\BPSource{Lemma}{085}{3}{Descent to a finite coefficient field}
 
 \label{lemma-descent-finite-coefficient-field}
 \leavevmode
 \begin{enumerate}
+\item
+\begin{bplemma}[Exact extension of scalars]
+\label{bp-r085-3}
+Let $\Lambda\to\Lambda'$ be a map of commutative condensed rings for which
+extension of scalars $\Lambda'_X\otimes_{\Lambda_X}-$ is exact, for instance
+$E\to E'$ or $E\to\Qbar$ for finite extensions $E'\supset E$ of $\Ql$ in
+$\Qbar$, or $\mathcal O_E\to E$. Then extension of scalars sends
+$\Dbc(X,\Lambda)$ into $\Dbc(X,\Lambda')$. In particular
+$C_{E'}\in\Dbc(X,E')$ and $C_{\Qbar}\in\Dbc(X,\Qbar)$ for $C\in\Dbc(X,E)$.
+\end{bplemma}
+\BPProofAnchor{bp-clause-proof-r085-3}
+\begin{proof}[Proof of clause~\ref{bp-r085-3}]
+Extension of scalars commutes with pullback of coefficient sheaves, sends
+$\Lambda_U\otimes_{\Lambda(*)}P$ to
+$\Lambda'_U\otimes_{\Lambda'(*)}(\Lambda'(*)\otimes_{\Lambda(*)}P)$,
+and so preserves finitely presented local models on the strata of a
+stratification. Being exact, it commutes with cohomology sheaves and
+preserves bounds.
+\end{proof}
+
 \item
 \begin{bplemma}[Source clause 1]
 \label{bp-r085-1}
@@ -11624,7 +11644,7 @@ commutes with $g^*$ and with direct images along proper maps
 point then shows that the stalks of $Rf_*K$ are the cohomology of the
 geometric fibres (Corollary~\ref{corollary-cohomology-geometric-fibres}).
 
-\BPSource{Theorem}{122}{1}{Pro-\'etale proper base change}
+\BPSource{Theorem}{122}{3}{Pro-\'etale proper base change}
 
 \label{theorem-proper-base-change-classical-pro}
 
@@ -11644,6 +11664,33 @@ is an isomorphism in $D^+_{\mathrm{class}}(Y'_{\proet},\Lambda)$.
 \BPProofAnchor{bp-clause-proof-r122-1}
 \noindent{\small\textit{Proof of clause~\ref{bp-r122-1}.} The proof in \hyperref[bp-proof-084]{reference proof 084}\,(p.~\pageref{bp-proof-084}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-122}. The complete source argument is retained at its original position below or at the named proof location.}\par
 
+
+\begin{bptheorem}[Unbounded complexes, torsion coefficients]
+\label{bp-r122-2}
+Suppose moreover that $\Lambda$ is torsion as an abelian group. Then on the
+\'etale sites the base change map
+\[
+ g^*Rf_*K\longrightarrow Rf'_*g'^*K
+\]
+is an isomorphism for every $K\in D(X_{\acute{e}t},\Lambda)$, without any
+boundedness hypothesis \stacks{0F0C}.
+\end{bptheorem}
+\BPProofAnchor{bp-clause-proof-r122-2}
+\begin{proof}[Proof of clause~\ref{bp-r122-2}]
+This is \stacks{0F0C}.
+\end{proof}
+
+\begin{bptheorem}[Finite cohomological dimension of finite-type morphisms]
+\label{bp-r122-3}
+Let $k'$ be a field, let $\Lambda$ be a ring that is torsion as an abelian
+group, and let $g:X\to Y$ be a morphism of $k'$-schemes of finite type. Then
+there is an integer $d$ such that $R^qg_*F=0$ for all $q>d$ and all
+sheaves $F$ of $\Lambda$-modules on $X_{\acute{e}t}$ \stacks{0F10}.
+\end{bptheorem}
+\BPProofAnchor{bp-clause-proof-r122-3}
+\begin{proof}[Proof of clause~\ref{bp-r122-3}]
+This is \stacks{0F10}.
+\end{proof}
 
 \BPEndSource{122}
 
@@ -17106,9 +17153,9 @@ We use three classical theorems about the \'etale site.
   $X'=X\times_SS'$. For $K\in D_{\mathrm{class}}(X_{\proet},\Lambda)$, the
   base change map $g^*Rp_*K\to Rp'_*g'^*K$ is
   an isomorphism. On the \'etale site this is
-  Theorem~\ref{theorem-proper-base-change-classical-pro} for bounded below torsion complexes
-  and \stacks{0F0C} for unbounded complexes with finite coefficients, and
-  by comparison it holds on the pro-\'etale site.
+  Theorem~\ref{theorem-proper-base-change-classical-pro}, clause~\ref{bp-r122-2} for unbounded
+  complexes with torsion coefficients and clause~\ref{bp-r122-1} for bounded below torsion
+  complexes, and by comparison it holds on the pro-\'etale site.
 \end{bptheorem}
 
 \begin{bptheorem}[Geometric fibre cohomology]
@@ -17127,7 +17174,7 @@ In particular, the
 
 \begin{bptheorem}[Cohomological amplitude for direct image]
 \label{bp-r162-4}
-For a morphism $f:X\to S$ of finite-type $k$-schemes, $Rf_*$ has finite cohomological amplitude on classical torsion sheaves, by the \'etale bound \stacks{0F10} and comparison.
+For a morphism $f:X\to S$ of finite-type $k$-schemes, $Rf_*$ has finite cohomological amplitude on classical torsion sheaves, by the \'etale bound of Theorem~\ref{theorem-proper-base-change-classical-pro}, clause~\ref{bp-r122-3}, and comparison.
 \end{bptheorem}
 
 \begin{bptheorem}[Cohomological amplitude for compact support]
@@ -17144,7 +17191,7 @@ Consequently $\operatorname{cd}_\ell(f)<\infty$ in the sense of Definition~\ref{
 \BPEndSource{162}
 
 
-\BPSource{Definition}{542}{1}{The base change map for $f^!$, finite coefficients}
+\BPSource{Definition}{542}{2}{The base change map for $f^!$, finite coefficients}
 
 \label{definition-exceptional-base-change-finite}
 
@@ -17167,6 +17214,20 @@ is the transpose, for $f'$, of the morphism
 where the first arrow is the inverse of the base change isomorphism
 for $Rf_!$ \stacks{0F7L}.
 \end{bpdefinition}
+
+\begin{bpproposition}[Open immersions]
+\label{bp-r542-2}
+If $g:S'\to S$ is an open immersion, the base change map
+\eqref{equation-g12} is an isomorphism for every $N$.
+\end{bpproposition}
+\BPProofAnchor{bp-clause-proof-r542-2}
+\begin{proof}[Proof of clause~\ref{bp-r542-2}]
+If $g$ is an open immersion, so is $g'$, and $g^*\simeq g^!$, $g'^*\simeq g'^!$
+(Proposition~\ref{proposition-composition-open-restriction-compactifications-f}(2)).
+Under these identifications \eqref{equation-g12} is the composition isomorphism
+$g'^!f^!\simeq(fg')^!=(gf')^!\simeq f'^!g^!$ of the same proposition, whose
+transpose is \eqref{equation-g14}; hence it is an isomorphism.
+\end{proof}
 
 \BPEndSource{542}
 
@@ -18403,9 +18464,16 @@ In Step~2 of the proof of Theorem~\ref{theorem-generic-constructibility-base-cha
 lemma is applied to $f=bj$, with $b:Y\to S$ projective and
 $j:X\hookrightarrow Y$ open.
 
-\BPSource{Lemma}{170}{1}{Smooth morphisms and locally constant sheaves}
+\BPSource{Lemma}{170}{2}{Smooth morphisms and locally constant sheaves}
 
 \label{lemma-smooth-morphisms-locally-constant-sheaves}
+
+\begin{bpdefinition}[Coefficient dual]
+\label{bp-r170-2}
+For $K\in D(X_{\acute{e}t},\Lambda)$ put $K^\vee=\cHom_X(K,\Lambda_X)$. If
+$K$ is dualizable, with dual $L$ (an exact pairing
+$L\otimes^{\mathbf L}K\to\Lambda_X$), then $K^\vee\simeq L$.
+\end{bpdefinition}
 
 \begin{bplemma}[Source clause 1]
 \label{bp-r170-1}
@@ -24679,7 +24747,7 @@ over $k$, let $X'=X\times_YY'$, and let $f':X'\to Y'$ and $g':X'\to X$ be the
 projections. Write $\varepsilon_f(K):Rf_!f^!K\to K$ for the counit of
 $Rf_!\dashv f^!$.
 
-\BPSource{Definition}{218}{1}{Exceptional base change map}
+\BPSource{Definition}{218}{2}{Exceptional base change map}
 
 \label{definition-exceptional-base-change-map}
 
@@ -24695,6 +24763,19 @@ $Rf'_!\dashv f'^!$, of the composite
 whose first arrow is the inverse of the base change isomorphism of
 Proposition~\ref{proposition-composition-base-change-rf-shriek}(2).
 \end{bpdefinition}
+
+\begin{bpproposition}[Open immersions]
+\label{bp-r218-2}
+If $g:Y'\to Y$ is an open immersion, the exceptional base change map
+$g'^*f^!K\to f'^!g^*K$ is an isomorphism for every $K\in\Dctf(Y,\Lambda)$.
+\end{bpproposition}
+\BPProofAnchor{bp-clause-proof-r218-2}
+\begin{proof}[Proof of clause~\ref{bp-r218-2}]
+As for finite coefficients (clause~\ref{bp-r542-2}): $g$ and $g'$ are open
+immersions, so $g^*\simeq g^!$ and $g'^*\simeq g'^!$, and under these
+identifications the map is the composition isomorphism
+$g'^!f^!\simeq f'^!g^!$ on $\Dctf$ (Theorem~\ref{theorem-f-shriek-ell-adic-coefficients}).
+\end{proof}
 
 \BPEndSource{218}
 
@@ -29523,7 +29604,7 @@ By definition $\mathbb D_XK=\cHom_X(K,\omega_X)$. Substitute clause~\ref{bp-r257
 
 \begin{bpdefinition}[Source clause 3]
 \label{bp-r257-3}
-Put $K^\vee=\cHom_X(K,\Lambda_X)$.
+Put $K^\vee=\cHom_X(K,\Lambda_X)$, as in Definition~\ref{bp-r170-2}.
 \end{bpdefinition}
 
 \begin{bptheorem}[Source clause 4]
@@ -34662,7 +34743,7 @@ function--sheaf dictionary~\cite[Sommes trig.]{SGA4half}
 (\S\ref{section-function-sheaf}), and in Part~\ref{part-weights} we compute with
 sheaves through their functions in this way.
 
-\BPSource{Definition}{312}{1}{Trace function}
+\BPSource{Definition}{312}{2}{Trace function}
 
 \label{definition-trace-function}
 
@@ -34677,6 +34758,26 @@ The \emph{trace function} of $K$ is
    \mid K_{\bar x}\bigr).
 \]
 \end{bpdefinition}
+
+\begin{bpproposition}[Trace functions and inverse image]
+\label{bp-r312-2}
+Let $g_0:W_0\to X_0$ be a morphism of separated $\mathbf F_q$-schemes of
+finite type, with geometric base change $g:W\to X$, and give $g^*K$ the
+Weil structure induced by $\phi$ (after
+Definition~\ref{definition-weil-structure}). Then for every $m\geq1$ and
+$w\in W_0(\mathbf F_{q^m})$,
+\[
+ t_{g^*K,m}(w)=t_{K,m}(g_0(w)).
+\]
+\end{bpproposition}
+\BPProofAnchor{bp-clause-proof-r312-2}
+\begin{proof}[Proof of clause~\ref{bp-r312-2}]
+The stalk of $g^*K$ at $\bar w$ is $K_{\bar x}$ with $x=g_0(w)$, and
+the Weil structure of $g^*K$ is $g^*\phi$ composed with the base change
+isomorphism. Under this identification of stalks the $m$-th iterate of the
+Weil structure of $g^*K$ at $\bar w$ is the $m$-th iterate of $\phi$ at
+$\bar x$, so the two Frobenius endomorphisms agree.
+\end{proof}
 
 \BPEndSource{312}
 
@@ -34790,11 +34891,7 @@ For $g_0:W_0\to X_0$ and $w\in W_0(\mathbf F_{q^m})$,
 \end{bpproposition}
 \BPProofAnchor{bp-clause-proof-r315-1}
 \begin{proof}[Proof of clause~\ref{bp-r315-1}]
-For (1), the stalk of $g^*K$ at $\bar w$ is $K_{\bar x}$ with $x=g_0(w)$, and
-the Weil structure of $g^*K$ is $g^*\phi$ composed with the base change
-isomorphism. Under this identification of stalks the $m$-th iterate of the
-Weil structure of $g^*K$ at $\bar w$ is the $m$-th iterate of $\phi$ at
-$\bar x$, so the two Frobenius endomorphisms agree.
+Part (1) is clause~\ref{bp-r312-2}.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-225]{reference proof 225}\,(p.~\pageref{bp-proof-225}).}\par
 
@@ -34951,7 +35048,7 @@ For $K=\Lambda_X$ the product over cohomology is finite, so $Z(X_0,T)$ is
 rational, and for smooth proper $X_0$ duality pairs the factors in degrees $i$
 and $2d-i$ (Corollary~\ref{corollary-functional-equation}).
 
-\BPSource{Lemma}{316}{3}{Logarithm of a determinant}
+\BPSource{Lemma}{316}{4}{Logarithm of a determinant}
 
 \label{lemma-logarithm-determinant}
 
@@ -34988,6 +35085,22 @@ $\operatorname{tr}_L(v^m\mid P)$.
 \BPProofAnchor{bp-clause-proof-r316-3}
 \noindent{\small\textit{Proof of clause~\ref{bp-r316-3}.} The proof in \hyperref[bp-proof-226]{reference proof 226}\,(p.~\pageref{bp-proof-226}) establish this clause with the shared hypotheses and choices of Reference~\ref{bp-source-316}. The complete source argument is retained at its original position below or at the named proof location.}\par
 
+
+\begin{bplemma}[Degree of the determinant]
+\label{bp-r316-4}
+Let $K$ be a field and let $V$ be a finite-dimensional $K$-vector space
+with an automorphism $F$. Then
+\[
+\deg\det(1-TF\mid V)=\dim_KV.
+\]
+\end{bplemma}
+\BPProofAnchor{bp-clause-proof-r316-4}
+\begin{proof}[Proof of clause~\ref{bp-r316-4}]
+Put $n=\dim_KV$. Then $\det(1-TF\mid V)=T^n\det(T^{-1}-F\mid V)$ is the
+reversed characteristic polynomial of $F$. It has degree at most $n$,
+and its coefficient of $T^n$ is $(-1)^n\det F$, which is nonzero because
+$F$ is invertible.
+\end{proof}
 
 \BPEndSource{316}
 
@@ -44532,18 +44645,13 @@ Define $b_i=\deg P_i$.
 
 \begin{bptheorem}[Cohomological dimensions]
 \label{bp-r429-7}
-Let $K$ be a field and let $V$ be a finite-dimensional $K$-vector space
-with an automorphism $F$. Then
-\[
-\deg\det(1-TF\mid V)=\dim_KV.
-\]
-In particular, since Frobenius acts on $H^i_\ell$ by an automorphism,
+Since Frobenius acts on $H^i_\ell$ by an automorphism,
 $b_i=\deg P_i=\deg P_{i,\ell}=\dim_{\mathbf Q_\ell}H^i_\ell$ for every
 prime $\ell\nmid q$.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r429-7}
 \begin{proof}[Proof of clause~\ref{bp-r429-7}]
-Clause~\ref{bp-r429-1} identifies $P_i$ with $\det(1-TF_i)$ over $\mathbf Q_\ell$. Frobenius is invertible by Theorem~\ref{bp-r266-5}, so this determinant has degree equal to the dimension of $H^i_\ell$. The definition $b_i=\deg P_i$ gives the assertion.
+Clause~\ref{bp-r429-1} identifies $P_i$ with $\det(1-TF_i)$ over $\mathbf Q_\ell$. Frobenius is invertible by Theorem~\ref{bp-r266-5}, so by clause~\ref{bp-r316-4} this determinant has degree equal to the dimension of $H^i_\ell$. The definition $b_i=\deg P_i$ gives the assertion.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-315]{reference proof 315}\,(p.~\pageref{bp-proof-315}).}\par
 

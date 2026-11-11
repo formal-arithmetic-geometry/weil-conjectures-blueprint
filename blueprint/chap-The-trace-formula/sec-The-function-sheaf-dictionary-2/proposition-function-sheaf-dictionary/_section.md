@@ -3,7 +3,6 @@ id = "proposition-function-sheaf-dictionary"
 kind = "proposition"
 title = "The function–sheaf dictionary"
 order = 1029
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
 uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-additivity-open-subscheme-complement", "definition-trace-function"]
 +++
 Let $\Lambda$ be as in Theorem [theorem-grothendieck-lefschetz-trace-formula],

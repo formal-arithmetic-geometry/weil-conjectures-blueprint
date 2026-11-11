@@ -10,6 +10,6 @@ a morphism, and let $p':X'\to S'$, $g':X'\to X$ be the projections of
 $X'=X\times_SS'$. For $K\in D_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the
 base change map $g^*Rp_*K\to Rp'_*g'^*K$ is
 an isomorphism. On the étale site this is
-Theorem [theorem-proper-base-change-classical-pro] for bounded below torsion complexes
-and [Stacks, [0F0C](https://stacks.math.columbia.edu/tag/0F0C)] for unbounded complexes with finite coefficients, and
-by comparison it holds on the pro-étale site.
+Theorem [theorem-proper-base-change-classical-pro], clause [theorem-proper-base-change-classical-pro--2] for unbounded
+complexes with torsion coefficients and clause [theorem-proper-base-change-classical-pro--1] for bounded below torsion
+complexes, and by comparison it holds on the pro-étale site.

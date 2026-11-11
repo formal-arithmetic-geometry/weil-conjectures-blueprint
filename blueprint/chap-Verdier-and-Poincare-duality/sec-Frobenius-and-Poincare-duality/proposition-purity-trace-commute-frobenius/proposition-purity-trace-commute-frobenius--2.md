@@ -5,7 +5,7 @@ title = "Purity and trace commute with Frobenius (2)"
 name_showing = false
 order = 882003
 aliases = ["bp-r265-2"]
-lean = ["AlgebraicGeometry.Etale.upperShriekBaseChangeMap", "AlgebraicGeometry.Etale.isIso_upperShriekBaseChangeMap"]
+lean = ["AlgebraicGeometry.Etale.isIso_upperShriekBaseChangeMap"]
 +++
 and its base change comparisons identify
 

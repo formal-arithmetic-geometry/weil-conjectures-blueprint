@@ -4,7 +4,6 @@ kind = "corollary"
 title = "Two-term resolutions of the finite quotients"
 order = 181003
 aliases = ["bp-r052-2"]
-lean = ["AlgebraicGeometry.ProEtale.PrincipalNormalization.principal_cone_tensor_normalization"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
 +++
 Put $R=\mathcal O_{E,X}$ and $B_n=(\mathcal O_E/\pi_E^n)_X$. For $n\geq1$, the

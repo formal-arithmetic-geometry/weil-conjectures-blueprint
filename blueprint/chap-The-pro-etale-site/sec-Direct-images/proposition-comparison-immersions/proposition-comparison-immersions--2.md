@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Extension by zero on unbounded derived categories"
 order = 139003
 aliases = ["bp-r040-2"]
+lean = ["AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso"]
 +++
 For an open immersion $j:U\hookrightarrow X$, the isomorphism
 (2.10), applied termwise to complexes, induces a

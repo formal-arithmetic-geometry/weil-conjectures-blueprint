@@ -5,7 +5,7 @@ title = "Extension of scalars preserves $\\Dctf$ (1)"
 name_showing = false
 order = 634001
 aliases = ["bp-r192-1"]
-lean = ["AlgebraicGeometry.ProEtale.constructibleFiniteTor_leftDerivedSheafExtendScalars"]
+lean = ["AlgebraicGeometry.ProEtale.constructibleFiniteTor_leftDerivedSheafExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_integersModPowReduction", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_residueField"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above, extension of scalars sends
 $D^b_{\mathrm{ctf}}(X,\Lambda)$ into $D^b_{\mathrm{ctf}}(X,\Lambda')$.

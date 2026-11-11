@@ -3,7 +3,7 @@ id = "definition-exceptional-base-change-finite"
 kind = "definition"
 title = "The base change map for $f^!$, finite coefficients"
 order = 539
-lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChangeMap"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChangeMap", "AlgebraicGeometry.Etale.upperShriekBaseChangeMap"]
 uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "proposition-composition-open-restriction-compactifications-f", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 Let $f:X\to S$ be separated and of finite type, let $g:S'\to S$ be a

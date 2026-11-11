@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Integral inverse image"
 order = 294006
 aliases = ["bp-r087-3"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj_of_scheme", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj"]
 +++
 For every morphism $f:X\to Y$, $f^*_{\mathcal O_E}:D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)\to D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ preserves $\Dbc$.

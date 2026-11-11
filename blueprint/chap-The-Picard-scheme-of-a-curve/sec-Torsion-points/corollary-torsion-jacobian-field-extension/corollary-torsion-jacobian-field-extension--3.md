@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Divisibility of the Jacobian points"
 order = 1561006
 aliases = ["bp-r487-3"]
-lean = ["AlgebraicGeometry.Scheme.surjective_pow_picardZero"]
+lean = ["AlgebraicGeometry.surjective_npow_points", "AlgebraicGeometry.Scheme.surjective_pow_picardZero"]
 uses = ["definition-abelian-variety--1", "corollary-degree-jacobian--1"]
 +++
 For every abelian variety $A/k$ and every integer $m>0$,

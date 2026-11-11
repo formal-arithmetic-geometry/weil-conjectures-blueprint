@@ -3,7 +3,6 @@ id = "definition-constructible-sheaves"
 kind = "definition"
 title = "Constructible sheaves"
 order = 219
-lean = ["AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
 uses = ["lemma-stability", "definition-lisse-sheaves"]
 +++
 Let $\Lambda$ be a commutative condensed ring.

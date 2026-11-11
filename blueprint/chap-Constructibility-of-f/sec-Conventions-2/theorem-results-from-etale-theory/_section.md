@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Results from the étale theory"
 order = 537
 aliases = ["remark-results-from-etale-theory"]
-lean = ["AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_of_isProper_of_isAddTorsion_ring", "AlgebraicGeometry.Etale.hasFiniteCohomologicalDimensionMorphism", "AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerShriek_singleFunctor"]
+lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerShriek_singleFunctor"]
 +++
 Let $f:X\to S$ be a morphism of schemes of finite type over $k$.
 

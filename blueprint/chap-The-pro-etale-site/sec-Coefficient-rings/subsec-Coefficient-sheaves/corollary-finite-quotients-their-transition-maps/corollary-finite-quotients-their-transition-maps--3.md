@@ -5,7 +5,6 @@ title = "Finite quotients and their transition maps (3)"
 name_showing = false
 order = 181005
 aliases = ["bp-r052-3"]
-lean = ["AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp", "AlgebraicGeometry.ProEtale.upperStarFromPointComp"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
 +++
 For every morphism of schemes $f:X\to Y$, there is a canonical monoidal

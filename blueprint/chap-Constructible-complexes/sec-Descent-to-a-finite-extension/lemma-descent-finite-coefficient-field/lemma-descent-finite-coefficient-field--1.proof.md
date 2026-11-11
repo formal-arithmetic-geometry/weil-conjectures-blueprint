@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lemma-descent-finite-coefficient-field--1"
-order = 285002
+order = 285004
 +++
 Morphisms descend because $\QbarX$ is the filtered colimit of the $E'_X$
 and Hom out of a constructible complex commutes with this colimit

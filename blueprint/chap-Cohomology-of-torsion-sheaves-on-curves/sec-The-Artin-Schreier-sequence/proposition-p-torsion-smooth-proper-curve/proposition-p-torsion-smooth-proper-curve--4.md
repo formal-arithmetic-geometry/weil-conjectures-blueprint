@@ -5,7 +5,6 @@ title = "$p$-torsion on a smooth proper curve in characteristic $p$ (4)"
 name_showing = false
 order = 1589007
 aliases = ["bp-r494-4"]
-lean = ["AlgebraicGeometry.IsCurve.finite_sheafH_constantModSheaf_of_isProper", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_isProper"]
 +++
 The group $H^1(C,\mathbf F_p)$
 is finite, of $\mathbf F_p$-dimension at most $g$, and its pullback map

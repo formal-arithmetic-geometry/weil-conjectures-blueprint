@@ -3,7 +3,6 @@ id = "proposition-six-operations-change-coefficients"
 kind = "proposition"
 title = "The six operations and change of coefficients"
 order = 646
-lean = ["CategoryTheory.Functor.LaxMonoidal.ihomComparison_comp_app"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps of coefficient rings listed
 above. Extension of scalars sends $D^b_{\mathrm{ctf}}(X,\Lambda)$ into

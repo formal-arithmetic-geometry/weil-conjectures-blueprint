@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Transport of units through a mate square"
 order = 646036
 aliases = ["bp-r197-18"]
-lean = ["CategoryTheory.unit_mateEquiv"]
 +++
 Let $F\dashv G$ and $F'\dashv G'$ be adjunctions, and let $T_1,T_2$ be functors between their source and target categories. Suppose
 

@@ -3,7 +3,7 @@ id = "lemma-smooth-morphisms-locally-constant-sheaves--1"
 kind = "lemma"
 title = "Smooth morphisms and locally constant sheaves (1)"
 name_showing = false
-order = 565001
+order = 565002
 aliases = ["bp-r170-1"]
 lean = ["AlgebraicGeometry.Etale.exists_nonempty_open_smooth_directImage_lisse_baseChange"]
 +++

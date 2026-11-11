@@ -3,7 +3,7 @@ id = "proposition-dctf-x-qbar-2-colimit"
 kind = "proposition"
 title = "$\\Dctf(X,\\Qbar)$ as a $2$-colimit"
 order = 649
-lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
+lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit", "AlgebraicGeometry.ProEtale.finiteCoefficientDescentTwoColimit"]
 uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 Extension of scalars identifies

@@ -3,7 +3,6 @@ id = "lemma-inverse-image-tensor-product"
 kind = "lemma"
 title = "Inverse image and tensor product"
 order = 494
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj"]
 uses = ["lemma-stability", "definition-constructible-sheaves"]
 +++
 Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,

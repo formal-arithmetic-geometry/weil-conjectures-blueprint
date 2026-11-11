@@ -3,9 +3,9 @@ id = "lemma-descent-finite-coefficient-field--1"
 kind = "lemma"
 title = "Descent to a finite coefficient field (1)"
 name_showing = false
-order = 285001
+order = 285003
 aliases = ["bp-r085-1"]
-lean = ["AlgebraicGeometry.ProEtale.coefficient_finite_descent_hom"]
+lean = ["AlgebraicGeometry.ProEtale.coefficient_finite_descent_hom", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj", "AlgebraicGeometry.ProEtale.constructibleCocone_homInj"]
 +++
 For $C,D\in\Dbc(X,E)$ and every integer $r$, extension of scalars
 induces an isomorphism

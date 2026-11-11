@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Tensor product"
 order = 494004
 aliases = ["bp-r149-2"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isMonoidal_boundedConstructible", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_padicIntegersRingObj"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3"]
 +++
 Let $\ell$ be prime, let $k$ be a field with

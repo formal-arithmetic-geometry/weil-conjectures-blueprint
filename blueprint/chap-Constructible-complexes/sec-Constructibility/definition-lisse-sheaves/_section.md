@@ -3,7 +3,7 @@ id = "definition-lisse-sheaves"
 kind = "definition"
 title = "Lisse sheaves"
 order = 221
-lean = ["AlgebraicGeometry.ProEtale.IsLisseCoefficientModule", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented"]
+lean = ["AlgebraicGeometry.ProEtale.IsLisseCoefficientModule"]
 uses = ["lemma-stability"]
 +++
 Let $\Lambda$ be a commutative condensed ring. A $\Lambda_X$-module $M$ is

@@ -5,7 +5,7 @@ title = "Reduction and derived Nakayama (1)"
 name_showing = false
 order = 210001
 aliases = ["bp-r062-1"]
-lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution"]
+lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution", "AlgebraicGeometry.ProEtale.PrincipalNormalization.principal_cone_tensor_normalization"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, let $X$ be a scheme, and let $n\geq1$.

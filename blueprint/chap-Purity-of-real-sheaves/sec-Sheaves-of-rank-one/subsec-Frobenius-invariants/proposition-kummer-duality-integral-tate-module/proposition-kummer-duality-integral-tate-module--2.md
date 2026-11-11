@@ -5,7 +5,7 @@ title = "Kummer, duality and the integral Tate module (2)"
 name_showing = false
 order = 1097003
 aliases = ["bp-r335-2"]
-lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_picTorsionPairing", "AlgebraicGeometry.Scheme.EtaleTorsor.sheafHOneLimitAddEquivDualJacobianTateModule"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.sheafHOneLimitAddEquivDualJacobianTateModule"]
 +++
 $$
 \begin{aligned}

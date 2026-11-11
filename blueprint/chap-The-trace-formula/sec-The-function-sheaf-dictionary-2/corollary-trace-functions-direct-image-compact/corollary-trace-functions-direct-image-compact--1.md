@@ -5,6 +5,7 @@ title = "Trace functions and direct image with compact support (1)"
 name_showing = false
 order = 1025001
 aliases = ["bp-r313-1"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilShriekTraceFunction"]
 +++
 Let $f_0:X_0\to Y_0$ be a morphism of separated $\mathbf F_q$-schemes
 of finite type, with geometric base change $f:X\to Y$, and let

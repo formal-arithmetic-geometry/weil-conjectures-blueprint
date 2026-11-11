@@ -5,7 +5,7 @@ title = "The relative dualizing complex (1)"
 name_showing = false
 order = 756001
 aliases = ["bp-r228-1"]
-lean = ["AlgebraicGeometry.Etale.dualizingComplexTwistShiftIso"]
+lean = ["AlgebraicGeometry.Etale.dualizingComplexTwistShiftIso", "AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. There is a
 canonical isomorphism

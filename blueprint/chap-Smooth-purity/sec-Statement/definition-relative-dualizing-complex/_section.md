@@ -3,7 +3,6 @@ id = "definition-relative-dualizing-complex"
 kind = "definition"
 title = "Relative dualizing complex"
 order = 733
-lean = ["AlgebraicGeometry.Etale.dualizingComplex"]
 uses = ["proposition-composition-open-restriction-compactifications-f"]
 +++
 For smooth $f:X\to Y$ and any admissible $\Lambda$, the

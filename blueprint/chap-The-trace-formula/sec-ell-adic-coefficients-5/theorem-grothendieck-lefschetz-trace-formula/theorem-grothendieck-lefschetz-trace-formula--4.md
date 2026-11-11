@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Trace formula: algebraically closed coefficients"
 order = 1018008
 aliases = ["bp-r311-4"]
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.weilTraceFormula"]
 +++
 For $K\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$ with the stated Weil structure and every $m\geq1$, one has in $\overline{\mathbf Q}_\ell$:
 

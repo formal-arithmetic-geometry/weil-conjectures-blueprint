@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Descent of morphisms"
 order = 649006
 aliases = ["bp-r198-3"]
-lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_homInj", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj"]
 uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3", "proposition-six-operations-change-coefficients--1"]
 +++
 Use the scalar extensions of [proposition-dctf-x-qbar-2-colimit--1].
