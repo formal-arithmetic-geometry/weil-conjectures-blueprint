@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-comparison-morphism-inverse-image--1"
 order = 112002
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2"]
 +++
 Since an étale morphism is weakly étale and an étale covering is a
 pro-étale covering, the inclusion is a continuous functor

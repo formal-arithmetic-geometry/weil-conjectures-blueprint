@@ -6,6 +6,7 @@ name_showing = false
 order = 1523001
 aliases = ["bp-r474-1"]
 lean = ["AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor"]
+uses = ["definition-relative-picard-functor", "definition-relative-picard-functor--1"]
 +++
 Suppose that $f$ has a section $\sigma:S\to C$ and that
 

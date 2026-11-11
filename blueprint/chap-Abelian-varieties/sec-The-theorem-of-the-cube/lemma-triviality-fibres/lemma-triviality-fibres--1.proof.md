@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-triviality-fibres--1"
 order = 1478003
-uses = ["lemma-schematic-closure-uniqueness--1", "lemma-uniqueness-maps-dense-open--1", "theorem-chow-s-lemma-projective-form--2"]
+uses = ["lemma-acyclic-resolutions--1", "lemma-schematic-closure-uniqueness--1", "lemma-uniqueness-maps-dense-open--1"]
 +++
 The proof uses only that $P_t$ is proper and integral with
 $H^0(P_t,\mathcal O_{P_t})=\kappa(t)$, which holds by [Stacks, [0BUG](https://stacks.math.columbia.edu/tag/0BUG)]

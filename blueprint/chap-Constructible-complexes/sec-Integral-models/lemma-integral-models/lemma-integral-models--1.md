@@ -5,7 +5,7 @@ title = "Restriction of scalars on complete complexes"
 order = 294002
 aliases = ["bp-r087-1"]
 lean = ["AlgebraicGeometry.ProEtale.IntegralModelsStacks.completion_transport", "AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-extremally-disconnected-covers--3"]
 +++
 Let $X$ be Noetherian and let $E/\mathbf Q_\ell$ be finite. Write $R$ for the
 constant sheaf $\mathcal O_E$, $B=\mathcal O_{E,X}$ and

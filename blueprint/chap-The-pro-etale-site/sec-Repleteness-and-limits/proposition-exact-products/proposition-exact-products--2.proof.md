@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-exact-products--2"
 order = 88004
+uses = ["proposition-exact-products--1"]
 +++
 The derived product is the termwise product of K-injective
 representatives (complexes $I$ such that maps from acyclic complexes to

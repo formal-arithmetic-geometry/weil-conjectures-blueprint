@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-dctf-x-qbar-2-colimit"
 order = 650
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "definition-lisse-sheaves", "lemma-acyclic-resolutions", "proposition-six-operations-change-coefficients"]
+uses = ["lemma-inverse-image-coefficient-sheaves", "proposition-ctf-equals-bc", "lemma-descent-lisse-qbar-sheaves-finite"]
 +++
 An equivalence with a $2$-colimit amounts to two statements, essential
 surjectivity on objects and a bijection on morphisms. Both are parts of

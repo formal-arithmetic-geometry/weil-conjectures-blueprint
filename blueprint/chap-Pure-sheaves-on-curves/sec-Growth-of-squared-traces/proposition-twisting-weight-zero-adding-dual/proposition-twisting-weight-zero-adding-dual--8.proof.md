@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-twisting-weight-zero-adding-dual--8"
 order = 1197015
-uses = ["theorem-trace-formula-euler-product--1", "lemma-filtrations-spectra--3", "proposition-weights-under-usual-operations--4"]
+uses = ["lemma-perfect-complexes-geometric-point--6", "lemma-filtrations-spectra--3", "proposition-weights-under-usual-operations--4"]
 +++
 At a $k_n$-point, the dual eigenvalues are the reciprocals of the eigenvalues of $\mathcal F^0$. By their absolute value one, their images under $\iota$ are the complex conjugates. Traces add on a direct sum, so the trace of $\mathcal E$ is the trace of $\mathcal F^0$ plus its complex conjugate, exactly twice its real part.
 

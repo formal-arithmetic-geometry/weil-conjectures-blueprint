@@ -5,7 +5,7 @@ title = "Horizontal pasting"
 order = 319004
 aliases = ["bp-r095-2"]
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz"]
-uses = ["definition-underived-base-change-map--1"]
+uses = ["definition-derived-base-change-map"]
 +++
 Let $A$ be a Grothendieck abelian category, for instance the category of
 $\Lambda$-modules, and let $K\in D^+(X_{\acute{e}t},A)$. Let

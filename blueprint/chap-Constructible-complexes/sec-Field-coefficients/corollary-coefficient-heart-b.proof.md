@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-coefficient-heart-b"
 order = 274
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-acyclic-resolutions"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "lemma-constructible-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 The first assertion is closure under cones, which we check on cohomology sheaves.
 Let $K\to K'\to K''\to K[1]$ be a distinguished triangle with $K,K'$ in

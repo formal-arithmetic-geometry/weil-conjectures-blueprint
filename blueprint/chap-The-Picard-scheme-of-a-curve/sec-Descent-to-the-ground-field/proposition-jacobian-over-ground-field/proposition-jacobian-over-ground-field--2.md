@@ -5,6 +5,7 @@ title = "Representation after field extension"
 order = 1565004
 aliases = ["bp-r488-2"]
 lean = ["AlgebraicGeometry.exists_representableBy_picardFunctorDegree_pullback_homEquiv"]
+uses = ["definition-relative-picard-functor", "definition-relative-picard-functor--2", "theorem-picard-scheme-jacobian-over-separably--5"]
 +++
 Let $X/k$ be proper and locally of finite presentation, let $k'/k$ be
 a field extension, and put $X'=X\times_kk'$. For every integer $d$,

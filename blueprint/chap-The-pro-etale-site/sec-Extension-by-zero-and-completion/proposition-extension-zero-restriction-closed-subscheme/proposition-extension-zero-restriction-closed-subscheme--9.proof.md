@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme--9"
 order = 201019
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--8", "proposition-pro-etale-coverings--2", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-exact-products--2"]
 +++
 *Step 3: products and derived inverse limits.* For
 $K\in D(U_{\mathrm{pro}\acute{e}t},j^*\mathcal R)$, applying the localization sequence to a

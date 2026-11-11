@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-local-constancy-finite-level"
 order = 239
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "definition-constructible-sheaves"]
 +++
 We first show that a model of a stalk spreads out to a neighbourhood, and
 then use connectedness to see that the model is the same everywhere.

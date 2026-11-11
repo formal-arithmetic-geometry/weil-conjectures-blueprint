@@ -6,6 +6,7 @@ name_showing = false
 order = 1034004
 aliases = ["bp-r316-3"]
 lean = ["LinearMap.inv_alternatingCharpolyRevProd_eq_exp"]
+uses = ["lemma-logarithm-determinant--2"]
 +++
 Then (12.5) holds for $P$, with
 $\operatorname{Tr}(v^m\mid V)$ replaced by the categorical trace

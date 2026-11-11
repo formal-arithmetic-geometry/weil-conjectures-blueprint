@@ -6,6 +6,7 @@ name_showing = false
 order = 126001
 aliases = ["bp-r036-1"]
 lean = ["AlgebraicGeometry.ProEtale.exists_cohomologyRestrictOver_eq_of_isLimit", "AlgebraicGeometry.ProEtale.exists_cohomologyRestrictOver_eq_zero_of_isLimit"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 Let $K\in D^+(X_{\acute{e}t},\Lambda)$, and let $U=\varprojlim_iU_i$ be a
 pro-étale affine with $U_i$ affine and étale over $X$. Then there is

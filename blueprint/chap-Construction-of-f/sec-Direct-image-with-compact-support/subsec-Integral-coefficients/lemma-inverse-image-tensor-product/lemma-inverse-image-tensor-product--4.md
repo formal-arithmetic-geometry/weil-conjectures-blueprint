@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Closed direct image"
 order = 494008
 aliases = ["bp-r149-4"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1"]
 +++
 Let $\Lambda$ be a commutative condensed ring, let $X$ be a scheme whose
 underlying topological space is Noetherian, and let $i:Z\hookrightarrow X$

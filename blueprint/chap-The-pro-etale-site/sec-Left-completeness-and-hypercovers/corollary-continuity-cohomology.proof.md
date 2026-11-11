@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-continuity-cohomology"
 order = 107
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis"]
 +++
 We compute both sides with one hypercover by weakly contractible affines,
 chosen independently of $i$. Because of the common lower bound $a$, each

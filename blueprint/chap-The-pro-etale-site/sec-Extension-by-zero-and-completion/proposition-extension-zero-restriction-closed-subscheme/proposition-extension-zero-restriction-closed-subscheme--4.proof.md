@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme--4"
 order = 201009
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2"]
 +++
 *Step 1: the functors $i^*$ and $i_*$.* The functor $i^*$ preserves
 limits, because evaluating $i^*M$ on a weakly contractible affine over $Z$

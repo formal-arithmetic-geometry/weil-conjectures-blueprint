@@ -6,6 +6,7 @@ name_showing = false
 order = 830007
 aliases = ["bp-r248-4"]
 lean = ["AlgebraicGeometry.Etale.nonempty_arrowIso_rightDerivedLowerStar_map_verdierDualDoubleDual"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "definition-verdier-dual-evaluation--2", "definition-verdier-dual-evaluation--4", "definition-compactification-refinement--1"]
 +++
 If $f$ is proper, then the composite
 

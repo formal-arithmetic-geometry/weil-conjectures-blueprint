@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Subobjects and quotients of Weil sheaves"
 order = 1071
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_mono"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights"]
 +++
 Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of
 weight $w$. Subquotients of a mixed sheaf are mixed, and a subquotient of

@@ -5,6 +5,7 @@ title = "Finite coefficients"
 order = 798002
 aliases = ["bp-r239-1"]
 lean = ["AlgebraicGeometry.Etale.canonicalSmoothPurityMap_baseChange", "AlgebraicGeometry.Etale.leftDerivedUpperStar_map_comp_smoothPullbackExchange_hom"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-exceptional-inverse-image-smooth-morphism", "definition-constructible-sheaves--6", "proposition-smooth-purity-finite-coefficients--1", "definition-compactification-refinement--1"]
 +++
 Let
 $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$. Identify the sources by

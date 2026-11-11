@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-sp-qbar"
 order = 792
-uses = ["proposition-exceptional-inverse-image-smooth-morphism", "lemma-change-coefficients-compact-support", "proposition-isomorphisms-reduce-finite-coefficients", "theorem-smooth-base-change-all-admissible", "definition-exceptional-base-change-map", "lemma-passing-schematic-closure"]
+uses = ["theorem-smooth-purity-all-admissible-coefficients"]
 +++
 As for $E$, we compare Hom groups, now as colimits over finite extensions
 instead of after inverting $\ell$.

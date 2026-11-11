@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-constructible-sheaves--7"
 order = 268015
-uses = ["definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--4", "lemma-stability--6", "lemma-stability--7", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--2", "definition-w-local-w-strictly-local--3", "proposition-w-local-components--1", "proposition-pro-etale-affines-form-basis--2", "lemma-constructible-sheaves--8", "definition-compactification-refinement--1"]
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "definition-local-cohomology--1", "definition-constructible-sheaves--5", "proposition-ctf-equals-bc--1", "lemma-constructible-sheaves--3", "lemma-constructible-sheaves--6", "lemma-constructible-sheaves--8", "definition-compactification-refinement--1"]
 +++
 (3) By Noetherian induction we refine the stratification of $F$ so that
 there is an open stratum $j:U\hookrightarrow X$ with closed complement

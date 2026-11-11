@@ -6,6 +6,7 @@ name_showing = false
 order = 1729003
 aliases = ["bp-r535-2"]
 lean = ["AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
+uses = ["lemma-normality-geometric-monodromy--1"]
 +++
 Moreover
 

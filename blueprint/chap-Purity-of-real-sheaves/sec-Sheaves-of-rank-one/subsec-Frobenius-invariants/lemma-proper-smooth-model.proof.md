@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-proper-smooth-model"
 order = 1095
-uses = ["lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness"]
 +++
 We compactify by Nagata's theorem and then normalize. On a curve,
 normality is the same as regularity, and over a perfect field

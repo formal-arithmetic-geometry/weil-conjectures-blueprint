@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-ind-constructible-sheaves--1"
 order = 453003
+uses = ["lemma-continuity-ext-out-constructible-complex", "lemma-inverse-image-coefficient-sheaves--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--4", "lemma-constructible-sheaves--6", "lemma-continuity-ext-out-constructible-complex--1"]
 +++
 *Finite presentation.* Constructible sheaves are finitely
 presented in $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$. Indeed,

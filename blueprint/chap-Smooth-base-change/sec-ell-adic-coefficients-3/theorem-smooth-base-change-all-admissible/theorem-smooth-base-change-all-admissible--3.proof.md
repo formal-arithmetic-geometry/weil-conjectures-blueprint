@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible--3"
 order = 701007
-uses = ["theorem-smooth-base-change-all-admissible--2", "proposition-isomorphisms-reduce-finite-coefficients--3"]
+uses = ["theorem-bounded-below-cohomology-comparison--2", "theorem-smooth-base-change-classical-torsion-2--1"]
 +++
 Apply the $E$ clause [proposition-isomorphisms-reduce-finite-coefficients--3] of the reduction principle, with the finite comparison established in clause [theorem-smooth-base-change-all-admissible--1]. The following argument checks the required compatibility for this specific base-change map.
 

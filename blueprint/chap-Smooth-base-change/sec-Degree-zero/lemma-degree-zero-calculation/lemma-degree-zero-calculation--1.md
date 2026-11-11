@@ -6,7 +6,7 @@ name_showing = false
 order = 667001
 aliases = ["bp-r201-1"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat", "AlgebraicGeometry.Etale.baseChangeProperty_zero"]
-uses = ["definition-derived-base-change-map--1"]
+uses = ["definition-underived-base-change-map--1", "definition-derived-base-change-map--1"]
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite
 presentation with geometrically reduced fibres, and that $f$ is qcqs.

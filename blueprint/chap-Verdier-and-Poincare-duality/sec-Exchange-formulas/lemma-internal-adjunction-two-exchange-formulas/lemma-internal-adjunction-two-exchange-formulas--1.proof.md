@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas--1"
 order = 830002
-uses = ["lemma-kunneth-formula-compact-supports--3"]
+uses = ["definition-derived-base-change-map", "definition-underived-base-change-map--1", "definition-derived-base-change-map--1", "definition-torsion-sheaves--1", "definition-torsion-sheaves--3", "lemma-acyclic-resolutions--1", "theorem-cohomology-curves--1", "theorem-cohomology-curves--2", "lemma-finiteness-small-etale-topoi--2", "proposition-proper-base-change-projective-line--1", "theorem-proper-base-change-classical-pro--1", "theorem-proper-base-change-classical-pro--2", "definition-relative-picard-functor--2", "lemma-finite-direct-images--2", "lemma-finite-morphisms-cohomology--2"]
 +++
 The adjunction $Rf_!\dashv f^!$ lives on the localizing
 categories $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ and $\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, and the functors in the argument preserve

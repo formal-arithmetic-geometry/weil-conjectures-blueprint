@@ -6,6 +6,7 @@ name_showing = false
 order = 88003
 aliases = ["bp-r023-2"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.products_derived", "DerivedCategory.isLimitFanMkQObj", "HomologicalComplex.isLimitFanHomology"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Let $\mathcal A$ be an abelian category and $I$ a set such that
 $I$-indexed products exist and are exact in $\mathcal A$. For a family

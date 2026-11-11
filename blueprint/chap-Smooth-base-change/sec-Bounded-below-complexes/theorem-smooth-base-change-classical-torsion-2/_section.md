@@ -3,7 +3,7 @@ id = "theorem-smooth-base-change-classical-torsion-2"
 kind = "theorem"
 title = "Smooth base change for classical torsion complexes"
 order = 694
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 In (8.1), let $g$ be smooth and $f$ quasi-compact and
 quasi-separated. Let $\Lambda$ be a discrete commutative ring

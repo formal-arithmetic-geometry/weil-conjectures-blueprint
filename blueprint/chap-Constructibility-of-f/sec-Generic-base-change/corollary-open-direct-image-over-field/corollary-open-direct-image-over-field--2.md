@@ -6,7 +6,7 @@ name_showing = false
 order = 586003
 aliases = ["bp-r178-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isOpenImmersion_of_field", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_isOpenImmersion_of_field", "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_field"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--2", "definition-derived-base-change-map--1", "definition-pro-etale-base-change-map--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-derived-base-change-map--1", "definition-pro-etale-base-change-map--1"]
 +++
 Let $k$ be a field and let $A$ be a commutative ring killed by a positive
 integer $n$ invertible in $k$. Let $j:X\hookrightarrow Y$ be an open

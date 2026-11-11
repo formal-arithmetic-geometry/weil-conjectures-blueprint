@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-base-change-all-admissible"
 order = 703
-uses = ["theorem-comparison-direct-images", "lemma-reduction-derived-nakayama", "proposition-inverting-ell", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "theorem-smooth-base-change-classical-torsion-2", "lemma-change-coefficients"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "lemma-reduction-derived-nakayama", "lemma-descent-finite-coefficient-field", "proposition-inverting-ell", "definition-derived-base-change-map", "lemma-naturality-pasting-comparison", "proposition-comparison-etale-derived-category", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "theorem-smooth-base-change-classical-torsion-2", "lemma-change-coefficients", "definition-compactification-refinement"]
 +++
 For finite rings the theorem is the torsion theorem once we know that $K$
 is classical, and the other rings follow by the reduction principle. By

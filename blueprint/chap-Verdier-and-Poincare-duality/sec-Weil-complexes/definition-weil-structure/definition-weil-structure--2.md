@@ -6,6 +6,6 @@ name_showing = false
 order = 876002
 aliases = ["bp-r263-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.WeilBoundedConstructible", "AlgebraicGeometry.Etale.WeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1", "lemma-inverse-image-tensor-product--1", "definition-weil-structure--3"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "lemma-inverse-image-coefficient-sheaves--1", "definition-constructible-sheaves--5", "definition-constructible-sheaves--6", "lemma-constructible-sheaves--8", "lemma-integral-models--3"]
 +++
 A *Weil complex* is a pair $(K,\phi_K)$ with this structure.

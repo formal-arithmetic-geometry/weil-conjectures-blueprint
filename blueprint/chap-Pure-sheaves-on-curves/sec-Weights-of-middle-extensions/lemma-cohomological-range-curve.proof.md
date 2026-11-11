@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-cohomological-range-curve"
 order = 1193
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-degree-zero-top-cohomology", "lemma-finite-quasi-finite-direct-images"]
 +++
 Choose a dense open $j:U\hookrightarrow C$ on which $F$ is lisse,
 and let $i$ be the inclusion of the finite complement. The sequence

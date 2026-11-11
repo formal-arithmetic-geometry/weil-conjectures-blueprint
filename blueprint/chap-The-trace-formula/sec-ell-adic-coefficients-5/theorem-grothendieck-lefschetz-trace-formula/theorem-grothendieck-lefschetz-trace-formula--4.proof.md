@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-grothendieck-lefschetz-trace-formula--4"
 order = 1018009
-uses = ["theorem-grothendieck-lefschetz-trace-formula--3"]
+uses = ["corollary-trace-functions-direct-image-compact--1"]
 +++
 For $\overline{\mathbf Q}_\ell$, complexes and morphisms are colimits of their versions over
 finite extensions, so it is enough to find the Weil complex over some

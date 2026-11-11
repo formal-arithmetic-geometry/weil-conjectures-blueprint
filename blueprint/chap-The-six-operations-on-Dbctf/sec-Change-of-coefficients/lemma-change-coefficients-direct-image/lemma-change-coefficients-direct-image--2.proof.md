@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-direct-image--2"
 order = 636005
+uses = ["lemma-acyclic-resolutions--1", "definition-sp-scalar-extension--2"]
 +++
 *Maps $\mathcal O_E\to A$ with $A$ finite.* Since $\mathcal O_E$ is a
 discrete valuation ring, $A$ has a finite free $\mathcal O_E$-resolution of

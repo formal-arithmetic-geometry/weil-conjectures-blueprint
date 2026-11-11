@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-change-coefficients-direct-image"
 order = 637
-uses = ["lemma-acyclic-resolutions"]
+uses = ["proposition-pro-etale-affines-form-basis", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "definition-sp-scalar-extension", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
 The argument depends on the kind of map $\Lambda\to\Lambda'$. For maps of finite rings we use a projection formula, whereas in the other cases extension of
 scalars is either a finite construction (finite sums and a cone), with

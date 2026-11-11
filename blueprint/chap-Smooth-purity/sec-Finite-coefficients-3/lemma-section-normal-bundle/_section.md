@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A section and its normal bundle"
 order = 749
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone"]
-uses = ["definition-relative-dualizing-complex", "definition-deformation-normal-bundle"]
+uses = ["definition-constructible-sheaves", "proposition-exceptional-inverse-image-smooth-morphism", "definition-deformation-normal-bundle", "definition-compactification-refinement"]
 +++
 There is a canonical isomorphism
 

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes--2"
 order = 487005
+uses = ["definition-lisse-sheaves", "lemma-stability--3", "proposition-exact-products--1", "definition-constructible-sheaves--1", "definition-constructible-sheaves--3", "definition-constructible-sheaves--4", "lemma-constructible-sheaves--3", "lemma-constructible-sheaves--6", "proposition-ind-constructible-sheaves--2", "proposition-ind-constructible-sheaves--3", "proposition-ind-constructible-sheaves--7", "lemma-proper-direct-image-unbounded-complexes--1", "definition-relative-picard-functor--2"]
 +++
 Apply the bounds of clause [lemma-proper-direct-image-unbounded-complexes--1].
 

@@ -6,6 +6,7 @@ name_showing = false
 order = 192001
 aliases = ["bp-r055-1"]
 lean = ["AlgebraicGeometry.ProEtale.continuousCohomology"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 Let $X$ be a scheme and $(F_n)$ an inverse system of abelian sheaves
 on $X_{\mathrm{pro}\acute{e}t}$ with epimorphic transition maps.

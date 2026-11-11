@@ -5,6 +5,7 @@ title = "Extremally disconnected spaces are totally separated"
 order = 53006
 aliases = ["bp-r011-3"]
 lean = ["Stonean.toProfinite", "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"]
+uses = ["definition-w-local-w-strictly-local--1"]
 +++
 Every extremally disconnected Hausdorff space is totally separated: any
 two distinct points are separated by a clopen subset. In particular, every

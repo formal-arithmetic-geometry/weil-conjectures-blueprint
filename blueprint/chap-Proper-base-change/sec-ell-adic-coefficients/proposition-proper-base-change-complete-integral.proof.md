@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-proper-base-change-complete-integral"
 order = 418
+uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "lemma-reduction-derived-nakayama", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 Theorem [theorem-proper-base-change-classical-pro] applies at each
 finite level, so the point is that $Rp_*$ and the completed inverse

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-base-change-rf-shriek--4"
 order = 516009
+uses = ["theorem-proper-base-change-classical-pro--2"]
 +++
 *Base change.* The base change map for $Rf_!=Rp_*j_!$ is built
 from one for each factor, so we treat $j_!$ and $Rp_*$ separately. Since open immersions and proper

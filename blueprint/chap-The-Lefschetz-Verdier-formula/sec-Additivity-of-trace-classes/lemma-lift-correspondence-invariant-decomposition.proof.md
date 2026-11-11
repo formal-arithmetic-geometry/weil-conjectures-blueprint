@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-lift-correspondence-invariant-decomposition"
 order = 938
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-construction-independence-rf-shriek"]
 +++
 By the hypothesis $c_1^{-1}(Z)\subset c_2^{-1}(Z)$, base change of
 $Rc_{1!}$ along $i$, and the adjunction $i^*\dashv Ri_*$, we have

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-extremally-disconnected-covers--2"
 order = 53005
+uses = ["lemma-extremally-disconnected-covers--1"]
 +++
 A profinite space is compact Hausdorff, so clause [lemma-extremally-disconnected-covers--1] gives a
 continuous surjection $S\to T$ with $S$ compact Hausdorff and extremally

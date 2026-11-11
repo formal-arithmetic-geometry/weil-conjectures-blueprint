@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f--6"
 order = 530013
+uses = ["proposition-sp-unique-adjoint--1"]
 +++
 (4) On $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$, $j^*$ is right adjoint to $j_!$ and $p^!$
 to $Rp_*=Rp_!$, so $j^*\circ p^!$ and $f^!$ are both right adjoint to

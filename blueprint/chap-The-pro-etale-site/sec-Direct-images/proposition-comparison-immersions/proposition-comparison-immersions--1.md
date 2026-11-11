@@ -6,7 +6,7 @@ name_showing = false
 order = 139001
 aliases = ["bp-r040-1"]
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 Let $A$ be a Grothendieck abelian category. For an open immersion
 $j:U\hookrightarrow X$, there is a canonical isomorphism

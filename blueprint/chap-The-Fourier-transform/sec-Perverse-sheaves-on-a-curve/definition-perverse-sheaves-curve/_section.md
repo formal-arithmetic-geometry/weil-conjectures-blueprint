@@ -3,6 +3,7 @@ id = "definition-perverse-sheaves-curve"
 kind = "definition"
 title = "Perverse sheaves on a curve"
 order = 1250
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-perfect-complexes-geometric-point", "definition-punctual-sheaf"]
 +++
 Let $\Lambda$ be $E$ or $\overline{\mathbf Q}_\ell$. Define two classes of objects of $D^b_c(C_{\mathrm{pro}\acute{e}t},\Lambda)$ by
 

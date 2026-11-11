@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Injectivity of the base change map in degree $q$"
 order = 673
 lean = ["AlgebraicGeometry.Etale.UniversalBaseChangeProperty.mono_baseChangeHomologyMap_and_cokernel"]
+uses = ["definition-derived-base-change-map"]
 +++
 Suppose $q\geq1$ and $\mathrm{BC}(g,n,q-1)$ holds. For every square
 obtained by base change as in the definition of $\mathrm{BC}$ and every

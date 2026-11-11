@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Sections with closed support"
 order = 277
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.formal_closed_support_derived", "AlgebraicGeometry.ProEtale.CondensedRing.formal_closed_support_adjunction"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves"]
 +++
 Let $\Lambda$ be admissible, let $i:Z\hookrightarrow X$ be a
 closed immersion with open complement $j:V\hookrightarrow X$, and let

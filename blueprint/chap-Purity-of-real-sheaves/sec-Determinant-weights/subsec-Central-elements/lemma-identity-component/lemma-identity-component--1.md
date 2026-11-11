@@ -5,6 +5,7 @@ title = "The product for closed subgroups"
 order = 1136001
 aliases = ["bp-r348-1"]
 lean = ["AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_commutator_mem", "AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_containsCommutators", "AlgebraicGeometry.GeneralLinearGroup.surjective_mulCenterIdentityComponent"]
+uses = ["lemma-normality-geometric-monodromy--1"]
 +++
 Let $k$ be an algebraically closed field of characteristic zero and let
 $H\subseteq G\subseteq\GL(k^n)$ be closed subgroup schemes. Put

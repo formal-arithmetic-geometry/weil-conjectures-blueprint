@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-composition-cancellation--1"
 order = 389003
+uses = ["definition-derived-base-change-map", "lemma-identity-pasting--3", "definition-torsion-sheaves--1"]
 +++
 Use Theorem [theorem-pbc-injective-acyclicity] to pass between the base-change and injective-acyclicity conditions.
 

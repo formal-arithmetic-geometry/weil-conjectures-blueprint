@@ -6,6 +6,7 @@ name_showing = false
 order = 157001
 aliases = ["bp-r045-1"]
 lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension"]
+uses = ["definition-small-pro-etale-site--1", "definition-classical-pro-etale-sheaves--1"]
 +++
 For a qcqs scheme $S$ and a qcqs morphism $g:X\to Y$, the
 *$\ell$-cohomological dimensions* are

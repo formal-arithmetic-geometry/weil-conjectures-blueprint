@@ -5,6 +5,7 @@ title = "Weakly etale on affine charts"
 order = 32016
 aliases = ["bp-r003-8"]
 lean = ["Algebra.weaklyEtale_iff", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty", "AlgebraicGeometry.weaklyEtale_SpecMap_algebraMap_iff"]
+uses = ["definition-ind-etale-pro-etale-weakly--3"]
 +++
 A morphism $\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is weakly
 étale if and only if both

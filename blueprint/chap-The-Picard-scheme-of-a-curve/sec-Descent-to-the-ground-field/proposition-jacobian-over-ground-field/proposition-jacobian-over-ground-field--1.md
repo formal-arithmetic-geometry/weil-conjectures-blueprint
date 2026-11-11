@@ -5,6 +5,7 @@ title = "The Jacobian over the ground field"
 order = 1565002
 aliases = ["bp-r488-1"]
 lean = ["AlgebraicGeometry.exists_commGrpObj_representableBy_picardFunctorDegree"]
+uses = ["definition-relative-picard-functor", "definition-relative-picard-functor--2"]
 +++
 There is a commutative group scheme $J_0/k$, proper, smooth of relative
 dimension $g$ and geometrically integral, representing

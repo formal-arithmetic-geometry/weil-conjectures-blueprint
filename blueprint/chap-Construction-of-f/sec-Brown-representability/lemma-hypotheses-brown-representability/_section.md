@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Hypotheses of Brown representability"
 order = 523
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.compactlyGeneratesLocalizingClosure_constructibleFiniteTor", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.compactlyGenerates_padicAlgClRingObj", "CategoryTheory.brownHypotheses"]
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-localizing-subcategory"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "definition-cohomological-dimension", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-constructible-sheaves", "definition-localizing-subcategory"]
 +++
 For every admissible $\Lambda$, the category $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$
 is locally small and triangulated, has arbitrary direct sums, and

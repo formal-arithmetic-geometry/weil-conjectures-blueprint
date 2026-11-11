@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree--3"
 order = 866007
+uses = ["theorem-proper-base-change-classical-pro--2"]
 +++
 The finite-coefficient vanishing bound is clause [theorem-trace-isomorphism-top-degree--2].
 

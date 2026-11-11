@@ -6,7 +6,7 @@ name_showing = false
 order = 1169001
 aliases = ["bp-r359-1"]
 lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_of_isConstituent_of_isReal", "AlgebraicGeometry.WeilSheaf.IsReal.exists_isPunctuallyPureOfWeight_cokernel_detWeight"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--1", "definition-weil-structure--3", "theorem-grothendieck-lefschetz-trace-formula--6", "definition-weights--2", "definition-determinant-weight--1", "definition-real-sheaves--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-perfect-complexes-geometric-point--6", "definition-weights--2", "definition-determinant-weight--1", "definition-weil-representation--1", "definition-real-sheaves--1"]
 +++
 Let $C_0$ be a smooth geometrically connected curve over $\mathbf F_q$,
 and let $\mathcal G$ be an $\iota$-real lisse Weil sheaf on $C_0$.

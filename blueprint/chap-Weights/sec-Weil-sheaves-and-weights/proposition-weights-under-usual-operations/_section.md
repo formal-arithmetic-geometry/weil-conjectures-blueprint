@@ -3,7 +3,7 @@ id = "proposition-weights-under-usual-operations"
 kind = "proposition"
 title = "Weights under the usual operations"
 order = 1073
-uses = ["lemma-stability", "proposition-six-operations-change-coefficients"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "definition-weights"]
 +++
 Extensions of mixed sheaves are mixed, and an extension of two sheaves with a common upper bound has the same
 bound.  Tensor products of pure sheaves of weights $a$ and $b$ are pure

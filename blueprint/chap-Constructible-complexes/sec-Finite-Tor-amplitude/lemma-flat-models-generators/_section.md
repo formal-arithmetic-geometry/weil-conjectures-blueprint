@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Flat models and generators"
 order = 255
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_eq_triangEnvelope_ctfGenerators_of_isNoetherian", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_iff_exists_flatModel"]
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image"]
+uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "definition-compactification-refinement"]
 +++
 Every $C\in D^b_{\mathrm{ctf}}(X,A)$ on $X_{\mathrm{pro}\acute{e}t}$ is represented by a bounded complex of
 flat constructible $A$-sheaves. A flat constructible sheaf has a finite

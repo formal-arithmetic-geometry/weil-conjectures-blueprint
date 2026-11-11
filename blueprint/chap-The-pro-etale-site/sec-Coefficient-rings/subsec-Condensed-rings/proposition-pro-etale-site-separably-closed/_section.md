@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The pro-étale site of a separably closed field"
 order = 173
 lean = ["AlgebraicGeometry.ProEtale.constantSheafIsoContinuousMapAddSheaf", "AlgebraicGeometry.ProEtale.isEquivalence_upperStarFromPoint", "AlgebraicGeometry.ProEtale.geometric_field_proetale_evaluation"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers"]
 +++
 Let $\Omega$ be a separably closed field. The category of pro-étale
 affines over $\operatorname{Spec}\Omega$ is equivalent to the category

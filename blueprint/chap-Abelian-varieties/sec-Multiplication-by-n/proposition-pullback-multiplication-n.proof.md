@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-pullback-multiplication-n"
 order = 1504
+uses = ["theorem-theorem-cube", "lemma-abelian-variety-commutative"]
 +++
 The idea is to produce one
 trivial sheaf $\mathcal M$ on $A\times A\times A$ by the theorem of the

@@ -5,7 +5,7 @@ title = "Vertical pasting"
 order = 319006
 aliases = ["bp-r095-3"]
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
-uses = ["definition-underived-base-change-map--1"]
+uses = ["definition-derived-base-change-map"]
 +++
 Let $A$ be a Grothendieck abelian category, for instance the category of
 $\Lambda$-modules, and let $K\in D^+(X_{\acute{e}t},A)$. For composable maps

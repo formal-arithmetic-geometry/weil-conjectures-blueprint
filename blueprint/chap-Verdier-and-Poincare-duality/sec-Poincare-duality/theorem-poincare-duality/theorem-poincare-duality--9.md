@@ -6,6 +6,7 @@ name_showing = false
 order = 857016
 aliases = ["bp-r257-9"]
 lean = ["AlgebraicGeometry.Etale.map_poincarePairing", "AlgebraicGeometry.Etale.adicReconstruction_scalarExtension"]
+uses = ["lemma-smooth-morphisms-locally-constant-sheaves--2", "definition-compactification-refinement--1", "lemma-schematic-closure-uniqueness--1"]
 +++
 For a map $\Lambda\to\Lambda'$ of admissible coefficient
 rings, the change-of-coefficients isomorphisms of

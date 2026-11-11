@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-completed-coefficients--1"
 order = 178002
+uses = ["proposition-topos-functoriality--1", "lemma-extremally-disconnected-covers--3"]
 +++
 On the point, $\underline{\mathcal O_E}$ is represented by the profinite
 set $\mathcal O_E=\varprojlim_n\mathcal O_E/\pi_E^n$, so its pullback to

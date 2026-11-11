@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models--4"
 order = 294009
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "lemma-inverse-image-coefficient-sheaves--1", "lemma-integral-models--3", "lemma-integral-models--5", "lemma-inverse-image-tensor-product--6", "proposition-sp-unique-adjoint--1"]
 +++
 (3) By Proposition [proposition-integral-constructibility-criterion], an object of
 $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ lies in $\Dbc(X,\mathcal O_E)$ if and only if

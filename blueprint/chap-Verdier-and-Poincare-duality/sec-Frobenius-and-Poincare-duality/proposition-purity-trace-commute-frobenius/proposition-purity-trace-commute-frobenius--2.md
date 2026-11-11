@@ -6,6 +6,7 @@ name_showing = false
 order = 882003
 aliases = ["bp-r265-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_upperShriekBaseChangeMap"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "definition-compactification-refinement--1"]
 +++
 and its base change comparisons identify
 

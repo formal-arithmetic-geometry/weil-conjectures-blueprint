@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-open-direct-image-over-field--1"
 order = 586002
-uses = ["theorem-generic-constructibility-base-change-rj--2", "definition-compactification-refinement--1"]
+uses = ["theorem-generic-constructibility-base-change-rj--1", "definition-compactification-refinement--1"]
 +++
 Let $n$ be a positive integer killing $A$ and invertible in $k$. The
 finite ring $A$ is the product of its $\ell$-primary parts $A_\ell$ for the

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-exceptional-inverse-image-smooth-morphism--8"
 order = 562017
+uses = ["proposition-construction-independence-rf-shriek--7", "proposition-composition-base-change-rf-shriek--4", "definition-compactification-refinement--3", "lemma-schematic-closure-uniqueness--2"]
 +++
 Use the comparison of clause [proposition-exceptional-inverse-image-smooth-morphism--7].
 

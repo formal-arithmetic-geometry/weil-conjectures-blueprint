@@ -4,7 +4,7 @@ kind = "definition"
 title = "Local cohomology"
 order = 204
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves"]
 +++
 The *local cohomology functor*
 $R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},\mathcal R)\to D(Z_{\mathrm{pro}\acute{e}t},i^*\mathcal R)$

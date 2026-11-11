@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-w-contractible-affines-projective"
 order = 70
-uses = ["lemma-stability", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
+uses = ["lemma-stability", "proposition-pro-etale-coverings", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
 +++
 For the equivalence of the three conditions on an object $W$: by the
 Yoneda lemma, $h_W$ is projective exactly when every epimorphism $F\to G$

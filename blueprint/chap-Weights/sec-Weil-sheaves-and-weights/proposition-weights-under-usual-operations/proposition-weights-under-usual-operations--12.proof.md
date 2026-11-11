@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-weights-under-usual-operations--12"
 order = 1073024
-uses = ["definition-weil-structure--1", "theorem-grothendieck-lefschetz-trace-formula--6", "lemma-subobjects-quotients-weil-sheaves--2"]
+uses = ["lemma-perfect-complexes-geometric-point--6", "lemma-subobjects-quotients-weil-sheaves--2"]
 +++
 At a closed point $x$, the rank-one twist has eigenvalue $b^{\deg(x)}$. Its normalized weight is $2\log_q|\iota(b)|$. Tensoring multiplies each eigenvalue by this number, so its weight increases by that constant. The same calculation on each graded piece proves the assertion for mixed weights.
 

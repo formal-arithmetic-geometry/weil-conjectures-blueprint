@@ -6,7 +6,7 @@ name_showing = false
 order = 210001
 aliases = ["bp-r062-1"]
 lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution", "AlgebraicGeometry.ProEtale.PrincipalNormalization.principal_cone_tensor_normalization"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, let $X$ be a scheme, and let $n\geq1$.
 For $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, put

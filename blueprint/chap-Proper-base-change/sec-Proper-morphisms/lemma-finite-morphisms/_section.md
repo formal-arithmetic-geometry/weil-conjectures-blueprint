@@ -3,6 +3,7 @@ id = "lemma-finite-morphisms"
 kind = "lemma"
 title = "Finite morphisms and base change"
 order = 384
+uses = ["definition-underived-base-change-map", "definition-derived-base-change-map"]
 +++
 Let $u:V\to W$ be finite. The formation of $u_*$ on abelian sheaves
 commutes with arbitrary base change: for every base change $W'\to W$, the

@@ -5,6 +5,7 @@ title = "Geometric points"
 order = 1565008
 aliases = ["bp-r488-4"]
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
+uses = ["definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "definition-compactification-refinement--1", "definition-relative-picard-functor--2", "theorem-picard-scheme-jacobian-over-separably--5"]
 +++
 The representation $r$ induces a group isomorphism
 

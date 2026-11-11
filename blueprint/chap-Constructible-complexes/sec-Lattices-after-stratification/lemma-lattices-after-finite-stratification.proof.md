@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-lattices-after-finite-stratification"
 order = 291
-uses = ["proposition-etale-implications", "proposition-topos-functoriality", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-comparison-morphism-inverse-image", "proposition-locally-constant-sheaves-finite-presentation", "lemma-schematic-closure-uniqueness"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-lattices-lisse-e-sheaves", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Let $Y\to X$ be the étale $X$-scheme representing lattices in $L$
 (Lemma [lemma-lattices-lisse-e-sheaves]), with its universal lattice.

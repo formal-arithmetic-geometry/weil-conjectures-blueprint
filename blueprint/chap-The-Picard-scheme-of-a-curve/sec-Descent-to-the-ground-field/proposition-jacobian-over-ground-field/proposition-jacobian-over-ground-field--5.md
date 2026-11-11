@@ -5,7 +5,7 @@ title = "Galois equivariance"
 order = 1565010
 aliases = ["bp-r488-5"]
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
-uses = ["definition-compactification-refinement--1", "theorem-picard-scheme-jacobian-over-separably--5", "corollary-degree-jacobian--1"]
+uses = ["definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "definition-compactification-refinement--1", "definition-relative-picard-functor--2", "theorem-picard-scheme-jacobian-over-separably--5"]
 +++
 For every $\sigma\in\operatorname{Gal}(\bar k/k)$, let
 $\gamma:C\to C$ be the automorphism over $C_0$ lying over

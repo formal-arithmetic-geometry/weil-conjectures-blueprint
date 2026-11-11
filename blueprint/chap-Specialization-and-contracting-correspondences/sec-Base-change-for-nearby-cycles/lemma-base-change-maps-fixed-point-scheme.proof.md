@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-base-change-maps-fixed-point-scheme"
 order = 1673
+uses = ["proposition-proper-direct-image-constructible-complexes", "theorem-nagata-s-compactification-theorem"]
 +++
 The inverse of the base
 change map, $Ri_*d^!\to c^!R\Delta_*$, is adjoint to the explicit map

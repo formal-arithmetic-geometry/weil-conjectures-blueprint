@@ -3,6 +3,7 @@ id = "lemma-naturality-under-base-change-etale"
 kind = "lemma"
 title = "Naturality under base change and étale maps"
 order = 752
+uses = ["definition-constructible-sheaves", "proposition-exceptional-inverse-image-smooth-morphism", "definition-deformation-normal-bundle", "definition-compactification-refinement"]
 +++
 Write $\alpha_{g,s}:s^*\omega_g\xrightarrow{\sim}z^*\omega_\pi$
 for the comparison of Lemma [lemma-section-normal-bundle].

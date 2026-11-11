@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme"
 order = 202
-uses = ["proposition-etale-implications", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products"]
 +++
 The special feature of the pro-étale site is that $i^*$ preserves
 limits; we prove this first, deduce exactness of $j_!$ from the

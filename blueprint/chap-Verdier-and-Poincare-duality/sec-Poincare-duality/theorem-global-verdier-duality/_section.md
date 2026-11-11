@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Global Verdier duality"
 order = 852
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_ihom_compactlySupportedGlobalSections_verdierDual", "AlgebraicGeometry.Etale.globalVerdierDualityIso"]
-uses = ["definition-relative-dualizing-complex", "lemma-schematic-closure-uniqueness"]
+uses = ["lemma-smooth-morphisms-locally-constant-sheaves", "definition-verdier-dual-evaluation", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Suppose $k$ is algebraically closed. For every
 $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ there are natural isomorphisms

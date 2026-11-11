@@ -6,6 +6,7 @@ name_showing = false
 order = 402001
 aliases = ["bp-r122-1"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology"]
+uses = ["definition-derived-base-change-map", "definition-torsion-sheaves--1"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper
 morphism of schemes, and let $g:Y'\to Y$ be arbitrary. Set

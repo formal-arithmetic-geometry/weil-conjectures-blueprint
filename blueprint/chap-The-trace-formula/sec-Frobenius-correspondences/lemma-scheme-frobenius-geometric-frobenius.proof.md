@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-scheme-frobenius-geometric-frobenius"
 order = 955
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-pro-etale-refinements-weakly-etale", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-sp-unique-adjoint", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
 absolute Frobenius, and pullback along the absolute Frobenius is

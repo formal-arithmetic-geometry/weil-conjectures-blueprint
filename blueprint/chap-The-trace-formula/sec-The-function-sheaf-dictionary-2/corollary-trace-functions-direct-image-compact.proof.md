@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-trace-functions-direct-image-compact"
 order = 1026
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "lemma-extremally-disconnected-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "proposition-pro-etale-site-separably-closed", "definition-pro-etale-base-change-map", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "lemma-perfect-complexes-geometric-point", "definition-frobenius-operator", "definition-categorical-trace", "proposition-properties-trace", "definition-trace-class-local-terms", "definition-action-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "definition-frobenius-correspondences-their-operators", "lemma-scheme-frobenius-geometric-frobenius", "lemma-frobenius-fixed-scheme", "proposition-frobenius-local-term-curve", "lemma-comparison-via-relative-frobenius", "theorem-nagata-s-compactification-theorem", "lemma-finite-direct-images"]
 +++
 The left side is a trace on a stalk of $Rf_!K$. By base change that
 stalk is the compactly supported cohomology of a fibre. Hence the corollary

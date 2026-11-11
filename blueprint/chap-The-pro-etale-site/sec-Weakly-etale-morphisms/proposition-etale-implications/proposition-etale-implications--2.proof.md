@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-etale-implications--2"
 order = 29005
+uses = ["lemma-stability--8"]
 +++
 For (2) we show that $R\to B$ is unramified, which together with
 flatness and finite presentation means that it is étale. The

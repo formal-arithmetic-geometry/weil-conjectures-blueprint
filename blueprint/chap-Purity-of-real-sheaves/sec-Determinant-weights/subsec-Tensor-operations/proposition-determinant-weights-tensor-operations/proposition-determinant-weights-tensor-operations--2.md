@@ -6,7 +6,7 @@ name_showing = false
 order = 1148004
 aliases = ["bp-r352-2"]
 lean = ["Representation.CompositionSeries.exteriorPower_detWeight", "AlgebraicGeometry.WeilGroup.detWeight_subquotient_exteriorPower"]
-uses = ["definition-determinant-weight--1"]
+uses = ["definition-determinant-weight--1", "definition-weil-representation--1"]
 +++
 $\operatorname{DW}(\bigwedge^rV)=\bigl\{\sum_an_a\gamma_a :
       0\le n_a\le\dim A_a,\ \sum_an_a=r\bigr\}$ for $0\le r\le\dim V$.

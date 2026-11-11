@@ -6,7 +6,7 @@ name_showing = false
 order = 1141001
 aliases = ["bp-r350-1"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
-uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2"]
+uses = ["definition-monodromy-groups--1", "definition-monodromy-groups--2", "lemma-normality-geometric-monodromy--1"]
 +++
 Let $k$ be an algebraically closed field of characteristic zero, let $W$
 be a group with a surjective homomorphism $\deg:W\to\mathbf Z$, and choose

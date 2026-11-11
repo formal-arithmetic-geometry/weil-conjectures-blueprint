@@ -6,6 +6,7 @@ name_showing = false
 order = 375001
 aliases = ["bp-r114-1"]
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField"]
+uses = ["definition-torsion-sheaves--1"]
 +++
 Let $R$ be a henselian local ring with residue field $\kappa$. For every
 torsion abelian sheaf $F$ on $\mathbf P^1_{R,\acute{e}t}$, restriction

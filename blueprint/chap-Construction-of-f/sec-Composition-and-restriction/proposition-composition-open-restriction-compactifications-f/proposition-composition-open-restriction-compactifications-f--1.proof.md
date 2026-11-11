@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-composition-open-restriction-compactifications-f--1"
 order = 530003
-uses = ["lemma-inverse-image-tensor-product--3", "proposition-composition-base-change-rf-shriek--1"]
+uses = ["proposition-composition-base-change-rf-shriek--1", "proposition-sp-unique-adjoint--1"]
 +++
 Each statement is the right adjoint of a statement about lower shriek
 functors already proved, and we conclude by uniqueness of adjoints.

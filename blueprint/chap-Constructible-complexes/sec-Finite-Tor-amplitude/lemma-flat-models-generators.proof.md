@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-flat-models-generators"
 order = 256
-uses = ["definition-derived-base-change-map", "proposition-proper-base-change-degree-zero", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "proposition-proper-base-change-projective-line", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
+uses = ["lemma-schematic-closure-uniqueness", "lemma-finite-direct-images"]
 +++
 The flat model exists on the étale site by a classical result, and we
 pull it back. The generators then come from two filtrations: the stupid

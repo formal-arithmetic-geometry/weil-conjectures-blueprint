@@ -5,6 +5,7 @@ title = "The category comparison"
 order = 649002
 aliases = ["bp-r198-1"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
+uses = ["lemma-descent-finite-coefficient-field", "definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-pro-etale-site-separably-closed--3", "lemma-constructible-sheaves--8"]
 +++
 Extension of scalars identifies
 

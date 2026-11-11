@@ -3,7 +3,7 @@ id = "corollary-degree-jacobian"
 kind = "corollary"
 title = "Degree and the Jacobian"
 order = 1555
-uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor"]
+uses = ["definition-abelian-variety", "definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably"]
 +++
 Let $C$ be a smooth proper connected curve over an algebraically closed
 field $k$. There is an exact sequence

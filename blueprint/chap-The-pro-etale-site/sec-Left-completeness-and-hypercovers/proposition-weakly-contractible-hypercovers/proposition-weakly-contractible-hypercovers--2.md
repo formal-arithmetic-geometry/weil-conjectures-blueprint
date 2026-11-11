@@ -6,6 +6,7 @@ name_showing = false
 order = 103003
 aliases = ["bp-r028-2"]
 lean = ["AlgebraicGeometry.Scheme.ProEt.hypercover_computes_boundedBelow_complex"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--1"]
 +++
 If
 $K\in D^+(X_{\mathrm{pro}\acute{e}t},\mathcal R)$ is represented by a complex

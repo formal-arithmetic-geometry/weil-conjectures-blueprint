@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-cohomology-multiplicative-group--8"
 order = 1576017
-uses = ["definition-small-pro-etale-site--1"]
 +++
 The divisor sequence is a short exact sequence
 

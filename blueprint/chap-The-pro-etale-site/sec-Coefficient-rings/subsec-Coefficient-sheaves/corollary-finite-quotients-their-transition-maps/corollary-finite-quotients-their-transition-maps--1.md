@@ -6,6 +6,7 @@ name_showing = false
 order = 181001
 aliases = ["bp-r052-1"]
 lean = ["AlgebraicGeometry.ProEtale.shortExact_continuousMapReductionShortComplex"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
 +++
 For every $n\geq1$ there is a canonical exact sequence on $X_{\mathrm{pro}\acute{e}t}$
 

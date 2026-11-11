@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-forgetting-supports-composition--2"
 order = 519004
+uses = ["theorem-proper-base-change-classical-pro--2", "definition-compactification-refinement--3", "lemma-schematic-closure-uniqueness--1", "lemma-schematic-closure-uniqueness--2"]
 +++
 Independence of the compactification reduces to a refinement $h:Z'\to Z$. The two maps
 $j_!K\to Rh_*Rj'_*K=Rj_*K$ obtained from

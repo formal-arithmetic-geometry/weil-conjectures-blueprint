@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-comparison-morphism-inverse-image"
 order = 113
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-affines-form-basis"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis"]
 +++
 The morphism $\nu_X$ is formal. For the formula, we write down the
 right-hand side of (2.5), check that it

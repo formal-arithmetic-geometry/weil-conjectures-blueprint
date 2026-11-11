@@ -5,7 +5,7 @@ title = "Affine acyclicity of the additive group"
 order = 1592007
 aliases = ["bp-r495-4"]
 lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--1"]
 +++
 For any affine scheme $X$, the sheaf $\mathbf G_a$ on $X_{\acute{e}t}$
 has no positive-degree cohomology:

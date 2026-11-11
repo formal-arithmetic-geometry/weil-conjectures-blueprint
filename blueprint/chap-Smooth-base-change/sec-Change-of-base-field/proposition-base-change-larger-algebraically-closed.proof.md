@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-base-change-larger-algebraically-closed"
 order = 690
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "lemma-acyclic-resolutions", "proposition-cohomology-p-1-over-henselian", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian"]
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "lemma-proper-smooth-model", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "proposition-cohomology-smooth-affine-curve", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
 We describe $R^qh_*$ as a sheafification and show that each local class
 dies after a suitable étale covering. In degrees at least two this is

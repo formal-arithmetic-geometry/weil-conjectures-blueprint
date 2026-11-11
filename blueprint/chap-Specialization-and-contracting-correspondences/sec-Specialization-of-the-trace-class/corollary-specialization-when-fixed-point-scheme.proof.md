@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-specialization-when-fixed-point-scheme"
 order = 1699
-uses = ["lemma-composition-exceptional-base-change-maps", "lemma-normal-cones-contracting-ideals"]
+uses = ["lemma-comparison-completed-coefficients", "theorem-nagata-s-compactification-theorem", "lemma-nearby-cycles-constant-family", "lemma-composition-exceptional-base-change-maps"]
 +++
 By naturality it suffices to show that
 $\theta_Y\sigma_Y(\omega_Y)$ is the identity of $\omega_Y$. For proper

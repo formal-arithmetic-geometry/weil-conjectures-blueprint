@@ -6,6 +6,7 @@ name_showing = false
 order = 431001
 aliases = ["bp-r130-1"]
 lean = ["CategoryTheory.ObjectProperty.localizingClosure", "CategoryTheory.ObjectProperty.isLocalizing_localizingClosure", "AlgebraicGeometry.ProEtale.DerivedCategory.localizingConstructibleFiniteTor", "AlgebraicGeometry.ProEtale.CondensedRing.localizingBoundedConstructible", "AlgebraicGeometry.ProEtale.localizingClosureProEtale"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-constructible-sheaves--4", "definition-constructible-sheaves--6", "lemma-constructible-sheaves--8"]
 +++
 For admissible $\Lambda$, let $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ be
 the smallest full triangulated subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$

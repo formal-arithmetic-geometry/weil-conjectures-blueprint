@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-sp-reduction--1"
 order = 769003
+uses = ["definition-change-of-coefficients-maps--5", "lemma-change-coefficients-compact-support--1"]
 +++
 The map $b$ is the change of coefficients for $Rf_!$ (Proposition [proposition-six-operations-change-coefficients]).
 Extension by zero commutes with $-\otimes^{\mathbf L}_AB$. For $R\bar f_*$ we resolve

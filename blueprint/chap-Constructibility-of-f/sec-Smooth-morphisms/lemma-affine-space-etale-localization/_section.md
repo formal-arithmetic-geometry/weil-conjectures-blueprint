@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Affine space and étale localization"
 order = 558
 lean = ["AlgebraicGeometry.Etale.affineSpaceAdjunction_baseChange", "AlgebraicGeometry.Etale.nonempty_rightDerivedLowerShriek_adjunction_affineSpace", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftDerivedUpperStar_of_etale"]
-uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-constructible-sheaves", "definition-underived-base-change-map", "theorem-proper-base-change-classical-pro", "proposition-construction-independence-rf-shriek", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-finite-direct-images"]
 +++
 Let $S$ be of finite type over the base field $k$.
 

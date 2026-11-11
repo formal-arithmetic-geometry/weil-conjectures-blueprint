@@ -6,6 +6,7 @@ name_showing = false
 order = 477001
 aliases = ["bp-r145-1"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_sigmaComparison_rightDerivedLowerStar_of_etaleOriginHomology"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--2", "definition-relative-picard-functor--2"]
 +++
 Let $A$ be a finite admissible ring and let $p:X\to Y$ be proper. The
 functor $Rp_*$ restricts to an exact functor

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-extension-separably-closed-ground-field"
 order = 365
-uses = ["lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "proposition-cohomology-p-1-over-henselian", "lemma-degree-zero-calculation", "lemma-reduction-field", "lemma-reduction-curve-over-normal-base", "proposition-base-change-larger-algebraically-closed", "lemma-schematic-closure-uniqueness", "remark-non-noetherian-compactifications", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "definition-relative-picard-functor", "corollary-degree-jacobian", "proposition-p-torsion-smooth-proper-curve", "lemma-normalization-constant-sheaf", "lemma-removing-finitely-many-points", "lemma-reduction-unipotent-local-system"]
+uses = ["theorem-cohomology-curves"]
 +++
 A purely inseparable extension does not change the étale topos, which
 allows us to replace $k$ and $k'$ by their algebraic closures and then

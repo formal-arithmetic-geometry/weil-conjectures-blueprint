@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-theorem-cube"
 order = 1490
-uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness", "lemma-triviality-near-fibre"]
+uses = ["definition-compactification-refinement", "lemma-triviality-fibres", "lemma-triviality-near-fibre"]
 +++
 The local trivializations are glued by
 Corollary [corollary-triviality-over-open-cover-base], which shows

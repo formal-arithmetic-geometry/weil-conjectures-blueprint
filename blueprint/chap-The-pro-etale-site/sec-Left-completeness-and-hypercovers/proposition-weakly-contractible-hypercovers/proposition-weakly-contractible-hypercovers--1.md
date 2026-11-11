@@ -6,6 +6,7 @@ name_showing = false
 order = 103001
 aliases = ["bp-r028-1"]
 lean = ["AlgebraicGeometry.exists_proetale_hypercover_single_affine"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4"]
 +++
 Let $U$ be a quasi-compact, quasi-separated object of $X_{\mathrm{pro}\acute{e}t}$.
 There is a hypercover $W_\bullet\to U$ whose term in every simplicial

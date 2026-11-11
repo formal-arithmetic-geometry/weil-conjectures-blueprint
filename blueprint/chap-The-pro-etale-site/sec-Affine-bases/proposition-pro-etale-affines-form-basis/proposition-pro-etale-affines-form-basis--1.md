@@ -6,6 +6,7 @@ name_showing = false
 order = 66001
 aliases = ["bp-r015-1"]
 lean = ["AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt"]
+uses = ["definition-ind-etale-pro-etale-weakly--2", "definition-small-pro-etale-site--1"]
 +++
 Every object of $X_{\mathrm{pro}\acute{e}t}$ has a pro-étale covering by
 pro-étale affines over $X$.

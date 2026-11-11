@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The topos and its functoriality"
 order = 39
 lean = ["AlgebraicGeometry.ProEtale.toposFunctorialityInverseImage"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site"]
 +++
 The above coverings define a subcanonical site. Its category of sheaves
 $\Sh(X_{\mathrm{pro}\acute{e}t})$ is a Grothendieck topos. Every scheme morphism

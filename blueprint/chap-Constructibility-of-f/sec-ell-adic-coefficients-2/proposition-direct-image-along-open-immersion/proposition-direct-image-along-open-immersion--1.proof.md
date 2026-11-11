@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-direct-image-along-open-immersion--1"
 order = 597003
+uses = ["proposition-six-operations-dctf--3"]
 +++
 For $\mathcal O_E$ we use the criterion of
 Proposition [proposition-integral-constructibility-criterion], which

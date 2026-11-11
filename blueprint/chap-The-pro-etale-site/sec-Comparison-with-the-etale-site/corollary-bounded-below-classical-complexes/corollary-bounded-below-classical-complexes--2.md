@@ -6,6 +6,7 @@ name_showing = false
 order = 129003
 aliases = ["bp-r037-2"]
 lean = ["AlgebraicGeometry.ProEtale.classicalDerivedEquivalence"]
+uses = ["definition-small-pro-etale-site--1", "definition-classical-pro-etale-sheaves--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 There is an equivalence
 

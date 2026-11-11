@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Descent to a finite coefficient field"
 order = 285
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.coefficient_finite_descent_hom", "AlgebraicGeometry.ProEtale.coefficient_finite_descent_objects"]
-uses = ["lemma-stability", "definition-constructible-sheaves", "definition-lisse-sheaves", "proposition-dctf-x-qbar-2-colimit"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-constructible-sheaves"]
 +++
 1. For $C,D\in\Dbc(X,E)$ and every integer $r$, extension of scalars
    induces an isomorphism

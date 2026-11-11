@@ -2,6 +2,7 @@
 kind = "proof"
 of = "theorem-chow-s-lemma-projective-form"
 order = 1472
+uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open"]
 +++
 We take the immersion into projective space given by the Stacks
 Project and show that properness of $X$ makes it closed. The second

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Compactness with rational coefficients"
 order = 466
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructible_padicAlgClRingObj"]
-uses = ["lemma-stability", "definition-constructible-sheaves", "definition-localizing-subcategory"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-constructible-sheaves", "definition-localizing-subcategory"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, every object of $\Dbc(X,\Lambda)$ is compact in $\Loc(\Dbc(X,\Lambda))$.
 More precisely, for $C\in\Dbc(X,\Lambda)$ and every family $(K_\lambda)$

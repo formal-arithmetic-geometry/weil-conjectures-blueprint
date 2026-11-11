@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-adjunction-projective-line--1"
 order = 554003
+uses = ["lemma-cohomology-modules-underlying-abelian", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--6", "proposition-comparison-morphism-inverse-image--1", "definition-constructible-sheaves--5", "definition-derived-base-change-map--1", "lemma-identity-pasting--1", "lemma-identity-pasting--2", "lemma-finite-morphisms--2", "theorem-proper-base-change-classical-pro--1", "proposition-construction-independence-rf-shriek--7", "proposition-composition-base-change-rf-shriek--4", "proposition-forgetting-supports-composition--1", "definition-exceptional-base-change-finite--2", "lemma-class-diagonal-projective-line--1", "theorem-smooth-base-change-classical-torsion--1", "theorem-smooth-base-change-classical-torsion-2--1", "proposition-sp-unique-adjoint--1", "definition-compactification-refinement--3", "lemma-schematic-closure-uniqueness--2", "lemma-finite-direct-images--1"]
 +++
 *First triangle identity.* This is the equation
 $\varepsilon_{Rp_*M}\circ Rp_*(\eta_M)=1_{Rp_*M}$. Using composition of

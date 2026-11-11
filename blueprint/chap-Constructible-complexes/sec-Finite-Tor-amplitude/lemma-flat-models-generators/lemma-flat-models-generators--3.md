@@ -6,6 +6,7 @@ name_showing = false
 order = 255005
 aliases = ["bp-r075-3"]
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_eq_triangEnvelope_ctfGenerators_of_isNoetherian"]
+uses = ["definition-constructible-sheaves--6", "definition-compactification-refinement--1"]
 +++
 Consequently, $D^b_{\mathrm{ctf}}(X,A)$ is generated,
 using

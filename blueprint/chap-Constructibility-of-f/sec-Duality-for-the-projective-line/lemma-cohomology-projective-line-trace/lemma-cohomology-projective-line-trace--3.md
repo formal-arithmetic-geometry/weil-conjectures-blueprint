@@ -6,6 +6,7 @@ name_showing = false
 order = 546005
 aliases = ["bp-r164-3"]
 lean = ["AlgebraicGeometry.ProEtale.geoP1Trace"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-relative-picard-functor--2"]
 +++
 Let
 

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-models"
 order = 296
-uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "definition-lisse-sheaves", "lemma-acyclic-resolutions"]
+uses = ["proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "proposition-exact-products", "proposition-milnor-sequence", "definition-classical-pro-etale-sheaves", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "theorem-comparison-constructible-sheaves", "corollary-finite-tor-amplitude-under-comparison", "definition-local-cohomology", "definition-lisse-sheaves", "lemma-local-constancy-finite-level", "corollary-coefficient-heart-b", "lemma-descent-finite-coefficient-field", "lemma-lattices-after-finite-stratification", "lemma-acyclic-resolutions", "proposition-comparison-etale-derived-category", "lemma-inverse-image-tensor-product", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 In (1) and (2) we compare two coefficient sheaves related by a flat map
 that is an isomorphism modulo every $\pi_E^n$, so they have the same

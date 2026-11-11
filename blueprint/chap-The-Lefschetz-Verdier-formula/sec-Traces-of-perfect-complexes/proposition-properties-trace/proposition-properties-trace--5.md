@@ -5,6 +5,7 @@ title = "Filtered additivity"
 order = 896010
 aliases = ["bp-r270-5"]
 lean = ["DerivedCategory.trace_eq_trace_add_trace_of_shortExact"]
+uses = ["definition-categorical-trace--2"]
 +++
 If $P$ is the underlying complex of a two-step filtered object
 $F^1P\to P\to P/F^1P$ of the filtered derived category, with $F^1P$ and

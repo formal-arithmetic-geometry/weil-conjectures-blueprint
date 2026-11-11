@@ -6,6 +6,7 @@ name_showing = false
 order = 1097005
 aliases = ["bp-r335-3"]
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.sheafHOneLimitAddEquivDualJacobianTateModule_galois"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--1", "proposition-comparison-morphism-inverse-image--1", "proposition-kummer-duality-integral-tate-module--2", "definition-abelian-variety--1", "lemma-abelian-variety-commutative--2", "definition-tate-module--1", "proposition-integral-tate-module--4"]
 +++
 If
 arithmetic Frobenius on $T_\ell J$ has matrix $B$, then geometric

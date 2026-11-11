@@ -4,6 +4,7 @@ kind = "proposition"
 title = "The integral Tate module"
 order = 1512
 lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points"]
+uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$, and let $\ell$
 be a prime invertible in $k$. There are noncanonical isomorphisms

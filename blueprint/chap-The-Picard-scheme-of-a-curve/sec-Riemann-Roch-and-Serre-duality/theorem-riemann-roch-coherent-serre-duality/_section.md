@@ -3,6 +3,7 @@ id = "theorem-riemann-roch-coherent-serre-duality"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality"
 order = 1528
+uses = ["lemma-acyclic-resolutions", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open"]
 +++
 For an invertible sheaf $\mathcal L$ on $C$ we have
 

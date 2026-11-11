@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme--8"
 order = 201017
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--1", "definition-ind-etale-pro-etale-weakly--2", "proposition-etale-implications--1", "lemma-stability--6", "lemma-stability--7", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2"]
 +++
 *Step 2: exactness of $j^*$ and $j_!$.* The functor $j^*$ is
 restriction to $U_{\mathrm{pro}\acute{e}t}$, hence exact. The functor $j_!$ is exact

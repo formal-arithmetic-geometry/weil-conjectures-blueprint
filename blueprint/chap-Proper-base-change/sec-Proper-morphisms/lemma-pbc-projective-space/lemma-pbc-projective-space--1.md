@@ -6,7 +6,7 @@ name_showing = false
 order = 395001
 aliases = ["bp-r120-1"]
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
-uses = ["definition-torsion-pbc-property--1", "lemma-finite-cover-projective-space--1"]
+uses = ["definition-torsion-pbc-property--1"]
 +++
 If $\mathrm{PBC}_\Lambda(\mathbf P^1_S\to S)$ holds for every scheme $S$,
 then $\mathrm{PBC}_\Lambda(\mathbf P^n_S\to S)$ holds for every scheme $S$

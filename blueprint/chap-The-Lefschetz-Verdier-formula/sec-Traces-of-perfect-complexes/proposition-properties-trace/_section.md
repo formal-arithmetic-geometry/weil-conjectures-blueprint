@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Properties of the trace"
 order = 896
 lean = ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace", "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_trace_homologyMap", "DerivedCategory.trace_eq_trace_add_trace_of_shortExact"]
+uses = ["definition-categorical-trace"]
 +++
 The trace is $A$-linear in $v$, invariant under conjugacy, and compatible
 with derived scalar extension: for every ring map $A\to B$,

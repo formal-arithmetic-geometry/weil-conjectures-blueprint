@@ -3,6 +3,7 @@ id = "proposition-multiplication-n"
 kind = "proposition"
 title = "Multiplication by $n$"
 order = 1506
+uses = ["definition-abelian-variety"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$. For every
 $n>0$, the morphism $[n]$ is surjective and finite locally free of

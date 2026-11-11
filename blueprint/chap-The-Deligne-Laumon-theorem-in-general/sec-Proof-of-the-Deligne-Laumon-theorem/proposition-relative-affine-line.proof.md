@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-relative-affine-line"
 order = 1358
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images", "theorem-pure-lisse-sheaves-over-relative", "lemma-weights-exact-sequence"]
 +++
 We stratify the target so that over each stratum, $G$ is lisse off a
 subscheme that is finite over the base. On the lisse part the

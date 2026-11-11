@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Gleason's theorem"
 order = 50
 lean = ["CompactT2.projective_iff_extremallyDisconnected"]
+uses = ["definition-w-local-w-strictly-local"]
 +++
 A compact Hausdorff space $S$ is extremally disconnected if and only if
 it is projective with respect to continuous surjections of compact

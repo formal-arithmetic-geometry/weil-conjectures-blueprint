@@ -5,7 +5,7 @@ title = "Weights via the kernel and coimage"
 order = 1352001
 aliases = ["bp-r417-1"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_exact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weil-structure--3", "definition-weights--5"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "definition-small-pro-etale-site--1", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "definition-weights--5"]
 +++
 Let $X_0$ be a scheme locally of finite type over $\Fq$, fix a prime
 $\ell\nmid q$ and an embedding

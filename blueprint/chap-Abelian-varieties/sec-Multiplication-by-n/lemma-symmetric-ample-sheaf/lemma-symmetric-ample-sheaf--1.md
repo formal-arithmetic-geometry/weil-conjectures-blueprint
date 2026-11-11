@@ -6,6 +6,7 @@ name_showing = false
 order = 1501001
 aliases = ["bp-r467-1"]
 lean = ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.exists_isAmple", "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]
+uses = ["definition-abelian-variety--1"]
 +++
 An abelian variety $A$ over $k$ is projective, and it has a symmetric
 ample invertible sheaf.

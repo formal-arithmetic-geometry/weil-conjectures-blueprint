@@ -3,6 +3,7 @@ id = "proposition-six-operations-change-coefficients"
 kind = "proposition"
 title = "The six operations and change of coefficients"
 order = 646
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-integral-models", "lemma-inverse-image-tensor-product", "proposition-six-operations-dctf", "definition-change-of-coefficients-maps", "proposition-sp-unique-adjoint", "definition-sp-scalar-extension"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the maps of coefficient rings listed
 above. Extension of scalars sends $D^b_{\mathrm{ctf}}(X,\Lambda)$ into

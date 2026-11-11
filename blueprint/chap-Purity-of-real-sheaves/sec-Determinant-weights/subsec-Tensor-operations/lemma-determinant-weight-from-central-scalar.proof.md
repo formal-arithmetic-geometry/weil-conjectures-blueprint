@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-determinant-weight-from-central-scalar"
 order = 1146
+uses = ["proposition-central-element-arithmetic-monodromy-group"]
 +++
 The determinant of $Q$ is an algebraic character of $H$, and its image on
 the dense subgroup $\rho(\pi_1(U))$ is finite, and hence its image on all of

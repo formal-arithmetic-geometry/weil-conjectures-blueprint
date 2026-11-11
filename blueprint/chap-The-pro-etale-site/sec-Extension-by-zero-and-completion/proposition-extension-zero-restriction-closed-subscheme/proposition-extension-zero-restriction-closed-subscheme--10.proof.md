@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme--10"
 order = 201021
+uses = ["proposition-extension-zero-restriction-closed-subscheme--9"]
 +++
 *Step 3: products and derived inverse limits.* For
 $K\in D(U_{\mathrm{pro}\acute{e}t},j^*\mathcal R)$, applying the localization sequence to a

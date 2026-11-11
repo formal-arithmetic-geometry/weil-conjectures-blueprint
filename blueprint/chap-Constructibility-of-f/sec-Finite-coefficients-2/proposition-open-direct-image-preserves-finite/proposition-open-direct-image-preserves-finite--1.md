@@ -6,6 +6,7 @@ name_showing = false
 order = 590001
 aliases = ["bp-r179-1"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.projection_torAmplitudeIn_rightDerivedLowerStar_of_isOpenImmersion"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-constructible-sheaves--5"]
 +++
 Let $j:U\hookrightarrow X$ be an open immersion. Then
 $Rj_*:D(U_{\mathrm{pro}\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ restricts to

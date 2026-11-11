@@ -6,5 +6,6 @@ name_showing = false
 order = 380003
 aliases = ["bp-r115-2"]
 lean = ["AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine"]
+uses = ["definition-injective-acyclicity--1"]
 +++
 In particular, $\mathrm{IA}_\Lambda(\pi)$ holds.

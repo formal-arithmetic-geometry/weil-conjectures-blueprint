@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-no-fixed-class-degree-one"
 order = 1101
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-proper-smooth-model", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-abelian-variety", "lemma-abelian-variety-commutative", "proposition-integral-tate-module", "definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "proposition-jacobian-over-ground-field", "lemma-cohomology-multiplicative-group", "lemma-finite-morphisms-cohomology"]
 +++
 On the compactification the vanishing holds because
 $J_0(k_0)$ is finite, and on the boundary it holds because Frobenius

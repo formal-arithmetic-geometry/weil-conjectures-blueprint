@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-rank-one-weights"
 order = 1111
-uses = ["lemma-acyclic-resolutions", "lemma-proper-smooth-model", "proposition-kummer-duality-integral-tate-module", "lemma-schematic-closure-uniqueness", "theorem-theorem-cube", "lemma-symmetric-ample-sheaf", "proposition-multiplication-n", "proposition-integral-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "lemma-twisting-h-0-1-h"]
+uses = ["theorem-rank-one-sheaves-have-finite"]
 +++
 We separate from $\chi$ the part that depends only on the degree. Put
 $\varepsilon(w)=\chi(w)c^{-\deg w}$, a character of $W(U_0)$ that is

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-trace-isomorphism-top-degree"
 order = 867
-uses = ["corollary-degreewise-duality-over-fields", "lemma-class-of-point"]
+uses = ["corollary-degreewise-duality-over-fields", "lemma-class-of-point", "theorem-trace-formula-euler-product"]
 +++
 We read off the top degree from Poincaré duality in degree zero
 over $\mathbf Z/\ell^n$, and then change coefficients: to a finite

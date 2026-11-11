@@ -3,7 +3,7 @@ id = "definition-strict-transform"
 kind = "definition"
 title = "Strict transform"
 order = 1431
-uses = ["lemma-schematic-closure-uniqueness"]
+uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of
 finite type, with exceptional divisor $E\subseteq T'$, and let $W\to T$

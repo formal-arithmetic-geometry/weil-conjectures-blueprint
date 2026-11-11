@@ -6,6 +6,7 @@ name_showing = false
 order = 112001
 aliases = ["bp-r031-1"]
 lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 Inclusion of étale objects defines a morphism of topoi
 

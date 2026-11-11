@@ -3,7 +3,7 @@ id = "proposition-no-frobenius-fixed-vector"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
 order = 1515
-uses = ["proposition-integral-tate-module"]
+uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-tate-module", "proposition-integral-tate-module"]
 +++
 Let $A_0/\mathbf F_q$ be an abelian variety, let
 $A=A_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, and let $F$

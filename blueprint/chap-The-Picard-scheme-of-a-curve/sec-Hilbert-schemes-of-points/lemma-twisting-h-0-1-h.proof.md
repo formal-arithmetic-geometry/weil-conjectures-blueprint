@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-twisting-h-0-1-h"
 order = 1544
-uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness"]
+uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "theorem-riemann-roch-coherent-serre-duality"]
 +++
 We first twist by a large power of an ample sheaf on $C$, which kills
 $H^1$ and leaves many sections. Then we remove $k$-rational points one

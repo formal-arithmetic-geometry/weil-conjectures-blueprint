@@ -6,6 +6,7 @@ name_showing = false
 order = 519001
 aliases = ["bp-r158-1"]
 lean = ["AlgebraicGeometry.Etale.compactificationForgetSupports", "AlgebraicGeometry.Etale.derivedOpenImmersionLowerShriekToLowerStar"]
+uses = ["definition-compactification-refinement--1"]
 +++
 There is a natural map $\eta_f:Rf_!\to Rf_*$ on
 $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. For a compactification $f=pj$ it is

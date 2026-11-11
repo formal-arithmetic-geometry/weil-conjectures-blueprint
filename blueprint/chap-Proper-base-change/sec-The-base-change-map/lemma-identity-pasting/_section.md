@@ -3,6 +3,7 @@ id = "lemma-identity-pasting"
 kind = "lemma"
 title = "Identity and pasting"
 order = 319
+uses = ["definition-derived-base-change-map"]
 +++
 Let $K\in D^+(X_{\acute{e}t},\Lambda)$. The base change map is the identity for an
 identity square, and is compatible with horizontal and vertical pasting

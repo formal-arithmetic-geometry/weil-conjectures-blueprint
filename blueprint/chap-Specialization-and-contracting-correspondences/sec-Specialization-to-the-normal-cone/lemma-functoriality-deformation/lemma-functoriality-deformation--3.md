@@ -6,5 +6,6 @@ name_showing = false
 order = 1632005
 aliases = ["bp-r505-3"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isPullback_zeroSectionSpecialFibreMap"]
+uses = ["definition-deformation-normal-bundle", "lemma-functoriality-deformation--1"]
 +++
 Moreover, $\widetilde f_s^{-1}(Z)=Z'$ schematically.

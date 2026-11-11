@@ -6,6 +6,7 @@ name_showing = false
 order = 112005
 aliases = ["bp-r031-3"]
 lean = ["AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone"]
+uses = ["definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 In particular, for $U=\varprojlim_iU_i$ as above, we have
 

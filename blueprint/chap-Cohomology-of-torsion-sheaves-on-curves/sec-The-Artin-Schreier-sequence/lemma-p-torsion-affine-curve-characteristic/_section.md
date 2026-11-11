@@ -3,6 +3,7 @@ id = "lemma-p-torsion-affine-curve-characteristic"
 kind = "lemma"
 title = "$p$-torsion on an affine curve in characteristic $p$"
 order = 1592
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 If $U$ is affine over an algebraically closed field $k$ of
 characteristic $p$, then, for the classical constant sheaf $\mathbf F_p$ and

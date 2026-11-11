@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-bounded-below-classical-complexes--2"
 order = 129004
+uses = ["proposition-topos-functoriality--1", "definition-classical-pro-etale-sheaves--1", "theorem-classical-sheaves-essential-image--1"]
 +++
 The functor $\nu_X^*$ lands in classical complexes and is fully
 faithful on $D^+$ by

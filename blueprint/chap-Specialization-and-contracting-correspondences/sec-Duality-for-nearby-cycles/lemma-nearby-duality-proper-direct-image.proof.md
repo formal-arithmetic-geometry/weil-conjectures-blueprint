@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-nearby-duality-proper-direct-image"
 order = 1679
+uses = ["lemma-comparison-completed-coefficients", "lemma-perfect-complexes-geometric-point", "lemma-internal-adjunction-two-exchange-formulas"]
 +++
 Under Verdier duality for the proper map $f_\eta$, evaluation on
 $Rf_{\eta*}M$ is the composite of the lax monoidal map of $Rf_{\eta*}$,

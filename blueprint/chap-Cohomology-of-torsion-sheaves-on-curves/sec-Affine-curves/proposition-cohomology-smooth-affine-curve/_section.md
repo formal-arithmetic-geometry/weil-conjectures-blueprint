@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Cohomology of a smooth affine curve"
 order = 1584
 lean = ["AlgebraicGeometry.Scheme.gysinH2_eq_zero_iff", "AlgebraicGeometry.Scheme.residueSequence_exact"]
-uses = ["lemma-stability", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-compactification-refinement", "definition-relative-picard-functor", "lemma-cohomology-multiplicative-group"]
 +++
 Let $\overline C$ be a smooth proper connected curve of genus $g$
 over an algebraically closed field $k$.  Let

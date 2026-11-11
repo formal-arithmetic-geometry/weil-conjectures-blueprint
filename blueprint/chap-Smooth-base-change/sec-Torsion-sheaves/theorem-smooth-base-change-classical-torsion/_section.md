@@ -3,6 +3,7 @@ id = "theorem-smooth-base-change-classical-torsion"
 kind = "theorem"
 title = "Smooth base change for classical torsion sheaves"
 order = 663
+uses = ["definition-derived-base-change-map"]
 +++
 In (8.1), suppose $g$ is smooth and $f$ is
 quasi-compact and quasi-separated. Let $F$ be a classical torsion

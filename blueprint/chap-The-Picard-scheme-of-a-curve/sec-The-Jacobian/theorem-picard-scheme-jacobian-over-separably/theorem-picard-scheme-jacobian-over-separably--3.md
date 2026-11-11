@@ -4,8 +4,8 @@ kind = "theorem"
 title = "The degree-zero component and its rational points"
 order = 1552005
 aliases = ["bp-r483-3"]
-lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.exists_isJacobian"]
-uses = ["corollary-degree-jacobian--1"]
+lean = ["AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.exists_isJacobian"]
+uses = ["definition-relative-picard-functor", "definition-compactification-refinement--1", "definition-relative-picard-functor--2"]
 +++
 Let $k$ and $C$ be as in
 [theorem-picard-scheme-jacobian-over-separably--1]. The degree-zero

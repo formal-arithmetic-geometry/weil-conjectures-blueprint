@@ -5,6 +5,7 @@ title = "Closed restriction"
 order = 848014
 aliases = ["bp-r254-7"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_verdierDual"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "definition-constructible-sheaves--6", "definition-verdier-dual-evaluation--2", "definition-compactification-refinement--1"]
 +++
 For an open $j:U\hookrightarrow X$ and a closed $i:Z\hookrightarrow X$, the indicated specialization is
 

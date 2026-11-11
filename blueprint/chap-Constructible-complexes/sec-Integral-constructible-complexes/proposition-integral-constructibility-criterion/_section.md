@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The integral constructibility criterion"
 order = 246
 lean = ["AlgebraicGeometry.ProEtale.IntegralModelsStacks.internal_integral_criterion_forward", "AlgebraicGeometry.ProEtale.IntegralModelsStacks.internal_integral_criterion_reverse"]
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-derived-adic-completeness", "definition-constructible-sheaves"]
 +++
 Let $X$ be Noetherian. The following conditions on
 $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ are equivalent:

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-composition-cancellation--2"
 order = 389005
+uses = ["definition-derived-base-change-map", "definition-underived-base-change-map--1", "definition-torsion-sheaves--1", "definition-injective-acyclicity--1", "lemma-acyclic-resolutions--1", "lemma-finite-direct-images--2"]
 +++
 Use Theorem [theorem-pbc-injective-acyclicity].
 

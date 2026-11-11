@@ -2,6 +2,7 @@
 kind = "proof"
 of = "corollary-open-direct-image-over-field"
 order = 587
+uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "lemma-naturality-pasting-comparison", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "theorem-generic-constructibility-base-change-rj", "theorem-smooth-base-change-classical-torsion", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
 We argue on the étale site. The theorem gives the case of
 $\Fell$-sheaves, and we pass to $\mathbf Z/\ell^r$-sheaves by

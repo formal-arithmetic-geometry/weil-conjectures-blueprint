@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-integral-changes-source-base--2"
 order = 679004
-uses = ["definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "lemma-identity-pasting--3", "theorem-comparison-over-henselian-pair-degree--1", "lemma-finite-direct-images--1"]
+uses = ["definition-derived-base-change-map", "definition-small-pro-etale-site--1", "definition-underived-base-change-map--1", "lemma-identity-pasting--3", "theorem-comparison-over-henselian-pair-degree--1", "lemma-schematic-closure-uniqueness--1", "lemma-finite-direct-images--1", "lemma-finite-direct-images--2"]
 +++
 Use exactness of integral direct image and its compatibility with base change [Stacks, [04C2](https://stacks.math.columbia.edu/tag/04C2), [0EYP](https://stacks.math.columbia.edu/tag/0EYP), [0F05](https://stacks.math.columbia.edu/tag/0F05)].
 

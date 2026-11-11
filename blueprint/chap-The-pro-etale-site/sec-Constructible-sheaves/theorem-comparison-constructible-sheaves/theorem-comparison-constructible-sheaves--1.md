@@ -5,7 +5,7 @@ title = "Classical constructible sheaves"
 order = 149002
 aliases = ["bp-r043-1"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison_classical"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "definition-classical-pro-etale-sheaves--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "definition-small-pro-etale-site--1", "definition-classical-pro-etale-sheaves--1"]
 +++
 Let $X$ be quasi-compact and quasi-separated, and let $\Lambda$ be a
 discrete commutative Noetherian ring. Every constructible pro-étale

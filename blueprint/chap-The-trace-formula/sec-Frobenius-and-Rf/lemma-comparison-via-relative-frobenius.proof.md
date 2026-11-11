@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-comparison-via-relative-frobenius"
 order = 1001
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-pro-etale-refinements-weakly-etale", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "theorem-nagata-s-compactification-theorem"]
 +++
 The only geometric fact we use is that, since $r_m$ is a universal
 homeomorphism, pullback along it is an equivalence and its unit is an

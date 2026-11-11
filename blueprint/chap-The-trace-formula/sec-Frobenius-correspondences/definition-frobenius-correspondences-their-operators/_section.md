@@ -3,7 +3,7 @@ id = "definition-frobenius-correspondences-their-operators"
 kind = "definition"
 title = "Frobenius correspondences and their operators"
 order = 952
-uses = ["lemma-stability"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "definition-underived-base-change-map", "theorem-proper-base-change-classical-pro", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "definition-weil-structure", "definition-frobenius-operator", "definition-correspondence", "definition-action-correspondence", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X_0/k_0$ be separated and of finite type, and put
 $X=X_0\times_{k_0}k$. Denote by $\Phi_X:X\to X$ the base change

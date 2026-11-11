@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-pbc-projective-space"
 order = 396
-uses = ["lemma-composition-cancellation", "lemma-finite-cover-projective-space"]
+uses = ["definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-finite-morphisms", "lemma-composition-cancellation", "lemma-finite-cover-projective-space"]
 +++
 The case $n=0$ is the identity. For $n\geq1$, the projection
 $(\mathbf P^1_S)^n\to S$ is a composite of $n$ projections of projective

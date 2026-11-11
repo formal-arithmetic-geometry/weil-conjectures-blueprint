@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Comparison of extension by zero"
 order = 474012
 aliases = ["bp-r144-6"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "definition-small-pro-etale-site--1", "proposition-comparison-morphism-inverse-image--2"]
 +++
 For any commutative ring $A$ and any open immersion $j:U\hookrightarrow X$,
 there is a natural isomorphism
