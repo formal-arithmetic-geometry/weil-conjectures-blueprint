@@ -4,8 +4,6 @@ author = "Wei Yang"
 date = "November 2026"
 +++
 
-*PDF version:* <a href="files/The%20Preparation%20of%20the%20Mathematical%20Notes.pdf" download>The Preparation of the Mathematical Notes.pdf</a>
-
 The notes on the Weil conjectures were prepared through a collaboration between a human and AI. Without AI assistance, it would have been impossible to produce 370 pages of notes in a reasonable amount of time. We used GPT-6.1-sol to fill in mathematical details and carefully prompted Claude Opus 5.5 to improve the writing. All proof routes were determined by the human at the beginning.
 
 ## <span id="sec-1"></span>1. Building the Proof Skeleton
