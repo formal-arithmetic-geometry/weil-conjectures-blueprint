@@ -1,0 +1,12 @@
++++
+kind = "proof"
+of = "dag-lem-pe-coefficient-comparison-affine-cech"
+tags = ["sheaf-dag"]
+uses = ["dag-lem-pe-coefficient-affine-cech-presentation", "dag-lem-pe-coefficient-comparison-continuity", "dag-lem-pe-coefficient-comparison-presentation-sheafification"]
++++
+1. Construct compatible affine etale covering presentations of the whole prescribed nerve, with scheme limit cones on every intersection. This simultaneously implements the two geometric finite-cover reductions; it allows non-affine ambient X and repeated factors. (uses [dag-lem-pe-coefficient-affine-cech-presentation])
+2. Pass from the injective constant-ring module sheaf I to its injective module presheaf. Enlarge Fin m to ULift Fin m to put indices and homs in the same coefficient universe. Apply the injective-presheaf cocycle lifting theorem and restrict the primitive back to Fin m. Thus every positive cocycle of each normalized etale stage has a primitive. (uses `lem-weil-pbc-ringed-site-injective-module-injective-presheaf`, `lem-weil-pbc-injective-presheaf-module-cech-cocycle-lift`, `def-weil-pbc-site-cech-complex`)
+3. Prove constant-scalar restriction fully faithful and essentially surjective using module sheafification, and identify its canonical constant-section ring map with the comparison ring map. Uniqueness of left adjoints gives the natural intrinsic/fixed-scalar comparison isomorphism. On every nerve presentation, coefficient continuity gives a colimit of comparison sections. The fully faithful left Kan extension unit and the presentation sheafification isomorphisms replace its stages by the original etale sheaf sections. (uses [dag-lem-pe-coefficient-comparison-continuity], [dag-lem-pe-coefficient-comparison-presentation-sheafification])
+4. Prove directly that finite cocycles descend through these filtered section colimits. Choose representatives of all finitely many components at a common stage. Naturality of every index map identifies the differentials. Each component of the differential is eventually zero; a filtered wide span gives one later stage where all vanish. Take a stage primitive, then compare it to the original cochains. The primitive equation proves ExactAt and hence zero positive homology. Transport homology along the intrinsic/fixed-scalar natural isomorphism. (uses `def-weil-pbc-site-cech-complex`)
+
+Proof dependencies not drawn: `lem-weil-pbc-ringed-site-injective-module-injective-presheaf`, `lem-weil-pbc-injective-presheaf-module-cech-cocycle-lift`, `def-weil-pbc-site-cech-complex`.

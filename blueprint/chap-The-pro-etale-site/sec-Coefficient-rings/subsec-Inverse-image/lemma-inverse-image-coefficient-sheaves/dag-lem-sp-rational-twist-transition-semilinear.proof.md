@@ -1,0 +1,10 @@
++++
+kind = "proof"
+of = "dag-lem-sp-rational-twist-transition-semilinear"
+tags = ["sheaf-dag"]
+uses = ["dag-lem-route-sp-rational-twist-map-exists-unique"]
++++
+1. Put A=E_X and write q_E:A tensor L_E -> T_E and q_F:F_X tensor L_F -> T_F for the specified extension-of-scalars projections. By `def-sfb-modobj-extension` these projections are coequalizers, and by `sk-def-sfb-sheaf-tensor` tensoring with A preserves them. Thus A tensor q_E is epimorphic, so it suffices to compare the proposed semilinearity arrows after this map. The action characterization of scalar extension rewrites the first composite as alpha^{-1} followed by multiplication on the two A factors and q_E. (uses `def-sfb-modobj-extension`, `sk-def-sfb-sheaf-tensor`)
+2. Write c:A -> F_X for the pulled-back coefficient inclusion [def-sfb-qlbar-subextension-map, det-def-sfb-pulled-back-coefficients], g:L_E -> L_F for the specified integral transition, and f:T_E -> T_F for the rational transition. Its normalization [dag-lem-route-sp-rational-twist-map-exists-unique] is q_E followed by f = (c tensor g) followed by q_F. Substitute this equality. Multiplicativity of c gives mul_A followed by c = (c tensor c) followed by mul_F. Tensor functoriality and naturality of the inverse associator now identify the result with (c tensor (c tensor g)) followed by the free F-action and q_F. The scalar-extension action characterization rewrites this as (c tensor ((c tensor g) followed by q_F)) followed by the F-action. Use the normalization again to replace the inner composite by q_E followed by f. This is exactly the other side after A tensor q_E. Cancel that epimorphism. This categorical calculation applies to every normalized g and needs neither sections of the tensor sheaf nor a separate integral semilinearity argument. (uses [dag-lem-route-sp-rational-twist-map-exists-unique], `def-sfb-modobj-extension`, `sk-def-sfb-sheaf-tensor`, `def-sfb-qlbar-subextension-map`, `det-def-sfb-pulled-back-coefficients`)
+
+Proof dependencies not drawn: `def-sfb-modobj-extension`, `sk-def-sfb-sheaf-tensor`, `def-sfb-qlbar-subextension-map`, `det-def-sfb-pulled-back-coefficients`.

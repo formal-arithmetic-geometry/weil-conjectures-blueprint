@@ -1,0 +1,12 @@
++++
+kind = "proof"
+of = "dag-lem-route-sfb-completed-coefficients"
+tags = ["sheaf-dag"]
+uses = ["dag-sk-def-sfb-pullback-from-point-comp"]
++++
+1. For finite E, endow its integer ring with its actual compact Hausdorff topology. The uniformizer ideal is the maximal ideal. Its power quotients are finite and discrete, and adic separatedness proves joint injectivity. Apply the normalized integral quotient cone theorem. Apply the same theorem to Z_l using the standard ideal (l); quotient finiteness follows from the explicit equivalences to ZMod(l^n), and separatedness from the standard reduction maps. (uses `lem-pe-normalized-integral-quotient-cone`)
+2. Use completedCondensedRational and completedCondensedPadicRational from the completed-comparison unit. Their fraction maps and recurrences construct actual natural transformations on the scalar sequences. Their explicit universal properties construct IsColimit records. Use their pullback-leg equations directly in the canonical bundled comparison presentation. The underlying monoid-object comparison is identity followed by the raw compositor component, as proved in the generic normalization helper. The generic scalar-telescope ring theorem supplies the remaining universal property against arbitrary ring objects. (uses `sk-prop-sfb-qlbar-colimit-x`, `lem-pe-rational-comparison-from-fraction-maps`)
+3. For each n, identify Z_l/(l)^n with ZMod(l^n) by quotienting the kernel of PadicInt.toZModPow. Use its surjectivity and the equality (l)^n=(l^n). Lift the ring equivalence to ULift. Successor naturality follows on quotient representatives from zmod_cast_comp_toZModPow, giving the required natural isomorphism including level zero. (uses `def-weil-l-adic-numbers`, `lem-pod-padic-integer-reduction-data`)
+4. The published finite-subextension cocone is colimiting in abelian sheaves, and so is its image under f^*. Upgrade both cocones to monoid-object colimits with the filtered ring-object theorem. Tensor preserves these colimits. Naturality of upperStarFromPointComp for each finite-field inclusion proves the final equation. (uses [dag-sk-def-sfb-pullback-from-point-comp], `def-sfb-qlbar-x-cocone`, `lem-sfb-filtered-ring-object-cocone-colimit`)
+
+Proof dependencies not drawn: `lem-pe-normalized-integral-quotient-cone`, `sk-prop-sfb-qlbar-colimit-x`, `lem-pe-rational-comparison-from-fraction-maps`, `def-weil-l-adic-numbers`, `lem-pod-padic-integer-reduction-data`, `def-sfb-qlbar-x-cocone`, `lem-sfb-filtered-ring-object-cocone-colimit`.

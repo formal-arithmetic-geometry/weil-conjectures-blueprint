@@ -1,0 +1,10 @@
++++
+kind = "proof"
+of = "dag-lem-pe-coefficient-comparison-constructibility-test"
+tags = ["sheaf-dag"]
+uses = ["dag-lem-pe-coefficient-comparison-fixed-pullback", "dag-lem-pe-coefficient-finite-local-model-pullback", "dag-lem-pe-coefficient-comparison-finite-reflection"]
++++
+1. Fix an affine open U and a finite locally closed stratification witnessing etale constructibility. Add its separately supplied constructibility proofs to obtain Scheme.Stratification with literally the same stratum schemes and immersion maps. The coefficient comparison/scalar-restriction inverse-image isomorphism identifies each pro-etale stratum restriction with the comparison of the etale stratum restriction. The continuous finite-limit-preserving site inclusion preserves finite local systems. Transport these local models through the isomorphism and upgrade finite generation to finite presentation over the Noetherian ring. This yields the required pro-etale witness on U. (uses [dag-lem-pe-coefficient-comparison-fixed-pullback], [dag-lem-pe-coefficient-finite-local-model-pullback], `lem-sfb-coefficient-finite-local-systems-pullback`, `lem-sc-noetherian-finite-module-finite-presentation`)
+2. Conversely retain each pro-etale stratification, forgetting only the bundled constructibility field to produce FiniteLocallyClosedStratification and its separate constructibility proofs. On every stratum forget finite presentation to finite generation. Transport the finite local models along the same comparison/scalar-restriction isomorphism, then apply single-stratum coefficient-sized reflection of finite local systems. These are exactly the etale local models required by the unchanged etale constructibility definition. Both directions work independently for every affine open, so there is no gluing step or quasi-compactness hypothesis on X. (uses [dag-lem-pe-coefficient-comparison-fixed-pullback], [dag-lem-pe-coefficient-comparison-finite-reflection], [dag-lem-pe-coefficient-finite-local-model-pullback])
+
+Proof dependencies not drawn: `lem-sfb-coefficient-finite-local-systems-pullback`, `lem-sc-noetherian-finite-module-finite-presentation`.
