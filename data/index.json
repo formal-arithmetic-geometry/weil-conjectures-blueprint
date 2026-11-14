@@ -460,4 +460,11 @@
     "byStatus": {"stated": 11, "proved": 1286, "absent": 453}},
    "sha": "5ab6d37371c6f97747164dd6a459d6b0867c3803",
    "file": "data/5ab6d37371c6f97747164dd6a459d6b0867c3803.json",
+   "date": "2026-11-14"},
+  {"summary":
+   {"total": 1750,
+    "proved": 1286,
+    "byStatus": {"stated": 11, "proved": 1286, "absent": 453}},
+   "sha": "6ccdd2a3685a525fa287e6be63ba049971bd7bfb",
+   "file": "data/6ccdd2a3685a525fa287e6be63ba049971bd7bfb.json",
    "date": "2026-11-14"}]}
