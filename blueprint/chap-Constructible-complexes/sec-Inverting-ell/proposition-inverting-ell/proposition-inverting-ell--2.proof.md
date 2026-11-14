@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-inverting-ell--2"
 order = 303004
-uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--2", "lemma-stability--6", "lemma-stability--7", "lemma-extremally-disconnected-covers--3", "proposition-splitting-ind-etale-covers--1", "theorem-pro-etale-refinements-weakly-etale--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "lemma-lattices-after-finite-stratification--1", "proposition-inverting-ell--1", "lemma-acyclic-resolutions--1", "proposition-sp-unique-adjoint--1", "lemma-schematic-closure-uniqueness--1"]
+uses = ["proposition-pro-etale-affines-form-basis", "definition-ind-etale-pro-etale-weakly--2", "lemma-stability--6", "lemma-stability--7", "proposition-splitting-ind-etale-covers--1", "theorem-pro-etale-refinements-weakly-etale--1", "proposition-pro-etale-affines-form-basis--1", "proposition-pro-etale-affines-form-basis--2", "lemma-lattices-after-finite-stratification--1", "proposition-inverting-ell--1", "lemma-acyclic-resolutions--1", "lemma-structure-integral-constructible-complexes--3", "proposition-sp-unique-adjoint--1", "lemma-schematic-closure-uniqueness--1"]
 +++
 Use clause [proposition-inverting-ell--1] for bounded torsion and the comparison theorem [bhatt-scholze15, Proposition 6.8.14(2)].
 

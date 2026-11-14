@@ -5,7 +5,7 @@ title = "Comparison for the exceptional inverse image"
 order = 839003
 aliases = ["bp-r251-2"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_app_of_generic"]
-uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "definition-compactification-refinement--1"]
+uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite--1", "definition-compactification-refinement--1"]
 +++
 In the setting above, let $X$ be a $B$-scheme of finite type, let
 $i:Z\hookrightarrow X$ be a closed immersion with open complement

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-extension-scalars-preserves-dctf"
 order = 635
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "theorem-classical-sheaves-essential-image", "lemma-inverse-image-coefficient-sheaves", "lemma-flat-models-generators"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "theorem-classical-sheaves-essential-image", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-flat-models-generators"]
 +++
 An object that is locally $\Lambda_S\otimes P$ on a stratum $S$, with $P$
 perfect, remains of this form after derived extension of scalars, since

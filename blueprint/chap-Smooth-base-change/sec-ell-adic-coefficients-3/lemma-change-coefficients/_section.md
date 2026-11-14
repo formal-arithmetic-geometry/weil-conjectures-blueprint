@@ -3,7 +3,7 @@ id = "lemma-change-coefficients"
 kind = "lemma"
 title = "Change of coefficients"
 order = 699
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-integral-models", "definition-pro-etale-base-change-map", "proposition-six-operations-dctf", "definition-change-of-coefficients-maps"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-integral-models", "definition-pro-etale-base-change-map", "proposition-six-operations-dctf", "definition-change-of-coefficients-maps"]
 +++
 Suppose that the schemes in (8.1) are of finite type over
 $k$. Let $\Lambda\to\Lambda'$ be a coefficient map of

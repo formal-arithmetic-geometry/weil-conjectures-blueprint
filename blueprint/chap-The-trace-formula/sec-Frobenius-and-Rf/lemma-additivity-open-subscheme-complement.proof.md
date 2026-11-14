@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-additivity-open-subscheme-complement"
 order = 1004
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "lemma-extremally-disconnected-covers", "proposition-pro-etale-affines-form-basis", "proposition-pro-etale-site-separably-closed", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "proposition-properties-trace", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "lemma-extremally-disconnected-covers", "proposition-pro-etale-affines-form-basis", "proposition-pro-etale-site-separably-closed", "lemma-naturality-pasting-comparison", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "proposition-properties-trace", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 The four induced correspondences come from base change, and $R\Gamma_c$
 of the localization triangle is a two-step filtered object with an

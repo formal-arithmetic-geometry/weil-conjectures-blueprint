@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-sp-tower-adjunction-foundation"
 order = 778
+uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products"]
 +++
 The adjunction is a composite of two standard adjunctions of ringed topoi.
 For the equivalence we check that the unit is an isomorphism on $\Dbc$ and

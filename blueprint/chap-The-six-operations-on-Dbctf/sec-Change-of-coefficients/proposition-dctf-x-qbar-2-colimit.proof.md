@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-dctf-x-qbar-2-colimit"
 order = 650
-uses = ["lemma-inverse-image-coefficient-sheaves", "proposition-ctf-equals-bc", "lemma-descent-lisse-qbar-sheaves-finite"]
+uses = ["corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "proposition-ctf-equals-bc", "lemma-descent-lisse-qbar-sheaves-finite"]
 +++
 An equivalence with a $2$-colimit amounts to two statements, essential
 surjectivity on objects and a bijection on morphisms. Both are parts of

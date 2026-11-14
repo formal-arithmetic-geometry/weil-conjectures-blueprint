@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-lattices-lisse-e-sheaves--2"
 order = 260004
-uses = ["proposition-locally-constant-sheaves-finite-presentation", "definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-comparison-morphism-inverse-image--1", "definition-lattice--1", "lemma-lattices-lisse-e-sheaves--1", "proposition-sp-unique-adjoint--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-comparison-morphism-inverse-image--1", "lemma-torsors-under-classical-groups--2", "definition-lattice--1", "lemma-lattices-lisse-e-sheaves--1", "proposition-sp-unique-adjoint--1"]
 +++
 By Remark [remark-constructible-sheaves-coefficient-rings--1](3), an $E_X$-module that is locally free of finite
 rank is lisse, so clause [lemma-lattices-lisse-e-sheaves--1] applies to $L$. Let $Y\to X$ be the

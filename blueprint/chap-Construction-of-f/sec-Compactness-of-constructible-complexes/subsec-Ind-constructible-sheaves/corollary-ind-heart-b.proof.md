@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-ind-heart-b"
 order = 457
-uses = ["lemma-inverse-image-coefficient-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves", "definition-relative-picard-functor"]
+uses = ["corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves", "definition-relative-picard-functor"]
 +++
 Write $B=\varinjlim_\alpha B_\alpha$ as a filtered colimit of
 constructible sheaves, which is possible by

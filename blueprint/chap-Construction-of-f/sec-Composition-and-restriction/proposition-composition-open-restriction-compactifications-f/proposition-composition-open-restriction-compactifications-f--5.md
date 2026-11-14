@@ -4,6 +4,8 @@ kind = "proposition"
 title = "Restriction over an open subset of the base"
 order = 530010
 aliases = ["bp-r161-5"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_upperStar"]
+uses = ["definition-compactification-refinement--1"]
 +++
 Let $v:V\to Y$ be an open immersion, $X_V=f^{-1}(V)$ with inclusion
 $u:X_V\to X$, and $f_V:X_V\to V$ the restriction of $f$. Then

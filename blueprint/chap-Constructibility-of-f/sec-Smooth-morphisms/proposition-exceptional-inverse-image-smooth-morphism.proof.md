@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-exceptional-inverse-image-smooth-morphism"
 order = 563
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-identity-pasting", "theorem-comparison-over-henselian-pair-degree", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "lemma-cohomology-projective-line-trace", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "proposition-sp-unique-adjoint", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-identity-pasting", "lemma-naturality-pasting-comparison", "theorem-comparison-over-henselian-pair-degree", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "lemma-cohomology-projective-line-trace", "proposition-adjunction-projective-line", "theorem-smooth-base-change-classical-torsion", "proposition-sp-unique-adjoint", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 The maps
 $\mu_N$ and $\beta_N$ are defined globally as adjoint

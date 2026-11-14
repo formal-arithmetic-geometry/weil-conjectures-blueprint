@@ -3,7 +3,7 @@ id = "proposition-proper-base-change-complete-integral"
 kind = "proposition"
 title = "Proper base change for complete complexes"
 order = 417
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness"]
 +++
 Let $p:X\to Y$ be proper, let $g:Y'\to Y$ be any morphism, and let
 $p':X'\to Y'$ and $g':X'\to X$ be the projections from $X'=X\times_YY'$.
