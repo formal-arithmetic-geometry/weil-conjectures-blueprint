@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Trace formula for a Frobenius correspondence"
 order = 1007
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.traceFormulaHolds_of_isModelFrobenius", "AlgebraicGeometry.ProEtale.CondensedRing.trace_frobeniusCompactOperator_eq_sum"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "lemma-inverse-image-tensor-product", "proposition-six-operations-dctf", "definition-categorical-trace", "definition-frobenius-correspondences-their-operators", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "lemma-inverse-image-tensor-product", "proposition-six-operations-dctf", "definition-categorical-trace", "definition-frobenius-correspondences-their-operators", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $X_0/\mathbf F_q$ be separated and of finite type, put
 $X=X_0\times_{\mathbf F_q}k$, let $A$ be any finite commutative

@@ -3,7 +3,7 @@ id = "definition-constructible-sheaves"
 kind = "definition"
 title = "Constructible sheaves"
 order = 219
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "lemma-inverse-image-coefficient-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves"]
 +++
 Let $\Lambda$ be a commutative condensed ring.
 

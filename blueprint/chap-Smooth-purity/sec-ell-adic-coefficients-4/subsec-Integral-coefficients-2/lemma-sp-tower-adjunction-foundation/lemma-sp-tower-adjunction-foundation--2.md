@@ -5,6 +5,8 @@ title = "Reduction to towers is left adjoint to the derived limit (2)"
 name_showing = false
 order = 777003
 aliases = ["bp-r234-2"]
+lean = ["WeilConjectures.purNormalizedReconstruction"]
+uses = ["definition-small-pro-etale-site--1"]
 +++
 This adjunction restricts to an
 equivalence between $\Dbc(T,\mathcal O_E)$ and the normalized constructible towers.

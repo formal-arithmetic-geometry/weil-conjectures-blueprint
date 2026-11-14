@@ -5,7 +5,7 @@ title = "The fibre formula"
 order = 205003
 aliases = ["bp-r060-2"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport_fiber"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-inverse-image-coefficient-sheaves--1", "definition-local-cohomology--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1", "definition-local-cohomology--1"]
 +++
 The functor $R\underline\Gamma_Z$ is computed by
 

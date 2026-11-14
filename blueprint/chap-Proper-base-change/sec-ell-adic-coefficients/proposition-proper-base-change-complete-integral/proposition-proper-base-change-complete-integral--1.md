@@ -5,7 +5,7 @@ title = "Completeness and finite reduction of direct image"
 order = 417001
 aliases = ["bp-r127-1"]
 lean = ["AlgebraicGeometry.ProEtale.internal_integral_direct_image_limits"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-inverse-image-coefficient-sheaves--1", "definition-derived-adic-completeness--1"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1", "definition-derived-adic-completeness--1"]
 +++
 Let $p:X\to Y$ be proper, let $g:Y'\to Y$ be any morphism, and let
 $p':X'\to Y'$ and $g':X'\to X$ be the projections from $X'=X\times_YY'$.

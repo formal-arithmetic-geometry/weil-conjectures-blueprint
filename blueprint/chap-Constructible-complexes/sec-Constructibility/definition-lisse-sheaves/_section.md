@@ -4,7 +4,7 @@ kind = "definition"
 title = "Lisse sheaves"
 order = 221
 lean = ["AlgebraicGeometry.ProEtale.IsLisseCoefficientModule"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-inverse-image-coefficient-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves"]
 +++
 Let $\Lambda$ be a commutative condensed ring. A $\Lambda_X$-module $M$ is
 *lisse* if it satisfies the condition of

@@ -5,7 +5,7 @@ title = "Properness"
 order = 960008
 aliases = ["bp-r292-4"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isProper_hom"]
-uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "lemma-inverse-image-coefficient-sheaves--1", "lemma-constructible-sheaves--8", "lemma-integral-models--3", "definition-correspondence--2", "definition-correspondence--3", "definition-frobenius-correspondences-their-operators--1", "definition-frobenius-correspondences-their-operators--5"]
+uses = ["definition-ind-etale-pro-etale-weakly--3", "lemma-stability--1", "lemma-stability--2", "lemma-stability--3", "lemma-stability--5", "definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "example-locally-constant-functions-w-local--1", "corollary-finite-quotients-their-transition-maps--3", "lemma-inverse-image-coefficient-sheaves--1", "lemma-constructible-sheaves--8", "lemma-integral-models--3", "definition-correspondence--2", "definition-correspondence--3", "definition-frobenius-correspondences-their-operators--1", "definition-frobenius-correspondences-their-operators--5"]
 +++
 Let $X_0$ be of finite type over $k_0=\Fq$, let $k$ be an algebraically
 closed extension of $k_0$, and let $\Phi_X$ be the model Frobenius on

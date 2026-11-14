@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-compactness-rational-coefficients"
 order = 467
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-left-completeness", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "lemma-inverse-image-coefficient-sheaves", "lemma-uniform-ext-bound", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves", "corollary-ind-heart-b", "corollary-ambient-ind-derived", "proposition-sp-unique-adjoint", "definition-relative-picard-functor"]
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-left-completeness", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-uniform-ext-bound", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves", "corollary-ind-heart-b", "corollary-ambient-ind-derived", "proposition-sp-unique-adjoint", "definition-relative-picard-functor"]
 +++
 The idea is that, by Lemma [lemma-reduction-finitely-many-degrees], maps out of a
 constructible sheaf depend only on the cohomology of the target in $d_C+1$

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Continuity of Ext"
 order = 280
 lean = ["AlgebraicGeometry.ProEtale.constructible_ext_continuity", "AlgebraicGeometry.ProEtale.bounded_constructible_ext_generated"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves"]
+uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++
 Let $(K_\alpha^\bullet)$ be a filtered diagram of complexes of
 $\Lambda_X$-modules that all vanish below a fixed degree, and let $M$ be
