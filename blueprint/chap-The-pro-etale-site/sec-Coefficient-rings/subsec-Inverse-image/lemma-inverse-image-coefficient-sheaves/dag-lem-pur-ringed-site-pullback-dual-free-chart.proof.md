@@ -1,0 +1,9 @@
++++
+kind = "proof"
+of = "dag-lem-pur-ringed-site-pullback-dual-free-chart"
+tags = ["sheaf-dag"]
+uses = ["dag-lem-pur-ringed-site-pullback-pairing-transfer", "dag-lem-pur-ringed-site-pullback-localization-universes", "dag-lem-pur-ringed-site-module-pullback-exists-universes"]
++++
+1. Construct the global dual comparison by pairing transfer. Its evaluation characterization gives contravariant naturality by uniqueness. On the unit module it is the composite of pullback of Hom(R,R) ≅ R, the canonical FR ≅ S, Hom(S,S) ≅ S, and precomposition with FR ≅ S. Evaluation at 1 and linearity identify this composite with the comparison. (uses [dag-lem-pur-ringed-site-pullback-pairing-transfer])
+2. Both contravariant functors, pullback after dual and dual after pullback, are additive: internal Hom is additive and the left adjoint of additive module pushforward is additive. A natural transformation between them which is invertible on the unit is invertible on finite biproducts of units, by preservation of the opposite biproduct colimit. Transport along a free trivialization. This includes the empty biproduct, hence rank zero.
+3. Use the canonical localization comparison and the restriction isomorphism for internal Hom to transport the given restricted d to the slice. The unit formula for localization and the evaluation formula for d identify that transport with the slice dual comparison by pairing-transfer uniqueness. Existence of all slice module adjoints and additive sheafification in the containing universe is provided by the universe existence lemma. The slice comparison is invertible by the finite biproduct argument. Every localization and Hom restriction factor is invertible, so the original restricted d is invertible. (uses [dag-lem-pur-ringed-site-pullback-localization-universes], [dag-lem-pur-ringed-site-module-pullback-exists-universes], [dag-lem-pur-ringed-site-pullback-pairing-transfer])

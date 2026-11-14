@@ -1,0 +1,9 @@
++++
+kind = "proof"
+of = "dag-lem-sp-ell-quotient-finite-discrete"
+tags = ["sheaf-dag"]
++++
+1. Let $q:O\to O/\ell^kO$ be reduction. Work in the metric topology specified by the cited topology definition. Set $r=|\ell|_E^k>0$. For any $x,y\in O$ with $|y-x|_E<r$, division in $E$ gives $|(y-x)/\ell^k|_E=|y-x|_E/r<1$. Thus $a=(y-x)/\ell^k$ lies in $O=\{z:|z|_E\le1\}$ and $y-x=\ell^ka$, so $q(y)=q(x)$. Consequently every $x$ in a fibre has its relative open ball $B_O(x,r)$ contained in that fibre; every fibre is open. The inverse image of any subset of the discrete target is the union of its fibres, hence open. This proves continuity. This is a direct computation from the definitions, independent of any identification of the valuation topology with an adic topology. This calculation is already formalized by PadicAlgCl.continuous_integersModPowMk, applied at exponent n+1; its quotient and topology are definitionally the ones here. (uses `def-sfb-coefficient-extension-integers-topology`, `def-weil-l-adic-coefficient-extension`)
+2. Equip E with the norm restricted from the specified algebraic closure. It extends the norm on Q_l, so E is a finite-dimensional normed Q_l-space. By `lem-weil-l-adic-extension-proper`, E is proper. Its ring of integers is exactly the closed unit ball, hence compact. Reduction to O_E/(ell^(n+1)) is continuous by step 1 and surjective by the ideal quotient construction. Its image, the whole quotient, is compact. A compact discrete space is finite. This proves finiteness for n=0 as well as all larger indices, without choosing a uniformizer. (uses `lem-weil-l-adic-extension-proper`, `def-sfb-coefficient-extension-integers-topology`, `def-weil-l-adic-coefficient-extension`)
+
+Proof dependencies not drawn: `def-sfb-coefficient-extension-integers-topology`, `def-weil-l-adic-coefficient-extension`, `lem-weil-l-adic-extension-proper`.

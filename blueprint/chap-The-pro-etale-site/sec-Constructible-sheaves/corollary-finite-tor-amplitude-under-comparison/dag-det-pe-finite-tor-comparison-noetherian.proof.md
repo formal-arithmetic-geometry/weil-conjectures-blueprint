@@ -1,0 +1,10 @@
++++
+kind = "proof"
+of = "dag-det-pe-finite-tor-comparison-noetherian"
+tags = ["sheaf-dag"]
+uses = ["dag-sk-thm-pe-constructible-comparison", "dag-lem-pe-coefficient-tor-flat-model", "dag-lem-pe-constructible-comparison-flat-pullback", "dag-lem-pe-constructible-comparison-tensor-test-reflection"]
++++
+1. Obtain the canonical derived comparison and the bounded constructible equivalence from constructibleComparison. (uses [dag-sk-thm-pe-constructible-comparison])
+2. Use the proved coefficient-model flat criterion to represent an etale Tor interval by a flat complex in exactly that interval. Pull it back termwise; flatness preservation and zero-object preservation retain flatness and support. The localization factorization identifies this model with D(K). The reverse flat criterion proves all pro-etale tensor tests. (uses [dag-lem-pe-coefficient-tor-flat-model], [dag-lem-pe-constructible-comparison-flat-pullback])
+3. Choose an etale K-flat representative with flat terms of K by the proved coefficient-model flat-resolution theorem. Its termwise comparison pullback is K-flat by the flat-pullback bridge and represents D(K) by the localization factorization. Apply the pro-etale Tor interval to this representative and the inverse image of each etale test module. Ordinary single-test reflection gives etale tensor-test vanishing for the chosen representative. The proved coefficient-model tensor-test isomorphism transports it to every K-flat representative of K. (uses [dag-lem-pe-coefficient-tor-flat-model], [dag-lem-pe-constructible-comparison-flat-pullback], [dag-lem-pe-constructible-comparison-tensor-test-reflection])
+4. Tor amplitude is invariant under derived isomorphism by composition of representative isomorphisms. Restrict the constructible equivalence to the finite-Tor full subcategories. Full faithfulness is inherited, and its counit, the interval reflection, and essential surjectivity supply finite-Tor antecedents. The restricted forward functor is identified with D by whiskering the given natural comparison. (uses [dag-sk-thm-pe-constructible-comparison])
