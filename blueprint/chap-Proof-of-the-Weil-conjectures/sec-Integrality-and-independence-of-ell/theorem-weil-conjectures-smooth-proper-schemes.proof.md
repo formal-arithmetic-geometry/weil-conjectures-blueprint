@@ -38,14 +38,14 @@ a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is then
 (19.1), and assertion (2) is
 Lemma [lemma-reciprocal-roots-zeta].
 
-The remaining assertions follow from Poincaré duality and the
-functional equation of Chapter [chap-The-trace-formula]. For (3), since
-$P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\mathbf Q_\ell}H^i_\ell$, which does not
-depend on $\ell$, and $b_i=b_{2d-i}$ by
-Corollary [corollary-functional-equation].
+For (3), since $P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\mathbf Q_\ell}H^i_\ell$,
+which does not depend on $\ell$.
 
-For the second part of (3), assume that $X_0$ is geometrically
-connected, so that $X$ is connected. By Theorem [theorem-trace-isomorphism-top-degree],
+The remaining assertions follow from Poincaré duality and the
+functional equation of Chapter [chap-The-trace-formula]. They assume
+that $X_0$ is geometrically connected, so that $X$ is connected. Then
+$b_i=b_{2d-i}$ by Corollary [corollary-functional-equation]. By
+Theorem [theorem-trace-isomorphism-top-degree],
 $H^0(X,\mathbf Q_\ell)=\mathbf Q_\ell$, with Frobenius acting as the identity, and the trace
 map $\operatorname{tr}_X$ identifies $H^{2d}(X,\mathbf Q_\ell)$ with $\mathbf Q_\ell(-d)$, on
 which Frobenius acts by $q^d$. So $b_0=b_{2d}=1$, $P_0=1-T$ and

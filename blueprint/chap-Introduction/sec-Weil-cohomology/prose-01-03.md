@@ -207,7 +207,8 @@ $\ell$-adic Fourier transform [laumon87] (see also [katz88], [kiehl-weissauer01]
 Deligne–Laumon theorem. Our proof uses the Fourier transform as Laumon does,
 but it is organized differently in places.
 
-Of statement (4) we prove that $b_i=b_{2d-i}$. We also prove that
+For geometrically connected $X_0$ we prove the functional equation (2)
+and, of statement (4), that $b_i=b_{2d-i}$. We also prove that
 $b_i=\dim H^i(X,\mathbf Q_\ell)$ for every $\ell$ not dividing $q$; in particular this
 dimension does not depend on $\ell$
 (Theorem [theorem-weil-conjectures-smooth-proper-schemes]). The comparison

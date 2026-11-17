@@ -16,5 +16,6 @@ $p=0$, as for the zero endomorphism, but
 $\det(1-T\cdot\operatorname{id})=(1-T)^p=1-T^p$ is not $1$.
 
 For $K=\Lambda_X$ the product over cohomology is finite, so $Z(X_0,T)$ is
-rational, and for smooth proper $X_0$ duality pairs the factors in degrees $i$
-and $2d-i$ (Corollary [corollary-functional-equation]).
+rational, and for smooth proper geometrically connected $X_0$ duality pairs
+the factors in degrees $i$ and $2d-i$
+(Corollary [corollary-functional-equation]).

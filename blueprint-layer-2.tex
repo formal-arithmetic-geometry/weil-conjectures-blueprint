@@ -336,7 +336,8 @@ constructed by Grothendieck and his collaborators, who proved (a), (b) and
 and Deligne proved it~\cite{DeligneWeilI,DeligneWeilII}. We follow Laumon's
 proof~\cite{Laumon}, which uses the Fourier transform.
 
-Of statement (4) we prove that $b_i=b_{2d-i}$. We also prove that
+For geometrically connected $X_0$ we prove the functional equation (2)
+and, of statement (4), that $b_i=b_{2d-i}$. We also prove that
 $b_i=\dim H^i(X,\Ql)$ for every $\ell$ not dividing $q$; in particular this
 dimension does not depend on $\ell$
 (Theorem~\ref{theorem-weil-conjectures-smooth-proper-schemes}). The comparison
@@ -35045,8 +35046,9 @@ $p=0$, as for the zero endomorphism, but
 $\det(1-T\cdot\operatorname{id})=(1-T)^p=1-T^p$ is not $1$.
 
 For $K=\Lambda_X$ the product over cohomology is finite, so $Z(X_0,T)$ is
-rational, and for smooth proper $X_0$ duality pairs the factors in degrees $i$
-and $2d-i$ (Corollary~\ref{corollary-functional-equation}).
+rational, and for smooth proper geometrically connected $X_0$ duality pairs
+the factors in degrees $i$ and $2d-i$
+(Corollary~\ref{corollary-functional-equation}).
 
 \BPSource{Lemma}{316}{4}{Logarithm of a determinant}
 
@@ -35503,7 +35505,7 @@ functional equation.
 
 \label{corollary-functional-equation}
 
-\noindent\textit{Shared context.} Let $X_0/\mathbf F_q$ be smooth and proper of pure dimension $d$, with $\ell\nmid q$. Put $H^i=H^i(X_{\proet},\Ql)$ and let $F_i$ be its Frobenius operator, as in the reference.
+\noindent\textit{Shared context.} Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected of dimension $d$, with $\ell\nmid q$. Put $H^i=H^i(X_{\proet},\Ql)$ and let $F_i$ be its Frobenius operator, as in the reference.
 
 \begin{bpdefinition}[Betti numbers]
 \label{bp-r320-1}
@@ -35529,7 +35531,7 @@ One has $b_{2d-i}=b_i$.
 \end{bpcorollary}
 \BPProofAnchor{bp-clause-proof-r320-4}
 \begin{proof}[Proof of clause~\ref{bp-r320-4}]
-Because $X_0$ is proper, compactly supported and ordinary cohomology agree. Apply the perfect duality and dimension equality of Theorem~\ref{bp-r266-7} to the constant sheaf $\Ql$ on every connected component. Taking the sum of dimensions gives $b_{2d-i}=b_i$.
+Because $X_0$ is proper, compactly supported and ordinary cohomology agree. Apply the perfect duality and dimension equality of Theorem~\ref{bp-r266-7} to the constant sheaf $\Ql$ on $X$. This gives $b_{2d-i}=b_i$.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-229]{reference proof 229}\,(p.~\pageref{bp-proof-229}).}\par
 
@@ -35541,7 +35543,7 @@ The integer $d\chi$ is even.
 \end{bpcorollary}
 \BPProofAnchor{bp-clause-proof-r320-5}
 \begin{proof}[Proof of clause~\ref{bp-r320-5}]
-By clause~\ref{bp-r320-4}, the terms of $\chi$ outside the middle degree pair up modulo $2$, giving $\chi\equiv b_d\pmod2$. If $d$ is even then $d\chi$ is even. If $d$ is odd, Corollary~\ref{corollary-cup-product-pairing} gives a perfect alternating pairing on middle cohomology on each connected component, so $b_d$ is even. This again makes $d\chi$ even.
+By clause~\ref{bp-r320-4}, the terms of $\chi$ outside the middle degree pair up modulo $2$, giving $\chi\equiv b_d\pmod2$. If $d$ is even then $d\chi$ is even. If $d$ is odd, Corollary~\ref{corollary-cup-product-pairing} gives a perfect alternating pairing on middle cohomology, since $X$ is connected, so $b_d$ is even. This again makes $d\chi$ even.
 \end{proof}
 \noindent{\footnotesize\textit{Proof provenance:} \hyperref[bp-proof-229]{reference proof 229}\,(p.~\pageref{bp-proof-229}).}\par
 
@@ -35647,8 +35649,9 @@ $\det F_i\cdot\det F_{2d-i}=q^{db_i}$. Since $(-1)^i=(-1)^{2d-i}$, we get
 Since $b_{2d-i}=b_i$, the terms of $\chi$ for $i$ and $2d-i$ are equal
 and cancel modulo $2$, so $\chi\equiv b_d\pmod 2$. If $d$ is even,
 $d\chi$ is even anyway. If $d$ is odd,
-the pairing on $H^d$ of each connected component of $X$ is perfect and
-alternating (Corollary~\ref{corollary-cup-product-pairing}), so $b_d$ is even. In
+the pairing on $H^d$ is perfect and alternating
+(Corollary~\ref{corollary-cup-product-pairing}; $X$ is connected because
+$X_0$ is geometrically connected), so $b_d$ is even. In
 both cases $d\chi$ is even. Then $\varepsilon^2=1$ because $D^2=q^{d\chi}$.
 
 Now consider a single factor. Since $F_i$ is invertible, its
@@ -44669,7 +44672,7 @@ The number $b_i$ is the degree of the single integral polynomial constructed in 
 
 \begin{bptheorem}[Symmetry of the degrees]
 \label{bp-r429-9}
-One has $b_i=b_{2d-i}$.
+If $X_0$ is geometrically connected, then $b_i=b_{2d-i}$.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r429-9}
 \begin{proof}[Proof of clause~\ref{bp-r429-9}]
@@ -44730,7 +44733,7 @@ Define $\chi=\sum_i(-1)^ib_i$.
 
 \begin{bptheorem}[Parity]
 \label{bp-r429-15}
-The integer $d\chi$ is even.
+If $X_0$ is geometrically connected, then the integer $d\chi$ is even.
 \end{bptheorem}
 \BPProofAnchor{bp-clause-proof-r429-15}
 \begin{proof}[Proof of clause~\ref{bp-r429-15}]
@@ -44741,7 +44744,7 @@ Clause~\ref{bp-r429-7} identifies the degree-based Euler characteristic with the
 
 \begin{bptheorem}[Functional equation]
 \label{bp-r429-16}
-There is $\varepsilon\in\{1,-1\}$ such that
+If $X_0$ is geometrically connected, there is $\varepsilon\in\{1,-1\}$ such that
 \[
  Z\!\left(X_0,\frac1{q^dT}\right)=\varepsilon q^{d\chi/2}T^\chi Z(X_0,T)
  \quad\hbox{in }\mathbf Q(T).
@@ -44801,14 +44804,14 @@ a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is
 \eqref{equation-determinant-product}. Assertion (2) is
 Lemma~\ref{lemma-reciprocal-roots-zeta}.
 
-The remaining assertions follow from Poincar\'e duality and the
-functional equation of Section~\ref{section-trace-formula}. For (3), since
-$P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$, which does not
-depend on $\ell$, and $b_i=b_{2d-i}$ by
-Corollary~\ref{corollary-functional-equation}.
+For (3), since $P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$,
+which does not depend on $\ell$.
 
-For the second part of (3), assume that $X_0$ is geometrically
-connected, so that $X$ is connected. By Theorem~\ref{theorem-trace-isomorphism-top-degree},
+The remaining assertions follow from Poincar\'e duality and the
+functional equation of Section~\ref{section-trace-formula}. They assume
+that $X_0$ is geometrically connected, so that $X$ is connected. Then
+$b_i=b_{2d-i}$ by Corollary~\ref{corollary-functional-equation}. By
+Theorem~\ref{theorem-trace-isomorphism-top-degree},
 $H^0(X,\Ql)=\Ql$, with Frobenius acting as the identity, and the trace
 map $\operatorname{tr}_X$ identifies $H^{2d}(X,\Ql)$ with $\Ql(-d)$, on
 which Frobenius acts by $q^d$. So $b_0=b_{2d}=1$, $P_0=1-T$ and

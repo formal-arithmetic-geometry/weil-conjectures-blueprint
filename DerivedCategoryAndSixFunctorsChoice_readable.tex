@@ -410,7 +410,8 @@ $\ell$-adic Fourier transform~\cite{Laumon} (see also~\cite{KatzLaumon,KiehlWeis
 Deligne--Laumon theorem. Our proof uses the Fourier transform as Laumon does,
 but it is organized differently in places.
 
-Of statement (4) we prove that $b_i=b_{2d-i}$. We also prove that
+For geometrically connected $X_0$ we prove the functional equation (2)
+and, of statement (4), that $b_i=b_{2d-i}$. We also prove that
 $b_i=\dim H^i(X,\Ql)$ for every $\ell$ not dividing $q$; in particular this
 dimension does not depend on $\ell$
 (Theorem~\ref{theorem-weil-conjectures-smooth-proper-schemes}). The comparison
@@ -19672,8 +19673,9 @@ $p=0$, as for the zero endomorphism, but
 $\det(1-T\cdot\operatorname{id})=(1-T)^p=1-T^p$ is not $1$.
 
 For $K=\Lambda_X$ the product over cohomology is finite, so $Z(X_0,T)$ is
-rational, and for smooth proper $X_0$ duality pairs the factors in degrees $i$
-and $2d-i$ (Corollary~\ref{corollary-functional-equation}).
+rational, and for smooth proper geometrically connected $X_0$ duality pairs
+the factors in degrees $i$ and $2d-i$
+(Corollary~\ref{corollary-functional-equation}).
 
 \begin{lemma}[Logarithm of a determinant]
 \label{lemma-logarithm-determinant}
@@ -19909,7 +19911,8 @@ functional equation.
 
 \begin{corollary}[Functional equation]
 \label{corollary-functional-equation}
-Let $X_0/\mathbf F_q$ be smooth and proper of pure dimension $d$, and let
+Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected of
+dimension $d$, and let
 $\ell\nmid q$. Put $H^i=H^i(X_{\proet},\Ql)$, let $F_i$ be the Frobenius operator $F$ on $H^i$
 (\S\ref{section-weil-complexes}), and put
 \[
@@ -19940,8 +19943,9 @@ $\det F_i\cdot\det F_{2d-i}=q^{db_i}$. Since $(-1)^i=(-1)^{2d-i}$, we get
 Since $b_{2d-i}=b_i$, the terms of $\chi$ for $i$ and $2d-i$ are equal
 and cancel modulo $2$, so $\chi\equiv b_d\pmod 2$. If $d$ is even,
 $d\chi$ is even anyway. If $d$ is odd,
-the pairing on $H^d$ of each connected component of $X$ is perfect and
-alternating (Corollary~\ref{corollary-cup-product-pairing}), so $b_d$ is even. In
+the pairing on $H^d$ is perfect and alternating
+(Corollary~\ref{corollary-cup-product-pairing}; $X$ is connected because
+$X_0$ is geometrically connected), so $b_d$ is even. In
 both cases $d\chi$ is even. Then $\varepsilon^2=1$ because $D^2=q^{d\chi}$.
 
 Now consider a single factor. Since $F_i$ is invertible, its
@@ -25892,10 +25896,11 @@ $P_{i,\ell}$ be as above.
       $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$.
 \item The reciprocal roots of $P_i$ are algebraic integers, and each of them
       has absolute value $q^{i/2}$ under every complex embedding.
-\item The degrees $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$ do not depend on $\ell$,
-      and $b_i=b_{2d-i}$. If $X_0$ is geometrically connected, then
+\item The degrees $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$ do not depend on $\ell$.
+      If $X_0$ is geometrically connected, then $b_i=b_{2d-i}$,
       $P_0=1-T$, $P_{2d}=1-q^dT$, and $b_0=b_{2d}=1$.
-\item Put $\chi=\sum_i(-1)^ib_i$. Then $d\chi$ is even and there
+\item Suppose that $X_0$ is geometrically connected, and put
+      $\chi=\sum_i(-1)^ib_i$. Then $d\chi$ is even and there
       is $\varepsilon\in\{1,-1\}$ such that
       \[
        Z\!\left(X_0,\frac1{q^dT}\right)
@@ -25937,14 +25942,14 @@ a single $P_{i,\ell}$. The product formula for $Z(X_0,T)$ in (1) is then
 \eqref{equation-determinant-product}, and assertion (2) is
 Lemma~\ref{lemma-reciprocal-roots-zeta}.
 
-The remaining assertions follow from Poincar\'e duality and the
-functional equation of Section~\ref{section-trace-formula}. For (3), since
-$P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$, which does not
-depend on $\ell$, and $b_i=b_{2d-i}$ by
-Corollary~\ref{corollary-functional-equation}.
+For (3), since $P_i=P_{i,\ell}$, we have $b_i=\deg P_i=\dim_{\Ql}H^i_\ell$,
+which does not depend on $\ell$.
 
-For the second part of (3), assume that $X_0$ is geometrically
-connected, so that $X$ is connected. By Theorem~\ref{theorem-trace-isomorphism-top-degree},
+The remaining assertions follow from Poincar\'e duality and the
+functional equation of Section~\ref{section-trace-formula}. They assume
+that $X_0$ is geometrically connected, so that $X$ is connected. Then
+$b_i=b_{2d-i}$ by Corollary~\ref{corollary-functional-equation}. By
+Theorem~\ref{theorem-trace-isomorphism-top-degree},
 $H^0(X,\Ql)=\Ql$, with Frobenius acting as the identity, and the trace
 map $\operatorname{tr}_X$ identifies $H^{2d}(X,\Ql)$ with $\Ql(-d)$, on
 which Frobenius acts by $q^d$. So $b_0=b_{2d}=1$, $P_0=1-T$ and
