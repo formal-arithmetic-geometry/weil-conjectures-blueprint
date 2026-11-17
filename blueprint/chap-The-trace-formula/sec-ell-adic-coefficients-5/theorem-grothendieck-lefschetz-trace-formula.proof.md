@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-grothendieck-lefschetz-trace-formula"
 order = 1020
-uses = ["proposition-w-local-components", "definition-pro-etale-base-change-map", "proposition-proper-direct-image-constructible-complexes", "proposition-construction-independence-rf-shriek", "lemma-change-coefficients-compact-support", "definition-frobenius-operator", "proposition-properties-trace", "corollary-trace-functions-direct-image-compact", "proposition-weights-under-usual-operations", "theorem-nagata-s-compactification-theorem"]
+uses = ["proposition-w-local-components", "definition-pro-etale-base-change-map", "proposition-construction-independence-rf-shriek", "lemma-change-coefficients-compact-support", "definition-frobenius-operator", "proposition-properties-trace", "corollary-trace-functions-direct-image-compact", "proposition-weights-under-usual-operations", "theorem-nagata-s-compactification-theorem"]
 +++
 In each case we turn the Weil structure into a Frobenius correspondence
 by composing with $\kappa_1$, and we use

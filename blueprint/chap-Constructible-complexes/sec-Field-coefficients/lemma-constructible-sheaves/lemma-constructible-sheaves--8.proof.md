@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-constructible-sheaves--8"
 order = 268017
-uses = ["definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "lemma-extremally-disconnected-covers--3", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-pro-etale-site-separably-closed--2", "proposition-pro-etale-site-separably-closed--3"]
+uses = ["definition-lisse-sheaves", "definition-ind-etale-pro-etale-weakly--1", "proposition-etale-implications--1", "lemma-stability--3", "lemma-stability--8", "proposition-pro-etale-coverings--2", "proposition-topos-functoriality--1", "definition-w-local-w-strictly-local--4", "lemma-extremally-disconnected-covers--3", "theorem-existence-contractible-covers--1", "lemma-w-contractible-affines-projective--1", "definition-weak-contractibility--1", "proposition-pro-etale-site-separably-closed--2", "definition-constructible-sheaves--1", "definition-constructible-sheaves--2"]
 +++
 For $\Lambda=E$, realize a local presentation matrix as a matrix of
 continuous $E$-valued functions. Its cokernel has fibre dimension equal

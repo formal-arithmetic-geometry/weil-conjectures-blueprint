@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-bounded-below-classical-complexes"
 order = 130
-uses = ["proposition-topos-functoriality", "theorem-classical-sheaves-essential-image"]
+uses = ["proposition-topos-functoriality", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison"]
 +++
 We need the first assertion so that “classical complex” defines a
 triangulated subcategory, and for extensions we use the vanishing of

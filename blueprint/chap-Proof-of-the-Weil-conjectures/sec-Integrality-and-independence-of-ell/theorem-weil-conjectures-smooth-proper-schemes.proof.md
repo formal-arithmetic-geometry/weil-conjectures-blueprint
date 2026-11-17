@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-weil-conjectures-smooth-proper-schemes"
 order = 1392
-uses = ["theorem-trace-isomorphism-top-degree", "theorem-poincare-duality-frobenius", "lemma-logarithm-determinant", "theorem-trace-formula-euler-product", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reciprocal-roots-zeta"]
+uses = ["theorem-trace-isomorphism-top-degree", "theorem-poincare-duality-frobenius", "theorem-grothendieck-lefschetz-trace-formula", "lemma-logarithm-determinant", "theorem-trace-formula-euler-product", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reduced-fractions-integer-coefficients", "lemma-reciprocal-roots-zeta"]
 +++
 For (1) and (2), we define $P_i$ using only the reduced fraction $A/B$
 of Lemma [lemma-reduced-fractions-integer-coefficients], by sorting

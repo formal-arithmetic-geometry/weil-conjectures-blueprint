@@ -2,7 +2,6 @@
 kind = "proof"
 of = "theorem-sp-qbar"
 order = 792
-uses = ["theorem-smooth-purity-all-admissible-coefficients"]
 +++
 As for $E$, we compare Hom groups, now as colimits over finite extensions
 instead of after inverting $\ell$.
