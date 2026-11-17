@@ -13,8 +13,8 @@ suffices.
 Density is a condition on structure sheaves. For instance, a nilpotent
 section supported on the boundary is invisible on $X$, but it prevents
 $X$ from being schematically dense. The condition does two things for
-us. First, morphisms between dense compactifications are unique and common
-refinements exist
+us. First, morphisms between [dense compactifications](@definition-compactification-refinement) are unique and [common
+refinements](@definition-compactification-refinement) exist
 (Proposition [proposition-dense-compactifications-form-cofiltered-category]).
-Second, passing to a dense compactification does not change the direct
+Second, passing to a [dense compactification](@definition-compactification-refinement) does not change the direct
 image with proper support (Lemma [lemma-passing-schematic-closure]).

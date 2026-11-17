@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be Noetherian and let $M\to S$ be separated of finite type.
-Suppose that $M=M_1\cup M_2$, that each $M_i$ has a compactification over
+Suppose that $M=M_1\cup M_2$, that each $M_i$ has a [compactification](@definition-compactification-refinement) over
 $S$, and that $D=M_1\cap M_2$ is dense in $M$. Then $M$ has a
-compactification over $S$.
+[compactification](@definition-compactification-refinement) over $S$.

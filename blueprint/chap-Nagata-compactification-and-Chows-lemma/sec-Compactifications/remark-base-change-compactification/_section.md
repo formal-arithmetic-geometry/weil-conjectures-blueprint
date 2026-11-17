@@ -4,7 +4,7 @@ kind = "remark"
 title = "Base change of a compactification"
 order = 1422
 +++
-For every $S'\to S$, the base change of a compactification is an open
+For every $S'\to S$, the base change of a [compactification](@definition-compactification-refinement) is an open
 immersion followed by a proper morphism, which suffices to define
 the direct image with compact support of $X\times_SS'\to S'$. When the
 base-changed ambient scheme is Noetherian, as for schemes of finite
@@ -15,8 +15,8 @@ Schematic closure
 commutes with flat base change
 (Lemma [lemma-schematic-closure-uniqueness]), and so does schematic
 density, but density can be lost under an arbitrary base change. In that case the schematic
-closure of $X\times_SS'$ in $\overline X\times_SS'$ is a dense
-compactification, and a base-changed common refinement can be replaced
+closure of $X\times_SS'$ in $\overline X\times_SS'$ is a [dense
+compactification](@definition-compactification-refinement), and a base-changed [common refinement](@definition-compactification-refinement) can be replaced
 by its closure in the same way. The comparisons in the main text are
-made on a further common refinement, where they are canonical by
+made on a further [common refinement](@definition-compactification-refinement), where they are canonical by
 uniqueness.

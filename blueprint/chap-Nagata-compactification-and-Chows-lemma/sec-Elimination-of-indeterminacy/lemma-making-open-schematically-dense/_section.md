@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isSchemeTheoretica
 uses = ["definition-admissible-blow-up"]
 +++
 Let $T$ be quasi-compact and quasi-separated, and let $U\subseteq T$ be a
-quasi-compact open. There is a $U$-admissible blow-up $T'\to T$ such that the
+quasi-compact open. There is a $U$-[admissible blow-up](@definition-admissible-blow-up) $T'\to T$ such that the
 inverse image of $U$ is schematically dense in $T'$ and its complement is the
 support of an effective Cartier divisor.

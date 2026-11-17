@@ -10,6 +10,6 @@ is forced to be the closure of the original section. By
 Lemma [lemma-uniqueness-maps-dense-open], the identifications
 obtained on common admissible refinements therefore agree.
 
-In the gluing argument below, a compactification of an open $V$ of $M$
+In the gluing argument below, a [compactification](@definition-compactification-refinement) of an open $V$ of $M$
 is related to $M$ itself by a proper map defined on a larger open of
-the compactification.
+the [compactification](@definition-compactification-refinement).

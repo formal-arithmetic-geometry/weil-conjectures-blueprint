@@ -15,6 +15,6 @@ overlap. Lemma [lemma-affine-covers-dense-intersection] provides a
 cover whose total intersection contains all generic points of $X$.
 
 Over a general qcqs base we use Noetherian approximation. This works because a morphism of finite presentation is the base change of one over a Noetherian scheme,
-and compactifications are stable under base change. A morphism that is only of finite type, however, need not descend in this way. We therefore first
+and [compactifications](@definition-compactification-refinement) are stable under base change. A morphism that is only of finite type, however, need not descend in this way. We therefore first
 embed $X$ as a closed subscheme of a scheme of finite presentation over
-$S$, and take the closure of $X$ in a compactification of the latter.
+$S$, and take the closure of $X$ in a [compactification](@definition-compactification-refinement) of the latter.

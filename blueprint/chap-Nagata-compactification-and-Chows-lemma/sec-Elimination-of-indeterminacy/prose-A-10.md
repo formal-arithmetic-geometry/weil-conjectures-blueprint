@@ -23,7 +23,7 @@ center. Since $I$ is finitely generated, the blow-up of an affine base
 is a closed subscheme of a projective space over it, and therefore $b$
 is proper. These constructions glue under restriction to opens.
 
-We first use admissible blow-ups to restore density. A
-compactification may contain components or embedded components
+We first use [admissible blow-ups](@definition-admissible-blow-up) to restore density. A
+[compactification](@definition-compactification-refinement) may contain components or embedded components
 supported in the boundary. Blowing up the boundary removes them, because
 after the blow-up the boundary is cut out locally by a nonzerodivisor.

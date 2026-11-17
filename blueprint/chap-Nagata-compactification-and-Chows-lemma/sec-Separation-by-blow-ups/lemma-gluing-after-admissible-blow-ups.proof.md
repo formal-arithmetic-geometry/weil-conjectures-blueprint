@@ -8,7 +8,7 @@ We glue the $T_i$ along the closure of $U$ in $T_1\times_ST_2$, after
 blow-ups that make this closure open in both. The glued scheme is
 separated because the closure is closed in the product.
 
-Let $G$ be the schematic closure of $U$ in $T_1\times_ST_2$. Then Theorem [theorem-elimination-indeterminacy], applied to the two projections, makes the strict transforms of $G$ opens in suitable
+Let $G$ be the schematic closure of $U$ in $T_1\times_ST_2$. Then Theorem [theorem-elimination-indeterminacy], applied to the two projections, makes the [strict transforms](@definition-strict-transform) of $G$ opens in suitable
 blow-ups of the two sides. To obtain a single modification, we blow up
 $G$ in the product of the two pulled-back centers, which gives a common
 refinement. By

@@ -6,7 +6,7 @@ order = 1449
 uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be qcqs, let $M\to S$ be separated of finite type, and let
-$V\subseteq M$ be a quasi-compact open with a compactification
-$V\subseteq Y$ over $S$. There are a $V$-admissible blow-up $Y'\to Y$,
+$V\subseteq M$ be a quasi-compact open with a [compactification](@definition-compactification-refinement)
+$V\subseteq Y$ over $S$. There are a $V$-[admissible blow-up](@definition-admissible-blow-up) $Y'\to Y$,
 an open $V\subseteq V'\subseteq Y'$ and a proper map
 $\psi:V'\to M$ with $\psi^{-1}(V)=V$ and $\psi|_V=\mathrm{id}_V$.
