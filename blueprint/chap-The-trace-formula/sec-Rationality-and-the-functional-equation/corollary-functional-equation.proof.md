@@ -22,8 +22,9 @@ $$
 Since $b_{2d-i}=b_i$, the terms of $\chi$ for $i$ and $2d-i$ are equal
 and cancel modulo $2$, so $\chi\equiv b_d\pmod 2$. If $d$ is even,
 $d\chi$ is even anyway. If $d$ is odd,
-the pairing on $H^d$ of each connected component of $X$ is perfect and
-alternating (Corollary [corollary-cup-product-pairing]), so $b_d$ is even. In
+the pairing on $H^d$ is perfect and alternating
+(Corollary [corollary-cup-product-pairing]; $X$ is connected because
+$X_0$ is geometrically connected), so $b_d$ is even. In
 both cases $d\chi$ is even. Then $\varepsilon^2=1$ because $D^2=q^{d\chi}$.
 
 Now consider a single factor. Since $F_i$ is invertible, its
