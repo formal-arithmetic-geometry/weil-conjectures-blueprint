@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-pure-lisse-sheaves-over-relative"
 order = 1349
-uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-perfect-complexes-geometric-point", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-bounding-weights-mixed-sheaf", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-real-sheaves", "definition-middle-extension", "lemma-boundary-stalk", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "proposition-twisting-weight-zero-adding-dual", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images", "theorem-real-constructible-sheaves-are-mixed"]
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-perfect-complexes-geometric-point", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-bounding-weights-mixed-sheaf", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-real-sheaves", "definition-middle-extension", "lemma-boundary-stalk", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "proposition-twisting-weight-zero-adding-dual", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images", "theorem-real-constructible-sheaves-are-mixed"]
 +++
 We bound the stalks of $R^ih_!F$ by the curve case, we show that these
 sheaves are mixed by twisting to weight zero and adding the dual, and

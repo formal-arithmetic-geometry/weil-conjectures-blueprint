@@ -4,8 +4,8 @@ kind = "proposition"
 title = "Finite coefficients"
 order = 425002
 aliases = ["bp-r129-1"]
-lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian"]
-uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2"]
+lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar_of_isProper"]
+uses = ["definition-small-pro-etale-site--1", "proposition-topos-functoriality--2", "proposition-comparison-morphism-inverse-image--1", "proposition-comparison-morphism-inverse-image--2", "definition-constructible-sheaves--6"]
 +++
 $Rp_{*,A}:D(X_{\mathrm{pro}\acute{e}t},A)\to D(Y_{\mathrm{pro}\acute{e}t},A)$ maps
 $D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ into $D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$.

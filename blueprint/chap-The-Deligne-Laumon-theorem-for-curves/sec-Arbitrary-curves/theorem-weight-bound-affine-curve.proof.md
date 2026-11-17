@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-weight-bound-affine-curve"
 order = 1316
-uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-middle-extension", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images"]
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-middle-extension", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images"]
 +++
 We push the sheaf forward to the line and realize $H^1_c$ as a
 quotient of a group bounded by

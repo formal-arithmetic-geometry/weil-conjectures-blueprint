@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-internal-adjunction-two-exchange-formulas"
 order = 831
-uses = ["proposition-exact-products", "proposition-milnor-sequence", "definition-lisse-sheaves", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-proper-direct-image-constructible-complexes", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients"]
+uses = ["proposition-exact-products", "proposition-milnor-sequence", "definition-lisse-sheaves", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients"]
 +++
 We check each isomorphism by Yoneda. After applying
 $\Hom(N,-)$, we identify both sides with the same Hom group by the

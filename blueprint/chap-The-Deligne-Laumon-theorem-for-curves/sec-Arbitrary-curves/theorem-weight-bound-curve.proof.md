@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-weight-bound-curve"
 order = 1319
-uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images"]
+uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images"]
 +++
 On a geometrically connected curve we compare $j_*F$ with its
 restriction to a dense affine open, where the affine case applies, and
