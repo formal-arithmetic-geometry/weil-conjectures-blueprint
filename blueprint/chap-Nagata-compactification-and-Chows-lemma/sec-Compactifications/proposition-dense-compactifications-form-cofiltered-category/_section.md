@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement",
 uses = ["definition-compactification-refinement"]
 +++
 Let $S$ be quasi-compact and quasi-separated, and let $f:X\to S$ be separated
-and of finite type. Any finite family of dense compactifications of $f$ has a
-common dense refinement. Morphisms between dense compactifications that
+and of finite type. Any finite family of [dense compactifications](@definition-compactification-refinement) of $f$ has a
+[common dense refinement](@definition-compactification-refinement). Morphisms between [dense compactifications](@definition-compactification-refinement) that
 restrict to the identity on $X$ are unique, proper, and automatically satisfy
-$h^{-1}(X)=X$. The category of dense compactifications of $f$ is therefore
+$h^{-1}(X)=X$. The category of [dense compactifications](@definition-compactification-refinement) of $f$ is therefore
 cofiltered.

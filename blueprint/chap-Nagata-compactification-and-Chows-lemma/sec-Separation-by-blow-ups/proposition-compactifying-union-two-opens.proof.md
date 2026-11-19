@@ -4,7 +4,7 @@ of = "proposition-compactifying-union-two-opens"
 order = 1462
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "lemma-making-open-schematically-dense", "definition-strict-transform", "lemma-extending-graph-from-compactification", "lemma-separation-closures", "lemma-extending-isomorphism-over-closure-closed", "lemma-gluing-after-admissible-blow-ups"]
 +++
-The idea is to glue $M$ to each compactification $X_i$ of $M_i$ after
+The idea is to glue $M$ to each [compactification](@definition-compactification-refinement) $X_i$ of $M_i$ after
 removing from $X_i$ the closure of the part lying over $M\setminus M_i$.
 This gives separated schemes $W_i$ containing $M$, and a common
 modification combines them into one separated $W$. It remains to check that $W$ is proper, and for this we use the valuative criterion. Separating the closures of the
@@ -13,8 +13,8 @@ boundaries, we obtain
 valuation of $D$ extends into one of the $W_i$.
 
 *Separating the boundaries.* Since the subsets to be removed from $X_i$ are defined by points of
-$M$ outside $M_i$, we must relate each $X_i$ to $M$ itself. Choose dense compactifications $M_i\subseteq X_i$. By
-Lemma [lemma-extending-graph-from-compactification], after admissible blow-ups
+$M$ outside $M_i$, we must relate each $X_i$ to $M$ itself. Choose [dense compactifications](@definition-compactification-refinement) $M_i\subseteq X_i$. By
+Lemma [lemma-extending-graph-from-compactification], after [admissible blow-ups](@definition-admissible-blow-up)
 there are opens $M_i\subseteq V_i\subseteq X_i$ and proper maps
 $\psi_i:V_i\to M$ that are isomorphisms above $M_i$.
 Put, for $\{i,j\}=\{1,2\}$,
@@ -27,16 +27,16 @@ $$
 
 The subsets $Z_{i,1},Z_{i,2}$ are disjoint and closed in $V_i$.
 By Lemma [lemma-separation-closures], after a further
-$V_i$-admissible blow-up we may assume that
-$B_{i,1}\cap B_{i,2}=\varnothing$, and subsequent $V_i$-admissible
-blow-ups preserve this disjointness.
+$V_i$-[admissible blow-up](@definition-admissible-blow-up) we may assume that
+$B_{i,1}\cap B_{i,2}=\varnothing$, and subsequent $V_i$-[admissible
+blow-ups](@definition-admissible-blow-up) preserve this disjointness.
 
 Let $X_{12}$ be the schematic closure of
 $V_1\times_MV_2$ in $X_1\times_SX_2$, with proper projections
 $p_i$. Above $V_1$, the first projection is the base change of
 $\psi_2$, so it is an isomorphism near $Z_{1,2}$. By
 Lemma [lemma-extending-isomorphism-over-closure-closed] it becomes
-an isomorphism near $B_{1,2}$ after a blow-up. We replace $X_{12}$ by its strict transform, or
+an isomorphism near $B_{1,2}$ after a blow-up. We replace $X_{12}$ by its [strict transform](@definition-strict-transform), or
 equivalently by the closure of the new graph. Since $p_1$ is now an
 isomorphism over a neighbourhood of $B_{1,2}$ and $Z_{1,2}$ is dense in
 $B_{1,2}$, the inverse image of $Z_{1,2}$ is dense in $p_1^{-1}(B_{1,2})$. The second
@@ -94,5 +94,5 @@ criterion [Stacks, [0894](https://stacks.math.columbia.edu/tag/0894)], in the fo
 from $\operatorname{Spec}(K)$ into the dense open $D$, then shows that
 $W\to S$ is universally closed. As $W$ is also of finite type and
 separated, it is proper over $S$. Its open $M$ yields the desired
-compactification, which becomes dense after we take the schematic
+[compactification](@definition-compactification-refinement), which becomes dense after we take the schematic
 closure of $M$. This is [Stacks, [0F40](https://stacks.math.columbia.edu/tag/0F40)].

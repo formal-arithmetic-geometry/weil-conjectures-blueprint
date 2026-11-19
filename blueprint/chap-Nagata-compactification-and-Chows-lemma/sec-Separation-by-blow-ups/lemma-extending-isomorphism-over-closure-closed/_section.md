@@ -9,5 +9,5 @@ uses = ["definition-compactification-refinement", "lemma-schematic-closure-uniqu
 Let $q:P\to T$ be a proper morphism of qcqs schemes, let $V\subseteq T$
 be a quasi-compact open, and let $F\subseteq V$ be closed. Suppose that
 $q$ is an isomorphism over a neighbourhood of $F$ in $V$.
-After a $V$-admissible blow-up, the strict transform of $q$ is an
+After a $V$-[admissible blow-up](@definition-admissible-blow-up), the [strict transform](@definition-strict-transform) of $q$ is an
 isomorphism over a neighbourhood of the closure of $F$.

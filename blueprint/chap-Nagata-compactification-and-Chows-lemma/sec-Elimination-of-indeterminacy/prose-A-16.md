@@ -8,7 +8,7 @@ We quote this theorem from [conrad07, Theorem 2.4], with the
 auxiliary base equal to $T$, and explain below the structure of its
 proof. Note that $Y$ is qcqs, since $p$ is separated and of
 finite type and $T$ is qcqs. The hypothesis on $f$ says that
-$f$ is a quasi-domination of $V$ over $Y$. We apply the theorem only
+$f$ is a [quasi-domination](@definition-quasi-domination) of $V$ over $Y$. We apply the theorem only
 when $V=U$, the case of [conrad07, Remark 2.5]. Then the
 hypothesis holds automatically, because a section of a separated
 morphism is a closed immersion.
@@ -34,7 +34,7 @@ quasi-affine case applies once more.
 In detail, choose a finite affine open cover $Y=\bigcup_iY_i$. Since $T$
 is quasi-separated, each $Y_i\to T$ is quasi-compact, and as $Y_i$ is
 affine it is quasi-affine. Hence the quasi-affine case applies to each
-$f|_{f^{-1}(Y_i)}$, and we take a common $V$-admissible blow-up
+$f|_{f^{-1}(Y_i)}$, and we take a common $V$-[admissible blow-up](@definition-admissible-blow-up)
 $T_1\to T$. Let $Z$ be the schematic closure of the image of $f$ in
 $Y\times_TT_1$. It meets each $Y_i\times_TT_1$ inside the closed graph
 of an extension, which has at most one point over each point of $T_1$.
@@ -42,4 +42,4 @@ Since there are finitely many $Y_i$, the fibres of $Z\to T_1$ are
 finite. As $Z\to T_1$ is separated and of finite type, it is
 quasi-finite, and it is quasi-affine by
 Proposition [proposition-relative-form-zariski-s-main]. The quasi-affine case then extends the section into $Z$, and the composite of the two blow-ups is
-$V$-admissible by Lemma [lemma-products-composites-u-admissible-blow].
+$V$-[admissible](@definition-admissible-blow-up) by Lemma [lemma-products-composites-u-admissible-blow].

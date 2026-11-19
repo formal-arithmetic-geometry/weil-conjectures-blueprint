@@ -5,12 +5,12 @@ order = 1416
 +++
 The first identification is a statement about supports, and the
 second follows from it by applying $Rp_*$. The only point that needs
-care on the pro-étale site is the exactness of $i_*$.
+care on the [pro-étale site](@definition-small-pro-etale-site) is the exactness of $i_*$.
 
 Since $j_!K$ vanishes outside $X\subseteq Z$, it should be
 pushed forward from $Z$. To say this in the derived category we need
 $i_*$ to be exact, so that $Ri_*=i_*$. By Proposition [proposition-extension-zero-restriction-closed-subscheme], the functors
-attached to open and closed immersions on the pro-étale site are
+attached to open and closed immersions on the [pro-étale site](@definition-small-pro-etale-site) are
 exact when the complementary open is quasi-compact. Since
 $\overline X$ is Noetherian, the complement of $Z$ is quasi-compact,
 so all functors below are exact and may be applied degreewise

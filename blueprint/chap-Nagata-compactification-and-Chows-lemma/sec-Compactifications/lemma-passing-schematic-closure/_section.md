@@ -6,7 +6,7 @@ order = 1415
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "lemma-inverse-image-tensor-product", "proposition-sp-unique-adjoint", "definition-compactification-refinement"]
 +++
 Let $X\xrightarrow{j}\overline X\xrightarrow{p}S$ be any
-compactification with $\overline X$ Noetherian, and let
+[compactification](@definition-compactification-refinement) with $\overline X$ Noetherian, and let
 $i:Z\hookrightarrow\overline X$ be the
 schematic closure of $X$, with $j_Z:X\hookrightarrow Z$ the induced
 open immersion. For a condensed coefficient ring $\Lambda$, we use the

@@ -8,8 +8,8 @@ Blow-ups commute with flat base change [Stacks, [0805](https://stacks.math.colum
 pullback preserves the inclusions $\mathcal I^m\subseteq\mathcal O_T$.
 Under a base change that is not flat, the pullbacks of these
 inclusions can have kernels.
-In that case the blow-up of the pulled-back ideal is the strict
-transform of the base change, which can be strictly smaller than the
+In that case the blow-up of the pulled-back ideal is the [strict
+transform](@definition-strict-transform) of the base change, which can be strictly smaller than the
 base change itself.
 
 The gluing argument has to extend a morphism defined on a dense open

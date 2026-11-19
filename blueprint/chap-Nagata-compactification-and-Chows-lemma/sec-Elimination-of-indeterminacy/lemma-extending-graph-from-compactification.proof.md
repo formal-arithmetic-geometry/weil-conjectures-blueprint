@@ -11,9 +11,9 @@ of a blow-up of $Y$, and $\psi$ is proper because the graph is closed.
 Let $G$ be the schematic closure of the graph of $V\to M$ in
 $Y\times_SM$. Its projection to $Y$ is separated of finite type,
 and it is an isomorphism over $V$. By
-Theorem [theorem-elimination-indeterminacy], after a $V$-admissible blow-up
-$Y'\to Y$ its strict transform $G'$ is an open $V'\subseteq Y'$.
-This strict transform is the closure of the graph of $V\to M$ in
+Theorem [theorem-elimination-indeterminacy], after a $V$-[admissible blow-up](@definition-admissible-blow-up)
+$Y'\to Y$ its [strict transform](@definition-strict-transform) $G'$ is an open $V'\subseteq Y'$.
+This [strict transform](@definition-strict-transform) is the closure of the graph of $V\to M$ in
 $Y'\times_SM$, since both are the closure of the same graph outside
 the exceptional divisor [Stacks, [0F3Y](https://stacks.math.columbia.edu/tag/0F3Y)]. So $G'$ is closed in
 $Y'\times_SM$, and since the projection of $Y'\times_SM$ to $M$ is proper,

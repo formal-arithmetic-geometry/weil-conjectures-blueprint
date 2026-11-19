@@ -4,11 +4,11 @@ of = "proposition-dense-compactifications-form-cofiltered-category"
 order = 1420
 uses = ["lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
-A common refinement of two compactifications is the closure of $X$ in
+A [common refinement](@definition-compactification-refinement) of two [compactifications](@definition-compactification-refinement) is the closure of $X$ in
 their fibre product, as in the example of $\mathbf A^2$ above. The
 properties of morphisms then follow from density.
 
-Given two compactifications, let $Z$ be the schematic closure of the
+Given two [compactifications](@definition-compactification-refinement), let $Z$ be the schematic closure of the
 image of $X$ in $\overline X_1\times_S\overline X_2$ under the diagonal map.
 The map from $X$ is a quasi-compact immersion, because over the open
 $X\subseteq\overline X_1$ it is the graph of a morphism to $\overline X_2$, and $\overline X_2$ is
@@ -16,7 +16,7 @@ separated over $S$. By Lemma [lemma-schematic-closure-uniqueness], $X$ is an ope
 subscheme of $Z$ and is scheme-theoretically dense in $Z$. Since the
 product is proper over $S$, the scheme $Z$ and its projections are proper.
 
-The projections are refinements, that is, $X$ is its own inverse image
+The projections are [refinements](@definition-compactification-refinement), that is, $X$ is its own inverse image
 in $Z$. By Lemma [lemma-schematic-closure-uniqueness] the
 formation of the schematic closure commutes with restriction to opens.
 Over $X\subseteq\overline X_1$ we may therefore compute it on the open
@@ -27,7 +27,7 @@ identity. The same holds for the second projection. The assertion
 for finite families follows by induction.
 
 Let $h:\overline X'\to\overline X$ be a
-morphism of dense compactifications restricting to the identity on
+morphism of [dense compactifications](@definition-compactification-refinement) restricting to the identity on
 $X$. To see that $h$ is proper, note that it factors through its graph.
 This graph is closed in $\overline X'\times_S\overline X$ because
 $\overline X$ is separated over $S$, and the projection of this product to
