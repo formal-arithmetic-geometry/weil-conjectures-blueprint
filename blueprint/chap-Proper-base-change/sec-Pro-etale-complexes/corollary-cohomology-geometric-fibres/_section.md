@@ -3,6 +3,7 @@ id = "corollary-cohomology-geometric-fibres"
 kind = "corollary"
 title = "Cohomology of geometric fibres"
 order = 406
+uses = ["definition-torsion-sheaves"]
 +++
 Under the hypotheses of Theorem [theorem-proper-base-change-classical-pro], for every
 geometric point $\bar y:\operatorname{Spec}(\Omega)\to Y$ there is a

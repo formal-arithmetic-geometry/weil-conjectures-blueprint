@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-reciprocal-roots-zeta"
 order = 1390
-uses = ["theorem-trace-isomorphism-top-degree", "theorem-poincare-duality-frobenius", "theorem-grothendieck-lefschetz-trace-formula", "theorem-trace-formula-euler-product", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality", "lemma-reduced-fractions-integer-coefficients"]
+uses = ["theorem-trace-isomorphism-top-degree", "theorem-trace-formula-euler-product", "corollary-purity-cohomology-smooth-proper-variety", "lemma-hankel-rank-rationality"]
 +++
 The identity (19.2) holds because both sides
 are reduced fractions for $Z(X_0,T)$ over $\mathbf Q_\ell$. By

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-construction-independence-rf-shriek"
 order = 513
-uses = ["theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "lemma-integral-models", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "corollary-proper-direct-image-finite-coefficients-localizing", "lemma-uniform-bound-proper-direct-image", "lemma-proper-direct-image-unbounded-complexes", "proposition-compactness-proper-direct-image", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "definition-relative-picard-functor"]
+uses = ["theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "lemma-integral-models", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "corollary-proper-direct-image-finite-coefficients-localizing", "lemma-uniform-bound-proper-direct-image", "lemma-proper-direct-image-unbounded-complexes", "proposition-compactness-proper-direct-image", "proposition-proper-direct-image-extension-zero", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "definition-relative-picard-functor"]
 +++
 For a single compactification there is nothing new to prove, and two
 compactifications are compared through a third one that refines both,

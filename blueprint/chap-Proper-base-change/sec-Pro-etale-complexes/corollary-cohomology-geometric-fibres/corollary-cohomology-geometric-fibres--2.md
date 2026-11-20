@@ -6,6 +6,7 @@ name_showing = false
 order = 406003
 aliases = ["bp-r123-2"]
 lean = ["AlgebraicGeometry.Etale.nonempty_addEquiv_sheafFiber_homology_rightDerivedLowerStar_of_isProper"]
+uses = ["definition-torsion-sheaves--1"]
 +++
 For a classical torsion sheaf $F$ of $\Lambda$-modules this says
 
