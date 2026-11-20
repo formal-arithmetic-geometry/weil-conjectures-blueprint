@@ -6,6 +6,6 @@ order = 1440
 +++
 Quasi-affine targets are the ones where a partial section can be
 extended by hand, by clearing denominators of finitely many
-coordinates. Using the proposition, we reduce the general extension
-theorem to this case, once we know that the relevant closure is
+coordinates. Using the proposition, we reduce the general [extension
+theorem](@theorem-extension-partial-section) to this case, once we know that the relevant closure is
 quasi-finite over the base.

@@ -13,7 +13,7 @@ $$
 
 If $U$ is the complement of the center, this is exactly the schematic
 closure of $W_U$ in $W\times_TT'$, the object that occurs in
-the elimination of indeterminacy.
+the [elimination of indeterminacy](@theorem-elimination-indeterminacy).
 By [Stacks, [080E](https://stacks.math.columbia.edu/tag/080E)], the [strict transform](@definition-strict-transform) is the blow-up of $W$ in the
 pulled-back ideal, so it is proper over $W$.
 

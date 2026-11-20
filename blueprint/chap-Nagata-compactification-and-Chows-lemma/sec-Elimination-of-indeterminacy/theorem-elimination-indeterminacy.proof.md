@@ -16,7 +16,7 @@ $W_U\to U$ is a section of it over $U$. We may therefore apply Theorem [theorem-
 this section, with closed graph, over an open containing the inverse
 image of $U$. By Lemma [lemma-products-composites-u-admissible-blow] the
 composite is a $U$-[admissible blow-up](@definition-admissible-blow-up)
-$\operatorname{Bl}_{\mathcal I}(T)$. Let $b:T'\to T$ be the blow-up of
+[$\operatorname{Bl}_{\mathcal I}(T)$](@definition-admissible-blow-up). Let $b:T'\to T$ be the blow-up of
 $\mathcal I\mathcal I_0$, which dominates both. Pulling back to $T'$ gives
 an open $W_0\subseteq T'$ containing $b^{-1}(U)$ and a map $W_0\to W$
 over $T$ whose graph $\Gamma$ is closed in $W\times_TT'$. As the zero set

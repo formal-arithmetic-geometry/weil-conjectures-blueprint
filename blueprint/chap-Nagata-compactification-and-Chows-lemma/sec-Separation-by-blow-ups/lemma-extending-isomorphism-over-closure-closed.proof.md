@@ -4,8 +4,8 @@ of = "lemma-extending-isomorphism-over-closure-closed"
 order = 1456
 +++
 We separate the closure of $F$ from the closure of the locus where $q$
-fails to be an isomorphism, and then apply elimination of
-indeterminacy on the complement of the second closure.
+fails to be an isomorphism, and then apply [elimination of
+indeterminacy](@theorem-elimination-indeterminacy) on the complement of the second closure.
 
 Inside $V$, the set $F$ is disjoint from the closed complement of the
 largest open over which $q$ is an isomorphism. Since $V$ is spectral, both
