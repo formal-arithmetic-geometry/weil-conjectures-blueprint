@@ -26,7 +26,7 @@ below applies it to the opens $f^{-1}(Y_i)\subseteq V$, which need not be dense.
 this, a further construction in Conrad's proof keeps the centers outside $V$.
 
 The general case reduces to the quasi-affine one, and this reduction is
-where Zariski's Main Theorem enters. The plan is to extend the section
+where [Zariski's Main Theorem](@proposition-relative-form-zariski-s-main) enters. The plan is to extend the section
 on each affine open of $Y$ separately. The closure of the section is
 then quasi-finite over the base, hence quasi-affine, and the
 quasi-affine case applies once more.

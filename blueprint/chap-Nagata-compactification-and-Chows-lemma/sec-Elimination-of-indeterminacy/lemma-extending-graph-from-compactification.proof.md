@@ -5,7 +5,7 @@ order = 1450
 uses = ["lemma-schematic-closure-uniqueness", "definition-admissible-blow-up", "definition-strict-transform", "theorem-elimination-indeterminacy"]
 +++
 The map $\psi$ is the projection to $M$ of the closure of the graph of
-$V\to M$. By elimination of indeterminacy this closure becomes an open
+$V\to M$. By [elimination of indeterminacy](@theorem-elimination-indeterminacy) this closure becomes an open
 of a blow-up of $Y$, and $\psi$ is proper because the graph is closed.
 
 Let $G$ be the schematic closure of the graph of $V\to M$ in

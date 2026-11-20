@@ -11,6 +11,6 @@ if $Y\to S$ is proper, every [quasi-domination](@definition-quasi-domination) ha
 the projection of the closed graph to $X$ is closed with image the
 dense open $U$.
 
-The extension theorem below is proved first for targets that embed in
+The [extension theorem](@theorem-extension-partial-section) below is proved first for targets that embed in
 affine space over the base. We reduce a general target to this form by
-Zariski's Main Theorem.
+[Zariski's Main Theorem](@proposition-relative-form-zariski-s-main).

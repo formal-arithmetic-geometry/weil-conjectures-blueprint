@@ -18,6 +18,6 @@ to unbounded complexes.
 The inverse image of $j_!K$ on $Z$ is $j_{Z,!}K$, so we have the
 natural map $j_!K\to i_*i^*j_!K=i_*j_{Z,!}K$. It is the identity on the
 open $X$, and both sides restrict to zero on the closed complement of
-$X$. By the localization sequence for an open and its closed
+$X$. By the [localization sequence](@proposition-extension-zero-restriction-closed-subscheme) for an open and its closed
 complement, this map is therefore an isomorphism. The second identification then follows by
 applying $Rp_*$ and using $Rp_*Ri_*\simeq R(p\circ i)_*$.

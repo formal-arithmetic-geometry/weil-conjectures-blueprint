@@ -6,7 +6,7 @@ order = 1422
 +++
 For every $S'\to S$, the base change of a [compactification](@definition-compactification-refinement) is an open
 immersion followed by a proper morphism, which suffices to define
-the direct image with compact support of $X\times_SS'\to S'$. When the
+the [direct image with compact support](@proposition-construction-independence-rf-shriek) of $X\times_SS'\to S'$. When the
 base-changed ambient scheme is Noetherian, as for schemes of finite
 type over $k$, Lemma [lemma-passing-schematic-closure] shows that
 this direct image agrees with the one defined by the schematic closure.

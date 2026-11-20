@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Separation by blow-ups (1)"
 order = 1452
 +++
-The inductive step of Nagata's theorem is
+The inductive step of [Nagata's theorem](@theorem-nagata-s-compactification-theorem) is
 Proposition [proposition-compactifying-union-two-opens]. Suppose that $M=M_1\cup M_2$
 with $M_1\cap M_2$ dense, and that each $M_i$ has a [compactification](@definition-compactification-refinement) $X_i$;
 we want a [compactification](@definition-compactification-refinement) of $M$. The natural candidate glues $M$ to each
@@ -21,7 +21,7 @@ We need two other lemmas.
 Lemma [lemma-extending-isomorphism-over-closure-closed] keeps an
 isomorphism near such a closure, and
 Lemma [lemma-gluing-after-admissible-blow-ups] glues two
-modifications into one separated scheme. Both use elimination of
-indeterminacy from the previous section. Recall that it turns a map
+modifications into one separated scheme. Both use [elimination of
+indeterminacy](@theorem-elimination-indeterminacy) from the previous section. Recall that it turns a map
 that is an isomorphism over a quasi-compact open $U$ into an open
 immersion after a $U$-[admissible blow-up](@definition-admissible-blow-up).

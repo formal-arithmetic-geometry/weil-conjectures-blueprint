@@ -4,13 +4,13 @@ kind = "hidden"
 title = "Nagata compactification and Chow's lemma"
 order = 1402
 +++
-The main text defines cohomology with compact support as in topology:
+The main text defines [cohomology with compact support](@proposition-construction-independence-rf-shriek) as in topology:
 to push forward along $f:X\to Y$, embed $X$ as an open subset of
 something proper over $Y$, extend by zero and push forward, so that
 $Rf_!=Rp_*j_!$ (Proposition [proposition-construction-independence-rf-shriek]).
 This definition needs every morphism to have a compactification, and it
 needs any two compactifications to be dominated by a third, so that
-proper base change can show that $Rf_!$ does not depend on the choice.
+[proper base change](@theorem-proper-base-change-classical-pro) can show that [$Rf_!$](@proposition-construction-independence-rf-shriek) does not depend on the choice.
 The second point is elementary once we use compactifications in which
 $X$ is scheme-theoretically dense: the closure of $X$ in the fibre
 product of two of them dominates both
@@ -36,11 +36,11 @@ which leave $X$ unchanged (Lemma [lemma-separation-closures] and
 Proposition [proposition-compactifying-union-two-opens]). Induction
 over an affine cover then gives the theorem over a Noetherian base
 (Section [sec-Proof-of-Nagatas-theorem]), and Noetherian approximation gives the
-general case, which we need because proper base change is proved over
+general case, which we need because [proper base change](@theorem-proper-base-change-classical-pro) is proved over
 arbitrary qcqs bases.
 
-Proper base change itself is computed on projective space, and Chow's
-lemma carries it to every proper morphism
+[Proper base change](@proposition-proper-base-change-etale-site) itself is computed on projective space, and [Chow's
+lemma](@theorem-chow-s-lemma-projective-form) carries it to every proper morphism
 (Section [sec-Proper-morphisms]). We use it in the form of
 Theorem [theorem-chow-s-lemma-projective-form]: for a proper
 morphism $X\to S$ there is a proper surjection $\widetilde X\to X$ with

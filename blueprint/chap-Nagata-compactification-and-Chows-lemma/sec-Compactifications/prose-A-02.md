@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Compactifications (1)"
 order = 1404
 +++
-To show that $Rp_*j_!$ does not depend on the compactification, we must
+To show that [$Rp_*j_!$](@proposition-construction-independence-rf-shriek) does not depend on the compactification, we must
 compare two of them, and in general neither maps to the other. The plane
 $\mathbf A^2$ is open in $\mathbf P^2$ and in
 $\mathbf P^1\times\mathbf P^1$, but the identity of $\mathbf A^2$ extends
