@@ -4,9 +4,12 @@ name: Site
 # (fuxi/blueprint.nix in chrisflav/nixos-config) and serves at
 # https://blueprint.fuxi.merten.dev.
 #
-# On this repository's own runner, because the job builds the formalisation
-# project to read proof status out of its oleans: that needs the Mathlib
-# cache and benefits from a workspace that survives between runs.
+# On GitHub's hosted runners. The job builds the formalisation project to read
+# proof status out of its oleans; a fresh runner gets Mathlib's build from the
+# Mathlib cache and the project's from the public Lake cache
+# (cache.fuxi.merten.dev), so nothing has to survive between runs. Extracted
+# Lean facts are kept in the Actions cache. Until 2026-11-21 this ran on a
+# self-hosted runner VM on fuxi, whose disk filled up and took the site down.
 #
 # The project is private. `WEIL_CONJECTURES_DEPLOY_KEY` is a read-only deploy
 # key on formal-arithmetic-geometry/weil-conjectures; the `insteadOf` rewrite
@@ -28,12 +31,23 @@ concurrency:
 
 jobs:
   site:
-    runs-on: self-hosted
-    # Only for a build from scratch, when the cluster's Lake cache (below) is
-    # out of reach: on three threads that takes longer than the default six
-    # hours. With the cache a run takes minutes.
-    timeout-minutes: 1440
+    runs-on: ubuntu-latest
+    # GitHub's maximum. With the Lake cache a run takes well under an hour; a
+    # cache miss (the pinned commit not uploaded yet) would compile the project
+    # and time out, and the next push retries.
+    timeout-minutes: 360
     steps:
+      # The project's build (~25 GB), Mathlib's (~5 GB), TeX and the snapshot
+      # history need more than the ~14 GB the hosted image has free, until the
+      # preinstalled SDKs this job never uses are removed.
+      - name: Free disk space
+        run: |
+          df -h /
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL \
+            /usr/local/share/boost /usr/local/.ghcup /usr/share/swift /usr/local/share/powershell
+          sudo docker image prune --all --force >/dev/null 2>&1 || true
+          df -h /
+
       # Before the checkout, because the runner's global git config persists
       # between jobs and carries the rewrite below that sends the project's URL
       # over ssh. `insteadOf` matches by prefix and this repository's URL starts
@@ -68,7 +82,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.WEIL_CONJECTURES_DEPLOY_KEY }}
 
-      # A self-hosted runner has no known_hosts. GitHub's ed25519 host key,
+      # Pin GitHub's ed25519 host key,
       # as published at docs.github.com/en/authentication/keychecking, so that
       # the first ssh clone is verified rather than trusted on first use.
       - name: Trust GitHub's host key
@@ -86,10 +100,9 @@ jobs:
       # elan and the toolchain of lean-toolchain, plus the Mathlib cache for
       # the project's Mathlib dependency. Building is done explicitly below.
       #
-      # No GitHub cache: the workspace survives between runs on this runner, so
-      # restoring `.lake` buys nothing, and saving it is a single-threaded tar of
-      # the whole project build (keyed on the commit, so it missed every time)
-      # that took up to an hour per run.
+      # No GitHub cache of `.lake`: saving it is a single-threaded tar of the
+      # whole project build (keyed on the commit, so it missed every time) that
+      # took up to an hour per run; the Lake cache below restores it faster.
       - uses: leanprover/lean-action@v1
         with:
           build: false
@@ -99,8 +112,7 @@ jobs:
           use-github-cache: false
 
       # pdfLaTeX for `blueprint site --pdf` below (docs/pdf-export.md in the
-      # blueprint tool). The runner keeps what was installed between runs, so
-      # apt only runs when latexmk is not there yet.
+      # blueprint tool). Installed on every run: hosted runners start fresh.
       - name: Install TeX
         run: |
           if command -v latexmk > /dev/null && command -v pdflatex > /dev/null; then
@@ -112,8 +124,8 @@ jobs:
               texlive-fonts-recommended texlive-plain-generic lmodern
           fi
 
-      # node runs the PDF export (Node.js 18 or later). GitHub's own runner
-      # images have it; this self-hosted one may not.
+      # node runs the PDF export (Node.js 18 or later), pinned here rather than
+      # taken from whatever the runner image ships.
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -121,8 +133,7 @@ jobs:
       # The project's own build, from the cluster's Lake cache: the Garage
       # bucket on kuafu that the merge builds of weil-conjectures upload to
       # under each commit they push (chrisflav/nixos-config: kuafu and
-      # fuxi/lake-cache.nix). Downloads need no key; kuafu admits fuxi's
-      # address, which this runner's VM leaves through.
+      # fuxi/lake-cache.nix). Downloads need no key.
       #
       # `lake cache get` fetches for the root package only, and writes the
       # mappings under that package's name in the local cache, which is where
@@ -145,9 +156,9 @@ jobs:
       # fetched. LAKE_ARTIFACT_CACHE stays unset: reading the cache is Lake's
       # default, and writing to it would make every Mathlib olean in this kept
       # workspace read-only, which the next Mathlib bump's `lake exe cache
-      # get` then cannot overwrite. The service
-      # is a copy of modules/lake-config.nix in nixos-config, kuafu's address
-      # included: if that changes, update it here too.
+      # get` then cannot overwrite. The endpoint is the public https front of
+      # that bucket (fuxi/lake-cache.nix), the one the weil-conjectures CI reads
+      # from: kuafu itself admits only fuxi, not GitHub's runners.
       - name: Fetch the project's build from the cluster's Lake cache
         continue-on-error: true
         run: |
@@ -159,8 +170,8 @@ jobs:
           [[cache.service]]
           name = "garage"
           kind = "s3"
-          artifactEndpoint = "http://13.140.132.28:3900/lake-cache/a"
-          revisionEndpoint = "http://13.140.132.28:3900/lake-cache/r"
+          artifactEndpoint = "https://cache.fuxi.merten.dev/lake-cache/a"
+          revisionEndpoint = "https://cache.fuxi.merten.dev/lake-cache/r"
           TOML
           echo "LAKE_CONFIG=$config" >> "$GITHUB_ENV"
           echo "LAKE_CACHE_DIR=$HOME/.cache/lake" >> "$GITHUB_ENV"
@@ -175,7 +186,7 @@ jobs:
 
       # Three concurrent jobs rather than one per vCPU: the algebraic-geometry
       # files here peak at a few GiB each, and four at once exhausted the
-      # runner VM (Lean exited with code 137). This Lake has no jobs flag; its
+      # old runner VM (Lean exited with code 137); the hosted runner has 16 GB. This Lake has no jobs flag; its
       # scheduler runs on Lean's thread pool, which this variable sizes.
       - name: Build the project and the blueprint tool
         env:
@@ -199,17 +210,32 @@ jobs:
       # The facts depend only on the pinned weil-conjectures revision, the extractor
       # (lean-toolchain and the tool's Extract.lean) and the Lean names the blueprint
       # asks for; scripts/facts-key.sh makes a key of the three. Facts extracted once
-      # are kept under it in the runner's home, which survives between runs, so a push
-      # that changes none of them (a website-only bump of the tool, say) reuses them
-      # instead of spending half an hour or more extracting the same facts again.
+      # are kept under it in the Actions cache, so a push that changes none of them (a
+      # website-only bump of the tool, say) reuses them instead of extracting the same
+      # facts again.
+      - name: Compute the Lean facts key
+        id: factskey
+        run: |
+          set -euo pipefail
+          bash scripts/facts-key.sh . | tee "$RUNNER_TEMP/facts-key.txt"
+          echo "key=$(sed -n 's/^key=//p' "$RUNNER_TEMP/facts-key.txt")" >> "$GITHUB_OUTPUT"
+
+      # Saved at the end of the job when the key was not cached yet.
+      - name: Restore earlier Lean facts
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/blueprint-facts
+          key: blueprint-facts-${{ steps.factskey.outputs.key }}
+
       - name: Look up earlier Lean facts
         id: facts
+        env:
+          KEY: ${{ steps.factskey.outputs.key }}
         run: |
           set -euo pipefail
           store="$HOME/.cache/blueprint-facts"
           rm -f lean-facts.json
-          bash scripts/facts-key.sh . | tee "$RUNNER_TEMP/facts-key.txt"
-          key=$(sed -n 's/^key=//p' "$RUNNER_TEMP/facts-key.txt")
+          key="$KEY"
           { echo "key=$key"; echo "store=$store"; } >> "$GITHUB_OUTPUT"
           if [ -s "$store/$key.json" ]; then
             cp "$store/$key.json" lean-facts.json
@@ -312,7 +338,10 @@ jobs:
       - name: The site must be complete, whatever the checks said
         run: test -s _site/index.html && test -s _site/blueprint.json && test -s _site/data/index.json
 
+      # Only builds of main publish; a manual run on another branch (to test a
+      # change to this workflow) builds everything but leaves the site alone.
       - name: Publish to the site branch
+        if: github.ref == 'refs/heads/main'
         run: |
           set -euo pipefail
           cd site-branch
