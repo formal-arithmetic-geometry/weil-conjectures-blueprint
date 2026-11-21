@@ -48,6 +48,18 @@ jobs:
           sudo docker image prune --all --force >/dev/null 2>&1 || true
           df -h /
 
+      # `blueprint build` and the fact extraction load the project's oleans and
+      # peaked above the hosted runner's 16 GB (the old VM had 31 GB), which got
+      # the step killed. Swap on the runner's scratch disk (/mnt) absorbs that.
+      - name: Add swap
+        run: |
+          sudo swapoff -a || true
+          sudo fallocate -l 24G /mnt/swapfile
+          sudo chmod 600 /mnt/swapfile
+          sudo mkswap /mnt/swapfile
+          sudo swapon /mnt/swapfile
+          free -m
+
       # Before the checkout, because the runner's global git config persists
       # between jobs and carries the rewrite below that sends the project's URL
       # over ssh. `insteadOf` matches by prefix and this repository's URL starts
