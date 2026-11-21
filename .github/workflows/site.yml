@@ -1,5 +1,4 @@
-
-          tail -30 "$RUNNER_TEMP/mem.log" 2>/dev/null || truename: Site
+name: Site
 
 # Builds the website and commits it to the `site` branch, which fuxi follows
 # (fuxi/blueprint.nix in chrisflav/nixos-config) and serves at
@@ -230,6 +229,7 @@ jobs:
         run: |
           free -m
           sudo dmesg | grep -iE "oom|killed process|out of memory" | tail -20 || true
+          tail -30 "$RUNNER_TEMP/mem.log" 2>/dev/null || true
 
       # Saved at the end of the job when the key was not cached yet.
       - name: Restore earlier Lean facts
