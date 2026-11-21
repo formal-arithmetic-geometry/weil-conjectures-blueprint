@@ -1,0 +1,19 @@
++++
+id = "dag-lem-route-sp-rational-twist-map-id"
+kind = "dag-lemma"
+title = "The identity inclusion induces the identity transition."
+name_showing = false
+order = 184542
+tags = ["sheaf-dag"]
+split_from = "definition-tate-twists--13"
+dag_id = "lem-route-sp-rational-twist-map-id"
+dag_kind = "statement"
+dag_status = "split"
+serial = false
+dag_lean = ["AlgebraicGeometry.ProEtale.spRationalTwistMap_id"]
++++
+Let $X$ be any scheme, let $\ell$ be a prime, and fix an algebraic closure $\overline{\mathbf Q}_\ell$. For a finite intermediate extension $E/\mathbf Q_\ell$ use its ring of integers $O_E$ `def-weil-l-adic-coefficient-extension`. Write $O_{E,X}$ and $E_X$ for the pulled-back coefficient rings `sk-def-sfb-pulled-back-coefficients` of the continuous-function condensed rings $\underline{O}_E$ `def-sfb-padic-integers-condensed-ring` and $\underline E$ `def-sfb-padic-subfield-condensed-ring`, with the topologies restricted from $\overline{\mathbf Q}_\ell$. For $n\geq0$ put $B_{E,n}=O_E/(\ell^{n+1})$, give this finite ring the discrete topology, and denote by $B_{E,n,X}$ the pullback of its continuous-function condensed ring `def-sfb-continuous-map-condensed-ring`. Let $r_{E,n}:O_{E,X}\to B_{E,n,X}$ be the coefficient change `def-sfb-coefficient-map` of postcomposition with the quotient map `def-sfb-continuous-map-condensed-ring-map`, and $c_E:O_{E,X}\to E_X$ the pulled-back inclusion `def-sfb-integers-to-subfield`. Write $\mu_n=\mu_{\ell^{n+1},X}$ [dag-def-pur-roots-of-unity-sheaf]. Form the $O_{E,X}$-module $L_E=\varprojlim_{n\geq0}(B_{E,n,X}\otimes_{\mathbf Z_X}\mu_n)$, restricting scalars along $r_{E,n}$; the adjacent maps are quotient on $B$ and $u\mapsto u^\ell$ on roots [dag-def-pur-sheaf-inverse-limit], [dag-def-pur-sheaf-tensor-product]. Denote its underlying abelian-sheaf projections by $p_{E,n}$. Put $T_E=E_X\otimes_{O_{E,X}}L_E$, the extension of scalars of $L_E$ along $c_E$ `def-sfb-modobj-extension`, and let $q_E:E_X\otimes_{\mathbf Z_X}L_E\to T_E$ be its defining coequalizer projection.
+
+For an inclusion $h:E\subseteq F$, let $i_h:E_X\to F_X$ be its pulled-back coefficient map `def-sfb-subfield-coefficient-map`. Use the uniquely characterized maps $a_h:O_{E,X}\to O_{F,X}$ with $c_Fa_h=i_hc_E$ [dag-lem-route-sp-integers-map-exists-unique], $b_{h,n}:B_{E,n,X}\to B_{F,n,X}$ with $b_{h,n}r_{E,n}=r_{F,n}a_h$ [dag-lem-route-sp-ell-map-exists-unique], $g_h:L_E\to L_F$ with $p_{F,n}g_h=(b_{h,n}\otimes\mathrm{id}_{\mu_n})p_{E,n}$ [dag-lem-route-sp-integral-twist-map-exists-unique], and $j_h:T_E\to T_F$ with $j_hq_E=q_F(i_h\otimes g_h)$ [dag-lem-route-sp-rational-twist-map-exists-unique]. Composites in these formulas are written in functional order; $a_h$ is a morphism of ring objects and the other displayed twist maps are underlying abelian-sheaf maps. Then the rational transition of the identity inclusion is the identity: $j_{E\subseteq E}=\mathrm{id}_{T_E}$. Equivalently, $\operatorname{spRationalTwistMap}(X,\ell,\mathrm{le\_refl}(E))=\mathrm{id}$.
+
+(SHEAF DAG node `lem-route-sp-rational-twist-map-id`; machine-alignment layer.) Split from [definition-tate-twists--13]. DAG kind: statement. Placed through `sk-def-sp-tate-twist` (ancestor-1). DAG status: split. Statement dependencies not drawn: `def-weil-l-adic-coefficient-extension`, `sk-def-sfb-pulled-back-coefficients`, `def-pur-roots-of-unity-sheaf`, `def-pur-sheaf-inverse-limit`, `def-pur-sheaf-tensor-product`, `def-sfb-subfield-coefficient-map`, `lem-route-sp-integers-map-exists-unique`, `lem-route-sp-ell-map-exists-unique`, `lem-route-sp-integral-twist-map-exists-unique`, `lem-route-sp-rational-twist-map-exists-unique`, `def-sfb-padic-integers-condensed-ring`, `def-sfb-padic-subfield-condensed-ring`, `def-sfb-continuous-map-condensed-ring`, `def-sfb-continuous-map-condensed-ring-map`, `def-sfb-coefficient-map`, `def-sfb-integers-to-subfield`, `def-sfb-modobj-extension`.

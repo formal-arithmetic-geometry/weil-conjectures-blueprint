@@ -1,0 +1,13 @@
++++
+kind = "proof"
+of = "dag-def-weil-pbc-ind-etale-basis"
+tags = ["sheaf-dag"]
+uses = ["dag-def-weil-pbc-ind-etale-algebra", "dag-sk-def-pe-morphisms"]
++++
+1. For an affine base X = Spec R, use the affine pro-etale convention of [dag-sk-def-pe-morphisms] and the ind-etale algebra convention of [dag-def-weil-pbc-ind-etale-algebra]. The Lean equivalence `proAffineEtale_Spec_iff` says that `proAffineEtale (Spec.map f)` is equivalent to `f.hom.IndEtale`; hence an object Spec B → Spec R is exactly an affine inverse limit of affine etale R-schemes, with R → B ind-etale. The finite-etale stages are flat, and `ModuleCat.flat_of_colimitPresentation` (recorded in `lem-weil-pbc-flat-colimit-presentation-same-universe`) carries this stagewise flatness through the filtered colimit, so the ring-side description is compatible with the pro-etale notion. (uses [dag-def-weil-pbc-ind-etale-algebra], [dag-sk-def-pe-morphisms], `lem-weil-pbc-flat-colimit-presentation-same-universe`)
+2. For any scheme S, define `AffineProEt S` by `proAffineEtale.Over ⊤ S`. By the definition of the ambient small pro-etale site [dag-def-weil-pbc-proetale-site], this is the full subcategory of S.ProEt whose objects are the pro-etale affine objects just identified: their structure maps are pro-affine-etale, so their presentations have affine etale stages. The category instance is inherited by `inferInstanceAs (Category (proAffineEtale.Over ⊤ S))`, exactly giving the category of this full subcategory.
+3. The inclusion into the ambient pro-etale category is the Lean functor `AffineProEt.toProEt`, defined with `MorphismProperty.Over.changeProp` from `proAffineEtale` to `WeaklyEtale` using `proAffineEtale_le_weaklyEtale`. Its object and arrow maps leave the underlying S-schemes and S-morphisms unchanged, and the inherited `Full` and `Faithful` instances show that this is the full subcategory inclusion.
+4. Define the covering precoverage on `AffineProEt S` by `AffineProEt.precoverage := Precoverage.comap (toProEt S ⋅ ProEt.forget S ⋅ Over.forget S) Scheme.proetalePrecoverage`. Thus a family covers precisely when its image under the inclusion and forgetful functors is a covering family in the small pro-etale site [dag-def-weil-pbc-proetale-site], i.e. the coverings are induced from that site.
+5. Finally, define `AffineProEt.topology S` as `(toProEt S).restrictedTopology (ProEt.topology S)`. The restricted topology has exactly the sieves whose image along the inclusion is covering in the ambient small pro-etale topology, so it supplies the required induced coverings. Specializing S to an affine scheme X gives the stated affine ind-etale basis.
+
+Proof dependencies not drawn: `lem-weil-pbc-flat-colimit-presentation-same-universe`.

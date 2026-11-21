@@ -1,0 +1,8 @@
++++
+kind = "proof"
+of = "dag-lem-pur-sheaf-hom-cover-gluing"
+tags = ["sheaf-dag"]
++++
+1. Forget the local module morphisms to additive natural transformations on C/U_i. For arbitrary arrows a:W→U_i and b:W→U_j with a f_i=b f_j, and an object T/W, use the pullback lift of T.hom a and T.hom b and the assumed overlap equality. This proves compatibility as elements of Mathlib presheafHom of the underlying additive presheaves. Mathlib Presheaf.IsSheaf.hom and Presieve.isSheafFor_arrows_iff give a unique additive natural transformation alpha on C/U restricting to these local transformations.
+2. For T/U, scalar r and section x, compare alpha_T(r x) and r alpha_T(x) using separatedness of the underlying type sheaf of G on the pullback of the covering sieve along T.hom. Every arrow p:W→T in this sieve factors p T.hom=a f_i. Naturality identifies restricted alpha-values with alpha over a f_i; the gluing equation identifies that component with the given local linear map. Semilinearity of the restriction maps of F and G and linearity of the local map therefore give equality on each covering arrow. Sheaf separatedness proves equality globally. Equip the additive components of alpha with this scalar law to obtain the module morphism phi; its naturality is the additive naturality already proved.
+3. The additive gluing equations imply the desired local restriction equations for phi by pointwise extensionality of linear maps. For any other module morphism psi with those restrictions, forget psi to an element beta of presheafHom over U. Its local restrictions agree with the local additive maps componentwise, so uniqueness of the additive amalgamation gives beta=alpha. Componentwise and pointwise extensionality then give psi=phi.

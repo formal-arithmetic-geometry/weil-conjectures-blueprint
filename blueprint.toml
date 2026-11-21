@@ -79,6 +79,27 @@ attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_s
 [kinds.example]
 attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "name_showing"]
 
+# The SHEAF DAG machine-alignment layer (Zulip #3576/#3579/#3582): one object per DAG node, next to the
+# clause it was split from (`split_from`, also linked in its text). Not countable, so the progress
+# fractions of what is above are unchanged; never drawn in the graph, so no arrow of the sketch or detail
+# layer changes; each node carries `serial = false`, so the document numbers are unchanged; its Lean
+# names are `dag_lean`, not `lean`, so `extract` and the Lean facts of the other nodes are unchanged.
+[kinds.dag-lemma]
+attrs = ["title", "review", "tags", "order", "aliases", "owner", "name_showing", "split_from", "dag_id", "dag_kind", "dag_status", "dag_lean"]
+countable = false
+graph = "never"
+color = "#9ab"
+
+[kinds.dag-definition]
+attrs = ["title", "review", "tags", "order", "aliases", "owner", "name_showing", "split_from", "dag_id", "dag_kind", "dag_status", "dag_lean"]
+countable = false
+graph = "never"
+color = "#9ba"
+
+# A DAG node's proof steps are a proof of it.
+[kinds.proof]
+kinds = { of = ["corollary", "definition", "example", "lemma", "proposition", "remark", "theorem", "dag-lemma", "dag-definition"] }
+
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
 "\\AEn" = "A_{E,n}"

@@ -1,0 +1,13 @@
++++
+kind = "proof"
+of = "dag-lem-weil-pbc-proetale-hypercover-computes-bounded-complex"
+tags = ["sheaf-dag"]
++++
+1. Construct the actual restriction augmentation alpha:E(W) to T(E), using the degree-zero row restriction and its (0,n) total inclusion. (uses `def-weil-pbc-proetale-hypercover-augmentation`)
+2. Exact evaluation at each weakly contractible term and exact scalar restriction make every section column preserve quasi-isomorphisms. Finite-column truncation comparison gives T(f) quasi-isomorphic for every bounded-below coefficient quasi-isomorphism, and in particular for each given resolution map i. (uses `lem-weil-pbc-proetale-hypercover-total-quasi-iso`)
+3. The represented matching-map epimorphisms give local lower-simplex lifting. Transport the ringed site through ULiftHom and apply the existing ringed-hypercover injective augmentation theorem to prove each injective row quasi-isomorphic. (uses `lem-weil-pbc-proetale-hypercover-injective-row`)
+4. Use the single-column source and bounded-below row comparison to prove alpha_J quasi-isomorphic for every termwise-injective bounded-below J. (uses `lem-weil-pbc-proetale-hypercover-injective-complex-comparison`)
+5. In the derived category take c(E,J,i)=asIso(Q(T(i))) followed by the inverse of asIso(Q(alpha_J)). Both isomorphisms exist by the preceding comparisons. The final conjunct is already the coefficient quasi-isomorphism comparison. (uses `lem-weil-pbc-proetale-hypercover-total-quasi-iso`, `lem-weil-pbc-proetale-hypercover-injective-complex-comparison`)
+6. For the given homotopy i a ~ f j, use its cylinder: the cylinder is bounded below one degree below E, and its projection to E is a homotopy equivalence. Any functor that inverts bounded-below quasi-isomorphisms identifies the two cylinder inclusions, hence the two homotopic maps. Apply this to T followed by Q. The augmentation is strictly natural, so cancel its invertible image at L to obtain the displayed naturality equation. Resolution existence and K-injective representative selection are unnecessary because i,j,a and the homotopy are inputs. The generic cylinder argument is the existing helper now attached as lem-weil-pbc-bounded-below-homotopy-invariance. (uses `def-weil-pbc-proetale-hypercover-augmentation`, `lem-weil-pbc-proetale-hypercover-total-quasi-iso`, `lem-weil-pbc-bounded-below-homotopy-invariance`)
+
+Proof dependencies not drawn: `def-weil-pbc-proetale-hypercover-augmentation`, `lem-weil-pbc-proetale-hypercover-total-quasi-iso`, `lem-weil-pbc-proetale-hypercover-injective-row`, `lem-weil-pbc-proetale-hypercover-injective-complex-comparison`, `lem-weil-pbc-bounded-below-homotopy-invariance`.

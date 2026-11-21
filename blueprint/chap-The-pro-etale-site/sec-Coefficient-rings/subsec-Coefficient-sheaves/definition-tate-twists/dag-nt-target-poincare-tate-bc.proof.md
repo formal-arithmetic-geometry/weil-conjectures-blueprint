@@ -1,0 +1,13 @@
++++
+kind = "proof"
+of = "dag-nt-target-poincare-tate-bc"
+tags = ["sheaf-dag"]
+uses = ["dag-lem-poincare-first-twist-pullback-local-line", "dag-def-sfb-finite-upper-star", "dag-lem-poincare-constructible-shift-single"]
++++
+1. Apply [dag-lem-poincare-first-twist-pullback-local-line] to the identity of X. It provides a pro-etale cover trivializing the first twist after the identity-stratum pullback, over exactly the twice-pulled-back coefficient ring. (uses [dag-lem-poincare-first-twist-pullback-local-line])
+2. For this composite monoidal mapMod functor, prove the positive tensor-power case by induction. At zero use the monoidal unit comparison; at the successor use the inverse tensor comparison, the two basis isomorphisms and the left unitor. These are the exact recursive signed-twist definitions of [dag-def-pur-condensed-tate-twists]. (uses `def-pur-condensed-tate-twists`, `def-sfb-finite-upper-star-monoidal`)
+3. For negative powers, pullback along the identity and each pro-etale cover member is weakly etale and commutes with internal Hom. Use the existing isIso_ihomComparison_upperStar, the concrete Mod.ihom' equalizer comparison, and uniqueness of right adjoints to identify it with the actual categorical ihom used by tateTwist. The transported positive basis reduces Hom(regular,regular) to regular through unitIsoSelf. This argument is fully proved in nonempty_pullback_ihom and powers_image_regular; there is no new Hom obligation. (uses [dag-def-sfb-finite-upper-star], `def-pur-condensed-tate-twists`)
+4. Choose the finite stratification with one stratum, the whole of X, and identity immersion. On every covering member the obtained regular module is the cokernel of the zero map from the rank-zero free module to the rank-one free module, by biproductUniqueIso and cokernelZeroIsoTarget. This is exactly local finite presentation and constructibility, with the actual raw pullbacks of the source predicate. (uses [dag-def-sfb-finite-upper-star], `def-sfb-constructible-module`, `def-sfb-locally-finitely-presented`, `def-sfb-finitely-presented-module`)
+5. Apply the proved shifted-single theorem [dag-lem-poincare-constructible-shift-single] to the constructible signed twist. tateTwistDerived is its degree-zero single object by definition. The result applies to all integer shifts, including the empty-scheme case. (uses [dag-lem-poincare-constructible-shift-single], `def-pur-condensed-tate-twists`)
+
+Proof dependencies not drawn: `def-pur-condensed-tate-twists`, `def-sfb-finite-upper-star-monoidal`, `def-sfb-constructible-module`, `def-sfb-locally-finitely-presented`, `def-sfb-finitely-presented-module`.
