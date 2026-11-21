@@ -1,4 +1,5 @@
-name: Site
+
+          tail -30 "$RUNNER_TEMP/mem.log" 2>/dev/null || truename: Site
 
 # Builds the website and commits it to the `site` branch, which fuxi follows
 # (fuxi/blueprint.nix in chrisflav/nixos-config) and serves at
@@ -217,8 +218,18 @@ jobs:
         id: factskey
         run: |
           set -euo pipefail
-          bash scripts/facts-key.sh . | tee "$RUNNER_TEMP/facts-key.txt"
+          free -m
+          ( while sleep 10; do echo "$(date +%T) used=$(free -m | awk 'NR==2{print $3}')M"; done ) > "$RUNNER_TEMP/mem.log" 2>&1 &
+          /usr/bin/time -v bash scripts/facts-key.sh . 2> "$RUNNER_TEMP/facts-key.time" | tee "$RUNNER_TEMP/facts-key.txt" || { tail -25 "$RUNNER_TEMP/facts-key.time"; exit 1; }
+          grep -E "Maximum resident|Elapsed" "$RUNNER_TEMP/facts-key.time"
           echo "key=$(sed -n 's/^key=//p' "$RUNNER_TEMP/facts-key.txt")" >> "$GITHUB_OUTPUT"
+
+      # Diagnostics for a killed step (memory on the 16 GB hosted runner).
+      - name: Memory diagnostics after a failure
+        if: failure()
+        run: |
+          free -m
+          sudo dmesg | grep -iE "oom|killed process|out of memory" | tail -20 || true
 
       # Saved at the end of the job when the key was not cached yet.
       - name: Restore earlier Lean facts
