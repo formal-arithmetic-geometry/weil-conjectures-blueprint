@@ -308768,6 +308768,20 @@
     "anonymous": true},
    "kind": "uses",
    "id":
+   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/definition-constructible-sheaves--5",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
+    {"role": "tgt", "id": "definition-constructible-sheaves--5"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
    "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/definition-derived-base-change-map",
    "depth": 2,
    "boundary":
@@ -308788,20 +308802,6 @@
    [{"role": "src",
      "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
     {"role": "tgt", "id": "definition-derived-base-change-map--1"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/definition-exceptional-base-change-finite--1",
-   "depth": 2,
-   "boundary":
-   [{"role": "src",
-     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
-    {"role": "tgt", "id": "definition-exceptional-base-change-finite--1"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -308978,6 +308978,20 @@
     "anonymous": true},
    "kind": "uses",
    "id":
+   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/lemma-identity-pasting--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
+    {"role": "tgt", "id": "lemma-identity-pasting--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
    "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/lemma-naturality-pasting-comparison--2",
    "depth": 2,
    "boundary":
@@ -309034,35 +309048,6 @@
     "anonymous": true},
    "kind": "uses",
    "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/proposition-composition-base-change-rf-shriek--4",
-   "depth": 2,
-   "boundary":
-   [{"role": "src",
-     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
-    {"role": "tgt", "id": "proposition-composition-base-change-rf-shriek--4"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/proposition-composition-open-restriction-compactifications-f--4",
-   "depth": 2,
-   "boundary":
-   [{"role": "src",
-     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
-    {"role": "tgt",
-     "id": "proposition-composition-open-restriction-compactifications-f--4"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
    "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/proposition-construction-independence-rf-shriek--7",
    "depth": 2,
    "boundary":
@@ -309108,13 +309093,12 @@
     "anonymous": true},
    "kind": "uses",
    "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/proposition-exceptional-inverse-image-smooth-morphism--6",
+   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/proposition-forgetting-supports-composition--1",
    "depth": 2,
    "boundary":
    [{"role": "src",
      "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
-    {"role": "tgt",
-     "id": "proposition-exceptional-inverse-image-smooth-morphism--6"}],
+    {"role": "tgt", "id": "proposition-forgetting-supports-composition--1"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -309199,6 +309183,20 @@
    [{"role": "src",
      "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
     {"role": "tgt", "id": "theorem-comparison-over-henselian-pair-degree--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--1/theorem-f-shriek-finite-coefficients",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--1"},
+    {"role": "tgt", "id": "theorem-f-shriek-finite-coefficients"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -311945,20 +311943,6 @@
     "anonymous": true},
    "kind": "uses",
    "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image/definition-exceptional-base-change-finite",
-   "depth": 2,
-   "boundary":
-   [{"role": "src",
-     "id": "proof/lemma-change-coefficients-exceptional-inverse-image"},
-    {"role": "tgt", "id": "definition-exceptional-base-change-finite"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
    "uses/proof~lemma-change-coefficients-exceptional-inverse-image/definition-relative-picard-functor",
    "depth": 2,
    "boundary":
@@ -312555,6 +312539,20 @@
    [{"role": "src",
      "id": "proof/lemma-change-coefficients-exceptional-inverse-image"},
     {"role": "tgt", "id": "theorem-existence-contractible-covers"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lemma-change-coefficients-exceptional-inverse-image/theorem-f-shriek-finite-coefficients",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/lemma-change-coefficients-exceptional-inverse-image"},
+    {"role": "tgt", "id": "theorem-f-shriek-finite-coefficients"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -377656,19 +377654,6 @@
     "blueprint/chap-Construction-of-f/sec-Compactness-of-constructible-complexes/subsec-A-uniform-bound-for-Ext/lemma-uniform-ext-bound/lemma-uniform-ext-bound--1.proof.md",
     "anonymous": true},
    "kind": "uses",
-   "id":
-   "uses/proof~lemma-uniform-ext-bound--1/lemma-global-lattice-normal-scheme--1",
-   "depth": 2,
-   "boundary":
-   [{"role": "src", "id": "proof/lemma-uniform-ext-bound--1"},
-    {"role": "tgt", "id": "lemma-global-lattice-normal-scheme--1"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-Construction-of-f/sec-Compactness-of-constructible-complexes/subsec-A-uniform-bound-for-Ext/lemma-uniform-ext-bound/lemma-uniform-ext-bound--1.proof.md",
-    "anonymous": true},
-   "kind": "uses",
    "id": "uses/proof~lemma-uniform-ext-bound--1/lemma-integral-models--5",
    "depth": 2,
    "boundary":
@@ -378504,19 +378489,6 @@
     "blueprint/chap-Construction-of-f/sec-Compactness-of-constructible-complexes/subsec-A-uniform-bound-for-Ext/lemma-uniform-ext-bound/lemma-uniform-ext-bound--2.proof.md",
     "anonymous": true},
    "kind": "uses",
-   "id":
-   "uses/proof~lemma-uniform-ext-bound--2/lemma-global-lattice-normal-scheme--1",
-   "depth": 2,
-   "boundary":
-   [{"role": "src", "id": "proof/lemma-uniform-ext-bound--2"},
-    {"role": "tgt", "id": "lemma-global-lattice-normal-scheme--1"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-Construction-of-f/sec-Compactness-of-constructible-complexes/subsec-A-uniform-bound-for-Ext/lemma-uniform-ext-bound/lemma-uniform-ext-bound--2.proof.md",
-    "anonymous": true},
-   "kind": "uses",
    "id": "uses/proof~lemma-uniform-ext-bound--2/lemma-integral-models--5",
    "depth": 2,
    "boundary":
@@ -379263,19 +379235,6 @@
    "boundary":
    [{"role": "src", "id": "proof/lemma-uniform-ext-bound"},
     {"role": "tgt", "id": "lemma-flat-models-generators"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-Construction-of-f/sec-Compactness-of-constructible-complexes/subsec-A-uniform-bound-for-Ext/lemma-uniform-ext-bound.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
-   "uses/proof~lemma-uniform-ext-bound/lemma-global-lattice-normal-scheme",
-   "depth": 2,
-   "boundary":
-   [{"role": "src", "id": "proof/lemma-uniform-ext-bound"},
-    {"role": "tgt", "id": "lemma-global-lattice-normal-scheme"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -408213,6 +408172,76 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/chap-The-pro-etale-site/sec-Continuous-cohomology/proposition-continuous-cohomology-pro-etale-cohomology/proposition-continuous-cohomology-pro-etale-cohomology--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-continuous-cohomology-pro-etale-cohomology--1/proposition-exact-products--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/proposition-continuous-cohomology-pro-etale-cohomology--1"},
+    {"role": "tgt", "id": "proposition-exact-products--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-pro-etale-site/sec-Continuous-cohomology/proposition-continuous-cohomology-pro-etale-cohomology/proposition-continuous-cohomology-pro-etale-cohomology--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-continuous-cohomology-pro-etale-cohomology--1/proposition-exact-products--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/proposition-continuous-cohomology-pro-etale-cohomology--1"},
+    {"role": "tgt", "id": "proposition-exact-products--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-pro-etale-site/sec-Continuous-cohomology/proposition-continuous-cohomology-pro-etale-cohomology/proposition-continuous-cohomology-pro-etale-cohomology--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-continuous-cohomology-pro-etale-cohomology--1/proposition-milnor-sequence--3",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/proposition-continuous-cohomology-pro-etale-cohomology--1"},
+    {"role": "tgt", "id": "proposition-milnor-sequence--3"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-pro-etale-site/sec-Continuous-cohomology/proposition-continuous-cohomology-pro-etale-cohomology.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-continuous-cohomology-pro-etale-cohomology/proposition-exact-products",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/proposition-continuous-cohomology-pro-etale-cohomology"},
+    {"role": "tgt", "id": "proposition-exact-products"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-pro-etale-site/sec-Continuous-cohomology/proposition-continuous-cohomology-pro-etale-cohomology.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-continuous-cohomology-pro-etale-cohomology/proposition-milnor-sequence",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id": "proof/proposition-continuous-cohomology-pro-etale-cohomology"},
+    {"role": "tgt", "id": "proposition-milnor-sequence"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/chap-Constructible-complexes/sec-Finite-Tor-amplitude/proposition-ctf-equals-bc/proposition-ctf-equals-bc--1.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -421165,6 +421194,922 @@
    [{"role": "src",
      "id": "proof/proposition-lie-algebras-faithful-semisimple-representation"},
     {"role": "tgt", "id": "lemma-lie-s-theorem"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/corollary-finite-tor-amplitude-under-comparison--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt",
+     "id": "corollary-finite-tor-amplitude-under-comparison--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-classical-pro-etale-sheaves--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-classical-pro-etale-sheaves--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-constructible-sheaves--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-constructible-sheaves--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-constructible-sheaves--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-constructible-sheaves--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-constructible-sheaves--5",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-constructible-sheaves--5"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-constructible-sheaves--6",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-constructible-sheaves--6"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-ind-etale-pro-etale-weakly--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-ind-etale-pro-etale-weakly--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-ind-etale-pro-etale-weakly--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-ind-etale-pro-etale-weakly--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-w-local-w-strictly-local--4",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-w-local-w-strictly-local--4"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/definition-weak-contractibility--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "definition-weak-contractibility--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-acyclic-resolutions--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-acyclic-resolutions--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-extremally-disconnected-covers--3",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-extremally-disconnected-covers--3"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-integral-models--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-integral-models--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-local-constancy-finite-level--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-local-constancy-finite-level--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-reduction-derived-nakayama--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-reduction-derived-nakayama--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-stability--3",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-stability--3"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-stability--6",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-stability--6"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-stability--7",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-stability--7"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-stability--8",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-stability--8"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-w-contractible-affines-projective",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-w-contractible-affines-projective"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/lemma-w-contractible-affines-projective--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "lemma-w-contractible-affines-projective--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-comparison-morphism-inverse-image--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-comparison-morphism-inverse-image--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-comparison-morphism-inverse-image--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-comparison-morphism-inverse-image--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-etale-implications--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-etale-implications--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-exact-products--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-exact-products--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-milnor-sequence--3",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-milnor-sequence--3"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-pro-etale-affines-form-basis",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-pro-etale-affines-form-basis"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-pro-etale-affines-form-basis--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-pro-etale-affines-form-basis--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-pro-etale-affines-form-basis--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-pro-etale-affines-form-basis--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-pro-etale-coverings--2",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-pro-etale-coverings--2"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-sp-unique-adjoint--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-sp-unique-adjoint--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-splitting-ind-etale-covers--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-splitting-ind-etale-covers--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-topos-functoriality",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-topos-functoriality"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-topos-functoriality--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-topos-functoriality--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/proposition-topos-functoriality--3",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "proposition-topos-functoriality--3"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/theorem-classical-sheaves-essential-image--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "theorem-classical-sheaves-essential-image--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/theorem-comparison-constructible-sheaves",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "theorem-comparison-constructible-sheaves"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/theorem-existence-contractible-covers--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "theorem-existence-contractible-covers--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes--1/theorem-pro-etale-refinements-weakly-etale--1",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes--1"},
+    {"role": "tgt", "id": "theorem-pro-etale-refinements-weakly-etale--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/corollary-finite-tor-amplitude-under-comparison",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "corollary-finite-tor-amplitude-under-comparison"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/definition-classical-pro-etale-sheaves",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "definition-classical-pro-etale-sheaves"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/definition-w-local-w-strictly-local",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "definition-w-local-w-strictly-local"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/definition-weak-contractibility",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "definition-weak-contractibility"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-acyclic-resolutions",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-acyclic-resolutions"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-extremally-disconnected-covers",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-extremally-disconnected-covers"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-integral-models",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-integral-models"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-local-constancy-finite-level",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-local-constancy-finite-level"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-reduction-derived-nakayama",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-reduction-derived-nakayama"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/lemma-w-contractible-affines-projective",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "lemma-w-contractible-affines-projective"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-comparison-morphism-inverse-image",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-comparison-morphism-inverse-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-etale-implications",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-etale-implications"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-exact-products",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-exact-products"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-milnor-sequence",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-milnor-sequence"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-pro-etale-affines-form-basis",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-pro-etale-affines-form-basis"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-pro-etale-coverings",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-pro-etale-coverings"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-sp-unique-adjoint",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-sp-unique-adjoint"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/proposition-splitting-ind-etale-covers",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "proposition-splitting-ind-etale-covers"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/theorem-classical-sheaves-essential-image",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "theorem-classical-sheaves-essential-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/theorem-comparison-constructible-sheaves",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "theorem-comparison-constructible-sheaves"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/theorem-existence-contractible-covers",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "theorem-existence-contractible-covers"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-Constructible-complexes/sec-Integral-constructible-complexes/proposition-local-structure-integral-constructible-complexes.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~proposition-local-structure-integral-constructible-complexes/theorem-pro-etale-refinements-weakly-etale",
+   "depth": 2,
+   "boundary":
+   [{"role": "src",
+     "id":
+     "proof/proposition-local-structure-integral-constructible-complexes"},
+    {"role": "tgt", "id": "theorem-pro-etale-refinements-weakly-etale"}],
    "body": "",
    "attrs": {}},
   {"source":
