@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-local-structure-integral-constructible-complexes"
 order = 244
+uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products", "proposition-milnor-sequence", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "theorem-comparison-constructible-sheaves", "corollary-finite-tor-amplitude-under-comparison", "lemma-reduction-derived-nakayama", "lemma-local-constancy-finite-level", "lemma-integral-models", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 We first trivialize each $K_n$ locally, separately for each $n$, and then make
 the trivializations compatible. To begin, choose a finite stratification on which all cohomology sheaves of
