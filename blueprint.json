@@ -3169,7 +3169,7 @@
     "name_showing": false,
     "lean":
     ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationExtendScalarsIso",
-     "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClIso",
+     "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClHom",
      "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom",
      "AlgebraicGeometry.ProEtale.CondensedRing.etaleReductionLowerShriekIsoOfCompactification",
      "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationExtendScalarsMap"],
@@ -9542,7 +9542,8 @@
     "lean":
     ["AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerShriekOfCompactificationExtendScalarsMap_app",
      "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekExtendScalarsIso",
-     "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekToPadicAlgClIso"],
+     "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekToPadicAlgClIso",
+     "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClIso"],
     "aliases": ["bp-r194-1"]}},
   {"source":
    {"file":
@@ -307675,6 +307676,19 @@
     "anonymous": true},
    "kind": "uses",
    "id":
+   "uses/proof~lemma-change-coefficients-compact-support--1/lemma-change-coefficients-direct-image--5",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support--1"},
+    {"role": "tgt", "id": "lemma-change-coefficients-direct-image--5"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-compact-support/lemma-change-coefficients-compact-support--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
    "uses/proof~lemma-change-coefficients-compact-support--1/lemma-finite-direct-images--2",
    "depth": 2,
    "boundary":
@@ -307732,6 +307746,32 @@
    "boundary":
    [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support--1"},
     {"role": "tgt", "id": "proposition-proper-base-change-projective-line--1"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-compact-support/lemma-change-coefficients-compact-support--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lemma-change-coefficients-compact-support--1/proposition-six-operations-dctf--4",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support--1"},
+    {"role": "tgt", "id": "proposition-six-operations-dctf--4"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-compact-support/lemma-change-coefficients-compact-support--1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lemma-change-coefficients-compact-support--1/proposition-six-operations-dctf--5",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support--1"},
+    {"role": "tgt", "id": "proposition-six-operations-dctf--5"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -307883,6 +307923,19 @@
     "anonymous": true},
    "kind": "uses",
    "id":
+   "uses/proof~lemma-change-coefficients-compact-support/lemma-change-coefficients-direct-image",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support"},
+    {"role": "tgt", "id": "lemma-change-coefficients-direct-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-compact-support.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
    "uses/proof~lemma-change-coefficients-compact-support/lemma-finite-direct-images",
    "depth": 2,
    "boundary":
@@ -307940,6 +307993,19 @@
    "boundary":
    [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support"},
     {"role": "tgt", "id": "proposition-proper-base-change-projective-line"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-compact-support.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lemma-change-coefficients-compact-support/proposition-six-operations-dctf",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lemma-change-coefficients-compact-support"},
+    {"role": "tgt", "id": "proposition-six-operations-dctf"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -310606,20 +310672,6 @@
    [{"role": "src",
      "id": "proof/lemma-change-coefficients-exceptional-inverse-image--6"},
     {"role": "tgt", "id": "definition-change-of-coefficients-maps--4"}],
-   "body": "",
-   "attrs": {}},
-  {"source":
-   {"file":
-    "blueprint/chap-The-six-operations-on-Dbctf/sec-Change-of-coefficients/lemma-change-coefficients-exceptional-inverse-image/lemma-change-coefficients-exceptional-inverse-image--6.proof.md",
-    "anonymous": true},
-   "kind": "uses",
-   "id":
-   "uses/proof~lemma-change-coefficients-exceptional-inverse-image--6/definition-change-of-coefficients-maps--5",
-   "depth": 2,
-   "boundary":
-   [{"role": "src",
-     "id": "proof/lemma-change-coefficients-exceptional-inverse-image--6"},
-    {"role": "tgt", "id": "definition-change-of-coefficients-maps--5"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -767223,6 +767275,96 @@
     "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso",
     "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom",
     "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicSubfieldRingObjToPadicAlgCl_of_isGE",
+    "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
+    "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
+    "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
+    "AlgebraicGeometry.ProEtale.lowerStar",
+    "AlgebraicGeometry.ProEtale.upperStar",
+    "AlgebraicGeometry.ProEtale.upperStarFromPointComp",
+    "AlgebraicGeometry.Scheme.ProEt",
+    "AlgebraicGeometry.Scheme.ProEt.precoverage",
+    "AlgebraicGeometry.Scheme.ProEt.topology",
+    "AlgebraicGeometry.Scheme.proetalePrecoverage",
+    "AlgebraicGeometry.WeaklyEtale",
+    "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
+    "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
+    "AlgebraicGeometry.WeaklyEtale.of_comp",
+    "LocallyConstant.homeomorphPrimeSpectrum",
+    "Profinite.continuousMapRingSheaf"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClHom":
+  {"valueDeps":
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
+    "AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructible_rightDerivedLowerStar_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_continuousMapRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_padicAlgClRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso",
+    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom",
+    "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
+    "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
+    "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
+    "AlgebraicGeometry.ProEtale.lowerStar",
+    "AlgebraicGeometry.ProEtale.upperStar",
+    "AlgebraicGeometry.ProEtale.upperStarFromPointComp",
+    "AlgebraicGeometry.Scheme.ProEt",
+    "AlgebraicGeometry.Scheme.ProEt.precoverage",
+    "AlgebraicGeometry.Scheme.ProEt.topology",
+    "AlgebraicGeometry.Scheme.proetalePrecoverage",
+    "AlgebraicGeometry.WeaklyEtale",
+    "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
+    "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
+    "AlgebraicGeometry.WeaklyEtale.of_comp",
+    "LocallyConstant.homeomorphPrimeSpectrum",
+    "Profinite.continuousMapRingSheaf"],
+   "typeDeps":
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_continuousMapRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_padicAlgClRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
+    "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
+    "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
+    "AlgebraicGeometry.ProEtale.lowerStar",
+    "AlgebraicGeometry.ProEtale.upperStar",
+    "AlgebraicGeometry.ProEtale.upperStarFromPointComp",
+    "AlgebraicGeometry.Scheme.ProEt",
+    "AlgebraicGeometry.Scheme.ProEt.precoverage",
+    "AlgebraicGeometry.Scheme.ProEt.topology",
+    "AlgebraicGeometry.Scheme.proetalePrecoverage",
+    "AlgebraicGeometry.WeaklyEtale",
+    "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
+    "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
+    "AlgebraicGeometry.WeaklyEtale.of_comp",
+    "LocallyConstant.homeomorphPrimeSpectrum",
+    "Profinite.continuousMapRingSheaf"],
+   "status": "proved",
+   "signature":
+   "def AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationToPadicAlgClHom.{u}\n  (ℓ : ℕ) [Fact (Nat.Prime ℓ)] (E : PadicAlgCl.FiniteIntermediateField ℓ) {k : Type u} [Field k]\n  [Fact (Nat.Prime (ringChar k))] [Fact (ringChar k ≠ ℓ)]\n  {X Y : CategoryTheory.Over (AlgebraicGeometry.Spec ↧k)}\n  [AlgebraicGeometry.LocallyOfFiniteType X.hom] [AlgebraicGeometry.QuasiCompact X.hom]\n  [AlgebraicGeometry.IsSeparated X.hom] [AlgebraicGeometry.LocallyOfFiniteType Y.hom]\n  [AlgebraicGeometry.QuasiCompact Y.hom] [AlgebraicGeometry.IsSeparated Y.hom] {f : X ⟶ Y}\n  (c : AlgebraicGeometry.Compactification (CategoryTheory.Over.Hom.left f)) :\n  (AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructibleLowerShriekOfCompactification\n          ℓ E c).comp\n      (AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleToPadicAlgCl Y.left ℓ E) ⟶\n    (AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleToPadicAlgCl X.left ℓ E).comp\n      (AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactification ℓ\n        c)",
+   "range":
+   {"startLine": 84,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/SixFunctors/ProEtale/ModuleObject/Colimit/UpperShriekCompatibility.lean",
+    "endLine": 100},
+   "module":
+   "WeilConjectures.SixFunctors.ProEtale.ModuleObject.Colimit.UpperShriekCompatibility",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "**The change-of-coefficients map for `Rf_!`** on bounded constructible complexes along a\ncompactification `c = (X ⟶[i] Z ⟶[g] Y)` of `f`, for the inclusion `E ⟶ ℚ̄_ℓ`:\n`Rf_!(c)^E ⋙ T_Y ⟶ T_X ⋙ Rf_!(c)^{ℚ̄_ℓ}` is the (Push) comparison for the proper `g`\n(`boundedConstructibleLowerStarToPadicAlgClHom`), whiskered by `i_!`, followed by `Rg_*` of the\n(Shriek) isomorphism for the open immersion `i`\n(`boundedConstructibleOpenImmersionLowerShriekToPadicAlgClIso`).",
+   "deps":
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.Compactification",
+    "AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructible_rightDerivedLowerStar_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_continuousMapRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_of_isProper_padicAlgClRingObj_of_finiteType",
+    "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso",
+    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom",
     "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
     "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
     "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
