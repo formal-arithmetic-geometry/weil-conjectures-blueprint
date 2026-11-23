@@ -356,7 +356,7 @@
   "sources":
   {".lake/packages/weil-conjectures/":
    {"url": "https://github.com/formal-arithmetic-geometry/weil-conjectures",
-    "rev": "d76ee1b88fb6582f1bab251ef3ad208a8174cba0"},
+    "rev": "105ac3f5b23c1e6eefcf6fd1fd3f8ce745df071d"},
    ".lake/packages/proofwidgets/":
    {"url": "https://github.com/leanprover-community/ProofWidgets4",
     "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04"},
@@ -637832,15 +637832,15 @@
    "signature":
    "theorem DerivedCategory.trace_eq_trace_add_trace_of_shortExact.{u} {R : Type u} [CommRing R]\n  [HasDerivedCategory (ModuleCat R)]\n  [CategoryTheory.Abelian.HasFunctorialFlatResolution (ModuleCat R)]\n  (S : CategoryTheory.ShortComplex (CochainComplex (ModuleCat R) ℤ)) (hS : S.ShortExact) (φ : S ⟶ S)\n  (s : Finset ℤ) (hs : ∀ i ∉ s, CategoryTheory.Limits.IsZero (S.X₂.X i))\n  (hfree₁ : ∀ (i : ℤ), Module.Free R ↑(S.X₁.X i)) (hfin₁ : ∀ (i : ℤ), Module.Finite R ↑(S.X₁.X i))\n  (hfree₃ : ∀ (i : ℤ), Module.Free R ↑(S.X₃.X i)) (hfin₃ : ∀ (i : ℤ), Module.Finite R ↑(S.X₃.X i))\n  (K₁ K₂ K₃ : DerivedCategory (ModuleCat R)) [CategoryTheory.HasRightDual K₁]\n  [CategoryTheory.HasRightDual K₂] [CategoryTheory.HasRightDual K₃] (w₁ : K₁ ⟶ K₁) (w₂ : K₂ ⟶ K₂)\n  (w₃ : K₃ ⟶ K₃) (e₁ : K₁ ≅ DerivedCategory.Q.obj S.X₁) (e₂ : K₂ ≅ DerivedCategory.Q.obj S.X₂)\n  (e₃ : K₃ ≅ DerivedCategory.Q.obj S.X₃)\n  (hw₁ :\n    CategoryTheory.CategoryStruct.comp w₁ e₁.hom =\n      CategoryTheory.CategoryStruct.comp e₁.hom (DerivedCategory.Q.map φ.τ₁))\n  (hw₂ :\n    CategoryTheory.CategoryStruct.comp w₂ e₂.hom =\n      CategoryTheory.CategoryStruct.comp e₂.hom (DerivedCategory.Q.map φ.τ₂))\n  (hw₃ :\n    CategoryTheory.CategoryStruct.comp w₃ e₃.hom =\n      CategoryTheory.CategoryStruct.comp e₃.hom (DerivedCategory.Q.map φ.τ₃)) :\n  CategoryTheory.MonoidalCategory.trace w₂ =\n    CategoryTheory.MonoidalCategory.trace w₁ + CategoryTheory.MonoidalCategory.trace w₃",
    "range":
-   {"startLine": 54,
+   {"startLine": 53,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/TraceLaws.lean",
-    "endLine": 100},
+    "endLine": 99},
    "module": "WeilConjectures.CategoryTheory.DerivedCategory.TraceLaws",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-properties-trace`, item (2) (filtered additivity), for a triangle coming\nfrom a short exact sequence: let `0 → P' → P → P'' → 0` be a short exact sequence `S` of bounded\ncomplexes of `R`-modules with `P'` and `P''` (hence also `P`) degreewise finitely generated and\nfree, and let `φ = (v', v, v'')` be an endomorphism of `S`. Then the categorical traces in `D(R)`\nsatisfy `tr (v ∣ P) = tr (v' ∣ P') + tr (v'' ∣ P'')`.",
+   "Filtered additivity of the trace, for a triangle coming\nfrom a short exact sequence: let `0 → P' → P → P'' → 0` be a short exact sequence `S` of bounded\ncomplexes of `R`-modules with `P'` and `P''` (hence also `P`) degreewise finitely generated and\nfree, and let `φ = (v', v, v'')` be an endomorphism of `S`. Then the categorical traces in `D(R)`\nsatisfy `tr (v ∣ P) = tr (v' ∣ P') + tr (v'' ∣ P'')`.",
    "deps":
    ["CategoryTheory.MonoidalCategory.trace",
     "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"],
@@ -637854,15 +637854,15 @@
    "signature":
    "theorem DerivedCategory.trace_eq_algebraMap_sum_negOnePow_trace_homologyMap.{u} {Λ : Type u} [Field Λ]\n  [HasDerivedCategory (ModuleCat Λ)]\n  [CategoryTheory.Abelian.HasFunctorialFlatResolution (ModuleCat Λ)]\n  (P : CochainComplex (ModuleCat Λ) ℤ) (v : P ⟶ P) (s : Finset ℤ)\n  (hs : ∀ i ∉ s, CategoryTheory.Limits.IsZero (P.X i)) (hfin : ∀ (i : ℤ), Module.Finite Λ ↑(P.X i))\n  (K : DerivedCategory (ModuleCat Λ)) [CategoryTheory.HasRightDual K] (w : K ⟶ K)\n  (e : K ≅ DerivedCategory.Q.obj P)\n  (hw :\n    CategoryTheory.CategoryStruct.comp w e.hom =\n      CategoryTheory.CategoryStruct.comp e.hom (DerivedCategory.Q.map v)) :\n  CategoryTheory.MonoidalCategory.trace w =\n    ((Algebra.algebraMap Λ\n          (CategoryTheory.End\n            (CategoryTheory.MonoidalCategoryStruct.tensorUnit (DerivedCategory (ModuleCat Λ)))))\n        (∑ i ∈ s,\n          ↑i.negOnePow •\n            (LinearMap.trace Λ ↑(HomologicalComplex.homology P i))\n              (ModuleCat.Hom.hom (HomologicalComplex.homologyMap v i)))).asHom",
    "range":
-   {"startLine": 108,
+   {"startLine": 107,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/TraceLaws.lean",
-    "endLine": 126},
+    "endLine": 125},
    "module": "WeilConjectures.CategoryTheory.DerivedCategory.TraceLaws",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-properties-trace`, item (4) (supertrace over a field): for a field `Λ`,\na bounded complex `P` of finite dimensional `Λ`-vector spaces and a chain endomorphism `v` of `P`,\nthe categorical trace of `v` on the object of `D(Λ)` represented by `P` is the alternating sum of\nthe traces of the maps induced by `v` on homology:\n\n`tr_Λ (v ∣ P) = ∑ i, (-1) ^ i * Tr (H ^ i (v) ∣ H ^ i (P))`.",
+   "Supertrace over a field: for a field `Λ`,\na bounded complex `P` of finite dimensional `Λ`-vector spaces and a chain endomorphism `v` of `P`,\nthe categorical trace of `v` on the object of `D(Λ)` represented by `P` is the alternating sum of\nthe traces of the maps induced by `v` on homology:\n\n`tr_Λ (v ∣ P) = ∑ i, (-1) ^ i * Tr (H ^ i (v) ∣ H ^ i (P))`.",
    "deps":
    ["CategoryTheory.MonoidalCategory.trace",
     "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"],
@@ -637884,7 +637884,7 @@
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-properties-trace`, via `proposition-properties-trace--4`: for the\nbraiding `DerivedCategory.braidedCategory'` of the derived tensor product on `D(R)` (the Koszul\nbraiding of complexes, descended along K-flat resolutions), the categorical trace of a chain\nendomorphism `v` of a bounded complex `P` of finitely generated free `R`-modules is the alternating\nsum of the traces of its components:\n\n`tr_R (v ∣ P) = ∑ i, (-1) ^ i * Tr_R (v ^ i ∣ P ^ i)`.",
+   "For the\nbraiding `DerivedCategory.braidedCategory'` of the derived tensor product on `D(R)` (the Koszul\nbraiding of complexes, descended along K-flat resolutions), the categorical trace of a chain\nendomorphism `v` of a bounded complex `P` of finitely generated free `R`-modules is the alternating\nsum of the traces of its components:\n\n`tr_R (v ∣ P) = ∑ i, (-1) ^ i * Tr_R (v ^ i ∣ P ^ i)`.",
    "deps":
    ["CategoryTheory.MonoidalCategory.trace",
     "CategoryTheory.MonoidalCategory.trace_eq_of_iso"],
@@ -637970,15 +637970,15 @@
    "signature":
    "theorem DerivedCategory.isHomotopyLimit_truncGECone.{v_1, u_1, u_2} {C : Type u_1}\n  [CategoryTheory.Category.{v_1, u_1} C] [CategoryTheory.Abelian C] [HasDerivedCategory C]\n  [CategoryTheory.Abelian.HasKInjectiveResolutions C]\n  [CategoryTheory.Limits.HasLimitsOfShape (CategoryTheory.Discrete ℕ) C]\n  [CategoryTheory.HasExactLimitsOfShape (CategoryTheory.Discrete ℕ) C] (K : DerivedCategory C) :\n  CategoryTheory.Pretriangulated.IsHomotopyLimit K.truncGECone",
    "range":
-   {"startLine": 148,
+   {"startLine": 147,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/LeftComplete.lean",
-    "endLine": 216},
+    "endLine": 215},
    "module": "WeilConjectures.CategoryTheory.DerivedCategory.LeftComplete",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-left-completeness`: in the derived category of an abelian category with\nexact countable products, every object `K` is the homotopy limit of the tower of its truncations\n`τ_{≥ -n} K` (Bhatt–Scholze, *The pro-étale topology for schemes*, Proposition 3.3.3).",
+   "in the derived category of an abelian category with\nexact countable products, every object `K` is the homotopy limit of the tower of its truncations\n`τ_{≥ -n} K` (Bhatt–Scholze, *The pro-étale topology for schemes*, Proposition 3.3.3).",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "DerivedCategory.homologyProperty_sigma":
@@ -637988,10 +637988,10 @@
    "signature":
    "theorem DerivedCategory.homologyProperty_sigma.{v_1, u_1, u_3, u_4} {C : Type u_1}\n  [CategoryTheory.Category.{v_1, u_1} C] [CategoryTheory.Abelian C] [HasDerivedCategory C]\n  [CategoryTheory.Abelian.HasKInjectiveResolutions C] {J : Type u_3}\n  [CategoryTheory.Limits.HasColimitsOfShape (CategoryTheory.Discrete J) C]\n  [CategoryTheory.HasExactColimitsOfShape (CategoryTheory.Discrete J) C]\n  (P : CategoryTheory.ObjectProperty C) [P.IsClosedUnderColimitsOfShape (CategoryTheory.Discrete J)]\n  (N : J → DerivedCategory C) (hN : ∀ (j : J), DerivedCategory.homologyProperty P (N j)) :\n  DerivedCategory.homologyProperty P (∐ N)",
    "range":
-   {"startLine": 252,
+   {"startLine": 250,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/CoproductsOfHomologyProperty.lean",
-    "endLine": 256},
+    "endLine": 254},
    "module":
    "WeilConjectures.CategoryTheory.DerivedCategory.CoproductsOfHomologyProperty",
    "kind": "theorem",
@@ -638027,16 +638027,16 @@
    "signature":
    "theorem DerivedCategory.exists_trace_eq_algebraMap_and_trace_extendScalars_eq_algebraMap.{u} {R B : Type u}\n  [CommRing R] [CommRing B] (φ : R →+* B) [HasDerivedCategory (ModuleCat R)]\n  [CategoryTheory.Abelian.HasFunctorialFlatResolution (ModuleCat R)]\n  [HasDerivedCategory (ModuleCat B)]\n  [CategoryTheory.Abelian.HasFunctorialFlatResolution (ModuleCat B)]\n  (P : CochainComplex (ModuleCat R) ℤ) (v : P ⟶ P) (s : Finset ℤ)\n  (hs : ∀ i ∉ s, CategoryTheory.Limits.IsZero (P.X i)) (hfree : ∀ (i : ℤ), Module.Free R ↑(P.X i))\n  (hfin : ∀ (i : ℤ), Module.Finite R ↑(P.X i)) (K : DerivedCategory (ModuleCat R))\n  [CategoryTheory.HasRightDual K] (w : K ⟶ K) (e : K ≅ DerivedCategory.Q.obj P)\n  (hw :\n    CategoryTheory.CategoryStruct.comp w e.hom =\n      CategoryTheory.CategoryStruct.comp e.hom (DerivedCategory.Q.map v))\n  (K' : DerivedCategory (ModuleCat B)) [CategoryTheory.HasRightDual K'] (w' : K' ⟶ K')\n  (e' :\n    K' ≅\n      DerivedCategory.Q.obj\n        (((ModuleCat.extendScalars φ).mapHomologicalComplex (ComplexShape.up ℤ)).obj P))\n  (hw' :\n    CategoryTheory.CategoryStruct.comp w' e'.hom =\n      CategoryTheory.CategoryStruct.comp e'.hom\n        (DerivedCategory.Q.map\n          (((ModuleCat.extendScalars φ).mapHomologicalComplex (ComplexShape.up ℤ)).map v))) :\n  ∃ a,\n    CategoryTheory.MonoidalCategory.trace w =\n        ((Algebra.algebraMap R\n              (CategoryTheory.End\n                (CategoryTheory.MonoidalCategoryStruct.tensorUnit (DerivedCategory (ModuleCat R)))))\n            a).asHom ∧\n      CategoryTheory.MonoidalCategory.trace w' =\n        ((Algebra.algebraMap B\n              (CategoryTheory.End\n                (CategoryTheory.MonoidalCategoryStruct.tensorUnit (DerivedCategory (ModuleCat B)))))\n            (φ a)).asHom",
    "range":
-   {"startLine": 77,
+   {"startLine": 76,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/TraceScalarExtension.lean",
-    "endLine": 113},
+    "endLine": 112},
    "module":
    "WeilConjectures.CategoryTheory.DerivedCategory.TraceScalarExtension",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-properties-trace`, item (3) (scalar extension): let `φ : R →+* B` be a\nhomomorphism of commutative rings, `P` a bounded complex of finitely generated free `R`-modules\nand `v` a chain endomorphism of `P`. Since `P` is degreewise free, `P ⊗^L_R B` is represented by\nthe termwise scalar extension `P_B = B ⊗[R] P`, with endomorphism `v_B = B ⊗[R] v`. Then the\ncategorical trace `tr_R (v ∣ P) ∈ R` in `D(R)` and the categorical trace `tr_B (v_B ∣ P_B)` in\n`D(B)` satisfy `tr_B (v_B ∣ P_B) = φ (tr_R (v ∣ P))`: there is `a : R` with\n`tr_R (v ∣ P) = a` and `tr_B (v_B ∣ P_B) = φ a`.",
+   "Scalar extension of the trace: let `φ : R →+* B` be a\nhomomorphism of commutative rings, `P` a bounded complex of finitely generated free `R`-modules\nand `v` a chain endomorphism of `P`. Since `P` is degreewise free, `P ⊗^L_R B` is represented by\nthe termwise scalar extension `P_B = B ⊗[R] P`, with endomorphism `v_B = B ⊗[R] v`. Then the\ncategorical trace `tr_R (v ∣ P) ∈ R` in `D(R)` and the categorical trace `tr_B (v_B ∣ P_B)` in\n`D(B)` satisfy `tr_B (v_B ∣ P_B) = φ (tr_R (v ∣ P))`: there is `a : R` with\n`tr_R (v ∣ P) = a` and `tr_B (v_B ∣ P_B) = φ a`.",
    "deps":
    ["CategoryTheory.MonoidalCategory.trace",
     "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"],
@@ -638069,15 +638069,15 @@
    "signature":
    "theorem DerivedCategory.IsPerfect.isIso_toIhomIhomUnit.{u} {R : Type u} [CommRing R]\n  [HasDerivedCategory (ModuleCat R)]\n  [CategoryTheory.BraidedCategory (DerivedCategory (ModuleCat R))]\n  {C : DerivedCategory (ModuleCat R)} (hC : C.IsPerfect) :\n  CategoryTheory.IsIso (CategoryTheory.MonoidalClosed.toIhomIhomUnit C)",
    "range":
-   {"startLine": 605,
+   {"startLine": 581,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/Perfect.lean",
-    "endLine": 614},
+    "endLine": 588},
    "module": "WeilConjectures.CategoryTheory.DerivedCategory.Perfect",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-perfect-complexes-geometric-point--8`: biduality at the point.\n\nFor a perfect point complex `C` and any braiding of `D(R)`, the canonical biduality map\n`C ⟶ C^∨∨`, where `C^∨ = RHom_R(C, R)`, is an isomorphism. This is also clause (3) of blueprint\n`lemma-perfect-complexes-geometric-point--8`: derived evaluation into the coefficient double dual is\nan isomorphism for every perfect complex over any ring.",
+   "Biduality at the point.\n\nFor a perfect point complex `C` and any braiding of `D(R)`, the canonical biduality map\n`C ⟶ C^∨∨`, where `C^∨ = RHom_R(C, R)`, is an isomorphism.",
    "deps":
    ["CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit"],
@@ -638089,15 +638089,15 @@
    "signature":
    "theorem DerivedCategory.IsPerfect.ihom_unit.{u} {R : Type u} [CommRing R] [HasDerivedCategory (ModuleCat R)]\n  {C : DerivedCategory (ModuleCat R)} (hC : C.IsPerfect) :\n  (C ⟹ CategoryTheory.MonoidalCategoryStruct.tensorUnit (DerivedCategory (ModuleCat R))).IsPerfect",
    "range":
-   {"startLine": 439,
+   {"startLine": 419,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/Perfect.lean",
-    "endLine": 490},
+    "endLine": 469},
    "module": "WeilConjectures.CategoryTheory.DerivedCategory.Perfect",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-perfect-complexes-geometric-point` (Step 3 of its proof): the dual of a perfect\npoint complex.\n\nThe dual `C^∨ = RHom_R(C, R)` of a perfect complex `C` is perfect: if `C` is represented by a\nbounded complex `P` of finitely generated projective modules, `C^∨` is represented by the\ntermwise dual complex `Hom_R(P^{-i}, R)`, again bounded with finitely generated projective\nterms.",
+   "The dual of a perfect point complex.\n\nThe dual `C^∨ = RHom_R(C, R)` of a perfect complex `C` is perfect: if `C` is represented by a\nbounded complex `P` of finitely generated projective modules, `C^∨` is represented by the\ntermwise dual complex `Hom_R(P^{-i}, R)`, again bounded with finitely generated projective\nterms.",
    "deps": ["CategoryTheory.Adjunction.rightAdjointUniq"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CompactT2.projective_iff_extremallyDisconnected":
@@ -638534,15 +638534,15 @@
    "signature":
    "theorem CategoryTheory.brownHypotheses.{u} (ℓ : ℕ) [Fact (Nat.Prime ℓ)] {k : Type u} [Field k] (p : ℕ)\n  [CharP k p] (hp : 0 < p) (hpl : p ≠ ℓ)\n  (hcd : AlgebraicGeometry.ProEtale.cohomologicalDimension ℓ ⋯ (AlgebraicGeometry.Spec ↧k) < ⊤)\n  {X : AlgebraicGeometry.Scheme} (aX : X ⟶ AlgebraicGeometry.Spec ↧k)\n  [AlgebraicGeometry.IsSeparated aX] [AlgebraicGeometry.LocallyOfFiniteType aX]\n  [AlgebraicGeometry.QuasiCompact aX]\n  (Λ : CategoryTheory.Sheaf (CategoryTheory.coherentTopology Profinite) Ab)\n  [CategoryTheory.MonObj Λ] [CategoryTheory.IsCommMonObj Λ]\n  (hΛ : AlgebraicGeometry.ProEtale.IsLocalizingAdmissibleCoefficient ℓ Λ) :\n  CategoryTheory.BrownHypothesesFor Λ X",
    "range":
-   {"startLine": 288,
+   {"startLine": 286,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Brown/BrownHypotheses.lean",
-    "endLine": 385},
+    "endLine": 357},
    "module": "WeilConjectures.CategoryTheory.Brown.BrownHypotheses",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Brown representability hypotheses for a separated finite-type scheme in positive\ncharacteristic different from the coefficient prime, for exactly the admissible rings.\n`IsLocalizingAdmissibleCoefficient` specifies the six concrete coefficient objects up to\nring-object isomorphism, including the discrete finite rings killed by a power of `ℓ`.\n\nSource: literature/blueprint/main-20261015/blueprint/sec-six-functors-basics/\nsk-lem-brown-hypotheses/_section.md and sk-lem-brown-hypotheses.proof.md\n(blueprint: lemma-hypotheses-brown-representability).\n\nProof: First unpack lemma-hypotheses-brown-representability--1: the datum is a prime ℓ, a field of\ncharacteristic p > 0 distinct from ℓ with cd_ℓ(k) < ∞ (definition-cohomological-dimension), and a\nseparated finite-type k-scheme X; by Stacks 0F10 all cd_ℓ in the setting are then finite.\nUnpack definition-localizing-subcategory: Λ is one of the six specified condensed rings;\nthe ambient category is the unbounded derived category of modules over Λ_X;\nS is the bounded constructible finite-Tor property and L is its replete localizing\nintersection, with coproducts in the fixed universe and no completeness restriction.\nSecond apply lemma-hypotheses-brown-representability to this datum to obtain local smallness,\ntriangulation, arbitrary sums and split idempotents of L. Apply\n lemma-hypotheses-brown-representability--5 to obtain thickness and essential smallness of S.\nChoosing one representative per isomorphism class gives a small skeleton.\nThird let G be any such skeleton and apply lemma-hypotheses-brown-representability:\neach representative is compact in L, and vanishing of Hom(C[n], K) for all\nrepresentatives C and all integers n forces K to be zero. Compactness is exactly\nlemma-hypotheses-brown-representability--1. To identify the second conclusion with\nlemma-hypotheses-brown-representability--1, use Hom(coproduct C, K[-n]) = product Hom(C[n], K). If\nevery morphism from the coproduct into every shift of K is zero, the component Hom groups vanish,\nso K is zero; contrapositively every nonzero K receives a nonzero map from the\ncoproduct into some shift. This is IsTriangulatedGeneratingFamily. All these\narguments apply to every small skeleton, with the inherited shift and any chosen\ncoproduct universal properties.",
+   "Brown representability hypotheses for a separated finite-type scheme in positive\ncharacteristic different from the coefficient prime, for exactly the admissible rings.\n`IsLocalizingAdmissibleCoefficient` specifies the six concrete coefficient objects up to\nring-object isomorphism, including the discrete finite rings killed by a power of `ℓ`.",
    "deps":
    ["Algebra.IndEtale",
     "Algebra.IndEtale.weaklyEtale",
@@ -638734,16 +638734,16 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.preservesColimitsOfShape_of_localizingClosureLift_adjunction.{v, u₁,\n    u₂}\n  {C₁ : Type u₁} [CategoryTheory.Category.{v, u₁} C₁] [CategoryTheory.Preadditive C₁]\n  [CategoryTheory.Limits.HasZeroObject C₁] [CategoryTheory.HasShift C₁ ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C₁ n).Additive] [CategoryTheory.Pretriangulated C₁]\n  {C₂ : Type u₂} [CategoryTheory.Category.{v, u₂} C₂] [CategoryTheory.Preadditive C₂]\n  [CategoryTheory.Limits.HasZeroObject C₂] [CategoryTheory.HasShift C₂ ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C₂ n).Additive] [CategoryTheory.Pretriangulated C₂]\n  (P₁ : CategoryTheory.ObjectProperty C₁) (P₂ : CategoryTheory.ObjectProperty C₂)\n  (Φ : CategoryTheory.Functor C₁ C₂)\n  (hΦ : ∀ (X : C₁), P₁.localizingClosure X → P₂.localizingClosure (Φ.obj X)) [Φ.CommShift ℤ]\n  [CategoryTheory.Limits.HasCoproducts C₁] [CategoryTheory.Limits.HasCoproducts C₂]\n  [Φ.IsTriangulated] (hP₁ : P₁.CompactlyGeneratesLocalizingClosure)\n  (hP₂ : P₂.CompactlyGeneratesLocalizingClosure) (hΦ' : ∀ (X : C₁), P₁ X → P₂ (Φ.obj X))\n  {G :\n    CategoryTheory.Functor P₂.localizingClosure.FullSubcategory\n      P₁.localizingClosure.FullSubcategory}\n  (adj : P₁.localizingClosureLift P₂ Φ hΦ ⊣ G) (J : Type v) :\n  CategoryTheory.Limits.PreservesColimitsOfShape (CategoryTheory.Discrete J) G",
    "range":
-   {"startLine": 307,
+   {"startLine": 302,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/BrownRepresentability/RightAdjoint.lean",
-    "endLine": 321},
+    "endLine": 316},
    "module":
    "WeilConjectures.CategoryTheory.Triangulated.BrownRepresentability.RightAdjoint",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `theorem-existence-exceptional-inverse-image--4`, on localizing closures: if `P₁` and\n`P₂` compactly generate their localizing closures and `Φ` maps `P₁` into `P₂`, then every right\nadjoint of the restriction `Φ : Loc(P₁) ⥤ Loc(P₂)` preserves coproducts.",
+   "on localizing closures: if `P₁` and\n`P₂` compactly generate their localizing closures and `Φ` maps `P₁` into `P₂`, then every right\nadjoint of the restriction `Φ : Loc(P₁) ⥤ Loc(P₂)` preserves coproducts.",
    "deps":
    ["CategoryTheory.ObjectProperty.hasCoproducts_fullSubcategory",
     "CategoryTheory.ObjectProperty.isLocalizing_localizingClosure",
@@ -638756,10 +638756,10 @@
    "signature":
    "def CategoryTheory.ObjectProperty.localizingClosure.{v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] [CategoryTheory.Preadditive C]\n  [CategoryTheory.Limits.HasZeroObject C] [CategoryTheory.HasShift C ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C n).Additive] [CategoryTheory.Pretriangulated C]\n  (P : CategoryTheory.ObjectProperty C) : CategoryTheory.ObjectProperty C",
    "range":
-   {"startLine": 72,
+   {"startLine": 71,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/LocalizingClosure.lean",
-    "endLine": 76},
+    "endLine": 75},
    "module": "WeilConjectures.CategoryTheory.Triangulated.LocalizingClosure",
    "kind": "definition",
    "exists": true,
@@ -638774,10 +638774,10 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.isLocalizing_localizingClosure.{v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] [CategoryTheory.Preadditive C]\n  [CategoryTheory.Limits.HasZeroObject C] [CategoryTheory.HasShift C ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C n).Additive] [CategoryTheory.Pretriangulated C]\n  (P : CategoryTheory.ObjectProperty C) : P.localizingClosure.IsLocalizing",
    "range":
-   {"startLine": 97,
+   {"startLine": 96,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/LocalizingClosure.lean",
-    "endLine": 105},
+    "endLine": 104},
    "module": "WeilConjectures.CategoryTheory.Triangulated.LocalizingClosure",
    "kind": "theorem",
    "exists": true,
@@ -638794,16 +638794,16 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.isIdempotentComplete_localizingClosure.{v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] [CategoryTheory.Preadditive C]\n  [CategoryTheory.Limits.HasZeroObject C] [CategoryTheory.HasShift C ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C n).Additive] [CategoryTheory.Pretriangulated C]\n  (P : CategoryTheory.ObjectProperty C) [CategoryTheory.Limits.HasCoproducts C] :\n  CategoryTheory.IsIdempotentComplete P.localizingClosure.FullSubcategory",
    "range":
-   {"startLine": 47,
+   {"startLine": 42,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/LocalizingClosureGeneration.lean",
-    "endLine": 51},
+    "endLine": 46},
    "module":
    "WeilConjectures.CategoryTheory.Triangulated.LocalizingClosureGeneration",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-hypotheses-brown-representability`: the localizing closure of a property of\nobjects of a pretriangulated category with coproducts is idempotent complete.",
+   "the localizing closure of a property of\nobjects of a pretriangulated category with coproducts is idempotent complete.",
    "deps":
    ["CategoryTheory.ObjectProperty.hasCoproducts_fullSubcategory",
     "CategoryTheory.ObjectProperty.isLocalizing_localizingClosure",
@@ -638816,15 +638816,15 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.ind_isClosedUnderKernels.{w, v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] {P : CategoryTheory.ObjectProperty C}\n  [CategoryTheory.Abelian C] [CategoryTheory.IsGrothendieckAbelian.{w, v, u} C]\n  (hP : P ≤ CategoryTheory.ObjectProperty.isFinitelyPresentable C) [P.IsClosedUnderKernels] :\n  P.ind.IsClosedUnderKernels",
    "range":
-   {"startLine": 330,
+   {"startLine": 328,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/ObjectProperty/IndHeart.lean",
-    "endLine": 351},
+    "endLine": 349},
    "module": "WeilConjectures.CategoryTheory.ObjectProperty.IndHeart",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-ind-constructible-sheaves`: if the objects of `P` are finitely\npresentable and `P` is closed under kernels, then so is `ind P`, filtered colimits being exact.",
+   "if the objects of `P` are finitely\npresentable and `P` is closed under kernels, then so is `ind P`, filtered colimits being exact.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.ObjectProperty.ind_isClosedUnderColimitsOfShape_discrete":
@@ -638834,15 +638834,15 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.ind_isClosedUnderColimitsOfShape_discrete.{w, v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] {P : CategoryTheory.ObjectProperty C}\n  [CategoryTheory.Abelian C] [CategoryTheory.IsGrothendieckAbelian.{w, v, u} C]\n  (hP : P ≤ CategoryTheory.ObjectProperty.isFinitelyPresentable C) [P.ContainsZero]\n  [P.IsClosedUnderExtensions] (J : Type w) :\n  P.ind.IsClosedUnderColimitsOfShape (CategoryTheory.Discrete J)",
    "range":
-   {"startLine": 392,
+   {"startLine": 390,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/ObjectProperty/IndHeart.lean",
-    "endLine": 412},
+    "endLine": 410},
    "module": "WeilConjectures.CategoryTheory.ObjectProperty.IndHeart",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-ind-constructible-sheaves--3`: if the objects of `P` are finitely\npresentable and `P` contains zero and is closed under extensions, then `ind P` is closed under\ndirect sums: a direct sum is the filtered colimit of its finite subsums, which lie in `ind P` by\n`ind_biprod`, and `ind (ind P) = ind P`.",
+   "if the objects of `P` are finitely\npresentable and `P` contains zero and is closed under extensions, then `ind P` is closed under\ndirect sums: a direct sum is the filtered colimit of its finite subsums, which lie in `ind P` by\n`ind_biprod`, and `ind (ind P) = ind P`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.ObjectProperty.ind_isClosedUnderCokernels":
@@ -638852,15 +638852,15 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.ind_isClosedUnderCokernels.{w, v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] {P : CategoryTheory.ObjectProperty C}\n  [CategoryTheory.Abelian C] [CategoryTheory.IsGrothendieckAbelian.{w, v, u} C]\n  (hP : P ≤ CategoryTheory.ObjectProperty.isFinitelyPresentable C) [P.IsClosedUnderCokernels] :\n  P.ind.IsClosedUnderCokernels",
    "range":
-   {"startLine": 353,
+   {"startLine": 351,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/ObjectProperty/IndHeart.lean",
-    "endLine": 376},
+    "endLine": 374},
    "module": "WeilConjectures.CategoryTheory.ObjectProperty.IndHeart",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-ind-constructible-sheaves`: if the objects of `P` are finitely\npresentable and `P` is closed under cokernels, then so is `ind P`.",
+   "if the objects of `P` are finitely\npresentable and `P` is closed under cokernels, then so is `ind P`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.ObjectProperty.hasCoproducts_fullSubcategory":
@@ -638870,10 +638870,10 @@
    "signature":
    "theorem CategoryTheory.ObjectProperty.hasCoproducts_fullSubcategory.{v, u} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] [CategoryTheory.Preadditive C]\n  [CategoryTheory.Limits.HasZeroObject C] [CategoryTheory.HasShift C ℤ]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C n).Additive] [CategoryTheory.Pretriangulated C]\n  [CategoryTheory.Limits.HasCoproducts C] (Q : CategoryTheory.ObjectProperty C) [Q.IsLocalizing] :\n  CategoryTheory.Limits.HasCoproducts Q.FullSubcategory",
    "range":
-   {"startLine": 107,
+   {"startLine": 106,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/LocalizingClosure.lean",
-    "endLine": 110},
+    "endLine": 109},
    "module": "WeilConjectures.CategoryTheory.Triangulated.LocalizingClosure",
    "kind": "theorem",
    "exists": true,
@@ -638890,16 +638890,16 @@
    "signature":
    "theorem CategoryTheory.NatTrans.isIso_app_of_localizingClosure.{w, u_1, u_2} {C : Type u_1} {D : Type u_2}\n  [CategoryTheory.Category.{w, u_1} C] [CategoryTheory.Limits.HasZeroObject C]\n  [CategoryTheory.HasShift C ℤ] [CategoryTheory.Preadditive C]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor C n).Additive] [CategoryTheory.Pretriangulated C]\n  [CategoryTheory.Category.{w, u_2} D] [CategoryTheory.Limits.HasZeroObject D]\n  [CategoryTheory.HasShift D ℤ] [CategoryTheory.Preadditive D]\n  [∀ (n : ℤ), (CategoryTheory.shiftFunctor D n).Additive] [CategoryTheory.Pretriangulated D]\n  {F₁ F₂ : CategoryTheory.Functor C D} [F₁.CommShift ℤ] [F₂.CommShift ℤ] [F₁.IsTriangulated]\n  [F₂.IsTriangulated] (τ : F₁ ⟶ F₂) [CategoryTheory.NatTrans.CommShift τ ℤ]\n  {P : CategoryTheory.ObjectProperty C} (hF₁ : F₁.PreservesCoproductsOn P.localizingClosure)\n  (hF₂ : F₂.PreservesCoproductsOn P.localizingClosure)\n  (h : ∀ (X : C), P X → CategoryTheory.IsIso (τ.app X)) {X : C} (hX : P.localizingClosure X) :\n  CategoryTheory.IsIso (τ.app X)",
    "range":
-   {"startLine": 143,
+   {"startLine": 142,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/LocalizingDetermination.lean",
-    "endLine": 175},
+    "endLine": 174},
    "module":
    "WeilConjectures.CategoryTheory.Triangulated.LocalizingDetermination",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-checking-isomorphisms-constructible-complexes--1`, for the localizing closure:\nlet `τ : F₁ ⟶ F₂` be a natural transformation of triangulated functors, compatible with the shifts,\nwhere `F₁` and `F₂` preserve the coproducts of objects of `Loc(P)`. If `τ` is an isomorphism on the\nobjects of `P`, it is an isomorphism on the objects of `Loc(P)`: the objects of `Loc(P)` on which\n`τ` is an isomorphism form a localizing property containing `P`.",
+   "for the localizing closure:\nlet `τ : F₁ ⟶ F₂` be a natural transformation of triangulated functors, compatible with the shifts,\nwhere `F₁` and `F₂` preserve the coproducts of objects of `Loc(P)`. If `τ` is an isomorphism on the\nobjects of `P`, it is an isomorphism on the objects of `Loc(P)`: the objects of `Loc(P)` on which\n`τ` is an isomorphism form a localizing property containing `P`.",
    "deps":
    ["CategoryTheory.ObjectProperty.isLocalizing_localizingClosure",
     "CategoryTheory.ObjectProperty.localizingClosure"],
@@ -639019,15 +639019,15 @@
    "signature":
    "def CategoryTheory.GrothendieckTopology.IsReplete.{u, v, w} {C : Type u}\n  [CategoryTheory.Category.{v, u} C] (J : CategoryTheory.GrothendieckTopology C) : Prop",
    "range":
-   {"startLine": 27,
+   {"startLine": 26,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/RepleteSheafTopos.lean",
-    "endLine": 43},
+    "endLine": 36},
    "module": "WeilConjectures.CategoryTheory.RepleteSheafTopos",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A Grothendieck topology `J` is *replete* (blueprint: definition-repleteness--1;\nBhatt–Scholze, Definition 3.1.1) when, in the topos of set-valued sheaves on `J`, every\ninverse sequence of epimorphisms has epimorphic projections from its limit, at every index.\nAn inverse sequence is `F : ℕᵒᵖ ⥤ Sheaf J (Type (max u v w))`; its adjacent transition\nis `F.map (homOfLE (Nat.le_succ n)).op`.\n\nThe existing sectionwise-limit construction (`Sheaf.createsLimitsOfShape`, Stacks 00W2)\nidentifies `limit F` at `V` with the tuples `x n ∈ (F.obj (op n))(V)` satisfying\n`t_n (x (n + 1)) = x n`; `limit.π F (op m)` is the coordinate projection `x ↦ x m`.\nBy `Sheaf.isLocallySurjective_iff_epi` (Stacks 00WM and 00WN), epimorphism here means\nthat each target section admits lifts after passing to a covering. Thus neither the\ntransition hypothesis nor the projection conclusion asserts surjectivity on all sections.\nThe extra universe `w` allows section sets larger than the site.",
+   "A Grothendieck topology `J` is *replete* (Bhatt–Scholze) when, in the topos of set-valued\nsheaves on `J`, every\ninverse sequence of epimorphisms has epimorphic projections from its limit, at every index.\nAn inverse sequence is `F : ℕᵒᵖ ⥤ Sheaf J (Type (max u v w))`; its adjacent transition\nis `F.map (homOfLE (Nat.le_succ n)).op`. Here epimorphism means that each target section admits\nlifts after passing to a covering (Stacks 00WM and 00WN), and the limit is computed sectionwise\n(Stacks 00W2). The universe `w` allows section sets larger than the site.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.Functor.trace_eq_unitEndRingHom_trace":
@@ -639039,15 +639039,15 @@
    "signature":
    "theorem CategoryTheory.Functor.trace_eq_unitEndRingHom_trace.{u_1, u_2, u_3, u_4} {C : Type u_1}\n  {D : Type u_2} [CategoryTheory.Category.{u_3, u_1} C] [CategoryTheory.Category.{u_4, u_2} D]\n  [CategoryTheory.MonoidalCategory C] [CategoryTheory.MonoidalCategory D]\n  [CategoryTheory.BraidedCategory C] [CategoryTheory.BraidedCategory D]\n  (F : CategoryTheory.Functor C D) [F.Braided] [CategoryTheory.Preadditive C]\n  [CategoryTheory.Preadditive D] [F.Additive] {X : C} {X' : D} [CategoryTheory.HasRightDual X]\n  [CategoryTheory.HasRightDual (F.obj X)] [CategoryTheory.HasRightDual X'] (f : X ⟶ X)\n  (f' : X' ⟶ X') (e : F.obj X ≅ X')\n  (h :\n    CategoryTheory.CategoryStruct.comp (F.map f) e.hom =\n      CategoryTheory.CategoryStruct.comp e.hom f') :\n  CategoryTheory.MonoidalCategory.trace f' =\n    (F.unitEndRingHom { asHom := CategoryTheory.MonoidalCategory.trace f }).asHom",
    "range":
-   {"startLine": 71,
+   {"startLine": 70,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Monoidal/Rigid/BraidedTrace.lean",
-    "endLine": 80},
+    "endLine": 79},
    "module": "WeilConjectures.CategoryTheory.Monoidal.Rigid.BraidedTrace",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Scalar-extension law of the trace** (blueprint `proposition-properties-trace`, item (3)):\nif an isomorphism `e : F X ≅ X'` intertwines `F f` with an endomorphism `f'` of `X'`, then\n`tr (f') = ρ_F (tr f)`.",
+   "**Scalar-extension law of the trace**:\nif an isomorphism `e : F X ≅ X'` intertwines `F f` with an endomorphism `f'` of `X'`, then\n`tr (f') = ρ_F (tr f)`.",
    "deps":
    ["CategoryTheory.MonoidalCategory.trace",
     "CategoryTheory.MonoidalCategory.trace_eq_of_iso"],
@@ -639059,15 +639059,15 @@
    "signature":
    "def CategoryTheory.Functor.rightDerivedObjIsoOfResolution.{v_1, u_1, v_2, u_2} {C : Type u_1}\n  {D : Type u_2} [CategoryTheory.Category.{v_1, u_1} C] [CategoryTheory.Category.{v_2, u_2} D]\n  [CategoryTheory.Abelian C] [CategoryTheory.HasInjectiveResolutions C] [CategoryTheory.Abelian D]\n  (F : CategoryTheory.Functor C D) [F.Additive] [CategoryTheory.Limits.PreservesFiniteLimits F]\n  {X : C} {I : CochainComplex C ℕ} (ι : (CochainComplex.single₀ C).obj X ⟶ I) [QuasiIso ι]\n  (hI : ∀ (n : ℕ), F.rightAcyclic (I.X n)) (q : ℕ) :\n  (F.rightDerived q).obj X ≅ ((F.mapHomologicalComplex (ComplexShape.up ℕ)).obj I).homology q",
    "range":
-   {"startLine": 285,
+   {"startLine": 280,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Abelian/RightDerived/Acyclic.lean",
-    "endLine": 299},
+    "endLine": 293},
    "module": "WeilConjectures.CategoryTheory.Abelian.RightDerived.Acyclic",
    "kind": "definition",
    "exists": true,
    "doc":
-   "**Acyclic resolutions compute right derived functors.** If `ι : single₀ X ⟶ I` is a\nresolution `X → I⁰ → I¹ → ⋯` of `X` by `F`-acyclic objects, then `R^q F X ≅ H^q(F I)`.\nIt is `InjectiveResolution.isoRightDerivedObjOfQuasiIso` applied to the lift\n`φ : I ⟶ J` of the identity of `X` to an injective resolution `J` of `X`:\n```\n  single₀ X ──ι──▶ I\n        ╲          │ φ = descOfQuasiIso (𝟙 X) J ι\n      J.ι ╲        ▼\n            ╲────▶ J\n```\n(blueprint: `lemma-acyclic-resolutions`, item 2)",
+   "**Acyclic resolutions compute right derived functors.** If `ι : single₀ X ⟶ I` is a\nresolution `X → I⁰ → I¹ → ⋯` of `X` by `F`-acyclic objects, then `R^q F X ≅ H^q(F I)`.\nIt is `InjectiveResolution.isoRightDerivedObjOfQuasiIso` applied to the lift\n`φ : I ⟶ J` of the identity of `X` to an injective resolution `J` of `X`:\n```\n  single₀ X ──ι──▶ I\n        ╲          │ φ = descOfQuasiIso (𝟙 X) J ι\n      J.ι ╲        ▼\n            ╲────▶ J\n```",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic":
@@ -639077,15 +639077,15 @@
    "signature":
    "theorem CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic.{v_1, u_1, v_2, u_2}\n  {C : Type u_1} {D : Type u_2} [CategoryTheory.Category.{v_1, u_1} C]\n  [CategoryTheory.Category.{v_2, u_2} D] [CategoryTheory.Abelian C]\n  [CategoryTheory.HasInjectiveResolutions C] [CategoryTheory.Abelian D]\n  (F : CategoryTheory.Functor C D) [F.Additive] [CategoryTheory.Limits.PreservesFiniteLimits F]\n  {X : C} {I : CochainComplex C ℕ} (ι : (CochainComplex.single₀ C).obj X ⟶ I) [QuasiIso ι]\n  (hI : ∀ (n : ℕ), F.rightAcyclic (I.X n)) (q : ℕ) :\n  Nonempty\n    ((F.rightDerived q).obj X ≅ ((F.mapHomologicalComplex (ComplexShape.up ℕ)).obj I).homology q)",
    "range":
-   {"startLine": 302,
+   {"startLine": 296,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Abelian/RightDerived/Acyclic.lean",
-    "endLine": 310},
+    "endLine": 303},
    "module": "WeilConjectures.CategoryTheory.Abelian.RightDerived.Acyclic",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Acyclic resolutions compute right derived functors.** Let `F : C ⥤ D` be a left exact\nadditive functor. If `ι : single₀ X ⟶ I` is a resolution `X → I⁰ → I¹ → ⋯` of `X` by\n`F`-acyclic objects, then `R^q F X ≅ H^q(F I)` for all `q`. The witness is the natural\nisomorphism `Functor.rightDerivedObjIsoOfResolution`. (blueprint: `lemma-acyclic-resolutions`;\n`lemma-acyclic-resolutions`, item 2)",
+   "**Acyclic resolutions compute right derived functors.** Let `F : C ⥤ D` be a left exact\nadditive functor. If `ι : single₀ X ⟶ I` is a resolution `X → I⁰ → I¹ → ⋯` of `X` by\n`F`-acyclic objects, then `R^q F X ≅ H^q(F I)` for all `q`. The witness is the natural\nisomorphism `Functor.rightDerivedObjIsoOfResolution`.",
    "deps": ["CategoryTheory.Functor.rightDerivedObjIsoOfResolution"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic":
@@ -639095,16 +639095,16 @@
    "signature":
    "theorem CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic.{v_1, u_1, v_2, u_2,\n    u_3, u_4}\n  {C : Type u_1} {D : Type u_2} [CategoryTheory.Category.{v_1, u_1} C]\n  [CategoryTheory.Category.{v_2, u_2} D] [CategoryTheory.Abelian C] [CategoryTheory.Abelian D]\n  (F : CategoryTheory.Functor C D) [F.Additive] [CategoryTheory.EnoughInjectives C]\n  [HasDerivedCategory C] [HasDerivedCategory D] [CategoryTheory.Limits.PreservesFiniteLimits F]\n  (L : CochainComplex.Plus C) (hL : ∀ (n : ℤ), F.rightAcyclic (L.obj.X n)) :\n  CategoryTheory.IsIso\n    (F.rightDerivedFunctorPlusUnith.app ((HomotopyCategory.Plus.quotient C).obj L))",
    "range":
-   {"startLine": 88,
+   {"startLine": 87,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/DerivedCategory/RightDerivedFunctor/PlusHomology.lean",
-    "endLine": 132},
+    "endLine": 121},
    "module":
    "WeilConjectures.CategoryTheory.DerivedCategory.RightDerivedFunctor.PlusHomology",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Acyclic complexes compute `R⁺F`, at the level of the unit.** If `F` is left exact and `L`\nis a bounded below complex of `F`-acyclic objects, then the unit `F(L) ⟶ R⁺F(L)` is an\nisomorphism in `DerivedCategory.Plus D`. Choose a quasi-isomorphism `i : L ⟶ T` to a bounded\nbelow complex of injectives. In the naturality square of the unit\n```\nF(L) ----unit----> R⁺F(L)\n |                   |\nF(i)              R⁺F(i)\n v                   v\nF(T) ----unit----> R⁺F(T)\n```\nthe bottom map is an isomorphism as `T` is injective, `R⁺F(i)` is an isomorphism as `i` is a\nquasi-isomorphism, and `F(i)` is an isomorphism by `Functor.quasiIso_map_of_rightAcyclic`.",
+   "**Acyclic complexes compute `R⁺F`, at the level of the unit.** If `F` is left exact and `L`\nis a bounded below complex of `F`-acyclic objects, then the unit `F(L) ⟶ R⁺F(L)` is an\nisomorphism in `DerivedCategory.Plus D`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.Functor.RepresentableBy":
@@ -639283,16 +639283,16 @@
    "signature":
    "theorem CategoryTheory.Adjunction.existsUnique_iso_comp_counit.{v_1, u₁, v_2, u₂} {C : Type u₁}\n  {D : Type u₂} [CategoryTheory.Category.{v_1, u₁} C] [CategoryTheory.Category.{v_2, u₂} D]\n  {F : CategoryTheory.Functor C D} {G G' : CategoryTheory.Functor D C} (adj : F ⊣ G)\n  (adj' : F ⊣ G') :\n  ∃! e,\n    ∀ (Y : D),\n      CategoryTheory.CategoryStruct.comp (F.map (e.hom.app Y)) (adj'.counit.app Y) =\n        adj.counit.app Y",
    "range":
-   {"startLine": 159,
+   {"startLine": 156,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Triangulated/BrownRepresentability/RightAdjoint.lean",
-    "endLine": 168},
+    "endLine": 165},
    "module":
    "WeilConjectures.CategoryTheory.Triangulated.BrownRepresentability.RightAdjoint",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Uniqueness of right adjoints (blueprint `theorem-existence-exceptional-inverse-image` (3)): two\nright adjoints of `F` are isomorphic by a unique isomorphism compatible with the counits.",
+   "Uniqueness of right adjoints: two right adjoints of `F` are isomorphic by a unique\nisomorphism compatible with the counits.",
    "deps":
    ["CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit"],
@@ -640469,15 +640469,15 @@
    "signature":
    "def AlgebraicGeometry.strictTransform.{u} {X Y X' : AlgebraicGeometry.Scheme} (f : Y ⟶ X) (π : X' ⟶ X)\n  (U : X.Opens) : AlgebraicGeometry.Scheme",
    "range":
-   {"startLine": 143,
+   {"startLine": 137,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictTransform.lean",
-    "endLine": 148},
+    "endLine": 142},
    "module": "WeilConjectures.Compactification.StrictTransform",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The strict transform of `f : Y ⟶ X` along `π : X' ⟶ X` relative to the open\n`U ⊆ X`: the scheme-theoretic image of the open locus of `Y ×_X X'` lying over `U`.\nFor `π` the blow-up of an ideal with support complement `U` this is the classical\nstrict transform. (Blueprint: `def:nagata-strict-transform`.)",
+   "The strict transform of `f : Y ⟶ X` along `π : X' ⟶ X` relative to the open\n`U ⊆ X`: the scheme-theoretic image of the open locus of `Y ×_X X'` lying over `U`.\nFor `π` the blow-up of an ideal with support complement `U` this is the classical\nstrict transform.",
    "deps": ["AlgebraicGeometry.Scheme.Hom.image"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.smooth_of_grpObj_of_isReduced":
@@ -642258,15 +642258,15 @@
    "signature":
    "theorem AlgebraicGeometry.nonempty_iso_overPullback_npow_id.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] (N : A.left.Modules) [N.IsInvertible]\n  (hsymm : Nonempty (AlgebraicGeometry.Scheme.Modules.overPullback CategoryTheory.GrpObj.inv N ≅ N))\n  (n : ℕ) :\n  Nonempty\n    (AlgebraicGeometry.Scheme.Modules.overPullback (CategoryTheory.CategoryStruct.id A ^ n) N ≅\n      N.tensorPow (n ^ 2))",
    "range":
-   {"startLine": 143,
+   {"startLine": 221,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Cube.lean",
-    "endLine": 200},
+    "endLine": 237},
    "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Cube",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-pullback-multiplication-n--2`: Pullback of symmetric modules under\nmultiplication by `n`.\n\nLet `A` be an abelian variety over `K` and let `N` be an invertible `𝒪_A`-module which is\n*symmetric*, that is `[-1]^* N ≅ N`. Then `[n]^* N ≅ N^{⊗ n²}` for every `n`.\n\nThis is also blueprint `proposition-pullback-multiplication-n--2`. The proof compares isomorphism\nclasses in the commutative monoid `Skeleton A.left.Modules`, in which the class of `N` is a unit\nsince `N` is invertible. Pulling back the theorem of the cube `AlgebraicGeometry.nonempty_iso_cube`\nalong `x ↦ (x, x, -x)` gives `[2]^* N ≅ N^{⊗ 4}`, and along `x ↦ (x, x, [n] x)` gives\n`[n + 2]^* N ⊗ N^{⊗ 2} ⊗ [n]^* N ≅ [2]^* N ⊗ ([n + 1]^* N)^{⊗ 2}`, from which the claim follows\nby induction on `n`.",
+   "Let `A` be an abelian variety over `K` and let `N` be an invertible `𝒪_A`-module which is\n*symmetric*, that is `[-1]^* N ≅ N`. Then `[n]^* N ≅ N^{⊗ n²}` for every `n ≥ 0`.",
    "deps":
    ["AlgebraicGeometry.IsAbelianVariety",
     "AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral",
@@ -642283,10 +642283,10 @@
    "signature":
    "theorem AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices.{u} {K : Type u} [Field K]\n  (X Y Z : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) [AlgebraicGeometry.IsProper X.hom]\n  [AlgebraicGeometry.GeometricallyIntegral X.hom] [AlgebraicGeometry.IsProper Y.hom]\n  [AlgebraicGeometry.GeometricallyIntegral Y.hom] [ConnectedSpace ↥Z.left]\n  (x :\n    CategoryTheory.MonoidalCategoryStruct.tensorUnit\n        (CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) ⟶\n      X)\n  (y :\n    CategoryTheory.MonoidalCategoryStruct.tensorUnit\n        (CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) ⟶\n      Y)\n  (z :\n    CategoryTheory.MonoidalCategoryStruct.tensorUnit\n        (CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) ⟶\n      Z)\n  (M N :\n    (CategoryTheory.MonoidalCategoryStruct.tensorObj\n          (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y) Z).left.Modules)\n  [M.IsInvertible] [N.IsInvertible]\n  (hx :\n    Nonempty\n      (AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj Y Z))\n                x)\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst Y Z))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd Y Z))\n          M ≅\n        AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj Y Z))\n                x)\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst Y Z))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd Y Z))\n          N))\n  (hy :\n    Nonempty\n      (AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst X Z)\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj X Z))\n                y))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd X Z))\n          M ≅\n        AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst X Z)\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj X Z))\n                y))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd X Z))\n          N))\n  (hz :\n    Nonempty\n      (AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CategoryStruct.id (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y))\n            (CategoryTheory.CategoryStruct.comp\n              (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y))\n              z))\n          M ≅\n        AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CategoryStruct.id (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y))\n            (CategoryTheory.CategoryStruct.comp\n              (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y))\n              z))\n          N)) :\n  Nonempty (M ≅ N)",
    "range":
-   {"startLine": 323,
+   {"startLine": 356,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/TheoremOfCube.lean",
-    "endLine": 358},
+    "endLine": 391},
    "module": "WeilConjectures.AlgebraicGeometry.TheoremOfCube",
    "kind": "theorem",
    "exists": true,
@@ -646822,7 +646822,7 @@
    {"startLine": 372,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/WeilSheaf/CurveEndpoints.lean",
-    "endLine": 408},
+    "endLine": 398},
    "module": "WeilConjectures.WeilSheaf.CurveEndpoints",
    "kind": "theorem",
    "exists": true,
@@ -646997,15 +646997,14 @@
    "signature":
    "theorem AlgebraicGeometry.nonempty_commonModification.{u} {S U X₁ X₂ : AlgebraicGeometry.Scheme}\n  [CompactSpace ↥S] [QuasiSeparatedSpace ↥S] (s₁ : X₁ ⟶ S) (s₂ : X₂ ⟶ S) (j₁ : U ⟶ X₁) (j₂ : U ⟶ X₂)\n  [AlgebraicGeometry.IsOpenImmersion j₁] [AlgebraicGeometry.IsOpenImmersion j₂]\n  [AlgebraicGeometry.QuasiCompact j₁] [AlgebraicGeometry.QuasiCompact j₂]\n  (hj : CategoryTheory.CategoryStruct.comp j₁ s₁ = CategoryTheory.CategoryStruct.comp j₂ s₂)\n  [AlgebraicGeometry.IsSeparated s₁] [AlgebraicGeometry.LocallyOfFiniteType s₁]\n  [AlgebraicGeometry.QuasiCompact s₁] [AlgebraicGeometry.IsSeparated s₂]\n  [AlgebraicGeometry.LocallyOfFiniteType s₂] [AlgebraicGeometry.QuasiCompact s₂] :\n  Nonempty (AlgebraicGeometry.CommonModification s₁ s₂ j₁ j₂)",
    "range":
-   {"startLine": 202,
+   {"startLine": 196,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/CommonModification.lean",
-    "endLine": 433},
+    "endLine": 421},
    "module": "WeilConjectures.Compactification.CommonModification",
    "kind": "theorem",
    "exists": true,
-   "doc":
-   "**Existence of a common modification** (Stacks Project Tag 0F3X).\n\nForm the scheme-theoretic image\n`X₁₂ ⊆ X₁ ×_S X₂` of `U`, eliminate the indeterminacy of both projections\n(`exists_admissibleBlowup_isOpenImmersion_strictTransformMap`), dominate the two center\nideals by their product (`Scheme.IdealSheafData.exists_blowup_mul_iso`) and extend the\nresulting common blow-up of `X₁₂` across the open strict transforms.",
+   "doc": "**Existence of a common modification** (Stacks Project Tag 0F3X).",
    "deps":
    ["AlgebraicGeometry.CommonModification",
     "AlgebraicGeometry.Compactification",
@@ -647398,10 +647397,10 @@
    "signature":
    "theorem AlgebraicGeometry.ker_strictTransformι.{u} {X Y X' : AlgebraicGeometry.Scheme} (f : Y ⟶ X)\n  (π : X' ⟶ X) (U : X.Opens) :\n  AlgebraicGeometry.Scheme.Hom.ker (AlgebraicGeometry.strictTransformι f π U) =\n    AlgebraicGeometry.Scheme.Hom.ker (AlgebraicGeometry.strictTransformOpen f π U).ι",
    "range":
-   {"startLine": 228,
+   {"startLine": 222,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictTransform.lean",
-    "endLine": 231},
+    "endLine": 225},
    "module": "WeilConjectures.Compactification.StrictTransform",
    "kind": "theorem",
    "exists": true,
@@ -648423,10 +648422,10 @@
    "signature":
    "theorem AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two.{u} {k₀ : Type u}\n  [Field k₀] [Finite k₀] {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  {C : AlgebraicGeometry.Scheme} [C.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsAffine C]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec ↧k₀)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)] (j : U ⟶ C)\n  [AlgebraicGeometry.IsOpenImmersion j] [AlgebraicGeometry.QuasiCompact j]\n  [AlgebraicGeometry.Scheme.Hom.IsOver j (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsDominant j]\n  [AlgebraicGeometry.GeometricallyConnected (C ↘ AlgebraicGeometry.Spec ↧k₀)]\n  (F : AlgebraicGeometry.WeilSheaf k₀ l U) (ι : PadicAlgCl l →+* ℂ) (hF : F.IsLisse) {w : ℝ}\n  (hw : AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight ι F w) :\n  FrobeniusModule.IsPureOfWeightOver k₀ ι\n    (((AlgebraicGeometry.WeilSheaf.directImage j).obj F).compactlySupportedCohomology 2) (w + 2)",
    "range":
-   {"startLine": 410,
+   {"startLine": 400,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/WeilSheaf/CurveEndpoints.lean",
-    "endLine": 427},
+    "endLine": 417},
    "module": "WeilConjectures.WeilSheaf.CurveEndpoints",
    "kind": "theorem",
    "exists": true,
@@ -649154,15 +649153,15 @@
    "signature":
    "theorem AlgebraicGeometry.isOpenImmersion_strictTransformMap_eliminationBlowup.{u}\n  {X : AlgebraicGeometry.Scheme} [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] {U : X.Opens}\n  (hU : IsCompact ↑U) {Z : AlgebraicGeometry.Scheme} (q : Z ⟶ X) [AlgebraicGeometry.IsSeparated q]\n  [AlgebraicGeometry.LocallyOfFiniteType q] [AlgebraicGeometry.QuasiCompact q]\n  (hq : CategoryTheory.IsIso (q ∣_ U)) :\n  AlgebraicGeometry.IsOpenImmersion\n    (AlgebraicGeometry.strictTransformMap q\n      (AlgebraicGeometry.eliminationBlowup hU q hq).I.blowupMap\n      (AlgebraicGeometry.eliminationBlowup hU q hq).preservedOpen)",
    "range":
-   {"startLine": 516,
+   {"startLine": 491,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/EliminationOfIndeterminacy.lean",
-    "endLine": 541},
+    "endLine": 510},
    "module": "WeilConjectures.Compactification.EliminationOfIndeterminacy",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Elimination of indeterminacy for the constructed blow-up** (Stacks Project Tag 081S):\nthe strict transform\nof `q` along `AlgebraicGeometry.eliminationBlowup` is an open immersion.\n\nThe proof follows the Conrad/Zariski's-Main-Theorem route along the three steps of the\nconstruction: in `X₁ = Bl_{𝓘₀}(X)` the open `U` is scheme-theoretically dense; the graph\nsection extends over an open `W` of the Conrad blow-up `Bl_𝓘(X₁)`; and, transporting along\n`Bl_K(X) ≅ Bl_𝓘(X₁)`, the graph of the extension cuts out the strict transform\n(`isOpenImmersion_strictTransformMap_of_extension`).",
+   "**Elimination of indeterminacy for the constructed blow-up** (Stacks Project Tag 081S):\nthe strict transform\nof `q` along `AlgebraicGeometry.eliminationBlowup` is an open immersion.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.IsAdmissible",
@@ -652036,10 +652035,10 @@
    "signature":
    "theorem AlgebraicGeometry.isAbelianVariety_iff_geometricallyConnected.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) [CategoryTheory.GrpObj A] :\n  AlgebraicGeometry.IsAbelianVariety A ↔\n    AlgebraicGeometry.IsProper A.hom ∧\n      AlgebraicGeometry.Smooth A.hom ∧ AlgebraicGeometry.GeometricallyConnected A.hom",
    "range":
-   {"startLine": 103,
+   {"startLine": 109,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 118},
+    "endLine": 124},
    "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
    "kind": "theorem",
    "exists": true,
@@ -655862,10 +655861,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd_of_nonempty_iso_fiber.{u} {K : Type u}\n  [Field K] (X Y Z : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K))\n  [AlgebraicGeometry.IsProper X.hom] [AlgebraicGeometry.GeometricallyIntegral X.hom]\n  [AlgebraicGeometry.IsProper Y.hom] [AlgebraicGeometry.GeometricallyIntegral Y.hom]\n  (x :\n    CategoryTheory.MonoidalCategoryStruct.tensorUnit\n        (CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) ⟶\n      X)\n  (y :\n    CategoryTheory.MonoidalCategoryStruct.tensorUnit\n        (CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) ⟶\n      Y)\n  (M N :\n    (CategoryTheory.MonoidalCategoryStruct.tensorObj\n          (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y) Z).left.Modules)\n  [M.IsInvertible] [N.IsInvertible]\n  (hx :\n    Nonempty\n      (AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj Y Z))\n                x)\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst Y Z))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd Y Z))\n          M ≅\n        AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj Y Z))\n                x)\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst Y Z))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd Y Z))\n          N))\n  (hy :\n    Nonempty\n      (AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst X Z)\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj X Z))\n                y))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd X Z))\n          M ≅\n        AlgebraicGeometry.Scheme.Modules.overPullback\n          (CategoryTheory.CartesianMonoidalCategory.lift\n            (CategoryTheory.CartesianMonoidalCategory.lift\n              (CategoryTheory.SemiCartesianMonoidalCategory.fst X Z)\n              (CategoryTheory.CategoryStruct.comp\n                (CategoryTheory.SemiCartesianMonoidalCategory.toUnit\n                  (CategoryTheory.MonoidalCategoryStruct.tensorObj X Z))\n                y))\n            (CategoryTheory.SemiCartesianMonoidalCategory.snd X Z))\n          N))\n  {F : Type u} [Field F] (φ : AlgebraicGeometry.Spec ↧F ⟶ Z.left)\n  (hφ :\n    Nonempty\n      ((AlgebraicGeometry.Scheme.Modules.pullback\n              (CategoryTheory.Limits.pullback.fst\n                (CategoryTheory.Over.Hom.left\n                  (CategoryTheory.SemiCartesianMonoidalCategory.snd\n                    (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y) Z))\n                φ)).obj\n          M ≅\n        (AlgebraicGeometry.Scheme.Modules.pullback\n              (CategoryTheory.Limits.pullback.fst\n                (CategoryTheory.Over.Hom.left\n                  (CategoryTheory.SemiCartesianMonoidalCategory.snd\n                    (CategoryTheory.MonoidalCategoryStruct.tensorObj X Y) Z))\n                φ)).obj\n          N)) :\n  ∃ U,\n    φ (IsLocalRing.closedPoint F) ∈ U ∧\n      Nonempty\n        ((AlgebraicGeometry.Scheme.Modules.pullback (AlgebraicGeometry.preimageSnd X Y Z U).ι).obj\n            M ≅\n          (AlgebraicGeometry.Scheme.Modules.pullback (AlgebraicGeometry.preimageSnd X Y Z U).ι).obj\n            N)",
    "range":
-   {"startLine": 87,
+   {"startLine": 97,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/TheoremOfCube.lean",
-    "endLine": 125},
+    "endLine": 135},
    "module": "WeilConjectures.AlgebraicGeometry.TheoremOfCube",
    "kind": "theorem",
    "exists": true,
@@ -657282,15 +657281,15 @@
    "signature":
    "theorem AlgebraicGeometry.exists_isIso_strictTransformMap_isoNearClosureBlowup.{u}\n  {X Z : AlgebraicGeometry.Scheme} [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] {U : X.Opens}\n  (hU : IsCompact ↑U) (q : Z ⟶ X) [AlgebraicGeometry.IsProper q] {T : Set ↥X} (hTU : T ⊆ ↑U)\n  (hT : IsClosed (⇑U.ι ⁻¹' T)) {N : X.Opens} (hTN : T ⊆ ↑N) (hN : CategoryTheory.IsIso (q ∣_ N)) :\n  ∃ N',\n    closure (⇑(AlgebraicGeometry.isoNearClosureBlowup hU q hT hTN hN).I.blowupMap ⁻¹' T) ⊆ ↑N' ∧\n      CategoryTheory.IsIso\n        (AlgebraicGeometry.strictTransformMap q\n            (AlgebraicGeometry.isoNearClosureBlowup hU q hT hTN hN).I.blowupMap\n            (AlgebraicGeometry.isoNearClosureBlowup hU q hT hTN hN).preservedOpen ∣_\n          N')",
    "range":
-   {"startLine": 711,
+   {"startLine": 695,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/IsomorphismNearClosure.lean",
-    "endLine": 733},
+    "endLine": 715},
    "module": "WeilConjectures.Compactification.IsomorphismNearClosure",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**The isomorphism-near-closure blow-up does its job** (Stacks Project Tag 0F3W;\nblueprint: `lemma-extending-isomorphism-over-closure-closed`): after the blow-up `IsoBl_{U,T}(q)`\n(`isoNearClosureBlowup`), the strict transform of `q` is an isomorphism over an open\nneighbourhood of the closure of the inverse image of `T`. The proof feeds the named steps of\nthe construction into `exists_isIso_strictTransformMap_of_isoNearClosureData`.",
+   "**The isomorphism-near-closure blow-up does its job** (Stacks Project Tag 0F3W): after the\nblow-up `IsoBl_{U,T}(q)` (`isoNearClosureBlowup`), the strict transform of `q` is an isomorphism\nover an open neighbourhood of the closure of the inverse image of `T`.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.IsAdmissible",
@@ -657386,15 +657385,15 @@
    "signature":
    "theorem AlgebraicGeometry.exists_isDense_compactification.{u} {X Y : AlgebraicGeometry.Scheme} (f : X ⟶ Y)\n  [AlgebraicGeometry.IsSeparated f] [AlgebraicGeometry.LocallyOfFiniteType f]\n  [AlgebraicGeometry.QuasiCompact f] [CompactSpace ↥Y] [QuasiSeparatedSpace ↥Y] : ∃ c, c.IsDense",
    "range":
-   {"startLine": 70,
+   {"startLine": 67,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/Dense.lean",
-    "endLine": 79},
+    "endLine": 75},
    "module": "WeilConjectures.Compactification.Dense",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Existence of dense compactifications** (blueprint:\n`def:nagata-two-open-dense-compactifications`, `lemma:nagata-two-open-dense-compactifications`).\n\nA separated, quasi-compact morphism locally of finite type over a quasi-compact\nquasi-separated base admits a compactification whose open immersion is scheme-theoretically\ndominant: compactify by Nagata's theorem and pass to the dense refinement.",
+   "**Existence of dense compactifications**.\n\nA separated, quasi-compact morphism locally of finite type over a quasi-compact\nquasi-separated base admits a compactification whose open immersion is scheme-theoretically\ndominant: compactify by Nagata's theorem and pass to the dense refinement.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Compactification.IsDense",
@@ -657658,10 +657657,10 @@
    "signature":
    "theorem AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap.{u}\n  {X : AlgebraicGeometry.Scheme} [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] {U : X.Opens}\n  (hU : IsCompact ↑U) {Z : AlgebraicGeometry.Scheme} (q : Z ⟶ X) [AlgebraicGeometry.IsSeparated q]\n  [AlgebraicGeometry.LocallyOfFiniteType q] [AlgebraicGeometry.QuasiCompact q]\n  (hq : CategoryTheory.IsIso (q ∣_ U)) :\n  ∃ B,\n    AlgebraicGeometry.IsOpenImmersion\n        (AlgebraicGeometry.strictTransformMap q B.I.blowupMap B.preservedOpen) ∧\n      AlgebraicGeometry.IsSchemeTheoreticallyDominant\n        ((TopologicalSpace.Opens.map B.I.blowupMap.base).obj U).ι",
    "range":
-   {"startLine": 561,
+   {"startLine": 530,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/EliminationOfIndeterminacy.lean",
-    "endLine": 577},
+    "endLine": 546},
    "module": "WeilConjectures.Compactification.EliminationOfIndeterminacy",
    "kind": "theorem",
    "exists": true,
@@ -657702,15 +657701,15 @@
    "signature":
    "theorem AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure.{u}\n  {X Z : AlgebraicGeometry.Scheme} [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] {U : X.Opens}\n  (hU : IsCompact ↑U) (q : Z ⟶ X) [AlgebraicGeometry.IsProper q] {T : Set ↥X} (hTU : T ⊆ ↑U)\n  (hT : IsClosed (⇑U.ι ⁻¹' T)) {N : X.Opens} (hTN : T ⊆ ↑N) (hN : CategoryTheory.IsIso (q ∣_ N)) :\n  ∃ B N',\n    closure (⇑B.I.blowupMap ⁻¹' T) ⊆ ↑N' ∧\n      CategoryTheory.IsIso\n        (AlgebraicGeometry.strictTransformMap q B.I.blowupMap B.preservedOpen ∣_ N')",
    "range":
-   {"startLine": 735,
+   {"startLine": 717,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/IsomorphismNearClosure.lean",
-    "endLine": 752},
+    "endLine": 731},
    "module": "WeilConjectures.Compactification.IsomorphismNearClosure",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**Isomorphism near the closure of a boundary piece** (Stacks Project Tag 0F3W;\nblueprint: `def:nagata-isomorphism-near-closure`,\n`lemma:nagata-isomorphism-near-closure`; used for the improved comparison projection of\nthe two-open compactification theorem): a proper morphism which is an isomorphism over a\nneighbourhood of a closed piece `T` of `U` acquires, after a `U`-admissible blow-up, a strict\ntransform which is an isomorphism over a neighbourhood of the closure of `T`. A witness is the\nconstructed blow-up `isoNearClosureBlowup`\n(`exists_isIso_strictTransformMap_isoNearClosureBlowup`).",
+   "**Isomorphism near the closure of a boundary piece** (Stacks Project Tag 0F3W): a proper\nmorphism which is an isomorphism over a neighbourhood of a closed piece `T` of `U` acquires, after a\n`U`-admissible blow-up, a strict transform which is an isomorphism over a neighbourhood of the\nclosure of `T`. A witness is the constructed blow-up `isoNearClosureBlowup`\n(`exists_isIso_strictTransformMap_isoNearClosureBlowup`).",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.IsAdmissible",
@@ -657813,15 +657812,15 @@
    "signature":
    "theorem AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures.{u} {X : AlgebraicGeometry.Scheme}\n  {U : X.Opens} [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] (hU : IsCompact ↑U) {T₁ T₂ : Set ↥↑U}\n  (hT₁ : IsClosed T₁) (hT₂ : IsClosed T₂) (hc₁ : IsCompact T₁ᶜ) (hc₂ : IsCompact T₂ᶜ)\n  (hdisj : Disjoint T₁ T₂) :\n  ∃ B, Disjoint (closure (⇑B.I.blowupMap ⁻¹' ⇑U.ι '' T₁)) (closure (⇑B.I.blowupMap ⁻¹' ⇑U.ι '' T₂))",
    "range":
-   {"startLine": 127,
+   {"startLine": 109,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/BoundaryPreparation.lean",
-    "endLine": 163},
+    "endLine": 136},
    "module": "WeilConjectures.Compactification.BoundaryPreparation",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**The constructible-boundary separation blow-up** (Stacks Project Tags 080P and\n0F3V; blueprint: `def:nagata-separate-constructible-closed`,\n`lemma:nagata-separate-constructible-closed`,\n`def:nagata-two-open-prepared-boundaries`, `lemma:nagata-prepared-boundaries`;\nproof order item 36).\n\nThe blow-up is the boundary-separation blow-up of the sum of two finite-type ideals\n`I₁`, `I₂` extending the vanishing ideals of `T₁`, `T₂` from `U` (Stacks Tags 01PH\nand 01PF, `Scheme.IdealSheafData.exists_finiteType_preimage_coe_support_eq`); the\nclosure of the inverse image of `Tᵢ` is contained in the strict transform of `V(Iᵢ)`\n(`IsAdmissible.closure_preimage_subset_range_strictTransformMap`), and these strict\ntransforms are disjoint by `disjoint_range_strictTransformMap_sup`.",
+   "**The constructible-boundary separation blow-up** (Stacks Project Tags 080P and\n0F3V): two disjoint constructible closed subsets `T₁`, `T₂` of a quasi-compact open `U ⊆ X`\nacquire disjoint closures of their inverse images after a `U`-admissible blow-up.",
    "deps":
    ["AlgebraicGeometry.IsAdmissible",
     "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd",
@@ -657960,10 +657959,10 @@
    "signature":
    "theorem AlgebraicGeometry.coe_support_eliminationCentre.{u} {X : AlgebraicGeometry.Scheme} [CompactSpace ↥X]\n  [QuasiSeparatedSpace ↥X] {U : X.Opens} (hU : IsCompact ↑U) {Z : AlgebraicGeometry.Scheme}\n  (q : Z ⟶ X) (hq : CategoryTheory.IsIso (q ∣_ U)) [AlgebraicGeometry.IsSeparated q]\n  [AlgebraicGeometry.LocallyOfFiniteType q] [AlgebraicGeometry.QuasiCompact q] :\n  ↑(AlgebraicGeometry.eliminationCentre hU q hq).support = (↑U)ᶜ",
    "range":
-   {"startLine": 269,
+   {"startLine": 247,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/EliminationOfIndeterminacy.lean",
-    "endLine": 286},
+    "endLine": 264},
    "module": "WeilConjectures.Compactification.EliminationOfIndeterminacy",
    "kind": "theorem",
    "exists": true,
@@ -664420,17 +664419,17 @@
     "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"],
    "status": "proved",
    "signature":
-   "theorem AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two.{u} {k₀ : Type u}\n  [Field k₀] [Finite k₀] {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsSeparated (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.LocallyOfFiniteType (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.QuasiCompact (U ↘ AlgebraicGeometry.Spec ↧k₀)] [AlgebraicGeometry.IsAffine U]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.GeometricallyConnected (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  (F : AlgebraicGeometry.WeilSheaf k₀ l U) (hF : F.IsLisse) :\n  Nonempty\n    ((F.compactlySupportedCohomology 2).Equiv\n      ((F.geometricCoinvariants hF).tateTwist (Nat.card k₀) (-1)))",
+   "theorem AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two.{u} {k₀ : Type u}\n  [Field k₀] [Finite k₀] {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsSeparated (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.LocallyOfFiniteType (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.QuasiCompact (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  (F : AlgebraicGeometry.WeilSheaf k₀ l U) (hF : F.IsLisse) :\n  Nonempty\n    ((F.compactlySupportedCohomology 2).Equiv\n      ((F.geometricCoinvariants hF).tateTwist (Nat.card k₀) (-1)))",
    "range":
    {"startLine": 52,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/WeilSheaf/CurveTopCohomology.lean",
-    "endLine": 70},
+    "endLine": 69},
    "module": "WeilConjectures.WeilSheaf.CurveTopCohomology",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-degree-zero-top-cohomology--2`: Description of `H_c²` on an affine curve.\n\nLet `U₀` be a smooth geometrically connected affine curve over `k₀ = 𝔽_q` and `F` a lisse Weil\nsheaf on `U₀`, with local generic fibre `V`. There is a Frobenius-equivariant isomorphism\n`H_c²(U, F) ≃ V_{π₁(U)}(-1)`, where the geometric coinvariants `V_{π₁(U)} = Γ(U, F^∨)^∨` carry the\nFrobenius induced by the Weil structure and the Tate twist `(-1)` multiplies it by `q`.",
+   "Blueprint `lemma-degree-zero-top-cohomology--2`: Description of `H_c²` on a smooth curve.\n\nLet `U₀` be a smooth separated curve of finite type over `k₀ = 𝔽_q` and `F` a lisse Weil\nsheaf on `U₀`, with local generic fibre `V`. There is a Frobenius-equivariant isomorphism\n`H_c²(U, F) ≃ V_{π₁(U)}(-1)`, where the geometric coinvariants `V_{π₁(U)} = Γ(U, F^∨)^∨` carry the\nFrobenius induced by the Weil structure and the Tate twist `(-1)` multiplies it by `q`.",
    "deps":
    ["Algebra.IndEtale",
     "Algebra.IndEtale.weaklyEtale",
@@ -667159,17 +667158,17 @@
     "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"],
    "status": "proved",
    "signature":
-   "theorem AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two.{u} {k₀ : Type u}\n  [Field k₀] [Finite k₀] {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsSeparated (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.LocallyOfFiniteType (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.QuasiCompact (U ↘ AlgebraicGeometry.Spec ↧k₀)] [AlgebraicGeometry.IsAffine U]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.GeometricallyConnected (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  (ι : PadicAlgCl l →+* ℂ) (F : AlgebraicGeometry.WeilSheaf k₀ l U) (hF : F.IsLisse) {w : ℝ}\n  (hw : AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight ι F w) :\n  FrobeniusModule.IsPureOfWeightOver k₀ ι (F.compactlySupportedCohomology 2) (w + 2)",
+   "theorem AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_compactlySupportedCohomology_two.{u} {k₀ : Type u}\n  [Field k₀] [Finite k₀] {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsSeparated (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.LocallyOfFiniteType (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.QuasiCompact (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (U ↘ AlgebraicGeometry.Spec ↧k₀)]\n  (ι : PadicAlgCl l →+* ℂ) (F : AlgebraicGeometry.WeilSheaf k₀ l U) (hF : F.IsLisse) {w : ℝ}\n  (hw : AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight ι F w) :\n  FrobeniusModule.IsPureOfWeightOver k₀ ι (F.compactlySupportedCohomology 2) (w + 2)",
    "range":
-   {"startLine": 72,
+   {"startLine": 71,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/WeilSheaf/CurveTopCohomology.lean",
-    "endLine": 89},
+    "endLine": 87},
    "module": "WeilConjectures.WeilSheaf.CurveTopCohomology",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-degree-zero-top-cohomology--7`: Purity of `H_c²` on an affine curve.\n\nLet `U₀` be a smooth geometrically connected affine curve and `F` a lisse Weil sheaf on `U₀`,\npunctually `ι`-pure of weight `w`. Then `H_c²(U, F)` is `ι`-pure of weight `w + 2` (possibly\nzero): it is the Tate twist `(-1)` of the geometric coinvariants\n(`AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two`), which are pure\nof weight `w` (`AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_geometricCoinvariants`), and the\ntwist `(-1)` raises weights by two.",
+   "Blueprint `lemma-degree-zero-top-cohomology--7`: Purity of `H_c²` on a smooth curve.\n\nLet `U₀` be a smooth separated curve of finite type over `k₀` and `F` a lisse Weil sheaf on `U₀`,\npunctually `ι`-pure of weight `w`. Then `H_c²(U, F)` is `ι`-pure of weight `w + 2` (possibly\nzero): it is the Tate twist `(-1)` of the geometric coinvariants\n(`AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two`), which are pure\nof weight `w` (`AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_geometricCoinvariants`), and the\ntwist `(-1)` raises weights by two.",
    "deps":
    ["Algebra.IndEtale",
     "Algebra.IndEtale.weaklyEtale",
@@ -669957,10 +669956,10 @@
    "signature":
    "theorem AlgebraicGeometry.WeilSheaf.hasWeightsAtMost_directImage.{u} {k₀ : Type u} [Field k₀] [Finite k₀]\n  {l : ℕ} [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)] {C : AlgebraicGeometry.Scheme}\n  [C.Over (AlgebraicGeometry.Spec ↧k₀)] [AlgebraicGeometry.IsAffine C]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.GeometricallyConnected (C ↘ AlgebraicGeometry.Spec ↧k₀)]\n  {U : AlgebraicGeometry.Scheme} [U.Over (AlgebraicGeometry.Spec ↧k₀)] (j : U ⟶ C)\n  [AlgebraicGeometry.IsOpenImmersion j] [AlgebraicGeometry.QuasiCompact j]\n  [AlgebraicGeometry.Scheme.Hom.IsOver j (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsDominant j] (ι : PadicAlgCl l →+* ℂ) {F : AlgebraicGeometry.WeilSheaf k₀ l U}\n  (hF : F.IsLisse) {β : ℝ} (hw : AlgebraicGeometry.WeilSheaf.HasWeightsAtMost ι F β) :\n  AlgebraicGeometry.WeilSheaf.HasWeightsAtMost ι ((AlgebraicGeometry.WeilSheaf.directImage j).obj F)\n    β",
    "range":
-   {"startLine": 405,
+   {"startLine": 422,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/EtaleCohomology/Purity/RealSheaves/SheafSemicontinuity.lean",
-    "endLine": 462},
+    "endLine": 479},
    "module":
    "WeilConjectures.EtaleCohomology.Purity.RealSheaves.SheafSemicontinuity",
    "kind": "theorem",
@@ -670404,10 +670403,10 @@
    "signature":
    "theorem AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant.{u}\n  (k₀ : Type u) [Field k₀] [Finite k₀] (l : ℕ) [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)]\n  (X : AlgebraicGeometry.Scheme) [X.Over (AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.IsSeparated (X ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.LocallyOfFiniteType (X ↘ AlgebraicGeometry.Spec ↧k₀)]\n  [AlgebraicGeometry.QuasiCompact (X ↘ AlgebraicGeometry.Spec ↧k₀)] (ι : PadicAlgCl l →+* ℂ)\n  (i : ℤ) :\n  FrobeniusModule.HasWeightsAtMostOver k₀ ι\n    ((AlgebraicGeometry.WeilSheaf.adicConstant k₀ l X).compactlySupportedCohomology i) ↑i",
    "range":
-   {"startLine": 136,
+   {"startLine": 131,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/ZetaFunction/Weights.lean",
-    "endLine": 146},
+    "endLine": 141},
    "module": "WeilConjectures.ZetaFunction.Weights",
    "kind": "theorem",
    "exists": true,
@@ -686867,18 +686866,18 @@
     "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"],
    "status": "proved",
    "signature":
-   "theorem AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_compactlySupportedCohomology_two.{u}\n  {K : Type u} [Field K] [Finite K] {C : AlgebraicGeometry.Scheme}\n  [C.Over (AlgebraicGeometry.Spec ↧K)] [AlgebraicGeometry.IsCurve (C ↘ AlgebraicGeometry.Spec ↧K)]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec ↧K)]\n  [AlgebraicGeometry.GeometricallyConnected (C ↘ AlgebraicGeometry.Spec ↧K)]\n  (W : AlgebraicGeometry.WeilGroup (C ↘ AlgebraicGeometry.Spec ↧K)) (l : ℕ) [Fact (Nat.Prime l)]\n  [Fact (ringChar K ≠ l)] [AlgebraicGeometry.IsAffine C] :\n  ∃ e,\n    (∀ (F : CategoryTheory.ObjectProperty.FullSubcategory fun F => F.IsLisse) (x : ↑C.finitePoints),\n        ∃ f,\n          ∀ (v : (F.obj.stalk x).carrier),\n            f ((F.obj.stalk x).frobenius v) = ((e.functor.obj F).obj.ρ (W.frobenius x)) (f v)) ∧\n      ∀ (F : CategoryTheory.ObjectProperty.FullSubcategory fun F => F.IsLisse),\n        ∃ f,\n          ∀ (v : (F.obj.compactlySupportedCohomology 2).carrier),\n            f ((F.obj.compactlySupportedCohomology 2).frobenius v) =\n              (W.compactTopFrobenius l (e.functor.obj F).obj.ρ) (f v)",
+   "theorem AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_compactlySupportedCohomology_two.{u}\n  {K : Type u} [Field K] [Finite K] {C : AlgebraicGeometry.Scheme}\n  [C.Over (AlgebraicGeometry.Spec ↧K)] [AlgebraicGeometry.IsCurve (C ↘ AlgebraicGeometry.Spec ↧K)]\n  [AlgebraicGeometry.SmoothOfRelativeDimension 1 (C ↘ AlgebraicGeometry.Spec ↧K)]\n  [AlgebraicGeometry.GeometricallyConnected (C ↘ AlgebraicGeometry.Spec ↧K)]\n  (W : AlgebraicGeometry.WeilGroup (C ↘ AlgebraicGeometry.Spec ↧K)) (l : ℕ) [Fact (Nat.Prime l)]\n  [Fact (ringChar K ≠ l)] :\n  ∃ e,\n    (∀ (F : CategoryTheory.ObjectProperty.FullSubcategory fun F => F.IsLisse) (x : ↑C.finitePoints),\n        ∃ f,\n          ∀ (v : (F.obj.stalk x).carrier),\n            f ((F.obj.stalk x).frobenius v) = ((e.functor.obj F).obj.ρ (W.frobenius x)) (f v)) ∧\n      ∀ (F : CategoryTheory.ObjectProperty.FullSubcategory fun F => F.IsLisse),\n        ∃ f,\n          ∀ (v : (F.obj.compactlySupportedCohomology 2).carrier),\n            f ((F.obj.compactlySupportedCohomology 2).frobenius v) =\n              (W.compactTopFrobenius l (e.functor.obj F).obj.ρ) (f v)",
    "range":
-   {"startLine": 207,
+   {"startLine": 205,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/EtaleCohomology/Purity/RealSheaves/SheafCoinvariants.lean",
-    "endLine": 238},
+    "endLine": 236},
    "module":
    "WeilConjectures.EtaleCohomology.Purity.RealSheaves.SheafCoinvariants",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-degree-zero-top-cohomology--2`: Description of `H_c²` on an affine curve.\n\nLet `C₀` be a smooth geometrically connected affine curve and `ℱ` a lisse Weil sheaf on `C₀` with\nWeil fundamental representation `(V, ρ)` (the lisse sheaf–representation equivalence\n`AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse`). Then\n`H_c² (C, ℱ) ≅ V_{π₁(C)} (-1)` Frobenius-equivariantly: the geometric Frobenius on `H_c²`\nbecomes `q` times the endomorphism of the coinvariants induced by the degree-one lift `γ`, that\nis `AlgebraicGeometry.WeilGroup.compactTopFrobenius`.\n\nThis is `AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two`, which\nidentifies `H_c²` with the Tate twist `(-1)` of the geometric coinvariants, combined with the\ndescription of the geometric coinvariants as `V_{π₁(C)}`\n(`AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_geometricCoinvariants`).",
+   "Blueprint `lemma-degree-zero-top-cohomology--2`: Description of `H_c²` on a smooth curve.\n\nLet `C₀` be a smooth geometrically connected curve and `ℱ` a lisse Weil sheaf on `C₀` with\nWeil fundamental representation `(V, ρ)` (the lisse sheaf–representation equivalence\n`AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse`). Then\n`H_c² (C, ℱ) ≅ V_{π₁(C)} (-1)` Frobenius-equivariantly: the geometric Frobenius on `H_c²`\nbecomes `q` times the endomorphism of the coinvariants induced by the degree-one lift `γ`, that\nis `AlgebraicGeometry.WeilGroup.compactTopFrobenius`.\n\nThis is `AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two`, which\nidentifies `H_c²` with the Tate twist `(-1)` of the geometric coinvariants, combined with the\ndescription of the geometric coinvariants as `V_{π₁(C)}`\n(`AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_geometricCoinvariants`).",
    "deps":
    ["Algebra.IndEtale",
     "Algebra.IndEtale.weaklyEtale",
@@ -713864,10 +713863,10 @@
    "signature":
    "def AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι.{u} {X Y : AlgebraicGeometry.Scheme}\n  (I : X.IdealSheafData) (f : Y ⟶ X) :\n  I.strictTransform f ⟶ CategoryTheory.Limits.pullback f I.blowupMap",
    "range":
-   {"startLine": 431,
+   {"startLine": 421,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictTransform.lean",
-    "endLine": 433},
+    "endLine": 423},
    "module": "WeilConjectures.Compactification.StrictTransform",
    "kind": "definition",
    "exists": true,
@@ -713889,15 +713888,15 @@
    "signature":
    "def AlgebraicGeometry.Scheme.IdealSheafData.strictTransform.{u} {X Y : AlgebraicGeometry.Scheme}\n  (I : X.IdealSheafData) (f : Y ⟶ X) : AlgebraicGeometry.Scheme",
    "range":
-   {"startLine": 425,
+   {"startLine": 416,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictTransform.lean",
-    "endLine": 429},
+    "endLine": 419},
    "module": "WeilConjectures.Compactification.StrictTransform",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The strict transform of `f : Y ⟶ X` along the blow-up of the ideal sheaf `I`,\npreserving the complement of the support of `I`.\n(Blueprint: `def:nagata-strict-transform`.)",
+   "The strict transform of `f : Y ⟶ X` along the blow-up of the ideal sheaf `I`,\npreserving the complement of the support of `I`.",
    "deps":
    ["AlgebraicGeometry.Scheme.IdealSheafData.blowup",
     "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap",
@@ -720398,15 +720397,15 @@
    "signature":
    "def AlgebraicGeometry.ProEtale.localizingClosureProEtale.{u}\n  (Λ : CategoryTheory.Sheaf (CategoryTheory.coherentTopology Profinite) Ab)\n  [CategoryTheory.MonObj Λ] [CategoryTheory.IsCommMonObj Λ] (X : AlgebraicGeometry.Scheme) :\n  CategoryTheory.ObjectProperty\n    (DerivedCategory\n      (CategoryTheory.Mod (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) Ab)\n        (AlgebraicGeometry.ProEtale.condensedRingObj Λ X)))",
    "range":
-   {"startLine": 269,
+   {"startLine": 264,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/SixFunctors/LocalizingClosure.lean",
-    "endLine": 285},
+    "endLine": 276},
    "module": "WeilConjectures.CategoryTheory.SixFunctors.LocalizingClosure",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The localizing closure of bounded constructible finite-Tor complexes on a\npro-etale scheme.\n\nSource: blueprint main-20261015, sec-proetale-coefficients/sk-def-localizing-closure,\nnode definition-localizing-subcategory (blueprint: definition-localizing-subcategory).\nThe coefficient ring is the condensed ring `Λ`; `condensedRingObj Λ X` is its\npullback `Λ_X`, and `ConstantModelConstructibleFiniteTor Λ X` is `Dctf(X, Λ)`.\nThe localizing closure is the intersection defining the smallest full replete\ntriangulated subcategory closed under all ambient coproducts; no completeness\ncondition is imposed.",
+   "The localizing closure of bounded constructible finite-Tor complexes on a\npro-etale scheme.\n\nThe coefficient ring is the condensed ring `Λ`; `condensedRingObj Λ X` is its\npullback `Λ_X`, and `ConstantModelConstructibleFiniteTor Λ X` is `Dctf(X, Λ)`.\nThe localizing closure is the smallest full replete triangulated subcategory closed under all\nambient coproducts.",
    "deps":
    ["Algebra.WeaklyEtale",
     "AlgebraicGeometry.ProEtale.constantModelBoundedConstructible",
@@ -725993,16 +725992,16 @@
    "signature":
    "theorem AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian.{u, v} (X : AlgebraicGeometry.Scheme)\n  [CompactSpace ↥X] [QuasiSeparatedSpace ↥X] (A : Type (max v (u + 1))) [CommRing A]\n  [IsNoetherianRing A] :\n  ∃ D,\n    Nonempty\n        ((CategoryTheory.ConstantCompletion.Q\n                (CategoryTheory.ConstantCompletion.constant X.smallModelComparisonEtaleTopology\n                  A)).comp\n            D ≅\n          (AlgebraicGeometry.ProEtale.constructibleComparisonComplexPullback X A).comp\n            (CategoryTheory.ConstantCompletion.Q\n              (CategoryTheory.ConstantCompletion.constant X.coefficientProEtaleModelTopology A))) ∧\n      (∀\n          (K :\n            CategoryTheory.ConstantCompletion.D\n              (CategoryTheory.ConstantCompletion.constant X.smallModelComparisonEtaleTopology A)),\n          X.IsCoefficientBoundedConstructibleEtale A K →\n            ∀ (a b : ℤ),\n              a ≤ b →\n                (CategoryTheory.HasCoefficientModelTorAmplitude\n                    (CategoryTheory.ConstantCompletion.constant X.smallModelComparisonEtaleTopology\n                      A)\n                    K a b ↔\n                  X.HasCoefficientProEtaleTorAmplitude A (D.obj K) a b)) ∧\n        ∃ e,\n          Nonempty\n            (e.functor.comp\n                (CategoryTheory.ObjectProperty.ι fun K =>\n                  AlgebraicGeometry.ProEtale.coefficientBoundedConstructibleProEtale X A K ∧\n                    X.HasFiniteCoefficientProEtaleTorAmplitude A K) ≅\n              (CategoryTheory.ObjectProperty.ι fun K =>\n                    X.IsCoefficientBoundedConstructibleEtale A K ∧\n                      ∃ a b,\n                        CategoryTheory.HasCoefficientModelTorAmplitude\n                          (CategoryTheory.ConstantCompletion.constant\n                            X.smallModelComparisonEtaleTopology A)\n                          K a b).comp\n                D)",
    "range":
-   {"startLine": 91,
+   {"startLine": 108,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/ProEtaleFiniteTorComparisonNoetherian.lean",
-    "endLine": 205},
+    "endLine": 193},
    "module":
    "WeilConjectures.AlgebraicGeometry.ProEtaleFiniteTorComparisonNoetherian",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Comparison preserves and reflects the exact Tor interval for bounded constructible\ncomplexes over a discrete Noetherian ring and restricts to the finite-Tor equivalence.\nThe first natural isomorphism characterizes the derived comparison by its action on all\ncomplexes; the final one identifies the forward restricted equivalence with that functor.\n\nmd;\nStacks Tags 05VD, 07A4, 06YQ, 08G0 and 08G1\n(blueprint: corollary-finite-tor-amplitude-under-comparison--1).\n\nProof:\n1. Obtain the canonical derived comparison D, its factorization on every cochain\n   complex, and its bounded constructible equivalence from constructibleComparison.\n2. The proved coefficientModelTorAmplitude_iff_flatModel identifies each Tor interval\n   with a representative supported in exactly that interval and flat in every degree.\n   This uses the source library's native bounded flat-model theorem, with explicit\n   bridges for the coefficient-model tensor test and K-flat predicate.\n3. The canonical comparison pulls flat sheaves to flat sheaves by\n   constructibleComparisonPullback_flat. Termwise application preserves zero terms,\n   so the pulled-back bounded flat model has the same interval. The localization\n   factorization identifies it with D(K), proving preservation of every Tor bound.\n4. For reflection choose a flat-term K-flat representative P' of K. The supplied\n   ringed-topos theorem, transported by uniqueness of left adjoints, shows its\n   termwise comparison pullback is K-flat. Test the Tor bound on D(K) against the\n   pullback of an arbitrary etale module M.\n5. constructibleComparisonTensorTest_reflects_zero identifies the ordinary tensor\n   test after inverse image and reflects vanishing of its homology. For an arbitrary\n   K-flat representative P of K, coefficientModelTensorTest_iso transfers vanishing\n   from P' to P. This proves the reverse implication with the same interval.\n6. Isomorphism invariance of the coefficient-model Tor predicate follows by composing\n   representative isomorphisms. Restrict the bounded constructible equivalence to\n   objects with some finite Tor interval. The full subcategories retain all morphisms;\n   the reflected interval supplies essential surjectivity and the forward functor\n   retains the prescribed natural comparison with D.",
+   "Comparison preserves and reflects the exact Tor interval for bounded constructible\ncomplexes over a discrete Noetherian ring and restricts to the finite-Tor equivalence.\nThe first natural isomorphism characterizes the derived comparison by its action on all\ncomplexes; the final one identifies the forward restricted equivalence with that functor.",
    "deps":
    ["Algebra.IndEtale",
     "AlgebraicGeometry.ProEtale.AffinePresentation",
@@ -734765,16 +734764,16 @@
    "signature":
    "def AlgebraicGeometry.ProEtale.IsClassicalModuleSheaf.{u} {X : AlgebraicGeometry.Scheme}\n  {R : CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) RingCat}\n  (F : SheafOfModules R) : Prop",
    "range":
-   {"startLine": 29,
+   {"startLine": 26,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Integral/ClassicalModuleDefinition.lean",
-    "endLine": 37},
+    "endLine": 33},
    "module":
    "WeilConjectures.CategoryTheory.Integral.ClassicalModuleDefinition",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A module sheaf is classical when its underlying sheaf of sets is classical in the\ncontinuity-map sense. Source: blueprint `definition-classical-pro-etale-sheaves`, final module\nclause (blueprint: definition-classical-pro-etale-sheaves).",
+   "A module sheaf is classical when its underlying sheaf of sets is classical in the\ncontinuity-map sense.",
    "deps":
    ["AlgebraicGeometry.ProEtale.IsClassical",
     "AlgebraicGeometry.Scheme.ProEt",
@@ -734823,16 +734822,16 @@
    "signature":
    "def AlgebraicGeometry.ProEtale.IsClassicalModuleComplex.{u, u_1} {X : AlgebraicGeometry.Scheme}\n  {R : CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X) RingCat}\n  [HasDerivedCategory (SheafOfModules R)] (K : DerivedCategory (SheafOfModules R)) : Prop",
    "range":
-   {"startLine": 39,
+   {"startLine": 35,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/CategoryTheory/Integral/ClassicalModuleDefinition.lean",
-    "endLine": 48},
+    "endLine": 42},
    "module":
    "WeilConjectures.CategoryTheory.Integral.ClassicalModuleDefinition",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A complex of module sheaves is classical when every cohomology sheaf is classical.\nSource: blueprint `definition-classical-pro-etale-sheaves`, final complex clause\n(blueprint: definition-classical-pro-etale-sheaves).",
+   "A complex of module sheaves is classical when every cohomology sheaf is classical.",
    "deps":
    ["AlgebraicGeometry.ProEtale.IsClassicalModuleSheaf",
     "AlgebraicGeometry.Scheme.ProEt",
@@ -736575,17 +736574,26 @@
     "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDual",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDualIsoOfExactPairing",
+    "AlgebraicGeometry.Etale.baseChange",
     "AlgebraicGeometry.Etale.baseChangeMap",
+    "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor",
-    "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite",
+    "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek",
     "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel",
+    "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine",
+    "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology",
+    "AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_of_isProper_of_isAddTorsion_ring",
     "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
     "AlgebraicGeometry.Etale.preservesFiniteLimits_lowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso",
+    "AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion",
     "AlgebraicGeometry.Etale.rightDerivedUpperShriekOfCompactification",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
+    "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
     "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map",
     "AlgebraicGeometry.ProEtale.comparisonAdjunction",
     "AlgebraicGeometry.ProEtale.comparisonLowerStar",
@@ -736607,12 +736615,16 @@
     "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
     "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite",
+    "AlgebraicGeometry.Scheme.Hom.image",
+    "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
     "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
+    "AlgebraicGeometry.Scheme.etaleCohomology_isColimit_of_isFiltered",
+    "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
     "AlgebraicGeometry.Scheme.toProEt",
     "AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage",
@@ -736626,6 +736638,8 @@
     "AlgebraicGeometry.proAffineEtale_Spec_iff",
     "CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit",
+    "CategoryTheory.Functor.RepresentableBy",
+    "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "DerivedCategory.finiteTorAmplitude",
     "DerivedCategory.nonempty_exactPairing_Q_obj_rightDual",
     "DerivedCategory.torAmplitudeIn",
@@ -736662,17 +736676,26 @@
     "AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDual",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDualIsoOfExactPairing",
+    "AlgebraicGeometry.Etale.baseChange",
     "AlgebraicGeometry.Etale.baseChangeMap",
+    "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor",
-    "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite",
+    "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek",
     "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel",
+    "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine",
+    "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology",
+    "AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_of_isProper_of_isAddTorsion_ring",
     "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
     "AlgebraicGeometry.Etale.preservesFiniteLimits_lowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso",
+    "AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion",
     "AlgebraicGeometry.Etale.rightDerivedUpperShriekOfCompactification",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
+    "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
     "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map",
     "AlgebraicGeometry.ProEtale.comparisonAdjunction",
     "AlgebraicGeometry.ProEtale.comparisonLowerStar",
@@ -736694,12 +736717,16 @@
     "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
     "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite",
+    "AlgebraicGeometry.Scheme.Hom.image",
+    "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
     "AlgebraicGeometry.Scheme.ProEt",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
     "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
     "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
+    "AlgebraicGeometry.Scheme.etaleCohomology_isColimit_of_isFiltered",
+    "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
     "AlgebraicGeometry.Scheme.toProEt",
     "AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage",
@@ -736713,6 +736740,8 @@
     "AlgebraicGeometry.proAffineEtale_Spec_iff",
     "CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit",
+    "CategoryTheory.Functor.RepresentableBy",
+    "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "DerivedCategory.finiteTorAmplitude",
     "DerivedCategory.nonempty_exactPairing_Q_obj_rightDual",
     "DerivedCategory.torAmplitudeIn",
@@ -748740,117 +748769,23 @@
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMorphism_boundedConstructible_padicAlgCl":
   {"valueDeps":
-   ["Algebra.IndEtale",
-    "Algebra.IndEtale.weaklyEtale",
-    "Algebra.WeaklyEtale",
-    "Algebra.WeaklyEtale.exists_indEtale",
-    "AlgebraicGeometry.Compactification",
-    "AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructibleUpperStarLowerStarAdjunction",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructible_rightDerivedLowerStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj_of_scheme",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedExtendScalarsTensorIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIsoCompCoherence",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicIntegers",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicIntegers_of_isGE",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicSubfieldRingObjToPadicAlgCl_of_isGE",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedUpperStarExtendScalarsPushHom_residueField_app",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_padicIntegersRingObj_of_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.projectionMap",
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_properProjectionMap_boundedConstructible_rational",
     "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
-    "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_residueField",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian",
-    "AlgebraicGeometry.ProEtale.comparisonAdjunction",
-    "AlgebraicGeometry.ProEtale.comparisonLowerStar",
-    "AlgebraicGeometry.ProEtale.comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.constructibleCocone",
-    "AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj",
-    "AlgebraicGeometry.ProEtale.derivedBaseChangeMap",
-    "AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp",
-    "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.full_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone",
-    "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom",
-    "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper",
-    "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app",
-    "AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars",
-    "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
-    "AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp",
     "AlgebraicGeometry.ProEtale.lowerStar",
-    "AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso",
-    "AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso",
-    "AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso",
-    "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.preservesHomology_upperStar",
     "AlgebraicGeometry.ProEtale.upperStar",
-    "AlgebraicGeometry.ProEtale.upperStarFromPointComp",
-    "AlgebraicGeometry.QuasiCompactCover",
-    "AlgebraicGeometry.Scheme.AffineProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.instFaithfulProEtToProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.instFullProEtToProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.isEquivalence_sheafPushforwardContinuous_toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.ProEt",
-    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
-    "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology",
-    "AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
-    "AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage",
-    "AlgebraicGeometry.Scheme.proEtale_lisse_origin",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
-    "AlgebraicGeometry.Scheme.toProEt",
-    "AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage",
     "AlgebraicGeometry.WeaklyEtale",
-    "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty",
     "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
     "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
-    "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtSource",
     "AlgebraicGeometry.WeaklyEtale.of_comp",
-    "AlgebraicGeometry.proAffineEtale",
-    "AlgebraicGeometry.proAffineEtale.of_isAffine",
-    "AlgebraicGeometry.proAffineEtale_Spec_iff",
-    "AlgebraicGeometry.weaklyEtale_SpecMap_algebraMap_iff",
-    "CategoryTheory.GrothendieckTopology.IsWeaklyContractible",
-    "DerivedCategory.isLimitFanMkQObj",
-    "DerivedCategory.shortExact_milnor_of_isHomotopyLimit",
-    "IsWContractibleRing",
-    "IsWContractibleRing.exists_retraction",
     "LocallyConstant.homeomorphPrimeSpectrum",
-    "Profinite.continuousMapRingSheaf",
-    "RingHom.IndEtale",
-    "RingHom.IndEtale.comp",
-    "RingHom.IndEtale.isStableUnderBaseChange",
-    "RingHom.IndEtale.weaklyEtale",
-    "RingHom.WeaklyEtale",
-    "RingHom.WeaklyEtale.exists_indEtale_comp",
-    "exists_isWContractibleRing",
-    "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"],
+    "Profinite.continuousMapRingSheaf"],
    "typeDeps":
    ["Algebra.WeaklyEtale",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isMonoidal_boundedConstructible",
     "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
     "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom",
     "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
@@ -748870,124 +748805,39 @@
     "LocallyConstant.homeomorphPrimeSpectrum"],
    "status": "proved",
    "signature":
-   "theorem AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMorphism_boundedConstructible_padicAlgCl.{u}\n  (ℓ : ℕ) [Fact (Nat.Prime ℓ)] {k : Type u} [Field k] [Fact (Nat.Prime (ringChar k))]\n  [Fact (ringChar k ≠ ℓ)] {X Y : CategoryTheory.Over (AlgebraicGeometry.Spec ↧k)}\n  [AlgebraicGeometry.LocallyOfFiniteType X.hom] [AlgebraicGeometry.QuasiCompact X.hom]\n  [AlgebraicGeometry.IsSeparated X.hom] [AlgebraicGeometry.LocallyOfFiniteType Y.hom]\n  [AlgebraicGeometry.QuasiCompact Y.hom] [AlgebraicGeometry.IsSeparated Y.hom] (p : X ⟶ Y)\n  [AlgebraicGeometry.IsProper (CategoryTheory.Over.Hom.left p)]\n  (A :\n    AlgebraicGeometry.ProEtale.BoundedConstructible\n      (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) X.left))\n  (B :\n    AlgebraicGeometry.ProEtale.BoundedConstructible\n      (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) Y.left)) :\n  CategoryTheory.IsIso\n    ((AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction ℓ\n          p).projectionMorphism\n      A B)",
+   "theorem AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMorphism_boundedConstructible_padicAlgCl.{u}\n  (ℓ : ℕ) [Fact (Nat.Prime ℓ)] {k : Type u} [Field k] [Fact (Nat.Prime (ringChar k))]\n  [Fact (ringChar k ≠ ℓ)] {X Y : CategoryTheory.Over (AlgebraicGeometry.Spec ↧k)}\n  [AlgebraicGeometry.LocallyOfFiniteType X.hom] [AlgebraicGeometry.QuasiCompact X.hom]\n  [AlgebraicGeometry.IsSeparated X.hom] [AlgebraicGeometry.LocallyOfFiniteType Y.hom]\n  [AlgebraicGeometry.QuasiCompact Y.hom] [AlgebraicGeometry.IsSeparated Y.hom] (p : X ⟶ Y)\n  [AlgebraicGeometry.IsProper (CategoryTheory.Over.Hom.left p)]\n  (A :\n    DerivedCategory\n      (CategoryTheory.Mod (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology X.left) Ab)\n        (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) X.left)))\n  (B :\n    DerivedCategory\n      (CategoryTheory.Mod (CategoryTheory.Sheaf (AlgebraicGeometry.Scheme.ProEt.topology Y.left) Ab)\n        (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) Y.left)))\n  (hA :\n    AlgebraicGeometry.ProEtale.boundedConstructible\n      (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) X.left) A)\n  (hB :\n    AlgebraicGeometry.ProEtale.boundedConstructible\n      (AlgebraicGeometry.ProEtale.condensedRingObj (Profinite.padicAlgClRingObj ℓ) Y.left) B) :\n  CategoryTheory.IsIso\n    (AlgebraicGeometry.ProEtale.CondensedRing.moduleObjectProjectionMap\n      (Profinite.padicAlgClRingObj ℓ) (CategoryTheory.Over.Hom.left p) A B)",
    "range":
-   {"startLine": 49,
+   {"startLine": 45,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/SixFunctors/ProEtale/ModuleObject/Derived/ProperProjectionFormula.lean",
-    "endLine": 71},
+    "endLine": 55},
    "module":
    "WeilConjectures.SixFunctors.ProEtale.ModuleObject.Derived.ProperProjectionFormula",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**The projection formula for proper morphisms** on bounded constructible `ℚ̄_ℓ`-sheaves: for\n`p` proper, the projection morphism `Rp_* A ⊗ᴸ B ⟶ Rp_* (A ⊗ᴸ Lp^* B)` of `Lp^* ⊣ Rp_*` is an\nisomorphism.",
+   "For a proper morphism, the projection morphism on the ambient derived category is an\nisomorphism at bounded constructible `ℚ̄_ℓ`-complexes.",
    "deps":
-   ["Algebra.IndEtale",
-    "Algebra.IndEtale.weaklyEtale",
-    "Algebra.WeaklyEtale",
-    "Algebra.WeaklyEtale.exists_indEtale",
-    "AlgebraicGeometry.Compactification",
-    "AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructibleUpperStarLowerStarAdjunction",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.boundedConstructible_rightDerivedLowerStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj_of_scheme",
-    "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedExtendScalarsTensorIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIsoCompCoherence",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIso",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsIsoCompCoherence",
-    "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarExtendScalarsPushHom",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicIntegers",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicIntegers_of_isGE",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_app_padicSubfieldRingObjToPadicAlgCl_of_isGE",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedUpperStarExtendScalarsPushHom_residueField_app",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_padicIntegersRingObj_of_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.isMonoidal_boundedConstructible",
-    "AlgebraicGeometry.ProEtale.CondensedRing.projectionMap",
+   ["Algebra.WeaklyEtale",
+    "AlgebraicGeometry.ProEtale.CondensedRing.isIso_properProjectionMap_boundedConstructible_rational",
     "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented",
-    "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_residueField",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedExtendScalars_obj",
-    "AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar_of_isProper_of_isNoetherian",
-    "AlgebraicGeometry.ProEtale.comparisonAdjunction",
-    "AlgebraicGeometry.ProEtale.comparisonLowerStar",
-    "AlgebraicGeometry.ProEtale.comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.constructibleCocone",
-    "AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj",
-    "AlgebraicGeometry.ProEtale.derivedBaseChangeMap",
-    "AlgebraicGeometry.ProEtale.exists_finiteFree_cover_of_condensedField_lfp",
-    "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.full_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone",
     "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom",
-    "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper",
-    "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app",
-    "AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars",
     "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom",
-    "AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp",
     "AlgebraicGeometry.ProEtale.lowerStar",
-    "AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso",
-    "AlgebraicGeometry.ProEtale.mapDerivedCategoryOpenImmersionLowerShriekComparisonUpperStarIso",
-    "AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso",
-    "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar",
-    "AlgebraicGeometry.ProEtale.preservesHomology_upperStar",
     "AlgebraicGeometry.ProEtale.upperStar",
     "AlgebraicGeometry.ProEtale.upperStarFromPointComp",
     "AlgebraicGeometry.QuasiCompactCover",
-    "AlgebraicGeometry.Scheme.AffineProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.instFaithfulProEtToProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.instFullProEtToProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.isEquivalence_sheafPushforwardContinuous_toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.toProEt",
-    "AlgebraicGeometry.Scheme.AffineProEt.topology",
     "AlgebraicGeometry.Scheme.ProEt",
-    "AlgebraicGeometry.Scheme.ProEt.instHasSheafifyTopologyAb_weilConjectures",
-    "AlgebraicGeometry.Scheme.ProEt.instSubcanonicalTopology",
-    "AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso",
     "AlgebraicGeometry.Scheme.ProEt.precoverage",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageHasIsos",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderBaseChange",
-    "AlgebraicGeometry.Scheme.ProEt.precoverageStableUnderComposition",
     "AlgebraicGeometry.Scheme.ProEt.topology",
-    "AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage",
-    "AlgebraicGeometry.Scheme.proEtale_lisse_origin",
     "AlgebraicGeometry.Scheme.proetalePrecoverage",
-    "AlgebraicGeometry.Scheme.toProEt",
-    "AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage",
     "AlgebraicGeometry.WeaklyEtale",
-    "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty",
     "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
     "AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
     "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtSource",
     "AlgebraicGeometry.WeaklyEtale.of_comp",
-    "AlgebraicGeometry.proAffineEtale",
-    "AlgebraicGeometry.proAffineEtale.of_isAffine",
-    "AlgebraicGeometry.proAffineEtale_Spec_iff",
-    "AlgebraicGeometry.weaklyEtale_SpecMap_algebraMap_iff",
-    "CategoryTheory.GrothendieckTopology.IsWeaklyContractible",
-    "DerivedCategory.isLimitFanMkQObj",
-    "DerivedCategory.shortExact_milnor_of_isHomotopyLimit",
-    "IsWContractibleRing",
-    "IsWContractibleRing.exists_retraction",
     "LocallyConstant.homeomorphPrimeSpectrum",
-    "Profinite.continuousMapRingSheaf",
-    "RingHom.IndEtale",
-    "RingHom.IndEtale.comp",
-    "RingHom.IndEtale.isStableUnderBaseChange",
-    "RingHom.IndEtale.weaklyEtale",
-    "RingHom.WeaklyEtale",
-    "RingHom.WeaklyEtale.exists_indEtale_comp",
-    "exists_isWContractibleRing",
-    "instTotallySeparatedSpaceOfExtremallyDisconnectedOfT2Space"],
+    "Profinite.continuousMapRingSheaf"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.ProEtale.CondensedRing.isIso_projectionMap_padicIntegersRingObj_of_boundedConstructible":
   {"valueDeps":
@@ -794088,10 +793938,10 @@
    "signature":
    "theorem AlgebraicGeometry.IsAbelianVariety.isCommMonObj.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] : CategoryTheory.IsCommMonObj A",
    "range":
-   {"startLine": 79,
+   {"startLine": 80,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 92},
+    "endLine": 93},
    "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
    "kind": "theorem",
    "exists": true,
@@ -794126,10 +793976,10 @@
    "signature":
    "theorem AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral.{u} {K : Type u} [Field K]\n  (G : CategoryTheory.Over (AlgebraicGeometry.Spec ↧K)) [CategoryTheory.GrpObj G]\n  [AlgebraicGeometry.IsAbelianVariety G] : AlgebraicGeometry.GeometricallyIntegral G.hom",
    "range":
-   {"startLine": 50,
+   {"startLine": 51,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 66},
+    "endLine": 67},
    "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
    "kind": "theorem",
    "exists": true,
@@ -796132,15 +795982,15 @@
    "signature":
    "theorem AlgebraicGeometry.HasCompactification.of_two_open_cover.{u} {U S : AlgebraicGeometry.Scheme}\n  [AlgebraicGeometry.IsNoetherian S] (u : U ⟶ S) [AlgebraicGeometry.IsSeparated u]\n  [AlgebraicGeometry.LocallyOfFiniteType u] [AlgebraicGeometry.QuasiCompact u] (O₁ O₂ : U.Opens)\n  (hcov : O₁ ⊔ O₂ = ⊤) (hdense : Dense ↑(O₁ ⊓ O₂))\n  [AlgebraicGeometry.HasCompactification (CategoryTheory.CategoryStruct.comp O₁.ι u)]\n  [AlgebraicGeometry.HasCompactification (CategoryTheory.CategoryStruct.comp O₂.ι u)] :\n  AlgebraicGeometry.HasCompactification u",
    "range":
-   {"startLine": 655,
+   {"startLine": 615,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/TwoOpen.lean",
-    "endLine": 668},
+    "endLine": 626},
    "module": "WeilConjectures.Compactification.TwoOpen",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**The two-open compactification theorem** (Stacks Project Tag 0F40; blueprint:\n`proposition-compactifying-union-two-opens`, `proposition-compactifying-union-two-opens--1`; proof\norder items 43–48).\n\nThe compactification is the final common modification `W` (Stacks Project Tag 0F3X) of\nthe two intermediate schemes `Wᵢ = U ⊔_{Oᵢ} Xᵢ°`\n(`TwoOpenPreparation.FinalModification.compactification`).",
+   "**The two-open compactification theorem** (Stacks Project Tag 0F40).\n\nThe compactification is the final common modification `W` (Stacks Project Tag 0F3X) of\nthe two intermediate schemes `Wᵢ = U ⊔_{Oᵢ} Xᵢ°`\n(`TwoOpenPreparation.FinalModification.compactification`).",
    "deps":
    ["AlgebraicGeometry.CommonModification",
     "AlgebraicGeometry.Compactification",
@@ -796168,15 +796018,15 @@
    "signature":
    "theorem AlgebraicGeometry.HasCompactification.of_isQuasiAffine.{u} {X S : AlgebraicGeometry.Scheme}\n  (f : X ⟶ S) [X.IsQuasiAffine] [AlgebraicGeometry.LocallyOfFiniteType f]\n  [AlgebraicGeometry.QuasiCompact f] : AlgebraicGeometry.HasCompactification f",
    "range":
-   {"startLine": 74,
+   {"startLine": 67,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/Affine.lean",
-    "endLine": 82},
+    "endLine": 74},
    "module": "WeilConjectures.Compactification.Affine",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "**A quasi-affine scheme of finite type over `S` is compactifiable over `S`**\n(blueprint: `prop:nagata-affine-compactification`).\n\nSince an affine scheme is quasi-affine, this covers the case of an affine `X` used in the\ninduction of Nagata's theorem.",
+   "**A quasi-affine scheme of finite type over `S` is compactifiable over `S`**.\n\nSince an affine scheme is quasi-affine, this covers the case of an affine `X` used in the\ninduction of Nagata's theorem.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
@@ -807794,21 +807644,37 @@
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDual",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDualIsoOfExactPairing",
+    "AlgebraicGeometry.Etale.baseChange",
+    "AlgebraicGeometry.Etale.baseChangeMap",
+    "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar_of_isProper",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor",
-    "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite",
+    "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek",
     "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel",
+    "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine",
+    "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology",
+    "AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_of_isProper_of_isAddTorsion_ring",
     "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
     "AlgebraicGeometry.Etale.preservesFiniteLimits_lowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso",
+    "AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion",
     "AlgebraicGeometry.Etale.rightDerivedUpperShriekOfCompactification",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
+    "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
+    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite",
     "AlgebraicGeometry.Scheme.Hom.image",
+    "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
+    "AlgebraicGeometry.Scheme.etaleCohomology_isColimit_of_isFiltered",
+    "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
     "CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit",
+    "CategoryTheory.Functor.RepresentableBy",
+    "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "DerivedCategory.finiteTorAmplitude",
     "DerivedCategory.nonempty_exactPairing_Q_obj_rightDual",
     "DerivedCategory.torAmplitudeIn"],
@@ -807833,21 +807699,37 @@
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDual",
     "AlgebraicGeometry.Etale.DerivedCategory.coefficientDualIsoOfExactPairing",
+    "AlgebraicGeometry.Etale.baseChange",
+    "AlgebraicGeometry.Etale.baseChangeMap",
+    "AlgebraicGeometry.Etale.bijective_edgeMap_of_isFinite",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar_of_isProper",
     "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor",
-    "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite",
+    "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus",
     "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek",
     "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel",
+    "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine",
+    "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology",
+    "AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_of_isProper_of_isAddTorsion_ring",
     "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite",
     "AlgebraicGeometry.Etale.preservesFiniteLimits_lowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar",
     "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso",
+    "AlgebraicGeometry.Etale.rightDerivedUpperShriekIsoOfIsOpenImmersion",
     "AlgebraicGeometry.Etale.rightDerivedUpperShriekOfCompactification",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le",
+    "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine",
+    "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact",
+    "AlgebraicGeometry.QuasiCompactCover",
     "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite",
     "AlgebraicGeometry.Scheme.Hom.image",
+    "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf",
+    "AlgebraicGeometry.Scheme.etaleCohomology_isColimit_of_isFiltered",
+    "AlgebraicGeometry.Scheme.isTorsionModuleSheaf_iff_isTorsion",
     "CategoryTheory.Adjunction.rightAdjointUniq",
     "CategoryTheory.Adjunction.rightAdjointUniq_hom_app_counit",
+    "CategoryTheory.Functor.RepresentableBy",
+    "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic",
     "DerivedCategory.finiteTorAmplitude",
     "DerivedCategory.nonempty_exactPairing_Q_obj_rightDual",
     "DerivedCategory.torAmplitudeIn"],
@@ -811496,15 +811378,15 @@
    "signature":
    "theorem AlgebraicGeometry.Compactification.refinement_morphisms.{u} {X Y : AlgebraicGeometry.Scheme}\n  {f : X ⟶ Y} [AlgebraicGeometry.QuasiCompact f] {c d : AlgebraicGeometry.Compactification f}\n  [AlgebraicGeometry.IsSchemeTheoreticallyDominant c.i] (h : c.Z ⟶ d.Z)\n  (hi : CategoryTheory.CategoryStruct.comp c.i h = d.i)\n  (hg : CategoryTheory.CategoryStruct.comp h d.g = c.g) :\n  AlgebraicGeometry.IsProper h ∧\n    (TopologicalSpace.Opens.map h.base).obj (AlgebraicGeometry.Scheme.Hom.opensRange d.i) =\n        AlgebraicGeometry.Scheme.Hom.opensRange c.i ∧\n      ∀ (h' : c.Z ⟶ d.Z),\n        CategoryTheory.CategoryStruct.comp c.i h' = d.i →\n          CategoryTheory.CategoryStruct.comp h' d.g = c.g → h' = h",
    "range":
-   {"startLine": 134,
+   {"startLine": 128,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictRefinement.lean",
-    "endLine": 149},
+    "endLine": 143},
    "module": "WeilConjectures.Compactification.StrictRefinement",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `proposition-dense-compactifications-form-cofiltered-category--2`: Morphisms out of a\ndense compactification.\n\nLet `c` be a dense compactification and `d` a compactification of a quasi-compact `f`, and let\n`h : c.Z ⟶ d.Z` be a morphism over `Y` with `c.i ≫ h = d.i`. Then `h` is proper,\n`h⁻¹(d.i(X)) = c.i(X)` (so `h` is a strict refinement), and `h` is the unique morphism over `Y`\nwith `c.i ≫ h = d.i`.",
+   "Morphisms out of a\ndense compactification.\n\nLet `c` be a dense compactification and `d` a compactification of a quasi-compact `f`, and let\n`h : c.Z ⟶ d.Z` be a morphism over `Y` with `c.i ≫ h = d.i`. Then `h` is proper,\n`h⁻¹(d.i(X)) = c.i(X)` (so `h` is a strict refinement), and `h` is the unique morphism over `Y`\nwith `c.i ≫ h = d.i`.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Compactification.Refinement",
@@ -811567,10 +811449,10 @@
    "signature":
    "theorem AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement.{u, u_1}\n  {X Y : AlgebraicGeometry.Scheme} {f : X ⟶ Y} [AlgebraicGeometry.QuasiCompact f]\n  [AlgebraicGeometry.HasCompactification f] {ι : Type u_1} [Finite ι]\n  (c : ι → AlgebraicGeometry.Compactification f) : ∃ e, e.IsDense ∧ ∀ (i : ι), ∃ r, r.IsStrict",
    "range":
-   {"startLine": 145,
+   {"startLine": 144,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/DenseCategory.lean",
-    "endLine": 163},
+    "endLine": 162},
    "module": "WeilConjectures.Compactification.DenseCategory",
    "kind": "theorem",
    "exists": true,
@@ -811597,15 +811479,15 @@
    "signature":
    "def AlgebraicGeometry.Compactification.Refinement.IsStrict.{u} {X Y : AlgebraicGeometry.Scheme}\n  {f : X ⟶ Y} {c d : AlgebraicGeometry.Compactification f} (r : c.Refinement d) : Prop",
    "range":
-   {"startLine": 60,
+   {"startLine": 58,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/StrictRefinement.lean",
-    "endLine": 66},
+    "endLine": 61},
    "module": "WeilConjectures.Compactification.StrictRefinement",
    "kind": "definition",
    "exists": true,
    "doc":
-   "Blueprint `definition-compactification-refinement--3`: Refinement of compactifications.\n\nA refinement `r` of `d` by `c` is *strict* if `r.hom⁻¹(d.i(X)) = c.i(X)`, i.e. the refinement\nmaps the boundary of `c` into the boundary of `d`. The refinements of the blueprint are the\nstrict refinements in this sense.",
+   "A refinement `r` of `d` by `c` is *strict* if `r.hom⁻¹(d.i(X)) = c.i(X)`, i.e. the\nrefinement maps the boundary of `c` into the boundary of `d`.",
    "deps":
    ["AlgebraicGeometry.Compactification",
     "AlgebraicGeometry.Compactification.Refinement"],
@@ -811617,10 +811499,10 @@
    "signature":
    "structure AlgebraicGeometry.Compactification.Refinement.{u} {X Y : AlgebraicGeometry.Scheme} {f : X ⟶ Y}\n  (c d : AlgebraicGeometry.Compactification f) : Type u",
    "range":
-   {"startLine": 48,
+   {"startLine": 47,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/RefinementCategory.lean",
-    "endLine": 57},
+    "endLine": 56},
    "module": "WeilConjectures.Compactification.RefinementCategory",
    "kind": "structure",
    "exists": true,
@@ -811661,10 +811543,10 @@
    "signature":
    "def AlgebraicGeometry.Compactification.IsDense.{u} {X Y : AlgebraicGeometry.Scheme} {f : X ⟶ Y}\n  (c : AlgebraicGeometry.Compactification f) : Prop",
    "range":
-   {"startLine": 52,
+   {"startLine": 50,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/Dense.lean",
-    "endLine": 54},
+    "endLine": 52},
    "module": "WeilConjectures.Compactification.Dense",
    "kind": "definition",
    "exists": true,
@@ -811695,10 +811577,10 @@
    "signature":
    "theorem AlgebraicGeometry.Compactification.DenseCategory.isCofiltered_and_isThin.{u}\n  {X Y : AlgebraicGeometry.Scheme} {f : X ⟶ Y} [AlgebraicGeometry.IsSeparated f]\n  [AlgebraicGeometry.LocallyOfFiniteType f] [AlgebraicGeometry.QuasiCompact f] [CompactSpace ↥Y]\n  [QuasiSeparatedSpace ↥Y] :\n  CategoryTheory.IsCofiltered (AlgebraicGeometry.Compactification.DenseCategory f) ∧\n    Quiver.IsThin (AlgebraicGeometry.Compactification.DenseCategory f)",
    "range":
-   {"startLine": 165,
+   {"startLine": 164,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/DenseCategory.lean",
-    "endLine": 174},
+    "endLine": 173},
    "module": "WeilConjectures.Compactification.DenseCategory",
    "kind": "theorem",
    "exists": true,
@@ -811725,7 +811607,7 @@
    "signature":
    "structure AlgebraicGeometry.Compactification.{u} {X Y : AlgebraicGeometry.Scheme} (f : X ⟶ Y) : Type (u + 1)",
    "range":
-   {"startLine": 59,
+   {"startLine": 67,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/Defs.lean",
     "endLine": 81},
@@ -811733,7 +811615,7 @@
    "kind": "structure",
    "exists": true,
    "doc":
-   "The data of a compactification of `f : X ⟶ Y`: a scheme `Z` together with a proper\nmorphism `g : Z ⟶ Y` and an open immersion `i : X ⟶ Z` such that `f = i ≫ g`.\n\nThe open immersion `i` is not required to be quasi-compact, unlike in the blueprint\n(`definition-compactification-refinement--1`) and in Stacks/Conrad, where `j` is a quasi-compact\nopen immersion. When `f` is quasi-compact, which is the case in all uses of Nagata's theorem, the\ntwo notions agree: `i` is then automatically quasi-compact\n(`AlgebraicGeometry.Compactification.quasiCompact_openImmersion_iff`). The weaker\nrequirement is what lets a compactification be restricted along an arbitrary open immersion\n(`AlgebraicGeometry.Compactification.precomp`).",
+   "The data of a compactification of `f : X ⟶ Y`: a scheme `Z` together with a proper\nmorphism `g : Z ⟶ Y` and an open immersion `i : X ⟶ Z` such that `f = i ≫ g`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs":
@@ -811751,15 +811633,15 @@
    "signature":
    "theorem AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs.{u}\n  {S U X₁ X₂ : AlgebraicGeometry.Scheme} {s₁ : X₁ ⟶ S} {s₂ : X₂ ⟶ S} {j₁ : U ⟶ X₁} {j₂ : U ⟶ X₂}\n  [AlgebraicGeometry.IsOpenImmersion j₁] [AlgebraicGeometry.IsOpenImmersion j₂]\n  (cm : AlgebraicGeometry.CommonModification s₁ s₂ j₁ j₂) [CompactSpace ↥X₁]\n  [QuasiSeparatedSpace ↥X₁] [CompactSpace ↥X₂] [QuasiSeparatedSpace ↥X₂]\n  (h₁ : Dense (Set.range ⇑j₁)) (h₂ : Dense (Set.range ⇑j₂)) : Dense (Set.range ⇑cm.j)",
    "range":
-   {"startLine": 206,
+   {"startLine": 200,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/CommonModificationDense.lean",
-    "endLine": 218},
+    "endLine": 212},
    "module": "WeilConjectures.Compactification.CommonModificationDense",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Blueprint `lemma-gluing-after-admissible-blow-ups--1`: Density of the common open in a common\nmodification (topological part).\n\nIf `U` is dense in both qcqs models `X₁`, `X₂`, then it is dense in the common\nmodification.",
+   "Density of the common open in a common\nmodification (topological part).\n\nIf `U` is dense in both qcqs models `X₁`, `X₂`, then it is dense in the common\nmodification.",
    "deps":
    ["AlgebraicGeometry.CommonModification",
     "AlgebraicGeometry.IsAdmissible",
@@ -811777,10 +811659,10 @@
    "signature":
    "structure AlgebraicGeometry.CommonModification.{u} {S U X₁ X₂ : AlgebraicGeometry.Scheme} (s₁ : X₁ ⟶ S)\n  (s₂ : X₂ ⟶ S) (j₁ : U ⟶ X₁) (j₂ : U ⟶ X₂) [AlgebraicGeometry.IsOpenImmersion j₁]\n  [AlgebraicGeometry.IsOpenImmersion j₂] : Type (u + 1)",
    "range":
-   {"startLine": 59,
+   {"startLine": 58,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/CommonModification.lean",
-    "endLine": 100},
+    "endLine": 99},
    "module": "WeilConjectures.Compactification.CommonModification",
    "kind": "structure",
    "exists": true,
@@ -812140,10 +812022,10 @@
    "signature":
    "theorem AlgebraicGeometry.AffineSpace.projectiveClosure_spec.{u} {U S : AlgebraicGeometry.Scheme}\n  {n : Type u} [Finite n] [CompactSpace ↥U] [QuasiSeparatedSpace ↥S] {f : U ⟶ S}\n  (ι : U ⟶ AlgebraicGeometry.AffineSpace n S) [AlgebraicGeometry.IsImmersion ι]\n  (hι : CategoryTheory.CategoryStruct.comp ι (AlgebraicGeometry.AffineSpace n S ↘ S) = f) :\n  AlgebraicGeometry.IsClosedImmersion\n      (AlgebraicGeometry.Scheme.Hom.imageι\n        (CategoryTheory.CategoryStruct.comp ι\n          (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S))) ∧\n    AlgebraicGeometry.IsProper\n        (CategoryTheory.CategoryStruct.comp\n          (AlgebraicGeometry.Scheme.Hom.imageι\n            (CategoryTheory.CategoryStruct.comp ι\n              (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S)))\n          (AlgebraicGeometry.ProjectiveSpace (Option n) S ↘ S)) ∧\n      AlgebraicGeometry.IsOpenImmersion\n          (AlgebraicGeometry.Scheme.Hom.toImage\n            (CategoryTheory.CategoryStruct.comp ι\n              (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S))) ∧\n        AlgebraicGeometry.QuasiCompact\n            (AlgebraicGeometry.Scheme.Hom.toImage\n              (CategoryTheory.CategoryStruct.comp ι\n                (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S))) ∧\n          AlgebraicGeometry.IsSchemeTheoreticallyDominant\n              (AlgebraicGeometry.Scheme.Hom.toImage\n                (CategoryTheory.CategoryStruct.comp ι\n                  (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S))) ∧\n            CategoryTheory.CategoryStruct.comp\n                (AlgebraicGeometry.Scheme.Hom.toImage\n                  (CategoryTheory.CategoryStruct.comp ι\n                    (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S)))\n                (CategoryTheory.CategoryStruct.comp\n                  (AlgebraicGeometry.Scheme.Hom.imageι\n                    (CategoryTheory.CategoryStruct.comp ι\n                      (AlgebraicGeometry.AffineSpace.toRelativeProjectiveSpace n S)))\n                  (AlgebraicGeometry.ProjectiveSpace (Option n) S ↘ S)) =\n              f",
    "range":
-   {"startLine": 48,
+   {"startLine": 47,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/Compactification/AffineProjective.lean",
-    "endLine": 75},
+    "endLine": 74},
    "module": "WeilConjectures.Compactification.AffineProjective",
    "kind": "theorem",
    "exists": true,
