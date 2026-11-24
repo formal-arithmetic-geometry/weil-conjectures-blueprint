@@ -10,7 +10,7 @@ $\prod_i(x-a_i)^{n_i}$, whose order at $\infty$ is
 $-\sum_in_i=n_\infty$. So
 $\operatorname{Pic}^0(\mathbf P^1)=0$, and the degree is an isomorphism
 $\operatorname{Pic}(\mathbf P^1)\simeq\mathbf Z$. This agrees with
-$J(\mathbf P^1)=0$ for $g=0$.
+$\href{@theorem-picard-scheme-jacobian-over-separably}{J(\mathbf P^1)}=0$ for $g=0$.
 
 On an elliptic curve $E$ with origin $O$ the kernel is as large as the
 curve. Let $\mathcal L$ have degree zero. Then $\mathcal L(O)$ has degree

@@ -15,7 +15,7 @@ $n$ on an [abelian variety](@definition-abelian-variety) over an algebraically c
 surjective on points, and for $n$ invertible in $k$ its kernel is
 $(\mathbf Z/n)^{2g}$. Now apply the snake lemma to multiplication by $n$
 on the [degree sequence](@corollary-degree-jacobian). Since $\mathbf Z$ is torsion free, the
-$n$-torsion of $\operatorname{Pic}(C)$ is $J(C)[n](k)\simeq(\mathbf Z/n)^{2g}$.
+$n$-torsion of $\operatorname{Pic}(C)$ is $\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)\simeq(\mathbf Z/n)^{2g}$.
 Since [$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separably) is divisible, the cokernel of $n$ on $\operatorname{Pic}(C)$
 is $\mathbf Z/n$, given by the degree.
 

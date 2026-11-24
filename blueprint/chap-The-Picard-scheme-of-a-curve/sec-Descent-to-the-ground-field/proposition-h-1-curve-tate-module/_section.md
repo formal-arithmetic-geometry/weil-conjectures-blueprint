@@ -12,8 +12,8 @@ Galois-equivariant isomorphism, with cohomology computed on the
 [pro-étale site](@definition-small-pro-etale-site),
 
 $$
-H^1(C,\mathbf Z/\ell^n(1))
-\simeq J_0[\ell^n](\bar k).
+H^1(C,\href{@definition-tate-twists}{\mathbf Z/\ell^n(1)})
+\simeq \href{@proposition-jacobian-over-ground-field}{J_0}\href{@definition-abelian-variety}{[\ell^n]}(\bar k).
 $$
 
 The coefficient map $\mu_{\ell^{n+1}}\to\mu_{\ell^n}$,
@@ -21,7 +21,7 @@ $z\mapsto z^\ell$, corresponds to multiplication by $\ell$
 on the torsion points. Consequently
 
 $$
-\varprojlim_n H^1(C,\mathbf Z/\ell^n(1))\simeq T_\ell J_0
+\varprojlim_n H^1(C,\href{@definition-tate-twists}{\mathbf Z/\ell^n(1)})\simeq \href{@definition-tate-module}{T_\ell} \href{@proposition-jacobian-over-ground-field}{J_0}
 $$
 
 as $\mathbf Z_\ell$-modules with Galois action.

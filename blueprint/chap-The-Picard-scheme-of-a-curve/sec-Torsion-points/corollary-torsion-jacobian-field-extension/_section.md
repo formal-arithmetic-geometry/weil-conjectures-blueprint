@@ -11,21 +11,21 @@ connected curve of genus $g$, and let $n>0$ be invertible in $k$.
 Then there is a noncanonical isomorphism
 
 $$
-J(C)[n](k)\simeq(\mathbf Z/n\mathbf Z)^{2g}.
+\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)\simeq(\mathbf Z/n\mathbf Z)^{2g}.
 $$
 
 For every algebraically closed
 extension $k'/k$, the natural map
 
 $$
-J(C)[n](k)\longrightarrow J(C_{k'})[n](k')
+\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)\longrightarrow \href{@theorem-picard-scheme-jacobian-over-separably}{J(C_{k'})}\href{@definition-abelian-variety}{[n]}(k')
 $$
 
 is an isomorphism. Multiplication by $n$ on [$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separably) is
 surjective, and consequently
 
 $$
-\operatorname{Pic}(C)[n]=J(C)[n](k),
+\operatorname{Pic}(C)[n]=\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k),
 \qquad
 \operatorname{Pic}(C)/n\operatorname{Pic}(C)
 \xrightarrow[\deg]{\ \sim\ }\mathbf Z/n\mathbf Z.

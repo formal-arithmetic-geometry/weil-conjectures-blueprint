@@ -49,7 +49,7 @@ commutative. Such a group scheme is an [abelian variety](@definition-abelian-var
 (see [Stacks, [0BA0](https://stacks.math.columbia.edu/tag/0BA0)]).
 
 The tangent space $T_0J(C)$ is the kernel of
-$\operatorname{Pic}_{C/k}(k[\varepsilon])\to\operatorname{Pic}_{C/k}(k)$,
+$\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/k}(k[\varepsilon])}\to\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/k}(k)}$,
 where $\varepsilon^2=0$. Since $\operatorname{Pic}(k[\varepsilon])=0$, this is
 the kernel of $\operatorname{Pic}(C_{k[\varepsilon]})\to\operatorname{Pic}(C)$,
 which is $H^1(C,\mathcal O_C)$ by
