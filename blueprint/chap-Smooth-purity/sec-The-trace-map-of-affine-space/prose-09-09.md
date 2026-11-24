@@ -12,7 +12,7 @@ with (2.10), and
 Proposition [proposition-comparison-etale-derived-category], the pro-étale and étale categories
 [$D^b_{\mathrm{ctf}}(-,A)$](@definition-constructible-sheaves), and the [localizing subcategories](@definition-localizing-subcategory) they generate, are identified compatibly with
 pullback, direct image and extension by zero. In particular
-$Rf_!=R\bar f_*\circ j_!$ is computed on the étale sites.
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}=R\bar f_*\circ j_!$ is computed on the étale sites.
 Consequently, an adjunction between [$Rf_!$](@proposition-construction-independence-rf-shriek) and some functor $G$ on the étale
 categories $D^b_{\mathrm{ctf}}(-_{\acute{e}t},A)$ transfers to the pro-étale categories
 [$D^b_{\mathrm{ctf}}(-_{\mathrm{pro}\acute{e}t},A)$](@definition-constructible-sheaves). Indeed, the Hom groups agree by full faithfulness, and
@@ -24,11 +24,11 @@ is the étale functor $f^!$ on $D(-_{\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$ of
 Section [sec-Conventions-2], and it preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) by
 Theorem [theorem-f-shriek-finite-coefficients]. Hence, for $f:X\to Y$ smooth of pure
 relative dimension $d$, Proposition [proposition-exceptional-inverse-image-smooth-morphism](1) gives
-the local form of $Rf_!\dashv f^!$: on an open $U\subset X$ with
+the local form of $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$: on an open $U\subset X$ with
 $f|_U=p_d\circ e$, where $e:U\to\mathbf A^d_Y$ is étale,
 
 $$
-f^!K|_U\simeq e^*p_{d}^*K(d)[2d],
+\href{@theorem-existence-exceptional-inverse-image}{f^!K}|_U\simeq e^*p_{d}^*\href{@definition-tate-twists}{K(d)}[2d],
 $$
 
 with counit the sum over the fibres of $e$ followed by
@@ -36,10 +36,10 @@ with counit the sum over the fibres of $e$ followed by
 
 Since a right adjoint is unique up to a unique isomorphism preserving the
 counit, these counits on charts agree on overlaps with the counit of
-$Rf_!\dashv f^!$. With finite coefficients, then, [$f^!$](@theorem-existence-exceptional-inverse-image) exists first and
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$. With finite coefficients, then, [$f^!$](@theorem-existence-exceptional-inverse-image) exists first and
 the charts describe it. For towers, by contrast, there is no global functor yet, and we
 glue [$f^!$](@theorem-existence-exceptional-inverse-image) from models on charts by a Mayer–Vietoris argument, which uses the
-triangle for an open cover $X=U\cup V$ and $N\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$:
+triangle for an open cover $X=U\cup V$ and $N\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Z/\ell^n\mathbf Z)$:
 
 $$
 j_{U\cap V!}(N|_{U\cap V})
@@ -49,21 +49,21 @@ j_{U!}(N|_U)\oplus j_{V!}(N|_V)
 \tag{9.12}
 $$
 
-Suppose that $H\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$ and
-$\varepsilon:Rf_!H\to K$ restrict to pairs that represent
-$\operatorname{Hom}(Rf_!(-),K)$ (Definition [definition-representing-objects])
+Suppose that $H\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Z/\ell^n\mathbf Z)$ and
+$\varepsilon:\href{@proposition-construction-independence-rf-shriek}{Rf_!H}\to K$ restrict to pairs that represent
+$\operatorname{Hom}(\href{@proposition-construction-independence-rf-shriek}{Rf_!(-)},K)$ (Definition [definition-representing-objects])
 on $U$, $V$ and $U\cap V$, where
 the restriction of $\varepsilon$ to $U$ is the composite
-$R(f|_U)_!(H|_U)=Rf_!j_{U!}(H|_U)\to Rf_!H\to K$. For
-$M\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$ we apply
-$\operatorname{Hom}(-,H)$ and $\operatorname{Hom}(Rf_!(-),K)$ to
+$\href{@proposition-construction-independence-rf-shriek}{R(f|_U)_!(H|_U)}=\href{@proposition-construction-independence-rf-shriek}{Rf_!}j_{U!}(H|_U)\to \href{@proposition-construction-independence-rf-shriek}{Rf_!H}\to K$. For
+$M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Z/\ell^n\mathbf Z)$ we apply
+$\operatorname{Hom}(-,H)$ and $\operatorname{Hom}(\href{@proposition-construction-independence-rf-shriek}{Rf_!(-)},K)$ to
 (9.12) with $N=M$. The maps
-$b\mapsto\varepsilon\circ Rf_!(b)$ form a morphism between the two long exact
+$b\mapsto\varepsilon\circ \href{@proposition-construction-independence-rf-shriek}{Rf_!(b)}$ form a morphism between the two long exact
 sequences, which is bijective on the terms coming from $U$, $V$ and $U\cap V$.
 By the five lemma it is bijective on $\operatorname{Hom}(M,H)$, which means
-that $(H,\varepsilon)$ [represents](@definition-representing-objects) $\operatorname{Hom}(Rf_!(-),K)$. Since such a
+that $(H,\varepsilon)$ [represents](@definition-representing-objects) $\operatorname{Hom}(\href{@proposition-construction-independence-rf-shriek}{Rf_!(-)},K)$. Since such a
 pair is unique up to a unique isomorphism compatible with $\varepsilon$,
-we get $H\simeq f^!K$ compatibly with the counits. In Section [sec-ell-adic-coefficients-4] we use this gluing to realize
+we get $H\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!K}$ compatibly with the counits. In Section [sec-ell-adic-coefficients-4] we use this gluing to realize
 the compatible counits with finite coefficients as a single map of towers.
 
 On a vector bundle, the choice of a local trivialization transports

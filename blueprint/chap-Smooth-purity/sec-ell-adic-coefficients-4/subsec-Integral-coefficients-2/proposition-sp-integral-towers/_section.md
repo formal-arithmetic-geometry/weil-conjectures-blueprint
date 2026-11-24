@@ -6,8 +6,8 @@ name_showing = false
 order = 774
 uses = ["definition-constructible-sheaves"]
 +++
-1. For $K\in\Dbc(T,\mathcal O_E)$ there are integers $a\le b$ such that
+1. For $K\in\href{@definition-constructible-sheaves}{\Dbc(T,\mathcal O_E)}$ there are integers $a\le b$ such that
    every reduction $K/\ell^n$ lies in [$D^b_{\mathrm{ctf}}(T_{\mathrm{pro}\acute{e}t},\mathcal O_E/\ell^n)$](@definition-constructible-sheaves),
    with cohomology and [Tor amplitude](@definition-constructible-sheaves) in $[a,b]$.
-2. If $K\in D(T_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ is [derived complete](@definition-derived-adic-completeness) and $K/\ell$
-   lies in [$D^b_{\mathrm{ctf}}(T_{\mathrm{pro}\acute{e}t},\mathcal O_E/\ell)$](@definition-constructible-sheaves), then $K\in\Dbc(T,\mathcal O_E)$.
+2. If $K\in D(\href{@definition-small-pro-etale-site}{T_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ is [derived complete](@definition-derived-adic-completeness) and $K/\ell$
+   lies in [$D^b_{\mathrm{ctf}}(T_{\mathrm{pro}\acute{e}t},\mathcal O_E/\ell)$](@definition-constructible-sheaves), then $K\in\href{@definition-constructible-sheaves}{\Dbc(T,\mathcal O_E)}$.

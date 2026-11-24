@@ -22,10 +22,10 @@ a finite extension of $\mathbf Q_\ell$.
 We write out the calculation for towers; dropping the index $\bullet$
 gives the calculation at finite level. There the map $\gamma_{f,\bullet}$ is the composite of
 the orientation
-$(\mathcal O_{E,X}/\ell^\bullet)(d)[2d]\xrightarrow{\sim}\omega_{f,\bullet}$
+$(\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}/\ell^\bullet)\href{@definition-tate-twists}{(d)}[2d]\xrightarrow{\sim}\omega_{f,\bullet}$
 and the map
-$f_\bullet^*K_\bullet\otimes\omega_{f,\bullet}\to f_\bullet^!K_\bullet$
-for $K_\bullet=\operatorname{red}_YK$.
+$f_\bullet^*K_\bullet\otimes\omega_{f,\bullet}\to \href{@proposition-sp-tower-geometric}{f_\bullet^!K_\bullet}$
+for $K_\bullet=\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YK}$.
 
 *Orientation.* After removing the shift $[2d]$, the two orientations
 to be compared are maps between sheaves of towers of rank one in degree
@@ -37,7 +37,7 @@ vector bundles all commute with base change
 (Lemma [lemma-naturality-under-base-change-etale](1)), and therefore so
 does the orientation built from them.
 
-*The map $f^*K\otimes\omega_f\to f^!K$.* This factor is not a map of
+*The map $f^*K\otimes\href{@definition-relative-dualizing-complex}{\omega_f}\to \href{@theorem-existence-exceptional-inverse-image}{f^!K}$.* This factor is not a map of
 sheaves, so we cannot compare the two maps locally. However, a map into
 $f'^!_\bullet g^*K_\bullet$ is determined by its transpose under the adjunction
 on towers for $f'$. By the definition of $e_{f,\bullet}$, the transpose of the

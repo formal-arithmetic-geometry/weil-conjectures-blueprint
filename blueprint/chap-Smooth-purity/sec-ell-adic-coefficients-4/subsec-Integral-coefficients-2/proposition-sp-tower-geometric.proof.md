@@ -45,7 +45,7 @@ $X$, and we let $f^!_\bullet K_\bullet$ be its object. By uniqueness of
 adjunction (9.18).
 
 The levels are the finite ones, because evaluation at level $n$ carries the
-glued pair to a pair [representing](@definition-representing-objects) $\operatorname{Hom}(Rf_!(-),K_n)$ with
+glued pair to a pair [representing](@definition-representing-objects) $\operatorname{Hom}(\href{@proposition-construction-independence-rf-shriek}{Rf_!(-)},K_n)$ with
 coefficients $\mathcal O_E/\ell^n$. Indeed, on each chart it is the local
 finite adjunction, and the five lemma argument applies at level $n$, so by
 uniqueness this pair is the finite one. As the counit is one morphism of

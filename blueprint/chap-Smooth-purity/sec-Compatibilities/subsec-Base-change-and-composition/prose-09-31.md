@@ -9,17 +9,17 @@ isomorphisms for [$f^!$](@theorem-existence-exceptional-inverse-image) with ever
 [$\gamma$](@theorem-smooth-purity-all-admissible-coefficients). From now on, $g$ no longer denotes the base change in a square: let
 $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative dimensions
 $d$ and $e$. Composing the finite adjunctions, we identify
-[$(g\circ f)_A^!$](@theorem-existence-exceptional-inverse-image) with $f_A^!g_A^!$, compatibly with
-$R(g\circ f)_{!,A}\simeq Rg_{!,A}Rf_{!,A}$, and the counit of the
+[$(g\circ f)_A^!$](@theorem-existence-exceptional-inverse-image) with $\href{@theorem-existence-exceptional-inverse-image}{f_A^!}\href{@theorem-existence-exceptional-inverse-image}{g_A^!}$, compatibly with
+$\href{@proposition-construction-independence-rf-shriek}{R(g\circ f)_{!,A}}\simeq \href{@proposition-construction-independence-rf-shriek}{Rg_{!,A}}\href{@proposition-construction-independence-rf-shriek}{Rf_{!,A}}$, and the counit of the
 composite adjunction is the composite of the two counits.
 
-The change-of-coefficients maps are compatible with composition: for $M\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ and
-$K\in D^b_{\mathrm{ctf}}(Z_{\mathrm{pro}\acute{e}t},A)$,
+The change-of-coefficients maps are compatible with composition: for $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)$ and
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},A)$,
 
 $$
-b^{g\circ f}(M)=Rg_{!,B}(b^f(M))\circ b^g(Rf_{!,A}M),
+b^{g\circ f}(M)=\href{@proposition-construction-independence-rf-shriek}{Rg_{!,B}(b^f(M))}\circ b^g(\href{@proposition-construction-independence-rf-shriek}{Rf_{!,A}M}),
 \qquad
-c^{g\circ f}(K)=f_B^!c^g(K)\circ c^f(g_A^!K).
+c^{g\circ f}(K)=\href{@theorem-existence-exceptional-inverse-image}{f_B^!}c^g(K)\circ c^f(\href{@theorem-existence-exceptional-inverse-image}{g_A^!K}).
 $$
 
 The first identity holds on each free term of a resolution of $B$ over $A$,
@@ -29,7 +29,7 @@ second by transposing under the composite adjunction.
 
 On towers, the composition isomorphism for $Rf_{!,\bullet}$ is built from
 the same constructions. The isomorphism
-$(g\circ f)^!_\bullet\simeq f^!_\bullet g^!_\bullet$ is the isomorphism of
+$\href{@proposition-sp-tower-geometric}{(g\circ f)^!_\bullet}\simeq \href{@proposition-sp-tower-geometric}{f^!_\bullet} \href{@proposition-sp-tower-geometric}{g^!_\bullet}$ is the isomorphism of
 right adjoints given by the composite adjunction on towers. Since evaluation at
 level $n$ carries the counits on towers to the finite counits
 (Proposition [proposition-sp-tower-geometric]), the level $n$ of
@@ -38,18 +38,18 @@ with the transition maps, which are built from $b$ and $c$. Applying
 $R\varprojlim$ gives the integral composition isomorphisms
 
 $$
-R(g\circ f)_{!,\mathcal O_E}\simeq Rg_{!,\mathcal O_E}Rf_{!,\mathcal O_E},
+\href{@proposition-construction-independence-rf-shriek}{R(g\circ f)_{!,\mathcal O_E}}\simeq \href{@proposition-construction-independence-rf-shriek}{Rg_{!,\mathcal O_E}}\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E}},
 \qquad
-(g\circ f)_{\mathcal O_E}^{!}\simeq f_{\mathcal O_E}^{!}g_{\mathcal O_E}^{!},
+\href{@theorem-existence-exceptional-inverse-image}{(g\circ f)_{\mathcal O_E}^{!}}\simeq \href{@theorem-existence-exceptional-inverse-image}{f_{\mathcal O_E}^{!}}\href{@theorem-existence-exceptional-inverse-image}{g_{\mathcal O_E}^{!}},
 $$
 
 between [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) and [$\Dbc(Z,\mathcal O_E)$](@definition-constructible-sheaves); for $E=\mathbf Q_\ell$ the
 coefficients are $\mathbf Z_\ell$. As for base change, inverting $\ell$ and extending
 scalars give the composition isomorphisms with coefficients $E$ and $\overline{\mathbf Q}_\ell$.
-These isomorphisms $(g\circ f)^!\simeq f^!g^!$ are the composition isomorphisms of
+These isomorphisms $\href{@theorem-existence-exceptional-inverse-image}{(g\circ f)^!}\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!}\href{@theorem-existence-exceptional-inverse-image}{g^!}$ are the composition isomorphisms of
 Proposition [proposition-composition-open-restriction-compactifications-f](1).
 Indeed, the isomorphism of that proposition is characterized by the following
-property: it carries the counit of $R(g\circ f)_!\dashv(g\circ f)^!$,
+property: it carries the counit of $\href{@proposition-construction-independence-rf-shriek}{R(g\circ f)_!}\dashv\href{@theorem-existence-exceptional-inverse-image}{(g\circ f)^!}$,
 composed with the composition isomorphism for [$Rf_!$](@proposition-construction-independence-rf-shriek), to the composite of
 the counits for $f$ and $g$. By [uniqueness of adjoints](@proposition-sp-unique-adjoint) it therefore
 suffices to check this property for every coefficient ring. With finite

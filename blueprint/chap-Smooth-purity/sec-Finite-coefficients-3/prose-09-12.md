@@ -5,8 +5,8 @@ title = "Finite coefficients (2)"
 order = 747
 +++
 It comes with a smooth morphism
-$\widetilde g:\mathcal D_{s(S)}V\to\mathbf A^1_S$ and a section
-$\widetilde s:\mathbf A^1_S\to\mathcal D_{s(S)}V$ that is a closed
+$\widetilde g:\href{@definition-deformation-normal-bundle}{\mathcal D_{s(S)}V}\to\mathbf A^1_S$ and a section
+$\widetilde s:\mathbf A^1_S\to\href{@definition-deformation-normal-bundle}{\mathcal D_{s(S)}V}$ that is a closed
 immersion. Over $t=1$ the pair $(\widetilde g,\widetilde s)$ restricts
 to $(g,s)$, and over $t=0$ to $(\pi,z)$. To see this in local terms, let $t$ be the
 coordinate of $\mathbf A^1$, and let $x_1,\ldots,x_d$ be functions on an

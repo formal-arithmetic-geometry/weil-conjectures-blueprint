@@ -36,5 +36,5 @@ Theorem [theorem-exceptional-inverse-image], restricted to [$D^b_{\mathrm{ctf}}$
 The first map compares [$f^!$](@theorem-existence-exceptional-inverse-image) before and after a change of base. Let
 $f:X\to Y$ and $g:Y'\to Y$ be morphisms of separated schemes of finite type
 over $k$, let $X'=X\times_YY'$, and let $f':X'\to Y'$ and $g':X'\to X$ be the
-projections. Write $\varepsilon_f(K):Rf_!f^!K\to K$ for the counit of
-$Rf_!\dashv f^!$.
+projections. Write $\varepsilon_f(K):\href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@theorem-existence-exceptional-inverse-image}{f^!K}\to K$ for the counit of
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$.

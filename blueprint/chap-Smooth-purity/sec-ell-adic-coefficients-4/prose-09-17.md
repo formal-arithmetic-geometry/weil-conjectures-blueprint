@@ -6,11 +6,11 @@ order = 762
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For
 $\mathcal O_E$-coefficients we want an isomorphism of functors
-$f^*(-)(d)[2d]\simeq f^!$ on [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves). Here [$f^!_{\mathcal O_E}$](@theorem-existence-exceptional-inverse-image) is
+$f^*(-)\href{@definition-tate-twists}{(d)}[2d]\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!}$ on [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves). Here [$f^!_{\mathcal O_E}$](@theorem-existence-exceptional-inverse-image) is
 defined by Brown representability, not as a limit of the finite [$f^!$](@theorem-existence-exceptional-inverse-image).
 The [reduction principle](@proposition-isomorphisms-reduce-finite-coefficients) of Section [sec-Reduction-to-finite-coefficients] does not apply,
 because it checks that a given morphism is an isomorphism, and we have
-no morphism $f^*(-)(d)[2d]\to f^!$ with $\mathcal O_E$-coefficients yet.
+no morphism $f^*(-)\href{@definition-tate-twists}{(d)}[2d]\to \href{@theorem-existence-exceptional-inverse-image}{f^!}$ with $\mathcal O_E$-coefficients yet.
 Instead we deduce
 Theorem [theorem-smooth-purity-all-admissible-coefficients] for $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ from
 Proposition [proposition-smooth-purity-finite-coefficients] by building the

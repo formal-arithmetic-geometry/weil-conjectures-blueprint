@@ -8,7 +8,7 @@ The orientation (9.14) is defined without
 coordinates, but on a coordinate chart it agrees with the
 identification given by the trace map of affine space
 (9.11). This is what makes the map
-$f^*K(d)[2d]\to f^!K$ below the expected one, and the trace map in
+$f^*\href{@definition-tate-twists}{K(d)}[2d]\to \href{@theorem-existence-exceptional-inverse-image}{f^!K}$ below the expected one, and the trace map in
 Section [sec-Compatibilities] relies on it as well.
 
 We prove the agreement for a vector bundle, where both
@@ -81,7 +81,7 @@ orientation on $U$ obtained from the diagonal is the orientation of affine
 space given by its adjunction in coordinates.
 
 Combining the orientation with the isomorphism
-$f^!K\simeq f^*K\otimes^{\mathbf L}\omega_f$, we obtain the isomorphism
+$\href{@theorem-existence-exceptional-inverse-image}{f^!K}\simeq f^*K\otimes^{\mathbf L}\href{@definition-relative-dualizing-complex}{\omega_f}$, we obtain the isomorphism
 $\gamma_f$ of Theorem [theorem-smooth-purity-all-admissible-coefficients]
 with finite coefficients
 (Proposition [proposition-smooth-purity-finite-coefficients]). We state

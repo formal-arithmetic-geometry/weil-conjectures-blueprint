@@ -13,13 +13,13 @@ identities keep the same normalization, since
 (9.9) is an identity of endomorphisms of a
 constant sheaf and is preserved by extension of scalars. So the local
 adjunctions compute [$f_A^!$](@theorem-existence-exceptional-inverse-image), and the arguments for vector bundles and
-deformations then show that $\omega_{f,A}\simeq A_X(d)[2d]$. We define $\gamma_{f,A}(K)$
+deformations then show that $\href{@definition-relative-dualizing-complex}{\omega_{f,A}}\simeq \href{@definition-tate-twists}{A_X(d)}[2d]$. We define $\gamma_{f,A}(K)$
 as the composite
 
 $$
-f_A^{*}K\otimes^{\mathbf L}A_X(d)[2d]
-\xrightarrow{\sim}f_A^{*}K\otimes^{\mathbf L}\omega_{f,A}
-\xrightarrow{\sim}f_A^{!}K.
+f_A^{*}K\otimes^{\mathbf L}\href{@definition-tate-twists}{A_X(d)}[2d]
+\xrightarrow{\sim}f_A^{*}K\otimes^{\mathbf L}\href{@definition-relative-dualizing-complex}{\omega_{f,A}}
+\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f_A^{!}K}.
 $$
 
 These are the isomorphisms given by the orientation and by $\mu_{f,K}$,

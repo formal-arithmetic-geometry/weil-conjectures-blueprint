@@ -5,17 +5,17 @@ title = "Smooth purity"
 order = 724
 +++
 [Poincaré duality](@theorem-poincare-duality) for a smooth variety $X$ of dimension $d$ pairs
-$H^i_c(X,\Lambda)$ with $H^{2d-i}(X,\Lambda(d))$ through the cup product and a
-trace map $H^{2d}_c(X,\Lambda(d))\to\Lambda$. If $a$ is the structure map of $X$,
-such a trace map is the counit of $Ra_!\dashv a^!$, once we know that
-$a^!\Lambda\simeq\Lambda_X(d)[2d]$. But Part I produces
+$H^i_c(X,\Lambda)$ with $H^{2d-i}(X,\href{@definition-tate-twists}{\Lambda(d)})$ through the cup product and a
+trace map $H^{2d}_c(X,\href{@definition-tate-twists}{\Lambda(d)})\to\Lambda$. If $a$ is the structure map of $X$,
+such a trace map is the counit of $\href{@proposition-construction-independence-rf-shriek}{Ra_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{a^!}$, once we know that
+$\href{@theorem-existence-exceptional-inverse-image}{a^!\Lambda}\simeq\href{@definition-tate-twists}{\Lambda_X(d)}[2d]$. But Part I produces
 $f^!$ (Theorem [theorem-exceptional-inverse-image]) as a right adjoint by Brown
 representability, with no formula.
 
 A formula exists on charts. Consider $f:X\to Y$ smooth of pure relative
 dimension $d$, and an open subscheme $U\subset X$ on which $f$ factors as an
 étale map $e:U\to\mathbf A^d_Y$ followed by the projection $p_d$. With finite
-coefficients $f^!K|_U\simeq e^*p_d^*K(d)[2d]$
+coefficients $\href{@theorem-existence-exceptional-inverse-image}{f^!K}|_U\simeq e^*p_d^*\href{@definition-tate-twists}{K(d)}[2d]$
 (Proposition [proposition-exceptional-inverse-image-smooth-morphism]), and
 under this isomorphism the counit is integration along $d$ affine lines. This
 integration comes from the trace map of $\mathbf P^1$
@@ -38,7 +38,7 @@ coordinates multiplies the trace map of $\mathbf A^d$ by a locally constant
 unit on $\operatorname{GL}_d$, and this unit is $1$ at the identity, hence
 everywhere, since $\operatorname{GL}_d$ has connected geometric fibres. So
 every vector bundle has a canonical trace map
-(Proposition [proposition-purity-vector-bundles]). The trace map has source $H^{2d}_c(-,\Lambda(d))$, so the [Tate twist
+(Proposition [proposition-purity-vector-bundles]). The trace map has source $H^{2d}_c(-,\href{@definition-tate-twists}{\Lambda(d)})$, so the [Tate twist
 $\Lambda(d)$](@definition-tate-twists) plays the role of the orientation sheaf. Over an
 algebraically closed field a compatible system of roots of unity
 trivializes [$\Lambda(d)$](@definition-tate-twists), but not canonically, and over $\mathbf F_q$ the
@@ -55,10 +55,10 @@ The outcome, Theorem [theorem-smooth-purity-all-admissible-coefficients], is a
 canonical isomorphism
 
 $$
-\gamma_f:f^*K(d)[2d]\xrightarrow{\sim}f^!K,
+\gamma_f:f^*\href{@definition-tate-twists}{K(d)}[2d]\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f^!K},
 $$
 
-natural in $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$ for every admissible $\Lambda$. It is
+natural in $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)}$ for every admissible $\Lambda$. It is
 compatible with base change, composition and change of coefficients, and it
 is normalized by the trace map of the affine line. This
 statement is Deligne's [sga4, XVIII], where it is called Poincaré

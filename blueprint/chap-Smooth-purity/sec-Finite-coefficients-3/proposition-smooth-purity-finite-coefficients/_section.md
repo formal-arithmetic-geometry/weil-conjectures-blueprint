@@ -8,11 +8,11 @@ uses = ["definition-constructible-sheaves", "proposition-composition-open-restri
 +++
 Let $A$ be any finite admissible coefficient ring, and let
 $f:X\to Y$ be smooth of pure relative dimension $d$.
-For $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$ there is a canonical
+For $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)$ there is a canonical
 isomorphism, natural in $K$,
 
 $$
-f_A^{*}K(d)[2d]
-\xrightarrow{\ \gamma_{f,A}(K)\ }f_A^{!}K.
+f_A^{*}\href{@definition-tate-twists}{K(d)}[2d]
+\xrightarrow{\ \gamma_{f,A}(K)\ }\href{@theorem-existence-exceptional-inverse-image}{f_A^{!}K}.
 \tag{9.15}
 $$

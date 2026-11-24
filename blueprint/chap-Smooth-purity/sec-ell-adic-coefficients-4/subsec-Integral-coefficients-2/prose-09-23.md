@@ -12,13 +12,13 @@ projection formula hold for towers.
 Moreover $Rf_{!,\bullet}$ preserves constructible towers. Each level lies
 in [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) by Proposition [proposition-six-operations-dctf], so we only
 check that the bounds are independent of $n$. For cohomology, note that for a compactification
-$f=pj$, [$Rf_!$](@proposition-construction-independence-rf-shriek) has amplitude $[0,\operatorname{cd}_\ell(p)]$ for every
+$f=pj$, [$Rf_!$](@proposition-construction-independence-rf-shriek) has amplitude $[0,\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(p)}]$ for every
 torsion coefficient ring [Stacks, [0F10](https://stacks.math.columbia.edu/tag/0F10)]. For [Tor amplitude](@definition-constructible-sheaves) we use the
 projection formula
-$(Rf_!C_n)\otimes^{\mathbf L}N\simeq Rf_!(C_n\otimes^{\mathbf L}N)$ for every
+$(\href{@proposition-construction-independence-rf-shriek}{Rf_!C_n})\otimes^{\mathbf L}N\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!(C_n\otimes^{\mathbf L}N)}$ for every
 $\mathcal O_E/\ell^n$-module $N$, which follows from the comparison $b$ and
 shows that if all $C_n$ have [Tor amplitude](@definition-constructible-sheaves) in $[a,b]$, then all [$Rf_!C_n$](@proposition-construction-independence-rf-shriek)
-have [Tor amplitude](@definition-constructible-sheaves) in $[a,b+\operatorname{cd}_\ell(p)]$.
+have [Tor amplitude](@definition-constructible-sheaves) in $[a,b+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(p)}]$.
 
 We do not use Brown representability for towers. Instead we construct the
 right adjoint of $Rf_{!,\bullet}$ on constructible towers by repeating the geometric argument with finite coefficients in the category

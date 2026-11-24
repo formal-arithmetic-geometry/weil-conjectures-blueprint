@@ -15,7 +15,7 @@ because it holds at each level. Composing the inverse of the orientation with th
 $\mu_{f,K}$ on towers, we obtain an isomorphism, natural in the constructible tower $K_\bullet$,
 
 $$
-\gamma_{f,\bullet}(K_\bullet):f_\bullet^*K_\bullet(d)[2d]\xrightarrow{\sim}f_\bullet^!K_\bullet,
+\gamma_{f,\bullet}(K_\bullet):f_\bullet^*\href{@definition-tate-twists}{K_\bullet(d)}[2d]\xrightarrow{\sim}\href{@proposition-sp-tower-geometric}{f_\bullet^!K_\bullet},
 \tag{9.19}
 $$
 
@@ -30,17 +30,17 @@ $Rf_{!,\bullet}$ this follows from the comparison $b$, and for
 Since $R\bar f_*$ and $j_!$ commute with $R\varprojlim$ [Stacks, [09BP](https://stacks.math.columbia.edu/tag/09BP)], we have
 
 $$
-Rf_{!,\mathcal O_E}M\simeq R\varprojlim_nRf_{!,\mathcal O_E/\ell^n}(M/\ell^n)
+\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E}M}\simeq R\varprojlim_n\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E/\ell^n}(M/\ell^n)}
 $$
 
-for $M\in\Dbc(X,\mathcal O_E)$. For $K\in\Dbc(Y,\mathcal O_E)$ we put
+for $M\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$. For $K\in\href{@definition-constructible-sheaves}{\Dbc(Y,\mathcal O_E)}$ we put
 
 $$
-H_{f,\mathcal O_E}(K)=R\varprojlim_n f_{\mathcal O_E/\ell^n}^!(K/\ell^n)\in\Dbc(X,\mathcal O_E),
+H_{f,\mathcal O_E}(K)=R\varprojlim_n \href{@theorem-existence-exceptional-inverse-image}{f_{\mathcal O_E/\ell^n}^!(K/\ell^n)}\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)},
 \tag{9.20}
 $$
 
-the derived limit of the normalized tower $f_\bullet^!\operatorname{red}_YK$.
+the derived limit of the normalized tower $\href{@proposition-sp-tower-geometric}{f_\bullet^!}\operatorname{red}_YK$.
 
 The functor $H_{f,\mathcal O_E}$ is given by an
 explicit formula, whereas we only know that [$f^!_{\mathcal O_E}$](@theorem-existence-exceptional-inverse-image) exists. The

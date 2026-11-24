@@ -7,9 +7,9 @@ order = 729
 The *trace map of the affine line* is the composite
 
 $$
-\operatorname{Tr}_p:Rp_!\Lambda_{\mathbf A^1_Y}(1)[2]
-\simeq Rq_*j_!\Lambda_{\mathbf A^1_Y}(1)[2]
-\longrightarrow Rq_*\Lambda_{\mathbf P^1_Y}(1)[2]
+\operatorname{Tr}_p:\href{@proposition-construction-independence-rf-shriek}{Rp_!}\href{@definition-tate-twists}{\Lambda_{\mathbf A^1_Y}(1)}[2]
+\simeq Rq_*j_!\href{@definition-tate-twists}{\Lambda_{\mathbf A^1_Y}(1)}[2]
+\longrightarrow Rq_*\href{@definition-tate-twists}{\Lambda_{\mathbf P^1_Y}(1)}[2]
 \xrightarrow{\ \operatorname{Tr}_q\ }\Lambda_Y,
 \tag{9.1}
 $$

@@ -7,5 +7,5 @@ order = 791
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_smoothPurityMap"]
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "definition-tate-twists", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "theorem-smooth-purity-all-admissible-coefficients", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor"]
 +++
-We have $Rf_{!,\overline{\mathbf Q}_\ell}\dashv\bigl(K\mapsto f_{\overline{\mathbf Q}_\ell}^*K(d)[2d]\bigr)$ as functors between
+We have $\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\overline{\mathbf Q}_\ell}}\dashv\bigl(K\mapsto f_{\overline{\mathbf Q}_\ell}^*\href{@definition-tate-twists}{K(d)}[2d]\bigr)$ as functors between
 [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) and [$\Dbc(Y,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves).

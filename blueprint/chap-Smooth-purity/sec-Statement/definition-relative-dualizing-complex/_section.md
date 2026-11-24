@@ -9,7 +9,7 @@ For smooth $f:X\to Y$ and any admissible $\Lambda$, the
 *relative dualizing complex* is
 
 $$
-\omega_f=f^{!}\Lambda_Y
-\in D^b_{\mathrm{ctf}}(X,\Lambda).
+\omega_f=\href{@theorem-existence-exceptional-inverse-image}{f^{!}\Lambda_Y}
+\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}.
 \tag{9.3}
 $$

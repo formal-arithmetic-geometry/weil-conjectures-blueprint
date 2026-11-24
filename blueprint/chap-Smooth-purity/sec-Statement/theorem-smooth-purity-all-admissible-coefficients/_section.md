@@ -7,33 +7,33 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For every
 admissible coefficient ring $\Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$,
-with $A$ finite, there are isomorphisms, natural in $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$,
+with $A$ finite, there are isomorphisms, natural in $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)}$,
 
 $$
 \gamma_f(K):
-f^{*}K(d)[2d]\xrightarrow{\sim}f^{!}K,
+f^{*}\href{@definition-tate-twists}{K(d)}[2d]\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f^{!}K},
 \tag{9.2}
 $$
 
 with the following properties.
 
 1. If $f$ is the projection $p:\mathbf A^1_Y\to Y$, then
-   $\varepsilon_p(\Lambda_Y)\circ Rp_!\bigl(\gamma_p(\Lambda_Y)\bigr)$ is the
+   $\varepsilon_p(\Lambda_Y)\circ \href{@proposition-construction-independence-rf-shriek}{Rp_!}\bigl(\gamma_p(\Lambda_Y)\bigr)$ is the
    [trace map](@definition-trace-map-affine-line) (9.1).
 2. For $g:Y'\to Y$ as in
    Definition [definition-exceptional-base-change-map], with exceptional
-   base change map $\beta:g'^*f^!K\to f'^!g^*K$, we have
+   base change map $\beta:g'^*\href{@theorem-existence-exceptional-inverse-image}{f^!K}\to \href{@theorem-existence-exceptional-inverse-image}{f'^!g^*K}$, we have
    $\beta\circ g'^*\gamma_f(K)=\gamma_{f'}(g^*K)$, the sources being
    identified by $g'^*f^*\simeq f'^*g^*$.
 3. For a smooth morphism $h:Y\to Z$ of pure relative dimension $e$ and
-   $K\in D^b_{\mathrm{ctf}}(Z,\Lambda)$, the map $\gamma_{h\circ f}(K)$ is the composite of
-   $f^*(\gamma_h(K))(d)[2d]$ and $\gamma_f(h^!K)$, the sources being identified
+   $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Z,\Lambda)}$, the map $\gamma_{h\circ f}(K)$ is the composite of
+   $f^*(\gamma_h(K))\href{@definition-tate-twists}{(d)}[2d]$ and $\gamma_f(\href{@theorem-existence-exceptional-inverse-image}{h^!K})$, the sources being identified
    by $(h\circ f)^*\simeq f^*h^*$ and the targets by the composition
-   isomorphism $f^!h^!\simeq(h\circ f)^!$ of
+   isomorphism $\href{@theorem-existence-exceptional-inverse-image}{f^!}\href{@theorem-existence-exceptional-inverse-image}{h^!}\simeq\href{@theorem-existence-exceptional-inverse-image}{(h\circ f)^!}$ of
    Proposition [proposition-composition-open-restriction-compactifications-f](1).
 4. For a coefficient map $\Lambda\to\Lambda'$ of
    Proposition [proposition-six-operations-change-coefficients], the
-   change-of-coefficients isomorphism $(f^!K)_{\Lambda'}\to f^!(K_{\Lambda'})$
+   change-of-coefficients isomorphism $(\href{@theorem-existence-exceptional-inverse-image}{f^!K})_{\Lambda'}\to \href{@theorem-existence-exceptional-inverse-image}{f^!(K_{\Lambda'})}$
    of that proposition carries $(\gamma_{f,\Lambda}(K))_{\Lambda'}$ to
    $\gamma_{f,\Lambda'}(K_{\Lambda'})$, the sources being identified by the
    [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for $f^*$.
