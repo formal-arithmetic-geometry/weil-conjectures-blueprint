@@ -3,6 +3,7 @@ id = "proposition-exact-products"
 kind = "proposition"
 title = "Exact products"
 order = 88
+lean = ["AlgebraicGeometry.Scheme.ProEt.products_exact", "AlgebraicGeometry.Scheme.ProEt.products_derived", "DerivedCategory.isLimitFanMkQObj", "HomologicalComplex.isLimitFanHomology"]
 uses = ["definition-small-pro-etale-site"]
 +++
 Arbitrary set-indexed products are exact in
