@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-killing"
 order = 1743
 +++
-We first use Cartan's criterion to show that the kernel of $B$ is a
+We first use [Cartan's criterion](@lemma-cartan-s-criterion) to show that the kernel of $B$ is a
 solvable ideal, hence zero; nondegeneracy then identifies the orthogonal
 of the derived algebra with the center. By invariance of $B$, that is,
 $B([x,y],z)=B(x,[y,z])$, the kernel $\mathfrak k$ of $B$

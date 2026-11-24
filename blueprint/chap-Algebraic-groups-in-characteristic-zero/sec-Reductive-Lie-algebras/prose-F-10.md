@@ -5,4 +5,4 @@ title = "Reductive Lie algebras (2)"
 order = 1742
 +++
 This is the semisimplicity criterion of [humphreys72, §§5.1–5.2]; we
-include the short deduction from Cartan's criterion.
+include the short deduction from [Cartan's criterion](@lemma-cartan-s-criterion).

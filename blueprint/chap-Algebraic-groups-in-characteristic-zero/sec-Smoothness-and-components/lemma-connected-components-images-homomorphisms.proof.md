@@ -42,7 +42,7 @@ points of the image, we see that the image is open in $J$. It is then
 also closed, since its complement is a union of cosets of this open
 subgroup. As it is dense in $J$, it is equal to $J$.
 
-*Lie algebras.* Let $K$ be as in (3). Cartier's theorem gives
+*Lie algebras.* Let $K$ be as in (3). [Cartier's theorem](@proposition-cartier-s-theorem) gives
 $\dim K=\dim\operatorname{Lie}(K)=\dim G$, so $K$ and $G$ have the same
 underlying closed subset, as a proper closed subset of the irreducible
 variety $G$ has smaller dimension. They are equal as schemes, since both
