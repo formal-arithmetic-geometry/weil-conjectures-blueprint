@@ -36,8 +36,8 @@ autoequivalence
 
 $$
 \operatorname{Fr}_T^*:
-D^b_{\mathrm{ctf}}(T,\Lambda)\longrightarrow
-D^b_{\mathrm{ctf}}(T,\Lambda),
+\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(T,\Lambda)}\longrightarrow
+\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(T,\Lambda)},
 $$
 
 which agrees with the derived inverse image along $\operatorname{Fr}_T$.

@@ -13,19 +13,19 @@ over all algebraically closed fields of characteristic different from
 $\ell$. In dimension
 zero, $X_{\mathrm{red}}$ is a finite disjoint union of copies of
 $\operatorname{Spec}k$, and by nilpotent invariance we may replace $X$ by
-it. On each copy, moreover, $\omega=\Lambda$ and [$\delta_K$](@definition-verdier-dual-evaluation) is the evaluation map
+it. On each copy, moreover, $\href{@definition-verdier-dual-evaluation}{\omega}=\Lambda$ and [$\delta_K$](@definition-verdier-dual-evaluation) is the evaluation map
 of a perfect complex, which is an isomorphism by
 Lemma [lemma-perfect-complexes-geometric-point].
 
 We may assume that $X$ is proper of dimension $d$; properness is used only in the last step, to compute global sections. This reduction rests on the fact that the [double-dual morphism](@definition-verdier-dual-evaluation) commutes with restriction to
 opens. This holds because restriction to an open $j:U\to X$ commutes with
-internal Hom, satisfies $j^*\omega_X=j^!\omega_X=\omega_U$, and identifies
+internal Hom, satisfies $j^*\href{@definition-verdier-dual-evaluation}{\omega_X}=\href{@theorem-existence-exceptional-inverse-image}{j^!}\href{@definition-verdier-dual-evaluation}{\omega_X}=\href{@definition-verdier-dual-evaluation}{\omega_U}$, and identifies
 all the evaluation maps. Given this, choose a compactification $j:X\hookrightarrow\overline X$, replace the target by the closure
 of $X$, which has dimension $d$, and extend $K$ by zero. Then
 $j_!K$ is in [$D^b_{\mathrm{ctf}}(\overline X,A)$](@definition-constructible-sheaves), and the restriction of its
 [double-dual morphism](@definition-verdier-dual-evaluation) to $X$ is [$\delta_K$](@definition-verdier-dual-evaluation).
 
-Let $Q=\Cone(\delta_K)$. We have to show that $Q=0$. Since $Q$ is
+Let $Q=\Cone(\href{@definition-verdier-dual-evaluation}{\delta_K})$. We have to show that $Q=0$. Since $Q$ is
 bounded and [constructible](@definition-constructible-sheaves) by
 Lemma [lemma-verdier-duality-preserves-constructibility], it is enough
 to show that all its geometric stalks vanish.
@@ -59,7 +59,7 @@ The stalks at these closed points vanish because $X$ is proper and $Q$
 has no global cohomology. To see that $R\Gamma(X,Q)=0$, we apply the
 exchange for proper maps in
 Lemma [lemma-internal-adjunction-two-exchange-formulas] to $a_X$. It
-identifies $R\Gamma(X,\delta_K)$ with the [double-dual
+identifies $R\Gamma(X,\href{@definition-verdier-dual-evaluation}{\delta_K})$ with the [double-dual
 morphism](@definition-verdier-dual-evaluation) of the perfect complex $R\Gamma(X,K)$, which is an isomorphism by
 Lemma [lemma-perfect-complexes-geometric-point].
 On the other hand, a sheaf $\mathcal F$ supported on a finite set $S$ of
@@ -91,23 +91,23 @@ complex](@definition-verdier-dual-evaluation) does not change. For an affine ope
 immersion $i:V\hookrightarrow\mathbf A^r_k$. By [composition of exceptional
 inverse images](@proposition-composition-open-restriction-compactifications-f) and
 Theorem [theorem-smooth-purity-all-admissible-coefficients],
-$\omega_V\simeq i^!A(r)[2r]$. The base change
+$\href{@definition-verdier-dual-evaluation}{\omega_V}\simeq \href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@definition-tate-twists}{A(r)}[2r]$. The base change
 $i_{\bar k}:V_{\bar k}\hookrightarrow\mathbf A^r_{\bar k}$ is a closed immersion
 into an affine space of the same dimension, so
-$\omega_{V_{\bar k}}\simeq i_{\bar k}^!A(r)[2r]$, and the second comparison gives
-$g_V^*\omega_V\simeq\omega_{V_{\bar k}}$, with no twist and no shift. The
+$\href{@definition-verdier-dual-evaluation}{\omega_{V_{\bar k}}}\simeq \href{@theorem-existence-exceptional-inverse-image}{i_{\bar k}^!}\href{@definition-tate-twists}{A(r)}[2r]$, and the second comparison gives
+$g_V^*\href{@definition-verdier-dual-evaluation}{\omega_V}\simeq\href{@definition-verdier-dual-evaluation}{\omega_{V_{\bar k}}}$, with no twist and no shift. The
 argument of Lemma [lemma-double-dual-geometric-generic-fibre], with this
-isomorphism in place of $g_V^*\omega_V\simeq\omega_{V_{\bar\eta}}(1)[2]$,
+isomorphism in place of $g_V^*\href{@definition-verdier-dual-evaluation}{\omega_V}\simeq\href{@definition-verdier-dual-evaluation}{\omega_{V_{\bar\eta}}}\href{@definition-tate-twists}{(1)}[2]$,
 shows that the isomorphism
-$g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar k}}\mathbb D_{V_{\bar k}}g_V^*(K|_V)$
-it gives carries $g_V^*\delta_{K|_V}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation). The latter
+$g_V^*\href{@definition-verdier-dual-evaluation}{\mathbb D_V}\href{@definition-verdier-dual-evaluation}{\mathbb D_V(K|_V)}\simeq\href{@definition-verdier-dual-evaluation}{\mathbb D_{V_{\bar k}}}\href{@definition-verdier-dual-evaluation}{\mathbb D_{V_{\bar k}}}g_V^*(K|_V)$
+it gives carries $g_V^*\href{@definition-verdier-dual-evaluation}{\delta_{K|_V}}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation). The latter
 is an isomorphism by the case already proved, so $g^*Q$ vanishes on every
 $V_{\bar k}$, and $g^*Q=0$. Finally, every geometric point of $X$ factors
 through $X_{\bar k}$, since its algebraically closed residue field contains an
 algebraic closure of $k$. Hence all geometric stalks of $Q$ vanish, and
 $Q=0$ over the finite field as well.
 
-For coefficient rings that are not finite we reduce to finite ones. Indeed, the [double-dual map](@definition-verdier-dual-evaluation) $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is
+For coefficient rings that are not finite we reduce to finite ones. Indeed, the [double-dual map](@definition-verdier-dual-evaluation) $\href{@definition-verdier-dual-evaluation}{\delta}:\mathrm{id}\to\href{@definition-verdier-dual-evaluation}{\mathbb D_X}\href{@definition-verdier-dual-evaluation}{\mathbb D_X}$ is
 a natural transformation of exact functors, built from [$a_X^!$](@theorem-existence-exceptional-inverse-image), internal
 Hom and evaluation. Its extensions of scalars are identified by Proposition [proposition-six-operations-change-coefficients]. By
 Proposition [proposition-isomorphisms-reduce-finite-coefficients] the finite case

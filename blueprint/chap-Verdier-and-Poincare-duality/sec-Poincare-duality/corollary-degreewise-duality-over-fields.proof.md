@@ -10,9 +10,9 @@ More precisely, a bounded complex with finite-dimensional cohomology is
 isomorphic in the derived category to the sum of its shifted cohomology spaces, so that
 $H^{-i}(R\!\operatorname{Hom}_\Lambda(P,\Lambda))=\Hom_\Lambda(H^i(P),
 \Lambda)$. Because of the shift $[2d]$, the source of
-(10.8) has $H^{2d-i}(X,K^\vee(d))$ in
+(10.8) has $H^{2d-i}(X,\href{@definition-tate-twists}{K^\vee(d)})$ in
 degree $-i$, and taking $H^{-i}$ we
-get $H^{2d-i}(X,K^\vee(d))\simeq\Hom_\Lambda(H^i_c(X,K),\Lambda)$.
+get $H^{2d-i}(X,\href{@definition-tate-twists}{K^\vee(d)})\simeq\Hom_\Lambda(H^i_c(X,K),\Lambda)$.
 Since this isomorphism is induced by the pairing in degrees $(i,2d-i)$, it
 says exactly that the first pairing is [perfect](@definition-perfect-pairing).
 Here both spaces are finite-dimensional by Lemma [lemma-perfect-complexes-geometric-point]. Finally, the second pairing is

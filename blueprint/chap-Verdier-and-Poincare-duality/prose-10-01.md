@@ -28,26 +28,26 @@ Duality is the isomorphism
 $R\Gamma(M,\mathbb DK)\simeq R\!\operatorname{Hom}(R\Gamma_c(M,K),\mathbf Z)$.
 
 We follow the same route. For a scheme $X$ with structure map
-$a_X:X\to s=\operatorname{Spec}k$, put $\omega_X=a_X^!\Lambda_s$ and
+$a_X:X\to s=\operatorname{Spec}k$, put $\omega_X=\href{@theorem-existence-exceptional-inverse-image}{a_X^!\Lambda_s}$ and
 $\mathbb D_X=\cHom(-,\omega_X)$
 (Definition [definition-verdier-dual-evaluation]). The adjunction
-$Ra_{X!}\dashv a_X^!$ gives for free a pairing of $R\Gamma_c(X,K)$ with
+$\href{@proposition-construction-independence-rf-shriek}{Ra_{X!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{a_X^!}$ gives for free a pairing of $R\Gamma_c(X,K)$ with
 $R\Gamma(X,\mathbb D_XK)$, and it also gives two exchange formulas
 
 $$
-\mathbb D_YRf_!\simeq Rf_*\mathbb D_X,\qquad
-f^!\mathbb D_Y\simeq\mathbb D_Xf^*
+\mathbb D_Y\href{@proposition-construction-independence-rf-shriek}{Rf_!}\simeq Rf_*\mathbb D_X,\qquad
+\href{@theorem-existence-exceptional-inverse-image}{f^!}\mathbb D_Y\simeq\mathbb D_Xf^*
 $$
 
 (Lemma [lemma-internal-adjunction-two-exchange-formulas]). Over an algebraically
 closed field the first formula, for $a_X$, is global duality,
 $R\Gamma(X,\mathbb D_XK)\simeq R\!\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda)$
 (Theorem [theorem-global-verdier-duality]). For smooth $X$ of pure dimension
-$d$, [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) gives $\omega_X\simeq\Lambda_X(d)[2d]$, and [global duality](@theorem-global-verdier-duality)
+$d$, [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) gives $\omega_X\simeq\href{@definition-tate-twists}{\Lambda_X(d)}[2d]$, and [global duality](@theorem-global-verdier-duality)
 becomes [Poincaré duality](@theorem-poincare-duality): the pairing
 
 $$
-R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,K^\vee(d))[2d]
+R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,\href{@definition-tate-twists}{K^\vee(d)})[2d]
 \longrightarrow\Lambda,\qquad K^\vee=\cHom(K,\Lambda_X),
 $$
 
@@ -56,23 +56,23 @@ built from evaluation and the [trace map](@definition-trace-map), is perfect
 
 For $X$ smooth, proper and connected and $\Lambda$ a field, this will give a
 perfect cup product pairing
-$H^i\times H^{2d-i}\to\Lambda(-d)$ compatible with Frobenius
+$H^i\times H^{2d-i}\to\href{@definition-tate-twists}{\Lambda(-d)}$ compatible with Frobenius
 (Corollary [corollary-cup-product-pairing] and
 Theorem [theorem-poincare-duality-frobenius] in Section [sec-Weil-complexes]).
 
 What the adjunction does not give is that the pairing is perfect. For that we need
 [Verdier biduality](@theorem-verdier-biduality): the map $K\to\mathbb D_X\mathbb D_XK$ is an isomorphism for every
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and every admissible $\Lambda$
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$ and every admissible $\Lambda$
 (Theorem [theorem-verdier-biduality]). Then $\mathbb D_X$ is an anti-equivalence, and
 applying the first two [exchange formulas](@lemma-internal-adjunction-two-exchange-formulas) to $\mathbb D_XK$ gives the other two,
-$\mathbb D_YRf_*\simeq Rf_!\mathbb D_X$ and $\mathbb D_Xf^!\simeq f^*\mathbb D_Y$
+$\mathbb D_YRf_*\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!}\mathbb D_X$ and $\mathbb D_X\href{@theorem-existence-exceptional-inverse-image}{f^!}\simeq f^*\mathbb D_Y$
 (Corollary [corollary-verdier-exchange-formulas]).
 
 [Biduality](@theorem-verdier-biduality) cannot be proved by dévissage, because dualizing a piece $t_!P$,
 with $P$ locally constant on a smooth stratum $t:T\hookrightarrow X$, twice needs the [exchange formula](@corollary-verdier-exchange-formulas) $\mathbb D_XRt_*\simeq t_!\mathbb D_T$, which
 is itself a consequence of [biduality](@theorem-verdier-biduality) (Section [sec-Verdier-biduality]). We argue
 instead by induction on dimension, restricting to the geometric generic fibre of
-a function, where duality commutes with restriction up to the twist $(1)[2]$
+a function, where duality commutes with restriction up to the twist $\href{@definition-tate-twists}{(1)}[2]$
 (Lemmas [lemma-restriction-geometric-generic-fibre]
 and [lemma-double-dual-geometric-generic-fibre]).
 

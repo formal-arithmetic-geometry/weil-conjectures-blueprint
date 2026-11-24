@@ -9,8 +9,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 For every admissible coefficient ring $\Lambda$ and every scheme $X$,
 
 $$
-\delta_K:K\xrightarrow{\sim}\mathbb D_X\mathbb D_XK
-\qquad(K\in D^b_{\mathrm{ctf}}(X,\Lambda)).
+\href{@definition-verdier-dual-evaluation}{\delta_K}:K\xrightarrow{\sim}\href{@definition-verdier-dual-evaluation}{\mathbb D_X}\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}
+\qquad(K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}).
 $$
 
 Thus [$\mathbb D_X$](@definition-verdier-dual-evaluation) is an exact anti-equivalence of

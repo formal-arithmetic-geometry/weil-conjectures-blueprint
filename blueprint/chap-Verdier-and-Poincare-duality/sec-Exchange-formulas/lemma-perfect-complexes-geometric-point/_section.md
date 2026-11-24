@@ -10,10 +10,10 @@ Suppose $k$ is algebraically closed. The category
 [$D^b_{\mathrm{ctf}}(s,\Lambda)$](@definition-constructible-sheaves) identifies with
 $\operatorname{Perf}(\Lambda)$, the category of bounded complexes of
 finite projective $\Lambda$-modules up to quasi-isomorphism. For
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, both
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$, both
 
 $$
-R\Gamma_c(X,K)=Ra_{X!}K,\qquad R\Gamma(X,K)=Ra_{X*}K
+R\Gamma_c(X,K)=\href{@proposition-construction-independence-rf-shriek}{Ra_{X!}K},\qquad R\Gamma(X,K)=Ra_{X*}K
 $$
 
 and every geometric stalk $K_{\bar x}$ are perfect complexes. Their duals $R\!\operatorname{Hom}_\Lambda(-,\Lambda)$ are perfect, and

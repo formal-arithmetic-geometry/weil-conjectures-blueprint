@@ -8,12 +8,12 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 The *dualizing complex* and the *Verdier dual* are
 
 $$
-\omega_X=a_X^!\Lambda_s,\qquad
+\omega_X=\href{@theorem-existence-exceptional-inverse-image}{a_X^!\Lambda_s},\qquad
 \mathbb D_XK=\cHom_{\Lambda_X}(K,\omega_X).
 $$
 
-Thus $\mathbb D_X:D(X_{\mathrm{pro}\acute{e}t},\Lambda)^{\mathrm{op}}\to
-D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is an exact functor. The *double-dual
+Thus $\mathbb D_X:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)^{\mathrm{op}}\to
+D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is an exact functor. The *double-dual
 morphism*
 
 $$

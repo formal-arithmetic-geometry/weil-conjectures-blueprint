@@ -7,14 +7,14 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $X/k$ be smooth and separated of pure dimension $d$, with $k$
 algebraically closed, let $\Lambda$ be a field (a finite coefficient
-field, $\mathbf Q_\ell$, $E$ or $\overline{\mathbf Q}_\ell$), let $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, and put
+field, $\mathbf Q_\ell$, $E$ or $\overline{\mathbf Q}_\ell$), let $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$, and put
 $K^\vee=\cHom_X(K,\Lambda_X)$. For every $i$ the pairings induced by
 [$\beta_K$](@theorem-poincare-duality),
 
 $$
-H_c^i(X,K)\times H^{2d-i}(X,K^\vee(d))\longrightarrow\Lambda,
+H_c^i(X,K)\times H^{2d-i}(X,\href{@definition-tate-twists}{K^\vee(d)})\longrightarrow\Lambda,
 \qquad
-H_c^i(X,K)\times H^{2d-i}(X,K^\vee)\longrightarrow\Lambda(-d),
+H_c^i(X,K)\times H^{2d-i}(X,K^\vee)\longrightarrow\href{@definition-tate-twists}{\Lambda(-d)},
 $$
 
 are [perfect pairings](@definition-perfect-pairing) of finite-dimensional vector spaces. If $X$ is

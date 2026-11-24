@@ -10,7 +10,7 @@ universal coefficient exact sequence
 $$
 0\longrightarrow
 \Ext^1_{\mathcal O_E}(H_c^{i+1}(X,K),\mathcal O_E)
-\longrightarrow H^{2d-i}(X,K^\vee(d))
+\longrightarrow H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee}\href{@definition-tate-twists}{(d)})
 \longrightarrow
 \Hom_{\mathcal O_E}(H_c^i(X,K),\mathcal O_E)
 \longrightarrow0.

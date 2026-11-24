@@ -13,26 +13,26 @@ with $K$ locally perfect.
 Equip the dual with the contragredient [Weil structure](@definition-weil-structure)
 
 $$
-\operatorname{Fr}_X^*K^\vee
+\operatorname{Fr}_X^*\href{@theorem-poincare-duality}{K^\vee}
 \simeq(\operatorname{Fr}_X^*K)^\vee
-\xrightarrow{\ (\phi_K^{-1})^\vee\ }K^\vee.
+\xrightarrow{\ (\href{@definition-weil-structure}{\phi_K^{-1}})^\vee\ }\href{@theorem-poincare-duality}{K^\vee}.
 $$
 
 For every admissible $\Lambda$ the Poincaré pairing [$\beta_K$](@theorem-poincare-duality) of (10.7)
 is a morphism of [Weil complexes](@definition-weil-structure). Thus, with $F$ the [Frobenius operators](@definition-frobenius-operator)
 defined above, the pairing
-$H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$ satisfies
+$H^i_c(X,K)\times H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee}\href{@definition-tate-twists}{(d)})\to\Lambda$ satisfies
 $\langle Fx,Fy\rangle=\langle x,y\rangle$, and the pairing
-$H^i_c(X,K)\times H^{2d-i}(X,K^\vee)\to\Lambda(-d)$ satisfies
+$H^i_c(X,K)\times H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})\to\href{@definition-tate-twists}{\Lambda(-d)}$ satisfies
 
 $$
 \langle Fx,Fy\rangle=q^d\langle x,y\rangle.
 $$
 
 If $\Lambda$ is a field, then $F$ is invertible on $H^i_c(X,K)$, and
-with respect to the second pairing $F$ on $H^{2d-i}(X,K^\vee)$ is $q^d$
+with respect to the second pairing $F$ on $H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})$ is $q^d$
 times the inverse transpose of $F$ on $H^i_c(X,K)$. Hence the two
 spaces have the same dimension $b$, the eigenvalues of $F$ on
-$H^{2d-i}(X,K^\vee)$ are the $q^d/\alpha$, with multiplicities, where
+$H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})$ are the $q^d/\alpha$, with multiplicities, where
 $\alpha$ ranges over the eigenvalues on $H^i_c(X,K)$, and
-$\det(F\mid H^i_c(X,K))\det(F\mid H^{2d-i}(X,K^\vee))=q^{db}$.
+$\det(F\mid H^i_c(X,K))\det(F\mid H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee}))=q^{db}$.

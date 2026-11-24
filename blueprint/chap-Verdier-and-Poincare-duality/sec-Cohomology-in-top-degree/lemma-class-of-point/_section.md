@@ -8,4 +8,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 In the setting of Theorem [theorem-trace-isomorphism-top-degree], we
 have $\operatorname{tr}_X(d)([x])=1$ for every closed point $x$ of $X$.
-In particular $[x]$ generates $H^{2d}(X,\Lambda_X(d))$.
+In particular $[x]$ generates $H^{2d}(X,\href{@definition-tate-twists}{\Lambda_X(d)})$.

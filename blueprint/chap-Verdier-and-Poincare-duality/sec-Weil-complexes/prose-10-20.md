@@ -22,16 +22,16 @@ $\operatorname{Fr}_U$ and to the Frobenius of the complement. These construction
 therefore carry [Weil structures](@definition-weil-structure) to [Weil structures](@definition-weil-structure), and the induced long exact
 cohomology sequences are Frobenius-equivariant.
 
-Let $(M,\phi_M)$ be a [Weil complex](@definition-weil-structure) on $X$ and let $f:X\to Y$ come from $f_0$
+Let $(M,\href{@definition-weil-structure}{\phi_M})$ be a [Weil complex](@definition-weil-structure) on $X$ and let $f:X\to Y$ come from $f_0$
 over $k_0$. The base change map for the cartesian square with horizontal
 arrows $\operatorname{Fr}_X$, $\operatorname{Fr}_Y$ identifies
-$\operatorname{Fr}_Y^*Rf_{!}M$ with $Rf_{!}\operatorname{Fr}_X^*M$, and the
+$\operatorname{Fr}_Y^*\href{@proposition-construction-independence-rf-shriek}{Rf_{!}M}$ with $\href{@proposition-construction-independence-rf-shriek}{Rf_{!}}\operatorname{Fr}_X^*M$, and the
 composite
 
 $$
-\operatorname{Fr}_Y^*Rf_{!}M
-\simeq Rf_{!}\operatorname{Fr}_X^*M
-\xrightarrow{\ Rf_{!}(\phi_M)\ }Rf_{!}M
+\operatorname{Fr}_Y^*\href{@proposition-construction-independence-rf-shriek}{Rf_{!}M}
+\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_{!}}\operatorname{Fr}_X^*M
+\xrightarrow{\ \href{@proposition-construction-independence-rf-shriek}{Rf_{!}}(\href{@definition-weil-structure}{\phi_M})\ }\href{@proposition-construction-independence-rf-shriek}{Rf_{!}M}
 $$
 
 is a [Weil structure](@definition-weil-structure) on [$Rf_!M$](@proposition-construction-independence-rf-shriek). Likewise $f^*$, $Rf_*$, [$f^!$](@theorem-existence-exceptional-inverse-image),
@@ -42,7 +42,7 @@ and base change along an isomorphism is transport of structure.
 
 For [$Rf_!$](@proposition-construction-independence-rf-shriek) this needs a word, since $\operatorname{Fr}_X$ and
 $\operatorname{Fr}_Y$ are not $k$-morphisms, while [$Rf_!$](@proposition-construction-independence-rf-shriek) is built from
-compactifications over $k$. We compute $Rf_!=R\bar f_*j_!$ with a
+compactifications over $k$. We compute $\href{@proposition-construction-independence-rf-shriek}{Rf_!}=R\bar f_*j_!$ with a
 compactification $X\overset{j}{\hookrightarrow}\bar X\xrightarrow{\bar f}Y$
 obtained by base change from a compactification of $f_0$ over $k_0$
 (Theorem [theorem-nagata-s-compactification-theorem]). Then
@@ -63,7 +63,7 @@ $\operatorname{Fr}^*$ are equivalences.
 
 Pullback along $\operatorname{Fr}_T$ on [compactly supported cohomology](@proposition-construction-independence-rf-shriek) is
 constructed in the same way. For a morphism of schemes $h:S'\to S$ and
-$L\in D(S_{\mathrm{pro}\acute{e}t},\Lambda)$, the *pullback map*
+$L\in D(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\Lambda)$, the *pullback map*
 
 $$
 \operatorname{pb}_{h,L}:R\Gamma(S,L)\longrightarrow R\Gamma(S',h^*L)

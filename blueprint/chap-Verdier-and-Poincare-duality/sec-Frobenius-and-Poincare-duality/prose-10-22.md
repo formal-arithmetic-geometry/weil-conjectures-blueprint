@@ -5,8 +5,8 @@ title = "Frobenius and Poincaré duality (1)"
 order = 881
 +++
 Let $X_0$ be smooth of pure dimension $d$ and let $K$ be locally perfect, so
-that $\mathbb D_XK\simeq K^\vee(d)[2d]$. In this case cup product pairs $H^i_c(X,K)$
-with $H^{2d-i}(X,K^\vee)$ and takes values in $H^{2d}_c(X,\Lambda)$. To use this pairing for the [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes) we need to know how $F$ acts on both sides.
+that $\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\simeq \href{@theorem-poincare-duality}{K^\vee}\href{@definition-tate-twists}{(d)}[2d]$. In this case cup product pairs $H^i_c(X,K)$
+with $H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})$ and takes values in $H^{2d}_c(X,\Lambda)$. To use this pairing for the [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes) we need to know how $F$ acts on both sides.
 The target is not the trivial [Weil complex](@definition-weil-structure) but
 [$\Lambda(-d)$](@definition-tate-twists), as for $\mathbf P^1$ above. If we forgot the twist, we
 would predict the relation $\alpha\leftrightarrow1/\alpha$ between

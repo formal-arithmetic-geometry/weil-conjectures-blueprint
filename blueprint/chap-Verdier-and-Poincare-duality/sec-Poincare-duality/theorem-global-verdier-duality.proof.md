@@ -6,12 +6,12 @@ uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map
 +++
 Both isomorphisms are the first two Verdier exchange formulas of
 Corollary [corollary-verdier-exchange-formulas] for $f=a_X$, so we only have to recognize the [Verdier dual](@definition-verdier-dual-evaluation) on the point as the linear dual. On $s$ the [dualizing complex](@definition-verdier-dual-evaluation) is
-$\Lambda_s$, so $\mathbb D_s=\cHom_s(-,\Lambda_s)$. Since $k$ is
+$\Lambda_s$, so $\href{@definition-verdier-dual-evaluation}{\mathbb D_s}=\cHom_s(-,\Lambda_s)$. Since $k$ is
 algebraically closed, Lemma [lemma-perfect-complexes-geometric-point] identifies
 [$D^b_{\mathrm{ctf}}(s,\Lambda)$](@definition-constructible-sheaves) with $\operatorname{Perf}(\Lambda)$. Under this identification, then, [$\mathbb D_s$](@definition-verdier-dual-evaluation) becomes $R\!\operatorname{Hom}_\Lambda(-,\Lambda)$, and the two [exchange
 formulas](@corollary-verdier-exchange-formulas) read (10.5) and
 (10.6). As for the pairing,
 Lemma [lemma-internal-adjunction-two-exchange-formulas]
 constructs the exchange formula (10.3) from
-evaluation and the counit of $Rf_!\dashv f^!$. For $f=a_X$ it is therefore
+evaluation and the counit of $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$. For $f=a_X$ it is therefore
 the adjoint of the displayed pairing.

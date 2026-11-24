@@ -4,10 +4,10 @@ of = "lemma-class-of-point"
 order = 870
 +++
 By definition, $[x]$ is the image
-of $1$ under the map induced by the counit $x_*x^!\omega_X\to\omega_X$,
+of $1$ under the map induced by the counit $x_*\href{@theorem-existence-exceptional-inverse-image}{x^!}\href{@definition-verdier-dual-evaluation}{\omega_X}\to\href{@definition-verdier-dual-evaluation}{\omega_X}$,
 and [$\operatorname{tr}_X(d)$](@theorem-trace-isomorphism-top-degree) is induced by the counit
-$Ra_{X*}\omega_X\to\Lambda$. Because [exceptional adjunctions](@theorem-existence-exceptional-inverse-image) compose, the
+$Ra_{X*}\href{@definition-verdier-dual-evaluation}{\omega_X}\to\Lambda$. Because [exceptional adjunctions](@theorem-existence-exceptional-inverse-image) compose, the
 composite of these two counits is the counit for $a_Xx=\mathrm{id}_s$,
-which is the identity of $\Lambda$. Thus $\operatorname{tr}_X(d)([x])=1$. Since
+which is the identity of $\Lambda$. Thus $\href{@theorem-trace-isomorphism-top-degree}{\operatorname{tr}_X(d)([x])}=1$. Since
 $\operatorname{tr}_X(d)$ is an isomorphism onto $\Lambda$ by
 Theorem [theorem-trace-isomorphism-top-degree], $[x]$ is a generator.

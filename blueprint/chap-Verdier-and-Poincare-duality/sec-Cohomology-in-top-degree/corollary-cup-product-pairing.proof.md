@@ -4,9 +4,9 @@ of = "corollary-cup-product-pairing"
 order = 873
 uses = ["corollary-continuity-cohomology", "lemma-identity-pasting", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-smooth-base-change-classical-torsion", "lemma-kunneth-one-identity-factor", "proposition-relative-dualizing-complex", "theorem-trace-isomorphism-top-degree", "proposition-weights-under-usual-operations"]
 +++
-For $K=\Lambda_X$ we have $K^\vee=\Lambda_X$, and since $X$ is proper,
+For $K=\Lambda_X$ we have $\href{@theorem-poincare-duality}{K^\vee}=\Lambda_X$, and since $X$ is proper,
 Corollary [corollary-degreewise-duality-over-fields] says that the pairing
-$H^i\times H^{2d-i}\to\Lambda(-d)$ induced by [$\beta_{\Lambda_X}$](@theorem-poincare-duality) is
+$H^i\times H^{2d-i}\to\href{@definition-tate-twists}{\Lambda(-d)}$ induced by [$\beta_{\Lambda_X}$](@theorem-poincare-duality) is
 [perfect](@definition-perfect-pairing). This pairing is $\langle-,-\rangle$, because it is cup product
 followed by the [trace map](@definition-trace-map) in top
 degree, that is, by the isomorphism $\operatorname{tr}_X$ of
