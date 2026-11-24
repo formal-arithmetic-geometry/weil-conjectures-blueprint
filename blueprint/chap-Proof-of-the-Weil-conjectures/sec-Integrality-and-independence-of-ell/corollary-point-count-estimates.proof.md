@@ -19,5 +19,5 @@ the remaining terms. In degree $i$, the trace is a sum of $b_i$
 eigenvalues of $F^m$, each of complex modulus $q^{mi/2}$ by
 Theorem [theorem-weil-conjectures-smooth-proper-schemes](2). Its
 absolute value is thus at most $b_iq^{mi/2}$, and the triangle
-inequality proves the first bound. For a curve, $b_1=2g$ by the
+inequality proves the first bound. For a curve, $\href{@theorem-weil-conjectures-smooth-proper-schemes}{b_1}=2g$ by the
 cohomology calculation of Appendix [chap-Cohomology-of-torsion-sheaves-on-curves].

@@ -11,7 +11,7 @@ and let $F$ be a [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-wei
 $w$. For every $i$, the canonical identification
 
 $$
-R^if_{0!}F=R^if_{0*}F
+\href{@proposition-construction-independence-rf-shriek}{R^if_{0!}F}=R^if_{0*}F
 $$
 
 is Weil-equivariant, and this [constructible sheaf](@definition-constructible-sheaves) is [punctually

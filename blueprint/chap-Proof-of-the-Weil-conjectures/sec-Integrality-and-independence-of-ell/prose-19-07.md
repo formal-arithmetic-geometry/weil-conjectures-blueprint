@@ -14,7 +14,7 @@ can be read off from $A$ and $B$.
 For a prime $\ell\nmid q$ put
 
 $$
-H^i_\ell=H^i(X_{\mathrm{pro}\acute{e}t},\mathbf Q_\ell),\qquad
+H^i_\ell=H^i(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Q_\ell),\qquad
 P_{i,\ell}(T)=\det(1-TF\mid H^i_\ell),\qquad
 b_{i,\ell}=\dim_{\mathbf Q_\ell}H^i_\ell.
 $$

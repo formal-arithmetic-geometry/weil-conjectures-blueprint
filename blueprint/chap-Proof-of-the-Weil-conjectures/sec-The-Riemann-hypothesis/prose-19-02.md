@@ -4,11 +4,11 @@ kind = "hidden"
 title = "The Riemann hypothesis (1)"
 order = 1371
 +++
-For a proper map we have $Rf_!=Rf_*$, so the upper bound of
+For a proper map we have $\href{@proposition-construction-independence-rf-shriek}{Rf_!}=Rf_*$, so the upper bound of
 Theorem [theorem-direct-image-mixed-sheaf] applies to ordinary
 cohomology. If the map is also smooth, [Poincaré duality](@theorem-poincare-duality-frobenius) on each fibre
 pairs $H^i(X_{\bar y},F)$ perfectly with
-$H^{2d-i}(X_{\bar y},F^\vee(d))$. The eigenvalues of the second group
+$H^{2d-i}(X_{\bar y},\href{@definition-tate-twists}{F^\vee(d)})$. The eigenvalues of the second group
 are the inverses of those of the first. The second group has [weights](@definition-weights) at
 most $(-w-2d)+(2d-i)=-w-i$, and this upper bound becomes the lower
 bound $w+i$ for the first.

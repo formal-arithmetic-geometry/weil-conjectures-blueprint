@@ -27,7 +27,7 @@ pairing](@definition-perfect-pairing)
 
 $$
 H^i(X_{\bar y},F)\times
-H^{2d-i}(X_{\bar y},F^\vee(d))\longrightarrow\overline{\mathbf Q}_\ell.
+H^{2d-i}(X_{\bar y},\href{@definition-tate-twists}{F^\vee(d)})\longrightarrow\overline{\mathbf Q}_\ell.
 $$
 
 Since the pairing is [perfect](@definition-perfect-pairing) and takes values in the trivial Weil

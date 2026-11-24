@@ -11,7 +11,7 @@ $X=X_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, let $\ell\nmid q$
 be a prime, and let
 $\iota:\overline{\mathbf Q}_\ell\hookrightarrow\mathbf C$ be a field
 embedding. Then every [geometric Frobenius](@definition-frobenius-operator) eigenvalue $\alpha$ on
-$H^i(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)$ satisfies
+$H^i(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\overline{\mathbf Q}_\ell)$ satisfies
 
 $$
 |\iota(\alpha)|=q^{i/2}.

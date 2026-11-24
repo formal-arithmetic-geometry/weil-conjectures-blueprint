@@ -14,7 +14,7 @@ The lower bound comes from [Poincaré duality](@theorem-poincare-duality-frobeni
 Let $X_0$ be a smooth projective curve and $\alpha$ an eigenvalue of
 Frobenius on $H^1(X,\overline{\mathbf Q}_\ell)$. Then Theorem [theorem-weights-rf-shriek],
 applied to the constant sheaf, gives $|\iota(\alpha)|\le q^{1/2}$. On the other hand, cup
-product is a [perfect pairing](@definition-perfect-pairing) $H^1\times H^1\to H^2=\overline{\mathbf Q}_\ell(-1)$, which
+product is a [perfect pairing](@definition-perfect-pairing) $H^1\times H^1\to H^2=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$, which
 Frobenius multiplies by $q$. Hence $q/\alpha$ is an eigenvalue as well,
 and the same bound for $q/\alpha$ says that $|\iota(\alpha)|\ge q^{1/2}$.
 In dimension $d$ the argument is the same: an eigenvalue $\alpha$ on
@@ -34,7 +34,7 @@ $\mathbf C$ extends to an isomorphism $\overline{\mathbf Q}_\ell\simeq\mathbf C$
 The polynomials $P_{i,\ell}=\det(1-TF\mid H^i(X,\mathbf Q_\ell))$ are defined with
 $\ell$-adic coefficients, and a priori they could depend on $\ell$. The
 [zeta function](@corollary-point-counting-zeta-function) does not mention $\ell$. It has a unique expression
-$Z(X_0,T)=A/B$ with $A,B\in\mathbf Z[T]$ coprime and $A(0)=B(0)=1$
+$\href{@corollary-point-counting-zeta-function}{Z(X_0,T)}=A/B$ with $A,B\in\mathbf Z[T]$ coprime and $A(0)=B(0)=1$
 (Lemma [lemma-reduced-fractions-integer-coefficients];
 Sections [sec-Rational-power-series]–[sec-Integrality-and-independence-of-ell]). Can each
 $P_{i,\ell}$ be read off from [$Z(X_0,T)$](@corollary-point-counting-zeta-function)? The [trace formula](@theorem-trace-formula-euler-product) writes $Z$
@@ -42,7 +42,7 @@ as the alternating product of the $P_{i,\ell}$, but an alternating
 product can cancel. For example, $X_0=\mathbf G_m\sqcup
 \operatorname{Spec}\mathbf F_q$ is not proper, and it has $q^m$ points
 over $\mathbf F_{q^m}$, as many as $\mathbf A^1$. Hence
-$Z(X_0,T)=1/(1-qT)$. Yet $H^0_c$ and $H^1_c$ are both one-dimensional
+$\href{@corollary-point-counting-zeta-function}{Z(X_0,T)}=1/(1-qT)$. Yet $H^0_c$ and $H^1_c$ are both one-dimensional
 with eigenvalue $1$, and the factor $1-T$ cancels between them. For a
 smooth proper $X_0$ [purity](@corollary-purity-cohomology-smooth-proper-variety) rules this out. The reciprocal roots of
 $P_{i,\ell}$ have absolute value $q^{i/2}$, so no root of $P_{i,\ell}$
