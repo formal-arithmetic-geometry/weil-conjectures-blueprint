@@ -4,8 +4,8 @@ of = "lemma-lattices-lisse-e-sheaves"
 order = 261
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "lemma-torsors-under-classical-groups", "proposition-sp-unique-adjoint"]
 +++
-Where $L$ is free of rank $r$, a lattice is the same as a lattice in $E^r$,
-so the sheaf of lattices is locally the constant sheaf on the discrete set
+Where $L$ is free of rank $r$, a [lattice](@definition-lattice) is the same as a lattice in $E^r$,
+so the sheaf of [lattices](@definition-lattice) is locally the constant sheaf on the discrete set
 $\GL_r(E)/\GL_r(\mathcal O_E)$. The representing scheme is obtained by
 descending the corresponding disjoint unions of copies of the
 trivializing objects.
@@ -14,12 +14,12 @@ The rank of $L$ is a locally constant function on $|X|$. Indeed, on a
 trivializing covering the subsets of constant rank are open, closed
 and saturated, and they descend by fpqc descent of open subsets. So
 $X$ is the disjoint union of the open and closed subsets on which the rank
-is constant. Since the sheaf of lattices restricts to the sheaf of lattices
+is constant. Since the sheaf of [lattices](@definition-lattice) restricts to the sheaf of [lattices](@definition-lattice)
 on each of them, we may assume that $L$ has constant rank $r$.
 
 We now construct the representing scheme.
-On a pro-étale affine $V$ where $L$ is free of rank $r$, the
-sheaf of lattices is the constant sheaf on the set
+On a [pro-étale affine](@definition-ind-etale-pro-etale-weakly) $V$ where $L$ is free of rank $r$, the
+sheaf of [lattices](@definition-lattice) is the constant sheaf on the set
 
 $$
 \GL_r(E)/\GL_r(\mathcal O_E)
@@ -44,7 +44,7 @@ indexed by a set $I$ is ind-quasi-affine, since its finite subunions are
 affine open subschemes and together they cover it. Since descent along fpqc coverings is
 effective for ind-quasi-affine morphisms [Stacks, [0APK](https://stacks.math.columbia.edu/tag/0APK)], the descent datum above is effective. Taking a finite
 affine trivializing covering of each affine open of $X$ and gluing, we
-therefore obtain a scheme representing the sheaf of lattices. This scheme is separated and
+therefore obtain a scheme representing the sheaf of [lattices](@definition-lattice). This scheme is separated and
 étale over $X$ by [Stacks, [02KU](https://stacks.math.columbia.edu/tag/02KU), [02VN](https://stacks.math.columbia.edu/tag/02VN)], and it is surjective because
 every free module has a lattice. By descent of sheaves of modules, this
-scheme carries a universal lattice.
+scheme carries a universal [lattice](@definition-lattice).

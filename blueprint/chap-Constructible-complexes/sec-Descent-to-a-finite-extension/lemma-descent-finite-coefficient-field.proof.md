@@ -5,9 +5,9 @@ order = 286
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 Morphisms descend because $\QbarX$ is the filtered colimit of the $E'_X$
-and Hom out of a constructible complex commutes with this colimit
+and Hom out of a [constructible complex](@definition-constructible-sheaves) commutes with this colimit
 (Lemma [lemma-continuity-ext-out-constructible-complex]). Objects are built from
-lisse sheaves by finitely many extensions, each classified by a
+[lisse sheaves](@definition-lisse-sheaves) by finitely many extensions, each classified by a
 morphism, and so they descend as well.
 
 (1) Extension of scalars $E'_X\otimes_{E_X}-$ is left adjoint to
@@ -27,7 +27,7 @@ $$
 
 which is the claim after the adjunction.
 
-(2) First let $K$ be a constructible $\QbarX$-module, with filtration
+(2) First let $K$ be a [constructible](@definition-constructible-sheaves) $\QbarX$-module, with filtration
 $N_1\subset\cdots\subset N_m=K$ as in
 Lemma [lemma-constructible-sheaves](3). We descend $N_k$ by induction on
 $k$. The subquotient $N_k/N_{k-1}=a_!L$ descends, because $L$ does by

@@ -5,34 +5,34 @@ order = 270
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "definition-local-cohomology", "proposition-ctf-equals-bc", "definition-compactification-refinement"]
 +++
 Part (1) is the substantial one. All three closure properties are local on a common
-stratification, so it suffices to treat lisse sheaves on a single stratum,
+stratification, so it suffices to treat [lisse sheaves](@definition-lisse-sheaves) on a single stratum,
 and there the only difficulty is the kernel of a morphism. Parts (2) and
 (3), by contrast, are formal.
 
-(1) Given finitely many constructible sheaves, we refine their
+(1) Given finitely many [constructible sheaves](@definition-constructible-sheaves), we refine their
 stratifications to a common one. Then all three closure properties can
 be checked on a single stratum $S$.
 
 *Extensions.* Let $0\to F'\to F\to F''\to0$ be exact with $F'$ and
-$F''$ lisse on $S$. After passing to a cover, $F'$ and $F''$ are free.
+$F''$ [lisse](@definition-lisse-sheaves) on $S$. After passing to a cover, $F'$ and $F''$ are free.
 Since $F\to F''$ is surjective, after a further cover a basis of $F''$
 lifts to sections of $F$. Hence the sequence splits locally, and
 $F$ is locally free of finite rank.
 
 *Kernels and cokernels.*
-Locally, a morphism of lisse sheaves is a matrix of continuous
+Locally, a morphism of [lisse sheaves](@definition-lisse-sheaves) is a matrix of continuous
 functions to $E$, and a priori its kernel need not be locally free. Once
-we choose lattices, however, the morphism becomes a constant matrix on
-a suitable pro-étale cover, because its reductions are maps of finite
+we choose [lattices](@definition-lattice), however, the morphism becomes a constant matrix on
+a suitable [pro-étale cover](@definition-small-pro-etale-site), because its reductions are maps of finite
 locally constant sheaves. The kernel and cokernel of a constant matrix
-over $E$ are constant of finite rank, and since being lisse is a local
-property for the pro-étale topology, this suffices.
+over $E$ are constant of finite rank, and since being [lisse](@definition-lisse-sheaves) is a local
+property for the [pro-étale topology](@definition-small-pro-etale-site), this suffices.
 
-First let $\Lambda=E$ and let $f:L\to L'$ be a morphism of lisse
-sheaves on $S$. By Lemma [lemma-lattices-lisse-e-sheaves] we may replace $S$
+First let $\Lambda=E$ and let $f:L\to L'$ be a morphism of [lisse
+sheaves](@definition-lisse-sheaves) on $S$. By Lemma [lemma-lattices-lisse-e-sheaves] we may replace $S$
 by a connected quasi-compact affine étale neighbourhood $V$ on which
-$L$ and $L'$ contain lattices $M$ and $N$. On a finite
-quasi-compact pro-étale covering trivializing both lattices, the matrix
+$L$ and $L'$ contain [lattices](@definition-lattice) $M$ and $N$. On a finite
+quasi-compact [pro-étale covering](@definition-small-pro-etale-site) trivializing both [lattices](@definition-lattice), the matrix
 entries of $f$ have a common denominator, so $h=\pi_E^mf$ maps $M$ into
 $N$ for some $m\ge0$.
 
@@ -46,24 +46,24 @@ $\mathcal O_E$-modules with continuous $\pi_1(V,\bar v)$-actions, and
 the reductions of $h$ give an equivariant map $h_{\bar v}$ between them.
 To make $h$ constant, note that each $M_n$ and $N_n$ becomes constant on a connected finite étale
 cover of the connected scheme $V$, and we may choose these covers to form
-a tower. Their inverse limit $V'\to V$ is a connected pro-étale
-covering, so maps between constant sheaves on $V'$ are constant.
-On $V'$ the lattices $M$ and $N$ are identified
+a tower. Their inverse limit $V'\to V$ is a connected [pro-étale
+covering](@definition-small-pro-etale-site), so maps between constant sheaves on $V'$ are constant.
+On $V'$ the [lattices](@definition-lattice) $M$ and $N$ are identified
 with the constant sheaves attached to $M_{\bar v}$ and $N_{\bar v}$, and
 $h$ with the constant matrix $h_{\bar v}$. Hence on $V'$ the kernel and
 the cokernel of $f=\pi_E^{-m}h$ are the constant sheaves attached to the
 kernel and the cokernel of $h_{\bar v}\otimes_{\mathcal O_E}E$. In particular
-they are lisse.
+they are [lisse](@definition-lisse-sheaves).
 
 For $\Lambda=\overline{\mathbf Q}_\ell$, we descend $L$, $L'$ and $f$ to a finite extension
 $E/\mathbf Q_\ell$ by Lemma [lemma-descent-lisse-qbar-sheaves-finite]. Since the
 functor $\QbarX\otimes_{E_X}-$ is exact, it takes the kernel and cokernel
 over $E$ to those of $f$. Finally, restriction to strata is exact, so the
-kernel and cokernel of a morphism of constructible sheaves on $X$ are
-constructible.
+kernel and cokernel of a morphism of [constructible sheaves](@definition-constructible-sheaves) on $X$ are
+[constructible](@definition-constructible-sheaves).
 
 (2) We choose the sites in a fixed universe. Up to isomorphism, a
-constructible sheaf is then determined by a finite stratification and, on
+[constructible sheaf](@definition-constructible-sheaves) is then determined by a finite stratification and, on
 each stratum, descent data of finite rank on a covering, and these data form a
 set.
 
@@ -71,6 +71,6 @@ set.
 there is an open stratum $j:U\hookrightarrow X$ with closed complement
 $i:Z\hookrightarrow X$ that is again a union of strata. The exact sequence
 $0\to j_!j^*F\to F\to i_*i^*F\to0$ separates the stratum $U$ from the rest,
-and here $j^*F$ is lisse. Applying the same step to $i^*F$ on $Z$ and iterating,
+and here $j^*F$ is [lisse](@definition-lisse-sheaves). Applying the same step to $i^*F$ on $Z$ and iterating,
 we obtain a finite filtration of $F$ whose subquotients are $a_!(F|_S)$ for
-the strata $a:S\hookrightarrow X$, and each $F|_S$ is lisse.
+the strata $a:S\hookrightarrow X$, and each $F|_S$ is [lisse](@definition-lisse-sheaves).

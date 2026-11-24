@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $\Lambda$ be a commutative condensed ring.
 
 1. Consider the following condition on a $\Lambda_X$-module $M$:
-   there is a pro-étale cover $\{U_i\to X\}$ and finitely presented
+   there is a [pro-étale cover](@definition-small-pro-etale-site) $\{U_i\to X\}$ and finitely presented
    modules $P_i$ over the ring $\Lambda(*)$ of sections over the point such that
    $$
    M|_{U_i}\simeq\Lambda_{U_i}\otimes_{\Lambda(*)}P_i.

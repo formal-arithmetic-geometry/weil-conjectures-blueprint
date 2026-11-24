@@ -24,14 +24,14 @@ reduction $K_1$ has $H^0=\mathbf F_E^{r+s}$ and $H^{-1}=\mathbf F_E^s$. Thus
 $H^{-1}(K_1)$ counts the cyclic torsion summands. For
 $K=\bigoplus_{n\geq1}\mathcal O_E/\pi_E^n$ we get
 $K_1=\bigoplus_{n\geq1}(\mathbf F_E\oplus\mathbf F_E[1])$. This is not
-constructible, because its cohomology is an infinite-dimensional vector space in
-degrees $0$ and $-1$. In other words, a constructible $K_1$ allows only finitely
+[constructible](@definition-constructible-sheaves), because its cohomology is an infinite-dimensional vector space in
+degrees $0$ and $-1$. In other words, a [constructible](@definition-constructible-sheaves) $K_1$ allows only finitely
 many torsion summands. For $P$ the single power $\pi_E^{\max e_i}$ then kills all
 the torsion, and this is the uniform rate.
 
-The completeness hypothesis cannot be dropped either. The module $E$ is
+The [completeness](@definition-derived-adic-completeness) hypothesis cannot be dropped either. The module $E$ is
 $\pi_E$-divisible, so $E\otimes^{\mathbf L}\mathcal O_E/\pi_E^n=0$ for all
-$n$. Hence $K_1=0$ is constructible, yet $E$ is not a finitely generated
-$\mathcal O_E$-module. The criterion does not apply because $E$ is not derived
-complete: its derived
+$n$. Hence $K_1=0$ is [constructible](@definition-constructible-sheaves), yet $E$ is not a finitely generated
+$\mathcal O_E$-module. The criterion does not apply because $E$ is not [derived
+complete](@definition-derived-adic-completeness): its derived
 completion $R\varprojlim_n(E\otimes^{\mathbf L}\mathcal O_E/\pi_E^n)$ is zero.

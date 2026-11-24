@@ -4,13 +4,13 @@ of = "lemma-lattices-after-finite-stratification"
 order = 291
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-lattices-lisse-e-sheaves", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
-Let $Y\to X$ be the étale $X$-scheme representing lattices in $L$
-(Lemma [lemma-lattices-lisse-e-sheaves]), with its universal lattice.
+Let $Y\to X$ be the étale $X$-scheme representing [lattices](@definition-lattice) in $L$
+(Lemma [lemma-lattices-lisse-e-sheaves]), with its universal [lattice](@definition-lattice).
 
 *Pushing down by the trace.* Choose finitely many quasi-compact
 affine opens of this scheme whose images cover $X$, and let
 $p:V\to X$ be their disjoint union. Then $p$ is quasi-compact, separated,
-surjective and étale, and the universal lattice gives a lattice
+surjective and étale, and the universal [lattice](@definition-lattice) gives a [lattice](@definition-lattice)
 $M_0\subset p^*L$. By [Stacks, [07RY](https://stacks.math.columbia.edu/tag/07RY), [07RZ](https://stacks.math.columbia.edu/tag/07RZ)], $X$ has a finite
 stratification by locally closed subschemes over each of which $p$ is
 finite étale and surjective. On such a stratum $S$, let
@@ -22,12 +22,12 @@ $$
 p_*M_0\longrightarrow p_*p^*L\xrightarrow{\operatorname{Tr}}L.
 $$
 
-To see that $L_0$ is a lattice, we split the finite étale cover
+To see that $L_0$ is a [lattice](@definition-lattice), we split the finite étale cover
 locally on $S$ into $d$ copies of $S$. Then $p_*M_0$ is a direct sum of
-$d$ lattices $M_1,\dots,M_d$ in $L$, and the trace is their sum, so
+$d$ [lattices](@definition-lattice) $M_1,\dots,M_d$ in $L$, and the trace is their sum, so
 $L_0=M_1+\cdots+M_d$. If we further trivialize $L$ pro-étale locally,
 each $M_k$ becomes a locally constant function to the discrete set of lattices
 in $E^r$, and after a common refinement each $M_k$ is the constant sheaf
 attached to a lattice $N_k\subset E^r$. Then $L_0$ is the constant sheaf
 attached to $N_1+\cdots+N_d$, which is a finite free $\mathcal O_E$-lattice
-spanning $E^r$. Hence $L_0$ is lisse and $L_0[1/\ell]=L|_S$.
+spanning $E^r$. Hence $L_0$ is [lisse](@definition-lisse-sheaves) and $L_0[1/\ell]=L|_S$.

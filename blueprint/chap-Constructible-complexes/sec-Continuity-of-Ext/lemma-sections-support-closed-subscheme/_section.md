@@ -15,11 +15,11 @@ $$
 R\underline\Gamma_Z K=i^*\fib(K\longrightarrow Rj_*j^*K).
 $$
 
-For a sheaf $M$ of $\Lambda_X$-modules on $X_{\mathrm{pro}\acute{e}t}$, let
+For a sheaf $M$ of $\Lambda_X$-modules on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), let
 $\underline\Gamma_Z(M)=i^*\ker(M\to j_*j^*M)$, the sheaf on $Z$ of
 sections of $M$ with support in $Z$.
 
-1. $R\underline\Gamma_Z$ is the right derived functor of
+1. [$R\underline\Gamma_Z$](@definition-local-cohomology) is the right derived functor of
    $\underline\Gamma_Z$. Consequently the adjunction of
    Lemma [lemma-local-cohomology-right-adjoint] holds in the form
    $R\!\operatorname{Hom}_X(i_*N,K)=R\!\operatorname{Hom}_Z(N,R\underline\Gamma_ZK)$.

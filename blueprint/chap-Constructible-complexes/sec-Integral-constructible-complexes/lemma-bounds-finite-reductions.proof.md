@@ -7,22 +7,22 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "le
 Everything about $K_n$ is obtained from $K_1$ by induction on $n$, using
 that $K_n$ is an extension of $K_{n-1}$ by $K_1$. The Tor bound needs an
 extra argument with minimal resolutions, and the bound on $K$ itself then
-follows from the Milnor sequence.
+follows from the [Milnor sequence](@proposition-milnor-sequence).
 
 The filtration of $\mathcal O_E/\pi_E^n$ by the powers of $\pi_E$ has
 graded pieces $\mathbf F_E$. Tensoring its short exact sequences with
 $K$ over $\mathcal O_{E,X}$, we get triangles
 $K_1\to K_{n}\to K_{n-1}$, up to the identification
 $\pi_E^{n-1}\mathcal O_E/\pi_E^n\simeq\mathbf F_E$. Moreover, complexes with
-constructible cohomology in $[a,b]$ are closed under extensions in
+[constructible](@definition-constructible-sheaves) cohomology in $[a,b]$ are closed under extensions in
 triangles, by the long exact cohomology sequence and the fact
-that constructible sheaves form a weak Serre subcategory. Induction on $n$ now shows
-that $K_n$ is bounded in $[a,b]$ with constructible cohomology. Since locally constant
+that [constructible sheaves](@definition-constructible-sheaves) form a weak Serre subcategory. Induction on $n$ now shows
+that $K_n$ is bounded in $[a,b]$ with [constructible](@definition-constructible-sheaves) cohomology. Since locally constant
 finite sheaves of modules also form a weak Serre subcategory, the same
 induction works on a fixed stratum, and a single stratification works for
 all $n$. By the comparison theorem for constructible sheaves
 (Theorem [theorem-comparison-constructible-sheaves]), these finite sheaves and
-complexes are classical, that is, pulled back from the étale site.
+complexes are [classical](@definition-classical-pro-etale-sheaves), that is, pulled back from the étale site.
 
 For the Tor bound we use
 $K_n\otimes^{\mathbf L}_{\mathcal O_E/\pi_E^n}\mathbf F_E\simeq K_1$.
@@ -38,9 +38,9 @@ in degree $q$ is therefore $\dim_{\mathbf F_E}H^q(K_1)_{\bar x}$. This vanishes
 outside $[a,b]$, and we conclude that the stalk has a bounded finite free
 resolution in $[a,b]$. Such a bound on stalks gives the same Tor bound on the
 étale site, and Corollary [corollary-finite-tor-amplitude-under-comparison] carries
-it to the pro-étale site, for Tor against arbitrary sheaves of modules there.
+it to the [pro-étale site](@definition-small-pro-etale-site), for Tor against arbitrary sheaves of modules there.
 
-By completeness $K=R\varprojlim K_n$, so the Milnor sequence
+By [completeness](@definition-derived-adic-completeness) $K=R\varprojlim K_n$, so the Milnor sequence
 (2.2) gives the lower bound and the vanishing above
 $b+1$. For $H^{b+1}(K)$ we use the top degree, where
 $H^b(K_n)=H^b(K_{n+1})\otimes_{\mathcal O_E/\pi_E^{n+1}}\mathcal O_E/\pi_E^n$,

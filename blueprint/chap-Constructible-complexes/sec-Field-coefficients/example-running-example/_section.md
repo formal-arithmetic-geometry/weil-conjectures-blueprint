@@ -11,11 +11,11 @@ $$
 \qquad \mathbf A^1_k\xrightarrow{\ j_\infty\ }\mathbf P^1_k .
 $$
 
-The sheaf $j_!\Lambda_{\mathbf G_m}$ is constructible for the
+The sheaf $j_!\Lambda_{\mathbf G_m}$ is [constructible](@definition-constructible-sheaves) for the
 stratification $\mathbf A^1=\mathbf G_m\sqcup\{0\}$. Its stalk is
 $\Lambda$ at a geometric point of $\mathbf G_m$ and $0$ at the origin,
-so it is not lisse on $\mathbf A^1$, and the sequence of part (3) is the
-localization sequence
+so it is not [lisse](@definition-lisse-sheaves) on $\mathbf A^1$, and the sequence of part (3) is the
+[localization sequence](@proposition-extension-zero-restriction-closed-subscheme)
 
 $$
 0\to j_!\Lambda_{\mathbf G_m}\to\Lambda_{\mathbf A^1}\to i_*\Lambda\to0 .
