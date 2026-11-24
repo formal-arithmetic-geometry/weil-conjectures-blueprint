@@ -6,5 +6,5 @@ order = 753
 +++
 In part (1) the morphism $h$ is arbitrary. Blowups in general commute
 only with flat base change, but by its
-description in local coordinates, the deformation space of a section of a
+description in local coordinates, the [deformation space](@definition-deformation-normal-bundle) of a section of a
 smooth morphism commutes with arbitrary base change.

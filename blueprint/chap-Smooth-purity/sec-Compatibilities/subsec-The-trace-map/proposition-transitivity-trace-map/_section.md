@@ -9,7 +9,7 @@ uses = ["definition-small-pro-etale-site", "definition-constructible-sheaves", "
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative
 dimensions $d$ and $e$, and $K\in D^b_{\mathrm{ctf}}(Z,\Lambda)$ for any admissible
 $\Lambda$. Then
-$\operatorname{Tr}_{g\circ f}(K)$ is the composite
+[$\operatorname{Tr}_{g\circ f}(K)$](@definition-trace-map) is the composite
 
 $$
 \begin{gathered}

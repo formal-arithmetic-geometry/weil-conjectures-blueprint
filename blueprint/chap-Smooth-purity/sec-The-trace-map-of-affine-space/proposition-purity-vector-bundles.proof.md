@@ -24,7 +24,7 @@ $$
 These maps commute with base change in $U$, because the construction uses
 only $c_1(\mathcal O_{\mathbf P^1_U}(1))$, the splitting
 (9.8) and localization at infinity: pullback
-preserves the Kummer class, and proper base change and localization
+preserves the Kummer class, and [proper base change](@theorem-results-from-etale-theory) and localization
 identify the pullbacks of the constructions with those over the new base.
 
 *Independence of the trivialization.* A change of trivialization
@@ -39,8 +39,8 @@ $$
 $$
 
 be the universal linear change of coordinates, an automorphism over
-$\GL_{d,S}$. It induces an automorphism of the compactly supported
-direct image of $(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^d_{\GL_{d,S}}}(d)[2d]$
+$\GL_{d,S}$. It induces an automorphism of the [compactly supported
+direct image](@proposition-construction-independence-rf-shriek) of $(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^d_{\GL_{d,S}}}(d)[2d]$
 to $\GL_{d,S}$, which the trace map identifies with the constant sheaf
 $(\mathbf Z/\ell^n\mathbf Z)_{\GL_{d,S}}$ in degree zero, so that this
 automorphism is multiplication by a section
@@ -83,7 +83,7 @@ $$
 Its adjoint under $R\pi_!\dashv\pi^{!}$
 (Proposition [proposition-exceptional-inverse-image-smooth-morphism](1)) is the asserted map.
 We show that it is an isomorphism. This may be checked locally on $V$,
-because $\pi^!$ commutes with restriction to opens. Over each trivializing
+because [$\pi^!$](@theorem-existence-exceptional-inverse-image) commutes with restriction to opens. Over each trivializing
 open, $\operatorname{Tr}_\pi$ is $\operatorname{Tr}_\tau$ by construction,
 so there the map is the isomorphism given by the adjunction for
 affine space following (9.11).

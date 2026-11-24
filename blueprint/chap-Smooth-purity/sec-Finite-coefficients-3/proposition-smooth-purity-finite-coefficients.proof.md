@@ -12,7 +12,7 @@ projective line has two free summands, and its integration and triangle
 identities keep the same normalization, since
 (9.9) is an identity of endomorphisms of a
 constant sheaf and is preserved by extension of scalars. So the local
-adjunctions compute $f_A^!$, and the arguments for vector bundles and
+adjunctions compute [$f_A^!$](@theorem-existence-exceptional-inverse-image), and the arguments for vector bundles and
 deformations then show that $\omega_{f,A}\simeq A_X(d)[2d]$. We define $\gamma_{f,A}(K)$
 as the composite
 

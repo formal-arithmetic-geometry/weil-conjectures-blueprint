@@ -5,23 +5,23 @@ title = "The trace map of affine space (2)"
 order = 740
 +++
 The geometric computations with finite coefficients in
-Section [sec-Conventions-2] are stated on the pro-étale site
+Section [sec-Conventions-2] are stated on the [pro-étale site](@definition-small-pro-etale-site)
 and proved by calculations on the étale site. By
 Corollary [corollary-finite-tor-amplitude-under-comparison], Theorem [theorem-comparison-direct-images]
 with (2.10), and
 Proposition [proposition-comparison-etale-derived-category], the pro-étale and étale categories
-$D^b_{\mathrm{ctf}}(-,A)$, and the localizing subcategories they generate, are identified compatibly with
+[$D^b_{\mathrm{ctf}}(-,A)$](@definition-constructible-sheaves), and the [localizing subcategories](@definition-localizing-subcategory) they generate, are identified compatibly with
 pullback, direct image and extension by zero. In particular
 $Rf_!=R\bar f_*\circ j_!$ is computed on the étale sites.
-Consequently, an adjunction between $Rf_!$ and some functor $G$ on the étale
+Consequently, an adjunction between [$Rf_!$](@proposition-construction-independence-rf-shriek) and some functor $G$ on the étale
 categories $D^b_{\mathrm{ctf}}(-_{\acute{e}t},A)$ transfers to the pro-étale categories
-$D^b_{\mathrm{ctf}}(-_{\mathrm{pro}\acute{e}t},A)$. Indeed, the Hom groups agree by full faithfulness, and
-the two functors $Rf_!$ correspond to each other.
+[$D^b_{\mathrm{ctf}}(-_{\mathrm{pro}\acute{e}t},A)$](@definition-constructible-sheaves). Indeed, the Hom groups agree by full faithfulness, and
+the two functors [$Rf_!$](@proposition-construction-independence-rf-shriek) correspond to each other.
 
 By Proposition [proposition-comparison-etale-derived-category], the functor $f^!$ on
-$\Loc(D^b_{\mathrm{ctf}}(-,\mathbf Z/\ell^n\mathbf Z))$ of Theorem [theorem-existence-exceptional-inverse-image]
+[$\Loc(D^b_{\mathrm{ctf}}(-,\mathbf Z/\ell^n\mathbf Z))$](@definition-localizing-subcategory) of Theorem [theorem-existence-exceptional-inverse-image]
 is the étale functor $f^!$ on $D(-_{\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$ of
-Section [sec-Conventions-2], and it preserves $D^b_{\mathrm{ctf}}$ by
+Section [sec-Conventions-2], and it preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) by
 Theorem [theorem-f-shriek-finite-coefficients]. Hence, for $f:X\to Y$ smooth of pure
 relative dimension $d$, Proposition [proposition-exceptional-inverse-image-smooth-morphism](1) gives
 the local form of $Rf_!\dashv f^!$: on an open $U\subset X$ with
@@ -36,9 +36,9 @@ with counit the sum over the fibres of $e$ followed by
 
 Since a right adjoint is unique up to a unique isomorphism preserving the
 counit, these counits on charts agree on overlaps with the counit of
-$Rf_!\dashv f^!$. With finite coefficients, then, $f^!$ exists first and
+$Rf_!\dashv f^!$. With finite coefficients, then, [$f^!$](@theorem-existence-exceptional-inverse-image) exists first and
 the charts describe it. For towers, by contrast, there is no global functor yet, and we
-glue $f^!$ from models on charts by a Mayer–Vietoris argument, which uses the
+glue [$f^!$](@theorem-existence-exceptional-inverse-image) from models on charts by a Mayer–Vietoris argument, which uses the
 triangle for an open cover $X=U\cup V$ and $N\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},\mathbf Z/\ell^n\mathbf Z)$:
 
 $$
@@ -61,7 +61,7 @@ $\operatorname{Hom}(-,H)$ and $\operatorname{Hom}(Rf_!(-),K)$ to
 $b\mapsto\varepsilon\circ Rf_!(b)$ form a morphism between the two long exact
 sequences, which is bijective on the terms coming from $U$, $V$ and $U\cap V$.
 By the five lemma it is bijective on $\operatorname{Hom}(M,H)$, which means
-that $(H,\varepsilon)$ represents $\operatorname{Hom}(Rf_!(-),K)$. Since such a
+that $(H,\varepsilon)$ [represents](@definition-representing-objects) $\operatorname{Hom}(Rf_!(-),K)$. Since such a
 pair is unique up to a unique isomorphism compatible with $\varepsilon$,
 we get $H\simeq f^!K$ compatibly with the counits. In Section [sec-ell-adic-coefficients-4] we use this gluing to realize
 the compatible counits with finite coefficients as a single map of towers.
@@ -70,5 +70,5 @@ On a vector bundle, the choice of a local trivialization transports
 (9.11) to a trace map. These maps do not
 depend on the trivialization, so they glue to a global map. This is the
 model case of the orientation below, because deformation to the normal
-bundle will reduce the dualizing complex of a smooth morphism to that of a
+bundle will reduce the [dualizing complex](@definition-relative-dualizing-complex) of a smooth morphism to that of a
 vector bundle.

@@ -23,9 +23,9 @@ projective line in $D(\operatorname{Tow})$, and extension by zero and the
 
 We glue the local adjunctions in $D(\operatorname{Tow})$, by induction on a
 finite cover. Let $X=U\cup V$, and let $(H_U,\varepsilon_U)$ and
-$(H_V,\varepsilon_V)$ be pairs representing $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$
+$(H_V,\varepsilon_V)$ be pairs [representing](@definition-representing-objects) $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$
 on $U$ and on $V$. Put $W=U\cap V$. Both pairs restrict to pairs
-representing this functor on $W$, so by Yoneda there is a unique
+[representing](@definition-representing-objects) this functor on $W$, so by Yoneda there is a unique
 counit-preserving isomorphism between the restrictions, and we call the
 common restriction $H_W$. Let $H$ be the cone of
 $j_{W!}H_W\to j_{U!}H_U\oplus j_{V!}H_V$, as in the triangle
@@ -33,19 +33,19 @@ $j_{W!}H_W\to j_{U!}H_U\oplus j_{V!}H_V$, as in the triangle
 agree on $Rf_{!,\bullet}j_{W!}H_W$, the exact Hom sequence shows that they
 lift to a counit $\varepsilon:Rf_{!,\bullet}H\to K_\bullet$. The
 five lemma, applied as in the finite case, then shows that $(H,\varepsilon)$
-represents $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$ on $X$. The
+[represents](@definition-representing-objects) $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$ on $X$. The
 tower $H$ is also constructible. Indeed, $H|_U\simeq H_U$ and $H|_V\simeq H_V$,
-so the union of their intervals bounds its cohomology and Tor amplitude
+so the union of their intervals bounds its cohomology and [Tor amplitude](@definition-constructible-sheaves)
 uniformly in $n$.
 
 Repeating this step over a finite cover of $X$ by charts gives a pair
-representing $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$ on all of
+[representing](@definition-representing-objects) $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$ on all of
 $X$, and we let $f^!_\bullet K_\bullet$ be its object. By uniqueness of
-representing pairs, this is functorial in $K_\bullet$ and gives the
+[representing](@definition-representing-objects) pairs, this is functorial in $K_\bullet$ and gives the
 adjunction (9.18).
 
 The levels are the finite ones, because evaluation at level $n$ carries the
-glued pair to a pair representing $\operatorname{Hom}(Rf_!(-),K_n)$ with
+glued pair to a pair [representing](@definition-representing-objects) $\operatorname{Hom}(Rf_!(-),K_n)$ with
 coefficients $\mathcal O_E/\ell^n$. Indeed, on each chart it is the local
 finite adjunction, and the five lemma argument applies at level $n$, so by
 uniqueness this pair is the finite one. As the counit is one morphism of

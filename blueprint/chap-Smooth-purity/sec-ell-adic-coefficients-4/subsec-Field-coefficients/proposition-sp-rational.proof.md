@@ -8,7 +8,7 @@ An adjunction is a natural bijection of Hom groups, and by
 tensored with $E$. So we compute both sides on integral models.
 Choose integral models $M_0$ and $K_0$, so that $M=M_0[1/\ell]$ and
 $K=K_0[1/\ell]$. By (9.21) twice and
-Proposition [proposition-sp-integral-adjunction] with $\gamma_{f,\mathcal O_E}$,
+Proposition [proposition-sp-integral-adjunction] with [$\gamma_{f,\mathcal O_E}$](@theorem-smooth-purity-all-admissible-coefficients),
 
 $$
 \begin{aligned}

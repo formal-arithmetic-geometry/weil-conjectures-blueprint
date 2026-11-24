@@ -12,7 +12,7 @@ Proposition [proposition-six-operations-change-coefficients] and let
 $K\in D^b_{\mathrm{ctf}}(Y,\Lambda)$. Then the change-of-coefficients isomorphism
 $(f^!K)_{\Lambda'}\to f^!(K_{\Lambda'})$ carries
 $(\gamma_{f,\Lambda}(K))_{\Lambda'}$ to $\gamma_{f,\Lambda'}(K_{\Lambda'})$, the
-sources being identified by the change-of-coefficients isomorphism for $f^*$.
-The same holds for the trace maps: the change-of-coefficients isomorphism for
-$Rf_!$ carries $(\operatorname{Tr}_{f,\Lambda}(K))_{\Lambda'}$ to
+sources being identified by the [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for $f^*$.
+The same holds for the [trace maps](@definition-trace-map): the [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for
+[$Rf_!$](@proposition-construction-independence-rf-shriek) carries $(\operatorname{Tr}_{f,\Lambda}(K))_{\Lambda'}$ to
 $\operatorname{Tr}_{f,\Lambda'}(K_{\Lambda'})$.

@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Smooth purity"
 order = 724
 +++
-Poincaré duality for a smooth variety $X$ of dimension $d$ pairs
+[Poincaré duality](@theorem-poincare-duality) for a smooth variety $X$ of dimension $d$ pairs
 $H^i_c(X,\Lambda)$ with $H^{2d-i}(X,\Lambda(d))$ through the cup product and a
 trace map $H^{2d}_c(X,\Lambda(d))\to\Lambda$. If $a$ is the structure map of $X$,
 such a trace map is the counit of $Ra_!\dashv a^!$, once we know that
@@ -38,11 +38,11 @@ coordinates multiplies the trace map of $\mathbf A^d$ by a locally constant
 unit on $\operatorname{GL}_d$, and this unit is $1$ at the identity, hence
 everywhere, since $\operatorname{GL}_d$ has connected geometric fibres. So
 every vector bundle has a canonical trace map
-(Proposition [proposition-purity-vector-bundles]). The trace map has source $H^{2d}_c(-,\Lambda(d))$, so the Tate twist
-$\Lambda(d)$ plays the role of the orientation sheaf. Over an
+(Proposition [proposition-purity-vector-bundles]). The trace map has source $H^{2d}_c(-,\Lambda(d))$, so the [Tate twist
+$\Lambda(d)$](@definition-tate-twists) plays the role of the orientation sheaf. Over an
 algebraically closed field a compatible system of roots of unity
-trivializes $\Lambda(d)$, but not canonically, and over $\mathbf F_q$ the
-twist is visible: there geometric Frobenius acts on $\Lambda(1)$ by $q^{-1}$ (Section [sec-Weil-complexes]),
+trivializes [$\Lambda(d)$](@definition-tate-twists), but not canonically, and over $\mathbf F_q$ the
+twist is visible: there geometric Frobenius acts on [$\Lambda(1)$](@definition-tate-twists) by $q^{-1}$ (Section [sec-Weil-complexes]),
 and this is where the factor $q^d$ in Weil's Poincaré duality comes from.
 
 Connectedness of $\operatorname{GL}_d$ does not settle the gluing, because two

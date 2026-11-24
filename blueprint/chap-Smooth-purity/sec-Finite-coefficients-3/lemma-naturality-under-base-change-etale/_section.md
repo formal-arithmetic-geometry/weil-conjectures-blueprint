@@ -17,8 +17,8 @@ for the comparison of Lemma [lemma-section-normal-bundle].
    \mathcal D_{s'(S')}V'
    \simeq\mathcal D_{s(S)}V\times_SS'.
    $$
-   Under these identifications and the exceptional base change
-   isomorphisms of Proposition [proposition-exceptional-inverse-image-smooth-morphism](3), the
+   Under these identifications and the [exceptional base change
+   isomorphisms](@definition-exceptional-base-change-map) of Proposition [proposition-exceptional-inverse-image-smooth-morphism](3), the
    following square commutes:
    $$
    \begin{CD}
@@ -31,7 +31,7 @@ for the comparison of Lemma [lemma-section-normal-bundle].
    $s':S\to V'$ be a closed section such that $es'=s$ and
    $e^{-1}(s(S))=s'(S)$ scheme-theoretically. Put $g'=ge$.
    The induced map $N_{s'}\to N_s$ is a linear isomorphism, and the
-   induced map of deformation spaces is étale. The identifications
+   induced map of [deformation spaces](@definition-deformation-normal-bundle) is étale. The identifications
    $$
    (s')^*\omega_{g'}\simeq s^*\omega_g,\qquad
    (z')^*\omega_{\pi'}\simeq z^*\omega_\pi

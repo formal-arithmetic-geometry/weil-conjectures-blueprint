@@ -40,19 +40,19 @@ closed in it, and we remove the complement, which is closed in $U_\alpha$.
 Then $e_\alpha$ is an étale map of pairs whose square of centers is
 cartesian. Since blowing up and removing the strict transform commute with
 étale base change, $e_\alpha$ induces an étale map from a
-neighbourhood of the deformed section in $\mathcal D_{s(S)}V$ to the
-deformation space of the zero section of $\mathbf A^d_{S_\alpha}$. The latter
+neighbourhood of the deformed section in [$\mathcal D_{s(S)}V$](@definition-deformation-normal-bundle) to the
+[deformation space](@definition-deformation-normal-bundle) of the zero section of $\mathbf A^d_{S_\alpha}$. The latter
 is $\mathbf A^d_{\mathbf A^1_{S_\alpha}}$, with coordinates $u_1,\ldots,u_d$
 and $t$, and its map to $\mathbf A^d_{S_\alpha}\times\mathbf A^1$ sends
 $(u,t)$ to $(tu,t)$, that is, $x_i=tu_i$, and the deformed zero section is
 $u=0$.
 
-The adjunction for affine space identifies the relative dualizing complex
+The adjunction for affine space identifies the [relative dualizing complex](@definition-relative-dualizing-complex)
 of the projection
 $\mathbf A^d_{\mathbf A^1_{S_\alpha}}\to\mathbf A^1_{S_\alpha}$ with the
 constant sheaf $(\mathbf Z/\ell^n\mathbf Z)(d)[2d]$. Pulling back along the
 étale map just constructed, and composing adjunctions for it, gives the
-same identification for $\omega_{\widetilde g}$ near the deformed section.
+same identification for [$\omega_{\widetilde g}$](@definition-relative-dualizing-complex) near the deformed section.
 Similarly, the chart $e_\alpha$ gives the analogous identification of
 $s^{*}\omega_{g}$ over $S_\alpha$. Composing the two identifications we
 obtain an isomorphism over $\mathbf A^1_{S_\alpha}$

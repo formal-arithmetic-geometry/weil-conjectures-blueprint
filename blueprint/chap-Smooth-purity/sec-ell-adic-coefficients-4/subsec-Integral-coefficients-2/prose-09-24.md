@@ -19,12 +19,12 @@ $$
 \tag{9.19}
 $$
 
-whose level $n$ is $\gamma_{f,\mathcal O_E/\ell^n}(K_n)$.
+whose level $n$ is [$\gamma_{f,\mathcal O_E/\ell^n}(K_n)$](@proposition-smooth-purity-finite-coefficients).
 
 Both functors in
 (9.18) preserve normalized towers. For
 $Rf_{!,\bullet}$ this follows from the comparison $b$, and for
-$f_\bullet^!$ from (9.17) and
+[$f_\bullet^!$](@proposition-sp-tower-geometric) from (9.17) and
 (9.19).
 
 Since $R\bar f_*$ and $j_!$ commute with $R\varprojlim$ [Stacks, [09BP](https://stacks.math.columbia.edu/tag/09BP)], we have
@@ -43,6 +43,6 @@ $$
 the derived limit of the normalized tower $f_\bullet^!\operatorname{red}_YK$.
 
 The functor $H_{f,\mathcal O_E}$ is given by an
-explicit formula, whereas we only know that $f^!_{\mathcal O_E}$ exists. The
+explicit formula, whereas we only know that [$f^!_{\mathcal O_E}$](@theorem-existence-exceptional-inverse-image) exists. The
 next proposition shows that the formula defines a right adjoint, and so,
-by uniqueness, computes $f^!_{\mathcal O_E}$.
+by uniqueness, computes [$f^!_{\mathcal O_E}$](@theorem-existence-exceptional-inverse-image).
