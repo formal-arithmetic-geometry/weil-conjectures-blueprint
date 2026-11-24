@@ -16,7 +16,7 @@ scalar on each simple factor of every [tensor construction](@definition-tensor-c
 then gives the [determinant weight](@definition-determinant-weight).
 
 In a simple example Frobenius itself does this. Take
-$V=\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ on a curve over $\mathbf F_q$, on which a Frobenius
+$V=\overline{\mathbf Q}_\ell\oplus\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$ on a curve over $\mathbf F_q$, on which a Frobenius
 element $s$ of degree one acts by $\operatorname{diag}(1,q)$. Here the
 [geometric monodromy](@definition-monodromy-groups) is trivial, so the [arithmetic monodromy group](@definition-monodromy-groups) $G$ is
 the torus $\{\operatorname{diag}(1,t)\}$, and $\rho(s)$ is central in
