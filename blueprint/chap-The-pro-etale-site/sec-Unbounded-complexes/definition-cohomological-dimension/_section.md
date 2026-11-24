@@ -11,10 +11,10 @@ For a qcqs scheme $S$ and a qcqs morphism $g:X\to Y$, the
 
 $$
 \begin{aligned}
-\operatorname{cd}_\ell(S)&=\sup\{q: H^q(S_{\mathrm{pro}\acute{e}t},F)\neq0
+\operatorname{cd}_\ell(S)&=\sup\{q: H^q(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},F)\neq0
 \text{ for some classical $\ell$-power torsion sheaf $F$}\},\\
 \operatorname{cd}_\ell(g)&=\sup\{q: R^qg_*F\neq0
-\text{ for some classical $\ell$-power torsion sheaf $F$ on }X_{\mathrm{pro}\acute{e}t}\}.
+\text{ for some classical $\ell$-power torsion sheaf $F$ on }\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}}\}.
 \end{aligned}
 $$
 

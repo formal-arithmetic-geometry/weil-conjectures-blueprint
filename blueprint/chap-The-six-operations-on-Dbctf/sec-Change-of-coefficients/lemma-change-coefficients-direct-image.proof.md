@@ -30,7 +30,7 @@ $k$, and so it applies to every finite $A$-algebra $B$. Since
 these isomorphisms commute with restriction in $V$, the comparison map is
 an isomorphism in $D(Y_{\acute{e}t},B)$, and hence, by
 Proposition [proposition-comparison-etale-derived-category], in
-$D(Y_{\mathrm{pro}\acute{e}t},B)$.
+$D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},B)$.
 
 *Maps $\mathcal O_E\to A$ with $A$ finite.* Since $\mathcal O_E$ is a
 discrete valuation ring, $A$ has a finite free $\mathcal O_E$-resolution of

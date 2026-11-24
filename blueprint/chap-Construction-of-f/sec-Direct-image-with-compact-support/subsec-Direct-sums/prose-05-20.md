@@ -29,7 +29,7 @@ affine [weakly contractible](@definition-weak-contractibility) object and $X_V=X
 $\Gamma(V,-)$ is exact (Corollary [corollary-evaluation-weakly-contractible-objects](1)), and hence
 
 $$
-(R^qp_*M)(V)=H^q((X_V)_{\mathrm{pro}\acute{e}t},M|_{X_V}).
+(R^qp_*M)(V)=H^q(\href{@definition-small-pro-etale-site}{(X_V)_{\mathrm{pro}\acute{e}t}},M|_{X_V}).
 \tag{5.5}
 $$
 

@@ -15,12 +15,12 @@ ring we thus construct an explicit right adjoint of [$Rf_!$](@proposition-constr
 by the uniqueness of adjoints
 (Proposition [proposition-sp-unique-adjoint]).
 
-Every object of [$\Dbc(T,E)$](@definition-constructible-sheaves) is $K_0[1/\ell]$ for some $K_0\in\Dbc(T,\mathcal O_E)$, called an
+Every object of [$\Dbc(T,E)$](@definition-constructible-sheaves) is $K_0[1/\ell]$ for some $K_0\in\href{@definition-constructible-sheaves}{\Dbc(T,\mathcal O_E)}$, called an
 integral model, and for integral models
 
 $$
 \Hom(K_0,L_0[q])\otimes_{\mathcal O_E}E
-\xrightarrow{\sim}\Hom_{\Dbc(T,E)}\bigl(K_0[1/\ell],L_0[1/\ell][q]\bigr).
+\xrightarrow{\sim}\Hom_{\href{@definition-constructible-sheaves}{\Dbc(T,E)}}\bigl(K_0[1/\ell],L_0[1/\ell][q]\bigr).
 \tag{9.21}
 $$
 

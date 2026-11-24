@@ -9,7 +9,7 @@ proper $X$ transversality would be enough. Two
 things stand in the way in general. First, $X$ need not be proper. If we
 compactify, the new fixed points at the boundary have zero stalk for $j_!K$, and
 we need their [local terms](@definition-trace-class-local-terms) to vanish. Second, a [local term](@definition-trace-class-local-terms) is computed from
-$\cHom(c_2^*K,c_1^!K)$ near the fixed point, where $c_1,c_2$ are the two projections
+$\cHom(c_2^*K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})$ near the fixed point, where $c_1,c_2$ are the two projections
 of the graph of Frobenius to $X$ (Definition [definition-correspondence]). The
 stalk $K_{\bar y}$ does not determine this complex
 (Remark [remark-locality-warning]), so the vanishing of the [local term](@definition-trace-class-local-terms) at a
@@ -28,19 +28,19 @@ are additive along an open subscheme and its complement
 compactify anything but $\mathbf A^1\subset\mathbf P^1$.
 
 The answer is Theorem [theorem-grothendieck-lefschetz-trace-formula]: for every
-[Weil complex](@definition-weil-structure) $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ (Section [sec-Weil-complexes]), where
+[Weil complex](@definition-weil-structure) $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$ (Section [sec-Weil-complexes]), where
 $\Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}$ and $A$ is a finite commutative
 $\ell$-primary ring, and for every $m\geq1$, we have in $\Lambda$
 
 $$
-\operatorname{tr}_\Lambda\bigl(\operatorname{Frob}_{X,K}^m\mid
-R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)\bigr)
+\href{@definition-categorical-trace}{\operatorname{tr}_\Lambda}\bigl(\href{@definition-frobenius-operator}{\operatorname{Frob}_{X,K}^m}\mid
+R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)\bigr)
 =\sum_{y\in X_0(\mathbf F_{q^m})}
-\operatorname{tr}_\Lambda\bigl(\operatorname{Frob}_{y,m}\mid
-K_{\bar y}\bigr).
+\href{@definition-categorical-trace}{\operatorname{tr}_\Lambda\bigl(\operatorname{Frob}_{y,m}\mid
+K_{\bar y}\bigr)}.
 $$
 
-Here $\operatorname{tr}_\Lambda$ is the trace of an endomorphism of a perfect complex
+Here [$\operatorname{tr}_\Lambda$](@definition-categorical-trace) is the trace of an endomorphism of a perfect complex
 (Definition [definition-categorical-trace]), and $\operatorname{Frob}_{y,m}$ is the
 $m$-th iterate of the [Weil structure](@definition-weil-structure) on the stalk at the fixed point $\bar y$. For
 $K=\Lambda_X$ and $\Lambda$ a field the formula is Weil's axiom (b), and it

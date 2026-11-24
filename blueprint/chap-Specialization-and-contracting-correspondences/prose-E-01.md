@@ -6,7 +6,7 @@ order = 1622
 +++
 The [trace formula](@theorem-grothendieck-lefschetz-trace-formula) needs the [local term](@definition-trace-class-local-terms) at an isolated fixed point to be
 the trace on the stalk. This is not a formal fact. A [local term](@definition-trace-class-local-terms) is
-computed from $\cHom(c_2^*K,c_1^!K)$ near the fixed point, and the stalk
+computed from $\cHom(c_2^*K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})$ near the fixed point, and the stalk
 does not determine this complex (Remark [remark-locality-warning]).
 Instead, Chapter [chap-The-trace-formula] proves the equality by a computation
 for Frobenius on a smooth curve
@@ -29,11 +29,11 @@ $c=(c_1,c_2):C\to X\times X$ be a [correspondence](@definition-correspondence), 
 subscheme with ideal $I$, and put $I_i=c_i^{-1}(I)\mathcal O_C$. We say,
 as in [varshavsky05], that $c$ contracts towards $Z$ if
 $I_2\subset I_1$ and $I_2^n\subset I_1^{n+1}$ for some $n\geq1$.
-Frobenius is the model case. Indeed, take $c=(\mathrm{id},\Phi_X^m)$ and $Z$ a
+Frobenius is the model case. Indeed, take $c=(\mathrm{id},\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})$ and $Z$ a
 point $y\in X_0(\mathbf F_{q^m})$, and choose coordinates $x_i$ of an
 affine neighbourhood of $y$ defined over $\mathbf F_q$. Then $y$ has
 coordinates $a_i\in\mathbf F_{q^m}$, and
-$(\Phi_X^m)^*(x_i-a_i)=x_i^{q^m}-a_i=(x_i-a_i)^{q^m}$. Hence
+$(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*(x_i-a_i)=x_i^{q^m}-a_i=(x_i-a_i)^{q^m}$. Hence
 $I_2\subset I_1^{q^m}$, and $n=1$ works.
 
 The main theorem,
@@ -66,7 +66,7 @@ specialization map is an isomorphism, because the [fixed locus](@definition-corr
 move in the family up to nilpotents
 (Lemma [lemma-fixed-point-scheme-deformation]). Before any of this,
 we must be able to specialize a [trace class](@definition-trace-class-local-terms) at all. A [trace class](@definition-trace-class-local-terms) is
-built from $K\boxtimes\mathbb DK$, so we need nearby cycles to commute
+built from $K\boxtimes\href{@definition-verdier-dual-evaluation}{\mathbb DK}$, so we need nearby cycles to commute
 with external products and with [Verdier duality](@definition-verdier-dual-evaluation).
 Propositions [proposition-external-kunneth-formula-nearby-cycles]
 and [proposition-nearby-cycles-commute-verdier-duality] prove both,

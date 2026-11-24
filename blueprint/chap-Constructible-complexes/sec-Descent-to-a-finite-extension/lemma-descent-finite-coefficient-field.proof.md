@@ -10,19 +10,19 @@ and Hom out of a [constructible complex](@definition-constructible-sheaves) comm
 [lisse sheaves](@definition-lisse-sheaves) by finitely many extensions, each classified by a
 morphism, and so they descend as well.
 
-(1) Extension of scalars $E'_X\otimes_{E_X}-$ is left adjoint to
-restriction of scalars $D(X_{\mathrm{pro}\acute{e}t},E')\to D(X_{\mathrm{pro}\acute{e}t},E)$. Hence
-$\Hom_{D(X_{\mathrm{pro}\acute{e}t},E')}(C_{E'},D_{E'}[r])=\Hom_{D(X_{\mathrm{pro}\acute{e}t},E)}(C,D_{E'}[r])$,
+(1) Extension of scalars $\href{@lemma-comparison-completed-coefficients}{E'_X}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}-$ is left adjoint to
+restriction of scalars $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E')\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E)$. Hence
+$\Hom_{D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E')}(C_{E'},D_{E'}[r])=\Hom_{D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E)}(C,D_{E'}[r])$,
 and similarly for $\overline{\mathbf Q}_\ell$. Represent $D$ by a bounded complex $D^\bullet$.
-Then the complexes $D^\bullet\otimes_{E_X}E'_X$ form a filtered system of
+Then the complexes $D^\bullet\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}\href{@lemma-comparison-completed-coefficients}{E'_X}$ form a filtered system of
 complexes of [$E_X$](@lemma-comparison-completed-coefficients)-modules, all vanishing below the lower bound of
-$D^\bullet$, and their colimit is $D^\bullet\otimes_{E_X}\QbarX$, which
+$D^\bullet$, and their colimit is $D^\bullet\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}\href{@lemma-comparison-completed-coefficients}{\QbarX}$, which
 represents $D_{\overline{\mathbf Q}_\ell}$. Applying Lemma [lemma-continuity-ext-out-constructible-complex]
-to $C\in\Dbc(X,E)$, we get
+to $C\in\href{@definition-constructible-sheaves}{\Dbc(X,E)}$, we get
 
 $$
-\varinjlim_{E'}\Hom_{D(X_{\mathrm{pro}\acute{e}t},E)}(C,D_{E'}[r])
-\xrightarrow{\ \sim\ }\Hom_{D(X_{\mathrm{pro}\acute{e}t},E)}(C,D_{\overline{\mathbf Q}_\ell}[r]),
+\varinjlim_{E'}\Hom_{D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E)}(C,D_{E'}[r])
+\xrightarrow{\ \sim\ }\Hom_{D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E)}(C,D_{\overline{\mathbf Q}_\ell}[r]),
 $$
 
 which is the claim after the adjunction.

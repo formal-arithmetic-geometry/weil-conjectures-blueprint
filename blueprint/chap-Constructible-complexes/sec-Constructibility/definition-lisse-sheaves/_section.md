@@ -9,5 +9,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $\Lambda$ be a commutative condensed ring. A $\Lambda_X$-module $M$ is
 *lisse* if it satisfies the condition of
 Definition [definition-constructible-sheaves](1) on $X$ itself, without
-a stratification. A complex $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is *lisse*
+a stratification. A complex $K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is *lisse*
 if its cohomology sheaves are lisse.

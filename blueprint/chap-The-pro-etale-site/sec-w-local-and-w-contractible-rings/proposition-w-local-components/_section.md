@@ -7,7 +7,7 @@ order = 45
 uses = ["definition-w-local-w-strictly-local"]
 +++
 1. If $T$ is a [w-local](@definition-w-local-w-strictly-local) spectral space, the natural map
-   $T^c\to\pi_0(T)$ is a homeomorphism.
+   $\href{@definition-w-local-w-strictly-local}{T^c}\to\pi_0(T)$ is a homeomorphism.
 2. If $R$ is [w-local](@definition-w-local-w-strictly-local), the component of $\operatorname{Spec}(R)$
    containing a closed point $\mathfrak m$ is the image of
    $\operatorname{Spec}(R_{\mathfrak m})$. In particular, if $R$ is

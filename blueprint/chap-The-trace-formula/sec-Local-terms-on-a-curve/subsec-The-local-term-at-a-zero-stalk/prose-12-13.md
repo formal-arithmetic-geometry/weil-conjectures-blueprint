@@ -20,8 +20,8 @@ and keep $\Gamma$ and $\Delta$ for the transposed Frobenius graph and the
 diagonal in $T$. Let $u$ and $v$ be the pullbacks to the two factors $X_1$
 and $X_2$ of the same uniformizer of $X$ at $y$, so that $\Delta$, $V$ and
 $H$ have equations $u-v=0$, $u=0$ and $v=0$. Write
-$\varphi(v)=(\Phi_X^m)^\#u$, a power series in $v$; the graph $\Gamma$ has
-equation $u-\varphi(v)=0$. Since $d\Phi_X=0$, the graph $\Gamma$ is
+$\varphi(v)=(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^\#u$, a power series in $v$; the graph $\Gamma$ has
+equation $u-\varphi(v)=0$. Since $d\href{@definition-frobenius-correspondences-their-operators}{\Phi_X}=0$, the graph $\Gamma$ is
 tangent to $V$, while $\Delta$ and $H$ have other tangent directions.
 
 The next three lemmas prepare the proof of

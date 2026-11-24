@@ -15,7 +15,7 @@ For composition, let $X_0\xrightarrow{h}Z_0\xrightarrow{g}Y_0$ and consider the 
 spectral sequence for compact supports,
 
 $$
-E_2^{a,b}=R^ag_!(R^bh_!F)\ \Longrightarrow\ R^{a+b}(gh)_!F.
+E_2^{a,b}=\href{@proposition-construction-independence-rf-shriek}{R^ag_!}(\href{@proposition-construction-independence-rf-shriek}{R^bh_!F})\ \Longrightarrow\ \href{@proposition-construction-independence-rf-shriek}{R^{a+b}(gh)_!F}.
 $$
 
 It is Frobenius-equivariant by the naturality of the truncation tower
@@ -23,10 +23,10 @@ and of the [composition isomorphism](@proposition-composition-base-change-rf-shr
 support](@proposition-construction-independence-rf-shriek). If both maps have the property, then $E_2^{a,b}$ is [mixed](@definition-weights) of
 weights at most $w+a+b$. Since each later page is a subquotient of the
 previous one, the same holds for $E_\infty^{a,b}$. The abutment
-filtration of $R^n(gh)_!F$ is finite, because the operations preserve
+filtration of [$R^n(gh)_!F$](@proposition-construction-independence-rf-shriek) is finite, because the operations preserve
 bounded [constructible](@definition-constructible-sheaves) complexes. Its quotients are the
 $E_\infty^{a,n-a}$, and by Lemma [lemma-weights-exact-sequence]
-$R^n(gh)_!F$ is [mixed](@definition-weights) of weights at most $w+n$.
+[$R^n(gh)_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights) of weights at most $w+n$.
 
 For partitions, we apply Lemma [lemma-relative-noether-normalization-over-stratification] and refine the
 partitions to filtrations by open and closed pieces. After this
@@ -44,4 +44,4 @@ composition argument the map from the piece to $V$ has the property.
 Finally, we assemble the pieces one at a time in the chosen order. By
 Lemma [lemma-weight-bounds-partitions](1) on the source and
 Lemma [lemma-weight-bounds-partitions](2) on the target, the bound
-for the pieces implies the bound for $R^if_!F$ on $Y_0$.
+for the pieces implies the bound for [$R^if_!F$](@proposition-construction-independence-rf-shriek) on $Y_0$.

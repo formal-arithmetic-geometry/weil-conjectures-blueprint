@@ -4,7 +4,7 @@ of = "theorem-weights-sums-squared-traces"
 order = 1212
 uses = ["proposition-etale-implications", "definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "lemma-comparison-direct-images-compatibilities", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "proposition-pro-etale-site-separably-closed", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness", "definition-constructible-sheaves", "proposition-integral-constructibility-criterion", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-lattices-after-finite-stratification", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-proper-base-change-complete-integral", "proposition-comparison-etale-derived-category", "lemma-structure-integral-constructible-complexes", "corollary-open-direct-image-over-field", "definition-change-of-coefficients-maps", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "definition-trace-function", "lemma-logarithm-determinant", "theorem-trace-formula-euler-product", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-real-sheaves", "lemma-positivity-convergence", "lemma-extreme-degrees-affine-curve", "proposition-twisting-weight-zero-adding-dual", "lemma-radius-squared-traces", "lemma-bounds-squared-traces", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-Lemma [lemma-bounds-squared-traces](1) gives $\nu(\mathcal G)\le w$, so,
+Lemma [lemma-bounds-squared-traces](1) gives $\href{@definition-growth-squared-traces}{\nu(\mathcal G)}\le w$, so,
 by Lemma [lemma-radius-squared-traces], we must show that the radius of [$\varphi_{\mathcal G}$](@lemma-radius-squared-traces) is not larger than
 $q^{-w-1}$. For a [real](@definition-real-sheaves) sheaf we find a pole of the logarithmic
 derivative of an [$L$-function](@theorem-trace-formula-euler-product) on that circle, and
@@ -15,12 +15,12 @@ general case to this one by twisting to weight zero and adding the dual.
 $\mathcal T=\mathcal G\otimes\mathcal G$. The squared traces of
 $\mathcal G$ are then the traces of $\mathcal T$, and we express their
 generating series through the [$L$-function](@theorem-trace-formula-euler-product) of $\mathcal T$. Since
-$\iota t_{\mathcal G,n}(x)$ is real, we have
-$\iota t_{\mathcal T,n}(x)=|\iota t_{\mathcal G,n}(x)|^2$ for
+$\iota \href{@definition-growth-squared-traces}{t_{\mathcal G,n}(x)}$ is real, we have
+$\iota \href{@definition-growth-squared-traces}{t_{\mathcal T,n}(x)}=|\iota \href{@definition-growth-squared-traces}{t_{\mathcal G,n}(x)}|^2$ for
 $x\in X_0(k_n)$. The Euler product and the [trace formula](@theorem-trace-formula-euler-product) then give
 
 $$
-\varphi_{\mathcal G}(t)=\frac{L'(t)}{L(t)},\qquad
+\href{@lemma-radius-squared-traces}{\varphi_{\mathcal G}(t)}=\frac{L'(t)}{L(t)},\qquad
 L(t)=\frac{\iota\det(1-Ft\mid H_c^1(X,\mathcal T))}
 {\iota\det(1-Ft\mid H_c^2(X,\mathcal T))}.
 $$
@@ -49,23 +49,23 @@ A pole of $L$ is also a pole of its logarithmic derivative: if
 $L(t)=(t-t_0)^{-m}u(t)$ near $t_0$, with $m>0$ and $u(t_0)\ne0$, then
 $L'/L=-m/(t-t_0)+u'/u$. So the radius of convergence of
 [$\varphi_{\mathcal G}$](@lemma-radius-squared-traces) is exactly $R$, and
-Lemma [lemma-radius-squared-traces] gives $\nu(\mathcal G)=w$.
+Lemma [lemma-radius-squared-traces] gives $\href{@definition-growth-squared-traces}{\nu(\mathcal G)}=w$.
 
 *The general case.* Let $\mathcal G$ be an arbitrary [pure](@definition-weights) sheaf, and
-let $\mathcal G^0=\mathcal G\otimes\mathcal B_b$ and $\mathcal E$ be as in
+let $\mathcal G^0=\mathcal G\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$ and $\mathcal E$ be as in
 Proposition [proposition-twisting-weight-zero-adding-dual]. The sheaf
 $\mathcal G^0$ is [pure](@definition-weights) of weight zero, and by
 Lemma [lemma-bounds-squared-traces](3) we have
-$\nu(\mathcal G^0)=\nu(\mathcal G)+\lambda_\iota(b)=\nu(\mathcal G)-w$, so it
-suffices to show that $\nu(\mathcal G^0)=0$. The sheaf
+$\href{@definition-growth-squared-traces}{\nu(\mathcal G^0)}=\href{@definition-growth-squared-traces}{\nu(\mathcal G)}+\href{@proposition-weights-under-usual-operations}{\lambda_\iota(b)}=\href{@definition-growth-squared-traces}{\nu(\mathcal G)}-w$, so it
+suffices to show that $\href{@definition-growth-squared-traces}{\nu(\mathcal G^0)}=0$. The sheaf
 $\mathcal E=\mathcal G^0\oplus(\mathcal G^0)^\vee$ is nonzero, [real](@definition-real-sheaves)
-and [pure](@definition-weights) of weight zero, so by the case already treated $\nu(\mathcal E)=0$.
+and [pure](@definition-weights) of weight zero, so by the case already treated $\href{@definition-growth-squared-traces}{\nu(\mathcal E)}=0$.
 
 This lower bound passes to $\mathcal G^0$, because the trace of
 $\mathcal E$ is twice the real part of that of $\mathcal G^0$. In other words,
 for every $n$ and $x\in X_0(k_n)$ we have
-$\iota t_{\mathcal E,n}(x)=2\operatorname{Re}(\iota t_{\mathcal G^0,n}(x))$.
-Hence $S_n(\mathcal E)\le4S_n(\mathcal G^0)$, and so
-$\nu(\mathcal G^0)\ge0$. Since the opposite inequality comes from
-Lemma [lemma-bounds-squared-traces](1), we obtain $\nu(\mathcal G^0)=0$, that is,
-$\nu(\mathcal G)=w$.
+$\iota \href{@definition-growth-squared-traces}{t_{\mathcal E,n}(x)}=2\operatorname{Re}(\iota \href{@definition-growth-squared-traces}{t_{\mathcal G^0,n}(x)})$.
+Hence $\href{@definition-growth-squared-traces}{S_n(\mathcal E)}\le4\href{@definition-growth-squared-traces}{S_n(\mathcal G^0)}$, and so
+$\href{@definition-growth-squared-traces}{\nu(\mathcal G^0)}\ge0$. Since the opposite inequality comes from
+Lemma [lemma-bounds-squared-traces](1), we obtain $\href{@definition-growth-squared-traces}{\nu(\mathcal G^0)}=0$, that is,
+$\href{@definition-growth-squared-traces}{\nu(\mathcal G)}=w$.

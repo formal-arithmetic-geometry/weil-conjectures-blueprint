@@ -11,9 +11,9 @@ does not lie in the generic fibre, we cannot simply restrict. The obvious
 attempt is to extend by $Rj_*$ along the open generic fibre and restrict
 by $i^*$ to the special fibre. This fails already for $S$ itself,
 because the fraction field of $S$ is not separably closed. Its absolute Galois group is the inertia group, whose tame quotient is
-$\prod_{\ell'\neq p}\mathbf Z_{\ell'}(1)$. For $n$ invertible in $k$,
+$\prod_{\ell'\neq p}\href{@definition-tate-twists}{\mathbf Z_{\ell'}(1)}$. For $n$ invertible in $k$,
 the stalk of $R^1j_*(\mathbf Z/n)$ at the closed point is therefore
-$H^1(\eta,\mathbf Z/n)=\mathbf Z/n(-1)\neq0$. This class comes from
+$H^1(\eta,\mathbf Z/n)=\href{@definition-tate-twists}{\mathbf Z/n(-1)}\neq0$. This class comes from
 the arithmetic of $\eta$, not from the geometry of the family. Passing
 first to the geometric generic fibre removes such Galois classes. After
 this change, the constant sheaf specializes to itself, in degree zero, by

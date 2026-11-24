@@ -5,14 +5,14 @@ title = "Change of finite coefficients (3)"
 order = 771
 +++
 It follows that the isomorphisms [$\gamma_{f,A}$](@proposition-smooth-purity-finite-coefficients) are compatible with change of coefficients: for
-$K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$,
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)$,
 
 $$
-c_{A,B}(K)\circ(\gamma_{f,A}(K))_B=\gamma_{f,B}(K_B),
+\href{@lemma-sp-reduction}{c_{A,B}(K)}\circ(\href{@proposition-smooth-purity-finite-coefficients}{\gamma_{f,A}(K)})_B=\href{@proposition-smooth-purity-finite-coefficients}{\gamma_{f,B}}(\href{@definition-sp-scalar-extension}{K_B}),
 \tag{9.17}
 $$
 
-the sources being identified by $(f_A^*K(d)[2d])_B\simeq f_B^*(K_B)(d)[2d]$.
+the sources being identified by $(f_A^*\href{@definition-tate-twists}{K(d)}[2d])_B\simeq f_B^*(\href{@definition-sp-scalar-extension}{K_B})\href{@definition-tate-twists}{(d)}[2d]$.
 Indeed, [$\gamma_{f,A}$](@proposition-smooth-purity-finite-coefficients) is the map $\mu_{f,K}$ composed with the inverse of the
 orientation, and each factor commutes with change of coefficients.
 

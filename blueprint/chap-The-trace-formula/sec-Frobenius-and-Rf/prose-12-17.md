@@ -16,7 +16,7 @@ fibres.
 
 The square formed by $f$ and the two Frobenii commutes, but it is
 usually not cartesian. Indeed, already for $f:\mathbf A^1\to s$ the Frobenius of $s$ is the identity, so the fibre product is $\mathbf A^1$ itself,
-while $\Phi_{\mathbf A^1}$ has degree $q$. The difference is
+while [$\Phi_{\mathbf A^1}$](@definition-frobenius-correspondences-their-operators) has degree $q$. The difference is
 measured by the relative Frobenius. It is a universal homeomorphism, so pullback
 along it is an equivalence on étale sheaves, and the comparison map
 built from it is an isomorphism.

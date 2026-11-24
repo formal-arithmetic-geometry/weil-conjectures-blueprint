@@ -4,8 +4,8 @@ kind = "lemma"
 title = "Reduction to finitely many degrees"
 order = 463
 +++
-Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in
-Lemma [lemma-uniform-ext-bound], and let $K\in\Dic(X,\Lambda)$
+Let $C\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$, with $d_C$ as in
+Lemma [lemma-uniform-ext-bound], and let $K\in\href{@corollary-ambient-ind-derived}{\Dic(X,\Lambda)}$
 and $m\in\mathbf Z$. The truncation maps induce a natural isomorphism
 
 $$

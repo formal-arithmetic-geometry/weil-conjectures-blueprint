@@ -6,7 +6,7 @@ order = 1278
 +++
 Let $M$ be the Kummer sheaf of a nontrivial character $\chi$ on
 $U_0=\mathbf G_m$. It is irreducible and [pure](@definition-weights) of weight $0$. Since it is tame
-at infinity, it has no geometric constituent $\mathcal L_{\psi(ax)}$,
+at infinity, it has no geometric constituent [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf),
 and so it satisfies the hypotheses of this section. Inertia at the
 origin acts on $M$ through $\chi$, nontrivially, and hence
 $(j_*M)_{\bar0}=0$ by Lemma [lemma-boundary-stalk]. This means that

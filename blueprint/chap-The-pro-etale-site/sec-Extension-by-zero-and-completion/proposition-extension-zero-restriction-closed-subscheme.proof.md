@@ -41,7 +41,7 @@ commute with taking homology of a complex of sheaves, while a sheaf $M$
 with $j^*M=0$ and $i^*M=0$ is zero by the localization sequence.
 
 *Step 3: products and derived inverse limits.* For
-$K\in D(U_{\mathrm{pro}\acute{e}t},j^*\mathcal R)$, applying the localization sequence to a
+$K\in D(\href{@definition-small-pro-etale-site}{U_{\mathrm{pro}\acute{e}t}},j^*\mathcal R)$, applying the localization sequence to a
 complex representing $Rj_*K$ and using $j^*Rj_*K\simeq K$, we obtain the
 triangle
 

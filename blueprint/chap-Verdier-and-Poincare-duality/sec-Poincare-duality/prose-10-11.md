@@ -12,8 +12,8 @@ cohomology. This is global Verdier duality
 (Theorem [theorem-global-verdier-duality]). It holds for every $X$ of
 finite type, smooth or not.
 
-For smooth $X$ of pure dimension $d$ we have $\omega_X\simeq\Lambda_X(d)[2d]$.
+For smooth $X$ of pure dimension $d$ we have $\href{@definition-verdier-dual-evaluation}{\omega_X}\simeq\href{@definition-tate-twists}{\Lambda_X(d)}[2d]$.
 For locally perfect $K$ the [Verdier dual](@definition-verdier-dual-evaluation) is therefore the ordinary dual $K^\vee$
-twisted by $(d)[2d]$, and the counit of $Ra_{X!}\dashv a_X^!$ becomes the trace
+twisted by $\href{@definition-tate-twists}{(d)}[2d]$, and the counit of $\href{@proposition-construction-independence-rf-shriek}{Ra_{X!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{a_X^!}$ becomes the trace
 map of Definition [definition-trace-map]. In this way [global duality](@theorem-global-verdier-duality) becomes
 cup product followed by the trace.

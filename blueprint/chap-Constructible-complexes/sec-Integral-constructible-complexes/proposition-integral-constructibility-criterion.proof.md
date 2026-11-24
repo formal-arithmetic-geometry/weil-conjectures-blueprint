@@ -6,7 +6,7 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 +++
 The substantial implication is (2)$\Rightarrow$(3), which is
 Proposition [proposition-local-structure-integral-constructible-complexes]. The others hold because
-the complexes $\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ are [complete](@definition-derived-adic-completeness), have [finite Tor amplitude](@definition-constructible-sheaves), and have
+the complexes $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ are [complete](@definition-derived-adic-completeness), have [finite Tor amplitude](@definition-constructible-sheaves), and have
 [constructible](@definition-constructible-sheaves) reductions. These properties survive extension by zero
 from strata. We prove (1)$\Rightarrow$(2)$\Rightarrow$(3)$\Rightarrow$(1) and
 (3)$\Leftrightarrow$(4).
@@ -18,13 +18,13 @@ extend by zero from the strata, and finally pass to complexes.
 A finitely generated $\mathcal O_E$-module is a finite sum of copies of
 $\mathcal O_E$ and of modules $\mathcal O_E/\pi_E^r$, so its sheaf has a
 two-term finite free resolution. The coefficient sheaf
-$\mathcal O_{E,U_i}$ on a member $U_i$ of the cover in
+[$\mathcal O_{E,U_i}$](@lemma-comparison-completed-coefficients) on a member $U_i$ of the cover in
 Definition [definition-constructible-sheaves](1) is [derived complete](@definition-derived-adic-completeness). Indeed, it is
 the limit of its finite quotients by Lemma [lemma-comparison-completed-coefficients],
 and since the transition maps between these quotients are surjective, this
 limit agrees with the derived limit by Proposition [proposition-milnor-sequence].
 As [completeness](@definition-derived-adic-completeness) is preserved by finite sums and cones, the
-modules $\mathcal O_{E,U_i}\otimes_{\mathcal O_E}P_i$ of
+modules $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,U_i}}\otimes_{\mathcal O_E}P_i$ of
 Definition [definition-constructible-sheaves](1) are [complete](@definition-derived-adic-completeness), and their
 reductions are bounded locally constant finite complexes. We may check
 these assertions on a [pro-étale cover](@definition-small-pro-etale-site), because restriction to an object
@@ -53,14 +53,14 @@ Each of the finitely many strata is quasi-compact, so the local isomorphisms of 
 can be taken on a finite covering by quasi-compact pro-étale objects,
 and their bounds give a common cohomological interval. Since the map from
 the constant sheaf with value the discrete ring $\mathcal O_E$ to
-$\mathcal O_{E,S}$ is flat [Stacks, [099L](https://stacks.math.columbia.edu/tag/099L)], the cohomology of
-$\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ is
-$\mathcal O_{E,S}\otimes_{\mathcal O_E}H^q(P^\bullet)$. Here
+[$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients) is flat [Stacks, [099L](https://stacks.math.columbia.edu/tag/099L)], the cohomology of
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ is
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}H^q(P^\bullet)$. Here
 $H^q(P^\bullet)$ is finitely generated over $\mathcal O_E$, so these sheaves satisfy
 the condition of Definition [definition-constructible-sheaves](1). This proves (1).
 
 *(3) is equivalent to (4).*
-The complexes $\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ have [finite Tor
+The complexes $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ have [finite Tor
 amplitude](@definition-constructible-sheaves), and since the stratification is finite there is a common interval.
 Since the restrictions to the strata are exact and jointly conservative, they
 detect vanishing after tensoring with any sheaf of modules, and (3) implies (4).

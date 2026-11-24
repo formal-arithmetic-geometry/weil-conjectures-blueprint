@@ -10,7 +10,7 @@ along which we take ordinary pullback, contracts towards $Z$ faster
 than $c_1$, as measured by powers of ideals. Then the [trace class](@definition-trace-class-local-terms) near
 a connected component of the [fixed point scheme](@definition-correspondence) meeting $Z$ can be
 computed by restricting the [correspondence](@definition-correspondence) to $Z$. With our convention
-$u:c_2^*K\to c_1^!K$ for the legs, the leg that contracts is $c_2$; in
+$u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$ for the legs, the leg that contracts is $c_2$; in
 [varshavsky05] it is the first leg.
 
 The contraction becomes geometric on the deformation to the normal cone

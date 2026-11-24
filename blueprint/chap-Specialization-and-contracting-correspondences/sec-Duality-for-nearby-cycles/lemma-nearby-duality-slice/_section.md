@@ -17,6 +17,6 @@ identifications
 
 $$
 g_s^*\delta_{X,M}
-\ =\ (\delta_{X',M'})^P\otimes A(1)[2].
+\ =\ (\delta_{X',M'})^P\otimes \href{@definition-tate-twists}{A(1)[2]}.
 \tag{E.17}
 $$

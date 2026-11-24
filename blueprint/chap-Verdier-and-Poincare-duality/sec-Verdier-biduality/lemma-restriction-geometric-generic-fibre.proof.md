@@ -37,18 +37,18 @@ induces the same classical étale topos.
 $i$ and pull back
 
 $$
-i_*i^!M\longrightarrow M\longrightarrow Rj_*j^*M
+i_*\href{@theorem-existence-exceptional-inverse-image}{i^!M}\longrightarrow M\longrightarrow Rj_*j^*M
 \longrightarrow.
 $$
 
 We compare the pulled-back triangle with the triangle with closed support
-on the generic fibre, whose first term is $i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$. Their second terms agree. The third terms agree too, because the first
+on the generic fibre, whose first term is $i_{\bar\eta,*}\href{@theorem-existence-exceptional-inverse-image}{i_{\bar\eta}^!}g_X^*M$. Their second terms agree. The third terms agree too, because the first
 comparison identifies the pullback of $Rj_*j^*M$ with
 $Rj_{\bar\eta,*}j_{\bar\eta}^*g_X^*M$, and the map between them is the same.
 It follows that the first terms are determined functorially. Indeed, there are no nonzero
 maps, in any degree, from a complex supported on $Z_{\bar\eta}$ to one of the form
 $Rj_{\bar\eta,*}N$, so the first term of each triangle is the fibre of the second map. Now pullback commutes with direct image along a closed immersion, so
-the first term of the pulled-back triangle is $i_{\bar\eta,*}g_Z^*i^!M$. By construction, the induced map $i_{\bar\eta,*}g_Z^*i^!M\to i_{\bar\eta,*}i_{\bar\eta}^!g_X^*M$
+the first term of the pulled-back triangle is $i_{\bar\eta,*}g_Z^*\href{@theorem-existence-exceptional-inverse-image}{i^!M}$. By construction, the induced map $i_{\bar\eta,*}g_Z^*\href{@theorem-existence-exceptional-inverse-image}{i^!M}\to i_{\bar\eta,*}\href{@theorem-existence-exceptional-inverse-image}{i_{\bar\eta}^!}g_X^*M$
 is adjoint to the pulled-back counit, that is, it is $i_{\bar\eta,*}$ of our
 comparison map, and it is an isomorphism. Since $i_{\bar\eta,*}$ is fully
 faithful, the comparison map itself is an isomorphism.
@@ -64,7 +64,7 @@ through operations we have already compared:
 
 $$
 \cHom_X(t_!P,M)
-\simeq Rt_*(P^\vee\otimes^{\mathbf L}t^!M).
+\simeq Rt_*(P^\vee\otimes^{\mathbf L}\href{@theorem-existence-exceptional-inverse-image}{t^!M}).
 $$
 
 We check that $g^*$ commutes with each operation on the right. For [$t^!$](@theorem-existence-exceptional-inverse-image) we factor $t$ as a closed immersion followed by an open immersion: for the open immersion [$t^!$](@theorem-existence-exceptional-inverse-image) is restriction, which commutes with $g^*$, and for the closed immersion

@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isCompactObj_boundedConstructi
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "lemma-constructible-sheaves", "definition-localizing-subcategory"]
 +++
 For $\Lambda=E$ or $\overline{\mathbf Q}_\ell$, every object of [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves) is compact in [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory).
-More precisely, for $C\in\Dbc(X,\Lambda)$ and every family $(K_\lambda)$
+More precisely, for $C\in\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)}$ and every family $(K_\lambda)$
 of objects of [$\Dic(X,\Lambda)$](@corollary-ambient-ind-derived), the natural map
 
 $$

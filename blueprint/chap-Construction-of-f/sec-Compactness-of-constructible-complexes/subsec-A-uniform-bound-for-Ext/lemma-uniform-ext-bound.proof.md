@@ -26,7 +26,7 @@ $\Ext^q(a_!L,b_!M)=0$ for $q>d$, for all locally closed
 $b:T\hookrightarrow X$ and [lisse](@definition-lisse-sheaves) $M$ on $T$. Let
 $j:X\setminus Z\hookrightarrow X$ be the open complement of $Z$. When $L$
 contains a [lisse](@definition-lisse-sheaves) $\mathcal O_E$-[lattice](@definition-lattice), we show that
-$d=\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ works.
+$d=\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2$ works.
 
 *Lattices.* First take $\Lambda=E$. Since torsion arguments need
 integral structures, we choose [lattices](@definition-lattice). After refining the
@@ -39,11 +39,11 @@ is still independent of $N$.
 
 The [lattices](@definition-lattice) are locally free of finite rank over $\mathcal O_E$. Indeed,
 being lisse, they are locally of the form
-$\mathcal O_{E,U}\otimes_{\mathcal O_E}P$ with $P$ finitely generated
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,U}}\otimes_{\mathcal O_E}P$ with $P$ finitely generated
 (Definition [definition-lisse-sheaves]). As subsheaves of $E$-modules
 they are torsion free, so $P$ is free. Lemma [lemma-ext-bound-lattices]
 now gives $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)=0$ for
-$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$.
+$q>\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2$.
 
 *Inverting $\pi_E$.* Inverting $\pi_E$ is a filtered colimit. By
 [continuity of Ext](@lemma-continuity-ext-out-constructible-complex) out of $a_!L_0$, the Ext groups over $E$ are therefore
@@ -77,8 +77,8 @@ $E'\supset E_0$, the sheaf $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_{E'}$
 is a [lisse](@definition-lisse-sheaves) $\mathcal O_{E'}$-[lattice](@definition-lattice) in $(L')_{E'}$ on the same strata.
 The case $\Lambda=E'$ therefore gives
 $\Ext^q_{E'}\bigl((a_!L')_{E'},N'\bigr)=0$ for
-$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$, for each refined
-stratum $S$ and every $N'\in\Cons(X,E')$. This bound does not depend on
+$q>\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2$, for each refined
+stratum $S$ and every $N'\in\href{@definition-constructible-sheaves}{\Cons(X,E')}$. This bound does not depend on
 $E'$ or on $N'$.
 
 Now let $b$ and $M$ be given. By
@@ -96,5 +96,5 @@ $$
 $$
 
 Every group on the right vanishes for
-$q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ by the previous
+$q>\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2$ by the previous
 paragraph, and hence so does the colimit.

@@ -11,14 +11,14 @@ fixed bounded interval the claim follows from the case of
 [ind-constructible sheaves](@definition-ind-constructible-sheaves) by induction on the length.
 
 The first assertion follows from the second, since
-$\Loc(\Dbc(X,\Lambda))\subset\Dic(X,\Lambda)$
+$\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)})\subset\Dic(X,\Lambda)$
 (Corollary [corollary-ambient-ind-derived]) and direct sums in
-[$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory) are those of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+[$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory) are those of $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 
-First let $C\in\Cons(X,\Lambda)$, and suppose that all $K_\lambda$ have
+First let $C\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$, and suppose that all $K_\lambda$ have
 cohomology in a fixed interval $[a,b]$. We prove the claim, for all
 shifts of the $K_\lambda$ at once, by induction on $b-a$. If $a=b$, then
-$K_\lambda=B_\lambda[-a]$ with $B_\lambda\in\IndCons(X,\Lambda)$, and the
+$K_\lambda=B_\lambda[-a]$ with $B_\lambda\in\href{@definition-ind-constructible-sheaves}{\IndCons(X,\Lambda)}$, and the
 claim is that $\Ext^q(C,-)$ commutes with direct sums of objects of
 [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves), which is Corollary [corollary-ind-heart-b]. In
 general, the triangles

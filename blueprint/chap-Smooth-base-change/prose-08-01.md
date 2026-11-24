@@ -11,7 +11,7 @@ $Rf_{1*}M_1\boxtimes Rf_{2*}M_2\simeq R(f_1\times f_2)_*(M_1\boxtimes M_2)$
 Section [sec-The-Kunneth-formula]). For [$Rf_!$](@proposition-construction-independence-rf-shriek) this formula follows from [proper base change](@proposition-composition-base-change-rf-shriek) and the projection formula, but for $Rf_*$ this argument does not work, because $Rf_*$ does not commute with base change in general. For example,
 let $j:U=\mathbf A^1\setminus\{0\}\hookrightarrow\mathbf A^1$ over an
 algebraically closed field, and let $n$ be invertible in it. Then the stalk of $R^1j_*(\mathbf Z/n)$ at $0$ is $H^1$ of the punctured strictly henselian
-disc, which is $\mathbf Z/n(-1)\neq0$, whereas the fibre of $j$ over $0$ is empty, so base change along the closed immersion of $0$ fails.
+disc, which is $\href{@definition-tate-twists}{\mathbf Z/n(-1)}\neq0$, whereas the fibre of $j$ over $0$ is empty, so base change along the closed immersion of $0$ fails.
 
 The [Künneth formula](@proposition-ordinary-external-kunneth) only needs base change along a product projection
 $Y\times T\to Y$ (Lemma [lemma-base-change-along-product-projection]).

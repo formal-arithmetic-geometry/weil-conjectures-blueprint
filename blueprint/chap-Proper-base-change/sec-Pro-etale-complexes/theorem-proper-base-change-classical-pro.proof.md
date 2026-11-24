@@ -10,7 +10,7 @@ $\Lambda/p\Lambda$. By dévissage we reach all [torsion](@definition-torsion-she
 $\Lambda$-modules, and the comparison theorems then bring us back to the
 [pro-étale site](@definition-small-pro-etale-site).
 
-By Corollary [corollary-bounded-below-classical-complexes], we may write $K=\nu_X^*K_{\acute{e}t}$
+By Corollary [corollary-bounded-below-classical-complexes], we may write $K=\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*K_{\acute{e}t}}$
 with $K_{\acute{e}t}\in D^+(X_{\acute{e}t},\Lambda)$, and the cohomology sheaves of $K_{\acute{e}t}$
 are [torsion](@definition-torsion-sheaves). Indeed, [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) is exact, commutes with colimits and is fully
 faithful on sheaves, and therefore detects the condition $F=\varinjlim_nF[n]$
@@ -31,9 +31,9 @@ isomorphism.
 
 If $nF=0$, we argue by induction on the number of prime
 factors of $n$. For a prime $p\mid n$, the outer terms of
-$0\to F[p]\to F\xrightarrow{p}pF\to0$ are killed by $p$ and by $n/p$,
+$0\to \href{@definition-torsion-sheaves}{F[p]}\to F\xrightarrow{p}pF\to0$ are killed by $p$ and by $n/p$,
 so the five lemma applies to the long exact cohomology sequences. Finally, a [torsion](@definition-torsion-sheaves)
-sheaf is the filtered colimit $\varinjlim_nF[n]$. Since
+sheaf is the filtered colimit $\varinjlim_n\href{@definition-torsion-sheaves}{F[n]}$. Since
 (4.7) applies to the qcqs morphisms $f$ and $f'$,
 the [base change map](@definition-derived-base-change-map) is an isomorphism for every [torsion](@definition-torsion-sheaves) sheaf of
 $\Lambda$-modules. The truncation argument at the end of the proof of
@@ -43,10 +43,10 @@ Theorem [theorem-pbc-injective-acyclicity] then passes from sheaves to bounded b
 To return to the [pro-étale site](@definition-small-pro-etale-site) we apply [$\nu_{Y'}^*$](@proposition-comparison-morphism-inverse-image). Since $f$ and
 $f'$ are proper, hence qcqs, the comparison of direct images in
 Theorem [theorem-comparison-direct-images] applies. Using it together with the
-comparison of inverse images $g_{\mathrm{pro}\acute{e}t}^*\nu_Y^*\simeq\nu_{Y'}^*g_{\acute{e}t}^*$, we
+comparison of inverse images $\href{@proposition-topos-functoriality}{g_{\mathrm{pro}\acute{e}t}^*}\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_{Y'}^*}g_{\acute{e}t}^*$, we
 identify [$\nu_{Y'}^*g^*Rf_*K_{\acute{e}t}$](@proposition-comparison-morphism-inverse-image) and
 [$\nu_{Y'}^*Rf'_*g'^*K_{\acute{e}t}$](@proposition-comparison-morphism-inverse-image) with $g^*Rf_*K$ and $Rf'_*g'^*K$ in
-$D^+(Y'_{\mathrm{pro}\acute{e}t},\Lambda)$. By the last assertion of
+$D^+(\href{@definition-small-pro-etale-site}{Y'_{\mathrm{pro}\acute{e}t}},\Lambda)$. By the last assertion of
 Lemma [lemma-naturality-pasting-comparison], under these identifications the
 [base change map](@definition-pro-etale-base-change-map) of $K$ is the inverse image on [$Y'_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) of the étale
 [base change map](@definition-derived-base-change-map) of $K_{\acute{e}t}$. We have shown that the latter is an isomorphism.

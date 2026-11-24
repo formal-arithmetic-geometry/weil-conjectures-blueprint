@@ -9,8 +9,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 For every $n\ge1$,
 
 $$
-\sum_y|\iota t_{\operatorname{FT}_\psi K,n}(y)|^2
-=q^{nr}\sum_x|\iota t_{K,n}(x)|^2.
+\sum_y|\iota \href{@definition-growth-squared-traces}{t_{\operatorname{FT}_\psi K,n}(y)}|^2
+=q^{nr}\sum_x|\iota \href{@definition-growth-squared-traces}{t_{K,n}(x)}|^2.
 $$
 
 Consequently, for $r=1$, the number $\nu$ of

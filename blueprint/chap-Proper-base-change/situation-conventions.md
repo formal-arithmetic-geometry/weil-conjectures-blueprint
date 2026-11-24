@@ -6,7 +6,7 @@ order = 309
 +++
 **Convention.** For proper base change, schemes are arbitrary unless an additional
 hypothesis is stated. The theorem concerns the [classical](@definition-classical-pro-etale-sheaves) part of
-$D^+(T_{\mathrm{pro}\acute{e}t},\Lambda)$, for a discrete commutative ring $\Lambda$,
+$D^+(\href{@definition-small-pro-etale-site}{T_{\mathrm{pro}\acute{e}t}},\Lambda)$, for a discrete commutative ring $\Lambda$,
 but the intermediate calculations (acyclicity, curves, [Chow's lemma](@theorem-chow-s-lemma-projective-form)) are made on
 $T_{\acute{e}t}$, with abelian sheaves or modules over its discrete constant
 ring. There we write $D^+(T_{\acute{e}t},\Lambda)$ for the bounded below derived

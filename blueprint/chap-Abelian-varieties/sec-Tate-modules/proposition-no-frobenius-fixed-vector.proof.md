@@ -22,11 +22,11 @@ $$
 t_n=\ell^e t_{n+e}=0
 $$
 
-for every $n$. This proves that $(T_\ell A)^{F^m}=0$.
+for every $n$. This proves that $(\href{@definition-tate-module}{T_\ell A})^{F^m}=0$.
 
 Since [$T_\ell A$](@definition-tate-module) is free by
 Proposition [proposition-integral-tate-module], it injects into
 [$V_\ell A$](@definition-tate-module). A suitable power of $\ell$ times a fixed vector of
 [$V_\ell A$](@definition-tate-module) is a fixed vector of [$T_\ell A$](@definition-tate-module), and so it vanishes. Hence
-$(V_\ell A)^{F^m}=0$. In other words, $F^m-1$ is injective on the
+$(\href{@definition-tate-module}{V_\ell A})^{F^m}=0$. In other words, $F^m-1$ is injective on the
 finite-dimensional space [$V_\ell A$](@definition-tate-module), and therefore bijective.

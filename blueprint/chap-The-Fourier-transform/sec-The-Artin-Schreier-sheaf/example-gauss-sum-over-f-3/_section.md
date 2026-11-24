@@ -7,16 +7,16 @@ order = 1223
 Take $q=3$, a primitive cube root of unity $\omega\in\overline{\mathbf Q}_\ell$ and
 $\psi(x)=\omega^x$ on $\mathbf F_3$. Pull [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf) back along
 $h:\mathbf A^1\to\mathbf A^1$, $x\mapsto x^2$. By the lemma, the trace
-of Frobenius on the stalk of $h^*\mathcal L_\psi$ at $x\in\mathbf F_3$ is
+of Frobenius on the stalk of $h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi}$ at $x\in\mathbf F_3$ is
 $\psi(x^2)$, so the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) gives
 
 $$
-\sum_r(-1)^r\operatorname{Tr}\bigl(F\mid H^r_c(\mathbf A^1_k,h^*\mathcal L_\psi)\bigr)
+\sum_r(-1)^r\operatorname{Tr}\bigl(F\mid H^r_c(\mathbf A^1_k,h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})\bigr)
 =\sum_{x\in\mathbf F_3}\omega^{x^2}=1+2\omega ,
 $$
 
 and $(1+2\omega)^2=-3$.
-The sheaf $h^*\mathcal L_\psi$ is [lisse](@definition-lisse-sheaves) of rank one. It is geometrically
+The sheaf $h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi}$ is [lisse](@definition-lisse-sheaves) of rank one. It is geometrically
 nontrivial, since the cover $u^3-u=x^2$ is geometrically irreducible.
 Hence its geometric coinvariants vanish, and $H^0_c=H^2_c=0$
 (Lemma [lemma-extreme-degrees-affine-curve]). The sum is therefore
@@ -31,8 +31,8 @@ of $h^*\mathcal L_{\psi'}$ over the three characters $\psi'$ of $\mathbf F_3$.
 Over $k=\overline{\mathbf F}_3$ we obtain
 
 $$
-H^1_c(Y,E)=H^1_c(\mathbf A^1,E)\oplus H^1_c(\mathbf A^1,h^*\mathcal L_\psi)
-\oplus H^1_c(\mathbf A^1,h^*\mathcal L_{\psi^{-1}}).
+H^1_c(Y,E)=H^1_c(\mathbf A^1,E)\oplus H^1_c(\mathbf A^1,h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})
+\oplus H^1_c(\mathbf A^1,h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi^{-1}}}).
 $$
 
 The left side is $H^1(C,E)$, because $C$ minus $Y$ is the single point
@@ -45,7 +45,7 @@ line. This automorphism is defined only over $\mathbf F_9$, but we use it
 only to count dimensions. The decomposition itself is stable under
 Frobenius, because the translations are defined over $\mathbf F_3$.
 
-Thus Frobenius acts on the line $H^1_c(\mathbf A^1,h^*\mathcal L_\psi)$
+Thus Frobenius acts on the line $H^1_c(\mathbf A^1,h^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})$
 by $-(1+2\omega)$. This is a square root of $-3$, and it is one of the two
 reciprocal roots $\pm i\sqrt3$ of $P_1(T)=1+3T^2$ found in the
 introduction. Moreover, the number $1+2\omega=\omega-\omega^2$ is the Gauss sum $g$

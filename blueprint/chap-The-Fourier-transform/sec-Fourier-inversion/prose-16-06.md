@@ -14,8 +14,8 @@ Section [sec-The-Plancherel-formula]).
 
 The shift $[r]$ is the one for which the transform preserves the
 perverse heart. For example, on the line we will find
-$\operatorname{FT}_\psi(E[1])=\delta_0(-1)$, whereas without the shift the
-perverse sheaf $E[1]$ would go to $\delta_0(-1)[-1]$, which is not
+$\operatorname{FT}_\psi(E[1])=\href{@definition-tate-twists}{\delta_0(-1)}$, whereas without the shift the
+perverse sheaf $E[1]$ would go to $\href{@definition-tate-twists}{\delta_0(-1)}[-1]$, which is not
 perverse.
 
 We work with a vector bundle $V\to S$ rather than the line alone,
@@ -33,14 +33,14 @@ bundle of rank $r$, and let $V^\vee$ be its dual bundle. Write
 $p_1,p_2$ for the projections of $V\times_SV^\vee$, and set
 
 $$
-\mathcal K_\psi=\langle\ ,\ \rangle^*\mathcal L_\psi,
+\mathcal K_\psi=\langle\ ,\ \rangle^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi},
 \qquad
 \operatorname{FT}_\psi(K)
-=Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)[r].
+=\href{@proposition-construction-independence-rf-shriek}{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)}[r].
 \tag{16.1}
 $$
 
 The kernel $\mathcal K_\psi$ is [lisse](@definition-lisse-sheaves) of rank one, and since the six
 operations preserve [constructibility](@definition-constructible-sheaves), this defines a triangulated
-functor $\operatorname{FT}_\psi:\Dbc(V,E)\to\Dbc(V^\vee,E)$, normalized
+functor $\operatorname{FT}_\psi:\href{@definition-constructible-sheaves}{\Dbc(V,E)}\to\href{@definition-constructible-sheaves}{\Dbc(V^\vee,E)}$, normalized
 by the shift $[r]$.

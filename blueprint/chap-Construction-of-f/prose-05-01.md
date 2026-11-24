@@ -43,25 +43,25 @@ $\Hom(G[n],K)=0$ for all $G\in\mathcal G$ and $n\in\mathbf Z$. Then every
 exact functor out of $\mathcal T$ that preserves direct sums has an exact
 right adjoint [Stacks, [0A8F](https://stacks.math.columbia.edu/tag/0A8F), [0A8G](https://stacks.math.columbia.edu/tag/0A8G)]. The category [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) is not closed
 under infinite direct sums. We therefore apply the theorem to the localizing
-category $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ that it generates
+category $\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$ that it generates
 (Section [sec-Existence-and-finiteness-of-f]). The result is
 Theorem [theorem-existence-exceptional-inverse-image]: for every
 admissible $\Lambda$ and every separated morphism of finite type $f:X\to Y$
 there is an exact functor
 
 $$
-f^!:\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(X,\Lambda)),
+f^!:\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)})\to\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}),
 \qquad
 \Hom(Rf_!M,N)\simeq\Hom(M,f^!N).
 $$
 
 For finite coefficients nothing is lost
 by passing to the localizing category, since
-$\Loc(D^b_{\mathrm{ctf}}(X,A))$ is equivalent to the classical derived category
+$\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)})$ is equivalent to the classical derived category
 $D(X_{\acute{e}t},A)$ (Proposition [proposition-comparison-etale-derived-category]).
 
 Everything therefore rests on the two hypotheses of the theorem: that
-the objects of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) are compact in $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$,
+the objects of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) are compact in $\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$,
 and that $Rp_*$ preserves direct sums for proper $p$. Neither is formal,
 because the summands of a direct sum may live in degrees going off to
 $-\infty$. If the Ext groups out of a sheaf do not vanish in high degrees,

@@ -14,5 +14,5 @@ For (2), we reduce further from $\ell$ to the uniformizer. The reduction
 $K/\pi_E=(K/\ell)\otimes^{\mathbf L}_{\mathcal O_E/\ell}\mathcal O_E/\pi_E$
 is bounded [constructible](@definition-constructible-sheaves), because $K/\ell$ has finite [Tor amplitude](@definition-constructible-sheaves) over
 $\mathcal O_E/\ell$. Since $K$ is [derived complete](@definition-derived-adic-completeness),
-$K\in\Dbc(T,\mathcal O_E)$ by the
+$K\in\href{@definition-constructible-sheaves}{\Dbc(T,\mathcal O_E)}$ by the
 criterion (2)$\Rightarrow$(1) of Proposition [proposition-integral-constructibility-criterion].

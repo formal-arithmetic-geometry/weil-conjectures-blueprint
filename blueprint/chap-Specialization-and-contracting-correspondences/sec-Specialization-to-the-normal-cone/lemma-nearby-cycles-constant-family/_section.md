@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_deformationModel_bot_uni
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-deformation-normal-bundle"]
 +++
 For a separated $k$-scheme $Y$ of finite type and
-$L\in\Dbc(Y,A)$, the specialization map
+$L\in\href{@definition-constructible-sheaves}{\Dbc(Y,A)}$, the specialization map
 
 $$
 \sigma_Y(L):L\longrightarrow
@@ -17,7 +17,7 @@ $$
 is an isomorphism. It is natural in $L$, and it is compatible with the
 base change maps above in the following sense.
 
-1. If $f:Y'\to Y$ is proper and $L'\in\Dbc(Y',A)$, then the composite
+1. If $f:Y'\to Y$ is proper and $L'\in\href{@definition-constructible-sheaves}{\Dbc(Y',A)}$, then the composite
    of $Rf_*\sigma_{Y'}(L')$ with the base change map for proper direct
    image is $\sigma_Y(Rf_*L')$, where $(Rf_*L')_\eta$ is identified with
    $Rf_{\eta*}(L'_\eta)$ by [proper base change](@theorem-results-from-etale-theory).

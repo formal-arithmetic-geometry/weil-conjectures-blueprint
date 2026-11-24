@@ -9,8 +9,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-sit
 Let $X$ and $Y$ be of finite type over the base field $k$, let
 $A$ be a finite commutative $\ell$-primary ring, and let
 $g:X\to Y$ be of finite type. Then
-$\nu_X^*:D(X_{\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ is fully faithful and
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}:D(X_{\acute{e}t},A)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)$ is fully faithful and
 preserves arbitrary direct sums. The map
 (2.9), now a natural transformation of
-functors $D(X_{\acute{e}t},A)\to D(Y_{\mathrm{pro}\acute{e}t},A)$, is an isomorphism for every
+functors $D(X_{\acute{e}t},A)\to D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)$, is an isomorphism for every
 $K\in D(X_{\acute{e}t},A)$.

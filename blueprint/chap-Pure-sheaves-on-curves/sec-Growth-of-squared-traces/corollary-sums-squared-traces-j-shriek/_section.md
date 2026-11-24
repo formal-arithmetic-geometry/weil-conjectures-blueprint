@@ -10,5 +10,5 @@ connected affine curve, and let $\mathcal G$ be a nonzero [pure](@definition-wei
 [Weil sheaf](@definition-weil-structure) of weight $w$ on $U_0$. Then
 
 $$
-\nu(j_!\mathcal G)=\nu(j_*\mathcal G)=w.
+\href{@definition-growth-squared-traces}{\nu(j_!\mathcal G)}=\href{@definition-growth-squared-traces}{\nu(j_*\mathcal G)}=w.
 $$

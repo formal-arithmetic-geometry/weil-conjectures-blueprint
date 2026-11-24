@@ -12,7 +12,7 @@ by a smooth separated group scheme, locally of finite type over $k$,
 with a decomposition
 
 $$
-\operatorname{Pic}_{C/k}
+\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/k}}
 =\coprod_{d\in\mathbf Z}\operatorname{Pic}^d_{C/k}.
 $$
 

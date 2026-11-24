@@ -20,7 +20,7 @@ $U\to\mathbf A^d_S$ of the proof of Lemma [lemma-section-normal-bundle]. There t
 deformation is
 
 $$
-\mathcal D_{s(S)}U
+\href{@definition-deformation-normal-bundle}{\mathcal D_{s(S)}U}
 \simeq U\times_{\mathbf A^d_S}\mathbf A^d_{\mathbf A^1_S},
 \qquad x_i=t u_i,
 $$
@@ -43,7 +43,7 @@ geometric identification, check that the result is still the identity at
 $t=1$, and invoke uniqueness. Write
 
 $$
-\chi_{g,s}:\widetilde s^*\omega_{\widetilde g}\xrightarrow{\sim}a^*s^*\omega_g
+\chi_{g,s}:\widetilde s^*\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}\xrightarrow{\sim}a^*s^*\href{@definition-relative-dualizing-complex}{\omega_g}
 $$
 
 for the isomorphism of Lemma [lemma-section-normal-bundle] that is the identity at
@@ -58,8 +58,8 @@ $\chi_{g,s}$ is therefore a comparison for $(g',s')$ that is the identity at $t=
 and by uniqueness it equals $\chi_{g',s'}$. Restricting to $t=0$ and inverting
 proves (1).
 
-For (2), composing $Re_!\dashv e^*$ with $Rg_!\dashv g^!$ gives
-$e^*\omega_g\simeq\omega_{g'}$, and likewise for the induced étale
+For (2), composing $\href{@proposition-construction-independence-rf-shriek}{Re_!}\dashv e^*$ with $\href{@proposition-construction-independence-rf-shriek}{Rg_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{g^!}$ gives
+$e^*\href{@definition-relative-dualizing-complex}{\omega_g}\simeq\href{@definition-relative-dualizing-complex}{\omega_{g'}}$, and likewise for the induced étale
 map of [deformation spaces](@definition-deformation-normal-bundle). On the fibres $t=1$ and $t=0$ these
 identifications are the ones for the original pairs and for the normal
 bundles, since the counit of a composite adjunction is the composite of

@@ -8,4 +8,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $L$ be a [lisse](@definition-lisse-sheaves) [$E_X$](@lemma-comparison-completed-coefficients)-module. There is a finite stratification of $X$
 by locally closed subschemes $S$ such that each $L|_S$ contains a [lisse](@definition-lisse-sheaves)
-$\mathcal O_{E,S}$-submodule $L_0$ with $L_0[1/\ell]=L|_S$.
+[$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients)-submodule $L_0$ with $L_0[1/\ell]=L|_S$.

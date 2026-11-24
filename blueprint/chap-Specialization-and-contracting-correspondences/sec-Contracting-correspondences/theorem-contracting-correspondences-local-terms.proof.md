@@ -9,18 +9,18 @@ We split $K$ by the triangle $j_!j^*K\to K\to Ri_*i^*K$ and use
 of $u_Z$. The piece $j_!j^*K$, on the other hand, has zero trace, which we show by deforming
 to the normal cone.
 
-*Reductions.* We may assume that $W=C$, that $\Fix(c)=F_0$ and that
+*Reductions.* We may assume that $W=C$, that $\href{@definition-correspondence}{\Fix(c)}=F_0$ and that
 the ideal inclusions hold on $C$. Indeed, by
 Remark [remark-reduction-connected-fixed-point-scheme], restricting $C$ to $W$
 and removing the other connected components of [$\Fix(c)$](@definition-correspondence) changes neither
 the [trace class](@definition-trace-class-local-terms) on $F_0$ nor $u_Z$ near $F_{0,Z}$.
 By Lemma [lemma-fixed-point-scheme-deformation], the common map
-$\Fix(c)\to X$ maps set-theoretically into $Z$. The same lemma shows
+$\href{@definition-correspondence}{\Fix(c)}\to X$ maps set-theoretically into $Z$. The same lemma shows
 that after base change from $T$ to $S$ the reduction of the [fixed scheme](@definition-correspondence)
-of the deformed [correspondence](@definition-correspondence) is $(\Fix(c)\times S)_{\mathrm{red}}$, as
+of the deformed [correspondence](@definition-correspondence) is $(\href{@definition-correspondence}{\Fix(c)}\times S)_{\mathrm{red}}$, as
 Corollary [corollary-specialization-when-fixed-point-scheme] requires.
 
-*The case $i^*K=0$.* We show that $\operatorname{Tr}_c(u)=0$. First,
+*The case $i^*K=0$.* We show that $\href{@definition-trace-class-local-terms}{\operatorname{Tr}_c(u)}=0$. First,
 the specialized complex vanishes on the zero section,
 
 $$

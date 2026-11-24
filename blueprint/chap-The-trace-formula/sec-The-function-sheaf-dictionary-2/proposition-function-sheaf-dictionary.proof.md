@@ -25,8 +25,8 @@ $(-1)^n=(-1)^i(-1)^j$. By the chain formula of
 Proposition [proposition-properties-trace] the trace on $P\otimes Q$ is
 therefore the product of the traces on $P$ and on $Q$.
 
-For (4), note that $j_!=Rj_!$ and $i_*=Ri_!$, with the same [Weil structures](@definition-weil-structure).
+For (4), note that $j_!=\href{@proposition-construction-independence-rf-shriek}{Rj_!}$ and $i_*=\href{@proposition-construction-independence-rf-shriek}{Ri_!}$, with the same [Weil structures](@definition-weil-structure).
 By (3), [$t_{j_!j^*K,m}(x)$](@definition-trace-function) is the sum of [$t_{j^*K,m}$](@definition-trace-function) over the fibre of $j_0$
 at $x$. This fibre is the point $x$ if $x\in U_0$, and it is empty otherwise.
-By (1), $t_{j^*K,m}(x)=t_{K,m}(x)$ for $x\in U_0(\mathbf F_{q^m})$. The same
+By (1), $\href{@definition-trace-function}{t_{j^*K,m}(x)}=\href{@definition-trace-function}{t_{K,m}(x)}$ for $x\in U_0(\mathbf F_{q^m})$. The same
 argument applies to $i_*i^*K$, and the two functions add up to [$t_{K,m}$](@definition-trace-function).

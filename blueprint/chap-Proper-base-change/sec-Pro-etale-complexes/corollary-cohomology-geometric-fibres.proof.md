@@ -15,9 +15,9 @@ of condensed sets, where global sections is evaluation at the point.
 This functor is exact, because every surjection of profinite sets onto
 a point has a section. On the right we therefore get the cohomology of
 the fibre. On the left, $(Rf_*K)_{\bar y}$ means
-$\Gamma(Y'_{\mathrm{pro}\acute{e}t},\bar y^*Rf_*K)$, and by the proof of the theorem we have
-$Rf_*K\simeq\nu_Y^*Rf_*K_{\acute{e}t}$. Since
-$\bar y^*\nu_Y^*\simeq\nu_{Y'}^*\bar y^*$, the complex $\bar y^*Rf_*K$ is
+$\Gamma(\href{@definition-small-pro-etale-site}{Y'_{\mathrm{pro}\acute{e}t}},\bar y^*Rf_*K)$, and by the proof of the theorem we have
+$Rf_*K\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*Rf_*K_{\acute{e}t}}$. Since
+$\bar y^*\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_{Y'}^*}\bar y^*$, the complex $\bar y^*Rf_*K$ is
 the constant condensed complex on the étale stalk
 $(Rf_*K_{\acute{e}t})_{\bar y}$, so its global sections are that stalk. Finally, by
 the theorem on the étale site, this stalk is the étale cohomology of the fibre.

@@ -29,12 +29,12 @@ $$
 
 Since this cofibre includes the homotopy, it is a morphism in the filtered derived
 category, and its adjoint under the filtered adjunction
-$Rc_{1!}\dashv c_1^!$ is the lift $\tilde u$. By [base change](@proposition-composition-base-change-rf-shriek), composition
+$\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{c_1^!}$ is the lift $\tilde u$. By [base change](@proposition-composition-base-change-rf-shriek), composition
 and nilpotent invariance (which lets us use the reduced scheme $C_Z$),
 
 $$
-\Theta K_U\simeq j_!Rc_{1U!}c_{2U}^*j^*K,
-\qquad i^*\Theta K\simeq Rc_{1Z!}c_{2Z}^*i^*K.
+\Theta K_U\simeq j_!\href{@proposition-construction-independence-rf-shriek}{Rc_{1U!}}c_{2U}^*j^*K,
+\qquad i^*\Theta K\simeq \href{@proposition-construction-independence-rf-shriek}{Rc_{1Z!}}c_{2Z}^*i^*K.
 $$
 
 Applying $i^*$ to the right-hand square and using $i^*\Theta K_U=0$, so

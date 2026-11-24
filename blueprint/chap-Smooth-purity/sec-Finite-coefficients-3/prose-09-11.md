@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Finite coefficients (1)"
 order = 745
 +++
-Since $f^!K\simeq f^*K\otimes^{\mathbf L}\omega_f$, [smooth purity with finite
+Since $\href{@theorem-existence-exceptional-inverse-image}{f^!K}\simeq f^*K\otimes^{\mathbf L}\href{@definition-relative-dualizing-complex}{\omega_f}$, [smooth purity with finite
 coefficients](@proposition-smooth-purity-finite-coefficients) comes down to a single global isomorphism
-$\omega_f\simeq(\mathbf Z/\ell^n\mathbf Z)_X(d)[2d]$.
+$\href{@definition-relative-dualizing-complex}{\omega_f}\simeq\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_X(d)}[2d]$.
 We obtain it from the diagonal $\Delta:X\to X\times_YX$, which is a section
 of the smooth projection $p_1$. Deformation to the normal bundle moves
 $\Delta$ to the zero section of the relative tangent bundle $T_{X/Y}$,
@@ -14,7 +14,7 @@ where Proposition [proposition-purity-vector-bundles] gives the
 isomorphism.
 
 We use the diagonal because it is attached to $f$ without choices, and
-because [$\omega_f$](@definition-relative-dualizing-complex) is recovered from it: $\omega_f\simeq\Delta^*\omega_{p_1}$
+because [$\omega_f$](@definition-relative-dualizing-complex) is recovered from it: $\href{@definition-relative-dualizing-complex}{\omega_f}\simeq\Delta^*\href{@definition-relative-dualizing-complex}{\omega_{p_1}}$
 by base change. Near the diagonal, however, $X\times_YX$ looks like a neighbourhood
 of the zero section in $T_{X/Y}$ only to first order, and the deformation makes
 this precise without choosing a tubular neighbourhood. The comparison it

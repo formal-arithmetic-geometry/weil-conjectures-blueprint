@@ -8,11 +8,11 @@ The general argument rests on the same mechanism: a bound $d_C$, valid
 for all [constructible](@definition-constructible-sheaves) targets at once, beyond which $\Ext^q(C,-)$
 vanishes. Until the end of Section [sec-Compactness-of-constructible-complexes], $\Lambda$ is $E$
 or $\overline{\mathbf Q}_\ell$, and we show that bounded [constructible complexes](@definition-constructible-sheaves) are compact
-in [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory). Since $D^b_{\mathrm{ctf}}(X,\Lambda)=\Dbc(X,\Lambda)$,
+in [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory). Since $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}=\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)}$,
 these are the proposed compact generators. The advantage of working with [$\Dbc$](@definition-constructible-sheaves) is that we can use truncations
 and the [constructible heart](@definition-constructible-sheaves), which is abelian by
 Lemma [lemma-constructible-sheaves]. As for notation, $\Hom$ and
-$\Ext$ without decoration are taken in $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, also when both arguments are
+$\Ext$ without decoration are taken in $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, also when both arguments are
 [constructible sheaves](@definition-constructible-sheaves), and a subscript indicates the coefficient ring where
 it changes, as in the [lattice](@definition-lattice) arguments over $\mathcal O_E$.
 

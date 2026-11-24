@@ -8,6 +8,6 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 An *ind-constructible sheaf* on $X$ is a sheaf of $\Lambda_X$-modules
 on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) that is a filtered colimit, computed in
-$\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, of [constructible sheaves](@definition-constructible-sheaves). We write
-$\IndCons(X,\Lambda)\subset\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ for the full
+$\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, of [constructible sheaves](@definition-constructible-sheaves). We write
+$\IndCons(X,\Lambda)\subset\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ for the full
 subcategory of ind-constructible sheaves.

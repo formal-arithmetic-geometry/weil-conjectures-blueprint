@@ -15,7 +15,7 @@ $$
 $$
 
 On an even tensor power, the trace of the $n$th power of Frobenius is
-$\operatorname{Tr}(\operatorname{Frob}_x^n\mid\mathcal G)^{2m}$. Since
+$\operatorname{Tr}(\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x^n}\mid\mathcal G)^{2m}$. Since
 $\mathcal G$ is [real](@definition-real-sheaves), this is nonnegative after applying $\iota$.  Every
 coefficient of the exponential is then a finite sum of products of nonnegative
 numbers. This remains true after replacing $t$ by $t^{\deg(x)}$.

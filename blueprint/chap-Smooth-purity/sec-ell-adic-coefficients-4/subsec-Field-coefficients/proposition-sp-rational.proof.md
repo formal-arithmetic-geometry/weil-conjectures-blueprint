@@ -12,9 +12,9 @@ Proposition [proposition-sp-integral-adjunction] with [$\gamma_{f,\mathcal O_E}$
 
 $$
 \begin{aligned}
-\Hom(Rf_{!,E}M,K)&\simeq\Hom(Rf_{!,\mathcal O_E}M_0,K_0)\otimes E\\
-&\simeq\Hom(M_0,f^*_{\mathcal O_E}K_0(d)[2d])\otimes E
-\simeq\Hom(M,f_E^*K(d)[2d]).
+\Hom(\href{@proposition-construction-independence-rf-shriek}{Rf_{!,E}M},K)&\simeq\Hom(\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E}M_0},K_0)\otimes E\\
+&\simeq\Hom(M_0,f^*_{\mathcal O_E}\href{@definition-tate-twists}{K_0(d)}[2d])\otimes E
+\simeq\Hom(M,f_E^*\href{@definition-tate-twists}{K(d)}[2d]).
 \end{aligned}
 $$
 

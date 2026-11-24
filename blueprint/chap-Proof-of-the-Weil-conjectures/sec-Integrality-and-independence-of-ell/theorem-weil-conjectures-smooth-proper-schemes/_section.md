@@ -12,7 +12,7 @@ $P_{i,\ell}$ be as above.
 1. There are unique polynomials $P_i(T)\in\mathbf Z[T]$ with $P_i(0)=1$
    whose images in $\mathbf Q_\ell[T]$ are $P_{i,\ell}(T)$ for every prime
    $\ell\nmid q$, and
-   $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$.
+   $\href{@corollary-point-counting-zeta-function}{Z(X_0,T)}=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$.
 2. The [reciprocal roots](@definition-reciprocal-root) of $P_i$ are algebraic integers, and each of them
    has absolute value $q^{i/2}$ under every complex embedding.
 3. The degrees $b_i=\deg P_i=\dim_{\mathbf Q_\ell}H^i_\ell$ do not depend on $\ell$.
@@ -22,7 +22,7 @@ $P_{i,\ell}$ be as above.
    $\chi=\sum_i(-1)^ib_i$. Then $d\chi$ is even and there
    is $\varepsilon\in\{1,-1\}$ such that
    $$
-   Z\!\left(X_0,\frac1{q^dT}\right)
-   =\varepsilon q^{d\chi/2}T^\chi Z(X_0,T)
+   \href{@corollary-point-counting-zeta-function}{Z\!\left(X_0,\frac1{q^dT}\right)}
+   =\varepsilon q^{d\chi/2}T^\chi \href{@corollary-point-counting-zeta-function}{Z(X_0,T)}
    \quad\hbox{in }\mathbf Q(T).
    $$

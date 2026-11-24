@@ -10,7 +10,7 @@ uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheav
 kernels, cokernels and extensions. There is an equivalence
 
 $$
-D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)
+D^+_{\mathrm{class}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)
 \simeq D^+(X_{\acute{e}t},\Lambda),
 $$
 

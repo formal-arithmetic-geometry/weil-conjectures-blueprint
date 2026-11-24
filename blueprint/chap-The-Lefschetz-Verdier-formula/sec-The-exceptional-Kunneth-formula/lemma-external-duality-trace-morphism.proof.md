@@ -13,51 +13,51 @@ duals](@definition-verdier-dual-evaluation), and these give the two displayed is
 On the point this is the identity
 $\Hom(V_1,W_1)\otimes\Hom(V_2,W_2)=\Hom(V_1\otimes V_2,W_1\otimes W_2)$
 for finite free modules.
-For $E_i,L_i\in D^b_{\mathrm{ctf}}(X_i,A)$ the external comparison
+For $E_i,L_i\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_i,A)}$ the external comparison
 $\cHom_A(E_1,L_1)\boxtimes\cHom_A(E_2,L_2)\to
 \cHom_A(E_1\boxtimes E_2,L_1\boxtimes L_2)$ is an isomorphism. By
-dévissage it suffices to check this on generators $E_i=Rh_{i!}F_i$, with $h_i$ the
+dévissage it suffices to check this on generators $E_i=\href{@proposition-construction-independence-rf-shriek}{Rh_{i!}F_i}$, with $h_i$ the
 inclusion of a stratum and $F_i$ a [lisse sheaf](@definition-lisse-sheaves) with finite projective stalks
 (Lemma [lemma-flat-models-generators]), for
 which
 
 $$
-\cHom_A(Rh_{i!}F_i,L_i)
-\simeq Rh_{i*}(F_i^\vee\otimes^{\mathbf L} h_i^!L_i).
+\cHom_A(\href{@proposition-construction-independence-rf-shriek}{Rh_{i!}F_i},L_i)
+\simeq Rh_{i*}(F_i^\vee\otimes^{\mathbf L} \href{@theorem-existence-exceptional-inverse-image}{h_i^!L_i}).
 $$
 
 By the [ordinary Künneth formula](@proposition-ordinary-external-kunneth) and $\alpha$, the exterior product of
 these expressions is identified with internal Hom on the product. Taking
-$L_i=\omega_{X_i}$ and using $\alpha$ for the structure maps, we get,
-for $M_i\in D^b_{\mathrm{ctf}}(X_i,A)$,
+$L_i=\href{@definition-verdier-dual-evaluation}{\omega_{X_i}}$ and using $\alpha$ for the structure maps, we get,
+for $M_i\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_i,A)}$,
 
 $$
-\mathbb D_{X_1\times X_2}(M_1\boxtimes M_2)
-\simeq \mathbb D_{X_1}M_1\boxtimes \mathbb D_{X_2}M_2.
+\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_1\times X_2}}(M_1\boxtimes M_2)
+\simeq \href{@definition-verdier-dual-evaluation}{\mathbb D_{X_1}M_1}\boxtimes \href{@definition-verdier-dual-evaluation}{\mathbb D_{X_2}M_2}.
 $$
 
 *The two isomorphisms.*
 The first isomorphism is the sheaf version of
 $\Hom(V,W)\simeq W\otimes V^\vee$, and we obtain it by writing
-internal Hom as a dual of a tensor product. Indeed, for $M\in D^b_{\mathrm{ctf}}(U,A)$, $N\in D^b_{\mathrm{ctf}}(V,A)$ and the projections
+internal Hom as a dual of a tensor product. Indeed, for $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(U,A)}$, $N\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(V,A)}$ and the projections
 $p_U,p_V$ of $V\times U$, [Verdier exchange](@corollary-verdier-exchange-formulas) and [biduality](@theorem-verdier-biduality) let us rewrite
-$\cHom_A(p_U^*M,p_V^!N)$ as
-$\mathbb D_{V\times U}(\mathbb D_VN\boxtimes M)$. By the formula for
+$\cHom_A(p_U^*M,\href{@theorem-existence-exceptional-inverse-image}{p_V^!N})$ as
+$\href{@definition-verdier-dual-evaluation}{\mathbb D_{V\times U}}(\href{@definition-verdier-dual-evaluation}{\mathbb D_VN}\boxtimes M)$. By the formula for
 duals of exterior products this is
-$N\boxtimes \mathbb D_UM$. Taking $M=N=K$, with the
+$N\boxtimes \href{@definition-verdier-dual-evaluation}{\mathbb D_UM}$. Taking $M=N=K$, with the
 factors of the product ordered as above, we obtain the first isomorphism.
 The second isomorphism follows from the canonical exchange of [exceptional inverse
-image](@theorem-existence-exceptional-inverse-image) with Hom, for $P,Q\in D^b_{\mathrm{ctf}}(X\times X,A)$,
+image](@theorem-existence-exceptional-inverse-image) with Hom, for $P,Q\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X\times X,A)}$,
 
 $$
-c^!\cHom_A(P,Q)\simeq\cHom_A(c^*P,c^!Q),
+\href{@theorem-existence-exceptional-inverse-image}{c^!}\cHom_A(P,Q)\simeq\cHom_A(c^*P,\href{@theorem-existence-exceptional-inverse-image}{c^!Q}),
 $$
 
-applied to $P=p_2^*K$ and $Q=p_1^!K$. To prove the exchange, we
+applied to $P=p_2^*K$ and $Q=\href{@theorem-existence-exceptional-inverse-image}{p_1^!K}$. To prove the exchange, we
 use Yoneda inside [$\Loc(D^b_{\mathrm{ctf}}(C,A))$](@definition-localizing-subcategory), the category on which
-$c_!\dashv c^!$ is defined
+$\href{@proposition-construction-independence-rf-shriek}{c_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{c^!}$ is defined
 (Theorem [theorem-exceptional-inverse-image]). Test objects in all
-of $D(C_{\mathrm{pro}\acute{e}t},A)$ would not do, since [$c^!$](@theorem-existence-exceptional-inverse-image) is not defined there. Both
+of $D(\href{@definition-small-pro-etale-site}{C_{\mathrm{pro}\acute{e}t}},A)$ would not do, since [$c^!$](@theorem-existence-exceptional-inverse-image) is not defined there. Both
 sides of the exchange lie in [$D^b_{\mathrm{ctf}}(C,A)$](@definition-constructible-sheaves) by
 Proposition [proposition-six-operations-dctf], so these test objects
 suffice. By Proposition [proposition-comparison-etale-derived-category]
@@ -68,13 +68,13 @@ For $M$ in [$\Loc(D^b_{\mathrm{ctf}}(C,A))$](@definition-localizing-subcategory)
 
 $$
 \begin{aligned}
-\Hom\bigl(M,c^!\cHom_A(P,Q)\bigr)
-&\simeq\Hom\bigl(c_!M\otimes^{\mathbf L}P,Q\bigr)
-\simeq\Hom\bigl(c_!(M\otimes^{\mathbf L}c^*P),Q\bigr)\\
-&\simeq\Hom\bigl(M\otimes^{\mathbf L}c^*P,c^!Q\bigr)
-\simeq\Hom\bigl(M,\cHom_A(c^*P,c^!Q)\bigr),
+\Hom\bigl(M,\href{@theorem-existence-exceptional-inverse-image}{c^!}\cHom_A(P,Q)\bigr)
+&\simeq\Hom\bigl(\href{@proposition-construction-independence-rf-shriek}{c_!M}\otimes^{\mathbf L}P,Q\bigr)
+\simeq\Hom\bigl(\href{@proposition-construction-independence-rf-shriek}{c_!}(M\otimes^{\mathbf L}c^*P),Q\bigr)\\
+&\simeq\Hom\bigl(M\otimes^{\mathbf L}c^*P,\href{@theorem-existence-exceptional-inverse-image}{c^!Q}\bigr)
+\simeq\Hom\bigl(M,\cHom_A(c^*P,\href{@theorem-existence-exceptional-inverse-image}{c^!Q})\bigr),
 \end{aligned}
 $$
 
-by $c_!\dashv c^!$ and the tensor–Hom adjunction, the projection formula,
-$c_!\dashv c^!$ again, and the tensor–Hom adjunction.
+by $\href{@proposition-construction-independence-rf-shriek}{c_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{c^!}$ and the tensor–Hom adjunction, the projection formula,
+$\href{@proposition-construction-independence-rf-shriek}{c_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{c^!}$ again, and the tensor–Hom adjunction.

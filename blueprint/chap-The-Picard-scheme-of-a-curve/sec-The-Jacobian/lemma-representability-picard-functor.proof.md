@@ -12,8 +12,8 @@ because $k$ is separably closed and the $k$-points of the smooth curve
 $C$ are dense [Stacks, [056U](https://stacks.math.columbia.edu/tag/056U)].
 
 By Proposition [proposition-divisors-degree-g-open-chart] we have a
-representable open subfunctor $F\subset\operatorname{Pic}_{C/k}$. For a fixed class
-$M\in\operatorname{Pic}_{C/k}(k)$, the translate
+representable open subfunctor $F\subset\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/k}}$. For a fixed class
+$M\in\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/k}(k)}$, the translate
 $M^{-1}F$, consisting of the classes $\mathcal L$ with
 $\mathcal L\otimes M$ in $F$, is another representable open
 subfunctor.

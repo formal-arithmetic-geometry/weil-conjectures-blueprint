@@ -16,12 +16,12 @@ of $V$ and $V'$. Now let $c_a$ and $c'_b$ be the
 scalars by which its central element of degree $N$ acts on the
 composition factors $A_a$ of $V$ and $A'_b$ of $V'$. By
 Lemma [lemma-determinant-weight-from-central-scalar],
-$\gamma_a=\lambda_\iota(c_a)/N$ and
-$\operatorname{dw}_\iota(A'_b)=\lambda_\iota(c'_b)/N$.
+$\gamma_a=\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c_a)}/N$ and
+$\href{@definition-determinant-weight}{\operatorname{dw}_\iota(A'_b)}=\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c'_b)}/N$.
 
 (1) The central element acts by $c_ac'_b$ on $A_a\otimes A'_b$, and hence
 on every simple factor of it. By the same lemma, each such factor has
-[determinant weight](@definition-determinant-weight) $\gamma_a+\operatorname{dw}_\iota(A'_b)$. Moreover, each
+[determinant weight](@definition-determinant-weight) $\gamma_a+\href{@definition-determinant-weight}{\operatorname{dw}_\iota(A'_b)}$. Moreover, each
 $A_a\otimes A'_b$ is nonzero, and Lemma [lemma-tensor-exterior-powers-filtered-representations]
 identifies the simple factors of these tensor products with those of
 $V\otimes V'$.

@@ -10,16 +10,16 @@ $T_{X/Y}$, and use the orientation of a vector bundle.
 
 The projection $p_1$ is the base change of $f$ along $f$, so
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](3) shows that
-$\omega_{p_1}\simeq p_2^{*}\omega_f$. Since $p_2\circ\Delta$ is the
+$\href{@definition-relative-dualizing-complex}{\omega_{p_1}}\simeq p_2^{*}\href{@definition-relative-dualizing-complex}{\omega_f}$. Since $p_2\circ\Delta$ is the
 identity of $X$, we get the first isomorphism in
 
 $$
 \begin{aligned}
-\omega_{f}
-&\simeq L\Delta^{*}\omega_{p_1}
-\xrightarrow{\sim}z^{*}\omega_{\pi}
-\xrightarrow{\sim}z^{*}(\mathbf Z/\ell^n\mathbf Z)_{T_{X/Y}}(d)[2d]
-\simeq(\mathbf Z/\ell^n\mathbf Z)_{X}(d)[2d].
+\href{@definition-relative-dualizing-complex}{\omega_{f}}
+&\simeq L\Delta^{*}\href{@definition-relative-dualizing-complex}{\omega_{p_1}}
+\xrightarrow{\sim}z^{*}\href{@definition-relative-dualizing-complex}{\omega_{\pi}}
+\xrightarrow{\sim}z^{*}\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_{T_{X/Y}}(d)}[2d]
+\simeq\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_{X}(d)}[2d].
 \end{aligned}
 $$
 

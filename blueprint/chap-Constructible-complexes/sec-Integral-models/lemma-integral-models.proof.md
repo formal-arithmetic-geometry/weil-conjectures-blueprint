@@ -25,11 +25,11 @@ Proposition [proposition-integral-constructibility-criterion], and
 together with (1) this gives (2).
 
 (3) By Proposition [proposition-integral-constructibility-criterion], an object of
-$D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ lies in [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) if and only if
+$D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ lies in [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) if and only if
 it satisfies condition (2) there: it is [derived complete](@definition-derived-adic-completeness) with [constructible](@definition-constructible-sheaves)
 reduction modulo $\pi_E$. Equivalently, it satisfies condition (3): there is a
 finite stratification such that on each stratum $S$, pro-étale locally,
-$K|_S\simeq\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ for a bounded
+$K|_S\simeq\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ for a bounded
 complex $P^\bullet$ of finite free $\mathcal O_E$-modules; here the implication
 from (2) to (3) is
 Proposition [proposition-local-structure-integral-constructible-complexes].
@@ -47,7 +47,7 @@ limits by [Stacks, [09BP](https://stacks.math.columbia.edu/tag/09BP)], and $i_*$
 modulo $\pi_E$ and preserve [constructibility](@definition-constructible-sheaves) of the reductions, so $a_!$
 preserves condition (2).
 
-*Tensor product.* Let $K,M\in\Dbc(X,\mathcal O_E)$, and choose a
+*Tensor product.* Let $K,M\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$, and choose a
 stratification for $K$ as above. [Derived completeness](@definition-derived-adic-completeness) and
 [constructibility](@definition-constructible-sheaves) of the reduction modulo $\pi_E$ are both preserved by
 cones, so [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) is closed under cones. Moreover, the localization
@@ -57,7 +57,7 @@ $-\otimes^{\mathbf L}M$ preserves these triangles. It therefore suffices to
 show that $(a_!a^*K)\otimes^{\mathbf L}M$ lies in [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves).
 
 For this we use the projection formula for a locally closed immersion:
-for $L\in D(S_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ and $M\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$
+for $L\in D(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ and $M\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$
 the canonical map
 
 $$
@@ -88,5 +88,5 @@ by finitely many extensions of such sheaves, and on each new stratum $L$
 contains a [lattice](@definition-lattice) $L_0$ with $L_0[1/\ell]=L$, so that $a_!L=(a_!L_0)[1/\ell]$.
 It remains to see that $L_0$ is integrally [constructible](@definition-constructible-sheaves). The reduction of $L_0$ modulo $\pi_E^n$ is a locally constant sheaf of
 finitely presented $\mathcal O_E/\pi_E^n$-modules, so it comes from the
-étale site by [Stacks, [099Y](https://stacks.math.columbia.edu/tag/099Y)]. Thus $L_0\in\Dbc(S,\mathcal O_E)$, and
-$a_!L_0\in\Dbc(X,\mathcal O_E)$ by (3).
+étale site by [Stacks, [099Y](https://stacks.math.columbia.edu/tag/099Y)]. Thus $L_0\in\href{@definition-constructible-sheaves}{\Dbc(S,\mathcal O_E)}$, and
+$a_!L_0\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$ by (3).

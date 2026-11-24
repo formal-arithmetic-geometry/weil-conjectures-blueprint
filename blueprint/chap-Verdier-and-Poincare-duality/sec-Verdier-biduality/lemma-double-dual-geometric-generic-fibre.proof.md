@@ -4,29 +4,29 @@ of = "lemma-double-dual-geometric-generic-fibre"
 order = 843
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "corollary-open-direct-image-over-field", "proposition-sp-unique-adjoint", "lemma-verdier-duality-preserves-constructibility", "lemma-restriction-geometric-generic-fibre", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-Replacing $X$ by an affine open we may assume $X$ affine. The twist $(1)[2]$ appears because $X$ has one more dimension than its
+Replacing $X$ by an affine open we may assume $X$ affine. The twist $\href{@definition-tate-twists}{(1)}[2]$ appears because $X$ has one more dimension than its
 generic fibre, and we see it by embedding both in affine spaces whose
 dimensions differ by one. To do this, choose a closed immersion $i$ over $\mathbf A^1_k$ of $X$ into $\mathbf A^r_{\mathbf A^1_k}$.
 Since $\mathbf A^r_{\mathbf A^1_k}$ is smooth of dimension $r+1$ over
 $k$, by [composition of exceptional inverse images](@proposition-composition-open-restriction-compactifications-f) and Theorem [theorem-smooth-purity-all-admissible-coefficients] we get
-$\omega_X\simeq i^!A(r+1)[2r+2]$. In the same way, the geometric
+$\href{@definition-verdier-dual-evaluation}{\omega_X}\simeq \href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@definition-tate-twists}{A(r+1)}[2r+2]$. In the same way, the geometric
 generic fibre is a closed subscheme of $\mathbf A^r_{\bar\eta}$, so
-$\omega_{X_{\bar\eta}}\simeq i_{\bar\eta}^!A(r)[2r]$. By the second
+$\href{@definition-verdier-dual-evaluation}{\omega_{X_{\bar\eta}}}\simeq \href{@theorem-existence-exceptional-inverse-image}{i_{\bar\eta}^!}\href{@definition-tate-twists}{A(r)}[2r]$. By the second
 comparison,
-$g_X^*i^!A(r+1)[2r+2]\simeq i_{\bar\eta}^!A(r+1)[2r+2]$, which is
-$\omega_{X_{\bar\eta}}(1)[2]$.
+$g_X^*\href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@definition-tate-twists}{A(r+1)}[2r+2]\simeq \href{@theorem-existence-exceptional-inverse-image}{i_{\bar\eta}^!}\href{@definition-tate-twists}{A(r+1)}[2r+2]$, which is
+$\href{@definition-verdier-dual-evaluation}{\omega_{X_{\bar\eta}}}\href{@definition-tate-twists}{(1)}[2]$.
 
 For the [double-dual maps](@definition-verdier-dual-evaluation), note that the comparison for internal
 Hom is adjoint to the pullback of the evaluation
 $K\otimes^{\mathbf L}\cHom_X(K,M)\to M$, so it carries evaluation to
 evaluation. Together with the twist it gives
-$g_X^*\mathbb D_XK\simeq\mathbb D_{X_{\bar\eta}}(g_X^*K)(1)[2]$. This twist does no harm, because the [double-dual map](@definition-verdier-dual-evaluation) does not change if the [dualizing
+$g_X^*\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\simeq\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_{\bar\eta}}(g_X^*K)}\href{@definition-tate-twists}{(1)}[2]$. This twist does no harm, because the [double-dual map](@definition-verdier-dual-evaluation) does not change if the [dualizing
 complex](@definition-verdier-dual-evaluation) is replaced by an isomorphic object $\omega'$: an isomorphism
 $\omega\simeq\omega'$ is used once in each of the two duals, and the two
 uses cancel in [$\delta$](@definition-verdier-dual-evaluation). We apply this to
-$\omega'=\omega_{X_{\bar\eta}}(1)[2]$, using that
-$\cHom(\cHom(N,\omega(1)[2]),\omega(1)[2])\simeq\cHom(\cHom(N,\omega),\omega)$
+$\omega'=\href{@definition-verdier-dual-evaluation}{\omega_{X_{\bar\eta}}}\href{@definition-tate-twists}{(1)}[2]$, using that
+$\cHom(\cHom(N,\href{@definition-tate-twists}{\omega(1)}[2]),\href{@definition-tate-twists}{\omega(1)}[2])\simeq\cHom(\cHom(N,\omega),\omega)$
 compatibly with evaluation. It follows that the isomorphism
-$g_X^*\mathbb D_X\mathbb D_XK\simeq\mathbb D_{X_{\bar\eta}}
-\mathbb D_{X_{\bar\eta}}g_X^*K$ obtained by applying the comparison twice
-carries $g_X^*\delta_K$ to [$\delta_{g_X^*K}$](@definition-verdier-dual-evaluation).
+$g_X^*\href{@definition-verdier-dual-evaluation}{\mathbb D_X}\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\simeq\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_{\bar\eta}}}
+\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_{\bar\eta}}}g_X^*K$ obtained by applying the comparison twice
+carries $g_X^*\href{@definition-verdier-dual-evaluation}{\delta_K}$ to [$\delta_{g_X^*K}$](@definition-verdier-dual-evaluation).

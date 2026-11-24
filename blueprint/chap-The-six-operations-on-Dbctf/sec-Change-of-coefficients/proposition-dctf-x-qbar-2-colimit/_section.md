@@ -9,16 +9,16 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Extension of scalars identifies
 
 $$
-D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)\simeq\mathop{\text{2-colim}}_{E\subset\overline{\mathbf Q}_\ell}D^b_{\mathrm{ctf}}(X,E)
+\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)}\simeq\mathop{\text{2-colim}}_{E\subset\overline{\mathbf Q}_\ell}\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,E)}
 $$
 
 as ordinary categories. In other words, every object of [$D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is isomorphic to
-$K_{\overline{\mathbf Q}_\ell}$ for some finite $E$ and some $K\in D^b_{\mathrm{ctf}}(X,E)$, and for
-$K,L\in D^b_{\mathrm{ctf}}(X,E)$ extension of scalars induces a bijection
+$K_{\overline{\mathbf Q}_\ell}$ for some finite $E$ and some $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,E)}$, and for
+$K,L\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,E)}$ extension of scalars induces a bijection
 
 $$
-\varinjlim_{F\supset E}\Hom_{D^b_{\mathrm{ctf}}(X,F)}(K_F,L_F)
-\xrightarrow{\sim}\Hom_{D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)}(K_{\overline{\mathbf Q}_\ell},L_{\overline{\mathbf Q}_\ell}),
+\varinjlim_{F\supset E}\Hom_{\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,F)}}(K_F,L_F)
+\xrightarrow{\sim}\Hom_{\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)}}(K_{\overline{\mathbf Q}_\ell},L_{\overline{\mathbf Q}_\ell}),
 $$
 
 the colimit running over finite extensions $F$ of $E$ in $\overline{\mathbf Q}_\ell$.

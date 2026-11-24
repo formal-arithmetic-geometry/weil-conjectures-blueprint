@@ -4,7 +4,7 @@ of = "lemma-section-normal-bundle"
 order = 750
 uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-purity-vector-bundles", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
-The fibres of $\widetilde s^{*}\omega_{\widetilde g}$ at $t=1$ and $t=0$
+The fibres of $\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}$ at $t=1$ and $t=0$
 are the two sides of (9.13), so it suffices to show that this
 shifted sheaf of rank one is pulled back from $S$, étale locally on $S$.
 In positive characteristic a locally constant sheaf on $\mathbf A^1_S$ need
@@ -12,18 +12,18 @@ not be pulled back from $S$, so we use coordinates. Étale locally on
 $S$, near the section the deformation is étale over
 $\mathbf A^d_{\mathbf A^1_S}=\mathbf A^d_S\times\mathbf A^1$, a family
 pulled back from $S$, and hence so is
-$\widetilde s^{*}\omega_{\widetilde g}[-2d]$. We then normalize the local
+$\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}[-2d]$. We then normalize the local
 comparisons at $t=1$; since the geometric fibres of $\mathbf A^1_S\to S$
 are connected, this makes them agree on overlaps. Finally, they glue because all
 objects involved are shifted locally constant sheaves.
 
 *Step 1: the objects.* The restrictions of
-$\widetilde s^{*}\omega_{\widetilde g}$ to $t=1$ and $t=0$ are
-$s^{*}\omega_{g}$ and $z^{*}\omega_{\pi}$, by
+$\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}$ to $t=1$ and $t=0$ are
+$s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}$ and $z^{*}\href{@definition-relative-dualizing-complex}{\omega_{\pi}}$, by
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](3) applied to the inclusions
 of these fibres. Proposition [proposition-exceptional-inverse-image-smooth-morphism](1) shows that both
-$\widetilde s^{*}\omega_{\widetilde g}[-2d]$ and
-$s^{*}\omega_{g}[-2d]$ are locally constant sheaves, free of rank one
+$\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}[-2d]$ and
+$s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}[-2d]$ are locally constant sheaves, free of rank one
 over $\mathbf Z/\ell^n\mathbf Z$. Hence morphisms between two such
 complexes are morphisms of sheaves, and they glue.
 
@@ -50,19 +50,19 @@ $u=0$.
 The adjunction for affine space identifies the [relative dualizing complex](@definition-relative-dualizing-complex)
 of the projection
 $\mathbf A^d_{\mathbf A^1_{S_\alpha}}\to\mathbf A^1_{S_\alpha}$ with the
-constant sheaf $(\mathbf Z/\ell^n\mathbf Z)(d)[2d]$. Pulling back along the
+constant sheaf $\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)(d)}[2d]$. Pulling back along the
 étale map just constructed, and composing adjunctions for it, gives the
 same identification for [$\omega_{\widetilde g}$](@definition-relative-dualizing-complex) near the deformed section.
 Similarly, the chart $e_\alpha$ gives the analogous identification of
-$s^{*}\omega_{g}$ over $S_\alpha$. Composing the two identifications we
+$s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}$ over $S_\alpha$. Composing the two identifications we
 obtain an isomorphism over $\mathbf A^1_{S_\alpha}$
 
 $$
-\widetilde s^{*}\omega_{\widetilde g}\xrightarrow{\sim}
-a^{*}s^{*}\omega_{g}.
+\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}\xrightarrow{\sim}
+a^{*}s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}.
 $$
 
-At $t=1$ it restricts to an automorphism of $s^{*}\omega_{g}$ over
+At $t=1$ it restricts to an automorphism of $s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}$ over
 $S_\alpha$. Composing with the pullback along $a$ of the inverse of this
 automorphism, we may assume that the local isomorphism is the identity
 at $t=1$.
@@ -70,12 +70,12 @@ at $t=1$.
 *Step 3: gluing.* The local isomorphisms from different charts agree on
 overlaps, because of the normalization at $t=1$. Over $S_\alpha\times_SS_\beta$ the two local
 isomorphisms that are the identity at $t=1$ differ by an automorphism of the locally constant sheaf
-$a^{*}s^{*}\omega_g[-2d]$ of rank one, that is, by a section of a locally
+$a^{*}s^{*}\href{@definition-relative-dualizing-complex}{\omega_g}[-2d]$ of rank one, that is, by a section of a locally
 constant sheaf of units of $\mathbf Z/\ell^n\mathbf Z$. The locus where
 this section equals $1$ is open and closed, and it contains the point $t=1$
 of each geometric fibre $\mathbf A^1_{\bar b}$. As these fibres are
 connected, the section is $1$ at every geometric point. So the local
 isomorphisms glue to a unique isomorphism over $\mathbf A^1_S$ that is the
 identity at $t=1$. Restricting it to $t=0$ gives an isomorphism
-$z^{*}\omega_{\pi}\simeq s^{*}\omega_g$, whose inverse is
+$z^{*}\href{@definition-relative-dualizing-complex}{\omega_{\pi}}\simeq s^{*}\href{@definition-relative-dualizing-complex}{\omega_g}$, whose inverse is
 (9.13).

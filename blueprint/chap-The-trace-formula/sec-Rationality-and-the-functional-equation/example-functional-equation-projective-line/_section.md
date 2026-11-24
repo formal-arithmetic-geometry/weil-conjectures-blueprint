@@ -6,7 +6,7 @@ order = 1048
 +++
 For $X_0=\mathbf P^1_{\mathbf F_q}$ we have $d=1$, $b_0=b_2=1$, $b_1=0$, so
 $\chi=2$, and $D=\det(F_0)\det(F_2)=1\cdot q=q$, so that $\varepsilon=1$. The
-corollary predicts $Z(\mathbf P^1,1/(qT))=qT^2Z(\mathbf P^1,T)$. Directly,
+corollary predicts $\href{@corollary-point-counting-zeta-function}{Z(\mathbf P^1,1/(qT))}=qT^2\href{@corollary-point-counting-zeta-function}{Z(\mathbf P^1,T)}$. Directly,
 
 $$
 \frac1{(1-(qT)^{-1})(1-T^{-1})}

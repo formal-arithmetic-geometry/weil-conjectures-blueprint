@@ -23,9 +23,9 @@ Let $\Lambda$ be a commutative condensed ring.
    $M|_S$ satisfies the condition of (1). On an arbitrary scheme this condition is
    imposed locally on affine opens.
 
-We write $\Cons(X,\Lambda)\subset\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ for the full
+We write $\Cons(X,\Lambda)\subset\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ for the full
 subcategory of constructible sheaves, and $\Dbc(X,\Lambda)\subset
-D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ for the full subcategory of bounded complexes with
+D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ for the full subcategory of bounded complexes with
 constructible cohomology sheaves. A complex $K$ has *Tor amplitude
 in $[a,b]$* if $K\otimes^{\mathbf L}_{\Lambda_X}N$ has cohomology only
 in $[a,b]$ for every sheaf $N$ of $\Lambda_X$-modules. We write

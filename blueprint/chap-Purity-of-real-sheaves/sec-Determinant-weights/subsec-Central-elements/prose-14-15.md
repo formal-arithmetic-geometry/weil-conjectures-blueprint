@@ -18,7 +18,7 @@ of $H$, its determinant on $Q$ is a root of unity, so under $\iota$ the scalar
 has absolute value one, and it records no weight. By contrast, an element
 $z=h\rho(s)^N$ with $N>0$ contains $N$ factors of Frobenius, and its
 scalar $c_Q$ on $Q$ satisfies
-$\lambda_\iota(c_Q)=N\operatorname{dw}_\iota(Q)$
+$\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c_Q)}=N\operatorname{dw}_\iota(Q)$
 (Lemma [lemma-determinant-weight-from-central-scalar]).
 
 We produce the central element by Lie theory, which applies to

@@ -9,12 +9,12 @@ $\operatorname{Spec}LC(S,\mathbf Z)$ over $\mathbf Z$, where
 $LC(S,\mathbf Z)$ is the ring of locally constant functions. The functor
 $S\mapsto\operatorname{Spec}LC(S,\mathbf Z)$ is continuous and preserves
 finite limits, as one checks on finite quotients of $S$, so it induces a
-morphism of topoi $\Sh((\operatorname{Spec}\mathbf Z)_{\mathrm{pro}\acute{e}t})\to
+morphism of topoi $\href{@proposition-topos-functoriality}{\Sh}(\href{@definition-small-pro-etale-site}{(\operatorname{Spec}\mathbf Z)_{\mathrm{pro}\acute{e}t}})\to
 \Sh(*_{\mathrm{pro}\acute{e}t})$ [Stacks, [00X6](https://stacks.math.columbia.edu/tag/00X6)]. Composing with the structure morphism of
 $X$, we obtain
 
 $$
-p_X:\Sh(X_{\mathrm{pro}\acute{e}t})\longrightarrow\Sh(*_{\mathrm{pro}\acute{e}t}),
+p_X:\href{@proposition-topos-functoriality}{\Sh}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}})\longrightarrow\Sh(*_{\mathrm{pro}\acute{e}t}),
 $$
 
 and for a condensed ring $\Lambda$ we write $\Lambda_X=p_X^*\Lambda$.

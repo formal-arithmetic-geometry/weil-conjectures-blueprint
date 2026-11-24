@@ -7,7 +7,7 @@ uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map
 We transport the trace map of affine space along local trivializations,
 show that the result does not depend on the trivialization, so that the
 local maps glue to a trace isomorphism $\operatorname{Tr}_\pi$ for $V$, and
-take the map $\pi^*K(d)[2d]\to\pi^!K$ to be its adjoint.
+take the map $\pi^*\href{@definition-tate-twists}{K(d)}[2d]\to\href{@theorem-existence-exceptional-inverse-image}{\pi^!K}$ to be its adjoint.
 
 *Local trace maps.* Locally on $S$ the bundle is affine space, where
 the trace map has already been constructed. Over an open $U\subset S$ on
@@ -17,7 +17,7 @@ transports (9.11) to an isomorphism
 
 $$
 \operatorname{Tr}_{\tau}:
-R(\pi|_{V\times_S U})_!(\mathbf Z/\ell^n\mathbf Z)_{V\times_S U}(d)[2d]
+\href{@proposition-construction-independence-rf-shriek}{R(\pi|_{V\times_S U})_!}\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_{V\times_S U}(d)}[2d]
 \xrightarrow{\sim}(\mathbf Z/\ell^n\mathbf Z)_U.
 $$
 
@@ -40,7 +40,7 @@ $$
 
 be the universal linear change of coordinates, an automorphism over
 $\GL_{d,S}$. It induces an automorphism of the [compactly supported
-direct image](@proposition-construction-independence-rf-shriek) of $(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^d_{\GL_{d,S}}}(d)[2d]$
+direct image](@proposition-construction-independence-rf-shriek) of $\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^d_{\GL_{d,S}}}(d)}[2d]$
 to $\GL_{d,S}$, which the trace map identifies with the constant sheaf
 $(\mathbf Z/\ell^n\mathbf Z)_{\GL_{d,S}}$ in degree zero, so that this
 automorphism is multiplication by a section
@@ -67,20 +67,20 @@ Hence the local maps glue over a trivializing cover to an isomorphism
 
 $$
 \operatorname{Tr}_{\pi}:
-R\pi_!(\mathbf Z/\ell^n\mathbf Z)_V(d)[2d]
+\href{@proposition-construction-independence-rf-shriek}{R\pi_!}\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_V(d)}[2d]
 \xrightarrow{\sim}(\mathbf Z/\ell^n\mathbf Z)_S.
 $$
 
-*The map $\pi^*K(d)[2d]\to\pi^!K$.* For general $K$, the projection formula and
+*The map $\pi^*\href{@definition-tate-twists}{K(d)}[2d]\to\href{@theorem-existence-exceptional-inverse-image}{\pi^!K}$.* For general $K$, the projection formula and
 $\operatorname{Tr}_\pi$ give
 
 $$
-R\pi_!\bigl(\pi^{*}K(d)[2d]\bigr)
-\simeq K\otimes^{\mathbf L} R\pi_!(\mathbf Z/\ell^n\mathbf Z)_V(d)[2d]
+\href{@proposition-construction-independence-rf-shriek}{R\pi_!}\bigl(\pi^{*}\href{@definition-tate-twists}{K(d)}[2d]\bigr)
+\simeq K\otimes^{\mathbf L} \href{@proposition-construction-independence-rf-shriek}{R\pi_!}\href{@definition-tate-twists}{(\mathbf Z/\ell^n\mathbf Z)_V(d)}[2d]
 \xrightarrow{\ \mathrm{id}_K\otimes\operatorname{Tr}_{\pi}\ }K.
 $$
 
-Its adjoint under $R\pi_!\dashv\pi^{!}$
+Its adjoint under $\href{@proposition-construction-independence-rf-shriek}{R\pi_!}\dashv\href{@theorem-existence-exceptional-inverse-image}{\pi^{!}}$
 (Proposition [proposition-exceptional-inverse-image-smooth-morphism](1)) is the asserted map.
 We show that it is an isomorphism. This may be checked locally on $V$,
 because [$\pi^!$](@theorem-existence-exceptional-inverse-image) commutes with restriction to opens. Over each trivializing

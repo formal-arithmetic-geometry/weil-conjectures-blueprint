@@ -7,5 +7,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $p:\mathbf A^1_{Y_0}\to Y_0$ be the projection, and let $G$ be a
 [constructible](@definition-constructible-sheaves) [Weil sheaf](@definition-weil-structure) on $\mathbf A^1_{Y_0}$, [mixed](@definition-weights) of weights at
-most $w$. Then $R^ip_!G$ is [mixed](@definition-weights) of weights at most $w+i$ for every
+most $w$. Then [$R^ip_!G$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights) of weights at most $w+i$ for every
 $i$.

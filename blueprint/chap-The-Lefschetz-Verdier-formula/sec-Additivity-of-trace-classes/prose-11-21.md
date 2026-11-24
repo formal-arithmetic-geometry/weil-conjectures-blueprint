@@ -6,4 +6,4 @@ order = 945
 +++
 Restricting the formula to a proper open and closed part $B$ of the [fixed
 locus](@definition-correspondence) and integrating, we get
-$\operatorname{LT}_B(u)=\operatorname{LT}_B(u_U)+\operatorname{LT}_B(u_Z)$.
+$\href{@definition-trace-class-local-terms}{\operatorname{LT}_B(u)}=\href{@definition-trace-class-local-terms}{\operatorname{LT}_B(u_U)}+\href{@definition-trace-class-local-terms}{\operatorname{LT}_B(u_Z)}$.

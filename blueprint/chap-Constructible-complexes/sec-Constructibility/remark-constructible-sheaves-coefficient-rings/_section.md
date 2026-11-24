@@ -18,9 +18,9 @@ order = 223
    one that is [lisse](@definition-lisse-sheaves) on the strata of a finite stratification
    [bhatt-scholze15, Definition 6.8.6].
 4. If $\Lambda=\mathcal O_E$, locally on a stratum a [constructible](@definition-constructible-sheaves)
-   [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-module is $P\otimes_{\mathcal O_E}\mathcal O_{E,X}$
+   [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-module is $P\otimes_{\mathcal O_E}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}$
    for a finitely generated $\mathcal O_E$-module $P$. For example,
-   $\mathcal O_{E,X}/\pi_E$ is [constructible](@definition-constructible-sheaves).
+   $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}/\pi_E$ is [constructible](@definition-constructible-sheaves).
 5. For the admissible coefficients, the [constructible sheaves](@definition-constructible-sheaves) form an
    abelian category. For finite $A$ this is the classical theory of
    sheaves with finite stalks, and the other cases are
@@ -30,7 +30,7 @@ order = 223
    prove in Subsection [subsec-Integral-coefficients].
 6. For finite $A$, a [lisse](@definition-lisse-sheaves) $A_X$-module is the same as a locally
    constant sheaf with finite stalks. For $\Lambda=\mathcal O_E$ a [lisse](@definition-lisse-sheaves)
-   module may have torsion, such as $\mathcal O_{E,X}/\pi_E$; the [lisse](@definition-lisse-sheaves)
+   module may have torsion, such as $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}/\pi_E$; the [lisse](@definition-lisse-sheaves)
    [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-modules without torsion are the locally free ones of
    finite rank, since a finitely generated torsion free $\mathcal O_E$-module
    is free.

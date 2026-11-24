@@ -9,7 +9,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-sit
 Let $U$ be a quasi-compact, quasi-separated object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
 There is a hypercover $W_\bullet\to U$ whose term in every simplicial
 degree is one affine [weakly contractible](@definition-weak-contractibility) object. If
-$K\in D^+(X_{\mathrm{pro}\acute{e}t},\mathcal R)$ is represented by a complex
+$K\in D^+(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal R)$ is represented by a complex
 $K^\bullet$ vanishing below degree $a$, then
 
 $$

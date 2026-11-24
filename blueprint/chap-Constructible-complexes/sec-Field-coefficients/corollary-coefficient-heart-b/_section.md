@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.ProEtale.constantModelBoundedConstructible_field_tria
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-schematic-closure-uniqueness"]
 +++
 Let $\Lambda=E$ or $\overline{\mathbf Q}_\ell$. Then [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves) is a triangulated
-subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, and every object of [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves)
+subcategory of $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, and every object of [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves)
 is obtained by finitely many cones from objects $a_!L[n]$, where
 $a:S\hookrightarrow X$ is a locally closed immersion, $L$ is a [lisse](@definition-lisse-sheaves)
 $\Lambda_S$-module and $n\in\mathbf Z$.

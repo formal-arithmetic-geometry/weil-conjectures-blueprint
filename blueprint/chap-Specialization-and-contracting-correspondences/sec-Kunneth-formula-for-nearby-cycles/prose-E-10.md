@@ -5,7 +5,7 @@ title = "Künneth formula for nearby cycles (1)"
 order = 1647
 +++
 To specialize a [trace class](@definition-trace-class-local-terms) we have to specialize the external product
-$K\boxtimes \mathbb DK$, so we need the comparison
+$K\boxtimes \href{@definition-verdier-dual-evaluation}{\mathbb DK}$, so we need the comparison
 map from the external product of nearby cycles to the nearby cycles of
 the external product to be an isomorphism. We prove this on the classical
 étale site by the dimension argument of
@@ -41,7 +41,7 @@ $$
 
 where $P$ is pro-$p$ (and is trivial when $p=1$).
 For $a:W\to\mathbf A^1_S$, put $W'=W\times_{\mathbf A^1_S}S'$, and let $N'$ be the pullback
-of $N\in D^b_{\mathrm{ctf}}(W_\eta,A)$.  There is a canonical
+of $N\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(W_\eta,A)}$.  There is a canonical
 identification
 
 $$

@@ -4,7 +4,7 @@ of = "proposition-multiplication-n"
 order = 1507
 uses = ["lemma-acyclic-resolutions", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-connected-components-images-homomorphisms"]
 +++
-We use the isomorphism $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$
+We use the isomorphism $\href{@definition-abelian-variety}{[n]^*}\mathcal N\simeq\mathcal N^{\otimes n^2}$
 twice: on curves in the fibres of [$[n]$](@definition-abelian-variety) it shows that [$[n]$](@definition-abelian-variety) is finite,
 and in Euler characteristics it computes the degree. In between, translation invariance shows that all fibres have the same length, which
 makes [$[n]$](@definition-abelian-variety) finite locally free. Finally, whether [$[n]$](@definition-abelian-variety) is étale is decided by its differential.
@@ -13,20 +13,20 @@ Since finiteness, flatness and the degree may be checked after base
 change to an algebraic closure, we may assume that $k$ is
 algebraically closed. Choose a [symmetric](@definition-abelian-variety) ample $\mathcal N$
 (Lemma [lemma-symmetric-ample-sheaf]); then
-$[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$ by
+$\href{@definition-abelian-variety}{[n]^*}\mathcal N\simeq\mathcal N^{\otimes n^2}$ by
 Proposition [proposition-pullback-multiplication-n]. If a fibre of [$[n]$](@definition-abelian-variety) had positive
 dimension, it would contain a proper integral curve. Since [$[n]$](@definition-abelian-variety) maps
 that curve to a point, the restriction of
-$[n]^*\mathcal N$ to it is trivial, whereas the restriction of
+$\href{@definition-abelian-variety}{[n]^*}\mathcal N$ to it is trivial, whereas the restriction of
 $\mathcal N^{\otimes n^2}$ has positive degree. Hence every fibre has
 dimension zero, and since [$[n]$](@definition-abelian-variety) is proper, it is finite. Its image is a
 closed subset of dimension $g$, hence equal to the integral variety $A$
 (Lemma [lemma-abelian-variety-commutative]).
 After base change to an algebraic closure of its residue field, every
 fibre of [$[n]$](@definition-abelian-variety) becomes a translate of [$A[n]$](@definition-abelian-variety). Indeed, if $y=nx_0$, then
-translation by $x_0$ carries $A[n]=[n]^{-1}(0)$ isomorphically onto
-$[n]^{-1}(y)$, because [$[n]$](@definition-abelian-variety) is a homomorphism. Hence all fibres have the
-same degree $r=\dim_k\Gamma(A[n],\mathcal O_{A[n]})$.
+translation by $x_0$ carries $\href{@definition-abelian-variety}{A[n]}=\href{@definition-abelian-variety}{[n]^{-1}}(0)$ isomorphically onto
+$\href{@definition-abelian-variety}{[n]^{-1}}(y)$, because [$[n]$](@definition-abelian-variety) is a homomorphism. Hence all fibres have the
+same degree $r=\dim_k\Gamma(\href{@definition-abelian-variety}{A[n]},\mathcal O_{\href{@definition-abelian-variety}{A[n]}})$.
 
 To get flatness from the constancy of the fibre degree, we use the
 following general fact. A finite morphism $f$ to a reduced Noetherian
@@ -47,13 +47,13 @@ $r\deg_{\mathcal N}(A)/g!$. Here
 $\deg_{\mathcal N}(A)=(\mathcal N^g)$ is the degree of $A$ with respect
 to $\mathcal N$, a positive integer because $\mathcal N$ is ample. We
 compare the coefficients of $m^g$ in two expressions for
-$\chi(A,[n]^*\mathcal N^{\otimes m})$. Since [$[n]$](@definition-abelian-variety) is finite, this
+$\chi(A,\href{@definition-abelian-variety}{[n]^*}\mathcal N^{\otimes m})$. Since [$[n]$](@definition-abelian-variety) is finite, this
 Euler characteristic equals
-$\chi(A,[n]_*[n]^*\mathcal N^{\otimes m})$, which by the projection
-formula is $\chi(A,\mathcal N^{\otimes m}\otimes[n]_*\mathcal O_A)$.
-As $[n]_*\mathcal O_A$ is locally free of rank $\deg[n]$, the
+$\chi(A,\href{@definition-abelian-variety}{[n]_*}\href{@definition-abelian-variety}{[n]^*}\mathcal N^{\otimes m})$, which by the projection
+formula is $\chi(A,\mathcal N^{\otimes m}\otimes\href{@definition-abelian-variety}{[n]_*}\mathcal O_A)$.
+As $\href{@definition-abelian-variety}{[n]_*}\mathcal O_A$ is locally free of rank $\deg[n]$, the
 coefficient is $\deg[n]\deg_{\mathcal N}(A)/g!$. Since
-$[n]^*\mathcal N^{\otimes m}\simeq\mathcal N^{\otimes n^2m}$, it is also
+$\href{@definition-abelian-variety}{[n]^*}\mathcal N^{\otimes m}\simeq\mathcal N^{\otimes n^2m}$, it is also
 $n^{2g}\deg_{\mathcal N}(A)/g!$. Hence
 
 $$

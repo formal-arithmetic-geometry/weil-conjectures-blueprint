@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $\Lambda$ be admissible, let $i:Z\hookrightarrow X$ be a
 closed immersion with open complement $j:V\hookrightarrow X$, and let
-$R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$ be the
+$R\underline\Gamma_Z:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},\Lambda)$ be the
 local cohomology functor (Definition [definition-local-cohomology]),
 
 $$
@@ -22,13 +22,13 @@ sections of $M$ with support in $Z$.
 1. [$R\underline\Gamma_Z$](@definition-local-cohomology) is the right derived functor of
    $\underline\Gamma_Z$. Consequently the adjunction of
    Lemma [lemma-local-cohomology-right-adjoint] holds in the form
-   $R\!\operatorname{Hom}_X(i_*N,K)=R\!\operatorname{Hom}_Z(N,R\underline\Gamma_ZK)$.
+   $R\!\operatorname{Hom}_X(i_*N,K)=R\!\operatorname{Hom}_Z(N,\href{@definition-local-cohomology}{R\underline\Gamma_ZK})$.
 2. Let $a=i\circ u:S\hookrightarrow X$ with $u:S\hookrightarrow Z$ an
    open immersion, and let $L$ be a finite locally projective
    $\Lambda_S$-module with dual $L^\vee$. Then naturally in
-   $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$
+   $K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$
    $$
    R\!\operatorname{Hom}_X(a_!L,K)
-   =R\Gamma\bigl(S,L^\vee\otimes u^*R\underline\Gamma_ZK\bigr).
+   =R\Gamma\bigl(S,L^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_ZK}\bigr).
    \tag{3.1}
    $$

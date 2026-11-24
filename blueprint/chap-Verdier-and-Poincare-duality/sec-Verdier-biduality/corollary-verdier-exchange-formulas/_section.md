@@ -11,10 +11,10 @@ For a morphism $f:X\to Y$ there are natural isomorphisms of functors on
 
 $$
 \begin{aligned}
-\mathbb D_YRf_!&\simeq Rf_*\mathbb D_X,&
-\mathbb D_YRf_*&\simeq Rf_!\mathbb D_X,\\
-\mathbb D_Xf^*&\simeq f^!\mathbb D_Y,&
-\mathbb D_Xf^!&\simeq f^*\mathbb D_Y.
+\href{@definition-verdier-dual-evaluation}{\mathbb D_Y}\href{@proposition-construction-independence-rf-shriek}{Rf_!}&\simeq Rf_*\href{@definition-verdier-dual-evaluation}{\mathbb D_X},&
+\href{@definition-verdier-dual-evaluation}{\mathbb D_Y}Rf_*&\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@definition-verdier-dual-evaluation}{\mathbb D_X},\\
+\href{@definition-verdier-dual-evaluation}{\mathbb D_X}f^*&\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!}\href{@definition-verdier-dual-evaluation}{\mathbb D_Y},&
+\href{@definition-verdier-dual-evaluation}{\mathbb D_X}\href{@theorem-existence-exceptional-inverse-image}{f^!}&\simeq f^*\href{@definition-verdier-dual-evaluation}{\mathbb D_Y}.
 \end{aligned}
 $$
 
@@ -22,9 +22,9 @@ In particular, for an open $j:U\hookrightarrow X$ and a closed
 $i:Z\hookrightarrow X$,
 
 $$
-\mathbb D_Xj_!\simeq Rj_*\mathbb D_U,\qquad
-\mathbb D_XRj_*\simeq j_!\mathbb D_U,\qquad
-i^*\mathbb D_X\simeq\mathbb D_Zi^!.
+\href{@definition-verdier-dual-evaluation}{\mathbb D_X}j_!\simeq Rj_*\href{@definition-verdier-dual-evaluation}{\mathbb D_U},\qquad
+\href{@definition-verdier-dual-evaluation}{\mathbb D_X}Rj_*\simeq j_!\href{@definition-verdier-dual-evaluation}{\mathbb D_U},\qquad
+i^*\href{@definition-verdier-dual-evaluation}{\mathbb D_X}\simeq\href{@definition-verdier-dual-evaluation}{\mathbb D_Z}\href{@theorem-existence-exceptional-inverse-image}{i^!}.
 $$
 
 The isomorphisms in the left column are (10.3)

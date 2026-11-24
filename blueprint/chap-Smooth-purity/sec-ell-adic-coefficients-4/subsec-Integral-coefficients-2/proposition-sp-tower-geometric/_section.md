@@ -14,6 +14,6 @@ Rf_{!,\bullet}\dashv f_\bullet^!
 $$
 
 At level $n$ its unit and counit are those of the finite adjunction, so
-$(f_\bullet^!C_\bullet)_n\simeq f^!_{\mathcal O_E/\ell^n}C_n$, and the reduction maps of
+$(f_\bullet^!C_\bullet)_n\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E/\ell^n}C_n}$, and the reduction maps of
 $f_\bullet^!C_\bullet$ are [$f^!$](@theorem-existence-exceptional-inverse-image) of those of $C_\bullet$ composed with the comparisons $c$
 of Lemma [lemma-sp-reduction].

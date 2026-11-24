@@ -11,8 +11,8 @@ $k$ algebraically closed, and let $\Lambda$ be a field. For every $i$
 the pairing
 
 $$
-\langle a,b\rangle=\operatorname{tr}_X(a\cup b),\qquad
-H^i(X,\Lambda)\times H^{2d-i}(X,\Lambda)\longrightarrow\Lambda(-d),
+\langle a,b\rangle=\href{@theorem-trace-isomorphism-top-degree}{\operatorname{tr}_X(a\cup b)},\qquad
+H^i(X,\Lambda)\times H^{2d-i}(X,\Lambda)\longrightarrow\href{@definition-tate-twists}{\Lambda(-d)},
 $$
 
 is [perfect](@definition-perfect-pairing), and $\langle b,a\rangle=(-1)^i\langle a,b\rangle$. In

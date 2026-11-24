@@ -10,10 +10,10 @@ Let $\lambda$ be a linear form on $\mathbf A^r$ over an algebraically
 closed field of characteristic $p$. Then
 
 $$
-R\Gamma_c(\mathbf A^r,\lambda^*\mathcal L_\psi)
+R\Gamma_c(\mathbf A^r,\lambda^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})
 \simeq
 \begin{cases}
-E(-r)[-2r],&\lambda=0,\\
+\href{@definition-tate-twists}{E(-r)}[-2r],&\lambda=0,\\
 0,&\lambda\ne0.
 \end{cases}
 $$

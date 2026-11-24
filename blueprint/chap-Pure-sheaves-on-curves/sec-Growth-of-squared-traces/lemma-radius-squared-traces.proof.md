@@ -5,5 +5,5 @@ order = 1203
 uses = ["definition-trace-function"]
 +++
 By the Cauchy–Hadamard formula the radius is the inverse of
-$\limsup_nS_n(K)^{1/n}=q^{\nu(K)+1}$; the shift of the index by one
+$\limsup_n\href{@definition-growth-squared-traces}{S_n(K)^{1/n}}=q^{\href{@definition-growth-squared-traces}{\nu(K)}+1}$; the shift of the index by one
 does not change it.

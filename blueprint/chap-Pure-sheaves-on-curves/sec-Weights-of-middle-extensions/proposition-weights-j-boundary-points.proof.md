@@ -22,7 +22,7 @@ $L_X/L_U$ of the two [$L$-functions](@theorem-trace-formula-euler-product) defin
 has no zero and $L_X$ no pole on the disc $|t|<q^{-a/2-1}$, so that the
 boundary factors have no pole there, and this bounds their eigenvalues.
 
-*The $L$-function on $U_0$.* Put $L_U(t)=L(U_0,\mathcal F,t)$.
+*The $L$-function on $U_0$.* Put $L_U(t)=\href{@theorem-trace-formula-euler-product}{L(U_0,\mathcal F,t)}$.
 We show that $\iota L_U$ is holomorphic and nonvanishing on the disc,
 by bounding the coefficients of its logarithm.
 The logarithm of the Euler product has coefficients
@@ -31,12 +31,12 @@ $$
 \log\iota L_U(t)=\sum_{n\ge1}\frac{c_n}{n}t^n,
 \qquad
 c_n=\sum_{d\mid n}d\sum_{\deg(x)=d}
-\iota\operatorname{Tr}(\operatorname{Frob}_x^{n/d}\mid\mathcal F_{\bar x}).
+\iota\operatorname{Tr}(\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x^{n/d}}\mid\mathcal F_{\bar x}).
 $$
 
 Let $r=\operatorname{rank}\mathcal F$. For a closed point $x$ of
 degree $d\mid n$, the bound on the weights gives
-$|\iota\operatorname{Tr}(\operatorname{Frob}_x^{n/d}\mid\mathcal F_{\bar x})|
+$|\iota\operatorname{Tr}(\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x^{n/d}}\mid\mathcal F_{\bar x})|
 \le rq_x^{(n/d)a/2}=rq^{na/2}$. Since
 $\sum_{d\mid n}d\cdot\#\{x\in|U_0|:\deg(x)=d\}=\#U_0(k_n)$,
 Lemma [lemma-point-count-bound] gives $|c_n|\le rDq^{n(a/2+1)}$. Hence the
@@ -45,7 +45,7 @@ is a nonvanishing holomorphic function there. By the [trace formula](@theorem-tr
 its Taylor series is that of the rational function $\iota L_U(t)$, so
 the two agree on the whole disc.
 
-*The $L$-function on $X_0$.* Let $L_X(t)=L(X_0,j_*\mathcal F,t)$.
+*The $L$-function on $X_0$.* Let $L_X(t)=\href{@theorem-trace-formula-euler-product}{L(X_0,j_*\mathcal F,t)}$.
 We show that $\iota L_X$ is holomorphic on the same disc. By the [trace
 formula](@theorem-trace-formula-euler-product) its poles come from $H^0_c$ and $H^2_c$ of $j_*\mathcal F$, and
 we compute both groups.

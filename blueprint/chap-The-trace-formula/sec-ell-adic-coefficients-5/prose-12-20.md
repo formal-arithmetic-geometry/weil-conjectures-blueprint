@@ -17,17 +17,17 @@ why we prove the formula for correspondences that are not invertible. Finally, f
 
 The Frobenius comparison $\kappa_m$ of
 Lemma [lemma-scheme-frobenius-geometric-frobenius] extends to the coefficient rings
-$\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. Let $K\in\Dbc(X,\mathcal O_E)$ have
+$\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. Let $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$ have
 tower of reductions $(K_n)$ modulo $\pi_E^n$
-(Definition [definition-derived-adic-completeness]). Both $(\Phi_X^m)^*$ and
+(Definition [definition-derived-adic-completeness]). Both [$(\Phi_X^m)^*$](@definition-frobenius-correspondences-their-operators) and
 $\operatorname{Fr}_X^{m*}$ preserve [derived completeness](@definition-derived-adic-completeness) and commute
 with reduction, so each is the derived limit of its values on the
-$K_n$. The finite comparisons $\kappa_m$ come from a single functorial
+$K_n$. The finite comparisons [$\kappa_m$](@lemma-scheme-frobenius-geometric-frobenius) come from a single functorial
 identification on the classical site. Hence they are compatible with
 reduction of coefficients, and their derived limit is the integral
-$\kappa_m$. The finite comparisons are compatible with iteration and
+[$\kappa_m$](@lemma-scheme-frobenius-geometric-frobenius). The finite comparisons are compatible with iteration and
 with the units of the pullbacks, and therefore so is the integral one. It follows that
-the integral $\kappa_m$ identifies the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators) with the [geometric Frobenius operators](@definition-frobenius-operator) as in
+the integral [$\kappa_m$](@lemma-scheme-frobenius-geometric-frobenius) identifies the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators) with the [geometric Frobenius operators](@definition-frobenius-operator) as in
 Lemma [lemma-scheme-frobenius-geometric-frobenius].
 For $E$ we localize on integral models. By the localized Hom
 comparison (9.21) the result does not depend on the choice of model. For $\overline{\mathbf Q}_\ell$ we

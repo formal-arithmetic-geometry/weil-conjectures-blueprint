@@ -31,6 +31,6 @@ Hence $\mathrm{BC}(g,n,q)$ holds for affine $g$ of relative dimension one,
 and by the reduction above it holds for every smooth $g$.
 
 Since $f$ and $f'$ are qcqs, both sides commute with the filtered union
-$F=\bigcup_nF[n]$, which gives the theorem for $F$ on the étale sites.
+$F=\bigcup_n\href{@definition-torsion-sheaves}{F[n]}$, which gives the theorem for $F$ on the étale sites.
 Finally, Theorem [theorem-comparison-direct-images] transfers the isomorphism and
 the [base change map](@definition-derived-base-change-map) from the étale sites to [$Y'_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).

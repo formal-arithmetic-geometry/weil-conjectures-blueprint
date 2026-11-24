@@ -7,7 +7,7 @@ order = 456
 lean = ["AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound", "AlgebraicGeometry.ProEtale.HasIndConstructibleExtBound.of_continuity"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-constructible-sheaves", "lemma-uniform-ext-bound"]
 +++
-Let $C\in\Cons(X,\Lambda)$, with $d_C$ as in
+Let $C\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$, with $d_C$ as in
 Lemma [lemma-uniform-ext-bound]. Then $\Ext^q(C,B)=0$ for all $q>d_C$
-and all $B\in\IndCons(X,\Lambda)$, and each functor $\Ext^q(C,-)$
+and all $B\in\href{@definition-ind-constructible-sheaves}{\IndCons(X,\Lambda)}$, and each functor $\Ext^q(C,-)$
 commutes with direct sums of objects of [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves).

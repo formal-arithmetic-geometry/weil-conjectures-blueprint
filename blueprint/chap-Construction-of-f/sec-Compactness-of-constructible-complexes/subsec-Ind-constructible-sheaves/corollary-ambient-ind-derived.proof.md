@@ -13,5 +13,5 @@ clear. As direct sums of sheaves are exact, $H^n$ commutes with direct
 sums. Since [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves) is closed under direct sums, it follows that
 $\Dic(X,\Lambda)$ is closed under direct sums. Truncation only
 removes cohomology sheaves and keeps the others. Hence $\Dic(X,\Lambda)$ is a localizing
-subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ containing [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves). It
+subcategory of $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ containing [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves). It
 therefore contains the smallest one, [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory).

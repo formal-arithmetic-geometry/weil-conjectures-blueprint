@@ -7,8 +7,8 @@ uses = ["definition-small-pro-etale-site", "lemma-flat-models-generators", "defi
 The lemma follows from the stability of [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) under the six operations.
 Proposition [proposition-six-operations-dctf] shows that [$a_X^!$](@theorem-existence-exceptional-inverse-image) and
 internal Hom preserve [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves). As $\Lambda_s$ lies in [$D^b_{\mathrm{ctf}}(s,\Lambda)$](@definition-constructible-sheaves),
-both $\omega_X=a_X^!\Lambda_s$ and [$\mathbb D_XK$](@definition-verdier-dual-evaluation) lie in
-[$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$. We also give a direct
+both $\href{@definition-verdier-dual-evaluation}{\omega_X}=\href{@theorem-existence-exceptional-inverse-image}{a_X^!\Lambda_s}$ and [$\mathbb D_XK$](@definition-verdier-dual-evaluation) lie in
+[$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) for $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$. We also give a direct
 argument with finite coefficients and smooth strata, because the proof of
 Lemma [lemma-restriction-geometric-generic-fibre] uses its
 dévissage to generators $t_!P$ again.
@@ -28,11 +28,11 @@ under cones, it suffices to show that [$\mathbb D_X(t_!P)$](@definition-verdier-
 for $t$ gives
 
 $$
-\mathbb D_X(t_!P)\simeq Rt_*\mathbb D_TP.
+\href{@definition-verdier-dual-evaluation}{\mathbb D_X(t_!P)}\simeq Rt_*\href{@definition-verdier-dual-evaluation}{\mathbb D_TP}.
 $$
 
 On a smooth stratum of dimension $r$,
 Theorem [theorem-smooth-purity-all-admissible-coefficients] identifies
-the dual [$\mathbb D_TP$](@definition-verdier-dual-evaluation) with $P^\vee(r)[2r]$, which is locally a perfect
+the dual [$\mathbb D_TP$](@definition-verdier-dual-evaluation) with $\href{@definition-tate-twists}{P^\vee(r)}[2r]$, which is locally a perfect
 complex. By Proposition [proposition-six-operations-dctf]
 its ordinary direct image lies in [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves).

@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDeri
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves"]
 +++
 Let $j:U\hookrightarrow X$ be a quasi-compact open immersion. Then
-$Rj_*:D(U_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ maps
+$Rj_*:D(\href{@definition-small-pro-etale-site}{U_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ maps
 [$\Dbc(U,\Lambda)$](@definition-constructible-sheaves) into [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves) for $\Lambda=\mathcal O_E$, $E$
 and $\overline{\mathbf Q}_\ell$.

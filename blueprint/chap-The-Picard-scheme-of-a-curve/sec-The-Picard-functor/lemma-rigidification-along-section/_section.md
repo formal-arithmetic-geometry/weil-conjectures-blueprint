@@ -23,7 +23,7 @@ exact sequence
 $$
 0\longrightarrow\operatorname{Pic}(T)
 \xrightarrow{f_T^*}\operatorname{Pic}(C_T)
-\longrightarrow\operatorname{Pic}_{C/S}(T)
+\longrightarrow\href{@definition-relative-picard-functor}{\operatorname{Pic}_{C/S}(T)}
 \longrightarrow0,
 $$
 

@@ -19,7 +19,7 @@ Now let $\Lambda=\mathbf Z/\ell^n$. Since this ring is injective as a module ove
 itself,
 $R\!\operatorname{Hom}_{\mathbf Z/\ell^n}(-,\mathbf Z/\ell^n)$ has cohomology equal to
 the ordinary dual of the opposite cohomology. Hence Poincaré
-duality (Theorem [theorem-poincare-duality]) in degree zero identifies $H^{2d}(X,\mathbf Z/\ell^n(d))$
+duality (Theorem [theorem-poincare-duality]) in degree zero identifies $H^{2d}(X,\href{@definition-tate-twists}{\mathbf Z/\ell^n(d)})$
 with $\Hom(H^0(X,\mathbf Z/\ell^n),\mathbf Z/\ell^n)=\mathbf Z/\ell^n$.
 By Theorem [theorem-poincare-duality] this identification is given by
 pairing with $H^0$ and applying the [trace map](@definition-trace-map), so it is
@@ -34,12 +34,12 @@ $\mathbf Z/\ell^n\otimes A=A$, and the trace is an isomorphism. Since
 derived extension of scalars does not raise the top degree, the same
 upper bound holds.
 
-For $\mathcal O_E$, we write $R\Gamma(X,\mathcal O_{E,X}(d))$ as the
-derived inverse limit of the complexes $R\Gamma(X,(\mathcal O_E/\pi_E^n)_X(d))$.
+For $\mathcal O_E$, we write $R\Gamma(X,\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}\href{@definition-tate-twists}{(d)})$ as the
+derived inverse limit of the complexes $R\Gamma(X,\href{@definition-tate-twists}{(\mathcal O_E/\pi_E^n)_X(d)})$.
 Its cohomology fits into the [Milnor sequence](@proposition-milnor-sequence)
 $0\to\lim^1_nH^{i-1}\to H^i\to\lim_nH^i\to0$. Since the cohomology groups at each level are finite, they satisfy the Mittag–Leffler condition and there is no $\lim^1$
 contribution to the top group. The traces in top degree are
-compatible, so we get $H^{2d}(X,\mathcal O_{E,X}(d))=\mathcal O_E$, with the same
+compatible, so we get $H^{2d}(X,\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}\href{@definition-tate-twists}{(d)})=\mathcal O_E$, with the same
 vanishing bounds. The lower bound and $H^0$ also follow directly from ordinary sheaf cohomology and
 connectedness. Finally, inverting $\ell$ and then extending scalars along
 finite extensions of $E$, we obtain the cases $\mathbf Q_\ell$, $E$ and $\overline{\mathbf Q}_\ell$.

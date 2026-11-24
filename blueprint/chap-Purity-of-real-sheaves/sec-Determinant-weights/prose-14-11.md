@@ -21,7 +21,7 @@ The difficulty is that a determinant only sees an average. For
 irreducible $A$ and $B$ of ranks $a$ and $b$, we have
 $\det(A\otimes B)=(\det A)^{\otimes b}\otimes(\det B)^{\otimes a}$. Hence the
 [determinant weight](@definition-determinant-weight) of $A\otimes B$ as a whole is
-$\operatorname{dw}_\iota(A)+\operatorname{dw}_\iota(B)$. But $A\otimes B$
+$\href{@definition-determinant-weight}{\operatorname{dw}_\iota(A)}+\href{@definition-determinant-weight}{\operatorname{dw}_\iota(B)}$. But $A\otimes B$
 is usually reducible, and which subquotients occur depends on the
 monodromy. The rank-weighted average of the [determinant weights](@definition-determinant-weight) of its
 simple factors is the number above, but nothing so far prevents one
@@ -60,7 +60,7 @@ $c_Q$, and taking determinants gives
 $c_Q^{\dim Q}=\det(h\mid Q)\det(s\mid Q)^N$. Since determinants have finite
 geometric monodromy, $\det(h\mid Q)$ is a root of unity, and from this
 Lemma [lemma-determinant-weight-from-central-scalar] concludes that
-$\operatorname{dw}_\iota(Q)=\lambda_\iota(c_Q)/N$, where
+$\href{@definition-determinant-weight}{\operatorname{dw}_\iota(Q)}=\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c_Q)}/N$, where
 $\lambda_\iota(a)=2\log_q|\iota(a)|$ is the additive function of
 Proposition [proposition-weights-under-usual-operations].
 Since scalars multiply under tensor products, we obtain

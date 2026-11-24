@@ -16,14 +16,14 @@ $\Phi_X^m$ of the graph $c_m$ is proper. Indeed, $\Phi_X$ and all its iterates
 are finite, since a finitely generated algebra over a perfect field is finite over
 its subring of $q$-th powers.
 
-We cannot work with $\operatorname{Fr}_X$ directly. Indeed, the [Weil structure](@definition-weil-structure) $\phi_K$ is a map $\operatorname{Fr}_X^*K\to K$, but
+We cannot work with $\operatorname{Fr}_X$ directly. Indeed, the [Weil structure](@definition-weil-structure) [$\phi_K$](@definition-weil-structure) is a map $\operatorname{Fr}_X^*K\to K$, but
 $\operatorname{Fr}_X$ lies over the automorphism $\operatorname{Spec}(\sigma)$
 of $s$. Hence its graph is not a morphism $X\to X\times_sX$ of $k$-schemes.
-Since the formalism of Chapter [chap-The-Lefschetz-Verdier-formula] uses $c_1^!$ only for $k$-morphisms, it does not apply to this graph. The $k$-linear
+Since the formalism of Chapter [chap-The-Lefschetz-Verdier-formula] uses [$c_1^!$](@theorem-existence-exceptional-inverse-image) only for $k$-morphisms, it does not apply to this graph. The $k$-linear
 $\Phi_X=F_X\circ\operatorname{Fr}_X$, on the other hand, has a graph of the
 required kind. Pullback along the absolute Frobenius $F_X$ is the identity on étale sheaves, and this is how
 Lemma [lemma-scheme-frobenius-geometric-frobenius]
-turns $\phi_K$ into a map $\Phi_X^*K\to K$. For example, on $X=\mathbf A^1_k$ the map
+turns [$\phi_K$](@definition-weil-structure) into a map $\Phi_X^*K\to K$. For example, on $X=\mathbf A^1_k$ the map
 $\Phi_X$ is $t\mapsto t^q$, and the fixed points of $\Phi_X^m$ are the $q^m$ elements of $\mathbf F_{q^m}$. Lemma [lemma-frobenius-fixed-scheme]
 describes them in general.
 

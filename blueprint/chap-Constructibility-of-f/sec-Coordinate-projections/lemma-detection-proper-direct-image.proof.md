@@ -13,7 +13,7 @@ We work on the étale sites, in $D^+(-_{\acute{e}t},\Fell)$ and
 $\operatorname{Mod}(-_{\acute{e}t},\Fell)$.
 
 *Finite direct images.* Let $h:Z\to S$ be finite. Then $h_*$ is
-exact and conservative, and $Rh_*M\in\Dbc$ implies $M\in\Dbc$. The first
+exact and conservative, and $Rh_*M\in\href{@definition-constructible-sheaves}{\Dbc}$ implies $M\in\href{@definition-constructible-sheaves}{\Dbc}$. The first
 two properties hold because, for a sheaf $F$ of $\Fell$-modules on $Z$,
 $h_*F$ has stalks
 
@@ -42,13 +42,13 @@ $$
 *Part (1).* The first term $j_!j^*K$ is bounded [constructible](@definition-constructible-sheaves), because
 $j^*K$ is and extension by zero preserves [constructibility](@definition-constructible-sheaves). Its direct
 image $Rb_*j_!j^*K$ is bounded [constructible](@definition-constructible-sheaves) by the finiteness theorem
-[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0), [0G2A](https://stacks.math.columbia.edu/tag/0G2A)], which applies since $Rb_*=Rb_!$ for proper $b$.
+[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0), [0G2A](https://stacks.math.columbia.edu/tag/0G2A)], which applies since $Rb_*=\href{@proposition-construction-independence-rf-shriek}{Rb_!}$ for proper $b$.
 Applying $Rb_*$ to (6.18), we obtain a triangle whose first
 two terms, $Rb_*j_!j^*K$ and $Rb_*K$, are bounded [constructible](@definition-constructible-sheaves). Hence the
 third term $Rb_*i_*i^*K=R(bi)_*i^*K$ is bounded [constructible](@definition-constructible-sheaves) too. The
-first step, applied to $h=bi$, now gives $i^*K\in\Dbc(Z,\Fell)$. As $i_*$
+first step, applied to $h=bi$, now gives $i^*K\in\href{@definition-constructible-sheaves}{\Dbc(Z,\Fell)}$. As $i_*$
 is exact and preserves [constructibility](@definition-constructible-sheaves), (6.18) shows that
-$K\in\Dbc(Y,\Fell)$.
+$K\in\href{@definition-constructible-sheaves}{\Dbc(Y,\Fell)}$.
 
 *Part (2).* Let $M$ be a cone of $\varphi$; we must show $M=0$. We
 have $j^*M=0$ because $j^*\varphi$ is an isomorphism. By

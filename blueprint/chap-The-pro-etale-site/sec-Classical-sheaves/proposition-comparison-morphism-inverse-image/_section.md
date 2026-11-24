@@ -9,12 +9,12 @@ uses = ["definition-small-pro-etale-site"]
 Inclusion of étale objects defines a morphism of topoi
 
 $$
-\nu_X:X_{\mathrm{pro}\acute{e}t}\longrightarrow X_{\acute{e}t}.
+\nu_X:\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}}\longrightarrow X_{\acute{e}t}.
 $$
 
-Its direct image $\nu_{X,*}:\Sh(X_{\mathrm{pro}\acute{e}t})\to\Sh(X_{\acute{e}t})$ is
+Its direct image $\nu_{X,*}:\href{@proposition-topos-functoriality}{\Sh}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}})\to\Sh(X_{\acute{e}t})$ is
 restriction to the étale subsite. Its inverse image
-$\nu_X^*:\Sh(X_{\acute{e}t})\to\Sh(X_{\mathrm{pro}\acute{e}t})$ is exact and has the
+$\nu_X^*:\Sh(X_{\acute{e}t})\to\href{@proposition-topos-functoriality}{\Sh}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}})$ is exact and has the
 description
 
 $$
@@ -27,7 +27,7 @@ where $h_{\acute{e}t}^*:\Sh(X_{\acute{e}t})\to\Sh(V_{\acute{e}t})$ is the étale
 image along the [weakly étale](@definition-ind-etale-pro-etale-weakly) map $h$. Both functors carry
 sheaves of $\Lambda$-modules to sheaves of $\Lambda$-modules, so they
 restrict to functors between $\operatorname{Mod}(X_{\acute{e}t},\Lambda)$ and
-$\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+$\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 In particular, for $U=\varprojlim_iU_i$ as above, we have
 
 $$

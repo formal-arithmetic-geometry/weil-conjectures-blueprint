@@ -21,7 +21,7 @@ $f|_U=p_d\circ e$ of Proposition [proposition-exceptional-inverse-image-smooth-m
 the [trace of the projective line](@lemma-cohomology-projective-line-trace) and sums over the fibres of $e$, which commute with
 extension of coefficients (Proposition [proposition-adjunction-projective-line]).
 On the chart, therefore, $c_{A,B}(K)$ is the transpose of the comparison
-for pullback $(e^*p_d^*K(d)[2d])_B\simeq e^*p_d^*(K_B)(d)[2d]$, which is an
+for pullback $(e^*p_d^*\href{@definition-tate-twists}{K(d)}[2d])_B\simeq e^*p_d^*(\href{@definition-sp-scalar-extension}{K_B})\href{@definition-tate-twists}{(d)}[2d]$, which is an
 isomorphism. Hence $c_{A,B}(K)$ is an isomorphism on every chart.
 Transitivity holds
 because both sides have the same transpose: for $A\to B\to C$, the counit

@@ -7,4 +7,4 @@ order = 403
 Suppose $\Lambda$ is killed by a positive integer, for instance that
 $\Lambda$ is a finite ring. Then every complex of $\Lambda_X$-modules has
 [torsion](@definition-torsion-sheaves) cohomology sheaves, and the theorem applies to every
-$K\in D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+$K\in D^+_{\mathrm{class}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.

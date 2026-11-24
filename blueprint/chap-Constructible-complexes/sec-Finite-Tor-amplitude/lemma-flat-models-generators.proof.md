@@ -8,9 +8,9 @@ The flat model exists on the étale site by a classical result, and we
 pull it back. The generators then come from two filtrations: the stupid
 filtration of the model, and the filtration of each term by strata.
 
-By Corollary [corollary-finite-tor-amplitude-under-comparison], $C=\nu_X^*C_{\acute{e}t}$ with
+By Corollary [corollary-finite-tor-amplitude-under-comparison], $C=\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*C_{\acute{e}t}}$ with
 $C_{\acute{e}t}\in D^b_{\mathrm{ctf}}(X_{\acute{e}t},A)$, where
-$\nu_X^*:D(X_{\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ is the [comparison inverse
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}:D(X_{\acute{e}t},A)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)$ is the [comparison inverse
 image](@proposition-comparison-morphism-inverse-image). By [Stacks, [0F4M](https://stacks.math.columbia.edu/tag/0F4M)] the complex $C_{\acute{e}t}$ has a bounded flat model, and
 since [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) is exact on sheaves, its pullback is a
 bounded flat [constructible](@definition-constructible-sheaves) model on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). We choose a common stratification on

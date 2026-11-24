@@ -9,6 +9,6 @@ and $j$ the open complement of $Z$, and suppose that $L$ contains a [lisse](@def
 $\mathcal O_E$-[lattice](@definition-lattice). By
 Lemma [lemma-lattices-after-finite-stratification], this holds after
 refining $S$. In this case the proof gives
-$d_C=\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$. One of the two extra
+$d_C=\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2$. One of the two extra
 degrees comes from the cone defining [$R\underline\Gamma_Z$](@definition-local-cohomology), and the other from
 a derived inverse limit over the reductions modulo $\pi_E^n$.

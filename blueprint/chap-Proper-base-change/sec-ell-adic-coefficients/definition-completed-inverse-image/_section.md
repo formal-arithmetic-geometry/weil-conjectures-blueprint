@@ -6,12 +6,12 @@ order = 414
 lean = ["AlgebraicGeometry.Scheme.completedPullbackObject", "AlgebraicGeometry.Scheme.completedPullbackFunctor"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers"]
 +++
-Let $g:Y'\to Y$ be a morphism. For $M\in D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, the
+Let $g:Y'\to Y$ be a morphism. For $M\in D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$, the
 *completed inverse image* is
 
 $$
 \hat g^*M
-=R\varprojlim_n g^*(M\otimes^{\mathbf L}_{\mathcal O_{E,Y}}
+=R\varprojlim_n g^*(M\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,Y}}}
 (\mathcal O_E/\pi_E^n)_Y)
-\in D(Y'_{\mathrm{pro}\acute{e}t},\mathcal O_E).
+\in D(\href{@definition-small-pro-etale-site}{Y'_{\mathrm{pro}\acute{e}t}},\mathcal O_E).
 $$

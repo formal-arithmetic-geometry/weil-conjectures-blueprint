@@ -11,7 +11,7 @@ second is the substantial point, since there we must show that the limit of such
 a tower is again [constructible](@definition-constructible-sheaves).
 
 The adjunction is $Lh^*p^{-1}\dashv Rp_*h_*$, for the change of rings $h$ from towers to
-constant inverse systems of $\mathcal O_{E,T}$-modules and the morphism $p$ to [$T_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
+constant inverse systems of [$\mathcal O_{E,T}$](@lemma-comparison-completed-coefficients)-modules and the morphism $p$ to [$T_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 with $p_*=\varprojlim$ [Stacks, [06YV](https://stacks.math.columbia.edu/tag/06YV), [07A6](https://stacks.math.columbia.edu/tag/07A6)]. By
 Proposition [proposition-sp-integral-towers](1), $\operatorname{red}_T$ maps
 [$\Dbc(T,\mathcal O_E)$](@definition-constructible-sheaves) into normalized constructible towers. On [$\Dbc$](@definition-constructible-sheaves) the
@@ -26,7 +26,7 @@ $C$ is [derived complete](@definition-derived-adic-completeness) and $C/\ell\sim
 $C$ is bounded, because the $C_n$ have cohomology in a fixed interval, and
 on the [replete](@definition-repleteness) topos [$T_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) derived limits of such towers increase the
 range by at most one [Stacks, [0940](https://stacks.math.columbia.edu/tag/0940)]. Therefore
-$C\in\Dbc(T,\mathcal O_E)$ by Proposition [proposition-sp-integral-towers](2). Finally, the counit
+$C\in\href{@definition-constructible-sheaves}{\Dbc(T,\mathcal O_E)}$ by Proposition [proposition-sp-integral-towers](2). Finally, the counit
 $\operatorname{red}_TC\to C_\bullet$ is at level $m$ the reduction map
 $C/\ell^m\to C_m$, which is an isomorphism by what we just showed. Since
 evaluations detect isomorphisms, the counit is an isomorphism.

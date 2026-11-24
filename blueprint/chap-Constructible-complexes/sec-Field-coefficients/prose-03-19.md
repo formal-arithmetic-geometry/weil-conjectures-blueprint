@@ -6,5 +6,5 @@ order = 262
 +++
 For example, in rank one the lattices in $E$ are the
 $\pi_E^m\mathcal O_E$ for $m\in\mathbf Z$, so the discrete set of lattices
-is $E^\times/\mathcal O_E^\times\simeq\mathbf Z$. Hence for $L=E_X$ the
+is $E^\times/\mathcal O_E^\times\simeq\mathbf Z$. Hence for $L=\href{@lemma-comparison-completed-coefficients}{E_X}$ the
 representing scheme is $\coprod_{m\in\mathbf Z}X$.

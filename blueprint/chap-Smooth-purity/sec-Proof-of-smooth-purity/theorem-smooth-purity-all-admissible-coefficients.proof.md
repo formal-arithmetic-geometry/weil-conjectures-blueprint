@@ -26,7 +26,7 @@ Proposition [proposition-relative-dualizing-complex]).
 
 *Property (1), integral and rational coefficients.* For
 $\Lambda=\mathcal O_E$ we write the left side $\phi$ of (1) as
-$u\circ\operatorname{Tr}_p$ and show that $u=1$ by reducing modulo $\ell^n$.
+$u\circ\href{@definition-trace-map-affine-line}{\operatorname{Tr}_p}$ and show that $u=1$ by reducing modulo $\ell^n$.
 
 First, the trace map [$\operatorname{Tr}_p$](@definition-trace-map-affine-line) of
 (9.1) is an isomorphism, and this is what
@@ -42,7 +42,7 @@ $C/\pi_E=(C/\ell)\otimes^{\mathbf L}_{\mathcal O_E/\ell}\mathcal O_E/\pi_E=0$.
 Since the source and target of [$\operatorname{Tr}_p$](@definition-trace-map-affine-line) lie in
 [$\Dbc(Y,\mathcal O_E)$](@definition-constructible-sheaves), the complex $C$ is [derived complete](@definition-derived-adic-completeness), and derived Nakayama
 (Lemma [lemma-reduction-derived-nakayama]) gives $C=0$. Thus
-$\phi=u\circ\operatorname{Tr}_p$ for a unique endomorphism $u$ of
+$\phi=u\circ\href{@definition-trace-map-affine-line}{\operatorname{Tr}_p}$ for a unique endomorphism $u$ of
 [$\mathcal O_{E,Y}$](@lemma-comparison-completed-coefficients), that is, for an element
 $u\in H^0(Y,\mathcal O_E)=\varprojlim_nH^0(Y,\mathcal O_E/\ell^n)$.
 

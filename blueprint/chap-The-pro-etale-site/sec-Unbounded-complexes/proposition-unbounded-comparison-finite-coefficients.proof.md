@@ -13,15 +13,15 @@ D(X_{\acute{e}t},A)$ and a degree $m$, and consider the triangle
 $\tau_{<N}K\to K\to\tau_{\geq N}K$ for an integer $N$ chosen below.
 
 Full faithfulness of [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) means that the unit
-$K\to R\nu_{X,*}\nu_X^*K$ is an isomorphism, and it suffices to check
-this on the maps $H^mR\Gamma(U,K)\to H^mR\Gamma(U,\nu_X^*K)$ for affine
+$K\to \href{@proposition-comparison-morphism-inverse-image}{R\nu_{X,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*K}$ is an isomorphism, and it suffices to check
+this on the maps $H^mR\Gamma(U,K)\to H^mR\Gamma(U,\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*K})$ for affine
 étale $U$ over $X$. We first reduce to bounded-below complexes. On the étale side, $\Gamma(U,-)$ has
 cohomological dimension at most $d$ on sheaves of $A$-modules, and by
 [Stacks, [07K7](https://stacks.math.columbia.edu/tag/07K7)] the group $H^mR\Gamma(U,K)$ depends only on
 $\tau_{\geq N}K$ as soon as $N\leq m-d$. On the pro-étale side, since
 [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) is exact it commutes with truncations, and
 Lemma [lemma-truncation-pro-etale-sections], applied with $e=d$ to
-$L=\nu_X^*\tau_{<N}K$ and $b=N-1$, shows that $H^m$ and $H^{m+1}$ of
+$L=\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}\tau_{<N}K$ and $b=N-1$, shows that $H^m$ and $H^{m+1}$ of
 $R\Gamma(U,L)$ vanish as soon as $N<m-d$. Hence for such $N$ both sides are
 unchanged when $K$ is replaced by $\tau_{\geq N}K$, and for this
 bounded-below complex the map is an isomorphism by
@@ -30,15 +30,15 @@ Theorem [theorem-bounded-below-cohomology-comparison].
 For direct images, we evaluate (2.9)
 on a [pro-étale affine](@definition-ind-etale-pro-etale-weakly) $V$ over $Y$; these objects form a basis of
 [$Y_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). As before, we bound the contribution of $\tau_{<N}K$ on both sides. On the étale side, the complex $Rg_{\acute{e}t,*}\tau_{<N}K$ has cohomology sheaves
-in degrees at most $N-1+\operatorname{cd}_\ell(g)$, so
-$\nu_Y^*Rg_{\acute{e}t,*}\tau_{<N}K$ has [classical](@definition-classical-pro-etale-sheaves) cohomology in the same range,
+in degrees at most $N-1+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(g)}$, so
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}Rg_{\acute{e}t,*}\tau_{<N}K$ has [classical](@definition-classical-pro-etale-sheaves) cohomology in the same range,
 and Lemma [lemma-truncation-pro-etale-sections] on $Y$, with
-$e=\dim(Y)+\operatorname{cd}_\ell(k)$ (Lemma [lemma-uniform-bounds-pro-etale-affines]
+$e=\dim(Y)+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(k)}$ (Lemma [lemma-uniform-bounds-pro-etale-affines]
 for $Y$), shows that its derived sections
 over $V$ vanish above degree
-$N+\operatorname{cd}_\ell(g)+\dim(Y)+\operatorname{cd}_\ell(k)$. On the
+$N+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(g)}+\dim(Y)+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(k)}$. On the
 other side,
-$R\Gamma(V,Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*\tau_{<N}K)=R\Gamma(X\times_YV,\nu_X^*\tau_{<N}K)$,
+$R\Gamma(V,\href{@proposition-topos-functoriality}{Rg_{\mathrm{pro}\acute{e}t,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}\tau_{<N}K)=R\Gamma(X\times_YV,\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}\tau_{<N}K)$,
 and the same lemma with $W=X\times_YV$ and $e=c$ gives vanishing above
 degree $N+c$. Therefore, choosing $N$ so small that $H^m$ and $H^{m+1}$ vanish on
 both sides, both sides of (2.9),

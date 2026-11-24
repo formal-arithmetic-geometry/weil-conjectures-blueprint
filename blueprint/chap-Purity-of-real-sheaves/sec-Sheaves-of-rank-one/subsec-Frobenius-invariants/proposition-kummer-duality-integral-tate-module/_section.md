@@ -10,7 +10,7 @@ Jacobian $J_0$, and put $A_n=\mathbf Z/\ell^n$.  There are canonical compatible 
 identifications
 
 $$
-H^1(C,A_n(1))\simeq J[\ell^n](k),\qquad
+H^1(C,\href{@definition-tate-twists}{A_n(1)})\simeq J[\ell^n](k),\qquad
 \varprojlim_n H^1(C,A_n)
 \simeq\Hom_{\mathbf Z_\ell}(T_\ell J,\mathbf Z_\ell).
 $$

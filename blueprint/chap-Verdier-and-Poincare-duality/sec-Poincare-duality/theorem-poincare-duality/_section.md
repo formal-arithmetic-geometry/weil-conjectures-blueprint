@@ -8,12 +8,12 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $X/k$ be smooth, separated of pure dimension $d$, with
 $k$ algebraically closed. For every admissible $\Lambda$ and
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, Theorem [theorem-smooth-purity-all-admissible-coefficients] gives isomorphisms
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$, Theorem [theorem-smooth-purity-all-admissible-coefficients] gives isomorphisms
 
 $$
-\omega_X\simeq\Lambda_X(d)[2d],\qquad
-\mathbb D_XK\simeq
-\cHom_X(K,\Lambda_X)(d)[2d].
+\href{@definition-verdier-dual-evaluation}{\omega_X}\simeq\href{@definition-tate-twists}{\Lambda_X(d)}[2d],\qquad
+\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\simeq
+\cHom_X(K,\Lambda_X)\href{@definition-tate-twists}{(d)}[2d].
 $$
 
 Put $K^\vee=\cHom_X(K,\Lambda_X)$. If $K$ is locally perfect over
@@ -25,8 +25,8 @@ $$
 \begin{split}
 \beta_K:\quad
 R\Gamma_c(X,K)\otimes^{\mathbf L}
-R\Gamma(X,K^\vee(d))[2d]
-&\longrightarrow R\Gamma_c(X,\Lambda_X(d))[2d]\\
+R\Gamma(X,\href{@definition-tate-twists}{K^\vee(d)})[2d]
+&\longrightarrow R\Gamma_c(X,\href{@definition-tate-twists}{\Lambda_X(d)})[2d]\\
 &\xrightarrow{\operatorname{Tr}_X}\Lambda
 \end{split}
 \tag{10.7}
@@ -35,7 +35,7 @@ $$
 is [perfect](@definition-perfect-pairing), and its adjoint is the canonical isomorphism
 
 $$
-R\Gamma(X,K^\vee(d))[2d]
+R\Gamma(X,\href{@definition-tate-twists}{K^\vee(d)})[2d]
 \xrightarrow{\sim}
 R\!\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda).
 \tag{10.8}

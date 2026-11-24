@@ -10,7 +10,7 @@ quasi-separated. Let $\Lambda$ be a discrete commutative ring
 annihilated by an integer $n$ invertible on $Y$. For every
 
 $$
-K\in D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)
+K\in D^+_{\mathrm{class}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)
 $$
 
 the canonical map (4.5) is an isomorphism.

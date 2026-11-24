@@ -5,12 +5,12 @@ title = "Relative affine curves"
 order = 1347
 +++
 Let $h:U_0\to Y_0$ be a smooth family of affine curves and $F$ a [pure](@definition-weights)
-[lisse](@definition-lisse-sheaves) sheaf on $U_0$. On each stalk of $R^ih_!F$,
+[lisse](@definition-lisse-sheaves) sheaf on $U_0$. On each stalk of [$R^ih_!F$](@proposition-construction-independence-rf-shriek),
 Theorem [theorem-weight-bound-curve] bounds the eigenvalues by
-$w+i$. Suppose that $R^ih_!F$ is [mixed](@definition-weights). Each [pure](@definition-weights) quotient of its
+$w+i$. Suppose that [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights). Each [pure](@definition-weights) quotient of its
 filtration has a nonzero stalk somewhere, and its eigenvalues there are
-among those of $R^ih_!F$. By
+among those of [$R^ih_!F$](@proposition-construction-independence-rf-shriek). By
 Lemma [lemma-bounding-weights-mixed-sheaf] the quotients therefore
 have [weights at most](@definition-weights) $w+i$. Most of the proof of
 Theorem [theorem-pure-lisse-sheaves-over-relative] is devoted to
-showing that $R^ih_!F$ is [mixed](@definition-weights).
+showing that [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights).

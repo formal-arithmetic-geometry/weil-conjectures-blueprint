@@ -24,7 +24,7 @@ Both $F_E$ and $G_E$ are exact and $\theta_E$ is a transformation of exact
 functors. Hence the objects $K$ for which $\theta_E(K)$ is an isomorphism
 form a triangulated subcategory. By Lemma [lemma-integral-models](4),
 every object of [$\Dbc(X,E)$](@definition-constructible-sheaves) is built by finitely many cones and shifts from
-objects $K_0[1/\ell]$ with $K_0\in\Dbc(X,\mathcal O_E)$. It therefore
+objects $K_0[1/\ell]$ with $K_0\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$. It therefore
 suffices to treat these. Inverting $\ell$ is the change of coefficients
 along $\mathcal O_E\to E$. By hypothesis, $\theta_E(K_0[1/\ell])$ is
 therefore identified with $\theta_{\mathcal O_E}(K_0)[1/\ell]$. This is an
@@ -32,6 +32,6 @@ isomorphism by the integral case.
 
 Let $\Lambda=\overline{\mathbf Q}_\ell$. By Proposition [proposition-dctf-x-qbar-2-colimit], every $K$ is
 isomorphic to $K_E\otimes_E\overline{\mathbf Q}_\ell$ for some finite $E$ and some
-$K_E\in D^b_{\mathrm{ctf}}(X,E)$. By hypothesis, applied to $E\to\overline{\mathbf Q}_\ell$, the map
+$K_E\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,E)}$. By hypothesis, applied to $E\to\overline{\mathbf Q}_\ell$, the map
 $\theta_{\overline{\mathbf Q}_\ell}(K)$ is identified with $\theta_E(K_E)\otimes_E\overline{\mathbf Q}_\ell$, which
 is an isomorphism by the case of $E$. Again $E=\mathbf Q_\ell$ is included.

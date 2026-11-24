@@ -7,6 +7,6 @@ order = 871
 For a field $\Lambda$ and the constant sheaf, the [trace isomorphism in top degree](@theorem-trace-isomorphism-top-degree)
 turns [Poincaré duality](@theorem-poincare-duality) into the classical cup product pairing. On
 $\mathbf P^1$, for instance, the only nontrivial instance is
-$H^0\times H^2\to\Lambda(-1)$. After twisting by $(1)$ it pairs the
+$H^0\times H^2\to\href{@definition-tate-twists}{\Lambda(-1)}$. After twisting by [$(1)$](@definition-tate-twists) it pairs the
 generators $1$ and $[x]$ to $1$ by Lemma [lemma-class-of-point], so it
 is [perfect](@definition-perfect-pairing).

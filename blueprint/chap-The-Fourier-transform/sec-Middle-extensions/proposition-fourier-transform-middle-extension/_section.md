@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Suppose that $M$ is nonzero and irreducible, and that none of its
 geometric irreducible constituents is the restriction of
-$\mathcal L_{\psi(ax)}$ for some $a\in\bar k_0$ (the case $a=0$ being
+[$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf) for some $a\in\bar k_0$ (the case $a=0$ being
 the constant sheaf). Then there
 are a dense open $j':U'_0\hookrightarrow\mathbf A^{1\vee}_{k_0}$
 and a nonzero irreducible [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) $M'$ on it such that

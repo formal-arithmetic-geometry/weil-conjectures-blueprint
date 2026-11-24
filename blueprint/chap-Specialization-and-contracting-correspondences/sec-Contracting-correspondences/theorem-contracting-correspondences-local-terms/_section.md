@@ -17,7 +17,7 @@ I_1=c_1^{-1}(I)\mathcal O_W,
 \qquad I_2^n\subset I_1^{n+1}\quad\text{for some }n\geq1.
 $$
 
-Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $u:c_2^*K\to c_1^!K$ be a [cohomological
+Let $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$, let $u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$ be a [cohomological
 correspondence](@definition-correspondence), and let $u_Z$ be the restriction
 (E.21) to $Z$ of $u|_W$, for the
 [correspondence](@definition-correspondence) $c|_W$, with $c_Z:C_Z=(W\cap c_1^{-1}Z)_{\mathrm{red}}\to
@@ -25,10 +25,10 @@ Z_{\mathrm{red}}\times Z_{\mathrm{red}}$. Then $h_{F_0}$ is an
 isomorphism after reduction, and
 
 $$
-\operatorname{Tr}_c(u)|_{F_0}
-=(h_{F_0})_*\bigl(\operatorname{Tr}_{c_Z}(u_Z)|_{F_{0,Z}}\bigr),
+\href{@definition-trace-class-local-terms}{\operatorname{Tr}_c(u)}|_{F_0}
+=\href{@definition-pushforward-correspondence}{(h_{F_0})_*}\bigl(\href{@definition-trace-class-local-terms}{\operatorname{Tr}_{c_Z}(u_Z)}|_{F_{0,Z}}\bigr),
 $$
 
-where $(h_{F_0})_*:H^0(F_{0,Z},\omega_{F_{0,Z}})\to H^0(F_0,\omega_{F_0})$
+where $\href{@definition-pushforward-correspondence}{(h_{F_0})_*}:H^0(F_{0,Z},\href{@definition-verdier-dual-evaluation}{\omega_{F_{0,Z}}})\to H^0(F_0,\href{@definition-verdier-dual-evaluation}{\omega_{F_0}})$
 is the induced isomorphism. In particular, if $F_0$ is proper, then
-$\operatorname{LT}_{F_0}(u)=\operatorname{LT}_{F_{0,Z}}(u_Z)$.
+$\href{@definition-trace-class-local-terms}{\operatorname{LT}_{F_0}(u)}=\href{@definition-trace-class-local-terms}{\operatorname{LT}_{F_{0,Z}}(u_Z)}$.

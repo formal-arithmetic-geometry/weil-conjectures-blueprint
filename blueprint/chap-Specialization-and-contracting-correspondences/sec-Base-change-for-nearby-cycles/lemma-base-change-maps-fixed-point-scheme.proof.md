@@ -5,15 +5,15 @@ order = 1673
 uses = ["theorem-nagata-s-compactification-theorem"]
 +++
 The inverse of the base
-change map, $Ri_*d^!\to c^!R\Delta_*$, is adjoint to the explicit map
+change map, $Ri_*\href{@theorem-existence-exceptional-inverse-image}{d^!}\to \href{@theorem-existence-exceptional-inverse-image}{c^!}R\Delta_*$, is adjoint to the explicit map
 
 $$
-Rc_!Ri_*d^!=R\Delta_*Rd_!d^!
+\href{@proposition-construction-independence-rf-shriek}{Rc_!}Ri_*\href{@theorem-existence-exceptional-inverse-image}{d^!}=R\Delta_*\href{@proposition-construction-independence-rf-shriek}{Rd_!}\href{@theorem-existence-exceptional-inverse-image}{d^!}
 \xrightarrow{R\Delta_*\varepsilon_d}R\Delta_*.
 $$
 
 This identification uses that $i$ and $\Delta$ are proper.
-Substituting it in both sides, taking $Rc_{s!}$-adjoints, and
+Substituting it in both sides, taking [$Rc_{s!}$](@proposition-construction-independence-rf-shriek)-adjoints, and
 replacing the comparison maps $\chi_i,\chi_\Delta$ for proper maps by the
 inverses of $\nu_i,\nu_\Delta$, we find by the composition rules for
 the base change maps and for the counits that both sides are the

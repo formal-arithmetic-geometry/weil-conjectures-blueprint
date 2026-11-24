@@ -7,13 +7,13 @@ We compare the [trace morphisms](@definition-trace-morphism) on the two fibres a
 them on the sections of
 Lemma [lemma-section-specialized-correspondence]. By
 Definition [definition-trace-morphism], the trace morphism is
-$t_{c,K}=\zeta\,c^!e_K$. The second equality of
+$t_{c,K}=\zeta\,\href{@theorem-existence-exceptional-inverse-image}{c^!}e_K$. The second equality of
 (E.18), together with
 (E.11) and with
 (E.9) for $d$, gives
 
 $$
-t_{c_s,K'}c_s^!\rho\,\beta_c
+t_{c_s,K'}\href{@theorem-existence-exceptional-inverse-image}{c_s^!}\rho\,\beta_c
 =Ri_{s*}\theta_F\,\chi_i\,\Psi_C(t_{c_\eta,K}).
 $$
 

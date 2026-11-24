@@ -16,10 +16,10 @@ show that
 
 $$
 R\Gamma_c(\mathbf A^1_{\bar k},A)
-\simeq\fib\bigl(A\oplus A(-1)[-2]\to A\bigr)
-\simeq A(-1)[-2],
+\simeq\fib\bigl(A\oplus \href{@definition-tate-twists}{A(-1)}[-2]\to A\bigr)
+\simeq \href{@definition-tate-twists}{A(-1)}[-2],
 $$
 
 since restriction to $\infty$ is an isomorphism on $H^0$. In other words,
-$H^2_c(\mathbf A^1)=A(-1)$ is the only nonzero [compactly supported
+$H^2_c(\mathbf A^1)=\href{@definition-tate-twists}{A(-1)}$ is the only nonzero [compactly supported
 cohomology](@proposition-construction-independence-rf-shriek) group. The trace on it is the same [$\operatorname{Tr}_p$](@lemma-cohomology-projective-line-trace).

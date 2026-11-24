@@ -5,13 +5,13 @@ order = 304
 uses = ["proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-lattices-after-finite-stratification", "lemma-acyclic-resolutions", "lemma-structure-integral-constructible-complexes", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness"]
 +++
 Both assertions are [bhatt-scholze15, Proposition 6.8.14(2)]. We prove the first,
-which is where the Noetherian hypothesis enters. Let $K\in\Dbc(X,\mathcal O_E)$.
+which is where the Noetherian hypothesis enters. Let $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$.
 By Definition [definition-constructible-sheaves], there is a finite stratification such
 that the restriction of each of the finitely many cohomology sheaves of
 $K$ to each stratum $S$ is, on quasi-compact pro-étale charts $U$, of
-the form $\mathcal O_{E,U}\otimes_{\mathcal O_E}P$ with $P$ finitely
+the form $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,U}}\otimes_{\mathcal O_E}P$ with $P$ finitely
 generated. Suppose that $K[1/\ell]=0$. Extension of scalars to [$E_X$](@lemma-comparison-completed-coefficients) is
-exact, so $E_U\otimes_{\mathcal O_E}P=0$, and each such $P$ is torsion.
+exact, so $\href{@lemma-comparison-completed-coefficients}{E_U}\otimes_{\mathcal O_E}P=0$, and each such $P$ is torsion.
 The underlying space of $X$ is Noetherian, so each stratum is
 quasi-compact and finitely many charts suffice. With finitely many $P$, one power of $\ell$ kills the restrictions of all
 cohomology sheaves of $K$ to all strata. By the localization sequences of
@@ -19,8 +19,8 @@ Proposition [proposition-extension-zero-restriction-closed-subscheme], a larger 
 sheaf of $K$. Since $K$ is bounded, a further power kills $K$ itself,
 by induction along its truncation triangles.
 
-Full faithfulness says that for $K,L\in\Dbc(X,\mathcal O_E)$ every morphism
-$E_X\otimes K\to E_X\otimes L$ is $\ell^{-c}$ times the image of a
+Full faithfulness says that for $K,L\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$ every morphism
+$\href{@lemma-comparison-completed-coefficients}{E_X}\otimes K\to \href{@lemma-comparison-completed-coefficients}{E_X}\otimes L$ is $\ell^{-c}$ times the image of a
 morphism $K\to L$ for some $c\geq0$, and that a morphism $K\to L$ becomes
 zero after extension of scalars only if some power of $\ell$ kills it.
 For essential

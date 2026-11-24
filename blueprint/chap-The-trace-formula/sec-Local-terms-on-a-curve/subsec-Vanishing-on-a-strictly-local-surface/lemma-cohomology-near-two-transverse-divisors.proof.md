@@ -50,7 +50,7 @@ parameter of $D_2$ and an unramified cover. The lemma applies here because our f
 stalks of $Rj_*N$ are the continuous cohomology of the same
 representation of tame inertia, and their specialization maps along $D_2-z$
 are isomorphisms. Explicitly, the pro-$\ell$ part of tame inertia is
-$\mathbf Z_\ell(1)$. Its cohomology with coefficients in a finite $\ell$-primary
+[$\mathbf Z_\ell(1)$](@definition-tate-twists). Its cohomology with coefficients in a finite $\ell$-primary
 module is computed by the two-term complex given by a topological
 generator minus one. On the other hand, the finite quotients of the remaining factors of tame inertia have order prime to $\ell$, so taking invariants under them is exact
 on these coefficients. Finally, we may choose the parameter and the unramified cover on an étale neighbourhood. Hence this

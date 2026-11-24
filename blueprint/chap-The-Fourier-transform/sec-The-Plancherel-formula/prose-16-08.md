@@ -27,21 +27,21 @@ Proposition [proposition-properties-trace]), part (3) sums over
 the fibre of $p_2$, and part (2) splits the trace of the tensor product:
 
 $$
-t_{\operatorname{FT}_\psi K,n}(y)
-=(-1)^r\,t_{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi),n}(y)
-=(-1)^r\sum_{x\in\mathbf F_{q^n}^r}t_{p_1^*K,n}(x,y)\,
-t_{\mathcal K_\psi,n}(x,y).
+\href{@definition-growth-squared-traces}{t_{\operatorname{FT}_\psi K,n}(y)}
+=(-1)^r\,\href{@definition-growth-squared-traces}{t_{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi),n}(y)}
+=(-1)^r\sum_{x\in\mathbf F_{q^n}^r}\href{@definition-growth-squared-traces}{t_{p_1^*K,n}(x,y)}\,
+\href{@definition-growth-squared-traces}{t_{\mathcal K_\psi,n}(x,y)}.
 $$
 
-By part (1), $t_{p_1^*K,n}(x,y)=t_{K,n}(x)$, and by part (1) and
+By part (1), $\href{@definition-growth-squared-traces}{t_{p_1^*K,n}(x,y)}=\href{@definition-growth-squared-traces}{t_{K,n}(x)}$, and by part (1) and
 Lemma [lemma-artin-schreier-character-sheaf],
-$t_{\mathcal K_\psi,n}(x,y)=\psi(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}\langle x,y\rangle)$.
+$\href{@definition-growth-squared-traces}{t_{\mathcal K_\psi,n}(x,y)}=\psi(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}\langle x,y\rangle)$.
 Hence
 
 $$
-t_{\operatorname{FT}_\psi K,n}(y)
+\href{@definition-growth-squared-traces}{t_{\operatorname{FT}_\psi K,n}(y)}
 =(-1)^r\sum_{x\in\mathbf F_{q^n}^r}
-t_{K,n}(x)\,
+\href{@definition-growth-squared-traces}{t_{K,n}(x)}\,
 \psi\bigl(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}
 \langle x,y\rangle\bigr).
 \tag{16.3}

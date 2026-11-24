@@ -4,8 +4,8 @@ kind = "hidden"
 title = "Duality for the projective line (1)"
 order = 542
 +++
-Let $p:\mathbf P^1_S\to S$ be the projection. We construct the adjunction $Rp_*\dashv p^*(1)[2]$ from two maps: the counit is a trace
-$Rp_*A(1)[2]\to A$, obtained from the cohomology of $\mathbf P^1$, and the unit is the cycle class of the diagonal in
+Let $p:\mathbf P^1_S\to S$ be the projection. We construct the adjunction $Rp_*\dashv p^*\href{@definition-tate-twists}{(1)}[2]$ from two maps: the counit is a trace
+$Rp_*\href{@definition-tate-twists}{A(1)}[2]\to A$, obtained from the cohomology of $\mathbf P^1$, and the unit is the cycle class of the diagonal in
 $\mathbf P^1_S\times_S\mathbf P^1_S$, a special case of the cycle class of
 an effective Cartier divisor. Both triangle identities say that pushing the
 class of the diagonal forward along either projection

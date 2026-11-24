@@ -9,14 +9,14 @@ In this situation, let $K,L$ be bounded [constructible](@definition-constructibl
 coefficients in a field. Then the maps in
 
 $$
-Rh_!(p_1^*K\otimes p_2^*L)
-\simeq Rf_!(K\otimes Rp_{1!}p_2^*L)
-\simeq Rf_!(K\otimes f^*Rg_!L)
-\simeq Rf_!K\otimes Rg_!L
+\href{@proposition-construction-independence-rf-shriek}{Rh_!(p_1^*K\otimes p_2^*L)}
+\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!}(K\otimes \href{@proposition-construction-independence-rf-shriek}{Rp_{1!}p_2^*L})
+\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!}(K\otimes f^*\href{@proposition-construction-independence-rf-shriek}{Rg_!L})
+\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!K}\otimes \href{@proposition-construction-independence-rf-shriek}{Rg_!L}
 $$
 
 of the projection formula for $p_1$, the [proper base change](@proposition-composition-base-change-rf-shriek) isomorphism
-$Rp_{1!}p_2^*L\to f^*Rg_!L$ and the projection formula for $f$ are
+$\href{@proposition-construction-independence-rf-shriek}{Rp_{1!}p_2^*L}\to f^*\href{@proposition-construction-independence-rf-shriek}{Rg_!L}$ and the projection formula for $f$ are
 isomorphisms. We call their composite
-$Rh_!(K\boxtimes_SL)\simeq Rf_!K\otimes Rg_!L$ the
+$\href{@proposition-construction-independence-rf-shriek}{Rh_!(K\boxtimes_SL)}\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!K}\otimes \href{@proposition-construction-independence-rf-shriek}{Rg_!L}$ the
 *Künneth isomorphism*.

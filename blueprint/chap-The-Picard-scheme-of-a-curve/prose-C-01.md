@@ -58,7 +58,7 @@ Over a finite field we descend the Jacobian to an [abelian
 variety](@definition-abelian-variety) $J_0$ over $\mathbf F_q$. Then
 Propositions [proposition-jacobian-over-ground-field]
 and [proposition-h-1-curve-tate-module] give an isomorphism
-$\varprojlim_nH^1(C,\mathbf Z/\ell^n(1))\simeq T_\ell J_0$ compatible
+$\varprojlim_nH^1(C,\href{@definition-tate-twists}{\mathbf Z/\ell^n(1)})\simeq \href{@definition-tate-module}{T_\ell J_0}$ compatible
 with Frobenius, which is the form in which
 Proposition [proposition-no-fixed-class-degree-one] uses the
 Jacobian; see also [milne-jv].

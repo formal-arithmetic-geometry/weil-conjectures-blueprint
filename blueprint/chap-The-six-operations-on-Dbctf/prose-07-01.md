@@ -38,7 +38,7 @@ Internal Hom causes a further difficulty, because it hides the [exceptional
 inverse image](@theorem-existence-exceptional-inverse-image). For a closed immersion $i$ we have
 
 $$
-\cHom(i_*\Lambda,K)\simeq i_*i^!K .
+\cHom(i_*\Lambda,K)\simeq i_*\href{@theorem-existence-exceptional-inverse-image}{i^!K} .
 $$
 
 Before we can say anything about $\cHom(K,L)\otimes^{\mathbf L}\Lambda'$, we

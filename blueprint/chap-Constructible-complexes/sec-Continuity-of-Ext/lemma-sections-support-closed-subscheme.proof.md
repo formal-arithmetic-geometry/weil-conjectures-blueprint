@@ -21,7 +21,7 @@ the form $i_*$ of a sheaf on $Z$. In particular
 $\ker(M\to j_*j^*M)=i_*\underline\Gamma_Z(M)$.
 
 *Adjunction on sheaves.* The functor $\underline\Gamma_Z$ is right
-adjoint to $i_*:\operatorname{Mod}(Z_{\mathrm{pro}\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+adjoint to $i_*:\operatorname{Mod}(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},\Lambda)\to\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 Indeed, a map $i_*N\to M$ composes to zero with $M\to j_*j^*M$, because
 $j^*i_*N=0$, so it factors through
 $\ker(M\to j_*j^*M)=i_*\underline\Gamma_Z(M)$. Since $i_*$ is fully
@@ -31,7 +31,7 @@ K-injective complexes.
 
 *Surjectivity on injectives.* For an injective sheaf $I$ the unit
 $I\to j_*j^*I$ of the adjunction $j^*\dashv j_*$ on
-$\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is surjective, because it has a right inverse.
+$\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is surjective, because it has a right inverse.
 To construct it, extend the inclusion $j_!j^*I\to I$ along
 $j_!j^*I\hookrightarrow j_*j^*I$ to a map $s:j_*j^*I\to I$, which is
 possible because $I$ is injective. Then the composite
@@ -67,11 +67,11 @@ R\!\operatorname{Hom}_X(i_*N,K)=\Hom^\bullet(i_*N,I^\bullet)
 =\Hom^\bullet(N,\underline\Gamma_Z(I^\bullet)),
 $$
 
-whose right-hand side is $R\!\operatorname{Hom}_Z(N,R\underline\Gamma_ZK)$.
+whose right-hand side is $R\!\operatorname{Hom}_Z(N,\href{@definition-local-cohomology}{R\underline\Gamma_ZK})$.
 
 *Formula (3.1).* Since $a_!=i_*u_!$, part (1),
 the adjunction $u_!\dashv u^*$ and the identity
 $\cHom(L,-)=L^\vee\otimes-$ for the finite locally projective sheaf $L$
 give
-$R\!\operatorname{Hom}_X(i_*u_!L,K)=R\!\operatorname{Hom}_Z(u_!L,R\underline\Gamma_ZK)
-=R\Gamma(S,L^\vee\otimes u^*R\underline\Gamma_ZK)$.
+$R\!\operatorname{Hom}_X(i_*u_!L,K)=R\!\operatorname{Hom}_Z(u_!L,\href{@definition-local-cohomology}{R\underline\Gamma_ZK})
+=R\Gamma(S,L^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_ZK})$.

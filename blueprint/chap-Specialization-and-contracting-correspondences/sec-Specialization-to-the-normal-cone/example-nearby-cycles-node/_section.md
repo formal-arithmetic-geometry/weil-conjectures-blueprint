@@ -10,7 +10,7 @@ fibre is the pair of axes $xy=0$, while the generic fibre is smooth.
 To see what to expect, note that over $\mathbf C$ the part of the fibre $xy=\varepsilon$ near the origin
 is an annulus $\{(x,\varepsilon/x)\}$, which retracts onto a circle
 that vanishes as $\varepsilon\to0$. Correspondingly, in our setting the stalk of
-$R\Psi_{\mathcal Y}(A)$ at the node is $A$ in degree zero and $A(-1)$
+$R\Psi_{\mathcal Y}(A)$ at the node is $A$ in degree zero and [$A(-1)$](@definition-tate-twists)
 in degree one; the twist is that of $H^1(\mathbf G_m)$
 (see [sga7-2, Exposé XV]). At every other point of the
 special fibre, by contrast, the family is smooth over $S$, and there the nearby cycles are

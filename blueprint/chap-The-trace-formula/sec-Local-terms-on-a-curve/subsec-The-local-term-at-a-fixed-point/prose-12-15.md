@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The local term at a fixed point (1)"
 order = 993
 +++
-The point $y$ is stable under $\Phi_X^m$,
+The point $y$ is stable under [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators),
 so [additivity of trace classes](@proposition-additivity-trace-classes) applies to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme)
 for $X\setminus\{y\}$ and $\{y\}$. Here the open piece has zero stalk at $y$, so its [local term](@definition-trace-class-local-terms) vanishes by Lemma [lemma-vanishing-local-term-zero-stalk].
 The closed piece, in turn, is pushed forward from the point, where the [local

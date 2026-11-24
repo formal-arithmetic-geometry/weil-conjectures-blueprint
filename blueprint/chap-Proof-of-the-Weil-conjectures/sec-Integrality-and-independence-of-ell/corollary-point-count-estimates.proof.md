@@ -15,9 +15,9 @@ $$
 The terms in degrees $0$ and $2d$ are $1$ and $q^{dm}$ by
 Theorem [theorem-weil-conjectures-smooth-proper-schemes](3). The
 left side of the estimate is therefore the absolute value of the sum of
-the remaining terms. In degree $i$, the trace is a sum of $b_i$
+the remaining terms. In degree $i$, the trace is a sum of [$b_i$](@theorem-weil-conjectures-smooth-proper-schemes)
 eigenvalues of $F^m$, each of complex modulus $q^{mi/2}$ by
 Theorem [theorem-weil-conjectures-smooth-proper-schemes](2). Its
 absolute value is thus at most $b_iq^{mi/2}$, and the triangle
-inequality proves the first bound. For a curve, $b_1=2g$ by the
+inequality proves the first bound. For a curve, $\href{@theorem-weil-conjectures-smooth-proper-schemes}{b_1}=2g$ by the
 cohomology calculation of Appendix [chap-Cohomology-of-torsion-sheaves-on-curves].

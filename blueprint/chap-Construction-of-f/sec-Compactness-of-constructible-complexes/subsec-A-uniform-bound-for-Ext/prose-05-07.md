@@ -19,7 +19,7 @@ from Section [sec-Continuity-of-Ext].
 The bound $d_C$ on $\Ext^q(C,-)$ is a sum of the cohomological
 dimensions $\operatorname{cd}_\ell$ of Definition [definition-cohomological-dimension]. In the
 proof we compute $R\!\operatorname{Hom}(a_!L_0,K)$, for a [derived complete](@definition-derived-adic-completeness)
-$K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, as a derived inverse limit over the
+$K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$, as a derived inverse limit over the
 reductions modulo $\pi_E^n$. For this, the functors in
 (3.1) have to commute with derived inverse limits, and
 we use the next lemma with $\Lambda=\mathcal O_E$.

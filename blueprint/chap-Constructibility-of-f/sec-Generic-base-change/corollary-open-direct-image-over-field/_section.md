@@ -8,10 +8,10 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $j:X\hookrightarrow Y$ be an open immersion. Then
 
 $$
-Rj_*:\Dbc(X,A)\longrightarrow\Dbc(Y,A),
+Rj_*:\href{@definition-constructible-sheaves}{\Dbc(X,A)}\longrightarrow\href{@definition-constructible-sheaves}{\Dbc(Y,A)},
 \tag{6.22}
 $$
 
 and for every $k$-scheme $T$ of finite type, with projections
-$g_X:X_T\to X$ and $g_Y:Y_T\to Y$, and every $K\in\Dbc(X,A)$, the [base
+$g_X:X_T\to X$ and $g_Y:Y_T\to Y$, and every $K\in\href{@definition-constructible-sheaves}{\Dbc(X,A)}$, the [base
 change map](@definition-derived-base-change-map) $g_Y^*Rj_*K\to Rj_{T,*}g_X^*K$ is an isomorphism.

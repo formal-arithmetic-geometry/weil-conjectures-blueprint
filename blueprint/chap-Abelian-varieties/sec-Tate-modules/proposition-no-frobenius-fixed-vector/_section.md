@@ -10,10 +10,10 @@ $A=A_0\times_{\mathbf F_q}\overline{\mathbf F}_q$, and let $F$
 be geometric Frobenius on [$T_\ell A$](@definition-tate-module). For every $m>0$,
 
 $$
-(T_\ell A)^{F^m}=0,
-\qquad (V_\ell A)^{F^m}=0.
+(\href{@definition-tate-module}{T_\ell A})^{F^m}=0,
+\qquad (\href{@definition-tate-module}{V_\ell A})^{F^m}=0.
 $$
 
 Consequently $F^m-1$ is an automorphism of the finite-dimensional
-$\mathbf Q_\ell$-vector space [$V_\ell A$](@definition-tate-module), and hence of $V_\ell A\otimes_{\mathbf Q_\ell}E$ for every
+$\mathbf Q_\ell$-vector space [$V_\ell A$](@definition-tate-module), and hence of $\href{@definition-tate-module}{V_\ell A}\otimes_{\mathbf Q_\ell}E$ for every
 field extension $E$ of $\mathbf Q_\ell$.

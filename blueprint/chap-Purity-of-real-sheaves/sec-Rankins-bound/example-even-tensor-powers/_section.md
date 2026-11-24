@@ -7,6 +7,6 @@ order = 1160
 The sheaf [$\mathcal B_{-1}$](@proposition-weights-under-usual-operations) is [real](@definition-real-sheaves), since [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) acts by
 $(-1)^{\deg(x)}$, but its Euler factor at a point of degree one is
 $(1+t)^{-1}=1-t+t^2-\cdots$, with negative coefficients. Its square
-$\mathcal B_{-1}\otimes\mathcal B_{-1}$ is the constant sheaf, whose
+$\href{@proposition-weights-under-usual-operations}{\mathcal B_{-1}}\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_{-1}}$ is the constant sheaf, whose
 Euler factors $(1-t^{\deg(x)})^{-1}$ have nonnegative coefficients, as the
 lemma predicts for $m=1$.

@@ -13,7 +13,7 @@ let $g_V:V'\to V$ and $g_{V^\vee}:V'^\vee\to V^\vee$ be the projections.
 1. The [proper base change](@proposition-composition-base-change-rf-shriek) isomorphism for $p_2$ induces an
    isomorphism $g_{V^\vee}^*\operatorname{FT}_\psi(K)\simeq
   \operatorname{FT}_\psi(g_V^*K)$.
-2. For $N\in\Dbc(S,E)$, the projection formula for $p_2$ induces an
+2. For $N\in\href{@definition-constructible-sheaves}{\Dbc(S,E)}$, the projection formula for $p_2$ induces an
    isomorphism $\operatorname{FT}_\psi(K\otimes\pi^*N)\simeq
   \operatorname{FT}_\psi(K)\otimes\pi^{\vee*}N$, where $\pi:V\to S$ and
    $\pi^\vee:V^\vee\to S$ are the projections.
@@ -24,6 +24,6 @@ let $g_V:V'\to V$ and $g_{V^\vee}:V'^\vee\to V^\vee$ be the projections.
    \simeq
    R\Gamma_c\bigl(V_{\bar y},
    K|_{V_{\bar y}}\otimes
-   \mathcal L_{\psi\langle x,y\rangle}\bigr)[r].
+   \href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi\langle x,y\rangle}}\bigr)[r].
    \tag{16.2}
    $$

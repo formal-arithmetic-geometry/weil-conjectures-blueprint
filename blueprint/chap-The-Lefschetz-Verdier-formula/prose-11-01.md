@@ -19,8 +19,8 @@ that component.
 We use Grothendieck's formalism of cohomological correspondences, written up by
 Illusie in [sga5, III]. In this formalism, a correspondence on $X$ is a map
 $c=(c_1,c_2):C\to X\times X$, and a cohomological correspondence on $K$ is a
-morphism $u:c_2^*K\to c_1^!K$. For example, for the graph of an endomorphism $\varphi$ this is a map $\varphi^*K\to K$. In particular, for Frobenius it is the [Weil structure](@definition-weil-structure)
-$\phi_K:\operatorname{Fr}_X^*K\simeq K$ of Section [sec-Weil-complexes], up to the
+morphism $u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$. For example, for the graph of an endomorphism $\varphi$ this is a map $\varphi^*K\to K$. In particular, for Frobenius it is the [Weil structure](@definition-weil-structure)
+$\href{@definition-weil-structure}{\phi_K}:\operatorname{Fr}_X^*K\simeq K$ of Section [sec-Weil-complexes], up to the
 comparison of $\operatorname{Fr}_X$ with the $k$-linear Frobenius in
 Chapter [chap-The-trace-formula]. When $c_2$ is proper, $u$ induces an endomorphism
 $T_c(u)$ of $R\Gamma_c(X,K)$. In the same way [$\phi_K$](@definition-weil-structure) induces the [Frobenius operator](@definition-frobenius-operator)
@@ -28,7 +28,7 @@ $T_c(u)$ of $R\Gamma_c(X,K)$. In the same way [$\phi_K$](@definition-weil-struct
 
 The local contributions come from duality, as $\operatorname{Hom}(V,V)=V\otimes
 V^\vee$ turns an endomorphism into a tensor whose evaluation is the trace. In this
-way $u$ gives the trace class $\operatorname{Tr}_c(u)\in H^0(\Fix(c),\omega_{\Fix(c)})$,
+way $u$ gives the trace class $\operatorname{Tr}_c(u)\in H^0(\Fix(c),\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}})$,
 supported on the fixed locus. Its integral over a proper open and closed part $B$ of
 $\Fix(c)$ is the local term $\operatorname{LT}_B(u)$. The Lefschetz–Verdier formula
 (Theorem [theorem-proper-pushforward-lefschetz-verdier]) says that if $X$ and $C$
@@ -55,7 +55,7 @@ Throughout, $k_0=\mathbf F_q$, $k=\overline{\mathbf F}_q$ and
 $s=\operatorname{Spec}k$. For a scheme $X$ over $k$, $a_X:X\to s$
 is the structure morphism, and $X=X_0\times_{k_0}k$ whenever a model
 $X_0$ over $k_0$ is given. From Section [sec-Traces-of-perfect-complexes] until Section [sec-ell-adic-coefficients-5] the coefficient ring is an arbitrary finite commutative
-$\ell$-primary ring $A$, with $\ell\ne\operatorname{char}k$, and we write $\omega_X=a_X^!A_s$ and
+$\ell$-primary ring $A$, with $\ell\ne\operatorname{char}k$, and we write $\omega_X=\href{@theorem-existence-exceptional-inverse-image}{a_X^!A_s}$ and
 $\mathbb D_XK=\cHom_A(K,\omega_X)$ for the dualizing complex and the
 Verdier dual of Definition [definition-verdier-dual-evaluation] with coefficients $A$.
 Some proofs compute on small

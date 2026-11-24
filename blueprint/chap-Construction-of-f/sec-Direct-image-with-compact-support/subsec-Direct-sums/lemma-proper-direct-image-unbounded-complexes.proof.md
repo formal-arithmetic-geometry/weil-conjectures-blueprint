@@ -22,7 +22,7 @@ columns are $0\leq u\leq2d+1$, and their terms lie in
 filtration whose graded pieces are subquotients of objects of
 [$\IndCons(Y,\Lambda)$](@definition-ind-constructible-sheaves). Since this category is closed under kernels,
 cokernels and extensions by Proposition [proposition-ind-constructible-sheaves], we get
-$\mathcal H^n(Rp_*K)\in\IndCons(Y,\Lambda)$. Both amplitude bounds
+$\mathcal H^n(Rp_*K)\in\href{@definition-ind-constructible-sheaves}{\IndCons(Y,\Lambda)}$. Both amplitude bounds
 can be read off from the columns.
 
 *Arbitrary $K$.* By Proposition [proposition-left-completeness], $K\simeq R\varprojlim_n
@@ -47,7 +47,7 @@ $$
 $$
 
 The bounded below case, applied to the right-hand side, shows that
-$\mathcal H^q(Rp_*K)\in\IndCons(Y,\Lambda)$, with the bound $b+2d+1$ if $K\in
+$\mathcal H^q(Rp_*K)\in\href{@definition-ind-constructible-sheaves}{\IndCons(Y,\Lambda)}$, with the bound $b+2d+1$ if $K\in
 \Dic^{\leq b}(X,\Lambda)$. The lower bound needs no new argument, because
 an object of $\Dic^{\geq a}$ is bounded below.
 

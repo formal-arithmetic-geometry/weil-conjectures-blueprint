@@ -7,13 +7,13 @@ order = 997
 Let $X=\mathbf P^1_k$, $K=A_X$, and let $\psi$ be the constant [Frobenius
 correspondence](@definition-frobenius-correspondences-their-operators), so that $\psi_m$ is the identity on every stalk. Both sides of
 the [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier) for the graph $c_m$ can be computed explicitly. The
-fixed points of $\Phi_X^m$ are the $q^m+1$ points of
+fixed points of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) are the $q^m+1$ points of
 $\mathbf P^1(\mathbf F_{q^m})$. By the proposition each has [local term](@definition-trace-class-local-terms)
-$\operatorname{tr}_A(1\mid A)=1$, so the local side is $q^m+1$. On the global
-side, $R\Gamma(\mathbf P^1,A)=A\oplus A(-1)[-2]$. By
+$\href{@definition-categorical-trace}{\operatorname{tr}_A(1\mid A)}=1$, so the local side is $q^m+1$. On the global
+side, $R\Gamma(\mathbf P^1,A)=A\oplus \href{@definition-tate-twists}{A(-1)}[-2]$. By
 Lemma [lemma-scheme-frobenius-geometric-frobenius] the operator
 [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) is the $m$-th power of geometric Frobenius. It acts by $1$
-on $H^0$ and by $q^m$ on $H^2=A(-1)$, and both degrees are even, so its trace
+on $H^0$ and by $q^m$ on $H^2=\href{@definition-tate-twists}{A(-1)}$, and both degrees are even, so its trace
 is $1+q^m$ with no signs. Compare the identity correspondence at the start
 of Section [sec-Trace-classes-and-local-terms]. There the [fixed locus](@definition-correspondence) is all of $\mathbf P^1$
 and the answer $2$ is a self-intersection. Here the [fixed locus](@definition-correspondence) is finite

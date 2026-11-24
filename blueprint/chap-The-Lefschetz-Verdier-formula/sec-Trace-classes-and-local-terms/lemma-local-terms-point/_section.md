@@ -12,5 +12,5 @@ $(s,P)$ for the identity [correspondence](@definition-correspondence) of $s$, wh
 $s$. Then
 
 $$
-\operatorname{LT}_s(u)=\operatorname{tr}_A(u\mid P).
+\href{@definition-trace-class-local-terms}{\operatorname{LT}_s(u)}=\href{@definition-categorical-trace}{\operatorname{tr}_A(u\mid P)}.
 $$

@@ -7,7 +7,7 @@ order = 1275
 Throughout this section and the next, $j:U_0\hookrightarrow\mathbf A^1_{k_0}$
 is a dense open and $M$ is a nonzero irreducible [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure)
 on $U_0$, [pure](@definition-weights) of weight $w$. We assume that no geometric irreducible
-constituent of $M$ is the restriction of $\mathcal L_{\psi(ax)}$ for
+constituent of $M$ is the restriction of [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf) for
 some $a\in\bar k_0$, and we let $M'$ be the [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) on a dense
 open $j':U'_0\hookrightarrow\mathbf A^{1\vee}_{k_0}$ with
 $\operatorname{FT}_\psi((j_*M)[1])\simeq(j'_*M')[1]$

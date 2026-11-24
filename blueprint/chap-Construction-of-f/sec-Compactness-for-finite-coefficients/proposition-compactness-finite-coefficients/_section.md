@@ -8,4 +8,4 @@ uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inve
 +++
 Every object of [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) is compact in [$\Loc(D^b_{\mathrm{ctf}}(X,A))$](@definition-localizing-subcategory),
 and a small skeleton of [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) is a set of compact generators.
-Moreover, $\Loc(D^b_{\mathrm{ctf}}(X,A))^c=D^b_{\mathrm{ctf}}(X,A)$.
+Moreover, $\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)})^c=\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$.

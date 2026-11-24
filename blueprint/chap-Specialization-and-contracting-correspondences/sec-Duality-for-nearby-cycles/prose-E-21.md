@@ -17,13 +17,13 @@ Lemma [lemma-double-dual-geometric-generic-fibre], applied on each
 geometric fibre, give, locally on $X$, isomorphisms
 
 $$
-g_\eta^*\mathbb D_{X_{\bar\eta}}M\simeq \mathbb D_{X'_{\bar\eta'}}M'\otimes A(1)[2],
+g_\eta^*\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_{\bar\eta}}M}\simeq \href{@definition-verdier-dual-evaluation}{\mathbb D_{X'_{\bar\eta'}}M'}\otimes \href{@definition-tate-twists}{A(1)[2]},
 \qquad
-g_s^*\mathbb D_{X_s}L\simeq \mathbb D_{X'_{s'}}(g_s^*L)\otimes A(1)[2]
+g_s^*\href{@definition-verdier-dual-evaluation}{\mathbb D_{X_s}L}\simeq \href{@definition-verdier-dual-evaluation}{\mathbb D_{X'_{s'}}}(g_s^*L)\otimes \href{@definition-tate-twists}{A(1)[2]}
 \tag{E.16}
 $$
 
-for $L\in D^b_{\mathrm{ctf}}(X_s,A)$. The twist comes from the
+for $L\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_s,A)}$. The twist comes from the
 [dualizing complexes](@definition-verdier-dual-evaluation). For a closed embedding over $\mathbf A^1$
 into $\mathbf A^r_{\mathbf A^1}$, [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) gives [$A(r+1)[2r+2]$](@definition-tate-twists)
 before generic restriction and [$A(r)[2r]$](@definition-tate-twists) after it. Moreover, the comparison of the complexes with closed support for the embedding preserves

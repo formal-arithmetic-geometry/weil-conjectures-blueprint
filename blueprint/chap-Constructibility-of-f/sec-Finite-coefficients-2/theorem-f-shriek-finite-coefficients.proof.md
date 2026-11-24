@@ -11,36 +11,36 @@ then glue.
 *Closed immersions.* Let $i:Z\hookrightarrow X$ be a closed immersion with open
 complement $j:U\hookrightarrow X$, and let [$R\underline\Gamma_Z$](@definition-local-cohomology) be the
 [local cohomology functor](@definition-local-cohomology) of Section [sec-Extension-by-zero-and-completion]. We show that [$R\underline\Gamma_Z$](@definition-local-cohomology) preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) and that it is [$i^!$](@theorem-existence-exceptional-inverse-image). For
-$K\in D^b_{\mathrm{ctf}}(X,A)$, there is a triangle
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$, there is a triangle
 
 $$
-i_*R\underline\Gamma_ZK\longrightarrow K\longrightarrow Rj_*j^*K
-\longrightarrow i_*R\underline\Gamma_ZK[1].
+i_*\href{@definition-local-cohomology}{R\underline\Gamma_ZK}\longrightarrow K\longrightarrow Rj_*j^*K
+\longrightarrow i_*\href{@definition-local-cohomology}{R\underline\Gamma_ZK}[1].
 $$
 
 By Proposition [proposition-open-direct-image-preserves-finite], the two terms on the right lie in
-[$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), and hence so does $i_*R\underline\Gamma_ZK$. Since
+[$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), and hence so does $i_*\href{@definition-local-cohomology}{R\underline\Gamma_ZK}$. Since
 $i^*i_*=\mathrm{id}$ and $i^*$ preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), we get
-$R\underline\Gamma_ZK\in D^b_{\mathrm{ctf}}(Z,A)$. Explicitly, if $K$ has [Tor
+$\href{@definition-local-cohomology}{R\underline\Gamma_ZK}\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Z,A)}$. Explicitly, if $K$ has [Tor
 amplitude](@definition-constructible-sheaves) in $[a,b]$, then [$R\underline\Gamma_ZK$](@definition-local-cohomology) has [Tor amplitude](@definition-constructible-sheaves) in
-$[a,b+\operatorname{cd}_\ell(j)+1]$. The functor
-$R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},A)\to D(Z_{\mathrm{pro}\acute{e}t},A)$ is right adjoint
+$[a,b+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+1]$. The functor
+$\href{@definition-local-cohomology}{R\underline\Gamma_Z}:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)\to D(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},A)$ is right adjoint
 to $i_*$ (Lemma [lemma-sections-support-closed-subscheme](1)), and
-[$\Loc(D^b_{\mathrm{ctf}}(-,A))$](@definition-localizing-subcategory) is a full subcategory of $D((-)_{\mathrm{pro}\acute{e}t},A)$. By
+[$\Loc(D^b_{\mathrm{ctf}}(-,A))$](@definition-localizing-subcategory) is a full subcategory of $D(\href{@definition-small-pro-etale-site}{(-)_{\mathrm{pro}\acute{e}t}},A)$. By
 uniqueness of right adjoints, [$R\underline\Gamma_ZK$](@definition-local-cohomology) is therefore [$i^!K$](@theorem-existence-exceptional-inverse-image) in
 [$\Loc(D^b_{\mathrm{ctf}}(Z,A))$](@definition-localizing-subcategory).
 
 *Projections.* Let $p:\mathbf A^d_Y\to Y$ be the projection. From the
-adjunction $Rq_*\dashv q^*(1)[2]$ for the projective line
+adjunction $Rq_*\dashv q^*\href{@definition-tate-twists}{(1)}[2]$ for the projective line
 $q:\mathbf P^1_Y\to Y$
 (Proposition [proposition-adjunction-projective-line]) and from
 Lemma [lemma-affine-space-etale-localization], we deduce that
-$p^!\simeq p^*(-)(d)[2d]$ on [$\Loc(D^b_{\mathrm{ctf}}(Y,A))$](@definition-localizing-subcategory). This functor preserves
+$\href{@theorem-existence-exceptional-inverse-image}{p^!}\simeq p^*(-)\href{@definition-tate-twists}{(d)}[2d]$ on [$\Loc(D^b_{\mathrm{ctf}}(Y,A))$](@definition-localizing-subcategory). This functor preserves
 [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), since pullback preserves a bounded [constructible](@definition-constructible-sheaves) flat model and
 the [Tate twist](@definition-tate-twists) is locally free of rank one.
 
 For example, for the origin $i:0\hookrightarrow\mathbf A^1$ over $\bar k$
-and $K=A$, the triangle gives $i^!A\simeq A(-1)[-2]$
+and $K=A$, the triangle gives $\href{@theorem-existence-exceptional-inverse-image}{i^!A}\simeq \href{@definition-tate-twists}{A(-1)}[-2]$
 (Example [example-closed-support] below). Its [Tor amplitude](@definition-constructible-sheaves) $[2,2]$ lies in the
 predicted interval $[0,0+1+1]$.
 

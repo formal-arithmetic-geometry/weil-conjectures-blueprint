@@ -25,27 +25,27 @@ Proposition [proposition-compatibility-purity-base-change] needs an
 the finite ones, and the limit exists once the finite isomorphisms commute
 with the reduction maps, that is, once base change commutes with change of
 coefficients. To state this we name the four comparison maps
-involved. For $M\in D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)$ and $K\in D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)$, let
-$b^f(M):(Rf_{!,A}M)_B\xrightarrow{\sim}Rf_{!,B}M_B$ and
-$c^f(K):(f_A^!K)_B\xrightarrow{\sim}f_B^!K_B$ be the change-of-coefficients
+involved. For $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)$ and $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)$, let
+$b^f(M):(\href{@proposition-construction-independence-rf-shriek}{Rf_{!,A}M})_B\xrightarrow{\sim}\href{@proposition-construction-independence-rf-shriek}{Rf_{!,B}}\href{@definition-sp-scalar-extension}{M_B}$ and
+$c^f(K):(\href{@theorem-existence-exceptional-inverse-image}{f_A^!K})_B\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f_B^!}\href{@definition-sp-scalar-extension}{K_B}$ be the change-of-coefficients
 maps of Lemma [lemma-sp-reduction]. With
-$g'^*:D^b_{\mathrm{ctf}}(X_{\mathrm{pro}\acute{e}t},A)\to D^b_{\mathrm{ctf}}(X'_{\mathrm{pro}\acute{e}t},A)$ and
-$g^*:D^b_{\mathrm{ctf}}(Y_{\mathrm{pro}\acute{e}t},A)\to D^b_{\mathrm{ctf}}(Y'_{\mathrm{pro}\acute{e}t},A)$, let
-$\beta_{f,A}(M):g^*Rf_{!,A}M\xrightarrow{\sim}Rf'_{!,A}g'^*M$ be
+$g'^*:\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)\to \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{X'_{\mathrm{pro}\acute{e}t}},A)$ and
+$g^*:\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)\to \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}(\href{@definition-small-pro-etale-site}{Y'_{\mathrm{pro}\acute{e}t}},A)$, let
+$\beta_{f,A}(M):g^*\href{@proposition-construction-independence-rf-shriek}{Rf_{!,A}M}\xrightarrow{\sim}\href{@proposition-construction-independence-rf-shriek}{Rf'_{!,A}g'^*M}$ be
 the base change map for compact support, and let
-$e_{f,A}(K):g'^*f_A^!K\xrightarrow{\sim}f'^!_Ag^*K$ be the
+$e_{f,A}(K):g'^*\href{@theorem-existence-exceptional-inverse-image}{f_A^!K}\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f'^!_Ag^*K}$ be the
 [exceptional base change isomorphism](@definition-exceptional-base-change-map) of
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](3). The claim is
 
 $$
-\beta_{f,B}(M_B)\circ g^*(b^f(M))
+\beta_{f,B}(\href{@definition-sp-scalar-extension}{M_B})\circ g^*(b^f(M))
 =b^{f'}(g'^*M)\circ\bigl(\beta_{f,A}(M)\bigr)_B,
 \tag{9.22}
 $$
 
 $$
 c^{f'}(g^*K)\circ(e_{f,A}(K))_B
-=e_{f,B}(K_B)\circ g'^*c^f(K).
+=e_{f,B}(\href{@definition-sp-scalar-extension}{K_B})\circ g'^*c^f(K).
 \tag{9.23}
 $$
 
@@ -70,8 +70,8 @@ For the second identity, recall that $c^f$ and $e_{f,A}$ are defined by
 transposing the counit composed with $(b^f)^{-1}$, respectively with
 $\beta_{f,A}^{-1}$ (see (9.16)). Transposing both
 sides of (9.23) under
-$Rf'_{!,B}\dashv f'^!_B$ thus gives two maps
-$Rf'_{!,B}\bigl(g'^*((f_A^!K)_B)\bigr)\to g^*K_B$. Each is built from the
+$\href{@proposition-construction-independence-rf-shriek}{Rf'_{!,B}}\dashv \href{@theorem-existence-exceptional-inverse-image}{f'^!_B}$ thus gives two maps
+$\href{@proposition-construction-independence-rf-shriek}{Rf'_{!,B}}\bigl(g'^*((\href{@theorem-existence-exceptional-inverse-image}{f_A^!K})_B)\bigr)\to g^*\href{@definition-sp-scalar-extension}{K_B}$. Each is built from the
 counit $\varepsilon_{f,A}(K)$, the comparisons $b$ and the base change
 maps $\beta$, and the counit commutes with [extension of scalars](@definition-sp-scalar-extension) and with
 pullback. By naturality of $b$ and $\beta$, the two maps therefore agree
@@ -86,7 +86,7 @@ towers of (9.18). Extension by zero and proper
 base change define $\beta_{f,\bullet}:g^*Rf_{!,\bullet}\to Rf'_{!,\bullet}g'^*$,
 and transposing $g^*(\varepsilon_{f,\bullet})\circ\beta_{f,\bullet}^{-1}$
 under the adjunction on towers for $f'$ defines
-$e_{f,\bullet}:g'^*f_\bullet^!\to f'^!_\bullet g^*$. At
+$e_{f,\bullet}:g'^*\href{@proposition-sp-tower-geometric}{f_\bullet^!}\to \href{@proposition-sp-tower-geometric}{f'^!_\bullet} g^*$. At
 level $n$ these are $\beta_{f,\mathcal O_E/\ell^n}$ and the [exceptional
 base change map](@definition-exceptional-base-change-map) with coefficients $\mathcal O_E/\ell^n$, so they are
 isomorphisms; for the second, this is
@@ -97,7 +97,7 @@ induced by the change-of-coefficients maps $c$
 (9.23) the levels of $e_{f,\bullet}$
 commute with them. So $e_{f,\bullet}$ is an isomorphism of functors on
 towers. In particular, for a normalized tower $K_\bullet$ both
-$g'^*f_\bullet^!K_\bullet$ and $f'^!_\bullet g^*K_\bullet$
+$g'^*\href{@proposition-sp-tower-geometric}{f_\bullet^!K_\bullet}$ and [$f'^!_\bullet g^*K_\bullet$](@proposition-sp-tower-geometric)
 are normalized.
 
 The functors $\operatorname{red}$ of Lemma [lemma-sp-tower-adjunction-foundation]
@@ -107,14 +107,14 @@ transposes) to the maps on towers. We check this in steps. First, the functor
 commutes with $g^*$ by associativity of derived pullbacks, and it commutes
 with extension by zero because the right adjoints commute. Next, for proper
 $\bar f$, the comparison
-$\operatorname{red}_YR\bar f_*M\to R\bar f_{*,\bullet}\operatorname{red}_XM$ is the
+$\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YR\bar f_*M}\to R\bar f_{*,\bullet}\operatorname{red}_XM$ is the
 transpose of [$\operatorname{red}_X$](@lemma-sp-tower-adjunction-foundation) of the counit of $\bar f^*\dashv R\bar f_*$,
 and its level $n$ is the change-of-coefficients map of
 Lemma [lemma-change-coefficients-direct-image] for
 $\mathcal O_E\to\mathcal O_E/\ell^n$. As evaluations detect isomorphisms,
-the comparison is an isomorphism for $M\in\Dbc(X,\mathcal O_E)$. Composing
+the comparison is an isomorphism for $M\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$. Composing
 with the compatibility with $j_!$ we obtain the comparison
-$\operatorname{red}_YRf_{!,\mathcal O_E}M\simeq Rf_{!,\bullet}\operatorname{red}_XM$
+$\operatorname{red}_Y\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E}M}\simeq Rf_{!,\bullet}\operatorname{red}_XM$
 for a compactification $f=\bar f\circ j$. The formal argument in the proof of
 Proposition [proposition-six-operations-change-coefficients] shows that,
 under these comparisons, [$\operatorname{red}$](@lemma-sp-tower-adjunction-foundation) carries the unit and counit of
@@ -127,23 +127,23 @@ $\mathcal O_E$, to $\beta_{f,\bullet}$ and to the corresponding composition
 isomorphisms on towers. For the counit, the adjunction of
 Proposition [proposition-sp-integral-adjunction] is transported from the
 adjunction on towers, so [$\operatorname{red}_Y$](@lemma-sp-tower-adjunction-foundation) carries
-$\varepsilon_f(K)$ to $\varepsilon_{f,\bullet}(\operatorname{red}_YK)$, once the
+$\varepsilon_f(K)$ to $\varepsilon_{f,\bullet}(\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YK})$, once the
 sources are identified by this comparison and by the isomorphism
-$\operatorname{red}_Xf^!_{\mathcal O_E}K\simeq f^!_\bullet\operatorname{red}_YK$
+$\operatorname{red}_X\href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E}K}\simeq \href{@proposition-sp-tower-geometric}{f^!_\bullet}\operatorname{red}_YK$
 of its proof. Since a transpose is determined by the counit, [$\operatorname{red}$](@lemma-sp-tower-adjunction-foundation)
-also carries transposes under $Rf_{!,\mathcal O_E}\dashv f^!_{\mathcal O_E}$ to
+also carries transposes under $\href{@proposition-construction-independence-rf-shriek}{Rf_{!,\mathcal O_E}}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E}}$ to
 transposes on towers. Finally, by
 Lemma [lemma-sp-tower-adjunction-foundation], $\operatorname{red}$ is an
 equivalence on [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves) whose inverse is $R\varprojlim$. A
 morphism of [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves) is therefore $R\varprojlim$ of its image under
 [$\operatorname{red}$](@lemma-sp-tower-adjunction-foundation), up to the unit isomorphisms
-$M\simeq R\varprojlim\operatorname{red}M$.
+$M\simeq R\varprojlim\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}M}$.
 
-Let $K\in\Dbc(Y,\mathcal O_E)$, and let
+Let $K\in\href{@definition-constructible-sheaves}{\Dbc(Y,\mathcal O_E)}$, and let
 $\operatorname{red}_YK=(K/\ell^n)_n$ be its tower of reductions
 (Lemma [lemma-sp-tower-adjunction-foundation]). Since inverse image commutes
 with reduction modulo $\ell^n$, and
-$f_{\mathcal O_E}^!K\simeq R\varprojlim_nf_{\mathcal O_E/\ell^n}^!(K/\ell^n)$
+$\href{@theorem-existence-exceptional-inverse-image}{f_{\mathcal O_E}^!K}\simeq R\varprojlim_n\href{@theorem-existence-exceptional-inverse-image}{f_{\mathcal O_E/\ell^n}^!(K/\ell^n)}$
 by Proposition [proposition-sp-integral-adjunction] and
 (9.20), both sides below are $R\varprojlim_n$
 of the corresponding terms at level $n$ for $K/\ell^n$. Applying
@@ -151,8 +151,8 @@ $R\varprojlim$ to $e_{f,\bullet}$ at [$\operatorname{red}_YK$](@lemma-sp-tower-a
 integral [exceptional base change isomorphism](@definition-exceptional-base-change-map)
 
 $$
-g'^{*}f_{\mathcal O_E}^{!}K
-\xrightarrow{\sim}f'^{!}_{\mathcal O_E}g^{*}K;
+g'^{*}\href{@theorem-existence-exceptional-inverse-image}{f_{\mathcal O_E}^{!}K}
+\xrightarrow{\sim}\href{@theorem-existence-exceptional-inverse-image}{f'^{!}_{\mathcal O_E}g^{*}K};
 \tag{9.24}
 $$
 
@@ -167,13 +167,13 @@ Theorem [theorem-sp-qbar]).
 In each case the map obtained is the exceptional base change map of
 Definition [definition-exceptional-base-change-map]. For $\mathcal O_E$,
 the map of the definition is the transpose under
-$Rf'_{!,\mathcal O_E}\dashv f'^!_{\mathcal O_E}$ of
+$\href{@proposition-construction-independence-rf-shriek}{Rf'_{!,\mathcal O_E}}\dashv \href{@theorem-existence-exceptional-inverse-image}{f'^!_{\mathcal O_E}}$ of
 $g^*(\varepsilon_f(K))\circ\beta^{-1}$. By the preceding paragraph,
 [$\operatorname{red}$](@lemma-sp-tower-adjunction-foundation) carries this composite to
 $g^*(\varepsilon_{f,\bullet})\circ\beta_{f,\bullet}^{-1}$ at
 [$\operatorname{red}_YK$](@lemma-sp-tower-adjunction-foundation), and it carries the transpose to the transpose on
-towers, which is $e_{f,\bullet}(\operatorname{red}_YK)$. Hence the map of
-the definition is $R\varprojlim$ of $e_{f,\bullet}(\operatorname{red}_YK)$,
+towers, which is $e_{f,\bullet}(\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YK})$. Hence the map of
+the definition is $R\varprojlim$ of $e_{f,\bullet}(\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YK})$,
 that is, (9.24). For $E$ and $\overline{\mathbf Q}_\ell$ we argue in
 the same way, with extension of scalars along $\mathcal O_E\to E$ and
 $E\to\overline{\mathbf Q}_\ell$ in place of [$\operatorname{red}$](@lemma-sp-tower-adjunction-foundation). Indeed, extension of scalars commutes
@@ -181,7 +181,7 @@ with $g^*$, extension by zero and $R\bar f_*$ through the
 change-of-coefficients maps of
 Definition [definition-change-of-coefficients-maps], and by
 Proposition [proposition-six-operations-change-coefficients] it carries the
-units and counits of $\bar f^*\dashv R\bar f_*$ and of $Rf_!\dashv f^!$ to
+units and counits of $\bar f^*\dashv R\bar f_*$ and of $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$ to
 the corresponding units and counits. So it carries the base change maps for
 [$Rf_!$](@proposition-construction-independence-rf-shriek), the counits, and therefore the [exceptional base change maps](@definition-exceptional-base-change-map) over
 $\mathcal O_E$ to those over $E$. In the same way those over a finite

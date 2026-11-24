@@ -24,7 +24,7 @@ and the Lefschetz number of a map $\varphi$ is the intersection number of
 its graph with the diagonal. A scheme, however, comes with no orientation
 and no class of the diagonal, and [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) is what provides them. It
 says that
-$f^!\simeq f^*(d)[2d]$ for $f$ smooth of relative dimension $d$
+$\href{@theorem-existence-exceptional-inverse-image}{f^!}\simeq \href{@definition-tate-twists}{f^*(d)}[2d]$ for $f$ smooth of relative dimension $d$
 (Theorem [theorem-smooth-purity-all-admissible-coefficients]), and this
 isomorphism gives the trace map.
 
@@ -32,7 +32,7 @@ Verdier duality (Theorems [theorem-verdier-biduality]
 and [theorem-global-verdier-duality]) says that $\mathbb D=\cHom(-,\omega)$
 is an involution of [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) exchanging [$Rf_!$](@proposition-construction-independence-rf-shriek) with $Rf_*$. For smooth proper
 $X$ it turns the trace map into a perfect pairing between $H^i$ and
-$H^{2d-i}(d)$ (Corollary [corollary-cup-product-pairing]), and this
+$H^{2d-i}\href{@definition-tate-twists}{(d)}$ (Corollary [corollary-cup-product-pairing]), and this
 pairing is compatible with Frobenius
 (Theorem [theorem-poincare-duality-frobenius]). Verdier duality also
 gives the vanishing in (a) for such $X$
@@ -40,7 +40,7 @@ gives the vanishing in (a) for such $X$
 
 For the trace formula we use the Künneth formula for Verdier duals
 (Lemma [lemma-external-duality-trace-morphism]), which turns a
-correspondence $u:c_2^*K\to c_1^!K$ into a class on $C$; for an
+correspondence $u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$ into a class on $C$; for an
 endomorphism, $C$ is the graph. Restricting this class to the diagonal
 gives the Lefschetz–Verdier formula
 (Theorem [theorem-proper-pushforward-lefschetz-verdier]), which says that
@@ -48,7 +48,7 @@ on a proper scheme the trace of $u$ on cohomology is a sum of local terms
 over the fixed locus.
 
 This does not yet count points, for two reasons. A local term is computed
-from $\cHom(c_2^*K,c_1^!K)$ near a fixed point, and the stalk of $K$ does
+from $\cHom(c_2^*K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})$ near a fixed point, and the stalk of $K$ does
 not determine it (Remark [remark-locality-warning]). Moreover $X$ need
 not be proper. Both problems are settled by one computation on a curve: the
 local term of Frobenius at a rational point is the trace on the stalk

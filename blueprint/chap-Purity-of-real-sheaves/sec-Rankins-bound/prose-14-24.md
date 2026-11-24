@@ -5,13 +5,13 @@ title = "Rankin's bound (2)"
 order = 1155
 +++
 For the constant sheaf on $\mathbf G_m$ the lemma gives
-$H^2_c=\overline{\mathbf Q}_\ell(-1)$, of weight $2$, as in the computation at the start
+$H^2_c=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$, of weight $2$, as in the computation at the start
 of the section. Now take a Kummer sheaf of a nontrivial character on
 $\mathbf G_m$. Then $H^0_c=0$ because $\mathbf G_m$ is affine, and
 $H^2_c=0$ because the coinvariants vanish.
 
 The positivity we want is $a^{2m}\ge0$ for the traces $a$ of all powers
-$\operatorname{Frob}_x^n$ on $\mathcal G$, and for this all these traces must be
+[$\operatorname{Frob}_x^n$](@theorem-trace-formula-euler-product) on $\mathcal G$, and for this all these traces must be
 real. It is not enough to ask that the trace of
 [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) itself be real. For example, if the eigenvalues at $x$ are $i$
 and $1-i$, the trace is $1$, but the trace of the square is

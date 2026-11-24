@@ -30,5 +30,5 @@ therefore perfect. If we represent such a
 complex by a bounded complex of finite projective modules, its termwise
 dual is again of this form, and the double evaluation map is termwise
 an isomorphism. The stalk $K_{\bar x}$ is the complex of global sections of
-$\bar x^*K\in D^b_{\mathrm{ctf}}(s,\Lambda)$ (Proposition [proposition-six-operations-dctf]), so it
+$\bar x^*K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(s,\Lambda)}$ (Proposition [proposition-six-operations-dctf]), so it
 is perfect as well.

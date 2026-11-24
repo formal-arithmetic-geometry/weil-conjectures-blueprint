@@ -5,7 +5,7 @@ title = "Naturality under base change and étale maps"
 order = 752
 uses = ["definition-constructible-sheaves", "proposition-exceptional-inverse-image-smooth-morphism", "definition-deformation-normal-bundle", "definition-compactification-refinement"]
 +++
-Write $\alpha_{g,s}:s^*\omega_g\xrightarrow{\sim}z^*\omega_\pi$
+Write $\alpha_{g,s}:s^*\href{@definition-relative-dualizing-complex}{\omega_g}\xrightarrow{\sim}z^*\href{@definition-relative-dualizing-complex}{\omega_\pi}$
 for the comparison of Lemma [lemma-section-normal-bundle].
 
 1. Let $h:S'\to S$ be any morphism for which the schemes below
@@ -14,17 +14,17 @@ for the comparison of Lemma [lemma-section-normal-bundle].
    identifications
    $$
    N_{s'}\simeq N_s\times_SS',\qquad
-   \mathcal D_{s'(S')}V'
-   \simeq\mathcal D_{s(S)}V\times_SS'.
+   \href{@definition-deformation-normal-bundle}{\mathcal D_{s'(S')}V'}
+   \simeq\href{@definition-deformation-normal-bundle}{\mathcal D_{s(S)}V}\times_SS'.
    $$
    Under these identifications and the [exceptional base change
    isomorphisms](@definition-exceptional-base-change-map) of Proposition [proposition-exceptional-inverse-image-smooth-morphism](3), the
    following square commutes:
    $$
    \begin{CD}
-   h^*s^*\omega_g @>{h^*\alpha_{g,s}}>> h^*z^*\omega_\pi\\
+   h^*s^*\href{@definition-relative-dualizing-complex}{\omega_g} @>{h^*\alpha_{g,s}}>> h^*z^*\href{@definition-relative-dualizing-complex}{\omega_\pi}\\
    @V{\sim}VV @VV{\sim}V\\
-   (s')^*\omega_{g'} @>{\alpha_{g',s'}}>> (z')^*\omega_{\pi'}.
+   (s')^*\href{@definition-relative-dualizing-complex}{\omega_{g'}} @>{\alpha_{g',s'}}>> (z')^*\href{@definition-relative-dualizing-complex}{\omega_{\pi'}}.
    \end{CD}
    $$
 2. Let $e:V'\to V$ be an étale $S$-morphism and let
@@ -33,8 +33,8 @@ for the comparison of Lemma [lemma-section-normal-bundle].
    The induced map $N_{s'}\to N_s$ is a linear isomorphism, and the
    induced map of [deformation spaces](@definition-deformation-normal-bundle) is étale. The identifications
    $$
-   (s')^*\omega_{g'}\simeq s^*\omega_g,\qquad
-   (z')^*\omega_{\pi'}\simeq z^*\omega_\pi
+   (s')^*\href{@definition-relative-dualizing-complex}{\omega_{g'}}\simeq s^*\href{@definition-relative-dualizing-complex}{\omega_g},\qquad
+   (z')^*\href{@definition-relative-dualizing-complex}{\omega_{\pi'}}\simeq z^*\href{@definition-relative-dualizing-complex}{\omega_\pi}
    $$
    obtained by composing adjunctions carry $\alpha_{g',s'}$ to
    $\alpha_{g,s}$.

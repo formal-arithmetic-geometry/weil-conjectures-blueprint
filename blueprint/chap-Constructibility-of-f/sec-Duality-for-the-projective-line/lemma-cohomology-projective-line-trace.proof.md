@@ -20,7 +20,7 @@ It therefore suffices to check that $\sigma_S$ is an isomorphism on a geometric 
 first for $\Lambda=\mathbf Z/\ell^r\mathbf Z$. By the genus zero case of
 Proposition [proposition-smooth-proper-curves-torsion-prime], the
 cohomology lives only in degrees $0$ and $2$, with
-$H^0=\mathbf Z/\ell^r\mathbf Z$ and $H^2=(\mathbf Z/\ell^r\mathbf Z)(-1)$.
+$H^0=\mathbf Z/\ell^r\mathbf Z$ and $H^2=\href{@definition-tate-twists}{(\mathbf Z/\ell^r\mathbf Z)(-1)}$.
 The Kummer description sends a line bundle to its degree modulo $\ell^r$.
 As $\mathcal O(1)$ has degree one, its class generates $H^2$, and
 $\sigma_S$ is an isomorphism. The unit and the class of

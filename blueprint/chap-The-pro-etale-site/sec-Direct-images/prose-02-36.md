@@ -14,23 +14,23 @@ sites defines a commutative square of topoi
 
 $$
 \begin{CD}
-X_{\mathrm{pro}\acute{e}t}@>{\nu_X}>>X_{\acute{e}t}\\
-@V{g_{\mathrm{pro}\acute{e}t}}VV @VV{g_{\acute{e}t}}V\\
-Y_{\mathrm{pro}\acute{e}t}@>{\nu_Y}>>Y_{\acute{e}t}.
+\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}}@>{\href{@proposition-comparison-morphism-inverse-image}{\nu_X}}>>X_{\acute{e}t}\\
+@V{\href{@proposition-topos-functoriality}{g_{\mathrm{pro}\acute{e}t}}}VV @VV{g_{\acute{e}t}}V\\
+\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}}@>{\href{@proposition-comparison-morphism-inverse-image}{\nu_Y}}>>Y_{\acute{e}t}.
 \end{CD}
 $$
 
 It induces an isomorphism
-$g_{\mathrm{pro}\acute{e}t}^*\nu_Y^*\simeq\nu_X^*g_{\acute{e}t}^*$ of functors
-$\operatorname{Mod}(Y_{\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, compatible with
+$\href{@proposition-topos-functoriality}{g_{\mathrm{pro}\acute{e}t}^*}\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}g_{\acute{e}t}^*$ of functors
+$\operatorname{Mod}(Y_{\acute{e}t},\Lambda)\to\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, compatible with
 composition. Since all four functors are exact, it is also an
-isomorphism of functors $D(Y_{\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+isomorphism of functors $D(Y_{\acute{e}t},\Lambda)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 For direct images the comparison needs a hypothesis on $g$. The
 comparison map
-$\nu_Y^*Rg_{\acute{e}t,*}\to Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*$ of functors
-$D^+(X_{\acute{e}t},\Lambda)\to D^+(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ is defined as the
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}Rg_{\acute{e}t,*}\to \href{@proposition-topos-functoriality}{Rg_{\mathrm{pro}\acute{e}t,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}$ of functors
+$D^+(X_{\acute{e}t},\Lambda)\to D^+(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\Lambda)$ is defined as the
 adjoint of the composite of
-$g_{\mathrm{pro}\acute{e}t}^*\nu_Y^*Rg_{\acute{e}t,*}\simeq\nu_X^*g_{\acute{e}t}^*Rg_{\acute{e}t,*}$ with
+$\href{@proposition-topos-functoriality}{g_{\mathrm{pro}\acute{e}t}^*}\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}Rg_{\acute{e}t,*}\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}g_{\acute{e}t}^*Rg_{\acute{e}t,*}$ with
 [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) applied to the counit of the adjunction $g_{\acute{e}t}^*\dashv Rg_{\acute{e}t,*}$.
 
 Evaluated on a [pro-étale affine](@definition-ind-etale-pro-etale-weakly) $V=\varprojlim_iV_i$ over $Y$, the

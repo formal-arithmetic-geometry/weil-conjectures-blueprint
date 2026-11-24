@@ -12,8 +12,8 @@ degree $g$.
 normalize the universal invertible sheaf as
 
 $$
-\mathcal L_g=\mathcal O(D_g)\otimes
-f_{\operatorname{Hilb}^g}^*(P_{\operatorname{Hilb}^g}^*\mathcal O(D_g))^{-1}.
+\mathcal L_g=\href{@theorem-hilbert-schemes-points-smooth-curve}{\mathcal O(D_g)}\otimes
+f_{\operatorname{Hilb}^g}^*(P_{\operatorname{Hilb}^g}^*\href{@theorem-hilbert-schemes-points-smooth-curve}{\mathcal O(D_g)})^{-1}.
 $$
 
 Let $W$ be the open locus where $Rf_{\operatorname{Hilb}^g,*}\mathcal L_g$ is a line

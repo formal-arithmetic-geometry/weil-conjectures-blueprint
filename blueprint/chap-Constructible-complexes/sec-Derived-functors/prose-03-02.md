@@ -12,7 +12,7 @@ from proper direct image and extension by zero
 representability.
 
 Sheaves of $\Lambda_X$-modules can be viewed as module objects over the
-ring object $\Lambda_X$ in $\Sh(X_{\mathrm{pro}\acute{e}t},\operatorname{Ab})$, with the tensor product
+ring object $\Lambda_X$ in $\href{@proposition-topos-functoriality}{\Sh}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\operatorname{Ab})$, with the tensor product
 over $\Lambda_X$ given by the coequalizer of the two actions
 $M\otimes\Lambda_X\otimes N\rightrightarrows M\otimes N$. The category of
 $\Lambda_X$-modules is Grothendieck abelian. Hence complexes have K-injective
@@ -22,11 +22,11 @@ $K\otimes^{\mathbf L}-$ is left adjoint to $\cHom(K,-)$ [Stacks, [06YL](https://
 
 The pullback of a $\Lambda_Y$-module $M$ along $f:X\to Y$ is
 $f^*M=\Lambda_X\otimes_{f^{-1}\Lambda_Y}f^{-1}M$. Since
-$f^{-1}\Lambda_Y\simeq\Lambda_X$ (Lemma [lemma-inverse-image-coefficient-sheaves]), this is just $f^{-1}M$. Therefore $f^*:\operatorname{Mod}(Y_{\mathrm{pro}\acute{e}t},\Lambda)\to
-\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is exact, and on derived
-categories it is left adjoint to $Rf_*:D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to
-D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$. For an open immersion $j:U\to X$, extension by
-zero $j_!:\operatorname{Mod}(U_{\mathrm{pro}\acute{e}t},\Lambda)\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is
+$f^{-1}\Lambda_Y\simeq\Lambda_X$ (Lemma [lemma-inverse-image-coefficient-sheaves]), this is just $f^{-1}M$. Therefore $f^*:\operatorname{Mod}(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\Lambda)\to
+\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is exact, and on derived
+categories it is left adjoint to $Rf_*:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)\to
+D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\Lambda)$. For an open immersion $j:U\to X$, extension by
+zero $j_!:\operatorname{Mod}(\href{@definition-small-pro-etale-site}{U_{\mathrm{pro}\acute{e}t}},\Lambda)\to\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is
 exact and left adjoint to $j^*$.
 
 Constructible sheaves will be built from lisse sheaves on the strata of a
@@ -40,7 +40,7 @@ immersion into the closure and $i:\overline S\hookrightarrow X$ the closed
 immersion. We put
 
 $$
-a_!=i_*j_!:\operatorname{Mod}(S_{\mathrm{pro}\acute{e}t},\Lambda)\longrightarrow\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda).
+a_!=i_*j_!:\operatorname{Mod}(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\Lambda)\longrightarrow\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda).
 $$
 
 For a $\Lambda_S$-module $L$, the sheaf $a_!L$ restricts to $L$ on $S$,
@@ -52,6 +52,6 @@ $X\setminus\overline S$
 which applies because the open immersions involved are quasi-compact, $X$
 being Noetherian). The same proposition shows that $j_!$ and $i_*$ are
 exact, so $a_!$ is exact. It therefore acts on complexes term by term and defines
-$a_!:D(S_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ with no derived functor
+$a_!:D(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ with no derived functor
 needed. Once $Rf_!$ is constructed (Section [sec-Direct-image-with-compact-support]), this
 functor is $Ra_!$.

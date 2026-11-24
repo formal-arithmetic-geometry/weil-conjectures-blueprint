@@ -12,7 +12,7 @@ one of the following:
 
 1. an object of [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves), where $\Lambda=E$ or $\overline{\mathbf Q}_\ell$;
 2. a finite extension of sheaves $a_!L_0$, with $a:S\hookrightarrow X$
-   locally closed and $L_0$ a finite locally free $\mathcal O_{E,S}$-module,
+   locally closed and $L_0$ a finite locally free [$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients)-module,
    where $\Lambda=\mathcal O_E$.
 
 Then for every integer $n$ the natural map

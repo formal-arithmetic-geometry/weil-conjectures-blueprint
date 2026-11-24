@@ -13,7 +13,7 @@ and it remains one after every base change $S'\to S$. Let
 
 $$
 \delta:\Delta_*A_{\mathbf P^1_S}\longrightarrow
-A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]
+\href{@definition-tate-twists}{A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)}[2]
 $$
 
 be its cycle class (Lemma [lemma-cycle-class-cartier-divisor]). Then for
@@ -22,8 +22,8 @@ $i=1,2$ the composite
 $$
 s_i:A_{\mathbf P^1_S}=Rp_{i*}\Delta_*A_{\mathbf P^1_S}
 \xrightarrow{Rp_{i*}\delta}
-Rp_{i*}A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)[2]
-\xrightarrow{\operatorname{Tr}_{p_i}}A_{\mathbf P^1_S}
+Rp_{i*}\href{@definition-tate-twists}{A_{\mathbf P^1_S\times_S\mathbf P^1_S}(1)}[2]
+\xrightarrow{\href{@lemma-cohomology-projective-line-trace}{\operatorname{Tr}_{p_i}}}A_{\mathbf P^1_S}
 \tag{6.6}
 $$
 

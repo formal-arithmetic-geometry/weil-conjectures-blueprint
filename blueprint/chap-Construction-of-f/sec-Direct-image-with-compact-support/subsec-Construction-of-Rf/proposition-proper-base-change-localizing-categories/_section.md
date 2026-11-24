@@ -17,4 +17,4 @@ Y'&\xrightarrow{g}&Y
 $$
 
 with $p$ proper. The [base change map](@definition-pro-etale-base-change-map) $g^*Rp_*K\to Rp'_*g'^*K$ is an isomorphism for every
-$K\in\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$.
+$K\in\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$.

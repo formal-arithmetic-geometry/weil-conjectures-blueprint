@@ -13,7 +13,7 @@ There are canonical identifications
 $$
 \begin{aligned}
 H^0(C,\mu_n)&=\mu_n(k),&
-H^1(C,\mu_n)&=J(C)[n](k),\\
+H^1(C,\mu_n)&=\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k),\\
 H^2(C,\mu_n)&=\mathbf Z/n,&
 H^q(C,\mu_n)&=0\quad(q>2).
 \end{aligned}

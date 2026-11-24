@@ -11,9 +11,9 @@ $i:Z\hookrightarrow\overline X$ be the
 schematic closure of $X$, with $j_Z:X\hookrightarrow Z$ the induced
 open immersion. For a condensed coefficient ring $\Lambda$, we use the
 pullbacks of its coefficient sheaf to these schemes as coefficients. For every
-$K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda_X)$ there are canonical identifications
+$K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda_X)$ there are canonical identifications
 
 $$
 j_!K\simeq i_*j_{Z,!}K,\qquad
-Rp_*j_!K\simeq R(p\circ i)_*j_{Z,!}K.
+\href{@proposition-construction-independence-rf-shriek}{Rp_*j_!K}\simeq \href{@proposition-construction-independence-rf-shriek}{R(p\circ i)_*j_{Z,!}K}.
 $$

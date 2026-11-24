@@ -28,14 +28,14 @@ are values of the character on $\mu_n(k_0)$, hence roots of unity, and it is [pu
 
 Up to a twist, every rank-one sheaf behaves like these two. Indeed, by
 Theorem [theorem-rank-one-sheaves-have-finite] the image $\chi(\pi_1(U))$
-is finite. It follows that $\chi(\operatorname{Frob}_x)$ is $\chi(s)^{\deg(x)}$
+is finite. It follows that $\chi(\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x})$ is $\chi(s)^{\deg(x)}$
 times a root of unity, so the sheaf is [pure](@definition-weights) of weight
 $2\log_q|\iota(\chi(s))|$.
 
 Finiteness is a statement about [Weil sheaves](@definition-weil-structure), because on the
 geometric curve there are rank-one local systems with infinite
 monodromy. For example, the tame fundamental group of
-$\mathbf G_{m,k}$ has the quotient $\mathbf Z_\ell(1)\simeq\mathbf Z_\ell$, and
+$\mathbf G_{m,k}$ has the quotient $\href{@definition-tate-twists}{\mathbf Z_\ell(1)}\simeq\mathbf Z_\ell$, and
 $a\mapsto(1+\ell)^a$ is a character of infinite order. But it has no
 [Weil structure](@definition-weil-structure). Indeed, a [Weil structure](@definition-weil-structure) forces $\chi(s^{-1}gs)=\chi(g)$ for
 $g\in\pi_1(U)$, while conjugation by $s$ acts on [$\mathbf Z_\ell(1)$](@definition-tate-twists) by multiplication by
@@ -64,6 +64,6 @@ These points cannot all lie in the finite group $J_0(k_0)$, and so there is no s
 element (Proposition [proposition-no-frobenius-fixed-vector]).
 
 For an open curve, the residue sequence contains in addition the boundary term
-$H^0(D,E(-1))$. A power of Frobenius acts on it by a power of $q\ne1$, so it
+$H^0(D,\href{@definition-tate-twists}{E(-1)})$. A power of Frobenius acts on it by a power of $q\ne1$, so it
 has no fixed vector either. For example, for $\mathbf G_m$ this is the computation above,
-since there $H^1(\mathbf G_{m,k},\mathbf Q_\ell)=\mathbf Q_\ell(-1)$, with Frobenius acting by $q$.
+since there $H^1(\mathbf G_{m,k},\mathbf Q_\ell)=\href{@definition-tate-twists}{\mathbf Q_\ell(-1)}$, with Frobenius acting by $q$.

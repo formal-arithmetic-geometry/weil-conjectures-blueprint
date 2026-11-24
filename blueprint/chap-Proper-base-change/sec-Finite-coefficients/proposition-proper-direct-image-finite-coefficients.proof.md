@@ -12,11 +12,11 @@ from the étale site.
 
 On the étale site, let $C\in D^b_{\mathrm{ctf}}(X_{\acute{e}t},A)$. The proper
 direct image of a constructible [torsion](@definition-torsion-sheaves) sheaf is constructible
-[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0)], and $\operatorname{cd}_\ell(p)<\infty$
+[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0)], and $\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(p)}<\infty$
 [Stacks, [0F10](https://stacks.math.columbia.edu/tag/0F10)]. Hence $Rp_*C\in\Dbc(Y_{\acute{e}t},A)$.
 
 To check finite [Tor amplitude](@definition-constructible-sheaves), suppose that $C$ has [Tor amplitude](@definition-constructible-sheaves) $[a,b]$, and let
-$d$ be an integer with $\operatorname{cd}_\ell(X_{\bar y})\leq d$ for
+$d$ be an integer with $\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(X_{\bar y})}\leq d$ for
 all geometric points $\bar y$ of $Y$. Since derived tensor products are computed
 stalkwise, it suffices to show that each stalk $(Rp_*C)_{\bar y}$ has
 Tor amplitude in $[a,b+d]$ as a complex of $A$-modules. In other words,

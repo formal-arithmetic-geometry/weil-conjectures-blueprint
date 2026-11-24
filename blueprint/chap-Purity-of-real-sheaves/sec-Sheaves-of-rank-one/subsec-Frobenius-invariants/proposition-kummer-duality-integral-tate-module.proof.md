@@ -18,11 +18,11 @@ For the dual Tate module, [Poincaré duality](@theorem-poincare-duality) at fini
 untwisted $H^1$ with the twisted one that we have just identified with
 $J[\ell^n](k)$. Derived duality gives a statement about the single group
 $H^1$ because all the groups involved are free $A_n$-modules. Indeed, we have
-$H^0(C,A_n)=A_n$ and $H^2(C,A_n(1))=A_n$ by
+$H^0(C,A_n)=A_n$ and $H^2(C,\href{@definition-tate-twists}{A_n(1)})=A_n$ by
 Proposition [proposition-smooth-proper-curves-torsion-prime], while the group
-$H^1(C,A_n(1))$ is free of rank $2g$ by the identification above and
+$H^1(C,\href{@definition-tate-twists}{A_n(1)})$ is free of rank $2g$ by the identification above and
 Corollary [corollary-torsion-jacobian-field-extension]. Since
-$A_n(1)\simeq A_n$ over $k$, the untwisted $H^1$ is free of rank $2g$ as well.
+$\href{@definition-tate-twists}{A_n(1)}\simeq A_n$ over $k$, the untwisted $H^1$ is free of rank $2g$ as well.
 Finally, a bounded complex with projective cohomology modules is the sum of its
 shifted cohomology modules in the derived category, so $A_n$-duality acts
 degree by degree. In this situation derived Poincaré duality,
@@ -31,7 +31,7 @@ constant sheaf, induces in degree one an isomorphism
 
 $$
 H^1(C,A_n)\xrightarrow{\sim}
-\Hom_{A_n}(H^1(C,A_n(1)),A_n).
+\Hom_{A_n}(H^1(C,\href{@definition-tate-twists}{A_n(1)}),A_n).
 $$
 
 This map is the adjoint of cup product followed by the [trace map](@definition-trace-map) of

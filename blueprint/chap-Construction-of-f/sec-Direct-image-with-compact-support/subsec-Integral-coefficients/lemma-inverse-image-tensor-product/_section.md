@@ -5,7 +5,7 @@ title = "Inverse image and tensor product"
 order = 494
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves"]
 +++
-Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,
+Inverse image, $\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}}$ without completion,
 extension by zero along a quasi-compact open immersion and direct image
 along a closed immersion preserve [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves); on [$\Dbc$](@definition-constructible-sheaves) inverse
 image agrees with the completed inverse image of the Stacks Project.

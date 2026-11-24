@@ -10,12 +10,12 @@ Let $A$ be an [abelian variety](@definition-abelian-variety) of dimension $g$ ov
 be a prime invertible in $k$. There are noncanonical isomorphisms
 
 $$
-A[\ell^n](\bar k)\simeq(\mathbf Z/\ell^n)^{2g},\qquad
-T_\ell A\simeq\mathbf Z_\ell^{2g}.
+\href{@definition-abelian-variety}{A[\ell^n](\bar k)}\simeq(\mathbf Z/\ell^n)^{2g},\qquad
+\href{@definition-tate-module}{T_\ell A}\simeq\mathbf Z_\ell^{2g}.
 $$
 
 The canonical projection induces an isomorphism
-$T_\ell A/\ell^nT_\ell A\simeq A[\ell^n](\bar k)$.
+$\href{@definition-tate-module}{T_\ell A}/\ell^n\href{@definition-tate-module}{T_\ell A}\simeq \href{@definition-abelian-variety}{A[\ell^n](\bar k)}$.
 The groups [$A[\ell^n](\bar k)$](@definition-abelian-variety), the transition maps and the projections
 from [$T_\ell A$](@definition-tate-module) are $\operatorname{Gal}(\bar k/k)$-equivariant, and they
 do not change when $\bar k$ is replaced by a larger algebraically

@@ -10,6 +10,6 @@ In the situation just described,
 
 $$
 Ri_{s*}\beta_d\ \chi_i\ \Psi_C(\zeta_\eta)
-=\zeta_s\ c_s^!(\chi_\Delta)\ \beta_c(R\Delta_{\eta*}).
+=\zeta_s\ \href{@theorem-existence-exceptional-inverse-image}{c_s^!}(\chi_\Delta)\ \beta_c(R\Delta_{\eta*}).
 \tag{E.11}
 $$

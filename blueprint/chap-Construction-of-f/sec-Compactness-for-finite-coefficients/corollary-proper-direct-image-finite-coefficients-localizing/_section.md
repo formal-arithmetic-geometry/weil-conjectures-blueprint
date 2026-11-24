@@ -10,7 +10,7 @@ Let $A$ be a finite admissible ring and let $p:X\to Y$ be proper. The
 functor $Rp_*$ restricts to an exact functor
 
 $$
-Rp_*:\Loc(D^b_{\mathrm{ctf}}(X,A))\longrightarrow\Loc(D^b_{\mathrm{ctf}}(Y,A))
+Rp_*:\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)})\longrightarrow\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,A)})
 $$
 
 that preserves arbitrary direct sums.

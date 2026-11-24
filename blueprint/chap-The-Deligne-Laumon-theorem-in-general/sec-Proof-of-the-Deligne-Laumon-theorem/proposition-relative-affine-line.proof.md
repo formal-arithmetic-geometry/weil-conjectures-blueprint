@@ -12,7 +12,7 @@ part it is quasi-finite, and we apply
 Lemma [lemma-finite-quasi-finite-direct-images].
 
 Take a finite [mixed filtration](@definition-weights) of $G$. In the long exact
-sequences of $R^ip_!$ for its steps, the bound $w+i$ passes from the
+sequences of [$R^ip_!$](@proposition-construction-independence-rf-shriek) for its steps, the bound $w+i$ passes from the
 [pure](@definition-weights) quotients to $G$ by Lemma [lemma-weights-exact-sequence]. We
 may therefore assume that $G$ is [pure](@definition-weights) and [constructible](@definition-constructible-sheaves) of weight
 $v\leq w$.

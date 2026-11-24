@@ -10,5 +10,5 @@ change](@proposition-composition-base-change-rf-shriek) for [$Rp_{2!}$](@proposi
 $p_1^*\pi^*N=p_2^*\pi^{\vee*}N$, and the projection formula for $p_2$
 gives the isomorphism. For (3), the fibre of $p_2$ over $\bar y$ is
 $V_{\bar y}$, on which $\mathcal K_\psi$ restricts to
-$\mathcal L_{\psi\langle x,y\rangle}$, and [proper base change](@proposition-composition-base-change-rf-shriek) for
+[$\mathcal L_{\psi\langle x,y\rangle}$](@lemma-artin-schreier-character-sheaf), and [proper base change](@proposition-composition-base-change-rf-shriek) for
 [$Rp_{2!}$](@proposition-construction-independence-rf-shriek) along $\bar y\to V^\vee$ gives the formula.

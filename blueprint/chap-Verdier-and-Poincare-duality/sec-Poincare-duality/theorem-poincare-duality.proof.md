@@ -17,9 +17,9 @@ modules, whose dual is the termwise dual, with the usual evaluation.
 
 Next, $\beta_K$ is the pairing of
 Theorem [theorem-global-verdier-duality] for $K$, transported along the
-isomorphism $\omega_X\simeq\Lambda_X(d)[2d]$. Indeed, under this isomorphism evaluation
-$K\otimes^{\mathbf L}\mathbb D_XK\to\omega_X$ becomes evaluation on
-coefficients $K\otimes^{\mathbf L}K^\vee(d)[2d]\to\Lambda_X(d)[2d]$.
+isomorphism $\href{@definition-verdier-dual-evaluation}{\omega_X}\simeq\href{@definition-tate-twists}{\Lambda_X(d)}[2d]$. Indeed, under this isomorphism evaluation
+$K\otimes^{\mathbf L}\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\to\href{@definition-verdier-dual-evaluation}{\omega_X}$ becomes evaluation on
+coefficients $K\otimes^{\mathbf L}\href{@definition-tate-twists}{K^\vee(d)}[2d]\to\href{@definition-tate-twists}{\Lambda_X(d)}[2d]$.
 Moreover, the trace map of Definition [definition-trace-map] is by definition the
 counit $\varepsilon_{a_X}$ precomposed with [$\gamma_{a_X}$](@theorem-smooth-purity-all-admissible-coefficients), so the
 counit becomes $\operatorname{Tr}_X$. Hence the adjoint of $\beta_K$ is
@@ -28,7 +28,7 @@ the isomorphism (10.5), which is
 both factors of $\beta_K$ are perfect complexes. Since the adjoint of
 $\beta_K$ is an isomorphism, $\beta_K$ is [perfect](@definition-perfect-pairing).
 
-For proper $X$ we have $Ra_{X!}=Ra_{X*}$, which gives the
+For proper $X$ we have $\href{@proposition-construction-independence-rf-shriek}{Ra_{X!}}=Ra_{X*}$, which gives the
 assertion on proper $X$. The last statement holds because the pairing is built from tensor
 products, the two direct images, evaluation, the isomorphism [$\gamma_{a_X}$](@theorem-smooth-purity-all-admissible-coefficients) and
 the [trace map](@definition-trace-map), all of which Proposition [proposition-six-operations-change-coefficients] and

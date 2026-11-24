@@ -5,7 +5,7 @@ title = "Vanishing on a strictly local surface (1)"
 order = 970
 +++
 The vanishing of the [local term](@definition-trace-class-local-terms) is explained by the position of the curves at $(y,y)$. Since
-$d\Phi_X=0$, the transposed graph $\Gamma$ is tangent to the vertical
+$d\href{@definition-frobenius-correspondences-their-operators}{\Phi_X}=0$, the transposed graph $\Gamma$ is tangent to the vertical
 axis $V=\{y\}\times X$. The diagonal $\Delta$ and the horizontal
 axis $H$ have other tangent directions. This persists on suitable covers
 of degree prime to $\ell$ (Lemma [lemma-tangent-cones-on-cover] below). Blowing up the closed point

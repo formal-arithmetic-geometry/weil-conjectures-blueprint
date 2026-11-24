@@ -7,14 +7,14 @@ lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, with uniformizer $\pi_E$, and let
-$\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}=p_X^*\underline{\mathcal O_E}$ and
 $(\mathcal O_E/\pi_E^n)_X$ be the integral and finite coefficient
-sheaves of Section [sec-Coefficient-rings]. A complex $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ is
+sheaves of Section [sec-Coefficient-rings]. A complex $K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ is
 *derived complete* if its canonical map
 
 $$
 K\longrightarrow R\varprojlim_n
-(K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(\mathcal O_E/\pi_E^{n})_X)
+(K\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}}(\mathcal O_E/\pi_E^{n})_X)
 $$
 
 is an isomorphism.

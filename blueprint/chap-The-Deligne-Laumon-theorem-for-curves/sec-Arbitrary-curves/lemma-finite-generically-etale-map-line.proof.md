@@ -51,6 +51,6 @@ Consider such a cycle of length $e$, corresponding to a point over $y$ with
 residue extension of degree $e$. On it the $e$th power of the operator is
 the local Frobenius upstairs, so an eigenvalue $\beta$ satisfies
 $|\iota\beta|^e=q_y^{ew/2}$, and the weight is still $w$. Since
-$R\pi_!=\pi_*$ for the finite map $\pi$, the identification of cohomology
+$\href{@proposition-construction-independence-rf-shriek}{R\pi_!}=\pi_*$ for the finite map $\pi$, the identification of cohomology
 follows by composing [direct images with compact support](@proposition-construction-independence-rf-shriek). It
 commutes with Frobenius because the construction is defined over $k_0$.

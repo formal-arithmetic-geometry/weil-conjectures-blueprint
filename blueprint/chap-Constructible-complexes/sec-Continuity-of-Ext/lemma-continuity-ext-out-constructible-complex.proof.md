@@ -21,11 +21,11 @@ Lemma [lemma-sections-support-closed-subscheme]. The only property of $L$ used
 below is that $L^\vee\otimes-$ is exact.
 
 By (3.1), we must show that the cohomology of
-$R\Gamma(S,L^\vee\otimes u^*R\underline\Gamma_ZK)$ commutes with the
+$R\Gamma(S,L^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_ZK})$ commutes with the
 colimit, where $K=\varinjlim_\alpha K_\alpha^\bullet$. To this end we apply the exact
 functor
-$L^\vee\otimes u^*i^*(-):D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(S_{\mathrm{pro}\acute{e}t},\Lambda)$
-to the triangle $i_*R\underline\Gamma_ZK\to K\to Rj_*j^*K\to$ and to the
+$L^\vee\otimes u^*i^*(-):D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\Lambda)$
+to the triangle $i_*\href{@definition-local-cohomology}{R\underline\Gamma_ZK}\to K\to Rj_*j^*K\to$ and to the
 corresponding triangles for the $K_\alpha^\bullet$. By the
 long exact sequence and the five lemma, it suffices to treat the two
 terms

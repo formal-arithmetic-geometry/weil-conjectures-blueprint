@@ -24,7 +24,7 @@ $$
 u\equiv\xi^d,\qquad v\equiv\eta^d\pmod{(\xi,\eta)^{d+1}}.
 $$
 
-Since $\Phi_X^m$ is purely inseparable of degree $q^m$ and fixes $y$, we
+Since [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) is purely inseparable of degree $q^m$ and fixes $y$, we
 have $\operatorname{ord}_v\varphi=q^m>1$, and hence
 $\varphi(v)\in(\eta)^{dq^m}\subseteq(\xi,\eta)^{d+1}$. It follows that the
 pulled-back equations of $\Gamma'$, $V'$, $\Delta'$ and $H'$ have initial

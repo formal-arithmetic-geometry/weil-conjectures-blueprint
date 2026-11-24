@@ -10,12 +10,12 @@ Let $S$ be of finite type over $k$, and let $p:\mathbf P^1_S\to S$ be the
 projection. The functors
 $Rp_*:D((\mathbf P^1_S)_{\acute{e}t},A)\to
 D(S_{\acute{e}t},A)$ and
-$p^*(1)[2]:D(S_{\acute{e}t},A)\to
+$p^*\href{@definition-tate-twists}{(1)}[2]:D(S_{\acute{e}t},A)\to
 D((\mathbf P^1_S)_{\acute{e}t},A)$ form
 an adjunction
 
 $$
-Rp_* \ \dashv\ p^*(1)[2],
+Rp_* \ \dashv\ p^*\href{@definition-tate-twists}{(1)}[2],
 \tag{6.9}
 $$
 

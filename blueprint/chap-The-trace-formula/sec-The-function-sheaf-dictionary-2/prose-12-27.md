@@ -12,19 +12,19 @@ character, and let $\mathcal K_\psi=\mu^*\mathcal L_\psi$, where
 $\mathcal L_\psi$ is the Artin–Schreier sheaf of
 Lemma [lemma-artin-schreier-character-sheaf] (proved in
 Chapter [chap-The-Fourier-transform] below). Here $\psi$ is a character, not a
-[Frobenius correspondence](@definition-frobenius-correspondences-their-operators). With this kernel the transform is $\operatorname{FT}_\psi K=Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)[1]$. For
+[Frobenius correspondence](@definition-frobenius-correspondences-their-operators). With this kernel the transform is $\operatorname{FT}_\psi K=\href{@proposition-construction-independence-rf-shriek}{Rp_{2!}}(p_1^*K\otimes\mathcal K_\psi)[1]$. For
 $y\in\mathbf F_{q^m}$ we compute
 
 $$
 \begin{aligned}
-t_{\operatorname{FT}_\psi K,m}(y)
-&=-\,t_{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi),m}(y)
+\href{@definition-trace-function}{t_{\operatorname{FT}_\psi K,m}(y)}
+&=-\,\href{@definition-trace-function}{t_{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi),m}(y)}
 &&\text{(shift)}\\
-&=-\sum_{x\in\mathbf F_{q^m}}t_{p_1^*K\otimes\mathcal K_\psi,m}(x,y)
+&=-\sum_{x\in\mathbf F_{q^m}}\href{@definition-trace-function}{t_{p_1^*K\otimes\mathcal K_\psi,m}(x,y)}
 &&\text{by (3)}\\
-&=-\sum_{x\in\mathbf F_{q^m}}t_{p_1^*K,m}(x,y)\,t_{\mu^*\mathcal L_\psi,m}(x,y)
+&=-\sum_{x\in\mathbf F_{q^m}}\href{@definition-trace-function}{t_{p_1^*K,m}(x,y)}\,\href{@definition-trace-function}{t_{\mu^*\mathcal L_\psi,m}(x,y)}
 &&\text{by (2)}\\
-&=-\sum_{x\in\mathbf F_{q^m}}t_{K,m}(x)\,
+&=-\sum_{x\in\mathbf F_{q^m}}\href{@definition-trace-function}{t_{K,m}(x)}\,
 \psi\bigl(\operatorname{Tr}_{\mathbf F_{q^m}/\mathbf F_q}(xy)\bigr)
 &&\text{by (1) and Lemma~16.1.1.}
 \end{aligned}

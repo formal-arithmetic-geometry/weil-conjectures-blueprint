@@ -16,7 +16,7 @@ Y' @>{g}>> Y.
 $$
 
 The [base change map](@definition-pro-etale-base-change-map) $g^*Rf_*K\to Rf'_*g'^*K$, for
-$K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, is the map (4.5) of
+$K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, is the map (4.5) of
 Section [sec-The-base-change-map]. It comes by adjunction from the counit of
 $f^*\dashv Rf_*$, and it is defined for every such square and every
 complex, with $g$ smooth or not. If $f$ is quasi-compact and

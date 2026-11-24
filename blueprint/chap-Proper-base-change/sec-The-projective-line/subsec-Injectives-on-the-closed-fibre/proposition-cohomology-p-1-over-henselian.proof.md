@@ -30,7 +30,7 @@ sheaf killed by $\ell^a$ has a finite filtration with quotients killed by
 $\ell$, and a sheaf killed by an integer $n$ is the finite direct sum of
 its primary parts, the class contains all sheaves of bounded torsion.
 An arbitrary [torsion](@definition-torsion-sheaves) $F$ is the colimit
-$\varinjlim_n F[n]$, with positive integers ordered by divisibility, and the
+$\varinjlim_n \href{@definition-torsion-sheaves}{F[n]}$, with positive integers ordered by divisibility, and the
 comparison passes to this colimit, because the cohomology of the
 quasi-compact quasi-separated schemes $\mathbf P^1_R$ and
 $\mathbf P^1_\kappa$ commutes with filtered colimits [Stacks, [03Q5](https://stacks.math.columbia.edu/tag/03Q5)]. Finally, all

@@ -7,11 +7,11 @@ order = 1172
 How much does the [trace function](@definition-trace-function) of a sheaf know about its Frobenius
 eigenvalues? For a sheaf of rank one, [pure](@definition-weights) of weight $w$, on a dense open
 $U_0$ of the line, it knows the weight. Indeed, every trace over $\mathbf F_{q^n}$
-has absolute value $q^{nw/2}$, so the sum $S_n$ of the $|t(x)|^2$ over
+has absolute value $q^{nw/2}$, so the sum $S_n$ of the $|\href{@definition-trace-function}{t(x)}|^2$ over
 $U_0(\mathbf F_{q^n})$ is $q^{nw}\#U_0(\mathbf F_{q^n})$, about
 $q^{n(w+1)}$, and the growth rate $q^{w+1}$ of these sums therefore determines $w$. In higher rank, however, a
 trace is a sum of eigenvalues, and the eigenvalues can cancel. For example, on
-$\mathcal B_b\oplus\mathcal B_{-b}$ the trace at a point of degree $n$ is
+$\href{@proposition-weights-under-usual-operations}{\mathcal B_b}\oplus\href{@proposition-weights-under-usual-operations}{\mathcal B_{-b}}$ the trace at a point of degree $n$ is
 $b^n+(-b)^n$, which is zero for every odd $n$. We show that the
 cancellation cannot persist: for a nonzero [pure](@definition-weights) [lisse](@definition-lisse-sheaves) sheaf of weight $w$
 on an affine curve, $\limsup_n\frac1n\log_qS_n=w+1$
@@ -20,7 +20,7 @@ on an affine curve, $\limsup_n\frac1n\log_qS_n=w+1$
 The reason is positivity once more. Recall that a sheaf $\mathcal G$ is real
 if the characteristic polynomials of Frobenius on its stalks have real
 coefficients under $\iota$ (Definition [definition-real-sheaves]). For
-such $\mathcal G$, [pure](@definition-weights) of weight $w$, $|t_{\mathcal G}|^2$ is the [trace function](@definition-trace-function) of
+such $\mathcal G$, [pure](@definition-weights) of weight $w$, $|\href{@definition-trace-function}{t_{\mathcal G}}|^2$ is the [trace function](@definition-trace-function) of
 $\mathcal G\otimes\mathcal G$, and hence the generating series of the $S_n$ is the
 logarithmic derivative of [$L(\mathcal G\otimes\mathcal G,t)$](@theorem-trace-formula-euler-product). Positivity of
 the Euler factors (Lemma [lemma-positivity-euler-factors]) shows that [$L(\mathcal G\otimes\mathcal G,t)$](@theorem-trace-formula-euler-product) is not a

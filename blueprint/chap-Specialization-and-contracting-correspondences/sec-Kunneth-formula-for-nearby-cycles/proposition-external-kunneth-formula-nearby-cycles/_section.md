@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_kunnet
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves"]
 +++
 Let $X,Y$ be separated of finite type over $S$, and let
-$L\in D^b_{\mathrm{ctf}}(X_\eta,A)$ and
-$M\in D^b_{\mathrm{ctf}}(Y_\eta,A)$.  The comparison map
+$L\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_\eta,A)}$ and
+$M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y_\eta,A)}$.  The comparison map
 
 $$
 \Pi_{L,M}:R\Psi_{X/S}L\boxtimes R\Psi_{Y/S}M

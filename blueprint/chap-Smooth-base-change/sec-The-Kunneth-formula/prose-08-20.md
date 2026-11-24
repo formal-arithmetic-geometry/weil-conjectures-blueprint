@@ -6,7 +6,7 @@ order = 711
 +++
 The case we prove first is the one in which one factor is an identity. For
 $f:X\to Y$, $T$ as in Lemma [lemma-base-change-along-product-projection],
-$M\in D^b_{\mathrm{ctf}}(X,A)$ and $Q\in D^b_{\mathrm{ctf}}(T,A)$, with $f_1=f$ and
+$M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$ and $Q\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(T,A)}$, with $f_1=f$ and
 $f_2=\operatorname{id}_T$, put $h=f\times\operatorname{id}_T$. The
 [Künneth map](@definition-kunneth-map) is then
 

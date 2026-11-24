@@ -40,4 +40,4 @@ open $h^{-1}(X)$. A closed subscheme containing it must be all of
 $h^{-1}(X)$, and we conclude that $h^{-1}(X)=X$. Two parallel morphisms
 are equal by Lemma [lemma-uniqueness-maps-dense-open]. Finally, the
 category is nonempty by [Nagata's theorem](@theorem-nagata-s-compactification-theorem). Since any two objects have a
-common refinement and parallel morphisms are equal, it is cofiltered.
+[common refinement](@definition-compactification-refinement) and parallel morphisms are equal, it is cofiltered.

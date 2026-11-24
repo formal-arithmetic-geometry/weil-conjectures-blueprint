@@ -13,11 +13,11 @@ object $(j_*M)[1]$ is simple, and so by
 Lemma [lemma-simple-objects] it is either [punctual](@definition-punctual-sheaf) or of the
 displayed form. Restricting the kernel to $\{a\}\times\mathbf A^1$
 shows that the inverse transform of a geometric skyscraper at $a$ is
-$\mathcal L_{\psi(-ax)}(1)[1]$. Now, if the transform were [punctual](@definition-punctual-sheaf), it
+$\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(-ax)}}\href{@definition-tate-twists}{(1)}[1]$. Now, if the transform were [punctual](@definition-punctual-sheaf), it
 would geometrically be an iterated extension of skyscrapers at
 finitely many points $a$, so by [Fourier inversion](@proposition-fourier-inversion) and exactness
 $(j_*M)[1]$ would be geometrically an iterated extension of the
-objects $\mathcal L_{\psi(-ax)}(1)[1]$. Restricting to $U$, we see
+objects $\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(-ax)}}\href{@definition-tate-twists}{(1)}[1]$. Restricting to $U$, we see
 that every geometric constituent of $M$ would be one of these linear
 characters, which the hypothesis excludes. Finally, the open $U'_0$ and
 the sheaf $M'$ are defined over $k_0$, since we may choose a

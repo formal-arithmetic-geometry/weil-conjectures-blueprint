@@ -9,14 +9,14 @@ Lemma [lemma-covers-degree-prime-to-ell] and compute on the étale
 model: we identify $\rho$ with a restriction map $r$ away from $y$, kill
 $r$ on a cover with $\ell$-group monodromy, and descend.
 
-*Step 1: reduction to $r$.* Let $N=(\mathbb D_XK)|_{X_1-y}$, the dual
+*Step 1: reduction to $r$.* Let $N=(\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})|_{X_1-y}$, the dual
 of $K|_{X_1-y}$ with respect to the restriction of [$\omega_X$](@definition-verdier-dual-evaluation), and let
 $Q=K|_{X_2-y}$. Write $j_1:X_1-y\hookrightarrow X_1$ and
 $j_2:X_2-y\hookrightarrow X_2$ for the inclusions. As $K_{\bar y}=0$,
-localization gives $K|_{X_2}=j_{2!}Q$, and $(\mathbb D_XK)|_{X_1}=Rj_{1*}N$
+localization gives $K|_{X_2}=j_{2!}Q$, and $(\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})|_{X_1}=Rj_{1*}N$
 because the dual of an extension by zero is the direct image of the dual.
 The [ordinary external Künneth comparison](@proposition-ordinary-external-kunneth) therefore
-identifies $P=(\mathbb D_XK\boxtimes K)|_T$ with $Rj_*j'_!(N\boxtimes Q)$,
+identifies $P=(\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}\boxtimes K)|_T$ with $Rj_*j'_!(N\boxtimes Q)$,
 where
 
 $$
@@ -26,7 +26,7 @@ $$
 
 Both $R\Gamma(T,P)$ and $R\Gamma(\Delta,\delta^*P)$ are zero, because the
 schemes are strictly local and the stalk at the closed point is
-$(\mathbb D_XK)_{\bar y}\otimes^{\mathbf L} K_{\bar y}=0$. So the
+$(\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})_{\bar y}\otimes^{\mathbf L} K_{\bar y}=0$. So the
 [localization triangles](@proposition-extension-zero-restriction-closed-subscheme) identify $\rho$, shifted by one, with the ordinary
 restriction $R\Gamma(T-\Gamma,P)\to R\Gamma(\Delta-y,\delta^*P)$, which
 under the Künneth identification is

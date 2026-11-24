@@ -7,24 +7,24 @@ lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_rightDerivedLowerS
 uses = ["lemma-smooth-morphisms-locally-constant-sheaves", "definition-verdier-dual-evaluation", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Suppose $k$ is algebraically closed. For every
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ there are natural isomorphisms
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$ there are natural isomorphisms
 
 $$
 \begin{align}
-R\Gamma(X,\mathbb D_XK)&\simeq
+R\Gamma(X,\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})&\simeq
 R\!\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda),
 \tag{10.5}\\
-R\Gamma_c(X,\mathbb D_XK)&\simeq
+R\Gamma_c(X,\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})&\simeq
 R\!\operatorname{Hom}_\Lambda(R\Gamma(X,K),\Lambda).
 \tag{10.6}\end{align}
 $$
 
 The first is the adjoint of the pairing formed by the cup product
 with mixed supports, evaluation, and the counit $\varepsilon_{a_X}$ of
-$Ra_{X!}\dashv a_X^!$:
+$\href{@proposition-construction-independence-rf-shriek}{Ra_{X!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{a_X^!}$:
 
 $$
-R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,\mathbb D_XK)
-\longrightarrow R\Gamma_c(X,\omega_X)
+R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})
+\longrightarrow R\Gamma_c(X,\href{@definition-verdier-dual-evaluation}{\omega_X})
 \xrightarrow{\varepsilon_{a_X}}\Lambda.
 $$

@@ -18,7 +18,7 @@ $$
 \longrightarrow Rp_*K_n,
 $$
 
-which we regard in $D(Y_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)$. We claim that it is an
+which we regard in $D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n)$. We claim that it is an
 isomorphism. Since restriction of scalars to $\mathcal O_E$ is conservative,
 we may check this after forgetting the $\mathcal O_E/\pi_E^n$-structure.
 Now the ring $\mathcal O_E/\pi_E^n$ has the free resolution
@@ -50,9 +50,9 @@ inverse image](@definition-completed-inverse-image) and the same right-adjoint p
 
 $$
 \begin{aligned}
-\hat g^*Rp_*K
+\href{@definition-completed-inverse-image}{\hat g^*Rp_*K}
 &\simeq R\varprojlim_n g^*Rp_*K_n,\\
-Rp'_*\hat g'^*K
+Rp'_*\href{@definition-completed-inverse-image}{\hat g'^*K}
 &\simeq R\varprojlim_n Rp'_*g'^*K_n.
 \end{aligned}
 $$

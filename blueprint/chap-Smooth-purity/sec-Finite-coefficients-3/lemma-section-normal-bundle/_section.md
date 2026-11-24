@@ -9,10 +9,10 @@ uses = ["definition-constructible-sheaves", "proposition-exceptional-inverse-ima
 There is a canonical isomorphism
 
 $$
-s^{*}\omega_{g}\xrightarrow{\sim}z^{*}\omega_{\pi}.
+s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}\xrightarrow{\sim}z^{*}\href{@definition-relative-dualizing-complex}{\omega_{\pi}}.
 \tag{9.13}
 $$
 
 It is obtained by restricting to $t=0$ the unique isomorphism
-$\widetilde s^{*}\omega_{\widetilde g}\to a^{*}s^{*}\omega_{g}$ that is the identity at $t=1$, and inverting. Here
+$\widetilde s^{*}\href{@definition-relative-dualizing-complex}{\omega_{\widetilde g}}\to a^{*}s^{*}\href{@definition-relative-dualizing-complex}{\omega_{g}}$ that is the identity at $t=1$, and inverting. Here
 $a:\mathbf A^1_S\to S$ is the projection.

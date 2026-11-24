@@ -12,12 +12,12 @@ it and the counit identity (9.16). A continuous map
 $\mathcal O_E\to A$ factors through $\mathcal O_E/\ell^n$ for some $n$, so it
 suffices to treat $\mathcal O_E\to\mathcal O_E/\ell^n$. By construction
 (Subsection [subsec-Integral-coefficients-2]), [$\operatorname{red}_X$](@lemma-sp-tower-adjunction-foundation) carries
-[$\gamma_{f,\mathcal O_E}(K)$](@theorem-smooth-purity-all-admissible-coefficients) to $\gamma_{f,\bullet}(\operatorname{red}_YK)$,
+[$\gamma_{f,\mathcal O_E}(K)$](@theorem-smooth-purity-all-admissible-coefficients) to $\gamma_{f,\bullet}(\href{@lemma-sp-tower-adjunction-foundation}{\operatorname{red}_YK})$,
 whose level $n$ is [$\gamma_{f,\mathcal O_E/\ell^n}(K/\ell^n)$](@proposition-smooth-purity-finite-coefficients). Here the
 targets are identified by the isomorphism
-$\operatorname{red}_Xf^!_{\mathcal O_E}K\simeq f^!_\bullet\operatorname{red}_YK$,
+$\operatorname{red}_X\href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E}K}\simeq \href{@proposition-sp-tower-geometric}{f^!_\bullet}\operatorname{red}_YK$,
 whose level $n$ is an isomorphism
-$(f^!_{\mathcal O_E}K)/\ell^n\simeq f^!_{\mathcal O_E/\ell^n}(K/\ell^n)$, and this
+$(\href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E}K})/\ell^n\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!_{\mathcal O_E/\ell^n}(K/\ell^n)}$, and this
 identification is the change-of-coefficients map of
 Proposition [proposition-six-operations-change-coefficients]. Indeed,
 the integral counit reduces to the finite one, namely to level $n$ of the

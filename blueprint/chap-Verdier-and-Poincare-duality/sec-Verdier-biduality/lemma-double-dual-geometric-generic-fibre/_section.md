@@ -7,11 +7,11 @@ lean = ["AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_dualizingComple
 uses = ["definition-constructible-sheaves", "proposition-exceptional-inverse-image-smooth-morphism", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
 +++
 In the setting of Lemma [lemma-restriction-geometric-generic-fibre],
-let $B=\mathbf A^1_k$ and $K\in D^b_{\mathrm{ctf}}(X,A)$. For every affine open $V$
+let $B=\mathbf A^1_k$ and $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$. For every affine open $V$
 of $X$ there is an isomorphism
-$g_V^*\omega_V\simeq\omega_{V_{\bar\eta}}(1)[2]$, and the
+$g_V^*\href{@definition-verdier-dual-evaluation}{\omega_V}\simeq\href{@definition-verdier-dual-evaluation}{\omega_{V_{\bar\eta}}}\href{@definition-tate-twists}{(1)}[2]$, and the
 isomorphism
-$g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar\eta}}
-\mathbb D_{V_{\bar\eta}}g_V^*(K|_V)$ obtained from it and from the
+$g_V^*\href{@definition-verdier-dual-evaluation}{\mathbb D_V}\href{@definition-verdier-dual-evaluation}{\mathbb D_V(K|_V)}\simeq\href{@definition-verdier-dual-evaluation}{\mathbb D_{V_{\bar\eta}}}
+\href{@definition-verdier-dual-evaluation}{\mathbb D_{V_{\bar\eta}}}g_V^*(K|_V)$ obtained from it and from the
 comparison for internal Hom (applied twice) carries
-$g_V^*\delta_{K|_V}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation).
+$g_V^*\href{@definition-verdier-dual-evaluation}{\delta_{K|_V}}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation).

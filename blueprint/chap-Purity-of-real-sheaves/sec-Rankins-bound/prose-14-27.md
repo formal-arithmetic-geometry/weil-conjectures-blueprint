@@ -4,5 +4,5 @@ kind = "hidden"
 title = "Rankin's bound (5)"
 order = 1164
 +++
-In the proposition below, the twist $(-1)$ on $H^2_c$ costs a factor
+In the proposition below, the twist [$(-1)$](@definition-tate-twists) on $H^2_c$ costs a factor
 $q$, and this loss disappears when we take $2m$th roots and let $m$ grow.

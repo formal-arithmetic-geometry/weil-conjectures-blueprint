@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerShriekOfCompactificat
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "definition-change-of-coefficients-maps", "proposition-sp-unique-adjoint", "definition-sp-scalar-extension", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For each map $\Lambda\to\Lambda'$ listed above, every separated morphism
-$f:X\to Y$ of finite type and every $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, the map
-$(Rf_!K)_{\Lambda'}\to Rf_!(K_{\Lambda'})$ of
+$f:X\to Y$ of finite type and every $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$, the map
+$(\href{@proposition-construction-independence-rf-shriek}{Rf_!K})_{\Lambda'}\to \href{@proposition-construction-independence-rf-shriek}{Rf_!}(K_{\Lambda'})$ of
 Definition [definition-change-of-coefficients-maps](5) is an isomorphism,
 and it does not depend on the compactification.

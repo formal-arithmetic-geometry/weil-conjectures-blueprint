@@ -9,7 +9,7 @@ Let $C$ be a smooth proper connected curve over an algebraically closed
 field $k$. There is an exact sequence
 
 $$
-0\longrightarrow J(C)(k)
+0\longrightarrow \href{@theorem-picard-scheme-jacobian-over-separably}{J(C)(k)}
 \longrightarrow\operatorname{Pic}(C)
 \xrightarrow{\deg}\mathbf Z\longrightarrow0,
 $$

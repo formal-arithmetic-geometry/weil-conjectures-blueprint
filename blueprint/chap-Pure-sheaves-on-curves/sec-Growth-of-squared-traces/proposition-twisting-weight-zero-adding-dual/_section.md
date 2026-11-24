@@ -10,7 +10,7 @@ finite-type scheme over $k_0$.  There is $b\in\overline{\mathbf Q}_\ell^\times$ 
 $|\iota(b)|=q^{-w/2}$.  Put
 
 $$
-\mathcal F^0=\mathcal F\otimes\mathcal B_b,
+\mathcal F^0=\mathcal F\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b},
 \qquad \mathcal E=\mathcal F^0\oplus(\mathcal F^0)^\vee.
 $$
 
