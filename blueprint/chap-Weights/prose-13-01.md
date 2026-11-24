@@ -14,7 +14,7 @@ An eigenvalue $\alpha$ of Frobenius at a closed point of degree $n$ has weight $
 if $|\iota(\alpha)|=q^{nw/2}$. The factor $n$ makes the weight independent of
 the field over which we look at the point: over $\mathbf F_{q^{mn}}$ the
 eigenvalue becomes $\alpha^m$ and $q^n$ becomes $q^{mn}$. For example, on $\mathbf P^1$
-Frobenius acts on $H^0$ by $1$, of weight $0$, and on $H^2=\overline{\mathbf Q}_\ell(-1)$ by $q$,
+Frobenius acts on $H^0$ by $1$, of weight $0$, and on $H^2=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$ by $q$,
 of weight $2$. Similarly, the eigenvalues on $H^1$ of our elliptic curve have weight $1$.
 Weil's purity axiom says that this pattern persists: $H^i$ of a smooth proper
 variety is pure of weight $i$. The name comes from Hodge theory, where $H^i$
@@ -26,7 +26,7 @@ need weights for sheaves, and for cohomology that is not pure. Without
 smoothness and properness only an upper bound survives. For example, let
 $\mathbf G_m=\mathbf P^1\setminus\{0,\infty\}$. The [localization sequence](@proposition-extension-zero-restriction-closed-subscheme) gives
 $H^1_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell$ with trivial Frobenius and
-$H^2_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell(-1)$. This agrees with the [trace formula](@theorem-grothendieck-lefschetz-trace-formula)
+$H^2_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$. This agrees with the [trace formula](@theorem-grothendieck-lefschetz-trace-formula)
 $q-1=\#\mathbf G_m(\mathbf F_q)$. Thus $H^1_c$ has weight $0$, strictly less
 than $1$.
 

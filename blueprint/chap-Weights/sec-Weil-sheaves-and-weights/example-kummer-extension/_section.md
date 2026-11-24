@@ -14,7 +14,7 @@ $$
 $$
 
 define a [lisse sheaf](@definition-lisse-sheaves) $\mathcal E$ on $\mathbf G_{m,k_0}$, an extension
-$0\to\overline{\mathbf Q}_\ell(1)\to\mathcal E\to\overline{\mathbf Q}_\ell\to0$. Geometric Frobenius acts
+$0\to\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(1)}\to\mathcal E\to\overline{\mathbf Q}_\ell\to0$. Geometric Frobenius acts
 on [$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists) by $q_x^{-1}$. Hence at a closed point $x$ the eigenvalues of
 [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) are $q_x^{-1}$ and $1$, of weights $-2$ and $0$, and
 $\mathcal E$ is [mixed](@definition-weights) of weights at most $0$ and not [pure](@definition-weights). The filtration does not
