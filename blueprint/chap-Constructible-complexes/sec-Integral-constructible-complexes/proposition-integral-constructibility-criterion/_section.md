@@ -7,12 +7,12 @@ lean = ["AlgebraicGeometry.ProEtale.IntegralModelsStacks.internal_integral_crite
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-derived-adic-completeness", "definition-constructible-sheaves"]
 +++
 Let $X$ be Noetherian. The following conditions on
-$K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ are equivalent:
+$K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ are equivalent:
 
-1. $K\in\Dbc(X,\mathcal O_E)$;
-2. $K$ is [derived complete](@definition-derived-adic-completeness) and $K_1\in\Dbc(X,\mathbf F_E)$;
+1. $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$;
+2. $K$ is [derived complete](@definition-derived-adic-completeness) and $K_1\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathbf F_E)}$;
 3. there is a finite stratification of $X$ such that on each stratum
    $S$, pro-étale locally,
-   $K|_S\simeq\mathcal O_{E,S}\otimes_{\mathcal O_E}P^\bullet$ for a
+   $K|_S\simeq\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ for a
    bounded complex $P^\bullet$ of finite free $\mathcal O_E$-modules;
-4. $K\in D^b_{\mathrm{ctf}}(X,\mathcal O_E)$.
+4. $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\mathcal O_E)}$.

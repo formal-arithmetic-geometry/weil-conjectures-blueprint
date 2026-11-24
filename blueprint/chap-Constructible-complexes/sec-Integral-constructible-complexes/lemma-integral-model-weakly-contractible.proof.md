@@ -9,7 +9,7 @@ reduction maps, so they do not assemble to a map into
 $K=R\varprojlim_nK_n$. What we need is a compatible family of maps, that
 is, an element of the inverse limit of the Hom groups between the
 reductions. Such an element lifts to a map
-$\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet\to K$, because $K$ is [derived
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}\otimes_{\mathcal O_E}P^\bullet\to K$, because $K$ is [derived
 complete](@definition-derived-adic-completeness). To find one that is an isomorphism at level $1$, we show that
 these Hom groups satisfy the Mittag–Leffler condition with a rate $e$
 independent of $n$. [Derived Nakayama](@lemma-reduction-derived-nakayama) then shows that the lift is an
@@ -19,15 +19,15 @@ Consider the tower of complexes
 
 $$
 \cHom_{(\mathcal O_E/\pi_E^n)_W}\bigl((P^\bullet/\pi_E^n)_W,K_n\bigr)
-\in D(W_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n),
+\in D(\href{@definition-small-pro-etale-site}{W_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n),
 $$
 
 with transition maps induced by the reduction maps $K_{n+1}\to K_n$, and
 the tower of groups
-$\Hom_{D(W_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)}\bigl((P^\bullet/\pi_E^n)_W,K_n\bigr)$
+$\Hom_{D(\href{@definition-small-pro-etale-site}{W_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n)}\bigl((P^\bullet/\pi_E^n)_W,K_n\bigr)$
 obtained by applying $H^0R\Gamma(W,-)$. Since $P^\bullet$ is finite
 free, the first tower is the tower of reductions of
-$(\mathcal O_{E,W}\otimes_{\mathcal O_E}(P^\bullet)^\vee)\otimes^{\mathbf L}_{\mathcal O_{E,W}}K$.
+$(\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}\otimes_{\mathcal O_E}(P^\bullet)^\vee)\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}}K$.
 
 These Hom groups can be infinite, so the Mittag–Leffler condition
 has to come from a uniform bound. Let $Q^\bullet=(P^\bullet)^\vee\otimes_{\mathcal O_E}P^\bullet$
@@ -59,20 +59,20 @@ $$
 &H^0R\varprojlim_n R\Gamma\bigl(W,\cHom_{(\mathcal O_E/\pi_E^n)_W}
 ((P^\bullet/\pi_E^n)_W,K_n)\bigr)\\
 &\qquad\longrightarrow
-\varprojlim_n\Hom_{D(W_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)}
+\varprojlim_n\Hom_{D(\href{@definition-small-pro-etale-site}{W_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n)}
 \bigl((P^\bullet/\pi_E^n)_W,K_n\bigr),
 \end{aligned}
 $$
 
 whose source is
-$\Hom_{D(W_{\mathrm{pro}\acute{e}t},\mathcal O_E)}(\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet,K)$.
+$\Hom_{D(\href{@definition-small-pro-etale-site}{W_{\mathrm{pro}\acute{e}t}},\mathcal O_E)}(\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}\otimes_{\mathcal O_E}P^\bullet,K)$.
 This holds because derived sections commute with inverse limits, $K$ is [complete](@definition-derived-adic-completeness), and
 tensoring with the finite free dual of $P^\bullet$ commutes with
 inverse limits. The family $(\varphi_n)$ therefore lifts to a morphism
-$\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet\to K$ whose first reduction is an isomorphism.
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}\otimes_{\mathcal O_E}P^\bullet\to K$ whose first reduction is an isomorphism.
 Since both objects are [complete](@definition-derived-adic-completeness), derived Nakayama
 (Lemma [lemma-reduction-derived-nakayama]) shows that this morphism is an
 isomorphism. Here [completeness](@definition-derived-adic-completeness) of the source follows termwise from
-$\mathcal O_{E,W}=\varprojlim(\mathcal O_E/\pi_E^n)_W$. Indeed, the
+$\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}=\varprojlim(\mathcal O_E/\pi_E^n)_W$. Indeed, the
 transition maps are epimorphisms, so this limit agrees with the
 derived limit by Proposition [proposition-milnor-sequence].

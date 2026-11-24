@@ -57,7 +57,7 @@ they are [lisse](@definition-lisse-sheaves).
 
 For $\Lambda=\overline{\mathbf Q}_\ell$, we descend $L$, $L'$ and $f$ to a finite extension
 $E/\mathbf Q_\ell$ by Lemma [lemma-descent-lisse-qbar-sheaves-finite]. Since the
-functor $\QbarX\otimes_{E_X}-$ is exact, it takes the kernel and cokernel
+functor $\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}-$ is exact, it takes the kernel and cokernel
 over $E$ to those of $f$. Finally, restriction to strata is exact, so the
 kernel and cokernel of a morphism of [constructible sheaves](@definition-constructible-sheaves) on $X$ are
 [constructible](@definition-constructible-sheaves).

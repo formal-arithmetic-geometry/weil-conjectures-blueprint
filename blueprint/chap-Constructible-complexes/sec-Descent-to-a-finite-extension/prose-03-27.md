@@ -10,9 +10,9 @@ $\overline{\mathbf Q}_\ell$ is not of this kind. Since $\overline{\mathbf Q}_\el
 finite extensions $E$ of $\mathbf Q_\ell$, we show instead that every object and every
 morphism of [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is defined over some finite $E$.
 
-For $C\in D(X_{\mathrm{pro}\acute{e}t},E)$ and a finite extension $E'/E$, the
-extensions of scalars are the complexes $C_{E'}=E'_X\otimes_{E_X}C$ and
-$C_{\overline{\mathbf Q}_\ell}=\QbarX\otimes_{E_X}C$. These tensor products need not be derived, since
+For $C\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},E)$ and a finite extension $E'/E$, the
+extensions of scalars are the complexes $C_{E'}=\href{@lemma-comparison-completed-coefficients}{E'_X}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}C$ and
+$C_{\overline{\mathbf Q}_\ell}=\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}C$. These tensor products need not be derived, since
 [$E'_X$](@lemma-comparison-completed-coefficients) and [$\QbarX$](@lemma-comparison-completed-coefficients) are flat over [$E_X$](@lemma-comparison-completed-coefficients).
 
 The classical counterpart is the fact that a continuous representation of

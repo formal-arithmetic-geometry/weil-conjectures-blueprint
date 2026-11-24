@@ -5,7 +5,7 @@ title = "Continuity of Ext (1)"
 order = 276
 +++
 A morphism of $\overline{\mathbf Q}_\ell$-complexes should be defined over some finite
-extension $E$ of $\mathbf Q_\ell$. Since $\QbarX=\varinjlim_EE_X$, this amounts to asking
+extension $E$ of $\mathbf Q_\ell$. Since $\href{@lemma-comparison-completed-coefficients}{\QbarX}=\varinjlim_E\href{@lemma-comparison-completed-coefficients}{E_X}$, this amounts to asking
 that Hom out of a [constructible complex](@definition-constructible-sheaves) commute with a filtered colimit, where a
 filtered colimit of complexes means the termwise colimit of a filtered
 diagram of complexes of sheaves. We prove this continuity for complexes with

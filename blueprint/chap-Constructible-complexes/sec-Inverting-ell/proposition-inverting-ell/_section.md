@@ -12,7 +12,7 @@ instance, that $X$ is of finite type over a field). A complex in
 fixed power of $\ell$, and extension of scalars induces an equivalence
 
 $$
-\Dbc(X,\mathcal O_E)[\ell^{-1}]\xrightarrow{\ \sim\ }\Dbc(X,E),
+\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}[\ell^{-1}]\xrightarrow{\ \sim\ }\href{@definition-constructible-sheaves}{\Dbc(X,E)},
 $$
 
 where the source category has the objects of [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) and

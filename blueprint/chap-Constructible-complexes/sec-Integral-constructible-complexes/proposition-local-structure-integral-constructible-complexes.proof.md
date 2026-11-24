@@ -33,7 +33,7 @@ By Lemma [lemma-perfect-complexes-over-oe] there is a bounded finite free
 complex $P^\bullet$ with $P^\bullet/\pi_E^n\simeq M_n$. Back on
 [$S_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), we get for each $n$ local isomorphisms
 $(P^\bullet/\pi_E^n)_S\simeq K_n|_S$ in
-$D(S_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)$, chosen separately for
+$D(\href{@definition-small-pro-etale-site}{S_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n)$, chosen separately for
 each $n$.
 
 *The integral isomorphism.*
@@ -43,4 +43,4 @@ $(P^\bullet/\pi_E^n)_W\simeq K_n|_W$ on all of $W$, since by [weak
 contractibility](@definition-weak-contractibility) a covering by trivializing charts splits. Moreover, the restriction
 $K|_W$ is [derived complete](@definition-derived-adic-completeness), and its reductions are the $K_n|_W$. By
 Lemma [lemma-integral-model-weakly-contractible] we conclude that
-$K|_W\simeq\mathcal O_{E,W}\otimes_{\mathcal O_E}P^\bullet$.
+$K|_W\simeq\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,W}}\otimes_{\mathcal O_E}P^\bullet$.

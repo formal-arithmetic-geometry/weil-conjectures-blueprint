@@ -11,7 +11,7 @@ complexes](@definition-constructible-sheaves) are those of the Stacks Project, s
 apply, and we prove both in the next lemma.
 Recall from
 Proposition [proposition-integral-constructibility-criterion] in Section [sec-Integral-constructible-complexes] that an object lies in
-$\Dbc(X,\mathcal O_E)=D^b_{\mathrm{ctf}}(X,\mathcal O_E)$ precisely when it is [derived complete](@definition-derived-adic-completeness) and its
+$\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}=\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\mathcal O_E)}$ precisely when it is [derived complete](@definition-derived-adic-completeness) and its
 reduction modulo $\pi_E$ is a bounded [constructible complex](@definition-constructible-sheaves) pulled back
 from $X_{\acute{e}t}$.
 The Stacks Project works instead with the category $\Dc(X,\mathcal O_E)$ of

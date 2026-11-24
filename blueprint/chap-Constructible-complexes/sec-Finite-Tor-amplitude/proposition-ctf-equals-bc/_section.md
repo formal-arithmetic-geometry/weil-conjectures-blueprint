@@ -10,5 +10,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 For $\Lambda=\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, we have
 
 $$
-D^b_{\mathrm{ctf}}(X,\Lambda)=\Dbc(X,\Lambda).
+\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}=\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)}.
 $$

@@ -5,13 +5,13 @@ title = "Integral constructible complexes (1)"
 order = 226
 +++
 [Constructibility](@definition-constructible-sheaves) over $\mathcal O_E$ is defined by a local condition, but in
-practice we know a complex $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ through
+practice we know a complex $K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$ through
 its reductions
-$K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(\mathcal O_E/\pi_E^n)_X$ of
+$K_n=K\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}}(\mathcal O_E/\pi_E^n)_X$ of
 Definition [definition-derived-adic-completeness]. The criterion below says that
 $K$ is [constructible](@definition-constructible-sheaves) exactly when it is [derived complete](@definition-derived-adic-completeness) and $K_1$ is
 [constructible](@definition-constructible-sheaves). Write $\mathbf F_E=\mathcal O_E/\pi_E$ for the residue
-field, so that $K_1\in D(X_{\mathrm{pro}\acute{e}t},\mathbf F_E)$.
+field, so that $K_1\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf F_E)$.
 
 To prove the criterion we must produce, on each stratum, one complex of
 finite free $\mathcal O_E$-modules that is locally a model for all the

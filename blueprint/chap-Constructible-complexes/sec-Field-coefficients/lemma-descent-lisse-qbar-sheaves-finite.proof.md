@@ -20,6 +20,6 @@ limits [Stacks, [0739](https://stacks.math.columbia.edu/tag/0739)]. By Lemma [le
 $\QbarX=\varinjlim_EE_X$. Hence the finitely many transition matrices,
 their inverses, and the matrices of the given morphisms have entries
 in [$E_X$](@lemma-comparison-completed-coefficients) for a single finite $E$. Moreover, their cocycle and compatibility
-identities already hold over [$E_X$](@lemma-comparison-completed-coefficients), since $E_X\to\QbarX$ is injective.
+identities already hold over [$E_X$](@lemma-comparison-completed-coefficients), since $\href{@lemma-comparison-completed-coefficients}{E_X}\to\href{@lemma-comparison-completed-coefficients}{\QbarX}$ is injective.
 Descent of sheaves of modules now gives the required [lisse](@definition-lisse-sheaves) modules and
 morphisms.

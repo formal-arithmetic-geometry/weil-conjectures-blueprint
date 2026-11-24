@@ -26,7 +26,7 @@ This matters because every geometric input to the
 next chapters ([proper base change](@theorem-proper-base-change-classical-pro), the [cohomology of curves](@theorem-cohomology-curves), [Deligne's generic
 base change](@theorem-generic-constructibility-base-change-rj)) is a theorem about torsion sheaves, whereas a rational sheaf has no
 reduction modulo $\ell$: since [$E_X$](@lemma-comparison-completed-coefficients) is $\ell$-divisible, we have
-$E_X\otimes^{\mathbf L}\mathcal O_E/\pi_E=0$. To use the torsion theory we must
+$\href{@lemma-comparison-completed-coefficients}{E_X}\otimes^{\mathbf L}\mathcal O_E/\pi_E=0$. To use the torsion theory we must
 therefore find integral objects inside rational ones, and then pass to their
 torsion reductions. The example above shows that this cannot be done globally.
 
