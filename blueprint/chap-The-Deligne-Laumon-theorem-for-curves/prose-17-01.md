@@ -54,11 +54,11 @@ makes $M'$ [real](@definition-real-sheaves), but in general no twist is known to
 The plan is to realize $M'$, up to a twist, as a quotient of a [real](@definition-real-sheaves)
 sheaf on the dual line, to which that theorem applies. To build it we
 add a conjugate. First we twist $M$ to weight zero,
-$M^0=M\otimes\mathcal B_b$. Then we transform $j_!M^0$ with the kernel
+$M^0=M\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$. Then we transform $j_!M^0$ with the kernel
 $\mathcal K_\psi$ and $j_!(M^0)^\vee$ with the kernel
 $\mathcal K_{\psi^{-1}}$. At each point the traces of the two transforms
 are complex conjugate, so their sum is a [real](@definition-real-sheaves) sheaf $H$ on the dual
-line. Since the twist $M'\otimes\mathcal B_b$ is a quotient of $H$
+line. Since the twist $M'\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$ is a quotient of $H$
 (Proposition [proposition-purity-lisse-part-fourier-transform]),
 [purity of real sheaves](@theorem-purity-real-sheaves-curves) then makes $M'$ [pure](@definition-weights). We use $j_!$ rather than
 $j_*$ because its transform is a sheaf, and by
@@ -68,7 +68,7 @@ $w$.
 
 Passing from one irreducible $M$ to every [pure](@definition-weights) sheaf needs care, because
 $j_*$ is not exact in general. For example, the extension
-$0\to\overline{\mathbf Q}_\ell(1)\to F\to\overline{\mathbf Q}_\ell\to0$ on $\mathbf G_m$ given by the Kummer class
+$0\to\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(1)}\to F\to\overline{\mathbf Q}_\ell\to0$ on $\mathbf G_m$ given by the Kummer class
 of the coordinate is [lisse](@definition-lisse-sheaves), but $j_*F\to j_*\overline{\mathbf Q}_\ell$ is not surjective at
 $0$, since the monodromy of $F$ around $0$ is a nontrivial unipotent
 matrix. For sheaves of one weight $w$, however, exactness holds by a weight gap

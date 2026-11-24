@@ -8,15 +8,15 @@ Let $v$ be the weight of $M'$ given by
 Proposition [proposition-purity-lisse-part-fourier-transform].
 Shifts do not change the squared absolute values of traces, and,
 if a nonzero [lisse](@definition-lisse-sheaves) sheaf on a dense open of the line is [pure](@definition-weights) of weight
-$u$, then its direct image $j_*$ has $\nu=u$
+$u$, then its direct image $j_*$ has $\href{@definition-growth-squared-traces}{\nu}=u$
 (Corollary [corollary-sums-squared-traces-j-shriek]). Applying this
 to $M'$ and to $M$, and using the Plancherel formula
 (Corollary [corollary-plancherel]), we get
 
 $$
-v=\nu(j'_*M')
-=\nu(\operatorname{FT}_\psi((j_*M)[1]))
-=\nu((j_*M)[1])+1=w+1.
+v=\href{@definition-growth-squared-traces}{\nu(j'_*M')}
+=\href{@definition-growth-squared-traces}{\nu(\operatorname{FT}_\psi((j_*M)[1]))}
+=\href{@definition-growth-squared-traces}{\nu((j_*M)[1])}+1=w+1.
 $$
 
 The first equality holds because $M'$ is [pure](@definition-weights) of weight $v$, the second

@@ -13,5 +13,5 @@ equivariant for the local geometric Frobenius at $s$,
 
 $$
 (j_*F^\vee)_{\bar s}\otimes(R^1j_*F)_{\bar s}
-\longrightarrow\overline{\mathbf Q}_\ell(-1).
+\longrightarrow\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}.
 $$

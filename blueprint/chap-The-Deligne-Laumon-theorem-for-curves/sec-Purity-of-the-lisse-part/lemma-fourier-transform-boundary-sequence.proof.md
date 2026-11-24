@@ -6,7 +6,7 @@ uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-
 +++
 The three assertions are of different kinds. That the transform
 of $j_!M$ is a single sheaf is a vanishing statement for the
-cohomology of the twisted sheaves $M\otimes\mathcal L_{\psi(yx)}$ on
+cohomology of the twisted sheaves $M\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}}$ on
 $U$, whereas the exact sequence comes from transforming the boundary sequence
 $0\to j_!M\to j_*M\to B\to0$ term by term. Finally, the
 bound on $B'$ comes from the stalks of $B$, which are known from
@@ -15,14 +15,14 @@ Proposition [proposition-weights-j-boundary-points].
 For $G$, the stalk formula
 of Proposition [proposition-base-change-fourier-inversion] says that
 the stalk of $\operatorname{FT}_\psi(j_!M)$ at $y$ is
-$R\Gamma_c(U,M\otimes\mathcal L_{\psi(yx)})[1]$, so we must show that
+$R\Gamma_c(U,M\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}})[1]$, so we must show that
 only $H^1_c$ is nonzero. We apply
 Lemma [lemma-extreme-degrees-affine-curve] to the [lisse](@definition-lisse-sheaves)
-sheaf $M\otimes\mathcal L_{\psi(yx)}$ on the affine curve $U$, with $j$
+sheaf $M\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}}$ on the affine curve $U$, with $j$
 the identity. It shows that the group in degree zero vanishes and that
 the group in degree two is a twist of
 the coinvariants of geometric monodromy on
-$M\otimes\mathcal L_{\psi(yx)}$. But a nonzero coinvariant would be a
+$M\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}}$. But a nonzero coinvariant would be a
 geometric quotient of $M$ isomorphic to $\mathcal L_{\psi(-yx)}$, and
 our assumption on $M$ excludes such a constituent, so
 the group in degree two vanishes as well. The shift then places the

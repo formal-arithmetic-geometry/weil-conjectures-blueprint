@@ -11,27 +11,27 @@ and we find the first one, shifted and twisted.
 
 Let $i:Z\hookrightarrow C$ be the inclusion of the whole finite
 complement, and put $K_F=i^*Rj_*F$. For a [lisse](@definition-lisse-sheaves) sheaf $G$ on $U$, the
-adjunction $j^*\dashv Rj_*$ shows that $i^!Rj_*G=0$, and applying
+adjunction $j^*\dashv Rj_*$ shows that $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*G}=0$, and applying
 $i^!$ to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) for $Rj_*G$ we obtain
-$i^!j_!G\simeq i^*Rj_*G[-1]$. Since duality
+$\href{@theorem-existence-exceptional-inverse-image}{i^!j_!G}\simeq i^*Rj_*G[-1]$. Since duality
 exchanges $Rj_*$ with $j_!$ and $i^*$ with $i^!$, this formula lets us
 write the result again in the form $i^*Rj_*$. Indeed, by Verdier duality on
-the smooth curve, $\mathbb D_UF=F^\vee(1)[2]$ for the [lisse](@definition-lisse-sheaves) sheaf $F$,
+the smooth curve, $\href{@definition-verdier-dual-evaluation}{\mathbb D_UF}=\href{@definition-tate-twists}{F^\vee(1)}[2]$ for the [lisse](@definition-lisse-sheaves) sheaf $F$,
 and we find
 
 $$
 \begin{split}
-\mathbb D_Z K_F
-&\simeq i^!\mathbb D_C Rj_*F
-\simeq i^!j_!\mathbb D_UF\\
-&\simeq i^*Rj_*(F^\vee(1)[2])[-1]
-=K_{F^\vee}(1)[1].
+\href{@definition-verdier-dual-evaluation}{\mathbb D_Z K_F}
+&\simeq \href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@definition-verdier-dual-evaluation}{\mathbb D_C Rj_*F}
+\simeq \href{@theorem-existence-exceptional-inverse-image}{i^!}j_!\href{@definition-verdier-dual-evaluation}{\mathbb D_UF}\\
+&\simeq i^*Rj_*(\href{@definition-tate-twists}{F^\vee(1)}[2])[-1]
+=\href{@definition-tate-twists}{K_{F^\vee}(1)}[1].
 \end{split}
 $$
 
 On the finite geometric scheme $Z$, [Verdier duality](@definition-verdier-dual-evaluation) is the exact
 duality of coefficient vector spaces, so taking degree $-1$ at $\bar s$
-we get $(R^1j_*F)_{\bar s}^\vee=(j_*F^\vee)_{\bar s}(1)$, which
+we get $(R^1j_*F)_{\bar s}^\vee=\href{@definition-tate-twists}{(j_*F^\vee)_{\bar s}(1)}$, which
 is the pairing. It is Frobenius-equivariant because the adjunction,
 localization and duality maps are natural in $F$ and respect its [Weil
 structure](@definition-weil-structure).
