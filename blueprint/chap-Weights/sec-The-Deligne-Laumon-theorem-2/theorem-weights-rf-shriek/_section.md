@@ -12,4 +12,4 @@ Rf_!D_{\leq w}(X_0)\subset D_{\leq w}(Y_0).
 $$
 
 In particular, if $K\in D_{\leq w}(X_0)$, then
-$H_c^n(X,K)$ has weights at most $w+n$.
+$H_c^n(X,K)$ has [weights at most](@definition-weights) $w+n$.

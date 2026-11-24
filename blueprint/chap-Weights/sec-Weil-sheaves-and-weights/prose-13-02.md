@@ -8,11 +8,11 @@ Weights are defined by the absolute values of the Frobenius
 eigenvalues on stalks at closed points, so we first fix how Frobenius
 acts on sheaves.
 
-On a smooth curve $U_0$ we want to treat lisse Weil sheaves as
-representations, just as a lisse sheaf on $U_0$ is a continuous
+On a smooth curve $U_0$ we want to treat [lisse](@definition-lisse-sheaves) [Weil sheaves](@definition-weil-structure) as
+representations, just as a [lisse sheaf](@definition-lisse-sheaves) on $U_0$ is a continuous
 representation of $\pi_1(U_0)$. However, the profinite group $\pi_1(U_0)$ is an extension of $\widehat{\mathbf Z}$ by $\pi_1(U)$, and it has too few
 representations for this. Indeed, a continuous representation of a profinite group preserves a lattice, so a lift $s$ of Frobenius acts with
-eigenvalues that are $\ell$-adic units. Hence the rank-one Weil sheaf
+eigenvalues that are $\ell$-adic units. Hence the rank-one [Weil sheaf](@definition-weil-structure)
 $\mathcal B_\ell$, on which $s$ acts by $\ell$ and $\pi_1(U)$ acts trivially,
 is not a representation of $\pi_1(U_0)$. Concretely,
 $n\mapsto\ell^n$ does not extend continuously to $\widehat{\mathbf Z}$: the
