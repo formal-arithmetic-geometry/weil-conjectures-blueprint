@@ -8,18 +8,18 @@ We want to write [$\operatorname{tr}(T_c(u))$](@definition-categorical-trace) as
 from the [fixed locus](@definition-correspondence). The first guess, a sum over fixed points of the
 traces of $u$ on stalks, does not make sense in general, because the
 [fixed locus](@definition-correspondence) need not be finite. For example, for the identity [correspondence](@definition-correspondence) of $\mathbf P^1$ and $K=A$, every point is fixed. The trace on
-$R\Gamma(\mathbf P^1,A)=A\oplus A(-1)[-2]$ is $1+1=2$,
+$R\Gamma(\mathbf P^1,A)=A\oplus \href{@definition-tate-twists}{A(-1)}[-2]$ is $1+1=2$,
 the self-intersection of the diagonal.
 
 What does make sense is a class on [$\Fix(c)$](@definition-correspondence). By
 Lemma [lemma-external-duality-trace-morphism], $u$ is a section of
-$c^!(K\boxtimes\mathbb D_XK)$, and composing with the [trace morphism](@definition-trace-morphism) we
+$\href{@theorem-existence-exceptional-inverse-image}{c^!}(K\boxtimes\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})$, and composing with the [trace morphism](@definition-trace-morphism) we
 obtain a section of [$\omega_{\Fix(c)}$](@definition-verdier-dual-evaluation). Such a section can be integrated
 over a proper piece $B$ of the [fixed locus](@definition-correspondence). Indeed,
-$H^0(B,\omega_B)=\operatorname{Hom}(Ra_{B!}A_B,A)$, and
-$Ra_{B*}A_B=Ra_{B!}A_B$ for proper $B$. Composing with the unit
-$A\to Ra_{B*}A_B$ therefore gives an element of $A$. In the example above, $H^0(\mathbf P^1,\omega_{\mathbf P^1})=H^2(\mathbf P^1,A(1))$ and the
-degree map $H^2(\mathbf P^1,A(1))\to A$ is an isomorphism, so Theorem [theorem-proper-pushforward-lefschetz-verdier] shows that the trace class is $2$ times the class of a point.
+$H^0(B,\href{@definition-verdier-dual-evaluation}{\omega_B})=\operatorname{Hom}(\href{@proposition-construction-independence-rf-shriek}{Ra_{B!}A_B},A)$, and
+$Ra_{B*}A_B=\href{@proposition-construction-independence-rf-shriek}{Ra_{B!}A_B}$ for proper $B$. Composing with the unit
+$A\to Ra_{B*}A_B$ therefore gives an element of $A$. In the example above, $H^0(\mathbf P^1,\href{@definition-verdier-dual-evaluation}{\omega_{\mathbf P^1}})=H^2(\mathbf P^1,\href{@definition-tate-twists}{A(1)})$ and the
+degree map $H^2(\mathbf P^1,\href{@definition-tate-twists}{A(1)})\to A$ is an isomorphism, so Theorem [theorem-proper-pushforward-lefschetz-verdier] shows that the trace class is $2$ times the class of a point.
 
 We will see that the trace class is additive in $K$
 (Proposition [proposition-additivity-trace-classes]) and compatible with proper

@@ -10,9 +10,9 @@ diagonal. Since each is defined by units, counits and tensor evaluation,
 the composite has a filtered version
 
 $$
-\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)
-\simeq c^!(\mathcal K\boxtimes_F\mathbb D_F\mathcal K)
-\longrightarrow Ri_{c*}\omega_{\Fix(c)}
+\cHom_F(c_2^*\mathcal K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!\mathcal K})
+\simeq \href{@theorem-existence-exceptional-inverse-image}{c^!}(\mathcal K\boxtimes_F\mathbb D_F\mathcal K)
+\longrightarrow Ri_{c*}\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}}
 $$
 
 whose graded pieces, computed by
@@ -27,7 +27,7 @@ The target is pure of weight zero, so $\operatorname{tr}_F$ vanishes on
 $F^1$, and its restriction to $F^0$ factors through $\operatorname{gr}^0$.
 This factorization holds on filtered dg models, hence also in the
 filtered derived category. By Lemma [lemma-graded-pieces-filtered-operations],
-$\operatorname{gr}^0$ of the source is $\bigoplus_a\cHom(c_2^*K_a,c_1^!K_a)$.
+$\operatorname{gr}^0$ of the source is $\bigoplus_a\cHom(c_2^*K_a,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K_a})$.
 Now the steps for internal Hom and external duality preserve the two indices, and on a pair of equal indices evaluation along the diagonal is the
 evaluation of $K_a$. Hence the map on the summand $a$ is the [trace
 morphism](@definition-trace-morphism) for $K_a$.

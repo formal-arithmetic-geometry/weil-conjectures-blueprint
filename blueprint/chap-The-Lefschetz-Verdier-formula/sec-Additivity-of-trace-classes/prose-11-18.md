@@ -13,8 +13,8 @@ $c_1=\operatorname{id}_X$ and $c_2=\varphi$, this says that
 $\varphi(Z)\subset Z$.
 
 It is convenient to work with exceptional
-adjoints. Put $\Theta=Rc_{1!}c_2^*:D^b_{\mathrm{ctf}}(X,A)\to D^b_{\mathrm{ctf}}(X,A)$. In these terms a [cohomological correspondence](@definition-correspondence) $u$ on $(X,K)$ is the same as a map
-$\widehat u:\Theta K\to K$, its adjoint under $Rc_{1!}\dashv c_1^!$.
+adjoints. Put $\Theta=\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}c_2^*:\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}\to \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$. In these terms a [cohomological correspondence](@definition-correspondence) $u$ on $(X,K)$ is the same as a map
+$\widehat u:\Theta K\to K$, its adjoint under $\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{c_1^!}$.
 Under the invariance condition there are no nonzero maps from
 $\Theta K_U$ to $K_Z$, so $u$ restricts to $K_U$ in an essentially unique
 way. Let

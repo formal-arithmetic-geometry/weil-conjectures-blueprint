@@ -14,9 +14,9 @@ and on $H^1(P)$. By the chain formula of
 Proposition [proposition-properties-trace],
 
 $$
-\operatorname{tr}_A(1_P\mid P)=1-1=0,
+\href{@definition-categorical-trace}{\operatorname{tr}_A(1_P\mid P)}=1-1=0,
 \qquad
-\operatorname{tr}_A(v\mid P)=(1+\ell)-1=\ell\neq0.
+\href{@definition-categorical-trace}{\operatorname{tr}_A(v\mid P)}=(1+\ell)-1=\ell\neq0.
 $$
 
 Thus, over a finite ring, the trace of an endomorphism of a perfect

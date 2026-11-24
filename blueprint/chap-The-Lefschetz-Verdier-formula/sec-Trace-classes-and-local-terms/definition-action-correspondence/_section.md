@@ -12,8 +12,8 @@ $R\Gamma_c(X,K)$ is the composite
 $$
 \begin{aligned}
 T_c(u):R\Gamma_c(X,K)&\xrightarrow{\eta_{c_2}}
-R\Gamma_c(C,c_2^*K)\xrightarrow{u}R\Gamma_c(C,c_1^!K)\\
-&\simeq R\Gamma_c(X,Rc_{1!}c_1^!K)
+R\Gamma_c(C,c_2^*K)\xrightarrow{u}R\Gamma_c(C,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})\\
+&\simeq R\Gamma_c(X,\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})
 \xrightarrow{\varepsilon_{c_1}}R\Gamma_c(X,K).
 \end{aligned}
 $$

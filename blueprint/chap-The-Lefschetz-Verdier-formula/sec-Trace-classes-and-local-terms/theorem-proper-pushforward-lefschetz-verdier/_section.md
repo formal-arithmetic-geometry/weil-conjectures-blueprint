@@ -10,18 +10,18 @@ Let $f:X\to Y$ and $g:C\to C'$ be proper, and let
 $c'=(c'_1,c'_2):C'\to Y\times Y$ satisfy $c'_ig=fc_i$. Set $K'=Rf_*K$, and
 let $u'$ be the pushforward of $u$ to $(Y,K')$ of
 Definition [definition-pushforward-correspondence]. With
-the induced proper map $h:\Fix(c)\to \Fix(c')$ one has
+the induced proper map $h:\href{@definition-correspondence}{\Fix(c)}\to \href{@definition-correspondence}{\Fix(c')}$ one has
 
 $$
-\operatorname{Tr}_{c'}(u')=h_*\operatorname{Tr}_c(u).
+\href{@definition-trace-class-local-terms}{\operatorname{Tr}_{c'}(u')}=\href{@definition-pushforward-correspondence}{h_*}\operatorname{Tr}_c(u).
 $$
 
 If $X$ and $C$ are proper over $k$, this gives
 
 $$
-\operatorname{tr}_A(T_c(u)\mid R\Gamma(X,K))
-=\int_{\Fix(c)}\operatorname{Tr}_c(u)
-=\sum_B\operatorname{LT}_B(u),
+\href{@definition-categorical-trace}{\operatorname{tr}_A}(\href{@definition-action-correspondence}{T_c(u)}\mid R\Gamma(X,K))
+=\int_{\href{@definition-correspondence}{\Fix(c)}}\href{@definition-trace-class-local-terms}{\operatorname{Tr}_c(u)}
+=\sum_B\href{@definition-trace-class-local-terms}{\operatorname{LT}_B(u)},
 $$
 
-for any finite open-and-closed decomposition $\Fix(c)=\coprod B$.
+for any finite open-and-closed decomposition $\href{@definition-correspondence}{\Fix(c)}=\coprod B$.

@@ -16,8 +16,8 @@ by induction. For the classical statements we refer to
 *Constant and [lisse](@definition-lisse-sheaves) coefficients.*
 First let the coefficients be constant. For smooth $f_i$ of relative
 dimensions $d_i$, Theorem [theorem-smooth-purity-all-admissible-coefficients] identifies [$f_i^!L_i$](@theorem-existence-exceptional-inverse-image)
-with $f_i^*L_i(d_i)[2d_i]$, and [$(f_1\times f_2)^!$](@theorem-existence-exceptional-inverse-image) with
-$(f_1\times f_2)^*(d_1+d_2)[2d_1+2d_2]$, so both sides of $\alpha$ become
+with $f_i^*L_i\href{@definition-tate-twists}{(d_i)}[2d_i]$, and [$(f_1\times f_2)^!$](@theorem-existence-exceptional-inverse-image) with
+$(f_1\times f_2)^*\href{@definition-tate-twists}{(d_1+d_2)}[2d_1+2d_2]$, so both sides of $\alpha$ become
 the same twisted pullback. That $\alpha$ is this identification follows from
 the compatibility of the trace map (Definition [definition-trace-map])
 with products. Indeed, $\alpha$ is defined through the counits, and for
@@ -49,7 +49,7 @@ a [lisse sheaf](@definition-lisse-sheaves) with finite projective stalks
 Since [$f_i^!$](@theorem-existence-exceptional-inverse-image) does not commute with $j_{i!}$ in
 general, we pass through $Rj_{i*}$. Let $j'_i$ and $f_{i,U}$ be
 the base changes of $j_i$ and $f_i$. The exceptional exchange
-$f_i^!Rj_{i*}\simeq Rj'_{i*}f_{i,U}^!$ is the mate, under the right
+$\href{@theorem-existence-exceptional-inverse-image}{f_i^!}Rj_{i*}\simeq Rj'_{i*}\href{@theorem-existence-exceptional-inverse-image}{f_{i,U}^!}$ is the mate, under the right
 adjoints, of [base change](@proposition-composition-base-change-rf-shriek) for [$Rf_{i!}$](@proposition-construction-independence-rf-shriek) along the open immersion. Hence
 it is compatible with the counits used to define $\alpha$. By this
 exchange and the [ordinary external Künneth formula](@proposition-ordinary-external-kunneth), the comparison on

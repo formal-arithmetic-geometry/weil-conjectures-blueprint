@@ -32,7 +32,7 @@ F^r\mathcal Hom(\mathcal M,\mathcal N)
 \text{ for every }a\}.
 $$
 
-Write $\cHom_F$, $\otimes_F$ and $\mathbb D_F=\cHom_F(-,\omega_X)$ for
+Write $\cHom_F$, $\otimes_F$ and $\mathbb D_F=\cHom_F(-,\href{@definition-verdier-dual-evaluation}{\omega_X})$ for
 the derived functors on the filtered derived category, where [$\omega_X$](@definition-verdier-dual-evaluation)
 carries the filtration concentrated in weight zero, and $M_a$, $N_a$,
 $K_a$ for the graded pieces of $\mathcal M$, $\mathcal N$, $\mathcal K$.

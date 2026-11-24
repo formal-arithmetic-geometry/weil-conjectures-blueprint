@@ -5,7 +5,7 @@ title = "Trace classes and local terms (4)"
 order = 923
 +++
 In the first arrow we use the ordinary unit together with
-$Rc_{2*}=Rc_{2!}$, which holds since $c_2$ is proper, and the displayed
+$Rc_{2*}=\href{@proposition-construction-independence-rf-shriek}{Rc_{2!}}$, which holds since $c_2$ is proper, and the displayed
 isomorphism comes from the composition of [direct images with compact support](@proposition-construction-independence-rf-shriek).
 
 The [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier) computes the trace of [$T_c(u)$](@definition-action-correspondence) in terms of
@@ -19,7 +19,7 @@ show that [trace classes](@definition-trace-class-local-terms) commute with push
 
 To push a [cohomological correspondence](@definition-correspondence) forward along proper morphisms,
 we must produce from $u$ a map
-$c_2'^*Rf_*K\to c_1'^!Rf_*K$. The only maps available for this are the units and counits of the adjunctions on the two legs, used as in the
-construction of [$T_c(u)$](@definition-action-correspondence). Here properness of $f$ and $g$ gives $Rf_*=Rf_!$ and $Rg_*=Rg_!$, and this allows us to push forward the
-counit for $Rc_{1!}\dashv c_1^!$. We also push forward along closed immersions
+$c_2'^*Rf_*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1'^!}Rf_*K$. The only maps available for this are the units and counits of the adjunctions on the two legs, used as in the
+construction of [$T_c(u)$](@definition-action-correspondence). Here properness of $f$ and $g$ gives $Rf_*=\href{@proposition-construction-independence-rf-shriek}{Rf_!}$ and $Rg_*=\href{@proposition-construction-independence-rf-shriek}{Rg_!}$, and this allows us to push forward the
+counit for $\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{c_1^!}$. We also push forward along closed immersions
 (Section [sec-Additivity-of-trace-classes]).

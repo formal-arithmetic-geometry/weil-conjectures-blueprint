@@ -5,35 +5,35 @@ order = 927
 uses = ["lemma-integral-models", "lemma-naturality-pasting-comparison", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "definition-kunneth-map", "proposition-ordinary-external-kunneth", "proposition-sp-unique-adjoint", "definition-verdier-dual-evaluation", "proposition-properties-trace", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "lemma-local-terms-point", "lemma-kunneth-formula-compact-supports", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
 The [trace class](@definition-trace-class-local-terms) of $u$ is built in three steps: $u$ becomes a map into
-$P_X=K\boxtimes\mathbb D_XK$, evaluation maps [$P_X$](@lemma-external-duality-trace-morphism) to the
+$\href{@lemma-external-duality-trace-morphism}{P_X}=K\boxtimes\href{@definition-verdier-dual-evaluation}{\mathbb D_XK}$, evaluation maps [$P_X$](@lemma-external-duality-trace-morphism) to the
 [dualizing complex](@definition-verdier-dual-evaluation) on the diagonal, and [$c^!$](@theorem-existence-exceptional-inverse-image) moves the result to
 the [fixed locus](@definition-correspondence). We check that each step commutes with [pushforward](@definition-pushforward-correspondence). For the first two steps this means identifying the map adjoint to $u'$ with the
 pushforward of the map adjoint to $u$, and evaluation for $K'$ with the
-pushforward of evaluation for $K$. The third step needs more care. The squares $c'_ig=fc_i$ are only required to commute, so in general $\Fix(c)\ne C\times_{C'}\Fix(c')$, and we compare the two [fixed loci](@definition-correspondence) through an intermediate scheme.
+pushforward of evaluation for $K$. The third step needs more care. The squares $c'_ig=fc_i$ are only required to commute, so in general $\href{@definition-correspondence}{\Fix(c)}\ne C\times_{C'}\href{@definition-correspondence}{\Fix(c')}$, and we compare the two [fixed loci](@definition-correspondence) through an intermediate scheme.
 
-*Maps into $P$.* Put $P_Y=K'\boxtimes \mathbb D_YK'$, and
-let $\tau_f:Rf_*\omega_X\to\omega_Y$ be the counit.
+*Maps into $P$.* Put $\href{@lemma-external-duality-trace-morphism}{P_Y}=K'\boxtimes \href{@definition-verdier-dual-evaluation}{\mathbb D_YK'}$, and
+let $\tau_f:Rf_*\href{@definition-verdier-dual-evaluation}{\omega_X}\to\href{@definition-verdier-dual-evaluation}{\omega_Y}$ be the counit.
 By the [Künneth formula](@proposition-ordinary-external-kunneth) for the proper map $f\times f$ and the exchange
-$\mathbb D_YRf_*\simeq Rf_*\mathbb D_X$ of [Verdier duality](@lemma-internal-adjunction-two-exchange-formulas), we obtain an isomorphism
+$\href{@definition-verdier-dual-evaluation}{\mathbb D_Y}Rf_*\simeq Rf_*\href{@definition-verdier-dual-evaluation}{\mathbb D_X}$ of [Verdier duality](@lemma-internal-adjunction-two-exchange-formulas), we obtain an isomorphism
 
 $$
-\rho_f:R(f\times f)_*P_X\xrightarrow{\sim}P_Y.
+\rho_f:R(f\times f)_*\href{@lemma-external-duality-trace-morphism}{P_X}\xrightarrow{\sim}\href{@lemma-external-duality-trace-morphism}{P_Y}.
 $$
 
 A [cohomological correspondence](@definition-correspondence) $u$ defines a map
-$\theta_u:Rc_!A_C\to P_X$, obtained by exceptional adjunction from the
-section $A_C\to c^!P_X$. Under
-$Rc'_!Rg_*\simeq R(f\times f)_*Rc_!$, the map defined by the [pushforward](@definition-pushforward-correspondence) $u'$ is
+$\theta_u:\href{@proposition-construction-independence-rf-shriek}{Rc_!A_C}\to \href{@lemma-external-duality-trace-morphism}{P_X}$, obtained by exceptional adjunction from the
+section $A_C\to \href{@theorem-existence-exceptional-inverse-image}{c^!}\href{@lemma-external-duality-trace-morphism}{P_X}$. Under
+$\href{@proposition-construction-independence-rf-shriek}{Rc'_!}Rg_*\simeq R(f\times f)_*\href{@proposition-construction-independence-rf-shriek}{Rc_!}$, the map defined by the [pushforward](@definition-pushforward-correspondence) $u'$ is
 
 $$
 \theta_{u'}=
 \rho_f\,R(f\times f)_*\theta_u\,
-(Rc'_!Rg_*\simeq R(f\times f)_*Rc_!)\,Rc'_!\eta_g.
+(\href{@proposition-construction-independence-rf-shriek}{Rc'_!}Rg_*\simeq R(f\times f)_*\href{@proposition-construction-independence-rf-shriek}{Rc_!})\,\href{@proposition-construction-independence-rf-shriek}{Rc'_!\eta_g}.
 $$
 
 To verify this identity, we apply tensor–Hom adjunction and then the
 exceptional adjunction for $c'_1$. After this both sides become
-$Rc'_{1!}\alpha$, followed by $Rf_*Rc_{1!}u$ and
+$Rc'_{1!}\alpha$, followed by $Rf_*\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}u}$ and
 $Rf_*\varepsilon_{c_1}$. The two sides use the projection formulas
 for $c_1$ and for $c'_1$ in different orders, but they agree because
 $c'_1g=fc_1$ and projection formulas are compatible with composition.
@@ -41,8 +41,8 @@ $c'_1g=fc_1$ and projection formulas are compatible with composition.
 *Evaluation.* Evaluation is compatible with $\rho_f$, in the sense that
 
 $$
-e_{K'}\rho_f=
-R\Delta_{Y*}\tau_f\,R(f\times f)_*e_K,
+\href{@definition-trace-morphism}{e_{K'}}\rho_f=
+R\Delta_{Y*}\tau_f\,R(f\times f)_*\href{@definition-trace-morphism}{e_K},
 \qquad (f\times f)\Delta_X=\Delta_Yf.
 $$
 
@@ -57,27 +57,27 @@ match. The [trace classes](@definition-trace-class-local-terms), however, live o
 must see that passing from [$\Fix(c)$](@definition-correspondence) to [$\Fix(c')$](@definition-correspondence)
 is the map $h_*$ of Definition [definition-pushforward-correspondence].
 Recall that the [fixed loci](@definition-correspondence) are the pullbacks of the diagonals,
-$\Fix(c)=C\times_{X\times X}X$ and $\Fix(c')=C'\times_{Y\times Y}Y$.
-To compare them, we factor $h$ through the fibre product $C\times_{C'}\Fix(c')$:
+$\href{@definition-correspondence}{\Fix(c)}=C\times_{X\times X}X$ and $\href{@definition-correspondence}{\Fix(c')}=C'\times_{Y\times Y}Y$.
+To compare them, we factor $h$ through the fibre product $C\times_{C'}\href{@definition-correspondence}{\Fix(c')}$:
 
 $$
-\Fix(c)\xrightarrow{i'}C\times_{C'}\Fix(c')\xrightarrow{\pi}\Fix(c'),
+\href{@definition-correspondence}{\Fix(c)}\xrightarrow{i'}C\times_{C'}\href{@definition-correspondence}{\Fix(c')}\xrightarrow{\pi}\href{@definition-correspondence}{\Fix(c')},
 $$
 
 where the closed immersion $i'$ is the pullback of $X\to X\times_YX$ and $\pi$
 is the base change of $g$. We use [proper base change](@theorem-proper-base-change-classical-pro) for the
-square defining $C\times_{C'}\Fix(c')$, and the exceptional counit for $i'$.
+square defining $C\times_{C'}\href{@definition-correspondence}{\Fix(c')}$, and the exceptional counit for $i'$.
 Since counits are compatible with composition, the integration map for $h$ is
 $\tau_h=\tau_\pi R\pi_*\tau_{i'}$.
 Applying the identity for $\theta_{u'}$ and the compatibility of
 evaluation, together with these base change maps, we identify the map
-$A_{C'}\to Ri_{c'*}\omega_{\Fix(c')}$ defining the left-hand trace with
+$A_{C'}\to Ri_{c'*}\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c')}}$ defining the left-hand trace with
 
 $$
 A_{C'}\xrightarrow{\eta_g}Rg_*A_C
-\longrightarrow Rg_*Ri_{c*}\omega_{\Fix(c)}
-=Ri_{c'*}Rh_*\omega_{\Fix(c)}
-\xrightarrow{Ri_{c'*}\tau_h}Ri_{c'*}\omega_{\Fix(c')}.
+\longrightarrow Rg_*Ri_{c*}\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}}
+=Ri_{c'*}Rh_*\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}}
+\xrightarrow{Ri_{c'*}\tau_h}Ri_{c'*}\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c')}}.
 $$
 
 Taking the $i_{c'}^*$-adjoint by means of the identity of composite units

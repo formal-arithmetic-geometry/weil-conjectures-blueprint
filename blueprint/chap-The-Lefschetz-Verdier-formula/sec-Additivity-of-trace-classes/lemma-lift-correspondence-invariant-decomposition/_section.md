@@ -22,6 +22,6 @@ triangle. Its graded pieces are [cohomological correspondences](@definition-corr
 $(X,K_U)$ and $u_Z$ on $(X,K_Z)$, and $\widehat u_Z$ restricted to $Z$ is
 
 $$
-Rc_{1Z!}c_{2Z}^*i^*K\simeq i^*\Theta K
+\href{@proposition-construction-independence-rf-shriek}{Rc_{1Z!}}c_{2Z}^*i^*K\simeq i^*\Theta K
 \xrightarrow{i^*\widehat u}i^*K.
 $$

@@ -6,4 +6,4 @@ order = 910
 +++
 Using the Künneth formulas for both kinds of direct image and for [$f^!$](@theorem-existence-exceptional-inverse-image),
 we now identify [cohomological correspondences](@definition-correspondence) with sections of
-$c^!(K\boxtimes\mathbb D_XK)$.
+$\href{@theorem-existence-exceptional-inverse-image}{c^!}(K\boxtimes\href{@definition-verdier-dual-evaluation}{\mathbb D_XK})$.

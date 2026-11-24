@@ -11,13 +11,13 @@ $$
 \begin{aligned}
 \operatorname{gr}^r\cHom_F(\mathcal M,\mathcal N)
 &\simeq\bigoplus_a\cHom(M_a,N_{a+r}),\\
-\operatorname{gr}^r\mathbb D_F\mathcal K&\simeq \mathbb D_XK_{-r},\\
+\operatorname{gr}^r\mathbb D_F\mathcal K&\simeq \href{@definition-verdier-dual-evaluation}{\mathbb D_XK_{-r}},\\
 \operatorname{gr}^r(\mathcal M\otimes_F\mathcal N)
 &\simeq\bigoplus_{a+b=r}M_a\otimes^{\mathbf L} N_b.
 \end{aligned}
 $$
 
 Under these isomorphisms, the restriction of the filtered evaluation
-$\mathcal K\otimes_F\mathbb D_F\mathcal K\to\omega_X$ to the summand
-$K_a\otimes^{\mathbf L}\mathbb D_XK_a$ of $\operatorname{gr}^0$ is the
+$\mathcal K\otimes_F\mathbb D_F\mathcal K\to\href{@definition-verdier-dual-evaluation}{\omega_X}$ to the summand
+$K_a\otimes^{\mathbf L}\href{@definition-verdier-dual-evaluation}{\mathbb D_XK_a}$ of $\operatorname{gr}^0$ is the
 evaluation of $K_a$.

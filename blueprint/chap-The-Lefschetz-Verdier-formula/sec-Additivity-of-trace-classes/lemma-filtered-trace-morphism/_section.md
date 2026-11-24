@@ -10,16 +10,16 @@ pieces $K_a$ in [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves). 
 
 $$
 \operatorname{tr}_F:
-\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)\longrightarrow
-Ri_{c*}\omega_{\Fix(c)},
+\cHom_F(c_2^*\mathcal K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!\mathcal K})\longrightarrow
+Ri_{c*}\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}},
 $$
 
 with the target in weight zero, whose underlying morphism is the [trace
 morphism](@definition-trace-morphism) for $K$, and whose restriction to $F^0$ factors through
 
 $$
-\operatorname{gr}^0\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)
-\simeq\bigoplus_a\cHom(c_2^*K_a,c_1^!K_a)
+\operatorname{gr}^0\cHom_F(c_2^*\mathcal K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!\mathcal K})
+\simeq\bigoplus_a\cHom(c_2^*K_a,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K_a})
 $$
 
 by a map whose restriction to the summand $a$ is the [trace morphism](@definition-trace-morphism)

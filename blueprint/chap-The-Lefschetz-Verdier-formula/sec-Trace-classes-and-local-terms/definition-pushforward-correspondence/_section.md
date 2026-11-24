@@ -7,9 +7,9 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper morphisms, and let
 $c'=(c'_1,c'_2):C'\to Y\times Y$ be a [correspondence](@definition-correspondence) with $c'_ig=fc_i$ for
-$i=1,2$. Put $K'=Rf_*K\in D^b_{\mathrm{ctf}}(Y,A)$. For a [cohomological
+$i=1,2$. Put $K'=Rf_*K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,A)}$. For a [cohomological
 correspondence](@definition-correspondence) $u$ on $(X,K)$, the *pushforward*
-$u':c_2'^*K'\to c_1'^!K'$ of $u$ is the composite
+$u':c_2'^*K'\to \href{@theorem-existence-exceptional-inverse-image}{c_1'^!K'}$ of $u$ is the composite
 $u'=\beta\,Rg_*u\,\alpha$, where $\alpha$ is built from the unit and counit
 of $(\,)^*\dashv R(\,)_*$,
 
@@ -18,15 +18,15 @@ $$
 Rg_*c_2^*f^*Rf_*K\xrightarrow{\varepsilon_f}Rg_*c_2^*K,
 $$
 
-and $\beta:Rg_*c_1^!K\to c_1'^!Rf_*K$ is built from the counit of
-$R(\,)_!\dashv(\,)^!$: it is adjoint to
+and $\beta:Rg_*\href{@theorem-existence-exceptional-inverse-image}{c_1^!K}\to \href{@theorem-existence-exceptional-inverse-image}{c_1'^!}Rf_*K$ is built from the counit of
+$\href{@proposition-construction-independence-rf-shriek}{R(\,)_!}\dashv\href{@theorem-existence-exceptional-inverse-image}{(\,)^!}$: it is adjoint to
 
 $$
-Rc'_{1!}Rg_*c_1^!K\simeq Rf_*Rc_{1!}c_1^!K
+\href{@proposition-construction-independence-rf-shriek}{Rc'_{1!}}Rg_*\href{@theorem-existence-exceptional-inverse-image}{c_1^!K}\simeq Rf_*\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\href{@theorem-existence-exceptional-inverse-image}{c_1^!K}
 \xrightarrow{Rf_*\varepsilon_{c_1}}Rf_*K.
 $$
 
-The map $g$ induces a proper morphism $h:\Fix(c)\to \Fix(c')$ of [fixed loci](@definition-correspondence),
-and $h_*:H^0(\Fix(c),\omega_{\Fix(c)})\to H^0(\Fix(c'),\omega_{\Fix(c')})$ denotes the
+The map $g$ induces a proper morphism $h:\href{@definition-correspondence}{\Fix(c)}\to \href{@definition-correspondence}{\Fix(c')}$ of [fixed loci](@definition-correspondence),
+and $h_*:H^0(\href{@definition-correspondence}{\Fix(c)},\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c)}})\to H^0(\href{@definition-correspondence}{\Fix(c')},\href{@definition-verdier-dual-evaluation}{\omega_{\Fix(c')}})$ denotes the
 map given by the ordinary unit, proper pushforward and the exceptional
 counit.
