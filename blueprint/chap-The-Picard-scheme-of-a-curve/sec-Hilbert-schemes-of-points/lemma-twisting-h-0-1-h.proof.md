@@ -10,7 +10,7 @@ at a time, each time lowering $h^0$ by one and keeping $H^1=0$, until
 $h^0=1$. The twist is defined over $k$ because the points are.
 
 Choose an ample invertible sheaf $\mathcal M$ on $C$. For $r\gg0$, Serre vanishing
-and Riemann–Roch show that $\mathcal L\otimes\mathcal M_{k'}^{\otimes r}$
+and [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality) show that $\mathcal L\otimes\mathcal M_{k'}^{\otimes r}$
 has vanishing $H^1$ and a positive-dimensional space of sections.
 As long as $h^0$ is larger than $1$, we choose a nonzero section and
 a point $x\in C(k)$ where that section is nonzero. Such a point exists:

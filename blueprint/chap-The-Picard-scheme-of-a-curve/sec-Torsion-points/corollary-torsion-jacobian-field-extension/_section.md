@@ -21,7 +21,7 @@ $$
 J(C)[n](k)\longrightarrow J(C_{k'})[n](k')
 $$
 
-is an isomorphism. Multiplication by $n$ on $J(C)(k)$ is
+is an isomorphism. Multiplication by $n$ on [$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separably) is
 surjective, and consequently
 
 $$

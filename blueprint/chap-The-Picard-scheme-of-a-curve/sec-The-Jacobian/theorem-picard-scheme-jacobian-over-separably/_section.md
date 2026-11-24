@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.exists_jacobian_baseChange", "AlgebraicGeometry.nonem
 uses = ["definition-compactification-refinement", "definition-relative-picard-functor"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper
-connected curve of genus $g$. The fppf Picard functor is represented
+connected curve of genus $g$. The [fppf Picard functor](@definition-relative-picard-functor) is represented
 by a smooth separated group scheme, locally of finite type over $k$,
 with a decomposition
 
@@ -19,7 +19,7 @@ $$
 Each component is a smooth proper geometrically connected variety of
 dimension $g$, parametrizing invertible sheaves of degree $d$.
 The identity component
-$J(C)=\operatorname{Pic}^0_{C/k}$ is an abelian variety, and
+$J(C)=\operatorname{Pic}^0_{C/k}$ is an [abelian variety](@definition-abelian-variety), and
 
 $$
 J(C)(k)=\operatorname{Pic}^0(C),

@@ -4,26 +4,26 @@ of = "corollary-torsion-jacobian-field-extension"
 order = 1562
 uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "proposition-multiplication-n", "definition-tate-module", "definition-relative-picard-functor", "lemma-rigidification-along-section", "theorem-riemann-roch-coherent-serre-duality", "corollary-degree-jacobian"]
 +++
-The assertions about $J(C)$ are those of Appendix [chap-Abelian-varieties]
-for this abelian variety, and the degree sequence carries them over to
+The assertions about [$J(C)$](@theorem-picard-scheme-jacobian-over-separably) are those of Appendix [chap-Abelian-varieties]
+for this [abelian variety](@definition-abelian-variety), and the [degree sequence](@corollary-degree-jacobian) carries them over to
 $\operatorname{Pic}(C)$.
 
-By Proposition [proposition-multiplication-n], the kernel $J(C)[n]$
+By Proposition [proposition-multiplication-n], the kernel [$J(C)[n]$](@definition-abelian-variety)
 is finite étale of rank $n^{2g}$. A finite étale scheme of rank $r$
 over the algebraically closed field $k$ is a disjoint union of $r$
 copies of $\operatorname{Spec}k$, a description stable under base
 extension. By Theorem [theorem-picard-scheme-jacobian-over-separably]
-the formation of the Jacobian and of $[n]$ commutes with base change, so
+the formation of the [Jacobian](@theorem-picard-scheme-jacobian-over-separably) and of [$[n]$](@definition-abelian-variety) commutes with base change, so
 the natural map $J(C)[n](k)\to J(C_{k'})[n](k')$ is a bijection.
 
 If $\ell^m$ is the exact power of a prime $\ell$ dividing $n$, then
 $J(C)[\ell^m](k)\simeq(\mathbf Z/\ell^m)^{2g}$ by
-Proposition [proposition-integral-tate-module] applied to $J(C)$. Combining the
+Proposition [proposition-integral-tate-module] applied to [$J(C)$](@theorem-picard-scheme-jacobian-over-separably). Combining the
 parts for the primes dividing $n$, we get the stated
 $\mathbf Z/n\mathbf Z$-module structure.
 
 By Proposition [proposition-multiplication-n], the group
-$J(C)(k)$ is divisible. In the exact sequence of
+[$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separably) is divisible. In the exact sequence of
 Corollary [corollary-degree-jacobian], the group $\mathbf Z$ has no
 $n$-torsion and $J(C)(k)/n=0$. This proves the two assertions for
 $\operatorname{Pic}(C)$.

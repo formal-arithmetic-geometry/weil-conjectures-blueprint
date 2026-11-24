@@ -17,11 +17,11 @@ divisor of zeros. Hence an invertible sheaf of negative degree has no
 nonzero section. If $\deg\mathcal L>2g-2$, then
 $\omega_{C/k}\otimes\mathcal L^{-1}$ has negative degree, and
 $H^1(C,\mathcal L)=0$ by duality. The dimension formula then follows from
-Riemann–Roch. For $\mathcal L=\mathcal O_C$ the duality gives
+[Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality). For $\mathcal L=\mathcal O_C$ the duality gives
 $\dim_kH^0(C,\omega_{C/k})=\dim_kH^1(C,\mathcal O_C)=g$.
 
-The Picard scheme is constructed over a separably closed field, but its
-points are tested over arbitrary extensions. Hence Riemann–Roch and
-coherent base change must be compatible with extension of the ground
+The [Picard scheme](@definition-relative-picard-functor) is constructed over a separably closed field, but its
+points are tested over arbitrary extensions. Hence [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality) and
+[coherent base change](@lemma-coherent-base-change-invertible-sheaves) must be compatible with extension of the ground
 field, and for duality we need this for the pairing itself, not only
 for the dimensions.

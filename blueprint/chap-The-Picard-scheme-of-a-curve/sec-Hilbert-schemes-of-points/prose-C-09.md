@@ -5,7 +5,7 @@ title = "Hilbert schemes of points (2)"
 order = 1539
 +++
 Assume now that $C(k)$ contains a point $P$, and let us describe
-$\operatorname{Pic}_{C/k}$ by rigidified invertible sheaves as in
+[$\operatorname{Pic}_{C/k}$](@definition-relative-picard-functor) by rigidified invertible sheaves as in
 Lemma [lemma-rigidification-along-section]. We define a subfunctor
 $F\subset\operatorname{Pic}_{C/k}$ as follows. A rigidified class
 $\mathcal L$ on $C_T$ lies in $F(T)$ if, in the derived category of

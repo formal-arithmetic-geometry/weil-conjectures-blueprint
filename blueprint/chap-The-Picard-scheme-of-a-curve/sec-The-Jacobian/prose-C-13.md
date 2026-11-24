@@ -6,4 +6,4 @@ order = 1554
 +++
 We use the theorem in the following form: over an algebraically closed
 field, the Picard group of $C$ is an extension of $\mathbf Z$ by the
-group of points of an abelian variety.
+group of points of an [abelian variety](@definition-abelian-variety).

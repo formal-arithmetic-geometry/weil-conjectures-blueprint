@@ -35,7 +35,7 @@ one-dimensional space of sections. The fibre is integral because $C$ is
 geometrically integral, so the zero scheme of $s$ on the fibre is an
 effective Cartier divisor.
 Moreover, the fibres of $D$ have degree $g$: for a point $t$ of $T$ we have
-$h^0(\mathcal L_t)=1$ and $H^1(C_t,\mathcal L_t)=0$, so Riemann–Roch
+$h^0(\mathcal L_t)=1$ and $H^1(C_t,\mathcal L_t)=0$, so [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality)
 gives
 
 $$

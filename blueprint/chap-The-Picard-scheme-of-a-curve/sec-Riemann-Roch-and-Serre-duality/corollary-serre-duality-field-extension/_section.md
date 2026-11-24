@@ -6,7 +6,7 @@ order = 1530
 +++
 Let $k'/k$ be a field extension. Under flat base change for coherent
 cohomology and the identification
-$\omega_{C_{k'}/k'}\simeq\omega_{C/k}|_{C_{k'}}$, the Serre duality
+$\omega_{C_{k'}/k'}\simeq\omega_{C/k}|_{C_{k'}}$, the [Serre duality](@theorem-riemann-roch-coherent-serre-duality)
 pairing for $\mathcal L|_{C_{k'}}$ is obtained from that for
 $\mathcal L$ by extension of scalars. In particular, the genus is
 unchanged by field extension.

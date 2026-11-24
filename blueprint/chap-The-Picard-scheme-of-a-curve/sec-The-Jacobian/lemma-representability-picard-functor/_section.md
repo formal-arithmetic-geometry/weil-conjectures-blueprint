@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.isRepresentable_picardFunctor_aux"]
 uses = ["definition-relative-picard-functor"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper connected
-curve. The fppf Picard functor $\operatorname{Pic}_{C/k}$ is represented
+curve. The [fppf Picard functor](@definition-relative-picard-functor) [$\operatorname{Pic}_{C/k}$](@definition-relative-picard-functor) is represented
 by a scheme locally of finite type over $k$, which is covered by the
 open subschemes representing the translates $M^{-1}F$, for
 $M\in\operatorname{Pic}_{C/k}(k)$, of the chart $F$ of

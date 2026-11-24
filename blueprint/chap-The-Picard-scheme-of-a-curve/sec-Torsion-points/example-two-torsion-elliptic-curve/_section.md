@@ -25,4 +25,4 @@ square root of $x-e_i$. This torsor is unramified everywhere because the
 divisor of $x-e_i$ is even. For the running example $y^2=x^3-x$ over
 $\overline{\mathbf F}_3$ the $e_i$ are $0,1,-1\in\mathbf F_3$. Hence the
 three torsors are defined over $\mathbf F_3$, and Frobenius fixes all of
-$E[2]$, as noted in Section [sec-Tate-modules].
+[$E[2]$](@definition-abelian-variety), as noted in Section [sec-Tate-modules].

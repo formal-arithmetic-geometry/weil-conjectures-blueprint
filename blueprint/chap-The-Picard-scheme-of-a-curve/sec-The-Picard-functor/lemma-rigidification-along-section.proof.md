@@ -20,6 +20,6 @@ condition, and the pairs glue by effective descent for invertible sheaves.
 The normalization map identifies the quotient presheaf
 $T\mapsto\operatorname{Pic}(C_T)/f_T^*\operatorname{Pic}(T)$ with this
 rigidified functor. Since the latter is already a sheaf, the quotient
-presheaf needs no sheafification and equals $\operatorname{Pic}_{C/S}$.
+presheaf needs no sheafification and equals [$\operatorname{Pic}_{C/S}$](@definition-relative-picard-functor).
 The sequence splits since
 $\sigma_T^*f_T^*=\mathrm{id}$; for this argument see [Stacks, [0B9N](https://stacks.math.columbia.edu/tag/0B9N)].

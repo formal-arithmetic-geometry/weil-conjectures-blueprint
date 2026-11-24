@@ -14,7 +14,7 @@ $$
 \tag{$\ast$}
 $$
 
-Then $\operatorname{Pic}_{C/S}(T)$ is identified, functorially in $T$,
+Then [$\operatorname{Pic}_{C/S}(T)$](@definition-relative-picard-functor) is identified, functorially in $T$,
 with the set of isomorphism classes of pairs $(\mathcal L,\alpha)$, with $\mathcal L$ invertible on
 $C_T$ and $\alpha:\sigma_T^*\mathcal L\simeq\mathcal O_T$.
 Every such pair has only the identity automorphism. There is a split

@@ -18,7 +18,7 @@ $M^{-1}F$, consisting of the classes $\mathcal L$ with
 $\mathcal L\otimes M$ in $F$, is another representable open
 subfunctor.
 
-We show that these translates cover $\operatorname{Pic}_{C/k}$. Let a
+We show that these translates cover [$\operatorname{Pic}_{C/k}$](@definition-relative-picard-functor). Let a
 class on a $k$-scheme $T$ and a point $t\in T$ be given. We apply
 Lemma [lemma-twisting-h-0-1-h] to its fibre over the residue field
 $k'=\kappa(t)$. This gives an invertible sheaf $\mathcal M_0$ on $C$,
@@ -35,5 +35,5 @@ The intersections of the charts are open in either chart, and their
 transition isomorphisms satisfy the cocycle condition by functoriality.
 An fppf sheaf covered by representable open subfunctors is
 representable [Stacks, [0B9Q](https://stacks.math.columbia.edu/tag/0B9Q), [0B9Z](https://stacks.math.columbia.edu/tag/0B9Z)]. Hence gluing the charts gives a
-scheme representing $\operatorname{Pic}_{C/k}$. It is locally of finite
+scheme representing [$\operatorname{Pic}_{C/k}$](@definition-relative-picard-functor). It is locally of finite
 type because each chart is an open of $\operatorname{Hilb}^{g}_{C/k}$.
