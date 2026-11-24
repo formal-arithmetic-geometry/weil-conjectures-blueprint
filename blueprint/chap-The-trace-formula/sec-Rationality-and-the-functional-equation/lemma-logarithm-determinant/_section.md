@@ -24,5 +24,5 @@ $$
 $$
 
 Then (12.5) holds for $P$, with
-$\operatorname{Tr}(v^m\mid V)$ replaced by the categorical trace
+$\operatorname{Tr}(v^m\mid V)$ replaced by the [categorical trace](@definition-categorical-trace)
 $\operatorname{tr}_L(v^m\mid P)$.

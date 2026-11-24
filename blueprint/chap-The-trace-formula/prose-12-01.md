@@ -10,8 +10,8 @@ $\ell\nmid q$. By Lemma [lemma-frobenius-fixed-scheme], the points of $X_0$ over
 $\mathbf F_{q^m}$ are the fixed points of the $m$-th power of the Frobenius $\Phi_X$
 on $X$. The Lefschetz–Verdier formula
 (Theorem [theorem-proper-pushforward-lefschetz-verdier]) writes a trace on
-cohomology as a sum of local terms, but it says nothing about what a local term is.
-To count points we need the local term of Frobenius at a fixed point to be the trace
+cohomology as a sum of [local terms](@definition-trace-class-local-terms), but it says nothing about what a [local term](@definition-trace-class-local-terms) is.
+To count points we need the [local term](@definition-trace-class-local-terms) of Frobenius at a fixed point to be the trace
 on the stalk.
 
 For a self-map $\varphi$ of a compact manifold with transverse fixed points,

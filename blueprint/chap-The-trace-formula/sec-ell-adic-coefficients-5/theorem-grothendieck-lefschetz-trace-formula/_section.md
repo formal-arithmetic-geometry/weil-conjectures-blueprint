@@ -18,7 +18,7 @@ $$
 with a Weil structure as in Definition [definition-weil-structure].
 Here $A$ is any finite commutative $\ell$-primary ring, and for
 integral and rational coefficients, $D^b_{\mathrm{ctf}}(X,\Lambda)=\Dbc(X,\Lambda)$.
-Let $\operatorname{Frob}_{X,K}$
+Let [$\operatorname{Frob}_{X,K}$](@definition-frobenius-operator)
 be the geometric Frobenius on $R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)$, and let
 $\operatorname{Frob}_{y,m}$ be the Frobenius acting on the stalk $K_{\bar y}$ at
 $y\in X_0(\mathbf F_{q^m})$. Then for every $m\geq1$ we have, in $\Lambda$,
@@ -33,7 +33,7 @@ $$
 $$
 
 The complexes inside the traces are perfect over $\Lambda$, and the
-formula is compatible with the change-of-coefficients maps of
+formula is compatible with the [change-of-coefficients maps](@definition-change-of-coefficients-maps) of
 Proposition [proposition-six-operations-change-coefficients]. For $\Lambda=\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$, it reads
 
 $$

@@ -9,7 +9,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $X_0/\mathbf F_q$ be separated and of finite type, put
 $X=X_0\times_{\mathbf F_q}k$, let $A$ be any finite commutative
 $\ell$-primary ring and $K\in D^b_{\mathrm{ctf}}(X,A)$, and let
-$\psi:\Phi_X^*K\to K$ be any Frobenius correspondence on $K$. For every
+$\psi:\Phi_X^*K\to K$ be any [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) on $K$. For every
 $m\geq1$, in $A$,
 
 $$

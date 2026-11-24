@@ -9,7 +9,7 @@ the logarithms coefficient by coefficient. The coefficient of $T^m$ on
 the cohomological side is the global trace of $\operatorname{Frob}^m$
 divided by $m$, and on the side of closed points it is the sum of the local
 traces over $X_0(\mathbf F_{q^m})$ divided by $m$. Hence the theorem is
-the trace formula for all $m$ at once.
+the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) for all $m$ at once.
 
 For convergence, note that $X_0$ has only finitely many closed points of
 degree at most any given bound $n$, because each of them
@@ -23,13 +23,13 @@ terms of closed points. A closed point of degree $d$ has
 exactly $d$ points over $\mathbf F_{q^m}$ when $d\mid m$, and none
 otherwise. For instance, $\operatorname{Spec}\mathbf F_{q^2}$ has one closed
 point, of degree $2$, with no $\mathbf F_q$-points and two
-$\mathbf F_{q^2}$-points. These $d$ points form one Frobenius orbit, and the Weil
-structure gives isomorphisms between the
+$\mathbf F_{q^2}$-points. These $d$ points form one Frobenius orbit, and the [Weil
+structure](@definition-weil-structure) gives isomorphisms between the
 stalks at consecutive points of the orbit. The Frobenius on the stalk at a point of the orbit is then the composite of these isomorphisms taken once
 around the orbit, starting at that point. Moving the starting point cyclically therefore conjugates this composite by one of these isomorphisms. Hence the
-operators at the $\deg(x)$ points are conjugate. In the same way, iterating the Weil
-structure shows that for $\deg(x)\mid m$ the operator
-$\operatorname{Frob}_{y,m}$ at each of the $\deg(x)$ points $y\in X_0(\mathbf F_{q^m})$ over
+operators at the $\deg(x)$ points are conjugate. In the same way, iterating the [Weil
+structure](@definition-weil-structure) shows that for $\deg(x)\mid m$ the operator
+[$\operatorname{Frob}_{y,m}$](@theorem-grothendieck-lefschetz-trace-formula) at each of the $\deg(x)$ points $y\in X_0(\mathbf F_{q^m})$ over
 $x$ is conjugate to $\operatorname{Frob}_x^{m/\deg(x)}$. Since traces are invariant under conjugation,
 (12.3) reads
 

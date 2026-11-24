@@ -22,7 +22,7 @@ $\Phi_X^m=\operatorname{Fr}_X^mF_X^m$. On the classical constructible
 category, pullback along absolute Frobenius is naturally isomorphic to the
 identity, because for an étale object its relative Frobenius is an
 isomorphism, functorial in that object. Transporting this natural
-isomorphism to $D^b_{\mathrm{ctf}}(X,A)$ by the comparison with the pro-étale site,
+isomorphism to [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) by the comparison with the [pro-étale site](@definition-small-pro-etale-site),
 we obtain $\theta:F_X^*\simeq\mathrm{id}$. It is compatible with pullback
 along every morphism $h$, that is, $h^*\theta=\theta h^*$ under
 $h^*F^*=F^*h^*$, since relative Frobenius of étale objects is
@@ -52,7 +52,7 @@ $$
 
 where the third equality is the naturality of $\kappa_m$ in $K$.
 
-For the pullback maps on compact cohomology, let $j:X\hookrightarrow\bar X$
+For the pullback maps on [compact cohomology](@proposition-construction-independence-rf-shriek), let $j:X\hookrightarrow\bar X$
 be the base change of a compactification of $X_0$ over $k_0$, and use the
 pullback maps $\operatorname{pb}_h$ of Section [sec-Weil-complexes]. The
 endomorphisms $\Phi_{\bar X}$, $\operatorname{Fr}_{\bar X}$ and

@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Vanishing on a strictly local surface (1)"
 order = 970
 +++
-The vanishing of the local term is explained by the position of the curves at $(y,y)$. Since
+The vanishing of the [local term](@definition-trace-class-local-terms) is explained by the position of the curves at $(y,y)$. Since
 $d\Phi_X=0$, the transposed graph $\Gamma$ is tangent to the vertical
 axis $V=\{y\}\times X$. The diagonal $\Delta$ and the horizontal
 axis $H$ have other tangent directions. This persists on suitable covers
@@ -28,4 +28,4 @@ blowing up the closed point. We compute
 on classical étale models of strictly local
 schemes, which are filtered limits of schemes of finite type, and in the
 proof of Lemma [lemma-vanishing-local-term-zero-stalk] we transport the result
-to the pro-étale site.
+to the [pro-étale site](@definition-small-pro-etale-site).

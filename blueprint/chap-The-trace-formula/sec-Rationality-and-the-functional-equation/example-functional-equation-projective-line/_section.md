@@ -15,4 +15,4 @@ $$
 $$
 
 Here the factor $T^{\chi}$ is not trivial, unlike for the elliptic curve, and
-the constant $q^{d\chi/2}=q$ comes from the twist $(-1)$ on $H^2$.
+the constant $q^{d\chi/2}=q$ comes from the [twist](@definition-tate-twists) $(-1)$ on $H^2$.

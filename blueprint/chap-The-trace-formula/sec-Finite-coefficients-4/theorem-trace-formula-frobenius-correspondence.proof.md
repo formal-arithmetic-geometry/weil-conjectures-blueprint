@@ -6,10 +6,10 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 +++
 Both sides are defined, because the complexes are perfect by
 Lemma [lemma-perfect-complexes-geometric-point]. We prove the assertion
-simultaneously for all finite fields, all Frobenius correspondences and
+simultaneously for all finite fields, all [Frobenius correspondences](@definition-frobenius-correspondences-their-operators) and
 all $m$, so that $\mathbf F_q$ may be replaced by $\mathbf F_{q^m}$
 when we pass to a rational fibre. We go in four steps: finite schemes;
-the affine line, where we use the Lefschetz–Verdier formula on
+the affine line, where we use the [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier) on
 $\mathbf P^1$; closed subschemes of $\mathbf A^d$, by
 projecting away one coordinate; and arbitrary $X_0$, by
 cutting it into affine pieces.
@@ -18,14 +18,14 @@ cutting it into affine pieces.
 be read off from a block matrix. Indeed, up to nilpotents, $X$ is
 the finite disjoint union of its geometric points. By nilpotent
 invariance, $R\Gamma_c(X,K)=\bigoplus_{z\in X(k)}K_z$.
-In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of $T_{c_m}(\psi_m)$ from $K_{\Phi_X^m(z)}$ to $K_z$ is
+In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) from $K_{\Phi_X^m(z)}$ to $K_z$ is
 the stalk of $\psi_m$ at $z$, a map
 $K_{\Phi_X^m(z)}=((\Phi_X^m)^*K)_z\to K_z$. On a finite projective model only the diagonal blocks
 contribute to the trace. These occur exactly at the points
 $z\in X_0(\mathbf F_{q^m})$, with the required stalk maps.
 
-*The affine line.* This is the only step where we compute a local
-term. We pass to $\mathbf P^1$, where the Lefschetz–Verdier formula
+*The affine line.* This is the only step where we compute a [local
+term](@definition-trace-class-local-terms). We pass to $\mathbf P^1$, where the [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier)
 applies, and extend $K$ by zero, so that the new fixed point $\infty$
 contributes nothing. Let $j:\mathbf A^1_k\hookrightarrow\mathbf P^1_k$.
 The correspondence $\psi_m$ extends to a correspondence $\bar\psi_m$ on
@@ -34,18 +34,18 @@ so its square with the Frobenius maps is cartesian, and base change for this
 square gives
 $(\Phi_{\mathbf P^1}^m)^*j_!K\simeq j_!(\Phi_{\mathbf A^1}^m)^*K$.
 Lemma [lemma-comparison-via-relative-frobenius](3), applied to $j$,
-shows that the composition isomorphism
+shows that the [composition isomorphism](@proposition-composition-base-change-rf-shriek)
 
 $$
 R\Gamma_c(\mathbf A^1,K)
 \simeq R\Gamma(\mathbf P^1,j_!K)
 $$
 
-intertwines the endomorphisms $T_{c_m}$ induced by $\psi$ and $\bar\psi$.
+intertwines the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators) induced by $\psi$ and $\bar\psi$.
 The graph is proper on the proper curve $\mathbf P^1$, so by
 Theorem [theorem-proper-pushforward-lefschetz-verdier] the trace on the
-right is the sum of the local terms at the fixed points.
-By Proposition [proposition-frobenius-local-term-curve], each local term is a trace on a stalk. In particular, the local term at infinity vanishes, because
+right is the sum of the [local terms](@definition-trace-class-local-terms) at the fixed points.
+By Proposition [proposition-frobenius-local-term-curve], each [local term](@definition-trace-class-local-terms) is a trace on a stalk. In particular, the [local term](@definition-trace-class-local-terms) at infinity vanishes, because
 the stalk of $j_!K$ there is zero. The other fixed points and stalk
 maps are those of $\mathbf A^1_{\mathbf F_q}$. This proves the formula for
 the affine line.
@@ -64,11 +64,11 @@ for closed subschemes of $\mathbf A^{d-1}$ over every finite field,
 and let $X_0\hookrightarrow\mathbf A^d_{\mathbf F_q}$ be closed.
 Let $f_0:X_0\to Y_0=\mathbf A^{d-1}_{\mathbf F_q}$ forget the last
 coordinate, and let $f:X\to Y$ be its base change to $k$. The complex
-$L=Rf_!K$ lies in $D^b_{\mathrm{ctf}}(Y,A)$ by
+$L=Rf_!K$ lies in [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) by
 Proposition [proposition-six-operations-dctf], and we equip it with the
-Frobenius correspondence $\psi'$ of
+[Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi'$ of
 Lemma [lemma-comparison-via-relative-frobenius](2). As
-Lemma [lemma-comparison-via-relative-frobenius](3) identifies the endomorphisms $T_{c_m}$,
+Lemma [lemma-comparison-via-relative-frobenius](3) identifies the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators),
 the induction hypothesis shows that
 
 $$
@@ -78,7 +78,7 @@ $$
 $$
 
 By Lemma [lemma-comparison-via-relative-frobenius](4), each summand is the
-trace on the cohomology with compact support of the fibre $X_{0,y}$, a closed
+trace on the [cohomology with compact support](@proposition-construction-independence-rf-shriek) of the fibre $X_{0,y}$, a closed
 subscheme of $\mathbf A^1_{\mathbf F_{q^m}}$. Here the endomorphism is given by the restriction of $\psi_m$ to the fibre and the first power of the
 Frobenius over $\mathbf F_{q^m}$. The case of closed subschemes of the affine line then turns this summand into the sum of the traces on stalks
 over $X_{0,y}(\mathbf F_{q^m})$. As $y$ varies, these sets partition

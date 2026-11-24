@@ -5,8 +5,8 @@ title = "Rationality and the functional equation (1)"
 order = 1033
 +++
 Over a field of characteristic zero, the traces of all powers of an
-endomorphism determine its characteristic polynomial. Taking the trace
-formula for all $m\geq1$, we therefore obtain an identity of power
+endomorphism determine its characteristic polynomial. Taking the [trace
+formula](@theorem-grothendieck-lefschetz-trace-formula) for all $m\geq1$, we therefore obtain an identity of power
 series: a product over closed points equals an alternating product of
 characteristic polynomials of Frobenius on cohomology. This
 step divides by $m$, so in the determinant formulas below $\Lambda$ is one of the
