@@ -13,7 +13,7 @@ For (1), applying [$Rf_!$](@proposition-construction-independence-rf-shriek) and
 triangle $j_!j^*K\to K\to i_*i^*K\to$ gives an exact sequence
 
 $$
-R^q(fj)_!j^*K\longrightarrow R^qf_!K\longrightarrow R^q(fi)_!i^*K,
+\href{@proposition-construction-independence-rf-shriek}{R^q(fj)_!j^*K}\longrightarrow \href{@proposition-construction-independence-rf-shriek}{R^qf_!K}\longrightarrow \href{@proposition-construction-independence-rf-shriek}{R^q(fi)_!i^*K},
 $$
 
 which is Frobenius-equivariant by naturality, and
@@ -23,13 +23,13 @@ $R^qf_!K$.
 For (2), let $j':V_0\to Y_0$ and $i':W_0\to Y_0$ be the inclusions.
 Base change for direct images with compact support
 (Proposition [proposition-composition-base-change-rf-shriek])
-identifies $j'^*R^qf_!K$ with $R^qf_{V!}(K|_{f^{-1}V_0})$ and
-$i'^*R^qf_!K$ with $R^qf_{W!}(K|_{f^{-1}W_0})$. By
+identifies $j'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with $R^qf_{V!}(K|_{f^{-1}V_0})$ and
+$i'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with $R^qf_{W!}(K|_{f^{-1}W_0})$. By
 Lemma [lemma-finite-quasi-finite-direct-images], the outer terms of
 
 $$
-0\longrightarrow j'_!j'^*R^qf_!K\longrightarrow R^qf_!K
-\longrightarrow i'_*i'^*R^qf_!K\longrightarrow0
+0\longrightarrow j'_!j'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}\longrightarrow \href{@proposition-construction-independence-rf-shriek}{R^qf_!K}
+\longrightarrow i'_*i'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}\longrightarrow0
 $$
 
 are [mixed](@definition-weights) of weights at most $w+q$, and

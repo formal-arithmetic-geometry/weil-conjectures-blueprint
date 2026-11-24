@@ -15,7 +15,7 @@ For composition, let $X_0\xrightarrow{h}Z_0\xrightarrow{g}Y_0$ and consider the 
 spectral sequence for compact supports,
 
 $$
-E_2^{a,b}=R^ag_!(R^bh_!F)\ \Longrightarrow\ R^{a+b}(gh)_!F.
+E_2^{a,b}=\href{@proposition-construction-independence-rf-shriek}{R^ag_!}(\href{@proposition-construction-independence-rf-shriek}{R^bh_!F})\ \Longrightarrow\ \href{@proposition-construction-independence-rf-shriek}{R^{a+b}(gh)_!F}.
 $$
 
 It is Frobenius-equivariant by the naturality of the truncation tower

@@ -15,7 +15,7 @@ direct images with compact support
 an identification
 
 $$
-(R^ih_!F)_{\bar y}=H_c^i(U_{\bar y},F)
+(\href{@proposition-construction-independence-rf-shriek}{R^ih_!F})_{\bar y}=H_c^i(U_{\bar y},F)
 $$
 
 compatible with the [local Frobenius operators](@theorem-trace-formula-euler-product). The restriction of $F$ to
@@ -31,7 +31,7 @@ $1$ and $2$.
 
 *[Mixedness](@definition-weights).* We prove that $R^ih_!F$ is [mixed](@definition-weights). This is trivial
 for $F=0$, so we may assume $F\ne0$. Let $G=F^0\oplus(F^0)^\vee$, with
-$F^0=F\otimes\mathcal B_b$, be the sheaf of
+$F^0=F\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$, be the sheaf of
 Proposition [proposition-twisting-weight-zero-adding-dual]. It is
 [lisse](@definition-lisse-sheaves), [real](@definition-real-sheaves) and [pure](@definition-weights) of weight zero. At a closed point $y$
 write
@@ -76,7 +76,7 @@ direct summand of $R^ih_!G$. A direct summand is a [Weil subsheaf](@definition-w
 so it is [mixed](@definition-weights) by
 Proposition [proposition-weights-under-usual-operations]. By the
 [projection formula](@lemma-kunneth-formula-compact-supports) for the constant twist, it is isomorphic to
-$R^ih_!F\otimes\mathcal B_b$. Removing the twist preserves the finite
+$\href{@proposition-construction-independence-rf-shriek}{R^ih_!F}\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$. Removing the twist preserves the finite
 Weil filtration and shifts the weight of every [pure](@definition-weights) quotient by $w$.
 Hence $R^ih_!F$ is [mixed](@definition-weights).
 

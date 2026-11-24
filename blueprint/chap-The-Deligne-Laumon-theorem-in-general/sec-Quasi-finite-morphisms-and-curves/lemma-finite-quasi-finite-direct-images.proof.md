@@ -36,7 +36,7 @@ quasi-separated, and Zariski's main theorem in the form
 $j:Z_0\hookrightarrow\overline Z_0$ followed by a finite map
 $\bar g:\overline Z_0\to Y_0$. By
 Proposition [proposition-composition-base-change-rf-shriek] we have
-$Rg_!=\bar g_*j_!$, and both functors are exact. Extension by zero
+$\href{@proposition-construction-independence-rf-shriek}{Rg_!}=\bar g_*j_!$, and both functors are exact. Extension by zero
 preserves [purity](@definition-weights), since its other stalks are zero. Now take a [mixed](@definition-weights)
 sheaf of weights at most $w$ on $Z_0$, with a finite filtration by
 [Weil subsheaves](@definition-weil-structure) whose quotients are [pure](@definition-weights) of weights at most $w$. Since

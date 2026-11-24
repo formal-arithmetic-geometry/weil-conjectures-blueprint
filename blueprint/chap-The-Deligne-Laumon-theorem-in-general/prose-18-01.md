@@ -13,7 +13,7 @@ morphism of finite type $f:X_0\to Y_0$, the functor [$Rf_!$](@proposition-constr
 $D_{\leq w}(X_0)$ into $D_{\leq w}(Y_0)$.
 
 Take a surface fibred in curves over a curve, $f:X_0\to Y_0$. Here the Leray
-spectral sequence $H^a_c(Y,R^bf_!\overline{\mathbf Q}_\ell)\Rightarrow H^{a+b}_c(X,\overline{\mathbf Q}_\ell)$
+spectral sequence $H^a_c(Y,\href{@proposition-construction-independence-rf-shriek}{R^bf_!\overline{\mathbf Q}_\ell})\Rightarrow H^{a+b}_c(X,\overline{\mathbf Q}_\ell)$
 suggests applying the curve case twice, once on the fibres and once on
 the base. On the fibres there is no difficulty: at a closed point $y$
 the stalk of $R^bf_!\overline{\mathbf Q}_\ell$ is $H^b_c(X_{\bar y},\overline{\mathbf Q}_\ell)$, and the curve
