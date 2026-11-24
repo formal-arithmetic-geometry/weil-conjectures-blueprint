@@ -15,7 +15,7 @@ $t_1,\ldots,t_r$.
 
 In this case the [fixed scheme](@definition-correspondence) is the pullback of the diagonal along the graph.
 Since the equations of $X_0$ have coefficients in $\mathbf F_q$, we have
-$(\Phi_X^m)^\#t_i=t_i^{q^m}$, and the [fixed scheme](@definition-correspondence) is cut out by the defining
+$(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^\#t_i=t_i^{q^m}$, and the [fixed scheme](@definition-correspondence) is cut out by the defining
 equations of $X_0$ together with $t_i^{q^m}-t_i=0$. Each polynomial
 $t^{q^m}-t$ is separable, so the algebra $k[t_1,\ldots,t_r]/(t_i^{q^m}-t_i)_i$
 is a product of copies of $k$ indexed by $\mathbf F_{q^m}^r$. Its quotient by

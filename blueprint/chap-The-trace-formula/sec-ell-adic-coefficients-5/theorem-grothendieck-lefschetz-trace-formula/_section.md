@@ -12,23 +12,23 @@ that $\ell\nmid q$. Let
 
 $$
 \Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\},
-\qquad K\in D^b_{\mathrm{ctf}}(X,\Lambda),
+\qquad K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)},
 $$
 
 with a Weil structure as in Definition [definition-weil-structure].
 Here $A$ is any finite commutative $\ell$-primary ring, and for
-integral and rational coefficients, $D^b_{\mathrm{ctf}}(X,\Lambda)=\Dbc(X,\Lambda)$.
+integral and rational coefficients, $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}=\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)}$.
 Let [$\operatorname{Frob}_{X,K}$](@definition-frobenius-operator)
-be the geometric Frobenius on $R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)$, and let
+be the geometric Frobenius on $R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)$, and let
 $\operatorname{Frob}_{y,m}$ be the Frobenius acting on the stalk $K_{\bar y}$ at
 $y\in X_0(\mathbf F_{q^m})$. Then for every $m\geq1$ we have, in $\Lambda$,
 
 $$
-\operatorname{tr}_{\Lambda}
-\bigl(\operatorname{Frob}_{X,K}^m\mid R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)\bigr)
+\href{@definition-categorical-trace}{\operatorname{tr}_{\Lambda}}
+\bigl(\href{@definition-frobenius-operator}{\operatorname{Frob}_{X,K}^m}\mid R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)\bigr)
 =\sum_{y\in X_0(\mathbf F_{q^m})}
-\operatorname{tr}_{\Lambda}
-\bigl(\operatorname{Frob}_{y,m}\mid K_{\bar y}\bigr).
+\href{@definition-categorical-trace}{\operatorname{tr}_{\Lambda}
+\bigl(\operatorname{Frob}_{y,m}\mid K_{\bar y}\bigr)}.
 \tag{12.3}
 $$
 
@@ -38,7 +38,7 @@ Proposition [proposition-six-operations-change-coefficients]. For $\Lambda=\math
 
 $$
 \sum_i(-1)^i\operatorname{Tr}
-\bigl(\operatorname{Frob}_{X,K}^m\mid H_c^i(X_{\mathrm{pro}\acute{e}t},K)\bigr)
+\bigl(\href{@definition-frobenius-operator}{\operatorname{Frob}_{X,K}^m}\mid H_c^i(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)\bigr)
 =\sum_{y\in X_0(\mathbf F_{q^m})}\sum_j(-1)^j
 \operatorname{Tr}\bigl(\operatorname{Frob}_{y,m}\mid H^j(K_{\bar y})\bigr),
 \tag{12.4}

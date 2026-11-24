@@ -6,12 +6,12 @@ order = 1027
 +++
 Let $q$ be odd, let $f_0:\mathbf A^1_{\mathbf F_q}\to\mathbf A^1_{\mathbf F_q}$
 be $x\mapsto x^2$, and let $K=\Lambda_X$ with its constant [Weil structure](@definition-weil-structure), so
-that $t_{K,m}=1$. The fibre of $f_0$ over $y\in\mathbf F_{q^m}$ has
+that $\href{@definition-trace-function}{t_{K,m}}=1$. The fibre of $f_0$ over $y\in\mathbf F_{q^m}$ has
 $1+\chi_m(y)$ rational points, where $\chi_m$ is the quadratic character of
 $\mathbf F_{q^m}^*$, extended by $\chi_m(0)=0$. Hence
 
 $$
-t_{Rf_!\Lambda,m}(y)=1+\chi_m(y).
+\href{@definition-trace-function}{t_{Rf_!\Lambda,m}(y)}=1+\chi_m(y).
 $$
 
 The [trace function](@definition-trace-function) of [$Rf_!\Lambda$](@proposition-construction-independence-rf-shriek) is not constant, although the sheaf we pushed forward is: over $\mathbf G_m$ the map is a finite étale double cover,

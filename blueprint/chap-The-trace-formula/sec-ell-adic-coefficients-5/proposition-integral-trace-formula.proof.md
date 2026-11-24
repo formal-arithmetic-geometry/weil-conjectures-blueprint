@@ -9,13 +9,13 @@ operators and of the traces. This suffices, since an element of
 $\mathcal O_E$ that vanishes modulo every $\pi_E^n$ is zero.
 
 *Complexes and operators.* By Lemma [lemma-perfect-complexes-geometric-point],
-$R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)$ and the geometric stalks are perfect, and
+$R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)$ and the geometric stalks are perfect, and
 Proposition [proposition-six-operations-change-coefficients] provides canonical isomorphisms
 
 $$
 \begin{aligned}
-R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K)\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\pi_E^n
-&\simeq R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K_n),\\
+R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\pi_E^n
+&\simeq R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K_n),\\
 K_{\bar y}\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\pi_E^n&\simeq(K_n)_{\bar y}.
 \end{aligned}
 $$
@@ -25,7 +25,7 @@ of $\bar\theta_n$, because extension of scalars commutes with the
 pullbacks, with the units defining the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators), and with
 composition, and hence with the iterates $\theta_m$. Moreover
 Theorem [theorem-trace-formula-frobenius-correspondence] applies for every $n$,
-because $K_n\in D^b_{\mathrm{ctf}}(X,\mathcal O_E/\pi_E^n)$.
+because $K_n\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\mathcal O_E/\pi_E^n)}$.
 
 *Traces.* Represent each of the two integral complexes by
 a bounded complex $P^\bullet$ of finite projective
@@ -33,7 +33,7 @@ $\mathcal O_E$-modules and its endomorphism by a chain map
 $v^\bullet$. By Proposition [proposition-properties-trace] its trace is
 
 $$
-\operatorname{tr}_{\mathcal O_E}(v)
+\href{@definition-categorical-trace}{\operatorname{tr}_{\mathcal O_E}(v)}
 =\sum_i(-1)^i\operatorname{Tr}(v^i\mid P^i).
 $$
 

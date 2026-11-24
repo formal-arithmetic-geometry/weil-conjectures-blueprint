@@ -34,7 +34,7 @@ $x$ is conjugate to $\operatorname{Frob}_x^{m/\deg(x)}$. Since traces are invari
 (12.3) reads
 
 $$
-\operatorname{tr}_{\Lambda}(\operatorname{Frob}_{X,K}^m\mid R\Gamma_c(X_{\mathrm{pro}\acute{e}t},K))
+\href{@definition-categorical-trace}{\operatorname{tr}_{\Lambda}}(\href{@definition-frobenius-operator}{\operatorname{Frob}_{X,K}^m}\mid R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K))
 =\sum_{\substack{x\in|X_0|\\\deg(x)\mid m}}\deg(x)\,
 \operatorname{tr}_{\Lambda}
 (\operatorname{Frob}_x^{m/\deg(x)}\mid K_{\bar x}).
@@ -49,7 +49,7 @@ $\operatorname{Frob}_x$ on $K_{\bar x}$, with $T^{\deg(x)}$ in place of $T$, sho
 
 $$
 \sum_{x\in|X_0|}\sum_{r\geq1}
-\operatorname{tr}_{\Lambda}(\operatorname{Frob}_x^r\mid K_{\bar x})
+\href{@definition-categorical-trace}{\operatorname{tr}_{\Lambda}(\operatorname{Frob}_x^r\mid K_{\bar x})}
 \frac{T^{r\deg(x)}}{r}
 =\log L(X_0,K,T).
 $$

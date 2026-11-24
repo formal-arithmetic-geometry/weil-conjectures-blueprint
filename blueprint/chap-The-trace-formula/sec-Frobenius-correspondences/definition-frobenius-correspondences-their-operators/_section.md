@@ -14,7 +14,7 @@ invertible,
 
 $$
 \psi:\Phi_X^*K\longrightarrow K,
-\qquad K\in D^b_{\mathrm{ctf}}(X,A).
+\qquad K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}.
 $$
 
 Its iterates are the morphisms

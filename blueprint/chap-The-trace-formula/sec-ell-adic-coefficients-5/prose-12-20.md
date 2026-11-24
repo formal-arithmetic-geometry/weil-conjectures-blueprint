@@ -17,7 +17,7 @@ why we prove the formula for correspondences that are not invertible. Finally, f
 
 The Frobenius comparison $\kappa_m$ of
 Lemma [lemma-scheme-frobenius-geometric-frobenius] extends to the coefficient rings
-$\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. Let $K\in\Dbc(X,\mathcal O_E)$ have
+$\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. Let $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$ have
 tower of reductions $(K_n)$ modulo $\pi_E^n$
 (Definition [definition-derived-adic-completeness]). Both $(\Phi_X^m)^*$ and
 $\operatorname{Fr}_X^{m*}$ preserve [derived completeness](@definition-derived-adic-completeness) and commute

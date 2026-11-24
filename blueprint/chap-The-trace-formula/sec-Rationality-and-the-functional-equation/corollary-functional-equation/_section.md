@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected of
 dimension $d$, and let
-$\ell\nmid q$. Put $H^i=H^i(X_{\mathrm{pro}\acute{e}t},\mathbf Q_\ell)$, let $F_i$ be the [Frobenius operator](@definition-frobenius-operator) $F$ on $H^i$
+$\ell\nmid q$. Put $H^i=H^i(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Q_\ell)$, let $F_i$ be the [Frobenius operator](@definition-frobenius-operator) $F$ on $H^i$
 (Section [sec-Weil-complexes]), and put
 
 $$
@@ -19,7 +19,7 @@ $$
 Then $b_{2d-i}=b_i$, $d\chi$ is even, $D^2=q^{d\chi}$, and in $\mathbf Q_\ell(T)$
 
 $$
-Z\!\left(X_0,\frac1{q^dT}\right)=(-1)^{\chi}D\,T^{\chi}\,Z(X_0,T)
-=\varepsilon q^{d\chi/2}T^{\chi}Z(X_0,T),
+\href{@corollary-point-counting-zeta-function}{Z\!\left(X_0,\frac1{q^dT}\right)}=(-1)^{\chi}D\,T^{\chi}\,\href{@corollary-point-counting-zeta-function}{Z(X_0,T)}
+=\varepsilon q^{d\chi/2}T^{\chi}\href{@corollary-point-counting-zeta-function}{Z(X_0,T)},
 \qquad \varepsilon=(-1)^\chi Dq^{-d\chi/2}\in\{1,-1\}.
 $$

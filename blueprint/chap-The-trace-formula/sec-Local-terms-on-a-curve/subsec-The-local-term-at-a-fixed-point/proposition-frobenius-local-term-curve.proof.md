@@ -9,7 +9,7 @@ We split $\psi$ along the [localization triangle](@proposition-extension-zero-re
 terms](@definition-trace-class-local-terms) separately.
 
 *Splitting $\psi$.* Both pieces are stable under $\Phi_X^m$, and in
-fact $((\Phi_X^m)^{-1}\{y\})_{\mathrm{red}}=\{y\}$. In the enhanced derived
+fact $((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^{-1}\{y\})_{\mathrm{red}}=\{y\}$. In the enhanced derived
 category, the functorial [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) is a two-step filtered
 object,
 
@@ -22,21 +22,21 @@ and $\psi$ induces a coherent map from the $(\Phi_X^m)^*$-pullback of this
 filtration to the filtration itself, with induced correspondences
 $\psi_U$ and $i_*\psi_{\bar y}$ on the pieces. This rests on two base
 change identities. For the open part,
-$(\Phi_X^m)^*j_!\simeq j_!(\Phi_X^m|_U)^*$ by base change along inverse
+$(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*j_!\simeq j_!(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}|_U)^*$ by base change along inverse
 images in the cartesian square. The square for the point, by contrast, is cartesian only after passing to reductions, so there [proper base change](@theorem-proper-base-change-classical-pro) followed by
-nilpotent invariance gives $(\Phi_X^m)^*i_*\simeq i_*(\Phi_X^m|_y)^*$. Both
+nilpotent invariance gives $(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*i_*\simeq i_*(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}|_y)^*$. Both
 comparisons are mates of the adjunction units for $j$ and $i$ used in the
 triangle, which is why the induced maps are compatible with the filtration.
 
 *Additivity.* The second half of
 Proposition [proposition-additivity-trace-classes] applies to the
-graph $c_m$, because its hypothesis $\Phi_X^m(\{y\})\subset\{y\}$ holds for
+graph $c_m$, because its hypothesis $\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(\{y\})\subset\{y\}$ holds for
 the fixed point $y$. It gives
 
 $$
-\operatorname{LT}_y(\psi)
-=\operatorname{LT}_y(\psi_U)
-+\operatorname{LT}_y(i_*\psi_{\bar y}).
+\href{@definition-trace-class-local-terms}{\operatorname{LT}_y(\psi)}
+=\href{@definition-trace-class-local-terms}{\operatorname{LT}_y(\psi_U)}
++\href{@definition-trace-class-local-terms}{\operatorname{LT}_y(i_*\psi_{\bar y})}.
 $$
 
 *The two [local terms](@definition-trace-class-local-terms).* The first term is zero by

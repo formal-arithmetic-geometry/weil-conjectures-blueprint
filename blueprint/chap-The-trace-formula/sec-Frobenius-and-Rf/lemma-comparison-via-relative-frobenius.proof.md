@@ -9,8 +9,8 @@ homeomorphism, pullback along it is an equivalence and its unit is an
 isomorphism. The rest is base change and composition of units, and each
 part uses the previous ones.
 
-*Proof of (1).* The identities $p_mr_m=\Phi_X^m$ and $f'_mr_m=f$
-hold by the definition of $r_m=(f,\Phi_X^m)$, since $f\Phi_X^m=\Phi_Y^mf$.
+*Proof of (1).* The identities $p_mr_m=\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}$ and $f'_mr_m=f$
+hold by the definition of $r_m=(f,\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})$, since $f\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}=\href{@definition-frobenius-correspondences-their-operators}{\Phi_Y^m}f$.
 The map $r_m$ is the geometric base change of the
 relative $q^m$-power Frobenius of $X_0/Y_0$. It is integral, radicial
 and surjective [Stacks, [0CCB](https://stacks.math.columbia.edu/tag/0CCB)], and finite because it is integral and of
@@ -34,8 +34,8 @@ their composite is the composite of the units. Thus
 
 $$
 \theta_{f,m+n,K}=
-\theta_{f,m,(\Phi_X^n)^*K}\circ
-(\Phi_Y^m)^*\theta_{f,n,K},
+\theta_{f,m,(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^n})^*K}\circ
+(\href{@definition-frobenius-correspondences-their-operators}{\Phi_Y^m})^*\theta_{f,n,K},
 $$
 
 which is the compatibility with iteration.
@@ -52,7 +52,7 @@ Since base change is compatible with these units, the pullback along
 $\Phi_Y^m$, followed by the base change isomorphism,
 is the pullback along $p_m$, and the
 next arrow in $\theta_{f,m}$ becomes $r_m^*$. Their composite is
-$r_m^*p_m^*=(p_mr_m)^*=(\Phi_X^m)^*$, and
+$r_m^*p_m^*=(p_mr_m)^*=(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*$, and
 composing with $R\Gamma_c(\psi_m)$ we see that the operators are
 intertwined.
 

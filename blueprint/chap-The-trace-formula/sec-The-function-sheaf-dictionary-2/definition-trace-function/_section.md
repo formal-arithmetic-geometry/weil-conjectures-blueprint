@@ -12,6 +12,6 @@ The *trace function* of $K$ is
 
 $$
 t_{K,m}:X_0(\mathbf F_{q^m})\longrightarrow\Lambda,\qquad
-t_{K,m}(x)=\operatorname{tr}_\Lambda\bigl(\operatorname{Frob}_{x,m}
+t_{K,m}(x)=\href{@definition-categorical-trace}{\operatorname{tr}_\Lambda}\bigl(\href{@theorem-grothendieck-lefschetz-trace-formula}{\operatorname{Frob}_{x,m}}
 \mid K_{\bar x}\bigr).
 $$

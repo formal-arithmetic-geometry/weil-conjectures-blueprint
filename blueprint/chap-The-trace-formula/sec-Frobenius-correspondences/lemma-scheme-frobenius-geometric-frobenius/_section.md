@@ -12,7 +12,7 @@ $\phi_m=\phi\circ \operatorname{Fr}_X^*\phi\circ\cdots\circ(\operatorname{Fr}_X^
 There are natural isomorphisms
 
 $$
-\kappa_m:(\Phi_X^m)^*K\xrightarrow{\sim}(\operatorname{Fr}_X^m)^*K
+\kappa_m:(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K\xrightarrow{\sim}(\operatorname{Fr}_X^m)^*K
 $$
 
 compatible with iteration. For a [Weil structure](@definition-weil-structure)
@@ -21,7 +21,7 @@ $\psi=\phi\kappa_1$. Then
 
 $$
 \psi_m=\phi_m\kappa_m,
-\qquad T_{c_m}(\psi_m)=\operatorname{Frob}_{X,K}^{m},
+\qquad \href{@definition-frobenius-correspondences-their-operators}{T_{c_m}(\psi_m)}=\operatorname{Frob}_{X,K}^{m},
 $$
 
 where $\operatorname{Frob}_{X,K}$ is the geometric Frobenius operator

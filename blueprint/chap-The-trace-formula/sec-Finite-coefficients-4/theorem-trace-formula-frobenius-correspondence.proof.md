@@ -18,9 +18,9 @@ cutting it into affine pieces.
 be read off from a block matrix. Indeed, up to nilpotents, $X$ is
 the finite disjoint union of its geometric points. By nilpotent
 invariance, $R\Gamma_c(X,K)=\bigoplus_{z\in X(k)}K_z$.
-In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) from $K_{\Phi_X^m(z)}$ to $K_z$ is
+In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) from $K_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(z)}$ to $K_z$ is
 the stalk of $\psi_m$ at $z$, a map
-$K_{\Phi_X^m(z)}=((\Phi_X^m)^*K)_z\to K_z$. On a finite projective model only the diagonal blocks
+$K_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(z)}=((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K)_z\to K_z$. On a finite projective model only the diagonal blocks
 contribute to the trace. These occur exactly at the points
 $z\in X_0(\mathbf F_{q^m})$, with the required stalk maps.
 
@@ -32,7 +32,7 @@ The correspondence $\psi_m$ extends to a correspondence $\bar\psi_m$ on
 $j_!K$, compatible with iteration. Indeed, $j$ is defined over $\mathbf F_q$,
 so its square with the Frobenius maps is cartesian, and base change for this
 square gives
-$(\Phi_{\mathbf P^1}^m)^*j_!K\simeq j_!(\Phi_{\mathbf A^1}^m)^*K$.
+$(\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\mathbf P^1}^m})^*j_!K\simeq j_!(\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\mathbf A^1}^m})^*K$.
 Lemma [lemma-comparison-via-relative-frobenius](3), applied to $j$,
 shows that the [composition isomorphism](@proposition-composition-base-change-rf-shriek)
 
@@ -64,7 +64,7 @@ for closed subschemes of $\mathbf A^{d-1}$ over every finite field,
 and let $X_0\hookrightarrow\mathbf A^d_{\mathbf F_q}$ be closed.
 Let $f_0:X_0\to Y_0=\mathbf A^{d-1}_{\mathbf F_q}$ forget the last
 coordinate, and let $f:X\to Y$ be its base change to $k$. The complex
-$L=Rf_!K$ lies in [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) by
+$L=\href{@proposition-construction-independence-rf-shriek}{Rf_!K}$ lies in [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) by
 Proposition [proposition-six-operations-dctf], and we equip it with the
 [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi'$ of
 Lemma [lemma-comparison-via-relative-frobenius](2). As
@@ -72,9 +72,9 @@ Lemma [lemma-comparison-via-relative-frobenius](3) identifies the endomorphisms 
 the induction hypothesis shows that
 
 $$
-\operatorname{tr}_A(T_{c_m}(\psi_m)\mid R\Gamma_c(X,K))
+\href{@definition-categorical-trace}{\operatorname{tr}_A}(\href{@definition-frobenius-correspondences-their-operators}{T_{c_m}(\psi_m)}\mid R\Gamma_c(X,K))
 =\sum_{y\in Y_0(\mathbf F_{q^m})}
-\operatorname{tr}_A(\psi'_{m,\bar y}\mid L_{\bar y}).
+\href{@definition-categorical-trace}{\operatorname{tr}_A(\psi'_{m,\bar y}\mid L_{\bar y})}.
 $$
 
 By Lemma [lemma-comparison-via-relative-frobenius](4), each summand is the

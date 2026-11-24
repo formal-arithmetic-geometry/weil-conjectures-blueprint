@@ -11,31 +11,31 @@ type over $k_0$, write $f:X\to Y$ for its geometric base change, and
 let $m\geq1$. Put
 
 $$
-X'_m=Y\times_{\Phi_Y^m,Y,f}X,
+X'_m=Y\times_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_Y^m},Y,f}X,
 \quad p_m:X'_m\to X,\quad f'_m:X'_m\to Y,
-\quad r_m=(f,\Phi_X^m):X\to X'_m,
+\quad r_m=(f,\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}):X\to X'_m,
 $$
 
 where $p_m$ and $f'_m$ are the two projections.
 
 1. The relative Frobenius $r_m$ is a finite universal homeomorphism,
-   $p_mr_m=\Phi_X^m$ and $f'_mr_m=f$, and there are natural isomorphisms
+   $p_mr_m=\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}$ and $f'_mr_m=f$, and there are natural isomorphisms
    $$
    \begin{aligned}
-   \theta_{f,m}:(\Phi_Y^m)^*Rf_!K
-   &\simeq Rf'_{m!}p_m^*K
-   \xrightarrow{Rf'_{m!}\eta_{r_m}}
-   Rf'_{m!}Rr_{m*}r_m^*p_m^*K\\
-   &\simeq Rf_!(\Phi_X^m)^*K,
+   \theta_{f,m}:(\href{@definition-frobenius-correspondences-their-operators}{\Phi_Y^m})^*\href{@proposition-construction-independence-rf-shriek}{Rf_!K}
+   &\simeq \href{@proposition-construction-independence-rf-shriek}{Rf'_{m!}}p_m^*K
+   \xrightarrow{\href{@proposition-construction-independence-rf-shriek}{Rf'_{m!}}\eta_{r_m}}
+   \href{@proposition-construction-independence-rf-shriek}{Rf'_{m!}}Rr_{m*}r_m^*p_m^*K\\
+   &\simeq \href{@proposition-construction-independence-rf-shriek}{Rf_!}(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K,
    \end{aligned}
    $$
    compatible with iteration in $m$.
 2. For a [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi:\Phi_X^*K\to K$ on
-   $K\in D^b_{\mathrm{ctf}}(X,A)$, the object $L=Rf_!K$ of [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) carries the
-   [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi'=Rf_!\psi\circ\theta_{f,1}:\Phi_Y^*L\to L$,
+   $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$, the object $L=\href{@proposition-construction-independence-rf-shriek}{Rf_!K}$ of [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) carries the
+   [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi'=\href{@proposition-construction-independence-rf-shriek}{Rf_!\psi}\circ\theta_{f,1}:\Phi_Y^*L\to L$,
    and its iterates are
    $$
-   \psi'_m=Rf_!\psi_m\circ\theta_{f,m}.
+   \psi'_m=\href{@proposition-construction-independence-rf-shriek}{Rf_!\psi_m}\circ\theta_{f,m}.
    $$
 3. The [composition isomorphism](@proposition-composition-base-change-rf-shriek)
    $R\Gamma_c(Y,L)\simeq R\Gamma_c(X,K)$ intertwines the
@@ -45,7 +45,7 @@ where $p_m$ and $f'_m$ are the two projections.
    identifies $(L_{\bar y},\psi'_{m,\bar y})$ with
    $$
    \left(R\Gamma_c(X_{\bar y},K|_{X_{\bar y}}),
-   T_{c_1}(\psi_m|_{X_{\bar y}})\right),
+   \href{@definition-frobenius-correspondences-their-operators}{T_{c_1}(\psi_m|_{X_{\bar y}})}\right),
    $$
    where the fibre is regarded as a scheme over $\mathbf F_{q^m}$, with
    the $q^m$-power Frobenius as its scheme Frobenius.

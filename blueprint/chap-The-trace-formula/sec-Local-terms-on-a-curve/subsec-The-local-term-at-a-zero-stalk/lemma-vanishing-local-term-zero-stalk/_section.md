@@ -12,5 +12,5 @@ $$
 \rho:R\Gamma_\Gamma(T,P)\longrightarrow R\Gamma_y(\Delta,\delta^*P)
 $$
 
-is zero in $D(A)$. Consequently $\operatorname{LT}_y(\psi)=0$ for every
-morphism $\psi:(\Phi_X^m)^*K\to K$.
+is zero in $D(A)$. Consequently $\href{@definition-trace-class-local-terms}{\operatorname{LT}_y(\psi)}=0$ for every
+morphism $\psi:(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K\to K$.

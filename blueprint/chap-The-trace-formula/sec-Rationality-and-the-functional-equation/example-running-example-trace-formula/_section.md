@@ -6,7 +6,7 @@ order = 1043
 +++
 For the elliptic curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$,
 geometric Frobenius acts on $H^0(C,\mathbf Q_\ell)=\mathbf Q_\ell$ by $1$ and on
-$H^2(C,\mathbf Q_\ell)=\mathbf Q_\ell(-1)$ by $3$, and $H^1(C,\mathbf Q_\ell)$ is a plane
+$H^2(C,\mathbf Q_\ell)=\href{@definition-tate-twists}{\mathbf Q_\ell(-1)}$ by $3$, and $H^1(C,\mathbf Q_\ell)$ is a plane
 (Example [example-running-example-duality]). The [point-counting formula](@corollary-point-counting-zeta-function) reads
 
 $$
@@ -17,7 +17,7 @@ From $N_1=4$ we get $\operatorname{Tr}(F\mid H^1)=0$. Duality gives
 $\det(F\mid H^1)=3$, so $\det(1-TF\mid H^1)=1+3T^2$. Hence
 
 $$
-Z(C_0,T)=\frac{1+3T^2}{(1-T)(1-3T)}.
+\href{@corollary-point-counting-zeta-function}{Z(C_0,T)}=\frac{1+3T^2}{(1-T)(1-3T)}.
 $$
 
 The formula predicts $N_2=1+9+6=16$ and $N_3=1+27-0=28$, and direct

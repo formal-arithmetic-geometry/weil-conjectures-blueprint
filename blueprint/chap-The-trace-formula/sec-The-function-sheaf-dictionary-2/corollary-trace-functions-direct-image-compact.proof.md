@@ -14,7 +14,7 @@ scheme of finite type over $\mathbf F_{q^m}$, and its rational points are
 the $x\in X_0(\mathbf F_{q^m})$ with $f_0(x)=y$. Restrict $K$ to its
 geometric fibre $X_{\bar y}$ and give the restriction the [Weil
 structure](@definition-weil-structure) over $\mathbf F_{q^m}$ obtained from the $m$-th iterate of
-$\phi$. By [base change for compact supports](@proposition-composition-base-change-rf-shriek), $(Rf_!K)_{\bar y}$ is
+$\phi$. By [base change for compact supports](@proposition-composition-base-change-rf-shriek), $(\href{@proposition-construction-independence-rf-shriek}{Rf_!K})_{\bar y}$ is
 $R\Gamma_c(X_{\bar y},K|_{X_{\bar y}})$, and
 [$\operatorname{Frob}_{y,m}$](@theorem-grothendieck-lefschetz-trace-formula) is the [geometric Frobenius operator](@definition-frobenius-operator) of
 this [Weil complex](@definition-weil-structure). For finite $A$ this is part (4) of

@@ -12,7 +12,7 @@ finite, integral, rational, algebraic, each case using the
 previous one.
 
 For finite $A$, we apply Theorem [theorem-trace-formula-frobenius-correspondence]
-to $\psi=\phi\kappa_1$. Then Lemma [lemma-scheme-frobenius-geometric-frobenius] identifies [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) with [$\operatorname{Frob}_{X,K}^m$](@definition-frobenius-operator) and, at each fixed
+to $\psi=\phi\href{@lemma-scheme-frobenius-geometric-frobenius}{\kappa_1}$. Then Lemma [lemma-scheme-frobenius-geometric-frobenius] identifies [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) with [$\operatorname{Frob}_{X,K}^m$](@definition-frobenius-operator) and, at each fixed
 point, $\psi_{m,\bar y}$ with $\operatorname{Frob}_{y,m}$. Similarly, for $\mathcal O_E$, composing the [Weil structure](@definition-weil-structure) with
 [$\kappa_1$](@lemma-scheme-frobenius-geometric-frobenius) we get a
 [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\Phi_X^*K\to K$. By the integral form of

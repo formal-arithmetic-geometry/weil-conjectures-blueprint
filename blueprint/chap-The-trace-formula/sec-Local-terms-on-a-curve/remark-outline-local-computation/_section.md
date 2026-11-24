@@ -7,7 +7,7 @@ order = 963
 Let $X_0$ be a smooth curve and $y\in X_0(\mathbf F_{q^m})$. The
 [trace formula](@theorem-trace-formula-frobenius-correspondence) on $\mathbf P^1$ needs Proposition [proposition-frobenius-local-term-curve]
 below, which says that the [local term](@definition-trace-class-local-terms) at $y$ of any morphism
-$\psi:(\Phi_X^m)^*K\to K$ is the naive trace
+$\psi:(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K\to K$ is the naive trace
 [$\operatorname{tr}_A(\psi_{\bar y}\mid K_{\bar y})$](@definition-categorical-trace), also when $K$ is not
 [lisse](@definition-lisse-sheaves) at $y$. To prove it, we filter $K$ by the open complement of $y$ and the point $y$. By [additivity of traces](@proposition-additivity-trace-classes) this reduces the proposition to two cases:
 the point itself, where Lemma [lemma-local-terms-point] applies, and the case
