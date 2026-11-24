@@ -12,5 +12,5 @@ finite. It therefore suffices to show $H^r_c(U,j^*F)=0$ for
 $r\notin\{0,1,2\}$. For $r<0$ there is nothing to prove, and for $r>2$,
 degreewise Poincaré duality
 (Corollary [corollary-degreewise-duality-over-fields], with $d=1$) shows
-that $H^r_c(U,j^*F)$ is dual to $H^{2-r}(U,(j^*F)^\vee(1))$, which is
+that $H^r_c(U,j^*F)$ is dual to $H^{2-r}(U,\href{@definition-tate-twists}{(j^*F)^\vee(1)})$, which is
 zero because $(j^*F)^\vee$ is a sheaf and $2-r<0$.

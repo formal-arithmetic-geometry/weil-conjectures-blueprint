@@ -11,8 +11,8 @@ ignore.
 
 The open curve $U_0$ is again smooth, geometrically connected and
 affine, and Theorem [theorem-weights-sums-squared-traces] on $U_0$ gives
-$\nu(\mathcal G)=w$. Extension by zero only adds zero traces, so
-$\nu(j_!\mathcal G)=w$. The [trace functions](@definition-trace-function) of $j_*$
+$\href{@definition-growth-squared-traces}{\nu(\mathcal G)}=w$. Extension by zero only adds zero traces, so
+$\href{@definition-growth-squared-traces}{\nu(j_!\mathcal G)}=w$. The [trace functions](@definition-trace-function) of $j_*$
 and of the extension by zero differ only at the points of
 $X_0-U_0$, by the [trace function](@definition-trace-function) of the boundary stalks. These stalks
 have [weights at most](@definition-weights) $w$ by
@@ -20,6 +20,6 @@ Proposition [proposition-weights-j-boundary-points], so if $i$
 denotes the inclusion of $X_0-U_0$, then
 Lemma [lemma-bounds-squared-traces](2), applied to the sheaf
 $i_*i^*j_*\mathcal G$, bounds the squared sum of the difference by
-$Cq^{nw}$. Since $\nu(j_!\mathcal G)=w>w-1$,
+$Cq^{nw}$. Since $\href{@definition-growth-squared-traces}{\nu(j_!\mathcal G)}=w>w-1$,
 Lemma [lemma-growth-finite-corrections] shows that
 [$\nu(j_*\mathcal G)$](@definition-growth-squared-traces) is still $w$.

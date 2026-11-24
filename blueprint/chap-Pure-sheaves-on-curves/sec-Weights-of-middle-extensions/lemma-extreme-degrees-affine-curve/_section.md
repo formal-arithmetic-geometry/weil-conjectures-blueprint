@@ -11,7 +11,7 @@ put $V=F_{\bar\eta}$. Then $H_c^i(C,j_*F)=0$ for $i\ne1,2$, and there
 is a canonical identification
 
 $$
-H_c^2(C,j_*F)=V_{\pi_1(U)}(-1).
+H_c^2(C,j_*F)=\href{@definition-tate-twists}{V_{\pi_1(U)}(-1)}.
 $$
 
 If $F$ is [pure](@definition-weights) of weight $w$, the group in degree two, when nonzero,

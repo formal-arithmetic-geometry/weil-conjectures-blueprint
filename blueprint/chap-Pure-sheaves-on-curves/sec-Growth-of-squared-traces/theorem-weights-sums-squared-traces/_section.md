@@ -10,5 +10,5 @@ Let $X_0/\mathbf F_q$ be a smooth geometrically connected affine curve.
 For every nonzero [pure](@definition-weights) [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) $\mathcal G$ of weight $w$,
 
 $$
-\nu(\mathcal G)=w.
+\href{@definition-growth-squared-traces}{\nu(\mathcal G)}=w.
 $$

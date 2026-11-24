@@ -9,5 +9,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $K$ and $L$ be [constructible](@definition-constructible-sheaves) [Weil complexes](@definition-weil-structure) on an affine curve
 $X_0$, and let $a$ be a real number. Suppose that there is a constant
 $C$ with
-$\sum_{x\in X_0(k_n)}|\iota(t_{K,n}-t_{L,n})(x)|^2\le Cq^{na}$ for all
-$n$. If $\max(\nu(K),\nu(L))>a-1$, then $\nu(K)=\nu(L)$.
+$\sum_{x\in X_0(k_n)}|\iota(\href{@definition-growth-squared-traces}{t_{K,n}}-\href{@definition-growth-squared-traces}{t_{L,n}})(x)|^2\le Cq^{na}$ for all
+$n$. If $\max(\href{@definition-growth-squared-traces}{\nu(K)},\href{@definition-growth-squared-traces}{\nu(L)})>a-1$, then $\href{@definition-growth-squared-traces}{\nu(K)}=\href{@definition-growth-squared-traces}{\nu(L)}$.

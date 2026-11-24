@@ -5,7 +5,7 @@ title = "Growth of squared traces (6)"
 order = 1210
 +++
 By counting points, Lemma [lemma-bounds-squared-traces](1) gives
-$\nu\le w$ for a sheaf [pure](@definition-weights) of weight $w$. A priori, however, the squared traces could
+$\href{@definition-growth-squared-traces}{\nu}\le w$ for a sheaf [pure](@definition-weights) of weight $w$. A priori, however, the squared traces could
 be much smaller than this trivial bound, through cancellation among the
 eigenvalues at each point. The next theorem shows that on average they are
 not.
