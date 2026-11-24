@@ -7,7 +7,7 @@ order = 1043
 For the elliptic curve $C_0\colon y^2=x^3-x$ over $\mathbf F_3$,
 geometric Frobenius acts on $H^0(C,\mathbf Q_\ell)=\mathbf Q_\ell$ by $1$ and on
 $H^2(C,\mathbf Q_\ell)=\mathbf Q_\ell(-1)$ by $3$, and $H^1(C,\mathbf Q_\ell)$ is a plane
-(Example [example-running-example-duality]). The point-counting formula reads
+(Example [example-running-example-duality]). The [point-counting formula](@corollary-point-counting-zeta-function) reads
 
 $$
 N_m=1-\operatorname{Tr}\bigl(F^m\mid H^1(C,\mathbf Q_\ell)\bigr)+3^m .

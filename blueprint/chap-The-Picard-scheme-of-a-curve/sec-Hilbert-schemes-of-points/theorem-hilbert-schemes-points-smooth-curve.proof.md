@@ -12,7 +12,7 @@ the finite surjection $C^d\to \operatorname{Hilb}^{d}_{C/k}$.
 
 Every finite set of points of $C$ lies in an affine open. Indeed, if $Q$
 is a closed point outside the set, then $\mathcal O_C(Q)$ has positive
-degree, hence is ample by Riemann–Roch, and so $C\setminus\{Q\}$ is
+degree, hence is ample by [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality), and so $C\setminus\{Q\}$ is
 affine. Hence $\operatorname{Hilb}^{d}_{C/k}$ is represented by a scheme, separated and locally
 of finite type over $k$ [Stacks, [0B9A](https://stacks.math.columbia.edu/tag/0B9A)]. The universal closed subscheme
 is the divisor $D_d$.

@@ -6,9 +6,9 @@ order = 1114
 lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_det_baseChange_iff", "Representation.detWeight_mul_of_mem_ker"]
 uses = ["definition-determinant-weight", "definition-weil-representation"]
 +++
-Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth
+Let $\mathcal V$ be a nonzero [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) of rank $r$ on a smooth
 geometrically connected curve.  Its determinant has finite geometric
-monodromy and is punctually pure of weight
+monodromy and is [punctually pure](@definition-weights) of weight
 $r\operatorname{dw}_\iota(\mathcal V)$. The number
-$\operatorname{dw}_\iota(\mathcal V)$ does not depend on the choice of
+[$\operatorname{dw}_\iota(\mathcal V)$](@definition-determinant-weight) does not depend on the choice of
 $s$ or of a finite coefficient field over which $\mathcal V$ is defined.

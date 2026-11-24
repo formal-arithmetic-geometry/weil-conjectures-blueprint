@@ -16,5 +16,5 @@ Y'&\xrightarrow{g}&Y
 \end{array}
 $$
 
-with $p$ proper. The base change map $g^*Rp_*K\to Rp'_*g'^*K$ is an isomorphism for every
+with $p$ proper. The [base change map](@definition-pro-etale-base-change-map) $g^*Rp_*K\to Rp'_*g'^*K$ is an isomorphism for every
 $K\in\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$.

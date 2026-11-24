@@ -6,7 +6,7 @@ uses = ["theorem-poincare-duality-frobenius", "lemma-logarithm-determinant"]
 +++
 Duality gives the relations $b_{2d-i}=b_i$ and $D^2=q^{d\chi}$. If we substitute
 $1/(q^dT)$ into each factor of the cohomological expression for
-$Z(X_0,T)$, duality turns the factor in degree $i$ into
+[$Z(X_0,T)$](@corollary-point-counting-zeta-function), duality turns the factor in degree $i$ into
 the factor in degree $2d-i$ times an explicit scalar.
 
 We apply Theorem [theorem-poincare-duality-frobenius] with $K=\mathbf Q_\ell$ and $X$ proper.
@@ -22,7 +22,7 @@ $$
 Since $b_{2d-i}=b_i$, the terms of $\chi$ for $i$ and $2d-i$ are equal
 and cancel modulo $2$, so $\chi\equiv b_d\pmod 2$. If $d$ is even,
 $d\chi$ is even anyway. If $d$ is odd,
-the pairing on $H^d$ is perfect and alternating
+the pairing on $H^d$ is [perfect](@definition-perfect-pairing) and alternating
 (Corollary [corollary-cup-product-pairing]; $X$ is connected because
 $X_0$ is geometrically connected), so $b_d$ is even. In
 both cases $d\chi$ is even. Then $\varepsilon^2=1$ because $D^2=q^{d\chi}$.
@@ -38,10 +38,10 @@ $$
 $$
 
 By Corollary [corollary-point-counting-zeta-function], and since $H^i_c=H^i$ as $X_0$ is
-proper, $Z(X_0,T)$ is the product of the
+proper, [$Z(X_0,T)$](@corollary-point-counting-zeta-function) is the product of the
 $\det(1-TF_i)^{(-1)^{i+1}}$. We substitute $1/(q^dT)$ for $T$ and apply
 the last display to each factor. Since $(-1)^i=(-1)^{2d-i}$, the factors
-$\det(1-TF_{2d-i})^{(-1)^{i+1}}$ multiply to $Z(X_0,T)$, and the scalar
+$\det(1-TF_{2d-i})^{(-1)^{i+1}}$ multiply to [$Z(X_0,T)$](@corollary-point-counting-zeta-function), and the scalar
 factors multiply to
 
 $$

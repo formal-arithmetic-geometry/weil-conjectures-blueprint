@@ -13,24 +13,24 @@ one before it.
 
 - Part I (Chapters [chap-The-pro-etale-site]–[chap-Smooth-base-change])
   constructs the six operations for $\ell$-adic coefficients
-  (Theorem [theorem-exceptional-inverse-image]). It ends with smooth base
-  change and the Künneth formula.
+  (Theorem [theorem-exceptional-inverse-image]). It ends with [smooth base
+  change](@theorem-smooth-base-change-all-admissible) and the [Künneth formula](@proposition-ordinary-external-kunneth).
 - Part II (Chapters [chap-Smooth-purity]–[chap-The-trace-formula])
   proves smooth purity
   (Theorem [theorem-smooth-purity-all-admissible-coefficients]), Verdier and
-  Poincaré duality (Theorem [theorem-global-verdier-duality]), which is (c),
-  and the trace formula, which is (b). It ends with rationality and the
-  functional equation. As for (a), the groups $H^i_c$ are finite because
+  [Poincaré duality](@theorem-poincare-duality) (Theorem [theorem-global-verdier-duality]), which is (c),
+  and the [trace formula](@theorem-grothendieck-lefschetz-trace-formula), which is (b). It ends with [rationality](@corollary-point-counting-zeta-function) and the
+  [functional equation](@corollary-functional-equation). As for (a), the groups $H^i_c$ are finite because
   $Rf_!$ preserves constructibility. They vanish outside $[0,2\dim X]$, and
   Theorem [theorem-trace-isomorphism-top-degree] treats the smooth proper
   case used for the Weil conjectures.
 - Part III (Chapters [chap-Weights]–[chap-Proof-of-the-Weil-conjectures])
-  defines weights, proves purity of real sheaves on curves, introduces the
-  Fourier transform and proves the Deligne–Laumon theorem, first on curves and then
-  in general. It ends with the Weil conjectures.
+  defines weights, proves [purity of real sheaves on curves](@theorem-purity-real-sheaves-curves), introduces the
+  Fourier transform and proves the [Deligne–Laumon theorem](@theorem-weights-rf-shriek), first on curves and then
+  in general. It ends with the [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes).
 
 Most appendices prove results from algebraic geometry that the main text
-uses: Nagata compactification and Chow's lemma, abelian varieties, the
+uses: [Nagata compactification](@theorem-nagata-s-compactification-theorem) and [Chow's lemma](@theorem-chow-s-lemma-projective-form), abelian varieties, the
 Picard scheme of a curve, the cohomology of curves with torsion
 coefficients, and facts on algebraic groups. Appendix [chap-Specialization-and-contracting-correspondences]
 is of a different kind. It is not a preliminary but a second, independent

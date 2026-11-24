@@ -4,7 +4,7 @@ of = "proposition-integral-trace-formula"
 order = 1012
 +++
 We show that both sides reduce modulo $\pi_E^n$ to the two sides of
-the finite formula, by identifying the reductions of the complexes, of the
+the [finite formula](@theorem-trace-formula-frobenius-correspondence), by identifying the reductions of the complexes, of the
 operators and of the traces. This suffices, since an element of
 $\mathcal O_E$ that vanishes modulo every $\pi_E^n$ is zero.
 
@@ -22,7 +22,7 @@ $$
 
 Under these isomorphisms the reductions of the integral operators are the operators
 of $\bar\theta_n$, because extension of scalars commutes with the
-pullbacks, with the units defining the endomorphisms $T_{c_m}$, and with
+pullbacks, with the units defining the endomorphisms [$T_{c_m}$](@definition-frobenius-correspondences-their-operators), and with
 composition, and hence with the iterates $\theta_m$. Moreover
 Theorem [theorem-trace-formula-frobenius-correspondence] applies for every $n$,
 because $K_n\in D^b_{\mathrm{ctf}}(X,\mathcal O_E/\pi_E^n)$.
@@ -43,7 +43,7 @@ $P^\bullet\otimes_{\mathcal O_E}\mathcal O_E/\pi_E^n$, as each $P^i$ is finite p
 
 *Conclusion.* The
 reduction of each side of (12.1) is therefore the corresponding
-side of the finite formula for $(K_n,\bar\theta_n)$. Hence the
+side of the [finite formula](@theorem-trace-formula-frobenius-correspondence) for $(K_n,\bar\theta_n)$. Hence the
 difference of the two sides lies in
 $\pi_E^n\mathcal O_E$ for every $n$. It is zero because
 $\mathcal O_E\hookrightarrow\varprojlim_n\mathcal O_E/\pi_E^n$ is

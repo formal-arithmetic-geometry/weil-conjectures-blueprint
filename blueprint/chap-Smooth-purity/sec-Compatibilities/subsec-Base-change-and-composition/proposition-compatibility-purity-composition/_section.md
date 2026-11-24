@@ -6,7 +6,7 @@ order = 801
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "definition-tate-twists", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "theorem-smooth-purity-all-admissible-coefficients", "corollary-dualizing-complex-smooth-scheme", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor"]
 +++
 For every admissible $\Lambda$ and $K\in D^b_{\mathrm{ctf}}(Z,\Lambda)$,
-the map $\gamma_{g\circ f}(K)$ of (9.2) is the composite
+the map [$\gamma_{g\circ f}(K)$](@theorem-smooth-purity-all-admissible-coefficients) of (9.2) is the composite
 
 $$
 \begin{aligned}
@@ -20,5 +20,5 @@ f^!g^!K
 \end{aligned}
 $$
 
-in $D^b_{\mathrm{ctf}}(X,\Lambda)$, where the coefficient $\Lambda$ is omitted
+in [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves), where the coefficient $\Lambda$ is omitted
 from the displayed composite.

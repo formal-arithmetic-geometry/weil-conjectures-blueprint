@@ -5,12 +5,12 @@ title = "Weakly contractible objects (1)"
 order = 74
 +++
 On a topological space we check exactness at points, and on the étale
-site at geometric points. On $X_{\mathrm{pro}\acute{e}t}$, instead, we check exactness, and compute
+site at geometric points. On [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), instead, we check exactness, and compute
 limits and colimits, by evaluating on weakly contractible objects. Over
 these objects we can compute in the ordinary derived categories of
 sheaves of modules by taking sections. Until
 Section [sec-Classical-sheaves], $\mathcal R$ denotes a sheaf of rings on
-$X_{\mathrm{pro}\acute{e}t}$, for instance the pullback of a condensed ring
+[$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), for instance the pullback of a condensed ring
 (Section [sec-Coefficient-rings]).
 
 The main result is
@@ -31,6 +31,6 @@ $W$ split.
 In the simplest case, $X$ a geometric point, the site is that of profinite
 sets (Proposition [proposition-pro-etale-site-separably-closed], proved
 in Subsection [subsec-Condensed-rings] below). The
-weakly contractible affines are then the extremally disconnected ones, among
+weakly contractible affines are then the [extremally disconnected](@definition-w-local-w-strictly-local) ones, among
 them $\beta(T^\delta)$ for a set $T$. Indeed, a surjection of profinite sets
-onto such an $S$ has a section by Gleason's theorem.
+onto such an $S$ has a section by [Gleason's theorem](@proposition-gleason-s-theorem).

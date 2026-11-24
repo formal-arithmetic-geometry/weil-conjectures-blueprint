@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Unbounded complexes (1)"
 order = 156
 +++
-Proper base change needs the comparison with the étale site only for
+[Proper base change](@theorem-proper-base-change-classical-pro) needs the comparison with the étale site only for
 bounded-below complexes. Brown representability, however, takes place in the
 unbounded derived category, so we extend the comparison to unbounded
 complexes. The difficulty is that a morphism from a sheaf into an unbounded

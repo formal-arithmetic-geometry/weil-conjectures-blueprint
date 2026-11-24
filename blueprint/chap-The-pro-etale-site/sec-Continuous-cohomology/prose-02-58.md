@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Continuous cohomology (3)"
 order = 197
 +++
-Applying the Milnor sequence (2.2) to the
+Applying the [Milnor sequence](@proposition-milnor-sequence) (2.2) to the
 tower of complexes $R\Gamma(X_{\mathrm{pro}\acute{e}t},F_n)$ and using the proposition, we
 obtain for every $q$ a natural exact sequence
 

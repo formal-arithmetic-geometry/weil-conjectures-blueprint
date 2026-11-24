@@ -7,16 +7,16 @@ uses = ["proposition-exact-products", "proposition-milnor-sequence", "definition
 We check each isomorphism by Yoneda. After applying
 $\Hom(N,-)$, we identify both sides with the same Hom group by the
 adjunctions and the projection formula. We only have to make sure that the test objects
-$N$ lie in the localizing category on which $Rf_!\dashv f^!$ is defined.
+$N$ lie in the [localizing category](@definition-localizing-subcategory) on which $Rf_!\dashv f^!$ is defined.
 
-The adjunction $Rf_!\dashv f^!$ lives on the localizing
-categories $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ and $\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, and the functors in the argument preserve
-them. Indeed, pullback is exact, preserves direct sums, and carries the constructible generators to constructible objects by
-Proposition [proposition-six-operations-dctf], so it maps $\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$ into
-$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. For the same reasons, tensoring with a fixed constructible complex preserves the localizing category. In particular,
+The adjunction $Rf_!\dashv f^!$ lives on the [localizing
+categories](@definition-localizing-subcategory) [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory) and [$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$](@definition-localizing-subcategory), and the functors in the argument preserve
+them. Indeed, pullback is exact, preserves direct sums, and carries the [constructible](@definition-constructible-sheaves) generators to [constructible](@definition-constructible-sheaves) objects by
+Proposition [proposition-six-operations-dctf], so it maps [$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$](@definition-localizing-subcategory) into
+[$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory). For the same reasons, tensoring with a fixed [constructible complex](@definition-constructible-sheaves) preserves the [localizing category](@definition-localizing-subcategory). In particular,
 for $N\in\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$ the objects $f^*N\otimes^{\mathbf L}K$ and
-$N\otimes^{\mathbf L}Rf_!K$ lie in $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ and
-$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, respectively.
+$N\otimes^{\mathbf L}Rf_!K$ lie in [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory) and
+[$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$](@definition-localizing-subcategory), respectively.
 
 The second step of the computation below is the projection formula
 
@@ -35,9 +35,9 @@ $j_!(M\otimes^{\mathbf L}j^*N)
  \simeq j_!M\otimes^{\mathbf L}N$.
 
 By Proposition [proposition-six-operations-dctf], both $\cHom_Y(Rf_!K,L)$ and
-$Rf_*\cHom_X(K,f^!L)$ belong to $D^b_{\mathrm{ctf}}(Y,\Lambda)$, so we may test the
+$Rf_*\cHom_X(K,f^!L)$ belong to [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves), so we may test the
 comparison map between them by Yoneda inside the full subcategory
-$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$. For every object $N$ of this category we obtain, by the adjunctions and the
+[$\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$](@definition-localizing-subcategory). For every object $N$ of this category we obtain, by the adjunctions and the
 projection formula,
 
 $$
@@ -55,8 +55,8 @@ The composite bijection is induced by the map
 which is (10.2). Taking $L=\omega_Y$ and
 using $f^!\omega_Y=\omega_X$, we get $e_K$.
 For (10.4), on the other hand, note that both $f^!\mathbb D_YL$ and
-$\mathbb D_Xf^*L$ lie in $D^b_{\mathrm{ctf}}(X,\Lambda)$. Since tensoring with
-$f^*L$ preserves $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$, we may test on objects $M$
+$\mathbb D_Xf^*L$ lie in [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves). Since tensoring with
+$f^*L$ preserves [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory), we may test on objects $M$
 of this category:
 
 $$
@@ -72,9 +72,9 @@ $$
 Again, the bijection is induced by the map defined before the lemma, and by Yoneda
 we get (10.4).
 
-The comparison of double-dual maps is used in the proof of biduality for
+The comparison of [double-dual maps](@definition-verdier-dual-evaluation) is used in the proof of [biduality](@theorem-verdier-biduality) for
 $f=a_X$, where it identifies $R\Gamma(X,\delta_K)$
-with the double-dual map of the perfect complex $R\Gamma(X,K)$. Both
+with the [double-dual map](@definition-verdier-dual-evaluation) of the perfect complex $R\Gamma(X,K)$. Both
 maps are determined by pairings, and we compare the pairings.
 For proper $f$ we have
 $Rf_!=Rf_*$, and the isomorphism $e_K$ is adjoint
@@ -87,9 +87,9 @@ Rf_*K\otimes^{\mathbf L}Rf_*\mathbb D_XK
 $$
 
 Using $e_K$ and $e_{\mathbb D_XK}$, we
-view both $Rf_*\delta_K$ and $\delta_{Rf_*K}$ as maps
+view both $Rf_*\delta_K$ and [$\delta_{Rf_*K}$](@definition-verdier-dual-evaluation) as maps
 $Rf_*K\to\mathbb D_YRf_*\mathbb D_XK$. Up to the symmetry of the
-tensor product, both are adjoint to this pairing. Indeed, for $\delta_{Rf_*K}$ this holds because under $e_K$
-evaluation on $Y$ corresponds to the pairing. Similarly, for $Rf_*\delta_K$ it holds because $\delta_K$ is adjoint to evaluation
+tensor product, both are adjoint to this pairing. Indeed, for [$\delta_{Rf_*K}$](@definition-verdier-dual-evaluation) this holds because under $e_K$
+evaluation on $Y$ corresponds to the pairing. Similarly, for $Rf_*\delta_K$ it holds because [$\delta_K$](@definition-verdier-dual-evaluation) is adjoint to evaluation
 on $X$ and $e_{\mathbb D_XK}$ is adjoint
 to the analogous pairing.

@@ -5,5 +5,5 @@ title = "$\\ell$-adic coefficients (4)"
 order = 1019
 +++
 For finite and integral rings, (12.3) is an identity
-of categorical traces of perfect complexes, which makes sense even
+of [categorical traces](@definition-categorical-trace) of perfect complexes, which makes sense even
 when the cohomology modules are not projective.

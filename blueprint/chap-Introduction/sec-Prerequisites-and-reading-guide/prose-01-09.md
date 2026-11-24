@@ -22,7 +22,7 @@ main line:
   (Theorem [theorem-proper-base-change-classical-pro]);
 - Chapter [chap-Constructibility-of-f] on why $f^!$ preserves
   constructibility with torsion coefficients;
-- smooth purity with finite coefficients (Section [sec-The-tensor-product-map]),
+- [smooth purity with finite coefficients](@proposition-smooth-purity-finite-coefficients) (Section [sec-The-tensor-product-map]),
   which is where the twist $(d)$, the shift $[2d]$ and the trace map
   come from;
 - Chapter [chap-Verdier-and-Poincare-duality] on duality;
@@ -34,6 +34,6 @@ main line:
 
 The passages between coefficient rings (most of which are applications of
 Proposition [proposition-isomorphisms-reduce-finite-coefficients]), the coherence of the various
-comparison maps, smooth base change (Chapter [chap-Smooth-base-change]),
+comparison maps, [smooth base change](@theorem-smooth-base-change-all-admissible) (Chapter [chap-Smooth-base-change]),
 and the pro-étale foundations of Chapter [chap-The-pro-etale-site]
 can be read when needed.

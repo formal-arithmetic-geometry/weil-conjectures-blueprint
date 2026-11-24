@@ -21,11 +21,11 @@ Rc_{1!}Ri'_*c_{1Z}^!M
 =Ri_*Rc_{1Z!}c_{1Z}^!M\xrightarrow{Ri_*\varepsilon_{c_{1Z}}}Ri_*M.
 $$
 
-The exceptional adjoint of the pushforward is thus a map
-$\Theta Ri_*M\to Ri_*M$. After applying $i^*$ and the base change
+The exceptional adjoint of the [pushforward](@definition-pushforward-correspondence) is thus a map
+$\Theta Ri_*M\to Ri_*M$. After applying $i^*$ and the [base change](@proposition-composition-base-change-rf-shriek)
 identity $i^*\Theta Ri_*M\simeq Rc_{1Z!}c_{2Z}^*M$, it becomes the
 exceptional adjoint of $u_{|Z}$. By
 Lemma [lemma-lift-correspondence-invariant-decomposition] the same
 holds for $\widehat u_Z$. Since $K_Z=Ri_*M$ and a map into $Ri_*M$ is
-determined by its adjoint under $i^*\dashv Ri_*$, the two correspondences
+determined by its adjoint under $i^*\dashv Ri_*$, the two [correspondences](@definition-correspondence)
 agree.

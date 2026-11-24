@@ -14,5 +14,5 @@ to bound the trace at each of them. Since the support consists of
 finitely many points with finite-dimensional stalks, the sum $c$ of the
 ranks of the stalks of the $\mathcal H^i(K)$ is finite, and at each such
 point the trace has absolute value at most $cq^{na/2}$. For (3),
-the trace of $\mathcal B_b$ at a $k_n$-point is $b^n$, so tensoring by
-$\mathcal B_b$ multiplies $S_n$ by $|\iota(b)|^{2n}=q^{n\lambda_\iota(b)}$.
+the trace of [$\mathcal B_b$](@proposition-weights-under-usual-operations) at a $k_n$-point is $b^n$, so tensoring by
+[$\mathcal B_b$](@proposition-weights-under-usual-operations) multiplies [$S_n$](@definition-growth-squared-traces) by $|\iota(b)|^{2n}=q^{n\lambda_\iota(b)}$.

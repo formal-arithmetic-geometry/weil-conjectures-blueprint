@@ -7,5 +7,5 @@ uses = ["definition-underived-base-change-map", "definition-derived-base-change-
 +++
 Suppose that $g$ in (8.1) is flat and locally of finite
 presentation with geometrically reduced fibres, and that $f$ is qcqs.
-Then the base change map $g^{-1}f_*F_{\acute{e}t}\to f'_*g'^{-1}F_{\acute{e}t}$ is an isomorphism for every sheaf of sets $F_{\acute{e}t}$ on
+Then the [base change map](@definition-underived-base-change-map) $g^{-1}f_*F_{\acute{e}t}\to f'_*g'^{-1}F_{\acute{e}t}$ is an isomorphism for every sheaf of sets $F_{\acute{e}t}$ on
 $X_{\acute{e}t}$.

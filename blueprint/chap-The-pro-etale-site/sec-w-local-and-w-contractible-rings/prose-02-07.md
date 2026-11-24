@@ -19,7 +19,7 @@ constant functions from a profinite set to a separably closed field
 (Example [example-locally-constant-functions-w-local]), which is a family
 of copies of one field indexed by the profinite set. Below we define these
 rings, the w-contractible rings, by a hierarchy of local conditions, and we show that every
-ring has a faithfully flat ind-étale cover by one of them
+ring has a faithfully flat [ind-étale](@definition-ind-etale-pro-etale-weakly) cover by one of them
 (Theorem [theorem-existence-contractible-covers]).
 
 Recall that spectral spaces are quasi-compact and sober, with a basis

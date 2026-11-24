@@ -4,8 +4,8 @@ of = "lemma-uniform-ext-bound"
 order = 448
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "definition-weak-contractibility", "proposition-left-completeness", "corollary-continuity-cohomology", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-flat-models-generators", "lemma-constructible-sheaves", "lemma-integral-models", "lemma-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-comparison-etale-derived-category", "lemma-structure-integral-constructible-complexes", "lemma-extension-scalars-preserves-dctf", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
-We reduce to extensions by zero of lisse sheaves on strata, prove the bound
-for $\Lambda=E$ by choosing lattices, applying
+We reduce to extensions by zero of [lisse sheaves](@definition-lisse-sheaves) on strata, prove the bound
+for $\Lambda=E$ by choosing [lattices](@definition-lattice), applying
 Lemma [lemma-ext-bound-lattices] and inverting $\pi_E$, and reduce
 $\Lambda=\overline{\mathbf Q}_\ell$ to finite extensions of $E$.
 
@@ -20,24 +20,24 @@ for every subquotient of a finite filtration of the target holds for the
 target, with the same value.
 In view of Lemma [lemma-constructible-sheaves](3), we may therefore assume
 $C=a_!L$, with $a=i\circ u:S\hookrightarrow Z\hookrightarrow X$ as in
-Lemma [lemma-sections-support-closed-subscheme] and $L$ lisse. It suffices
+Lemma [lemma-sections-support-closed-subscheme] and $L$ [lisse](@definition-lisse-sheaves). It suffices
 to find an integer $d$, depending only on $a$ and $L$, with
 $\Ext^q(a_!L,b_!M)=0$ for $q>d$, for all locally closed
-$b:T\hookrightarrow X$ and lisse $M$ on $T$. Let
+$b:T\hookrightarrow X$ and [lisse](@definition-lisse-sheaves) $M$ on $T$. Let
 $j:X\setminus Z\hookrightarrow X$ be the open complement of $Z$. When $L$
-contains a lisse $\mathcal O_E$-lattice, we show that
+contains a [lisse](@definition-lisse-sheaves) $\mathcal O_E$-[lattice](@definition-lattice), we show that
 $d=\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ works.
 
 *Lattices.* First take $\Lambda=E$. Since torsion arguments need
-integral structures, we choose lattices. After refining the
+integral structures, we choose [lattices](@definition-lattice). After refining the
 stratifications (Lemma [lemma-lattices-after-finite-stratification]),
-$L$ and $M$ contain lisse $\mathcal O_E$-lattices $L_0$ and $M_0$.
+$L$ and $M$ contain [lisse](@definition-lisse-sheaves) $\mathcal O_E$-[lattices](@definition-lattice) $L_0$ and $M_0$.
 Refining is harmless, because it replaces $a_!L$ and $b_!M$ by finite extensions of sheaves of the same form, and the first step handles finite extensions.
 Moreover, the refinement of the source stratum depends only on $L$, and that of the
 target only on $M$. So the bound obtained for the refined source strata
 is still independent of $N$.
 
-The lattices are locally free of finite rank over $\mathcal O_E$. Indeed,
+The [lattices](@definition-lattice) are locally free of finite rank over $\mathcal O_E$. Indeed,
 being lisse, they are locally of the form
 $\mathcal O_{E,U}\otimes_{\mathcal O_E}P$ with $P$ finitely generated
 (Definition [definition-lisse-sheaves]). As subsheaves of $E$-modules
@@ -46,7 +46,7 @@ now gives $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)=0$ for
 $q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$.
 
 *Inverting $\pi_E$.* Inverting $\pi_E$ is a filtered colimit. By
-continuity of Ext out of $a_!L_0$, the Ext groups over $E$ are therefore
+[continuity of Ext](@lemma-continuity-ext-out-constructible-complex) out of $a_!L_0$, the Ext groups over $E$ are therefore
 colimits of groups that all vanish in the same range. In detail, we have
 $a_!L=a_!L_0[1/\pi_E]$ and
 $b_!M=(b_!M_0)[1/\pi_E]=\varinjlim(b_!M_0\xrightarrow{\pi_E}b_!M_0\xrightarrow{\pi_E}\cdots)$.
@@ -63,18 +63,18 @@ $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. Hence
 (5.1) implies the bound for $E$.
 
 *The case $\Lambda=\overline{\mathbf Q}_\ell$.* The bound for $E$ depends only on the
-strata and on $\operatorname{cd}_\ell$, not on $E$, so it passes to the
+strata and on [$\operatorname{cd}_\ell$](@definition-cohomological-dimension), not on $E$, so it passes to the
 colimit over finite extensions. We first fix everything that depends on
 $L$ alone, before the target is given. By
 Lemma [lemma-descent-lisse-qbar-sheaves-finite], applied to $L$ alone,
-there are a finite extension $E_0/\mathbf Q_\ell$ and a lisse $E_0$-sheaf $L'$ with
+there are a finite extension $E_0/\mathbf Q_\ell$ and a [lisse](@definition-lisse-sheaves) $E_0$-sheaf $L'$ with
 $L=L'_{\overline{\mathbf Q}_\ell}$. After refining $S$
 (Lemma [lemma-lattices-after-finite-stratification]), $L'$ contains a
-lisse $\mathcal O_{E_0}$-lattice $L'_0$. As in the case $\Lambda=E$, the
+[lisse](@definition-lisse-sheaves) $\mathcal O_{E_0}$-[lattice](@definition-lattice) $L'_0$. As in the case $\Lambda=E$, the
 refinement replaces $a_!L$ by a finite extension of sheaves of the same
 form, and it depends only on $L$. For every finite extension
 $E'\supset E_0$, the sheaf $L'_0\otimes_{\mathcal O_{E_0}}\mathcal O_{E'}$
-is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata.
+is a [lisse](@definition-lisse-sheaves) $\mathcal O_{E'}$-[lattice](@definition-lattice) in $(L')_{E'}$ on the same strata.
 The case $\Lambda=E'$ therefore gives
 $\Ext^q_{E'}\bigl((a_!L')_{E'},N'\bigr)=0$ for
 $q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$, for each refined
@@ -84,9 +84,9 @@ $E'$ or on $N'$.
 Now let $b$ and $M$ be given. By
 Lemma [lemma-descent-lisse-qbar-sheaves-finite] again, applied to $M$,
 there are a finite extension $E\supset E_0$ (enlarge the field given by the
-lemma to contain $E_0$) and a lisse $E$-sheaf $M'$ with $M=M'_{\overline{\mathbf Q}_\ell}$.
+lemma to contain $E_0$) and a [lisse](@definition-lisse-sheaves) $E$-sheaf $M'$ with $M=M'_{\overline{\mathbf Q}_\ell}$.
 The field $E$ depends on $M$, but neither the strata of the source nor the
-lattice $L'_0$ do. Then $a_!L=(a_!L')_{\overline{\mathbf Q}_\ell}$ and
+[lattice](@definition-lattice) $L'_0$ do. Then $a_!L=(a_!L')_{\overline{\mathbf Q}_\ell}$ and
 $b_!M=(b_!M')_{\overline{\mathbf Q}_\ell}$, and by
 Lemma [lemma-descent-finite-coefficient-field](1),
 

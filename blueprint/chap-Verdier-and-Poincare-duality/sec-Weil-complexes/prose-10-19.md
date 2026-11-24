@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Weil complexes (1)"
 order = 875
 +++
-The Weil conjectures concern varieties over $\mathbf F_q$, while the six
+The [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes) concern varieties over $\mathbf F_q$, while the six
 operations of Part I live on schemes over the algebraic
 closure. On $X=X_0\times_{\mathbf F_q}k$, what remains of a variety $X_0$
 over $\mathbf F_q$ is an action of Frobenius on $X$ and on every
@@ -23,14 +23,14 @@ be the semilinear automorphism induced by $\sigma$. It is a morphism of
 schemes covering the automorphism $\operatorname{Spec}(\sigma)$ of
 $\operatorname{Spec}k$.
 
-We use $\operatorname{Fr}_T$ to define Weil structures, but we prove the trace formula for the $k$-linear Frobenius
+We use $\operatorname{Fr}_T$ to define Weil structures, but we prove the [trace formula](@theorem-trace-formula-frobenius-correspondence) for the $k$-linear Frobenius
 $\Phi_T=F_{T_0/k_0}\times_{k_0}k$, obtained by base change from the
 relative $q$-power Frobenius of $T_0$, since its graph is a correspondence over $k$.
 The two are compared in Section [sec-Frobenius-correspondences]
 (Lemma [lemma-scheme-frobenius-geometric-frobenius]).
 
 Since $\operatorname{Fr}_T$ is an automorphism of schemes, pullback of
-sheaves of modules along it is exact and preserves derived completeness.
+sheaves of modules along it is exact and preserves [derived completeness](@definition-derived-adic-completeness).
 Hence for every admissible coefficient ring $\Lambda$ it induces an
 autoequivalence
 
@@ -43,10 +43,10 @@ $$
 which agrees with the derived inverse image along $\operatorname{Fr}_T$.
 
 Instead of complexes on $T_0$ pulled back to
-$T$, we keep only the part of that datum that the trace formula sees:
+$T$, we keep only the part of that datum that the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) sees:
 the complex on $T$, where all cohomology is computed, together with an
 identification of it with its Frobenius pullback. Every construction on $T$
-(direct images, $f^!$, truncations, duals) is compatible with such
+(direct images, [$f^!$](@theorem-existence-exceptional-inverse-image), truncations, duals) is compatible with such
 identifications by base change, as we check below, so we never have to descend
 anything to $T_0$.
 

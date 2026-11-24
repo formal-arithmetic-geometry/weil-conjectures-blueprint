@@ -6,8 +6,8 @@ name_showing = false
 order = 1058
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-perfect-complexes-geometric-point"]
 +++
-Let $K$ be a constructible Weil sheaf on $X$, let $x$ be a closed point of
-$X_0$, and let $\alpha$ be an eigenvalue of $\operatorname{Frob}_x$ on
+Let $K$ be a [constructible](@definition-constructible-sheaves) [Weil sheaf](@definition-weil-structure) on $X$, let $x$ be a closed point of
+$X_0$, and let $\alpha$ be an eigenvalue of [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) on
 $K_{\bar x}$. We say $\alpha$ has *$\iota$-weight $w$* if
 $|\iota(\alpha)|=q_x^{w/2}$.
 
@@ -17,13 +17,13 @@ $|\iota(\alpha)|=q_x^{w/2}$.
 2. $K$ is *punctually of weights $\le w$* if
    $|\iota(\alpha)|\le q_x^{w/2}$ for every such eigenvalue at every closed
    point.
-3. $K$ is *$\iota$-mixed* if it has a finite filtration by Weil
-   subsheaves whose nonzero quotients are pure, of possibly different real
+3. $K$ is *$\iota$-mixed* if it has a finite filtration by [Weil
+   subsheaves](@definition-weil-structure) whose nonzero quotients are pure, of possibly different real
    weights. It is *mixed of weights at most $w$*, or has
    *weights at most $w$*, if it has such a filtration whose nonzero
    quotients have weights at most $w$.
 
-A bounded constructible Weil complex $K$ has *weights at most $w$* if
+A bounded [constructible](@definition-constructible-sheaves) [Weil complex](@definition-weil-structure) $K$ has *weights at most $w$* if
 $\mathcal H^i(K)$ has weights at most $w+i$ for all $i$, and it is
 *pure of weight $w$* if each nonzero $\mathcal H^i(K)$ is pure of
 weight $w+i$.

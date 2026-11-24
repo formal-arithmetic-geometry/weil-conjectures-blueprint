@@ -6,7 +6,7 @@ order = 34
 lean = ["AlgebraicGeometry.QuasiCompactCover", "AlgebraicGeometry.Scheme.ProEt", "AlgebraicGeometry.Scheme.ProEt.precoverage", "AlgebraicGeometry.Scheme.ProEt.topology", "AlgebraicGeometry.Scheme.proetalePrecoverage"]
 uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
-The objects of $X_{\mathrm{pro}\acute{e}t}$ are weakly étale $X$-schemes, with all
+The objects of $X_{\mathrm{pro}\acute{e}t}$ are [weakly étale](@definition-ind-etale-pro-etale-weakly) $X$-schemes, with all
 $X$-morphisms as arrows. A family $\{U_i\to U\}_{i\in I}$ is a
 covering if it is an fpqc covering. Explicitly, for every affine open
 $W\subset U$ there must be finitely many indices

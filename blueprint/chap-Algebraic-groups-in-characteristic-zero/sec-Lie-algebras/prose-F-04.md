@@ -9,12 +9,12 @@ We need two facts (Lemma [lemma-stable-subspaces-center]). First, in a
 representation, $G$ and $\mathfrak g$ have the same stable subspaces.
 Second, the Lie algebra of the identity component of the center of $G$ is
 the center of $\mathfrak g$. In the proof of
-Lemma [lemma-identity-component] we compare the monodromy groups
+Lemma [lemma-identity-component] we compare the [monodromy groups](@definition-monodromy-groups)
 through their Lie algebras, and both facts are used there. By the
 first, a representation that is semisimple for $G^\circ$ is semisimple
 for its Lie algebra. This is what lets
 Proposition [proposition-lie-algebras-faithful-semisimple-representation]
-apply to the Weil representation. With the second we translate the
+apply to the [Weil representation](@definition-weil-representation). With the second we translate the
 decomposition of the Lie algebra into the identity
 $G^\circ=Z(G^\circ)^\circ H^\circ$.
 

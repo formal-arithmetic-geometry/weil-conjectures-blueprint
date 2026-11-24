@@ -18,7 +18,7 @@ $$
 
 Since both logarithms have constant coefficient zero and $L$ has
 characteristic zero, we may integrate and exponentiate, and we obtain
-(12.5). For a perfect complex, the categorical trace
+(12.5). For a perfect complex, the [categorical trace](@definition-categorical-trace)
 over a field is the alternating sum of the traces on the finitely many
 nonzero cohomology spaces (Proposition [proposition-properties-trace]), and the
 assertion follows by multiplying the identities for the $H^i(P)$.

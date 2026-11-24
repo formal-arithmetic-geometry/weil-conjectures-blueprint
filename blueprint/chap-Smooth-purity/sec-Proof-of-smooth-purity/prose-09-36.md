@@ -5,5 +5,5 @@ title = "Proof of smooth purity (2)"
 order = 817
 +++
 For the structure morphism of a smooth scheme, Theorem [theorem-smooth-purity-all-admissible-coefficients] computes the
-dualizing complex used in Poincaré duality
+dualizing complex used in [Poincaré duality](@theorem-poincare-duality)
 (Chapter [chap-Verdier-and-Poincare-duality]).

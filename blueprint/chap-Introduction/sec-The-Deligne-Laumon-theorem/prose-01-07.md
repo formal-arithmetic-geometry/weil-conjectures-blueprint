@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The Deligne–Laumon theorem"
 order = 15
 +++
-Part III proves purity. Fix an embedding
+Part III proves [purity](@corollary-purity-cohomology-smooth-proper-variety). Fix an embedding
 $\iota:\overline{\mathbf Q}_\ell\to\mathbf C$, and write $q_x$ for the number of elements of the
 residue field of a closed point $x$ of $X_0$. A Weil sheaf with coefficients
 in $\overline{\mathbf Q}_\ell$ is *pure of weight $w$* if every eigenvalue $\alpha$ of
@@ -22,7 +22,7 @@ if $K$ has weights at most $w$, so does $Rf_!K$ for every morphism $f$ of
 separated $\mathbf F_q$-schemes of finite type. It gives only an upper
 bound. For the constant sheaf on a smooth proper $X_0$, duality supplies
 the lower one. With $f$ the map to a point, the theorem says that the eigenvalues
-on $H^i$ satisfy $|\iota(\alpha)|\le q^{i/2}$. Since Poincaré duality pairs
+on $H^i$ satisfy $|\iota(\alpha)|\le q^{i/2}$. Since [Poincaré duality](@theorem-poincare-duality-frobenius) pairs
 $\alpha$ on $H^i$ with $q^d/\alpha$ on $H^{2d-i}$, the same bound in degree
 $2d-i$ gives $|\iota(\alpha)|\ge q^{i/2}$. The two bounds together are purity.
 Theorem [theorem-weil-conjectures-smooth-proper-schemes] deduces the
@@ -62,7 +62,7 @@ characteristic polynomials of Frobenius on its stalks have real
 coefficients (Definition [definition-real-sheaves]). Its $L$-function is
 the product, over closed points $x$, of the *Euler factors*
 $\det(1-\operatorname{Frob}_x T^{\deg x}\mid\mathcal G_{\bar x})^{-1}$. On an
-affine curve $H^0_c=0$ and $H^i_c=0$ for $i>2$, so the trace formula shows
+affine curve $H^0_c=0$ and $H^i_c=0$ for $i>2$, so the [trace formula](@theorem-trace-formula-euler-product) shows
 that the $L$-function equals $\det(1-TF\mid H^1_c)/\det(1-TF\mid H^2_c)$. Two
 facts make this useful.
 
@@ -148,7 +148,7 @@ $\sqrt q$, that is, weight $0$ to weight $1$. This is the shape of the whole
 argument: first the transform is shown to have a single absolute value (to be
 pure), and then Plancherel finds which one.
 
-Grothendieck's dictionary turns the transform into an operation on sheaves
+[Grothendieck's dictionary](@proposition-function-sheaf-dictionary) turns the transform into an operation on sheaves
 on the affine line. Read the formula for $\hat t$ from the inside out: pull
 $t$ back to the plane along $p_1(x,y)=x$, multiply by the function
 $\psi(xy)$, and sum over the fibres of $p_2(x,y)=y$. Each step is a line of
@@ -198,8 +198,8 @@ twist of $M'$, which is irreducible. So a twist of $M'$ is an irreducible
 constituent of a real sheaf, hence pure by Step 3, and therefore $M'$ is
 pure
 (Proposition [proposition-purity-lisse-part-fourier-transform]). The
-weight of $M'$ is then found from the sheaf version of Plancherel's
-formula, which compares the sums of $|t_M(x)|^2$ and $|t_{M'}(y)|^2$ over
+weight of $M'$ is then found from the [sheaf version of Plancherel's
+formula](@corollary-plancherel), which compares the sums of $|t_M(x)|^2$ and $|t_{M'}(y)|^2$ over
 $\mathbf F_{q^m}$ as $m$ grows: it is $w+1$
 (Theorem [theorem-weight-fourier-transform]). By
 Proposition [proposition-weights-j-boundary-points], the stalk of $j'_*M'$

@@ -11,4 +11,4 @@ prevent their isomorphism classes from forming a sheaf. For this reason
 neither the displayed quotient nor $T\mapsto\operatorname{Pic}(C_T)$ need
 be an fppf sheaf [Stacks, [0B9L](https://stacks.math.columbia.edu/tag/0B9L)]. If $f$ has a section, the next lemma
 describes the sheafification directly. We also write
-$\operatorname{Pic}_{C/S}$ for the Picard scheme when it exists.
+[$\operatorname{Pic}_{C/S}$](@definition-relative-picard-functor) for the [Picard scheme](@definition-relative-picard-functor) when it exists.

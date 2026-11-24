@@ -8,7 +8,7 @@ uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inve
 +++
 For $K\in D^+(X_{\acute{e}t},\Lambda)$ the unit of the adjunction between
 $\nu_X^*:D^+(X_{\acute{e}t},\Lambda)\to D^+(X_{\mathrm{pro}\acute{e}t},\Lambda)$ and
-$R\nu_{X,*}$ is an isomorphism
+[$R\nu_{X,*}$](@proposition-comparison-morphism-inverse-image) is an isomorphism
 
 $$
 K\xrightarrow{\ \sim\ }R\nu_{X,*}\nu_X^*K.

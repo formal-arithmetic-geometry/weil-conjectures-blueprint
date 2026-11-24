@@ -5,7 +5,7 @@ order = 376
 uses = ["theorem-comparison-over-henselian-pair-degree", "lemma-acyclicity-closed-fibre", "definition-compactification-refinement"]
 +++
 We treat sheaves killed by a prime first, where
-Lemma [lemma-acyclicity-closed-fibre] applies, and then reach all torsion
+Lemma [lemma-acyclicity-closed-fibre] applies, and then reach all [torsion](@definition-torsion-sheaves)
 sheaves by extensions, direct sums and filtered colimits.
 
 Suppose first that $\ell F=0$ for a prime $\ell$.  Take an injective resolution
@@ -29,7 +29,7 @@ for which the statement holds form a class closed under extensions. Since a
 sheaf killed by $\ell^a$ has a finite filtration with quotients killed by
 $\ell$, and a sheaf killed by an integer $n$ is the finite direct sum of
 its primary parts, the class contains all sheaves of bounded torsion.
-An arbitrary torsion $F$ is the colimit
+An arbitrary [torsion](@definition-torsion-sheaves) $F$ is the colimit
 $\varinjlim_n F[n]$, with positive integers ordered by divisibility, and the
 comparison passes to this colimit, because the cohomology of the
 quasi-compact quasi-separated schemes $\mathbf P^1_R$ and

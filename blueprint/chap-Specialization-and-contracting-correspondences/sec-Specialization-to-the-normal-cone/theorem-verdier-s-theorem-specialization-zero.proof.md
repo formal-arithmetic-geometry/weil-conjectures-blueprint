@@ -6,7 +6,7 @@ uses = ["lemma-inverse-image-tensor-product", "proposition-construction-independ
 +++
 The main step is that $C_{X,Z}(L)=0$ for every $L\in
 D^b_c(X_{\acute et},A)$, which the last paragraph transports to
-$D^b_{\mathrm{ctf}}$.  We need the vanishing for all bounded constructible
+[$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves).  We need the vanishing for all bounded constructible
 complexes, because the cokernels $j_!G'$ in the dimension shifting of
 Lemma [lemma-vanishing-generic-points-principal-divisor] may have infinite Tor dimension.
 
@@ -16,8 +16,8 @@ replace $X$ by its blow-up $\pi:X'=\operatorname{Bl}_ZX\to X$ along $Z$.
 The reason is that a complex that vanishes on the centre is recovered
 from its pullback to the blow-up, that is, the unit
 $L\to R\pi_*\pi^*L$ is an isomorphism. Indeed, away from $Z$ this holds because
-$\pi$ is an isomorphism there, and on $Z$ it holds because proper base
-change identifies the target with the cohomology of a fibre with zero
+$\pi$ is an isomorphism there, and on $Z$ it holds because [proper base
+change](@theorem-results-from-etale-theory) identifies the target with the cohomology of a fibre with zero
 coefficients.  Using this, the base change isomorphism for proper maps gives
 $C_{X,Z}(L)\simeq C_{X,Z}(R\pi_*\pi^*L)\simeq R\pi_{Z*}C_{X',\pi^{-1}Z}(\pi^*L)$,
 and it suffices to treat the pair $(X',\pi^{-1}Z)$.  Since the pullback
@@ -84,7 +84,7 @@ direct image along a finite map is conservative on complexes with this
 support. Hence $C_{\bar X,\bar Z}(\bar L)=0$, and restriction to $X$
 gives $C_{X,Z}(L)=0$ on the étale site.
 
-By the comparison for finite coefficients, $K$ and its maps
+By the [comparison for finite coefficients](@theorem-comparison-constructible-sheaves), $K$ and its maps
 descend to the classical étale constructible category, where
 $C_{X,Z}$ vanishes.  The comparison is exact and
 fully faithful, and it identifies pullback, proper direct image and

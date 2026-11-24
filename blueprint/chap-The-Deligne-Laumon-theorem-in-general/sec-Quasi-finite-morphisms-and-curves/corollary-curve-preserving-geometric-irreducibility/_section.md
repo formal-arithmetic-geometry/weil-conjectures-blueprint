@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocal
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme of positive
-dimension. Given finitely many geometrically irreducible lisse Weil
-sheaves on $X_0$ and finitely many closed geometric points, there is,
+dimension. Given finitely many geometrically irreducible [lisse](@definition-lisse-sheaves) [Weil
+sheaves](@definition-weil-structure) on $X_0$ and finitely many closed geometric points, there is,
 after a finite extension of the constant field, a smooth geometrically
 connected affine curve through those points on which all the sheaves
 remain geometrically irreducible.

@@ -6,10 +6,10 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 +++
 The exceptional Künneth formula
 (Proposition [proposition-exceptional-external-kunneth]) and the ordinary one
-give Künneth formulas for internal Hom and for Verdier
-duals, and these give the two displayed isomorphisms.
+give Künneth formulas for internal Hom and for [Verdier
+duals](@definition-verdier-dual-evaluation), and these give the two displayed isomorphisms.
 
-*Internal Hom and Verdier duals.*
+*Internal Hom and [Verdier duals](@definition-verdier-dual-evaluation).*
 On the point this is the identity
 $\Hom(V_1,W_1)\otimes\Hom(V_2,W_2)=\Hom(V_1\otimes V_2,W_1\otimes W_2)$
 for finite free modules.
@@ -17,7 +17,7 @@ For $E_i,L_i\in D^b_{\mathrm{ctf}}(X_i,A)$ the external comparison
 $\cHom_A(E_1,L_1)\boxtimes\cHom_A(E_2,L_2)\to
 \cHom_A(E_1\boxtimes E_2,L_1\boxtimes L_2)$ is an isomorphism. By
 dévissage it suffices to check this on generators $E_i=Rh_{i!}F_i$, with $h_i$ the
-inclusion of a stratum and $F_i$ a lisse sheaf with finite projective stalks
+inclusion of a stratum and $F_i$ a [lisse sheaf](@definition-lisse-sheaves) with finite projective stalks
 (Lemma [lemma-flat-models-generators]), for
 which
 
@@ -26,7 +26,7 @@ $$
 \simeq Rh_{i*}(F_i^\vee\otimes^{\mathbf L} h_i^!L_i).
 $$
 
-By the ordinary Künneth formula and $\alpha$, the exterior product of
+By the [ordinary Künneth formula](@proposition-ordinary-external-kunneth) and $\alpha$, the exterior product of
 these expressions is identified with internal Hom on the product. Taking
 $L_i=\omega_{X_i}$ and using $\alpha$ for the structure maps, we get,
 for $M_i\in D^b_{\mathrm{ctf}}(X_i,A)$,
@@ -40,31 +40,31 @@ $$
 The first isomorphism is the sheaf version of
 $\Hom(V,W)\simeq W\otimes V^\vee$, and we obtain it by writing
 internal Hom as a dual of a tensor product. Indeed, for $M\in D^b_{\mathrm{ctf}}(U,A)$, $N\in D^b_{\mathrm{ctf}}(V,A)$ and the projections
-$p_U,p_V$ of $V\times U$, Verdier exchange and biduality let us rewrite
+$p_U,p_V$ of $V\times U$, [Verdier exchange](@corollary-verdier-exchange-formulas) and [biduality](@theorem-verdier-biduality) let us rewrite
 $\cHom_A(p_U^*M,p_V^!N)$ as
 $\mathbb D_{V\times U}(\mathbb D_VN\boxtimes M)$. By the formula for
 duals of exterior products this is
 $N\boxtimes \mathbb D_UM$. Taking $M=N=K$, with the
 factors of the product ordered as above, we obtain the first isomorphism.
-The second isomorphism follows from the canonical exchange of exceptional inverse
-image with Hom, for $P,Q\in D^b_{\mathrm{ctf}}(X\times X,A)$,
+The second isomorphism follows from the canonical exchange of [exceptional inverse
+image](@theorem-existence-exceptional-inverse-image) with Hom, for $P,Q\in D^b_{\mathrm{ctf}}(X\times X,A)$,
 
 $$
 c^!\cHom_A(P,Q)\simeq\cHom_A(c^*P,c^!Q),
 $$
 
 applied to $P=p_2^*K$ and $Q=p_1^!K$. To prove the exchange, we
-use Yoneda inside $\Loc(D^b_{\mathrm{ctf}}(C,A))$, the category on which
+use Yoneda inside [$\Loc(D^b_{\mathrm{ctf}}(C,A))$](@definition-localizing-subcategory), the category on which
 $c_!\dashv c^!$ is defined
 (Theorem [theorem-exceptional-inverse-image]). Test objects in all
-of $D(C_{\mathrm{pro}\acute{e}t},A)$ would not do, since $c^!$ is not defined there. Both
-sides of the exchange lie in $D^b_{\mathrm{ctf}}(C,A)$ by
+of $D(C_{\mathrm{pro}\acute{e}t},A)$ would not do, since [$c^!$](@theorem-existence-exceptional-inverse-image) is not defined there. Both
+sides of the exchange lie in [$D^b_{\mathrm{ctf}}(C,A)$](@definition-constructible-sheaves) by
 Proposition [proposition-six-operations-dctf], so these test objects
 suffice. By Proposition [proposition-comparison-etale-derived-category]
-the localizing categories are $D(C_{\acute{e}t},A)$ and $D((X\times X)_{\acute{e}t},A)$,
-where the projection formula for $c_!$ holds for all objects
-[Stacks, [0GL5](https://stacks.math.columbia.edu/tag/0GL5)], and tensoring with $c^*P$ preserves $\Loc(D^b_{\mathrm{ctf}}(C,A))$.
-For $M$ in $\Loc(D^b_{\mathrm{ctf}}(C,A))$ we obtain
+the [localizing categories](@definition-localizing-subcategory) are $D(C_{\acute{e}t},A)$ and $D((X\times X)_{\acute{e}t},A)$,
+where the projection formula for [$c_!$](@proposition-construction-independence-rf-shriek) holds for all objects
+[Stacks, [0GL5](https://stacks.math.columbia.edu/tag/0GL5)], and tensoring with $c^*P$ preserves [$\Loc(D^b_{\mathrm{ctf}}(C,A))$](@definition-localizing-subcategory).
+For $M$ in [$\Loc(D^b_{\mathrm{ctf}}(C,A))$](@definition-localizing-subcategory) we obtain
 
 $$
 \begin{aligned}

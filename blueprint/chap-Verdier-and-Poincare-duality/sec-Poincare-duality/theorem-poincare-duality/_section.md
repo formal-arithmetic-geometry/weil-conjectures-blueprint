@@ -32,7 +32,7 @@ R\Gamma(X,K^\vee(d))[2d]
 \tag{10.7}
 $$
 
-is perfect, and its adjoint is the canonical isomorphism
+is [perfect](@definition-perfect-pairing), and its adjoint is the canonical isomorphism
 
 $$
 R\Gamma(X,K^\vee(d))[2d]
@@ -43,7 +43,7 @@ $$
 
 If $X$ is proper, $R\Gamma_c$ may be replaced by
 $R\Gamma$. For a map $\Lambda\to\Lambda'$ of admissible coefficient
-rings, the change-of-coefficients isomorphisms of
+rings, the [change-of-coefficients isomorphisms](@definition-change-of-coefficients-maps) of
 Proposition [proposition-six-operations-change-coefficients] for
 $R\Gamma_c$, $R\Gamma$ and $\cHom$ carry
 $\beta_K\otimes^{\mathbf L}_\Lambda\Lambda'$ to $\beta_{K_{\Lambda'}}$,

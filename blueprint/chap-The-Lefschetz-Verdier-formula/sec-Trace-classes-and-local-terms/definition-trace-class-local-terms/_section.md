@@ -5,7 +5,7 @@ title = "Trace class and local terms"
 order = 917
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "definition-correspondence", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
-Let $u:c_2^*K\to c_1^!K$ be a cohomological correspondence on $(X,K)$.
+Let $u:c_2^*K\to c_1^!K$ be a [cohomological correspondence](@definition-correspondence) on $(X,K)$.
 By adjunction, $u$ is a section $A_C\to\mathcal H_c(K)$.
 Its composite with the trace morphism of
 Definition [definition-trace-morphism], transposed by $i_c^*\dashv Ri_{c*}$,

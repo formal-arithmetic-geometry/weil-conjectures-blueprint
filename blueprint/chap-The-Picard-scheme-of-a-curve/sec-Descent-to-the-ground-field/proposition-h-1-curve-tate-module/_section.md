@@ -9,7 +9,7 @@ uses = ["lemma-acyclic-resolutions", "lemma-schematic-closure-uniqueness", "lemm
 In the preceding setting, suppose $\ell$ is invertible in $k$.
 For every $n\geq1$ there is a canonical
 Galois-equivariant isomorphism, with cohomology computed on the
-pro-étale site,
+[pro-étale site](@definition-small-pro-etale-site),
 
 $$
 H^1(C,\mathbf Z/\ell^n(1))

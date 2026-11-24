@@ -7,8 +7,8 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 For composition, the only new ingredient is a map that moves an
 extension by zero past a proper direct image. It is an isomorphism by
 the same argument as for refinements: it restricts to the identity on
-an open, and both sides vanish on the closed complement by proper base
-change. For base change of $Rf_!$ we combine proper base change with the
+an open, and both sides vanish on the closed complement by [proper base
+change](@proposition-proper-base-change-localizing-categories). For base change of [$Rf_!$](@proposition-construction-independence-rf-shriek) we combine [proper base change](@proposition-proper-base-change-localizing-categories) with the
 elementary fact that extension by zero commutes with pullback.
 
 *The composition isomorphism.* Choose compactifications $f=p\circ j$
@@ -36,11 +36,11 @@ $$
 which is the unique map restricting to the identity of $Rp_*M$ over $Y$.
 
 For $M\in D^b_{\mathrm{ctf}}(\overline X,\Lambda)$, this map is an isomorphism. Indeed, over $Y$ it is the identity, and over $\overline Y\setminus Y$ both sides vanish.
-For the right-hand side, the vanishing follows from proper base change on $D^b_{\mathrm{ctf}}$
+For the right-hand side, the vanishing follows from proper base change on [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves)
 (Proposition [proposition-proper-base-change-localizing-categories]) for the inclusion
 of $\overline Y\setminus Y$ into $\overline Y$, since $j'_!M$ vanishes on
 $r^{-1}(\overline Y\setminus Y)=W\setminus\overline X$. Both sides preserve
-direct sums on $\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$
+direct sums on [$\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$](@definition-localizing-subcategory)
 (Proposition [proposition-proper-direct-image-extension-zero]). Hence
 Lemma [lemma-checking-isomorphisms-constructible-complexes] shows that
 $\iota_M$ is an isomorphism for all
@@ -50,7 +50,7 @@ $$
 Rq_*j_{Y!}Rp_*j_!K\simeq Rq_*Rr_*j'_!j_!K=R(qr)_*(j'j)_!K,
 $$
 
-and the right side is $R(gf)_!K$ computed with the compactification
+and the right side is [$R(gf)_!K$](@proposition-construction-independence-rf-shriek) computed with the compactification
 $gf=(qr)\circ(j'j)$.
 
 *Verification of canonicity and associativity.* Every map used is characterized by
@@ -77,17 +77,17 @@ from one for each factor, so we treat $j_!$ and $Rp_*$ separately. Since open im
 morphisms are stable under base change, we may pull back a compactification
 $f=p\circ j$ along $v$ to a compactification $f'=p'\circ j'$, where now
 $j'$ and $p'$ denote the base changes of $j$ and $p$. For $j_!$, extension by zero commutes with inverse image, as shown before the proposition. Combining this with proper base change
-on $\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$
+on [$\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$](@definition-localizing-subcategory)
 (Proposition [proposition-proper-base-change-localizing-categories]),
 we obtain the isomorphism $v^*Rp_*j_!\simeq Rp'_*v'^*j_!\simeq Rp'_*j'_!u^*$
-on $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. This isomorphism is
+on [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory). This isomorphism is
 compatible with change of compactification because the refinement maps are
 characterized by their restriction to the open subscheme.
 It is also compatible with composing two cartesian squares, because both factors are. For the first factor, a map between extensions by zero from an
 open is determined by its restriction to that open, since
-$\Hom(j_!B,j_!B')=\Hom(B,B')$. For the second, a base change map is the adjoint transpose of a counit, and the counit of a composite adjunction
+$\Hom(j_!B,j_!B')=\Hom(B,B')$. For the second, a [base change map](@definition-pro-etale-base-change-map) is the adjoint transpose of a counit, and the counit of a composite adjunction
 is the composite of the counits. Finally, compatibility with the composition isomorphisms of (1) follows in the same way as canonicity: both composites
 are built from refinement maps, maps
-$\iota_M$ and proper base change maps, and
+$\iota_M$ and proper [base change maps](@definition-pro-etale-base-change-map), and
 they agree because their restrictions to the open part are the same
 identity.

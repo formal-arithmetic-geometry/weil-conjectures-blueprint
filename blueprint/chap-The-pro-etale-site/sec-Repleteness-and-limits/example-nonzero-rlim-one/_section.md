@@ -5,8 +5,8 @@ title = "A nonzero $R^1\\varprojlim$"
 order = 93
 +++
 Without surjective transition maps the derived limit can be nonzero in
-degree one. To see this, work over a geometric point and evaluate on the final object, which is weakly
-contractible, so that we may compute with abelian groups. Let $M_n=\mathbf Z$
+degree one. To see this, work over a geometric point and evaluate on the final object, which is [weakly
+contractible](@definition-weak-contractibility), so that we may compute with abelian groups. Let $M_n=\mathbf Z$
 for all $n$, with transition maps multiplication by $\ell$. Then the maps
 $M_n\to\mathbf Z$, $m\mapsto\ell^nm$, form a map to the constant tower
 $\mathbf Z$ whose cokernel is the tower $(\mathbf Z/\ell^n)$. The constant

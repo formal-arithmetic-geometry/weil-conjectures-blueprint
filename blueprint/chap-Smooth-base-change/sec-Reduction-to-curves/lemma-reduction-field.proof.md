@@ -10,7 +10,7 @@ minimal closed subscheme carrying the failure exists by a limit argument,
 and its generic point still carries it. The one nonformal step is the
 third property below, which says that a failure on a scheme is seen either
 on an open subscheme or on its closed complement, and whose proof uses the
-injectivity of the base change map.
+injectivity of the [base change map](@definition-derived-base-change-map).
 
 We first fix notation for the cokernels. Let $T$ be a $Y$-scheme, put
 $T'=Y'\times_YT$, and let $g_T:T'\to T$ be the projection. For a qcqs
@@ -29,8 +29,8 @@ sheaves $N\to N_1$ on $Z'_{\acute{e}t}$ induces $C(h,N)\to C(h,N_1)$, and a morp
 $u:Z''\to Z'$ induces $C(h,N)\to C(hu,u^{-1}N)$, by pulling back along $u$:
 upstairs through $N\to u_*u^{-1}N$ and the edge map
 $R^qh_*u_*\to R^q(hu)_*$, and downstairs in the same way. These pullback maps
-are compatible with the base change maps, and with composition in $u$,
-because base change maps compose [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)].
+are compatible with the [base change maps](@definition-derived-base-change-map), and with composition in $u$,
+because [base change maps](@definition-derived-base-change-map) compose [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)].
 
 Since $\mathrm{BC}(g,n,q)$ fails, there are a $Y$-scheme $T$, a qcqs morphism
 $f:Z\to T$ and a sheaf $M$ of $\mathbf Z/n$-modules on $Z_{\acute{e}t}$ such that
@@ -85,7 +85,7 @@ R^qh'_*\bigl(g_{Z'}^{-1}i_*N\bigr)=R^qh'_*\bigl(i'_*g_W^{-1}N\bigr)
 =R^q(hi)'_*g_W^{-1}N,
 $$
 
-and these identifications are compatible with the base change maps
+and these identifications are compatible with the [base change maps](@definition-derived-base-change-map)
 [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)]. Thus
 $C(h,i_*N)=C(hi,N)$. For $N=i^{-1}M'$ the image of $\xi_{Z'}$ in
 $C(h,i_*i^{-1}M')_{\bar t'}$ becomes $\xi_W$, and so it is nonzero exactly when
@@ -130,7 +130,7 @@ $$
 e:R^qh'_*\bigl(j'_*g_V^{-1}J\bigr)\longrightarrow R^q(h'j')_*g_V^{-1}J
 $$
 
-is injective. Since base change maps compose [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)] and edge
+is injective. Since [base change maps](@definition-derived-base-change-map) compose [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)] and edge
 maps are natural, the square
 
 $$

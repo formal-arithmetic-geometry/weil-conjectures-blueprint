@@ -6,8 +6,8 @@ order = 342
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
 uses = ["definition-derived-base-change-map", "definition-torsion-sheaves"]
 +++
-For a morphism $f:X\to Y$, write $\mathrm{PBC}_{\Lambda}(f)$ if the base change map
+For a morphism $f:X\to Y$, write $\mathrm{PBC}_{\Lambda}(f)$ if the [base change map](@definition-derived-base-change-map)
 (4.3) is an isomorphism
 for every base change
-$g:Y'\to Y$ and every $K\in D^+(X_{\acute{e}t},\Lambda)$ with torsion
+$g:Y'\to Y$ and every $K\in D^+(X_{\acute{e}t},\Lambda)$ with [torsion](@definition-torsion-sheaves)
 cohomology sheaves.

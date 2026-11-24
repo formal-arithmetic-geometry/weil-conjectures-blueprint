@@ -15,7 +15,7 @@ $$
 \kappa_m:(\Phi_X^m)^*K\xrightarrow{\sim}(\operatorname{Fr}_X^m)^*K
 $$
 
-compatible with iteration. For a Weil structure
+compatible with iteration. For a [Weil structure](@definition-weil-structure)
 $\phi:\operatorname{Fr}_X^*K\xrightarrow{\sim}K$, put
 $\psi=\phi\kappa_1$. Then
 
@@ -25,7 +25,7 @@ $$
 $$
 
 where $\operatorname{Frob}_{X,K}$ is the geometric Frobenius operator
-on compact cohomology of
+on [compact cohomology](@proposition-construction-independence-rf-shriek) of
 Definition [definition-frobenius-operator]. The same identity of
 operators holds for an arbitrary morphism $(\operatorname{Fr}_X^m)^*K\to K$ in place
 of $\phi_m$.

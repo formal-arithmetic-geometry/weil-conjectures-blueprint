@@ -14,6 +14,6 @@ $$
 Rf_!=Rp_*\circ j_!:\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))
 $$
 
-is exact, preserves direct sums, and maps $D^b_{\mathrm{ctf}}(X,\Lambda)$ into
-$D^b_{\mathrm{ctf}}(Y,\Lambda)$. Two compactifications give canonically isomorphic
+is exact, preserves direct sums, and maps [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) into
+[$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves). Two compactifications give canonically isomorphic
 functors, and these isomorphisms satisfy the cocycle condition.

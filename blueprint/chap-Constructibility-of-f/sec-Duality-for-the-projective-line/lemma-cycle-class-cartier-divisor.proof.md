@@ -10,7 +10,7 @@ with poles along $D$, reduced modulo $\ell^r$; this extension is the étale
 version of the divisor sequence $0\to\mathcal O_Z\to\mathcal O_Z(D)\to
 \mathcal O_Z(D)|_D\to0$.
 
-We construct $c_D$ in $D(Z_{\acute{e}t},\Lambda)$. The functor $\nu_Z^*$, which
+We construct $c_D$ in $D(Z_{\acute{e}t},\Lambda)$. The functor [$\nu_Z^*$](@proposition-comparison-morphism-inverse-image), which
 commutes with inverse images and with change of coefficients, then
 transports it and its compatibilities to $Z_{\mathrm{pro}\acute{e}t}$.
 

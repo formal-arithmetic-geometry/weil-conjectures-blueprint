@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-change-coefficients-internal-hom"
 order = 644
 +++
-Internal Hom is a right adjoint. As for $f^!$, there is no formal reason
+Internal Hom is a right adjoint. As for [$f^!$](@theorem-existence-exceptional-inverse-image), there is no formal reason
 for it to commute with extension of scalars, and we argue as in the proof
 of Proposition [proposition-six-operations-dctf]. The comparison map for $\cHom(-,L)$ is compatible with triangles in the first argument, so we choose a finite stratification on whose strata $K$ is locally
 $\Lambda_S\otimes P$ with $P$ perfect. By the five lemma and finite cones

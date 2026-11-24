@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Verdier and Poincaré duality"
 order = 822
 +++
-The main estimate in the proof of the Deligne–Laumon theorem, the goal of
+The main estimate in the proof of the [Deligne–Laumon theorem](@theorem-weights-rf-shriek), the goal of
 Part III, is an upper bound: every Frobenius eigenvalue on $H^i$ of a smooth proper variety has
 absolute value at most $q^{i/2}$. The lower bound comes from Weil's axiom (c).
 Suppose that the cup product pairs $H^i$ with $H^{2d-i}$ perfectly and that
@@ -43,15 +43,15 @@ $$
 closed field the first formula, for $a_X$, is global duality,
 $R\Gamma(X,\mathbb D_XK)\simeq R\!\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda)$
 (Theorem [theorem-global-verdier-duality]). For smooth $X$ of pure dimension
-$d$, smooth purity gives $\omega_X\simeq\Lambda_X(d)[2d]$, and global duality
-becomes Poincaré duality: the pairing
+$d$, [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) gives $\omega_X\simeq\Lambda_X(d)[2d]$, and [global duality](@theorem-global-verdier-duality)
+becomes [Poincaré duality](@theorem-poincare-duality): the pairing
 
 $$
 R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,K^\vee(d))[2d]
 \longrightarrow\Lambda,\qquad K^\vee=\cHom(K,\Lambda_X),
 $$
 
-built from evaluation and the trace map, is perfect
+built from evaluation and the [trace map](@definition-trace-map), is perfect
 (Theorem [theorem-poincare-duality]).
 
 For $X$ smooth, proper and connected and $\Lambda$ a field, this will give a
@@ -61,16 +61,16 @@ $H^i\times H^{2d-i}\to\Lambda(-d)$ compatible with Frobenius
 Theorem [theorem-poincare-duality-frobenius] in Section [sec-Weil-complexes]).
 
 What the adjunction does not give is that the pairing is perfect. For that we need
-Verdier biduality: the map $K\to\mathbb D_X\mathbb D_XK$ is an isomorphism for every
+[Verdier biduality](@theorem-verdier-biduality): the map $K\to\mathbb D_X\mathbb D_XK$ is an isomorphism for every
 $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and every admissible $\Lambda$
 (Theorem [theorem-verdier-biduality]). Then $\mathbb D_X$ is an anti-equivalence, and
-applying the first two exchange formulas to $\mathbb D_XK$ gives the other two,
+applying the first two [exchange formulas](@lemma-internal-adjunction-two-exchange-formulas) to $\mathbb D_XK$ gives the other two,
 $\mathbb D_YRf_*\simeq Rf_!\mathbb D_X$ and $\mathbb D_Xf^!\simeq f^*\mathbb D_Y$
 (Corollary [corollary-verdier-exchange-formulas]).
 
-Biduality cannot be proved by dévissage, because dualizing a piece $t_!P$,
-with $P$ locally constant on a smooth stratum $t:T\hookrightarrow X$, twice needs the exchange formula $\mathbb D_XRt_*\simeq t_!\mathbb D_T$, which
-is itself a consequence of biduality (Section [sec-Verdier-biduality]). We argue
+[Biduality](@theorem-verdier-biduality) cannot be proved by dévissage, because dualizing a piece $t_!P$,
+with $P$ locally constant on a smooth stratum $t:T\hookrightarrow X$, twice needs the [exchange formula](@corollary-verdier-exchange-formulas) $\mathbb D_XRt_*\simeq t_!\mathbb D_T$, which
+is itself a consequence of [biduality](@theorem-verdier-biduality) (Section [sec-Verdier-biduality]). We argue
 instead by induction on dimension, restricting to the geometric generic fibre of
 a function, where duality commutes with restriction up to the twist $(1)[2]$
 (Lemmas [lemma-restriction-geometric-generic-fibre]

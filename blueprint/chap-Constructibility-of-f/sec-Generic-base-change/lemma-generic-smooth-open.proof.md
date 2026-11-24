@@ -11,7 +11,7 @@ open [Stacks, [056V](https://stacks.math.columbia.edu/tag/056V)]. By the fibrewi
 points therefore lie in the smooth locus of
 $(X_{S'})_{\mathrm{red}}\to S'$. After shrinking the base once more to
 remove non-dominant components, this smooth locus contains a dense open of
-$(X_{S'})_{\mathrm{red}}$. Since $F$ is constructible, there is a smaller
+$(X_{S'})_{\mathrm{red}}$. Since $F$ is [constructible](@definition-constructible-sheaves), there is a smaller
 dense open $V$ on which the pullback of $F$ is locally constant. Its
 complement contains no generic point of a component of the generic fibre.
 Hence the generic fibre of the complement has dimension less than $n$.

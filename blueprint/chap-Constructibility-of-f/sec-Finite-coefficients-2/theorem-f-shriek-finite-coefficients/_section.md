@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 For every separated morphism $f:X\to Y$ of finite type, the right adjoint
 $f^!:\Loc(D^b_{\mathrm{ctf}}(Y,A))\to\Loc(D^b_{\mathrm{ctf}}(X,A))$ of
-Theorem [theorem-existence-exceptional-inverse-image] maps $D^b_{\mathrm{ctf}}(Y,A)$ into $D^b_{\mathrm{ctf}}(X,A)$.
+Theorem [theorem-existence-exceptional-inverse-image] maps [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves).
 Consequently, its adjunction restricts to
 
 $$

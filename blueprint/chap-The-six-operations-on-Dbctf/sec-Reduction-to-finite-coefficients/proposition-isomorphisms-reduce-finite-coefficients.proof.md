@@ -10,20 +10,20 @@ $\overline{\mathbf Q}_\ell$ as a colimit over finite extensions. We treat them i
 each case using the previous one.
 
 Let $\Lambda=\mathcal O_E$, and put $C=\Cone(\theta(K))$; we must show
-$C=0$. Since the complexes $F(K)$ and $G(K)$ lie in $\Dbc(Y,\mathcal O_E)$, they are derived $\pi_E$-complete by
-Proposition [proposition-integral-constructibility-criterion]. Moreover, derived complete complexes are closed under cones, and so $C$ is derived complete
+$C=0$. Since the complexes $F(K)$ and $G(K)$ lie in [$\Dbc(Y,\mathcal O_E)$](@definition-constructible-sheaves), they are [derived $\pi_E$-complete](@definition-derived-adic-completeness) by
+Proposition [proposition-integral-constructibility-criterion]. Moreover, [derived complete](@definition-derived-adic-completeness) complexes are closed under cones, and so $C$ is [derived complete](@definition-derived-adic-completeness)
 too. Derived Nakayama (Lemma [lemma-reduction-derived-nakayama]) therefore reduces $C=0$ to $C/\pi_E=0$. Now reduction modulo $\pi_E$ is a change of coefficients along $\mathcal O_E\to\mathcal O_E/\pi_E$. By the
 compatibility assumed in the statement, it identifies $\theta(K)/\pi_E$
 with $\theta_{\mathcal O_E/\pi_E}(K/\pi_E)$. This is an isomorphism by the
 hypothesis for finite rings, applied to $A=\mathcal O_E/\pi_E$. Thus
 $C/\pi_E=0$, and so $C=0$. In particular, the case $E=\mathbf Q_\ell$ gives $\Lambda=\mathbf Z_\ell$.
 
-Let $\Lambda=E$. Here completeness is of no help, since a complex over
+Let $\Lambda=E$. Here [completeness](@definition-derived-adic-completeness) is of no help, since a complex over
 $E$ is killed by reduction modulo $\pi_E$. Instead we use integral models.
 Both $F_E$ and $G_E$ are exact and $\theta_E$ is a transformation of exact
 functors. Hence the objects $K$ for which $\theta_E(K)$ is an isomorphism
 form a triangulated subcategory. By Lemma [lemma-integral-models](4),
-every object of $\Dbc(X,E)$ is built by finitely many cones and shifts from
+every object of [$\Dbc(X,E)$](@definition-constructible-sheaves) is built by finitely many cones and shifts from
 objects $K_0[1/\ell]$ with $K_0\in\Dbc(X,\mathcal O_E)$. It therefore
 suffices to treat these. Inverting $\ell$ is the change of coefficients
 along $\mathcal O_E\to E$. By hypothesis, $\theta_E(K_0[1/\ell])$ is

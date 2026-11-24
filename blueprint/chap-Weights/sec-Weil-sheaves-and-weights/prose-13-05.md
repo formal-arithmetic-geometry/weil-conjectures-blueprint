@@ -7,4 +7,4 @@ order = 1062
 Extending scalars is needed for $E$-sheaves. Suppose $2$ is not a square in $\mathbf Q_\ell$. Then the
 rank-two $\mathbf Q_\ell$-sheaf on which Frobenius has eigenvalues $1\pm\sqrt2$ is
 irreducible. Its two eigenvalues have different weights, so it has
-no filtration with pure quotients over $\mathbf Q_\ell$.
+no filtration with [pure](@definition-weights) quotients over $\mathbf Q_\ell$.

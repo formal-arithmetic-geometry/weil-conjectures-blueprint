@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The trace formula"
 order = 13
 +++
-Part II proves Poincaré duality and the trace formula.
+Part II proves [Poincaré duality](@theorem-poincare-duality) and the [trace formula](@theorem-grothendieck-lefschetz-trace-formula).
 Why should the Lefschetz formula hold for Frobenius? For a self-map $\varphi$ of a compact manifold $V$ whose fixed points
 are transverse, the Lefschetz fixed point formula reads
 
@@ -36,7 +36,7 @@ Section [sec-The-Weil-conjectures], where it reads $N_m=1-\operatorname{Tr}(F^m\
 $N_1=4$, the trace of $F$ on $H^1$ is $0$. Duality gives
 $\det(F\mid H^1)=3$, and we recover $Z(C_0,T)=(1+3T^2)/((1-T)(1-3T))$.
 
-We deduce the trace formula, as in SGA 5 [sga5, III, III B, XV], from a general
+We deduce the [trace formula](@theorem-grothendieck-lefschetz-trace-formula), as in SGA 5 [sga5, III, III B, XV], from a general
 Lefschetz formula. A *correspondence* on $X$ is a pair of maps
 $c_1,c_2:C\to X$. For instance, the graph of a map $\varphi$ is a
 correspondence with $c_1=\mathrm{id}$ and $c_2=\varphi$. To act on the
@@ -70,6 +70,6 @@ $K_{\bar y}=0$ (Lemma [lemma-vanishing-local-term-zero-stalk]). (In Chapter [cha
 use instead the transposed graph $\{(F^mx,x)\}$, which is tangent to
 $\{y\}\times X$.)
 
-Curves suffice for the general case. Indeed, the trace formula is
+Curves suffice for the general case. Indeed, the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) is
 compatible with $Rf_!$, and a variety can be fibred in curves over a
 variety of smaller dimension.

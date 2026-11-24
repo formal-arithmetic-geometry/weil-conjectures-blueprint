@@ -25,4 +25,4 @@ $c=\psi(\operatorname{Tr}\langle x-z,y_0\rangle)\ne1$, and
 substituting $y+y_0$ for $y$ multiplies the sum by $\iota(c)$, so the sum is zero.
 Therefore only the diagonal terms remain, and they
 give the asserted identity. On a line, finally, the factor $q^n$ raises
-$\nu$ by one.
+[$\nu$](@definition-growth-squared-traces) by one.

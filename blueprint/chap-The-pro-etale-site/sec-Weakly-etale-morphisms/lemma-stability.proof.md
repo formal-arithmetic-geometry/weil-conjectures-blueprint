@@ -3,8 +3,8 @@ kind = "proof"
 of = "lemma-stability"
 order = 33
 +++
-Since weakly étale means that a morphism and its diagonal are flat,
-each assertion about weakly étale morphisms comes down to writing the
+Since [weakly étale](@definition-ind-etale-pro-etale-weakly) means that a morphism and its diagonal are flat,
+each assertion about [weakly étale](@definition-ind-etale-pro-etale-weakly) morphisms comes down to writing the
 relevant diagonal in terms of diagonals and base changes that we already
 know to be flat.
 
@@ -14,7 +14,7 @@ flat morphisms. Its diagonal $\Delta_{V/X}$ is $\Delta_{V/U}$ followed by
 $V\times_UV\to V\times_XV$, and the second map is a base change of
 $\Delta_{U/X}$. Both maps are flat, and hence so is $\Delta_{V/X}$.
 
-Let $h:U\to V$ be an $X$-morphism between weakly étale $X$-schemes. We
+Let $h:U\to V$ be an $X$-morphism between [weakly étale](@definition-ind-etale-pro-etale-weakly) $X$-schemes. We
 factor $h$ as the graph $U\to U\times_XV$ followed by the projection
 $U\times_XV\to V$. The graph is a base change of the diagonal of $V/X$,
 which is flat, and the projection is a base change of $U\to X$, which is also
@@ -26,17 +26,17 @@ follows from the fact that flatness is Zariski local.
 On affine charts, the diagonal of
 $\operatorname{Spec}(B)\to\operatorname{Spec}(R)$ is the closed immersion
 $\operatorname{Spec}(B)\to\operatorname{Spec}(B\otimes_RB)$ given by the
-multiplication map, so the morphism is weakly étale exactly when
+multiplication map, so the morphism is [weakly étale](@definition-ind-etale-pro-etale-weakly) exactly when
 $R\to B$ and $B\otimes_RB\to B$ are flat. By Zariski locality on source and
-target, this describes weakly étale morphisms on any affine charts.
+target, this describes [weakly étale](@definition-ind-etale-pro-etale-weakly) morphisms on any affine charts.
 
-For ind-étale ring maps, base change is clear because tensor products
+For [ind-étale](@definition-ind-etale-pro-etale-weakly) ring maps, base change is clear because tensor products
 commute with filtered colimits. For composition, let $R\to B$ and $B\to C$
-be ind-étale, with $B=\varinjlim_\alpha B_\alpha$. Each étale
+be [ind-étale](@definition-ind-etale-pro-etale-weakly), with $B=\varinjlim_\alpha B_\alpha$. Each étale
 $B$-algebra $C'$ occurring in a presentation of $C$ is of finite
 presentation over $B$, hence is the base change of an étale algebra
 $C'_\alpha$ over some $B_\alpha$. Since $B_\alpha$ is étale over $R$,
 so is $C'_\alpha$, and $C'$ is the filtered colimit of the étale
 $R$-algebras $C'_\alpha\otimes_{B_\alpha}B_\beta$ for $\beta\geq\alpha$.
-Thus $C$ is a filtered colimit of ind-étale $R$-algebras, and such a
-colimit is again ind-étale [Stacks, [097L](https://stacks.math.columbia.edu/tag/097L)].
+Thus $C$ is a filtered colimit of [ind-étale](@definition-ind-etale-pro-etale-weakly) $R$-algebras, and such a
+colimit is again [ind-étale](@definition-ind-etale-pro-etale-weakly) [Stacks, [097L](https://stacks.math.columbia.edu/tag/097L)].

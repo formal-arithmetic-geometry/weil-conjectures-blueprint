@@ -5,7 +5,7 @@ title = "Growth of squared traces"
 order = 1200
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-trace-function"]
 +++
-Let $K$ be a constructible Weil complex on an affine curve $X_0$. For
+Let $K$ be a [constructible](@definition-constructible-sheaves) [Weil complex](@definition-weil-structure) on an affine curve $X_0$. For
 $n\ge1$ and $x\in X_0(k_n)$, let $\operatorname{Frob}_{x,n}$ be the
 Frobenius acting on the stalk $K_{\bar x}$
 (Theorem [theorem-grothendieck-lefschetz-trace-formula]), and set

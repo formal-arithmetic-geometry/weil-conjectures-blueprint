@@ -5,12 +5,12 @@ order = 995
 uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-sp-unique-adjoint", "lemma-local-terms-point", "definition-pushforward-correspondence", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "lemma-vanishing-local-term-zero-stalk", "theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.
-We split $\psi$ along the localization triangle and compute the two local
-terms separately.
+We split $\psi$ along the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) and compute the two [local
+terms](@definition-trace-class-local-terms) separately.
 
 *Splitting $\psi$.* Both pieces are stable under $\Phi_X^m$, and in
 fact $((\Phi_X^m)^{-1}\{y\})_{\mathrm{red}}=\{y\}$. In the enhanced derived
-category, the functorial localization triangle is a two-step filtered
+category, the functorial [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) is a two-step filtered
 object,
 
 $$
@@ -23,7 +23,7 @@ filtration to the filtration itself, with induced correspondences
 $\psi_U$ and $i_*\psi_{\bar y}$ on the pieces. This rests on two base
 change identities. For the open part,
 $(\Phi_X^m)^*j_!\simeq j_!(\Phi_X^m|_U)^*$ by base change along inverse
-images in the cartesian square. The square for the point, by contrast, is cartesian only after passing to reductions, so there proper base change followed by
+images in the cartesian square. The square for the point, by contrast, is cartesian only after passing to reductions, so there [proper base change](@theorem-proper-base-change-classical-pro) followed by
 nilpotent invariance gives $(\Phi_X^m)^*i_*\simeq i_*(\Phi_X^m|_y)^*$. Both
 comparisons are mates of the adjunction units for $j$ and $i$ used in the
 triangle, which is why the induced maps are compatible with the filtration.
@@ -39,14 +39,14 @@ $$
 +\operatorname{LT}_y(i_*\psi_{\bar y}).
 $$
 
-*The two local terms.* The first term is zero by
+*The two [local terms](@definition-trace-class-local-terms).* The first term is zero by
 Lemma [lemma-vanishing-local-term-zero-stalk], since
 $(K_U)_{\bar y}=0$. For the second, the description of the closed piece
 $u_Z$ in Proposition [proposition-additivity-trace-classes] shows that
-$i_*\psi_{\bar y}$ is the pushforward along $i$ of the cohomological
-correspondence $\psi_{\bar y}$ on $(y,K_{\bar y})$ for the identity
-correspondence of $y$. Its local term is therefore
-$\operatorname{tr}_A(\psi_{\bar y}\mid K_{\bar y})$, the trace on
+$i_*\psi_{\bar y}$ is the [pushforward](@definition-pushforward-correspondence) along $i$ of the [cohomological
+correspondence](@definition-correspondence) $\psi_{\bar y}$ on $(y,K_{\bar y})$ for the identity
+correspondence of $y$. Its [local term](@definition-trace-class-local-terms) is therefore
+[$\operatorname{tr}_A(\psi_{\bar y}\mid K_{\bar y})$](@definition-categorical-trace), the trace on
 the perfect complex $K_{\bar y}$, by the compatibility with proper
 pushforward in Theorem [theorem-proper-pushforward-lefschetz-verdier]
 and Lemma [lemma-local-terms-point].

@@ -14,7 +14,7 @@ $J(\mathbf P^1)=0$ for $g=0$.
 
 On an elliptic curve $E$ with origin $O$ the kernel is as large as the
 curve. Let $\mathcal L$ have degree zero. Then $\mathcal L(O)$ has degree
-one, and by Riemann–Roch with $g=1$ it has a one-dimensional space of
+one, and by [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality) with $g=1$ it has a one-dimensional space of
 sections. Hence $\mathcal L(O)\simeq\mathcal O_E(P)$ for a unique point
 $P$, and $P\mapsto\mathcal O_E(P-O)$ is a bijection
 $E(k)\to\operatorname{Pic}^0(E)$. In particular $\mathcal O_E(P-Q)$ is

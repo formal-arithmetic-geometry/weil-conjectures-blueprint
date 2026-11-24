@@ -11,7 +11,7 @@ $$
 \longrightarrow i_*i^*G\longrightarrow0,
 $$
 
-whose outer terms are mixed by
+whose outer terms are [mixed](@definition-weights) by
 Lemma [lemma-finite-quasi-finite-direct-images], since $j$ and $i$
-are quasi-finite. An extension of mixed sheaves is mixed
+are quasi-finite. An extension of [mixed](@definition-weights) sheaves is [mixed](@definition-weights)
 (Proposition [proposition-weights-under-usual-operations]).

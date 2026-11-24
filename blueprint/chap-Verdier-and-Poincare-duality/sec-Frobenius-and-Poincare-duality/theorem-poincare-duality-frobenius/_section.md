@@ -10,7 +10,7 @@ Let $X_0/\mathbf F_q$ be smooth and separated of pure dimension
 $d$, let $X=X_0\times\overline{\mathbf F}_q$, and let
 $(K,\phi_K)$ be a Weil complex on $X$ (Definition [definition-weil-structure])
 with $K$ locally perfect.
-Equip the dual with the contragredient Weil structure
+Equip the dual with the contragredient [Weil structure](@definition-weil-structure)
 
 $$
 \operatorname{Fr}_X^*K^\vee
@@ -18,8 +18,8 @@ $$
 \xrightarrow{\ (\phi_K^{-1})^\vee\ }K^\vee.
 $$
 
-For every admissible $\Lambda$ the Poincaré pairing $\beta_K$ of (10.7)
-is a morphism of Weil complexes. Thus, with $F$ the Frobenius operators
+For every admissible $\Lambda$ the Poincaré pairing [$\beta_K$](@theorem-poincare-duality) of (10.7)
+is a morphism of [Weil complexes](@definition-weil-structure). Thus, with $F$ the [Frobenius operators](@definition-frobenius-operator)
 defined above, the pairing
 $H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$ satisfies
 $\langle Fx,Fy\rangle=\langle x,y\rangle$, and the pairing

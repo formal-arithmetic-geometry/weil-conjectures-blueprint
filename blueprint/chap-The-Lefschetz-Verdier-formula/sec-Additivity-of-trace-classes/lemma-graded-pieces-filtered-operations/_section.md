@@ -5,7 +5,7 @@ title = "Graded pieces of filtered operations"
 order = 931
 +++
 For finitely filtered complexes $\mathcal M,\mathcal N,\mathcal K$ on $X$
-with graded pieces in $D^b_{\mathrm{ctf}}(X,A)$ there are isomorphisms
+with graded pieces in [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) there are isomorphisms
 
 $$
 \begin{aligned}

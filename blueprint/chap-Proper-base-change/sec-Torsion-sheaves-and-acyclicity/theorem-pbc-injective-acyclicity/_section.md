@@ -8,7 +8,7 @@ uses = ["definition-derived-base-change-map", "definition-torsion-sheaves", "def
 +++
 Let $f:X\to Y$ be proper. The following are equivalent:
 
-- (i) $\mathrm{PBC}_\Lambda(f)$ holds.
+- (i) [$\mathrm{PBC}_\Lambda(f)$](@definition-torsion-pbc-property) holds.
 - (ii) For every sheaf $F$ of $\Lambda$-modules and every base change
   (4.1), the maps
   induced by (4.3) on cohomology sheaves
@@ -16,4 +16,4 @@ Let $f:X\to Y$ be proper. The following are equivalent:
   g^*R^qf_*F\longrightarrow R^qf'_*g'^*F
   $$
   are isomorphisms for all $q\geq0$.
-- (iii) $\mathrm{IA}_\Lambda(f)$ holds.
+- (iii) [$\mathrm{IA}_\Lambda(f)$](@definition-injective-acyclicity) holds.

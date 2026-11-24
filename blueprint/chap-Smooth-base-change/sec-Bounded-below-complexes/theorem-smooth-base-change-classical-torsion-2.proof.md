@@ -7,16 +7,16 @@ uses = ["definition-underived-base-change-map", "lemma-naturality-pasting-compar
 We first treat a single sheaf, where the only point is $\Lambda$-linearity,
 and then pass to complexes by comparing hypercohomology spectral sequences.
 
-For a classical sheaf the assertion is
+For a [classical](@definition-classical-pro-etale-sheaves) sheaf the assertion is
 Theorem [theorem-smooth-base-change-classical-torsion], applied to the underlying
-abelian sheaf, which is killed by $n$. Since the base change map is
+abelian sheaf, which is killed by $n$. Since the [base change map](@definition-pro-etale-base-change-map) is
 constructed from units and counits, it is $\Lambda$-linear, and so it is an
 isomorphism of $\Lambda$-module sheaves.
 
 For a complex, we first note that by
 Theorem [theorem-comparison-direct-images] and
 Corollary [corollary-bounded-below-classical-complexes] the direct and
-inverse images involved are classical, and that
+inverse images involved are [classical](@definition-classical-pro-etale-sheaves), and that
 Lemma [lemma-naturality-pasting-comparison] identifies the comparison
 with (4.5). So we may argue on the étale sites.
 Choose an integer $m$ with $K\in D^{\geq m}$. Since both
@@ -30,11 +30,11 @@ g^*R^pf_*H^q(K),\qquad R^pf'_*g'^*H^q(K),
 \qquad p\geq0,\quad q\geq m,
 $$
 
-and the base change map induces on them the comparison for sheaves, which is an
+and the [base change map](@definition-derived-base-change-map) induces on them the comparison for sheaves, which is an
 isomorphism by the preceding paragraph. Since in each total degree only
 finitely many pairs $(p,q)$ occur, these shifted first quadrant
 spectral sequences converge; this is where we use that $K$ is bounded
 below. A map of convergent spectral sequences that is an isomorphism
-on $E_2$ is an isomorphism on abutments, so the base change map induces
+on $E_2$ is an isomorphism on abutments, so the [base change map](@definition-derived-base-change-map) induces
 isomorphisms $g^*R^if_*K\to R^if'_*g'^*K$ for all $i$, and so it is an
 isomorphism in the derived category.

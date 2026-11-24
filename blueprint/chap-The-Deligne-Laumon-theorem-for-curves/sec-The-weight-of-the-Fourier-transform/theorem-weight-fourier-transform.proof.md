@@ -7,7 +7,7 @@ uses = ["lemma-perfect-complexes-geometric-point", "definition-trace-function", 
 Let $v$ be the weight of $M'$ given by
 Proposition [proposition-purity-lisse-part-fourier-transform].
 Shifts do not change the squared absolute values of traces, and,
-if a nonzero lisse sheaf on a dense open of the line is pure of weight
+if a nonzero [lisse](@definition-lisse-sheaves) sheaf on a dense open of the line is [pure](@definition-weights) of weight
 $u$, then its direct image $j_*$ has $\nu=u$
 (Corollary [corollary-sums-squared-traces-j-shriek]). Applying this
 to $M'$ and to $M$, and using the Plancherel formula
@@ -19,6 +19,6 @@ v=\nu(j'_*M')
 =\nu((j_*M)[1])+1=w+1.
 $$
 
-The first equality holds because $M'$ is pure of weight $v$, the second
-is the defining isomorphism of $M'$, the third is Plancherel, and the
-last holds because $M$ is pure of weight $w$.
+The first equality holds because $M'$ is [pure](@definition-weights) of weight $v$, the second
+is the defining isomorphism of $M'$, the third is [Plancherel](@corollary-plancherel), and the
+last holds because $M$ is [pure](@definition-weights) of weight $w$.

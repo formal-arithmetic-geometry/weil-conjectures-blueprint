@@ -5,41 +5,41 @@ title = "Sheaves of rank one"
 order = 1091
 +++
 Rankin's argument bounds the local eigenvalues of a sheaf by its
-determinant weights, so it needs the determinant of every lisse sheaf to be
-pure (Corollary [corollary-determinant-weights]). Since a determinant has rank
-one, we prove more generally that every rank-one lisse Weil sheaf on a
-smooth geometrically connected curve is pure
+determinant weights, so it needs the determinant of every [lisse](@definition-lisse-sheaves) sheaf to be
+[pure](@definition-weights) (Corollary [corollary-determinant-weights]). Since a determinant has rank
+one, we prove more generally that every rank-one [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) on a
+smooth geometrically connected curve is [pure](@definition-weights)
 (Corollary [corollary-rank-one-weights]), and the later sections
 Sections [sec-Determinant-weights]–[sec-Exterior-powers-and-purity] are
 built on this fact.
 
 In rank one the question is about characters. Let $U_0$ be a smooth
 geometrically connected curve and $s\in W(U_0)$ a lift of Frobenius of
-degree one (Convention [situation-weil]). Then a rank-one lisse Weil sheaf is a
+degree one (Convention [situation-weil]). Then a rank-one [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) is a
 character $\chi:W(U_0)\to E^\times$, continuous on $\pi_1(U)$. If $\chi$
-is trivial on $\pi_1(U)$, the sheaf is one of the sheaves $\mathcal B_b$
+is trivial on $\pi_1(U)$, the sheaf is one of the sheaves [$\mathcal B_b$](@proposition-weights-under-usual-operations)
 with $b=\chi(s)$; at a closed point $x$ its eigenvalue is
-$b^{\deg(x)}$, so it is pure of weight $2\log_q|\iota(b)|$. A Kummer
+$b^{\deg(x)}$, so it is [pure](@definition-weights) of weight $2\log_q|\iota(b)|$. A Kummer
 sheaf is the next simplest case. If $n\mid q-1$, the cover
 $t\mapsto t^n$ of $\mathbf G_m$ is a $\mu_n$-torsor, and so a character of
 $\mu_n(k_0)$ gives a rank-one sheaf on $\mathbf G_{m,k_0}$ whose
 geometric monodromy is cyclic of order dividing $n$. Its eigenvalues
-are values of the character on $\mu_n(k_0)$, hence roots of unity, and it is pure of weight $0$.
+are values of the character on $\mu_n(k_0)$, hence roots of unity, and it is [pure](@definition-weights) of weight $0$.
 
 Up to a twist, every rank-one sheaf behaves like these two. Indeed, by
 Theorem [theorem-rank-one-sheaves-have-finite] the image $\chi(\pi_1(U))$
 is finite. It follows that $\chi(\operatorname{Frob}_x)$ is $\chi(s)^{\deg(x)}$
-times a root of unity, so the sheaf is pure of weight
+times a root of unity, so the sheaf is [pure](@definition-weights) of weight
 $2\log_q|\iota(\chi(s))|$.
 
-Finiteness is a statement about Weil sheaves, because on the
+Finiteness is a statement about [Weil sheaves](@definition-weil-structure), because on the
 geometric curve there are rank-one local systems with infinite
 monodromy. For example, the tame fundamental group of
 $\mathbf G_{m,k}$ has the quotient $\mathbf Z_\ell(1)\simeq\mathbf Z_\ell$, and
 $a\mapsto(1+\ell)^a$ is a character of infinite order. But it has no
-Weil structure. Indeed, a Weil structure forces $\chi(s^{-1}gs)=\chi(g)$ for
-$g\in\pi_1(U)$, while conjugation by $s$ acts on $\mathbf Z_\ell(1)$ by multiplication by
-a power $q^{\pm1}$. A character of $\mathbf Z_\ell(1)$ that extends to the Weil group
+[Weil structure](@definition-weil-structure). Indeed, a [Weil structure](@definition-weil-structure) forces $\chi(s^{-1}gs)=\chi(g)$ for
+$g\in\pi_1(U)$, while conjugation by $s$ acts on [$\mathbf Z_\ell(1)$](@definition-tate-twists) by multiplication by
+a power $q^{\pm1}$. A character of [$\mathbf Z_\ell(1)$](@definition-tate-twists) that extends to the Weil group
 therefore satisfies $\chi(g)^{q-1}=1$, and it has finite order.
 
 The general proof follows the same pattern. Since there is no explicit
@@ -53,7 +53,7 @@ trivial on $\pi_1(U)$.
 
 For a proper curve, Frobenius fixes no class in $H^1$ because the
 Jacobian has only finitely many rational points. If $C_0$ is a proper
-curve with Jacobian $J_0$, Kummer theory and Poincaré duality identify
+curve with Jacobian $J_0$, Kummer theory and [Poincaré duality](@theorem-poincare-duality) identify
 $\varprojlim_nH^1(C,\mathbf Z/\ell^n)$ with the dual of the Tate module
 $T_\ell J$ (Proposition [proposition-kummer-duality-integral-tate-module]). A fixed vector in the
 dual therefore means that $1$ is an eigenvalue of Frobenius on

@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Rational coefficients (1)"
 order = 462
 +++
-On ind-constructible sheaves, $\Ext^q(C,-)$ vanishes above $d_C$ and
+On [ind-constructible sheaves](@definition-ind-constructible-sheaves), $\Ext^q(C,-)$ vanishes above $d_C$ and
 commutes with direct sums (Corollary [corollary-ind-heart-b]). Because
-the bound $d_C$ is uniform, maps from a constructible sheaf $C$ into an
+the bound $d_C$ is uniform, maps from a [constructible sheaf](@definition-constructible-sheaves) $C$ into an
 unbounded complex depend only on its cohomology sheaves in degrees
 $[-d_C,0]$. This is the step that fails over $\mathbf R$ in the example
 at the beginning of this chapter, where

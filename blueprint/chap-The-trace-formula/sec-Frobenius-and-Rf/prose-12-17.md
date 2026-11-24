@@ -4,14 +4,14 @@ kind = "hidden"
 title = "Frobenius and $Rf_!$ (1)"
 order = 999
 +++
-The trace formula with finite coefficients is proved by induction on the
+The [trace formula with finite coefficients](@theorem-trace-formula-frobenius-correspondence) is proved by induction on the
 number of affine coordinates. We project a closed subscheme of
 $\mathbf A^d$ to $\mathbf A^{d-1}$, apply the induction hypothesis to
-$Rf_!K$, and identify each stalk of $Rf_!K$ at a rational point with
+[$Rf_!K$](@proposition-construction-independence-rf-shriek), and identify each stalk of [$Rf_!K$](@proposition-construction-independence-rf-shriek) at a rational point with
 the cohomology of the fibre, a closed subscheme of $\mathbf A^1$ over a
-larger finite field. For this, $Rf_!K$ must carry a Frobenius
-correspondence with two properties: its operator on $R\Gamma_c$ is that of
-$\psi$, and its stalk maps are the Frobenius operators on the cohomology of the
+larger finite field. For this, [$Rf_!K$](@proposition-construction-independence-rf-shriek) must carry a [Frobenius
+correspondence](@definition-frobenius-correspondences-their-operators) with two properties: its operator on $R\Gamma_c$ is that of
+$\psi$, and its stalk maps are the [Frobenius operators](@definition-frobenius-operator) on the cohomology of the
 fibres.
 
 The square formed by $f$ and the two Frobenii commutes, but it is

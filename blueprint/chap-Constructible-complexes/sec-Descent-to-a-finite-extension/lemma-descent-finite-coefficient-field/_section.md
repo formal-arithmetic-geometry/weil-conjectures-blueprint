@@ -15,5 +15,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
    \Hom_{D(X_{\mathrm{pro}\acute{e}t},\overline{\mathbf Q}_\ell)}(C_{\overline{\mathbf Q}_\ell},D_{\overline{\mathbf Q}_\ell}[r]),
    $$
    the colimit running over finite extensions $E'$ of $E$ in $\overline{\mathbf Q}_\ell$.
-2. Every object of $\Dbc(X,\overline{\mathbf Q}_\ell)$ is isomorphic to $K_{\overline{\mathbf Q}_\ell}$ for
+2. Every object of [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is isomorphic to $K_{\overline{\mathbf Q}_\ell}$ for
    some $K\in\Dbc(X,E)$ and some finite $E/\mathbf Q_\ell$.

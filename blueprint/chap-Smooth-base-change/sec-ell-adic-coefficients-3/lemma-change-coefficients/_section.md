@@ -18,9 +18,9 @@ g^*Rf_*(K_{\Lambda'}) @>>> Rf'_*g'^*(K_{\Lambda'})
 \end{CD}
 $$
 
-commutes. Here the upper arrow is the extension of scalars of the base change
-map (4.5) for $K$, the lower arrow is the base change map
+commutes. Here the upper arrow is the extension of scalars of the [base change
+map](@definition-pro-etale-base-change-map) (4.5) for $K$, the lower arrow is the [base change map](@definition-pro-etale-base-change-map)
 for $K_{\Lambda'}$, and the vertical arrows are the composites of the
-change-of-coefficients isomorphisms of
+[change-of-coefficients isomorphisms](@definition-change-of-coefficients-maps) of
 Proposition [proposition-six-operations-change-coefficients] for $g^*$ and
 $Rf_*$, respectively for $Rf'_*$ and $g'^*$.

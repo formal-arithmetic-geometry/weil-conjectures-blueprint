@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Statement (1)"
 order = 726
 +++
-Smooth purity is stated for six kinds of coefficients at once, because the
+[Smooth purity](@theorem-smooth-purity-all-admissible-coefficients) is stated for six kinds of coefficients at once, because the
 proof moves between them: the geometry is done with finite rings, the
 case $\mathcal O_E$ is a limit of finite levels, and the fields are
 obtained by inverting $\ell$. Throughout this chapter $\Lambda$ is an
@@ -31,9 +31,9 @@ makes Poincaré duality compatible with change of coefficients
 (Theorem [theorem-poincare-duality]). Properties (1)
 and (2) involve maps that we define now, for every admissible
 $\Lambda$; the functors are those of
-Theorem [theorem-exceptional-inverse-image], restricted to $D^b_{\mathrm{ctf}}$.
+Theorem [theorem-exceptional-inverse-image], restricted to [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves).
 
-The first map compares $f^!$ before and after a change of base. Let
+The first map compares [$f^!$](@theorem-existence-exceptional-inverse-image) before and after a change of base. Let
 $f:X\to Y$ and $g:Y'\to Y$ be morphisms of separated schemes of finite type
 over $k$, let $X'=X\times_YY'$, and let $f':X'\to Y'$ and $g':X'\to X$ be the
 projections. Write $\varepsilon_f(K):Rf_!f^!K\to K$ for the counit of

@@ -9,7 +9,7 @@ uses = ["definition-derived-base-change-map", "definition-torsion-sheaves"]
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper
 morphism of schemes, and let $g:Y'\to Y$ be arbitrary. Set
 $X'=X\times_YY'$, with projections $f':X'\to Y'$ and $g':X'\to X$.
-Let $K\in D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ have torsion
+Let $K\in D^+_{\mathrm{class}}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ have [torsion](@definition-torsion-sheaves)
 cohomology sheaves (as abelian sheaves). Then the base change map
 (4.5) of Definition [definition-pro-etale-base-change-map]
 

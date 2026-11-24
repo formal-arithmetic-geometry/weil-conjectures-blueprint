@@ -4,4 +4,4 @@ kind = "hidden"
 title = "Reduction to curves (5)"
 order = 683
 +++
-Here $\underline{\mathbf Z/m}$ is the classical constant sheaf.
+Here $\underline{\mathbf Z/m}$ is the [classical](@definition-classical-pro-etale-sheaves) constant sheaf.

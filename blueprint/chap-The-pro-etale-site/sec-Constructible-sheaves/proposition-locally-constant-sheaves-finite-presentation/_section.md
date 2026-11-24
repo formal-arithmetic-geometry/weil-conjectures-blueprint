@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.Scheme.etale_origin_of_finite_models", "AlgebraicGeom
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image"]
 +++
 Every locally constant pro-étale $\Lambda_X$-module sheaf of finite
-presentation is classical. In particular, it has a trivializing étale
-covering, and $\nu_X^*$ identifies the étale local systems of finite
+presentation is [classical](@definition-classical-pro-etale-sheaves). In particular, it has a trivializing étale
+covering, and [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) identifies the étale local systems of finite
 presentation with these pro-étale ones.

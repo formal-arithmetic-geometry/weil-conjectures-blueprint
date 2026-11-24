@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-limits-sections-support"
 order = 442
 +++
-The functor $R\underline\Gamma_Z$ is left $t$-exact because it is right
+The functor [$R\underline\Gamma_Z$](@definition-local-cohomology) is left $t$-exact because it is right
 adjoint to the exact functor $i_*$. Restricting along the open
 immersion $u$ is exact, so $u^*R\underline\Gamma_Z$ is left $t$-exact as
 well.

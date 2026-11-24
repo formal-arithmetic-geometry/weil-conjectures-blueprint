@@ -5,7 +5,7 @@ title = "Classical sheaves (1)"
 order = 110
 +++
 From here until Section [sec-Continuous-cohomology], $\Lambda$ denotes a discrete
-commutative ring and $\Lambda_X$ its constant sheaf on $X_{\mathrm{pro}\acute{e}t}$. To use
+commutative ring and $\Lambda_X$ its constant sheaf on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). To use
 the torsion arguments of étale cohomology, we must know which pro-étale
 sheaves come from étale sheaves. The main result answers this: étale sheaves
 embed fully faithfully, and the essential image consists of the sheaves
@@ -23,6 +23,6 @@ become sections of pro-étale sheaves.
 Proposition [proposition-comparison-morphism-inverse-image] defines
 the pullback $\nu_X^*$ by this rule, and
 Theorem [theorem-classical-sheaves-essential-image] characterizes its
-image by it. The part that is not formal is cohomology, because pro-étale covers
+image by it. The part that is not formal is cohomology, because [pro-étale covers](@definition-small-pro-etale-site)
 are not étale covers. In the next section we show that they create
 no new cohomology classes for classical sheaves.

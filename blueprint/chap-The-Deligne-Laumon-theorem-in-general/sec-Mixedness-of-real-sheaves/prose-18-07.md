@@ -9,8 +9,8 @@ $g_*\mathcal K_\chi$ becomes the direct sum of the Kummer sheaves of
 $\chi$ and $\chi^q$, and either summand gives a filtration as in the
 lemma. Beyond this example, we use the lemma, together with the curves of
 Corollary [corollary-curve-preserving-geometric-irreducibility], to
-prove that real sheaves are mixed
+prove that [real](@definition-real-sheaves) sheaves are [mixed](@definition-weights)
 (Theorem [theorem-real-constructible-sheaves-are-mixed]). In that
-proof, however, the filtrations with pure quotients exist only after a constant
+proof, however, the filtrations with [pure](@definition-weights) quotients exist only after a constant
 extension and only on the pieces of a stratification, so the next two
-lemmas recover mixedness of the original sheaf.
+lemmas recover [mixedness](@definition-weights) of the original sheaf.

@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Representations and filtrations (2)"
 order = 1123
 +++
-By Convention [situation-weil] the Weil representations are the
-lisse Weil $\overline{\mathbf Q}_\ell$-sheaves on $U_0$, and so, by
+By Convention [situation-weil] the [Weil representations](@definition-weil-representation) are the
+[lisse](@definition-lisse-sheaves) Weil $\overline{\mathbf Q}_\ell$-sheaves on $U_0$, and so, by
 Corollary [corollary-determinant-weights], $\pi_1(U)$ acts through a finite group on
-the determinant of every Weil representation. A Weil representation $V$ is
+the determinant of every [Weil representation](@definition-weil-representation). A [Weil representation](@definition-weil-representation) $V$ is
 semisimple if it is a direct sum of simple representations, and the semisimplification $V^{\mathrm{ss}}$ of $V$ is the
 direct sum of its composition factors.
 

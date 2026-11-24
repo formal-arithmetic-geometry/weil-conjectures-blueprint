@@ -22,5 +22,5 @@ $\mathbf P^1$ comes from a line bundle through the Kummer sequence. So both maps
 built from line bundles: the trace comes from $c_1(\mathcal O(1))$, and the
 class of the diagonal comes from the divisor $x_0y_1-x_1y_0=0$.
 
-For every other morphism, we shall compute $f^!$ from this adjunction, from
+For every other morphism, we shall compute [$f^!$](@theorem-existence-exceptional-inverse-image) from this adjunction, from
 $j_!\dashv j^*$ for open immersions and from localization.

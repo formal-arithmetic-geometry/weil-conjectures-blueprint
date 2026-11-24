@@ -5,10 +5,10 @@ title = "A Gauss sum over $\\mathbf F_3$"
 order = 1223
 +++
 Take $q=3$, a primitive cube root of unity $\omega\in\overline{\mathbf Q}_\ell$ and
-$\psi(x)=\omega^x$ on $\mathbf F_3$. Pull $\mathcal L_\psi$ back along
+$\psi(x)=\omega^x$ on $\mathbf F_3$. Pull [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf) back along
 $h:\mathbf A^1\to\mathbf A^1$, $x\mapsto x^2$. By the lemma, the trace
 of Frobenius on the stalk of $h^*\mathcal L_\psi$ at $x\in\mathbf F_3$ is
-$\psi(x^2)$, so the trace formula gives
+$\psi(x^2)$, so the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) gives
 
 $$
 \sum_r(-1)^r\operatorname{Tr}\bigl(F\mid H^r_c(\mathbf A^1_k,h^*\mathcal L_\psi)\bigr)
@@ -16,7 +16,7 @@ $$
 $$
 
 and $(1+2\omega)^2=-3$.
-The sheaf $h^*\mathcal L_\psi$ is lisse of rank one. It is geometrically
+The sheaf $h^*\mathcal L_\psi$ is [lisse](@definition-lisse-sheaves) of rank one. It is geometrically
 nontrivial, since the cover $u^3-u=x^2$ is geometrically irreducible.
 Hence its geometric coinvariants vanish, and $H^0_c=H^2_c=0$
 (Lemma [lemma-extreme-degrees-affine-curve]). The sum is therefore
@@ -50,6 +50,6 @@ by $-(1+2\omega)$. This is a square root of $-3$, and it is one of the two
 reciprocal roots $\pm i\sqrt3$ of $P_1(T)=1+3T^2$ found in the
 introduction. Moreover, the number $1+2\omega=\omega-\omega^2$ is the Gauss sum $g$
 of the quadratic character of $\mathbf F_3$. The classical fact $|g|=\sqrt q$ is
-thus the statement that this $H^1_c$ is pure of weight one.
+thus the statement that this $H^1_c$ is [pure](@definition-weights) of weight one.
 Chapter [chap-The-Deligne-Laumon-theorem-for-curves] proves the analogue for every such
 sheaf.

@@ -19,19 +19,19 @@ $$
 where the last step holds by Proposition [proposition-composition-base-change-rf-shriek]. By the
 Yoneda lemma, $f^!g^!\simeq(gf)^!$. Passing to right adjoints transforms
 the associativity and identity constraints of
-Proposition [proposition-composition-base-change-rf-shriek](1) into those for $f^!$.
+Proposition [proposition-composition-base-change-rf-shriek](1) into those for [$f^!$](@theorem-existence-exceptional-inverse-image).
 
 (2) For an open immersion, $Rj_!=j_!$ (take the trivial compactification
-$p=\mathrm{id}$), and $j_!\dashv j^*$ on the localizing categories; here
-we use that $j^*$ preserves the localizing categories, as inverse images
+$p=\mathrm{id}$), and $j_!\dashv j^*$ on the [localizing categories](@definition-localizing-subcategory); here
+we use that $j^*$ preserves the [localizing categories](@definition-localizing-subcategory), as inverse images
 do (see the proof of Proposition [proposition-proper-base-change-localizing-categories]). By
 uniqueness of right adjoints, $j^!\simeq j^*$.
 
 (3) Since $f\circ u=v\circ f_V$, parts (1) and (2) show that
 $u^*f^!\simeq(fu)^!=(vf_V)^!\simeq f_V^!v^*$. For an open $j:U\to X$,
 parts (1) and (2) also give $j^*f^!\simeq(fj)^!$. These two isomorphisms
-show that $f^!$ is local on $X$ and on $Y$.
+show that [$f^!$](@theorem-existence-exceptional-inverse-image) is local on $X$ and on $Y$.
 
-(4) On $\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$, $j^*$ is right adjoint to $j_!$ and $p^!$
-to $Rp_*=Rp_!$, so $j^*\circ p^!$ and $f^!$ are both right adjoint to
+(4) On [$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$](@definition-localizing-subcategory), $j^*$ is right adjoint to $j_!$ and [$p^!$](@theorem-existence-exceptional-inverse-image)
+to $Rp_*=Rp_!$, so $j^*\circ p^!$ and [$f^!$](@theorem-existence-exceptional-inverse-image) are both right adjoint to
 $Rp_*\circ j_!=Rf_!$, and they are isomorphic by uniqueness of right adjoints.

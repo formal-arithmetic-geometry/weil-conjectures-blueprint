@@ -5,7 +5,7 @@ title = "A Kummer sheaf has no boundary term"
 order = 1278
 +++
 Let $M$ be the Kummer sheaf of a nontrivial character $\chi$ on
-$U_0=\mathbf G_m$. It is irreducible and pure of weight $0$. Since it is tame
+$U_0=\mathbf G_m$. It is irreducible and [pure](@definition-weights) of weight $0$. Since it is tame
 at infinity, it has no geometric constituent $\mathcal L_{\psi(ax)}$,
 and so it satisfies the hypotheses of this section. Inertia at the
 origin acts on $M$ through $\chi$, nontrivially, and hence

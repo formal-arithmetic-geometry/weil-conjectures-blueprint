@@ -5,8 +5,8 @@ title = "Representations and filtrations (3)"
 order = 1126
 +++
 The second fact concerns representations that are not semisimple. A
-nonsplit extension of $\overline{\mathbf Q}_\ell(-1)$ by $\overline{\mathbf Q}_\ell$, such as the twist
-$\mathcal E(-1)$ of the Kummer extension of
+nonsplit extension of [$\overline{\mathbf Q}_\ell(-1)$](@definition-tate-twists) by $\overline{\mathbf Q}_\ell$, such as the twist
+[$\mathcal E(-1)$](@definition-tate-twists) of the Kummer extension of
 Example [example-kummer-extension], does not decompose. Yet the composition
 factors of its tensor and exterior powers are determined by
 those of the sheaf, as the next lemma shows by filtering. This is what

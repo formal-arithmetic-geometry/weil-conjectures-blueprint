@@ -26,4 +26,4 @@ aliases = ["remark-finiteness-small-etale-topoi"]
    $$
    Here $h_0:Y_0=Y\times_{\mathbf P^1_R}\mathbf P^1_\kappa\to \mathbf P^1_\kappa$ and
    $i_Y:Y_0\to Y$ are the base changes of $h$ and $i$, and the second
-   map is the underived base change map (4.2).
+   map is the [underived base change map](@definition-underived-base-change-map) (4.2).

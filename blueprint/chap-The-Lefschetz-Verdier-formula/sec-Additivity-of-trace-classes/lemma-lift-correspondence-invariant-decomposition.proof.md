@@ -4,8 +4,8 @@ of = "lemma-lift-correspondence-invariant-decomposition"
 order = 938
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-construction-independence-rf-shriek"]
 +++
-By the hypothesis $c_1^{-1}(Z)\subset c_2^{-1}(Z)$, base change of
-$Rc_{1!}$ along $i$, and the adjunction $i^*\dashv Ri_*$, we have
+By the hypothesis $c_1^{-1}(Z)\subset c_2^{-1}(Z)$, [base change](@proposition-composition-base-change-rf-shriek) of
+[$Rc_{1!}$](@proposition-construction-independence-rf-shriek) along $i$, and the adjunction $i^*\dashv Ri_*$, we have
 
 $$
 i^*\Theta K_U=0,\qquad
@@ -29,7 +29,7 @@ $$
 
 Since this cofibre includes the homotopy, it is a morphism in the filtered derived
 category, and its adjoint under the filtered adjunction
-$Rc_{1!}\dashv c_1^!$ is the lift $\tilde u$. By base change, composition
+$Rc_{1!}\dashv c_1^!$ is the lift $\tilde u$. By [base change](@proposition-composition-base-change-rf-shriek), composition
 and nilpotent invariance (which lets us use the reduced scheme $C_Z$),
 
 $$

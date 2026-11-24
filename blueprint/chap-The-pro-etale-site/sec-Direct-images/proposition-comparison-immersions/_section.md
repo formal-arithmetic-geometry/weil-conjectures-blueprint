@@ -19,12 +19,12 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
    $D^+(Z_{\acute{e}t},\Lambda)\to D^+(X_{\mathrm{pro}\acute{e}t},\Lambda)$, and
    $i_{\mathrm{pro}\acute{e}t}^*\nu_X^*\simeq\nu_Z^*i_{\acute{e}t}^*$. For $K\in D^+(X_{\acute{e}t},\Lambda)$,
    these isomorphisms and (2.10) carry
-   $\nu_X^*$ of the localization triangle
+   [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) of the localization triangle
    $j_{\acute{e}t,!}j_{\acute{e}t}^*K\to K\to Ri_{\acute{e}t,*}i_{\acute{e}t}^*K\to$ to a distinguished
    triangle
    $j_{\mathrm{pro}\acute{e}t,!}j_{\mathrm{pro}\acute{e}t}^*\nu_X^*K\to\nu_X^*K\to Ri_{\mathrm{pro}\acute{e}t,*}i_{\mathrm{pro}\acute{e}t}^*\nu_X^*K\to$
    whose first two maps are the counit and the unit of the adjunctions
-   $j_!\dashv j^*$ and $i^*\dashv Ri_*$ on $X_{\mathrm{pro}\acute{e}t}$.
+   $j_!\dashv j^*$ and $i^*\dashv Ri_*$ on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
 3. Let $f:X\to Y$ be a separated morphism of finite type with a
    factorization $f=\bar f\circ j$, where $j$ is an open immersion and
    $\bar f$ is proper. Then there is a canonical isomorphism

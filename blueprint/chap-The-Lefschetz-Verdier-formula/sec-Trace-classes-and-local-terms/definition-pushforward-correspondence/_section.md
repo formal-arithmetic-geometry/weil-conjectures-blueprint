@@ -6,9 +6,9 @@ order = 924
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "definition-correspondence", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $f:X\to Y$ and $g:C\to C'$ be proper morphisms, and let
-$c'=(c'_1,c'_2):C'\to Y\times Y$ be a correspondence with $c'_ig=fc_i$ for
-$i=1,2$. Put $K'=Rf_*K\in D^b_{\mathrm{ctf}}(Y,A)$. For a cohomological
-correspondence $u$ on $(X,K)$, the *pushforward*
+$c'=(c'_1,c'_2):C'\to Y\times Y$ be a [correspondence](@definition-correspondence) with $c'_ig=fc_i$ for
+$i=1,2$. Put $K'=Rf_*K\in D^b_{\mathrm{ctf}}(Y,A)$. For a [cohomological
+correspondence](@definition-correspondence) $u$ on $(X,K)$, the *pushforward*
 $u':c_2'^*K'\to c_1'^!K'$ of $u$ is the composite
 $u'=\beta\,Rg_*u\,\alpha$, where $\alpha$ is built from the unit and counit
 of $(\,)^*\dashv R(\,)_*$,
@@ -26,7 +26,7 @@ Rc'_{1!}Rg_*c_1^!K\simeq Rf_*Rc_{1!}c_1^!K
 \xrightarrow{Rf_*\varepsilon_{c_1}}Rf_*K.
 $$
 
-The map $g$ induces a proper morphism $h:\Fix(c)\to \Fix(c')$ of fixed loci,
+The map $g$ induces a proper morphism $h:\Fix(c)\to \Fix(c')$ of [fixed loci](@definition-correspondence),
 and $h_*:H^0(\Fix(c),\omega_{\Fix(c)})\to H^0(\Fix(c'),\omega_{\Fix(c')})$ denotes the
 map given by the ordinary unit, proper pushforward and the exceptional
 counit.

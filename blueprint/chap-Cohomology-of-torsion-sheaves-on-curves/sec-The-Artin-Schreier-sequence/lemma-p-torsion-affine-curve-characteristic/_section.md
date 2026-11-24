@@ -6,7 +6,7 @@ order = 1592
 uses = ["definition-relative-picard-functor"]
 +++
 If $U$ is affine over an algebraically closed field $k$ of
-characteristic $p$, then, for the classical constant sheaf $\mathbf F_p$ and
+characteristic $p$, then, for the [classical](@definition-classical-pro-etale-sheaves) constant sheaf $\mathbf F_p$ and
 $\varphi(a)=a^p$ on $\Gamma(U,\mathcal O_U)$, we have
 
 $$

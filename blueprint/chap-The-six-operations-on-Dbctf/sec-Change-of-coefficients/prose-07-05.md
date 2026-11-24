@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Change of coefficients (3)"
 order = 633
 +++
-The map for $f^!$ is defined in the same way, as the transpose of a
+The map for [$f^!$](@theorem-existence-exceptional-inverse-image) is defined in the same way, as the transpose of a
 counit, once we know that (5) is an isomorphism; see
 (7.1) below. We now show, one
-operation at a time, that these maps are isomorphisms on $D^b_{\mathrm{ctf}}$.
+operation at a time, that these maps are isomorphisms on [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves).
 
 In the lemmas below it suffices to treat the maps in items (1)–(3) of the
 list of coefficient maps, that is, all maps except composites. Indeed,

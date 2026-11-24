@@ -36,9 +36,9 @@ $$
 $$
 
 To obtain it with the correct twist and Frobenius action, we use the
-dualizing complexes.  By transitivity, $i^!\omega_C=\omega_D=A_n$.
+[dualizing complexes](@definition-verdier-dual-evaluation).  By transitivity, $i^!\omega_C=\omega_D=A_n$.
 Since $\omega_C=A_n(1)[2]$, it follows that
-$i^!A_{n,C}=A_{n,D}(-1)[-2]$.  The localization triangle
+$i^!A_{n,C}=A_{n,D}(-1)[-2]$.  The [localization triangle](@lemma-local-cohomology-right-adjoint)
 $i_*i^!A_{n,C}\to A_{n,C}\to Rj_*A_{n,U}$ now yields the displayed
 sequence, and all its maps are natural in the coefficients and under
 automorphisms of the model.
@@ -64,7 +64,7 @@ $$
 $$
 
 The $\varprojlim^1$-term vanishes because the groups $H^0(U,A_n)=A_n$
-have surjective transition maps.  On $U_{\mathrm{pro}\acute{e}t}$ the sheaf $\mathbf Q_\ell$ is
+have surjective transition maps.  On [$U_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) the sheaf $\mathbf Q_\ell$ is
 $\mathbf Z_\ell[1/\ell]$ (Lemma [lemma-comparison-completed-coefficients]), a filtered
 colimit of copies of $\mathbf Z_\ell$, and cohomology on the quasi-compact and
 quasi-separated scheme $U$ commutes with filtered colimits of sheaves

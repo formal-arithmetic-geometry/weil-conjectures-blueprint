@@ -5,13 +5,13 @@ title = "The base change map (4)"
 order = 318
 +++
 The derived adjunction exists because inverse image is exact and its
-right adjoint preserves injectives. Note that the construction of the base change
-map uses only that the square commutes; the cartesian hypothesis
+right adjoint preserves injectives. Note that the construction of the [base change
+map](@definition-derived-base-change-map) uses only that the square commutes; the cartesian hypothesis
 is needed only when we ask whether the map is an isomorphism.
 
 To compute (4.3), choose a bounded below
 injective resolution $K\to I^\bullet$ and an injective replacement
-$g'^*I^\bullet\to J^\bullet$. Then the base change map is represented by the
+$g'^*I^\bullet\to J^\bullet$. Then the [base change map](@definition-derived-base-change-map) is represented by the
 morphism of complexes
 
 $$
@@ -21,7 +21,7 @@ f'_*g'^*I^\bullet\longrightarrow f'_*J^\bullet.
 \tag{4.4}
 $$
 
-Here the first arrow is the underived base change map in each degree. By
+Here the first arrow is the [underived base change map](@definition-underived-base-change-map) in each degree. By
 exactness of $g^*$ the source is $g^*Rf_*K$, and the last complex
 computes $Rf'_*g'^*K$. The formula does not depend on the choices,
 since comparison maps between injective resolutions
@@ -30,5 +30,5 @@ under adjunction the first arrow corresponds to the square isomorphism
 followed by the counit, and the replacement map is the canonical passage
 to the derived direct image.
 
-Base change maps for composite squares are composites of base change
-maps.
+[Base change maps](@definition-derived-base-change-map) for composite squares are composites of [base change
+maps](@definition-derived-base-change-map).

@@ -5,8 +5,8 @@ order = 278
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "definition-local-cohomology", "lemma-local-cohomology-right-adjoint", "proposition-sp-unique-adjoint"]
 +++
 Lemma [lemma-local-cohomology-right-adjoint] gives the adjunction
-between $i_*$ and $R\underline\Gamma_Z$ on derived categories. What is new
-here is that $R\underline\Gamma_Z$ is the right derived functor of
+between $i_*$ and [$R\underline\Gamma_Z$](@definition-local-cohomology) on derived categories. What is new
+here is that [$R\underline\Gamma_Z$](@definition-local-cohomology) is the right derived functor of
 $\underline\Gamma_Z$, and this upgrades the adjunction to $R\!\operatorname{Hom}$ complexes
 and yields formula (3.1). For this we show two things:
 $\underline\Gamma_Z$ is right adjoint to the exact functor $i_*$ on
@@ -59,7 +59,7 @@ $\underline\Gamma_Z(I^\bullet)$ with $i^*\fib(K\to Rj_*j^*K)$.
 
 *Part (1).* With $I^\bullet$ as above, the complex
 $\underline\Gamma_Z(I^\bullet)$ is K-injective by the adjunction on
-sheaves, and it represents $R\underline\Gamma_ZK$ by the comparison with
+sheaves, and it represents [$R\underline\Gamma_ZK$](@definition-local-cohomology) by the comparison with
 the fibre. The adjunction on complexes therefore gives
 
 $$

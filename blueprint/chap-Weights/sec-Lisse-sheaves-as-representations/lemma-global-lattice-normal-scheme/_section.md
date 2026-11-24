@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.exists_isTwistedSection_compactOpenLattice_of_connect
 uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a
-field, and let $E/\mathbf Q_\ell$ be finite. Every lisse $E_X$-module $L$, in the
+field, and let $E/\mathbf Q_\ell$ be finite. Every [lisse](@definition-lisse-sheaves) [$E_X$](@lemma-comparison-completed-coefficients)-module $L$, in the
 pro-étale coefficient category of Section [sec-Coefficient-rings],
-contains a lisse $\mathcal O_{E,X}$-submodule $M$ with $M[1/\ell]=L$. The
+contains a [lisse](@definition-lisse-sheaves) [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-submodule $M$ with $M[1/\ell]=L$. The
 reductions $M_n=M/\pi_E^nM$ are finite locally constant étale sheaves,
 and $M\simeq\varprojlim_nM_n$.

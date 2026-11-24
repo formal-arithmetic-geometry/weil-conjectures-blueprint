@@ -14,5 +14,5 @@ algebraically closed field
 all on the étale sites, carry out this reduction step by step.
 
 We argue by contradiction rather than by dévissage, because a nonzero
-cokernel of the base change map can be transported along an embedding of
+cokernel of the [base change map](@definition-derived-base-change-map) can be transported along an embedding of
 coefficient sheaves $M\hookrightarrow N$, whereas an isomorphism cannot.

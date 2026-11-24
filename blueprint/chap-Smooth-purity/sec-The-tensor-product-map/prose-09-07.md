@@ -5,16 +5,16 @@ title = "The tensor product map"
 order = 736
 +++
 With finite coefficients, smooth purity says that for $f$ smooth of pure
-relative dimension $d$ the exceptional inverse image $f^!$ is the ordinary
-inverse image, twisted by $(d)$ and shifted by $[2d]$
+relative dimension $d$ the [exceptional inverse image $f^!$](@theorem-existence-exceptional-inverse-image) is the ordinary
+inverse image, twisted by [$(d)$](@definition-tate-twists) and shifted by $[2d]$
 (Proposition [proposition-smooth-purity-finite-coefficients]). The
 first step is the map $f^*K\otimes^{\mathbf L}\omega_f\to f^!K$, an isomorphism by
 Proposition [proposition-exceptional-inverse-image-smooth-morphism](2),
-which reduces the problem to the single complex $\omega_f$.
+which reduces the problem to the single complex [$\omega_f$](@definition-relative-dualizing-complex).
 
 Fix $n\geq1$. We carry out the geometric calculation with
 coefficients $\mathbf Z/\ell^n\mathbf Z$, and until Section [sec-ell-adic-coefficients-4] we
-omit the subscript, so that $f^*$, $Rf_!$, $f^!$, $\omega_f$ and $\gamma_f$
+omit the subscript, so that $f^*$, [$Rf_!$](@proposition-construction-independence-rf-shriek), [$f^!$](@theorem-existence-exceptional-inverse-image), [$\omega_f$](@definition-relative-dualizing-complex) and [$\gamma_f$](@theorem-smooth-purity-all-admissible-coefficients)
 refer to this cyclic coefficient ring. Afterwards the calculation extends along
 $\mathbf Z/\ell^n\mathbf Z\to A$ when $\ell^nA=0$, and in this way
 Proposition [proposition-smooth-purity-finite-coefficients] gives the
@@ -33,7 +33,7 @@ $$
 \tag{9.4}
 $$
 
-To construct the orientation, we compare $\omega$ on the fibres of a family of
+To construct the orientation, we compare [$\omega$](@definition-relative-dualizing-complex) on the fibres of a family of
 sections, and for this we need base change. Consider a cartesian square
 
 $$
@@ -49,7 +49,7 @@ with $f$ smooth of pure relative dimension $d$. For it we have the exceptional
 base change map of Definition [definition-exceptional-base-change-map].
 By Proposition [proposition-exceptional-inverse-image-smooth-morphism](2) and (3), with
 $\Lambda=\mathbf Z/\ell^n\mathbf Z$, the map (9.4)
-and the exceptional base change map
+and the [exceptional base change map](@definition-exceptional-base-change-map)
 
 $$
 g'^{*}f^{!}K\xrightarrow{\sim}(f')^{!}g^{*}K

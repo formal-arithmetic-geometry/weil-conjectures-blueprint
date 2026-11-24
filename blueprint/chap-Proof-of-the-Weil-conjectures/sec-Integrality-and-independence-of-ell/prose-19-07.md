@@ -5,9 +5,9 @@ title = "Integrality and independence of $\\ell$ (1)"
 order = 1386
 +++
 Let $X_0$ be smooth and proper over $\mathbf F_q$, of pure dimension
-$d$, and let $A/B$ be the reduced fraction of $Z(X_0,T)$
+$d$, and let $A/B$ be the reduced fraction of [$Z(X_0,T)$](@corollary-point-counting-zeta-function)
 (Lemma [lemma-reduced-fractions-integer-coefficients]). We now
-carry out the argument sketched at the start of the chapter. The point is that purity
+carry out the argument sketched at the start of the chapter. The point is that [purity](@corollary-purity-cohomology-smooth-proper-variety)
 makes the characteristic polynomials of Frobenius in different degrees
 pairwise coprime, so no cancellation can occur, and the polynomials
 can be read off from $A$ and $B$.

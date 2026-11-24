@@ -24,7 +24,7 @@ families, global sections of nearby cycles on the special fibre are
 cohomology of the geometric generic fibre, so by the base change
 isomorphism for the proper structure maps and
 Lemma [lemma-kunneth-map-proper-direct-image], the map of global
-complexes induced by $\Pi_{L,M}$ is the ordinary Künneth isomorphism
+complexes induced by $\Pi_{L,M}$ is the [ordinary Künneth isomorphism](@proposition-ordinary-external-kunneth)
 
 $$
 R\Gamma(X_{\bar\eta},L)\otimes_A^{\mathbf L}

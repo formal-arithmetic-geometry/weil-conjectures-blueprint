@@ -26,8 +26,8 @@ $$
 
 Let $c_m=(\operatorname{id}_X,\Phi_X^m):X\to X\times_sX$ be the graph
 of $\Phi_X^m$. Since its first leg is the identity, $\psi_m$ is a
-cohomological correspondence on $(X,K)$ for $c_m$. Its operator on
-cohomology with compact support
+[cohomological correspondence](@definition-correspondence) on $(X,K)$ for $c_m$. Its operator on
+[cohomology with compact support](@proposition-construction-independence-rf-shriek)
 (Definition [definition-action-correspondence]) is the endomorphism
 
 $$

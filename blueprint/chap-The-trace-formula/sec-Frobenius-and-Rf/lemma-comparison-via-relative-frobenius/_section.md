@@ -30,18 +30,18 @@ where $p_m$ and $f'_m$ are the two projections.
    \end{aligned}
    $$
    compatible with iteration in $m$.
-2. For a Frobenius correspondence $\psi:\Phi_X^*K\to K$ on
-   $K\in D^b_{\mathrm{ctf}}(X,A)$, the object $L=Rf_!K$ of $D^b_{\mathrm{ctf}}(Y,A)$ carries the
-   Frobenius correspondence $\psi'=Rf_!\psi\circ\theta_{f,1}:\Phi_Y^*L\to L$,
+2. For a [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi:\Phi_X^*K\to K$ on
+   $K\in D^b_{\mathrm{ctf}}(X,A)$, the object $L=Rf_!K$ of [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) carries the
+   [Frobenius correspondence](@definition-frobenius-correspondences-their-operators) $\psi'=Rf_!\psi\circ\theta_{f,1}:\Phi_Y^*L\to L$,
    and its iterates are
    $$
    \psi'_m=Rf_!\psi_m\circ\theta_{f,m}.
    $$
-3. The composition isomorphism
+3. The [composition isomorphism](@proposition-composition-base-change-rf-shriek)
    $R\Gamma_c(Y,L)\simeq R\Gamma_c(X,K)$ intertwines the
    endomorphisms $T_{c_m}(\psi'_m)$ on $Y$ and $T_{c_m}(\psi_m)$ on
    $X$ of Definition [definition-frobenius-correspondences-their-operators].
-4. At $y\in Y_0(\mathbf F_{q^m})$, base change for compact supports
+4. At $y\in Y_0(\mathbf F_{q^m})$, [base change for compact supports](@proposition-composition-base-change-rf-shriek)
    identifies $(L_{\bar y},\psi'_{m,\bar y})$ with
    $$
    \left(R\Gamma_c(X_{\bar y},K|_{X_{\bar y}}),

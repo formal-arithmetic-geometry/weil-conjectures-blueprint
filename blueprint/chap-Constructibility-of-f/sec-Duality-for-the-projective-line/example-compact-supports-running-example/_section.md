@@ -10,7 +10,7 @@ $i_\infty:\{\infty\}\to\mathbf P^1_{\bar k}$ be the inclusion of
 the complementary point.
 
 By definition, $R\Gamma_c(\mathbf A^1,A)=R\Gamma(\mathbf P^1,j_{\infty!}A)$. The
-localization triangle
+[localization triangle](@proposition-extension-zero-restriction-closed-subscheme)
 $j_{\infty!}A\to A_{\mathbf P^1}\to i_{\infty*}A$ and (6.4)
 show that
 
@@ -21,5 +21,5 @@ R\Gamma_c(\mathbf A^1_{\bar k},A)
 $$
 
 since restriction to $\infty$ is an isomorphism on $H^0$. In other words,
-$H^2_c(\mathbf A^1)=A(-1)$ is the only nonzero compactly supported
-cohomology group. The trace on it is the same $\operatorname{Tr}_p$.
+$H^2_c(\mathbf A^1)=A(-1)$ is the only nonzero [compactly supported
+cohomology](@proposition-construction-independence-rf-shriek) group. The trace on it is the same [$\operatorname{Tr}_p$](@lemma-cohomology-projective-line-trace).

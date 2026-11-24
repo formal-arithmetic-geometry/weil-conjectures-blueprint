@@ -18,7 +18,7 @@ Hence the reduction of $\mathcal D_{d^{-1}(Z)}F$ is
 $(F_T)_{\mathrm{red}}$.
 
 It remains to see that $\widetilde F$ has no further points. On the
-generic fibre the deformed correspondence is $c$ itself, so the
+generic fibre the deformed [correspondence](@definition-correspondence) is $c$ itself, so the
 generic fibre of $\widetilde F$ is that of $F_T$. Let $x$ be a
 point of the special fibre of $\widetilde F$. Then $\gamma_2(x)$ lies in
 the zero section by Lemma [lemma-normal-cones-contracting-ideals](2),

@@ -23,9 +23,9 @@ $\widehat{\mathbf Z}$, the sheaf has no classical counterpart as a system $(F_n)
 the example is in [bhatt-scholze15]).
 
 This matters because every geometric input to the
-next chapters (proper base change, the cohomology of curves, Deligne's generic
-base change) is a theorem about torsion sheaves, whereas a rational sheaf has no
-reduction modulo $\ell$: since $E_X$ is $\ell$-divisible, we have
+next chapters ([proper base change](@theorem-proper-base-change-classical-pro), the [cohomology of curves](@theorem-cohomology-curves), [Deligne's generic
+base change](@theorem-generic-constructibility-base-change-rj)) is a theorem about torsion sheaves, whereas a rational sheaf has no
+reduction modulo $\ell$: since [$E_X$](@lemma-comparison-completed-coefficients) is $\ell$-divisible, we have
 $E_X\otimes^{\mathbf L}\mathcal O_E/\pi_E=0$. To use the torsion theory we must
 therefore find integral objects inside rational ones, and then pass to their
 torsion reductions. The example above shows that this cannot be done globally.
@@ -40,7 +40,7 @@ Classically each coefficient ring comes with its own theory:
 | $\mathbf Q_\ell$, $E$ | the same systems up to isogeny, that is, with $\ell$ inverted |
 | $\overline{\mathbf Q}_\ell$ | a colimit of the categories for all finite $E/\mathbf Q_\ell$ |
 
-On the pro-étale site, by contrast, one local condition covers all of them. Namely, a
+On the [pro-étale site](@definition-small-pro-etale-site), by contrast, one local condition covers all of them. Namely, a
 $\Lambda_X$-module is constructible if, on the strata of a finite stratification
 of $X$, it is pro-étale locally of the form $\Lambda_X\otimes_{\Lambda(*)}P$ for
 a finitely presented module $P$ over $\Lambda(*)$, the ring of sections over the
@@ -58,7 +58,7 @@ matters: over $\mathbf Z/\ell^2$ the constructible sheaf $\mathbf F_\ell$ has
 infinite Tor dimension (Section [sec-Constructibility] below).
 
 Over $\mathcal O_E$ the passage to torsion is a criterion: for Noetherian $X$, a
-complex is constructible exactly when it is derived complete and its reduction
+complex is constructible exactly when it is [derived complete](@definition-derived-adic-completeness) and its reduction
 modulo $\pi_E$ is constructible
 (Proposition [proposition-integral-constructibility-criterion]). The criterion
 is not formal, because the local models of the reductions modulo $\pi_E^n$ must be
@@ -72,7 +72,7 @@ stratifying, and this is enough. After descending from $\overline{\mathbf Q}_\el
 extension $E$ of $\mathbf Q_\ell$ and refining a stratification, a lisse sheaf has a
 lattice on each stratum
 (Lemma [lemma-lattices-after-finite-stratification]), and the reductions
-of the lattice modulo $\pi_E^n$ are classical torsion sheaves
+of the lattice modulo $\pi_E^n$ are [classical](@definition-classical-pro-etale-sheaves) torsion sheaves
 (Lemma [lemma-integral-models]).
 
 On a connected normal scheme no stratification is needed: there a lattice exists
@@ -85,7 +85,7 @@ Dévissage along strata also shows that $\Hom$ out of a constructible
 complex commutes with filtered colimits of complexes bounded below
 by a common degree
 (Lemma [lemma-continuity-ext-out-constructible-complex]); this continuity is
-used, together with descent to a finite $E$, in
+used, together with [descent to a finite $E$](@lemma-descent-finite-coefficient-field), in
 Chapter [chap-Construction-of-f].
 
 Throughout this chapter

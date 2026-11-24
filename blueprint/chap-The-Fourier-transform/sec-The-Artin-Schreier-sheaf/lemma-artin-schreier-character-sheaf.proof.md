@@ -21,7 +21,7 @@ e_{\psi_0}=\frac1p\sum_{c\in\mathbf F_p}\psi_0(c)^{-1}\tau_c^*
 $$
 
 on the direct image of the constant sheaf $E$ under this cover. It is
-lisse of rank one, since its stalk is the $\psi_0$-eigenspace in the
+[lisse](@definition-lisse-sheaves) of rank one, since its stalk is the $\psi_0$-eigenspace in the
 regular representation, and the root $u=0$ over $x=0$ specifies the
 trivialization at zero. For the first isomorphism, adding roots of two
 Artin–Schreier equations identifies the contracted product of the two

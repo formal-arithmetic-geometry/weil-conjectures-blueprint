@@ -4,7 +4,7 @@ kind = "example"
 title = "Why even tensor powers"
 order = 1160
 +++
-The sheaf $\mathcal B_{-1}$ is real, since $\operatorname{Frob}_x$ acts by
+The sheaf [$\mathcal B_{-1}$](@proposition-weights-under-usual-operations) is [real](@definition-real-sheaves), since [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) acts by
 $(-1)^{\deg(x)}$, but its Euler factor at a point of degree one is
 $(1+t)^{-1}=1-t+t^2-\cdots$, with negative coefficients. Its square
 $\mathcal B_{-1}\otimes\mathcal B_{-1}$ is the constant sheaf, whose

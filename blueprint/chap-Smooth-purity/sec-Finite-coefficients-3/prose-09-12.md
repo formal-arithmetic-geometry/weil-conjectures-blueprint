@@ -12,7 +12,7 @@ to $(g,s)$, and over $t=0$ to $(\pi,z)$. To see this in local terms, let $t$ be 
 coordinate of $\mathbf A^1$, and let $x_1,\ldots,x_d$ be functions on an
 open neighbourhood $U$ of $s(S)$ in $V$ which are étale coordinates over
 $S$ and generate the ideal of $s(S)$. On the part of
-$\mathcal D_{s(S)}V$ lying over $U\times\mathbf A^1$, the quotients
+[$\mathcal D_{s(S)}V$](@definition-deformation-normal-bundle) lying over $U\times\mathbf A^1$, the quotients
 $u_i=x_i/t$ are regular functions, so that $x_i=tu_i$ there. At $t=0$, then, the
 function $u_i$ restricts to the linear function on $N_s$ given by the class
 of $x_i$ in the conormal sheaf. Since these classes form a basis of the

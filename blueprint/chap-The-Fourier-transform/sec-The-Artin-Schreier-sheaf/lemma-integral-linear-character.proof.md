@@ -21,13 +21,13 @@ $\psi_0$-eigenspace of the deck translations. As we have just seen,
 these translations act trivially on the cohomology of the upper line,
 so, since $\psi_0$ is nontrivial, the eigenspace is zero, that is,
 $R\Gamma_c(\mathbf A^1,\mathcal L_{\psi_0})=0$. Finally, by its construction,
-$\mathcal L_\psi$ is the pullback of $\mathcal L_{\psi_0}$ by the
+[$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf) is the pullback of $\mathcal L_{\psi_0}$ by the
 automorphism $x\mapsto ax$ of the line, and hence
 $R\Gamma_c(\mathbf A^1,\mathcal L_\psi)=0$ as well.
 
 On $\mathbf A^r$ with $\lambda\ne0$, we choose linear
 coordinates in which $\lambda$ is the first coordinate. Then
-$\lambda^*\mathcal L_\psi$ is the external product of $\mathcal L_\psi$
+$\lambda^*\mathcal L_\psi$ is the external product of [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf)
 on the first factor with the constant sheaf on $\mathbf A^{r-1}$, and
 the Künneth isomorphism of Lemma [lemma-kunneth-formula-compact-supports] writes its
 cohomology as a tensor product with the first factor

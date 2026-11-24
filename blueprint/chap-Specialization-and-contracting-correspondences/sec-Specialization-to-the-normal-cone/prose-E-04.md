@@ -64,5 +64,5 @@ $$
 \tag{E.1}
 $$
 
-We use this map, in this direction, to specialize trace
-classes.
+We use this map, in this direction, to specialize [trace
+classes](@definition-trace-class-local-terms).

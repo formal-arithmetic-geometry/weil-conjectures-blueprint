@@ -24,9 +24,9 @@ The proof cannot stay with smooth proper varieties. It fibres them in
 curves, and the cohomology of the fibres forms sheaves on the base. So we
 need weights for sheaves, and for cohomology that is not pure. Without
 smoothness and properness only an upper bound survives. For example, let
-$\mathbf G_m=\mathbf P^1\setminus\{0,\infty\}$. The localization sequence gives
+$\mathbf G_m=\mathbf P^1\setminus\{0,\infty\}$. The [localization sequence](@proposition-extension-zero-restriction-closed-subscheme) gives
 $H^1_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell$ with trivial Frobenius and
-$H^2_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell(-1)$. This agrees with the trace formula
+$H^2_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell(-1)$. This agrees with the [trace formula](@theorem-grothendieck-lefschetz-trace-formula)
 $q-1=\#\mathbf G_m(\mathbf F_q)$. Thus $H^1_c$ has weight $0$, strictly less
 than $1$.
 
@@ -37,15 +37,15 @@ $\mathcal H^i(K)$ is mixed with all weights at most $w+i$
 (Definition [definition-weights]). Here the shift by $i$ puts the constant sheaf and its cohomology into one statement: $R\Gamma_c(X,\overline{\mathbf Q}_\ell)$ has weights
 at most $0$ exactly when $H^i_c$ has weights at most $i$, as on
 $\mathbf G_m$. In these terms the Deligne–Laumon theorem
-(Theorem [theorem-weights-rf-shriek]) says that $Rf_!$ does not increase
+(Theorem [theorem-weights-rf-shriek]) says that [$Rf_!$](@proposition-construction-independence-rf-shriek) does not increase
 weights.
 
-Two warnings will matter later. The first is that weights depend on $\iota$. For example, consider the rank-one Weil sheaf on $\operatorname{Spec}\mathbf F_q$ on which
+Two warnings will matter later. The first is that weights depend on $\iota$. For example, consider the rank-one [Weil sheaf](@definition-weil-structure) on $\operatorname{Spec}\mathbf F_q$ on which
 Frobenius acts by $1+\sqrt2\in\overline{\mathbf Q}_\ell$. It has weight $2\log_q(1+\sqrt2)>0$ for
 an embedding with $\iota(\sqrt2)=\sqrt2$, and weight
 $2\log_q(\sqrt2-1)=-2\log_q(1+\sqrt2)$ for the other one. For this reason
 Theorem [theorem-weil-conjectures-smooth-proper-schemes] needs the
-Deligne–Laumon theorem for every $\iota$: only then do the reciprocal roots
+[Deligne–Laumon theorem](@theorem-weights-rf-shriek) for every $\iota$: only then do the reciprocal roots
 of $P_i$ have absolute value $q^{i/2}$ under every complex embedding.
 
 The second warning is that being mixed is not a pointwise condition: it asks
@@ -53,8 +53,8 @@ for a filtration with pure quotients, and such a filtration has to be
 constructed. Most of Chapter [chap-The-Deligne-Laumon-theorem-in-general] is spent
 constructing one for direct images.
 
-We define weights on Weil sheaves, sheaves on $X$ with a Frobenius
+We define weights on [Weil sheaves](@definition-weil-structure), sheaves on $X$ with a Frobenius
 structure, rather than on sheaves on $X_0$. The reason is that normalizing weights
-requires twisting by the geometrically constant rank-one Weil sheaves $\mathcal B_b$,
+requires twisting by the geometrically constant rank-one [Weil sheaves](@definition-weil-structure) $\mathcal B_b$,
 on which a degree-one Frobenius acts by a scalar $b\in\overline{\mathbf Q}_\ell^\times$. These do not come from
 $X_0$ when $b$ is not an $\ell$-adic unit.

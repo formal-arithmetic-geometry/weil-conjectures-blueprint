@@ -10,7 +10,7 @@ may use different members of the family on different clopen pieces
 of $W$.
 
 By Lemma [lemma-w-contractible-affines-projective], the spectrum of a
-w-contractible ring is weakly contractible. By
+[w-contractible](@definition-w-local-w-strictly-local) ring is [weakly contractible](@definition-weak-contractibility). By
 Theorem [theorem-enough-affine-weakly-contractible-objects], such
-affines cover every object of $X_{\mathrm{pro}\acute{e}t}$. For abelian sheaves we use these
+affines cover every object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). For abelian sheaves we use these
 two facts in the following form.

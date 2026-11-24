@@ -5,6 +5,6 @@ title = "Trace classes and local terms (5)"
 order = 925
 +++
 For $Y=s$, $C'=s$ and $f=a_X$, $g=a_C$ with $X$ and $C$ proper, the
-pushforward $u'$ is an endomorphism of $R\Gamma(X,K)$. Unwinding $\alpha$ and $\beta$ shows that it is $T_c(u)$, and the following theorem compares
-trace classes before and after pushforward. In this special case it
-is the Lefschetz–Verdier formula.
+[pushforward](@definition-pushforward-correspondence) $u'$ is an endomorphism of $R\Gamma(X,K)$. Unwinding $\alpha$ and $\beta$ shows that it is [$T_c(u)$](@definition-action-correspondence), and the following theorem compares
+[trace classes](@definition-trace-class-local-terms) before and after [pushforward](@definition-pushforward-correspondence). In this special case it
+is the [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier).

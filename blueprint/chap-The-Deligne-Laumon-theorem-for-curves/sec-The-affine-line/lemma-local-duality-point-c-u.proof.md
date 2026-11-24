@@ -6,17 +6,17 @@ uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contract
 +++
 The two stalks are cohomology sheaves of the complexes $i^*Rj_*F^\vee$
 (in degree zero) and $i^*Rj_*F$ (in degree one) on the boundary. We
-compute the Verdier dual of the second complex by duality on the curve,
+compute the [Verdier dual](@definition-verdier-dual-evaluation) of the second complex by duality on the curve,
 and we find the first one, shifted and twisted.
 
 Let $i:Z\hookrightarrow C$ be the inclusion of the whole finite
-complement, and put $K_F=i^*Rj_*F$. For a lisse sheaf $G$ on $U$, the
+complement, and put $K_F=i^*Rj_*F$. For a [lisse](@definition-lisse-sheaves) sheaf $G$ on $U$, the
 adjunction $j^*\dashv Rj_*$ shows that $i^!Rj_*G=0$, and applying
-$i^!$ to the localization triangle for $Rj_*G$ we obtain
+$i^!$ to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) for $Rj_*G$ we obtain
 $i^!j_!G\simeq i^*Rj_*G[-1]$. Since duality
 exchanges $Rj_*$ with $j_!$ and $i^*$ with $i^!$, this formula lets us
 write the result again in the form $i^*Rj_*$. Indeed, by Verdier duality on
-the smooth curve, $\mathbb D_UF=F^\vee(1)[2]$ for the lisse sheaf $F$,
+the smooth curve, $\mathbb D_UF=F^\vee(1)[2]$ for the [lisse](@definition-lisse-sheaves) sheaf $F$,
 and we find
 
 $$
@@ -29,9 +29,9 @@ $$
 \end{split}
 $$
 
-On the finite geometric scheme $Z$, Verdier duality is the exact
+On the finite geometric scheme $Z$, [Verdier duality](@definition-verdier-dual-evaluation) is the exact
 duality of coefficient vector spaces, so taking degree $-1$ at $\bar s$
 we get $(R^1j_*F)_{\bar s}^\vee=(j_*F^\vee)_{\bar s}(1)$, which
 is the pairing. It is Frobenius-equivariant because the adjunction,
-localization and duality maps are natural in $F$ and respect its Weil
-structure.
+localization and duality maps are natural in $F$ and respect its [Weil
+structure](@definition-weil-structure).

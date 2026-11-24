@@ -9,12 +9,12 @@ uses = ["definition-constructible-sheaves", "definition-underived-base-change-ma
 Let $S$ be of finite type over the base field $k$.
 
 1. For the projection $p_d:\mathbf A^d_S\to S$, the right adjoint
-   $p_d^!$ of $Rp_{d!}:D((\mathbf A^d_S)_{\acute{e}t},A)
+   [$p_d^!$](@theorem-existence-exceptional-inverse-image) of $Rp_{d!}:D((\mathbf A^d_S)_{\acute{e}t},A)
 \to D(S_{\acute{e}t},A)$ is $p_d^*(d)[2d]$. Its counit
    $Rp_{d!}p_d^*N(d)[2d]\to N$ is compatible with base change: for a morphism
    $g:S'\to S$ of finite type over $k$, with base change
    $p'_d:\mathbf A^d_{S'}\to S'$, the pullback $g^*$ of the counit for $N$ is,
-   under the base change isomorphism for $Rp_{d!}$, the counit for $g^*N$.
+   under the [base change isomorphism](@proposition-composition-base-change-rf-shriek) for [$Rp_{d!}$](@proposition-construction-independence-rf-shriek), the counit for $g^*N$.
    The same holds for the unit, which is determined by the counit through
    the triangle identities.
 2. Let $f:X\to S$ be separated of finite type, let
@@ -29,7 +29,7 @@ Let $S$ be of finite type over the base field $k$.
    R(fu)_!u^*f^!N\simeq Rf_!u_!u^*f^!N\longrightarrow Rf_!f^!N
    \longrightarrow N
    $$
-   of the composition isomorphism, the counit of $u_!\dashv u^*$ and the
+   of the [composition isomorphism](@proposition-composition-base-change-rf-shriek), the counit of $u_!\dashv u^*$ and the
    counit of $Rf_!\dashv f^!$. For a second separated étale morphism
    $u':U'\to U$ of finite type, the isomorphism (6.12) for $uu'$ is
    the composite of $u'^*$ of (6.12) for $u$ and

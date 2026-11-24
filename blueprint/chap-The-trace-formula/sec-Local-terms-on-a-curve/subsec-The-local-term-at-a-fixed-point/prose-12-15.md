@@ -5,9 +5,9 @@ title = "The local term at a fixed point (1)"
 order = 993
 +++
 The point $y$ is stable under $\Phi_X^m$,
-so additivity of trace classes applies to the localization triangle
-for $X\setminus\{y\}$ and $\{y\}$. Here the open piece has zero stalk at $y$, so its local term vanishes by Lemma [lemma-vanishing-local-term-zero-stalk].
-The closed piece, in turn, is pushed forward from the point, where the local
-term is a trace by Lemma [lemma-local-terms-point]. Note that the argument never uses that $K$ is lisse at $y$. This is why, in the proof of
+so [additivity of trace classes](@proposition-additivity-trace-classes) applies to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme)
+for $X\setminus\{y\}$ and $\{y\}$. Here the open piece has zero stalk at $y$, so its [local term](@definition-trace-class-local-terms) vanishes by Lemma [lemma-vanishing-local-term-zero-stalk].
+The closed piece, in turn, is pushed forward from the point, where the [local
+term](@definition-trace-class-local-terms) is a trace by Lemma [lemma-local-terms-point]. Note that the argument never uses that $K$ is [lisse](@definition-lisse-sheaves) at $y$. This is why, in the proof of
 Theorem [theorem-trace-formula-frobenius-correspondence], we can apply the result to
 $j_!K$ at the point at infinity of $\mathbf P^1$.

@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $y\in X(k)$, and suppose that $c_1^{-1}(y)$ is a single reduced point
 $z$, with $c_2(z)=y$. Suppose that $F_0=\{z\}$ is an isolated reduced
-component of $\Fix(c)$, open and closed, and that on a neighbourhood of $F_0$
+component of [$\Fix(c)$](@definition-correspondence), open and closed, and that on a neighbourhood of $F_0$
 the ideal $I_y$ satisfies
 
 $$
@@ -20,8 +20,8 @@ c_2^{-1}(I_y)\mathcal O_C\subset c_1^{-1}(I_y)\mathcal O_C,
 $$
 
 Then for every $K\in D^b_{\mathrm{ctf}}(X,A)$ and every morphism
-$u:c_2^*K\to c_1^!K$, the local term at $F_0$ is the categorical
-trace of the restriction $u_Z$ to $Z=\{y\}$ of $u$ restricted to
+$u:c_2^*K\to c_1^!K$, the [local term](@definition-trace-class-local-terms) at $F_0$ is the [categorical
+trace](@definition-categorical-trace) of the restriction $u_Z$ to $Z=\{y\}$ of $u$ restricted to
 that neighbourhood, defined in (E.21). In particular, for
 $c=(\operatorname{id}_X,h)$,
 

@@ -5,8 +5,8 @@ title = "Multiplication by $n$"
 order = 1506
 uses = ["definition-abelian-variety"]
 +++
-Let $A$ be an abelian variety of dimension $g$ over $k$. For every
-$n>0$, the morphism $[n]$ is surjective and finite locally free of
-degree $n^{2g}$, and its kernel $A[n]$ has rank $n^{2g}$ over $k$. If
-$n$ is invertible in $k$, then $[n]$ and $A[n]\to\operatorname{Spec}k$
+Let $A$ be an [abelian variety](@definition-abelian-variety) of dimension $g$ over $k$. For every
+$n>0$, the morphism [$[n]$](@definition-abelian-variety) is surjective and finite locally free of
+degree $n^{2g}$, and its kernel [$A[n]$](@definition-abelian-variety) has rank $n^{2g}$ over $k$. If
+$n$ is invertible in $k$, then [$[n]$](@definition-abelian-variety) and $A[n]\to\operatorname{Spec}k$
 are finite étale.

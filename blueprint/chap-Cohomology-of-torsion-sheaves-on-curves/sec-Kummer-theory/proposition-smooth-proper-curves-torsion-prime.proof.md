@@ -4,8 +4,8 @@ of = "proposition-smooth-proper-curves-torsion-prime"
 order = 1580
 uses = ["lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-riemann-roch-coherent-serre-duality", "corollary-serre-duality-field-extension", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve"]
 +++
-Pulling back the Kummer sequence of $C_{\acute{e}t}$ by $\nu_C^*$, we get
-the exact sequence of sheaves on $C_{\mathrm{pro}\acute{e}t}$
+Pulling back the Kummer sequence of $C_{\acute{e}t}$ by [$\nu_C^*$](@proposition-comparison-morphism-inverse-image), we get
+the exact sequence of sheaves on [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 
 $$
 0\longrightarrow\mu_n\longrightarrow\nu_C^*\mathbf G_m
@@ -37,8 +37,8 @@ $$
 \xrightarrow{\deg}\mathbf Z\longrightarrow0.
 $$
 
-Multiplication by $n$ on $J(C)(k)$ is surjective, with kernel
-$J(C)[n](k)$, and $J(C)[n]$ is finite étale of rank $n^{2g}$
+Multiplication by $n$ on [$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separably) is surjective, with kernel
+[$J(C)[n](k)$](@theorem-picard-scheme-jacobian-over-separably), and [$J(C)[n]$](@theorem-picard-scheme-jacobian-over-separably) is finite étale of rank $n^{2g}$
 (Corollary [corollary-torsion-jacobian-field-extension]).  Applying the snake lemma to
 multiplication by $n$ on this sequence, and using that $\mathbf Z$ is
 torsion free, we obtain $\operatorname{Pic}(C)[n]=J(C)[n](k)$ and
@@ -46,7 +46,7 @@ $\operatorname{Pic}(C)/n=\mathbf Z/n$ via the degree. In particular,
 $H^1(C,\mu_n)$ is noncanonically isomorphic to $(\mathbf Z/n)^{2g}$
 [Stacks, [03RQ](https://stacks.math.columbia.edu/tag/03RQ)].
 
-Under an algebraically closed extension $k'/k$, the schemes $J(C)$ and $J(C)[n]$
+Under an algebraically closed extension $k'/k$, the schemes [$J(C)$](@theorem-picard-scheme-jacobian-over-separably) and [$J(C)[n]$](@theorem-picard-scheme-jacobian-over-separably)
 base change to the corresponding objects for $C_{k'}$. The map
 $J(C)[n](k)\to J(C)[n](k')$ is bijective by
 Corollary [corollary-torsion-jacobian-field-extension]. The same argument

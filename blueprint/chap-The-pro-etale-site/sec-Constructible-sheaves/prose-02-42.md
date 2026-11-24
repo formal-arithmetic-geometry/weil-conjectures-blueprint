@@ -7,4 +7,4 @@ order = 151
 The six operations act on complexes of finite Tor amplitude, so we also
 need to know that the equivalence just proved respects this condition. A
 priori the pro-étale condition is stronger, since it requires a Tor
-bound against all pro-étale modules, most of which are not classical.
+bound against all pro-étale modules, most of which are not [classical](@definition-classical-pro-etale-sheaves).

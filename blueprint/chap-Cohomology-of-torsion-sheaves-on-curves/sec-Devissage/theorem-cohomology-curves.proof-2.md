@@ -4,19 +4,19 @@ kind = "proof"
 of = "theorem-cohomology-curves"
 order = 1620
 +++
-For constructible sheaves we reduce to the explicit calculations, and
-arbitrary torsion sheaves are filtered colimits of these. The reduction
-has four steps: dévissage to constructible $\mathbf F_\ell$-sheaves,
+For [constructible sheaves](@definition-constructible-sheaves) we reduce to the explicit calculations, and
+arbitrary [torsion sheaves](@definition-torsion-sheaves) are filtered colimits of these. The reduction
+has four steps: dévissage to [constructible](@definition-constructible-sheaves) $\mathbf F_\ell$-sheaves,
 extension by zero from an open on which the sheaf is locally constant,
 a cover of degree prime to $\ell$ that makes it unipotent, and
 normalization, which leaves constant coefficients on smooth curves.
 
 By Theorem [theorem-bounded-below-cohomology-comparison], we may work on $C_{\acute{e}t}$, and
 since a universal homeomorphism does not change the étale topos, we may
-replace $C$ by $C_{\mathrm{red}}$.  A constructible torsion sheaf has a
+replace $C$ by $C_{\mathrm{red}}$.  A [constructible](@definition-constructible-sheaves) [torsion sheaf](@definition-torsion-sheaves) has a
 finite exponent, because it has finitely many isomorphism types of
 finite stalks.  It is therefore the direct sum of its finitely many primary
-parts, and a finite filtration of an $\ell$-primary part has constructible
+parts, and a finite filtration of an $\ell$-primary part has [constructible](@definition-constructible-sheaves)
 $\mathbf F_\ell$-sheaves as graded pieces.  By the stability under
 extensions just proved, it suffices to treat such sheaves.
 
@@ -32,16 +32,16 @@ calculations with constant coefficients on smooth curves, namely the
 Kummer sequence for $\ell\ne p$ and the Artin–Schreier
 sequence for $\ell=p$.  Since all reductions preserve the
 hypothesis that $C$ is proper or affine, the theorem holds for
-constructible torsion sheaves.
+[constructible](@definition-constructible-sheaves) [torsion sheaves](@definition-torsion-sheaves).
 
-An arbitrary torsion sheaf on the qcqs scheme $C$ is a filtered
-colimit of constructible torsion sheaves, and cohomology commutes with
+An arbitrary [torsion sheaf](@definition-torsion-sheaves) on the qcqs scheme $C$ is a filtered
+colimit of [constructible](@definition-constructible-sheaves) [torsion sheaves](@definition-torsion-sheaves), and cohomology commutes with
 filtered colimits [Stacks, [03SA](https://stacks.math.columbia.edu/tag/03SA), [03Q5](https://stacks.math.columbia.edu/tag/03Q5)].  For torsion prime to
-the characteristic or $p$-primary torsion, we may take the constructible
-sheaves with the same kind of torsion, by splitting off primary
+the characteristic or $p$-primary torsion, we may take the [constructible
+sheaves](@definition-constructible-sheaves) with the same kind of torsion, by splitting off primary
 parts before passing to the colimit. Pullback and restriction also
 commute with filtered colimits. Hence vanishing and the pullback
 isomorphisms pass to the colimit. So does surjectivity in $(C_8)$,
 because a representative of a class already occurs at some
-stage. Finiteness is asserted only for constructible sheaves.
-Finally, Theorem [theorem-bounded-below-cohomology-comparison] carries these conclusions and their maps over to $C_{\mathrm{pro}\acute{e}t}$.
+stage. Finiteness is asserted only for [constructible sheaves](@definition-constructible-sheaves).
+Finally, Theorem [theorem-bounded-below-cohomology-comparison] carries these conclusions and their maps over to [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).

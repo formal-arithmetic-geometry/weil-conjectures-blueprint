@@ -8,7 +8,7 @@ To prove Theorem [theorem-real-constructible-sheaves-are-mixed] we
 restrict a sheaf to curves, reassemble it over strata and descend it
 along constant extensions. For the reassembly and the descent we need
 that quasi-finite direct images preserve weights. For the restriction
-we need curves on which given lisse sheaves stay geometrically
+we need curves on which given [lisse](@definition-lisse-sheaves) sheaves stay geometrically
 irreducible.
 
 The first fact is elementary, because a finite direct image only

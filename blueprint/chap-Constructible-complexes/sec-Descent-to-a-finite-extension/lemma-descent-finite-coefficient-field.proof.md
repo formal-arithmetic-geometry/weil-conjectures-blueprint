@@ -4,10 +4,10 @@ of = "lemma-descent-finite-coefficient-field"
 order = 286
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
-Morphisms descend because $\QbarX$ is the filtered colimit of the $E'_X$
-and Hom out of a constructible complex commutes with this colimit
+Morphisms descend because [$\QbarX$](@lemma-comparison-completed-coefficients) is the filtered colimit of the [$E'_X$](@lemma-comparison-completed-coefficients)
+and Hom out of a [constructible complex](@definition-constructible-sheaves) commutes with this colimit
 (Lemma [lemma-continuity-ext-out-constructible-complex]). Objects are built from
-lisse sheaves by finitely many extensions, each classified by a
+[lisse sheaves](@definition-lisse-sheaves) by finitely many extensions, each classified by a
 morphism, and so they descend as well.
 
 (1) Extension of scalars $E'_X\otimes_{E_X}-$ is left adjoint to
@@ -15,7 +15,7 @@ restriction of scalars $D(X_{\mathrm{pro}\acute{e}t},E')\to D(X_{\mathrm{pro}\ac
 $\Hom_{D(X_{\mathrm{pro}\acute{e}t},E')}(C_{E'},D_{E'}[r])=\Hom_{D(X_{\mathrm{pro}\acute{e}t},E)}(C,D_{E'}[r])$,
 and similarly for $\overline{\mathbf Q}_\ell$. Represent $D$ by a bounded complex $D^\bullet$.
 Then the complexes $D^\bullet\otimes_{E_X}E'_X$ form a filtered system of
-complexes of $E_X$-modules, all vanishing below the lower bound of
+complexes of [$E_X$](@lemma-comparison-completed-coefficients)-modules, all vanishing below the lower bound of
 $D^\bullet$, and their colimit is $D^\bullet\otimes_{E_X}\QbarX$, which
 represents $D_{\overline{\mathbf Q}_\ell}$. Applying Lemma [lemma-continuity-ext-out-constructible-complex]
 to $C\in\Dbc(X,E)$, we get
@@ -27,7 +27,7 @@ $$
 
 which is the claim after the adjunction.
 
-(2) First let $K$ be a constructible $\QbarX$-module, with filtration
+(2) First let $K$ be a [constructible](@definition-constructible-sheaves) [$\QbarX$](@lemma-comparison-completed-coefficients)-module, with filtration
 $N_1\subset\cdots\subset N_m=K$ as in
 Lemma [lemma-constructible-sheaves](3). We descend $N_k$ by induction on
 $k$. The subquotient $N_k/N_{k-1}=a_!L$ descends, because $L$ does by

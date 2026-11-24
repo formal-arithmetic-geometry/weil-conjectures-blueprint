@@ -4,5 +4,5 @@ kind = "hidden"
 title = "The Künneth formula (4)"
 order = 714
 +++
-Over a field every constructible sheaf embeds into a sheaf of this
+Over a field every [constructible sheaf](@definition-constructible-sheaves) embeds into a sheaf of this
 form, and this allows an induction on the cohomological degree.

@@ -8,12 +8,12 @@ We build a hypercover whose terms have no higher cohomology, so that
 the hypercover spectral sequence collapses to the complex of sections.
 By quasi-compactness each term can be taken to be a single affine.
 
-We start with a weakly contractible cover of $U$, and at each stage we cover
-the matching object by weakly contractible affines, as for fibre
+We start with a [weakly contractible](@definition-weak-contractibility) cover of $U$, and at each stage we cover
+the matching object by [weakly contractible](@definition-weak-contractibility) affines, as for fibre
 products above. The matching objects are
 finite limits of quasi-compact, quasi-separated schemes, so they are again
 quasi-compact and quasi-separated and are covered by finitely many affine
-weakly contractible objects. Taking finite disjoint unions, we get a single affine
+[weakly contractible](@definition-weak-contractibility) objects. Taking finite disjoint unions, we get a single affine
 term in each degree; see [Stacks, [09A1](https://stacks.math.columbia.edu/tag/09A1)].
 
 For a sheaf $M$, the hypercover spectral sequence has

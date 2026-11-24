@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Representations and filtrations (1)"
 order = 1121
 +++
-We treat lisse sheaves as representations of the Weil group. From the
+We treat [lisse](@definition-lisse-sheaves) sheaves as representations of the Weil group. From the
 geometry of the curve we use only one fact, proved in
 Section [sec-Sheaves-of-rank-one]: the geometric fundamental group acts
 through a finite group on every determinant. Everything else is linear

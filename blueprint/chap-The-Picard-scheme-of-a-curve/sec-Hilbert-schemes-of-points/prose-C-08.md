@@ -20,7 +20,7 @@ canonical section. Conversely, an invertible sheaf with a section up to
 scalars gives a divisor. When $h^0=1$ the section is unique up to
 scalars, and then the divisor is determined by the sheaf. In this way the
 open part of $\operatorname{Hilb}^{g}_{C/k}$ where $h^0(\mathcal O(D))=1$
-and $h^1=0$ becomes an open subfunctor of the Picard functor
+and $h^1=0$ becomes an open subfunctor of the [Picard functor](@definition-relative-picard-functor)
 (Proposition [proposition-divisors-degree-g-open-chart]).
 
 For $d\geq0$, let $\operatorname{Hilb}^d_{C/k}$ be the

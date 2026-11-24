@@ -7,7 +7,7 @@ order = 5
 Let $X_0$ be a smooth projective geometrically connected curve of genus
 $g$ over the finite field $\mathbf F_q$, and let $N_m$ be the number of
 its points with coordinates in $\mathbf F_{q^m}$. The projective line has
-exactly $1+q^m$ such points, and the *Hasse–Weil bound* says that
+exactly $1+q^m$ such points, and the *[Hasse–Weil bound](@corollary-point-count-estimates)* says that
 every curve of genus $g$ comes close to this count:
 
 $$
@@ -90,7 +90,7 @@ Weil conjectured the following.
    complex manifold $Y(\mathbf C)$, for any embedding $K\subset\mathbf C$.
    For a curve of genus $g$ this gives $b_0=b_2=1$ and $b_1=2g$.
 
-For a curve the conjectures recover the Hasse–Weil bound. Here
+For a curve the conjectures recover the [Hasse–Weil bound](@corollary-point-count-estimates). Here
 $Z(X_0,T)=P_1(T)/((1-T)(1-qT))$ with $P_1$ of degree $2g$, and statement
 (3) says that $P_1(T)=\prod_{j=1}^{2g}(1-\alpha_jT)$ with
 $|\alpha_j|=q^{1/2}$. Comparing the logarithmic derivatives of both sides
@@ -100,7 +100,7 @@ $$
 N_m=1+q^m-\sum_{j=1}^{2g}\alpha_j^m,
 $$
 
-and since each $|\alpha_j^m|=q^{m/2}$, the Hasse–Weil bound follows. This
+and since each $|\alpha_j^m|=q^{m/2}$, the [Hasse–Weil bound](@corollary-point-count-estimates) follows. This
 is also why (3) is called the Riemann hypothesis. In the variable $s$ with
 $T=q^{-s}$, the zeros of $P_1(q^{-s})$ satisfy $|q^{-s}|=q^{-1/2}$, that is,
 they lie on the line $\operatorname{Re}s=\tfrac12$, exactly where Riemann
@@ -113,7 +113,7 @@ C_0\colon\ y^2=x^3-x\qquad\text{over }\mathbf F_3 .
 $$
 
 Counting points, including the point at infinity, gives $N_1=4$, $N_2=16$
-and $N_3=28$. Suppose the Weil conjectures hold for $C_0$. Then
+and $N_3=28$. Suppose the [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes) hold for $C_0$. Then
 $Z(C_0,T)=P_1(T)/((1-T)(1-3T))$, where $P_1$ has degree $b_1=2g=2$. Its
 leading coefficient is $q=3$, because by duality it is the determinant of
 Frobenius on $H^1$ (Example [example-running-example-duality]). So
@@ -124,5 +124,5 @@ leading coefficient: $1-3T^2$ also satisfies them, with the sign $-$ in (2),
 and it is the count $N_2=16$ that excludes it. As a check, the formula
 $N_m=1+3^m-\bigl((i\sqrt3)^m+(-i\sqrt3)^m\bigr)$ gives $16$ and $28$ for
 $m=2,3$. We return to this curve after duality, after the
-trace formula and at the end
+[trace formula](@theorem-grothendieck-lefschetz-trace-formula) and at the end
 (Examples [example-running-example-duality], [example-running-example-trace-formula] and [example-running-example-purity]).

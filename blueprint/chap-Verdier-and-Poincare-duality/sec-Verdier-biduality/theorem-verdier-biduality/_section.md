@@ -13,5 +13,5 @@ $$
 \qquad(K\in D^b_{\mathrm{ctf}}(X,\Lambda)).
 $$
 
-Thus $\mathbb D_X$ is an exact anti-equivalence of
-$D^b_{\mathrm{ctf}}(X,\Lambda)$ with itself.
+Thus [$\mathbb D_X$](@definition-verdier-dual-evaluation) is an exact anti-equivalence of
+[$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) with itself.

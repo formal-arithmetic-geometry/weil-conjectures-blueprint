@@ -14,8 +14,8 @@ isomorphisms $F_\Lambda(K)\otimes\Lambda'\simeq F_{\Lambda'}(K\otimes\Lambda')$
 and $G_\Lambda(K)\otimes\Lambda'\simeq G_{\Lambda'}(K\otimes\Lambda')$ carrying
 $\theta_\Lambda(K)\otimes\Lambda'$ to $\theta_{\Lambda'}(K\otimes\Lambda')$. This
 holds, by Proposition [proposition-six-operations-change-coefficients], whenever $F$, $G$ and $\theta$ are
-built from the six operations, their units and counits and base change
-maps, covariantly in $K$. If
+built from the six operations, their units and counits and [base change
+maps](@definition-pro-etale-base-change-map), covariantly in $K$. If
 $\theta_A(K)$ is an isomorphism for every finite ring $A$ and every
 $K\in D^b_{\mathrm{ctf}}(X,A)$, then $\theta_\Lambda(K)$ is an isomorphism for every
 admissible $\Lambda$ and every $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$.

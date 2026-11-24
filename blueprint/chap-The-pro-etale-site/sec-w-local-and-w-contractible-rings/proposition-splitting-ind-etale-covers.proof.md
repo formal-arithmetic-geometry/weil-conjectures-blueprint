@@ -6,12 +6,12 @@ order = 57
 uses = ["proposition-etale-implications", "lemma-stability", "proposition-w-local-components", "proposition-gleason-s-theorem"]
 +++
 We first replace $B$ by an ind-Zariski $B$-algebra, so
-that its spectrum is w-local and its closed points lie exactly over the
+that its spectrum is [w-local](@definition-w-local-w-strictly-local) and its closed points lie exactly over the
 closed points of $\operatorname{Spec}(R)$; such a refinement does not
 change the local rings.
 Let $\mathfrak q\subset B$ lie over a closed point $\mathfrak m$ of
 $\operatorname{Spec}(R)$. Since $R_{\mathfrak m}$ is strictly henselian,
-the ind-étale local homomorphism $R_{\mathfrak m}\to B_{\mathfrak q}$
+the [ind-étale](@definition-ind-etale-pro-etale-weakly) local homomorphism $R_{\mathfrak m}\to B_{\mathfrak q}$
 is an isomorphism. Hence every component of $\operatorname{Spec}(B)$
 maps isomorphically onto the component of $\operatorname{Spec}(R)$ below
 it, and a retraction amounts to a continuous choice of one component above each component of

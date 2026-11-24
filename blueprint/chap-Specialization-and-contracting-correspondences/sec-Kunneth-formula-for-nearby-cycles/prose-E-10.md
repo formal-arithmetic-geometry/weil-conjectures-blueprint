@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Künneth formula for nearby cycles (1)"
 order = 1647
 +++
-To specialize a trace class we have to specialize the external product
+To specialize a [trace class](@definition-trace-class-local-terms) we have to specialize the external product
 $K\boxtimes \mathbb DK$, so we need the comparison
 map from the external product of nearby cycles to the nearby cycles of
 the external product to be an isomorphism. We prove this on the classical

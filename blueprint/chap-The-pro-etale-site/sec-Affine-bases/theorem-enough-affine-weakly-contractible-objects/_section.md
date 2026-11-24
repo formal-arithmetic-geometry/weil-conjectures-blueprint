@@ -6,5 +6,5 @@ order = 71
 lean = ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-w-local-w-strictly-local"]
 +++
-Every object of $X_{\mathrm{pro}\acute{e}t}$ has a covering by affines
-$U=\operatorname{Spec}(D)$ with $D$ w-contractible.
+Every object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) has a covering by affines
+$U=\operatorname{Spec}(D)$ with $D$ [w-contractible](@definition-w-local-w-strictly-local).

@@ -13,7 +13,7 @@ $P_{i,\ell}$ be as above.
    whose images in $\mathbf Q_\ell[T]$ are $P_{i,\ell}(T)$ for every prime
    $\ell\nmid q$, and
    $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$.
-2. The reciprocal roots of $P_i$ are algebraic integers, and each of them
+2. The [reciprocal roots](@definition-reciprocal-root) of $P_i$ are algebraic integers, and each of them
    has absolute value $q^{i/2}$ under every complex embedding.
 3. The degrees $b_i=\deg P_i=\dim_{\mathbf Q_\ell}H^i_\ell$ do not depend on $\ell$.
    If $X_0$ is geometrically connected, then $b_i=b_{2d-i}$,

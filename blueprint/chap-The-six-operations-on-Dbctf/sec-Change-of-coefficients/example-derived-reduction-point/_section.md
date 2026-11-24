@@ -5,7 +5,7 @@ title = "Reducing cohomology modulo $\\ell$"
 order = 630
 +++
 Let $X=\operatorname{Spec}\mathbf F_q$ and consider $\mathbf Z/\ell^2\to\mathbf F_\ell$.
-Let $K$ be the lisse sheaf $\mathbf Z/\ell^2$ on which Frobenius, the
+Let $K$ be the [lisse sheaf](@definition-lisse-sheaves) $\mathbf Z/\ell^2$ on which Frobenius, the
 topological generator of $\operatorname{Gal}(\overline{\mathbf F}_q/\mathbf F_q)
 \simeq\widehat{\mathbf Z}$, acts by multiplication by the unit $1+\ell$.
 Recall that for a finite module $M$ with a continuous action of $\widehat{\mathbf Z}$, cohomology is computed by the complex $M\xrightarrow{F-1}M$ in degrees $0$

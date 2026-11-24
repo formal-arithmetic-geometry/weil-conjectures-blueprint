@@ -6,16 +6,16 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 +++
 The first assertion is
 Lemma [lemma-extension-scalars-preserves-dctf]. Next, the maps for $f^*$ and $\otimes^{\mathbf L}$ are isomorphisms by definition, and those for $Rf_*$,
-$Rf_!$, $f^!$ and $\cHom$ by
+[$Rf_!$](@proposition-construction-independence-rf-shriek), [$f^!$](@theorem-existence-exceptional-inverse-image) and $\cHom$ by
 Lemmas [lemma-change-coefficients-direct-image],
 [lemma-change-coefficients-compact-support],
 [lemma-change-coefficients-exceptional-inverse-image]
 and [lemma-change-coefficients-internal-hom]. As for the compatibilities, the one with composites of coefficient maps was explained before
-Lemma [lemma-extension-scalars-preserves-dctf], and for $f^!$ after
+Lemma [lemma-extension-scalars-preserves-dctf], and for [$f^!$](@theorem-existence-exceptional-inverse-image) after
 (7.1). The compatibility with composition of morphisms, on the other hand, holds for $f^*$ by the coherence of the
 associativity isomorphisms for pullbacks. It holds for $Rf_*$ because
-adjoint transposes of composites are composites. For $Rf_!$ the composition isomorphism is built from $R(qr)_*\simeq Rq_*Rr_*$ and the
-interchange of an open and a proper direct image. Since the interchange is a map out of an extension by zero, the claim follows from the case of $Rf_*$ and restriction to the open subscheme. Finally, for $f^!$ it was shown after
+adjoint transposes of composites are composites. For [$Rf_!$](@proposition-construction-independence-rf-shriek) the composition isomorphism is built from $R(qr)_*\simeq Rq_*Rr_*$ and the
+interchange of an open and a proper direct image. Since the interchange is a map out of an extension by zero, the claim follows from the case of $Rf_*$ and restriction to the open subscheme. Finally, for [$f^!$](@theorem-existence-exceptional-inverse-image) it was shown after
 (7.1).
 
 For the units and counits, consider one of the three adjunctions

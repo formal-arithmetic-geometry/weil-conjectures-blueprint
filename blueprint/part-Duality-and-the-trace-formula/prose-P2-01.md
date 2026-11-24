@@ -6,11 +6,11 @@ order = 722
 +++
 At the end of Part I we have, for every separated
 $X_0$ of finite type over $\mathbf F_q$, cohomology groups $H^i_c$ with an
-action of Frobenius, and they are finite because $Rf_!$ preserves $D^b_{\mathrm{ctf}}$.
+action of Frobenius, and they are finite because [$Rf_!$](@proposition-construction-independence-rf-shriek) preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves).
 Nothing yet connects them with the numbers $\#X_0(\mathbf F_{q^m})$ of which
 the zeta function is made. This part supplies the connection: Weil's axioms
-(b) and (c), the trace formula and Poincaré duality, and with them
-rationality and the functional equation (Section [sec-Rationality-and-the-functional-equation]).
+(b) and (c), the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) and [Poincaré duality](@theorem-poincare-duality), and with them
+[rationality](@corollary-point-counting-zeta-function) and the [functional equation](@corollary-functional-equation) (Section [sec-Rationality-and-the-functional-equation]).
 
 For the elliptic curve $y^2=x^3-x$ over $\mathbf F_3$ these two axioms,
 together with the single count $N_1=4$, determine the zeta function and
@@ -22,7 +22,7 @@ oriented manifold $M$, the Künneth components of the class of the diagonal
 in $H^*(M\times M)$ form the copairing inverse to the cup product pairing,
 and the Lefschetz number of a map $\varphi$ is the intersection number of
 its graph with the diagonal. A scheme, however, comes with no orientation
-and no class of the diagonal, and smooth purity is what provides them. It
+and no class of the diagonal, and [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) is what provides them. It
 says that
 $f^!\simeq f^*(d)[2d]$ for $f$ smooth of relative dimension $d$
 (Theorem [theorem-smooth-purity-all-admissible-coefficients]), and this
@@ -30,7 +30,7 @@ isomorphism gives the trace map.
 
 Verdier duality (Theorems [theorem-verdier-biduality]
 and [theorem-global-verdier-duality]) says that $\mathbb D=\cHom(-,\omega)$
-is an involution of $D^b_{\mathrm{ctf}}$ exchanging $Rf_!$ with $Rf_*$. For smooth proper
+is an involution of [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) exchanging [$Rf_!$](@proposition-construction-independence-rf-shriek) with $Rf_*$. For smooth proper
 $X$ it turns the trace map into a perfect pairing between $H^i$ and
 $H^{2d-i}(d)$ (Corollary [corollary-cup-product-pairing]), and this
 pairing is compatible with Frobenius
@@ -60,6 +60,6 @@ result is the Grothendieck–Lefschetz trace formula
 complex $K$, $\operatorname{tr}(\operatorname{Frob}^m\mid R\Gamma_c(X,K))$ is the
 sum over $X_0(\mathbf F_{q^m})$ of the traces of Frobenius on the stalks.
 
-Smooth purity and Verdier duality hold over any finite or algebraically
+[Smooth purity](@theorem-smooth-purity-all-admissible-coefficients) and Verdier duality hold over any finite or algebraically
 closed field, and their compatibility with Frobenius follows from their
 construction (Section [sec-Weil-complexes]).

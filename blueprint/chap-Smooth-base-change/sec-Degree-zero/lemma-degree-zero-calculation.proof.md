@@ -26,7 +26,7 @@ $$
 =(f'_*g'^{-1}F_{\acute{e}t})(U),
 $$
 
-and the base change map is bijective on sections over every such $U$,
+and the [base change map](@definition-underived-base-change-map) is bijective on sections over every such $U$,
 because these equalities are induced by it. As these $U$ cover $Y'$, the
 lemma follows by descent, as in the argument in degree zero of
 [Stacks, [0EYS](https://stacks.math.columbia.edu/tag/0EYS)].

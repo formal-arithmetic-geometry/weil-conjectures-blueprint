@@ -4,14 +4,14 @@ of = "theorem-poincare-duality"
 order = 858
 uses = ["lemma-internal-adjunction-two-exchange-formulas", "theorem-global-verdier-duality"]
 +++
-The theorem is global duality rewritten by means of smooth purity: once
-$\omega_X$ and $\mathbb D_XK$ are identified, the pairing of
+The theorem is [global duality](@theorem-global-verdier-duality) rewritten by means of [smooth purity](@theorem-smooth-purity-all-admissible-coefficients): once
+[$\omega_X$](@definition-verdier-dual-evaluation) and [$\mathbb D_XK$](@definition-verdier-dual-evaluation) are identified, the pairing of
 Theorem [theorem-global-verdier-duality] becomes $\beta_K$.
 
-Corollary [corollary-dualizing-complex-smooth-scheme] identifies $\omega_X$.
+Corollary [corollary-dualizing-complex-smooth-scheme] identifies [$\omega_X$](@definition-verdier-dual-evaluation).
 Since internal Hom commutes with tensoring its second variable by an
-invertible Tate twist and a shift, we get the
-displayed description of $\mathbb D_XK$. If $K$ is locally
+invertible [Tate twist](@definition-tate-twists) and a shift, we get the
+displayed description of [$\mathbb D_XK$](@definition-verdier-dual-evaluation). If $K$ is locally
 perfect, then locally $K$ is represented by a bounded complex of finite projective
 modules, whose dual is the termwise dual, with the usual evaluation.
 
@@ -21,16 +21,16 @@ isomorphism $\omega_X\simeq\Lambda_X(d)[2d]$. Indeed, under this isomorphism eva
 $K\otimes^{\mathbf L}\mathbb D_XK\to\omega_X$ becomes evaluation on
 coefficients $K\otimes^{\mathbf L}K^\vee(d)[2d]\to\Lambda_X(d)[2d]$.
 Moreover, the trace map of Definition [definition-trace-map] is by definition the
-counit $\varepsilon_{a_X}$ precomposed with $\gamma_{a_X}$, so the
+counit $\varepsilon_{a_X}$ precomposed with [$\gamma_{a_X}$](@theorem-smooth-purity-all-admissible-coefficients), so the
 counit becomes $\operatorname{Tr}_X$. Hence the adjoint of $\beta_K$ is
 the isomorphism (10.5), which is
 (10.8). By Lemma [lemma-perfect-complexes-geometric-point]
 both factors of $\beta_K$ are perfect complexes. Since the adjoint of
-$\beta_K$ is an isomorphism, $\beta_K$ is perfect.
+$\beta_K$ is an isomorphism, $\beta_K$ is [perfect](@definition-perfect-pairing).
 
 For proper $X$ we have $Ra_{X!}=Ra_{X*}$, which gives the
 assertion on proper $X$. The last statement holds because the pairing is built from tensor
-products, the two direct images, evaluation, the isomorphism $\gamma_{a_X}$ and
-the trace map, all of which Proposition [proposition-six-operations-change-coefficients] and
+products, the two direct images, evaluation, the isomorphism [$\gamma_{a_X}$](@theorem-smooth-purity-all-admissible-coefficients) and
+the [trace map](@definition-trace-map), all of which Proposition [proposition-six-operations-change-coefficients] and
 Theorem [theorem-smooth-purity-all-admissible-coefficients] show to be
 compatible with every coefficient map.

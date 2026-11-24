@@ -9,7 +9,7 @@ element of $H$, by Lemma [lemma-identity-component], and average
 the torus part over the components of $G$ so that it becomes central
 in all of $G$. The factors from $H$ that accumulate in this
 process are collected in $h$; their determinants are roots of unity, so they do not affect
-determinant weights (see Lemma [lemma-determinant-weight-from-central-scalar] below). Note that the
+[determinant weights](@definition-determinant-weight) (see Lemma [lemma-determinant-weight-from-central-scalar] below). Note that the
 direct sum $V$ of the $V_i$ is again semisimple, so
 Lemma [lemma-identity-component] applies to it.
 
@@ -35,8 +35,8 @@ as $c$ in $G/H$. Since $c\in H\rho(s)^m$, we get $z\in H\rho(s)^{mb}$, which
 gives $h$ and $N=mb>0$.
 
 Being central in $G$, the element $z$ commutes with the action of $W(U_0)$ on
-tensor constructions. Moreover, as noted after the definition of tensor constructions,
-every $W(U_0)$-stable subspace of a tensor construction is $G$-stable. Hence
+[tensor constructions](@definition-tensor-construction). Moreover, as noted after the definition of [tensor constructions](@definition-tensor-construction),
+every $W(U_0)$-stable subspace of a [tensor construction](@definition-tensor-construction) is $G$-stable. Hence
 $z$ acts on the $W(U_0)$-stable subquotients and commutes with the action of
 $W(U_0)$ on them. On a simple subquotient, therefore, an eigenspace of $z$ is nonzero and
 $W(U_0)$-stable, hence is the whole space; in other words, $z$ acts by a scalar.

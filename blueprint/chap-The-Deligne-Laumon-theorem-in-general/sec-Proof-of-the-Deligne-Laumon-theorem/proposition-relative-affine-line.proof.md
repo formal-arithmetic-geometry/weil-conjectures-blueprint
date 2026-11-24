@@ -4,23 +4,23 @@ of = "proposition-relative-affine-line"
 order = 1358
 uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images", "theorem-pure-lisse-sheaves-over-relative", "lemma-weights-exact-sequence"]
 +++
-We stratify the target so that over each stratum, $G$ is lisse off a
-subscheme that is finite over the base. On the lisse part the
+We stratify the target so that over each stratum, $G$ is [lisse](@definition-lisse-sheaves) off a
+subscheme that is finite over the base. On the [lisse](@definition-lisse-sheaves) part the
 projection is a relative affine curve, and we apply
 Theorem [theorem-pure-lisse-sheaves-over-relative]. On the finite
 part it is quasi-finite, and we apply
 Lemma [lemma-finite-quasi-finite-direct-images].
 
-Take a finite mixed filtration of $G$. In the long exact
+Take a finite [mixed filtration](@definition-weights) of $G$. In the long exact
 sequences of $R^ip_!$ for its steps, the bound $w+i$ passes from the
-pure quotients to $G$ by Lemma [lemma-weights-exact-sequence]. We
-may therefore assume that $G$ is pure and constructible of weight
+[pure](@definition-weights) quotients to $G$ by Lemma [lemma-weights-exact-sequence]. We
+may therefore assume that $G$ is [pure](@definition-weights) and [constructible](@definition-constructible-sheaves) of weight
 $v\leq w$.
 
 Suppose first that the target $Y_0=\operatorname{Spec}R$ is integral
 and affine, so that $\mathbf A^1_{Y_0}$ is integral. We construct the
-strata as follows. Choose a dense open $U$ on which $G$ is lisse. Since the
-locus where $G$ is lisse is stable under Frobenius, we may replace
+strata as follows. Choose a dense open $U$ on which $G$ is [lisse](@definition-lisse-sheaves). Since the
+locus where $G$ is [lisse](@definition-lisse-sheaves) is stable under Frobenius, we may replace
 $U$ by the intersection of its finitely many Frobenius conjugates. Then
 $U$ is defined over $k_0$, and so are the ideal $I\subset R[T]$ of its
 reduced complement and the choices below. If the complement is
@@ -49,7 +49,7 @@ them. Their union is open, and its complement has smaller dimension.
 The case of dimension zero is contained in the construction, because a
 reduced zero-dimensional scheme is a finite disjoint union of integral
 affine pieces. In general, the restriction of $G$ over the closed
-complement is again mixed of weights at most $w$, and the inductive
+complement is again [mixed](@definition-weights) of weights at most $w$, and the inductive
 hypothesis gives the bound there.
 Lemma [lemma-weight-bounds-partitions](2), applied to the open
 union and its closed complement in the target, gives the bound over

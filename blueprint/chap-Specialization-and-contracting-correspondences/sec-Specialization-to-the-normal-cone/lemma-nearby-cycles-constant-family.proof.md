@@ -14,7 +14,7 @@ Proper direct image along a compactified linear projection then shows
 that the remaining support is empty, by induction on the dimension of
 an affine space containing $Y$.
 
-By the comparison for constructible complexes, we may work on the small
+By the [comparison for constructible complexes](@theorem-comparison-constructible-sheaves), we may work on the small
 étale site. There $\sigma$ is $\bar i^*$ of the unit of
 $\bar j^*\dashv R\bar j_*$ and the base change maps are $\bar i^*$ of
 mates, so (1), (2) and naturality follow from the triangle identities.

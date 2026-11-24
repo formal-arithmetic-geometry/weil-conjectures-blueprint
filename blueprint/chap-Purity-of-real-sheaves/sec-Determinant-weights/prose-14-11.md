@@ -5,28 +5,28 @@ title = "Determinant weights"
 order = 1119
 +++
 Before purity is known, the only weight we can attach to an irreducible
-lisse Weil sheaf $Q$ on a curve is its determinant weight
-$\operatorname{dw}_\iota(Q)$, the weight of $\det Q$ divided by the rank
+[lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) $Q$ on a curve is its [determinant weight](@definition-determinant-weight)
+[$\operatorname{dw}_\iota(Q)$](@definition-determinant-weight), the weight of $\det Q$ divided by the rank
 (Definition [definition-determinant-weight] and
 Corollary [corollary-determinant-weights]). This section proves the two facts about
-determinant weights that Rankin's argument in Section [sec-Rankins-bound] needs for the
+[determinant weights](@definition-determinant-weight) that Rankin's argument in Section [sec-Rankins-bound] needs for the
 tensor and exterior powers of a real sheaf $\mathcal G$. First, every simple
-factor of $\mathcal G^{\otimes2m}$ has determinant weight at most $2m$ times
-the largest determinant weight of the constituents of $\mathcal G$, and this
-bounds the weights of $H^2_c$. Second, the determinant weights of the simple
+factor of $\mathcal G^{\otimes2m}$ has [determinant weight](@definition-determinant-weight) at most $2m$ times
+the largest [determinant weight](@definition-determinant-weight) of the constituents of $\mathcal G$, and this
+bounds the weights of $H^2_c$. Second, the [determinant weights](@definition-determinant-weight) of the simple
 factors of $\bigwedge^r\mathcal G$ are known exactly, and this is what lets
 exterior powers separate the constituents.
 
 The difficulty is that a determinant only sees an average. For
 irreducible $A$ and $B$ of ranks $a$ and $b$, we have
 $\det(A\otimes B)=(\det A)^{\otimes b}\otimes(\det B)^{\otimes a}$. Hence the
-determinant weight of $A\otimes B$ as a whole is
+[determinant weight](@definition-determinant-weight) of $A\otimes B$ as a whole is
 $\operatorname{dw}_\iota(A)+\operatorname{dw}_\iota(B)$. But $A\otimes B$
 is usually reducible, and which subquotients occur depends on the
-monodromy. The rank-weighted average of the determinant weights of its
+monodromy. The rank-weighted average of the [determinant weights](@definition-determinant-weight) of its
 simple factors is the number above, but nothing so far prevents one
-factor from lying above it and another below. If the factors were pure,
-the determinant weight of each would be its weight, but purity is what we are
+factor from lying above it and another below. If the factors were [pure](@definition-weights),
+the [determinant weight](@definition-determinant-weight) of each would be its weight, but purity is what we are
 trying to prove.
 
 The model to keep in mind is a central character. If a group acts on

@@ -8,7 +8,7 @@ equivalence of Lemma [lemma-sp-tower-adjunction-foundation]. For this we
 need both functors to stay inside normalized towers, which is where the
 equivalence holds.
 
-Since $Rf_{!,\bullet}$ and $f^!_\bullet$ preserve normalized towers, the equivalence of
+Since $Rf_{!,\bullet}$ and [$f^!_\bullet$](@proposition-sp-tower-geometric) preserve normalized towers, the equivalence of
 Lemma [lemma-sp-tower-adjunction-foundation] gives
 $\operatorname{red}_Y(Rf_{!,\mathcal O_E}M)\simeq Rf_{!,\bullet}\operatorname{red}_XM$ and
 $\operatorname{red}_XH_{f,\mathcal O_E}(K)\simeq f^!_\bullet\operatorname{red}_YK$. Using

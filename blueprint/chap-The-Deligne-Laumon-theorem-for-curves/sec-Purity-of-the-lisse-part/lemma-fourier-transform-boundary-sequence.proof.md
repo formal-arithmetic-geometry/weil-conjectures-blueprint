@@ -17,7 +17,7 @@ of Proposition [proposition-base-change-fourier-inversion] says that
 the stalk of $\operatorname{FT}_\psi(j_!M)$ at $y$ is
 $R\Gamma_c(U,M\otimes\mathcal L_{\psi(yx)})[1]$, so we must show that
 only $H^1_c$ is nonzero. We apply
-Lemma [lemma-extreme-degrees-affine-curve] to the lisse
+Lemma [lemma-extreme-degrees-affine-curve] to the [lisse](@definition-lisse-sheaves)
 sheaf $M\otimes\mathcal L_{\psi(yx)}$ on the affine curve $U$, with $j$
 the identity. It shows that the group in degree zero vanishes and that
 the group in degree two is a twist of
@@ -30,11 +30,11 @@ remaining group $H^1_c$ in degree zero, and the transform is a sheaf
 $G$.
 
 The transform of $B$ is computed point by point. After geometric base
-change, the punctual sheaf
+change, the [punctual sheaf](@definition-punctual-sheaf)
 $B$ is a finite sum of skyscrapers with coefficient modules, and the
 transform of each skyscraper is a linear character sheaf tensored with
-that module and shifted by one. Since a linear character sheaf is lisse
-on the whole dual line, $\operatorname{FT}_\psi(B)=B'[1]$ with $B'$ lisse.
+that module and shifted by one. Since a linear character sheaf is [lisse](@definition-lisse-sheaves)
+on the whole dual line, $\operatorname{FT}_\psi(B)=B'[1]$ with $B'$ [lisse](@definition-lisse-sheaves).
 
 Applying the Fourier transform to the triangle obtained from
 $0\to j_!M\to j_*M\to B\to0$, and using
@@ -62,13 +62,13 @@ $|\iota\alpha|\le q^{dw/2}$, we get $|\iota\beta|\le q^{w/2}$.
 At a point $y$ of higher degree we replace $q$ by the cardinality of
 $\kappa(y)$.
 
-For a filtration of $B'$ with pure quotients, choose for each boundary
+For a filtration of $B'$ with [pure](@definition-weights) quotients, choose for each boundary
 point, over its
 residue field, a Frobenius-stable full flag of the coefficient module,
 which exists because $\overline{\mathbf Q}_\ell$ is algebraically closed. Each successive
 quotient is then a line, on which Frobenius acts by one of its eigenvalues.
 Tensoring with the linear character sheaves and summing over the
 Frobenius orbit, we
-obtain a finite Weil filtration of $B'$ whose quotients are pure of
+obtain a finite Weil filtration of $B'$ whose quotients are [pure](@definition-weights) of
 the weights of the coefficient eigenvalues, and these weights are at
 most $w$.

@@ -15,11 +15,11 @@ onto $h_W$.
 
 To see that covers of $U$ split, note that by
 Theorem [theorem-pro-etale-refinements-weakly-etale] a
-faithfully flat weakly étale $D$-algebra can be refined to a faithfully
-flat ind-étale $D$-algebra. This
+faithfully flat [weakly étale](@definition-ind-etale-pro-etale-weakly) $D$-algebra can be refined to a faithfully
+flat [ind-étale](@definition-ind-etale-pro-etale-weakly) $D$-algebra. This
 refinement splits by Proposition [proposition-splitting-ind-etale-covers], and hence so does the original map. Now, given a cover of the
 affine $U$, we refine it by a finite affine cover $\{V_j\to U\}$. Its disjoint union
-$\coprod_jV_j$ is a single faithfully flat weakly étale affine cover,
+$\coprod_jV_j$ is a single faithfully flat [weakly étale](@definition-ind-etale-pro-etale-weakly) affine cover,
 which therefore has a section $s:U\to\coprod_jV_j$. The sets
 $s^{-1}(V_j)$ then form a finite clopen partition of $U$, and on
 $s^{-1}(V_j)$ the inclusion into $U$ factors through $V_j$.

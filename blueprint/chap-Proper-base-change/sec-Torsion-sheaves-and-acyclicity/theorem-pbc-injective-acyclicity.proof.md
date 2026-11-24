@@ -15,7 +15,7 @@ by (ii). The right hand side vanishes for $q>0$ because $I$ is injective,
 and this is (iii).
 
 *(iii)$\Rightarrow$(ii).* Let $F$ be a sheaf of $\Lambda$-modules. We
-compare the two sides of the base change map through an injective
+compare the two sides of the [base change map](@definition-derived-base-change-map) through an injective
 resolution $F\to I^\bullet$ by sheaves of $\Lambda$-modules. The complex
 $f'_*g'^*I^\bullet$ computes $Rf'_*g'^*F$. Indeed, since $g'^*$ is exact,
 $g'^*I^\bullet$ is a resolution of $g'^*F$, and its terms are
@@ -29,14 +29,14 @@ g^*f_*I^m\xrightarrow{\sim} f'_*g'^*I^m
 $$
 
 in each degree, and these form an isomorphism of complexes by naturality. By
-(4.4) this isomorphism is the derived base
-change map for $F$, which proves (ii).
+(4.4) this isomorphism is the [derived base
+change map](@definition-derived-base-change-map) for $F$, which proves (ii).
 
 *(ii)$\Rightarrow$(i).* Let $K\in D^+(X_{\acute{e}t},\Lambda)$. For bounded $K$
 we argue by induction on the cohomological length. A complex of length one
 is a shifted sheaf, which (ii) covers, while a longer one is, by a canonical
 truncation triangle, an extension of two complexes of smaller length.
-Since the base change map is a morphism of triangles, the five lemma on
+Since the [base change map](@definition-derived-base-change-map) is a morphism of triangles, the five lemma on
 cohomology sheaves shows that it is an isomorphism for $K$.
 An unbounded $K$ reduces to the bounded case, because a given
 cohomology sheaf only depends on a bounded truncation. More precisely, fix a degree $m$

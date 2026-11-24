@@ -4,21 +4,21 @@ of = "lemma-sp-reduction"
 order = 770
 uses = ["definition-change-of-coefficients-maps", "lemma-change-coefficients-compact-support"]
 +++
-The comparison $b$ for $Rf_!$ is a direct computation, and $c_{A,B}$ is
+The comparison $b$ for [$Rf_!$](@proposition-construction-independence-rf-shriek) is a direct computation, and $c_{A,B}$ is
 then determined by the adjunction. To see that $c_{A,B}$ is invertible we
-use the explicit form of $f^!$ on a chart, where it is an ordinary inverse
+use the explicit form of [$f^!$](@theorem-existence-exceptional-inverse-image) on a chart, where it is an ordinary inverse
 image.
 
-The map $b$ is the change of coefficients for $Rf_!$ (Proposition [proposition-six-operations-change-coefficients]).
+The map $b$ is the change of coefficients for [$Rf_!$](@proposition-construction-independence-rf-shriek) (Proposition [proposition-six-operations-change-coefficients]).
 To see that it is an isomorphism, note that extension by zero commutes with $-\otimes^{\mathbf L}_AB$, and for $R\bar f_*$ we resolve
 $B$ by finite free $A$-modules and use the flat models of Lemma [lemma-flat-models-generators].
 The comparison holds on each free term, which is a finite direct sum of copies of $A$, and since
-$R\bar f_*$ has finite cohomological dimension, only finitely many terms of
+$R\bar f_*$ has finite [cohomological dimension](@definition-cohomological-dimension), only finitely many terms of
 the resolution contribute in each degree, so the comparison holds for every $B$.
 Next, we define $c_{A,B}(K)$ as the transpose of the right-hand side of (9.16).
 Whether it is an isomorphism is a local question, so we may restrict to a chart
 $f|_U=p_d\circ e$ of Proposition [proposition-exceptional-inverse-image-smooth-morphism](1). There the counit is built from
-the trace of the projective line and sums over the fibres of $e$, which commute with
+the [trace of the projective line](@lemma-cohomology-projective-line-trace) and sums over the fibres of $e$, which commute with
 extension of coefficients (Proposition [proposition-adjunction-projective-line]).
 On the chart, therefore, $c_{A,B}(K)$ is the transpose of the comparison
 for pullback $(e^*p_d^*K(d)[2d])_B\simeq e^*p_d^*(K_B)(d)[2d]$, which is an

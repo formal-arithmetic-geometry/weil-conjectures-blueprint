@@ -11,7 +11,7 @@ $\Hom(R\Gamma_c(\mathbf A^1,\Lambda),\Lambda[-2])\simeq\Hom(\Lambda_X,a^!\Lambda
 $R\Gamma_c(\mathbf A^1,\Lambda)=\Lambda(-1)[-2]$.
 
 If $k$ is algebraically closed, taking global sections turns the trace
-$\operatorname{Tr}_a(\Lambda_{\operatorname{Spec}k})$ into a map
+[$\operatorname{Tr}_a(\Lambda_{\operatorname{Spec}k})$](@definition-trace-map) into a map
 $R\Gamma_c(X_{\mathrm{pro}\acute{e}t},\Lambda_X(d))[2d]\to\Lambda$, and taking $H^0$ of
 it gives the trace map
 $H_c^{2d}(X_{\mathrm{pro}\acute{e}t},\Lambda_X(d))\to\Lambda$.

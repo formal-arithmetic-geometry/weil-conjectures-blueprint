@@ -8,7 +8,7 @@ Both complexes have cohomology $\mathbf F_\ell$ in degree zero,
 $\mathbf F_\ell(-1)$ in degree one, and zero in all other degrees.
 For the surface this follows from localization, the acyclicity of the
 strictly local schemes $S,D_2$, and the purity identity
-$i_{D_2}^!\mathbf F_\ell=\mathbf F_\ell(-1)[-2]$. This identity, in turn, comes by transitivity from the dualizing complexes of the smooth schemes $S$ and $D_2$.
+$i_{D_2}^!\mathbf F_\ell=\mathbf F_\ell(-1)[-2]$. This identity, in turn, comes by transitivity from the [dualizing complexes](@definition-verdier-dual-evaluation) of the smooth schemes $S$ and $D_2$.
 
 For the punctured trait $D_1-z$, vanishing in degrees $\geq2$ follows from
 Proposition [proposition-cohomology-smooth-affine-curve], by passing to the

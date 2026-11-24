@@ -7,17 +7,17 @@ order = 200
 The integral coefficient sheaves are inverse limits. To restrict integral
 complexes to the strata of a stratification, and to extend them by zero,
 we therefore need the functors $j_!$, $j^*$, $i^*$ and $i_*$ to commute
-with limits. On the pro-étale site this holds, even for inverse image
+with limits. On the [pro-étale site](@definition-small-pro-etale-site) this holds, even for inverse image
 along a closed immersion, and from this we deduce the localization triangles
 and construct the local cohomology functor. With these tools we can argue with
-closed supports before the exceptional inverse image and proper base
-change are available.
+closed supports before the exceptional inverse image and [proper base
+change](@theorem-proper-base-change-classical-pro) are available.
 
-That $i^*$ commutes with limits is special to the pro-étale site. On
+That $i^*$ commutes with limits is special to the [pro-étale site](@definition-small-pro-etale-site). On
 $X_{\acute{e}t}$ the stalk of $i^*F$ at a point of $Z$ is the stalk of $F$. This
 is a colimit, and colimits do not commute with infinite products. On
-$X_{\mathrm{pro}\acute{e}t}$, by contrast, the value of $i^*M$ on a weakly contractible affine over $Z$
-is the value of $M$ on one affine object of $X_{\mathrm{pro}\acute{e}t}$, henselian along
+[$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), by contrast, the value of $i^*M$ on a [weakly contractible](@definition-weak-contractibility) affine over $Z$
+is the value of $M$ on one affine object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), henselian along
 $Z$ (Proposition [proposition-extension-zero-restriction-closed-subscheme]),
 and evaluation on one object preserves limits.
 For $\mathcal O_{E,X}=\varprojlim(\mathcal O_E/\pi_E^n)_X$ this means that

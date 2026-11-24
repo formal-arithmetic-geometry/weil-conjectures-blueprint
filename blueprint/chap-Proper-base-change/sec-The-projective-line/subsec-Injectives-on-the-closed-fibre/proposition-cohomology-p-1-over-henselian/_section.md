@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueF
 uses = ["definition-torsion-sheaves"]
 +++
 Let $R$ be a henselian local ring with residue field $\kappa$. For every
-torsion abelian sheaf $F$ on $\mathbf P^1_{R,\acute{e}t}$, restriction
+[torsion](@definition-torsion-sheaves) abelian sheaf $F$ on $\mathbf P^1_{R,\acute{e}t}$, restriction
 induces isomorphisms, natural in $F$, with
 $F_0=i^*F$,
 

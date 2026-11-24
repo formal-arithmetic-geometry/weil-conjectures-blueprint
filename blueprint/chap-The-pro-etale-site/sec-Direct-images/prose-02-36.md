@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Direct images (1)"
 order = 132
 +++
-Proper base change is proved on the étale site
+[Proper base change](@proposition-proper-base-change-etale-site) is proved on the étale site
 (Chapter [chap-Proper-base-change]), while $Rf_!$ is defined by direct
-images on the pro-étale site. To transfer proper base change, and to
+images on the [pro-étale site](@definition-small-pro-etale-site). To transfer [proper base change](@proposition-proper-base-change-etale-site), and to
 compute these direct images, we compare direct images on the two sites.
 
 Let $g:X\to Y$ be a morphism of schemes. Base change of objects of the
@@ -31,9 +31,9 @@ $\nu_Y^*Rg_{\acute{e}t,*}\to Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*$ of functors
 $D^+(X_{\acute{e}t},\Lambda)\to D^+(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ is defined as the
 adjoint of the composite of
 $g_{\mathrm{pro}\acute{e}t}^*\nu_Y^*Rg_{\acute{e}t,*}\simeq\nu_X^*g_{\acute{e}t}^*Rg_{\acute{e}t,*}$ with
-$\nu_X^*$ applied to the counit of the adjunction $g_{\acute{e}t}^*\dashv Rg_{\acute{e}t,*}$.
+[$\nu_X^*$](@proposition-comparison-morphism-inverse-image) applied to the counit of the adjunction $g_{\acute{e}t}^*\dashv Rg_{\acute{e}t,*}$.
 
-Evaluated on a pro-étale affine $V=\varprojlim_iV_i$ over $Y$, the
+Evaluated on a [pro-étale affine](@definition-ind-etale-pro-etale-weakly) $V=\varprojlim_iV_i$ over $Y$, the
 comparison map is the map from $\varinjlim_iH^q(X\times_YV_i,F)$ to
 $H^q(X\times_YV,F)$. So the theorem below is the continuity of étale
 cohomology under affine limits, and like it, it needs $g$ to be

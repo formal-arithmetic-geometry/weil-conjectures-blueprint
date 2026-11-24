@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Base change in degree zero (1)"
 order = 327
 +++
-For a proper morphism, the underived base change map is an isomorphism
+For a proper morphism, the [underived base change map](@definition-underived-base-change-map) is an isomorphism
 for every étale sheaf of sets, with no torsion hypothesis. The reason is
 that, for a proper scheme over a henselian pair, restriction of sections to
 the closed fibre is bijective

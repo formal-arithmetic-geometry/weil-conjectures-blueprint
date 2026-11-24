@@ -8,4 +8,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 We have $H_c^2(\mathbf A^1,j_*M)=0$, and there is a Frobenius-equivariant
 isomorphism $H_c^1(\mathbf A^1,j_*M)\simeq(j'_*M')_{0'}$ with the stalk
 at the origin $0'$ of the dual line. In particular $H_c^1(\mathbf A^1,j_*M)$
-has weights at most $w+1$.
+has [weights at most](@definition-weights) $w+1$.

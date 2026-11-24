@@ -20,7 +20,7 @@ $$
 $$
 
 compatible with base change in the sense that for $g:S'\to S$ with $S'$
-Noetherian, the base change map $g^*Rp_*\Lambda\to Rp'_*\Lambda$ carries $g^*\sigma_S$ to $\sigma_{S'}$. Let
+Noetherian, the [base change map](@definition-derived-base-change-map) $g^*Rp_*\Lambda\to Rp'_*\Lambda$ carries $g^*\sigma_S$ to $\sigma_{S'}$. Let
 
 $$
 \operatorname{Tr}_p:Rp_*\Lambda_{\mathbf P^1_S}(1)[2]\longrightarrow\Lambda_S

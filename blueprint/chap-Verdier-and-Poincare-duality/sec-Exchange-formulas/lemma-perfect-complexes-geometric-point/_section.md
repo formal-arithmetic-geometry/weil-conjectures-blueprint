@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Etale.isPerfect_geometricStalk", "DerivedCategory.IsP
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "theorem-pro-etale-refinements-weakly-etale", "definition-weak-contractibility", "proposition-pro-etale-site-separably-closed", "definition-constructible-sheaves", "lemma-constructible-sheaves", "proposition-six-operations-dctf", "definition-compactification-refinement"]
 +++
 Suppose $k$ is algebraically closed. The category
-$D^b_{\mathrm{ctf}}(s,\Lambda)$ identifies with
+[$D^b_{\mathrm{ctf}}(s,\Lambda)$](@definition-constructible-sheaves) identifies with
 $\operatorname{Perf}(\Lambda)$, the category of bounded complexes of
 finite projective $\Lambda$-modules up to quasi-isomorphism. For
 $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, both

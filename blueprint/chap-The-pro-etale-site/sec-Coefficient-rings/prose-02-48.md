@@ -12,5 +12,5 @@ $\QbarX$. Here $A$ is a finite commutative ring killed by a power of
 $\ell$, with the discrete topology, and $A_X$ is the usual constant sheaf.
 For the point we take the site of profinite sets described below. By
 Proposition [proposition-pro-etale-site-separably-closed] it is the
-pro-étale site of a separably closed field. Unlike the étale site of
+[pro-étale site](@definition-small-pro-etale-site) of a separably closed field. Unlike the étale site of
 the field, it keeps the topology of the coefficient rings.

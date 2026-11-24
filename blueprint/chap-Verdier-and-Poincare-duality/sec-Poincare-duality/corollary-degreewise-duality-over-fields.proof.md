@@ -14,7 +14,7 @@ $H^{-i}(R\!\operatorname{Hom}_\Lambda(P,\Lambda))=\Hom_\Lambda(H^i(P),
 degree $-i$, and taking $H^{-i}$ we
 get $H^{2d-i}(X,K^\vee(d))\simeq\Hom_\Lambda(H^i_c(X,K),\Lambda)$.
 Since this isomorphism is induced by the pairing in degrees $(i,2d-i)$, it
-says exactly that the first pairing is perfect.
+says exactly that the first pairing is [perfect](@definition-perfect-pairing).
 Here both spaces are finite-dimensional by Lemma [lemma-perfect-complexes-geometric-point]. Finally, the second pairing is
 the first one with the second factor and the value line twisted by
-$(-d)$, so it is perfect as well.
+$(-d)$, so it is [perfect](@definition-perfect-pairing) as well.

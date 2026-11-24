@@ -4,15 +4,15 @@ of = "lemma-change-coefficients-exceptional-inverse-image"
 order = 642
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-exact-products", "proposition-milnor-sequence", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "lemma-reduction-derived-nakayama", "lemma-integral-models", "proposition-inverting-ell", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-naturality-pasting-comparison", "theorem-comparison-over-henselian-pair-degree", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-comparison-etale-derived-category", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "proposition-exceptional-inverse-image-smooth-morphism", "corollary-open-direct-image-over-field", "theorem-f-shriek-finite-coefficients", "proposition-dctf-x-qbar-2-colimit", "proposition-sp-unique-adjoint", "definition-sp-scalar-extension", "lemma-uniqueness-maps-dense-open", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-Since $f^!$ is only known through its adjunction, there is no formula into
+Since [$f^!$](@theorem-existence-exceptional-inverse-image) is only known through its adjunction, there is no formula into
 which we could substitute $K_{\Lambda'}$ directly. Instead we show that
-$\beta_{f,K}$ is an isomorphism in two cases where $f^!$ has been computed:
+$\beta_{f,K}$ is an isomorphism in two cases where [$f^!$](@theorem-existence-exceptional-inverse-image) has been computed:
 closed immersions and the projection $\mathbf P^1_Y\to Y$. We then factor
 a general $f$ locally into such maps, using that $\beta$ is compatible
 with composition and with restriction to opens.
 
 *Closed immersions.* For a closed immersion $i$ with open complement
-$j$, the functor $i^!$ is determined by the localization triangle
+$j$, the functor [$i^!$](@theorem-existence-exceptional-inverse-image) is determined by the localization triangle
 
 $$
 i_*i^!K\longrightarrow K\longrightarrow Rj_*j^*K.
@@ -28,8 +28,8 @@ fibres is $i_*\beta_{i,K}$. The comparisons on the other two terms are
 isomorphisms, and therefore $i_*\beta_{i,K}$ is one as well. Since $i_*$
 is fully faithful, $\beta_{i,K}$ is an isomorphism.
 
-*The projective line.* Let $q:\mathbf P^1_Y\to Y$. Recall that the adjunction $Rq_*\dashv q^*(1)[2]$ between $D^b_{\mathrm{ctf}}(\mathbf P^1_Y,\Lambda)$ and
-$D^b_{\mathrm{ctf}}(Y,\Lambda)$ is defined by the diagonal class and the trace. Through these two maps, $q^!$ is identified with $q^*(1)[2]$. It therefore
+*The projective line.* Let $q:\mathbf P^1_Y\to Y$. Recall that the adjunction $Rq_*\dashv q^*(1)[2]$ between [$D^b_{\mathrm{ctf}}(\mathbf P^1_Y,\Lambda)$](@definition-constructible-sheaves) and
+[$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) is defined by the [diagonal class](@proposition-ell-adic-cycle-class-diagonal) and the [trace](@proposition-ell-adic-cycle-class-diagonal). Through these two maps, [$q^!$](@theorem-existence-exceptional-inverse-image) is identified with $q^*(1)[2]$. It therefore
 suffices to know that the two maps commute with all the maps of
 coefficient rings listed above.
 This holds by construction

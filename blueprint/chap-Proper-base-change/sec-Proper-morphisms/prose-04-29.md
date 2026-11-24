@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Proper morphisms (1)"
 order = 383
 +++
-Proper base change for an arbitrary proper morphism follows from the
+[Proper base change](@proposition-proper-base-change-etale-site) for an arbitrary proper morphism follows from the
 case of the projective line
 (Proposition [proposition-proper-base-change-projective-line]) by
-formal steps. Finite morphisms satisfy proper base change
+formal steps. Finite morphisms satisfy [proper base change](@definition-torsion-pbc-property)
 directly, and Lemma [lemma-composition-cancellation] shows that the
 property is stable under composition and descends along proper
 surjections. Descent along a proper surjection $u:X\to Y$ works because
@@ -18,6 +18,6 @@ composite keep $u_*J$ acyclic after base change.
 The steps are then as follows. First, composition gives the projection of
 $(\mathbf P^1)^n$. Then descent along the finite surjection
 $(\mathbf P^1)^n\to\mathbf P^n$ gives the projection of $\mathbf P^n$,
-and with it every projective morphism. Finally, by Chow's lemma every proper
+and with it every projective morphism. Finally, by [Chow's lemma](@theorem-chow-s-lemma-projective-form) every proper
 morphism is dominated by a projective one through a proper surjection,
 so a last descent covers all proper morphisms.

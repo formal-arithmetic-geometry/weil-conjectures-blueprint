@@ -34,7 +34,7 @@ It is a closed subgroup scheme whose Lie algebra is the fixed space of
 $\operatorname{Ad}(g)$, that is, all of $\mathfrak g$. So $C_G(g)=G$
 by Lemma [lemma-connected-components-images-homomorphisms](3). Conversely, a central element
 acts trivially. Since the kernel and the center are reduced by
-Cartier's theorem, their equality on $\Omega$-points is an equality of
+[Cartier's theorem](@proposition-cartier-s-theorem), their equality on $\Omega$-points is an equality of
 schemes.
 
 The Lie algebra of the center is now the kernel of a differential. The formula

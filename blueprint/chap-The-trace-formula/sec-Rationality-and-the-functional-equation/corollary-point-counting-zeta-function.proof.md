@@ -4,13 +4,13 @@ of = "corollary-point-counting-zeta-function"
 order = 1041
 uses = ["definition-categorical-trace", "proposition-properties-trace", "definition-correspondence", "theorem-grothendieck-lefschetz-trace-formula", "lemma-hankel-rank-rationality"]
 +++
-The identities over $\Lambda$ are the trace formula and the Euler
-product for the constant sheaf. What needs an argument is that
+The identities over $\Lambda$ are the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) and the [Euler
+product](@theorem-trace-formula-euler-product) for the constant sheaf. What needs an argument is that
 $Z(X_0,T)$ has rational coefficients, which we deduce at the end from
 the rationality over $\mathbf Q_\ell$ by linear algebra.
 
 For $K=\Lambda_X$, every stalk is $\Lambda$, and every stalk Frobenius
-$\operatorname{Frob}_{y,m}$ is its identity, with categorical trace $1_\Lambda$. Thus
+[$\operatorname{Frob}_{y,m}$](@theorem-grothendieck-lefschetz-trace-formula) is its identity, with [categorical trace](@definition-categorical-trace) $1_\Lambda$. Thus
 (12.9) follows from Theorem [theorem-grothendieck-lefschetz-trace-formula],
 and the formula over the fields follows from its cohomological form
 (12.4). By the orbit count in the proof of

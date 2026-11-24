@@ -19,7 +19,7 @@ first to the geometric generic fibre removes such Galois classes. After
 this change, the constant sheaf specializes to itself, in degree zero, by
 the first calculation below.
 
-Both specialization to the normal cone and the comparison of trace classes in
+Both specialization to the normal cone and the comparison of [trace classes](@definition-trace-class-local-terms) in
 Proposition [proposition-specialization-trace-class] are built from
 nearby cycles on the deformation to the normal cone. The key input is
 Verdier's theorem,
@@ -30,7 +30,7 @@ The basic computation is that nearby cycles of a constant family
 $Y\times S$ give back the complex we started with
 (Lemma [lemma-nearby-cycles-constant-family]). We use it twice. It
 makes the map $\tau_{X,Z}$ below land in $i^*L$, and it makes the
-specialization of trace classes the identity when the fixed scheme does
+specialization of [trace classes](@definition-trace-class-local-terms) the identity when the [fixed scheme](@definition-correspondence) does
 not move (Corollary [corollary-specialization-when-fixed-point-scheme]).
 Its proof uses only the definition of nearby cycles, their base change
 maps and two calculations, which we now recall.

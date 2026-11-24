@@ -4,13 +4,13 @@ kind = "hidden"
 title = "Integral constructible complexes (1)"
 order = 226
 +++
-Constructibility over $\mathcal O_E$ is defined by a local condition, but in
+[Constructibility](@definition-constructible-sheaves) over $\mathcal O_E$ is defined by a local condition, but in
 practice we know a complex $K\in D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ through
 its reductions
 $K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(\mathcal O_E/\pi_E^n)_X$ of
 Definition [definition-derived-adic-completeness]. The criterion below says that
-$K$ is constructible exactly when it is derived complete and $K_1$ is
-constructible. Write $\mathbf F_E=\mathcal O_E/\pi_E$ for the residue
+$K$ is [constructible](@definition-constructible-sheaves) exactly when it is [derived complete](@definition-derived-adic-completeness) and $K_1$ is
+[constructible](@definition-constructible-sheaves). Write $\mathbf F_E=\mathcal O_E/\pi_E$ for the residue
 field, so that $K_1\in D(X_{\mathrm{pro}\acute{e}t},\mathbf F_E)$.
 
 To prove the criterion we must produce, on each stratum, one complex of
@@ -20,7 +20,7 @@ its stratification are inherited from $K_1$ by dévissage along the
 powers of $\pi_E$, and on a stratum it is locally isomorphic to a
 constant perfect complex. The difficulty is that these local isomorphisms
 are chosen independently at each level, so they have to be made
-compatible before we pass to the limit. On a weakly contractible cover
+compatible before we pass to the limit. On a [weakly contractible](@definition-weak-contractibility) cover
 we do this by a Mittag–Leffler argument, which needs a uniform
 rate. Such a rate exists because a bounded complex of finite free modules over the
 discrete valuation ring $\mathcal O_E$ has finitely generated

@@ -5,7 +5,7 @@ title = "Determinant weights of tensor operations"
 order = 1148
 uses = ["definition-determinant-weight", "definition-weil-representation"]
 +++
-Let $V$ and $V'$ be nonzero Weil representations, let $A_1,\ldots,A_t$ be
+Let $V$ and $V'$ be nonzero [Weil representations](@definition-weil-representation), let $A_1,\ldots,A_t$ be
 the composition factors of $V$, and put $\gamma_a=\operatorname{dw}_\iota(A_a)$.
 
 1. $\operatorname{DW}(V\otimes V')=\operatorname{DW}(V)+\operatorname{DW}(V')$.

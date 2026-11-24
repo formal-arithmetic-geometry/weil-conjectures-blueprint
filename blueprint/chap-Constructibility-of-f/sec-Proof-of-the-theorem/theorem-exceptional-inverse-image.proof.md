@@ -26,5 +26,5 @@ Part (3) is Theorem [theorem-existence-exceptional-inverse-image].
 Part (4) is Theorem [theorem-f-shriek-finite-coefficients] for
 finite $A$ and Theorem [theorem-f-shriek-ell-adic-coefficients] for $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$. The second theorem includes $\mathbf Z_\ell$ and
 $\mathbf Q_\ell$ as the case $E=\mathbf Q_\ell$; recall that $D^b_{\mathrm{ctf}}=\Dbc$ in the integral and
-rational cases. For the last assertion, note that the categories $D^b_{\mathrm{ctf}}(X,\Lambda)$ and $D^b_{\mathrm{ctf}}(Y,\Lambda)$ are full subcategories of the localizing categories, and $Rf_!$ and $f^!$
+rational cases. For the last assertion, note that the categories [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) and [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) are full subcategories of the [localizing categories](@definition-localizing-subcategory), and [$Rf_!$](@proposition-construction-independence-rf-shriek) and [$f^!$](@theorem-existence-exceptional-inverse-image)
 preserve them. Hence the Hom bijections of the adjunction restrict to them.

@@ -4,17 +4,17 @@ of = "lemma-global-lattice-normal-scheme"
 order = 1081
 uses = ["lemma-stability", "definition-small-pro-etale-site", "theorem-pro-etale-refinements-weakly-etale"]
 +++
-The scheme of lattices satisfies the valuative condition of
+The [scheme of lattices](@lemma-lattices-lisse-e-sheaves) satisfies the valuative condition of
 Lemma [lemma-geometric-coverings-normal-scheme], so it has a finite étale
-surjective component, and we push the universal lattice of this component down to
+surjective component, and we push the [universal lattice](@lemma-lattices-lisse-e-sheaves) of this component down to
 $X$ by the trace.
 
 We may assume that $L$ has positive rank $r$. Let
-$Y$ be the $X$-scheme representing lattices in $L$
+$Y$ be the $X$-scheme representing [lattices](@definition-lattice) in $L$
 (Lemma [lemma-lattices-lisse-e-sheaves]), a separated surjective étale
-$X$-scheme with a universal lattice. Pro-étale locally on $X$, the scheme $Y$ is constant: the proof of that lemma shows that, for a
-quasi-compact pro-étale covering $U\to X$, with $U$ a pro-étale
-affine on which $L$ is free,
+$X$-scheme with a [universal lattice](@lemma-lattices-lisse-e-sheaves). Pro-étale locally on $X$, the scheme $Y$ is constant: the proof of that lemma shows that, for a
+quasi-compact [pro-étale covering](@definition-small-pro-etale-site) $U\to X$, with $U$ a [pro-étale
+affine](@definition-ind-etale-pro-etale-weakly) on which $L$ is free,
 
 $$
 Y\times_XU\simeq
@@ -51,7 +51,7 @@ by separatedness and the density of $\operatorname{Spec}K$.
 
 By Lemma [lemma-geometric-coverings-normal-scheme], every nonempty component
 $p_1:Y_1\to X$ of $Y$ is therefore finite étale and surjective. We fix one, and
-let $N\subseteq p_1^*L$ be its universal lattice.
+let $N\subseteq p_1^*L$ be its [universal lattice](@lemma-lattices-lisse-e-sheaves).
 As in Lemma [lemma-lattices-after-finite-stratification], set
 
 $$
@@ -60,8 +60,8 @@ p_{1*}N\longrightarrow p_{1*}p_1^*L
 \xrightarrow{\operatorname{Tr}}L\bigr).
 $$
 
-The sheaf $M$ is lisse with $M[1/\ell]=L$. Indeed, after the cover is
-split into $d$ sheets, this image is the sum of $d$ lattices. On a
+The sheaf $M$ is [lisse](@definition-lisse-sheaves) with $M[1/\ell]=L$. Indeed, after the cover is
+split into $d$ sheets, this image is the sum of $d$ [lattices](@definition-lattice). On a
 common pro-étale refinement these become constant lattices in $E^r$, and their sum is a
 finite free $\mathcal O_E$-lattice spanning $E^r$.
 

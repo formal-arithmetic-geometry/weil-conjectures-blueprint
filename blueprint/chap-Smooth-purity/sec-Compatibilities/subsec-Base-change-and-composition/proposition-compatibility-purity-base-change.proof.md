@@ -4,11 +4,11 @@ of = "proposition-compatibility-purity-base-change"
 order = 799
 uses = ["definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "theorem-bounded-below-cohomology-comparison", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "lemma-descent-finite-coefficient-field", "proposition-inverting-ell", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "lemma-naturality-pasting-comparison", "theorem-comparison-over-henselian-pair-degree", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-proper-direct-image-constructible-complexes", "proposition-comparison-etale-derived-category", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "corollary-open-direct-image-over-field", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "proposition-six-operations-change-coefficients", "proposition-isomorphisms-reduce-finite-coefficients", "proposition-sp-unique-adjoint", "definition-sp-scalar-extension", "lemma-uniqueness-maps-dense-open", "lemma-passing-schematic-closure", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-The map $\gamma_f$ has two factors, the orientation of $\omega_f$ and the
+The map [$\gamma_f$](@theorem-smooth-purity-all-admissible-coefficients) has two factors, the orientation of [$\omega_f$](@definition-relative-dualizing-complex) and the
 map $\mu_{f,K}$, and we show that each commutes with base
 change. For the orientation this is a local statement about rank one
-sheaves, and it follows from the naturality of the deformation to the
-normal bundle. For $\mu_{f,K}$ we compare transposes under the
+sheaves, and it follows from the naturality of the [deformation to the
+normal bundle](@definition-deformation-normal-bundle). For $\mu_{f,K}$ we compare transposes under the
 adjunction for $f'$.
 
 For a finite ring $A$ we compare the orientations and the maps
@@ -16,8 +16,8 @@ $\mu_{f,K}$ directly with coefficients in $A$, and for
 $\mathcal O_E$ we compare the maps on towers $\gamma_{f,\bullet}$ of
 (9.19) and apply $R\varprojlim$. The cases $E$ and
 $\overline{\mathbf Q}_\ell$ follow, since
-$\gamma_{f,E}$ and $\gamma_{f,\overline{\mathbf Q}_\ell}$ are obtained from
-$\gamma_{f,\mathcal O_E}$ by inverting $\ell$ and by extension of scalars from
+[$\gamma_{f,E}$](@theorem-smooth-purity-all-admissible-coefficients) and [$\gamma_{f,\overline{\mathbf Q}_\ell}$](@theorem-smooth-purity-all-admissible-coefficients) are obtained from
+[$\gamma_{f,\mathcal O_E}$](@theorem-smooth-purity-all-admissible-coefficients) by inverting $\ell$ and by extension of scalars from
 a finite extension of $\mathbf Q_\ell$.
 We write out the calculation for towers; dropping the index $\bullet$
 gives the calculation at finite level. There the map $\gamma_{f,\bullet}$ is the composite of
@@ -32,7 +32,7 @@ to be compared are maps between sheaves of towers of rank one in degree
 zero. Since maps between sheaves form a sheaf, and a map of sheaves of towers is
 a compatible family of maps of sheaves, equality may be tested
 locally on $X'$ and at each level $n$. At a fixed level, the diagonal, its
-normal bundle, the deformation to the normal bundle and the trace map of
+normal bundle, the [deformation to the normal bundle](@definition-deformation-normal-bundle) and the trace map of
 vector bundles all commute with base change
 (Lemma [lemma-naturality-under-base-change-etale](1)), and therefore so
 does the orientation built from them.

@@ -5,12 +5,12 @@ title = "Condensed rings (2)"
 order = 175
 +++
 The étale topos of $\Omega$ is the topos of sets, whereas by the
-proposition its pro-étale topos is the topos of condensed sets. The final
-object of $*_{\mathrm{pro}\acute{e}t}$ is weakly contractible, so taking global sections is
+proposition its [pro-étale topos](@proposition-topos-functoriality) is the topos of condensed sets. The final
+object of $*_{\mathrm{pro}\acute{e}t}$ is [weakly contractible](@definition-weak-contractibility), so taking global sections is
 exact. However, a condensed sheaf is not determined by its global sections.
-For classical sheaves geometric stalks still suffice, whereas a general sheaf of
-modules on the pro-étale site has to be evaluated on all
-weakly contractible affines
+For [classical](@definition-classical-pro-etale-sheaves) sheaves geometric stalks still suffice, whereas a general sheaf of
+modules on the [pro-étale site](@definition-small-pro-etale-site) has to be evaluated on all
+[weakly contractible](@definition-weak-contractibility) affines
 (Corollary [corollary-evaluation-weakly-contractible-objects]). For example, the
 completed coefficient sheaf $\mathbf Z_{\ell,X}$ of
 Example [example-coefficient-sheaf-outside-classical-part] is of this

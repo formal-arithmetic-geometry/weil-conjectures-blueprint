@@ -7,7 +7,7 @@ order = 1649
 The proof has the same shape as that of
 Lemma [lemma-nearby-cycles-constant-family]: the cone of $\Pi_{L,M}$
 has no global sections and finite support, so it vanishes.
-When $X$ and $Y$ are projective, the ordinary Künneth formula on the
+When $X$ and $Y$ are projective, the [ordinary Künneth formula](@proposition-ordinary-external-kunneth) on the
 geometric generic fibres gives zero global sections, once we
 know how $\Pi$ behaves under proper direct image. Restricting to
 the generic point of a coordinate line by

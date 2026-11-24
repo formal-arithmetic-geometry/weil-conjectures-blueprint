@@ -7,5 +7,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,
 extension by zero along a quasi-compact open immersion and direct image
-along a closed immersion preserve $\Dbc(-,\mathcal O_E)$; on $\Dbc$ inverse
+along a closed immersion preserve [$\Dbc(-,\mathcal O_E)$](@definition-constructible-sheaves); on [$\Dbc$](@definition-constructible-sheaves) inverse
 image agrees with the completed inverse image of the Stacks Project.

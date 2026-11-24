@@ -13,7 +13,7 @@ For an invertible sheaf $\mathcal L$ on $C_T$, the Euler characteristic
 $\chi(C_t,\mathcal L_t)$ is a locally constant function of $t\in T$.
 This holds because $C_T\to T$ is proper and flat and $Rf_{T,*}\mathcal L$
 is perfect (Lemma [lemma-coherent-base-change-invertible-sheaves]).
-By Riemann–Roch the degree of $\mathcal L_t$ is locally constant as well.
+By [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality) the degree of $\mathcal L_t$ is locally constant as well.
 This gives the displayed decomposition into open and closed pieces. The
 charts in $\operatorname{Hilb}^{g}_{C/k}$ and their translates show
 that the scheme is smooth of dimension $g$.
@@ -24,7 +24,7 @@ section of the group scheme is a closed immersion. The diagonal is the
 preimage of the unit section under $(x,y)\mapsto xy^{-1}$, so it is
 closed as well.
 
-The universal divisor defines the Abel map
+The [universal divisor](@theorem-hilbert-schemes-points-smooth-curve) defines the Abel map
 
 $$
 \operatorname{Hilb}^{g}_{C/k}\longrightarrow\operatorname{Pic}^g_{C/k},
@@ -32,7 +32,7 @@ $$
 $$
 
 For a line bundle $\mathcal L$ of degree $g$ on $C_{k'}$, with $k'$
-algebraically closed, Riemann–Roch gives
+algebraically closed, [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality) gives
 $h^0(\mathcal L)\geq\chi(\mathcal L)=g+1-g=1$. A nonzero section has an
 effective divisor $D$ of degree $g$ with $\mathcal O(D)\simeq\mathcal L$.
 Hence the Abel map is surjective on points over algebraically closed
@@ -45,7 +45,7 @@ because $\operatorname{Hilb}^{g}_{C/k}$ is.
 Translation by $\mathcal O_C((d-g)P)$ identifies
 $\operatorname{Pic}^g_{C/k}$ with the component of each degree $d$. In
 particular, the component of degree zero is smooth, proper, connected and
-commutative. Such a group scheme is an abelian variety
+commutative. Such a group scheme is an [abelian variety](@definition-abelian-variety)
 (see [Stacks, [0BA0](https://stacks.math.columbia.edu/tag/0BA0)]).
 
 The tangent space $T_0J(C)$ is the kernel of
@@ -55,8 +55,8 @@ the kernel of $\operatorname{Pic}(C_{k[\varepsilon]})\to\operatorname{Pic}(C)$,
 which is $H^1(C,\mathcal O_C)$ by
 Lemma [lemma-tangent-space-picard-functor].
 
-For a field extension $k'/k$, the Picard functor of $C_{k'}$ is the
-restriction of $\operatorname{Pic}_{C/k}$ to $k'$-schemes. Hence its
+For a field extension $k'/k$, the [Picard functor](@definition-relative-picard-functor) of $C_{k'}$ is the
+restriction of [$\operatorname{Pic}_{C/k}$](@definition-relative-picard-functor) to $k'$-schemes. Hence its
 representing scheme is the base change. The degree of $\mathcal L_t$ is
 computed on the fibre $C_t$, so the decomposition by degree, and with it
 $J(C)$, is compatible with this base change.

@@ -9,7 +9,7 @@ defined by $\tilde u$ comes from the unit in weight zero, so it lands in
 $F^0$, and its image in $\operatorname{gr}^0$ is the tuple $(u_a)_a$.
 Composing with the filtered trace morphism of
 Lemma [lemma-filtered-trace-morphism] and forgetting the filtration
-gives on the one hand $\operatorname{Tr}_c(u)$, and on the other hand,
-by the factorization through $\operatorname{gr}^0$, the sum of the trace
-classes $\operatorname{Tr}_c(u_a)$. For (2) we apply (1) to the lift
+gives on the one hand [$\operatorname{Tr}_c(u)$](@definition-trace-class-local-terms), and on the other hand,
+by the factorization through $\operatorname{gr}^0$, the sum of the [trace
+classes](@definition-trace-class-local-terms) [$\operatorname{Tr}_c(u_a)$](@definition-trace-class-local-terms). For (2) we apply (1) to the lift
 $\tilde u$ of Lemma [lemma-lift-correspondence-invariant-decomposition].

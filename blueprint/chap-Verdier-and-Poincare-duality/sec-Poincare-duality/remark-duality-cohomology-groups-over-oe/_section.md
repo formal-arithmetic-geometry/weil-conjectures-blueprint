@@ -31,5 +31,5 @@ itself, derived Hom out of a
 bounded complex of finite projective modules records all the
 groups $\Ext^i_A(-,A)$ of the cohomology modules, and this information
 may be lost in their ordinary duals. Moreover, the cohomology modules of a
-complex in $D^b_{\mathrm{ctf}}(X,A)$ need not have finite Tor dimension, so the
+complex in [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) need not have finite Tor dimension, so the
 derived pairing cannot be reduced to pairings of cohomology sheaves.

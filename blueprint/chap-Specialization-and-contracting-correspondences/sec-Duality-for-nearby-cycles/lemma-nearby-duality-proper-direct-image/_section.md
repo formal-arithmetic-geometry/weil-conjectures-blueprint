@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $f:X\to Y$ be a proper morphism of separated $S$-schemes of finite
 type, and let $M\in D^b_{\mathrm{ctf}}(X_\eta,A)$. Under the
-isomorphism $\chi_f$ and the Verdier duality isomorphisms
+isomorphism $\chi_f$ and the [Verdier duality isomorphisms](@corollary-verdier-exchange-formulas)
 $Rf_*\mathbb D\simeq\mathbb DRf_*$ of Chapter [chap-Verdier-and-Poincare-duality] on
 both fibres,
 
@@ -20,7 +20,7 @@ $$
 
 For an open immersion $j:U\to X$, the restriction $j_s^*\delta_{X,M}$ is
 $\delta_{U,j_\eta^*M}$ under the base change isomorphism $\alpha_j$. If
-$X$ is proper over $S$, then under global Verdier duality on both fibres
+$X$ is proper over $S$, then under [global Verdier duality](@theorem-global-verdier-duality) on both fibres
 
 $$
 R\Gamma(X_s,\delta_{X,M})

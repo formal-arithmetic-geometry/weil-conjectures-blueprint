@@ -37,7 +37,7 @@ the assertion to $N=\mathbf F_\ell$ on $S-(D_{1,S}\cup D_{2,S})$.
 By Lemma [lemma-punctured-surface-punctured-curve], applied to $S$ with the
 divisors $D_{1,S},D_{2,S}$, the restriction map
 $R\Gamma(S-D_{2,S},\mathbf F_\ell)\to R\Gamma(D_{1,S}-z,\mathbf F_\ell)$ is an
-isomorphism. The localization sequence for $D_{1,S}-z$ and its complement
+isomorphism. The [localization sequence](@proposition-extension-zero-restriction-closed-subscheme) for $D_{1,S}-z$ and its complement
 in $S-D_{2,S}$ identifies $R\Gamma(S-D_{2,S},j'_!\mathbf F_\ell)$ with the cone
 of this map, shifted by $-1$. Hence this complex is zero, and $M_z=0$ in $D(A)$ by
 conservativity.

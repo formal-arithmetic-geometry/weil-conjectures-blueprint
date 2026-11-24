@@ -8,8 +8,8 @@ uses = ["definition-underived-base-change-map", "definition-derived-base-change-
 +++
 Let $u:V\to W$ be finite. The formation of $u_*$ on abelian sheaves
 commutes with arbitrary base change: for every base change $W'\to W$, the
-underived base change map (4.2) is an
+[underived base change map](@definition-underived-base-change-map) (4.2) is an
 isomorphism. Consequently, for every constant coefficient ring
-$\Lambda$, the derived base change map
+$\Lambda$, the [derived base change map](@definition-derived-base-change-map)
 (4.3) is an isomorphism
 for every $K\in D^+(V_{\acute{e}t},\Lambda)$.

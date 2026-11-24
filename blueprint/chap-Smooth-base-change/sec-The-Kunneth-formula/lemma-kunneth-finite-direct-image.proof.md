@@ -23,7 +23,7 @@ M\boxtimes\pi_*A_{T'}\simeq w_*p_{X,T'}^*M.
 $$
 
 Since $hw=vh'$, the comparison between these two expressions is
-$v_*$ of the base change map of
+$v_*$ of the [base change map](@definition-pro-etale-base-change-map) of
 Lemma [lemma-base-change-along-product-projection] for $h'$, hence it
 is an isomorphism.
 Moreover, this comparison is $\kappa_{M,Q}$, because under the adjunction

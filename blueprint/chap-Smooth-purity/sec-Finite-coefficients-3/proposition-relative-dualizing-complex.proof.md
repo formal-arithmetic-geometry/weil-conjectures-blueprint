@@ -4,7 +4,7 @@ of = "proposition-relative-dualizing-complex"
 order = 757
 uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "theorem-proper-base-change-classical-pro", "proposition-construction-independence-rf-shriek", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "proposition-sp-unique-adjoint", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images", "lemma-finite-morphisms-cohomology"]
 +++
-We define the isomorphism as a chain of three steps: restrict $\omega_f$ to
+We define the isomorphism as a chain of three steps: restrict [$\omega_f$](@definition-relative-dualizing-complex) to
 the diagonal of $X\times_YX$, move the diagonal to the zero section of
 $T_{X/Y}$, and use the orientation of a vector bundle.
 

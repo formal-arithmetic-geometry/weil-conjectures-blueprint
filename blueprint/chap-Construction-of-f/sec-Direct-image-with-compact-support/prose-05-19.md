@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Direct image with compact support"
 order = 480
 +++
-The trace formula needs a relative version of cohomology with compact
+The [trace formula](@theorem-grothendieck-lefschetz-trace-formula) needs a relative version of cohomology with compact
 supports, whose stalks are the groups $H^i_c$ of the fibres. Consider
 first a locally compact Hausdorff space
 $X$ with an open embedding $j:X\hookrightarrow\overline X$ into a compact
@@ -20,9 +20,9 @@ of a morphism and not of a subset. The two-step form, however, does carry over.
 In it, the functor $j_!$ imposes compact support along the open immersion, while for
 a proper map $p$, as for a map of spaces with compact fibres, the direct
 image with compact supports is the ordinary direct image $Rp_*$. By
-proper base change, the result does not depend on the compactification
+[proper base change](@theorem-proper-base-change-classical-pro), the result does not depend on the compactification
 (Proposition [proposition-construction-independence-rf-shriek]).
-Proper base change also identifies
+[Proper base change](@theorem-proper-base-change-classical-pro) also identifies
 the stalks of $Rf_!$ with the compactly supported cohomology of the
 fibres (Corollary [corollary-trace-functions-direct-image-compact]).
 

@@ -4,6 +4,6 @@ kind = "hidden"
 title = "Quasi-finite morphisms and curves (4)"
 order = 1332
 +++
-Combining the two lemmas, we obtain the curves we need for real
+Combining the two lemmas, we obtain the curves we need for [real](@definition-real-sheaves)
 sheaves. We can treat several sheaves at once, because a single cover
 dominates the finite quotients attached to all of them.

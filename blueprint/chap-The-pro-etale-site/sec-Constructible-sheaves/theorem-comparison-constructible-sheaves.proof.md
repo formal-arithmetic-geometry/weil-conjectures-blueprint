@@ -6,8 +6,8 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "pr
 +++
 The preceding proposition treats the case of a single stratum. For a finite
 stratification we argue locally, by induction on the number of strata.
-Once the sheaves are known to be classical, the equivalences follow from
-full faithfulness of $\nu_X^*$ and its version for $D^+$.
+Once the sheaves are known to be [classical](@definition-classical-pro-etale-sheaves), the equivalences follow from
+full faithfulness of [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) and its version for $D^+$.
 
 Given a point, we shrink to an affine open on which the stratum
 containing it is closed, with inclusion $i$ and open complement $j$.
@@ -19,11 +19,11 @@ $$
 $$
 
 reduces the assertion to fewer strata, because on pro-étale sheaves of
-modules the functors $j_!$ and $i_*$ preserve classical sheaves, by
+modules the functors $j_!$ and $i_*$ preserve [classical](@definition-classical-pro-etale-sheaves) sheaves, by
 (2.10) and Theorem [theorem-comparison-direct-images],
-and classical sheaves are closed under extensions
-(Corollary [corollary-bounded-below-classical-complexes]). Since $\nu_X^*$ is
-fully faithful, sheaves that are classical on the members of a Zariski
-covering are classical, so the local statement suffices. The
+and [classical](@definition-classical-pro-etale-sheaves) sheaves are closed under extensions
+(Corollary [corollary-bounded-below-classical-complexes]). Since [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) is
+fully faithful, sheaves that are [classical](@definition-classical-pro-etale-sheaves) on the members of a Zariski
+covering are [classical](@definition-classical-pro-etale-sheaves), so the local statement suffices. The
 derived statement follows from Corollary [corollary-bounded-below-classical-complexes]
 and bounded truncation; see [Stacks, [09AK](https://stacks.math.columbia.edu/tag/09AK), [09AL](https://stacks.math.columbia.edu/tag/09AL)].

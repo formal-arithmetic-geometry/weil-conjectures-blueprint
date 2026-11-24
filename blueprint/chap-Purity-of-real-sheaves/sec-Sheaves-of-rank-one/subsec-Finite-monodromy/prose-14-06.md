@@ -8,7 +8,7 @@ With Proposition [proposition-no-fixed-class-degree-one] in hand, the
 logarithm argument sketched at the start of Section [sec-Sheaves-of-rank-one]
 proves Theorem [theorem-rank-one-sheaves-have-finite].
 Corollaries [corollary-rank-one-weights] and [corollary-determinant-weights]
-then translate finiteness of monodromy into weights. For a lisse sheaf of
+then translate finiteness of monodromy into weights. For a [lisse](@definition-lisse-sheaves) sheaf of
 higher rank, however, the determinant weight
 (Definition [definition-determinant-weight]) is the only weight we can
 attach until Rankin's argument.

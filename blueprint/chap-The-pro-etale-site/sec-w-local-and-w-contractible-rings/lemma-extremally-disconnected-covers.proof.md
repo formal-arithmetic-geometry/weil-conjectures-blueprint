@@ -6,8 +6,8 @@ order = 54
 Write $T^{\delta}$ for the underlying set of $T$ with the discrete
 topology and take $S=\beta(T^{\delta})$, its Stone–Čech
 compactification. The Stone–Čech compactification of a discrete
-space is extremally disconnected, and the identity $T^{\delta}\to T$
+space is [extremally disconnected](@definition-w-local-w-strictly-local), and the identity $T^{\delta}\to T$
 extends uniquely to a continuous surjection $\beta(T^{\delta})\to T$; see
-[Stacks, [090D](https://stacks.math.columbia.edu/tag/090D)]. An extremally disconnected compact Hausdorff space is
+[Stacks, [090D](https://stacks.math.columbia.edu/tag/090D)]. An [extremally disconnected](@definition-w-local-w-strictly-local) compact Hausdorff space is
 totally disconnected, since the closure of an open set is clopen, and
 hence it is profinite.

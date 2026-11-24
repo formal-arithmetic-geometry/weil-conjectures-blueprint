@@ -4,8 +4,8 @@ kind = "hidden"
 title = "Duality for the projective line (5)"
 order = 553
 +++
-We build the unit and counit of the adjunction from $\delta$ and from
-the trace. For $M\in D((\mathbf P^1_S)_{\acute{e}t},A)$,
+We build the unit and counit of the adjunction from [$\delta$](@lemma-class-diagonal-projective-line) and from
+the [trace](@lemma-cohomology-projective-line-trace). For $M\in D((\mathbf P^1_S)_{\acute{e}t},A)$,
 let
 
 $$
@@ -20,7 +20,7 @@ $$
 
 Here the first arrow is $Rp_{2*}$ applied to $\delta\otimes p_1^*M$,
 where we use the projection formula
-$\Delta_*M=\Delta_*A\otimes^{\mathbf L}p_1^*M$, and the second arrow is the proper base change isomorphism $p^*Rp_*\simeq Rp_{2*}p_1^*$. For $N\in D(S_{\acute{e}t},A)$,
+$\Delta_*M=\Delta_*A\otimes^{\mathbf L}p_1^*M$, and the second arrow is the [proper base change](@theorem-results-from-etale-theory) isomorphism $p^*Rp_*\simeq Rp_{2*}p_1^*$. For $N\in D(S_{\acute{e}t},A)$,
 let
 
 $$

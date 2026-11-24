@@ -5,7 +5,7 @@ order = 846
 uses = ["proposition-exact-products", "proposition-milnor-sequence", "corollary-continuity-cohomology", "lemma-reduction-derived-nakayama", "definition-lisse-sheaves", "lemma-flat-models-generators", "lemma-integral-models", "proposition-inverting-ell", "lemma-identity-pasting", "proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "proposition-exceptional-inverse-image-smooth-morphism", "lemma-coordinate-projections", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "lemma-change-coefficients-compact-support", "lemma-change-coefficients-exceptional-inverse-image", "proposition-six-operations-change-coefficients", "proposition-dctf-x-qbar-2-colimit", "definition-sp-scalar-extension", "lemma-internal-adjunction-two-exchange-formulas", "lemma-verdier-duality-preserves-constructibility", "lemma-double-dual-geometric-generic-fibre"]
 +++
 We first treat finite coefficients $A$ over an algebraically closed field $k$, and deduce the other coefficient rings and a finite base field at the end. In this main case we reduce
-to proper $X$, show by induction that the cone of $\delta_K$ has zero
+to proper $X$, show by induction that the cone of [$\delta_K$](@definition-verdier-dual-evaluation) has zero
 stalks at all nonclosed points, and compute global sections to see that
 its stalks at the finitely many remaining closed points vanish. This induction is on $d=\dim X$. Since the induction step passes to a
 geometric generic fibre over $\overline{k(t)}$, we run it simultaneously
@@ -13,20 +13,20 @@ over all algebraically closed fields of characteristic different from
 $\ell$. In dimension
 zero, $X_{\mathrm{red}}$ is a finite disjoint union of copies of
 $\operatorname{Spec}k$, and by nilpotent invariance we may replace $X$ by
-it. On each copy, moreover, $\omega=\Lambda$ and $\delta_K$ is the evaluation map
+it. On each copy, moreover, $\omega=\Lambda$ and [$\delta_K$](@definition-verdier-dual-evaluation) is the evaluation map
 of a perfect complex, which is an isomorphism by
 Lemma [lemma-perfect-complexes-geometric-point].
 
-We may assume that $X$ is proper of dimension $d$; properness is used only in the last step, to compute global sections. This reduction rests on the fact that the double-dual morphism commutes with restriction to
+We may assume that $X$ is proper of dimension $d$; properness is used only in the last step, to compute global sections. This reduction rests on the fact that the [double-dual morphism](@definition-verdier-dual-evaluation) commutes with restriction to
 opens. This holds because restriction to an open $j:U\to X$ commutes with
 internal Hom, satisfies $j^*\omega_X=j^!\omega_X=\omega_U$, and identifies
 all the evaluation maps. Given this, choose a compactification $j:X\hookrightarrow\overline X$, replace the target by the closure
 of $X$, which has dimension $d$, and extend $K$ by zero. Then
-$j_!K$ is in $D^b_{\mathrm{ctf}}(\overline X,A)$, and the restriction of its
-double-dual morphism to $X$ is $\delta_K$.
+$j_!K$ is in [$D^b_{\mathrm{ctf}}(\overline X,A)$](@definition-constructible-sheaves), and the restriction of its
+[double-dual morphism](@definition-verdier-dual-evaluation) to $X$ is [$\delta_K$](@definition-verdier-dual-evaluation).
 
 Let $Q=\Cone(\delta_K)$. We have to show that $Q=0$. Since $Q$ is
-bounded and constructible by
+bounded and [constructible](@definition-constructible-sheaves) by
 Lemma [lemma-verdier-duality-preserves-constructibility], it is enough
 to show that all its geometric stalks vanish.
 
@@ -40,7 +40,7 @@ and the induction hypothesis applies to it.
 Let $g$ be the projection from the geometric generic fibre of $U$. By
 Lemma [lemma-double-dual-geometric-generic-fibre],
 locally on $U$ the complex $g^*Q$ is isomorphic to the cone of
-$\delta_{g^*K}$. This cone vanishes by the
+[$\delta_{g^*K}$](@definition-verdier-dual-evaluation). This cone vanishes by the
 induction hypothesis over $\overline{k(t)}$. As $x$ lies over the
 generic point of $\mathbf A^1_k$, every geometric point above $x$
 factors through the geometric generic fibre. Therefore $Q$ has zero
@@ -59,8 +59,8 @@ The stalks at these closed points vanish because $X$ is proper and $Q$
 has no global cohomology. To see that $R\Gamma(X,Q)=0$, we apply the
 exchange for proper maps in
 Lemma [lemma-internal-adjunction-two-exchange-formulas] to $a_X$. It
-identifies $R\Gamma(X,\delta_K)$ with the double-dual
-morphism of the perfect complex $R\Gamma(X,K)$, which is an isomorphism by
+identifies $R\Gamma(X,\delta_K)$ with the [double-dual
+morphism](@definition-verdier-dual-evaluation) of the perfect complex $R\Gamma(X,K)$, which is an isomorphism by
 Lemma [lemma-perfect-complexes-geometric-point].
 On the other hand, a sheaf $\mathcal F$ supported on a finite set $S$ of
 closed points is $\bigoplus_{x\in S}x_*\mathcal F_{\bar x}$. Since each
@@ -86,10 +86,10 @@ it is a limit of étale $B$-schemes, and here, with
 $B=\operatorname{Spec}k$ in place of a curve, $\operatorname{Spec}\bar k$
 is the limit of the finite étale $k$-schemes $\operatorname{Spec}k'$,
 for $k'\subset\bar k$ finite over $k$. Unlike in
-Lemma [lemma-double-dual-geometric-generic-fibre], the dualizing
-complex does not change. For an affine open $V$ of $X$, choose a closed
-immersion $i:V\hookrightarrow\mathbf A^r_k$. By composition of exceptional
-inverse images and
+Lemma [lemma-double-dual-geometric-generic-fibre], the [dualizing
+complex](@definition-verdier-dual-evaluation) does not change. For an affine open $V$ of $X$, choose a closed
+immersion $i:V\hookrightarrow\mathbf A^r_k$. By [composition of exceptional
+inverse images](@proposition-composition-open-restriction-compactifications-f) and
 Theorem [theorem-smooth-purity-all-admissible-coefficients],
 $\omega_V\simeq i^!A(r)[2r]$. The base change
 $i_{\bar k}:V_{\bar k}\hookrightarrow\mathbf A^r_{\bar k}$ is a closed immersion
@@ -100,15 +100,15 @@ argument of Lemma [lemma-double-dual-geometric-generic-fibre], with this
 isomorphism in place of $g_V^*\omega_V\simeq\omega_{V_{\bar\eta}}(1)[2]$,
 shows that the isomorphism
 $g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar k}}\mathbb D_{V_{\bar k}}g_V^*(K|_V)$
-it gives carries $g_V^*\delta_{K|_V}$ to $\delta_{g_V^*(K|_V)}$. The latter
+it gives carries $g_V^*\delta_{K|_V}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation). The latter
 is an isomorphism by the case already proved, so $g^*Q$ vanishes on every
 $V_{\bar k}$, and $g^*Q=0$. Finally, every geometric point of $X$ factors
 through $X_{\bar k}$, since its algebraically closed residue field contains an
 algebraic closure of $k$. Hence all geometric stalks of $Q$ vanish, and
 $Q=0$ over the finite field as well.
 
-For coefficient rings that are not finite we reduce to finite ones. Indeed, the double-dual map $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is
-a natural transformation of exact functors, built from $a_X^!$, internal
+For coefficient rings that are not finite we reduce to finite ones. Indeed, the [double-dual map](@definition-verdier-dual-evaluation) $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is
+a natural transformation of exact functors, built from [$a_X^!$](@theorem-existence-exceptional-inverse-image), internal
 Hom and evaluation. Its extensions of scalars are identified by Proposition [proposition-six-operations-change-coefficients]. By
 Proposition [proposition-isomorphisms-reduce-finite-coefficients] the finite case
 therefore implies the theorem for every admissible $\Lambda$.

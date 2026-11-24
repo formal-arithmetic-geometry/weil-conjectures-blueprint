@@ -5,7 +5,7 @@ title = "Twisting to weight zero and adding the dual"
 order = 1197
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-sp-unique-adjoint", "definition-trace-function", "definition-weights", "proposition-weights-under-usual-operations", "definition-real-sheaves"]
 +++
-Let $\mathcal F\ne0$ be lisse and pure of weight $w$ on a nonempty
+Let $\mathcal F\ne0$ be [lisse](@definition-lisse-sheaves) and [pure](@definition-weights) of weight $w$ on a nonempty
 finite-type scheme over $k_0$.  There is $b\in\overline{\mathbf Q}_\ell^\times$ with
 $|\iota(b)|=q^{-w/2}$.  Put
 
@@ -14,6 +14,6 @@ $$
 \qquad \mathcal E=\mathcal F^0\oplus(\mathcal F^0)^\vee.
 $$
 
-Then $\mathcal E$ is real and pure of weight zero, contains
+Then $\mathcal E$ is [real](@definition-real-sheaves) and [pure](@definition-weights) of weight zero, contains
 $\mathcal F^0$ as a direct summand, and at points over $k_n$ its trace
 is twice the real part of the trace of $\mathcal F^0$.

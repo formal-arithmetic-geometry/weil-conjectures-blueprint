@@ -23,10 +23,10 @@ R\otimes_{F^m,R}S\longrightarrow S,
 \qquad b\otimes a\longmapsto f^\#(b)a^{q^m}.
 $$
 
-By topological invariance for classical objects of finite Tor amplitude, $r_m^*$
+By topological invariance for classical objects of [finite Tor amplitude](@definition-constructible-sheaves), $r_m^*$
 is an equivalence, so the unit $\eta_{r_m}$ in the construction is
-an isomorphism. In the construction, the first arrow is base change for compact supports, and
-the last comes from the composition of direct images with compact support, since $r_m$ is
+an isomorphism. In the construction, the first arrow is [base change for compact supports](@proposition-composition-base-change-rf-shriek), and
+the last comes from the composition of [direct images with compact support](@proposition-construction-independence-rf-shriek), since $r_m$ is
 proper.
 Moreover, pasting the cartesian squares defining $X'_m$ and $X'_n$, we get the
 comparison for $m+n$, because the relative Frobenii compose and the unit of
@@ -47,7 +47,7 @@ from the displayed iteration identity and the naturality of $\theta$.
 $R\Gamma_c$ of the correspondence, so we must see that the pullback along
 $\Phi_Y^m$ on $R\Gamma_c(Y,L)$ becomes the pullback along $\Phi_X^m$
 on $R\Gamma_c(X,K)$. For a finite map $h$ we also write $h^*$ for the pullback
-map on cohomology with compact support, defined by the unit of $h^*\dashv Rh_*$.
+map on [cohomology with compact support](@proposition-construction-independence-rf-shriek), defined by the unit of $h^*\dashv Rh_*$.
 Since base change is compatible with these units, the pullback along
 $\Phi_Y^m$, followed by the base change isomorphism,
 is the pullback along $p_m$, and the
@@ -61,7 +61,7 @@ $y$. Since $\Phi_Y^m$ fixes $\bar y$, the fibre of $X'_m\to Y$ over
 $\bar y$ is again the fibre $X_{\bar y}$ of $f$, and $r_m$ restricts to
 a self-map of $X_{\bar y}$. For $f:\mathbf A^1\to s$ and $m=1$, for
 instance, $X'_1=\mathbf A^1$ and $r_1$ is $t\mapsto t^q$. In general, the base change of $r_m$ to this fibre is its $q^m$-power scheme Frobenius,
-and by proper base change its unit restricts to the unit on the fibre. Hence the same
-calculation identifies $\psi'_{m,\bar y}$ with the Frobenius operator
-on the cohomology with compact support of the fibre. Moreover, at a rational point $x$ of the fibre, the restricted correspondence $\psi_m|_{X_{\bar y}}$ has
+and by [proper base change](@theorem-proper-base-change-classical-pro) its unit restricts to the unit on the fibre. Hence the same
+calculation identifies $\psi'_{m,\bar y}$ with the [Frobenius operator](@definition-frobenius-operator)
+on the [cohomology with compact support](@proposition-construction-independence-rf-shriek) of the fibre. Moreover, at a rational point $x$ of the fibre, the restricted correspondence $\psi_m|_{X_{\bar y}}$ has
 stalk map $\psi_{m,\bar x}$, by composition of pullbacks.

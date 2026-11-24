@@ -23,10 +23,10 @@ constant sheaves on $X_{\acute{e}t}$ and finite sets with continuous
 $\pi_1(X,\bar x)$-action, compatible with module structures.
 To pass from the finite reductions to $L$ we need to clear denominators.
 Let $M\subseteq L$ and $M'\subseteq L'$
-be lattices in two lisse $E_X$-modules. Then a morphism
+be [lattices](@definition-lattice) in two [lisse](@definition-lisse-sheaves) [$E_X$](@lemma-comparison-completed-coefficients)-modules. Then a morphism
 $\phi:L\to L'$ has a uniform denominator: $\pi_E^c\phi$ maps $M$ into $M'$
 for some $c\geq0$. To see this, bound the finitely many matrix entries on a
-quasi-compact pro-étale covering trivializing both lattices.
+quasi-compact [pro-étale covering](@definition-small-pro-etale-site) trivializing both [lattices](@definition-lattice).
 
 For faithfulness, suppose the fibre of $\phi$ vanishes. Then the fibres of all
 the reductions of $\pi_E^c\phi$ vanish, so these reductions vanish by the Galois
@@ -40,7 +40,7 @@ divided by $\pi_E^c$, has the given fibre.
 
 The same uniform denominator, applied to the identity of $L$, shows that
 the rational fibre does not depend on the lattice. Indeed, if $M_1$ and $M_2$ are
-two lattices in $L$, then $\pi_E^c\,\mathrm{id}_{L}$ sends
+two [lattices](@definition-lattice) in $L$, then $\pi_E^c\,\mathrm{id}_{L}$ sends
 $M_1$ into $M_2$ for some $c\geq0$, and symmetrically.
 On fibres these maps, divided by $\pi_E^c$, therefore give mutually inverse
 equivariant isomorphisms between the two rational fibres.
@@ -52,8 +52,8 @@ compact image. Hence the $\mathcal O_E$-span of the translates of a
 lattice is bounded and contains that lattice. As $\mathcal O_E$ is
 noetherian, this span is a stable finite free lattice, and its reductions define
 compatible finite locally constant étale sheaves. These sheaves become
-constant simultaneously on the surjective pro-étale cover obtained
+constant simultaneously on the surjective [pro-étale cover](@definition-small-pro-etale-site) obtained
 as the inverse limit of the finite étale covers corresponding to
-their kernels. Their inverse limit is therefore lisse over
-$\mathcal O_E$, and its rationalization is lisse over $E$. Finally, this
+their kernels. Their inverse limit is therefore [lisse](@definition-lisse-sheaves) over
+$\mathcal O_E$, and its rationalization is [lisse](@definition-lisse-sheaves) over $E$. Finally, this
 construction is inverse to the fibre functor.

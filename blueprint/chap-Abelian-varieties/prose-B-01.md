@@ -5,8 +5,8 @@ title = "Abelian varieties"
 order = 1474
 +++
 Two steps of the main proof come down to the torsion points of a
-Jacobian. By the Kummer sequence, $H^1(C,\mu_n)$ of a curve is the $n$-torsion of its Jacobian. The first step, the finiteness of $H^1$ needed for proper base change, is therefore a count of torsion points. The second step is
-the finiteness of geometric monodromy in rank one, where purity begins.
+Jacobian. By the Kummer sequence, $H^1(C,\mu_n)$ of a curve is the $n$-torsion of its Jacobian. The first step, the finiteness of $H^1$ needed for [proper base change](@theorem-proper-base-change-classical-pro), is therefore a count of torsion points. The second step is
+the [finiteness of geometric monodromy in rank one](@theorem-rank-one-sheaves-have-finite), where purity begins.
 It needs Frobenius to fix no class in $H^1$ of a curve over
 $\mathbf F_q$ (Proposition [proposition-no-fixed-class-degree-one]).
 
@@ -42,7 +42,7 @@ $\chi(A,[n]^*\mathcal N^{\otimes m})$ in two ways, and comparing their
 leading coefficients gives $\deg[n]=n^{2g}$.
 
 The formula itself comes from the theorem of the cube
-(Theorem [theorem-theorem-cube]). Following [Stacks, [0BEZ](https://stacks.math.columbia.edu/tag/0BEZ)], we prove the theorem of the cube together with the rigidity lemma. As a by-product, from the rigidity lemma we deduce that $A$ is commutative; see also [milne-av].
+(Theorem [theorem-theorem-cube]). Following [Stacks, [0BEZ](https://stacks.math.columbia.edu/tag/0BEZ)], we prove the [theorem of the cube](@theorem-theorem-cube) together with the [rigidity lemma](@lemma-rigidity). As a by-product, from the [rigidity lemma](@lemma-rigidity) we deduce that $A$ is commutative; see also [milne-av].
 
 In this appendix all group schemes are of finite type over a field $k$
 of arbitrary characteristic.

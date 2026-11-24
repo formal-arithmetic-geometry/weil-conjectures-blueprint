@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The base change map (1)"
 order = 311
 +++
-Proper base change asserts that a specific map, from the pullback of the
+[Proper base change](@theorem-proper-base-change-classical-pro) asserts that a specific map, from the pullback of the
 direct image to the direct image of the pullback, is an isomorphism. We
 define this map and describe it on sections, so that we can compute
 it on stalks.

@@ -4,8 +4,8 @@ of = "lemma-smooth-morphisms-locally-constant-sheaves"
 order = 566
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-pro-etale-affines-form-basis", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "definition-constructible-sheaves", "lemma-cohomology-modules-underlying-abelian", "definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-naturality-pasting-comparison", "theorem-comparison-over-henselian-pair-degree", "proposition-proper-base-change-degree-zero", "definition-torsion-sheaves", "definition-torsion-pbc-property", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "proposition-proper-base-change-etale-site", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "lemma-class-diagonal-projective-line", "proposition-exceptional-inverse-image-smooth-morphism", "proposition-sp-unique-adjoint", "definition-categorical-trace", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-We write $Rf_*L$ as the dual of $Rf_!N$ for a suitable constructible
-$N$. The point is that constructibility and base change are known for $Rf_!N$, and over a dense open of $S$ the cohomology sheaves of $Rf_!N$ are locally
+We write $Rf_*L$ as the dual of [$Rf_!N$](@proposition-construction-independence-rf-shriek) for a suitable [constructible](@definition-constructible-sheaves)
+$N$. The point is that [constructibility](@definition-constructible-sheaves) and base change are known for [$Rf_!N$](@proposition-construction-independence-rf-shriek), and over a dense open of $S$ the cohomology sheaves of [$Rf_!N$](@proposition-construction-independence-rf-shriek) are locally
 constant, and there dualizing preserves both properties.
 
 By Proposition [proposition-locally-constant-sheaves-finite-presentation], the locally
@@ -22,7 +22,7 @@ N=\cHom_X(L,\mathbf F_{\ell,X})\otimes^{\mathbf L}\omega_f .
 $$
 
 By Proposition [proposition-exceptional-inverse-image-smooth-morphism], $\omega_f$ is locally
-$\mathbf F_{\ell,X}(d)[2d]$. Hence $N$ is bounded constructible and
+$\mathbf F_{\ell,X}(d)[2d]$. Hence $N$ is bounded [constructible](@definition-constructible-sheaves) and
 $\cHom_X(N,\omega_f)=L$.
 
 *Duality.* Consider the pairing
@@ -49,12 +49,12 @@ Since the map is an adjoint transpose, we test it on Hom groups out of a
 family of generators, where adjunctions turn one side into the other.
 To this end we write $L=\cHom_X(N,f^!\mathbf F_{\ell,S})$, and test
 $\delta_L$ on the objects $P[n]$, where $P=u_!\Fell$
-and $u:V\to S$ is quasi-compact, separated and étale. The objects $u_!\Fell$ are constructible of finite Tor amplitude, and their shifts detect
+and $u:V\to S$ is quasi-compact, separated and étale. The objects $u_!\Fell$ are [constructible](@definition-constructible-sheaves) of [finite Tor amplitude](@definition-constructible-sheaves), and their shifts detect
 isomorphisms in $D(S_{\acute{e}t},\Fell)$. Since
-$f^*P\otimes^{\mathbf L}N$ lies in $D^b_{\mathrm{ctf}}(X,\Fell)$, we may use tensor-Hom
+$f^*P\otimes^{\mathbf L}N$ lies in [$D^b_{\mathrm{ctf}}(X,\Fell)$](@definition-constructible-sheaves), we may use tensor-Hom
 adjunction, the adjunction $Rf_!\dashv f^!$ of
 Theorem [theorem-existence-exceptional-inverse-image] between
-$\Loc(D^b_{\mathrm{ctf}}(X,\Fell))$ and $\Loc(D^b_{\mathrm{ctf}}(S,\Fell))$, and the projection
+[$\Loc(D^b_{\mathrm{ctf}}(X,\Fell))$](@definition-localizing-subcategory) and [$\Loc(D^b_{\mathrm{ctf}}(S,\Fell))$](@definition-localizing-subcategory), and the projection
 formula. With Hom groups in $D(S_{\acute{e}t},\Fell)$, we then obtain
 
 $$
@@ -70,11 +70,11 @@ $\delta_L$, for every shift of $P$. Hence $\delta_L$
 is an isomorphism.
 
 *Shrinking the base.* Since $\delta_L$ is an isomorphism, it now suffices to
-understand the dual of $Rf_!N$. By the finiteness theorem for $Rf_!$
-[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0), [0G2A](https://stacks.math.columbia.edu/tag/0G2A)], the complex $Rf_!N$ is bounded constructible. A
-constructible sheaf on the integral scheme $S$ is locally constant on a
+understand the dual of [$Rf_!N$](@proposition-construction-independence-rf-shriek). By the finiteness theorem for [$Rf_!$](@proposition-construction-independence-rf-shriek)
+[Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0), [0G2A](https://stacks.math.columbia.edu/tag/0G2A)], the complex [$Rf_!N$](@proposition-construction-independence-rf-shriek) is bounded [constructible](@definition-constructible-sheaves). A
+[constructible sheaf](@definition-constructible-sheaves) on the integral scheme $S$ is locally constant on a
 nonempty open subset. Thus each of the finitely many nonzero cohomology
-sheaves of $Rf_!N$ is locally constant on a nonempty open of $S$. Let $S_0$
+sheaves of [$Rf_!N$](@proposition-construction-independence-rf-shriek) is locally constant on a nonempty open of $S$. Let $S_0$
 be the intersection of these opens; it is nonempty because $S$ is
 irreducible.
 
@@ -88,14 +88,14 @@ kind, and that forming the dual commutes with every pullback. Through
 $\delta_L$, this proves the first assertion over $S_0$.
 
 *Base change.* The duality $\delta_L$ exchanges $Rf_*L$ with
-the dual of $Rf_!N$, and $Rf_!N$ satisfies base change. We show that the
+the dual of [$Rf_!N$](@proposition-construction-independence-rf-shriek), and [$Rf_!N$](@proposition-construction-independence-rf-shriek) satisfies base change. We show that the
 duality is compatible with base change; then $Rf_*L$ satisfies base change
 too. Let $v:T\to S_0$ be a
 $k$-scheme of finite type over $S_0$, and let $f_T:X_T\to T$ and
-$v_X:X_T\to X$ be the base changes. First, base change for $Rf_!$ and (6.1) identify $v_X^*N$, $v^*Rf_!N$ and $v_X^*\omega_f$ with the
-corresponding objects for $f_T$. Next, the base change map $v^*Rf_*L\to Rf_{T,*}v_X^*L$ is characterized by the fact that it
+$v_X:X_T\to X$ be the base changes. First, [base change for $Rf_!$](@proposition-composition-base-change-rf-shriek) and (6.1) identify $v_X^*N$, $v^*Rf_!N$ and $v_X^*\omega_f$ with the
+corresponding objects for $f_T$. Next, the [base change map](@definition-derived-base-change-map) $v^*Rf_*L\to Rf_{T,*}v_X^*L$ is characterized by the fact that it
 carries the pullback of the counit $f^*Rf_*L\to L$ to the counit for
 $f_T$. Hence the pullback of (6.15) is the pairing for
-$f_T$, composed with this base change map. Finally, the complex $v^*Rf_!N$ is dualizable with dual $v^*\cHom(Rf_!N,\mathbf F_{\ell,S})$. Therefore the
-base change map for $Rf_*L$ is identified with the dual of the base change
-isomorphism for $Rf_!N$, and it is an isomorphism.
+$f_T$, composed with this [base change map](@definition-derived-base-change-map). Finally, the complex $v^*Rf_!N$ is dualizable with dual $v^*\cHom(Rf_!N,\mathbf F_{\ell,S})$. Therefore the
+[base change map](@definition-derived-base-change-map) for $Rf_*L$ is identified with the dual of the [base change
+isomorphism](@proposition-composition-base-change-rf-shriek) for [$Rf_!N$](@proposition-construction-independence-rf-shriek), and it is an isomorphism.

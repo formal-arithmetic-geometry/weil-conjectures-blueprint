@@ -24,13 +24,13 @@ integration along the fibres. For the first step, regard $V\times_SV$ as a vecto
 bundle over the first factor. The automorphism $(v,w)\mapsto(v,w-v)$ of
 $V\times_SV$ over the first factor takes the diagonal to the zero
 section, and it preserves integration in the second factor. To see this,
-let the translation vector vary over $V$. Its effect on the top compactly
-supported direct image, identified with the constant sheaf by integration,
+let the translation vector vary over $V$. Its effect on the top [compactly
+supported direct image](@proposition-construction-independence-rf-shriek), identified with the constant sheaf by integration,
 is then multiplication by a locally constant unit on $V$, and this unit is $1$ at
 the zero vector, where the translation is the identity. Since each
 geometric fibre of $V\to S$ is connected, it is $1$ everywhere.
 
-Next, the deformation to the normal bundle of the zero section of $V$ is
+Next, the [deformation to the normal bundle](@definition-deformation-normal-bundle) of the zero section of $V$ is
 $V\times\mathbf A^1$, with the map
 $V\times\mathbf A^1\to V\times\mathbf A^1$, $(w,t)\mapsto(tw,t)$, to the
 original family. This map is defined by scalar multiplication, without
@@ -57,8 +57,8 @@ open and closed, because $e$ is separated and étale, and removing the other
 components, as in the proof of Lemma [lemma-section-normal-bundle], we
 obtain a cartesian square of centers. The induced map of normal bundles is
 then the differential $T_{U/Y}\simeq e^*T_{\mathbf A^d_Y/Y}$, a pullback of
-vector bundles. Likewise, the dualizing complex is pulled back from the affine model,
-because by composing adjunctions the exceptional inverse image along an
+vector bundles. Likewise, the [dualizing complex](@definition-relative-dualizing-complex) is pulled back from the affine model,
+because by composing adjunctions the [exceptional inverse image](@theorem-existence-exceptional-inverse-image) along an
 étale map is its ordinary inverse image. For the comparison obtained
 from the deformation, we factor $e\times e$ as
 

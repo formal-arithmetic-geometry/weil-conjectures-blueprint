@@ -4,7 +4,7 @@ of = "corollary-determinant-weights"
 order = 1115
 uses = ["lemma-filtrations-spectra", "theorem-rank-one-sheaves-have-finite", "corollary-rank-one-weights"]
 +++
-The sheaf $\det\mathcal V$ is a rank-one lisse Weil sheaf defined over a
+The sheaf $\det\mathcal V$ is a rank-one [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) defined over a
 finite extension of $E$, so Theorem [theorem-rank-one-sheaves-have-finite] and
 Corollary [corollary-rank-one-weights] apply to it.  By the formula of
 Corollary [corollary-rank-one-weights], with $c=\det\rho(s)$,

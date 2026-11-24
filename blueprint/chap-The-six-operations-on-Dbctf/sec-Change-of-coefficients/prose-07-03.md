@@ -4,13 +4,13 @@ kind = "hidden"
 title = "Change of coefficients (1)"
 order = 629
 +++
-Smooth base change for $E$ and $\overline{\mathbf Q}_\ell$ is deduced from the integral case
+[Smooth base change](@theorem-smooth-base-change-all-admissible) for $E$ and $\overline{\mathbf Q}_\ell$ is deduced from the integral case
 by extending scalars (Chapter [chap-Smooth-base-change]), and later proofs
 often argue in the same way, through the reduction principle of
 Proposition [proposition-isomorphisms-reduce-finite-coefficients]. For
 this the six operations must commute with extension of scalars. For pullback, extension by zero and tensor product this is formal, since
-extension of scalars is itself a tensor product. For $Rf_*$, by contrast, it rests on finite cohomological dimension and on continuity, and for $f^!$ it rests on a
-second computation of $f^!$, for closed immersions and for $\mathbf P^1$.
+extension of scalars is itself a tensor product. For $Rf_*$, by contrast, it rests on finite [cohomological dimension](@definition-cohomological-dimension) and on [continuity](@corollary-continuity-cohomology), and for [$f^!$](@theorem-existence-exceptional-inverse-image) it rests on a
+second computation of [$f^!$](@theorem-existence-exceptional-inverse-image), for closed immersions and for $\mathbf P^1$.
 These results are collected in Proposition [proposition-six-operations-change-coefficients].
 
 A change of coefficients is derived extension of scalars along a map

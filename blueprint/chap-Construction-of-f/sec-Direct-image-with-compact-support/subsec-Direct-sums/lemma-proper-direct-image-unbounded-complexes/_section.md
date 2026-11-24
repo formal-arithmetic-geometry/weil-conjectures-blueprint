@@ -12,12 +12,12 @@ $\Dic^{\geq a}(X,\Lambda)$ for the objects of $\Dic(X,\Lambda)$
 (Corollary [corollary-ambient-ind-derived]) with cohomology in degrees
 $\leq b$, respectively $\geq a$.
 
-1. $Rp_*$ maps $\Dic(X,\Lambda)$ into $\Dic(Y,\Lambda)$, with
+1. $Rp_*$ maps [$\Dic(X,\Lambda)$](@corollary-ambient-ind-derived) into [$\Dic(Y,\Lambda)$](@corollary-ambient-ind-derived), with
    $Rp_*\Dic^{\leq b}(X,\Lambda)\subset\Dic^{\leq b+2d+1}(Y,\Lambda)$ and
    $Rp_*\Dic^{\geq a}(X,\Lambda)\subset\Dic^{\geq a}(Y,\Lambda)$.
 2. For $K\in\Dic(X,\Lambda)$ and every integer $q$, the truncation maps
    $K\leftarrow\tau_{\leq q}K\to\tau_{\geq q-2d-1}\tau_{\leq q}K$ induce an
-   isomorphism in $\IndCons(Y,\Lambda)$
+   isomorphism in [$\IndCons(Y,\Lambda)$](@definition-ind-constructible-sheaves)
    $$
    \mathcal H^q(Rp_*K)\simeq
    \mathcal H^q\bigl(Rp_*\tau_{\geq q-2d-1}\tau_{\leq q}K\bigr).

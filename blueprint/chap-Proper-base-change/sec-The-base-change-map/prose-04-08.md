@@ -16,6 +16,6 @@ $$
 This is the pro-étale form of the base change map of
 Definition [definition-derived-base-change-map]. It is defined for every cartesian
 square (4.1), and the same construction applies to any
-commutative square. Since proper and smooth base change are proved on the
-étale site and then transported to the pro-étale site, we
+commutative square. Since proper and [smooth base change](@theorem-smooth-base-change-classical-torsion) are proved on the
+étale site and then transported to the [pro-étale site](@definition-small-pro-etale-site), we
 need to know that the two maps correspond.

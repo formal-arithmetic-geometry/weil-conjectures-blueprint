@@ -11,15 +11,15 @@ $H^1(C,\mu_{\ell^n})=J[\ell^n](k)\simeq(\mathbf Z/\ell^n)^{2g}$ with $2g=2$
 (Proposition [proposition-smooth-proper-curves-torsion-prime] and Corollary [corollary-torsion-jacobian-field-extension]).
 Since $k$ is algebraically closed, $\mu_{\ell^n}\simeq\mathbf Z/\ell^n$, and passing to the limit
 and inverting $\ell$ gives $\dim H^1(C,\mathbf Q_\ell)=2$.
-For $d=1$ the middle pairing on $H^1$ is alternating and perfect, with values
-in $\mathbf Q_\ell(-1)$ (Corollary [corollary-cup-product-pairing]). By
+For $d=1$ the middle pairing on $H^1$ is alternating and [perfect](@definition-perfect-pairing), with values
+in [$\mathbf Q_\ell(-1)$](@definition-tate-twists) (Corollary [corollary-cup-product-pairing]). By
 Theorem [theorem-poincare-duality-frobenius] it satisfies
 $\langle Fx,Fy\rangle=3\langle x,y\rangle$. On a plane an alternating
 form is unique up to a scalar, so $\langle Fx,Fy\rangle=\det(F)\langle
 x,y\rangle$. Hence $\det(F\mid H^1)=3$. If $\alpha,\beta$ are the
 eigenvalues, then $\alpha\beta=3$, and
-$\det(1-TF\mid H^1)=1-(\alpha+\beta)T+3T^2$. This is the functional
-equation of a curve of genus one: replacing $T$ by $1/(3T)$ multiplies
+$\det(1-TF\mid H^1)=1-(\alpha+\beta)T+3T^2$. This is the [functional
+equation](@corollary-functional-equation) of a curve of genus one: replacing $T$ by $1/(3T)$ multiplies
 the polynomial by $(3T^2)^{-1}$.
 
 Duality alone does not give $|\alpha|=3^{1/2}$. For example, the pair $\alpha=3$, $\beta=1$, with $\det(1-TF)=1-4T+3T^2$, consists of algebraic integers and

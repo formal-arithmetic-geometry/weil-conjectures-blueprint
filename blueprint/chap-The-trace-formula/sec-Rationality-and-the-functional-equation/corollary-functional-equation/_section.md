@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected of
 dimension $d$, and let
-$\ell\nmid q$. Put $H^i=H^i(X_{\mathrm{pro}\acute{e}t},\mathbf Q_\ell)$, let $F_i$ be the Frobenius operator $F$ on $H^i$
+$\ell\nmid q$. Put $H^i=H^i(X_{\mathrm{pro}\acute{e}t},\mathbf Q_\ell)$, let $F_i$ be the [Frobenius operator](@definition-frobenius-operator) $F$ on $H^i$
 (Section [sec-Weil-complexes]), and put
 
 $$

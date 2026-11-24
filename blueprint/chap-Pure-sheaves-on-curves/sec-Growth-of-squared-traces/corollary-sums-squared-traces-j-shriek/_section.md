@@ -6,8 +6,8 @@ order = 1214
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-middle-extension", "definition-growth-squared-traces", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open of a smooth geometrically
-connected affine curve, and let $\mathcal G$ be a nonzero pure lisse
-Weil sheaf of weight $w$ on $U_0$. Then
+connected affine curve, and let $\mathcal G$ be a nonzero [pure](@definition-weights) [lisse](@definition-lisse-sheaves)
+[Weil sheaf](@definition-weil-structure) of weight $w$ on $U_0$. Then
 
 $$
 \nu(j_!\mathcal G)=\nu(j_*\mathcal G)=w.

@@ -18,4 +18,4 @@ $$
 
 of the second isomorphism of the lemma, $c^!e_K$, exceptional base
 change for the proper map $\Delta_X$, and the composition of
-exceptional inverse images $d_c^!a_X^!=a_{\Fix(c)}^!$.
+[exceptional inverse images](@theorem-existence-exceptional-inverse-image) $d_c^!a_X^!=a_{\Fix(c)}^!$.

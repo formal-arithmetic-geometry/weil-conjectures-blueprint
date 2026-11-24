@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Base change for nearby cycles (1)"
 order = 1663
 +++
-Let $c$ be a correspondence over the trait $S$ and $u$ a cohomological
-correspondence on its generic fibre. Nearby cycles turn $u$ into a map
+Let $c$ be a [correspondence](@definition-correspondence) over the trait $S$ and $u$ a [cohomological
+correspondence](@definition-correspondence) on its generic fibre. Nearby cycles turn $u$ into a map
 between $\Psi$ of $c_2^*K$ and $\Psi$ of $c_1^!K$. To obtain a
-cohomological correspondence $u_s$ on the special fibre, we must move
+[cohomological correspondence](@definition-correspondence) $u_s$ on the special fibre, we must move
 $\Psi$ past $c_2^*$ and $c_1^!$. This needs base change maps between
 nearby cycles and the operations $f^*$, $Rf_*$, $Rf_!$ and $f^!$. We
 make these maps explicit here. We also prove the identities between them
@@ -32,7 +32,7 @@ $\chi_f$ is its adjoint mate for $f_s^*\dashv Rf_{s*}$ and
 $f_\eta^*\dashv Rf_{\eta*}$.
 
 To define $\nu_f$, we choose a
-relative Nagata compactification $f=ph$, with
+relative [Nagata compactification](@theorem-nagata-s-compactification-theorem) $f=ph$, with
 $h:V\hookrightarrow\overline V$ open and $p$ proper.
 We define $\nu_h:h_{s!}\Psi_VM\to \Psi_{\overline V}h_{\eta!}M$ using the
 adjunction for the open immersion, by requiring that its adjoint be
@@ -45,13 +45,13 @@ $$
 Since $p$ is proper, $\chi_p$ is invertible, and we put
 $\nu_f=\chi_p^{-1}\,Rp_{s*}(\nu_h)$, using
 $Rf_{s!}=Rp_{s*}h_{s!}$ and $Rf_{\eta!}=Rp_{\eta*}h_{\eta!}$.
-The map $\nu_f$ does not depend on the compactification. Indeed, if $q$ is a common
-proper refinement of two
-compactifications, proper base change identifies $Rq_*h'_!$ with
+The map $\nu_f$ does not depend on the [compactification](@definition-compactification-refinement). Indeed, if $q$ is a [common
+proper refinement](@definition-compactification-refinement) of two
+[compactifications](@definition-compactification-refinement), proper base change identifies $Rq_*h'_!$ with
 $h_!$ on both fibres. After taking adjoints for the open immersions,
 compatibility with this identification reduces to the composition rule
 for $\alpha$ and the triangle identity of the ordinary adjunction.
-Common refinements also show that $\nu$ is compatible with
+[Common refinements](@definition-compactification-refinement) also show that $\nu$ is compatible with
 composition.
 
 We can also describe $\nu_f$ on the total families. Write $i_V$ and
@@ -104,8 +104,8 @@ $\theta_Y=\beta_{a_Y}(A):\Psi_Y\omega_{Y_\eta}\to\omega_{Y_s}$,
 using $\Psi_SA=A$.
 
 The proof of Proposition [proposition-specialization-trace-class] moves the
-base change maps past the projection formula, composition, external
-duality and the cartesian square defining the fixed point scheme.
+base change maps past the projection formula, composition, [external
+duality](@lemma-external-duality-trace-morphism) and the cartesian square defining the [fixed point scheme](@definition-correspondence).
 The following four lemmas give the identities it needs. Each is proved by
 taking adjoints until both sides become the same composite of base
 change maps and counits, and then using the composition laws for the

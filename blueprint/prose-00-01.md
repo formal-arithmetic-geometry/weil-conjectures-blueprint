@@ -5,7 +5,7 @@ title = "Abstract"
 order = 1
 +++
 Let $X$ be a smooth projective variety of dimension $d$ over $\mathbf F_q$.
-The Weil conjectures assert that its zeta function, which counts the points
+The [Weil conjectures](@theorem-weil-conjectures-smooth-proper-schemes) assert that its zeta function, which counts the points
 of $X$ over all the fields $\mathbf F_{q^m}$, is a rational function, that it
 satisfies a functional equation, and that its zeros lie on the circles
 $|T|=q^{-i/2}$ with $i$ odd and its poles on those with $i$ even, an analogue
@@ -20,10 +20,10 @@ torsion coefficients $\mathbf Z/\ell^n$, but traces must be taken in
 characteristic zero. On the pro-étale site of Bhatt and Scholze,
 $\mathbf Z_\ell$ and $\mathbf Q_\ell$ define sheaves of rings just as
 $\mathbf Z/\ell^n$ does, so one set of definitions and one formalism of six
-operations serve every coefficient ring. The trace formula and Poincaré
-duality then give rationality and the functional equation.
+operations serve every coefficient ring. The [trace formula](@theorem-grothendieck-lefschetz-trace-formula) and [Poincaré
+duality](@theorem-poincare-duality) then give [rationality](@corollary-point-counting-zeta-function) and the [functional equation](@corollary-functional-equation).
 
-The Riemann hypothesis follows from the Deligne–Laumon theorem, which bounds
+The Riemann hypothesis follows from the [Deligne–Laumon theorem](@theorem-weights-rf-shriek), which bounds
 the absolute values of Frobenius eigenvalues, the weights, on the cohomology
 of sheaves. We follow Laumon's proof: fibring by curves reduces the theorem to
 curves, where the $\ell$-adic Fourier transform and a positivity argument that

@@ -19,7 +19,7 @@ with the following properties.
 
 1. If $f$ is the projection $p:\mathbf A^1_Y\to Y$, then
    $\varepsilon_p(\Lambda_Y)\circ Rp_!\bigl(\gamma_p(\Lambda_Y)\bigr)$ is the
-   trace map (9.1).
+   [trace map](@definition-trace-map-affine-line) (9.1).
 2. For $g:Y'\to Y$ as in
    Definition [definition-exceptional-base-change-map], with exceptional
    base change map $\beta:g'^*f^!K\to f'^!g^*K$, we have
@@ -36,4 +36,4 @@ with the following properties.
    change-of-coefficients isomorphism $(f^!K)_{\Lambda'}\to f^!(K_{\Lambda'})$
    of that proposition carries $(\gamma_{f,\Lambda}(K))_{\Lambda'}$ to
    $\gamma_{f,\Lambda'}(K_{\Lambda'})$, the sources being identified by the
-   change-of-coefficients isomorphism for $f^*$.
+   [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for $f^*$.

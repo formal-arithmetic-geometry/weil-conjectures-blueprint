@@ -13,9 +13,9 @@ immersion, so that $Rp_{1!}=Rp_*j_!$ for $d=1$.
 Since $j_!\dashv j^*$ and $Rp_*\dashv p^*(1)[2]$ by (6.9),
 composing right adjoints gives $p_1^!=j^*p^*(1)[2]$. This equals
 $p_1^*(1)[2]$ because $p\circ j=p_1$. For general $d$, write $p_d$ as a
-composite of $d$ projections $r_1,\dots,r_d$ of affine lines. By the composition isomorphism for $Rf_!$ (Proposition [proposition-composition-base-change-rf-shriek](1)) we have
+composite of $d$ projections $r_1,\dots,r_d$ of affine lines. By the composition isomorphism for [$Rf_!$](@proposition-construction-independence-rf-shriek) (Proposition [proposition-composition-base-change-rf-shriek](1)) we have
 $Rp_{d!}\simeq Rr_{1!}\circ\dots\circ Rr_{d!}$.
-Hence $p_d^!$ is the composite of the right adjoints of the $Rr_{i!}$,
+Hence [$p_d^!$](@theorem-existence-exceptional-inverse-image) is the composite of the right adjoints of the [$Rr_{i!}$](@proposition-construction-independence-rf-shriek),
 which is $p_d^*(d)[2d]$ by the case $d=1$. Under this isomorphism, the
 counit of $Rp_{d!}\dashv p_d^*(d)[2d]$ is the composite of the $d$ counits
 for the affine lines. Each of these is a trace (6.5)
@@ -25,7 +25,7 @@ isomorphism commute with base change (Proposition [proposition-composition-base-
 by the counit through the triangle identities, and it commutes with base
 change as well.
 
-(2) For an étale $u$, the functor $Ru_!$ is extension by zero. By its
+(2) For an étale $u$, the functor [$Ru_!$](@proposition-construction-independence-rf-shriek) is extension by zero. By its
 elementary construction [Stacks, [03S2](https://stacks.math.columbia.edu/tag/03S2)], it is an exact functor
 $u_!:\operatorname{Mod}(U_{\acute{e}t},A)\to\operatorname{Mod}(X_{\acute{e}t},A)$ left adjoint to $u^*$.
 As both functors are exact, they need not be derived, and the adjunction
@@ -42,6 +42,6 @@ where the last step is the composition isomorphism of
 Proposition [proposition-composition-base-change-rf-shriek](1). The Yoneda lemma therefore gives (6.12). Taking $M=u^*f^!N$ and the
 identity on the left, we see that the counit of $R(fu)_!\dashv(fu)^!$ is the composite of the counits as stated. For the cocycle condition, the isomorphism for $uu'$ and the
 composite of those for $u$ and $u'$ both correspond under the Yoneda lemma
-to the bijections obtained from the composition isomorphism for
+to the bijections obtained from the [composition isomorphism](@proposition-composition-base-change-rf-shriek) for
 $f\circ u\circ u'$. These bijections agree by associativity of the
 composition isomorphisms (Proposition [proposition-composition-base-change-rf-shriek](1)).

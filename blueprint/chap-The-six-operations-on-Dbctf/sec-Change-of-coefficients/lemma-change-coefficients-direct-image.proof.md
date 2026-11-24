@@ -38,7 +38,7 @@ length at most one. Its condensed version is again exact. Indeed, a
 continuous map from a profinite set to the finite quotient $A$ is constant
 on the pieces of a finite clopen partition, and hence lifts to a continuous
 map to the free module. The pullback of this resolution to $X$ is a finite free resolution of $A_X$ over
-$\mathcal O_{E,X}$. Consequently, tensoring with $A_X$ is computed by finite
+[$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients). Consequently, tensoring with $A_X$ is computed by finite
 sums and a cone, and these commute with the exact functor $Rf_*$.
 
 *Finite extensions.* For $\mathcal O_E\to\mathcal O_F$ and $E\to F$,
@@ -48,7 +48,7 @@ copies of $K$. The assertion follows because $Rf_*$ commutes with finite
 sums.
 
 *The maps $\mathcal O_E\to E$ and $E\to\overline{\mathbf Q}_\ell$.* These are not finite,
-and we use continuity. For $\mathcal O_E\to E$, the complex $K_E$ is the
+and we use [continuity](@corollary-continuity-cohomology). For $\mathcal O_E\to E$, the complex $K_E$ is the
 colimit of $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, and for
 $E\to\overline{\mathbf Q}_\ell$, the complex $K_{\overline{\mathbf Q}_\ell}$ is the filtered colimit of the $K_F$
 over finite extensions $F/E$ in $\overline{\mathbf Q}_\ell$. Since $K$ is bounded, all terms of

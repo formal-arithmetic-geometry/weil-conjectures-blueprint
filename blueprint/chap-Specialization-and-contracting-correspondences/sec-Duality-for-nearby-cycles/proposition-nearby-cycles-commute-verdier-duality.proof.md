@@ -12,14 +12,14 @@ global sections and finite support.
 over $S$, by reductions none of which increases $n$. The assertion is
 local and, by Lemma [lemma-nearby-duality-proper-direct-image],
 compatible with restriction to opens. So we may pass to a projective
-compactification and extend $M$ by zero on its generic fibre. Next we
+[compactification](@definition-compactification-refinement) and extend $M$ by zero on its generic fibre. Next we
 use the compatibility with proper direct image
 (E.13) for the closure of that
 generic fibre, together with invariance under nilpotent thickenings.
 This lets us assume that $X$ is reduced and flat over $S$.
 
 Put $Q=\Cone(\delta_{X,M})$. It is bounded and constructible by the
-finiteness theorem for nearby cycles and ordinary Verdier duality. By
+finiteness theorem for nearby cycles and ordinary [Verdier duality](@lemma-verdier-duality-preserves-constructibility). By
 (E.14), $R\Gamma(X_s,Q)=0$.
 
 *Finite support.* By Lemma [lemma-finite-support-global-sections],
@@ -41,6 +41,6 @@ lies over finitely many closed points of each coordinate line. Since the
 coordinate map is quasi-finite, the support is finite. This argument
 also covers $n=0$, where $q=0$ and $V_s$ is finite.
 
-*Pro-étale formulation.* The comparison for constructible complexes
-with finite coefficients transports both the pairing and this isomorphism
-to the small pro-étale site.
+*Pro-étale formulation.* The [comparison for constructible complexes
+with finite coefficients](@theorem-comparison-constructible-sheaves) transports both the pairing and this isomorphism
+to the [small pro-étale site](@definition-small-pro-etale-site).

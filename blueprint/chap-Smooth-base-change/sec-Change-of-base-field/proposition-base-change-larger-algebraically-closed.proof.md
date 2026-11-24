@@ -6,7 +6,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 We describe $R^qh_*$ as a sheafification and show that each local class
 dies after a suitable étale covering. In degrees at least two this is
-the cohomological dimension of affine curves. In degree one we first
+the [cohomological dimension](@definition-cohomological-dimension) of affine curves. In degree one we first
 descend the class to $C_L$, then trivialize it on a finite étale Galois
 cover of $C_L$, and finally extend this cover over $C$.
 

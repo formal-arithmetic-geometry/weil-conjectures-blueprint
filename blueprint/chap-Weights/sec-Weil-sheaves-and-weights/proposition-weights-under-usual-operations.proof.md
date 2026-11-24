@@ -6,7 +6,7 @@ uses = ["lemma-subobjects-quotients-weil-sheaves"]
 +++
 Each assertion has two parts: a statement about eigenvalues at closed
 points, which follows from Lemma [lemma-filtrations-spectra], and, for
-mixedness, the construction of a filtration with pure quotients.
+[mixedness](@definition-weights), the construction of a filtration with [pure](@definition-weights) quotients.
 
 An extension is filtered by a filtration of its
 subobject followed by the inverse images of a filtration of its
@@ -20,39 +20,39 @@ Lemma [lemma-filtrations-spectra], the eigenvalues of tensor
 products and duals are the products $\alpha_i\beta_j$ and the
 inverses $\alpha_i^{-1}$, whose weights are $a+b$ and $-a$.
 
-For the dual of a mixed lisse sheaf $G$ with mixed filtration
-$(G_i)$, suppose first that the graded pieces $G_i/G_{i-1}$ are lisse.
-Dualizing is exact on lisse sheaves, so the annihilator filtration
+For the dual of a [mixed](@definition-weights) [lisse sheaf](@definition-lisse-sheaves) $G$ with [mixed](@definition-weights) filtration
+$(G_i)$, suppose first that the graded pieces $G_i/G_{i-1}$ are [lisse](@definition-lisse-sheaves).
+Dualizing is exact on [lisse sheaves](@definition-lisse-sheaves), so the annihilator filtration
 $G_i^\perp=\ker(G^\vee\to G_i^\vee)$ has graded pieces
-$(G_i/G_{i-1})^\vee$, which are pure of the negated weights by the
-computation above. In general the graded pieces need not be lisse: on a
-curve, a pure lisse $G$ has the filtration $j_!j^*G\subseteq G$, whose
+$(G_i/G_{i-1})^\vee$, which are [pure](@definition-weights) of the negated weights by the
+computation above. In general the graded pieces need not be [lisse](@definition-lisse-sheaves): on a
+curve, a [pure](@definition-weights) [lisse](@definition-lisse-sheaves) $G$ has the filtration $j_!j^*G\subseteq G$, whose
 quotient $i_*i^*G$ is a skyscraper with dual zero. We then argue by
 Noetherian induction on $X$. Let $U\subseteq X$ be a dense open, stable
-under Frobenius, on which all graded pieces are lisse, and let
+under Frobenius, on which all graded pieces are [lisse](@definition-lisse-sheaves), and let
 $i:Z\to X$ be its closed complement. On $U$ the first case applies to
-$j^*G$. Since $G$ is lisse, $i^*(G^\vee)\simeq(i^*G)^\vee$, and $i^*G$ is a
-mixed lisse sheaf on $Z$, so $i^*(G^\vee)$ is mixed by induction, of the
+$j^*G$. Since $G$ is [lisse](@definition-lisse-sheaves), $i^*(G^\vee)\simeq(i^*G)^\vee$, and $i^*G$ is a
+[mixed](@definition-weights) [lisse sheaf](@definition-lisse-sheaves) on $Z$, so $i^*(G^\vee)$ is [mixed](@definition-weights) by induction, of the
 negated weights. Extension by zero and direct image along a closed
-immersion are exact and do not change stalks, so they carry mixed
-filtrations to mixed filtrations of the same weights, and the exact
+immersion are exact and do not change stalks, so they carry [mixed](@definition-weights)
+filtrations to [mixed](@definition-weights) filtrations of the same weights, and the exact
 sequence
 
 $$
 0\to j_!j^*(G^\vee)\to G^\vee\to i_*i^*(G^\vee)\to 0
 $$
 
-shows that $G^\vee$ is mixed, of the negated weights.
+shows that $G^\vee$ is [mixed](@definition-weights), of the negated weights.
 
 Inverse images do not change weights, because the weight is normalized
 by the degree. Indeed, at a closed point of an inverse image the Frobenius is a
 positive power of the Frobenius at the image point, and the residue field
-degree is multiplied by the same integer. For shifts, $\mathcal H^i(K[r])=\mathcal H^{i+r}(K)$ is mixed of weights
+degree is multiplied by the same integer. For shifts, $\mathcal H^i(K[r])=\mathcal H^{i+r}(K)$ is [mixed](@definition-weights) of weights
 at most $w+i+r$, which is the bound $w+r$ for $K[r]$.
 
 The local eigenvalue of $\mathcal B_b$ at $x$ is $b^{\deg(x)}$,
 of weight $2\log_q|\iota(b)|$, and tensoring by $\mathcal B_b$ multiplies every
-eigenvalue by it. For the Tate sheaf, recall that
+eigenvalue by it. For the [Tate sheaf](@definition-tate-twists), recall that
 arithmetic Frobenius acts on roots of unity by raising to the $q$th
 power. Geometric Frobenius is its inverse, so it acts on
-$\overline{\mathbf Q}_\ell(1)$ by $q^{-1}$, of weight $-2$.
+[$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists) by $q^{-1}$, of weight $-2$.
