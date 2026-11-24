@@ -20,5 +20,5 @@ $$
 $$
 
 Thus, over a finite ring, the trace of an endomorphism of a perfect
-complex is not determined by the maps it induces on cohomology. The trace
-formula has to be stated for the operator on the complex.
+complex is not determined by the maps it induces on cohomology. The [trace
+formula](@theorem-trace-formula-frobenius-correspondence) has to be stated for the operator on the complex.

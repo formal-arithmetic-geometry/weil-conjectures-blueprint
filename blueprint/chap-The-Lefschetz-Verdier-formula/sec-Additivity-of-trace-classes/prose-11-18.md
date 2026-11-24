@@ -5,15 +5,15 @@ title = "Additivity of trace classes (3)"
 order = 936
 +++
 To apply this to an open subscheme $U$ and its closed
-complement $Z$, we must lift $u$ to the localization triangle. For
-this the correspondence must respect the
+complement $Z$, we must lift $u$ to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme). For
+this the [correspondence](@definition-correspondence) must respect the
 decomposition: we need $c_1^{-1}(Z)\subset c_2^{-1}(Z)$.
 For the graph of an endomorphism $\varphi$, where
 $c_1=\operatorname{id}_X$ and $c_2=\varphi$, this says that
 $\varphi(Z)\subset Z$.
 
 It is convenient to work with exceptional
-adjoints. Put $\Theta=Rc_{1!}c_2^*:D^b_{\mathrm{ctf}}(X,A)\to D^b_{\mathrm{ctf}}(X,A)$. In these terms a cohomological correspondence $u$ on $(X,K)$ is the same as a map
+adjoints. Put $\Theta=Rc_{1!}c_2^*:D^b_{\mathrm{ctf}}(X,A)\to D^b_{\mathrm{ctf}}(X,A)$. In these terms a [cohomological correspondence](@definition-correspondence) $u$ on $(X,K)$ is the same as a map
 $\widehat u:\Theta K\to K$, its adjoint under $Rc_{1!}\dashv c_1^!$.
 Under the invariance condition there are no nonzero maps from
 $\Theta K_U$ to $K_Z$, so $u$ restricts to $K_U$ in an essentially unique
@@ -27,4 +27,4 @@ $$
 with $i'$ the closed immersion. By the invariance condition both legs of
 $C_U$ land in $U$ and both legs of $C_Z$ land in $Z$; we write
 $c_U=(c_{1U},c_{2U}):C_U\to U\times U$ and
-$c_Z=(c_{1Z},c_{2Z}):C_Z\to Z\times Z$ for the restricted correspondences.
+$c_Z=(c_{1Z},c_{2Z}):C_Z\to Z\times Z$ for the restricted [correspondences](@definition-correspondence).

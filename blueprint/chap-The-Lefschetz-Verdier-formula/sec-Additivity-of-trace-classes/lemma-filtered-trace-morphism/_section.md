@@ -4,9 +4,9 @@ kind = "lemma"
 title = "Filtered trace morphism"
 order = 934
 +++
-Let $c:C\to X\times X$ be a correspondence and let $\mathcal K$ be a
+Let $c:C\to X\times X$ be a [correspondence](@definition-correspondence) and let $\mathcal K$ be a
 finitely filtered complex on $X$ with underlying complex $K$ and graded
-pieces $K_a$ in $D^b_{\mathrm{ctf}}(X,A)$. There is a morphism of filtered complexes
+pieces $K_a$ in [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves). There is a morphism of filtered complexes
 
 $$
 \operatorname{tr}_F:
@@ -14,13 +14,13 @@ $$
 Ri_{c*}\omega_{\Fix(c)},
 $$
 
-with the target in weight zero, whose underlying morphism is the trace
-morphism for $K$, and whose restriction to $F^0$ factors through
+with the target in weight zero, whose underlying morphism is the [trace
+morphism](@definition-trace-morphism) for $K$, and whose restriction to $F^0$ factors through
 
 $$
 \operatorname{gr}^0\cHom_F(c_2^*\mathcal K,c_1^!\mathcal K)
 \simeq\bigoplus_a\cHom(c_2^*K_a,c_1^!K_a)
 $$
 
-by a map whose restriction to the summand $a$ is the trace morphism
+by a map whose restriction to the summand $a$ is the [trace morphism](@definition-trace-morphism)
 for $K_a$.

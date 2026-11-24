@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Traces of perfect complexes (1)"
 order = 893
 +++
-Both sides of the trace formula are traces of endomorphisms of perfect
+Both sides of the [trace formula](@theorem-trace-formula-frobenius-correspondence) are traces of endomorphisms of perfect
 $A$-complexes, namely of $R\Gamma_c(X,K)$ on the global side and of the
 stalks of $K$ on the local side.
 
@@ -16,6 +16,6 @@ the trace on the complex. On a bounded complex of finite projective modules it i
 but the definition below expresses this sum through evaluation and
 coevaluation, so that it depends only on the morphism in $D(A)$. In
 this form it is compatible with every change of rings
-(Proposition [proposition-properties-trace]), and this is how we pass from the trace
-formula over $\mathcal O_E/\pi_E^n$ to the trace formula over $\mathcal O_E$ and $E$
+(Proposition [proposition-properties-trace]), and this is how we pass from the [trace
+formula](@theorem-trace-formula-frobenius-correspondence) over $\mathcal O_E/\pi_E^n$ to the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) over $\mathcal O_E$ and $E$
 (Section [sec-ell-adic-coefficients-5]).
