@@ -4,8 +4,8 @@ of = "lemma-normalization-constant-sheaf"
 order = 1606
 uses = ["definition-underived-base-change-map", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-finite-direct-images"]
 +++
-The map is computed on stalks by the formula for stalks of finite direct
-images, and the cokernel has finite support because $\pi$ is an
+The map is computed on stalks by the [formula for stalks of finite direct
+images](@lemma-finite-direct-images), and the cokernel has finite support because $\pi$ is an
 isomorphism away from finitely many points. Compatibility with field
 extension holds because normalization commutes with algebraically
 closed extension.
@@ -26,7 +26,7 @@ vanishes; hence the cokernel is supported on the finite locus found above.
 
 After algebraically closed extension, the normalization remains smooth
 and is a finite birational normal model of the reduced base change,
-so it is the normalization of the base change.  Base change for
-finite morphisms identifies the fibres and their sets of branches, and
+so it is the normalization of the base change.  [Base change for
+finite morphisms](@lemma-finite-morphisms) identifies the fibres and their sets of branches, and
 therefore the diagonal maps and their cokernels are obtained by
 extension of scalars.

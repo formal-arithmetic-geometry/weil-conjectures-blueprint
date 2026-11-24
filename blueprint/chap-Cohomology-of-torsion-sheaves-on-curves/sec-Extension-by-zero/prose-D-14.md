@@ -4,12 +4,12 @@ kind = "hidden"
 title = "Extension by zero (1)"
 order = 1609
 +++
-A constructible sheaf on a curve is locally constant on a dense open
+A [constructible sheaf](@definition-constructible-sheaves) on a curve is locally constant on a dense open
 subset. Removing the finitely many remaining points replaces the sheaf
 by its extension by zero from this open, and changes cohomology only in
 degrees zero and one. Let $j:U\hookrightarrow C$ be a dense open in a
 reduced curve, and let $i:Z\hookrightarrow C$ be its finite
-complementary closed subscheme. For a classical sheaf $F$ we have the
+complementary closed subscheme. For a [classical](@definition-classical-pro-etale-sheaves) sheaf $F$ we have the
 exact sequence
 
 $$

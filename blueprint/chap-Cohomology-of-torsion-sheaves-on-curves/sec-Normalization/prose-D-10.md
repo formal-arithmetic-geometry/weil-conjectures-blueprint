@@ -6,7 +6,7 @@ order = 1598
 +++
 So far we have computed with constant coefficients on smooth curves,
 whereas Theorem [theorem-cohomology-curves] concerns arbitrary curves of
-dimension at most one and arbitrary torsion sheaves. Two reductions close
+dimension at most one and arbitrary [torsion sheaves](@definition-torsion-sheaves). Two reductions close
 the gap: normalization and removing finitely many points. Both rest
 on Lemma [lemma-sheaves-finite-support-finite-morphisms], which says
 that a sheaf supported on finitely many points has no higher cohomology.

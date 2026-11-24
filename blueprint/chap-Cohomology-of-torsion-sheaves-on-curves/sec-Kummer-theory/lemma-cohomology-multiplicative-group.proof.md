@@ -7,7 +7,7 @@ uses = ["proposition-etale-implications", "proposition-topos-functoriality", "pr
 We compute on $C_{\acute{e}t}$. In degree one, descent for invertible modules
 identifies $\mathbf G_m$-torsors with line bundles. In degrees at least two, by contrast, the vanishing comes from Tsen's theorem, which we prove first (see
 also [Stacks, [03RM](https://stacks.math.columbia.edu/tag/03RM)]). There are three steps: Tsen's theorem,
-proved by counting dimensions with Riemann–Roch; the vanishing of the
+proved by counting dimensions with [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality); the vanishing of the
 Brauer group and of the Galois cohomology of $k(C)$; and the passage from
 the generic point to $C$ by the divisor sequence.
 
@@ -45,6 +45,6 @@ fields are algebraically closed. Therefore, from the long exact cohomology seque
 we conclude that $H^q(C_{\acute{e}t},\mathbf G_m)=0$ for $q\geq2$.
 
 By Theorem [theorem-bounded-below-cohomology-comparison] these
-identifications carry over to $C_{\mathrm{pro}\acute{e}t}$, and they are natural because
+identifications carry over to [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), and they are natural because
 the comparison maps, the identification of torsors and the restriction
 maps are functorial.

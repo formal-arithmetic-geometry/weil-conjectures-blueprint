@@ -9,8 +9,8 @@ smooth open on which $G$ is locally constant.  Normalizing $C$ in the
 finite extensions of function fields defined by $V$, we get a finite
 morphism $\bar v:Y\to C$ with $V$ the inverse image of $U$, and an
 open immersion $j':V\hookrightarrow Y$.  From the cartesian square
-formed by these maps and the formula for stalks of direct images along
-finite morphisms, we find that
+formed by these maps and the [formula for stalks of direct images along
+finite morphisms](@lemma-finite-direct-images), we find that
 
 $$
 j_!v_*v^*G=\bar v_*j'_!v^*G,

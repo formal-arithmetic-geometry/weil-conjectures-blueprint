@@ -11,4 +11,4 @@ $H^q(U,\mathbf G_a)$ for $q\geq1$ are therefore zero. What remains is
 the exact sequence
 $0\to H^0(U,\mathbf F_p)\to\Gamma(U,\mathcal O_U)\xrightarrow{\varphi-1}\Gamma(U,\mathcal O_U)\to H^1(U,\mathbf F_p)\to0$,
 together with $H^q(U,\mathbf F_p)=0$ for $q>1$.  By
-Theorem [theorem-bounded-below-cohomology-comparison] these statements carry over to $U_{\mathrm{pro}\acute{e}t}$.
+Theorem [theorem-bounded-below-cohomology-comparison] these statements carry over to [$U_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).

@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Normalization (4)"
 order = 1607
 +++
-The normalization sequence reduces constant coefficients on a reduced
+The [normalization sequence](@lemma-normalization-constant-sheaf) reduces constant coefficients on a reduced
 curve to the smooth case. By
 Lemma [lemma-sheaves-finite-support-finite-morphisms], its cokernel term has finite
 sections, unchanged under field extension, and no positive cohomology.

@@ -61,4 +61,4 @@ vector space and its Frobenius-linear map with their scalar
 extensions, and the kernel is a finite étale scheme, whose $k$-points
 and $k'$-points agree. As always,
 Theorem [theorem-bounded-below-cohomology-comparison] carries the
-statement over to $C_{\mathrm{pro}\acute{e}t}$.
+statement over to [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
