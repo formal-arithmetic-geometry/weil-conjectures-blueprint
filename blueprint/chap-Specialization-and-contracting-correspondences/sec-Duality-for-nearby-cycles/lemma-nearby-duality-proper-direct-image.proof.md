@@ -4,7 +4,7 @@ of = "lemma-nearby-duality-proper-direct-image"
 order = 1679
 uses = ["lemma-comparison-completed-coefficients", "lemma-perfect-complexes-geometric-point", "lemma-internal-adjunction-two-exchange-formulas"]
 +++
-Under Verdier duality for the proper map $f_\eta$, evaluation on
+Under [Verdier duality](@corollary-verdier-exchange-formulas) for the proper map $f_\eta$, evaluation on
 $Rf_{\eta*}M$ is the composite of the lax monoidal map of $Rf_{\eta*}$,
 the map $Rf_{\eta*}\operatorname{ev}_M$, and the
 trace $Rf_{\eta*}\omega_{X_\eta}\to\omega_{Y_\eta}$. Hence,
@@ -43,6 +43,6 @@ For (E.14) we apply
 of $X$. On the trait, $\Psi_S$ takes the stalk at the geometric generic
 point, and the pairing (E.12) is
 ordinary evaluation. So $\delta_{S,Ra_{\eta*}M}$ is the identity of
-$R\operatorname{Hom}_A(R\Gamma(X_{\bar\eta},M),A)$. Global Verdier
-duality on both fibres now gives
+$R\operatorname{Hom}_A(R\Gamma(X_{\bar\eta},M),A)$. [Global Verdier
+duality](@theorem-global-verdier-duality) on both fibres now gives
 (E.14).

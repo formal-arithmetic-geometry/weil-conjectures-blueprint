@@ -6,9 +6,9 @@ order = 1711
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.restrict_traceClass_eq_pushforward_of_isContractingAt"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-composition-base-change-rf-shriek", "theorem-f-shriek-ell-adic-coefficients", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "definition-correspondence", "definition-trace-class-local-terms", "definition-pushforward-correspondence", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
-Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, and let
+Let $c=(c_1,c_2):C\to X\times X$ be a [correspondence](@definition-correspondence), and let
 $Z\hookrightarrow X$ have ideal $I$. Let $F_0$ be a connected component
-of $\Fix(c)$ that is open and closed and whose image meets $Z$. Choose
+of [$\Fix(c)$](@definition-correspondence) that is open and closed and whose image meets $Z$. Choose
 an open neighbourhood $W\subset C$ of $F_0$ on which
 
 $$
@@ -17,10 +17,10 @@ I_1=c_1^{-1}(I)\mathcal O_W,
 \qquad I_2^n\subset I_1^{n+1}\quad\text{for some }n\geq1.
 $$
 
-Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $u:c_2^*K\to c_1^!K$ be a cohomological
-correspondence, and let $u_Z$ be the restriction
+Let $K\in D^b_{\mathrm{ctf}}(X,A)$, let $u:c_2^*K\to c_1^!K$ be a [cohomological
+correspondence](@definition-correspondence), and let $u_Z$ be the restriction
 (E.21) to $Z$ of $u|_W$, for the
-correspondence $c|_W$, with $c_Z:C_Z=(W\cap c_1^{-1}Z)_{\mathrm{red}}\to
+[correspondence](@definition-correspondence) $c|_W$, with $c_Z:C_Z=(W\cap c_1^{-1}Z)_{\mathrm{red}}\to
 Z_{\mathrm{red}}\times Z_{\mathrm{red}}$. Then $h_{F_0}$ is an
 isomorphism after reduction, and
 

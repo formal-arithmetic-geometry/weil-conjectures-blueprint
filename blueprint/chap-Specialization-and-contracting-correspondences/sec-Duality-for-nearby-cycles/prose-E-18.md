@@ -4,17 +4,17 @@ kind = "hidden"
 title = "Duality for nearby cycles (1)"
 order = 1675
 +++
-Since the second factor of $K\boxtimes \mathbb DK$ is a Verdier dual,
-specializing a trace class also requires nearby cycles to commute with
-Verdier duality, by an explicit map $\delta_{X,M}$ defined below
+Since the second factor of $K\boxtimes \mathbb DK$ is a [Verdier dual](@definition-verdier-dual-evaluation),
+specializing a [trace class](@definition-trace-class-local-terms) also requires nearby cycles to commute with
+[Verdier duality](@definition-verdier-dual-evaluation), by an explicit map $\delta_{X,M}$ defined below
 [illusie94, Theorem 4.2].
 
 The trait $S$ and the coefficient ring $A$ are those of
 Proposition [proposition-external-kunneth-formula-nearby-cycles], and
-$\mathbb D_{X_{\bar\eta}}$ and $\mathbb D_{X_s}$ are the Verdier duals
+$\mathbb D_{X_{\bar\eta}}$ and $\mathbb D_{X_s}$ are the [Verdier duals](@definition-verdier-dual-evaluation)
 relative to the geometric generic point $\bar\eta$ and the closed
 point $s$ of $S$. We work on the classical étale site and transport
-the result to the pro-étale site at the end.
+the result to the [pro-étale site](@definition-small-pro-etale-site) at the end.
 
 We use the base change maps $\chi_f$, $\nu_f$, $\beta_f$, the lax monoidal
 map $\mu_X$ and the map $\theta_X:\Psi_X\omega_{X_\eta}\to\omega_{X_s}$ of

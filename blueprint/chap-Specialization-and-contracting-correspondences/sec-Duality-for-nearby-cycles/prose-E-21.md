@@ -24,11 +24,11 @@ g_s^*\mathbb D_{X_s}L\simeq \mathbb D_{X'_{s'}}(g_s^*L)\otimes A(1)[2]
 $$
 
 for $L\in D^b_{\mathrm{ctf}}(X_s,A)$. The twist comes from the
-dualizing complexes. For a closed embedding over $\mathbf A^1$
-into $\mathbf A^r_{\mathbf A^1}$, smooth purity gives $A(r+1)[2r+2]$
-before generic restriction and $A(r)[2r]$ after it. Moreover, the comparison of the complexes with closed support for the embedding preserves
+[dualizing complexes](@definition-verdier-dual-evaluation). For a closed embedding over $\mathbf A^1$
+into $\mathbf A^r_{\mathbf A^1}$, [smooth purity](@theorem-smooth-purity-all-admissible-coefficients) gives [$A(r+1)[2r+2]$](@definition-tate-twists)
+before generic restriction and [$A(r)[2r]$](@definition-tate-twists) after it. Moreover, the comparison of the complexes with closed support for the embedding preserves
 evaluation. Thus on $\mathbf A^r_{\mathbf A^1_S}$ the identifications of
-the dualizing complexes before and after slicing differ by $A(1)[2]$ on
-both fibres. Finally, the group $P$ acts trivially on $A(1)[2]$, because roots of
+the [dualizing complexes](@definition-verdier-dual-evaluation) before and after slicing differ by [$A(1)[2]$](@definition-tate-twists) on
+both fibres. Finally, the group $P$ acts trivially on [$A(1)[2]$](@definition-tate-twists), because roots of
 unity of order prime to the residue characteristic lift over a strictly
 henselian trait. So the twist commutes with taking $P$-invariants.

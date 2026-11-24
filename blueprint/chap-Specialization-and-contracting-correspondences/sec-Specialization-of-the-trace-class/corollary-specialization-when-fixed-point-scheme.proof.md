@@ -7,7 +7,7 @@ uses = ["lemma-comparison-completed-coefficients", "lemma-naturality-pasting-com
 By naturality it suffices to show that
 $\theta_Y\sigma_Y(\omega_Y)$ is the identity of $\omega_Y$. For proper
 $Y$ this follows from the adjunction defining $\theta_Y$. We deduce the
-case of general $Y$ by a compactification, and the case of nonreduced
+case of general $Y$ by a [compactification](@definition-compactification-refinement), and the case of nonreduced
 $F$ by invariance under nilpotent thickenings.
 
 *Proper $Y$ and $F=Y\times S$.* Here
@@ -27,9 +27,9 @@ By the defining adjunction (E.6),
 $\theta_Y\sigma_Y(\omega_Y)$ is therefore the adjoint of the counit
 $Ra_!\omega_Y\to A$, which is $\operatorname{id}_{\omega_Y}$. Naturality of $\sigma$ then gives
 $\theta_Y\Psi_Y(z)\sigma_Y(A)=z$ for every section $z$ of the
-dualizing complex.
+[dualizing complex](@definition-verdier-dual-evaluation).
 
-*General $Y$.* Choose a proper compactification
+*General $Y$.* Choose a proper [compactification](@definition-compactification-refinement)
 $j:Y\hookrightarrow\overline Y$, so that
 $\omega_Y=j^*\omega_{\overline Y}$. We compare the two sides of the identity under
 restriction along $j$. The units for the
@@ -38,10 +38,10 @@ rule (E.9) together with
 $\beta_j=\alpha_j^{-1}$ for the open immersion. Restricting the identity
 $\theta_{\overline Y}\sigma_{\overline Y}(\omega_{\overline Y})=1$
 therefore gives $\theta_Y\sigma_Y(\omega_Y)=1$, and by naturality the
-assertion follows again for all sections of the dualizing complex.
+assertion follows again for all sections of the [dualizing complex](@definition-verdier-dual-evaluation).
 
 *Nonreduced $F$.* If only $F_{\mathrm{red}}=Y\times S$, we replace $F$
-by its reduction. This does not change $\operatorname{sp}_F$, because
+by its reduction. This does not change [$\operatorname{sp}_F$](@proposition-specialization-trace-class), because
 invariance under nilpotent thickenings of the total family
 and of its fibres shows that the six operations, their units and counits,
 and nearby cycles agree with those of the reduction.

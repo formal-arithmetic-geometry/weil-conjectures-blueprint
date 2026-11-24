@@ -16,7 +16,7 @@ $$
 and the general case follows from (C) by
 Lemma [lemma-compatibilities-base-change-maps]. Since the proof uses
 proper base change, we prove (C) for a proper
-family and then extend it by compactification.
+family and then extend it by [compactification](@definition-compactification-refinement).
 
 Suppose first that $a=a_X:X\to S$ is proper. On the fibre over $\eta$,
 let

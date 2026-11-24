@@ -3,7 +3,7 @@ kind = "proof"
 of = "proposition-specialization-trace-class"
 order = 1696
 +++
-We compare the trace morphisms on the two fibres and then evaluate
+We compare the [trace morphisms](@definition-trace-morphism) on the two fibres and then evaluate
 them on the sections of
 Lemma [lemma-section-specialized-correspondence]. By
 Definition [definition-trace-morphism], the trace morphism is
@@ -18,7 +18,7 @@ t_{c_s,K'}c_s^!\rho\,\beta_c
 $$
 
 If we apply this to the section $k_{u_s}$ and take adjoints for
-$i_s^*\dashv Ri_{s*}$, the equality of trace classes reduces to the
+$i_s^*\dashv Ri_{s*}$, the equality of [trace classes](@definition-trace-class-local-terms) reduces to the
 identity for the units
 
 $$

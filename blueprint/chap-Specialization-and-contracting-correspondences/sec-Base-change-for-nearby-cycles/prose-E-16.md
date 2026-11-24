@@ -12,5 +12,5 @@ $t_{p_1}:p_1^!A_X\otimes^{\mathbf L} p_1^*M\to p_1^!M$ is the projection-formula
 the exceptional counit.
 
 The next identity says that, under the base change maps, the map
-$\kappa_M$ of external duality on the generic fibre corresponds to
+$\kappa_M$ of [external duality](@lemma-external-duality-trace-morphism) on the generic fibre corresponds to
 $\kappa_{\Psi_XM}$ on the special fibre, up to $\theta_X$.

@@ -6,12 +6,12 @@ order = 1690
 +++
 Neither properness of the legs $c_1,c_2$ nor smoothness of $F$ is
 assumed. This matters, because we apply the proposition to the
-deformation of a correspondence to the normal cone. Its generic fibre is
-the original correspondence, but its fixed scheme, which we describe in
+deformation of a [correspondence](@definition-correspondence) to the normal cone. Its generic fibre is
+the original [correspondence](@definition-correspondence), but its [fixed scheme](@definition-correspondence), which we describe in
 Lemma [lemma-fixed-point-scheme-deformation] of
 Section [sec-Contracting-correspondences], may be singular and nonreduced.
 
-A trace class has two ingredients besides $u$: the external duality
+A [trace class](@definition-trace-class-local-terms) has two ingredients besides $u$: the [external duality](@lemma-external-duality-trace-morphism)
 isomorphism, which turns $u$ into a section of
 $c^!(K\boxtimes\mathbb DK)$, and the evaluation along the diagonal. In
 the proof we compare both once and for all on $X\times_SX$, for the
@@ -54,8 +54,8 @@ $$
 
 be the comparison obtained from the tensor–Hom mate of
 $\Psi(\operatorname{ev})\mu$ by precomposing with $\alpha_{p_2}$
-and postcomposing with $\beta_{p_1}$. For the correspondence $c$, let
+and postcomposing with $\beta_{p_1}$. For the [correspondence](@definition-correspondence) $c$, let
 $\lambda_{c,K}:c^!P_X\xrightarrow\sim\cHom_A(c_2^*K,c_1^!K)$ be the
-external duality isomorphism on $C$, and define $\mathfrak h_c$ as
+[external duality](@lemma-external-duality-trace-morphism) isomorphism on $C$, and define $\mathfrak h_c$ as
 $\mathfrak h$, with $\alpha_{c_2}$ and $\beta_{c_1}$ in place of
 $\alpha_{p_2}$ and $\beta_{p_1}$.

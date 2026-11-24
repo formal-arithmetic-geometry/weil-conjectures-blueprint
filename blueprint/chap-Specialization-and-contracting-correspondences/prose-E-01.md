@@ -4,8 +4,8 @@ kind = "hidden"
 title = "Specialization and contracting correspondences"
 order = 1622
 +++
-The trace formula needs the local term at an isolated fixed point to be
-the trace on the stalk. This is not a formal fact. A local term is
+The [trace formula](@theorem-grothendieck-lefschetz-trace-formula) needs the [local term](@definition-trace-class-local-terms) at an isolated fixed point to be
+the trace on the stalk. This is not a formal fact. A [local term](@definition-trace-class-local-terms) is
 computed from $\cHom(c_2^*K,c_1^!K)$ near the fixed point, and the stalk
 does not determine this complex (Remark [remark-locality-warning]).
 Instead, Chapter [chap-The-trace-formula] proves the equality by a computation
@@ -22,10 +22,10 @@ index at $y$ is $1$. With coefficients in a sheaf, the local index is the
 trace of $\varphi$ on the stalk at $y$. Frobenius contracts in the
 strongest possible sense: its differential is zero. In this
 appendix we make this explanation into a theorem, in any dimension and
-for a whole class of correspondences at once.
+for a whole class of [correspondences](@definition-correspondence) at once.
 
 In algebraic geometry we measure contraction by powers of ideals. Let
-$c=(c_1,c_2):C\to X\times X$ be a correspondence, $Z\subset X$ a closed
+$c=(c_1,c_2):C\to X\times X$ be a [correspondence](@definition-correspondence), $Z\subset X$ a closed
 subscheme with ideal $I$, and put $I_i=c_i^{-1}(I)\mathcal O_C$. We say,
 as in [varshavsky05], that $c$ contracts towards $Z$ if
 $I_2\subset I_1$ and $I_2^n\subset I_1^{n+1}$ for some $n\geq1$.
@@ -38,14 +38,14 @@ $I_2\subset I_1^{q^m}$, and $n=1$ works.
 
 The main theorem,
 Theorem [theorem-contracting-correspondences-local-terms], says that
-near a component of its fixed locus that meets $Z$, the trace class of a
-contracting correspondence can be computed on $Z$ alone, from the
-correspondence restricted to $Z$. For $Z$ a point,
-Corollary [corollary-contracting-local-terms-point] says that the local
-term at an isolated fixed point is the trace on the stalk, even when $X$
+near a component of its [fixed locus](@definition-correspondence) that meets $Z$, the [trace class](@definition-trace-class-local-terms) of a
+contracting [correspondence](@definition-correspondence) can be computed on $Z$ alone, from the
+[correspondence](@definition-correspondence) restricted to $Z$. For $Z$ a point,
+Corollary [corollary-contracting-local-terms-point] says that the [local
+term](@definition-trace-class-local-terms) at an isolated fixed point is the trace on the stalk, even when $X$
 is singular. The theorem and its proof are due to
 Varshavsky [varshavsky05]. They generalize Fujiwara's theorem, conjectured by Deligne, that
-the local terms of a correspondence composed with a sufficiently high
+the [local terms](@definition-trace-class-local-terms) of a [correspondence](@definition-correspondence) composed with a sufficiently high
 power of Frobenius are the naive ones.
 
 The proof makes the contraction literal by deforming $X$ to the normal
@@ -59,21 +59,21 @@ specialization of $K$ restricted to the zero section, and by Verdier's
 theorem (Theorem [theorem-verdier-s-theorem-specialization-zero])
 this is $K|_Z$.
 
-It remains to transport the answer back to $X$. We identify the trace
-class on the special fibre with the specialization of the trace class of
+It remains to transport the answer back to $X$. We identify the [trace
+class](@definition-trace-class-local-terms) on the special fibre with the specialization of the [trace class](@definition-trace-class-local-terms) of
 $c$ (Proposition [proposition-specialization-trace-class]). The
-specialization map is an isomorphism, because the fixed locus does not
+specialization map is an isomorphism, because the [fixed locus](@definition-correspondence) does not
 move in the family up to nilpotents
 (Lemma [lemma-fixed-point-scheme-deformation]). Before any of this,
-we must be able to specialize a trace class at all. A trace class is
+we must be able to specialize a [trace class](@definition-trace-class-local-terms) at all. A [trace class](@definition-trace-class-local-terms) is
 built from $K\boxtimes\mathbb DK$, so we need nearby cycles to commute
-with external products and with Verdier duality.
+with external products and with [Verdier duality](@definition-verdier-dual-evaluation).
 Propositions [proposition-external-kunneth-formula-nearby-cycles]
 and [proposition-nearby-cycles-commute-verdier-duality] prove both,
 by a dimension argument of Illusie [illusie94].
 
-We use the six operations and the notation for correspondences and
-trace classes of Chapter [chap-The-Lefschetz-Verdier-formula], and classical
+We use the six operations and the notation for [correspondences](@definition-correspondence) and
+[trace classes](@definition-trace-class-local-terms) of Chapter [chap-The-Lefschetz-Verdier-formula], and classical
 results on nearby cycles over a trait, which we recall where they are
 first needed. Throughout this appendix, $k$ is algebraically closed,
 $\ell$ is invertible in $k$, and $A$ is a finite commutative ring
@@ -81,8 +81,8 @@ annihilated by a power of $\ell$. The only exception to these conventions is the
 nearby cycles in
 Sections [sec-Kunneth-formula-for-nearby-cycles]–[sec-Specialization-of-the-trace-class], which
 may be any excellent strictly henselian trait, with residue field only
-separably closed. As in the rest of the notes, statements about constructible
-complexes on $k$-schemes are made on the pro-étale site, but we construct
+separably closed. As in the rest of the notes, statements about [constructible
+complexes](@definition-constructible-sheaves) on $k$-schemes are made on the [pro-étale site](@definition-small-pro-etale-site), but we construct
 nearby cycles on the classical étale site and transport them by the
 comparison for constructible complexes
 (Theorem [theorem-comparison-constructible-sheaves] and

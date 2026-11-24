@@ -18,13 +18,13 @@ For the last arrow $\theta_X$, we claim
 that under (E.2) and
 (E.16), the map $g_s^*\theta_X$
 corresponds to $(\theta_{X'})^P\otimes A(1)[2]$. We check
-this on a smooth ambient space, where $\theta$ is the identity by smooth
-purity, and descend along the closed immersion
+this on a smooth ambient space, where $\theta$ is the identity by [smooth
+purity](@theorem-smooth-purity-all-admissible-coefficients), and descend along the closed immersion
 $i:X\hookrightarrow\mathbf A^r_{\mathbf A^1_S}$ of the statement, which we abbreviate
-to $i:X\hookrightarrow\mathbf A^r$. First, on $\mathbf A^r$ and on its slice, smooth
-purity and the base change isomorphism of nearby cycles for smooth
-pullback identify $\theta$ with the identity of the dualizing complex of
-a smooth scheme, and these identifications differ by $A(1)[2]$. To descend to $X$, we use
+to $i:X\hookrightarrow\mathbf A^r$. First, on $\mathbf A^r$ and on its slice, [smooth
+purity](@theorem-smooth-purity-all-admissible-coefficients) and the base change isomorphism of nearby cycles for smooth
+pullback identify $\theta$ with the identity of the [dualizing complex](@definition-verdier-dual-evaluation) of
+a smooth scheme, and these identifications differ by [$A(1)[2]$](@definition-tate-twists). To descend to $X$, we use
 the identity (E.9) for $i$, which gives
 $\theta_X=i_s^!\theta_{\mathbf A^r}\circ\beta_i(\omega_{\mathbf A^r_\eta})$.
 By (E.6), $\theta_X$ is then the adjoint,

@@ -20,6 +20,6 @@ base change maps above in the following sense.
 1. If $f:Y'\to Y$ is proper and $L'\in\Dbc(Y',A)$, then the composite
    of $Rf_*\sigma_{Y'}(L')$ with the base change map for proper direct
    image is $\sigma_Y(Rf_*L')$, where $(Rf_*L')_\eta$ is identified with
-   $Rf_{\eta*}(L'_\eta)$ by proper base change.
+   $Rf_{\eta*}(L'_\eta)$ by [proper base change](@theorem-results-from-etale-theory).
 2. If $f:Y'\to Y$ is smooth, then the composite of $f^*\sigma_Y(L)$
    with the base change map for pullback is $\sigma_{Y'}(f^*L)$.

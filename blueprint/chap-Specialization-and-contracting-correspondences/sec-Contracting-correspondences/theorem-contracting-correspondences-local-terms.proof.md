@@ -5,19 +5,19 @@ order = 1713
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "corollary-evaluation-weakly-contractible-objects", "proposition-exact-products", "proposition-milnor-sequence", "corollary-continuity-cohomology", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "lemma-comparison-direct-images-compatibilities", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "proposition-pro-etale-site-separably-closed", "lemma-reduction-derived-nakayama", "lemma-descent-finite-coefficient-field", "proposition-inverting-ell", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-pro-etale-base-change-map", "theorem-comparison-over-henselian-pair-degree", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "lemma-completed-ordinary-base-change", "proposition-comparison-etale-derived-category", "proposition-construction-independence-rf-shriek", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "definition-deformation-normal-bundle", "definition-sp-scalar-extension", "definition-verdier-dual-evaluation", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "theorem-proper-pushforward-lefschetz-verdier", "proposition-additivity-trace-classes", "theorem-nagata-s-compactification-theorem", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology", "lemma-sheaves-finite-support-finite-morphisms", "lemma-functoriality-deformation", "theorem-verdier-s-theorem-specialization-zero", "proposition-external-kunneth-formula-nearby-cycles", "proposition-nearby-cycles-commute-verdier-duality", "proposition-specialization-trace-class", "corollary-specialization-when-fixed-point-scheme", "lemma-normal-cones-contracting-ideals"]
 +++
 We split $K$ by the triangle $j_!j^*K\to K\to Ri_*i^*K$ and use
-additivity of trace classes. The piece supported on $Z$ gives the trace
+[additivity of trace classes](@proposition-additivity-trace-classes). The piece supported on $Z$ gives the trace
 of $u_Z$. The piece $j_!j^*K$, on the other hand, has zero trace, which we show by deforming
 to the normal cone.
 
 *Reductions.* We may assume that $W=C$, that $\Fix(c)=F_0$ and that
 the ideal inclusions hold on $C$. Indeed, by
 Remark [remark-reduction-connected-fixed-point-scheme], restricting $C$ to $W$
-and removing the other connected components of $\Fix(c)$ changes neither
-the trace class on $F_0$ nor $u_Z$ near $F_{0,Z}$.
+and removing the other connected components of [$\Fix(c)$](@definition-correspondence) changes neither
+the [trace class](@definition-trace-class-local-terms) on $F_0$ nor $u_Z$ near $F_{0,Z}$.
 By Lemma [lemma-fixed-point-scheme-deformation], the common map
 $\Fix(c)\to X$ maps set-theoretically into $Z$. The same lemma shows
-that after base change from $T$ to $S$ the reduction of the fixed scheme
-of the deformed correspondence is $(\Fix(c)\times S)_{\mathrm{red}}$, as
+that after base change from $T$ to $S$ the reduction of the [fixed scheme](@definition-correspondence)
+of the deformed [correspondence](@definition-correspondence) is $(\Fix(c)\times S)_{\mathrm{red}}$, as
 Corollary [corollary-specialization-when-fixed-point-scheme] requires.
 
 *The case $i^*K=0$.* We show that $\operatorname{Tr}_c(u)=0$. First,
@@ -33,21 +33,21 @@ $\operatorname{Sp}_{X,Z}(K)$ to the zero section with the restriction
 of $K$ to $Z$, and invariance under the nilpotent thickening
 $Z_{\mathrm{red}}\to Z$ passes from $Z$ to $Z_{\mathrm{red}}$.
 
-Next, consider the leg $\gamma_2$ of the correspondence on the special
+Next, consider the leg $\gamma_2$ of the [correspondence](@definition-correspondence) on the special
 fibre, along which we take ordinary pullback. It maps set-theoretically
 into the zero section by
 Lemma [lemma-normal-cones-contracting-ideals](2). Invariance under
 nilpotent thickenings therefore gives $\gamma_2^*\operatorname{Sp}_{X,Z}(K)=0$.
 So the specialized morphism has zero source, and its trace is zero.
 
-Finally, we relate this trace to $\operatorname{Tr}_c(u)$. The generic
-fibre of the deformed correspondence is $c$ over $\eta$. So
+Finally, we relate this trace to [$\operatorname{Tr}_c(u)$](@definition-trace-class-local-terms). The generic
+fibre of the deformed [correspondence](@definition-correspondence) is $c$ over $\eta$. So
 Proposition [proposition-specialization-trace-class] identifies the
 zero trace with the specialization of the pullback of
-$\operatorname{Tr}_c(u)$ to the generic fibre. By
+[$\operatorname{Tr}_c(u)$](@definition-trace-class-local-terms) to the generic fibre. By
 Corollary [corollary-specialization-when-fixed-point-scheme],
-specialization is the identity under the identifications for constant
-families, and these carry that pullback to $\operatorname{Tr}_c(u)$.
+[specialization](@proposition-specialization-trace-class) is the identity under the identifications for constant
+families, and these carry that pullback to [$\operatorname{Tr}_c(u)$](@definition-trace-class-local-terms).
 Hence $\operatorname{Tr}_c(u)=0$.
 
 *General $K$.* We apply Proposition [proposition-additivity-trace-classes](2)
@@ -61,14 +61,14 @@ $$
 whose hypothesis $c_1^{-1}(Z_{\mathrm{red}})\subset c_2^{-1}(Z_{\mathrm{red}})$
 follows from $I_2\subset I_1$.
 The open piece has zero trace by the case just treated, while the closed
-graded piece is the proper pushforward of $u_Z$ along $i$ and $i'$, by
+graded piece is the proper [pushforward](@definition-pushforward-correspondence) of $u_Z$ along $i$ and $i'$, by
 Lemma [lemma-closed-piece-pushforward], and
 Theorem [theorem-proper-pushforward-lefschetz-verdier] identifies its trace with the
-pushforward of the trace class of $u_Z$.
-To compare with $F_0$, note that the map $h_{F_0}$ is an isomorphism after reduction, because $\Fix(c)$ lies
+[pushforward](@definition-pushforward-correspondence) of the [trace class](@definition-trace-class-local-terms) of $u_Z$.
+To compare with $F_0$, note that the map $h_{F_0}$ is an isomorphism after reduction, because [$\Fix(c)$](@definition-correspondence) lies
 in $c_1^{-1}(Z)$ set-theoretically by
 Lemma [lemma-fixed-point-scheme-deformation]. This proves the displayed formula.
 If $F_0$ is proper, then so is $F_{0,Z}$, and pushing both sides forward to
 $\operatorname{Spec}k$ and composing with the trace map of
 Definition [definition-trace-class-local-terms] gives the equality of
-local terms.
+[local terms](@definition-trace-class-local-terms).

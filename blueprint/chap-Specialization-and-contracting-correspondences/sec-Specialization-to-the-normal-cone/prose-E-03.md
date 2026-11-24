@@ -43,7 +43,7 @@ stalk of $R\bar j_*M$ at its closed point is
 $R\Gamma(\bar\eta,M)=M$. The second is the usual calculation for the
 affine line with coefficients prime to the characteristic:
 $H^r(\mathbf A^1_k,M)=0$ for $r>0$ and $H^0(\mathbf A^1_k,M)=M$. It
-follows from [Stacks, [03RR](https://stacks.math.columbia.edu/tag/03RR)] applied to the compactification
+follows from [Stacks, [03RR](https://stacks.math.columbia.edu/tag/03RR)] applied to the [compactification](@definition-compactification-refinement)
 $\mathbf A^1\subset\mathbf P^1$, which has genus zero and one point at
 infinity. To apply that result, note that every finite $M$ is a finite
 direct sum of cyclic modules, and over the algebraically closed field $k$
@@ -65,7 +65,7 @@ constructible complexes of finite Tor dimension to complexes of the same
 kind. Finite Tor dimension is what we need when we take traces.
 The same holds for an arbitrary bounded constructible complex, without
 the Tor condition. To see this, we may forget the $A$-action, since the
-underlying torsion sheaves of $A$-linear nearby cycles are the usual
+underlying [torsion sheaves](@definition-torsion-sheaves) of $A$-linear nearby cycles are the usual
 nearby cycles. Bounded constructible complexes are stable under
 extensions and truncation, so the filtration by powers of $\ell$ reduces
 us to constructible $\mathbf F_\ell$-sheaves. These have finite Tor
