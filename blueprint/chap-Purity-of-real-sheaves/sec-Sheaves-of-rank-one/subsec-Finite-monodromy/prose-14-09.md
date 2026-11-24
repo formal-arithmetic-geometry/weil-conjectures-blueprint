@@ -17,7 +17,7 @@ Dividing by $r$ we get the average weight of the eigenvalues, which is the only
 candidate for a weight of $\mathcal V$. Indeed, if $\mathcal V$ is [pure](@definition-weights) of
 weight $w$, then $\det\mathcal V$ is [pure](@definition-weights) of weight $rw$, and the number
 defined below is $w$. For a sheaf that is not [pure](@definition-weights), on the other hand, the number is only an
-average. For example, on $\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ the determinant is [$\overline{\mathbf Q}_\ell(-1)$](@definition-tate-twists), of
+average. For example, on $\overline{\mathbf Q}_\ell\oplus\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$ the determinant is [$\overline{\mathbf Q}_\ell(-1)$](@definition-tate-twists), of
 weight $2$, and the number is $1$, the weight of no eigenvalue. For this
 reason we apply it to irreducible constituents:
 Proposition [proposition-bound-largest-determinant-weight] bounds the

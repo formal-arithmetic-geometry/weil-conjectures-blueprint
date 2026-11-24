@@ -21,12 +21,12 @@ coefficients, then each of them is holomorphic wherever the product is.
 For example, for the constant sheaf on $\mathbf G_m$ we have
 
 $$
-L(\mathbf G_m,\overline{\mathbf Q}_\ell,t)=\prod_{x\in|\mathbf G_m|}(1-t^{\deg(x)})^{-1}
+\href{@theorem-trace-formula-euler-product}{L(\mathbf G_m,\overline{\mathbf Q}_\ell,t)}=\prod_{x\in|\mathbf G_m|}(1-t^{\deg(x)})^{-1}
 =\frac{1-t}{1-qt},
 $$
 
 where $1-t$ comes from $H^1_c$ and the pole at $t=q^{-1}$ from
-$H^2_c=\overline{\mathbf Q}_\ell(-1)$. Each local factor has its poles on the circle
+$H^2_c=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$. Each local factor has its poles on the circle
 $|t|=1$, outside the disc $|t|<q^{-1}$, as
 Lemma [lemma-positivity-convergence] predicts. In general we apply the two facts to
 the even tensor powers of a real sheaf, whose $H^2_c$ is bounded by the

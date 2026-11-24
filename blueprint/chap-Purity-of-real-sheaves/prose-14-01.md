@@ -29,7 +29,7 @@ The tool is the [trace formula](@theorem-trace-formula-euler-product). On an aff
 [$L$-function](@theorem-trace-formula-euler-product) of a [lisse](@definition-lisse-sheaves) sheaf $\mathcal G$ as
 
 $$
-L(U_0,\mathcal G,t)
+\href{@theorem-trace-formula-euler-product}{L(U_0,\mathcal G,t)}
 =\prod_{x\in|U_0|}\det(1-\operatorname{Frob}_xt^{\deg(x)}\mid\mathcal G_{\bar x})^{-1}
 =\frac{\det(1-Ft\mid H^1_c(U,\mathcal G))}{\det(1-Ft\mid H^2_c(U,\mathcal G))}.
 $$
@@ -62,11 +62,11 @@ local eigenvalue $\alpha$ of $\mathcal G$ by $|\iota(\alpha)|^2\le q_x^\beta$,
 where $\beta$ is the largest determinant weight of the constituents.
 
 This is not yet the theorem, because a real sheaf need not be [pure](@definition-weights). For
-example, the sheaf $\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ is real, with constituents of
+example, the sheaf $\overline{\mathbf Q}_\ell\oplus\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$ is real, with constituents of
 weights $0$ and $2$, but the bound only gives $2$ for both. To separate the
 constituents we pass to exterior powers. In
-$\bigwedge^2(\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1))=\det\overline{\mathbf Q}_\ell(-1)\otimes\overline{\mathbf Q}_\ell$ the factor
-$\overline{\mathbf Q}_\ell$ appears multiplied by the known eigenvalue $q_x$ of $\det\overline{\mathbf Q}_\ell(-1)$,
+$\bigwedge^2(\overline{\mathbf Q}_\ell\oplus\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)})=\det\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}\otimes\overline{\mathbf Q}_\ell$ the factor
+$\overline{\mathbf Q}_\ell$ appears multiplied by the known eigenvalue $q_x$ of $\det\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$,
 so the bound $2$ for this summand leaves the bound $0$ for $\overline{\mathbf Q}_\ell$ itself.
 In general,
 Proposition [proposition-determinant-weights-tensor-operations](2) finds

@@ -11,8 +11,8 @@ with $g\in\pi_1(U)$ and $d=\deg w$, and then
 $\varepsilon(w)=\chi(g)\chi(s)^dc^{-d}=\chi(g)$. So $\varepsilon$
 has the same image as $\chi|_{\pi_1(U)}$, which is finite
 by Theorem [theorem-rank-one-sheaves-have-finite].  At a closed point $x$ the
-eigenvalue is $\varepsilon(\operatorname{Frob}_x)c^{\deg(x)}$, where the first factor
+eigenvalue is $\varepsilon(\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x})c^{\deg(x)}$, where the first factor
 has finite order, hence complex absolute value one. Therefore the eigenvalue
-has absolute value $q_x^{\lambda_\iota(c)/2}$.  This number does not depend
+has absolute value $q_x^{\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c)}/2}$.  This number does not depend
 on $s$, because changing $s$ multiplies $c$ by a value of $\chi$ on
 $\pi_1(U)$, which has finite order.

@@ -11,7 +11,7 @@ one. The *determinant weight* of $\mathcal V$ is
 
 $$
 \operatorname{dw}_\iota(\mathcal V)
-=\frac{\lambda_\iota(\det\rho(s))}{r}
+=\frac{\href{@proposition-weights-under-usual-operations}{\lambda_\iota(\det\rho(s))}}{r}
 $$
 
 (this does not depend on $s$, Corollary [corollary-determinant-weights]).

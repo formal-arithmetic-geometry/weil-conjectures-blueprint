@@ -11,5 +11,5 @@ be a nonzero subquotient of a [tensor construction](@definition-tensor-construct
 element $z$ acts by a scalar $c_Q$. Then
 
 $$
-\operatorname{dw}_\iota(Q)=\frac{\lambda_\iota(c_Q)}{N}.
+\href{@definition-determinant-weight}{\operatorname{dw}_\iota(Q)}=\frac{\href{@proposition-weights-under-usual-operations}{\lambda_\iota(c_Q)}}{N}.
 $$

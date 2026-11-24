@@ -5,7 +5,7 @@ title = "Rankin's bound (2)"
 order = 1155
 +++
 For the constant sheaf on $\mathbf G_m$ the lemma gives
-$H^2_c=\overline{\mathbf Q}_\ell(-1)$, of weight $2$, as in the computation at the start
+$H^2_c=\href{@definition-tate-twists}{\overline{\mathbf Q}_\ell(-1)}$, of weight $2$, as in the computation at the start
 of the section. Now take a Kummer sheaf of a nontrivial character on
 $\mathbf G_m$. Then $H^0_c=0$ because $\mathbf G_m$ is affine, and
 $H^2_c=0$ because the coinvariants vanish.

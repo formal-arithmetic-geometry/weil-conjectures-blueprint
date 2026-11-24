@@ -16,7 +16,7 @@ duality (Corollary [corollary-degreewise-duality-over-fields]) we have
 
 $$
 H_c^2(U,\mathcal F)^\vee
-=H^0(U,\mathcal F^\vee(1))=(V^\vee)^{\pi_1(U)}(1).
+=H^0(U,\href{@definition-tate-twists}{\mathcal F^\vee(1)})=\href{@definition-tate-twists}{(V^\vee)^{\pi_1(U)}(1)}.
 $$
 
 Since the dual of $(V^\vee)^{\pi_1(U)}$ is $V_{\pi_1(U)}$, this gives the second
@@ -25,7 +25,7 @@ canonical duality pairing and is therefore Frobenius equivariant.
 
 Duality also gives the vanishing outside degrees $0,1,2$. Indeed, for
 $i<0$ there is nothing to prove, and for $i>2$ the space
-$H_c^i(U,\mathcal F)$ is dual to $H^{2-i}(U,\mathcal F^\vee(1))$,
+$H_c^i(U,\mathcal F)$ is dual to $H^{2-i}(U,\href{@definition-tate-twists}{\mathcal F^\vee(1)})$,
 which is zero because $2-i<0$. For torsion coefficients the vanishing comes instead from the bound on [cohomological dimension](@definition-cohomological-dimension) of
 Appendix [chap-Cohomology-of-torsion-sheaves-on-curves].
 
@@ -44,7 +44,7 @@ on them factors through the degree quotient.  If $\beta$ is an eigenvalue of the
 then $\beta^{\deg(x)}$ is an eigenvalue of [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) on
 $\mathcal F_{\bar x}$ for every closed point $x$. Indeed, $V^{\pi_1(U)}$
 is a subspace and $V_{\pi_1(U)}$ a quotient of $V\simeq\mathcal F_{\bar x}$,
-both stable under $\operatorname{Frob}_x\in\pi_1(U)s^{\deg(x)}$, which
+both stable under $\href{@theorem-trace-formula-euler-product}{\operatorname{Frob}_x}\in\pi_1(U)s^{\deg(x)}$, which
 acts on them as $s^{\deg(x)}$.  If $\mathcal F$ is [punctually of
 weights](@definition-weights) $\le a$, it follows that $|\iota(\beta)|\le q^{a/2}$, and if $\mathcal F$
 is [pure](@definition-weights) of weight $a$, equality holds.

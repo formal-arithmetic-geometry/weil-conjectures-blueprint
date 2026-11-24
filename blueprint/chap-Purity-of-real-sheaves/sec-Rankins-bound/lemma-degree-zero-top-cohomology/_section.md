@@ -14,7 +14,7 @@ Frobenius-equivariant identifications
 
 $$
 H^0(U,\mathcal F)=V^{\pi_1(U)},\qquad
-H_c^2(U,\mathcal F)=V_{\pi_1(U)}(-1).
+H_c^2(U,\mathcal F)=\href{@definition-tate-twists}{V_{\pi_1(U)}(-1)}.
 $$
 
 There is no [compactly supported cohomology](@proposition-construction-independence-rf-shriek) outside degrees $0,1,2$.

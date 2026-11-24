@@ -32,19 +32,19 @@ At each finite level there is then a canonical residue sequence
 
 $$
 0\longrightarrow H^1(C,A_n)\longrightarrow H^1(U,A_n)
-\longrightarrow H^0(D,A_n(-1)).
+\longrightarrow H^0(D,\href{@definition-tate-twists}{A_n(-1)}).
 $$
 
 To obtain it with the correct twist and Frobenius action, we use the
-[dualizing complexes](@definition-verdier-dual-evaluation).  By transitivity, $i^!\omega_C=\omega_D=A_n$.
-Since $\omega_C=A_n(1)[2]$, it follows that
-$i^!A_{n,C}=A_{n,D}(-1)[-2]$.  The [localization triangle](@lemma-local-cohomology-right-adjoint)
-$i_*i^!A_{n,C}\to A_{n,C}\to Rj_*A_{n,U}$ now yields the displayed
+[dualizing complexes](@definition-verdier-dual-evaluation).  By transitivity, $\href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@definition-verdier-dual-evaluation}{\omega_C}=\href{@definition-verdier-dual-evaluation}{\omega_D}=A_n$.
+Since $\href{@definition-verdier-dual-evaluation}{\omega_C}=\href{@definition-tate-twists}{A_n(1)}[2]$, it follows that
+$\href{@theorem-existence-exceptional-inverse-image}{i^!A_{n,C}}=\href{@definition-tate-twists}{A_{n,D}(-1)}[-2]$.  The [localization triangle](@lemma-local-cohomology-right-adjoint)
+$i_*\href{@theorem-existence-exceptional-inverse-image}{i^!A_{n,C}}\to A_{n,C}\to Rj_*A_{n,U}$ now yields the displayed
 sequence, and all its maps are natural in the coefficients and under
 automorphisms of the model.
 
 Choose $m>0$ such that $F^m$ fixes all geometric boundary points, and
-put $Q=q^m$.  On $\varprojlim_nH^0(D,A_n(-1))$, which is finite free
+put $Q=q^m$.  On $\varprojlim_nH^0(D,\href{@definition-tate-twists}{A_n(-1)})$, which is finite free
 over $\mathbf Z_\ell$, the operator $F^m$ acts as $Q$. Since $Q-1\ne0$, it has no
 nonzero fixed element. A fixed compatible class on $U$ therefore has zero
 residues at every level, so by exactness it lifts uniquely to
