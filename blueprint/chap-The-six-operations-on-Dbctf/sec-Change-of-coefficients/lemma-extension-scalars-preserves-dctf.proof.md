@@ -8,6 +8,6 @@ An object that is locally $\Lambda_S\otimes P$ on a stratum $S$, with $P$
 perfect, remains of this form after derived extension of scalars, since
 $P\otimes^{\mathbf L}_\Lambda\Lambda'$ is a perfect $\Lambda'$-complex.
 Moreover, extension of scalars commutes with extension by zero and with
-finite cones. Every object of $D^b_{\mathrm{ctf}}(X,\Lambda)$ is built from such objects
+finite cones. Every object of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) is built from such objects
 by extension by zero from strata and finite cones, and so its extension of
-scalars lies in $D^b_{\mathrm{ctf}}(X,\Lambda')$.
+scalars lies in [$D^b_{\mathrm{ctf}}(X,\Lambda')$](@definition-constructible-sheaves).

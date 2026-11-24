@@ -48,7 +48,7 @@ copies of $K$. The assertion follows because $Rf_*$ commutes with finite
 sums.
 
 *The maps $\mathcal O_E\to E$ and $E\to\overline{\mathbf Q}_\ell$.* These are not finite,
-and we use continuity. For $\mathcal O_E\to E$, the complex $K_E$ is the
+and we use [continuity](@corollary-continuity-cohomology). For $\mathcal O_E\to E$, the complex $K_E$ is the
 colimit of $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, and for
 $E\to\overline{\mathbf Q}_\ell$, the complex $K_{\overline{\mathbf Q}_\ell}$ is the filtered colimit of the $K_F$
 over finite extensions $F/E$ in $\overline{\mathbf Q}_\ell$. Since $K$ is bounded, all terms of
