@@ -14,4 +14,4 @@ $$
 R^qh_*\underline{\mathbf Z/m}=0\qquad(q\geq1)
 $$
 
-on $C_{\mathrm{pro}\acute{e}t}$.
+on [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).

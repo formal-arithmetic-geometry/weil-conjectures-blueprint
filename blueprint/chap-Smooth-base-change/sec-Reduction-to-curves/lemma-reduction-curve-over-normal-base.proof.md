@@ -5,7 +5,7 @@ order = 684
 uses = ["lemma-cohomology-modules-underlying-abelian", "lemma-acyclic-resolutions", "lemma-injectivity-base-change-map-degree", "lemma-reduction-field", "lemma-integral-changes-source-base", "lemma-finite-direct-images"]
 +++
 We first simplify the source of the direct image and the coefficients,
-then show that the source of the base change map vanishes, and finally
+then show that the source of the [base change map](@definition-derived-base-change-map) vanishes, and finally
 replace the base by a normal one.
 
 By Lemma [lemma-reduction-field] there is a failure with direct image
@@ -14,11 +14,11 @@ algebraic closure of $\Omega$ to $\operatorname{Spec}\Omega$ is integral
 and surjective, Lemma [lemma-integral-changes-source-base] allows us
 to replace $\Omega$ by an algebraic closure. On this geometric point, a
 sheaf of $\mathbf Z/n$-modules is a $\mathbf Z/n$-module, hence a direct
-sum of cyclic groups $\mathbf Z/m$ with $m\mid n$. As the base change map
+sum of cyclic groups $\mathbf Z/m$ with $m\mid n$. As the [base change map](@definition-derived-base-change-map)
 commutes with this direct sum by continuity of qcqs direct images,
 base change still fails for some summand $\mathbf Z/m$.
 
-The source of the base change map is the pullback of
+The source of the [base change map](@definition-derived-base-change-map) is the pullback of
 $R^qf_*\underline{\mathbf Z/m}$ for $f:\operatorname{Spec}\Omega\to T$, and
 we show that it is zero. The stalk of this sheaf at a geometric point
 $\bar t$ of $T$ is the cohomology of
@@ -26,7 +26,7 @@ $\operatorname{Spec}\Omega\times_T\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{T
 This scheme is a limit of étale $\Omega$-schemes, which, since $\Omega$ is
 algebraically closed, are disjoint unions of copies of
 $\operatorname{Spec}\Omega$. By continuity of cohomology the stalk therefore
-vanishes for $q\geq1$. As the source of the base change map is zero, the failure
+vanishes for $q\geq1$. As the source of the [base change map](@definition-derived-base-change-map) is zero, the failure
 means that the target $R^qh_*\underline{\mathbf Z/m}$ is nonzero.
 
 The extension theorem for covers will require a normal base with

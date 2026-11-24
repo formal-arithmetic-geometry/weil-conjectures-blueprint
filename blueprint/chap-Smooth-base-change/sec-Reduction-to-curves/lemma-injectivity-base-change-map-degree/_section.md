@@ -8,7 +8,7 @@ uses = ["definition-derived-base-change-map"]
 +++
 Suppose $q\geq1$ and $\mathrm{BC}(g,n,q-1)$ holds. For every square
 obtained by base change as in the definition of $\mathrm{BC}$ and every
-sheaf of $\mathbf Z/n$-modules $M$ on $Z_{\acute{e}t}$, the base change map
+sheaf of $\mathbf Z/n$-modules $M$ on $Z_{\acute{e}t}$, the [base change map](@definition-derived-base-change-map)
 $b_M^q:g^{-1}R^qf_*M\to R^qf'_*g'^{-1}M$ in degree $q$ is injective. An inclusion
 $M\hookrightarrow N$ induces
 

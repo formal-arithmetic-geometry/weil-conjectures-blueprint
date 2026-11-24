@@ -4,15 +4,15 @@ kind = "remark"
 title = "Smooth base change, proper base change and base change for $f^!$"
 order = 704
 +++
-In (8.1), smooth base change assumes that $g$ is smooth and
-allows any $f$ of finite type, whereas proper base change assumes that $f$
-is proper and allows any $g$. Smooth purity
+In (8.1), [smooth base change](@theorem-smooth-base-change-all-admissible) assumes that $g$ is smooth and
+allows any $f$ of finite type, whereas [proper base change](@theorem-proper-base-change-classical-pro) assumes that $f$
+is proper and allows any $g$. [Smooth purity](@theorem-smooth-purity-all-admissible-coefficients)
 (Chapter [chap-Smooth-purity]) gives a
-third base change isomorphism $g'^*f^!\simeq f'^!g^*$, for the exceptional
-inverse image, when $f$ is smooth and $g$ is arbitrary. By contrast, neither
-smooth nor proper base change applies to the open immersion
+third base change isomorphism $g'^*f^!\simeq f'^!g^*$, for the [exceptional
+inverse image](@theorem-existence-exceptional-inverse-image), when $f$ is smooth and $g$ is arbitrary. By contrast, neither
+smooth nor [proper base change](@theorem-proper-base-change-classical-pro) applies to the open immersion
 $j:\mathbf G_m\hookrightarrow\mathbf A^1$ of the beginning of this chapter,
 where base change along the immersion of the origin fails:
 Theorem [theorem-smooth-base-change-all-admissible] does not apply
-because the immersion of the origin is not smooth, and proper base change
+because the immersion of the origin is not smooth, and [proper base change](@theorem-proper-base-change-classical-pro)
 does not apply because $j$ is not proper.

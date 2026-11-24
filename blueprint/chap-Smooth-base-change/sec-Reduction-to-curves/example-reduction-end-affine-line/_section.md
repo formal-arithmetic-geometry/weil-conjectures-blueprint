@@ -4,7 +4,7 @@ kind = "example"
 title = "Where the reduction ends"
 order = 685
 +++
-The square of the lemma is itself an instance of smooth base change, and
+The square of the lemma is itself an instance of [smooth base change](@theorem-smooth-base-change-classical-torsion), and
 the simplest case shows what remains to be proved. Let $Y=S=\operatorname{Spec}L$
 with $L$ algebraically closed, let $g:Y'=C=\mathbf A^1_L\to Y$ be the
 structure map, and take direct image along
@@ -12,7 +12,7 @@ $f:X=\operatorname{Spec}\Omega\to Y$ for an algebraically closed extension
 $\Omega$ of $L$, so that $X'=\mathbf A^1_\Omega$ and $f'=h$. The sheaf
 $R^qf_*\mathbf Z/m$ on $\operatorname{Spec}L$ is
 $H^q(\operatorname{Spec}\Omega,\mathbf Z/m)$, which vanishes for $q\geq1$.
-So smooth base change for this square says exactly that
+So [smooth base change](@theorem-smooth-base-change-classical-torsion) for this square says exactly that
 $R^qh_*\mathbf Z/m=0$ for $q\geq1$. For $m$ invertible in $L$ this is the
 content of
 Proposition [proposition-base-change-larger-algebraically-closed] below.

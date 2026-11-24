@@ -14,7 +14,7 @@ $$
 $$
 
 and every $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, the
-base change map (4.5) is an isomorphism
+[base change map](@definition-pro-etale-base-change-map) (4.5) is an isomorphism
 
 $$
 g^*Rf_*K\xrightarrow{\sim}Rf'_*g'^*K.

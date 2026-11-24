@@ -15,7 +15,7 @@ Y' @>{g}>> Y.
 \tag{8.1}
 $$
 
-The base change map $g^*Rf_*K\to Rf'_*g'^*K$, for
+The [base change map](@definition-pro-etale-base-change-map) $g^*Rf_*K\to Rf'_*g'^*K$, for
 $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, is the map (4.5) of
 Section [sec-The-base-change-map]. It comes by adjunction from the counit of
 $f^*\dashv Rf_*$, and it is defined for every such square and every
@@ -25,14 +25,14 @@ with image $\bar y$ in $Y$ is the pullback map from the cohomology of
 $X\times_Y\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{Y,\bar y}$ to that of
 $X'\times_{Y'}\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{Y',\bar y'}$.
 
-In smooth base change for torsion sheaves
+In smooth base change for [torsion sheaves](@definition-torsion-sheaves)
 (Theorem [theorem-smooth-base-change-classical-torsion]) we assume that
-$f$ is qcqs and that $g$ is smooth. In the theorem on $D^b_{\mathrm{ctf}}$ all schemes
+$f$ is qcqs and that $g$ is smooth. In the theorem on [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) all schemes
 are of finite type over $k$. Every inverse image below is the exact
 inverse image for the pullback of the coefficient ring, so that
 $g^*=Lg^*$ and $g'^*=Lg'^*$.
 
-The proofs of these theorems transport the base change map in three ways:
+The proofs of these theorems transport the [base change map](@definition-pro-etale-base-change-map) in three ways:
 from the pro-étale to the étale site, where the classical arguments
 are made; along composites of squares, when a smooth morphism is factored
 into curves; and along a change of the coefficient ring, to reach

@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Torsion sheaves (1)"
 order = 662
 +++
-Smooth base change for complexes (Section [sec-Bounded-below-complexes]) and for
+[Smooth base change for complexes](@theorem-smooth-base-change-classical-torsion-2) (Section [sec-Bounded-below-complexes]) and for
 $\ell$-adic coefficients (Section [sec-ell-adic-coefficients-3]) follows from the case of a
-single torsion sheaf, which is the next theorem. Its proof leaves schemes of
+single [torsion sheaf](@definition-torsion-sheaves), which is the next theorem. Its proof leaves schemes of
 finite type over $k$: it passes through base schemes such as spectra of fields
 and of integral closures. The comparison
 results of Chapter [chap-The-pro-etale-site] hold over arbitrary

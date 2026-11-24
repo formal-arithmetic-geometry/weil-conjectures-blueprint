@@ -6,10 +6,10 @@ order = 663
 uses = ["definition-derived-base-change-map"]
 +++
 In (8.1), suppose $g$ is smooth and $f$ is
-quasi-compact and quasi-separated. Let $F$ be a classical torsion
-abelian sheaf on $X_{\mathrm{pro}\acute{e}t}$ which is the filtered union of its
-subsheaves $F[n]$ for the positive integers $n$ invertible on $Y$.
-Then for every $q\geq0$ the degree-$q$ base change map induced by
+quasi-compact and quasi-separated. Let $F$ be a [classical](@definition-classical-pro-etale-sheaves) [torsion
+abelian sheaf](@definition-torsion-sheaves) on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) which is the filtered union of its
+subsheaves [$F[n]$](@definition-torsion-sheaves) for the positive integers $n$ invertible on $Y$.
+Then for every $q\geq0$ the degree-$q$ [base change map](@definition-pro-etale-base-change-map) induced by
 (4.5)
 
 $$

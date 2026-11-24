@@ -39,7 +39,7 @@ R^qf'_*\bigl(g_Z^{-1}\pi_*\pi^{-1}M\bigr)
 =R^q(f\pi)'_*\bigl(g_{\widetilde Z}^{-1}\pi^{-1}M\bigr).
 $$
 
-These identifications are compatible with the base change maps
+These identifications are compatible with the [base change maps](@definition-derived-base-change-map)
 [Stacks, [0EZR](https://stacks.math.columbia.edu/tag/0EZR), [0EZS](https://stacks.math.columbia.edu/tag/0EZS)], so they carry $b^q_{f,\pi_*\pi^{-1}M}$ to
 $b^q_{f\pi,\pi^{-1}M}$. Hence $C(f\pi,\pi^{-1}M)\simeq C(f,\pi_*\pi^{-1}M)\neq0$,
 and base change fails for the new source.
@@ -48,8 +48,8 @@ For the second assertion, let $f:Z\to T$ factor as $f=\pi\circ f_1$ with
 $\pi:T_1\to T$ integral and $f_1:Z\to T_1$, and suppose base change fails
 for $f$ and $M$, that is, $C(f,M)\neq0$. We show that it fails for $f_1$ and
 $M$ over the new base $T_1$. Put $T'_1=Y'\times_YT_1=T'\times_TT_1$, and let
-$\pi':T'_1\to T'$ be the base change of $\pi$, again integral. The base
-change map for $f_1$ is
+$\pi':T'_1\to T'$ be the base change of $\pi$, again integral. The [base
+change map](@definition-derived-base-change-map) for $f_1$ is
 
 $$
 b^q_{f_1,M}:g_{T_1}^{-1}R^qf_{1*}M\longrightarrow R^qf'_{1*}g_Z^{-1}M
@@ -62,7 +62,7 @@ $\pi'_*g_{T_1}^{-1}R^qf_{1*}M\simeq g_T^{-1}\pi_*R^qf_{1*}M
 =g_T^{-1}R^qf_*M$, where the last equality is the degenerate Leray spectral
 sequence for $f=\pi f_1$. In the same way
 $\pi'_*R^qf'_{1*}g_Z^{-1}M=R^qf'_*g_Z^{-1}M$. Under these identifications
-$\pi'_*\bigl(b^q_{f_1,M}\bigr)=b^q_{f,M}$, again because base change maps
+$\pi'_*\bigl(b^q_{f_1,M}\bigr)=b^q_{f,M}$, again because [base change maps](@definition-derived-base-change-map)
 compose. Since $\pi'_*$ is exact, it follows that
 $\pi'_*C(f_1,M)\simeq C(f,M)\neq0$, so $C(f_1,M)\neq0$, which is the
 assertion.

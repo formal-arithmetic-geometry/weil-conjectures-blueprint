@@ -4,16 +4,16 @@ kind = "hidden"
 title = "Smooth base change"
 order = 658
 +++
-To construct the trace classes in the trace formula we need the Künneth
+To construct the trace classes in the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) we need the Künneth
 formula for ordinary direct images,
 $Rf_{1*}M_1\boxtimes Rf_{2*}M_2\simeq R(f_1\times f_2)_*(M_1\boxtimes M_2)$
 (Proposition [proposition-ordinary-external-kunneth],
-Section [sec-The-Kunneth-formula]). For $Rf_!$ this formula follows from proper base change and the projection formula, but for $Rf_*$ this argument does not work, because $Rf_*$ does not commute with base change in general. For example,
+Section [sec-The-Kunneth-formula]). For [$Rf_!$](@proposition-construction-independence-rf-shriek) this formula follows from [proper base change](@proposition-composition-base-change-rf-shriek) and the projection formula, but for $Rf_*$ this argument does not work, because $Rf_*$ does not commute with base change in general. For example,
 let $j:U=\mathbf A^1\setminus\{0\}\hookrightarrow\mathbf A^1$ over an
 algebraically closed field, and let $n$ be invertible in it. Then the stalk of $R^1j_*(\mathbf Z/n)$ at $0$ is $H^1$ of the punctured strictly henselian
 disc, which is $\mathbf Z/n(-1)\neq0$, whereas the fibre of $j$ over $0$ is empty, so base change along the closed immersion of $0$ fails.
 
-The Künneth formula only needs base change along a product projection
+The [Künneth formula](@proposition-ordinary-external-kunneth) only needs base change along a product projection
 $Y\times T\to Y$ (Lemma [lemma-base-change-along-product-projection]).
 The question is whether base change along such a map holds for every $f$.
 
@@ -27,13 +27,13 @@ $\mathbf A^d_Y$, but the affine line has no small contractible
 neighbourhoods. Nevertheless, the theorem of this chapter, due to Artin (SGA 4,
 Exposé XVI [sga4]), says that for coefficients prime to the
 characteristic the affine line behaves as if it had them. More precisely, let $g:Y'\to Y$ be smooth, let $f$ be quasi-compact and quasi-separated, and
-let $F$ be a torsion sheaf whose torsion orders are invertible on $Y$.
-Then the base change map $g^*R^qf_*F\to R^qf'_*g'^*F$ is an isomorphism
-(Theorem [theorem-smooth-base-change-classical-torsion]). Moreover, on $D^b_{\mathrm{ctf}}(-,\Lambda)$ the same holds for every admissible $\Lambda$
+let $F$ be a [torsion sheaf](@definition-torsion-sheaves) whose torsion orders are invertible on $Y$.
+Then the [base change map](@definition-pro-etale-base-change-map) $g^*R^qf_*F\to R^qf'_*g'^*F$ is an isomorphism
+(Theorem [theorem-smooth-base-change-classical-torsion]). Moreover, on [$D^b_{\mathrm{ctf}}(-,\Lambda)$](@definition-constructible-sheaves) the same holds for every admissible $\Lambda$
 (Theorem [theorem-smooth-base-change-all-admissible]).
 
 A product projection $Y\times T\to Y$ is not smooth when $T$ is singular.
-What the Künneth formula uses is a consequence of smooth base change,
+What the [Künneth formula](@proposition-ordinary-external-kunneth) uses is a consequence of [smooth base change](@theorem-smooth-base-change-classical-torsion-2),
 namely base change under extension of the ground field [Stacks, [0F1C](https://stacks.math.columbia.edu/tag/0F1C)].
 
 The essential case is a change of the algebraically closed ground field,
@@ -45,8 +45,8 @@ $H^1(C,\mathbf Z/n)\to H^1(C_\Omega,\mathbf Z/n)$ is an isomorphism
 of $C_\Omega$ of degree $n$ does not depend on the extra transcendental
 parameters of $\Omega$.
 
-For $p$-torsion coefficients this invariance fails, and so does smooth base
-change. Let $k$ be
+For $p$-torsion coefficients this invariance fails, and so does [smooth base
+change](@theorem-smooth-base-change-classical-torsion). Let $k$ be
 algebraically closed of characteristic $p>0$, and let
 $f:\mathbf A^1_k\to\operatorname{Spec}k$ and
 $g:\mathbf A^1_k\to\operatorname{Spec}k$ be the structure maps, with
@@ -56,7 +56,7 @@ of $h\mapsto h^p-h$ on $K[x]$, for every field $K\supset k$. At the
 geometric generic point of the $t$-line, the stalk of
 $g^*R^1f_*\mathbf F_p$ is $H^1(\mathbf A^1_k,\mathbf F_p)$, the stalk of
 $R^1f'_*\mathbf F_p$ is $H^1(\mathbf A^1_K,\mathbf F_p)$ with
-$K=k(t)^{\mathrm{sep}}$, and the base change map is pullback. We
+$K=k(t)^{\mathrm{sep}}$, and the [base change map](@definition-pro-etale-base-change-map) is pullback. We
 claim that
 the class of $tx$ is not in its image. Suppose $tx=a+h^p-h$ with
 $a\in k[x]$ and $h\in K[x]$, and let $b_e$ be the coefficient of $x^{p^e}$

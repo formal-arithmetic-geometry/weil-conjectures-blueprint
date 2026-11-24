@@ -4,15 +4,15 @@ of = "lemma-kunneth-field-coefficients"
 order = 716
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-underived-base-change-map", "lemma-acyclic-resolutions", "lemma-finiteness-small-etale-topoi", "lemma-finite-morphisms", "theorem-proper-base-change-classical-pro", "lemma-kunneth-finite-direct-image", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "definition-relative-picard-functor", "lemma-finite-direct-images"]
 +++
-We first treat constructible sheaves $M$ and $Q$, by the usual argument for
+We first treat [constructible sheaves](@definition-constructible-sheaves) $M$ and $Q$, by the usual argument for
 comparing a $\delta$-functor with an exact functor, and then pass to
 complexes by truncation. We may compute with the small étale models of
 $M$ and $Q$, since Theorems [theorem-comparison-constructible-sheaves]
 and [theorem-comparison-direct-images] identify the operations and the
 adjunction maps defining $\kappa_{M,Q}$ on the two sites.
 
-*Sheaves.* Let $M$ and $Q$ be constructible sheaves of $L$-modules.
-By [Stacks, [09Z7](https://stacks.math.columbia.edu/tag/09Z7)](3), applied on $T$, there is a short exact sequence of constructible $L$-sheaves
+*Sheaves.* Let $M$ and $Q$ be [constructible sheaves](@definition-constructible-sheaves) of $L$-modules.
+By [Stacks, [09Z7](https://stacks.math.columbia.edu/tag/09Z7)](3), applied on $T$, there is a short exact sequence of [constructible](@definition-constructible-sheaves) $L$-sheaves
 
 $$
 0\longrightarrow Q\longrightarrow P\longrightarrow Q'\longrightarrow0,
@@ -21,7 +21,7 @@ P=\bigoplus_a\pi_{a*}L_{T_a}^{\oplus n_a},
 \quad \pi_a\text{ finite}.
 $$
 
-Indeed, every constructible sheaf on a qcqs scheme embeds into a finite sum
+Indeed, every [constructible sheaf](@definition-constructible-sheaves) on a qcqs scheme embeds into a finite sum
 of finite direct images of constant sheaves with finite coefficients, and
 over $L$ these coefficients are finite sums of $L$. For $r\geq0$ put
 
@@ -32,13 +32,13 @@ G^r(Q)=R^rh_*(p_X^*M\otimes_Lp_T^*Q).
 $$
 
 Since tensoring over $L$ is exact, each $F^r$ is exact in $Q$, while the
-$G^r$ form a long exact sequence. On cohomology sheaves the Künneth map
+$G^r$ form a long exact sequence. On cohomology sheaves the [Künneth map](@definition-kunneth-map)
 induces natural maps $a_Q^r:F^r(Q)\to G^r(Q)$, and $a_P^r$ is an isomorphism
 for every $r$ by Lemma [lemma-kunneth-finite-direct-image]. It follows
 that each $a_Q^r$ is injective. Indeed, in its naturality square for
 $Q\hookrightarrow P$ the map $F^r(Q)\to F^r(P)$ is injective and $a_P^r$ is
 an isomorphism. Surjectivity is proved by induction on $r$, simultaneously for all
-constructible $Q$.
+[constructible](@definition-constructible-sheaves) $Q$.
 For $r=0$, the beginning of the long exact sequence of the $G^r$ identifies
 $G^0(Q)$ with the kernel of $G^0(P)\to G^0(Q')$, and since $F^0$ is exact,
 $F^0(Q)$ is the kernel of $F^0(P)\to F^0(Q')$. As $a_P^0$ is an
@@ -62,6 +62,6 @@ functors of $M$ and of $Q$, and $\kappa_{M,Q}$ is natural in both. Using the fin
 truncation triangles of $M$ and of $Q$ and two-out-of-three, we can
 therefore extend the case of sheaves to $M\in D^b_{\mathrm{ctf}}(X,L)$ and
 $Q\in D^b_{\mathrm{ctf}}(T,L)$. This is possible because over the field $L$ the
-truncations stay in $D^b_{\mathrm{ctf}}$, since constructible cohomology sheaves have
-Tor amplitude zero, and all operations are bounded on the schemes under
+truncations stay in [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), since [constructible](@definition-constructible-sheaves) cohomology sheaves have
+[Tor amplitude](@definition-constructible-sheaves) zero, and all operations are bounded on the schemes under
 consideration.

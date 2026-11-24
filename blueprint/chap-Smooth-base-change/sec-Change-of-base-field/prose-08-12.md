@@ -14,7 +14,7 @@ induction. As the sheaf $R^qh_*\mathbf Z/m$ is the sheafification of
 $U\mapsto H^q(U_\Omega,\mathbf Z/m)$ on $C_{\acute{e}t}$, we must show
 that classes on $U_\Omega$ die after étale localization on $U$.
 In degrees $q\geq2$ there is nothing to kill, since affine curves over an
-algebraically closed field have cohomological dimension one.
+algebraically closed field have [cohomological dimension](@definition-cohomological-dimension) one.
 
 In degree one the problem is about covers. Recall that $S=\operatorname{Spec}R$
 with $R$ a normal domain whose fraction field $L$ is algebraically closed, and
