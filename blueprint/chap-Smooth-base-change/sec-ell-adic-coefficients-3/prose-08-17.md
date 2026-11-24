@@ -4,7 +4,7 @@ kind = "hidden"
 title = "$\\ell$-adic coefficients (2)"
 order = 702
 +++
-For integral and rational coefficients we have $D^b_{\mathrm{ctf}}=\Dbc$, so in those cases
+For integral and rational coefficients we have $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}=\href{@definition-constructible-sheaves}{\Dbc}$, so in those cases
 the theorem concerns all [bounded constructible complexes](@definition-constructible-sheaves). The isomorphisms
 (8.2) respect composition of cartesian squares
 and change of coefficients, because the [base change map](@definition-pro-etale-base-change-map) itself does

@@ -60,8 +60,8 @@ $\kappa_{M,Q}$ is an isomorphism for sheaves.
 *Complexes.* The source and target of $\kappa_{M,Q}$ are exact
 functors of $M$ and of $Q$, and $\kappa_{M,Q}$ is natural in both. Using the finitely many
 truncation triangles of $M$ and of $Q$ and two-out-of-three, we can
-therefore extend the case of sheaves to $M\in D^b_{\mathrm{ctf}}(X,L)$ and
-$Q\in D^b_{\mathrm{ctf}}(T,L)$. This is possible because over the field $L$ the
+therefore extend the case of sheaves to $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,L)}$ and
+$Q\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(T,L)}$. This is possible because over the field $L$ the
 truncations stay in [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), since [constructible](@definition-constructible-sheaves) cohomology sheaves have
 [Tor amplitude](@definition-constructible-sheaves) zero, and all operations are bounded on the schemes under
 consideration.

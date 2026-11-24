@@ -13,7 +13,7 @@ $$
 \Lambda\in\{A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell\}
 $$
 
-and every $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, the
+and every $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$, the
 [base change map](@definition-pro-etale-base-change-map) (4.5) is an isomorphism
 
 $$

@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Suppose that the schemes in (8.1) are of finite type over
 $k$. Let $\Lambda\to\Lambda'$ be a coefficient map of
 Proposition [proposition-six-operations-change-coefficients] and let
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$. Then the square
+$K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$. Then the square
 
 $$
 \begin{CD}

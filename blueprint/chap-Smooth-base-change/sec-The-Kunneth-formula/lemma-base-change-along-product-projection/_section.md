@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $f:X\to Y$ be a morphism of separated $k$-schemes of finite type,
 let $T$ be a separated $k$-scheme of finite type, and let
-$M\in\Dbc(X,A)$.  Let
+$M\in\href{@definition-constructible-sheaves}{\Dbc(X,A)}$.  Let
 $p_X:X\times T\to X$ and $p_Y:Y\times T\to Y$ be the
 projections.  Then the [base change map](@definition-pro-etale-base-change-map)
 

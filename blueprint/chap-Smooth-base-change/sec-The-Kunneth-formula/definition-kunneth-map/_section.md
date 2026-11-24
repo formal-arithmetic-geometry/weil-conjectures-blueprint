@@ -7,7 +7,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $f_i:X_i\to Y_i$, $i=1,2$, be morphisms of separated $k$-schemes of
 finite type, put $h=f_1\times f_2:X_1\times X_2\to Y_1\times Y_2$, and let
-$M_i\in D^b_{\mathrm{ctf}}(X_i,A)$. The *Künneth map*
+$M_i\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_i,A)}$. The *Künneth map*
 
 $$
 Rf_{1*}M_1\boxtimes Rf_{2*}M_2

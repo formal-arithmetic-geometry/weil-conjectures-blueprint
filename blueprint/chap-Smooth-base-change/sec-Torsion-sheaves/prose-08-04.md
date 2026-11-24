@@ -6,7 +6,7 @@ order = 664
 +++
 As for [proper base change](@theorem-proper-base-change-classical-pro), we transport the problem to the étale site by
 the comparison theorems of Chapter [chap-The-pro-etale-site]. Since
-$F$ is [classical](@definition-classical-pro-etale-sheaves), $F=\nu_X^*F_{\acute{e}t}$ for a [torsion abelian sheaf](@definition-torsion-sheaves)
+$F$ is [classical](@definition-classical-pro-etale-sheaves), $F=\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*F_{\acute{e}t}}$ for a [torsion abelian sheaf](@definition-torsion-sheaves)
 $F_{\acute{e}t}$ on $X_{\acute{e}t}$. As $f$ and $f'$ are qcqs,
 Theorem [theorem-comparison-direct-images] and
 Lemma [lemma-naturality-pasting-comparison] identify both sides and the
