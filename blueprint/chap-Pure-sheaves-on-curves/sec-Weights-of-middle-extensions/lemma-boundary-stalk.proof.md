@@ -29,6 +29,6 @@ finitely many of them.
 This gives the formula with rational coefficients, after finite
 extension of scalars, and hence also over $\overline{\mathbf Q}_\ell$. Since all these maps
 commute with the action of the decomposition group, the identification is
-Frobenius equivariant. Finally, if $\mathcal F$ extends to a lisse sheaf on
+Frobenius equivariant. Finally, if $\mathcal F$ extends to a [lisse](@definition-lisse-sheaves) sheaf on
 $X_0$, the local inertia acts trivially, and so the adjunction map is
 an isomorphism on every geometric stalk.

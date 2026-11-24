@@ -4,7 +4,7 @@ of = "lemma-cohomological-range-curve"
 order = 1193
 uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-degree-zero-top-cohomology", "lemma-finite-quasi-finite-direct-images"]
 +++
-Choose a dense open $j:U\hookrightarrow C$ on which $F$ is lisse,
+Choose a dense open $j:U\hookrightarrow C$ on which $F$ is [lisse](@definition-lisse-sheaves),
 and let $i$ be the inclusion of the finite complement. The sequence
 $0\to j_!j^*F\to F\to i_*i^*F\to0$ gives a long exact sequence in
 which $H^r_c(C,i_*i^*F)$ vanishes for $r\ne0$, because the support is

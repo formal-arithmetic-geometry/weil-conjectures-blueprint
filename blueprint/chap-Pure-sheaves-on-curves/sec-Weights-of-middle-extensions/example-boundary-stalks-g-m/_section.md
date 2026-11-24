@@ -13,7 +13,7 @@ $j_*$ and $j_!$ agree.
 For the Kummer extension $\mathcal E$ of
 Example [example-kummer-extension], on the other hand, $I_0$ acts by the matrices
 $\bigl(\begin{smallmatrix}1&\kappa\\0&1\end{smallmatrix}\bigr)$ with
-$\kappa$ running over $\mathbf Z_\ell(1)$, whose common fixed vectors form the line
-$\overline{\mathbf Q}_\ell(1)$. So the stalk of $j_*\mathcal E$ at $0$ is $\overline{\mathbf Q}_\ell(1)$, of weight
+$\kappa$ running over [$\mathbf Z_\ell(1)$](@definition-tate-twists), whose common fixed vectors form the line
+[$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists). So the stalk of $j_*\mathcal E$ at $0$ is [$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists), of weight
 $-2$, while $\mathcal E$ has weights $-2$ and $0$; the stalk at the
 boundary keeps only part of the weights.

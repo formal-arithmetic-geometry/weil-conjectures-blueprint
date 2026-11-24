@@ -4,7 +4,7 @@ of = "proposition-weights-j-boundary-points"
 order = 1184
 uses = ["proposition-etale-implications", "definition-w-local-w-strictly-local", "lemma-extremally-disconnected-covers", "proposition-splitting-ind-etale-covers", "theorem-existence-contractible-covers", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-bounded-below-cohomology-comparison", "lemma-comparison-direct-images-compatibilities", "proposition-comparison-immersions", "proposition-locally-constant-sheaves-finite-presentation", "proposition-pro-etale-site-separably-closed", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-derived-adic-completeness", "definition-constructible-sheaves", "proposition-integral-constructibility-criterion", "lemma-constructible-sheaves", "lemma-descent-finite-coefficient-field", "lemma-lattices-after-finite-stratification", "lemma-integral-models", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-cohomology-curves", "lemma-finiteness-small-etale-topoi", "proposition-proper-base-change-projective-line", "lemma-finite-morphisms", "lemma-finite-cover-projective-space", "theorem-proper-base-change-classical-pro", "corollary-cohomology-geometric-fibres", "proposition-proper-base-change-complete-integral", "proposition-proper-direct-image-constructible-complexes", "proposition-comparison-etale-derived-category", "lemma-structure-integral-constructible-complexes", "corollary-open-direct-image-over-field", "proposition-six-operations-dctf", "definition-change-of-coefficients-maps", "proposition-sp-unique-adjoint", "lemma-perfect-complexes-geometric-point", "lemma-logarithm-determinant", "theorem-trace-formula-euler-product", "lemma-filtrations-spectra", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "lemma-positivity-convergence", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "lemma-finite-quasi-finite-direct-images", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection", "definition-relative-picard-functor", "theorem-riemann-roch-coherent-serre-duality", "lemma-coherent-base-change-invertible-sheaves", "theorem-picard-scheme-jacobian-over-separably", "corollary-torsion-jacobian-field-extension", "lemma-finite-direct-images", "lemma-cohomology-multiplicative-group", "proposition-p-torsion-smooth-proper-curve", "lemma-finite-morphisms-cohomology"]
 +++
-Comparing the $L$-functions of $\mathcal F$ and of $j_*\mathcal F$
+Comparing the [$L$-functions](@theorem-trace-formula-euler-product) of $\mathcal F$ and of $j_*\mathcal F$
 gives the weaker bound $a+2$ at the boundary, and tensor powers
 remove the extra $2$.
 
@@ -14,11 +14,11 @@ Cartier divisor, so after shrinking this neighbourhood it is cut out by one
 equation $f$, and then $U_0=D(f)$ is affine as well. Write
 $i:Z_0=X_0-U_0\hookrightarrow X_0$. The hypotheses are preserved by this
 replacement. Indeed, forming $j_*$ commutes with restriction to open
-subschemes, and the restriction of $\mathcal F$ is still punctually of weights
+subschemes, and the restriction of $\mathcal F$ is still [punctually of weights](@definition-weights)
 $\le a$. Moreover, a nonempty open of $X_0$ is still geometrically connected.
 
 The boundary Euler factors of $j_*\mathcal F$ are the ratio
-$L_X/L_U$ of the two $L$-functions defined below. We show that $L_U$
+$L_X/L_U$ of the two [$L$-functions](@theorem-trace-formula-euler-product) defined below. We show that $L_U$
 has no zero and $L_X$ no pole on the disc $|t|<q^{-a/2-1}$, so that the
 boundary factors have no pole there, and this bounds their eigenvalues.
 
@@ -41,19 +41,19 @@ $|\iota\operatorname{Tr}(\operatorname{Frob}_x^{n/d}\mid\mathcal F_{\bar x})|
 $\sum_{d\mid n}d\cdot\#\{x\in|U_0|:\deg(x)=d\}=\#U_0(k_n)$,
 Lemma [lemma-point-count-bound] gives $|c_n|\le rDq^{n(a/2+1)}$. Hence the
 logarithm converges on the disc $|t|<R=q^{-a/2-1}$, and its exponential
-is a nonvanishing holomorphic function there. By the trace formula,
+is a nonvanishing holomorphic function there. By the [trace formula](@theorem-trace-formula-euler-product),
 its Taylor series is that of the rational function $\iota L_U(t)$, so
 the two agree on the whole disc.
 
 *The $L$-function on $X_0$.* Let $L_X(t)=L(X_0,j_*\mathcal F,t)$.
-We show that $\iota L_X$ is holomorphic on the same disc. By the trace
-formula its poles come from $H^0_c$ and $H^2_c$ of $j_*\mathcal F$, and
+We show that $\iota L_X$ is holomorphic on the same disc. By the [trace
+formula](@theorem-trace-formula-euler-product) its poles come from $H^0_c$ and $H^2_c$ of $j_*\mathcal F$, and
 we compute both groups.
 
 The group $H^0_c$ vanishes. Indeed, the support of a compactly supported
 section of $j_*\mathcal F$ on $X$ is closed and proper over $k$, and since $X$ is
 an affine curve, the support is finite. So the section vanishes on a dense
-open subset of $U$, and as $\mathcal F$ is lisse and $U$ is connected, it vanishes
+open subset of $U$, and as $\mathcal F$ is [lisse](@definition-lisse-sheaves) and $U$ is connected, it vanishes
 on all of $U$. Since a section of $j_*\mathcal F$ is determined by its restriction
 to $U$, the section is zero.
 For $H^2_c$, note that the quotient sheaf in
@@ -67,7 +67,7 @@ is supported on the finite boundary, whose cohomology is concentrated
 in degree zero.  From the long exact sequence we obtain
 $H_c^2(X,j_*\mathcal F)=H_c^2(U,\mathcal F)$, and by
 Lemma [lemma-degree-zero-top-cohomology] its eigenvalues have absolute value at most
-$q^{a/2+1}$.  By the trace formula, every pole of $\iota L_X$ is the
+$q^{a/2+1}$.  By the [trace formula](@theorem-trace-formula-euler-product), every pole of $\iota L_X$ is the
 inverse of a Frobenius eigenvalue on $H^0_c$ or $H^2_c$. Since
 $H^0_c=0$, the poles have absolute value at least $q^{-a/2-1}=R$. Hence
 $\iota L_X$ is holomorphic on $|t|<R$.
@@ -94,12 +94,12 @@ $$
 $$
 
 *Tensor powers.* The error $2$ in the exponent comes from the
-twist $(-1)$ on $H^2_c$. Since it does not grow with the weight, it
+twist [$(-1)$](@definition-tate-twists) on $H^2_c$. Since it does not grow with the weight, it
 becomes negligible for high tensor powers. We therefore apply the
 preliminary bound to $\mathcal F^{\otimes m}$ for every $m\ge1$, a sheaf
-punctually of weights $\le ma$.  Let $V$ be the local generic fibre of
+[punctually of weights](@definition-weights) $\le ma$.  Let $V$ be the local generic fibre of
 $\mathcal F$ at $z$. By Lemma [lemma-boundary-stalk], the eigenvalue
-$\alpha$ of $\operatorname{Frob}_z$ on $(j_*\mathcal F)_{\bar z}$ has an
+$\alpha$ of [$\operatorname{Frob}_z$](@theorem-trace-formula-euler-product) on $(j_*\mathcal F)_{\bar z}$ has an
 eigenvector $v\in V^{I_z}$, and then $v^{\otimes m}$ is a nonzero
 invariant eigenvector in $V^{\otimes m}$ with eigenvalue $\alpha^m$.
 By the same lemma, $\alpha^m$ is therefore an eigenvalue on the stalk of

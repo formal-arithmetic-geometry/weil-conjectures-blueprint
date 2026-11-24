@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost"
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "definition-weights", "definition-weil-representation", "definition-middle-extension"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open of a smooth
-geometrically connected curve.  If a lisse Weil sheaf $\mathcal F$ on
-$U_0$ is punctually of weights $\le a$, so is $j_*\mathcal F$ on
+geometrically connected curve.  If a [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) $\mathcal F$ on
+$U_0$ is [punctually of weights](@definition-weights) $\le a$, so is $j_*\mathcal F$ on
 $X_0$.
