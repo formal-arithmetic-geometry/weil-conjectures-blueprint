@@ -547,6 +547,13 @@
    "date": "2026-11-23"},
   {"summary":
    {"total": 1750,
+    "proved": 1317,
+    "byStatus": {"stated": 7, "proved": 1317, "absent": 426}},
+   "sha": "60c5d6ff77d4bf0ccade41b7bcc4166927dfb519",
+   "file": "data/60c5d6ff77d4bf0ccade41b7bcc4166927dfb519.json",
+   "date": "2026-11-24"},
+  {"summary":
+   {"total": 1750,
     "proved": 1304,
     "byStatus": {"stated": 7, "proved": 1304, "absent": 439}},
    "sha": "da52130661a1cb84c47b8873ae54690af2c5cb4f",

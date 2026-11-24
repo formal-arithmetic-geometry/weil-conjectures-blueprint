@@ -1144,7 +1144,12 @@
    "boundary": [],
    "body":
    "Suppose $U$ is quasi-compact and quasi-separated and\n$(K_i^\\bullet)$ is a filtered diagram of complexes of $\\mathcal R$-modules\nvanishing below one fixed degree $a$. Then for every $q$,\n\n$$\n\\varinjlim_i H^q(U,K_i^\\bullet)\n\\simeq H^q(U,\\varinjlim_iK_i^\\bullet).\n$$\n\nIf $f:X\\to Y$ is quasi-compact and quasi-separated, the analogous map\n$\\varinjlim_iR^qf_*K_i^\\bullet\\to\nR^qf_*(\\varinjlim_iK_i^\\bullet)$ is an isomorphism.",
-   "attrs": {"title": "Continuity of cohomology", "order": 106}},
+   "attrs":
+   {"title": "Continuity of cohomology",
+    "order": 106,
+    "lean":
+    ["AlgebraicGeometry.Scheme.ProEt.H_map_isColimit_of_isFiltered_small",
+     "AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Left-completeness-and-hypercovers/corollary-continuity-cohomology/corollary-continuity-cohomology--1.md",
@@ -4127,7 +4132,16 @@
    "body":
    "A ring map $R\\to B$ is *ind-étale* if\n$B=\\varinjlim_\\alpha B_\\alpha$ for a filtered system of étale\n$R$-algebras $B_\\alpha$. A *pro-étale affine over $X$* is a scheme\n$U=\\varprojlim_iU_i$ that is the limit of a cofiltered system of affine\nschemes $U_i$ étale over $X$. If $X=\\operatorname{Spec}(R)$ is affine,\nthe pro-étale affines over $X$ are the schemes\n\n$$\n\\operatorname{Spec}(B)=\\varprojlim_\\alpha\n\\operatorname{Spec}(B_\\alpha)\\longrightarrow X\n$$\n\nwith $R\\to B$ ind-étale.\n\nA scheme morphism $u:U\\to X$ is *weakly étale* if $u$ and its\ndiagonal $\\Delta_u:U\\to U\\times_XU$ are flat.",
    "attrs":
-   {"title": "Ind-étale, pro-étale and weakly étale morphisms", "order": 27}},
+   {"title": "Ind-étale, pro-étale and weakly étale morphisms",
+    "order": 27,
+    "lean":
+    ["Algebra.IndEtale",
+     "RingHom.IndEtale",
+     "AlgebraicGeometry.proAffineEtale",
+     "AlgebraicGeometry.proAffineEtale_Spec_iff",
+     "Algebra.WeaklyEtale",
+     "AlgebraicGeometry.WeaklyEtale",
+     "RingHom.WeaklyEtale"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Weakly-etale-morphisms/definition-ind-etale-pro-etale-weakly/definition-ind-etale-pro-etale-weakly--1.md",
@@ -4981,7 +4995,15 @@
    "boundary": [],
    "body":
    "The objects of $X_{\\mathrm{pro}\\acute{e}t}$ are weakly étale $X$-schemes, with all\n$X$-morphisms as arrows. A family $\\{U_i\\to U\\}_{i\\in I}$ is a\ncovering if it is an fpqc covering. Explicitly, for every affine open\n$W\\subset U$ there must be finitely many indices\n$i_1,\\ldots,i_m$ and affine opens\n$V_j\\subset U_{i_j}\\times_UW$ with\n\n$$\nW=\\bigcup_{j=1}^m\\operatorname{image}(V_j\\to W).\n$$\n\nThe indices may depend on $W$, and $I$ may be infinite.\nEquivalently one may use finitely many quasi-compact opens above each\n$W$. See [Stacks, [0989](https://stacks.math.columbia.edu/tag/0989), [098A](https://stacks.math.columbia.edu/tag/098A)].",
-   "attrs": {"title": "The small pro-étale site", "order": 34}},
+   "attrs":
+   {"title": "The small pro-étale site",
+    "order": 34,
+    "lean":
+    ["AlgebraicGeometry.QuasiCompactCover",
+     "AlgebraicGeometry.Scheme.ProEt",
+     "AlgebraicGeometry.Scheme.ProEt.precoverage",
+     "AlgebraicGeometry.Scheme.ProEt.topology",
+     "AlgebraicGeometry.Scheme.proetalePrecoverage"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Weakly-etale-morphisms/definition-small-pro-etale-site/definition-small-pro-etale-site--1.md",
@@ -5826,7 +5848,13 @@
    "A topological space is *extremally disconnected* if the closure of\nevery open subset is open. A spectral space $T$ is *w-local* if its set $T^c$ of closed\npoints is closed and every point specializes to exactly one closed\npoint. A ring $R$ is w-local if $\\operatorname{Spec}(R)$ is w-local.\nIt is *w-strictly local* if it is w-local and\n$R_{\\mathfrak m}$ is strictly henselian for every maximal ideal\n$\\mathfrak m$. It is *w-contractible* if it is w-strictly local\nand the profinite space $\\pi_0(\\operatorname{Spec}(R))$ is\nextremally disconnected.",
    "attrs":
    {"title": "w-local, w-strictly local and w-contractible rings",
-    "order": 43}},
+    "order": 43,
+    "lean":
+    ["ExtremallyDisconnected",
+     "IsWLocalRing",
+     "WLocalSpace",
+     "IsWStrictlyLocalRing",
+     "IsWContractibleRing"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-w-local-and-w-contractible-rings/definition-w-local-w-strictly-local/definition-w-local-w-strictly-local--1.md",
@@ -5901,7 +5929,10 @@
    "boundary": [],
    "body":
    "An object $W$ of $X_{\\mathrm{pro}\\acute{e}t}$ is *weakly contractible* if every\nepimorphism of sheaves of sets $F\\to h_W$ admits a section, where $h_W$\nis the representable sheaf associated to $W$. By\nLemma [lemma-w-contractible-affines-projective], equivalently $h_W$ is\nprojective in $\\Sh(X_{\\mathrm{pro}\\acute{e}t})$, or every epimorphism $F\\to G$ induces a\nsurjection $F(W)\\to G(W)$.",
-   "attrs": {"title": "Weak contractibility", "order": 75}},
+   "attrs":
+   {"title": "Weak contractibility",
+    "order": 75,
+    "lean": ["CategoryTheory.GrothendieckTopology.IsWeaklyContractible"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Weakly-contractible-objects/definition-weak-contractibility/definition-weak-contractibility--1.md",
@@ -18483,7 +18514,22 @@
    "boundary": [],
    "body":
    "Weakly étale morphisms are stable under base change and composition,\nand the property is local on source and target for the Zariski topology.\nEvery $X$-morphism between two weakly étale $X$-schemes is weakly\nétale. Ind-étale ring maps are stable under base change and\ncomposition. On affine charts, a morphism\n$\\operatorname{Spec}(B)\\to\\operatorname{Spec}(R)$ is weakly étale if and\nonly if both\n\n$$\nR\\longrightarrow B,\n\\qquad B\\otimes_RB\\longrightarrow B\n$$\n\nare flat.",
-   "attrs": {"title": "Stability", "order": 32}},
+   "attrs":
+   {"title": "Stability",
+    "order": 32,
+    "lean":
+    ["AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme",
+     "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme",
+     "RingHom.WeaklyEtale.comp",
+     "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtSource",
+     "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtTarget",
+     "AlgebraicGeometry.WeaklyEtale.of_comp",
+     "AlgebraicGeometry.WeaklyEtale.of_comp_eq",
+     "RingHom.IndEtale.isStableUnderBaseChange",
+     "RingHom.IndEtale.comp",
+     "Algebra.weaklyEtale_iff",
+     "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty",
+     "AlgebraicGeometry.weaklyEtale_SpecMap_algebraMap_iff"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Weakly-etale-morphisms/lemma-stability/lemma-stability--1.md",
@@ -19015,7 +19061,10 @@
    "boundary": [],
    "body":
    "Every pro-étale torsor under a classical sheaf of groups is\nclassical, and hence has a trivializing étale covering.",
-   "attrs": {"title": "Torsors under classical groups", "order": 143}},
+   "attrs":
+   {"title": "Torsors under classical groups",
+    "order": 143,
+    "lean": ["AlgebraicGeometry.Scheme.proEtale_locallyClassical_etaleCover"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Constructible-sheaves/lemma-torsors-under-classical-groups/lemma-torsors-under-classical-groups--1.md",
@@ -40177,7 +40226,14 @@
    "boundary": [],
    "body":
    "Arbitrary set-indexed products are exact in\n$\\operatorname{Mod}(X_{\\mathrm{pro}\\acute{e}t},\\mathcal R)$. Products in\n$D(X_{\\mathrm{pro}\\acute{e}t},\\mathcal R)$ are computed by taking termwise products\nof representative complexes, and their cohomology sheaves are the\nproducts of the cohomology sheaves.",
-   "attrs": {"title": "Exact products", "order": 88}},
+   "attrs":
+   {"title": "Exact products",
+    "order": 88,
+    "lean":
+    ["AlgebraicGeometry.Scheme.ProEt.products_exact",
+     "AlgebraicGeometry.Scheme.ProEt.products_derived",
+     "DerivedCategory.isLimitFanMkQObj",
+     "HomologicalComplex.isLimitFanHomology"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Repleteness-and-limits/proposition-exact-products/proposition-exact-products--1.md",
@@ -41898,7 +41954,12 @@
    "body":
    "Every locally constant pro-étale $\\Lambda_X$-module sheaf of finite\npresentation is classical. In particular, it has a trivializing étale\ncovering, and $\\nu_X^*$ identifies the étale local systems of finite\npresentation with these pro-étale ones.",
    "attrs":
-   {"title": "Locally constant sheaves of finite presentation", "order": 146}},
+   {"title": "Locally constant sheaves of finite presentation",
+    "order": 146,
+    "lean":
+    ["AlgebraicGeometry.Scheme.etale_origin_of_finite_models",
+     "AlgebraicGeometry.Scheme.etale_cover_of_proetale_finite_models",
+     "AlgebraicGeometry.Scheme.proEtale_lisse_origin"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Constructible-sheaves/proposition-locally-constant-sheaves-finite-presentation/proposition-locally-constant-sheaves-finite-presentation--1.md",
@@ -41956,7 +42017,13 @@
    "boundary": [],
    "body":
    "For a countable tower of $\\mathcal R$-modules, $R^p\\varprojlim=0$\nfor $p>1$, and\n\n$$\nR^1\\varprojlim_n M_n\n=\\coker\\left(\\prod_n M_n\\xrightarrow{\\,1-T\\,}\\prod_n M_n\\right).\n$$\n\nFor a tower $(K_n)$ of complexes there is a short exact sequence of\nsheaves\n\n$$\n0\\longrightarrow R^1\\varprojlim_n H^{q-1}(K_n)\n\\longrightarrow H^q(R\\varprojlim_nK_n)\n\\longrightarrow \\varprojlim_n H^q(K_n)\n\\longrightarrow 0.\n\\tag{2.2}\n$$\n\nIf the transitions of a tower of modules are epimorphisms, its derived\nlimit is its ordinary limit in degree zero.",
-   "attrs": {"title": "The Milnor sequence", "order": 91}},
+   "attrs":
+   {"title": "The Milnor sequence",
+    "order": 91,
+    "lean":
+    ["AlgebraicGeometry.Scheme.ProEt.milnor_sequence",
+     "DerivedCategory.shortExact_milnor_of_isHomotopyLimit",
+     "AlgebraicGeometry.ProEtale.milnor_epimorphic"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Repleteness-and-limits/proposition-milnor-sequence/proposition-milnor-sequence--1.md",
@@ -44788,7 +44855,10 @@
    "boundary": [],
    "body":
    "If $R$ is w-contractible, every faithfully flat ind-étale ring map\n$R\\to B$ has an $R$-algebra retraction $B\\to R$.",
-   "attrs": {"title": "Splitting ind-étale covers", "order": 56}},
+   "attrs":
+   {"title": "Splitting ind-étale covers",
+    "order": 56,
+    "lean": ["IsWContractibleRing.exists_retraction"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-w-local-and-w-contractible-rings/proposition-splitting-ind-etale-covers/proposition-splitting-ind-etale-covers--1.md",
@@ -91565,7 +91635,10 @@
    "body":
    "Every object of $X_{\\mathrm{pro}\\acute{e}t}$ has a covering by affines\n$U=\\operatorname{Spec}(D)$ with $D$ w-contractible.",
    "attrs":
-   {"title": "Enough affine weakly contractible objects", "order": 71}},
+   {"title": "Enough affine weakly contractible objects",
+    "order": 71,
+    "lean":
+    ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-Affine-bases/theorem-enough-affine-weakly-contractible-objects/theorem-enough-affine-weakly-contractible-objects--1.md",
@@ -91861,7 +91934,10 @@
    "boundary": [],
    "body":
    "Every ring $R$ admits a faithfully flat ind-étale algebra $D$ that\nis w-contractible.",
-   "attrs": {"title": "Existence of contractible covers", "order": 59}},
+   "attrs":
+   {"title": "Existence of contractible covers",
+    "order": 59,
+    "lean": ["exists_isWContractibleRing"]}},
   {"source":
    {"file":
     "blueprint/chap-The-pro-etale-site/sec-w-local-and-w-contractible-rings/theorem-existence-contractible-covers/theorem-existence-contractible-covers--1.md",
@@ -811839,7 +811915,7 @@
    "theorem-existence-exceptional-inverse-image--1": "proved",
    "theorem-existence-exceptional-inverse-image": "proved",
    "theorem-existence-contractible-covers--1": "proved",
-   "theorem-existence-contractible-covers": "absent",
+   "theorem-existence-contractible-covers": "proved",
    "theorem-exceptional-inverse-image--text-1": "absent",
    "theorem-exceptional-inverse-image--9": "absent",
    "theorem-exceptional-inverse-image--8": "absent",
@@ -811861,7 +811937,7 @@
    "theorem-exceptional-inverse-image--1": "absent",
    "theorem-exceptional-inverse-image": "absent",
    "theorem-enough-affine-weakly-contractible-objects--1": "proved",
-   "theorem-enough-affine-weakly-contractible-objects": "absent",
+   "theorem-enough-affine-weakly-contractible-objects": "proved",
    "theorem-elimination-indeterminacy--1": "proved",
    "theorem-elimination-indeterminacy": "proved",
    "theorem-direct-image-mixed-sheaf--1": "proved",
@@ -812774,7 +812850,7 @@
    "proposition-topos-functoriality--1": "proved",
    "proposition-topos-functoriality": "proved",
    "proposition-splitting-ind-etale-covers--1": "proved",
-   "proposition-splitting-ind-etale-covers": "absent",
+   "proposition-splitting-ind-etale-covers": "proved",
    "proposition-specialization-trace-class--3": "proved",
    "proposition-specialization-trace-class--2": "proved",
    "proposition-specialization-trace-class--1": "absent",
@@ -812955,11 +813031,11 @@
    "proposition-milnor-sequence--3": "proved",
    "proposition-milnor-sequence--2": "proved",
    "proposition-milnor-sequence--1": "proved",
-   "proposition-milnor-sequence": "absent",
+   "proposition-milnor-sequence": "proved",
    "proposition-locally-constant-sheaves-finite-presentation--3": "proved",
    "proposition-locally-constant-sheaves-finite-presentation--2": "proved",
    "proposition-locally-constant-sheaves-finite-presentation--1": "proved",
-   "proposition-locally-constant-sheaves-finite-presentation": "absent",
+   "proposition-locally-constant-sheaves-finite-presentation": "proved",
    "proposition-local-structure-integral-constructible-complexes--1": "proved",
    "proposition-local-structure-integral-constructible-complexes": "proved",
    "proposition-lie-algebras-faithful-semisimple-representation--2": "proved",
@@ -813070,7 +813146,7 @@
    "proposition-exactness-fixed-pure-weight": "absent",
    "proposition-exact-products--2": "proved",
    "proposition-exact-products--1": "proved",
-   "proposition-exact-products": "absent",
+   "proposition-exact-products": "proved",
    "proposition-etale-implications--text-1": "absent",
    "proposition-etale-implications--2": "proved",
    "proposition-etale-implications--1": "proved",
@@ -813297,7 +813373,7 @@
    "lemma-triviality-fibres": "absent",
    "lemma-torsors-under-classical-groups--2": "proved",
    "lemma-torsors-under-classical-groups--1": "proved",
-   "lemma-torsors-under-classical-groups": "absent",
+   "lemma-torsors-under-classical-groups": "proved",
    "lemma-tensor-exterior-powers-filtered-representations--3": "proved",
    "lemma-tensor-exterior-powers-filtered-representations--2": "proved",
    "lemma-tensor-exterior-powers-filtered-representations--1": "proved",
@@ -813330,7 +813406,7 @@
    "lemma-stability--3": "proved",
    "lemma-stability--2": "proved",
    "lemma-stability--1": "proved",
-   "lemma-stability": "absent",
+   "lemma-stability": "proved",
    "lemma-sp-tower-adjunction-foundation--2": "proved",
    "lemma-sp-tower-adjunction-foundation--1": "proved",
    "lemma-sp-tower-adjunction-foundation": "absent",
@@ -814157,12 +814233,12 @@
    "definition-weights--1": "proved",
    "definition-weights": "absent",
    "definition-weak-contractibility--1": "proved",
-   "definition-weak-contractibility": "absent",
+   "definition-weak-contractibility": "proved",
    "definition-w-local-w-strictly-local--4": "proved",
    "definition-w-local-w-strictly-local--3": "proved",
    "definition-w-local-w-strictly-local--2": "proved",
    "definition-w-local-w-strictly-local--1": "proved",
-   "definition-w-local-w-strictly-local": "absent",
+   "definition-w-local-w-strictly-local": "proved",
    "definition-verdier-dual-evaluation--4": "proved",
    "definition-verdier-dual-evaluation--3": "absent",
    "definition-verdier-dual-evaluation--2": "proved",
@@ -814216,7 +814292,7 @@
    "definition-sp-scalar-extension--1": "proved",
    "definition-sp-scalar-extension": "proved",
    "definition-small-pro-etale-site--1": "proved",
-   "definition-small-pro-etale-site": "absent",
+   "definition-small-pro-etale-site": "proved",
    "definition-representing-objects--1": "proved",
    "definition-representing-objects": "absent",
    "definition-repleteness--1": "proved",
@@ -814271,7 +814347,7 @@
    "definition-ind-etale-pro-etale-weakly--3": "proved",
    "definition-ind-etale-pro-etale-weakly--2": "proved",
    "definition-ind-etale-pro-etale-weakly--1": "proved",
-   "definition-ind-etale-pro-etale-weakly": "absent",
+   "definition-ind-etale-pro-etale-weakly": "proved",
    "definition-ind-constructible-sheaves--2": "proved",
    "definition-ind-constructible-sheaves--1": "proved",
    "definition-ind-constructible-sheaves": "proved",
@@ -814463,7 +814539,7 @@
    "corollary-continuous-etale-cohomology": "absent",
    "corollary-continuity-cohomology--2": "proved",
    "corollary-continuity-cohomology--1": "proved",
-   "corollary-continuity-cohomology": "absent",
+   "corollary-continuity-cohomology": "proved",
    "corollary-cohomology-pro-etale-affine--1": "proved",
    "corollary-cohomology-pro-etale-affine": "proved",
    "corollary-cohomology-geometric-fibres--2": "proved",
@@ -817078,7 +817154,7 @@
     "theorem-existence-exceptional-inverse-image--1": {"total": 1, "proved": 1},
     "theorem-existence-exceptional-inverse-image": {"total": 1, "proved": 1},
     "theorem-existence-contractible-covers--1": {"total": 1, "proved": 1},
-    "theorem-existence-contractible-covers": {"total": 1, "proved": 0},
+    "theorem-existence-contractible-covers": {"total": 1, "proved": 1},
     "theorem-exceptional-inverse-image--9": {"total": 1, "proved": 0},
     "theorem-exceptional-inverse-image--8": {"total": 1, "proved": 0},
     "theorem-exceptional-inverse-image--7": {"total": 1, "proved": 0},
@@ -817101,7 +817177,7 @@
     "theorem-enough-affine-weakly-contractible-objects--1":
     {"total": 1, "proved": 1},
     "theorem-enough-affine-weakly-contractible-objects":
-    {"total": 1, "proved": 0},
+    {"total": 1, "proved": 1},
     "theorem-elimination-indeterminacy--1": {"total": 1, "proved": 1},
     "theorem-elimination-indeterminacy": {"total": 1, "proved": 1},
     "theorem-direct-image-mixed-sheaf--1": {"total": 1, "proved": 1},
@@ -817200,7 +817276,7 @@
     "proposition-topos-functoriality--1": {"total": 1, "proved": 1},
     "proposition-topos-functoriality": {"total": 1, "proved": 1},
     "proposition-splitting-ind-etale-covers--1": {"total": 1, "proved": 1},
-    "proposition-splitting-ind-etale-covers": {"total": 1, "proved": 0},
+    "proposition-splitting-ind-etale-covers": {"total": 1, "proved": 1},
     "proposition-specialization-trace-class--3": {"total": 1, "proved": 1},
     "proposition-specialization-trace-class--2": {"total": 1, "proved": 1},
     "proposition-specialization-trace-class--1": {"total": 1, "proved": 0},
@@ -817447,7 +817523,7 @@
     "proposition-milnor-sequence--3": {"total": 1, "proved": 1},
     "proposition-milnor-sequence--2": {"total": 1, "proved": 1},
     "proposition-milnor-sequence--1": {"total": 1, "proved": 1},
-    "proposition-milnor-sequence": {"total": 1, "proved": 0},
+    "proposition-milnor-sequence": {"total": 1, "proved": 1},
     "proposition-locally-constant-sheaves-finite-presentation--3":
     {"total": 1, "proved": 1},
     "proposition-locally-constant-sheaves-finite-presentation--2":
@@ -817455,7 +817531,7 @@
     "proposition-locally-constant-sheaves-finite-presentation--1":
     {"total": 1, "proved": 1},
     "proposition-locally-constant-sheaves-finite-presentation":
-    {"total": 1, "proved": 0},
+    {"total": 1, "proved": 1},
     "proposition-local-structure-integral-constructible-complexes--1":
     {"total": 1, "proved": 1},
     "proposition-local-structure-integral-constructible-complexes":
@@ -817607,7 +817683,7 @@
     "proposition-exactness-fixed-pure-weight": {"total": 1, "proved": 0},
     "proposition-exact-products--2": {"total": 1, "proved": 1},
     "proposition-exact-products--1": {"total": 1, "proved": 1},
-    "proposition-exact-products": {"total": 1, "proved": 0},
+    "proposition-exact-products": {"total": 1, "proved": 1},
     "proposition-etale-implications--2": {"total": 1, "proved": 1},
     "proposition-etale-implications--1": {"total": 1, "proved": 1},
     "proposition-etale-implications": {"total": 1, "proved": 1},
@@ -817893,7 +817969,7 @@
     "lemma-triviality-fibres": {"total": 1, "proved": 0},
     "lemma-torsors-under-classical-groups--2": {"total": 1, "proved": 1},
     "lemma-torsors-under-classical-groups--1": {"total": 1, "proved": 1},
-    "lemma-torsors-under-classical-groups": {"total": 1, "proved": 0},
+    "lemma-torsors-under-classical-groups": {"total": 1, "proved": 1},
     "lemma-tensor-exterior-powers-filtered-representations--3":
     {"total": 1, "proved": 1},
     "lemma-tensor-exterior-powers-filtered-representations--2":
@@ -817932,7 +818008,7 @@
     "lemma-stability--3": {"total": 1, "proved": 1},
     "lemma-stability--2": {"total": 1, "proved": 1},
     "lemma-stability--1": {"total": 1, "proved": 1},
-    "lemma-stability": {"total": 1, "proved": 0},
+    "lemma-stability": {"total": 1, "proved": 1},
     "lemma-sp-tower-adjunction-foundation--2": {"total": 1, "proved": 1},
     "lemma-sp-tower-adjunction-foundation--1": {"total": 1, "proved": 1},
     "lemma-sp-tower-adjunction-foundation": {"total": 1, "proved": 0},
@@ -818612,12 +818688,12 @@
     "definition-weights--1": {"total": 1, "proved": 1},
     "definition-weights": {"total": 1, "proved": 0},
     "definition-weak-contractibility--1": {"total": 1, "proved": 1},
-    "definition-weak-contractibility": {"total": 1, "proved": 0},
+    "definition-weak-contractibility": {"total": 1, "proved": 1},
     "definition-w-local-w-strictly-local--4": {"total": 1, "proved": 1},
     "definition-w-local-w-strictly-local--3": {"total": 1, "proved": 1},
     "definition-w-local-w-strictly-local--2": {"total": 1, "proved": 1},
     "definition-w-local-w-strictly-local--1": {"total": 1, "proved": 1},
-    "definition-w-local-w-strictly-local": {"total": 1, "proved": 0},
+    "definition-w-local-w-strictly-local": {"total": 1, "proved": 1},
     "definition-verdier-dual-evaluation--4": {"total": 1, "proved": 1},
     "definition-verdier-dual-evaluation--3": {"total": 1, "proved": 0},
     "definition-verdier-dual-evaluation--2": {"total": 1, "proved": 1},
@@ -818669,7 +818745,7 @@
     "definition-sp-scalar-extension--1": {"total": 1, "proved": 1},
     "definition-sp-scalar-extension": {"total": 1, "proved": 1},
     "definition-small-pro-etale-site--1": {"total": 1, "proved": 1},
-    "definition-small-pro-etale-site": {"total": 1, "proved": 0},
+    "definition-small-pro-etale-site": {"total": 1, "proved": 1},
     "definition-representing-objects--1": {"total": 1, "proved": 1},
     "definition-representing-objects": {"total": 1, "proved": 0},
     "definition-repleteness--1": {"total": 1, "proved": 1},
@@ -818724,7 +818800,7 @@
     "definition-ind-etale-pro-etale-weakly--3": {"total": 1, "proved": 1},
     "definition-ind-etale-pro-etale-weakly--2": {"total": 1, "proved": 1},
     "definition-ind-etale-pro-etale-weakly--1": {"total": 1, "proved": 1},
-    "definition-ind-etale-pro-etale-weakly": {"total": 1, "proved": 0},
+    "definition-ind-etale-pro-etale-weakly": {"total": 1, "proved": 1},
     "definition-ind-constructible-sheaves--2": {"total": 1, "proved": 1},
     "definition-ind-constructible-sheaves--1": {"total": 1, "proved": 1},
     "definition-ind-constructible-sheaves": {"total": 1, "proved": 1},
@@ -818939,7 +819015,7 @@
     "corollary-continuous-etale-cohomology": {"total": 1, "proved": 0},
     "corollary-continuity-cohomology--2": {"total": 1, "proved": 1},
     "corollary-continuity-cohomology--1": {"total": 1, "proved": 1},
-    "corollary-continuity-cohomology": {"total": 1, "proved": 0},
+    "corollary-continuity-cohomology": {"total": 1, "proved": 1},
     "corollary-cohomology-pro-etale-affine--1": {"total": 1, "proved": 1},
     "corollary-cohomology-pro-etale-affine": {"total": 1, "proved": 1},
     "corollary-cohomology-geometric-fibres--2": {"total": 1, "proved": 1},
