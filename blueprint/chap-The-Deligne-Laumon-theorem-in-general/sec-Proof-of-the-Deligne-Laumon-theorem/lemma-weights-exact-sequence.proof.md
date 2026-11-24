@@ -12,8 +12,8 @@ $$
 $$
 
 where $\operatorname{im}(a)$ is a quotient of $F'$ and
-$\operatorname{im}(b)$ a subobject of $F''$. Since mixed sheaves of
+$\operatorname{im}(b)$ a subobject of $F''$. Since [mixed](@definition-weights) sheaves of
 weights at most $u$ are closed under subquotients by
 Lemma [lemma-subobjects-quotients-weil-sheaves] and under extensions by
 Proposition [proposition-weights-under-usual-operations], $F$ is
-mixed of weights at most $u$.
+[mixed](@definition-weights) of weights at most $u$.

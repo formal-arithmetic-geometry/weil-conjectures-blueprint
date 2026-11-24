@@ -19,11 +19,11 @@ Quasi-finite maps were treated in
 Lemma [lemma-finite-quasi-finite-direct-images]. For the
 projection $\mathbf A^1_Y\to Y$
 (Proposition [proposition-relative-affine-line]), consider a sheaf
-on the relative line. Over a dense open of the base it is lisse off a
+on the relative line. Over a dense open of the base it is [lisse](@definition-lisse-sheaves) off a
 closed subscheme finite over the base. It is therefore glued from a
 relative affine curve and a quasi-finite piece. The bound is stable
 under composition by the Leray spectral sequence
 (Theorem [theorem-direct-image-mixed-sheaf]). It is stable under
-partitions of the source and of the target by the localization
-sequences below. These gluing steps use only that mixed sheaves of
+partitions of the source and of the target by the [localization
+sequences](@proposition-extension-zero-restriction-closed-subscheme) below. These gluing steps use only that [mixed](@definition-weights) sheaves of
 weights at most $u$ are closed under subquotients and extensions.
