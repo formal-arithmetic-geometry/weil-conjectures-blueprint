@@ -3,6 +3,7 @@ id = "lemma-stability"
 kind = "lemma"
 title = "Stability"
 order = 32
+lean = ["AlgebraicGeometry.WeaklyEtale.instIsStableUnderBaseChangeScheme", "AlgebraicGeometry.WeaklyEtale.instIsMultiplicativeScheme", "RingHom.WeaklyEtale.comp", "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtSource", "AlgebraicGeometry.WeaklyEtale.instIsZariskiLocalAtTarget", "AlgebraicGeometry.WeaklyEtale.of_comp", "AlgebraicGeometry.WeaklyEtale.of_comp_eq", "RingHom.IndEtale.isStableUnderBaseChange", "RingHom.IndEtale.comp", "Algebra.weaklyEtale_iff", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty", "AlgebraicGeometry.weaklyEtale_SpecMap_algebraMap_iff"]
 uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 Weakly étale morphisms are stable under base change and composition,
