@@ -19,8 +19,8 @@ prime is ind-Zariski as well, as the colimit of the $R_f$ with
 $f\notin\mathfrak p$. The property we use is that an ind-Zariski map does
 not change local rings: each local ring of $A$ is a local ring of $R$.
 
-We use extremally disconnected spaces through their projectivity. In
+We use [extremally disconnected](@definition-w-local-w-strictly-local) spaces through their projectivity. In
 Proposition [proposition-splitting-ind-etale-covers] we use it to split a surjection of component
 spaces, and in Theorem [theorem-existence-contractible-covers] we cover a profinite component
-space by an extremally disconnected one
+space by an [extremally disconnected](@definition-w-local-w-strictly-local) one
 (Lemma [lemma-extremally-disconnected-covers]).

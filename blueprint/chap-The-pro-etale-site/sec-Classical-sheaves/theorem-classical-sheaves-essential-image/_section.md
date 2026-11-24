@@ -6,8 +6,8 @@ order = 115
 lean = ["AlgebraicGeometry.proEtaleClassicalSheaves"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image"]
 +++
-The functor $\nu_X^*$ is fully faithful. Its essential image is exactly
-the classical sheaves of Definition [definition-classical-pro-etale-sheaves].
+The functor [$\nu_X^*$](@proposition-comparison-morphism-inverse-image) is fully faithful. Its essential image is exactly
+the [classical](@definition-classical-pro-etale-sheaves) sheaves of Definition [definition-classical-pro-etale-sheaves].
 For modules it is an exact equivalence between
-$\operatorname{Mod}(X_{\acute{e}t},\Lambda)$ and the full subcategory of classical
-$\Lambda_X$-module sheaves on $X_{\mathrm{pro}\acute{e}t}$.
+$\operatorname{Mod}(X_{\acute{e}t},\Lambda)$ and the full subcategory of [classical](@definition-classical-pro-etale-sheaves)
+$\Lambda_X$-module sheaves on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).

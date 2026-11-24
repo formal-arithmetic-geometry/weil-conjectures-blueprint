@@ -6,7 +6,7 @@ order = 50
 lean = ["CompactT2.projective_iff_extremallyDisconnected"]
 uses = ["definition-w-local-w-strictly-local"]
 +++
-A compact Hausdorff space $S$ is extremally disconnected if and only if
+A compact Hausdorff space $S$ is [extremally disconnected](@definition-w-local-w-strictly-local) if and only if
 it is projective with respect to continuous surjections of compact
 Hausdorff spaces: for every continuous surjection $T_1\to T_2$ of compact
 Hausdorff spaces, every continuous map $S\to T_2$ lifts to a continuous map

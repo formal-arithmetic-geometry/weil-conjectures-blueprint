@@ -5,7 +5,7 @@ title = "Finite quotients and their transition maps"
 order = 181
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local"]
 +++
-For every $n\geq1$ there is a canonical exact sequence on $X_{\mathrm{pro}\acute{e}t}$
+For every $n\geq1$ there is a canonical exact sequence on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 
 $$
 0\longrightarrow\mathcal O_{E,X}

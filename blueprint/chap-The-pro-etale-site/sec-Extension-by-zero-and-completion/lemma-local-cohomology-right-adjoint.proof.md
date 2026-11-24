@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-local-cohomology-right-adjoint"
 order = 206
 +++
-We first compute $R\underline\Gamma_Z$. Represent $K$ by a K-injective
+We first compute [$R\underline\Gamma_Z$](@definition-local-cohomology). Represent $K$ by a K-injective
 complex $J$ with injective terms, so that $Rj_*j^*K$ is represented by
 $j_*j^*J$. The unit $J\to j_*j^*J$ is surjective in each degree: for an
 injective $\mathcal R$-module $I$ and an object $V$, a section of
@@ -17,6 +17,6 @@ Let $F=\fib(K\to Rj_*j^*K)$. Since $j^*i_*M=0$, we have
 $\operatorname{Hom}(i_*M,Rj_*j^*K)=\operatorname{Hom}(j^*i_*M,j^*K)=0$
 in all degrees, so maps $i_*M\to K$ are the same as maps $i_*M\to F$.
 The restriction $j^*F$ vanishes, because $j^*$ of the unit is an
-isomorphism, so the localization sequence gives $F\simeq i_*i^*F$, and
+isomorphism, so the [localization sequence](@proposition-extension-zero-restriction-closed-subscheme) gives $F\simeq i_*i^*F$, and
 $\operatorname{Hom}(i_*M,i_*i^*F)=\operatorname{Hom}(M,i^*F)$ since
 $i_*$ is fully faithful.

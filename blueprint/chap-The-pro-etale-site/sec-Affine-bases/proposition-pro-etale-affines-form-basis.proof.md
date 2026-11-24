@@ -4,13 +4,13 @@ of = "proposition-pro-etale-affines-form-basis"
 order = 67
 uses = ["proposition-etale-implications", "lemma-stability", "theorem-pro-etale-refinements-weakly-etale"]
 +++
-The first assertion is the refinement theorem applied chart by chart, and
+The first assertion is the [refinement theorem](@theorem-pro-etale-refinements-weakly-etale) applied chart by chart, and
 the second is then formal.
 
-Given an object $U$ of $X_{\mathrm{pro}\acute{e}t}$, cover $X$ by affine opens and cover their inverse images in $U$ by
-affine opens. These Zariski coverings are pro-étale coverings, so it
-suffices to cover each chart. On such a chart the map is a weakly
-étale ring map $R\to B$.
+Given an object $U$ of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), cover $X$ by affine opens and cover their inverse images in $U$ by
+affine opens. These Zariski coverings are [pro-étale coverings](@definition-small-pro-etale-site), so it
+suffices to cover each chart. On such a chart the map is a [weakly
+étale](@definition-ind-etale-pro-etale-weakly) ring map $R\to B$.
 By Theorem [theorem-pro-etale-refinements-weakly-etale] there is a single faithfully flat
 cover $\operatorname{Spec}(B')\to\operatorname{Spec}(B)$ such that
 $\operatorname{Spec}(B')$ is a limit of

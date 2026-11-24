@@ -8,12 +8,12 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $X$ be quasi-compact and quasi-separated, $j:U\hookrightarrow X$
 a quasi-compact open immersion, and $i:Z\hookrightarrow X$ its
-closed complement. For a sheaf of rings $\mathcal R$ on $X_{\mathrm{pro}\acute{e}t}$, we use its
+closed complement. For a sheaf of rings $\mathcal R$ on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), we use its
 inverse images as the coefficient rings on $U$ and $Z$. Thus
-$i^*$ goes from $\mathcal R$-module sheaves on $X_{\mathrm{pro}\acute{e}t}$ to $i^*\mathcal R$-module
-sheaves on $Z_{\mathrm{pro}\acute{e}t}$, $i_*$ goes back, and $j^*$, $j_!$ relate
-$\mathcal R$-module sheaves on $X_{\mathrm{pro}\acute{e}t}$ and $j^*\mathcal R$-module sheaves on
-$U_{\mathrm{pro}\acute{e}t}$.
+$i^*$ goes from $\mathcal R$-module sheaves on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) to $i^*\mathcal R$-module
+sheaves on [$Z_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), $i_*$ goes back, and $j^*$, $j_!$ relate
+$\mathcal R$-module sheaves on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) and $j^*\mathcal R$-module sheaves on
+[$U_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
 Then $i^*$ is exact and preserves all small limits and colimits;
 $i_*$ is exact and fully faithful. The functors $j^*$ and $j_!$ are
 exact, and every $\mathcal R$-module sheaf $M$ has the exact sequence

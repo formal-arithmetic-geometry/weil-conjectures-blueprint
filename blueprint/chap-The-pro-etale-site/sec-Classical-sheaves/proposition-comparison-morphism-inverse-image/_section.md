@@ -24,7 +24,7 @@ $$
 $$
 
 where $h_{\acute{e}t}^*:\Sh(X_{\acute{e}t})\to\Sh(V_{\acute{e}t})$ is the étale inverse
-image along the weakly étale map $h$. Both functors carry
+image along the [weakly étale](@definition-ind-etale-pro-etale-weakly) map $h$. Both functors carry
 sheaves of $\Lambda$-modules to sheaves of $\Lambda$-modules, so they
 restrict to functors between $\operatorname{Mod}(X_{\acute{e}t},\Lambda)$ and
 $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$.

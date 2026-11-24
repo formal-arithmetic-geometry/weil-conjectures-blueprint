@@ -46,7 +46,7 @@ families of strictly henselian local rings parametrized by an extremally
 disconnected profinite set. Every cover of such a spectrum splits, so every
 surjection of sheaves is surjective on its sections there, and limits of
 sheaves can be computed there as limits of sets and modules. However, building these
-objects takes two theorems from outside algebraic geometry: Gleason's theorem
+objects takes two theorems from outside algebraic geometry: [Gleason's theorem](@proposition-gleason-s-theorem)
 on extremally disconnected spaces and Olivier's theorem on weakly étale
 maps. Once we have them, property (a) follows in a few lines
 (Proposition [proposition-continuous-cohomology-pro-etale-cohomology]).

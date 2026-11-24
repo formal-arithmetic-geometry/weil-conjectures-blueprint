@@ -4,7 +4,7 @@ kind = "example"
 title = "Weak contractibility over a point"
 order = 77
 +++
-Let $X$ be a geometric point, so that the affine objects of $X_{\mathrm{pro}\acute{e}t}$
+Let $X$ be a geometric point, so that the affine objects of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 are the profinite sets
 (Proposition [proposition-pro-etale-site-separably-closed] below). A
 continuous surjection $S\to T$ of profinite sets is a covering, so $h_S\to h_T$
@@ -18,7 +18,7 @@ $\{1,3,5,\ldots\}\cup\{\infty_1\}$, and map $S\to T$ by the identity on
 integers and $\infty_0,\infty_1\mapsto\infty$. A section must send each
 integer $n$ to its only preimage $n$, and then the even integers converge to
 $\infty_0$ while the odd ones converge to $\infty_1$, so no value at $\infty$
-makes the section continuous. Hence $T$ is not weakly contractible. In
-agreement with Gleason's theorem, $T$ is not extremally disconnected: the
+makes the section continuous. Hence $T$ is not [weakly contractible](@definition-weak-contractibility). In
+agreement with [Gleason's theorem](@proposition-gleason-s-theorem), $T$ is not [extremally disconnected](@definition-w-local-w-strictly-local): the
 set of odd integers is open, and its closure, which contains $\infty$, is
 not open, because every neighbourhood of $\infty$ contains even integers.

@@ -4,8 +4,8 @@ of = "proposition-left-completeness"
 order = 98
 uses = ["proposition-exact-products", "proposition-milnor-sequence"]
 +++
-We compute the cohomology sheaves of the derived limit with the Milnor
-sequence and find that they are those of $K$.
+We compute the cohomology sheaves of the derived limit with the [Milnor
+sequence](@proposition-milnor-sequence) and find that they are those of $K$.
 
 Represent $K$ by a complex and form its canonical truncation tower,
 with maps $K\to\tau_{\geq-n}K$ and

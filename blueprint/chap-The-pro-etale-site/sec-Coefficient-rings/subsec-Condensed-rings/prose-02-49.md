@@ -8,7 +8,7 @@ The constant sheaf with value the abstract ring $\mathbf Z_\ell$ forgets the top
 of $\mathbf Z_\ell$, and on $\operatorname{Spec}\mathbf F_q$ it has $H^1=0$
 (Section [sec-Weil-cohomology]). We therefore need a notion
 of coefficient ring on a geometric point that retains the topology. The
-pro-étale site of a separably closed field is the site of profinite sets
+[pro-étale site](@definition-small-pro-etale-site) of a separably closed field is the site of profinite sets
 (Proposition [proposition-pro-etale-site-separably-closed] below). So a
 coefficient ring must at least be a sheaf of rings on profinite sets, that
 is, a condensed ring. The continuous maps from profinite sets into $\mathbf Z_\ell$ form

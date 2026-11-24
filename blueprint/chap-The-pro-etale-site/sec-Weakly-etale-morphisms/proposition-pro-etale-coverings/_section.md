@@ -7,10 +7,10 @@ order = 36
 lean = ["AlgebraicGeometry.Scheme.ProEt.exists_finite_affine_of_mem_topology"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
-Let $U$ be an object of $X_{\mathrm{pro}\acute{e}t}$.
+Let $U$ be an object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
 
 1. If $U$ is affine, every covering of $U$ can be refined by a finite
    affine covering, whose disjoint union is affine and faithfully flat
    over $U$.
 2. Every étale covering and every Zariski covering of $U$ is a
-   pro-étale covering.
+   [pro-étale covering](@definition-small-pro-etale-site).

@@ -9,7 +9,7 @@ uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 Let $R\to B$ be a ring map.
 
-1. If $R\to B$ is étale, it is ind-étale; if it is ind-étale,
-   it is weakly étale.
-2. If $R\to B$ is weakly étale and of finite presentation, it is
+1. If $R\to B$ is étale, it is [ind-étale](@definition-ind-etale-pro-etale-weakly); if it is [ind-étale](@definition-ind-etale-pro-etale-weakly),
+   it is [weakly étale](@definition-ind-etale-pro-etale-weakly).
+2. If $R\to B$ is [weakly étale](@definition-ind-etale-pro-etale-weakly) and of finite presentation, it is
    étale.

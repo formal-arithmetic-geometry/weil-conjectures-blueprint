@@ -13,8 +13,8 @@ condition it is part of the fpqc covering axioms. Representable presheaves
 satisfy descent for these covers by fpqc descent for morphisms of
 schemes, so they are sheaves, and the topology is subcanonical.
 
-For $f:X\to Y$, the functor $V\mapsto V\times_YX$ sends weakly étale
-$Y$-schemes to weakly étale $X$-schemes by
+For $f:X\to Y$, the functor $V\mapsto V\times_YX$ sends [weakly étale](@definition-ind-etale-pro-etale-weakly)
+$Y$-schemes to [weakly étale](@definition-ind-etale-pro-etale-weakly) $X$-schemes by
 Lemma [lemma-stability]. It preserves fibre products and
 the final object, hence finite limits, and it carries covering families
 to covering families because fpqc coverings are stable under base change.

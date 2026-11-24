@@ -6,7 +6,7 @@ order = 66
 lean = ["AlgebraicGeometry.Scheme.AffineProEt", "AlgebraicGeometry.Scheme.AffineProEt.instFaithfulProEtToProEt", "AlgebraicGeometry.Scheme.AffineProEt.instFullProEtToProEt", "AlgebraicGeometry.Scheme.AffineProEt.toProEt"]
 uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
-Every object of $X_{\mathrm{pro}\acute{e}t}$ has a pro-étale covering by
-pro-étale affines over $X$. These form a full subsite whose category of
-sheaves, of sets or of abelian groups, is equivalent to $\Sh(X_{\mathrm{pro}\acute{e}t})$
+Every object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) has a [pro-étale covering](@definition-small-pro-etale-site) by
+[pro-étale affines](@definition-ind-etale-pro-etale-weakly) over $X$. These form a full subsite whose category of
+sheaves, of sets or of abelian groups, is equivalent to [$\Sh(X_{\mathrm{pro}\acute{e}t})$](@proposition-topos-functoriality)
 by restriction.

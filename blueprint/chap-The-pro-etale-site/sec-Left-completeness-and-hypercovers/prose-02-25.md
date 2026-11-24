@@ -4,11 +4,11 @@ kind = "hidden"
 title = "Left completeness and hypercovers (1)"
 order = 96
 +++
-An unbounded complex on $X_{\mathrm{pro}\acute{e}t}$ is determined by its
+An unbounded complex on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) is determined by its
 bounded-below truncations, and its cohomology is computed from theirs
 by a derived limit. On the étale site of a scheme of infinite
-cohomological dimension this can fail, whereas on $X_{\mathrm{pro}\acute{e}t}$ it holds because
-products are exact, so that the Milnor sequence applies.
+cohomological dimension this can fail, whereas on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) it holds because
+products are exact, so that the [Milnor sequence](@proposition-milnor-sequence) applies.
 
 Left completeness (Proposition [proposition-left-completeness]) lets
 us treat an unbounded complex as the derived limit of bounded below ones,
@@ -19,7 +19,7 @@ Proposition [proposition-unbounded-comparison-finite-coefficients].
 For bounded below complexes we also give an explicit model of cohomology.
 On a quasi-compact quasi-separated object $U$,
 Proposition [proposition-weakly-contractible-hypercovers] provides a
-hypercover all of whose terms $W_r$ are affine weakly contractible. Since these
+hypercover all of whose terms $W_r$ are affine [weakly contractible](@definition-weak-contractibility). Since these
 terms have no higher cohomology, the hypercover spectral sequence
 collapses, and $R\Gamma(U,K)$ is the total complex of the sections
 $K^b(W_r)$. This model has a consequence we use later. Namely, in each total degree

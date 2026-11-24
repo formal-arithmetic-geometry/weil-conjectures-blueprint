@@ -8,8 +8,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $X$ be quasi-compact and quasi-separated. For a discrete
 Noetherian $\Lambda$, every constructible
-pro-étale $\Lambda_X$-module sheaf is classical. The functor
-$\nu_X^*$ gives an equivalence from constructible étale sheaves of
+pro-étale $\Lambda_X$-module sheaf is [classical](@definition-classical-pro-etale-sheaves). The functor
+[$\nu_X^*$](@proposition-comparison-morphism-inverse-image) gives an equivalence from constructible étale sheaves of
 $\Lambda$-modules to $\Cons(X,\Lambda)$, and an equivalence
 $D^b_c(X_{\acute{e}t},\Lambda)\to\Dbc(X,\Lambda)$ of bounded constructible
 derived categories.

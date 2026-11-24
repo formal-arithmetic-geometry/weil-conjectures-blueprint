@@ -11,7 +11,7 @@ follow directly, and for colimits we need in addition that $W$ is
 quasi-compact.
 
 (1) Taking sections is left exact for any object of a site, since it
-preserves kernels. By weak contractibility every epimorphism of sheaves
+preserves kernels. By [weak contractibility](@definition-weak-contractibility) every epimorphism of sheaves
 is surjective on sections over $W$, so the sections functor is also right
 exact. An exact functor carries acyclic complexes to acyclic complexes,
 and so it agrees with its derived functor, also for unbounded complexes.
@@ -31,7 +31,7 @@ between direct sums, and evaluation preserves cokernels by (1). Hence it
 preserves all colimits.
 
 (3) Suppose that a sequence $F'\to F\to F''$ with composite zero becomes
-exact on all affine weakly contractible $W$. A local section of the
+exact on all affine [weakly contractible](@definition-weak-contractibility) $W$. A local section of the
 kernel of $F\to F''$ is, after restriction to a covering by such $W$,
 the image of a section of $F'$, because these objects cover every object.
 Hence it lies in the image sheaf, and the sequence is exact. Applied to

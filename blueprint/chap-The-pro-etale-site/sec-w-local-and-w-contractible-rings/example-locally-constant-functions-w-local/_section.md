@@ -10,10 +10,10 @@ the ring of locally constant functions $S\to k'$. Then
 $R=\varinjlim_ik'^{\,S_i}$, and $\operatorname{Spec}(k'^{\,S_i})$ is the
 finite discrete set $S_i$, so $\operatorname{Spec}(R)=\varprojlim_iS_i=S$:
 the point $s\in S$ is the maximal ideal of functions vanishing at $s$.
-Every point is closed and is its own component, so $R$ is w-local with
+Every point is closed and is its own component, so $R$ is [w-local](@definition-w-local-w-strictly-local) with
 $\pi_0(\operatorname{Spec}(R))=S$. The local ring at $s$ is the colimit
 of the local rings $k'$ of the $k'^{\,S_i}$ at the image of $s$, that is,
-$k'$, which is strictly henselian. Thus $R$ is w-strictly local: it is the
+$k'$, which is strictly henselian. Thus $R$ is [w-strictly local](@definition-w-local-w-strictly-local): it is the
 family of copies of $\operatorname{Spec}k'$ indexed by $S$. It is
-w-contractible exactly when $S$ is extremally disconnected. In this example
+[w-contractible](@definition-w-local-w-strictly-local) exactly when $S$ is [extremally disconnected](@definition-w-local-w-strictly-local). In this example
 the definitions are statements about $S$ alone.

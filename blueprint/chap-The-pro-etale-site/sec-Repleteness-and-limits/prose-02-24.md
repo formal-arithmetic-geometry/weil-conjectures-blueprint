@@ -5,7 +5,7 @@ title = "Repleteness and limits (4)"
 order = 94
 +++
 More generally, the $R^1\varprojlim$ term vanishes if, on every affine
-weakly contractible $W$, the tower of section modules satisfies the
+[weakly contractible](@definition-weak-contractibility) $W$, the tower of section modules satisfies the
 Mittag–Leffler condition. To see this, note that evaluation on $W$
 preserves cokernels
 (Corollary [corollary-evaluation-weakly-contractible-objects]). So the

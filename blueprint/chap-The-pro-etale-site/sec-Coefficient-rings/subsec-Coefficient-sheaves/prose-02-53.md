@@ -5,7 +5,7 @@ title = "Coefficient sheaves (3)"
 order = 183
 +++
 Using the two-term resolution we see that, for every
-complex $K$ of $\mathcal O_{E,X}$-modules, the derived reduction
+complex $K$ of [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-modules, the derived reduction
 $K\otimes^{\mathbf L}(\mathcal O_E/\pi_E^n)_X$ is the cone of
 $\pi_E^n:K\to K$ (Lemma [lemma-reduction-derived-nakayama]).
 

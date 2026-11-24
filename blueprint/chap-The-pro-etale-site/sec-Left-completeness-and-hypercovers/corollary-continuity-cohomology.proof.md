@@ -4,7 +4,7 @@ of = "corollary-continuity-cohomology"
 order = 107
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis"]
 +++
-We compute both sides with one hypercover by weakly contractible affines,
+We compute both sides with one hypercover by [weakly contractible](@definition-weak-contractibility) affines,
 chosen independently of $i$. Because of the common lower bound $a$, each
 total degree $q$ of (2.3) is a finite sum, of the
 terms $K_i^{q-r}(W_r)$ with $0\leq r\leq q-a$, and the range of $r$ is the
@@ -19,6 +19,6 @@ filtered colimits of modules are exact and so commute with cohomology.
 
 The second assertion reduces to the first. Recall that $R^qf_*K$ is the
 sheaf associated to the presheaf $V\mapsto H^q(X\times_YV,K)$, and that
-the affine objects $V$ of $Y_{\mathrm{pro}\acute{e}t}$ form a basis. For such $V$ the
+the affine objects $V$ of [$Y_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) form a basis. For such $V$ the
 object $X\times_YV$ is quasi-compact and quasi-separated, so the first
 assertion applies to it, and sheafification commutes with colimits.

@@ -9,7 +9,7 @@ copies of $\Omega$, filtered colimits of such algebras correspond,
 under $\operatorname{Spec}$, to inverse limits of finite sets. Under this correspondence, faithfully
 flat covering maps become surjections of profinite sets, and by
 quasi-compactness every cover can be refined by a finite one, so the
-sites are equivalent. The topoi then agree because the pro-étale affines
+sites are equivalent. The topoi then agree because the [pro-étale affines](@definition-ind-etale-pro-etale-weakly)
 form a basis and sheaves are determined by their values on them. Finally, the
 last assertion is the definition of the condensed ring
 $\underline R$ of a topological ring $R$ given above, whose sections over a

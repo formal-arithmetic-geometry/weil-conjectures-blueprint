@@ -23,7 +23,7 @@ isomorphism $f^{-1}\Lambda_Y\simeq\Lambda_X$, compatible with identities
 and composition. Likewise, a morphism $\Lambda\to\Lambda'$ of condensed
 rings pulls back to $\Lambda_X\to\Lambda'_X$, which defines extension of
 scalars $\Lambda'_X\otimes_{\Lambda_X}-$ from $\Lambda_X$-modules to
-$\Lambda'_X$-modules on $X_{\mathrm{pro}\acute{e}t}$. Thus both pullback along morphisms
+$\Lambda'_X$-modules on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). Thus both pullback along morphisms
 and change of coefficients are obtained from $p_X^*$.
 
 The next lemma identifies these rings with the completed coefficient

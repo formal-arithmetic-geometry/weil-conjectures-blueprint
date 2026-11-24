@@ -8,5 +8,5 @@ uses = ["definition-w-local-w-strictly-local"]
 +++
 Every compact Hausdorff space $T$, in particular every profinite space,
 admits a continuous surjection $S\to T$ with $S$ compact Hausdorff and
-extremally disconnected. Every extremally disconnected compact Hausdorff
+[extremally disconnected](@definition-w-local-w-strictly-local). Every [extremally disconnected](@definition-w-local-w-strictly-local) compact Hausdorff
 space is profinite.
