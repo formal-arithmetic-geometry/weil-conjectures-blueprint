@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.Etale.isBoundedConstructible_hasTorAmplitudeIn_rightD
 +++
 Let $A$ be a finite admissible ring, and let $p:X\to Y$ be a proper
 morphism of separated schemes of finite type over $k$. Then $Rp_*$ maps
-$D^b_{\mathrm{ctf}}(X,A)$ into $D^b_{\mathrm{ctf}}(Y,A)$. More precisely, if $C\in D^b_{\mathrm{ctf}}(X,A)$ has Tor
-amplitude in $[a,b]$ and $\operatorname{cd}_\ell(X_{\bar y})\leq d$ for all
-geometric points $\bar y$ of $Y$, then $Rp_*C$ has Tor amplitude in $[a,b+d]$.
+[$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves). More precisely, if $C\in D^b_{\mathrm{ctf}}(X,A)$ has [Tor
+amplitude](@definition-constructible-sheaves) in $[a,b]$ and $\operatorname{cd}_\ell(X_{\bar y})\leq d$ for all
+geometric points $\bar y$ of $Y$, then $Rp_*C$ has [Tor amplitude](@definition-constructible-sheaves) in $[a,b+d]$.

@@ -9,8 +9,8 @@ point. The right side becomes the cohomology of the fibre, and we
 check that the left side is the étale stalk.
 
 Take $Y'=\operatorname{Spec}(\Omega)$ in the theorem and apply the
-functor of global sections on $Y'_{\mathrm{pro}\acute{e}t}$. By
-Proposition [proposition-pro-etale-site-separably-closed] the topos of $Y'_{\mathrm{pro}\acute{e}t}$ is that
+functor of global sections on [$Y'_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site). By
+Proposition [proposition-pro-etale-site-separably-closed] the topos of [$Y'_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) is that
 of condensed sets, where global sections is evaluation at the point.
 This functor is exact, because every surjection of profinite sets onto
 a point has a section. On the right we therefore get the cohomology of

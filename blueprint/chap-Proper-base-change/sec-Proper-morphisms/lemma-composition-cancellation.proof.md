@@ -5,7 +5,7 @@ order = 390
 uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "definition-injective-acyclicity", "lemma-acyclic-resolutions", "lemma-finite-direct-images"]
 +++
 Theorem [theorem-pbc-injective-acyclicity] reduces both parts to the
-condition $\mathrm{IA}_\Lambda$ of injective acyclicity, and we read off
+condition [$\mathrm{IA}_\Lambda$](@definition-injective-acyclicity) of [injective acyclicity](@definition-injective-acyclicity), and we read off
 this vanishing from the Leray spectral sequence of the base-changed
 composite. For (ii) the hypotheses do not apply directly to an injective
 sheaf on $Y$, so we first realize it as a direct summand of $u_*J$ with
@@ -28,9 +28,9 @@ $$
 
 *Part (i).* Let $J$ be an injective sheaf of $\Lambda$-modules on
 $X$. We show $R^m(v'u')_*g_X^*J=0$ for $m>0$, which is
-$\mathrm{IA}_\Lambda(vu)$. For this it suffices that the $E_2$-terms of
+[$\mathrm{IA}_\Lambda(vu)$](@definition-injective-acyclicity). For this it suffices that the $E_2$-terms of
 (4.13) vanish except for $p=q=0$, and they do. Indeed,
-$R^qu'_*g_X^*J=0$ for $q>0$ by $\mathrm{IA}_\Lambda(u)$. For $q=0$, proper
+$R^qu'_*g_X^*J=0$ for $q>0$ by [$\mathrm{IA}_\Lambda(u)$](@definition-injective-acyclicity). For $q=0$, proper
 base change in degree zero
 (Proposition [proposition-proper-base-change-degree-zero]) gives
 
@@ -39,7 +39,7 @@ u'_*g_X^*J\simeq g_Y^*u_*J,
 $$
 
 and the sheaf $u_*J$ is injective, so $R^pv'_*g_Y^*u_*J=0$ for $p>0$ by
-$\mathrm{IA}_\Lambda(v)$. The abutment therefore vanishes in positive
+[$\mathrm{IA}_\Lambda(v)$](@definition-injective-acyclicity). The abutment therefore vanishes in positive
 degrees.
 
 *Part (ii), the splitting.* Let $I$ be an injective sheaf of
@@ -66,8 +66,8 @@ $s:u_*J\to I$ with $s\iota=\mathrm{id}_I$. In other words, $I$ is a direct
 summand of $u_*J$.
 
 *Part (ii), the vanishing.* We first show
-$R^pv'_*g_Y^*u_*J=0$ for $p>0$. The hypotheses $\mathrm{IA}_\Lambda(u)$
-and $\mathrm{IA}_\Lambda(vu)$ give
+$R^pv'_*g_Y^*u_*J=0$ for $p>0$. The hypotheses [$\mathrm{IA}_\Lambda(u)$](@definition-injective-acyclicity)
+and [$\mathrm{IA}_\Lambda(vu)$](@definition-injective-acyclicity) give
 
 $$
 R^qu'_*g_X^*J=0\quad(q>0),\qquad
@@ -77,7 +77,7 @@ $$
 so the spectral sequence (4.13)
 collapses to its row $q=0$. This means that
 $R^pv'_*u'_*g_X^*J\simeq R^p(v'u')_*g_X^*J=0$ for $p>0$. Since
-$u'_*g_X^*J\simeq g_Y^*u_*J$ by proper base change in degree zero, we
+$u'_*g_X^*J\simeq g_Y^*u_*J$ by [proper base change in degree zero](@proposition-proper-base-change-degree-zero), we
 obtain
 
 $$
@@ -88,4 +88,4 @@ $$
 Now $g_Y^*I$ is a direct summand of $g_Y^*u_*J$, by applying $g_Y^*$ to the
 splitting $s\iota=\mathrm{id}_I$, and as $R^pv'_*$ is additive,
 $R^pv'_*g_Y^*I$ is a direct summand of $R^pv'_*g_Y^*u_*J$. Hence
-$R^pv'_*g_Y^*I=0$ for $p>0$, which is $\mathrm{IA}_\Lambda(v)$.
+$R^pv'_*g_Y^*I=0$ for $p>0$, which is [$\mathrm{IA}_\Lambda(v)$](@definition-injective-acyclicity).

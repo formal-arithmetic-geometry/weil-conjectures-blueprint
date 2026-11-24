@@ -17,12 +17,12 @@ T @>{g}>> S,
 \end{CD}
 $$
 
-the base change map
+the [base change map](@definition-derived-base-change-map)
 
 $$
 g^*R\pi_*K\longrightarrow R\pi'_*g'^*K
 $$
 
 is an isomorphism for every
-$K\in D^+(\mathbf P^1_{S,\acute{e}t},\Lambda)$ with torsion cohomology sheaves.
-In particular, $\mathrm{IA}_\Lambda(\pi)$ holds.
+$K\in D^+(\mathbf P^1_{S,\acute{e}t},\Lambda)$ with [torsion](@definition-torsion-sheaves) cohomology sheaves.
+In particular, [$\mathrm{IA}_\Lambda(\pi)$](@definition-injective-acyclicity) holds.

@@ -11,7 +11,7 @@ equally to sheaves of $\Lambda$-modules.
 
 On sections the map has the following simple description. A section of $g^*f_*F$ over an
 étale $V\to Y'$ is represented by an étale $W\to Y$, a map $V\to
-Y'\times_YW$, and a section over $X\times_YW$. Given such data, the base change map restricts
+Y'\times_YW$, and a section over $X\times_YW$. Given such data, the [base change map](@definition-underived-base-change-map) restricts
 this section along
 
 $$

@@ -11,7 +11,7 @@ $\mathbf P^1$ over the strict localization at $\bar s$, by
 Proposition [proposition-cohomology-p-1-over-henselian] it is therefore
 the cohomology of $\mathbf P^1_{k_s}$, where $k_s$ is the separably
 closed residue field. Along a base change $g:T\to S$ the residue field
-grows from $k_s$ to $k_t$, so on stalks the base change map becomes the
+grows from $k_s$ to $k_t$, so on stalks the [base change map](@definition-derived-base-change-map) becomes the
 pullback from $\mathbf P^1_{k_s}$ to $\mathbf P^1_{k_t}$, which is an
 isomorphism by Lemma [lemma-extension-separably-closed-ground-field].
 This is the second place where properness enters: for $\mathbf A^1$ and

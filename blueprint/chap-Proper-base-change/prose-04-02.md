@@ -32,7 +32,7 @@ $$
 g^*Rf_*K\longrightarrow Rf'_*g'^*K
 $$
 
-is an isomorphism for every bounded below classical complex $K$ with
+is an isomorphism for every bounded below [classical](@definition-classical-pro-etale-sheaves) complex $K$ with
 torsion cohomology sheaves (Theorem [theorem-proper-base-change-classical-pro]).
 In particular, taking for $g$ a geometric point gives the stalk formula
 (Corollary [corollary-cohomology-geometric-fibres]). The theorem is due to
@@ -51,26 +51,26 @@ Theorem [theorem-comparison-over-henselian-pair-degree] extends the
 statement to sections of every étale sheaf of sets. Higher degrees
 then reduce to degree zero and the projective line, and from $\mathbf P^1$ the
 general case follows by formal steps, through $(\mathbf P^1)^n$,
-$\mathbf P^n$ and Chow's lemma
+$\mathbf P^n$ and [Chow's lemma](@theorem-chow-s-lemma-projective-form)
 (Proposition [proposition-proper-base-change-etale-site]).
 
 We make these calculations on the étale site, where the classical
 tools are available, and transport them to
-classical complexes on the pro-étale site by the comparison
+[classical](@definition-classical-pro-etale-sheaves) complexes on the [pro-étale site](@definition-small-pro-etale-site) by the comparison
 theorems of Chapter [chap-The-pro-etale-site]. For $\mathcal O_E$ we pass
 to the limit over the reductions modulo $\pi_E^n$
 (Proposition [proposition-proper-base-change-complete-integral]). Since pullback need not
-preserve derived completeness, at this stage the statement for
+preserve [derived completeness](@definition-derived-adic-completeness), at this stage the statement for
 $\mathcal O_E$ involves the completed inverse image. Once we know that
-$Rp_*$ preserves constructibility
+$Rp_*$ preserves [constructibility](@definition-constructible-sheaves)
 (Proposition [proposition-proper-direct-image-constructible-complexes]), however, the completion is
 unnecessary, and we obtain the ordinary base change isomorphism on
-$D^b_{\mathrm{ctf}}$ for every admissible coefficient ring.
+[$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) for every admissible coefficient ring.
 
-We use proper base change three times later. First, it computes the stalks of
-$Rf_!$ in the trace formula
+We use [proper base change](@theorem-proper-base-change-classical-pro) three times later. First, it computes the stalks of
+$Rf_!$ in the [trace formula](@theorem-grothendieck-lefschetz-trace-formula)
 (Corollary [corollary-trace-functions-direct-image-compact]). Second, it makes
 $Rf_!=Rp_*j_!$ independent of the compactification
 (Proposition [proposition-construction-independence-rf-shriek]). Finally,
-it bounds the Tor amplitude of $Rp_*$ with finite coefficients
+it bounds the [Tor amplitude](@definition-constructible-sheaves) of $Rp_*$ with finite coefficients
 (Proposition [proposition-proper-direct-image-finite-coefficients]).

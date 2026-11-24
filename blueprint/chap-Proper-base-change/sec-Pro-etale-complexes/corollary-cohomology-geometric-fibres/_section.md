@@ -14,7 +14,7 @@ $$
 R\Gamma\bigl(X_{\bar y,\mathrm{pro}\acute{e}t},K|_{X_{\bar y}}\bigr).
 $$
 
-For a classical torsion sheaf $F$ of $\Lambda$-modules this says
+For a [classical](@definition-classical-pro-etale-sheaves) [torsion](@definition-torsion-sheaves) sheaf $F$ of $\Lambda$-modules this says
 
 $$
 (R^qf_*F)_{\bar y}\simeq

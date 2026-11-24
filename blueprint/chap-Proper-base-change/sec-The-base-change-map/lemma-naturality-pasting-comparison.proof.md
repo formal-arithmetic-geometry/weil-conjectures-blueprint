@@ -4,12 +4,12 @@ of = "lemma-naturality-pasting-comparison"
 order = 325
 uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "theorem-comparison-direct-images", "lemma-acyclic-resolutions", "lemma-finiteness-small-etale-topoi"]
 +++
-Every assertion holds because the base change map is
+Every assertion holds because the [base change map](@definition-pro-etale-base-change-map) is
 assembled from units, counits and composition isomorphisms for inverse
 images, and each of the operations in the lemma respects these ingredients. Naturality in $K$ is immediate, since the counit
 $\varepsilon_f$ is a natural transformation.
 
-By definition, the base change map is the adjoint transpose of a counit preceded
+By definition, the [base change map](@definition-pro-etale-base-change-map) is the adjoint transpose of a counit preceded
 by the composition isomorphism for inverse images. Since the counit for a
 composite adjunction is the composite of the two counits, taking
 adjoint transposes proves pasting, in either order of composing the

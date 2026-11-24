@@ -7,7 +7,7 @@ order = 366
 +++
 Properness in $(C_7)$ is needed when the torsion order is divisible by
 the characteristic, and this case arises in Proposition [proposition-proper-base-change-projective-line],
-where the field is extended for arbitrary torsion sheaves. For example, in characteristic $p$,
+where the field is extended for arbitrary [torsion](@definition-torsion-sheaves) sheaves. For example, in characteristic $p$,
 
 $$
 H^1(\mathbf A^1_k,\mathbf F_p)

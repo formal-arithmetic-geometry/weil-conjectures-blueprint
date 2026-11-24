@@ -5,12 +5,12 @@ order = 418
 uses = ["proposition-etale-implications", "proposition-pro-etale-affines-form-basis", "lemma-reduction-derived-nakayama", "lemma-acyclic-resolutions", "proposition-sp-unique-adjoint"]
 +++
 Theorem [theorem-proper-base-change-classical-pro] applies at each
-finite level, so the point is that $Rp_*$ and the completed inverse
-images are compatible with the passage to the derived limit of the
+finite level, so the point is that $Rp_*$ and the [completed inverse
+images](@definition-completed-inverse-image) are compatible with the passage to the derived limit of the
 reductions.
 
 The reductions of $Rp_*K$ are controlled by the projection formula. The
-projection formula map (4.14) for
+[projection formula map](@definition-projection-formula-map) (4.14) for
 $M=(\mathcal O_E/\pi_E^n)_Y$ is a map
 
 $$
@@ -33,7 +33,7 @@ be made on complexes with functorial resolutions, the comparisons
 define a map in the derived category of towers of
 Definition [definition-derived-adic-completeness].
 
-Since $K$ is derived complete, it is the derived
+Since $K$ is [derived complete](@definition-derived-adic-completeness), it is the derived
 limit of its reductions $K_n$, and since the functor $Rp_*$ is a right adjoint, it
 commutes with derived limits, and we obtain
 
@@ -45,8 +45,8 @@ $$
 By the reduction comparisons, the right side is the derived limit of the
 reductions $(Rp_*K)\otimes^{\mathbf L}(\mathcal O_E/\pi_E^n)_Y$, that is,
 the derived completion of $Rp_*K$. Hence the completion map of $Rp_*K$ is an
-isomorphism, and $Rp_*K$ is derived complete. The definition of completed
-inverse image and the same right-adjoint property for $Rp'_*$ now give
+isomorphism, and $Rp_*K$ is [derived complete](@definition-derived-adic-completeness). The definition of [completed
+inverse image](@definition-completed-inverse-image) and the same right-adjoint property for $Rp'_*$ now give
 
 $$
 \begin{aligned}
@@ -57,7 +57,7 @@ Rp'_*\hat g'^*K
 \end{aligned}
 $$
 
-The base change maps $g^*Rp_*K_n\to Rp'_*g'^*K_n$ are natural in $K_n$, so
+The [base change maps](@definition-pro-etale-base-change-map) $g^*Rp_*K_n\to Rp'_*g'^*K_n$ are natural in $K_n$, so
 they form a map of towers, and each is an isomorphism by
 Theorem [theorem-proper-base-change-classical-pro]. Its cone therefore has zero cohomology
 at every level, and applying $R\varprojlim$ gives the asserted
