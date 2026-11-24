@@ -41,7 +41,7 @@ vanishing of $H^q(C,\mathbf G_m)$ for $q\geq2$, which is a consequence of
 Tsen's theorem, and the [Jacobian](@theorem-picard-scheme-jacobian-over-separably) of Appendix [chap-The-Picard-scheme-of-a-curve]. They give
 
 $$
-H^0(C,\mu_n)=\mu_n(k),\qquad H^1(C,\mu_n)=J(C)[n](k)\simeq(\mathbf Z/n)^{2g},
+H^0(C,\mu_n)=\mu_n(k),\qquad H^1(C,\mu_n)=\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)\simeq(\mathbf Z/n)^{2g},
 \qquad H^2(C,\mu_n)=\mathbf Z/n
 $$
 

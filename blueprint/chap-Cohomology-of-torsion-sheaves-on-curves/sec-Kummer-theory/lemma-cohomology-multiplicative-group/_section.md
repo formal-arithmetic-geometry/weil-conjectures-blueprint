@@ -10,9 +10,9 @@ For a smooth separated curve $C$ of finite type over an algebraically
 closed field, one has
 
 $$
-H^1(C,\nu_C^*\mathbf G_m)=\operatorname{Pic}(C),
+H^1(C,\href{@proposition-comparison-morphism-inverse-image}{\nu_C^*\mathbf G_m})=\operatorname{Pic}(C),
 \qquad
-H^q(C,\nu_C^*\mathbf G_m)=0\quad(q\geq2).
+H^q(C,\href{@proposition-comparison-morphism-inverse-image}{\nu_C^*\mathbf G_m})=0\quad(q\geq2).
 $$
 
 The identifications are natural under restriction and extension of

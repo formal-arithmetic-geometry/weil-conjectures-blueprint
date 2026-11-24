@@ -8,8 +8,8 @@ Pulling back the Kummer sequence of $C_{\acute{e}t}$ by [$\nu_C^*$](@proposition
 the exact sequence of sheaves on [$C_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 
 $$
-0\longrightarrow\mu_n\longrightarrow\nu_C^*\mathbf G_m
-\xrightarrow{(\cdot)^n}\nu_C^*\mathbf G_m
+0\longrightarrow\mu_n\longrightarrow\href{@proposition-comparison-morphism-inverse-image}{\nu_C^*\mathbf G_m}
+\xrightarrow{(\cdot)^n}\href{@proposition-comparison-morphism-inverse-image}{\nu_C^*\mathbf G_m}
 \longrightarrow0.
 $$
 
@@ -33,7 +33,7 @@ with all higher groups zero.
 Corollary [corollary-degree-jacobian] gives the exact sequence
 
 $$
-0\longrightarrow J(C)(k)\longrightarrow\operatorname{Pic}(C)
+0\longrightarrow \href{@theorem-picard-scheme-jacobian-over-separably}{J(C)(k)}\longrightarrow\operatorname{Pic}(C)
 \xrightarrow{\deg}\mathbf Z\longrightarrow0.
 $$
 
@@ -41,14 +41,14 @@ Multiplication by $n$ on [$J(C)(k)$](@theorem-picard-scheme-jacobian-over-separa
 [$J(C)[n](k)$](@theorem-picard-scheme-jacobian-over-separably), and [$J(C)[n]$](@theorem-picard-scheme-jacobian-over-separably) is finite étale of rank $n^{2g}$
 (Corollary [corollary-torsion-jacobian-field-extension]).  Applying the snake lemma to
 multiplication by $n$ on this sequence, and using that $\mathbf Z$ is
-torsion free, we obtain $\operatorname{Pic}(C)[n]=J(C)[n](k)$ and
+torsion free, we obtain $\operatorname{Pic}(C)[n]=\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)$ and
 $\operatorname{Pic}(C)/n=\mathbf Z/n$ via the degree. In particular,
 $H^1(C,\mu_n)$ is noncanonically isomorphic to $(\mathbf Z/n)^{2g}$
 [Stacks, [03RQ](https://stacks.math.columbia.edu/tag/03RQ)].
 
 Under an algebraically closed extension $k'/k$, the schemes [$J(C)$](@theorem-picard-scheme-jacobian-over-separably) and [$J(C)[n]$](@theorem-picard-scheme-jacobian-over-separably)
 base change to the corresponding objects for $C_{k'}$. The map
-$J(C)[n](k)\to J(C)[n](k')$ is bijective by
+$\href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k)\to \href{@theorem-picard-scheme-jacobian-over-separably}{J(C)}\href{@definition-abelian-variety}{[n]}(k')$ is bijective by
 Corollary [corollary-torsion-jacobian-field-extension]. The same argument
 applies to the finite étale scheme $\mu_n$. Finally, pullback of line
 bundles preserves the degree. Hence the pullback maps on cohomology are

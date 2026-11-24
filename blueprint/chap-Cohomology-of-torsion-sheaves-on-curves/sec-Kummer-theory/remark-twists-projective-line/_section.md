@@ -5,10 +5,10 @@ title = "Twists and the projective line"
 order = 1581
 +++
 The degree identifies $H^2(C,\mu_n)$ with $\mathbf Z/n$ without any choice.
-Since $\mu_n=(\mathbf Z/n)(1)$, twisting by $-1$ gives
+Since $\mu_n=\href{@definition-tate-twists}{(\mathbf Z/n)(1)}$, twisting by $-1$ gives
 
 $$
-H^2(C,\mathbf Z/n)=(\mathbf Z/n)(-1),
+H^2(C,\mathbf Z/n)=\href{@definition-tate-twists}{(\mathbf Z/n)(-1)},
 $$
 
 and identifying this group with $\mathbf Z/n$ requires the choice of a
