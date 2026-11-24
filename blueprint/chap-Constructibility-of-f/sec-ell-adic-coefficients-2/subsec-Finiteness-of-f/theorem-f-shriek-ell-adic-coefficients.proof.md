@@ -11,16 +11,16 @@ separately.
 Choose finite affine covers of $X$ and $Y$ and closed immersions
 $U\hookrightarrow\mathbf A^d_V$. Here $u:U\to X$ and $v:V\to Y$ are the
 inclusions of the affine opens, and $i:U\hookrightarrow\mathbf A^d_V$ and
-$p:\mathbf A^d_V\to V$ are the two factors. Then $u^*f^!\simeq i^!p^!v^*$
+$p:\mathbf A^d_V\to V$ are the two factors. Then $u^*\href{@theorem-existence-exceptional-inverse-image}{f^!}\simeq \href{@theorem-existence-exceptional-inverse-image}{i^!}\href{@theorem-existence-exceptional-inverse-image}{p^!}v^*$
 (Proposition [proposition-composition-open-restriction-compactifications-f]), and being in [$\Dbc$](@definition-constructible-sheaves) is local
 on $X$, so it suffices to show that [$p^!$](@theorem-existence-exceptional-inverse-image) and [$i^!$](@theorem-existence-exceptional-inverse-image) preserve [$\Dbc$](@definition-constructible-sheaves).
 
 For $E$ and $\overline{\mathbf Q}_\ell$ we argue as in Section [sec-Finite-coefficients-2]. For $p$ we use Proposition [proposition-projective-line-rational-coefficients], the adjunction $j_!\dashv j^*$ for $\mathbf A^1_V\subset\mathbf P^1_V$, and
 Proposition [proposition-composition-open-restriction-compactifications-f]
-applied $d$ times. They give $p^!\simeq p^*(d)[2d]$, which preserves
+applied $d$ times. They give $\href{@theorem-existence-exceptional-inverse-image}{p^!}\simeq p^*\href{@definition-tate-twists}{(d)}[2d]$, which preserves
 [$\Dbc$](@definition-constructible-sheaves). For $i$, let $j'$ be the inclusion of the open complement of $U$ in
 $\mathbf A^d_V$. Then the [localization triangle](@lemma-local-cohomology-right-adjoint) before Example [example-closed-support], with $j'$ in place of $j$, shows that
-$i^!K\in\Dbc(U,\Lambda)$ for $K\in\Dbc(\mathbf A^d_V,\Lambda)$. Indeed, its
+$\href{@theorem-existence-exceptional-inverse-image}{i^!K}\in\href{@definition-constructible-sheaves}{\Dbc(U,\Lambda)}$ for $K\in\href{@definition-constructible-sheaves}{\Dbc(\mathbf A^d_V,\Lambda)}$. Indeed, its
 third term $Rj'_*j'^*K$ is in [$\Dbc$](@definition-constructible-sheaves) by
 Proposition [proposition-direct-image-along-open-immersion], and
 $i^*i_*=\mathrm{id}$.

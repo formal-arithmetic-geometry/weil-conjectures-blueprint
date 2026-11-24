@@ -9,7 +9,7 @@ Brown representability gave us $f^!$
 functor
 
 $$
-f^!:\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))\longrightarrow\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))
+f^!:\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)})\longrightarrow\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})
 $$
 
 for $f:X\to Y$ separated of finite type and $\Lambda$ an admissible coefficient
@@ -18,10 +18,10 @@ ring. It tells us nothing about the values of [$f^!$](@theorem-existence-excepti
 possibly unbounded and with cohomology sheaves that are not [constructible](@definition-constructible-sheaves).
 
 The rest of the notes needs more than this. For example, [Verdier duality](@theorem-verdier-biduality) (Chapter [chap-Verdier-and-Poincare-duality]) says that
-$\mathbb D_X=\cHom(-,a_X^!\Lambda)$ is an involution of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves),
+$\mathbb D_X=\cHom(-,\href{@theorem-existence-exceptional-inverse-image}{a_X^!\Lambda})$ is an involution of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves),
 and this makes sense only if the dualizing complex [$a_X^!\Lambda$](@theorem-existence-exceptional-inverse-image) lies in
 [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves). Similarly, the local terms of the [trace formula](@theorem-grothendieck-lefschetz-trace-formula) are defined through the isomorphism
-$\cHom(c_2^*K,c_1^!K)\simeq c^!(K\boxtimes\mathbb D_XK)$ for a
+$\cHom(c_2^*K,\href{@theorem-existence-exceptional-inverse-image}{c_1^!K})\simeq \href{@theorem-existence-exceptional-inverse-image}{c^!}(K\boxtimes\mathbb D_XK)$ for a
 correspondence $c=(c_1,c_2)$
 (Lemma [lemma-external-duality-trace-morphism]), which also needs [$f^!$](@theorem-existence-exceptional-inverse-image)
 to preserve [constructible complexes](@definition-constructible-sheaves). In this chapter we prove what both need
@@ -38,13 +38,13 @@ $(\mathbf P^1_Y)^n$, and $(\mathbf P^1_Y)^n\to Y$ is a composite of $n$
 projections $\mathbf P^1_T\to T$, two cases remain.
 
 For the projection $p:\mathbf P^1_T\to T$ we can write the adjunction
-down, and we find $p^!=p^*(1)[2]$
-(Proposition [proposition-adjunction-projective-line]). Here the counit is the trace $Rp_*\Lambda(1)[2]\to\Lambda$, and the unit is the cycle class of the diagonal in $\mathbf P^1_T\times_T\mathbf P^1_T$. The triangle identities then hold because the diagonal meets each fibre of either projection
+down, and we find $\href{@theorem-existence-exceptional-inverse-image}{p^!}=p^*\href{@definition-tate-twists}{(1)}[2]$
+(Proposition [proposition-adjunction-projective-line]). Here the counit is the trace $Rp_*\href{@definition-tate-twists}{\Lambda(1)}[2]\to\Lambda$, and the unit is the cycle class of the diagonal in $\mathbf P^1_T\times_T\mathbf P^1_T$. The triangle identities then hold because the diagonal meets each fibre of either projection
 in a single point. For a closed immersion $i:Z\hookrightarrow X$ with open complement $j:U\hookrightarrow X$, on the other hand, the functor [$i^!$](@theorem-existence-exceptional-inverse-image) takes sections with support in
 $Z$, and it sits in the [localization triangle](@lemma-local-cohomology-right-adjoint)
 
 $$
-i_*i^!K\longrightarrow K\longrightarrow Rj_*j^*K\longrightarrow .
+i_*\href{@theorem-existence-exceptional-inverse-image}{i^!K}\longrightarrow K\longrightarrow Rj_*j^*K\longrightarrow .
 $$
 
 Let $K$ be [constructible](@definition-constructible-sheaves). Then $j^*K$ is [constructible](@definition-constructible-sheaves), and since $i^*i_*\simeq\mathrm{id}$ and
@@ -60,8 +60,8 @@ than the stalks of $K$ on $Z$: it sees the cohomology of $K$ on a punctured
 neighbourhood of $Z$. For the origin $i:0\hookrightarrow\mathbf A^1$ over
 an algebraically closed field, the stalk of $Rj_*\Lambda$ at $0$ is the
 cohomology of a punctured disc, which the Kummer covers of $\mathbf G_m$
-compute to be $\Lambda\oplus\Lambda(-1)[-1]$, and the triangle gives
-$i^!\Lambda\simeq\Lambda(-1)[-2]$, whereas $i^*\Lambda=\Lambda$
+compute to be $\Lambda\oplus\href{@definition-tate-twists}{\Lambda(-1)}[-1]$, and the triangle gives
+$\href{@theorem-existence-exceptional-inverse-image}{i^!\Lambda}\simeq\href{@definition-tate-twists}{\Lambda(-1)}[-2]$, whereas $i^*\Lambda=\Lambda$
 (Example [example-closed-support] below).
 
 Over a field the answer is Deligne's finiteness theorem in
@@ -97,7 +97,7 @@ For finite coefficients
 (Theorem [theorem-f-shriek-finite-coefficients]) we also bound the [Tor
 amplitude](@definition-constructible-sheaves) of $Rj_*K$: it grows by at most [$\operatorname{cd}_\ell(j)$](@definition-cohomological-dimension)
 (Proposition [proposition-open-direct-image-preserves-finite]). For
-integral and rational coefficients we have $D^b_{\mathrm{ctf}}=\Dbc$, and we reduce
+integral and rational coefficients we have $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}=\href{@definition-constructible-sheaves}{\Dbc}$, and we reduce
 modulo a uniformizer. This works because an integral complex is
 [constructible](@definition-constructible-sheaves) if it is [derived complete](@definition-derived-adic-completeness) with [constructible](@definition-constructible-sheaves) reduction
 (Proposition [proposition-integral-constructibility-criterion]). Only the

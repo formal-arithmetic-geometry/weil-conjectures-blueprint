@@ -7,7 +7,7 @@ order = 550
 **Exercise.** Using the localization sequence of
 Example [example-running-example], show that
 $H^1_c(\mathbf G_{m,\bar k},A)\simeq A$ and
-$H^2_c(\mathbf G_{m,\bar k},A)\simeq A(-1)$, and that these
+$H^2_c(\mathbf G_{m,\bar k},A)\simeq \href{@definition-tate-twists}{A(-1)}$, and that these
 are the only nonzero groups.
 
 The adjunction is built from the trace

@@ -9,15 +9,15 @@ comes from (6.9) and $j_!\dashv j^*$ for $\mathbf A^1\subset\mathbf P^1$, and
 part (2) from $u_!\dashv u^*$ for étale $u$.
 
 (1) Let $j:\mathbf A^1_S\hookrightarrow\mathbf P^1_S$ be the open
-immersion, so that $Rp_{1!}=Rp_*j_!$ for $d=1$.
-Since $j_!\dashv j^*$ and $Rp_*\dashv p^*(1)[2]$ by (6.9),
-composing right adjoints gives $p_1^!=j^*p^*(1)[2]$. This equals
-$p_1^*(1)[2]$ because $p\circ j=p_1$. For general $d$, write $p_d$ as a
+immersion, so that $\href{@proposition-construction-independence-rf-shriek}{Rp_{1!}}=Rp_*j_!$ for $d=1$.
+Since $j_!\dashv j^*$ and $Rp_*\dashv p^*\href{@definition-tate-twists}{(1)}[2]$ by (6.9),
+composing right adjoints gives $\href{@theorem-existence-exceptional-inverse-image}{p_1^!}=j^*p^*\href{@definition-tate-twists}{(1)}[2]$. This equals
+$p_1^*\href{@definition-tate-twists}{(1)}[2]$ because $p\circ j=p_1$. For general $d$, write $p_d$ as a
 composite of $d$ projections $r_1,\dots,r_d$ of affine lines. By the composition isomorphism for [$Rf_!$](@proposition-construction-independence-rf-shriek) (Proposition [proposition-composition-base-change-rf-shriek](1)) we have
-$Rp_{d!}\simeq Rr_{1!}\circ\dots\circ Rr_{d!}$.
+$\href{@proposition-construction-independence-rf-shriek}{Rp_{d!}}\simeq \href{@proposition-construction-independence-rf-shriek}{Rr_{1!}}\circ\dots\circ \href{@proposition-construction-independence-rf-shriek}{Rr_{d!}}$.
 Hence [$p_d^!$](@theorem-existence-exceptional-inverse-image) is the composite of the right adjoints of the [$Rr_{i!}$](@proposition-construction-independence-rf-shriek),
-which is $p_d^*(d)[2d]$ by the case $d=1$. Under this isomorphism, the
-counit of $Rp_{d!}\dashv p_d^*(d)[2d]$ is the composite of the $d$ counits
+which is $p_d^*\href{@definition-tate-twists}{(d)}[2d]$ by the case $d=1$. Under this isomorphism, the
+counit of $\href{@proposition-construction-independence-rf-shriek}{Rp_{d!}}\dashv p_d^*\href{@definition-tate-twists}{(d)}[2d]$ is the composite of the $d$ counits
 for the affine lines. Each of these is a trace (6.5)
 composed with the counit of $j_!\dashv j^*$. By the associativity in Proposition [proposition-composition-base-change-rf-shriek](1), the composite does not depend
 on how the $d$ factors are grouped. Each factor and the composition
@@ -32,15 +32,15 @@ As both functors are exact, they need not be derived, and the adjunction
 extends to derived categories. For every $M\in D(U_{\acute{e}t},A)$,
 
 $$
-\Hom(M,u^*f^!N)
-=\Hom(u_!M,f^!N)
-=\Hom(Rf_!u_!M,N)
-=\Hom(R(fu)_!M,N),
+\Hom(M,u^*\href{@theorem-existence-exceptional-inverse-image}{f^!N})
+=\Hom(u_!M,\href{@theorem-existence-exceptional-inverse-image}{f^!N})
+=\Hom(\href{@proposition-construction-independence-rf-shriek}{Rf_!}u_!M,N)
+=\Hom(\href{@proposition-construction-independence-rf-shriek}{R(fu)_!M},N),
 $$
 
 where the last step is the composition isomorphism of
-Proposition [proposition-composition-base-change-rf-shriek](1). The Yoneda lemma therefore gives (6.12). Taking $M=u^*f^!N$ and the
-identity on the left, we see that the counit of $R(fu)_!\dashv(fu)^!$ is the composite of the counits as stated. For the cocycle condition, the isomorphism for $uu'$ and the
+Proposition [proposition-composition-base-change-rf-shriek](1). The Yoneda lemma therefore gives (6.12). Taking $M=u^*\href{@theorem-existence-exceptional-inverse-image}{f^!N}$ and the
+identity on the left, we see that the counit of $\href{@proposition-construction-independence-rf-shriek}{R(fu)_!}\dashv\href{@theorem-existence-exceptional-inverse-image}{(fu)^!}$ is the composite of the counits as stated. For the cocycle condition, the isomorphism for $uu'$ and the
 composite of those for $u$ and $u'$ both correspond under the Yoneda lemma
 to the bijections obtained from the [composition isomorphism](@proposition-composition-base-change-rf-shriek) for
 $f\circ u\circ u'$. These bijections agree by associativity of the

@@ -14,7 +14,7 @@ site, and we work with the latter.
 
 Since $X$ is the disjoint union of finitely many open pieces of pure
 relative dimension, we may assume that $f$ has pure relative dimension
-$d$. Let $\omega_f=f^!\mathbf F_{\ell,S}$ as in
+$d$. Let $\omega_f=\href{@theorem-existence-exceptional-inverse-image}{f^!\mathbf F_{\ell,S}}$ as in
 Proposition [proposition-exceptional-inverse-image-smooth-morphism], and let
 
 $$
@@ -23,14 +23,14 @@ $$
 
 By Proposition [proposition-exceptional-inverse-image-smooth-morphism], $\omega_f$ is locally
 $\mathbf F_{\ell,X}(d)[2d]$. Hence $N$ is bounded [constructible](@definition-constructible-sheaves) and
-$\cHom_X(N,\omega_f)=L$.
+$\cHom_X(N,\href{@proposition-exceptional-inverse-image-smooth-morphism}{\omega_f})=L$.
 
 *Duality.* Consider the pairing
 
 $$
-Rf_!N\otimes^{\mathbf L}Rf_*L
-\longrightarrow Rf_!(N\otimes^{\mathbf L}L)
-\longrightarrow Rf_!\omega_f
+\href{@proposition-construction-independence-rf-shriek}{Rf_!N}\otimes^{\mathbf L}Rf_*L
+\longrightarrow \href{@proposition-construction-independence-rf-shriek}{Rf_!}(N\otimes^{\mathbf L}L)
+\longrightarrow \href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@proposition-exceptional-inverse-image-smooth-morphism}{\omega_f}
 \xrightarrow{\varepsilon_{\mathbf F_{\ell,S}}}\mathbf F_{\ell,S},
 \tag{6.15}
 $$
@@ -40,31 +40,31 @@ $f^*Rf_*L\to L$, and the second is evaluation. Its adjoint is a map
 
 $$
 \delta_L:Rf_*L
-\longrightarrow \cHom_S(Rf_!N,\mathbf F_{\ell,S}),
+\longrightarrow \cHom_S(\href{@proposition-construction-independence-rf-shriek}{Rf_!N},\mathbf F_{\ell,S}),
 \tag{6.16}
 $$
 
 and we claim that it is an isomorphism.
 Since the map is an adjoint transpose, we test it on Hom groups out of a
 family of generators, where adjunctions turn one side into the other.
-To this end we write $L=\cHom_X(N,f^!\mathbf F_{\ell,S})$, and test
+To this end we write $L=\cHom_X(N,\href{@theorem-existence-exceptional-inverse-image}{f^!\mathbf F_{\ell,S}})$, and test
 $\delta_L$ on the objects $P[n]$, where $P=u_!\Fell$
 and $u:V\to S$ is quasi-compact, separated and étale. The objects $u_!\Fell$ are [constructible](@definition-constructible-sheaves) of [finite Tor amplitude](@definition-constructible-sheaves), and their shifts detect
 isomorphisms in $D(S_{\acute{e}t},\Fell)$. Since
 $f^*P\otimes^{\mathbf L}N$ lies in [$D^b_{\mathrm{ctf}}(X,\Fell)$](@definition-constructible-sheaves), we may use tensor-Hom
-adjunction, the adjunction $Rf_!\dashv f^!$ of
+adjunction, the adjunction $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv f^!$ of
 Theorem [theorem-existence-exceptional-inverse-image] between
 [$\Loc(D^b_{\mathrm{ctf}}(X,\Fell))$](@definition-localizing-subcategory) and [$\Loc(D^b_{\mathrm{ctf}}(S,\Fell))$](@definition-localizing-subcategory), and the projection
 formula. With Hom groups in $D(S_{\acute{e}t},\Fell)$, we then obtain
 
 $$
-\Hom(P,Rf_*\cHom(N,f^!\mathbf F_{\ell,S}))
-=\Hom(Rf_!(f^*P\otimes^{\mathbf L}N),\mathbf F_{\ell,S})
-=\Hom(P\otimes^{\mathbf L}Rf_!N,\mathbf F_{\ell,S}).
+\Hom(P,Rf_*\cHom(N,\href{@theorem-existence-exceptional-inverse-image}{f^!\mathbf F_{\ell,S}}))
+=\Hom(\href{@proposition-construction-independence-rf-shriek}{Rf_!}(f^*P\otimes^{\mathbf L}N),\mathbf F_{\ell,S})
+=\Hom(P\otimes^{\mathbf L}\href{@proposition-construction-independence-rf-shriek}{Rf_!N},\mathbf F_{\ell,S}).
 $$
 
 By tensor-Hom adjunction, the last group is
-$\Hom(P,\cHom_S(Rf_!N,\mathbf F_{\ell,S}))$. Unwinding the
+$\Hom(P,\cHom_S(\href{@proposition-construction-independence-rf-shriek}{Rf_!N},\mathbf F_{\ell,S}))$. Unwinding the
 adjunctions, one sees that the composite bijection is the map induced by
 $\delta_L$, for every shift of $P$. Hence $\delta_L$
 is an isomorphism.
@@ -92,10 +92,10 @@ the dual of [$Rf_!N$](@proposition-construction-independence-rf-shriek), and [$R
 duality is compatible with base change; then $Rf_*L$ satisfies base change
 too. Let $v:T\to S_0$ be a
 $k$-scheme of finite type over $S_0$, and let $f_T:X_T\to T$ and
-$v_X:X_T\to X$ be the base changes. First, [base change for $Rf_!$](@proposition-composition-base-change-rf-shriek) and (6.1) identify $v_X^*N$, $v^*Rf_!N$ and $v_X^*\omega_f$ with the
+$v_X:X_T\to X$ be the base changes. First, [base change for $Rf_!$](@proposition-composition-base-change-rf-shriek) and (6.1) identify $v_X^*N$, $v^*\href{@proposition-construction-independence-rf-shriek}{Rf_!N}$ and $v_X^*\href{@proposition-exceptional-inverse-image-smooth-morphism}{\omega_f}$ with the
 corresponding objects for $f_T$. Next, the [base change map](@definition-derived-base-change-map) $v^*Rf_*L\to Rf_{T,*}v_X^*L$ is characterized by the fact that it
 carries the pullback of the counit $f^*Rf_*L\to L$ to the counit for
 $f_T$. Hence the pullback of (6.15) is the pairing for
-$f_T$, composed with this [base change map](@definition-derived-base-change-map). Finally, the complex $v^*Rf_!N$ is dualizable with dual $v^*\cHom(Rf_!N,\mathbf F_{\ell,S})$. Therefore the
+$f_T$, composed with this [base change map](@definition-derived-base-change-map). Finally, the complex $v^*\href{@proposition-construction-independence-rf-shriek}{Rf_!N}$ is dualizable with dual $v^*\cHom(\href{@proposition-construction-independence-rf-shriek}{Rf_!N},\mathbf F_{\ell,S})$. Therefore the
 [base change map](@definition-derived-base-change-map) for $Rf_*L$ is identified with the dual of the [base change
 isomorphism](@proposition-composition-base-change-rf-shriek) for [$Rf_!N$](@proposition-construction-independence-rf-shriek), and it is an isomorphism.

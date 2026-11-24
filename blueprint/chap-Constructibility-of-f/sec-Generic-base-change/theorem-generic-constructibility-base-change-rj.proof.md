@@ -126,7 +126,7 @@ the finitely many [constructible](@definition-constructible-sheaves) cohomology 
 with their truncation triangles. This gives
 
 $$
-R(ji)_*i^*D=Rj_*D\in\Dbc(Y,\Fell),
+R(ji)_*i^*D=Rj_*D\in\href{@definition-constructible-sheaves}{\Dbc(Y,\Fell)},
 $$
 
 with [base change maps](@definition-derived-base-change-map) that are isomorphisms. Now apply $Rj_*$ to

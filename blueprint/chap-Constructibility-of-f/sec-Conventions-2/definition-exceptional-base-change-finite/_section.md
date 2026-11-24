@@ -9,19 +9,19 @@ uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map
 Let $f:X\to S$ be separated and of finite type, let $g:S'\to S$ be a
 morphism, let $X'=X\times_SS'$, and let $f':X'\to S'$, $g':X'\to X$ be the
 projections. For $N\in D(S_{\acute{e}t},A)$, let
-$\varepsilon_N:Rf_!f^!N\to N$ be the counit of $Rf_!\dashv f^!$. The
+$\varepsilon_N:\href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@theorem-existence-exceptional-inverse-image}{f^!N}\to N$ be the counit of $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$. The
 *base change map*
 
 $$
-\beta_N:g'^*f^!N\longrightarrow f'^!g^*N
+\beta_N:g'^*\href{@theorem-existence-exceptional-inverse-image}{f^!N}\longrightarrow \href{@theorem-existence-exceptional-inverse-image}{f'^!}g^*N
 \tag{6.1}
 $$
 
 is the transpose, for $f'$, of the morphism
 
 $$
-Rf'_!g'^*f^!N
-\xrightarrow{\ \sim\ }g^*Rf_!f^!N
+\href{@proposition-construction-independence-rf-shriek}{Rf'_!}g'^*\href{@theorem-existence-exceptional-inverse-image}{f^!N}
+\xrightarrow{\ \sim\ }g^*\href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@theorem-existence-exceptional-inverse-image}{f^!N}
 \xrightarrow{g^*\varepsilon_N}g^*N,
 \tag{6.2}
 $$

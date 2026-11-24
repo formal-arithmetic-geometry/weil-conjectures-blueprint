@@ -9,7 +9,7 @@ commutative $\ell$-primary ring, which we denote by $A$. With such coefficients 
 finite type over $k$, the [comparison functor](@proposition-comparison-morphism-inverse-image)
 
 $$
-\nu_X^*:D(X_{\acute{e}t},A)\longrightarrow D(X_{\mathrm{pro}\acute{e}t},A)
+\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}:D(X_{\acute{e}t},A)\longrightarrow D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},A)
 $$
 
 is fully faithful

@@ -9,4 +9,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $\Lambda=\mathcal O_E$, $E$ or $\overline{\mathbf Q}_\ell$, and let $f:X\to Y$ be separated
 of finite type. Then [$f^!$](@theorem-existence-exceptional-inverse-image) maps [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves),
 and this restriction is right adjoint to
-$Rf_!:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$.
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}:\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}\to \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)}$.

@@ -15,8 +15,8 @@ by Theorem [theorem-results-from-etale-theory](3). To bound
 the [Tor amplitude](@definition-constructible-sheaves), we work on the étale site, where geometric points are
 conservative. By
 Corollary [corollary-finite-tor-amplitude-under-comparison], we have
-$K\simeq\nu_U^*K_{\acute{e}t}$ for some
-$K_{\acute{e}t}\in D^b_{\mathrm{ctf}}(U_{\acute{e}t},A)$. By
+$K\simeq\href{@proposition-comparison-morphism-inverse-image}{\nu_U^*K_{\acute{e}t}}$ for some
+$K_{\acute{e}t}\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(U_{\acute{e}t},A)}$. By
 Proposition [proposition-unbounded-comparison-finite-coefficients], the
 pro-étale pullback of $Rj_{\acute{e}t,*}K_{\acute{e}t}$ is $Rj_*K$.
 
@@ -32,7 +32,7 @@ Rj_*\bigl(K\otimes_A^{\mathbf L}\underline M_U\bigr)
 $$
 
 is an isomorphism. Recall that for a scheme $V$
-with $\operatorname{cd}_\ell(V)<\infty$, the projection formula of
+with $\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(V)}<\infty$, the projection formula of
 [Stacks, [0F12](https://stacks.math.columbia.edu/tag/0F12)] identifies
 $R\Gamma(V,K)\otimes^{\mathbf L}_AM$ with
 $R\Gamma(V,K\otimes^{\mathbf L}_A\underline M)$. Moreover, a map of complexes of sheaves is an isomorphism if it induces isomorphisms on derived

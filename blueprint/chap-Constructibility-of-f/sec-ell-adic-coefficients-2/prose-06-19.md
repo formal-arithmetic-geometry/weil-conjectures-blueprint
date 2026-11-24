@@ -4,7 +4,7 @@ kind = "hidden"
 title = "$\\ell$-adic coefficients"
 order = 596
 +++
-For $\Lambda=\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ we have $D^b_{\mathrm{ctf}}=\Dbc$, and we
+For $\Lambda=\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$ we have $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}=\href{@definition-constructible-sheaves}{\Dbc}$, and we
 show that [$f^!$](@theorem-existence-exceptional-inverse-image) preserves [$\Dbc$](@definition-constructible-sheaves). The argument of
 Section [sec-Finite-coefficients-2] uses two geometric facts, namely the finiteness of
 $Rj_*$ for an open immersion and the [adjunction for the projective line](@proposition-adjunction-projective-line), and we deduce both from the case of torsion coefficients. This is possible because an integral complex lies in [$\Dbc$](@definition-constructible-sheaves) if it is [derived complete](@definition-derived-adic-completeness) with [constructible](@definition-constructible-sheaves) reduction modulo

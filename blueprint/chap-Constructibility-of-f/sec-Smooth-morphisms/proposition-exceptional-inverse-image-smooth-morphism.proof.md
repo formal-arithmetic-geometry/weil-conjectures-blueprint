@@ -11,14 +11,14 @@ under the explicit identification (6.14). For this we follow
 the counits through the factorization $U\to\mathbf A^d_V\to V$.
 
 We write
-$\varepsilon_N:Rf_!f^!N\to N$ for the counit of
-$Rf_!\dashv f^!$ (for $f=p$ this is (6.8)). The map $\mu_N$ is the
+$\varepsilon_N:\href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@theorem-existence-exceptional-inverse-image}{f^!N}\to N$ for the counit of
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$ (for $f=p$ this is (6.8)). The map $\mu_N$ is the
 transpose of the morphism
 
 $$
-Rf_!(f^*N\otimes^{\mathbf L}\omega_f)
+\href{@proposition-construction-independence-rf-shriek}{Rf_!}(f^*N\otimes^{\mathbf L}\omega_f)
 \xrightarrow{\ \sim\ }
-N\otimes^{\mathbf L}Rf_!\omega_f
+N\otimes^{\mathbf L}\href{@proposition-construction-independence-rf-shriek}{Rf_!}\omega_f
 \xrightarrow{1\otimes\varepsilon_{A_S}}N ,
 $$
 
@@ -38,8 +38,8 @@ Lemma [lemma-affine-space-etale-localization] and uniqueness of right adjoints,
 we have
 
 $$
-u^*f^!N=e^*p_d^*v^*N(d)[2d],\qquad
-u^*\omega_f=A_U(d)[2d].
+u^*\href{@theorem-existence-exceptional-inverse-image}{f^!N}=e^*p_d^*v^*N\href{@definition-tate-twists}{(d)}[2d],\qquad
+u^*\omega_f=\href{@definition-tate-twists}{A_U(d)}[2d].
 \tag{6.14}
 $$
 
@@ -50,7 +50,7 @@ counit for $p_d$. The first of these is the sum over the fibres.
 
 *$\mu_N$ is an isomorphism.* On each such $U$, under
 (6.14), the source and the target of $\mu_N$
-are both $e^*p_d^*v^*N(d)[2d]$. We claim that the map is the
+are both $e^*p_d^*v^*N\href{@definition-tate-twists}{(d)}[2d]$. We claim that the map is the
 identification obtained by reassociating tensor product and twist. It
 suffices to compare the transposes. Both are the projection formula
 followed by the counit for $v$, the $d$ counits for the affine lines, and
@@ -63,7 +63,7 @@ under the explicit description of [$f^!$](@theorem-existence-exceptional-inverse
 twisted inverse image, [$\beta_N$](@definition-exceptional-base-change-finite) is the evident identification of
 inverse images. For the projective line, the transpose of
 (6.2) is the usual identification
-$g'^*p^*N(1)[2]=p'^*g^*N(1)[2]$ of pullbacks. This holds because the unit
+$g'^*p^*N\href{@definition-tate-twists}{(1)}[2]=p'^*g^*N\href{@definition-tate-twists}{(1)}[2]$ of pullbacks. This holds because the unit
 (6.7) and counit (6.8) commute with base change.
 By restriction to the affine line and composition, the same holds for
 affine space. For a separated étale map $u$, the transpose is again the
@@ -83,12 +83,12 @@ isomorphism on a cover of $X'$, and therefore it is an isomorphism.
 *Compatibilities.* Taking $N=A_S$, we see that
 [$\beta_N$](@definition-exceptional-base-change-finite) identifies $g'^*\omega_f$ with $\omega_{f'}$, because
 $g^*A_S=A_{S'}$. The compatibility of $\mu_N$ with
-[$\beta_N$](@definition-exceptional-base-change-finite) says that two maps $g'^*(f^*N\otimes^{\mathbf L}\omega_f)\to f'^!g^*N$ agree. Here the first is
+[$\beta_N$](@definition-exceptional-base-change-finite) says that two maps $g'^*(f^*N\otimes^{\mathbf L}\omega_f)\to \href{@theorem-existence-exceptional-inverse-image}{f'^!}g^*N$ agree. Here the first is
 $\mu_N$ followed by [$\beta_N$](@definition-exceptional-base-change-finite), and the second is the identification
 $g'^*(f^*N\otimes^{\mathbf L}\omega_f)=f'^*g^*N\otimes^{\mathbf L}\omega_{f'}$,
 coming from $g'^*f^*=f'^*g^*$ and the case $N=A_S$, followed by
 $\mu_N$ for $f'$. Their transposes are maps
-$Rf'_!g'^*(f^*N\otimes^{\mathbf L}\omega_f)\to g^*N$. Both are given by the
+$\href{@proposition-construction-independence-rf-shriek}{Rf'_!}g'^*(f^*N\otimes^{\mathbf L}\omega_f)\to g^*N$. Both are given by the
 projection formula followed by the counit, once before and once after
 the [base change isomorphism](@proposition-composition-base-change-rf-shriek) for [$Rf_!$](@proposition-construction-independence-rf-shriek). They agree for two reasons. First, the projection formula isomorphism is compatible with the [base change
 isomorphism](@proposition-composition-base-change-rf-shriek) for [$Rf_!$](@proposition-construction-independence-rf-shriek). Second, by the definition (6.2) of

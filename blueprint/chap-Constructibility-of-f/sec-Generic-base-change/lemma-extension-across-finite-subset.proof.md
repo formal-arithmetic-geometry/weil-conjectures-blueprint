@@ -19,7 +19,7 @@ shrinking $S$ to a nonempty open $S_0$, the complex $Rb_*Rj_*F=R(bj)_*F$
 lies in [$\Dbc(S_0,\Fell)$](@definition-constructible-sheaves), and its formation commutes with base change
 along every $T\to S_0$ of finite type over $k$. Part (1) of
 Lemma [lemma-detection-proper-direct-image] then gives
-$Rj_*F\in\Dbc(Y_{S_0},\Fell)$.
+$Rj_*F\in\href{@definition-constructible-sheaves}{\Dbc(Y_{S_0},\Fell)}$.
 
 For base change we use part (2) of the lemma instead. Let $T\to S_0$ be a
 $k$-scheme of finite type, and let $\varphi$ be the [base change map](@definition-derived-base-change-map)

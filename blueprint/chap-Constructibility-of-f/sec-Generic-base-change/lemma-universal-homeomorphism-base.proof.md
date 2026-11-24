@@ -12,7 +12,7 @@ homeomorphisms, and pullback along them is therefore an equivalence of étale
 topoi [Stacks, [03SI](https://stacks.math.columbia.edu/tag/03SI)]. Such equivalences preserve [constructibility](@definition-constructible-sheaves) in both
 directions and commute with $Rj_*$. Hence pullback along these morphisms
 detects boundedness and [constructibility](@definition-constructible-sheaves), and we get
-$Rj_{U,*}(F|_{X_U})\in\Dbc(Y_U,\Fell)$.
+$Rj_{U,*}(F|_{X_U})\in\href{@definition-constructible-sheaves}{\Dbc(Y_U,\Fell)}$.
 
 For base change, let $T\to U$ be a $k$-scheme of finite type, with
 projections $g_X:X_T\to X$ and $g_Y:Y_T\to Y$, and let

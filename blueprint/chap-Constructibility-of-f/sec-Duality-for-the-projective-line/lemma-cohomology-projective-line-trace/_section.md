@@ -13,7 +13,7 @@ $\Lambda_S\to Rp_*\Lambda_{\mathbf P^1_S}$ and the class
 $c_1(\mathcal O_{\mathbf P^1_S}(1))$ define an isomorphism
 
 $$
-\sigma_S:\Lambda_S\oplus\Lambda_S(-1)[-2]
+\sigma_S:\Lambda_S\oplus\href{@definition-tate-twists}{\Lambda_S(-1)}[-2]
 \ \xrightarrow{\ \sim\ }\ Rp_*\Lambda_{\mathbf P^1_S}
 \quad\text{in }D^+(S_{\acute{e}t},\Lambda),
 \tag{6.4}
@@ -23,7 +23,7 @@ compatible with base change in the sense that for $g:S'\to S$ with $S'$
 Noetherian, the [base change map](@definition-derived-base-change-map) $g^*Rp_*\Lambda\to Rp'_*\Lambda$ carries $g^*\sigma_S$ to $\sigma_{S'}$. Let
 
 $$
-\operatorname{Tr}_p:Rp_*\Lambda_{\mathbf P^1_S}(1)[2]\longrightarrow\Lambda_S
+\operatorname{Tr}_p:Rp_*\href{@definition-tate-twists}{\Lambda_{\mathbf P^1_S}(1)}[2]\longrightarrow\Lambda_S
 \tag{6.5}
 $$
 

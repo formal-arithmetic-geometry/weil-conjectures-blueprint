@@ -10,7 +10,7 @@ $\Fell$-sheaf $F$ on $X_{\acute{e}t}$, there is a nonempty open
 $S_0\subset S$ such that
 
 $$
-Rj_{S_0,*}(F|_{X_{S_0}})\in\Dbc(Y_{S_0},\Fell),
+Rj_{S_0,*}(F|_{X_{S_0}})\in\href{@definition-constructible-sheaves}{\Dbc(Y_{S_0},\Fell)},
 \tag{6.19}
 $$
 
