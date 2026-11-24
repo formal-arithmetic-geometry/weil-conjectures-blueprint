@@ -8,11 +8,11 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $p:X\to Y$ be proper and let $\Lambda$ be admissible.
 
-1. $Rp_*:D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(Y_{\mathrm{pro}\acute{e}t},\Lambda)$ maps
+1. $Rp_*:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},\Lambda)$ maps
    [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves).
 2. For a cartesian square with $g:Y'\to Y$, $g':X'\to X$ and
    $p':X'\to Y'$, the [base change map](@definition-pro-etale-base-change-map) (4.5)
    $g^*Rp_*\to Rp'_*g'^*$ is an isomorphism of functors
-   $D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y',\Lambda)$.
+   $\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}\to \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y',\Lambda)}$.
 3. The [projection formula map](@definition-projection-formula-map) (4.14)
-   is an isomorphism for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and $M\in D^b_{\mathrm{ctf}}(Y,\Lambda)$.
+   is an isomorphism for $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)}$ and $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)}$.

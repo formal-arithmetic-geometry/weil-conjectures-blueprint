@@ -12,5 +12,5 @@ isomorphism
 
 $$
 g^*Rp_*K\xrightarrow{\sim}Rp'_*g'^*K
-\qquad(K\in\Dbc(X,\mathcal O_E)).
+\qquad(K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}).
 $$

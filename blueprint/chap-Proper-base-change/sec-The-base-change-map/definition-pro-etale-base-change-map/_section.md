@@ -6,14 +6,14 @@ order = 322
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap", "AlgebraicGeometry.ProEtale.derivedBaseChangeMap"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves"]
 +++
-Let $K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$. The *base change map*
+Let $K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$. The *base change map*
 
 $$
 g^*Rf_*K\longrightarrow Rf'_*g'^*K
 \tag{4.5}
 $$
 
-in $D(Y'_{\mathrm{pro}\acute{e}t},\Lambda)$ is the adjoint transpose, for
+in $D(\href{@definition-small-pro-etale-site}{Y'_{\mathrm{pro}\acute{e}t}},\Lambda)$ is the adjoint transpose, for
 $f'^*\dashv Rf'_*$, of the composite
 
 $$

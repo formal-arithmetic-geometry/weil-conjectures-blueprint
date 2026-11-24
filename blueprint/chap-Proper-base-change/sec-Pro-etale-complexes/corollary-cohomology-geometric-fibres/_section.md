@@ -11,7 +11,7 @@ canonical isomorphism
 
 $$
 (Rf_*K)_{\bar y}\simeq
-R\Gamma\bigl(X_{\bar y,\mathrm{pro}\acute{e}t},K|_{X_{\bar y}}\bigr).
+R\Gamma\bigl(\href{@definition-small-pro-etale-site}{X_{\bar y,\mathrm{pro}\acute{e}t}},K|_{X_{\bar y}}\bigr).
 $$
 
 For a [classical](@definition-classical-pro-etale-sheaves) [torsion](@definition-torsion-sheaves) sheaf $F$ of $\Lambda$-modules this says

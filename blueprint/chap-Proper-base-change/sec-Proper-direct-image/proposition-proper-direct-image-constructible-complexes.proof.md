@@ -9,9 +9,9 @@ Proposition [proposition-proper-direct-image-finite-coefficients], and proper ba
 Theorem [theorem-proper-base-change-classical-pro] with $\Lambda=A$.
 The projection formula, finally, is the classical torsion
 formula [Stacks, [0F0G](https://stacks.math.columbia.edu/tag/0F0G)] in $D(Y_{\acute{e}t},A)$, transported to
-$D(Y_{\mathrm{pro}\acute{e}t},A)$ by pullback from the étale site.
+$D(\href{@definition-small-pro-etale-site}{Y_{\mathrm{pro}\acute{e}t}},A)$ by pullback from the étale site.
 
-*Integral coefficients.* Let $K\in\Dbc(X,\mathcal O_E)$. We first show that $Rp_*K\in\Dbc(Y,\mathcal O_E)$, by computing its reduction as in (4.15) below. By
+*Integral coefficients.* Let $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$. We first show that $Rp_*K\in\href{@definition-constructible-sheaves}{\Dbc(Y,\mathcal O_E)}$, by computing its reduction as in (4.15) below. By
 Proposition [proposition-integral-constructibility-criterion] and
 Lemma [lemma-bounds-finite-reductions], $K$ is [derived complete](@definition-derived-adic-completeness) with
 bounded [classical](@definition-classical-pro-etale-sheaves) finite reductions. Hence
@@ -20,8 +20,8 @@ shows that $Rp_*K$ is [derived complete](@definition-derived-adic-completeness) 
 of reductions
 
 $$
-\rho_K:(Rp_*K)\otimes^{\mathbf L}\mathcal O_{E,Y}/\pi_E
-\xrightarrow{\ \sim\ } Rp_*(K\otimes^{\mathbf L}\mathcal O_{E,X}/\pi_E).
+\rho_K:(Rp_*K)\otimes^{\mathbf L}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,Y}}/\pi_E
+\xrightarrow{\ \sim\ } Rp_*(K\otimes^{\mathbf L}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}/\pi_E).
 \tag{4.15}
 $$
 
@@ -33,7 +33,7 @@ constructible by the finiteness theorem for proper direct image
 with torsion coefficients [Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0)], and bounded because $p$ has
 finite [cohomological dimension](@definition-cohomological-dimension) [Stacks, [0F10](https://stacks.math.columbia.edu/tag/0F10)]. Now
 Proposition [proposition-integral-constructibility-criterion] gives
-$Rp_*K\in\Dbc(Y,\mathcal O_E)$.
+$Rp_*K\in\href{@definition-constructible-sheaves}{\Dbc(Y,\mathcal O_E)}$.
 
 Proper base change holds by
 Lemma [lemma-completed-ordinary-base-change], which applies
@@ -41,8 +41,8 @@ because $g^*Rp_*K$ and $g'^*K$ are [derived complete](@definition-derived-adic-c
 preserves integral [constructibility](@definition-constructible-sheaves) (Lemma [lemma-integral-models](3)).
 
 The projection formula is tested modulo $\pi_E$ in the same way. Let $C$ be
-the cone of the [projection formula map](@definition-projection-formula-map) for $K\in\Dbc(X,\mathcal O_E)$ and
-$M\in\Dbc(Y,\mathcal O_E)$. Its source $Rp_*K\otimes^{\mathbf L}M$ and
+the cone of the [projection formula map](@definition-projection-formula-map) for $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$ and
+$M\in\href{@definition-constructible-sheaves}{\Dbc(Y,\mathcal O_E)}$. Its source $Rp_*K\otimes^{\mathbf L}M$ and
 target $Rp_*(K\otimes^{\mathbf L}p^*M)$ are integrally [constructible](@definition-constructible-sheaves), by
 Lemma [lemma-integral-models](3) and the fact just proved that $Rp_*$
 maps [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) into [$\Dbc(Y,\mathcal O_E)$](@definition-constructible-sheaves). As objects of
@@ -60,7 +60,7 @@ $\rho_K$.
 
 *Rational coefficients.* Here $Rp_*$ commutes with the operations that
 produce the generators of Lemma [lemma-integral-models](4) from
-integral complexes. For $K\in\Dbc(X,\mathcal O_E)$, the complex
+integral complexes. For $K\in\href{@definition-constructible-sheaves}{\Dbc(X,\mathcal O_E)}$, the complex
 $K[1/\ell]$ is the colimit of $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$,
 and since this system has a common lower bound,
 Corollary [corollary-continuity-cohomology] shows that
@@ -73,7 +73,7 @@ Likewise $Rp_*$ commutes with extension of scalars to a finite
 $E'/E$, which is a finite direct sum by
 Lemma [lemma-inverse-image-coefficient-sheaves](2). By
 Corollary [corollary-continuity-cohomology] again, it also commutes with the filtered colimit
-$\QbarX\otimes_{E_X}-=\varinjlim_{E'}E'_X\otimes_{E_X}-$.
+$\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}-=\varinjlim_{E'}\href{@lemma-comparison-completed-coefficients}{E'_X}\otimes_{\href{@lemma-comparison-completed-coefficients}{E_X}}-$.
 By the integral case, it follows that $Rp_*$ maps the generators
 into [$\Dbc(Y,E)$](@definition-constructible-sheaves) and [$\Dbc(Y,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves). Since $Rp_*$ is exact and [$\Dbc(Y,E)$](@definition-constructible-sheaves)
 and [$\Dbc(Y,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) are triangulated
