@@ -12,7 +12,7 @@ Lemma [lemma-vanishing-generic-points-principal-divisor] may have infinite Tor d
 
 By Lemma [lemma-base-change-cone-x-z], we may replace $L$ by $j_!j^*L$
 and so assume that $i^*L=0$.  We may then
-replace $X$ by its blow-up $\pi:X'=\operatorname{Bl}_ZX\to X$ along $Z$.
+replace $X$ by its blow-up $\pi:X'=\href{@definition-admissible-blow-up}{\operatorname{Bl}_ZX}\to X$ along $Z$.
 The reason is that a complex that vanishes on the centre is recovered
 from its pullback to the blow-up, that is, the unit
 $L\to R\pi_*\pi^*L$ is an isomorphism. Indeed, away from $Z$ this holds because

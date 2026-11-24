@@ -6,8 +6,8 @@ order = 1659
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_residueField", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_kunnethMap_of_isIso_sliceFst_padicIntegers", "AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.exists_subgroup_pullbackExchange_baseChangeHom_traitSlice"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves"]
 +++
-In the situation just described, let $L\in D^b_{\mathrm{ctf}}(X_\eta,A)$
-and $M\in D^b_{\mathrm{ctf}}(Y_\eta,A)$. Identify the restrictions over
+In the situation just described, let $L\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X_\eta,A)}$
+and $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y_\eta,A)}$. Identify the restrictions over
 $s'$ of the nearby cycles of $L$, $M$ and $L\boxtimes M$ by
 
 $$

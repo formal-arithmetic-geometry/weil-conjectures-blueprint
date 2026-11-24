@@ -21,26 +21,26 @@ c_Z=(c_{Z,1},c_{Z,2}):C_Z\longrightarrow Z_{\mathrm{red}}\times Z_{\mathrm{red}}
 $$
 
 with $i:Z_{\mathrm{red}}\hookrightarrow X$ and
-$i':C_Z\hookrightarrow C$. For $K\in D^b_{\mathrm{ctf}}(X,A)$ put $K_Z=i^*K$. The
+$i':C_Z\hookrightarrow C$. For $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$ put $K_Z=i^*K$. The
 square formed by $i'$, $i$, $c_1$ and $c_{Z,1}$ is cartesian up to
 reduction. Hence invariance under nilpotent thickenings and [base
 change](@proposition-composition-base-change-rf-shriek) for [direct image with compact support](@proposition-construction-independence-rf-shriek) give
 $i^*Rc_{1!}\simeq Rc_{Z,1!}i'^*$. Since the second leg maps $C_Z$ into
 $Z_{\mathrm{red}}$, we also have $i'^*c_2^*K\simeq c_{Z,2}^*K_Z$. For a
-[cohomological correspondence](@definition-correspondence) $u:c_2^*K\to c_1^!K$ with adjoint
-$\widehat u:Rc_{1!}c_2^*K\to K$ under $Rc_{1!}\dashv c_1^!$, the
-*restriction* $u_Z:c_{Z,2}^*K_Z\to c_{Z,1}^!K_Z$ of $u$ to $Z$ is the
-adjoint under $Rc_{Z,1!}\dashv c_{Z,1}^!$ of
+[cohomological correspondence](@definition-correspondence) $u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$ with adjoint
+$\widehat u:\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}c_2^*K\to K$ under $\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{c_1^!}$, the
+*restriction* $u_Z:c_{Z,2}^*K_Z\to \href{@theorem-existence-exceptional-inverse-image}{c_{Z,1}^!K_Z}$ of $u$ to $Z$ is the
+adjoint under $\href{@proposition-construction-independence-rf-shriek}{Rc_{Z,1!}}\dashv \href{@theorem-existence-exceptional-inverse-image}{c_{Z,1}^!}$ of
 
 $$
-Rc_{Z,1!}c_{Z,2}^*K_Z
-\simeq i^*Rc_{1!}c_2^*K
+\href{@proposition-construction-independence-rf-shriek}{Rc_{Z,1!}}c_{Z,2}^*K_Z
+\simeq i^*\href{@proposition-construction-independence-rf-shriek}{Rc_{1!}}c_2^*K
 \xrightarrow{i^*\widehat u}K_Z.
 \tag{E.21}
 $$
 
 Equivalently, $u_Z$ is $i'^*u$ followed by the [base change map](@definition-exceptional-base-change-map)
-$i'^*c_1^!K\to c_{Z,1}^!K_Z$, which in general is not an
+$i'^*\href{@theorem-existence-exceptional-inverse-image}{c_1^!K}\to \href{@theorem-existence-exceptional-inverse-image}{c_{Z,1}^!K_Z}$, which in general is not an
 isomorphism. This is the restriction to $Z$ that occurs in
 Lemma [lemma-closed-piece-pushforward]. If $F_0$ is an open and
 closed subscheme of [$\Fix(c)$](@definition-correspondence), put $F_{0,Z}=\Fix(c_Z)\times_{\Fix(c)}F_0$,

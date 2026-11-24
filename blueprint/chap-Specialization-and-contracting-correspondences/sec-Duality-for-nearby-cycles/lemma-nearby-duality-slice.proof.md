@@ -17,7 +17,7 @@ slice, restricted to $P$-invariants.
 For the last arrow $\theta_X$, we claim
 that under (E.2) and
 (E.16), the map $g_s^*\theta_X$
-corresponds to $(\theta_{X'})^P\otimes A(1)[2]$. We check
+corresponds to $(\theta_{X'})^P\otimes \href{@definition-tate-twists}{A(1)[2]}$. We check
 this on a smooth ambient space, where $\theta$ is the identity by [smooth
 purity](@theorem-smooth-purity-all-admissible-coefficients), and descend along the closed immersion
 $i:X\hookrightarrow\mathbf A^r_{\mathbf A^1_S}$ of the statement, which we abbreviate
@@ -26,10 +26,10 @@ purity](@theorem-smooth-purity-all-admissible-coefficients) and the base change 
 pullback identify $\theta$ with the identity of the [dualizing complex](@definition-verdier-dual-evaluation) of
 a smooth scheme, and these identifications differ by [$A(1)[2]$](@definition-tate-twists). To descend to $X$, we use
 the identity (E.9) for $i$, which gives
-$\theta_X=i_s^!\theta_{\mathbf A^r}\circ\beta_i(\omega_{\mathbf A^r_\eta})$.
+$\theta_X=\href{@theorem-existence-exceptional-inverse-image}{i_s^!}\theta_{\mathbf A^r}\circ\beta_i(\href{@definition-verdier-dual-evaluation}{\omega_{\mathbf A^r_\eta}})$.
 By (E.6), $\theta_X$ is then the adjoint,
-for $Ri_{s*}\dashv i_s^!$, of $\nu_i$, followed by $\Psi$ of the
-exceptional counit $Ri_{\eta*}i_\eta^!\to1$ and by
+for $Ri_{s*}\dashv \href{@theorem-existence-exceptional-inverse-image}{i_s^!}$, of $\nu_i$, followed by $\Psi$ of the
+exceptional counit $Ri_{\eta*}\href{@theorem-existence-exceptional-inverse-image}{i_\eta^!}\to1$ and by
 $\theta_{\mathbf A^r}$. Now the base change map $\nu_i$ for the proper map
 $i$ and the factorization used for slicing commute with this counit,
 because their ordinary adjoints are the same composite of the counit

@@ -19,13 +19,13 @@ c_2^{-1}(I_y)\mathcal O_C\subset c_1^{-1}(I_y)\mathcal O_C,
 \quad\text{for some }n\geq1.
 $$
 
-Then for every $K\in D^b_{\mathrm{ctf}}(X,A)$ and every morphism
-$u:c_2^*K\to c_1^!K$, the [local term](@definition-trace-class-local-terms) at $F_0$ is the [categorical
+Then for every $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$ and every morphism
+$u:c_2^*K\to \href{@theorem-existence-exceptional-inverse-image}{c_1^!K}$, the [local term](@definition-trace-class-local-terms) at $F_0$ is the [categorical
 trace](@definition-categorical-trace) of the restriction $u_Z$ to $Z=\{y\}$ of $u$ restricted to
 that neighbourhood, defined in (E.21). In particular, for
 $c=(\operatorname{id}_X,h)$,
 
 $$
-\operatorname{LT}_y(u)
-=\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y}).
+\href{@definition-trace-class-local-terms}{\operatorname{LT}_y(u)}
+=\href{@definition-categorical-trace}{\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y})}.
 $$

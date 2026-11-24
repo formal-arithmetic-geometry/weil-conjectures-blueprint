@@ -7,27 +7,27 @@ uses = ["lemma-comparison-completed-coefficients", "lemma-perfect-complexes-geom
 Under [Verdier duality](@corollary-verdier-exchange-formulas) for the proper map $f_\eta$, evaluation on
 $Rf_{\eta*}M$ is the composite of the lax monoidal map of $Rf_{\eta*}$,
 the map $Rf_{\eta*}\operatorname{ev}_M$, and the
-trace $Rf_{\eta*}\omega_{X_\eta}\to\omega_{Y_\eta}$. Hence,
+trace $Rf_{\eta*}\href{@definition-verdier-dual-evaluation}{\omega_{X_\eta}}\to\href{@definition-verdier-dual-evaluation}{\omega_{Y_\eta}}$. Hence,
 after taking tensor–Hom adjoints, both sides of
 (E.13) are the pairing
 
 $$
 \begin{split}
-Rf_{s*}\Psi_XM\otimes Rf_{s*}\Psi_X\mathbb D M
+Rf_{s*}\Psi_XM\otimes Rf_{s*}\Psi_X\href{@definition-verdier-dual-evaluation}{\mathbb D M}
 &\xrightarrow{\chi_f^{-1}\otimes\chi_f^{-1}}
-\Psi_YRf_{\eta*}M\otimes \Psi_YRf_{\eta*}\mathbb DM\xrightarrow{\mu_Y}
-\Psi_Y(Rf_{\eta*}M\otimes Rf_{\eta*}\mathbb DM)\\
+\Psi_YRf_{\eta*}M\otimes \Psi_YRf_{\eta*}\href{@definition-verdier-dual-evaluation}{\mathbb DM}\xrightarrow{\mu_Y}
+\Psi_Y(Rf_{\eta*}M\otimes Rf_{\eta*}\href{@definition-verdier-dual-evaluation}{\mathbb DM})\\
 &\longrightarrow \Psi_YRf_{\eta*}(M\otimes \mathbb DM)
 \longrightarrow \Psi_YRf_{\eta*}\omega_{X_\eta}
 \longrightarrow \Psi_Y\omega_{Y_\eta}
-\xrightarrow{\theta_Y}\omega_{Y_s}.
+\xrightarrow{\theta_Y}\href{@definition-verdier-dual-evaluation}{\omega_{Y_s}}.
 \end{split}
 $$
 
 To identify the pairing obtained from $Rf_{s*}\delta_{X,M}$ with this
 one, we move the lax monoidal maps past the base change maps for proper
 morphisms, and we use the identity
-$\theta_X=f_s^!\theta_Y\circ\beta_f(\omega_{Y_\eta})$ of
+$\theta_X=\href{@theorem-existence-exceptional-inverse-image}{f_s^!}\theta_Y\circ\beta_f(\href{@definition-verdier-dual-evaluation}{\omega_{Y_\eta}})$ of
 (E.9).
 The lax monoidal maps are compatible with the base change maps because,
 after taking ordinary adjoints, both become the tensor
@@ -35,7 +35,7 @@ product of the two counits for the open immersions of the generic
 fibres. This proves (E.13).
 
 For an open immersion $j$, the map $\alpha_j$ is an isomorphism,
-$j^!=j^*$ and $\beta_j=\alpha_j^{-1}$. The argument above therefore
+$\href{@theorem-existence-exceptional-inverse-image}{j^!}=j^*$ and $\beta_j=\alpha_j^{-1}$. The argument above therefore
 applies with $\alpha_j$ in place of $\chi_f^{-1}$.
 
 For (E.14) we apply

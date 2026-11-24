@@ -11,7 +11,7 @@ specialization $\operatorname{sp}_F$ of the [trace class](@definition-trace-clas
 $\operatorname{sp}_F$ is a map of sections of [dualizing complexes](@definition-verdier-dual-evaluation) on the
 [fixed scheme](@definition-correspondence). A [trace class](@definition-trace-class-local-terms) is
 built from three pieces: the [cohomological correspondence](@definition-correspondence) $u$, the
-external product $K\boxtimes\mathbb DK$ in which $u$ becomes a section,
+external product $K\boxtimes\href{@definition-verdier-dual-evaluation}{\mathbb DK}$ in which $u$ becomes a section,
 and the evaluation map along the diagonal to the [dualizing complex](@definition-verdier-dual-evaluation).
 Nearby cycles commute with each piece. They commute with external products
 by Proposition [proposition-external-kunneth-formula-nearby-cycles], with [Verdier duality](@definition-verdier-dual-evaluation)

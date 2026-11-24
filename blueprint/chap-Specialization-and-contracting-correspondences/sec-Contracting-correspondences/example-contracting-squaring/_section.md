@@ -22,8 +22,8 @@ $x=1$. This second point leaves every bounded region of the $x'$-line as $t\to0$
 so it does not reach the special fibre.
 
 Corollary [corollary-contracting-local-terms-point] below therefore
-gives $\operatorname{LT}_0(u)=\operatorname{tr}_A(u_{\bar 0}\mid K_{\bar
-0})$ for every $K$ and $u$. For instance, the [local term](@definition-trace-class-local-terms) is zero if
+gives $\href{@definition-trace-class-local-terms}{\operatorname{LT}_0(u)}=\href{@definition-categorical-trace}{\operatorname{tr}_A(u_{\bar 0}\mid K_{\bar
+0})}$ for every $K$ and $u$. For instance, the [local term](@definition-trace-class-local-terms) is zero if
 $K=j_!A$ with $j:\mathbf G_m\hookrightarrow\mathbf A^1$, as
 $K_{\bar 0}=0$. The condition fails for the identity [correspondence](@definition-correspondence).
 There $I_2=I_1$, the inclusion $I_1^n\subset I_1^{n+1}$ is false for

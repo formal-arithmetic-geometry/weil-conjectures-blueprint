@@ -10,10 +10,10 @@ let $L\in D^b_{\mathrm{ctf}}(Y_{\acute et},A)$ carry a continuous action
 of $P$. There is a natural isomorphism
 
 $$
-(\mathbb DL)^P\xrightarrow{\sim}\mathbb D(L^P),
+(\href{@definition-verdier-dual-evaluation}{\mathbb DL})^P\xrightarrow{\sim}\href{@definition-verdier-dual-evaluation}{\mathbb D}(L^P),
 \tag{E.15}
 $$
 
 under which the evaluation pairing of $L^P$ is the restriction of the
 evaluation pairing of $L$ to the direct summands $L^P$ and
-$(\mathbb DL)^P$.
+$(\href{@definition-verdier-dual-evaluation}{\mathbb DL})^P$.

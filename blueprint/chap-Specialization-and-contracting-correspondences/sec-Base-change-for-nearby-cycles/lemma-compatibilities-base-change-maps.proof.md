@@ -8,9 +8,9 @@ compatibility of $\nu_f$ with the projection formula: for $L$ on $V_\eta$ and $N
 the composite
 
 $$
-Rf_{s!}(\Psi_VL\otimes^{\mathbf L} f_s^*\Psi_WN)\xrightarrow{\mu_V(1\otimes\alpha_f)}
-Rf_{s!}\Psi_V(L\otimes^{\mathbf L} f_\eta^*N)\xrightarrow{\nu_f}
-\Psi_WRf_{\eta!}(L\otimes^{\mathbf L} f_\eta^*N)\simeq \Psi_W(Rf_{\eta!}L\otimes^{\mathbf L} N)
+\href{@proposition-construction-independence-rf-shriek}{Rf_{s!}}(\Psi_VL\otimes^{\mathbf L} f_s^*\Psi_WN)\xrightarrow{\mu_V(1\otimes\alpha_f)}
+\href{@proposition-construction-independence-rf-shriek}{Rf_{s!}}\Psi_V(L\otimes^{\mathbf L} f_\eta^*N)\xrightarrow{\nu_f}
+\Psi_W\href{@proposition-construction-independence-rf-shriek}{Rf_{\eta!}}(L\otimes^{\mathbf L} f_\eta^*N)\simeq \Psi_W(\href{@proposition-construction-independence-rf-shriek}{Rf_{\eta!}L}\otimes^{\mathbf L} N)
 $$
 
 equals the projection formula on the special fibre followed by
@@ -27,10 +27,10 @@ of $\mu_W$:
 
 $$
 \begin{split}
-Rf_{s!}\Psi_Vf_\eta^!M\otimes^{\mathbf L} \Psi_WN
+\href{@proposition-construction-independence-rf-shriek}{Rf_{s!}}\Psi_V\href{@theorem-existence-exceptional-inverse-image}{f_\eta^!M}\otimes^{\mathbf L} \Psi_WN
 &\xrightarrow{\nu_f\otimes1}
-\Psi_W(Rf_{\eta!}f_\eta^!M)\otimes^{\mathbf L} \Psi_WN\\
-&\xrightarrow{\mu_W}\Psi_W(Rf_{\eta!}f_\eta^!M\otimes^{\mathbf L} N)
+\Psi_W(\href{@proposition-construction-independence-rf-shriek}{Rf_{\eta!}}\href{@theorem-existence-exceptional-inverse-image}{f_\eta^!M})\otimes^{\mathbf L} \Psi_WN\\
+&\xrightarrow{\mu_W}\Psi_W(\href{@proposition-construction-independence-rf-shriek}{Rf_{\eta!}}\href{@theorem-existence-exceptional-inverse-image}{f_\eta^!M}\otimes^{\mathbf L} N)
 \xrightarrow{\Psi_W(\varepsilon_{f_\eta}\otimes1)}\Psi_W(M\otimes^{\mathbf L} N).
 \end{split}
 $$

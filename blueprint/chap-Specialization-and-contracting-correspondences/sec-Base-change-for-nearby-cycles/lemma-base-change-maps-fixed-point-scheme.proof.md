@@ -5,10 +5,10 @@ order = 1673
 uses = ["theorem-nagata-s-compactification-theorem"]
 +++
 The inverse of the base
-change map, $Ri_*d^!\to c^!R\Delta_*$, is adjoint to the explicit map
+change map, $Ri_*\href{@theorem-existence-exceptional-inverse-image}{d^!}\to \href{@theorem-existence-exceptional-inverse-image}{c^!}R\Delta_*$, is adjoint to the explicit map
 
 $$
-Rc_!Ri_*d^!=R\Delta_*Rd_!d^!
+\href{@proposition-construction-independence-rf-shriek}{Rc_!}Ri_*\href{@theorem-existence-exceptional-inverse-image}{d^!}=R\Delta_*\href{@proposition-construction-independence-rf-shriek}{Rd_!}\href{@theorem-existence-exceptional-inverse-image}{d^!}
 \xrightarrow{R\Delta_*\varepsilon_d}R\Delta_*.
 $$
 
