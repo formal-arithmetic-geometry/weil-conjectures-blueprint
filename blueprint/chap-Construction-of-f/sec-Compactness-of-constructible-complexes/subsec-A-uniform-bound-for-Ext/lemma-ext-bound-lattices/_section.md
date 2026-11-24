@@ -6,9 +6,9 @@ order = 444
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion with open complement
 $j:X\setminus Z\hookrightarrow X$, let $u:S\hookrightarrow Z$ be an open
-immersion, put $a=i\circ u$, and let $L_0$ be a lisse
+immersion, put $a=i\circ u$, and let $L_0$ be a [lisse](@definition-lisse-sheaves)
 $\mathcal O_{E,S}$-module that is locally free of finite rank. Then for every
-locally closed immersion $b:T\hookrightarrow X$ and every lisse
+locally closed immersion $b:T\hookrightarrow X$ and every [lisse](@definition-lisse-sheaves)
 $\mathcal O_{E,T}$-module $M_0$ that is locally free of finite rank,
 
 $$

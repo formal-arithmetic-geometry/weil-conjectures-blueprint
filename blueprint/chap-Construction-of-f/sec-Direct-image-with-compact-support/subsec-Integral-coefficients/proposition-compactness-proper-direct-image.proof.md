@@ -10,7 +10,7 @@ go through once we supply for $\mathcal O_E$ the four inputs they use:
 the abelian structure of Lemma [lemma-structure-integral-constructible-complexes](1),
 continuity of $\Ext^i(C,-)$ for
 bounded below systems, a bound $d_C$ with $\Ext^i(C,N)=0$ for $i>d_C$ and
-$N$ constructible, and a bound on the amplitude of $Rp_*$.
+$N$ [constructible](@definition-constructible-sheaves), and a bound on the amplitude of $Rp_*$.
 
 For continuity, take $C=a_!L$ on a stratum. By
 Lemma [lemma-sections-support-closed-subscheme](2), $R\!\operatorname{Hom}(a_!L,-)$ is
@@ -21,10 +21,10 @@ Lemma [lemma-structure-integral-constructible-complexes](3), and so continuity f
 Corollary [corollary-continuity-cohomology].
 
 The bound $d_C$ comes from counting degrees as in
-Lemma [lemma-uniform-ext-bound]. Namely, the reductions of $N$ lie in $[-1,0]$, and the dual of $L$ adds one degree. Next, the functors $R\Gamma$ and $R\underline\Gamma_Z$ add the cohomological dimensions of
+Lemma [lemma-uniform-ext-bound]. Namely, the reductions of $N$ lie in $[-1,0]$, and the dual of $L$ adds one degree. Next, the functors $R\Gamma$ and [$R\underline\Gamma_Z$](@definition-local-cohomology) add the cohomological dimensions of
 Definition [definition-cohomological-dimension]. Finally, the derived limit over the reductions adds one more [Stacks, [08TB](https://stacks.math.columbia.edu/tag/08TB)].
 
 The same count bounds $Rp_*$. For fibres of
 dimension $\le d$, the torsion bound [Stacks, [095U](https://stacks.math.columbia.edu/tag/095U)] gives $2d$, and the
-derived limit adds one. Hence $Rp_*$ of a constructible sheaf lies in
+derived limit adds one. Hence $Rp_*$ of a [constructible sheaf](@definition-constructible-sheaves) lies in
 $[0,2d+1]$.

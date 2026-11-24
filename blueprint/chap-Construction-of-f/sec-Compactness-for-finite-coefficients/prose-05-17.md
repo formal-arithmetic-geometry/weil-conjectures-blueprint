@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Compactness for finite coefficients (2)"
 order = 473
 +++
-For finite coefficients the localizing category is a familiar one: the
+For finite coefficients the [localizing category](@definition-localizing-subcategory) is a familiar one: the
 next proposition shows that it is the classical unbounded derived
 category of the étale site. In particular, $f^!$ with finite
 coefficients is defined on all of $D(X_{\acute{e}t},A)$. The proposition also

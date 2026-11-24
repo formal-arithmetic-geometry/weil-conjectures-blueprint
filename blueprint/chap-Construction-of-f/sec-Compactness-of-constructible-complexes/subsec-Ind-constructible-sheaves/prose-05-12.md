@@ -4,8 +4,8 @@ kind = "hidden"
 title = "Ind-constructible sheaves (3)"
 order = 458
 +++
-Objects of $\Loc(\Dbc(X,\Lambda))$ can be unbounded, and we do not know
-a priori that their truncations stay in $\Loc(\Dbc(X,\Lambda))$. For this
+Objects of [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory) can be unbounded, and we do not know
+a priori that their truncations stay in [$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory). For this
 reason, here and in
 Section [sec-Direct-image-with-compact-support], we carry out truncation arguments among
-complexes with ind-constructible cohomology sheaves.
+complexes with [ind-constructible](@definition-ind-constructible-sheaves) cohomology sheaves.

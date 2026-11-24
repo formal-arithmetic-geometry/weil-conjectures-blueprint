@@ -8,4 +8,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 For admissible $\Lambda$, let $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ be
 the smallest full triangulated subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$
-containing $D^b_{\mathrm{ctf}}(X,\Lambda)$ and closed under arbitrary direct sums.
+containing [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) and closed under arbitrary direct sums.

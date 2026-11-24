@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekToLowerStarComp", "Algeb
 uses = ["definition-underived-base-change-map", "theorem-proper-base-change-classical-pro", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
 There is a natural map $\eta_f:Rf_!\to Rf_*$ on
-$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. For a compactification $f=pj$ it is
+[$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory). For a compactification $f=pj$ it is
 
 $$
 Rp_*j_!\longrightarrow Rp_*Rj_*=Rf_*,

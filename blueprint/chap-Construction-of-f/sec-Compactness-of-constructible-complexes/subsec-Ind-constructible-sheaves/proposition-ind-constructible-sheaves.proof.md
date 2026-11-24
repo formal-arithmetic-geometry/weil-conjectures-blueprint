@@ -4,23 +4,23 @@ of = "proposition-ind-constructible-sheaves"
 order = 454
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves", "proposition-sp-unique-adjoint"]
 +++
-The proof uses one property of constructible sheaves: maps out of them
+The proof uses one property of [constructible sheaves](@definition-constructible-sheaves): maps out of them
 commute with filtered colimits. Because of this, the formal colimits of
 the ind-category behave like actual colimits. Each closure property in (2)
-then reduces to the same property of $\Cons(X,\Lambda)$, once the objects
-and maps involved are written as filtered colimits of constructible
-sheaves and maps between them.
+then reduces to the same property of [$\Cons(X,\Lambda)$](@definition-constructible-sheaves), once the objects
+and maps involved are written as filtered colimits of [constructible
+sheaves](@definition-constructible-sheaves) and maps between them.
 
 *Finite presentation.* Constructible sheaves are finitely
 presented in $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$. Indeed,
 Lemma [lemma-continuity-ext-out-constructible-complex] in degree zero
-shows that $\Hom(C,-)$ commutes with filtered colimits for $C$ constructible.
+shows that $\Hom(C,-)$ commutes with filtered colimits for $C$ [constructible](@definition-constructible-sheaves).
 By Lemma [lemma-constructible-sheaves](1),(2), the
-category $\Cons(X,\Lambda)$ is essentially small, abelian, and closed
+category [$\Cons(X,\Lambda)$](@definition-constructible-sheaves) is essentially small, abelian, and closed
 under extensions. We fix a small skeleton, so that the ind-category in (1) is defined.
 
 *Full faithfulness.* For filtered diagrams $(C_\alpha)$ and
-$(D_\beta)$ of constructible sheaves, finite presentation implies
+$(D_\beta)$ of [constructible sheaves](@definition-constructible-sheaves), finite presentation implies
 
 $$
 \Hom(\varinjlim_\alpha C_\alpha,\varinjlim_\beta D_\beta)
@@ -28,33 +28,33 @@ $$
 $$
 
 which is the Hom set in the ind-category. This proves (1), since the
-essential image is $\IndCons(X,\Lambda)$ by definition.
+essential image is [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves) by definition.
 
 *Canonical presentations.* The closure properties below involve
-several ind-constructible sheaves at once, so to compare their
+several [ind-constructible sheaves](@definition-ind-constructible-sheaves) at once, so to compare their
 presentations we use a presentation that involves no choices. Namely, for $B\in\IndCons(X,\Lambda)$, let $J(B)$ be
-the category of constructible sheaves $C$ with a map $C\to B$; we show that
+the category of [constructible sheaves](@definition-constructible-sheaves) $C$ with a map $C\to B$; we show that
 $B=\varinjlim_{J(B)}C$.
 
 The category $J(B)$ is filtered. Indeed, two objects $C_1\to B$ and $C_2\to B$
 both map to $C_1\oplus C_2\to B$, and two parallel arrows $C\rightrightarrows C'$
 over $B$ are equalized by the cokernel of their difference, which is
-constructible and still maps to $B$. Now write
+[constructible](@definition-constructible-sheaves) and still maps to $B$. Now write
 $B=\varinjlim_\alpha C_\alpha$. By finite presentation, every
 $C\to B$ factors through some $C_\alpha$, and two factorizations agree at
 a later stage. This means that the given diagram is cofinal in $J(B)$, and
 hence $B=\varinjlim_{J(B)}C$.
 
 *Filtered colimits and direct sums.* Let $B=\varinjlim_\lambda B_\lambda$
-be a filtered colimit with $B_\lambda\in\IndCons(X,\Lambda)$. To present $B$, consider the category of pairs $(\lambda,C\to B_\lambda)$ with $C$ constructible. It is filtered:
+be a filtered colimit with $B_\lambda\in\IndCons(X,\Lambda)$. To present $B$, consider the category of pairs $(\lambda,C\to B_\lambda)$ with $C$ [constructible](@definition-constructible-sheaves). It is filtered:
 we move finitely many indices to a common upper bound, and then use direct
-sums and cokernels in $J(B_\lambda)$. Moreover, the colimit of the $C$ over this category is $\varinjlim_\lambda\varinjlim_{J(B_\lambda)}C=B$. A direct sum is the filtered colimit of its finite subsums, so it lies in $\IndCons(X,\Lambda)$
+sums and cokernels in $J(B_\lambda)$. Moreover, the colimit of the $C$ over this category is $\varinjlim_\lambda\varinjlim_{J(B_\lambda)}C=B$. A direct sum is the filtered colimit of its finite subsums, so it lies in [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves)
 as well.
 
 *Kernels and cokernels.* Let $f:B\to B'$ be a map in
-$\IndCons(X,\Lambda)$. It suffices to write $f$ as a filtered colimit of maps $v$ of
-constructible sheaves. Since filtered colimits are exact, $\ker f$
-and $\coker f$ are then the filtered colimits of the constructible sheaves
+[$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves). It suffices to write $f$ as a filtered colimit of maps $v$ of
+[constructible sheaves](@definition-constructible-sheaves). Since filtered colimits are exact, $\ker f$
+and $\coker f$ are then the filtered colimits of the [constructible sheaves](@definition-constructible-sheaves)
 $\ker v$ and $\coker v$. Let $P_f$ be the category of commutative squares
 
 $$
@@ -65,11 +65,11 @@ $$
 
 This category is filtered, because finite colimits of such squares are
 formed by finite colimits of the arrows $v$ in the abelian category
-$\Cons(X,\Lambda)$. We claim that the functor $P_f\to J(B)$,
+[$\Cons(X,\Lambda)$](@definition-constructible-sheaves). We claim that the functor $P_f\to J(B)$,
 $(v)\mapsto(C\to B)$, is cofinal. Indeed, every $C\to B$ is the source of a square, namely $v=\mathrm{id}_C$ with $C\to B'$ the composite. If
 $C\to C_1\xrightarrow{v_1}D_1$ and $C\to C_2\xrightarrow{v_2}D_2$ are two
 squares under the same $C\to B$, then both map to the square with source
-$C_1\amalg_CC_2$ and target $D_1\amalg_CD_2$. Here the pushouts are taken in $\Cons(X,\Lambda)$, and they map to $B$ and $B'$ because the two maps
+$C_1\amalg_CC_2$ and target $D_1\amalg_CD_2$. Here the pushouts are taken in [$\Cons(X,\Lambda)$](@definition-constructible-sheaves), and they map to $B$ and $B'$ because the two maps
 from $C$ to $B$, and the two maps from $C$ to $B'$, agree.
 
 Similarly, the functor $P_f\to J(B')$, $(v)\mapsto(D\to B')$, is cofinal.
@@ -84,13 +84,13 @@ $$
 \coker f=\varinjlim_{P_f}\coker v,
 $$
 
-both of which lie in $\IndCons(X,\Lambda)$.
+both of which lie in [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves).
 
 *Extensions.* Let $0\to N\to M\to B\to0$ be exact in
 $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, with $N=\varinjlim_\beta D_\beta$ and
-$B=\varinjlim_\alpha C_\alpha$ ind-constructible. We show that $M$ is a
-filtered colimit of extensions of constructible sheaves. First, the pullback
-of the extension along $C_\alpha\to B$ is ind-constructible. Its class lies in
+$B=\varinjlim_\alpha C_\alpha$ [ind-constructible](@definition-ind-constructible-sheaves). We show that $M$ is a
+filtered colimit of extensions of [constructible sheaves](@definition-constructible-sheaves). First, the pullback
+of the extension along $C_\alpha\to B$ is [ind-constructible](@definition-ind-constructible-sheaves). Its class lies in
 $\Ext^1(C_\alpha,N)$, and
 Lemma [lemma-continuity-ext-out-constructible-complex] gives
 
@@ -101,14 +101,14 @@ $$
 
 So the pulled-back extension is pushed out from an extension $M_{\alpha\beta}$
 of $C_\alpha$ by some $D_\beta$. Since
-$\Cons(X,\Lambda)$ is closed under extensions, $M_{\alpha\beta}$ and each of its
-pushouts along $D_\beta\to D_{\beta'}$ are constructible. Their colimit over
+[$\Cons(X,\Lambda)$](@definition-constructible-sheaves) is closed under extensions, $M_{\alpha\beta}$ and each of its
+pushouts along $D_\beta\to D_{\beta'}$ are [constructible](@definition-constructible-sheaves). Their colimit over
 $\beta'$ is the pullback of $M$ to $C_\alpha$. Second, since filtered
 colimits are exact, $M$ is the colimit over $\alpha$ of these pullbacks.
 By closure under filtered colimits, $M\in\IndCons(X,\Lambda)$.
 
-*Grothendieck.* The category $\IndCons(X,\Lambda)$ is Grothendieck abelian
+*Grothendieck.* The category [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves) is Grothendieck abelian
 in the sense of [Stacks, [079A](https://stacks.math.columbia.edu/tag/079A)]. Indeed, by the above its colimits
 exist and are computed in $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$, so filtered
 colimits are exact. The direct sum of the objects of the skeleton of
-$\Cons(X,\Lambda)$ is a generator.
+[$\Cons(X,\Lambda)$](@definition-constructible-sheaves) is a generator.

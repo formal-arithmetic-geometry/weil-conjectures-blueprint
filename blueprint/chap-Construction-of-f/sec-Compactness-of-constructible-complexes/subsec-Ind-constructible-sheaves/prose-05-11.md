@@ -4,9 +4,9 @@ kind = "hidden"
 title = "Ind-constructible sheaves (2)"
 order = 455
 +++
-Since every ind-constructible sheaf is a filtered
-colimit of constructible ones, the continuity of $\Ext^q(C,-)$ lets us
+Since every [ind-constructible sheaf](@definition-ind-constructible-sheaves) is a filtered
+colimit of [constructible](@definition-constructible-sheaves) ones, the continuity of $\Ext^q(C,-)$ lets us
 extend the uniform bound of Lemma [lemma-uniform-ext-bound] to the
-whole category $\IndCons(X,\Lambda)$. Writing a direct sum as the filtered
+whole category [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves). Writing a direct sum as the filtered
 colimit of its finite subsums, we also see that $\Ext^q(C,-)$ commutes
-with direct sums of ind-constructible sheaves.
+with direct sums of [ind-constructible sheaves](@definition-ind-constructible-sheaves).

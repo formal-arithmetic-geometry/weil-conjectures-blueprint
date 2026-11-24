@@ -5,22 +5,22 @@ order = 467
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "proposition-left-completeness", "corollary-continuity-cohomology", "lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-uniform-ext-bound", "definition-ind-constructible-sheaves", "proposition-ind-constructible-sheaves", "corollary-ind-heart-b", "corollary-ambient-ind-derived", "proposition-sp-unique-adjoint", "definition-relative-picard-functor"]
 +++
 The idea is that, by Lemma [lemma-reduction-finitely-many-degrees], maps out of a
-constructible sheaf depend only on the cohomology of the target in $d_C+1$
+[constructible sheaf](@definition-constructible-sheaves) depend only on the cohomology of the target in $d_C+1$
 consecutive degrees, uniformly in the family. For targets with cohomology in a
 fixed bounded interval the claim follows from the case of
-ind-constructible sheaves by induction on the length.
+[ind-constructible sheaves](@definition-ind-constructible-sheaves) by induction on the length.
 
 The first assertion follows from the second, since
 $\Loc(\Dbc(X,\Lambda))\subset\Dic(X,\Lambda)$
 (Corollary [corollary-ambient-ind-derived]) and direct sums in
-$\Loc(\Dbc(X,\Lambda))$ are those of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+[$\Loc(\Dbc(X,\Lambda))$](@definition-localizing-subcategory) are those of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
 
 First let $C\in\Cons(X,\Lambda)$, and suppose that all $K_\lambda$ have
 cohomology in a fixed interval $[a,b]$. We prove the claim, for all
 shifts of the $K_\lambda$ at once, by induction on $b-a$. If $a=b$, then
 $K_\lambda=B_\lambda[-a]$ with $B_\lambda\in\IndCons(X,\Lambda)$, and the
 claim is that $\Ext^q(C,-)$ commutes with direct sums of objects of
-$\IndCons(X,\Lambda)$, which is Corollary [corollary-ind-heart-b]. In
+[$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves), which is Corollary [corollary-ind-heart-b]. In
 general, the triangles
 $\tau_{\leq b-1}K_\lambda\to K_\lambda\to H^b(K_\lambda)[-b]\to$ are
 compatible with direct sums, because $H^n$ commutes with direct sums. We
@@ -37,10 +37,10 @@ $\bigoplus_\lambda K_\lambda$, by its truncation to degrees $[-d_C,0]$.
 Since the interval is the same for the whole family and truncation
 commutes with direct sums, the bounded case applies.
 
-From constructible sheaves $C$ we pass to complexes by dévissage.
+From [constructible sheaves](@definition-constructible-sheaves) $C$ we pass to complexes by dévissage.
 For fixed $(K_\lambda)$, the objects $C$ for which the map is an
 isomorphism are closed under shifts. They are closed under cones by the
 five lemma, applied to the long exact sequences of $\Hom(-,K_\lambda)$
-summed over $\lambda$ and of $\Hom(-,\bigoplus_\lambda K_\lambda)$. A bounded constructible complex is a
-finite extension of shifts of its constructible cohomology sheaves, and
+summed over $\lambda$ and of $\Hom(-,\bigoplus_\lambda K_\lambda)$. A bounded [constructible complex](@definition-constructible-sheaves) is a
+finite extension of shifts of its [constructible](@definition-constructible-sheaves) cohomology sheaves, and
 hence it belongs to this class.

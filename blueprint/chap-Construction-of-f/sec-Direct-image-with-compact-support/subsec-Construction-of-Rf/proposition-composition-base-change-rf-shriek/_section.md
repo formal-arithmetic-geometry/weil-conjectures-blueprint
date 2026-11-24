@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Etale.isIso_derivedPlusFormalism_baseChange_and_shrie
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "theorem-proper-base-change-classical-pro", "proposition-proper-direct-image-constructible-complexes", "definition-localizing-subcategory", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "proposition-sp-unique-adjoint", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-passing-schematic-closure", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 For every admissible $\Lambda$, the following statements hold on
-$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$ and restrict to $D^b_{\mathrm{ctf}}(-,\Lambda)$.
+[$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$](@definition-localizing-subcategory) and restrict to [$D^b_{\mathrm{ctf}}(-,\Lambda)$](@definition-constructible-sheaves).
 
 1. For separated morphisms of finite type $X\xrightarrow fY
   \xrightarrow gZ$ there is a canonical isomorphism

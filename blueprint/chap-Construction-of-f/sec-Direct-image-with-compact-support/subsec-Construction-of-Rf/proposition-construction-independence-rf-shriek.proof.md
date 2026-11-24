@@ -10,7 +10,7 @@ by the argument described at the start of this subsection.
 
 The properties of $Rp_*\circ j_!$ for a single compactification follow from
 Proposition [proposition-proper-direct-image-extension-zero] and the preservation
-of $D^b_{\mathrm{ctf}}(-,\Lambda)$ by proper direct image
+of [$D^b_{\mathrm{ctf}}(-,\Lambda)$](@definition-constructible-sheaves) by proper direct image
 (Proposition [proposition-proper-direct-image-constructible-complexes]).
 
 For independence it suffices to
@@ -40,10 +40,10 @@ for $K\in\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$. By
 Proposition [proposition-proper-direct-image-extension-zero], both sides are exact
 functors of $K$ preserving direct sums, so by
 Lemma [lemma-checking-isomorphisms-constructible-complexes] we may assume that
-$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, where proper base change is available.
+$K\in D^b_{\mathrm{ctf}}(X,\Lambda)$, where [proper base change](@proposition-proper-base-change-localizing-categories) is available.
 
 By the exact sequence for an open and its closed complement, applied in
-each degree [Stacks, [09AH](https://stacks.math.columbia.edu/tag/09AH)], a morphism in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$ that is an isomorphism on $X$ and on $Z\setminus X$ is an isomorphism. On $X$ our map is the identity, so it remains to see that on $Z\setminus X$ both sides vanish. For $j_!K$ this holds by definition of extension by zero, while for $Rh_*j'_!K$ we use proper base change on $D^b_{\mathrm{ctf}}$
+each degree [Stacks, [09AH](https://stacks.math.columbia.edu/tag/09AH)], a morphism in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$ that is an isomorphism on $X$ and on $Z\setminus X$ is an isomorphism. On $X$ our map is the identity, so it remains to see that on $Z\setminus X$ both sides vanish. For $j_!K$ this holds by definition of extension by zero, while for $Rh_*j'_!K$ we use proper base change on [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves)
 (Proposition [proposition-proper-base-change-localizing-categories]) for the inclusion
 of $Z\setminus X$ into $Z$. It shows that the restriction of $Rh_*j'_!K$
 is the direct image of the

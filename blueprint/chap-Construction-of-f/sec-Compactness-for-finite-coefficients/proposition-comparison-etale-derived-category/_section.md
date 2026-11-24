@@ -17,6 +17,6 @@ It preserves arbitrary direct sums. For every morphism $g:X\to Y$ of
 schemes of finite type over $k$ and every $K\in D(X_{\acute{e}t},A)$, the
 comparison map (2.9)
 $\nu_Y^*Rg_{\acute{e}t,*}K\to Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*K$ is an isomorphism, and
-$\nu^*$ commutes with inverse images and, by
+[$\nu^*$](@proposition-comparison-morphism-inverse-image) commutes with inverse images and, by
 (2.10), with extension by zero along open
 immersions.

@@ -4,19 +4,19 @@ kind = "hidden"
 title = "Composition and restriction (1)"
 order = 529
 +++
-Brown representability gives $f^!$ one morphism at a time. To compute it in Chapter [chap-Constructibility-of-f], however, we factor $f$ locally. The two are linked by uniqueness of adjoints: an isomorphism between composites of left adjoints, such as $Rg_!\circ Rf_!\simeq R(gf)_!$ or
+Brown representability gives [$f^!$](@theorem-existence-exceptional-inverse-image) one morphism at a time. To compute it in Chapter [chap-Constructibility-of-f], however, we factor $f$ locally. The two are linked by uniqueness of adjoints: an isomorphism between composites of left adjoints, such as $Rg_!\circ Rf_!\simeq R(gf)_!$ or
 $Rf_!=Rp_*\circ j_!$, gives an isomorphism between the right
 adjoints, composed in the opposite order. Since $j^!=j^*$ for an open
-immersion $j$, it follows that $f^!$ is local on $X$ and on $Y$. For example, a smooth $f$ is
+immersion $j$, it follows that [$f^!$](@theorem-existence-exceptional-inverse-image) is local on $X$ and on $Y$. For example, a smooth $f$ is
 locally the composite of an étale map and a projection
-$\mathbf A^n_Y\to Y$. By composition and locality, $f^!$ is then
+$\mathbf A^n_Y\to Y$. By composition and locality, [$f^!$](@theorem-existence-exceptional-inverse-image) is then
 determined by its values on these two kinds of maps.
 
-Base change for $f^!$ does not follow in this way. Passing to right
+Base change for [$f^!$](@theorem-existence-exceptional-inverse-image) does not follow in this way. Passing to right
 adjoints in the base change isomorphism $v^*Rf_!\simeq Rf'_!u^*$ relates
 $f^!Rv_*$ and $Ru_*f'^!$. These involve direct images, not the
 inverse images $u^*f^!$ and $f'^!v^*$ that one wants to compare. We prove
 base change for smooth morphisms in
 Proposition [proposition-exceptional-inverse-image-smooth-morphism]. That
-$f^!$ preserves $D^b_{\mathrm{ctf}}$ is proved in
+[$f^!$](@theorem-existence-exceptional-inverse-image) preserves [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) is proved in
 Theorems [theorem-f-shriek-finite-coefficients] and [theorem-f-shriek-ell-adic-coefficients].

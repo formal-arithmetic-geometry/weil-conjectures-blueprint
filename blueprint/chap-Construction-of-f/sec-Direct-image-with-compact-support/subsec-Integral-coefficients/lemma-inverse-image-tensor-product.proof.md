@@ -10,4 +10,4 @@ direct image is exact and preserves limits [Stacks, [09AA](https://stacks.math.c
 two inverse images agree on objects that are pro-étale locally of the form
 $\mathcal O_{E,S}\otimes P$ with $P$ finitely generated, and by the local
 structure of Lemma [lemma-structure-integral-constructible-complexes](1) and (2) they
-therefore agree on $\Dbc$.
+therefore agree on [$\Dbc$](@definition-constructible-sheaves).

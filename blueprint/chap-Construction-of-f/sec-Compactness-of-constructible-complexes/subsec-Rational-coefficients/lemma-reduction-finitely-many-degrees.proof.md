@@ -33,12 +33,12 @@ sheaves $H^q(L)[-q]$, and by the long exact Hom sequences it suffices
 to show that each of them receives no nonzero map from $C$. A layer
 $H^q(L)[-q]$ with $q\leq-d_C-1$ contributes
 $\Hom(C,H^q(L)[-q])=\Ext^{-q}(C,H^qL)$. Since $-q>d_C$ and $H^q(L)$ is
-ind-constructible, this group vanishes by
+[ind-constructible](@definition-ind-constructible-sheaves), this group vanishes by
 Corollary [corollary-ind-heart-b]. For $L$ unbounded
 below we cannot argue in finitely many steps, and we use instead that
-the derived category is left complete.
+the derived category is [left complete](@proposition-left-completeness).
 
-The pro-étale site has a basis of weakly contractible objects
+The [pro-étale site](@definition-small-pro-etale-site) has a basis of [weakly contractible](@definition-weak-contractibility) objects
 (Theorem [theorem-enough-affine-weakly-contractible-objects]). For
 this reason
 Proposition [proposition-exact-products] applies: products of $\Lambda_X$-modules are
