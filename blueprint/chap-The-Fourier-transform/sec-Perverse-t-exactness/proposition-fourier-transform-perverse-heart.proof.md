@@ -33,7 +33,7 @@ Lemma [lemma-cohomological-range-curve]. For the second, note that the degree-ze
 geometric point $y$ is
 
 $$
-H_c^2(\mathbf A^1,G\otimes\mathcal L_{\psi(yx)}).
+H_c^2(\mathbf A^1,G\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}}).
 $$
 
 On a dense open where $G$ is [lisse](@definition-lisse-sheaves) with generic representation $V$,
@@ -42,7 +42,7 @@ $\mathcal L_{\psi(yx)}$. By localization we may discard the finitely many
 remaining points, which contribute only in degree zero, and
 Lemma [lemma-extreme-degrees-affine-curve] (whose proof of the
 formula for $H^2_c$ uses only the geometric curve) shows that this stalk is
-$(V\otimes\chi_y)_{\pi_1}(-1)$. In particular, it is nonzero only if
+$(V\otimes\chi_y)_{\pi_1}\href{@definition-tate-twists}{(-1)}$. In particular, it is nonzero only if
 $V$ has the rank-one quotient $\chi_y^{-1}$, and we show that this
 happens for only finitely many $y$.
 First, the characters $\chi_y$ are pairwise distinct. Indeed, if
@@ -65,7 +65,7 @@ transform of $G[1]$ belongs to [${}^pD^{\le0}$](@definition-perverse-sheaves-cur
 *Exactness.* The argument for $\operatorname{FT}_\psi$ applies
 equally to $\psi^{-1}$, and a [Tate twist](@definition-tate-twists) does not affect supports or
 degrees. Both $\operatorname{FT}_\psi$ and its quasi-inverse
-$\operatorname{FT}_{\psi^{-1}}(-)(1)$ of
+$\operatorname{FT}_{\psi^{-1}}(-)\href{@definition-tate-twists}{(1)}$ of
 Proposition [proposition-fourier-inversion] therefore preserve
 [${}^pD^{\le0}$](@definition-perverse-sheaves-curve). Since
 [${}^pD^{\ge0}$](@definition-perverse-sheaves-curve) is the right orthogonal of [${}^pD^{\le-1}$](@definition-perverse-sheaves-curve), the two

@@ -11,6 +11,6 @@ $\delta_0$ be the constant skyscraper sheaf $E$ at the origin. There are
 isomorphisms of [Weil complexes](@definition-weil-structure)
 
 $$
-\operatorname{FT}_\psi(E)\simeq\delta_0(-1)[-1],
+\operatorname{FT}_\psi(E)\simeq\href{@definition-tate-twists}{\delta_0(-1)}[-1],
 \qquad \operatorname{FT}_\psi(\delta_0)\simeq E[1].
 $$

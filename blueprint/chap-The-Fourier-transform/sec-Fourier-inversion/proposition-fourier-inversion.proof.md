@@ -13,8 +13,8 @@ the projection formula, the composite of two transforms is the
 transform with the convolution kernel
 
 $$
-Rr_{13!}(r_{12}^*\mathcal K_\psi\otimes
-r_{23}^*\mathcal K_{\psi^{-1}})[2r].
+\href{@proposition-construction-independence-rf-shriek}{Rr_{13!}(r_{12}^*\mathcal K_\psi\otimes
+r_{23}^*\mathcal K_{\psi^{-1}})}[2r].
 $$
 
 At a point $(x,z)$, the unshifted integral over the middle factor is
@@ -25,7 +25,7 @@ is supported on the diagonal, so the [localization triangle](@proposition-extens
 it canonically with the direct image of its restriction to the
 diagonal. There the unit trivialization of the character sheaf and
 the [trace map](@definition-trace-map) for the vector bundle identify the restriction with
-$E(-r)[-2r]$. Since the shift $[2r]$ cancels $[-2r]$, we obtain the first
+$\href{@definition-tate-twists}{E(-r)}[-2r]$. Since the shift $[2r]$ cancels $[-2r]$, we obtain the first
 inversion formula. If instead the two kernels use the same character, then
 $x-z$ is replaced by $x+z$, the support is the antidiagonal, and we
 obtain the second formula. Since the traces and unit trivializations

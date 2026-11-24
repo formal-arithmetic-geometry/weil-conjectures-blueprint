@@ -23,7 +23,7 @@ trivializations at zero. For $x\in\mathbf F_{q^n}$, the Frobenius
 trace is
 
 $$
-t_{\mathcal L_\psi,n}(x)
+\href{@definition-trace-function}{t_{\mathcal L_\psi,n}(x)}
 =\psi\bigl(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(x)\bigr).
 $$
 

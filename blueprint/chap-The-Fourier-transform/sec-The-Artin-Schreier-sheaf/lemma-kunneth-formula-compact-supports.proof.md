@@ -4,7 +4,7 @@ of = "lemma-kunneth-formula-compact-supports"
 order = 1226
 +++
 We integrate first along the fibres of $p_1$, which are copies of the
-fibres of $g$. This is possible because $h=f\circ p_1$, so that $Rh_!=Rf_!Rp_{1!}$. Since the
+fibres of $g$. This is possible because $h=f\circ p_1$, so that $\href{@proposition-construction-independence-rf-shriek}{Rh_!}=\href{@proposition-construction-independence-rf-shriek}{Rf_!}\href{@proposition-construction-independence-rf-shriek}{Rp_{1!}}$. Since the
 square formed by $p_1$, $p_2$, $f$ and $g$ is cartesian, [proper base
-change](@proposition-composition-base-change-rf-shriek) gives $Rp_{1!}p_2^*L\simeq f^*Rg_!L$. The two projection formulas
+change](@proposition-composition-base-change-rf-shriek) gives $\href{@proposition-construction-independence-rf-shriek}{Rp_{1!}p_2^*L}\simeq f^*\href{@proposition-construction-independence-rf-shriek}{Rg_!L}$. The two projection formulas
 are isomorphisms as well, and hence so is the composite.

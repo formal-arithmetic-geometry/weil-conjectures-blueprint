@@ -19,7 +19,7 @@ sheaf $A$, that is, to a negative Ext. A map in the other direction is
 also zero, and to see this we first enlarge the boundary. Since $M$ is [lisse](@definition-lisse-sheaves), $j_*M$ does not change when we replace $U$
 by a smaller dense open and $M$ by its restriction, so we may assume that the support of $A$ lies in
 $Z=C\setminus U$, and we let $i$ now denote the inclusion of $Z$. Then the
-adjunction $j^*\dashv Rj_*$ shows that $i^!Rj_*M=0$. In the triangle
+adjunction $j^*\dashv Rj_*$ shows that $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*M}=0$. In the triangle
 
 $$
 j_*M\longrightarrow Rj_*M\longrightarrow
@@ -27,11 +27,11 @@ j_*M\longrightarrow Rj_*M\longrightarrow
 $$
 
 the last term is supported on $Z$, so that $i^!$ agrees with $i^*$ on
-it. Applying $i^!$ and using $i^!Rj_*M=0$, we find
-$i^!j_*M\simeq(i^*\tau^{\ge1}Rj_*M)[-1]$, which has ordinary
+it. Applying $i^!$ and using $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*M}=0$, we find
+$\href{@theorem-existence-exceptional-inverse-image}{i^!j_*M}\simeq(i^*\tau^{\ge1}Rj_*M)[-1]$, which has ordinary
 cohomology only in degrees at least two. Hence $i^!P$ has ordinary
 cohomology only in degrees at least one.
-Therefore $\Hom(i_*A,P)=\Hom(A,i^!P)=0$.
+Therefore $\Hom(i_*A,P)=\Hom(A,\href{@theorem-existence-exceptional-inverse-image}{i^!P})=0$.
 
 To see that $P$ is simple, note that on a dense open a
 [perverse](@definition-perverse-sheaves-curve) subobject of $P$ is a shifted [lisse](@definition-lisse-sheaves) subsheaf of $M$. By

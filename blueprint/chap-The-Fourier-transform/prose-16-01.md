@@ -46,14 +46,14 @@ multiplication $\mu(x,y)=xy$. Its [trace function](@definition-trace-function) o
 $\psi(xy)$, and we put
 
 $$
-\operatorname{FT}_\psi K=Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)[1].
+\operatorname{FT}_\psi K=\href{@proposition-construction-independence-rf-shriek}{Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)}[1].
 $$
 
 On [trace functions](@definition-trace-function) it is the discrete transform up to sign: for
 $y\in\mathbf F_q$,
 
 $$
-t_{\operatorname{FT}_\psi K}(y)=-\sum_{x\in\mathbf F_q}t_K(x)\,\psi(xy),
+\href{@definition-trace-function}{t_{\operatorname{FT}_\psi K}(y)}=-\sum_{x\in\mathbf F_q}\href{@definition-trace-function}{t_K(x)}\,\psi(xy),
 $$
 
 because under the [dictionary](@proposition-function-sheaf-dictionary) (Section [sec-The-function-sheaf-dictionary-2])
@@ -67,7 +67,7 @@ $K=j_*M$ this complex contains the group we want. Plancherel becomes an
 identity of [trace functions](@definition-trace-function) (Corollary [corollary-plancherel]), and
 it is what will compute the weight of the transform. In addition,
 [Fourier inversion](@proposition-fourier-inversion),
-$\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi K\simeq K(-1)$,
+$\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi K\simeq \href{@definition-tate-twists}{K(-1)}$,
 holds because $R\Gamma_c(\mathbf A^1,\mathcal L_\psi)=0$, the sheaf
 version of $\sum_x\psi(x)=0$. The $\ell$-adic transform is due to Deligne, and
 Laumon's proof [laumon87] of the [Deligne–Laumon theorem](@theorem-weights-rf-shriek) is built on it.
@@ -75,7 +75,7 @@ Laumon's proof [laumon87] of the [Deligne–Laumon theorem](@theorem-weights-rf-
 To speak of the weight of the transform we need it to be a [lisse](@definition-lisse-sheaves) sheaf on
 a dense open. But the transform of a sheaf need not be a sheaf. For
 example, the transform of the constant sheaf is a skyscraper at the
-origin in degree one, $\operatorname{FT}_\psi(E)=\delta_0(-1)[-1]$. This
+origin in degree one, $\operatorname{FT}_\psi(E)=\href{@definition-tate-twists}{\delta_0(-1)}[-1]$. This
 is the sheaf version of $\hat1=q\,\delta_0$, up to the sign coming from
 the shift. What the transform does preserve, however, is the category of perverse
 sheaves on the line (Proposition [proposition-fourier-transform-perverse-heart],

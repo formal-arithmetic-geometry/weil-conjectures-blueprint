@@ -6,7 +6,7 @@ uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contract
 +++
 On the line, from the cohomology of $\mathbf P^1$ and
 localization at the point at infinity, we get
-$R\Gamma_c(\mathbf A^1,E)=E(-1)[-2]$, identified by the trace map
+$R\Gamma_c(\mathbf A^1,E)=\href{@definition-tate-twists}{E(-1)}[-2]$, identified by the trace map
 (Appendix [chap-Cohomology-of-torsion-sheaves-on-curves]). Every translation acts trivially on it,
 since it preserves the trace and the cohomology is concentrated in
 degree two. Now let $\pi:\mathbf A^1\to\mathbf A^1$, $u\mapsto u^p-u$,
@@ -23,18 +23,18 @@ so, since $\psi_0$ is nontrivial, the eigenspace is zero, that is,
 $R\Gamma_c(\mathbf A^1,\mathcal L_{\psi_0})=0$. Finally, by its construction,
 [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf) is the pullback of $\mathcal L_{\psi_0}$ by the
 automorphism $x\mapsto ax$ of the line, and hence
-$R\Gamma_c(\mathbf A^1,\mathcal L_\psi)=0$ as well.
+$R\Gamma_c(\mathbf A^1,\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})=0$ as well.
 
 On $\mathbf A^r$ with $\lambda\ne0$, we choose linear
 coordinates in which $\lambda$ is the first coordinate. Then
-$\lambda^*\mathcal L_\psi$ is the external product of [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf)
+$\lambda^*\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi}$ is the external product of [$\mathcal L_\psi$](@lemma-artin-schreier-character-sheaf)
 on the first factor with the constant sheaf on $\mathbf A^{r-1}$, and
 the Künneth isomorphism of Lemma [lemma-kunneth-formula-compact-supports] writes its
 cohomology as a tensor product with the first factor
-$R\Gamma_c(\mathbf A^1,\mathcal L_\psi)=0$. For $\lambda=0$, on the other hand, the sheaf
+$R\Gamma_c(\mathbf A^1,\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_\psi})=0$. For $\lambda=0$, on the other hand, the sheaf
 is constant, so the trace map of Definition [definition-trace-map]
 for the projection $\mathbf A^r\to\operatorname{Spec}k$ is an
-isomorphism $R\Gamma_c(\mathbf A^r,E)(r)[2r]\simeq E$. On constant
+isomorphism $R\Gamma_c(\mathbf A^r,E)\href{@definition-tate-twists}{(r)}[2r]\simeq E$. On constant
 coefficients this map is the trace map of affine space
 (9.11), obtained by integrating along
 one coordinate line at a time. Finally, all these calculations take

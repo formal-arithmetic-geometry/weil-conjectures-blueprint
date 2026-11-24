@@ -8,7 +8,7 @@ As for the classical transform, the proof is by orthogonality of
 characters. We expand the square of the sum in (16.3),
 using that the complex conjugate of a character value is its inverse.
 This writes the left side as a double sum over $x,z\in\mathbf F_{q^n}^r$
-of $\iota t_{K,n}(x)\overline{\iota t_{K,n}(z)}$ times a character sum
+of $\iota \href{@definition-growth-squared-traces}{t_{K,n}(x)}\overline{\iota \href{@definition-growth-squared-traces}{t_{K,n}(z)}}$ times a character sum
 over $y$, which we now compute.
 For $x,z\in\mathbf F_{q^n}^r$, the orthogonality of characters gives
 

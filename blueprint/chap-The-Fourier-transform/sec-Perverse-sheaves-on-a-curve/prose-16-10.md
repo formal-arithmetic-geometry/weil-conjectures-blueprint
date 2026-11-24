@@ -15,7 +15,7 @@ support.
 
 We can read off the shape of this description from the [stalk formula](@proposition-base-change-fourier-inversion).
 The stalk of the transform of $G[1]$ at $y$ is
-$R\Gamma_c(\mathbf A^1,G\otimes\mathcal L_{\psi(yx)})[2]$. For a sheaf $G$
+$R\Gamma_c(\mathbf A^1,G\otimes\href{@lemma-artin-schreier-character-sheaf}{\mathcal L_{\psi(yx)}})[2]$. For a sheaf $G$
 without punctual sections $H^0_c$ vanishes, and the proof of
 Proposition [proposition-fourier-transform-perverse-heart] below shows
 that $H^2_c$ is nonzero only at finitely many $y$. So the transform lives in
