@@ -544,4 +544,11 @@
     "byStatus": {"stated": 7, "proved": 1291, "absent": 452}},
    "sha": "8cb6a6523204bbbe8724d1341bce288f257ebbdb",
    "file": "data/8cb6a6523204bbbe8724d1341bce288f257ebbdb.json",
-   "date": "2026-11-23"}]}
+   "date": "2026-11-23"},
+  {"summary":
+   {"total": 1750,
+    "proved": 1304,
+    "byStatus": {"stated": 7, "proved": 1304, "absent": 439}},
+   "sha": "da52130661a1cb84c47b8873ae54690af2c5cb4f",
+   "file": "data/da52130661a1cb84c47b8873ae54690af2c5cb4f.json",
+   "date": "2026-11-24"}]}

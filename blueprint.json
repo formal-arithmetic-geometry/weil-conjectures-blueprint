@@ -4191,7 +4191,10 @@
    "boundary": [],
    "body":
    "For a ring $\\Lambda$, write $\\mathrm{IA}_{\\Lambda}(f)$ if for every\ncartesian square (4.1) and every injective sheaf $I$ of\n$\\Lambda$-modules on $X_{\\acute{e}t}$ which is torsion, one has\n\n$$\nR^qf'_*g'^*I=0\\qquad(q>0).\n$$",
-   "attrs": {"title": "Injective acyclicity", "order": 344}},
+   "attrs":
+   {"title": "Injective acyclicity",
+    "order": 344,
+    "lean": ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Torsion-sheaves-and-acyclicity/definition-injective-acyclicity/definition-injective-acyclicity--1.md",
@@ -4596,7 +4599,12 @@
    "boundary": [],
    "body":
    "Let $K\\in D(X_{\\mathrm{pro}\\acute{e}t},\\Lambda)$. The *base change map*\n\n$$\ng^*Rf_*K\\longrightarrow Rf'_*g'^*K\n\\tag{4.5}\n$$\n\nin $D(Y'_{\\mathrm{pro}\\acute{e}t},\\Lambda)$ is the adjoint transpose, for\n$f'^*\\dashv Rf'_*$, of the composite\n\n$$\nf'^*g^*Rf_*K\\simeq g'^*f^*Rf_*K\n\\xrightarrow{g'^*\\varepsilon_f}g'^*K,\n$$\n\nwhere $\\varepsilon_f:f^*Rf_*\\to\\mathrm{id}$ is the counit of\n$f^*\\dashv Rf_*$.",
-   "attrs": {"title": "Pro-étale base change map", "order": 322}},
+   "attrs":
+   {"title": "Pro-étale base change map",
+    "order": 322,
+    "lean":
+    ["AlgebraicGeometry.ProEtale.CondensedRing.baseChangeMap",
+     "AlgebraicGeometry.ProEtale.derivedBaseChangeMap"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-base-change-map/definition-pro-etale-base-change-map/definition-pro-etale-base-change-map--1.md",
@@ -4625,7 +4633,10 @@
    "boundary": [],
    "body":
    "Let $p:X\\to Y$ be a morphism, $K\\in D(X_{\\mathrm{pro}\\acute{e}t},\\Lambda)$ and\n$M\\in D(Y_{\\mathrm{pro}\\acute{e}t},\\Lambda)$. The *projection formula map*\n\n$$\nRp_*K\\otimes^{\\mathbf L}M\\longrightarrow Rp_*(K\\otimes^{\\mathbf L}p^*M)\n\\tag{4.14}\n$$\n\nis the adjoint, under $p^*\\dashv Rp_*$, of the composite\n$p^*(Rp_*K\\otimes^{\\mathbf L}M)\\simeq p^*Rp_*K\\otimes^{\\mathbf L}p^*M\n\\to K\\otimes^{\\mathbf L}p^*M$ of the monoidal isomorphism of $p^*$ and the\ncounit $p^*Rp_*K\\to K$ tensored with $p^*M$.",
-   "attrs": {"title": "Projection formula map", "order": 416}},
+   "attrs":
+   {"title": "Projection formula map",
+    "order": 416,
+    "lean": ["AlgebraicGeometry.ProEtale.CondensedRing.projectionMap"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-ell-adic-coefficients/definition-projection-formula-map/definition-projection-formula-map--1.md",
@@ -5392,7 +5403,10 @@
    "boundary": [],
    "body":
    "For a morphism $f:X\\to Y$, write $\\mathrm{PBC}_{\\Lambda}(f)$ if the base change map\n(4.3) is an isomorphism\nfor every base change\n$g:Y'\\to Y$ and every $K\\in D^+(X_{\\acute{e}t},\\Lambda)$ with torsion\ncohomology sheaves.",
-   "attrs": {"title": "The PBC property", "order": 342}},
+   "attrs":
+   {"title": "The PBC property",
+    "order": 342,
+    "lean": ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Torsion-sheaves-and-acyclicity/definition-torsion-pbc-property/definition-torsion-pbc-property--1.md",
@@ -5690,7 +5704,12 @@
    "boundary": [],
    "body":
    "Let $F$ be a sheaf on $X_{\\acute{e}t}$. The *underived base change map*\n\n$$\ng^*f_*F\\longrightarrow f'_*g'^*F\n\\tag{4.2}\n$$\n\nis the adjoint, under $f'^*\\dashv f'_*$, of\n\n$$\nf'^*g^*f_*F\n\\simeq g'^*f^*f_*F\n\\xrightarrow{g'^*\\varepsilon_f}g'^*F,\n$$\n\nwhere $\\varepsilon_f:f^*f_*\\to\\mathrm{id}$ is the counit.",
-   "attrs": {"title": "Underived base change map", "order": 315}},
+   "attrs":
+   {"title": "Underived base change map",
+    "order": 315,
+    "lean":
+    ["AlgebraicGeometry.Etale.baseChangeMap",
+     "AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-base-change-map/definition-underived-base-change-map/definition-underived-base-change-map--1.md",
@@ -8527,7 +8546,11 @@
    "boundary": [],
    "body":
    "If $I$ is an injective sheaf of $\\mathbf F_\\ell$-modules on $\\mathbf P^1_{R,\\acute{e}t}$,\nthen $H^q(\\mathbf P^1_\\kappa,I_0)=0$ for every $q>0$.",
-   "attrs": {"title": "Acyclicity on the closed fibre", "order": 372}},
+   "attrs":
+   {"title": "Acyclicity on the closed fibre",
+    "order": 372,
+    "lean":
+    ["AlgebraicGeometry.Etale.subsingleton_H_projectiveLine_closedFibre_of_injective"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-projective-line/subsec-Injectives-on-the-closed-fibre/lemma-acyclicity-closed-fibre/lemma-acyclicity-closed-fibre--1.md",
@@ -12626,7 +12649,12 @@
    "boundary": [],
    "body":
    "Let $u:V\\to W$ be finite. The formation of $u_*$ on abelian sheaves\ncommutes with arbitrary base change: for every base change $W'\\to W$, the\nunderived base change map (4.2) is an\nisomorphism. Consequently, for every constant coefficient ring\n$\\Lambda$, the derived base change map\n(4.3) is an isomorphism\nfor every $K\\in D^+(V_{\\acute{e}t},\\Lambda)$.",
-   "attrs": {"title": "Finite morphisms and base change", "order": 384}},
+   "attrs":
+   {"title": "Finite morphisms and base change",
+    "order": 384,
+    "lean":
+    ["AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite",
+     "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Proper-morphisms/lemma-finite-morphisms/lemma-finite-morphisms--1.md",
@@ -13838,7 +13866,13 @@
    "boundary": [],
    "body":
    "Let $K\\in D^+(X_{\\acute{e}t},\\Lambda)$. The base change map is the identity for an\nidentity square, and is compatible with horizontal and vertical pasting\nof commutative squares, in particular of cartesian squares. More\nexplicitly, if $h:Y''\\to Y'$ is a second base change, completed by maps\n$h':X''\\to X'$ and $f'':X''\\to Y''$ to a commutative square with\n$f'h'=hf''$, the base change map for the pasted square, with bottom map\n$gh$, is the composite\n\n$$\nh^*g^*Rf_*K\n\\longrightarrow\nh^*Rf'_*g'^*K\n\\longrightarrow\nRf''_*h'^*g'^*K\n$$\n\nof $h^*$ applied to the base change map of (4.1) and the\nbase change map of the second square, under the canonical composition\nisomorphisms.\n\nFor composable maps $X\\xrightarrow{f}Y\\xrightarrow{g}Z$ and a map\n$h:Z'\\to Z$, let $g':Y'\\to Z'$, $h_Y:Y'\\to Y$ and $f':X'\\to Y'$,\n$h_X:X'\\to X$ complete $g$, $h$ and $f$, $h_Y$ to commutative squares\n(for instance $Y'=Y\\times_ZZ'$ and $X'=X\\times_ZZ'$). Then the base change\nmap for the pasted square with left map $g'f'$ and right map $gf$ is the\ncomposite\n\n$$\nh^*Rg_*Rf_*K\n\\longrightarrow\nRg'_*h_Y^*Rf_*K\n\\longrightarrow\nRg'_*Rf'_*h_X^*K\n$$\n\nof the base change map for $g$ at $Rf_*K$ and $Rg'_*$ applied to the\nbase change map for $f$ at $K$.",
-   "attrs": {"title": "Identity and pasting", "order": 319}},
+   "attrs":
+   {"title": "Identity and pasting",
+    "order": 319,
+    "lean":
+    ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id",
+     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz",
+     "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-base-change-map/lemma-identity-pasting/lemma-identity-pasting--1.md",
@@ -16370,7 +16404,10 @@
    "boundary": [],
    "body":
    "If $\\mathrm{PBC}_\\Lambda(\\mathbf P^1_S\\to S)$ holds for every scheme $S$,\nthen $\\mathrm{PBC}_\\Lambda(\\mathbf P^n_S\\to S)$ holds for every scheme $S$\nand every $n\\geq0$.",
-   "attrs": {"title": "Projective space", "order": 395}},
+   "attrs":
+   {"title": "Projective space",
+    "order": 395,
+    "lean": ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Proper-morphisms/lemma-pbc-projective-space/lemma-pbc-projective-space--1.md",
@@ -18020,7 +18057,11 @@
    "boundary": [],
    "body":
    "Let $f:X\\to Y$ be proper, let $F$ be an étale sheaf of sets on $X$, and\nlet $\\bar y:\\operatorname{Spec}\\Omega\\to Y$ be a geometric point. Then\nrestriction is a bijection\n\n$$\n(f_*F)_{\\bar y}\\xrightarrow{\\sim}\n\\Gamma(X_{\\bar y},F|_{X_{\\bar y}}).\n\\tag{4.6}\n$$",
-   "attrs": {"title": "Sections over a geometric fibre", "order": 332}},
+   "attrs":
+   {"title": "Sections over a geometric fibre",
+    "order": 332,
+    "lean":
+    ["AlgebraicGeometry.Etale.bijective_stalkToFibreSections_of_isProper"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Base-change-in-degree-zero/lemma-sections-geometric-fibre/lemma-sections-geometric-fibre--1.md",
@@ -38058,7 +38099,9 @@
    "Let $R$ be a henselian local ring with residue field $\\kappa$. For every\ntorsion abelian sheaf $F$ on $\\mathbf P^1_{R,\\acute{e}t}$, restriction\ninduces isomorphisms, natural in $F$, with\n$F_0=i^*F$,\n\n$$\nH^q(\\mathbf P^1_R,F)\\xrightarrow{\\sim}\nH^q(\\mathbf P^1_\\kappa,F_0)\\qquad(q\\geq0).\n$$",
    "attrs":
    {"title": "Cohomology of $\\mathbf P^1$ over henselian rings",
-    "order": 375}},
+    "order": 375,
+    "lean":
+    ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-projective-line/subsec-Injectives-on-the-closed-fibre/proposition-cohomology-p-1-over-henselian/proposition-cohomology-p-1-over-henselian--1.md",
@@ -91378,7 +91421,13 @@
    "boundary": [],
    "body":
    "Let $(R,J)$ be a henselian pair, let $Z\\to\\operatorname{Spec}R$ be\nproper, and let $i:Z_0=Z\\times_R\\operatorname{Spec}(R/J)\\hookrightarrow Z$.\nFor every sheaf of sets $F$ on $Z_{\\acute{e}t}$, restriction is a bijection\n\n$$\n\\Gamma(Z,F)\\xrightarrow{\\sim}\\Gamma(Z_0,i^*F).\n$$\n\nThe comparison is natural in $F$.",
-   "attrs": {"title": "Henselian comparison in degree zero", "order": 328}},
+   "attrs":
+   {"title": "Henselian comparison in degree zero",
+    "order": 328,
+    "lean":
+    ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality",
+     "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing",
+     "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-Base-change-in-degree-zero/theorem-comparison-over-henselian-pair-degree/theorem-comparison-over-henselian-pair-degree--1.md",
@@ -92142,7 +92191,11 @@
    "body":
    "Let $(B,J)$ be a henselian pair, let $Y$ be proper over $B$, and put\n$Y_0=Y\\times_{\\operatorname{Spec}B}\\operatorname{Spec}(B/J)$. Then\nrestriction is an equivalence between the categories of finite étale\nschemes over $Y$ and over $Y_0$,\n\n$$\n\\textit{F\\'Et}_Y\\xrightarrow{\\sim}\\textit{F\\'Et}_{Y_0}.\n$$\n\nConsequently, for a finite abelian group $M$,\n\n$$\nH^1(Y,\\underline M)\\xrightarrow{\\sim}H^1(Y_0,\\underline M).\n\\tag{4.8}\n$$",
    "attrs":
-   {"title": "Finite étale covers over a proper henselian pair", "order": 357}},
+   {"title": "Finite étale covers over a proper henselian pair",
+    "order": 357,
+    "lean":
+    ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing",
+     "AlgebraicGeometry.Etale.bijective_cohomologyMap_one_constantSheaf_of_henselianRing"]}},
   {"source":
    {"file":
     "blueprint/chap-Proper-base-change/sec-The-projective-line/subsec-Henselian-pairs-and-curves/theorem-finite-etale-covers-proper-henselian/theorem-finite-etale-covers-proper-henselian--2.md",
@@ -811765,7 +811818,7 @@
    "theorem-gabber-affine-proper-base-change": "proved",
    "theorem-finite-etale-covers-proper-henselian--3": "proved",
    "theorem-finite-etale-covers-proper-henselian--2": "proved",
-   "theorem-finite-etale-covers-proper-henselian": "absent",
+   "theorem-finite-etale-covers-proper-henselian": "proved",
    "theorem-f-shriek-finite-coefficients--2": "proved",
    "theorem-f-shriek-finite-coefficients--1": "proved",
    "theorem-f-shriek-finite-coefficients": "proved",
@@ -811817,7 +811870,7 @@
    "theorem-contracting-correspondences-local-terms--1": "proved",
    "theorem-contracting-correspondences-local-terms": "proved",
    "theorem-comparison-over-henselian-pair-degree--1": "proved",
-   "theorem-comparison-over-henselian-pair-degree": "absent",
+   "theorem-comparison-over-henselian-pair-degree": "proved",
    "theorem-comparison-direct-images--1": "proved",
    "theorem-comparison-direct-images": "proved",
    "theorem-comparison-constructible-sheaves--text-1": "absent",
@@ -813155,7 +813208,7 @@
    "proposition-cohomology-smooth-affine-curve--1": "proved",
    "proposition-cohomology-smooth-affine-curve": "proved",
    "proposition-cohomology-p-1-over-henselian--1": "proved",
-   "proposition-cohomology-p-1-over-henselian": "absent",
+   "proposition-cohomology-p-1-over-henselian": "proved",
    "proposition-central-element-arithmetic-monodromy-group--2": "proved",
    "proposition-central-element-arithmetic-monodromy-group--1": "proved",
    "proposition-central-element-arithmetic-monodromy-group": "absent",
@@ -813305,7 +813358,7 @@
    "lemma-sections-support-closed-subscheme--1": "proved",
    "lemma-sections-support-closed-subscheme": "proved",
    "lemma-sections-geometric-fibre--1": "proved",
-   "lemma-sections-geometric-fibre": "absent",
+   "lemma-sections-geometric-fibre": "proved",
    "lemma-section-specialized-correspondence--2": "proved",
    "lemma-section-specialized-correspondence--1": "proved",
    "lemma-section-specialized-correspondence": "proved",
@@ -813410,7 +813463,7 @@
    "lemma-perfect-complexes-geometric-point--1": "proved",
    "lemma-perfect-complexes-geometric-point": "proved",
    "lemma-pbc-projective-space--1": "proved",
-   "lemma-pbc-projective-space": "absent",
+   "lemma-pbc-projective-space": "proved",
    "lemma-passing-schematic-closure--2": "proved",
    "lemma-passing-schematic-closure--1": "proved",
    "lemma-passing-schematic-closure": "absent",
@@ -813577,7 +813630,7 @@
    "lemma-identity-pasting--3": "proved",
    "lemma-identity-pasting--2": "proved",
    "lemma-identity-pasting--1": "proved",
-   "lemma-identity-pasting": "absent",
+   "lemma-identity-pasting": "proved",
    "lemma-identity-component--1": "proved",
    "lemma-identity-component": "proved",
    "lemma-hypotheses-brown-representability--text-1": "absent",
@@ -813654,7 +813707,7 @@
    "lemma-finite-morphisms-cohomology": "absent",
    "lemma-finite-morphisms--2": "proved",
    "lemma-finite-morphisms--1": "proved",
-   "lemma-finite-morphisms": "absent",
+   "lemma-finite-morphisms": "proved",
    "lemma-finite-generically-etale-map-line--3": "proved",
    "lemma-finite-generically-etale-map-line--2": "proved",
    "lemma-finite-generically-etale-map-line--1": "proved",
@@ -813913,7 +813966,7 @@
    "lemma-acyclicity-pulled-back-injectives--1": "proved",
    "lemma-acyclicity-pulled-back-injectives": "proved",
    "lemma-acyclicity-closed-fibre--1": "proved",
-   "lemma-acyclicity-closed-fibre": "absent",
+   "lemma-acyclicity-closed-fibre": "proved",
    "lemma-acyclic-resolutions--1": "proved",
    "lemma-acyclic-resolutions": "proved",
    "lemma-abelian-variety-commutative--2": "proved",
@@ -814116,7 +814169,7 @@
    "definition-verdier-dual-evaluation--1": "proved",
    "definition-verdier-dual-evaluation": "absent",
    "definition-underived-base-change-map--1": "proved",
-   "definition-underived-base-change-map": "absent",
+   "definition-underived-base-change-map": "proved",
    "definition-trace-morphism--1": "proved",
    "definition-trace-morphism": "absent",
    "definition-trace-map-affine-line--1": "absent",
@@ -814136,7 +814189,7 @@
    "definition-torsion-sheaves--1": "proved",
    "definition-torsion-sheaves": "proved",
    "definition-torsion-pbc-property--1": "proved",
-   "definition-torsion-pbc-property": "absent",
+   "definition-torsion-pbc-property": "proved",
    "definition-tensor-construction--1": "absent",
    "definition-tensor-construction": "absent",
    "definition-tate-twists--text-1": "absent",
@@ -814186,9 +814239,9 @@
    "definition-punctual-sheaf--1": "proved",
    "definition-punctual-sheaf": "absent",
    "definition-projection-formula-map--1": "proved",
-   "definition-projection-formula-map": "absent",
+   "definition-projection-formula-map": "proved",
    "definition-pro-etale-base-change-map--1": "proved",
-   "definition-pro-etale-base-change-map": "absent",
+   "definition-pro-etale-base-change-map": "proved",
    "definition-perverse-sheaves-curve--4": "proved",
    "definition-perverse-sheaves-curve--3": "proved",
    "definition-perverse-sheaves-curve--2": "proved",
@@ -814214,7 +814267,7 @@
    "definition-kunneth-map--1": "proved",
    "definition-kunneth-map": "absent",
    "definition-injective-acyclicity--1": "proved",
-   "definition-injective-acyclicity": "absent",
+   "definition-injective-acyclicity": "proved",
    "definition-ind-etale-pro-etale-weakly--3": "proved",
    "definition-ind-etale-pro-etale-weakly--2": "proved",
    "definition-ind-etale-pro-etale-weakly--1": "proved",
@@ -817006,7 +817059,7 @@
     {"total": 1, "proved": 1},
     "theorem-finite-etale-covers-proper-henselian--2":
     {"total": 1, "proved": 1},
-    "theorem-finite-etale-covers-proper-henselian": {"total": 1, "proved": 0},
+    "theorem-finite-etale-covers-proper-henselian": {"total": 1, "proved": 1},
     "theorem-f-shriek-finite-coefficients--2": {"total": 1, "proved": 1},
     "theorem-f-shriek-finite-coefficients--1": {"total": 1, "proved": 1},
     "theorem-f-shriek-finite-coefficients": {"total": 1, "proved": 1},
@@ -817061,7 +817114,7 @@
     {"total": 1, "proved": 1},
     "theorem-comparison-over-henselian-pair-degree--1":
     {"total": 1, "proved": 1},
-    "theorem-comparison-over-henselian-pair-degree": {"total": 1, "proved": 0},
+    "theorem-comparison-over-henselian-pair-degree": {"total": 1, "proved": 1},
     "theorem-comparison-direct-images--1": {"total": 1, "proved": 1},
     "theorem-comparison-direct-images": {"total": 1, "proved": 1},
     "theorem-comparison-constructible-sheaves--3": {"total": 1, "proved": 1},
@@ -817751,7 +817804,7 @@
     "proposition-cohomology-smooth-affine-curve--1": {"total": 1, "proved": 1},
     "proposition-cohomology-smooth-affine-curve": {"total": 1, "proved": 1},
     "proposition-cohomology-p-1-over-henselian--1": {"total": 1, "proved": 1},
-    "proposition-cohomology-p-1-over-henselian": {"total": 1, "proved": 0},
+    "proposition-cohomology-p-1-over-henselian": {"total": 1, "proved": 1},
     "proposition-central-element-arithmetic-monodromy-group--2":
     {"total": 1, "proved": 1},
     "proposition-central-element-arithmetic-monodromy-group--1":
@@ -817910,7 +817963,7 @@
     "lemma-sections-support-closed-subscheme--1": {"total": 1, "proved": 1},
     "lemma-sections-support-closed-subscheme": {"total": 1, "proved": 1},
     "lemma-sections-geometric-fibre--1": {"total": 1, "proved": 1},
-    "lemma-sections-geometric-fibre": {"total": 1, "proved": 0},
+    "lemma-sections-geometric-fibre": {"total": 1, "proved": 1},
     "lemma-section-specialized-correspondence--2": {"total": 1, "proved": 1},
     "lemma-section-specialized-correspondence--1": {"total": 1, "proved": 1},
     "lemma-section-specialized-correspondence": {"total": 1, "proved": 1},
@@ -818019,7 +818072,7 @@
     "lemma-perfect-complexes-geometric-point--1": {"total": 1, "proved": 1},
     "lemma-perfect-complexes-geometric-point": {"total": 1, "proved": 1},
     "lemma-pbc-projective-space--1": {"total": 1, "proved": 1},
-    "lemma-pbc-projective-space": {"total": 1, "proved": 0},
+    "lemma-pbc-projective-space": {"total": 1, "proved": 1},
     "lemma-passing-schematic-closure--2": {"total": 1, "proved": 1},
     "lemma-passing-schematic-closure--1": {"total": 1, "proved": 1},
     "lemma-passing-schematic-closure": {"total": 1, "proved": 0},
@@ -818188,7 +818241,7 @@
     "lemma-identity-pasting--3": {"total": 1, "proved": 1},
     "lemma-identity-pasting--2": {"total": 1, "proved": 1},
     "lemma-identity-pasting--1": {"total": 1, "proved": 1},
-    "lemma-identity-pasting": {"total": 1, "proved": 0},
+    "lemma-identity-pasting": {"total": 1, "proved": 1},
     "lemma-identity-component--1": {"total": 1, "proved": 1},
     "lemma-identity-component": {"total": 1, "proved": 1},
     "lemma-hypotheses-brown-representability--9": {"total": 1, "proved": 1},
@@ -818264,7 +818317,7 @@
     "lemma-finite-morphisms-cohomology": {"total": 1, "proved": 0},
     "lemma-finite-morphisms--2": {"total": 1, "proved": 1},
     "lemma-finite-morphisms--1": {"total": 1, "proved": 1},
-    "lemma-finite-morphisms": {"total": 1, "proved": 0},
+    "lemma-finite-morphisms": {"total": 1, "proved": 1},
     "lemma-finite-generically-etale-map-line--3": {"total": 1, "proved": 1},
     "lemma-finite-generically-etale-map-line--2": {"total": 1, "proved": 1},
     "lemma-finite-generically-etale-map-line--1": {"total": 1, "proved": 1},
@@ -818537,7 +818590,7 @@
     "lemma-acyclicity-pulled-back-injectives--1": {"total": 1, "proved": 1},
     "lemma-acyclicity-pulled-back-injectives": {"total": 1, "proved": 1},
     "lemma-acyclicity-closed-fibre--1": {"total": 1, "proved": 1},
-    "lemma-acyclicity-closed-fibre": {"total": 1, "proved": 0},
+    "lemma-acyclicity-closed-fibre": {"total": 1, "proved": 1},
     "lemma-acyclic-resolutions--1": {"total": 1, "proved": 1},
     "lemma-acyclic-resolutions": {"total": 1, "proved": 1},
     "lemma-abelian-variety-commutative--2": {"total": 1, "proved": 1},
@@ -818571,7 +818624,7 @@
     "definition-verdier-dual-evaluation--1": {"total": 1, "proved": 1},
     "definition-verdier-dual-evaluation": {"total": 1, "proved": 0},
     "definition-underived-base-change-map--1": {"total": 1, "proved": 1},
-    "definition-underived-base-change-map": {"total": 1, "proved": 0},
+    "definition-underived-base-change-map": {"total": 1, "proved": 1},
     "definition-trace-morphism--1": {"total": 1, "proved": 1},
     "definition-trace-morphism": {"total": 1, "proved": 0},
     "definition-trace-map-affine-line--1": {"total": 1, "proved": 0},
@@ -818590,7 +818643,7 @@
     "definition-torsion-sheaves--1": {"total": 1, "proved": 1},
     "definition-torsion-sheaves": {"total": 1, "proved": 1},
     "definition-torsion-pbc-property--1": {"total": 1, "proved": 1},
-    "definition-torsion-pbc-property": {"total": 1, "proved": 0},
+    "definition-torsion-pbc-property": {"total": 1, "proved": 1},
     "definition-tensor-construction--1": {"total": 1, "proved": 0},
     "definition-tensor-construction": {"total": 1, "proved": 0},
     "definition-tate-twists--9": {"total": 1, "proved": 1},
@@ -818639,9 +818692,9 @@
     "definition-punctual-sheaf--1": {"total": 1, "proved": 1},
     "definition-punctual-sheaf": {"total": 1, "proved": 0},
     "definition-projection-formula-map--1": {"total": 1, "proved": 1},
-    "definition-projection-formula-map": {"total": 1, "proved": 0},
+    "definition-projection-formula-map": {"total": 1, "proved": 1},
     "definition-pro-etale-base-change-map--1": {"total": 1, "proved": 1},
-    "definition-pro-etale-base-change-map": {"total": 1, "proved": 0},
+    "definition-pro-etale-base-change-map": {"total": 1, "proved": 1},
     "definition-perverse-sheaves-curve--4": {"total": 1, "proved": 1},
     "definition-perverse-sheaves-curve--3": {"total": 1, "proved": 1},
     "definition-perverse-sheaves-curve--2": {"total": 1, "proved": 1},
@@ -818667,7 +818720,7 @@
     "definition-kunneth-map--1": {"total": 1, "proved": 1},
     "definition-kunneth-map": {"total": 1, "proved": 0},
     "definition-injective-acyclicity--1": {"total": 1, "proved": 1},
-    "definition-injective-acyclicity": {"total": 1, "proved": 0},
+    "definition-injective-acyclicity": {"total": 1, "proved": 1},
     "definition-ind-etale-pro-etale-weakly--3": {"total": 1, "proved": 1},
     "definition-ind-etale-pro-etale-weakly--2": {"total": 1, "proved": 1},
     "definition-ind-etale-pro-etale-weakly--1": {"total": 1, "proved": 1},
