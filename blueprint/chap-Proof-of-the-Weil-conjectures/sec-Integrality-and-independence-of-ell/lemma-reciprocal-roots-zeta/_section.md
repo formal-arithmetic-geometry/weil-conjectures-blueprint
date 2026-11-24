@@ -17,7 +17,7 @@ B=\prod_{i\ \mathrm{even}}P_{i,\ell}
 \tag{19.2}
 $$
 
-Every reciprocal root $a\in\overline{\mathbf Q}$ of $A$ or of $B$ is a
+Every [reciprocal root](@definition-reciprocal-root) $a\in\overline{\mathbf Q}$ of $A$ or of $B$ is a
 nonzero algebraic integer, and there is an integer $i$, odd for $A$
 and even for $B$, such that $|\tau(a)|=q^{i/2}$ for every field
 embedding $\tau:\mathbf Q(a)\hookrightarrow\mathbf C$ and such that

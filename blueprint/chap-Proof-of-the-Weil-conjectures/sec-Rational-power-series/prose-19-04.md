@@ -4,11 +4,11 @@ kind = "hidden"
 title = "Rational power series (1)"
 order = 1378
 +++
-The zeta function has integer coefficients by its definition, but the
-trace formula proves its rationality only over $\mathbf Q_\ell$, as an alternating
+The [zeta function](@corollary-point-counting-zeta-function) has integer coefficients by its definition, but the
+[trace formula](@theorem-trace-formula-euler-product) proves its rationality only over $\mathbf Q_\ell$, as an alternating
 product of $\ell$-adic characteristic polynomials. To compare these
-polynomials for different primes $\ell$, we need a form of the zeta
-function that does not mention $\ell$. We show that a rational power
+polynomials for different primes $\ell$, we need a form of the [zeta
+function](@corollary-point-counting-zeta-function) that does not mention $\ell$. We show that a rational power
 series with integer coefficients is a quotient of integral polynomials
 in a unique reduced form.
 
