@@ -11,5 +11,5 @@ absolute value is $\sqrt3=3^{1/2}$, which is weight $1=w+1$, as the
 theorem predicts.
 
 The weight of $M'$ bounds $H^1_c$, because the stalk of the transform
-at the origin of the dual line is the compactly supported cohomology of
+at the origin of the dual line is the [compactly supported cohomology](@proposition-construction-independence-rf-shriek) of
 $j_*M$.

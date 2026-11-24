@@ -7,8 +7,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $j_0:U_0\hookrightarrow C_0$ be as in
 Lemma [lemma-local-duality-point-c-u]. If $0\to F_1\to F\to F_2\to0$ is a
-short exact sequence of lisse Weil sheaves on $U_0$, with $F_1$ and
-$F_2$ pure of the same weight $w$, then the sequence
+short exact sequence of [lisse](@definition-lisse-sheaves) [Weil sheaves](@definition-weil-structure) on $U_0$, with $F_1$ and
+$F_2$ [pure](@definition-weights) of the same weight $w$, then the sequence
 
 $$
 0\longrightarrow j_*F_1\longrightarrow j_*F

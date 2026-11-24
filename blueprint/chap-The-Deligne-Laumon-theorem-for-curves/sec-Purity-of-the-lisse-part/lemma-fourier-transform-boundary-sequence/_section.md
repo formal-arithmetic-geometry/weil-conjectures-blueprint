@@ -15,5 +15,5 @@ $$
 \longrightarrow j'_*M'\longrightarrow0
 $$
 
-is exact. The sheaf $B'$ is lisse on the entire dual line and has weights at
-most $w$.
+is exact. The sheaf $B'$ is [lisse](@definition-lisse-sheaves) on the entire dual line and has [weights at
+most](@definition-weights) $w$.

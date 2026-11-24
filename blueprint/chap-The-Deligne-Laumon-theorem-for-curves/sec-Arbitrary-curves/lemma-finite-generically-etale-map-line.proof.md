@@ -6,7 +6,7 @@ uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contract
 +++
 The map is given by a function with a single pole, at a point at
 infinity, and we choose the order of this pole prime to $p$ so that
-the map is generically étale. We find the function by Riemann–Roch,
+the map is generically étale. We find the function by [Riemann–Roch](@theorem-riemann-roch-coherent-serre-duality),
 we show by a local computation at the pole that its differential is
 nonzero, and we check the assertions about $K$ stalk by stalk.
 
@@ -42,9 +42,9 @@ let $\pi$ be the restriction of the map to $C'_0$.
 
 Over the open in the statement, $\pi$ is
 finite étale and its inverse image lies in $C_0$, where $j_!F=F$.
-Moreover, the direct image of a lisse sheaf under a finite étale map is lisse,
+Moreover, the direct image of a [lisse](@definition-lisse-sheaves) sheaf under a finite étale map is [lisse](@definition-lisse-sheaves),
 because étale locally the map is a disjoint union of copies of the
-base. Hence $K$ is lisse there. For purity, note that at a closed point $y$ of this open,
+base. Hence $K$ is [lisse](@definition-lisse-sheaves) there. For [purity](@definition-weights), note that at a closed point $y$ of this open,
 the stalk of $K$ is a sum over the geometric points of the fibre, which
 Frobenius permutes.
 Consider such a cycle of length $e$, corresponding to a point over $y$ with
@@ -52,5 +52,5 @@ residue extension of degree $e$. On it the $e$th power of the operator is
 the local Frobenius upstairs, so an eigenvalue $\beta$ satisfies
 $|\iota\beta|^e=q_y^{ew/2}$, and the weight is still $w$. Since
 $R\pi_!=\pi_*$ for the finite map $\pi$, the identification of cohomology
-follows by composing direct images with compact support. It
+follows by composing [direct images with compact support](@proposition-construction-independence-rf-shriek). It
 commutes with Frobenius because the construction is defined over $k_0$.

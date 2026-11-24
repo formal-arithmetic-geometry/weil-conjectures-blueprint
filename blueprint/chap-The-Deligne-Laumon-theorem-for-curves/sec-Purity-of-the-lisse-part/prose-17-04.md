@@ -6,6 +6,6 @@ order = 1282
 +++
 In the next proof we use Lemma [lemma-fourier-transform-boundary-sequence]
 twice. Applying its vanishing argument to $M^0$ and to its dual, we see
-that the transform of the real sheaf is a single sheaf. Then, using
+that the transform of the [real](@definition-real-sheaves) sheaf is a single sheaf. Then, using
 the surjection $G\to j'_*M'$ of the lemma, we exhibit a twist of $M'$
-as a quotient of that real sheaf.
+as a quotient of that [real](@definition-real-sheaves) sheaf.

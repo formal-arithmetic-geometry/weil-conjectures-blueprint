@@ -9,8 +9,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 Let $C_0$ be a smooth geometrically connected affine curve. There
 are a smooth curve $C'_0$ containing $C_0$ with finite complement
 and a finite generically étale map $\pi:C'_0\to\mathbf A^1_{k_0}$.
-If $F$ is a pure lisse sheaf of weight $w$ on $C_0$, then the sheaf
-$K=\pi_*j_!F$, where $j:C_0\hookrightarrow C'_0$, is lisse and
-pure of weight $w$ outside the branch locus and the image of
+If $F$ is a [pure](@definition-weights) [lisse](@definition-lisse-sheaves) sheaf of weight $w$ on $C_0$, then the sheaf
+$K=\pi_*j_!F$, where $j:C_0\hookrightarrow C'_0$, is [lisse](@definition-lisse-sheaves) and
+[pure](@definition-weights) of weight $w$ outside the branch locus and the image of
 $C'_0\setminus C_0$. Moreover,
 $R\Gamma_c(\mathbf A^1,K)=R\Gamma_c(C,F)$ canonically.
