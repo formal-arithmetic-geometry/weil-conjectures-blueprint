@@ -27,9 +27,9 @@ Compactness for finite $A$ is Proposition [proposition-compactness-finite-coeffi
 For $E$ and $\overline{\mathbf Q}_\ell$ it is
 Theorem [theorem-compactness-rational-coefficients], and for $\mathcal O_E$
 it is Proposition [proposition-compactness-proper-direct-image]; in the integral and rational cases,
-$D^b_{\mathrm{ctf}}=\Dbc$.
+$\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}=\href{@definition-constructible-sheaves}{\Dbc}$.
 
-For generation, suppose that $K\in\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ receives no
+For generation, suppose that $K\in\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$ receives no
 nonzero maps from shifts of objects of a small skeleton. The objects
 $M$ with $\Hom(M[n],K)=0$ for all $n$ form a localizing subcategory
 containing [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves). Hence this subcategory contains $K$. Then $\mathrm{id}_K=0$, and so $K=0$.

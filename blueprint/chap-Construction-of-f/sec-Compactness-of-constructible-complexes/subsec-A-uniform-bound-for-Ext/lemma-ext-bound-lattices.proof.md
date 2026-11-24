@@ -14,7 +14,7 @@ By Lemma [lemma-integral-models](3) and (4), $b_!M_0$ lies in
 and $M_0$ is $\pi_E$-torsion free, its reductions are
 
 $$
-b_!M_0\otimes^{\mathbf L}_{\mathcal O_{E,X}}\mathcal O_{E,X}/\pi_E^n
+b_!M_0\otimes^{\mathbf L}_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}/\pi_E^n
 =b_!(M_0/\pi_E^n).
 $$
 
@@ -25,17 +25,17 @@ this pullback [Stacks, [09AF](https://stacks.math.columbia.edu/tag/09AF), [09A6]
 *Torsion targets.* We bound the complex that appears in
 (3.1) when the target is one of the [torsion sheaves](@definition-torsion-sheaves)
 $b_!(M_0/\pi_E^n)$. By [Stacks, [09A6](https://stacks.math.columbia.edu/tag/09A6)], $Rj_*$ in
-$D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n)$ of a sheaf pulled back from the
+$D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n)$ of a sheaf pulled back from the
 étale site is the pullback of its direct image in
 $D(X_{\acute{e}t},\mathcal O_E/\pi_E^n)$. On the étale site the degrees are
 controlled by the [cohomological dimension](@definition-cohomological-dimension), and hence
 $Rj_*j^*b_!(M_0/\pi_E^n)$ has cohomology in degrees
-$[0,\operatorname{cd}_\ell(j)]$. The fibre of the map from a sheaf to
-this complex lives in degrees $[0,\operatorname{cd}_\ell(j)+1]$, so the
+$[0,\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}]$. The fibre of the map from a sheaf to
+this complex lives in degrees $[0,\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+1]$, so the
 fibre formula of Lemma [lemma-sections-support-closed-subscheme](1) shows that
 
 $$
-R\underline\Gamma_Z\,b_!(M_0/\pi_E^n)\in D^{[0,\operatorname{cd}_\ell(j)+1]}(Z_{\mathrm{pro}\acute{e}t},\mathcal O_E/\pi_E^n),
+\href{@definition-local-cohomology}{R\underline\Gamma_Z}\,b_!(M_0/\pi_E^n)\in D^{[0,\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+1]}(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},\mathcal O_E/\pi_E^n),
 $$
 
 and its cohomology sheaves are [torsion sheaves](@definition-torsion-sheaves) pulled back from the
@@ -46,8 +46,8 @@ coefficients in a [torsion sheaf](@definition-torsion-sheaves) vanishes above [$
 the hypercohomology spectral sequence on $S$ gives
 
 $$
-H^q R\Gamma\bigl(S,(L_0^\vee/\pi_E^n)\otimes u^*R\underline\Gamma_Z\,b_!(M_0/\pi_E^n)\bigr)=0
-\quad(q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+1),
+H^q R\Gamma\bigl(S,(L_0^\vee/\pi_E^n)\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_Z}\,b_!(M_0/\pi_E^n)\bigr)=0
+\quad(q>\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+1),
 \tag{5.2}
 $$
 
@@ -55,7 +55,7 @@ for every $n$, $b$ and $M_0$.
 
 *Integral targets.* For the lattice $b_!M_0$ itself we write the
 relevant complex as a derived limit of its reductions modulo $\pi_E^n$. Consider the complex
-$L_0^\vee\otimes u^*R\underline\Gamma_Z\,b_!M_0$.
+$L_0^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_Z}\,b_!M_0$.
 By Lemma [lemma-limits-sections-support], the functors that form it
 commute with derived inverse limits of sequences. They also commute with
 reduction modulo $\pi_E^n$, which is the cone of multiplication by
@@ -65,12 +65,12 @@ In other words, the complex is the derived limit of its reductions, and
 we may compute its cohomology on $S$ from theirs.
 Derived global sections preserve products and cones, and hence derived
 inverse limits. Using (3.1) with $\mathcal O_E$
-coefficients, that is, for $R\!\operatorname{Hom}$ in $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$, we get
+coefficients, that is, for $R\!\operatorname{Hom}$ in $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal O_E)$, we get
 
 $$
 R\!\operatorname{Hom}_X(a_!L_0,b_!M_0)
-=R\Gamma\bigl(S,L_0^\vee\otimes u^*R\underline\Gamma_Z\,b_!M_0\bigr)
-=R\varprojlim_n R\Gamma\bigl(S,(L_0^\vee\otimes u^*R\underline\Gamma_Z\,b_!M_0)\otimes^{\mathbf L}\mathcal O_E/\pi_E^n\bigr).
+=R\Gamma\bigl(S,L_0^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_Z}\,b_!M_0\bigr)
+=R\varprojlim_n R\Gamma\bigl(S,(L_0^\vee\otimes u^*\href{@definition-local-cohomology}{R\underline\Gamma_Z}\,b_!M_0)\otimes^{\mathbf L}\mathcal O_E/\pi_E^n\bigr).
 $$
 
 A derived inverse limit of a sequence raises an upper bound on cohomology

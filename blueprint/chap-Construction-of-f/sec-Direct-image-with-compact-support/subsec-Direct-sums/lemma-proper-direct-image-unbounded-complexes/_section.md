@@ -15,7 +15,7 @@ $\leq b$, respectively $\geq a$.
 1. $Rp_*$ maps [$\Dic(X,\Lambda)$](@corollary-ambient-ind-derived) into [$\Dic(Y,\Lambda)$](@corollary-ambient-ind-derived), with
    $Rp_*\Dic^{\leq b}(X,\Lambda)\subset\Dic^{\leq b+2d+1}(Y,\Lambda)$ and
    $Rp_*\Dic^{\geq a}(X,\Lambda)\subset\Dic^{\geq a}(Y,\Lambda)$.
-2. For $K\in\Dic(X,\Lambda)$ and every integer $q$, the truncation maps
+2. For $K\in\href{@corollary-ambient-ind-derived}{\Dic(X,\Lambda)}$ and every integer $q$, the truncation maps
    $K\leftarrow\tau_{\leq q}K\to\tau_{\geq q-2d-1}\tau_{\leq q}K$ induce an
    isomorphism in [$\IndCons(Y,\Lambda)$](@definition-ind-constructible-sheaves)
    $$
@@ -23,4 +23,4 @@ $\leq b$, respectively $\geq a$.
    \mathcal H^q\bigl(Rp_*\tau_{\geq q-2d-1}\tau_{\leq q}K\bigr).
    \tag{5.6}
    $$
-3. $Rp_*:\Dic(X,\Lambda)\to\Dic(Y,\Lambda)$ preserves arbitrary direct sums.
+3. $Rp_*:\href{@corollary-ambient-ind-derived}{\Dic(X,\Lambda)}\to\href{@corollary-ambient-ind-derived}{\Dic(Y,\Lambda)}$ preserves arbitrary direct sums.

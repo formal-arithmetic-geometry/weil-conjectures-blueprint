@@ -15,7 +15,7 @@ $N$ [constructible](@definition-constructible-sheaves), and a bound on the ampli
 For continuity, take $C=a_!L$ on a stratum. By
 Lemma [lemma-sections-support-closed-subscheme](2), $R\!\operatorname{Hom}(a_!L,-)$ is
 $R\Gamma(S,-)$ of the dual of $L$ tensored with
-$u^*R\underline\Gamma_Z$. The proof of that formula uses only that $L$ is
+$u^*\href{@definition-local-cohomology}{R\underline\Gamma_Z}$. The proof of that formula uses only that $L$ is
 dualizable, which holds by
 Lemma [lemma-structure-integral-constructible-complexes](3), and so continuity follows from
 Corollary [corollary-continuity-cohomology].

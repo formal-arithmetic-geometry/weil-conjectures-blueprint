@@ -6,7 +6,7 @@ order = 519
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekToLowerStarComp", "AlgebraicGeometry.Etale.compactificationForgetSupports", "AlgebraicGeometry.Etale.derivedOpenImmersionLowerShriekToLowerStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationIso_hom_app_comp_toLowerStar"]
 uses = ["definition-underived-base-change-map", "theorem-proper-base-change-classical-pro", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness"]
 +++
-There is a natural map $\eta_f:Rf_!\to Rf_*$ on
+There is a natural map $\eta_f:\href{@proposition-construction-independence-rf-shriek}{Rf_!}\to Rf_*$ on
 [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory). For a compactification $f=pj$ it is
 
 $$
@@ -19,8 +19,8 @@ compactification, and the square
 
 $$
 \begin{CD}
-Rg_!Rf_! @>{c^!_{g,f}}>> R(gf)_!\\
-@V{Rg_*(\eta_f)\,\circ\,(\eta_g Rf_!)}VV @VV{\eta_{gf}}V\\
+\href{@proposition-construction-independence-rf-shriek}{Rg_!}\href{@proposition-construction-independence-rf-shriek}{Rf_!} @>{c^!_{g,f}}>> \href{@proposition-construction-independence-rf-shriek}{R(gf)_!}\\
+@V{Rg_*(\eta_f)\,\circ\,(\eta_g \href{@proposition-construction-independence-rf-shriek}{Rf_!})}VV @VV{\eta_{gf}}V\\
 Rg_*Rf_* @>{c^*_{g,f}}>> R(gf)_*
 \end{CD}
 $$

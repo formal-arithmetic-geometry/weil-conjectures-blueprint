@@ -13,6 +13,6 @@ $\mathcal O_{E,T}$-module $M_0$ that is locally free of finite rank,
 
 $$
 \Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)=0
-\quad(q>\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2).
+\quad(q>\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(j)}+\href{@definition-cohomological-dimension}{\operatorname{cd}_\ell(S)}+2).
 \tag{5.1}
 $$

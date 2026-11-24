@@ -6,6 +6,6 @@ order = 431
 lean = ["CategoryTheory.ObjectProperty.localizingClosure", "CategoryTheory.ObjectProperty.isLocalizing_localizingClosure", "AlgebraicGeometry.ProEtale.DerivedCategory.localizingConstructibleFiniteTor", "AlgebraicGeometry.ProEtale.CondensedRing.localizingBoundedConstructible", "AlgebraicGeometry.ProEtale.localizingClosureProEtale"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-comparison-morphism-inverse-image", "definition-constructible-sheaves", "lemma-constructible-sheaves"]
 +++
-For admissible $\Lambda$, let $\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$ be
-the smallest full triangulated subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$
+For admissible $\Lambda$, let $\Loc(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$ be
+the smallest full triangulated subcategory of $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$
 containing [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) and closed under arbitrary direct sums.

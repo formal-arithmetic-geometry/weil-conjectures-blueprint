@@ -11,11 +11,11 @@ For every admissible $\Lambda$, the following statements hold on
 
 1. For separated morphisms of finite type $X\xrightarrow fY
   \xrightarrow gZ$ there is a canonical isomorphism
-   $Rg_!\circ Rf_!\simeq R(gf)_!$. These isomorphisms are associative and
-   compatible with the identity $R(\mathrm{id})_!=\mathrm{id}$.
+   $\href{@proposition-construction-independence-rf-shriek}{Rg_!}\circ \href{@proposition-construction-independence-rf-shriek}{Rf_!}\simeq \href{@proposition-construction-independence-rf-shriek}{R(gf)_!}$. These isomorphisms are associative and
+   compatible with the identity $\href{@proposition-construction-independence-rf-shriek}{R(\mathrm{id})_!}=\mathrm{id}$.
 2. Let $v:Y'\to Y$ be a morphism, $f':X'\to Y'$ the base change of $f$
    along $v$, and $u:X'\to X$ the projection. The base change map
    (5.8) is an isomorphism
-   $v^*Rf_!\simeq Rf'_!u^*$. It does not depend on the compactification, and
+   $v^*\href{@proposition-construction-independence-rf-shriek}{Rf_!}\simeq \href{@proposition-construction-independence-rf-shriek}{Rf'_!}u^*$. It does not depend on the compactification, and
    it is compatible with composing cartesian squares and with the
    composition isomorphisms of (1).

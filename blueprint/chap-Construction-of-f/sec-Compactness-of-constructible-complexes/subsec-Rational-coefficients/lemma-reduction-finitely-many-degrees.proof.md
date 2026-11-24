@@ -21,7 +21,7 @@ $\tau_{\leq-d_C-1}K'\to K'\to\tau_{\geq-d_C}K'\to$. It suffices to show that
 
 $$
 \Hom(C,L)=0\qquad
-\text{for every }L\in\Dic(X,\Lambda)\text{ with }H^q(L)=0\text{ for }q>-d_C-1,
+\text{for every }L\in\href{@corollary-ambient-ind-derived}{\Dic(X,\Lambda)}\text{ with }H^q(L)=0\text{ for }q>-d_C-1,
 \tag{5.4}
 $$
 
@@ -42,7 +42,7 @@ The [pro-étale site](@definition-small-pro-etale-site) has a basis of [weakly c
 (Theorem [theorem-enough-affine-weakly-contractible-objects]). For
 this reason
 Proposition [proposition-exact-products] applies: products of $\Lambda_X$-modules are
-exact, products in $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ are computed termwise, and
+exact, products in $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ are computed termwise, and
 
 $$
 L=R\varprojlim_n\tau_{\geq-n}L

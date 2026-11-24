@@ -12,6 +12,6 @@ the pro-étale [localizing categories](@definition-localizing-subcategory).
 
 Since $Rp_*$ maps [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(Y,A)$](@definition-constructible-sheaves) by
 Proposition [proposition-proper-direct-image-finite-coefficients], the objects
-$K\in\Loc(D^b_{\mathrm{ctf}}(X,A))$ whose direct image belongs to
+$K\in\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)})$ whose direct image belongs to
 [$\Loc(D^b_{\mathrm{ctf}}(Y,A))$](@definition-localizing-subcategory) form a triangulated subcategory closed under direct
 sums and containing [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves), that is, all of [$\Loc(D^b_{\mathrm{ctf}}(X,A))$](@definition-localizing-subcategory).

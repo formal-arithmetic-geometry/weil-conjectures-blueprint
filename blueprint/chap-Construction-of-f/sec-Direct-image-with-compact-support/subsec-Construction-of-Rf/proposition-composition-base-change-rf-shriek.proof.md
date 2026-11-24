@@ -23,7 +23,7 @@ because the open immersion $\overline X\to r^{-1}(Y)$ is a morphism from a prope
 $Y$-scheme to a separated $Y$-scheme, hence proper, and its image is
 closed, open and dense.
 
-The interchange map is defined as follows. For $M$ in $D(\overline X_{\mathrm{pro}\acute{e}t},\Lambda)$, restriction to the open
+The interchange map is defined as follows. For $M$ in $D(\href{@definition-small-pro-etale-site}{\overline X_{\mathrm{pro}\acute{e}t}},\Lambda)$, restriction to the open
 $Y\subset\overline Y$ identifies $j_Y^*Rr_*j'_!M$ with $Rp_*M$, because
 $r^{-1}(Y)=\overline X$, the restriction of $r$ over $Y$ is $p$, and
 $j'_!M$ restricts to $M$ on $\overline X$. By the adjunction $j_{Y!}\dashv j_Y^*$, we obtain a map
@@ -35,7 +35,7 @@ $$
 
 which is the unique map restricting to the identity of $Rp_*M$ over $Y$.
 
-For $M\in D^b_{\mathrm{ctf}}(\overline X,\Lambda)$, this map is an isomorphism. Indeed, over $Y$ it is the identity, and over $\overline Y\setminus Y$ both sides vanish.
+For $M\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(\overline X,\Lambda)}$, this map is an isomorphism. Indeed, over $Y$ it is the identity, and over $\overline Y\setminus Y$ both sides vanish.
 For the right-hand side, the vanishing follows from proper base change on [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves)
 (Proposition [proposition-proper-base-change-localizing-categories]) for the inclusion
 of $\overline Y\setminus Y$ into $\overline Y$, since $j'_!M$ vanishes on
@@ -44,7 +44,7 @@ direct sums on [$\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$](@definition-loc
 (Proposition [proposition-proper-direct-image-extension-zero]). Hence
 Lemma [lemma-checking-isomorphisms-constructible-complexes] shows that
 $\iota_M$ is an isomorphism for all
-$M\in\Loc(D^b_{\mathrm{ctf}}(\overline X,\Lambda))$. For $M=j_!K$ it gives
+$M\in\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(\overline X,\Lambda)})$. For $M=j_!K$ it gives
 
 $$
 Rq_*j_{Y!}Rp_*j_!K\simeq Rq_*Rr_*j'_!j_!K=R(qr)_*(j'j)_!K,
@@ -72,7 +72,7 @@ Similarly, the unit conditions are the special case where one compactification i
 Finally, transitivity of the refinement maps carries these equalities over to
 the originally chosen compactifications.
 
-*Base change.* The base change map for $Rf_!=Rp_*j_!$ is built
+*Base change.* The base change map for $\href{@proposition-construction-independence-rf-shriek}{Rf_!}=Rp_*j_!$ is built
 from one for each factor, so we treat $j_!$ and $Rp_*$ separately. Since open immersions and proper
 morphisms are stable under base change, we may pull back a compactification
 $f=p\circ j$ along $v$ to a compactification $f'=p'\circ j'$, where now

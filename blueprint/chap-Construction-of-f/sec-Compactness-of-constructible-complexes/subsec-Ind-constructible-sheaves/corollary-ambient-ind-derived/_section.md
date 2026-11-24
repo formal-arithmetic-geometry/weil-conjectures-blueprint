@@ -11,9 +11,9 @@ The full subcategory
 
 $$
 \Dic(X,\Lambda)
-=\{K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda):H^n(K)\in\IndCons(X,\Lambda)\text{ for every }n\}
+=\{K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda):H^n(K)\in\href{@definition-ind-constructible-sheaves}{\IndCons(X,\Lambda)}\text{ for every }n\}
 $$
 
-of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ is triangulated, closed under direct sums, and
+of $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ is triangulated, closed under direct sums, and
 stable under the truncations $\tau_{\leq n}$, $\tau_{\geq n}$. In
-particular $\Loc(\Dbc(X,\Lambda))\subset\Dic(X,\Lambda)$.
+particular $\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{\Dbc(X,\Lambda)})\subset\Dic(X,\Lambda)$.

@@ -11,10 +11,10 @@ finite type over $k$.
 1. The objects of [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) are compact in
    [$\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$](@definition-localizing-subcategory) and a small skeleton compactly generates it.
 2. Compactifications define an exact functor
-   $Rf_!:\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))$, preserving
+   $Rf_!:\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})\to\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)})$, preserving
    direct sums and sending [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves).
 3. The functor $Rf_!$ has an exact right adjoint
-   $f^!:\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))$, obtained from
+   $f^!:\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)})\to\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})$, obtained from
    Brown representability.
 4. This right adjoint sends [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) into
    [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves), so its adjunction restricts to [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves).

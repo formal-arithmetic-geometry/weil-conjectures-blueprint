@@ -11,7 +11,7 @@ finite type with compactification $f=p\circ j$, let $v:Y'\to Y$ be a
 morphism, and let $f':X'\to Y'$, $u:X'\to X$, $p':\overline X'\to Y'$,
 $j':X'\to\overline X'$ and $v':\overline X'\to\overline X$ be the base
 changes, so that $f'=p'\circ j'$ is a compactification. For
-$K\in D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, the isomorphism
+$K\in D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$, the isomorphism
 $j'^*v'^*j_!K\simeq u^*j^*j_!K=u^*K$ corresponds under $j'_!\dashv j'^*$ to
 a map $j'_!u^*K\to v'^*j_!K$. This map is an isomorphism: it is the identity
 on the open $X'$, and both sides vanish on the closed complement

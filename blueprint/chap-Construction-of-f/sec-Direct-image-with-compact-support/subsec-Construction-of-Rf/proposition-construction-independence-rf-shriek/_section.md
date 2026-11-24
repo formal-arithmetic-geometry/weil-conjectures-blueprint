@@ -11,7 +11,7 @@ type, with compactification
 $f=p\circ j$ as above. The functor
 
 $$
-Rf_!=Rp_*\circ j_!:\Loc(D^b_{\mathrm{ctf}}(X,\Lambda))\to\Loc(D^b_{\mathrm{ctf}}(Y,\Lambda))
+Rf_!=Rp_*\circ j_!:\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,\Lambda)})\to\href{@definition-localizing-subcategory}{\Loc}(\href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)})
 $$
 
 is exact, preserves direct sums, and maps [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves) into

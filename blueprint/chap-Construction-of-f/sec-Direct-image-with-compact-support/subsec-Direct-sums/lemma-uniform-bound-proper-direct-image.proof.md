@@ -7,8 +7,8 @@ uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "de
 *Reduction to a lattice.* The vanishing statement is stable under
 extensions: if $R^qp_*$ vanishes for $q>2d+1$ on two
 sheaves, it vanishes on every extension of one by the other. By Lemma [lemma-constructible-sheaves](3), every
-$M\in\Cons(X,\Lambda)$ is a finite extension of sheaves $a_!L$, with
-$a:S\hookrightarrow X$ a locally closed immersion and $L$ [lisse](@definition-lisse-sheaves). Moreover, for $\Lambda=\overline{\mathbf Q}_\ell$, $L$ is the scalar extension $\QbarX\otimes_{E}L_E$ of a
+$M\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$ is a finite extension of sheaves $a_!L$, with
+$a:S\hookrightarrow X$ a locally closed immersion and $L$ [lisse](@definition-lisse-sheaves). Moreover, for $\Lambda=\overline{\mathbf Q}_\ell$, $L$ is the scalar extension $\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{E}L_E$ of a
 [lisse](@definition-lisse-sheaves) $E_S$-module $L_E$ for some finite $E/\mathbf Q_\ell$
 (Lemma [lemma-descent-lisse-qbar-sheaves-finite]). For $\Lambda=E$, we simply put $L_E=L$. In both cases we may refine $S$ by a finite stratification, since this
 replaces $a_!L$ by a finite extension of sheaves of the same form. By
@@ -72,10 +72,10 @@ original sheaf. Hence the [continuity lemma](@corollary-continuity-cohomology) a
 arbitrary affine [weakly contractible](@definition-weak-contractibility) object, formula
 (5.5) shows that
 $R^qp_*(a_!L)=0$ for $q>2d+1$. By the first step, $R^qp_*M=0$ for $q>2d+1$
-and every $M\in\Cons(X,\Lambda)$.
+and every $M\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$.
 
 *Passage to $\IndCons(X,\Lambda)$.* For [constructible](@definition-constructible-sheaves) $M$ we have
-$R^qp_*M\in\Cons(Y,\Lambda)$, because $Rp_*$ maps
+$R^qp_*M\in\href{@definition-constructible-sheaves}{\Cons(Y,\Lambda)}$, because $Rp_*$ maps
 [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves) into [$\Dbc(Y,\Lambda)$](@definition-constructible-sheaves) by
 Proposition [proposition-proper-direct-image-constructible-complexes].
 Moreover, every object of [$\IndCons(X,\Lambda)$](@definition-ind-constructible-sheaves) is a filtered colimit of
