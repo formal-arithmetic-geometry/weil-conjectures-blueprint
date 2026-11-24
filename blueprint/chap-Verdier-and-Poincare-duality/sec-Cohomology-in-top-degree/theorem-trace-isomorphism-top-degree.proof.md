@@ -4,7 +4,7 @@ of = "theorem-trace-isomorphism-top-degree"
 order = 867
 uses = ["corollary-continuity-cohomology", "corollary-degreewise-duality-over-fields", "lemma-class-of-point", "theorem-trace-formula-euler-product"]
 +++
-We read off the top degree from Poincaré duality in degree zero
+We read off the top degree from [Poincaré duality](@theorem-poincare-duality) in degree zero
 over $\mathbf Z/\ell^n$, and then change coefficients: to a finite
 $A$ by extension of scalars, to $\mathcal O_E$ by a limit, and to the
 fields by inverting $\ell$.
@@ -22,7 +22,7 @@ the ordinary dual of the opposite cohomology. Hence Poincaré
 duality (Theorem [theorem-poincare-duality]) in degree zero identifies $H^{2d}(X,\mathbf Z/\ell^n(d))$
 with $\Hom(H^0(X,\mathbf Z/\ell^n),\mathbf Z/\ell^n)=\mathbf Z/\ell^n$.
 By Theorem [theorem-poincare-duality] this identification is given by
-pairing with $H^0$ and applying the trace map, so it is
+pairing with $H^0$ and applying the [trace map](@definition-trace-map), so it is
 $\operatorname{tr}_X(d)$.
 
 A general finite ring $A$ need not be injective over itself, so we reach it by extension of scalars instead. Every finite $A$ is an algebra over some $\mathbf Z/\ell^n$, and by
@@ -36,7 +36,7 @@ upper bound holds.
 
 For $\mathcal O_E$, we write $R\Gamma(X,\mathcal O_{E,X}(d))$ as the
 derived inverse limit of the complexes $R\Gamma(X,(\mathcal O_E/\pi_E^n)_X(d))$.
-Its cohomology fits into the Milnor sequence
+Its cohomology fits into the [Milnor sequence](@proposition-milnor-sequence)
 $0\to\lim^1_nH^{i-1}\to H^i\to\lim_nH^i\to0$. Since the cohomology groups at each level are finite, they satisfy the Mittag–Leffler condition and there is no $\lim^1$
 contribution to the top group. The traces in top degree are
 compatible, so we get $H^{2d}(X,\mathcal O_{E,X}(d))=\mathcal O_E$, with the same

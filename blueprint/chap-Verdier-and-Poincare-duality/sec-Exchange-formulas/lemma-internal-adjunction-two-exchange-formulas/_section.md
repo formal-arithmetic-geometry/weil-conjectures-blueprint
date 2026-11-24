@@ -36,5 +36,5 @@ Rf_*K\xrightarrow{\delta_{Rf_*K}}\mathbb D_Y\mathbb D_YRf_*K
 \simeq\mathbb D_YRf_*\mathbb D_XK
 $$
 
-of $\delta_{Rf_*K}$ and $\mathbb D_Y$ applied to
+of [$\delta_{Rf_*K}$](@definition-verdier-dual-evaluation) and [$\mathbb D_Y$](@definition-verdier-dual-evaluation) applied to
 $e_K$.

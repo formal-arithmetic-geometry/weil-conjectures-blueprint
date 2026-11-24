@@ -8,7 +8,7 @@ uses = ["definition-constructible-sheaves", "proposition-composition-open-restri
 In the setting above, let $X$ be a $B$-scheme of finite type, let
 $h:T\to X$ be a separated morphism of $B$-schemes of finite type, let
 $i:Z\to X$ be a closed immersion, and let $L$ on $T$ and $K,M$ on $X$
-be bounded constructible complexes, with $K\in D^b_{\mathrm{ctf}}(X,A)$. The three maps
+be bounded [constructible complexes](@definition-constructible-sheaves), with $K\in D^b_{\mathrm{ctf}}(X,A)$. The three maps
 
 $$
 \begin{aligned}

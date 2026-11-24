@@ -14,4 +14,4 @@ isomorphism
 $g_V^*\mathbb D_V\mathbb D_V(K|_V)\simeq\mathbb D_{V_{\bar\eta}}
 \mathbb D_{V_{\bar\eta}}g_V^*(K|_V)$ obtained from it and from the
 comparison for internal Hom (applied twice) carries
-$g_V^*\delta_{K|_V}$ to $\delta_{g_V^*(K|_V)}$.
+$g_V^*\delta_{K|_V}$ to [$\delta_{g_V^*(K|_V)}$](@definition-verdier-dual-evaluation).

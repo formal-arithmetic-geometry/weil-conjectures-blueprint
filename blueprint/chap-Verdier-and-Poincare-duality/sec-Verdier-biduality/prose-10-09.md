@@ -4,4 +4,4 @@ kind = "hidden"
 title = "Verdier biduality (5)"
 order = 844
 +++
-With these lemmas we can prove biduality.
+With these lemmas we can prove [biduality](@theorem-verdier-biduality).

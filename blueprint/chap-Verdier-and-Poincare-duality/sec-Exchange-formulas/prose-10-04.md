@@ -4,10 +4,10 @@ kind = "hidden"
 title = "Exchange formulas (3)"
 order = 829
 +++
-On the geometric point we have $\omega_s=\Lambda_s$, so $\delta$ is the
+On the geometric point we have $\omega_s=\Lambda_s$, so [$\delta$](@definition-verdier-dual-evaluation) is the
 evaluation map of Lemma [lemma-perfect-complexes-geometric-point].
 
-The proof of biduality uses only the exchange formulas that follow from
+The proof of [biduality](@theorem-verdier-biduality) uses only the [exchange formulas](@lemma-internal-adjunction-two-exchange-formulas) that follow from
 adjunctions. We first write down the comparison maps. Let $f:X\to Y$
 be a morphism, $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and $L\in D^b_{\mathrm{ctf}}(Y,\Lambda)$. The
 map

@@ -5,5 +5,5 @@ title = "Verdier duality preserves constructibility"
 order = 836
 uses = ["definition-constructible-sheaves", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
 +++
-For every admissible $\Lambda$, $\mathbb D_X$ restricts to a functor
+For every admissible $\Lambda$, [$\mathbb D_X$](@definition-verdier-dual-evaluation) restricts to a functor
 $D^b_{\mathrm{ctf}}(X,\Lambda)^{\mathrm{op}}\to D^b_{\mathrm{ctf}}(X,\Lambda)$.

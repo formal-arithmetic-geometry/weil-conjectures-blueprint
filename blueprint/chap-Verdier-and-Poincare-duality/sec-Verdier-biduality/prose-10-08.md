@@ -4,6 +4,6 @@ kind = "hidden"
 title = "Verdier biduality (4)"
 order = 841
 +++
-For $B=\mathbf A^1_k$ the dualizing complex changes by a twist under
+For $B=\mathbf A^1_k$ the [dualizing complex](@definition-verdier-dual-evaluation) changes by a twist under
 restriction to the geometric generic fibre, and this twist cancels in
 the double dual.

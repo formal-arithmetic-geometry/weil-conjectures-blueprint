@@ -4,8 +4,8 @@ of = "corollary-verdier-exchange-formulas"
 order = 849
 uses = ["proposition-exact-products", "proposition-milnor-sequence", "definition-lisse-sheaves", "lemma-integral-models", "proposition-inverting-ell", "definition-pro-etale-base-change-map", "definition-projection-formula-map", "proposition-proper-direct-image-constructible-complexes", "proposition-composition-base-change-rf-shriek", "proposition-exceptional-inverse-image-smooth-morphism", "proposition-six-operations-dctf", "lemma-extension-scalars-preserves-dctf", "lemma-change-coefficients-direct-image", "proposition-six-operations-change-coefficients", "lemma-internal-adjunction-two-exchange-formulas", "lemma-verdier-duality-preserves-constructibility", "theorem-verdier-biduality"]
 +++
-Two of the formulas are Lemma [lemma-internal-adjunction-two-exchange-formulas], and we obtain the other two by applying these to the Verdier dual of the argument and
-using biduality on both schemes. Explicitly, for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and
+Two of the formulas are Lemma [lemma-internal-adjunction-two-exchange-formulas], and we obtain the other two by applying these to the [Verdier dual](@definition-verdier-dual-evaluation) of the argument and
+using [biduality](@theorem-verdier-biduality) on both schemes. Explicitly, for $K\in D^b_{\mathrm{ctf}}(X,\Lambda)$ and
 $L\in D^b_{\mathrm{ctf}}(Y,\Lambda)$ this reads
 
 $$

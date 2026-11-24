@@ -15,7 +15,7 @@ $$
 H^i(X,\Lambda)\times H^{2d-i}(X,\Lambda)\longrightarrow\Lambda(-d),
 $$
 
-is perfect, and $\langle b,a\rangle=(-1)^i\langle a,b\rangle$. In
+is [perfect](@definition-perfect-pairing), and $\langle b,a\rangle=(-1)^i\langle a,b\rangle$. In
 particular, if $d$ is odd and $\Lambda$ has characteristic zero, the
 pairing on $H^d(X,\Lambda)$ is alternating, as for a compact complex
 manifold of odd dimension.

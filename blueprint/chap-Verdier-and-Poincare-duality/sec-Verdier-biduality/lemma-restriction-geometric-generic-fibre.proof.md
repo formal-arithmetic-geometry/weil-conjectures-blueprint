@@ -6,10 +6,10 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 We prove the comparisons in the order stated, each using the
 previous ones: the direct image by continuity along a limit of étale
-maps, $i^!$ by the localization triangle, and internal Hom by
+maps, [$i^!$](@theorem-existence-exceptional-inverse-image) by the localization triangle, and internal Hom by
 dévissage to generators $t_!P$. Throughout, with finite coefficients
 Proposition [proposition-comparison-etale-derived-category] lets us
-compute $D^b_{\mathrm{ctf}}(X,A)$ and the direct images by their classical
+compute [$D^b_{\mathrm{ctf}}(X,A)$](@definition-constructible-sheaves) and the direct images by their classical
 étale counterparts.
 
 *Direct image.* The geometric generic point is a limit of étale
@@ -59,7 +59,7 @@ functors of $K$. The dévissage of
 Lemma [lemma-verdier-duality-preserves-constructibility] therefore
 reduces us to $K=t_!P$,
 where $t$ is the inclusion of a stratum and $P$ is locally perfect
-on it. For these generators, internal adjunction and the dualizability of the locally perfect complex $P$ express internal Hom
+on it. For these generators, [internal adjunction](@lemma-internal-adjunction-two-exchange-formulas) and the dualizability of the locally perfect complex $P$ express internal Hom
 through operations we have already compared:
 
 $$
@@ -67,9 +67,9 @@ $$
 \simeq Rt_*(P^\vee\otimes^{\mathbf L}t^!M).
 $$
 
-We check that $g^*$ commutes with each operation on the right. For $t^!$ we factor $t$ as a closed immersion followed by an open immersion: for the open immersion $t^!$ is restriction, which commutes with $g^*$, and for the closed immersion
+We check that $g^*$ commutes with each operation on the right. For [$t^!$](@theorem-existence-exceptional-inverse-image) we factor $t$ as a closed immersion followed by an open immersion: for the open immersion [$t^!$](@theorem-existence-exceptional-inverse-image) is restriction, which commutes with $g^*$, and for the closed immersion
 we use the second comparison. Similarly, pullback commutes with $Rt_*$ by the first
 comparison, and it commutes with tensor products and with $P^\vee$. The first two comparisons apply here, because by
 Lemma [lemma-verdier-duality-preserves-constructibility]
-all complexes used remain bounded constructible. Hence the comparison holds
+all complexes used remain bounded [constructible](@definition-constructible-sheaves). Hence the comparison holds
 for $K=t_!P$.
