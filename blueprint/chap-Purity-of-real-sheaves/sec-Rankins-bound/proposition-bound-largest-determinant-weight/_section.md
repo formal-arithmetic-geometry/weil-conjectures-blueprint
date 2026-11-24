@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.WeilGroup.sq_norm_le_rpow_of_isReal"]
 uses = ["definition-determinant-weight", "definition-weil-representation", "definition-real-sheaves"]
 +++
 Let $U_0/\mathbf F_q$ be a smooth geometrically connected affine curve
-and let $\mathcal G\ne0$ be a lisse $\iota$-real Weil sheaf.  If $\beta$
-is the largest determinant weight of its irreducible Weil constituents,
+and let $\mathcal G\ne0$ be a [lisse](@definition-lisse-sheaves) $\iota$-[real](@definition-real-sheaves) [Weil sheaf](@definition-weil-structure).  If $\beta$
+is the largest [determinant weight](@definition-determinant-weight) of its irreducible Weil constituents,
 then
 
 $$

@@ -4,29 +4,29 @@ kind = "hidden"
 title = "Purity of real sheaves"
 order = 1089
 +++
-In Chapter [chap-The-Deligne-Laumon-theorem-for-curves] the Fourier transform of a pure sheaf
-produces a lisse sheaf $M'$ whose Frobenius eigenvalues we cannot compute.
+In Chapter [chap-The-Deligne-Laumon-theorem-for-curves] the Fourier transform of a [pure](@definition-weights) sheaf
+produces a [lisse](@definition-lisse-sheaves) sheaf $M'$ whose Frobenius eigenvalues we cannot compute.
 What we do know is that a twist of $M'$ is a quotient of a sheaf whose traces
-are real, and from this alone we must conclude that $M'$ is pure. In
+are real, and from this alone we must conclude that $M'$ is [pure](@definition-weights). In
 Chapter [chap-The-Deligne-Laumon-theorem-in-general] the same need returns for the direct
 images of a family of curves, which we can make real but do not know to be
-mixed. Both arguments rest on one theorem
+[mixed](@definition-weights). Both arguments rest on one theorem
 (Theorem [theorem-purity-real-sheaves-curves]):
 
 > on a smooth geometrically connected curve, every irreducible
-> constituent of a real lisse Weil sheaf is pure, of weight equal to its
+> constituent of a real [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) is [pure](@definition-weights), of weight equal to its
 > determinant weight.
 
-Before this theorem we know the weights of one kind of sheaf only: a lisse
+Before this theorem we know the weights of one kind of sheaf only: a [lisse](@definition-lisse-sheaves)
 sheaf of rank one on a curve has finite geometric monodromy, and therefore it is
-pure (Section [sec-Sheaves-of-rank-one]). In particular the determinant
-of every lisse sheaf is pure, and its weight divided by the rank, the determinant
+[pure](@definition-weights) (Section [sec-Sheaves-of-rank-one]). In particular the determinant
+of every [lisse](@definition-lisse-sheaves) sheaf is [pure](@definition-weights), and its weight divided by the rank, the determinant
 weight, is the average weight of the eigenvalues at each point. The theorem says that on an
 irreducible constituent of a real sheaf no eigenvalue deviates from this
 average.
 
-The tool is the trace formula. On an affine curve $U_0$ it expresses the
-$L$-function of a lisse sheaf $\mathcal G$ as
+The tool is the [trace formula](@theorem-trace-formula-euler-product). On an affine curve $U_0$ it expresses the
+[$L$-function](@theorem-trace-formula-euler-product) of a [lisse](@definition-lisse-sheaves) sheaf $\mathcal G$ as
 
 $$
 L(U_0,\mathcal G,t)
@@ -49,11 +49,11 @@ $\tau(n)$ to $O(n^{29/5})$ by studying the Dirichlet series
 $\sum_n\tau(n)^2n^{-s}$, whose coefficients are nonnegative. Deligne used the
 same argument in his first proof [deligne74].
 
-For the Euler factors to be positive, the traces must be real. We therefore call a lisse
-Weil sheaf real if its local characteristic polynomials have real coefficients
+For the Euler factors to be positive, the traces must be real. We therefore call a [lisse](@definition-lisse-sheaves)
+[Weil sheaf](@definition-weil-structure) real if its local characteristic polynomials have real coefficients
 under the fixed embedding $\iota$ of Convention [situation-weil]
 (Definition [definition-real-sheaves]). For example, every sheaf with rational
-characteristic polynomials is real, such as a Tate twist of the constant
+characteristic polynomials is real, such as a [Tate twist](@definition-tate-twists) of the constant
 sheaf. On an even tensor power $\mathcal G^{\otimes2m}$ of a
 real sheaf the traces are $2m$th powers of real numbers, and this makes the
 Euler factors positive. From this,
@@ -61,7 +61,7 @@ Proposition [proposition-bound-largest-determinant-weight] bounds each
 local eigenvalue $\alpha$ of $\mathcal G$ by $|\iota(\alpha)|^2\le q_x^\beta$,
 where $\beta$ is the largest determinant weight of the constituents.
 
-This is not yet the theorem, because a real sheaf need not be pure. For
+This is not yet the theorem, because a real sheaf need not be [pure](@definition-weights). For
 example, the sheaf $\overline{\mathbf Q}_\ell\oplus\overline{\mathbf Q}_\ell(-1)$ is real, with constituents of
 weights $0$ and $2$, but the bound only gives $2$ for both. To separate the
 constituents we pass to exterior powers. In
@@ -74,4 +74,4 @@ the exterior power in which a given group of constituents carries the
 largest determinant weight, and the same argument applies there. Positivity,
 however, only ever gives upper bounds. The lower bound comes from applying
 the same argument to the dual, and in Chapter [chap-Proof-of-the-Weil-conjectures] this
-role is played by Poincaré duality.
+role is played by [Poincaré duality](@theorem-poincare-duality).

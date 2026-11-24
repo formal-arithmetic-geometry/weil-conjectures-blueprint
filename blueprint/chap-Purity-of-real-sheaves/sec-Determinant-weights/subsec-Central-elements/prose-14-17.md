@@ -6,4 +6,4 @@ order = 1135
 +++
 For example, for $V=\mathcal B_b$ of Proposition [proposition-weights-under-usual-operations]
 the group $H$ is trivial. Hence $\rho(s)=b$ is central in $G$, and the
-determinant weight of $\mathcal B_b$ is $\lambda_\iota(b)$.
+[determinant weight](@definition-determinant-weight) of [$\mathcal B_b$](@proposition-weights-under-usual-operations) is [$\lambda_\iota(b)$](@proposition-weights-under-usual-operations).

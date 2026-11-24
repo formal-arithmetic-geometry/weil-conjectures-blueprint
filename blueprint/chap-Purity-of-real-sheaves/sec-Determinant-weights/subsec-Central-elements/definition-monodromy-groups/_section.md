@@ -4,6 +4,6 @@ kind = "definition"
 title = "Monodromy groups"
 order = 1131
 +++
-Let $\rho:W(U_0)\to\GL(V)$ be a Weil representation. Its
+Let $\rho:W(U_0)\to\GL(V)$ be a [Weil representation](@definition-weil-representation). Its
 *geometric* and *arithmetic monodromy groups* are the Zariski
 closures $H$ of $\rho(\pi_1(U))$ and $G$ of $\rho(W(U_0))$ in $\GL(V)$.

@@ -21,14 +21,14 @@ $\operatorname{dw}_\iota(A'_b)=\lambda_\iota(c'_b)/N$.
 
 (1) The central element acts by $c_ac'_b$ on $A_a\otimes A'_b$, and hence
 on every simple factor of it. By the same lemma, each such factor has
-determinant weight $\gamma_a+\operatorname{dw}_\iota(A'_b)$. Moreover, each
+[determinant weight](@definition-determinant-weight) $\gamma_a+\operatorname{dw}_\iota(A'_b)$. Moreover, each
 $A_a\otimes A'_b$ is nonzero, and Lemma [lemma-tensor-exterior-powers-filtered-representations]
 identifies the simple factors of these tensor products with those of
 $V\otimes V'$.
 
 (2) The central element acts on $\bigotimes_a\bigwedge^{n_a}A_a$ by
 $\prod_ac_a^{n_a}$. So each simple factor of this nonzero representation
-has determinant weight $\sum_an_a\gamma_a$, and
+has [determinant weight](@definition-determinant-weight) $\sum_an_a\gamma_a$, and
 Lemma [lemma-tensor-exterior-powers-filtered-representations] identifies these factors with those of
 $\bigwedge^rV$.
 

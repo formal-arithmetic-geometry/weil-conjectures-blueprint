@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Tensor operations (3)"
 order = 1150
 +++
-In particular every simple factor of $V^{\otimes m}$ has determinant weight
+In particular every simple factor of $V^{\otimes m}$ has [determinant weight](@definition-determinant-weight)
 at most $m\max\operatorname{DW}(V)$. In Section [sec-Exterior-powers-and-purity] we
 use this bound, and part (2), for the constituents of a real sheaf before
-we know that they are pure.
+we know that they are [pure](@definition-weights).

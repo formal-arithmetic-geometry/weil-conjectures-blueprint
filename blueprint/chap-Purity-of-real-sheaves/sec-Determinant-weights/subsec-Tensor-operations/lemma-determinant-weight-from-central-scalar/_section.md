@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_detWeight_eq_
 uses = ["definition-determinant-weight", "definition-monodromy-groups", "lemma-normality-geometric-monodromy"]
 +++
 In the setting of Proposition [proposition-central-element-arithmetic-monodromy-group], let $Q$
-be a nonzero subquotient of a tensor construction on $V$ on which the
+be a nonzero subquotient of a [tensor construction](@definition-tensor-construction) on $V$ on which the
 element $z$ acts by a scalar $c_Q$. Then
 
 $$

@@ -4,7 +4,7 @@ of = "lemma-proper-smooth-model"
 order = 1095
 uses = ["theorem-nagata-s-compactification-theorem", "lemma-schematic-closure-uniqueness"]
 +++
-We compactify by Nagata's theorem and then normalize. On a curve,
+We compactify by [Nagata's theorem](@theorem-nagata-s-compactification-theorem) and then normalize. On a curve,
 normality is the same as regularity, and over a perfect field
 regularity is smoothness, so the normalization is the model we want.
 

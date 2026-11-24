@@ -5,7 +5,7 @@ order = 1098
 uses = ["lemma-acyclic-resolutions", "theorem-cohomology-curves", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "definition-relative-picard-functor", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian", "corollary-torsion-jacobian-field-extension", "lemma-cohomology-multiplicative-group", "lemma-finite-morphisms-cohomology"]
 +++
 By the Kummer sequence, $H^1(C,\mu_{\ell^n})$ is
-the $\ell^n$-torsion of the Picard group, and Poincaré duality
+the $\ell^n$-torsion of the Picard group, and [Poincaré duality](@theorem-poincare-duality)
 turns this into a statement about the untwisted $H^1$.
 
 The first identification is
@@ -14,7 +14,7 @@ gives its Galois equivariance, and it shows that the coefficient map
 $z\mapsto z^\ell$ from $\mu_{\ell^{n+1}}$ to $\mu_{\ell^n}$ corresponds to
 $[\ell]$ on the Jacobian.
 
-For the dual Tate module, Poincaré duality at finite level pairs the
+For the dual Tate module, [Poincaré duality](@theorem-poincare-duality) at finite level pairs the
 untwisted $H^1$ with the twisted one that we have just identified with
 $J[\ell^n](k)$. Derived duality gives a statement about the single group
 $H^1$ because all the groups involved are free $A_n$-modules. Indeed, we have
@@ -34,7 +34,7 @@ H^1(C,A_n)\xrightarrow{\sim}
 \Hom_{A_n}(H^1(C,A_n(1)),A_n).
 $$
 
-This map is the adjoint of cup product followed by the trace map of
+This map is the adjoint of cup product followed by the [trace map](@definition-trace-map) of
 the duality theorem, and both cup product and trace commute with
 reduction of coefficients and with the action of
 $\operatorname{Gal}(k/k_0)$.  Because of the twist on the second
@@ -47,7 +47,7 @@ $T_\ell J$ is finite free by Proposition [proposition-integral-tate-module], and
 homomorphism of finite free $\mathbf Z_\ell$-modules is determined by its reductions
 modulo all $\ell^n$, and every compatible system of reductions lifts.
 Hence the inverse limit of the adjoints at finite level is the dual of
-$T_\ell J$. We obtain a perfect pairing
+$T_\ell J$. We obtain a [perfect pairing](@definition-perfect-pairing)
 
 $$
 \varprojlim_nH^1(C,A_n)\times T_\ell J\longrightarrow\mathbf Z_\ell,

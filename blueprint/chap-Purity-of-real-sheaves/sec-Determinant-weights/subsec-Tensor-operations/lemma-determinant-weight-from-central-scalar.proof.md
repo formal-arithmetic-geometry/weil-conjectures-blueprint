@@ -13,5 +13,5 @@ $$
 c_Q^{\dim Q}=\det(h\mid Q)\det(s\mid Q)^N.
 $$
 
-Now apply $\lambda_\iota$, which vanishes on the first factor, and
+Now apply [$\lambda_\iota$](@proposition-weights-under-usual-operations), which vanishes on the first factor, and
 divide by $N\dim Q$.
