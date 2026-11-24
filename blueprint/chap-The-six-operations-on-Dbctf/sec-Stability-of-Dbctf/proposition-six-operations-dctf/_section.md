@@ -11,5 +11,5 @@ operations $f^*$, $Rf_*$, [$Rf_!$](@proposition-construction-independence-rf-shr
 $\cHom$ preserve [$D^b_{\mathrm{ctf}}(-,\Lambda)$](@definition-constructible-sheaves) for morphisms of schemes of finite
 type over $k$. Their adjunctions are the restrictions of the adjunctions
 $f^*\dashv Rf_*$ and $-\otimes^{\mathbf L}K\dashv\cHom(K,-)$ on
-$D(-_{\mathrm{pro}\acute{e}t},\Lambda)$ or of the adjunction $Rf_!\dashv f^!$ on
+$D(-_{\mathrm{pro}\acute{e}t},\Lambda)$ or of the adjunction $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$ on
 [$\Loc(D^b_{\mathrm{ctf}}(-,\Lambda))$](@definition-localizing-subcategory).

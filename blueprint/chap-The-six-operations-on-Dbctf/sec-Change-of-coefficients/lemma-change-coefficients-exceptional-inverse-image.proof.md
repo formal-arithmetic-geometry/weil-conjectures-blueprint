@@ -15,10 +15,10 @@ with composition and with restriction to opens.
 $j$, the functor [$i^!$](@theorem-existence-exceptional-inverse-image) is determined by the localization triangle
 
 $$
-i_*i^!K\longrightarrow K\longrightarrow Rj_*j^*K.
+i_*\href{@theorem-existence-exceptional-inverse-image}{i^!K}\longrightarrow K\longrightarrow Rj_*j^*K.
 $$
 
-It expresses $i_*i^!K$ as the fibre of a map between objects whose
+It expresses $i_*\href{@theorem-existence-exceptional-inverse-image}{i^!K}$ as the fibre of a map between objects whose
 behaviour under extension of scalars we already know. Extension of scalars
 commutes with $i_*$, $j^*$ and, by
 Lemma [lemma-change-coefficients-direct-image], $Rj_*$. Hence the
@@ -28,8 +28,8 @@ fibres is $i_*\beta_{i,K}$. The comparisons on the other two terms are
 isomorphisms, and therefore $i_*\beta_{i,K}$ is one as well. Since $i_*$
 is fully faithful, $\beta_{i,K}$ is an isomorphism.
 
-*The projective line.* Let $q:\mathbf P^1_Y\to Y$. Recall that the adjunction $Rq_*\dashv q^*(1)[2]$ between [$D^b_{\mathrm{ctf}}(\mathbf P^1_Y,\Lambda)$](@definition-constructible-sheaves) and
-[$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) is defined by the [diagonal class](@proposition-ell-adic-cycle-class-diagonal) and the [trace](@proposition-ell-adic-cycle-class-diagonal). Through these two maps, [$q^!$](@theorem-existence-exceptional-inverse-image) is identified with $q^*(1)[2]$. It therefore
+*The projective line.* Let $q:\mathbf P^1_Y\to Y$. Recall that the adjunction $Rq_*\dashv q^*\href{@definition-tate-twists}{(1)}[2]$ between [$D^b_{\mathrm{ctf}}(\mathbf P^1_Y,\Lambda)$](@definition-constructible-sheaves) and
+[$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) is defined by the [diagonal class](@proposition-ell-adic-cycle-class-diagonal) and the [trace](@proposition-ell-adic-cycle-class-diagonal). Through these two maps, [$q^!$](@theorem-existence-exceptional-inverse-image) is identified with $q^*\href{@definition-tate-twists}{(1)}[2]$. It therefore
 suffices to know that the two maps commute with all the maps of
 coefficient rings listed above.
 This holds by construction
@@ -40,10 +40,10 @@ the classes over fields are obtained from these by extension of scalars.
 Only one map in the list needs a further remark. For $\mathcal O_E\to A$,
 the proof of Lemma [lemma-change-coefficients-direct-image] shows that
 $A_X$ is perfect. Hence the derived tensor product with $A_X$ commutes with
-the inverse limits defining the integral classes, and so the resulting classes are exactly the classes with finite coefficients. Consequently the identification $q^!\simeq q^*(1)[2]$ is
+the inverse limits defining the integral classes, and so the resulting classes are exactly the classes with finite coefficients. Consequently the identification $\href{@theorem-existence-exceptional-inverse-image}{q^!}\simeq q^*\href{@definition-tate-twists}{(1)}[2]$ is
 compatible with extension of scalars. Under this identification, finally, $\beta_{q,K}$ becomes the isomorphism of
 Definition [definition-change-of-coefficients-maps](1) for $q^*$,
-twisted by $(1)[2]$.
+twisted by $\href{@definition-tate-twists}{(1)}[2]$.
 
 *General $f$.* The open immersion
 $\mathbf A^1_Y\hookrightarrow\mathbf P^1_Y$ is a case of restriction to

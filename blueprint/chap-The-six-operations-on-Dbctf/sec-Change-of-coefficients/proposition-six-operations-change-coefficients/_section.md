@@ -17,9 +17,9 @@ Definition [definition-change-of-coefficients-maps] and
 such maps, each of these isomorphisms is the composite of the isomorphisms
 for $\Lambda\to\Lambda'$ and $\Lambda'\to\Lambda''$. These isomorphisms
 are compatible with the composition isomorphisms $(gf)^*\simeq f^*g^*$,
-$R(gf)_*\simeq Rg_*Rf_*$, $R(gf)_!\simeq Rg_!Rf_!$ and
-$(gf)^!\simeq f^!g^!$ for composable morphisms $f$ and $g$. Under these
+$R(gf)_*\simeq Rg_*Rf_*$, $\href{@proposition-construction-independence-rf-shriek}{R(gf)_!}\simeq \href{@proposition-construction-independence-rf-shriek}{Rg_!}\href{@proposition-construction-independence-rf-shriek}{Rf_!}$ and
+$\href{@theorem-existence-exceptional-inverse-image}{(gf)^!}\simeq \href{@theorem-existence-exceptional-inverse-image}{f^!}\href{@theorem-existence-exceptional-inverse-image}{g^!}$ for composable morphisms $f$ and $g$. Under these
 isomorphisms, the extensions of scalars of the units and counits of the
-adjunctions $f^*\dashv Rf_*$, $Rf_!\dashv f^!$ and
+adjunctions $f^*\dashv Rf_*$, $\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv \href{@theorem-existence-exceptional-inverse-image}{f^!}$ and
 $-\otimes^{\mathbf L}K\dashv\cHom(K,-)$ (the last counit being evaluation)
 over $\Lambda$ are the corresponding units and counits over $\Lambda'$.

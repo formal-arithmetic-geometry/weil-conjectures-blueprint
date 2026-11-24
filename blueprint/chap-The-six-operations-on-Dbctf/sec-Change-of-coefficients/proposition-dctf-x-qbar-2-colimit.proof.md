@@ -18,10 +18,10 @@ on morphisms is Lemma [lemma-descent-finite-coefficient-field](1) with
 $r=0$, since [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves) is a full subcategory. Its proof uses the continuity of
 Ext out of a [constructible complex](@definition-constructible-sheaves)
 (Lemma [lemma-continuity-ext-out-constructible-complex]), applied to the filtered
-colimit $\QbarX=\varinjlim_F F_X$. Surjectivity says that
+colimit $\href{@lemma-comparison-completed-coefficients}{\QbarX}=\varinjlim_F \href{@lemma-comparison-completed-coefficients}{F_X}$. Surjectivity says that
 every morphism descends to a finite stage, and injectivity says that two
 morphisms with the same image agree at a later finite stage. Now consider the
-category whose objects are the pairs $(E,K)$ with $K\in D^b_{\mathrm{ctf}}(X,E)$ and whose
+category whose objects are the pairs $(E,K)$ with $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,E)}$ and whose
 Hom sets are these colimits. Together with descent of objects, the statements
 above say exactly that the functor from this category to [$D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is
 fully faithful and essentially surjective.

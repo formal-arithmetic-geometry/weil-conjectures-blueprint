@@ -27,7 +27,7 @@ Proposition [proposition-proper-direct-image-constructible-complexes]. Direct im
 immersion preserves it by Proposition [proposition-open-direct-image-preserves-finite] for finite $A$ and
 Proposition [proposition-direct-image-along-open-immersion] for $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$.
 If $f=pj$ is a compactification, then $Rf_*=Rp_*Rj_*$ and
-$Rf_!=Rp_*j_!$. Each of these composites consists of functors already
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}=\href{@proposition-construction-independence-rf-shriek}{Rp_*j_!}$. Each of these composites consists of functors already
 known to preserve [$D^b_{\mathrm{ctf}}$](@definition-constructible-sheaves), which proves both assertions on direct images. That [$f^!$](@theorem-existence-exceptional-inverse-image)
 preserves [$D^b_{\mathrm{ctf}}(-,\Lambda)$](@definition-constructible-sheaves) is part of Theorem [theorem-exceptional-inverse-image].
 
@@ -45,8 +45,8 @@ projection formula for $a_!$ we have
 
 $$
 \cHom_X(a_!P,K)
-\simeq Ra_*\cHom_S(P,a^!K)
-\simeq Ra_*(P^\vee\otimes^{\mathbf L}a^!K).
+\simeq Ra_*\cHom_S(P,\href{@theorem-existence-exceptional-inverse-image}{a^!K})
+\simeq Ra_*(P^\vee\otimes^{\mathbf L}\href{@theorem-existence-exceptional-inverse-image}{a^!K}).
 $$
 
 Here $P^\vee=\cHom_S(P,\Lambda_S)$, and the second identity holds

@@ -6,7 +6,7 @@ uses = ["theorem-classical-sheaves-essential-image", "theorem-bounded-below-coho
 +++
 The map is the composite of the isomorphism of
 Lemma [lemma-change-coefficients-direct-image] for $p$, applied to
-$j_!K\in D^b_{\mathrm{ctf}}$ (Proposition [proposition-proper-direct-image-extension-zero]),
+$j_!K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}}$ (Proposition [proposition-proper-direct-image-extension-zero]),
 and of $Rp_*$ of the isomorphism of
 Definition [definition-change-of-coefficients-maps](2). For independence,
 let $h:Z'\to Z$ be a refinement of compactifications. Both comparison

@@ -9,7 +9,7 @@ constructions. For instance, the double-dual map $K\to\mathbb D\mathbb DK$
 is a natural transformation of covariant exact functors. What does not
 reduce in this way is the construction of an adjoint or of a map. For this
 reason the [cycle class of the diagonal](@proposition-ell-adic-cycle-class-diagonal) and the adjunction
-$Rf_!\dashv f^*(d)[2d]$ for smooth $f$ must be built as single morphisms
+$\href{@proposition-construction-independence-rf-shriek}{Rf_!}\dashv f^*\href{@definition-tate-twists}{(d)}[2d]$ for smooth $f$ must be built as single morphisms
 with $\mathcal O_E$-coefficients
 (Sections [sec-ell-adic-coefficients-2] and [sec-ell-adic-coefficients-4]). Likewise, a
 trace with values in $\Lambda$ is not a map of complexes.

@@ -20,9 +20,9 @@ $$
 K_{\Lambda'}=\Lambda'_X\otimes^{\mathbf L}_{\Lambda_X}K.
 $$
 
-This functor $D(X_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda')$ is left
+This functor $D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda')$ is left
 adjoint to the exact restriction of scalars
-$D(X_{\mathrm{pro}\acute{e}t},\Lambda')\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+$D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda')\to D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 We consider the following maps of coefficient rings:
 
 1. any homomorphism $A\to B$ of finite admissible rings;

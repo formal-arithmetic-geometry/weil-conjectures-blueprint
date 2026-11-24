@@ -13,7 +13,7 @@ identity
 
 $$
 \cHom_X(a_!P,L)
-\simeq Ra_*(P^\vee\otimes^{\mathbf L}a^!L)
+\simeq Ra_*(P^\vee\otimes^{\mathbf L}\href{@theorem-existence-exceptional-inverse-image}{a^!L})
 $$
 
 commutes with extension of scalars by
