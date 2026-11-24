@@ -4,14 +4,14 @@ of = "proposition-adjunction-projective-line"
 order = 555
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "proposition-comparison-morphism-inverse-image", "lemma-cohomology-modules-underlying-abelian", "lemma-identity-pasting", "lemma-finite-morphisms", "proposition-composition-base-change-rf-shriek", "proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-finite", "lemma-class-diagonal-projective-line", "theorem-smooth-base-change-classical-torsion", "theorem-smooth-base-change-classical-torsion-2", "proposition-sp-unique-adjoint"]
 +++
-The projection formula and proper base change reduce each of the two
+The projection formula and [proper base change](@theorem-results-from-etale-theory) reduce each of the two
 triangle identities to the identity $s_i=1$ of
 Lemma [lemma-class-diagonal-projective-line], tensored with the
 identity of a coefficient complex.
 
 *First triangle identity.* This is the equation
 $\varepsilon_{Rp_*M}\circ Rp_*(\eta_M)=1_{Rp_*M}$. Using composition of
-direct images, $pp_1=pp_2$, proper base change and the projection
+direct images, $pp_1=pp_2$, [proper base change](@theorem-results-from-etale-theory) and the projection
 formula, this composite equals
 
 $$
@@ -29,24 +29,24 @@ $$
 
 Here the first arrow is $Rp_*$ of the first arrow of (6.7), with
 $R(pp_2)_*$ rewritten as $R(pp_1)_*$. The middle isomorphism is the
-projection formula for $p_1$. It replaces the proper base change
+projection formula for $p_1$. It replaces the [proper base change](@theorem-results-from-etale-theory)
 isomorphism of (6.7), after $Rp_*$, followed by the projection formula
 isomorphism of (6.8). The last arrow replaces $1\otimes\operatorname{Tr}_p$
 in (6.8) by $\operatorname{Tr}_{p_1}$, the base change of
 $\operatorname{Tr}_p$ along $p$ (Lemma [lemma-cohomology-projective-line-trace]).
-In this form, the trace is applied to $Rp_{1*}\delta$, that is, to the
+In this form, the [trace](@lemma-cohomology-projective-line-trace) is applied to $Rp_{1*}\delta$, that is, to the
 factor $\Delta_*A$, and $M$ only appears as a coefficient.
 
 This rewriting is an equality of maps because the projection formula
-isomorphism is compatible with proper base change. To see this, recall
-that the proper base change map is the adjoint transpose of the counit of
+isomorphism is compatible with [proper base change](@theorem-results-from-etale-theory). To see this, recall
+that the proper [base change map](@definition-derived-base-change-map) is the adjoint transpose of the counit of
 $g^*\dashv Rg_*$ for the relevant pullback $g$. The projection map is the adjoint transpose of the same counit tensored with the identity, and the counit of a composite adjunction is the composite of the counits.
 Therefore the two routes from $R(pp_2)_*p_1^*M=R(pp_1)_*p_1^*M$ to
 $Rp_*M\otimes Rp_*A(1)[2]$ have the same adjoint transpose, as in
 the pasting Lemma [lemma-identity-pasting].
 
 On the route through (6.10) we identify
-$Rp_{1*}A=p^*Rp_*A$ by proper base change and then use the
+$Rp_{1*}A=p^*Rp_*A$ by [proper base change](@theorem-results-from-etale-theory) and then use the
 projection formula for $p$. By naturality of the projection formula in its
 second variable, the first arrow of (6.10) is then
 $1_M\otimes Rp_{1*}\delta$ under the projection identification. The
@@ -56,7 +56,7 @@ Lemma [lemma-class-diagonal-projective-line].
 *Second triangle identity.* Here the roles of the two projections
 are exchanged: we must show that
 $p^*(\varepsilon_N)(1)[2]\circ\eta_{p^*N(1)[2]}$ is the identity.
-Take $M=p^*N(1)[2]$ in (6.7). Since $N$ and the Tate twist are
+Take $M=p^*N(1)[2]$ in (6.7). Since $N$ and the [Tate twist](@definition-tate-twists) are
 pulled back from $S$, both $p_1^*M$ and $p_2^*M$ are
 $(pp_1)^*N(1)[2]=(pp_2)^*N(1)[2]$. The projection formula moves this common
 factor outside $Rp_{2*}$, and $\eta_{p^*N(1)[2]}$ becomes
@@ -74,7 +74,7 @@ $$
 
 All shifts moved in (6.10) and (6.11) are even, so no Koszul signs appear.
 
-The unit is constructed from $\delta$ and proper base change, and
+The unit is constructed from [$\delta$](@lemma-class-diagonal-projective-line) and [proper base change](@theorem-results-from-etale-theory), and
 the counit from (6.5) and the projection formula. All of these ingredients are compatible with base change and change of coefficients, and hence so
-are $\eta$ and $\varepsilon$. Transported by $\nu^*$, the same then holds for the corresponding adjunction
+are $\eta$ and $\varepsilon$. Transported by [$\nu^*$](@proposition-comparison-morphism-inverse-image), the same then holds for the corresponding adjunction
 on the pro-étale categories.

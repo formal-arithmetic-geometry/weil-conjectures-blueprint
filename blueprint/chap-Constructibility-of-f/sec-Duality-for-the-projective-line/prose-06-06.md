@@ -7,10 +7,10 @@ order = 548
 Over $S=\operatorname{Spec}\bar k$, (6.4) reads
 $R\Gamma(\mathbf P^1_{\bar k},A)\simeq A\oplus A(-1)[-2]$.
 Here the shift $[-2]$ places the second summand in degree $2$, so that it is
-$H^2$, and the twist $(-1)$ records how Galois acts on $H^2$: the
+$H^2$, and the twist [$(-1)$](@definition-tate-twists) records how Galois acts on $H^2$: the
 Kummer map identifies $H^2$ with
 $\operatorname{Pic}(\mathbf P^1)\otimes\mu_{\ell^r}^{\otimes-1}$, that is, with
-$A(-1)$. Twisting by $(1)$ and shifting by $[2]$ therefore moves this summand to degree $0$ with trivial twist. The map $\operatorname{Tr}_p$ is the projection onto this summand, and it sends the class
+[$A(-1)$](@definition-tate-twists). Twisting by [$(1)$](@definition-tate-twists) and shifting by $[2]$ therefore moves this summand to degree $0$ with trivial twist. The map [$\operatorname{Tr}_p$](@lemma-cohomology-projective-line-trace) is the projection onto this summand, and it sends the class
 of a point to $1$. It is the counit of
 $Rp_*\dashv p^*(1)[2]$ in
 Proposition [proposition-adjunction-projective-line]. After its lift to

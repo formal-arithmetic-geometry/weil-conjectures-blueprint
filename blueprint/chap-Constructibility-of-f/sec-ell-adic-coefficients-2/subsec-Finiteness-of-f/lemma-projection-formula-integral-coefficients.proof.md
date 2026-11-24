@@ -4,10 +4,10 @@ of = "lemma-projection-formula-integral-coefficients"
 order = 614
 uses = ["lemma-integral-models", "definition-pro-etale-base-change-map", "proposition-proper-direct-image-constructible-complexes", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes", "proposition-six-operations-dctf"]
 +++
-On $\Dbc$ this is Proposition [proposition-proper-direct-image-constructible-complexes]. Both sides make sense on the localizing categories, because
-$M\otimes^{\mathbf L}p^*N$ lies in $\Loc(D^b_{\mathrm{ctf}}(X,\mathcal O_E))$. For $M$ and $N$ in $\Dbc$ this is Lemma [lemma-inverse-image-tensor-product], and since the tensor product commutes with direct sums and cones in each variable, the argument of
+On [$\Dbc$](@definition-constructible-sheaves) this is Proposition [proposition-proper-direct-image-constructible-complexes]. Both sides make sense on the [localizing categories](@definition-localizing-subcategory), because
+$M\otimes^{\mathbf L}p^*N$ lies in [$\Loc(D^b_{\mathrm{ctf}}(X,\mathcal O_E))$](@definition-localizing-subcategory). For $M$ and $N$ in [$\Dbc$](@definition-constructible-sheaves) this is Lemma [lemma-inverse-image-tensor-product], and since the tensor product commutes with direct sums and cones in each variable, the argument of
 Proposition [proposition-projection-formula-rational-coefficients]
-extends it to the localizing categories. Indeed, fix one variable. Both sides are then exact and preserve direct sums in the other; for the variable $M$ this holds because $Rp_*$ preserves direct sums
+extends it to the [localizing categories](@definition-localizing-subcategory). Indeed, fix one variable. Both sides are then exact and preserve direct sums in the other; for the variable $M$ this holds because $Rp_*$ preserves direct sums
 (Proposition [proposition-compactness-proper-direct-image]).
-Therefore Lemma [lemma-checking-isomorphisms-constructible-complexes], applied first in $M$ and then in $N$, extends the isomorphism from $\Dbc$ to the
-localizing categories.
+Therefore Lemma [lemma-checking-isomorphisms-constructible-complexes], applied first in $M$ and then in $N$, extends the isomorphism from [$\Dbc$](@definition-constructible-sheaves) to the
+[localizing categories](@definition-localizing-subcategory).

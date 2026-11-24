@@ -14,7 +14,7 @@ for Noetherian $S$.
 Both components of $\sigma_S$ are globally defined. The second
 comes from Lemma [lemma-cycle-class-cartier-divisor] applied to the
 section at infinity, whose line bundle is $\mathcal O(1)$. Geometric stalks
-detect isomorphisms, and by proper base change the stalk of $Rp_*\Lambda$
+detect isomorphisms, and by [proper base change](@proposition-proper-base-change-etale-site) the stalk of $Rp_*\Lambda$
 at a geometric point $\bar s$ is $R\Gamma(\mathbf P^1_{\bar s},\Lambda)$.
 It therefore suffices to check that $\sigma_S$ is an isomorphism on a geometric fibre,
 first for $\Lambda=\mathbf Z/\ell^r\mathbf Z$. By the genus zero case of

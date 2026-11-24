@@ -8,5 +8,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $j:U\hookrightarrow X$ be a quasi-compact open immersion. Then
 $Rj_*:D(U_{\mathrm{pro}\acute{e}t},\Lambda)\to D(X_{\mathrm{pro}\acute{e}t},\Lambda)$ maps
-$\Dbc(U,\Lambda)$ into $\Dbc(X,\Lambda)$ for $\Lambda=\mathcal O_E$, $E$
+[$\Dbc(U,\Lambda)$](@definition-constructible-sheaves) into [$\Dbc(X,\Lambda)$](@definition-constructible-sheaves) for $\Lambda=\mathcal O_E$, $E$
 and $\overline{\mathbf Q}_\ell$.

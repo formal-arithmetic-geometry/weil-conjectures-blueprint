@@ -23,11 +23,11 @@ $$
 \tag{6.17}
 $$
 
-by [Stacks, [03QP](https://stacks.math.columbia.edu/tag/03QP)]. Suppose $h_*F$ is constructible. The counit
+by [Stacks, [03QP](https://stacks.math.columbia.edu/tag/03QP)]. Suppose $h_*F$ is [constructible](@definition-constructible-sheaves). The counit
 $h^*h_*F\to F$ is surjective, since on stalks it is a projection from the
-finite product (6.17). Its source is constructible, and a
-quotient of a constructible sheaf is constructible [Stacks, [09BH](https://stacks.math.columbia.edu/tag/09BH)]. Hence $F$
-is constructible. For a complex $M$ we have $H^n(Rh_*M)=h_*H^n(M)$ because $h_*$ is exact, so the statement for complexes follows from
+finite product (6.17). Its source is [constructible](@definition-constructible-sheaves), and a
+quotient of a [constructible sheaf](@definition-constructible-sheaves) is [constructible](@definition-constructible-sheaves) [Stacks, [09BH](https://stacks.math.columbia.edu/tag/09BH)]. Hence $F$
+is [constructible](@definition-constructible-sheaves). For a complex $M$ we have $H^n(Rh_*M)=h_*H^n(M)$ because $h_*$ is exact, so the statement for complexes follows from
 conservativity and the sheaf case in each degree.
 
 *The localization triangle.* The exact sequence for an open and its
@@ -39,15 +39,15 @@ j_!j^*K\longrightarrow K\longrightarrow i_*i^*K
 \tag{6.18}
 $$
 
-*Part (1).* The first term $j_!j^*K$ is bounded constructible, because
-$j^*K$ is and extension by zero preserves constructibility. Its direct
-image $Rb_*j_!j^*K$ is bounded constructible by the finiteness theorem
+*Part (1).* The first term $j_!j^*K$ is bounded [constructible](@definition-constructible-sheaves), because
+$j^*K$ is and extension by zero preserves [constructibility](@definition-constructible-sheaves). Its direct
+image $Rb_*j_!j^*K$ is bounded [constructible](@definition-constructible-sheaves) by the finiteness theorem
 [Stacks, [0GL0](https://stacks.math.columbia.edu/tag/0GL0), [0G2A](https://stacks.math.columbia.edu/tag/0G2A)], which applies since $Rb_*=Rb_!$ for proper $b$.
 Applying $Rb_*$ to (6.18), we obtain a triangle whose first
-two terms, $Rb_*j_!j^*K$ and $Rb_*K$, are bounded constructible. Hence the
-third term $Rb_*i_*i^*K=R(bi)_*i^*K$ is bounded constructible too. The
+two terms, $Rb_*j_!j^*K$ and $Rb_*K$, are bounded [constructible](@definition-constructible-sheaves). Hence the
+third term $Rb_*i_*i^*K=R(bi)_*i^*K$ is bounded [constructible](@definition-constructible-sheaves) too. The
 first step, applied to $h=bi$, now gives $i^*K\in\Dbc(Z,\Fell)$. As $i_*$
-is exact and preserves constructibility, (6.18) shows that
+is exact and preserves [constructibility](@definition-constructible-sheaves), (6.18) shows that
 $K\in\Dbc(Y,\Fell)$.
 
 *Part (2).* Let $M$ be a cone of $\varphi$; we must show $M=0$. We

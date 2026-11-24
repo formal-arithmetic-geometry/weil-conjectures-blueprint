@@ -14,7 +14,7 @@ $$
 c_D:i_*\Lambda_D\longrightarrow\Lambda_Z(1)[2]\quad\text{in }D(Z_{\acute{e}t},\Lambda),
 $$
 
-and hence, via $\nu_Z^*$, in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$,
+and hence, via [$\nu_Z^*$](@proposition-comparison-morphism-inverse-image), in $D(Z_{\mathrm{pro}\acute{e}t},\Lambda)$,
 whose composite with $\Lambda_Z\to i_*\Lambda_D$ is the Kummer first
 Chern class $c_1(\mathcal O_Z(D))$. It is compatible with change of
 coefficients and with every base change along which the pullback of the

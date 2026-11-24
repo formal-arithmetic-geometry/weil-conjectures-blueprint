@@ -7,6 +7,6 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightAdjo
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "lemma-constructible-sheaves", "lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "definition-localizing-subcategory", "lemma-inverse-image-tensor-product", "proposition-construction-independence-rf-shriek", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
 +++
 Let $\Lambda=\mathcal O_E$, $E$ or $\overline{\mathbf Q}_\ell$, and let $f:X\to Y$ be separated
-of finite type. Then $f^!$ maps $D^b_{\mathrm{ctf}}(Y,\Lambda)$ into $D^b_{\mathrm{ctf}}(X,\Lambda)$,
+of finite type. Then [$f^!$](@theorem-existence-exceptional-inverse-image) maps [$D^b_{\mathrm{ctf}}(Y,\Lambda)$](@definition-constructible-sheaves) into [$D^b_{\mathrm{ctf}}(X,\Lambda)$](@definition-constructible-sheaves),
 and this restriction is right adjoint to
 $Rf_!:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$.

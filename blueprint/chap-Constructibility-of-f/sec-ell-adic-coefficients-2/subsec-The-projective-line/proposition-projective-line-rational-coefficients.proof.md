@@ -8,8 +8,8 @@ Define the unit and counit by the formulas (6.7) and
 (6.8) of
 Proposition [proposition-adjunction-projective-line], using
 $\Delta_*M\simeq p_1^*M\otimes^{\mathbf L}\Delta_*\Lambda$ [Stacks, [09AD](https://stacks.math.columbia.edu/tag/09AD)] and
-the maps $\delta_\Lambda$ and $\operatorname{Tr}_q$ in place of their
-torsion versions. The proof of the identities $s_1=s_2=1$ computed stalks of torsion sheaves, but apart from these identities the torsion calculation
+the maps [$\delta_\Lambda$](@proposition-ell-adic-cycle-class-diagonal) and [$\operatorname{Tr}_q$](@proposition-ell-adic-cycle-class-diagonal) in place of their
+torsion versions. The proof of the identities $s_1=s_2=1$ computed stalks of [torsion sheaves](@definition-torsion-sheaves), but apart from these identities the torsion calculation
 of the triangle identities used only the projection formula and proper
 base change. These hold here by
 Propositions [proposition-projection-formula-rational-coefficients]

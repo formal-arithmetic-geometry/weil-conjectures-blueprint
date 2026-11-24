@@ -13,5 +13,5 @@ $$
 Rj_*:D^b_{\mathrm{ctf}}(U,A)\longrightarrow D^b_{\mathrm{ctf}}(X,A).
 $$
 
-More precisely, if $K$ has Tor amplitude in $[a,b]$ and $d\ge
-\operatorname{cd}_\ell(j)$, then $Rj_*K$ has Tor amplitude in $[a,b+d]$.
+More precisely, if $K$ has [Tor amplitude](@definition-constructible-sheaves) in $[a,b]$ and $d\ge
+\operatorname{cd}_\ell(j)$, then $Rj_*K$ has [Tor amplitude](@definition-constructible-sheaves) in $[a,b+d]$.

@@ -5,7 +5,7 @@ title = "Generic constructibility and base change for $Rj_*$"
 order = 583
 +++
 Let $S$ be integral, and let $j:X\hookrightarrow Y$ be an open immersion of
-$S$-schemes. For a constructible
+$S$-schemes. For a [constructible](@definition-constructible-sheaves)
 $\Fell$-sheaf $F$ on $X_{\acute{e}t}$, there is a nonempty open
 $S_0\subset S$ such that
 
@@ -16,7 +16,7 @@ $$
 
 and such that for every $k$-scheme $T\to S_0$ of finite type, with base change
 $j_T:X_T\hookrightarrow Y_T$ and projections $g_X:X_T\to X_{S_0}$ and
-$g_Y:Y_T\to Y_{S_0}$, the base change map
+$g_Y:Y_T\to Y_{S_0}$, the [base change map](@definition-derived-base-change-map)
 
 $$
 \beta_T:g_Y^*Rj_{S_0,*}(F|_{X_{S_0}})

@@ -3,7 +3,7 @@ kind = "proof"
 of = "proposition-ell-adic-cycle-class-diagonal"
 order = 602
 +++
-The cycle class comes from a single map defined with
+The [cycle class](@lemma-cycle-class-cartier-divisor) comes from a single map defined with
 $\mathbf Z$-coefficients, the boundary of the divisor sequence. Hence all
 its reductions are reductions of one map of systems.
 
@@ -15,7 +15,7 @@ $\Delta_*\mathbf Z/\ell^\bullet\to\mathbf Z/\ell^\bullet(1)[2]$. Its level
 $n$ is the class of Lemma [lemma-cycle-class-cartier-divisor] for
 $\mathbf Z/\ell^n$. The transition maps between levels are part of
 the data, and this is what a family of separately constructed
-classes would lack. Next we take $R\varprojlim$. The site is replete with
+classes would lack. Next we take $R\varprojlim$. The site is [replete](@definition-repleteness) with
 exact products
 (Propositions [proposition-repleteness-pro-etale-topos] and [proposition-exact-products]).
 Hence $R\varprojlim\circ(-\otimes\mathbf Z/\ell^\bullet)$ is derived

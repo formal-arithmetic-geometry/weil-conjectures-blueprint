@@ -27,4 +27,4 @@ Rf'_!g'^*f^!N
 $$
 
 where the first arrow is the inverse of the base change isomorphism
-for $Rf_!$ (Proposition [proposition-composition-base-change-rf-shriek](2)).
+for [$Rf_!$](@proposition-construction-independence-rf-shriek) (Proposition [proposition-composition-base-change-rf-shriek](2)).
