@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-abelian-variety-commutative"
 order = 1499
 +++
-An abelian variety is geometrically reduced because it is smooth, and
+An [abelian variety](@definition-abelian-variety) is geometrically reduced because it is smooth, and
 geometrically irreducible because the identity component of a group
 scheme over a field is geometrically irreducible [Stacks, [0B7R](https://stacks.math.columbia.edu/tag/0B7R)] and $A$
 is connected.

@@ -4,6 +4,6 @@ kind = "hidden"
 title = "Multiplication by $n$ (5)"
 order = 1508
 +++
-It follows that the group $A(\bar k)$ is divisible. Indeed, since $[n]$
+It follows that the group $A(\bar k)$ is divisible. Indeed, since [$[n]$](@definition-abelian-variety)
 is finite and surjective, its fibre over a point of $A(\bar k)$ is a
 nonempty finite $\bar k$-scheme, and so it has a $\bar k$-point.

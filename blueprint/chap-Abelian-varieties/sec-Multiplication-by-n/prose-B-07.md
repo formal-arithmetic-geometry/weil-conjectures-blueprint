@@ -6,7 +6,7 @@ order = 1495
 +++
 Let $\mathcal L$ be an invertible sheaf on an abelian variety $A$. We
 pull $\mathcal L$ back to $A\times A\times A$ along the partial sums of
-the coordinates. There the theorem of the cube gives a second order
+the coordinates. There the [theorem of the cube](@theorem-theorem-cube) gives a second order
 recursion for $n\mapsto[n]^*\mathcal L$, whose solution is
 
 $$

@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The theorem of the cube (1)"
 order = 1476
 +++
-The theorem of the cube says that an invertible sheaf $\mathcal L$ on
+The [theorem of the cube](@theorem-theorem-cube) says that an invertible sheaf $\mathcal L$ on
 $X\times Y\times Z$, with $X,Y$ complete varieties and $Z$ connected,
 that is trivial on
 the three slices through a point $(x,y,z)$ is trivial. To prove it, we

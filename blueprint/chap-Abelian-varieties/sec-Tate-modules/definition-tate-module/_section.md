@@ -5,7 +5,7 @@ title = "Tate module"
 order = 1511
 uses = ["definition-abelian-variety", "lemma-abelian-variety-commutative", "definition-relative-picard-functor"]
 +++
-Let $A$ be an abelian variety over $k$ and let $\ell$ be a prime
+Let $A$ be an [abelian variety](@definition-abelian-variety) over $k$ and let $\ell$ be a prime
 invertible in $k$. The *Tate module* of $A$ is
 
 $$

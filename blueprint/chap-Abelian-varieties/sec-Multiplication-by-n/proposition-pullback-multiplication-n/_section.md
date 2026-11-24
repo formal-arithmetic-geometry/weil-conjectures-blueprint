@@ -5,7 +5,7 @@ title = "Pullback of invertible sheaves by {$[n]$}"
 order = 1503
 uses = ["definition-abelian-variety"]
 +++
-Let $A$ be an abelian variety over $k$ and let $\mathcal L$ be an
+Let $A$ be an [abelian variety](@definition-abelian-variety) over $k$ and let $\mathcal L$ be an
 invertible sheaf on $A$. For every integer $n\geq0$,
 
 $$
@@ -15,4 +15,4 @@ $$
 $$
 
 In particular $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$ if
-$\mathcal N$ is symmetric.
+$\mathcal N$ is [symmetric](@definition-abelian-variety).
