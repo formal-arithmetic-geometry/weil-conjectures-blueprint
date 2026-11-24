@@ -4,20 +4,20 @@ kind = "hidden"
 title = "Appendices"
 order = 1400
 +++
-To define $Rf_!$ in
+To define [$Rf_!$](@proposition-construction-independence-rf-shriek) in
 Part I we must compactify every separated
-morphism of finite type, and to prove proper base change we must
-dominate every proper morphism by a projective one. These are Nagata's
-theorem and Chow's lemma (Appendix [chap-Nagata-compactification-and-Chows-lemma]). Nagata's
-theorem, followed by normalization, also gives the smooth
+morphism of finite type, and to prove [proper base change](@proposition-proper-base-change-etale-site) we must
+dominate every proper morphism by a projective one. These are [Nagata's
+theorem](@theorem-nagata-s-compactification-theorem) and [Chow's lemma](@theorem-chow-s-lemma-projective-form) (Appendix [chap-Nagata-compactification-and-Chows-lemma]). [Nagata's
+theorem](@theorem-nagata-s-compactification-theorem), followed by normalization, also gives the smooth
 compactification of a curve used in Part III
 (Lemma [lemma-proper-smooth-model]).
 
-Proper base change ends with a change of separably closed
+[Proper base change](@proposition-proper-base-change-etale-site) ends with a change of separably closed
 ground field. There we need the cohomology of curves for all torsion
 coefficients, including torsion divisible by the characteristic
 (Theorem [theorem-cohomology-curves]). Purity starts from
-sheaves of rank one. Their geometric monodromy is finite because
+sheaves of rank one. Their [geometric monodromy](@definition-monodromy-groups) is finite because
 Frobenius fixes no class in $H^1$ of a curve
 (Proposition [proposition-no-fixed-class-degree-one]). For
 coefficients prime to the characteristic, both facts come from the
@@ -28,14 +28,14 @@ Appendices [chap-Abelian-varieties], [chap-The-Picard-scheme-of-a-curve]
 and [chap-Cohomology-of-torsion-sheaves-on-curves] prove both facts.
 
 Rankin's argument in Chapter [chap-Purity-of-real-sheaves] rests on
-the determinant weights of tensor and exterior powers
+the [determinant weights](@definition-determinant-weight) of tensor and exterior powers
 (Proposition [proposition-determinant-weights-tensor-operations]).
-These come from the structure of the monodromy group
+These come from the structure of the [monodromy group](@definition-monodromy-groups)
 (Lemma [lemma-identity-component]), and
 Appendix [chap-Algebraic-groups-in-characteristic-zero] proves the facts about algebraic
 groups over $\overline{\mathbf Q}_\ell$ behind it.
 
 Appendix [chap-Specialization-and-contracting-correspondences] is of a different kind. Following
-Varshavsky [varshavsky05], it computes the local terms of contracting
-correspondences in a second way; Chapter [chap-The-trace-formula]
+Varshavsky [varshavsky05], it computes the [local terms](@definition-trace-class-local-terms) of contracting
+[correspondences](@definition-correspondence) in a second way; Chapter [chap-The-trace-formula]
 does not depend on it.

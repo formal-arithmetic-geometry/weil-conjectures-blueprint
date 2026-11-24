@@ -174,7 +174,7 @@ $$
 
 Because of the twist, $F$ acts on the untwisted group $H^1(C,\mathbf Q_\ell)$ by
 $q\pi^{-1}$ (Section [sec-Weil-complexes]). Its eigenvalues $q/\alpha$ run
-through the eigenvalues $\alpha$ of $\pi$ again, by the functional equation, so
+through the eigenvalues $\alpha$ of $\pi$ again, by the [functional equation](@corollary-functional-equation), so
 also $P_1(T)=\det(1-TF\mid H^1(C,\mathbf Q_\ell))$, as predicted in
 Section [sec-The-Weil-conjectures]. For the curve $C_0$ above,
 $\pi$ acts on $T_\ell J$ with characteristic polynomial $T^2+3$, and indeed
@@ -204,10 +204,10 @@ constructed by Grothendieck and his collaborators, who proved (a), (b) and
 and Deligne proved it [deligne74], [deligne80]. The general form of
 his theorem, on weights of $Rf_!$, was later reproved by Laumon with the
 $\ell$-adic Fourier transform [laumon87] (see also [katz88], [kiehl-weissauer01]); we call it the
-Deligne–Laumon theorem. Our proof uses the Fourier transform as Laumon does,
+[Deligne–Laumon theorem](@theorem-weights-rf-shriek). Our proof uses the Fourier transform as Laumon does,
 but it is organized differently in places.
 
-For geometrically connected $X_0$ we prove the functional equation (2)
+For geometrically connected $X_0$ we prove the [functional equation](@corollary-functional-equation) (2)
 and, of statement (4), that $b_i=b_{2d-i}$. We also prove that
 $b_i=\dim H^i(X,\mathbf Q_\ell)$ for every $\ell$ not dividing $q$; in particular this
 dimension does not depend on $\ell$

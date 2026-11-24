@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The function–sheaf dictionary"
 order = 9
 +++
-The proof of purity does not treat one variety at a time. It cuts a
+The proof of [purity](@corollary-purity-cohomology-smooth-proper-variety) does not treat one variety at a time. It cuts a
 variety into pieces and fibres it over other varieties, and point counts
 behave simply under both operations. If $Z_0\subset X_0$ is closed with
 complement $U_0$, then $\#X_0(\mathbf F_q)=\#U_0(\mathbf F_q)+\#Z_0(\mathbf F_q)$,
@@ -45,7 +45,7 @@ product of two functions to the tensor product. Similarly, summing a function ov
 the fibres of $f$ corresponds to the direct image with compact supports
 $Rf_!K$, whose stalk at a point $\bar y$ is the compactly supported
 cohomology of $K$ on the fibre over $\bar y$. The resulting identity
-$t_{Rf_!K}(y)=\sum_{f(x)=y}t_K(x)$ is a form of the trace formula
+$t_{Rf_!K}(y)=\sum_{f(x)=y}t_K(x)$ is a form of the [trace formula](@theorem-grothendieck-lefschetz-trace-formula)
 (Corollary [corollary-trace-functions-direct-image-compact]). When $f$ is the
 map to a point, it is (b) with coefficients in $K$. The one further operation
 we need is a Fourier transform, explained in Section [sec-The-Deligne-Laumon-theorem].

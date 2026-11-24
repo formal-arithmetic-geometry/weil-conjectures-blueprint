@@ -9,8 +9,8 @@ operations: the internal Hom of sheaves and the *exceptional inverse
 image* $f^!$, a right adjoint of $Rf_!$. With $f^*$, $Rf_*$, $Rf_!$ and
 $\otimes$ these are Grothendieck's *six operations*. Part I
 of these notes, roughly their first third, constructs them for all the
-coefficient rings we need. To see why $f^!$ is the right tool, consider Poincaré
-duality for a smooth variety $X$ of pure dimension $d$ over an
+coefficient rings we need. To see why $f^!$ is the right tool, consider [Poincaré
+duality](@theorem-poincare-duality) for a smooth variety $X$ of pure dimension $d$ over an
 algebraically closed field $k$, with coefficients
 $\Lambda=\mathbf Z/\ell^n$. It should say that cup product
 
@@ -54,7 +54,7 @@ Poincaré duality for $V$.
 
 We follow the same route. For the structure morphism $a$ of a smooth
 variety $X$ of dimension $d$ we show $a^!\Lambda\simeq\Lambda_X(d)[2d]$,
-again by a local computation (*smooth purity*). Poincaré duality
+again by a local computation (*[smooth purity](@theorem-smooth-purity-all-admissible-coefficients)*). [Poincaré duality](@theorem-poincare-duality)
 follows.
 
 The main theorem of Part I is that $f^!$
