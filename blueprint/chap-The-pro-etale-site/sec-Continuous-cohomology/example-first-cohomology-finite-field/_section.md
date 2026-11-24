@@ -7,8 +7,8 @@ order = 198
 For $X=\operatorname{Spec}\mathbf F_q$ and $\ell\nmid q$,
 
 $$
-H^1(X_{\mathrm{pro}\acute{e}t},\mathbf Z_{\ell,X})\simeq\mathbf Z_\ell,
-\qquad H^1(X_{\mathrm{pro}\acute{e}t},\mathbf Q_{\ell,X})\simeq\mathbf Q_\ell.
+H^1(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Z_{\ell,X})\simeq\mathbf Z_\ell,
+\qquad H^1(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathbf Q_{\ell,X})\simeq\mathbf Q_\ell.
 $$
 
 At each finite level the first cohomology is

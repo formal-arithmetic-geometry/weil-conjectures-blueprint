@@ -12,8 +12,8 @@ $\pi_E^n:K\to K$ (Lemma [lemma-reduction-derived-nakayama]).
 We call the rings $A,\mathbf Z_\ell,\mathcal O_E,\mathbf Q_\ell,E,\overline{\mathbf Q}_\ell$ the *admissible*
 coefficient rings. Here $E=\mathbf Q_\ell$ is allowed, so that $\mathbf Z_\ell$ and $\mathbf Q_\ell$ are the
 case $E=\mathbf Q_\ell$ of $\mathcal O_E$ and $E$. For $E=\mathbf Q_\ell$
-we write $\mathbf Z_{\ell,X}=\mathcal O_{\mathbf Q_\ell,X}$ and
-$\mathbf Q_{\ell,X}=(\mathbf Q_\ell)_X$. By the comparison lemma above,
+we write $\mathbf Z_{\ell,X}=\href{@lemma-comparison-completed-coefficients}{\mathcal O_{\mathbf Q_\ell,X}}$ and
+$\mathbf Q_{\ell,X}=\href{@lemma-comparison-completed-coefficients}{(\mathbf Q_\ell)_X}$. By the comparison lemma above,
 
 $$
 \mathbf Z_{\ell,X}\simeq\varprojlim_n(\mathbf Z/\ell^n)_X,
@@ -21,9 +21,9 @@ $$
 \mathbf Q_{\ell,X}\simeq\mathbf Z_{\ell,X}[1/\ell].
 $$
 
-For a condensed ring $\Lambda$ we write $\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$ for the
+For a condensed ring $\Lambda$ we write $\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$ for the
 category of $\Lambda_X$-modules. Its derived category is
-$D(X_{\mathrm{pro}\acute{e}t},\Lambda)$.
+$D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\Lambda)$.
 
 Duality and the trace map need, besides the constant sheaf, its twists
 by roots of unity. The reason is already visible on $\mathbf P^1$ over an

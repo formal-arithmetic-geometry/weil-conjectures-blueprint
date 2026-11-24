@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport"]
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves"]
 +++
 The *local cohomology functor*
-$R\underline\Gamma_Z:D(X_{\mathrm{pro}\acute{e}t},\mathcal R)\to D(Z_{\mathrm{pro}\acute{e}t},i^*\mathcal R)$
+$R\underline\Gamma_Z:D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal R)\to D(\href{@definition-small-pro-etale-site}{Z_{\mathrm{pro}\acute{e}t}},i^*\mathcal R)$
 is the right derived functor of the functor of sections supported on $Z$,
 
 $$

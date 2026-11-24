@@ -11,5 +11,5 @@ $g^*_{\acute{e}t}L\to g^*_{\acute{e}t}Rg_{\acute{e}t,*}g^*_{\acute{e}t}L\to g^*_
 the identity by the triangle identity. Hence the adjoint is $\beta_g$,
 whose adjoint is the map on the right of (1). For (3), the isomorphisms
 $\beta$ are compatible with composition, $\beta_{h\circ g}$ being
-$\beta_g$ composed with $g_{\mathrm{pro}\acute{e}t}^*(\beta_h)$, and the adjoint of a
+$\beta_g$ composed with $\href{@proposition-topos-functoriality}{g_{\mathrm{pro}\acute{e}t}^*}(\beta_h)$, and the adjoint of a
 composite of maps defined as in (2) is the composite of their adjoints.

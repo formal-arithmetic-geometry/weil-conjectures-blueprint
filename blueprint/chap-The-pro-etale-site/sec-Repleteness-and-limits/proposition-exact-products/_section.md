@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Scheme.ProEt.products_exact", "AlgebraicGeometry.Sche
 uses = ["definition-small-pro-etale-site"]
 +++
 Arbitrary set-indexed products are exact in
-$\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\mathcal R)$. Products in
-$D(X_{\mathrm{pro}\acute{e}t},\mathcal R)$ are computed by taking termwise products
+$\operatorname{Mod}(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal R)$. Products in
+$D(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},\mathcal R)$ are computed by taking termwise products
 of representative complexes, and their cohomology sheaves are the
 products of the cohomology sheaves.

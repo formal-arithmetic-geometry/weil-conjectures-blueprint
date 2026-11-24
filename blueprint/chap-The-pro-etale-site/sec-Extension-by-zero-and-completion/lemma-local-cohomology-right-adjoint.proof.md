@@ -11,7 +11,7 @@ $j_*j^*I$ over $V$ is a map $j_!j^*\mathcal R_V\to I$, and it extends along
 the monomorphism $j_!j^*\mathcal R_V\to\mathcal R_V$. Hence the kernel of
 $J\to j_*j^*J$, taken termwise, represents the fibre of the unit, and
 applying the exact functor $i^*$ gives
-$R\underline\Gamma_ZK\simeq i^*\fib(K\to Rj_*j^*K)$.
+$\href{@definition-local-cohomology}{R\underline\Gamma_ZK}\simeq i^*\fib(K\to Rj_*j^*K)$.
 
 Let $F=\fib(K\to Rj_*j^*K)$. Since $j^*i_*M=0$, we have
 $\operatorname{Hom}(i_*M,Rj_*j^*K)=\operatorname{Hom}(j^*i_*M,j^*K)=0$

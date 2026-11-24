@@ -9,12 +9,12 @@ are $K_n=\mathcal O_E/\pi_E^n$, and the lemma is the classical Nakayama
 lemma for the complete local ring $\mathcal O_E$. The hypothesis of
 completeness cannot be dropped, since $E\neq0$ but $E/\pi_E=0$.
 
-Let $K$ be [derived complete](@definition-derived-adic-completeness). Since $R\Gamma(X_{\mathrm{pro}\acute{e}t},-)$ is a right
+Let $K$ be [derived complete](@definition-derived-adic-completeness). Since $R\Gamma(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},-)$ is a right
 adjoint, it commutes with the derived limit, and therefore
 
 $$
-R\Gamma(X_{\mathrm{pro}\acute{e}t},K)
-\simeq R\varprojlim_nR\Gamma(X_{\mathrm{pro}\acute{e}t},K_n).
+R\Gamma(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)
+\simeq R\varprojlim_nR\Gamma(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K_n).
 $$
 
 When the $K_n$ are [classical](@definition-classical-pro-etale-sheaves) bounded-below complexes, each term on the

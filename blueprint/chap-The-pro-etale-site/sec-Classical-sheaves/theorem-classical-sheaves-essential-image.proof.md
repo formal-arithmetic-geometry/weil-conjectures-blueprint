@@ -10,14 +10,14 @@ an isomorphism. We check both on [pro-étale affines](@definition-ind-etale-pro-
 (2.6) computes [$\nu_X^*$](@proposition-comparison-morphism-inverse-image).
 
 Evaluating (2.5) on an étale object
-$V$ gives $F(V)$, so $F\xrightarrow{\sim}\nu_{X,*}\nu_X^*F$, which proves
+$V$ gives $F(V)$, so $F\xrightarrow{\sim}\href{@proposition-comparison-morphism-inverse-image}{\nu_{X,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*F}$, which proves
 full faithfulness. Moreover,
 every [$\nu_X^*F$](@proposition-comparison-morphism-inverse-image) is [classical](@definition-classical-pro-etale-sheaves) by (2.6).
 Conversely, let $G$ be [classical](@definition-classical-pro-etale-sheaves). On a [pro-étale affine](@definition-ind-etale-pro-etale-weakly) the counit
-$\nu_X^*\nu_{X,*}G\to G$ is
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}\href{@proposition-comparison-morphism-inverse-image}{\nu_{X,*}G}\to G$ is
 
 $$
-(\nu_X^*\nu_{X,*}G)(U)
+(\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}\href{@proposition-comparison-morphism-inverse-image}{\nu_{X,*}G})(U)
 =\varinjlim_iG(U_i)\longrightarrow G(U),
 $$
 

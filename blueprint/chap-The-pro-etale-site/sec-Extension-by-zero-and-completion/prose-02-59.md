@@ -20,7 +20,7 @@ is a colimit, and colimits do not commute with infinite products. On
 is the value of $M$ on one affine object of [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), henselian along
 $Z$ (Proposition [proposition-extension-zero-restriction-closed-subscheme]),
 and evaluation on one object preserves limits.
-For $\mathcal O_{E,X}=\varprojlim(\mathcal O_E/\pi_E^n)_X$ this means that
+For $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}=\varprojlim(\mathcal O_E/\pi_E^n)_X$ this means that
 $i^*$ applied to the limit is the limit of the restrictions
 $(\mathcal O_E/\pi_E^n)_Z$. The same holds for any integral complex given
 as a derived limit of its reductions.

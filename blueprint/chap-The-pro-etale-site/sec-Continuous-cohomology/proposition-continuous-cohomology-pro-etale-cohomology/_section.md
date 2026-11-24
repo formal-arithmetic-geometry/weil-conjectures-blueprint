@@ -12,6 +12,6 @@ Put $F=\varprojlim_nF_n$ in the [pro-étale topos](@proposition-topos-functorial
 derived category of abelian groups,
 
 $$
-R\Gamma(X_{\mathrm{pro}\acute{e}t},F)
-\simeq R\varprojlim_n R\Gamma(X_{\mathrm{pro}\acute{e}t},F_n).
+R\Gamma(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},F)
+\simeq R\varprojlim_n R\Gamma(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},F_n).
 $$

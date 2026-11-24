@@ -8,13 +8,13 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 For every $n\geq1$ there is a canonical exact sequence on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site)
 
 $$
-0\longrightarrow\mathcal O_{E,X}
-\xrightarrow{\pi_E^n}\mathcal O_{E,X}
+0\longrightarrow\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}
+\xrightarrow{\pi_E^n}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}
 \longrightarrow(\mathcal O_E/\pi_E^n)_X\longrightarrow0.
 $$
 
 Thus the quotient is represented by the two-term complex
-$[\mathcal O_{E,X}\xrightarrow{\pi_E^n}\mathcal O_{E,X}]$ in degrees
+$[\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}\xrightarrow{\pi_E^n}\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}]$ in degrees
 $-1,0$. Under this representation, reduction from level $n+1$ to level
 $n$ is the chain map $(\pi_E,\mathrm{id})$. These resolutions and maps
 commute with inverse image along every morphism of schemes.

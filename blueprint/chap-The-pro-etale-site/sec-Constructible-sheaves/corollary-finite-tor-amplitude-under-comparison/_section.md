@@ -8,7 +8,7 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $X$ be quasi-compact and quasi-separated and let $\Lambda$ be a discrete
 Noetherian ring. The equivalence
-$\nu_X^*:D^b_c(X_{\acute{e}t},\Lambda)\to\Dbc(X,\Lambda)$ of
+$\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*}:D^b_c(X_{\acute{e}t},\Lambda)\to\Dbc(X,\Lambda)$ of
 Theorem [theorem-comparison-constructible-sheaves] restricts to an equivalence
 
 $$

@@ -7,4 +7,4 @@ lean = ["AlgebraicGeometry.ProEtale.rightAcyclic_comparisonUpperStar_obj_of_inje
 uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 If $I$ is an injective sheaf of $\Lambda$-modules on $X_{\acute{e}t}$, then
-$R^q\nu_{X,*}\nu_X^*I=0$ for $q>0$.
+$\href{@proposition-comparison-morphism-inverse-image}{R^q\nu_{X,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*I}=0$ for $q>0$.

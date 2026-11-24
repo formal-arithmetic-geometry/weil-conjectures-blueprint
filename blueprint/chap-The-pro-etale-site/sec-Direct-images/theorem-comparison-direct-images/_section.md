@@ -10,8 +10,8 @@ If $g$ is quasi-compact and quasi-separated, the canonical natural
 transformation
 
 $$
-\nu_Y^*Rg_{\acute{e}t,*}K\longrightarrow
-Rg_{\mathrm{pro}\acute{e}t,*}\nu_X^*K
+\href{@proposition-comparison-morphism-inverse-image}{\nu_Y^*}Rg_{\acute{e}t,*}K\longrightarrow
+\href{@proposition-topos-functoriality}{Rg_{\mathrm{pro}\acute{e}t,*}}\href{@proposition-comparison-morphism-inverse-image}{\nu_X^*K}
 \tag{2.9}
 $$
 
