@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant
 uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "definition-w-local-w-strictly-local", "example-locally-constant-functions-w-local", "lemma-extremally-disconnected-covers", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "definition-weak-contractibility", "proposition-comparison-morphism-inverse-image", "proposition-pro-etale-site-separably-closed", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-constructible-sheaves"]
 +++
 1. Restriction of scalars along the map from the constant sheaf
-   $\mathcal O_E$ to $\mathcal O_{E,X}$ is an equivalence between the
+   $\mathcal O_E$ to [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients) is an equivalence between the
    [derived complete](@definition-derived-adic-completeness) objects of $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ and the [derived
    complete](@definition-derived-adic-completeness) complexes of modules over the constant sheaf $\mathcal O_E$.
 2. An object $K$ of $D(X_{\mathrm{pro}\acute{e}t},\mathcal O_E)$ lies in

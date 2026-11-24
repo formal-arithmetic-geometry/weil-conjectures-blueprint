@@ -5,8 +5,8 @@ order = 266
 uses = ["lemma-comparison-completed-coefficients", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "proposition-sp-unique-adjoint"]
 +++
 The data are described by finitely many matrices with entries in
-$\QbarX$ over finitely many quasi-compact objects, and each entry already
-lies in some $E_X$. We make this precise.
+[$\QbarX$](@lemma-comparison-completed-coefficients) over finitely many quasi-compact objects, and each entry already
+lies in some [$E_X$](@lemma-comparison-completed-coefficients). We make this precise.
 
 Since $X$ is quasi-compact, we may choose a finite covering by
 quasi-compact [pro-étale affines](@definition-ind-etale-pro-etale-weakly) on which all the modules are
@@ -19,7 +19,7 @@ quasi-compact refinements and the sheaf condition involves only finite
 limits [Stacks, [0739](https://stacks.math.columbia.edu/tag/0739)]. By Lemma [lemma-comparison-completed-coefficients] we have
 $\QbarX=\varinjlim_EE_X$. Hence the finitely many transition matrices,
 their inverses, and the matrices of the given morphisms have entries
-in $E_X$ for a single finite $E$. Moreover, their cocycle and compatibility
-identities already hold over $E_X$, since $E_X\to\QbarX$ is injective.
+in [$E_X$](@lemma-comparison-completed-coefficients) for a single finite $E$. Moreover, their cocycle and compatibility
+identities already hold over [$E_X$](@lemma-comparison-completed-coefficients), since $E_X\to\QbarX$ is injective.
 Descent of sheaves of modules now gives the required [lisse](@definition-lisse-sheaves) modules and
 morphisms.

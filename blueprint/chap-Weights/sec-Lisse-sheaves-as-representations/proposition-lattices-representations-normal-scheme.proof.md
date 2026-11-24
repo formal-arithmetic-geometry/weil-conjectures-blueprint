@@ -23,7 +23,7 @@ constant sheaves on $X_{\acute{e}t}$ and finite sets with continuous
 $\pi_1(X,\bar x)$-action, compatible with module structures.
 To pass from the finite reductions to $L$ we need to clear denominators.
 Let $M\subseteq L$ and $M'\subseteq L'$
-be [lattices](@definition-lattice) in two [lisse](@definition-lisse-sheaves) $E_X$-modules. Then a morphism
+be [lattices](@definition-lattice) in two [lisse](@definition-lisse-sheaves) [$E_X$](@lemma-comparison-completed-coefficients)-modules. Then a morphism
 $\phi:L\to L'$ has a uniform denominator: $\pi_E^c\phi$ maps $M$ into $M'$
 for some $c\geq0$. To see this, bound the finitely many matrix entries on a
 quasi-compact [pro-étale covering](@definition-small-pro-etale-site) trivializing both [lattices](@definition-lattice).

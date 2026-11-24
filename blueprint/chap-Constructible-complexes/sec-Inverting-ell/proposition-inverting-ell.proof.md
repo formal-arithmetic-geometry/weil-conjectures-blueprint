@@ -10,7 +10,7 @@ By Definition [definition-constructible-sheaves], there is a finite stratificati
 that the restriction of each of the finitely many cohomology sheaves of
 $K$ to each stratum $S$ is, on quasi-compact pro-étale charts $U$, of
 the form $\mathcal O_{E,U}\otimes_{\mathcal O_E}P$ with $P$ finitely
-generated. Suppose that $K[1/\ell]=0$. Extension of scalars to $E_X$ is
+generated. Suppose that $K[1/\ell]=0$. Extension of scalars to [$E_X$](@lemma-comparison-completed-coefficients) is
 exact, so $E_U\otimes_{\mathcal O_E}P=0$, and each such $P$ is torsion.
 The underlying space of $X$ is Noetherian, so each stratum is
 quasi-compact and finitely many charts suffice. With finitely many $P$, one power of $\ell$ kills the restrictions of all

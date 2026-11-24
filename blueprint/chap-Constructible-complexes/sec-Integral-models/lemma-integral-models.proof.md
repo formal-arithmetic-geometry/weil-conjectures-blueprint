@@ -13,7 +13,7 @@ Corollary [corollary-coefficient-heart-b] with the [lattices](@definition-lattic
 Lemma [lemma-lattices-after-finite-stratification].
 
 (1) and (2). The map from the constant sheaf $\mathcal O_E$ to
-$\mathcal O_{E,X}$ is flat and induces isomorphisms modulo every
+[$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients) is flat and induces isomorphisms modulo every
 $\pi_E^n$ [Stacks, [099L](https://stacks.math.columbia.edu/tag/099L)]. Hence by [Stacks, [099I](https://stacks.math.columbia.edu/tag/099I)] restriction of scalars
 is an equivalence on [derived complete](@definition-derived-adic-completeness) objects, which is (1).
 By [Stacks, [09C1](https://stacks.math.columbia.edu/tag/09C1)], an object of $\Dc(X,\mathcal O_E)$ is a derived complete
@@ -36,8 +36,8 @@ Proposition [proposition-local-structure-integral-constructible-complexes].
 For each of the three operations we therefore check whichever of these two conditions is convenient.
 
 *Inverse image.* By Lemma [lemma-inverse-image-coefficient-sheaves], $f^*$
-sends finite free $\mathcal O_{E,Y}$-modules to finite free
-$\mathcal O_{E,X}$-modules, so it preserves the local description of
+sends finite free [$\mathcal O_{E,Y}$](@lemma-comparison-completed-coefficients)-modules to finite free
+[$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients)-modules, so it preserves the local description of
 condition (3).
 
 *Extension by zero.* The functor $a_!=i_*j_!$ preserves [derived

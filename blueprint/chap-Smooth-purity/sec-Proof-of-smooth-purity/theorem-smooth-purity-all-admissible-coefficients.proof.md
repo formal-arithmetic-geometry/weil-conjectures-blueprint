@@ -43,7 +43,7 @@ Since the source and target of [$\operatorname{Tr}_p$](@definition-trace-map-aff
 [$\Dbc(Y,\mathcal O_E)$](@definition-constructible-sheaves), the complex $C$ is [derived complete](@definition-derived-adic-completeness), and derived Nakayama
 (Lemma [lemma-reduction-derived-nakayama]) gives $C=0$. Thus
 $\phi=u\circ\operatorname{Tr}_p$ for a unique endomorphism $u$ of
-$\mathcal O_{E,Y}$, that is, for an element
+[$\mathcal O_{E,Y}$](@lemma-comparison-completed-coefficients), that is, for an element
 $u\in H^0(Y,\mathcal O_E)=\varprojlim_nH^0(Y,\mathcal O_E/\ell^n)$.
 
 Next, we show that $u\equiv1$ modulo $\ell^n$ for every $n$, so that $u=1$.

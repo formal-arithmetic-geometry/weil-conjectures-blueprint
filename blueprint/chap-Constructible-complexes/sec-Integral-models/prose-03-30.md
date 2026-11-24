@@ -16,4 +16,4 @@ reduction modulo $\pi_E$ is a bounded [constructible complex](@definition-constr
 from $X_{\acute{e}t}$.
 The Stacks Project works instead with the category $\Dc(X,\mathcal O_E)$ of
 [Stacks, [09C1](https://stacks.math.columbia.edu/tag/09C1)], built from modules over the constant sheaf $\mathcal O_E$
-rather than over $\mathcal O_{E,X}$.
+rather than over [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients).

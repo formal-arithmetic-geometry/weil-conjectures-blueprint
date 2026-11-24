@@ -13,14 +13,14 @@ morphism of [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-shea
 For $C\in D(X_{\mathrm{pro}\acute{e}t},E)$ and a finite extension $E'/E$, the
 extensions of scalars are the complexes $C_{E'}=E'_X\otimes_{E_X}C$ and
 $C_{\overline{\mathbf Q}_\ell}=\QbarX\otimes_{E_X}C$. These tensor products need not be derived, since
-$E'_X$ and $\QbarX$ are flat over $E_X$.
+[$E'_X$](@lemma-comparison-completed-coefficients) and [$\QbarX$](@lemma-comparison-completed-coefficients) are flat over [$E_X$](@lemma-comparison-completed-coefficients).
 
 The classical counterpart is the fact that a continuous representation of
 a profinite group on $\overline{\mathbf Q}_\ell^r$, with the $\ell$-adic topology, takes
 values in $\GL_r(E)$ for some finite $E/\mathbf Q_\ell$. Similarly, a [constructible complex](@definition-constructible-sheaves), or a morphism
 between two of them, is described by finitely many matrices with entries
-in $\QbarX$, and on a quasi-compact scheme finitely many such entries
-already lie in a single $E_X$. We use the next lemma whenever a statement for
+in [$\QbarX$](@lemma-comparison-completed-coefficients), and on a quasi-compact scheme finitely many such entries
+already lie in a single [$E_X$](@lemma-comparison-completed-coefficients). We use the next lemma whenever a statement for
 $\overline{\mathbf Q}_\ell$ is reduced to one for a finite $E$, as in
 Lemma [lemma-integral-models](4) and in the uniform Ext bound
 (Lemma [lemma-uniform-ext-bound]).

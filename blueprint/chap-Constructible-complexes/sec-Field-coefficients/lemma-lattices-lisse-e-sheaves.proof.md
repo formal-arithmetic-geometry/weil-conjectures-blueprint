@@ -28,7 +28,7 @@ $$
 of lattices in $E^r$, which is discrete because $\GL_r(\mathcal O_E)$
 is an open subgroup of $\GL_r(E)$. To glue these constant sheaves, recall from
 Lemma [lemma-comparison-completed-coefficients] that on an affine object, sections
-of $E_X$ are continuous functions to $E$, with bounded denominators by
+of [$E_X$](@lemma-comparison-completed-coefficients) are continuous functions to $E$, with bounded denominators by
 quasi-compactness. A change of basis on $V\times_XV$ is therefore a
 continuous function to $\GL_r(E)$. Since the stabilizer of a lattice
 is open, the image of each fixed lattice under this function is locally

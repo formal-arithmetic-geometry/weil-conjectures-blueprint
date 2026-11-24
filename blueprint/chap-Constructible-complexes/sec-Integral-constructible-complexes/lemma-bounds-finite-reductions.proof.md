@@ -11,7 +11,7 @@ follows from the [Milnor sequence](@proposition-milnor-sequence).
 
 The filtration of $\mathcal O_E/\pi_E^n$ by the powers of $\pi_E$ has
 graded pieces $\mathbf F_E$. Tensoring its short exact sequences with
-$K$ over $\mathcal O_{E,X}$, we get triangles
+$K$ over [$\mathcal O_{E,X}$](@lemma-comparison-completed-coefficients), we get triangles
 $K_1\to K_{n}\to K_{n-1}$, up to the identification
 $\pi_E^{n-1}\mathcal O_E/\pi_E^n\simeq\mathbf F_E$. Moreover, complexes with
 [constructible](@definition-constructible-sheaves) cohomology in $[a,b]$ are closed under extensions in

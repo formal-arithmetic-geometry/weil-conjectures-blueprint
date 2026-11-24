@@ -6,7 +6,7 @@ order = 288
 +++
 We pass from statements with coefficients $\mathcal O_E/\pi_E^n$ to
 statements with coefficients $E$ through integral [lattices](@definition-lattice). A [lisse](@definition-lisse-sheaves)
-$E_X$-module may fail to have a [lattice](@definition-lattice) on all of $X$, but it has one on
+[$E_X$](@lemma-comparison-completed-coefficients)-module may fail to have a [lattice](@definition-lattice) on all of $X$, but it has one on
 each stratum of a finite stratification
 (Lemma [lemma-lattices-after-finite-stratification]), and this is enough for
 dévissage arguments. In particular, from the stratified statement we obtain the integral
