@@ -3,6 +3,7 @@ id = "definition-underived-base-change-map"
 kind = "definition"
 title = "Underived base change map"
 order = 315
+lean = ["AlgebraicGeometry.Etale.baseChangeMap", "AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit"]
 +++
 Let $F$ be a sheaf on $X_{\acute{e}t}$. The *underived base change map*
 
