@@ -12,12 +12,12 @@ coordinate projection lie in $\mathbf A^1$. On $\mathbf P^1$ the only new fixed 
 zero stalk. The fibres over points of $Y_0(\mathbf F_{q^m})$ are schemes over $\mathbf F_{q^m}$, so we prove the theorem for all finite fields at once. The other coefficient rings are treated in Section [sec-ell-adic-coefficients-5].
 
 The base of the induction is the case of finite schemes. There we
-can see directly what the formula counts. For example, take $X_0=\operatorname{Spec}\mathbf F_{q^2}$ and $K=A$. Then the scheme $X$ consists of two points interchanged by $\Phi_X$. Hence
+can see directly what the formula counts. For example, take $X_0=\operatorname{Spec}\mathbf F_{q^2}$ and $K=A$. Then the scheme $X$ consists of two points interchanged by [$\Phi_X$](@definition-frobenius-correspondences-their-operators). Hence
 [$T_{c_1}$](@definition-frobenius-correspondences-their-operators) is the swap of $A\oplus A$, with trace
 $0=\#X_0(\mathbf F_q)$, and [$T_{c_2}$](@definition-frobenius-correspondences-their-operators) is the identity, with trace
 $2=\#X_0(\mathbf F_{q^2})$. In general [$T_{c_m}$](@definition-frobenius-correspondences-their-operators) is a block permutation
-matrix, and only the points fixed by $\Phi_X^m$ contribute to its trace.
+matrix, and only the points fixed by [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) contribute to its trace.
 
 The iterates $\psi_m$, the
-endomorphisms $T_{c_m}(\psi_m)$ and the stalk
+endomorphisms [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) and the stalk
 maps $\psi_{m,\bar x}$ are those of Definition [definition-frobenius-correspondences-their-operators].

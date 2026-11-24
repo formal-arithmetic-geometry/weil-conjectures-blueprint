@@ -28,7 +28,7 @@ degree-one lift. Let $b$ be the eigenvalue on such a factor. Since
 $T_{\pi_1(U)}$ is a Weil quotient of $T$, the factor is a constituent of
 $\mathcal T$, and its [determinant weight](@definition-determinant-weight) is [$\lambda_\iota(b)$](@proposition-weights-under-usual-operations). From
 $\href{@proposition-weights-under-usual-operations}{\lambda_\iota(b)}=2\log_q|\iota(b)|\le2m\beta$ we get
-$|\iota(b)|\le q^{m\beta}$. The twist $(-1)$ multiplies eigenvalues by $q$,
+$|\iota(b)|\le q^{m\beta}$. The twist [$(-1)$](@definition-tate-twists) multiplies eigenvalues by $q$,
 and the claim follows.
 
 *The local factors.* The bound on $H^2_c$ makes the [$L$-function](@theorem-trace-formula-euler-product)

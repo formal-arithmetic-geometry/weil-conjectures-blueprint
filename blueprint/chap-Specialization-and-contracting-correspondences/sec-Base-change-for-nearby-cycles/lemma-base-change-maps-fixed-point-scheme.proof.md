@@ -13,7 +13,7 @@ $$
 $$
 
 This identification uses that $i$ and $\Delta$ are proper.
-Substituting it in both sides, taking $Rc_{s!}$-adjoints, and
+Substituting it in both sides, taking [$Rc_{s!}$](@proposition-construction-independence-rf-shriek)-adjoints, and
 replacing the comparison maps $\chi_i,\chi_\Delta$ for proper maps by the
 inverses of $\nu_i,\nu_\Delta$, we find by the composition rules for
 the base change maps and for the counits that both sides are the

@@ -32,7 +32,7 @@ $R(pp_2)_*$ rewritten as $R(pp_1)_*$. The middle isomorphism is the
 projection formula for $p_1$. It replaces the [proper base change](@theorem-results-from-etale-theory)
 isomorphism of (6.7), after $Rp_*$, followed by the projection formula
 isomorphism of (6.8). The last arrow replaces $1\otimes\operatorname{Tr}_p$
-in (6.8) by $\operatorname{Tr}_{p_1}$, the base change of
+in (6.8) by [$\operatorname{Tr}_{p_1}$](@lemma-cohomology-projective-line-trace), the base change of
 $\operatorname{Tr}_p$ along $p$ (Lemma [lemma-cohomology-projective-line-trace]).
 In this form, the [trace](@lemma-cohomology-projective-line-trace) is applied to $Rp_{1*}\href{@lemma-class-diagonal-projective-line}{\delta}$, that is, to the
 factor $\Delta_*A$, and $M$ only appears as a coefficient.

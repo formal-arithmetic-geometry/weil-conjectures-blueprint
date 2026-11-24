@@ -7,8 +7,8 @@ We reduce to a closed subscheme of affine space, where the equations
 $t^{q^m}=t$ have simple roots.
 
 For every open $U_0\subset X_0$ the restriction to
-$U=U_0\times_{k_0}k$ of the [fixed scheme](@definition-correspondence) of $\Phi_X^m$ is the [fixed scheme](@definition-correspondence) of
-$\Phi_U^m$, because $\Phi_X$ is the base change of a morphism of $X_0$ and so
+$U=U_0\times_{k_0}k$ of the [fixed scheme](@definition-correspondence) of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) is the [fixed scheme](@definition-correspondence) of
+[$\Phi_U^m$](@definition-frobenius-correspondences-their-operators), because [$\Phi_X$](@definition-frobenius-correspondences-their-operators) is the base change of a morphism of $X_0$ and so
 maps $U$ into itself. As $X_0$ is quasi-compact, we may therefore assume that $X_0$
 is a closed subscheme of $\mathbf A^r_{\mathbf F_q}$, with coordinates
 $t_1,\ldots,t_r$.

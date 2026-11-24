@@ -20,7 +20,7 @@ $$
 $$
 
 The opposite inequality comes from duality. The dual $F^\vee$ is
-[lisse](@definition-lisse-sheaves) of [weight](@definition-weights) $-w$, so $F^\vee(d)$ has [weight](@definition-weights) $-w-2d$. On the
+[lisse](@definition-lisse-sheaves) of [weight](@definition-weights) $-w$, so [$F^\vee(d)$](@definition-tate-twists) has [weight](@definition-weights) $-w-2d$. On the
 smooth proper geometric fibre, Corollary [corollary-degreewise-duality-over-fields] and
 Theorem [theorem-poincare-duality-frobenius] give a Frobenius-equivariant [perfect
 pairing](@definition-perfect-pairing)
@@ -35,7 +35,7 @@ line, it identifies the second factor with the dual of the first as a
 Frobenius module, so the eigenvalues on the second factor are the
 $\alpha^{-1}$, with multiplicities. Applying
 Theorem [theorem-direct-image-mixed-sheaf] once more, now to the
-structure map of the fibre over $\kappa(y)$ and to $F^\vee(d)$, of
+structure map of the fibre over $\kappa(y)$ and to [$F^\vee(d)$](@definition-tate-twists), of
 [weight](@definition-weights) $-w-2d$, and to its cohomology in degree $2d-i$, we get
 
 $$

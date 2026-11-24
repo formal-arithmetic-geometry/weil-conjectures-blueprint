@@ -18,7 +18,7 @@ extend by zero from the strata, and finally pass to complexes.
 A finitely generated $\mathcal O_E$-module is a finite sum of copies of
 $\mathcal O_E$ and of modules $\mathcal O_E/\pi_E^r$, so its sheaf has a
 two-term finite free resolution. The coefficient sheaf
-$\mathcal O_{E,U_i}$ on a member $U_i$ of the cover in
+[$\mathcal O_{E,U_i}$](@lemma-comparison-completed-coefficients) on a member $U_i$ of the cover in
 Definition [definition-constructible-sheaves](1) is [derived complete](@definition-derived-adic-completeness). Indeed, it is
 the limit of its finite quotients by Lemma [lemma-comparison-completed-coefficients],
 and since the transition maps between these quotients are surjective, this
@@ -53,7 +53,7 @@ Each of the finitely many strata is quasi-compact, so the local isomorphisms of 
 can be taken on a finite covering by quasi-compact pro-étale objects,
 and their bounds give a common cohomological interval. Since the map from
 the constant sheaf with value the discrete ring $\mathcal O_E$ to
-$\mathcal O_{E,S}$ is flat [Stacks, [099L](https://stacks.math.columbia.edu/tag/099L)], the cohomology of
+[$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients) is flat [Stacks, [099L](https://stacks.math.columbia.edu/tag/099L)], the cohomology of
 $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}P^\bullet$ is
 $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes_{\mathcal O_E}H^q(P^\bullet)$. Here
 $H^q(P^\bullet)$ is finitely generated over $\mathcal O_E$, so these sheaves satisfy

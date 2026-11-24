@@ -26,7 +26,7 @@ Q_\eta(L):a_\eta^*Ra_{\eta*}L\xrightarrow{\sim}Rp_{1\eta*}p_{2\eta}^*L
 $$
 
 be the proper base change isomorphism, and define $Q_s$ in the same way.
-On each fibre, the $Rp_{1!}$-adjoint of $\xi$ is $Q(\href{@definition-verdier-dual-evaluation}{\omega_X})^{-1}$
+On each fibre, the [$Rp_{1!}$](@proposition-construction-independence-rf-shriek)-adjoint of $\xi$ is $Q(\href{@definition-verdier-dual-evaluation}{\omega_X})^{-1}$
 followed by $a^*\varepsilon_a$. We compare these adjoints using the
 identity
 
@@ -39,7 +39,7 @@ To prove it, we take adjoints for $p_{1s}^*\dashv Rp_{1s*}$. By the
 composition rule for $\alpha$ and $ap_1=ap_2$, both adjoints are the composite of $a_s^*\nu_a$, the base change map
 $\alpha_{ap_1}=\alpha_{ap_2}$, and the pullback by $p_{2\eta}$ of the
 counit $a_\eta^*Ra_{\eta*}L\to L$. Substituting this identity into the
-$Rp_{1s!}$-adjoint of the left side of
+[$Rp_{1s!}$](@proposition-construction-independence-rf-shriek)-adjoint of the left side of
 (C), and using naturality of $\alpha_a$ with
 respect to $\varepsilon_{a_\eta}$ and $\alpha_a(A)=\sigma_X$, we find that this
 adjoint is the composite
@@ -54,7 +54,7 @@ $$
 
 By (E.6) for $a$, this composite equals
 $\sigma_X a_s^*(\varepsilon_{a_s}\href{@proposition-construction-independence-rf-shriek}{Ra_{s!}}\theta_X)$, which is the
-$Rp_{1s!}$-adjoint of the right side. This proves
+[$Rp_{1s!}$](@proposition-construction-independence-rf-shriek)-adjoint of the right side. This proves
 (C) for proper $X$.
 
 If $X$ is not proper over $S$, we choose an open immersion
@@ -62,7 +62,7 @@ $j:X\hookrightarrow\overline X$ into a proper $S$-scheme and restrict
 both factors of the product from $\overline X$ to $X$. Both sides of
 (C) are compatible with this restriction.
 For the maps $\xi$ this follows from the composition rule for
-exceptional inverse images. For the base change maps it holds because
+[exceptional inverse images](@theorem-existence-exceptional-inverse-image). For the base change maps it holds because
 $\href{@theorem-existence-exceptional-inverse-image}{j^!}=j^*$, the map $\alpha_j$ is invertible by smooth base change, and
 $\beta_j=\alpha_j^{-1}$. So
 (C) on $\overline X$ implies it on $X$.

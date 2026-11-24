@@ -17,4 +17,4 @@ Since this isomorphism is induced by the pairing in degrees $(i,2d-i)$, it
 says exactly that the first pairing is [perfect](@definition-perfect-pairing).
 Here both spaces are finite-dimensional by Lemma [lemma-perfect-complexes-geometric-point]. Finally, the second pairing is
 the first one with the second factor and the value line twisted by
-$(-d)$, so it is [perfect](@definition-perfect-pairing) as well.
+[$(-d)$](@definition-tate-twists), so it is [perfect](@definition-perfect-pairing) as well.

@@ -10,7 +10,7 @@ $$
 (p_{1s}^*K'\otimes^{\mathbf L} p_{2s}^*\Psi_X\href{@definition-verdier-dual-evaluation}{\mathbb DK})\otimes^{\mathbf L} p_{2s}^*K'
 $$
 
-and target $p_{1s}^!K'$. The adjoint defining $\lambda_K$ is
+and target [$p_{1s}^!K'$](@theorem-existence-exceptional-inverse-image). The adjoint defining $\lambda_K$ is
 
 $$
 (p_1^*K\otimes^{\mathbf L} p_2^*\href{@definition-verdier-dual-evaluation}{\mathbb DK})\otimes^{\mathbf L} p_2^*K

@@ -6,7 +6,7 @@ uses = ["proposition-w-local-components", "theorem-enough-affine-weakly-contract
 +++
 In both cases the restrictions of $K$ are again [mixed](@definition-weights) of weights at
 most $w$ (Proposition [proposition-weights-under-usual-operations]),
-and we place $R^qf_!K$ in the middle of an exact sequence of [Weil
+and we place [$R^qf_!K$](@proposition-construction-independence-rf-shriek) in the middle of an exact sequence of [Weil
 sheaves](@definition-weil-structure) whose outer terms are bounded.
 
 For (1), applying [$Rf_!$](@proposition-construction-independence-rf-shriek) and the [composition isomorphism](@proposition-composition-base-change-rf-shriek) to the
@@ -18,13 +18,13 @@ $$
 
 which is Frobenius-equivariant by naturality, and
 Lemma [lemma-weights-exact-sequence] gives the bound for
-$R^qf_!K$.
+[$R^qf_!K$](@proposition-construction-independence-rf-shriek).
 
 For (2), let $j':V_0\to Y_0$ and $i':W_0\to Y_0$ be the inclusions.
 Base change for direct images with compact support
 (Proposition [proposition-composition-base-change-rf-shriek])
-identifies $j'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with $R^qf_{V!}(K|_{f^{-1}V_0})$ and
-$i'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with $R^qf_{W!}(K|_{f^{-1}W_0})$. By
+identifies $j'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with [$R^qf_{V!}(K|_{f^{-1}V_0})$](@proposition-construction-independence-rf-shriek) and
+$i'^*\href{@proposition-construction-independence-rf-shriek}{R^qf_!K}$ with [$R^qf_{W!}(K|_{f^{-1}W_0})$](@proposition-construction-independence-rf-shriek). By
 Lemma [lemma-finite-quasi-finite-direct-images], the outer terms of
 
 $$

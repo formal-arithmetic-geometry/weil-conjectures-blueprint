@@ -61,7 +61,7 @@ $$
 
 the Kummer boundary of $\mathcal O(\Delta)$ with its canonical section,
 compatible with every base change on $S$. Let
-$\operatorname{Tr}_{p_i}$ be the pullback of $\operatorname{Tr}_q$. Then the
+[$\operatorname{Tr}_{p_i}$](@lemma-cohomology-projective-line-trace) be the pullback of [$\operatorname{Tr}_q$](@lemma-cohomology-projective-line-trace). Then the
 diagonal integrates to $1$ along either factor, that is,
 
 $$
@@ -75,7 +75,7 @@ This is (6.6) of Proposition [proposition-adjunction-projective-line]. To see it
 note that both sides are endomorphisms of a constant sheaf, so it suffices to check
 (9.9) on geometric fibres of $p_i$, where
 the diagonal is a single rational point with line bundle $\mathcal O(1)$,
-and $\delta$ restricts to $c_1(\mathcal O(1))$, which $\operatorname{Tr}_q$
+and [$\delta$](@lemma-class-diagonal-projective-line) restricts to $c_1(\mathcal O(1))$, which [$\operatorname{Tr}_q$](@lemma-cohomology-projective-line-trace)
 sends to $1$.
 
 For $\Lambda=\mathbf Z/\ell^n\mathbf Z$,

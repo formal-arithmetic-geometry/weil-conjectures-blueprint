@@ -19,7 +19,7 @@ by Proposition [proposition-weights-j-boundary-points]. For the target, note tha
 $F_1^\vee$ is [pure](@definition-weights) of weight $-w$, so the same result shows that the
 stalk of $j_*F_1^\vee$ has [weights at most](@definition-weights) $-w$. By
 Lemma [lemma-local-duality-point-c-u] the stalk of the target is
-the dual of this stalk twisted by $(-1)$, and hence the target has weights
+the dual of this stalk twisted by [$(-1)$](@definition-tate-twists), and hence the target has weights
 at least $w+2$. Now the image of $\delta$ is a
 quotient of the source and a submodule of the target, so its
 eigenvalues would have weights both at most $w$ and at least $w+2$.

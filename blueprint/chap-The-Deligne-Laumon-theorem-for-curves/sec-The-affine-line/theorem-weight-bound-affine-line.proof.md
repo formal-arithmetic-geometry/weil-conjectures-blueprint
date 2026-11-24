@@ -22,7 +22,7 @@ constant on the affine line, and so its $H_c^1$ vanishes by the trivial
 case of Lemma [lemma-integral-linear-character]. Every other factor
 $F_i$ is irreducible, unramified at infinity and not geometrically
 constant, so by Lemma [lemma-unramified-at-infinity-no-linear-characters]
-it has no geometric constituent of the form $\mathcal L_{\psi(ax)}$,
+it has no geometric constituent of the form [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf),
 and we may apply Corollary [corollary-h-1-c-stalk-fourier] with $M=F_i$.
 
 The induction needs $j_*$ to turn the composition series

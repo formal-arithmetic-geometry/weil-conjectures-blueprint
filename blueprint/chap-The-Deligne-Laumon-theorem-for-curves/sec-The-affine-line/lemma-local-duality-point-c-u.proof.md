@@ -12,9 +12,9 @@ and we find the first one, shifted and twisted.
 Let $i:Z\hookrightarrow C$ be the inclusion of the whole finite
 complement, and put $K_F=i^*Rj_*F$. For a [lisse](@definition-lisse-sheaves) sheaf $G$ on $U$, the
 adjunction $j^*\dashv Rj_*$ shows that $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*G}=0$, and applying
-$i^!$ to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) for $Rj_*G$ we obtain
+[$i^!$](@theorem-existence-exceptional-inverse-image) to the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) for $Rj_*G$ we obtain
 $\href{@theorem-existence-exceptional-inverse-image}{i^!j_!G}\simeq i^*Rj_*G[-1]$. Since duality
-exchanges $Rj_*$ with $j_!$ and $i^*$ with $i^!$, this formula lets us
+exchanges $Rj_*$ with $j_!$ and $i^*$ with [$i^!$](@theorem-existence-exceptional-inverse-image), this formula lets us
 write the result again in the form $i^*Rj_*$. Indeed, by Verdier duality on
 the smooth curve, $\href{@definition-verdier-dual-evaluation}{\mathbb D_UF}=\href{@definition-tate-twists}{F^\vee(1)}[2]$ for the [lisse](@definition-lisse-sheaves) sheaf $F$,
 and we find

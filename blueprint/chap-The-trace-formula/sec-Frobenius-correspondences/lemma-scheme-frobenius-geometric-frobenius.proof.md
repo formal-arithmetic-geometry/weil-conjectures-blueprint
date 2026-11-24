@@ -4,7 +4,7 @@ of = "lemma-scheme-frobenius-geometric-frobenius"
 order = 955
 uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-pro-etale-refinements-weakly-etale", "proposition-construction-independence-rf-shriek", "proposition-composition-base-change-rf-shriek", "proposition-six-operations-dctf", "proposition-sp-unique-adjoint", "theorem-nagata-s-compactification-theorem", "lemma-passing-schematic-closure"]
 +++
-The maps $\Phi_X$ and $\operatorname{Fr}_X$ differ by the
+The maps [$\Phi_X$](@definition-frobenius-correspondences-their-operators) and $\operatorname{Fr}_X$ differ by the
 absolute Frobenius, and pullback along the absolute Frobenius is
 naturally the identity on étale sheaves. This gives $\kappa_m$, and we then compare the two pullback maps on one
 compactification.
@@ -38,7 +38,7 @@ $$
 Compatibility with iteration means that
 $\kappa_{m+1}=\kappa_{m,\operatorname{Fr}_X^*K}\circ(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*\kappa_1$,
 and it follows from the compatibility of $\theta$ with pullback along
-$\Phi_X^m$. Now $\psi_m=\phi_m\kappa_m$ follows by induction on $m$. If it
+[$\Phi_X^m$](@definition-frobenius-correspondences-their-operators). Now $\psi_m=\phi_m\kappa_m$ follows by induction on $m$. If it
 holds for $m$, then
 
 $$
@@ -55,8 +55,8 @@ where the third equality is the naturality of $\kappa_m$ in $K$.
 For the pullback maps on [compact cohomology](@proposition-construction-independence-rf-shriek), let $j:X\hookrightarrow\bar X$
 be the base change of a compactification of $X_0$ over $k_0$, and use the
 pullback maps $\operatorname{pb}_h$ of Section [sec-Weil-complexes]. The
-endomorphisms $\Phi_{\bar X}$, $\operatorname{Fr}_{\bar X}$ and
-$F_{\bar X}$ of the scheme $\bar X$ restrict to $\Phi_X$,
+endomorphisms [$\Phi_{\bar X}$](@definition-frobenius-correspondences-their-operators), $\operatorname{Fr}_{\bar X}$ and
+$F_{\bar X}$ of the scheme $\bar X$ restrict to [$\Phi_X$](@definition-frobenius-correspondences-their-operators),
 $\operatorname{Fr}_X$ and $F_X$. Each of them has inverse image $X$ of $X$,
 so each commutes with $j_!$, and
 $\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\bar X}^m}=\operatorname{Fr}_{\bar X}^mF_{\bar X}^m$. Put
@@ -64,13 +64,13 @@ $L=j_!K$, so that $R\Gamma_c(X,K)=R\Gamma(\bar X,L)$.
 
 First, the map $(\Phi_X^m)^*$ of
 Definition [definition-frobenius-correspondences-their-operators] is
-$\operatorname{pb}_{\Phi_{\bar X}^m,L}$. Indeed, $\Phi_X^m$ is finite, so
+$\operatorname{pb}_{\Phi_{\bar X}^m,L}$. Indeed, [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) is finite, so
 $\href{@proposition-construction-independence-rf-shriek}{R(\Phi_X^m)_!}=R(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})_*$, and the square $j\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}=\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\bar X}^m}j$
 is cartesian, so $j_!R(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})_*\simeq R(\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\bar X}^m})_*j_!$. Under
 this isomorphism the identification
 $R\Gamma_c(X,R(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})_*-)=R\Gamma_c(X,-)$ used there is the composition
 of direct images $R\Gamma(\bar X,R(\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\bar X}^m})_*-)=R\Gamma(\bar X,-)$,
-and the unit for $\Phi_X^m$ corresponds to the unit for $\Phi_{\bar X}^m$.
+and the unit for [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) corresponds to the unit for [$\Phi_{\bar X}^m$](@definition-frobenius-correspondences-their-operators).
 
 Second, by transitivity,
 $\operatorname{pb}_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_{\bar X}^m},L}

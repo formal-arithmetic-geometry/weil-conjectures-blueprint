@@ -9,4 +9,4 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 Let $M$ be an irreducible [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) on a dense open
 $U_0\subset\mathbf A^1_{k_0}$. If $M$ is unramified at infinity and is not geometrically constant,
 then no geometric constituent of $M$ is of the form
-$\mathcal L_{\psi(ax)}$ with $a\in\bar k_0$.
+[$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf) with $a\in\bar k_0$.

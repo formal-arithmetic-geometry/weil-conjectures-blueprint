@@ -26,10 +26,10 @@ j_*M\longrightarrow Rj_*M\longrightarrow
 \tau^{\ge1}Rj_*M\longrightarrow
 $$
 
-the last term is supported on $Z$, so that $i^!$ agrees with $i^*$ on
-it. Applying $i^!$ and using $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*M}=0$, we find
+the last term is supported on $Z$, so that [$i^!$](@theorem-existence-exceptional-inverse-image) agrees with $i^*$ on
+it. Applying [$i^!$](@theorem-existence-exceptional-inverse-image) and using $\href{@theorem-existence-exceptional-inverse-image}{i^!Rj_*M}=0$, we find
 $\href{@theorem-existence-exceptional-inverse-image}{i^!j_*M}\simeq(i^*\tau^{\ge1}Rj_*M)[-1]$, which has ordinary
-cohomology only in degrees at least two. Hence $i^!P$ has ordinary
+cohomology only in degrees at least two. Hence [$i^!P$](@theorem-existence-exceptional-inverse-image) has ordinary
 cohomology only in degrees at least one.
 Therefore $\Hom(i_*A,P)=\Hom(A,\href{@theorem-existence-exceptional-inverse-image}{i^!P})=0$.
 

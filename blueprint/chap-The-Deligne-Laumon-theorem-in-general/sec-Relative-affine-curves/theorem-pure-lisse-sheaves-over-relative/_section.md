@@ -8,5 +8,5 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 +++
 Let $h:U_0\to Y_0$ be smooth separated of relative dimension one,
 with affine geometric fibres, and let $F$ be a [lisse](@definition-lisse-sheaves) [Weil sheaf](@definition-weil-structure) on
-$U_0$, [pure](@definition-weights) of weight $w$. Then $R^ih_!F$ is [mixed](@definition-weights) of weights at most
+$U_0$, [pure](@definition-weights) of weight $w$. Then [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights) of weights at most
 $w+i$.

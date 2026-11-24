@@ -34,12 +34,12 @@ $\theta_{\mathbf A^r}$. Now the base change map $\nu_i$ for the proper map
 $i$ and the factorization used for slicing commute with this counit,
 because their ordinary adjoints are the same composite of the counit
 for the open immersion of the generic fibre and the counit for $i$.
-Since generic restriction is compatible with $i^!$ and with evaluation,
+Since generic restriction is compatible with [$i^!$](@theorem-existence-exceptional-inverse-image) and with evaluation,
 the claim for $\mathbf A^r$ gives it for $X$ before taking invariants.
 
 It remains to pass to $P$-invariants. For a finite quotient $G$ of $P$,
-the additive functor $i_{s'}^!$ commutes with the action of $G$, and so
-it preserves the image of the averaging idempotent. Thus $i_{s'}^!$
+the additive functor [$i_{s'}^!$](@theorem-existence-exceptional-inverse-image) commutes with the action of $G$, and so
+it preserves the image of the averaging idempotent. Thus [$i_{s'}^!$](@theorem-existence-exceptional-inverse-image)
 commutes with $(-)^P$, and the same descent works after taking
 $P$-invariants. Since the shift $[2]$ is even, no additional Koszul
 sign appears.

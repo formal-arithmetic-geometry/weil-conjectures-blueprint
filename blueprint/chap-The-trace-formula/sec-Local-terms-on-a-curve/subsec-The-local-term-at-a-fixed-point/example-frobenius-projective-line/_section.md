@@ -7,7 +7,7 @@ order = 997
 Let $X=\mathbf P^1_k$, $K=A_X$, and let $\psi$ be the constant [Frobenius
 correspondence](@definition-frobenius-correspondences-their-operators), so that $\psi_m$ is the identity on every stalk. Both sides of
 the [Lefschetz–Verdier formula](@theorem-proper-pushforward-lefschetz-verdier) for the graph $c_m$ can be computed explicitly. The
-fixed points of $\Phi_X^m$ are the $q^m+1$ points of
+fixed points of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) are the $q^m+1$ points of
 $\mathbf P^1(\mathbf F_{q^m})$. By the proposition each has [local term](@definition-trace-class-local-terms)
 $\href{@definition-categorical-trace}{\operatorname{tr}_A(1\mid A)}=1$, so the local side is $q^m+1$. On the global
 side, $R\Gamma(\mathbf P^1,A)=A\oplus \href{@definition-tate-twists}{A(-1)}[-2]$. By

@@ -40,7 +40,7 @@ R\Gamma_c(\href{@definition-small-pro-etale-site}{X_{\mathrm{pro}\acute{e}t}},K)
 K_{\bar y}\bigr)}.
 $$
 
-Here $\operatorname{tr}_\Lambda$ is the trace of an endomorphism of a perfect complex
+Here [$\operatorname{tr}_\Lambda$](@definition-categorical-trace) is the trace of an endomorphism of a perfect complex
 (Definition [definition-categorical-trace]), and $\operatorname{Frob}_{y,m}$ is the
 $m$-th iterate of the [Weil structure](@definition-weil-structure) on the stalk at the fixed point $\bar y$. For
 $K=\Lambda_X$ and $\Lambda$ a field the formula is Weil's axiom (b), and it

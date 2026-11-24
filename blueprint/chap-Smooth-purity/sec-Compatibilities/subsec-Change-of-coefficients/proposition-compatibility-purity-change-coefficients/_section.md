@@ -11,8 +11,8 @@ $\Lambda\to\Lambda'$ be a coefficient map of
 Proposition [proposition-six-operations-change-coefficients] and let
 $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(Y,\Lambda)}$. Then the change-of-coefficients isomorphism
 $(\href{@theorem-existence-exceptional-inverse-image}{f^!K})_{\Lambda'}\to \href{@theorem-existence-exceptional-inverse-image}{f^!(K_{\Lambda'})}$ carries
-$(\href{@theorem-smooth-purity-all-admissible-coefficients}{\gamma_{f,\Lambda}(K)})_{\Lambda'}$ to $\gamma_{f,\Lambda'}(K_{\Lambda'})$, the
+$(\href{@theorem-smooth-purity-all-admissible-coefficients}{\gamma_{f,\Lambda}(K)})_{\Lambda'}$ to [$\gamma_{f,\Lambda'}(K_{\Lambda'})$](@theorem-smooth-purity-all-admissible-coefficients), the
 sources being identified by the [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for $f^*$.
 The same holds for the [trace maps](@definition-trace-map): the [change-of-coefficients isomorphism](@definition-change-of-coefficients-maps) for
 [$Rf_!$](@proposition-construction-independence-rf-shriek) carries $(\href{@definition-trace-map}{\operatorname{Tr}_{f,\Lambda}(K)})_{\Lambda'}$ to
-$\operatorname{Tr}_{f,\Lambda'}(K_{\Lambda'})$.
+[$\operatorname{Tr}_{f,\Lambda'}(K_{\Lambda'})$](@definition-trace-map).

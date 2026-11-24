@@ -8,7 +8,7 @@ Let $i:\{y\}\hookrightarrow X$ and $j:U=X\setminus\{y\}\hookrightarrow X$.
 We split $\psi$ along the [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) and compute the two [local
 terms](@definition-trace-class-local-terms) separately.
 
-*Splitting $\psi$.* Both pieces are stable under $\Phi_X^m$, and in
+*Splitting $\psi$.* Both pieces are stable under [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators), and in
 fact $((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^{-1}\{y\})_{\mathrm{red}}=\{y\}$. In the enhanced derived
 category, the functorial [localization triangle](@proposition-extension-zero-restriction-closed-subscheme) is a two-step filtered
 object,
@@ -18,7 +18,7 @@ K_U=j_!j^*K\longrightarrow K\longrightarrow i_*i^*K
 \xrightarrow{+1},
 $$
 
-and $\psi$ induces a coherent map from the $(\Phi_X^m)^*$-pullback of this
+and $\psi$ induces a coherent map from the [$(\Phi_X^m)^*$](@definition-frobenius-correspondences-their-operators)-pullback of this
 filtration to the filtration itself, with induced correspondences
 $\psi_U$ and $i_*\psi_{\bar y}$ on the pieces. This rests on two base
 change identities. For the open part,

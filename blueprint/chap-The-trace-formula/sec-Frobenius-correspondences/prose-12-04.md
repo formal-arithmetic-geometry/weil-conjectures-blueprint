@@ -5,7 +5,7 @@ title = "Frobenius correspondences (2)"
 order = 953
 +++
 The operator [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) is defined with the $k$-linear
-$\Phi_X$, while the [Frobenius operator](@definition-frobenius-operator) of Section [sec-Weil-complexes], whose
+[$\Phi_X$](@definition-frobenius-correspondences-their-operators), while the [Frobenius operator](@definition-frobenius-operator) of Section [sec-Weil-complexes], whose
 trace the theorem is about, is defined with $\operatorname{Fr}_X$. The
 next lemma says that the two agree, so that the [trace formula](@theorem-trace-formula-frobenius-correspondence) proved for
-$\Phi_X$ is a statement about [$\operatorname{Frob}_{X,K}$](@definition-frobenius-operator).
+[$\Phi_X$](@definition-frobenius-correspondences-their-operators) is a statement about [$\operatorname{Frob}_{X,K}$](@definition-frobenius-operator).

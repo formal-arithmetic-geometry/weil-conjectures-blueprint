@@ -6,7 +6,7 @@ uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-
 +++
 The composite of two transforms is again an integral
 transform, and we compute its kernel. It will turn out to be the
-constant sheaf on the diagonal, twisted by $(-r)$, which up to this twist
+constant sheaf on the diagonal, twisted by [$(-r)$](@definition-tate-twists), which up to this twist
 is the kernel of the identity functor. Let $r_{ij}$ be the projections of
 $V\times_SV^\vee\times_SV$ onto pairs of factors. By [base change](@proposition-composition-base-change-rf-shriek) and
 the projection formula, the composite of two transforms is the

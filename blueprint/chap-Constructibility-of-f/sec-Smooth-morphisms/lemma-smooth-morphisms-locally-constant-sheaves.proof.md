@@ -22,7 +22,7 @@ N=\cHom_X(L,\mathbf F_{\ell,X})\otimes^{\mathbf L}\omega_f .
 $$
 
 By Proposition [proposition-exceptional-inverse-image-smooth-morphism], $\omega_f$ is locally
-$\mathbf F_{\ell,X}(d)[2d]$. Hence $N$ is bounded [constructible](@definition-constructible-sheaves) and
+[$\mathbf F_{\ell,X}(d)[2d]$](@definition-tate-twists). Hence $N$ is bounded [constructible](@definition-constructible-sheaves) and
 $\cHom_X(N,\href{@proposition-exceptional-inverse-image-smooth-morphism}{\omega_f})=L$.
 
 *Duality.* Consider the pairing

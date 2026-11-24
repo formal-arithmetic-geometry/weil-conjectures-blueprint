@@ -8,8 +8,8 @@ uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-
 +++
 Let $X_0$ be a smooth curve over $k_0$, let $X=X_0\times_{k_0}k$,
 let $K\in \href{@definition-constructible-sheaves}{D^b_{\mathrm{ctf}}(X,A)}$, and let $y$ be a
-fixed point of $\Phi_X^m$. Let $\Gamma\subset X\times X$ be the
-transposed graph of $\Phi_X^m$, the image of the closed immersion
+fixed point of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators). Let $\Gamma\subset X\times X$ be the
+transposed graph of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators), the image of the closed immersion
 $\gamma=(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m},\operatorname{id}_X)$, and let $\Delta\subset X\times X$
 be the diagonal, the image of $\delta=(\operatorname{id}_X,\operatorname{id}_X)$.
 On the strict localization $T$ of $X\times X$ at $(y,y)$ put

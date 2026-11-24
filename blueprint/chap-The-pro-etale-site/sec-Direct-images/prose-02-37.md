@@ -6,7 +6,7 @@ order = 135
 +++
 Since every bounded-below [classical](@definition-classical-pro-etale-sheaves) complex is of the form [$\nu_X^*K$](@proposition-comparison-morphism-inverse-image)
 (Corollary [corollary-bounded-below-classical-complexes]), the theorem
-shows that, for $g$ quasi-compact and quasi-separated, $Rg_{\mathrm{pro}\acute{e}t,*}$
+shows that, for $g$ quasi-compact and quasi-separated, [$Rg_{\mathrm{pro}\acute{e}t,*}$](@proposition-topos-functoriality)
 carries bounded-below [classical](@definition-classical-pro-etale-sheaves) complexes to [classical](@definition-classical-pro-etale-sheaves) complexes.
 
 In later arguments we transport maps built from units, counits and composition

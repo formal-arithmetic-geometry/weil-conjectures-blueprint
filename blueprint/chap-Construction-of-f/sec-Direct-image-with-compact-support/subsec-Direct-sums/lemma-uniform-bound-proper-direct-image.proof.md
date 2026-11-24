@@ -9,12 +9,12 @@ extensions: if $R^qp_*$ vanishes for $q>2d+1$ on two
 sheaves, it vanishes on every extension of one by the other. By Lemma [lemma-constructible-sheaves](3), every
 $M\in\href{@definition-constructible-sheaves}{\Cons(X,\Lambda)}$ is a finite extension of sheaves $a_!L$, with
 $a:S\hookrightarrow X$ a locally closed immersion and $L$ [lisse](@definition-lisse-sheaves). Moreover, for $\Lambda=\overline{\mathbf Q}_\ell$, $L$ is the scalar extension $\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{E}L_E$ of a
-[lisse](@definition-lisse-sheaves) $E_S$-module $L_E$ for some finite $E/\mathbf Q_\ell$
+[lisse](@definition-lisse-sheaves) [$E_S$](@lemma-comparison-completed-coefficients)-module $L_E$ for some finite $E/\mathbf Q_\ell$
 (Lemma [lemma-descent-lisse-qbar-sheaves-finite]). For $\Lambda=E$, we simply put $L_E=L$. In both cases we may refine $S$ by a finite stratification, since this
 replaces $a_!L$ by a finite extension of sheaves of the same form. By
 Lemma [lemma-lattices-after-finite-stratification], after such a
 refinement $L_E$ contains a [lattice](@definition-lattice) $L_0$,
-locally free of finite rank over $\mathcal O_{E,S}$, with $L_0[1/\ell]=L_E$. Hence it is
+locally free of finite rank over [$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients), with $L_0[1/\ell]=L_E$. Hence it is
 enough to prove the bound for $a_!L_0$, and then to pass to
 $a_!L_E=(a_!L_0)[1/\ell]$ and, if $\Lambda=\overline{\mathbf Q}_\ell$, to its scalar
 extension $a_!L$.

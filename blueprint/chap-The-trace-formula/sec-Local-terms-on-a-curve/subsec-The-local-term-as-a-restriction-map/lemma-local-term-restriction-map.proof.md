@@ -9,7 +9,7 @@ adjoint to one map $R\gamma_*\href{@theorem-existence-exceptional-inverse-image}
 $[\psi]$ and the map $\rho$ are built, the comparison is formal, and
 computing on étale models changes nothing.
 
-By [external duality](@lemma-external-duality-trace-morphism), $\gamma^!P$ is identified with
+By [external duality](@lemma-external-duality-trace-morphism), [$\gamma^!P$](@theorem-existence-exceptional-inverse-image) is identified with
 $\cHom((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K,K)$, so exceptional adjunction identifies $\psi$
 with $[\psi]$. The map $\rho$ is constructed from the
 two canonical arrows
@@ -29,7 +29,7 @@ cohomology](@definition-local-cohomology) with support in the intersection.
 The adjoint of $\mathrm{ev}_K:\delta^*P\to\href{@definition-verdier-dual-evaluation}{\omega_X}$ is the map
 $P\to R\delta_*\href{@definition-verdier-dual-evaluation}{\omega_X}$ used to define the trace morphism in
 Definition [definition-trace-morphism]. Hence the displayed composite, before
-$\int_y$, is adjoint to the map
+[$\int_y$](@definition-trace-class-local-terms), is adjoint to the map
 
 $$
 R\gamma_*\href{@theorem-existence-exceptional-inverse-image}{\gamma^!P}\longrightarrow P\longrightarrow R\delta_*\href{@definition-verdier-dual-evaluation}{\omega_X}.

@@ -97,7 +97,7 @@ induced by the change-of-coefficients maps $c$
 (9.23) the levels of $e_{f,\bullet}$
 commute with them. So $e_{f,\bullet}$ is an isomorphism of functors on
 towers. In particular, for a normalized tower $K_\bullet$ both
-$g'^*\href{@proposition-sp-tower-geometric}{f_\bullet^!K_\bullet}$ and $f'^!_\bullet g^*K_\bullet$
+$g'^*\href{@proposition-sp-tower-geometric}{f_\bullet^!K_\bullet}$ and [$f'^!_\bullet g^*K_\bullet$](@proposition-sp-tower-geometric)
 are normalized.
 
 The functors $\operatorname{red}$ of Lemma [lemma-sp-tower-adjunction-foundation]

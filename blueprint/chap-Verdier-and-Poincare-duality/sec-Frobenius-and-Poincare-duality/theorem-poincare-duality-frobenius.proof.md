@@ -11,7 +11,7 @@ pairing is [perfect](@definition-perfect-pairing).
 
 Cup product with mixed supports and evaluation are natural for pullback
 by Frobenius, and the isomorphism [$\gamma_{a_X}$](@theorem-smooth-purity-all-admissible-coefficients) and the [trace map](@definition-trace-map) are equivariant
-by Proposition [proposition-purity-trace-commute-frobenius]. Moreover, the contragredient [Weil structure](@definition-weil-structure) on $K^\vee$ is chosen so that evaluation
+by Proposition [proposition-purity-trace-commute-frobenius]. Moreover, the contragredient [Weil structure](@definition-weil-structure) on [$K^\vee$](@theorem-poincare-duality) is chosen so that evaluation
 $K\otimes \href{@theorem-poincare-duality}{K^\vee}\to\Lambda_X$ is a morphism of [Weil complexes](@definition-weil-structure), with the
 trivial structure on $\Lambda_X$. It follows that the composite [$\beta_K$](@theorem-poincare-duality) is equivariant, which gives $\langle Fx,Fy\rangle=\langle
 x,y\rangle$ for the first pairing. The second pairing is obtained by moving the
@@ -23,7 +23,7 @@ displayed identity $\langle Fx,Fy\rangle=q^d\langle x,y\rangle$.
 
 For field coefficients, Corollary [corollary-degreewise-duality-over-fields] identifies
 $H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})$, via the untwisted pairing, with the dual of
-$H_c^i(X,K)$ tensored with [$\Lambda(-d)$](@definition-tate-twists). Moreover, Frobenius on $H_c^i(X,K)$ is invertible, because $\phi_K$ is an isomorphism and pullback along the
+$H_c^i(X,K)$ tensored with [$\Lambda(-d)$](@definition-tate-twists). Moreover, Frobenius on $H_c^i(X,K)$ is invertible, because [$\phi_K$](@definition-weil-structure) is an isomorphism and pullback along the
 automorphism $\operatorname{Fr}_X$ is invertible on cohomology.
 In matrix terms, choose dual bases for the [perfect pairing](@definition-perfect-pairing), let $F_i$ be the
 matrix of $F$ on $H^i_c(X,K)$ and $F_{2d-i}$ that on $H^{2d-i}(X,\href{@theorem-poincare-duality}{K^\vee})$. Then the identity $\langle Fx,Fy\rangle=q^d\langle x,y\rangle$ reads ${}^tF_iF_{2d-i}=q^d$. In other words, Frobenius on

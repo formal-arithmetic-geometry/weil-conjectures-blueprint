@@ -11,7 +11,7 @@ $\mathbf G_m$. Then $H^0_c=0$ because $\mathbf G_m$ is affine, and
 $H^2_c=0$ because the coinvariants vanish.
 
 The positivity we want is $a^{2m}\ge0$ for the traces $a$ of all powers
-$\operatorname{Frob}_x^n$ on $\mathcal G$, and for this all these traces must be
+[$\operatorname{Frob}_x^n$](@theorem-trace-formula-euler-product) on $\mathcal G$, and for this all these traces must be
 real. It is not enough to ask that the trace of
 [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) itself be real. For example, if the eigenvalues at $x$ are $i$
 and $1-i$, the trace is $1$, but the trace of the square is

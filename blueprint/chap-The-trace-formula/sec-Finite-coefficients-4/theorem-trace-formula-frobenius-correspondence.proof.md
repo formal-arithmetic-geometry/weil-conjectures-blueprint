@@ -18,7 +18,7 @@ cutting it into affine pieces.
 be read off from a block matrix. Indeed, up to nilpotents, $X$ is
 the finite disjoint union of its geometric points. By nilpotent
 invariance, $R\Gamma_c(X,K)=\bigoplus_{z\in X(k)}K_z$.
-In this decomposition, the pullback along $\Phi_X^m$ given by the unit permutes these summands, and the block of [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) from $K_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(z)}$ to $K_z$ is
+In this decomposition, the pullback along [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators) given by the unit permutes these summands, and the block of [$T_{c_m}(\psi_m)$](@definition-frobenius-correspondences-their-operators) from $K_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(z)}$ to $K_z$ is
 the stalk of $\psi_m$ at $z$, a map
 $K_{\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m}(z)}=((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K)_z\to K_z$. On a finite projective model only the diagonal blocks
 contribute to the trace. These occur exactly at the points

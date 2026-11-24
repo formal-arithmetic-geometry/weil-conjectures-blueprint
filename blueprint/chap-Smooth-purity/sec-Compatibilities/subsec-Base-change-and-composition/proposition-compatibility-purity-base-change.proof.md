@@ -39,7 +39,7 @@ does the orientation built from them.
 
 *The map $f^*K\otimes\href{@definition-relative-dualizing-complex}{\omega_f}\to \href{@theorem-existence-exceptional-inverse-image}{f^!K}$.* This factor is not a map of
 sheaves, so we cannot compare the two maps locally. However, a map into
-$f'^!_\bullet g^*K_\bullet$ is determined by its transpose under the adjunction
+[$f'^!_\bullet g^*K_\bullet$](@proposition-sp-tower-geometric) is determined by its transpose under the adjunction
 on towers for $f'$. By the definition of $e_{f,\bullet}$, the transpose of the
 pulled-back map $\mu_{f,K}$ for $f$ is the pulled-back counit
 for $f$, preceded by

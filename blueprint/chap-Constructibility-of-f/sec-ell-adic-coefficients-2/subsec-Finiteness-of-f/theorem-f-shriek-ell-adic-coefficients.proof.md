@@ -33,6 +33,6 @@ Proposition [proposition-projective-line-rational-coefficients]. Next, the proje
 Lemma [lemma-inverse-image-tensor-product]. Moreover, the finiteness of $Rj_*$ and proper base change are Propositions [proposition-direct-image-along-open-immersion]
 and [proposition-proper-base-change-localizing-categories]. We also
 use that [derived completeness](@definition-derived-adic-completeness) is local on $X$; it is part of the criterion
-for [$\Dbc$](@definition-constructible-sheaves) with $\mathcal O_E$-coefficients. Finally, $Rf_!$ preserves
+for [$\Dbc$](@definition-constructible-sheaves) with $\mathcal O_E$-coefficients. Finally, [$Rf_!$](@proposition-construction-independence-rf-shriek) preserves
 [$\Dbc$](@definition-constructible-sheaves) (Proposition [proposition-construction-independence-rf-shriek]),
 and so the adjunction restricts to [$\Dbc$](@definition-constructible-sheaves).

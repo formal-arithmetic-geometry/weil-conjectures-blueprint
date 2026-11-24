@@ -29,7 +29,7 @@ character sheaves are roots of unity, while at the boundary both zero
 extensions have zero stalks. Hence $F$ is [real](@definition-real-sheaves), as in
 Lemma [lemma-twisted-envelope]. Moreover, since
 duality replaces $a$ by $-a$, the dual $(M^0)^\vee$ also has no
-geometric constituent of the form $\mathcal L_{\psi(ax)}$, so the argument of
+geometric constituent of the form [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf), so the argument of
 Lemma [lemma-fourier-transform-boundary-sequence] shows
 that the [direct image with compact support](@proposition-construction-independence-rf-shriek) of $F$ along $p_2$ is
 concentrated in degree one. We set $H=\href{@proposition-construction-independence-rf-shriek}{R^1p_{2!}F}$.

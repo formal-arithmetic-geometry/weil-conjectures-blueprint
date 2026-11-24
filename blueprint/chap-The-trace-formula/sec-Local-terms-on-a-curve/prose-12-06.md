@@ -11,7 +11,7 @@ $\mathbf F_{q^m}$-rational point of $X_0$, so every such point has its own
 [local term](@definition-trace-class-local-terms). For Frobenius on a smooth curve we then show that this [local term](@definition-trace-class-local-terms) is
 the trace on the stalk.
 
-On $\mathbf A^1$ the [fixed scheme](@definition-correspondence) of $\Phi^m$ is
+On $\mathbf A^1$ the [fixed scheme](@definition-correspondence) of [$\Phi^m$](@definition-frobenius-correspondences-their-operators) is
 $\operatorname{Spec}k[t]/(t^{q^m}-t)$. Its $q^m$ points are reduced
 because $t^{q^m}-t$ has derivative $-1$. This is the algebraic form
 of the transversality seen at the start of

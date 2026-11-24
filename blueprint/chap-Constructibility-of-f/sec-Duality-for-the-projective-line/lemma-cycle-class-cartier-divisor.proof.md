@@ -12,7 +12,7 @@ version of the divisor sequence $0\to\mathcal O_Z\to\mathcal O_Z(D)\to
 
 We construct $c_D$ in $D(Z_{\acute{e}t},\Lambda)$. The functor [$\nu_Z^*$](@proposition-comparison-morphism-inverse-image), which
 commutes with inverse images and with change of coefficients, then
-transports it and its compatibilities to $Z_{\mathrm{pro}\acute{e}t}$.
+transports it and its compatibilities to [$Z_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site).
 
 Let $j:Z\setminus D\hookrightarrow Z$ be the open complement. Let
 $\mathcal M_D\subset j_*\mathbf G_m$ be the subsheaf which, on an open
@@ -50,7 +50,7 @@ $\mu_{\ell^r}[2]$. This is $c_D$ for $\mathbf Z/\ell^r\mathbf Z$.
 For a finite $\mathbf Z/\ell^r\mathbf Z$-algebra $\Lambda$, we apply
 $-\otimes^{\mathbf L}_{\mathbf Z/\ell^r}\Lambda$. Since
 $\mu_{\ell^r}$ is locally free of rank one over
-$\mathbf Z/\ell^r\mathbf Z$, the target becomes $\Lambda_Z(1)[2]$.
+$\mathbf Z/\ell^r\mathbf Z$, the target becomes [$\Lambda_Z(1)[2]$](@definition-tate-twists).
 
 To identify the composite with $c_1$, we cover $Z$ by opens with local
 equations $t_\alpha$. The local lifts of the section $1$ of

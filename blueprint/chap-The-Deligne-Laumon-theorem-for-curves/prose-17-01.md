@@ -23,7 +23,7 @@ $y\ne0$, and Plancherel finds the common value $\sqrt q$. On an open of
 the affine line, Chapter [chap-The-Fourier-transform] makes the same two steps
 available for sheaves. More precisely, let $M$ be irreducible on a dense open
 $j:U_0\hookrightarrow\mathbf A^1$, with no geometric constituent of the
-form $\mathcal L_{\psi(ax)}$, and let $M'$ be the [lisse](@definition-lisse-sheaves) sheaf with
+form [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf), and let $M'$ be the [lisse](@definition-lisse-sheaves) sheaf with
 $\operatorname{FT}_\psi((j_*M)[1])\simeq(j'_*M')[1]$
 (Proposition [proposition-fourier-transform-middle-extension]). Then
 

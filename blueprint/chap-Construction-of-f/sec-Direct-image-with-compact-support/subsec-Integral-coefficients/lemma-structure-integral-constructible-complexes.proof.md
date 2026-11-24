@@ -10,7 +10,7 @@ cones, so [$\Dbc(X,\mathcal O_E)$](@definition-constructible-sheaves) is triangu
 Proposition [proposition-local-structure-integral-constructible-complexes], on the strata of a finite
 stratification an object is pro-étale locally of the form
 $\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes P^\bullet$ with $P^\bullet$ a bounded complex
-of finite free $\mathcal O_E$-modules. Since $\mathcal O_{E,S}$
+of finite free $\mathcal O_E$-modules. Since [$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients)
 is flat over $\mathcal O_E$, we get
 $H^i=\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,S}}\otimes H^i(P^\bullet)$ on such a stratum. This
 local form of the cohomology sheaves shows that the truncations stay in

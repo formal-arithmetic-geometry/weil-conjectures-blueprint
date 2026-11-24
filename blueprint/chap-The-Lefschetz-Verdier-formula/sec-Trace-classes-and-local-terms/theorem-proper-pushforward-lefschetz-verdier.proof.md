@@ -52,7 +52,7 @@ evaluation against $Rf_*K$ with the pushforward of evaluation against
 $K$, followed by $\tau_f$. This holds because that duality is defined
 by means of the counit $\tau_f$.
 
-*[Fixed loci](@definition-correspondence).* The two maps into $P_Y$ and the two evaluations therefore
+*[Fixed loci](@definition-correspondence).* The two maps into [$P_Y$](@lemma-external-duality-trace-morphism) and the two evaluations therefore
 match. The [trace classes](@definition-trace-class-local-terms), however, live on two different [fixed loci](@definition-correspondence), and we
 must see that passing from [$\Fix(c)$](@definition-correspondence) to [$\Fix(c')$](@definition-correspondence)
 is the map $h_*$ of Definition [definition-pushforward-correspondence].

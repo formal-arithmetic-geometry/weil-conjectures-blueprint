@@ -48,5 +48,5 @@ both stable under $\href{@theorem-trace-formula-euler-product}{\operatorname{Fro
 acts on them as $s^{\deg(x)}$.  If $\mathcal F$ is [punctually of
 weights](@definition-weights) $\le a$, it follows that $|\iota(\beta)|\le q^{a/2}$, and if $\mathcal F$
 is [pure](@definition-weights) of weight $a$, equality holds.
-Finally, the twist $(-1)$ multiplies each global eigenvalue by $q$,
+Finally, the twist [$(-1)$](@definition-tate-twists) multiplies each global eigenvalue by $q$,
 which gives the stated weights for $H_c^2$.

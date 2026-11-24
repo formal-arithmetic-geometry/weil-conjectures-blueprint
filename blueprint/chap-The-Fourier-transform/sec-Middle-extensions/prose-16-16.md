@@ -9,8 +9,8 @@ $M$ be an irreducible [lisse](@definition-lisse-sheaves) [Weil sheaf](@definitio
 Chapter [chap-The-Deligne-Laumon-theorem-for-curves] needs the transform of the [middle
 extension](@definition-middle-extension) of $M$ to be again a [middle extension](@definition-middle-extension), that is, to come from a
 [lisse](@definition-lisse-sheaves) sheaf $M'$ on a dense open of the dual line. This holds unless $M$ has a geometric constituent of the form
-$\mathcal L_{\psi(ax)}$, and the hypothesis of the next proposition excludes
-these. They behave differently: for $a\ne0$ the sheaf $\mathcal L_{\psi(ax)}$ has no [cohomology
+[$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf), and the hypothesis of the next proposition excludes
+these. They behave differently: for $a\ne0$ the sheaf [$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf) has no [cohomology
 with compact support](@proposition-construction-independence-rf-shriek) on the line by
 Lemma [lemma-integral-linear-character], and its transform is a
 skyscraper rather than a [lisse](@definition-lisse-sheaves) sheaf of weight one. Excluding them, however, costs

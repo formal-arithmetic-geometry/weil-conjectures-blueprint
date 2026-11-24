@@ -3,7 +3,7 @@ kind = "proof"
 of = "lemma-compatibilities-base-change-maps"
 order = 1665
 +++
-The identity follows, after taking $Rf_{s!}$-adjoints, from the
+The identity follows, after taking [$Rf_{s!}$](@proposition-construction-independence-rf-shriek)-adjoints, from the
 compatibility of $\nu_f$ with the projection formula: for $L$ on $V_\eta$ and $N$ on $W_\eta$,
 the composite
 
@@ -19,7 +19,7 @@ $\nu_f$ on the total families and compare $j_W^*$-adjoints. On both
 sides the adjoint is the counit $j_V^*Rj_{V*}\to1$ tensored with the
 identity, followed by the projection formula on the generic fibre.
 
-Taking $Rf_{s!}$-adjoints in
+Taking [$Rf_{s!}$](@proposition-construction-independence-rf-shriek)-adjoints in
 (E.8) and applying the projection
 formula, the left side becomes the following composite by this
 compatibility, and the right side becomes it by naturality

@@ -38,7 +38,7 @@ $$
 
 On a dense open where $G$ is [lisse](@definition-lisse-sheaves) with generic representation $V$,
 write $\chi_y$ for the character of $\pi_1$ given by the restriction of
-$\mathcal L_{\psi(yx)}$. By localization we may discard the finitely many
+[$\mathcal L_{\psi(yx)}$](@lemma-artin-schreier-character-sheaf). By localization we may discard the finitely many
 remaining points, which contribute only in degree zero, and
 Lemma [lemma-extreme-degrees-affine-curve] (whose proof of the
 formula for $H^2_c$ uses only the geometric curve) shows that this stalk is

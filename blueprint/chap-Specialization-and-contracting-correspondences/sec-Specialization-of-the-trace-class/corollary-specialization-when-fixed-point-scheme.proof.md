@@ -5,7 +5,7 @@ order = 1699
 uses = ["lemma-comparison-completed-coefficients", "lemma-naturality-pasting-comparison", "theorem-nagata-s-compactification-theorem", "lemma-nearby-cycles-constant-family", "lemma-composition-exceptional-base-change-maps"]
 +++
 By naturality it suffices to show that
-$\theta_Y\sigma_Y(\href{@definition-verdier-dual-evaluation}{\omega_Y})$ is the identity of $\omega_Y$. For proper
+$\theta_Y\sigma_Y(\href{@definition-verdier-dual-evaluation}{\omega_Y})$ is the identity of [$\omega_Y$](@definition-verdier-dual-evaluation). For proper
 $Y$ this follows from the adjunction defining $\theta_Y$. We deduce the
 case of general $Y$ by a [compactification](@definition-compactification-refinement), and the case of nonreduced
 $F$ by invariance under nilpotent thickenings.

@@ -22,7 +22,7 @@ N\otimes^{\mathbf L}\href{@proposition-construction-independence-rf-shriek}{Rf_!
 \xrightarrow{1\otimes\varepsilon_{A_S}}N ,
 $$
 
-where the first arrow is the projection formula. The map $\beta_N$ is the
+where the first arrow is the projection formula. The map [$\beta_N$](@definition-exceptional-base-change-finite) is the
 transpose, for $f'$, of the morphism (6.2)
 (Definition [definition-exceptional-base-change-finite]).
 

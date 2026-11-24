@@ -32,9 +32,9 @@ each of the $m$ factors of the iterate contributes $\pi_E^{-N}$, and so
 $(\psi_E)_m=\pi_E^{-Nm}(\theta_m\otimes^{\mathbf L} E)$.
 By Proposition [proposition-six-operations-change-coefficients], the [change-of-coefficients maps](@definition-change-of-coefficients-maps) for
 [cohomology with compact support](@proposition-construction-independence-rf-shriek) and for stalks respect the units of the
-pullback adjunctions. Hence the pullback map $(\Phi_X^m)^*$ on $R\Gamma_c$ for $E$ is the extension
+pullback adjunctions. Hence the pullback map [$(\Phi_X^m)^*$](@definition-frobenius-correspondences-their-operators) on $R\Gamma_c$ for $E$ is the extension
 of scalars of the integral one. The same holds for the identification
 $((\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*K_E)_{\bar y}\simeq (K_E)_{\bar y}$ at a fixed point $\bar y$
-of $\Phi_X^m$, because the comparison for inverse images is compatible
+of [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators), because the comparison for inverse images is compatible
 with composition and with extension of scalars. Applying [$T_{c_m}$](@definition-frobenius-correspondences-their-operators) and taking stalks at $\bar y$ in the formula for
 $(\psi_E)_m$ gives (12.2).

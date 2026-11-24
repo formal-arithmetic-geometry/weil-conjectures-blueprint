@@ -14,7 +14,7 @@ weight $w$. Then, by Proposition [proposition-weights-j-boundary-points],
 the source of the last map has [weights at most](@definition-weights) $w$ at a point of
 $C\setminus U$. On the other hand, by [local duality](@lemma-local-duality-point-c-u), which we prove first, the stalk of
 $R^1j_*F_1$ at such a point is the dual of the invariants of
-$F_1^\vee$, twisted by $(-1)$, and this space has weights at least
+$F_1^\vee$, twisted by [$(-1)$](@definition-tate-twists), and this space has weights at least
 $w+2$. Since a Frobenius-equivariant map between spaces with disjoint weights
 is zero, $j_*$ is exact on such sequences
 (Proposition [proposition-exactness-fixed-pure-weight]).
@@ -27,7 +27,7 @@ the connecting map is indeed nonzero.
 
 Exactness lets us extend Corollary [corollary-h-1-c-stalk-fourier]
 from one irreducible sheaf with no geometric constituent of the form
-$\mathcal L_{\psi(ax)}$ to a [pure](@definition-weights) sheaf unramified at infinity
+[$\mathcal L_{\psi(ax)}$](@lemma-artin-schreier-character-sheaf) to a [pure](@definition-weights) sheaf unramified at infinity
 (Theorem [theorem-weight-bound-affine-line]) by induction along a
 composition series. Each factor of the series is either geometrically
 constant, and then $H^1_c=0$, or it satisfies the hypotheses of the corollary.

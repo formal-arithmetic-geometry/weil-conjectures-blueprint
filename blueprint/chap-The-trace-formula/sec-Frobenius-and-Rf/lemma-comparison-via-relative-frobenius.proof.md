@@ -45,11 +45,11 @@ from the displayed iteration identity and the naturality of $\theta$.
 
 *Proof of (3).* Both endomorphisms are a pullback map followed by
 $R\Gamma_c$ of the correspondence, so we must see that the pullback along
-$\Phi_Y^m$ on $R\Gamma_c(Y,L)$ becomes the pullback along $\Phi_X^m$
+[$\Phi_Y^m$](@definition-frobenius-correspondences-their-operators) on $R\Gamma_c(Y,L)$ becomes the pullback along [$\Phi_X^m$](@definition-frobenius-correspondences-their-operators)
 on $R\Gamma_c(X,K)$. For a finite map $h$ we also write $h^*$ for the pullback
 map on [cohomology with compact support](@proposition-construction-independence-rf-shriek), defined by the unit of $h^*\dashv Rh_*$.
 Since base change is compatible with these units, the pullback along
-$\Phi_Y^m$, followed by the base change isomorphism,
+[$\Phi_Y^m$](@definition-frobenius-correspondences-their-operators), followed by the base change isomorphism,
 is the pullback along $p_m$, and the
 next arrow in $\theta_{f,m}$ becomes $r_m^*$. Their composite is
 $r_m^*p_m^*=(p_mr_m)^*=(\href{@definition-frobenius-correspondences-their-operators}{\Phi_X^m})^*$, and
@@ -57,7 +57,7 @@ composing with $R\Gamma_c(\psi_m)$ we see that the operators are
 intertwined.
 
 *Proof of (4).* We pull the construction back to the fixed point
-$y$. Since $\Phi_Y^m$ fixes $\bar y$, the fibre of $X'_m\to Y$ over
+$y$. Since [$\Phi_Y^m$](@definition-frobenius-correspondences-their-operators) fixes $\bar y$, the fibre of $X'_m\to Y$ over
 $\bar y$ is again the fibre $X_{\bar y}$ of $f$, and $r_m$ restricts to
 a self-map of $X_{\bar y}$. For $f:\mathbf A^1\to s$ and $m=1$, for
 instance, $X'_1=\mathbf A^1$ and $r_1$ is $t\mapsto t^q$. In general, the base change of $r_m$ to this fibre is its $q^m$-power scheme Frobenius,

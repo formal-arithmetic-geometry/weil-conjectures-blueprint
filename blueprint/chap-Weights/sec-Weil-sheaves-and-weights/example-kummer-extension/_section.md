@@ -6,8 +6,8 @@ order = 1066
 +++
 On $\mathbf G_{m,k_0}$ with coordinate $t$, the $\mu_{\ell^n}$-torsors
 $u^{\ell^n}=t$ give the Kummer cocycle $\kappa$, a continuous map from
-$\pi_1(\mathbf G_{m,k_0})$ to $\mathbf Z_\ell(1)$. Let $\chi$ be the cyclotomic character,
-by which $\pi_1$ acts on $\mathbf Z_\ell(1)$. The matrices
+$\pi_1(\mathbf G_{m,k_0})$ to [$\mathbf Z_\ell(1)$](@definition-tate-twists). Let $\chi$ be the cyclotomic character,
+by which $\pi_1$ acts on [$\mathbf Z_\ell(1)$](@definition-tate-twists). The matrices
 
 $$
 \sigma\longmapsto\begin{pmatrix}\chi(\sigma)&\kappa(\sigma)\\0&1\end{pmatrix}
@@ -19,7 +19,7 @@ on [$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists) by $q_x^{-1}$. Henc
 [$\operatorname{Frob}_x$](@theorem-trace-formula-euler-product) are $q_x^{-1}$ and $1$, of weights $-2$ and $0$, and
 $\mathcal E$ is [mixed](@definition-weights) of weights at most $0$ and not [pure](@definition-weights). The filtration does not
 split. Indeed, on $\pi_1(\mathbf G_{m,k})$ the character $\chi$ is trivial, and
-$\kappa$ is a homomorphism onto $\mathbf Z_\ell(1)$ because the covers
-$u^{\ell^n}=t$ of $\mathbf G_{m,k}$ are connected. So the line $\overline{\mathbf Q}_\ell(1)$ is the only stable line. At each
+$\kappa$ is a homomorphism onto [$\mathbf Z_\ell(1)$](@definition-tate-twists) because the covers
+$u^{\ell^n}=t$ of $\mathbf G_{m,k}$ are connected. So the line [$\overline{\mathbf Q}_\ell(1)$](@definition-tate-twists) is the only stable line. At each
 closed point, by contrast, the two eigenvalues are distinct and the stalk
 is the direct sum of its eigenlines.

@@ -24,7 +24,7 @@ $$
 \qquad \href{@definition-frobenius-correspondences-their-operators}{T_{c_m}(\psi_m)}=\operatorname{Frob}_{X,K}^{m},
 $$
 
-where $\operatorname{Frob}_{X,K}$ is the geometric Frobenius operator
+where [$\operatorname{Frob}_{X,K}$](@definition-frobenius-operator) is the geometric Frobenius operator
 on [compact cohomology](@proposition-construction-independence-rf-shriek) of
 Definition [definition-frobenius-operator]. The same identity of
 operators holds for an arbitrary morphism $(\operatorname{Fr}_X^m)^*K\to K$ in place

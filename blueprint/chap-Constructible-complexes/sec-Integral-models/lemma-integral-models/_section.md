@@ -23,6 +23,6 @@ uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications
 4. Every object of [$\Dbc(X,E)$](@definition-constructible-sheaves) is obtained by finitely many cones and
    shifts from objects $(a_!L_0)[1/\ell]$, where $a:S\hookrightarrow X$ is
    a locally closed immersion and $L_0$ is a [lisse](@definition-lisse-sheaves)
-   $\mathcal O_{E,S}$-module that is locally free of finite rank. Every object of [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is obtained in
+   [$\mathcal O_{E,S}$](@lemma-comparison-completed-coefficients)-module that is locally free of finite rank. Every object of [$\Dbc(X,\overline{\mathbf Q}_\ell)$](@definition-constructible-sheaves) is obtained in
    the same way from the objects $\href{@lemma-comparison-completed-coefficients}{\QbarX}\otimes_{\href{@lemma-comparison-completed-coefficients}{\mathcal O_{E,X}}}a_!L_0$,
    for some finite $E/\mathbf Q_\ell$.

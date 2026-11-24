@@ -6,10 +6,10 @@ order = 1663
 +++
 Let $c$ be a [correspondence](@definition-correspondence) over the trait $S$ and $u$ a [cohomological
 correspondence](@definition-correspondence) on its generic fibre. Nearby cycles turn $u$ into a map
-between $\Psi$ of $c_2^*K$ and $\Psi$ of $c_1^!K$. To obtain a
+between $\Psi$ of $c_2^*K$ and $\Psi$ of [$c_1^!K$](@theorem-existence-exceptional-inverse-image). To obtain a
 [cohomological correspondence](@definition-correspondence) $u_s$ on the special fibre, we must move
-$\Psi$ past $c_2^*$ and $c_1^!$. This needs base change maps between
-nearby cycles and the operations $f^*$, $Rf_*$, $Rf_!$ and $f^!$. We
+$\Psi$ past $c_2^*$ and [$c_1^!$](@theorem-existence-exceptional-inverse-image). This needs base change maps between
+nearby cycles and the operations $f^*$, $Rf_*$, [$Rf_!$](@proposition-construction-independence-rf-shriek) and [$f^!$](@theorem-existence-exceptional-inverse-image). We
 make these maps explicit here. We also prove the identities between them
 that Proposition [proposition-specialization-trace-class] uses to
 show that the trace of $u_s$ is the specialization of the trace of $u$.

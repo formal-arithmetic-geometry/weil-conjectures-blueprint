@@ -4,7 +4,7 @@ of = "theorem-pure-lisse-sheaves-over-relative"
 order = 1349
 uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-perfect-complexes-geometric-point", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "lemma-bounding-weights-mixed-sheaf", "lemma-filtrations-spectra", "lemma-subobjects-quotients-weil-sheaves", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "definition-real-sheaves", "definition-middle-extension", "lemma-boundary-stalk", "proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "proposition-twisting-weight-zero-adding-dual", "theorem-weight-bound-affine-line", "lemma-finite-quasi-finite-direct-images", "theorem-real-constructible-sheaves-are-mixed"]
 +++
-We bound the stalks of $R^ih_!F$ by the curve case, we show that these
+We bound the stalks of [$R^ih_!F$](@proposition-construction-independence-rf-shriek) by the curve case, we show that these
 sheaves are [mixed](@definition-weights) by twisting to weight zero and adding the dual, and
 we combine the two facts using
 Lemma [lemma-bounding-weights-mixed-sheaf].
@@ -29,7 +29,7 @@ Lemma [lemma-extreme-degrees-affine-curve], applied to each of them
 with $j$ the identity, shows that these groups vanish outside degrees
 $1$ and $2$.
 
-*[Mixedness](@definition-weights).* We prove that $R^ih_!F$ is [mixed](@definition-weights). This is trivial
+*[Mixedness](@definition-weights).* We prove that [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights). This is trivial
 for $F=0$, so we may assume $F\ne0$. Let $G=F^0\oplus(F^0)^\vee$, with
 $F^0=F\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$, be the sheaf of
 Proposition [proposition-twisting-weight-zero-adding-dual]. It is
@@ -66,21 +66,21 @@ Without the curve case this step would fail, because a common factor of
 numerator and denominator could cancel, and we would only know that the
 quotient is real, not each polynomial.
 
-The sheaves $R^ih_!G$ are [constructible](@definition-constructible-sheaves) by the finiteness theorems,
+The sheaves [$R^ih_!G$](@proposition-construction-independence-rf-shriek) are [constructible](@definition-constructible-sheaves) by the finiteness theorems,
 and we have shown that they are [real](@definition-real-sheaves) at every closed point. By
 Theorem [theorem-real-constructible-sheaves-are-mixed] each of them
 has a finite [mixed filtration](@definition-weights).
 
-To return from $G$ to $F$, note that by additivity $R^ih_!F^0$ is a
-direct summand of $R^ih_!G$. A direct summand is a [Weil subsheaf](@definition-weil-structure), and
+To return from $G$ to $F$, note that by additivity [$R^ih_!F^0$](@proposition-construction-independence-rf-shriek) is a
+direct summand of [$R^ih_!G$](@proposition-construction-independence-rf-shriek). A direct summand is a [Weil subsheaf](@definition-weil-structure), and
 so it is [mixed](@definition-weights) by
 Proposition [proposition-weights-under-usual-operations]. By the
 [projection formula](@lemma-kunneth-formula-compact-supports) for the constant twist, it is isomorphic to
 $\href{@proposition-construction-independence-rf-shriek}{R^ih_!F}\otimes\href{@proposition-weights-under-usual-operations}{\mathcal B_b}$. Removing the twist preserves the finite
 Weil filtration and shifts the weight of every [pure](@definition-weights) quotient by $w$.
-Hence $R^ih_!F$ is [mixed](@definition-weights).
+Hence [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights).
 
-*Conclusion.* The sheaf $R^ih_!F$ is [mixed](@definition-weights), and by the bound on the
+*Conclusion.* The sheaf [$R^ih_!F$](@proposition-construction-independence-rf-shriek) is [mixed](@definition-weights), and by the bound on the
 stalks all its local eigenvalues have modulus at most $q_y^{(w+i)/2}$.
 Lemma [lemma-bounding-weights-mixed-sheaf], with
 $w+i$ in place of $w$, shows that every nonzero quotient in the

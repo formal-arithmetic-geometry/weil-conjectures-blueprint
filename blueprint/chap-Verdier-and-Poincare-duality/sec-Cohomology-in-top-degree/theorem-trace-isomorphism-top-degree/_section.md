@@ -22,7 +22,7 @@ $$
 \xrightarrow{\sim}\href{@definition-tate-twists}{\Lambda(-d)},
 $$
 
-the twist by $(-d)$ of the map
+the twist by [$(-d)$](@definition-tate-twists) of the map
 $\operatorname{tr}_X(d):H^{2d}(X,\href{@definition-tate-twists}{\Lambda_X(d)})\to\Lambda$ induced on
 $H^{2d}$ by $\operatorname{Tr}_X$ of Definition [definition-trace-map],
 is an isomorphism.

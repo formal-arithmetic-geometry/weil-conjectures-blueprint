@@ -55,10 +55,10 @@ projection formula, so does
 $Rj_{\acute{e}t,*}K_{\acute{e}t}\otimes^{\mathbf L}_A\underline M$. In other words,
 $Rj_{\acute{e}t,*}K_{\acute{e}t}$ has [Tor amplitude](@definition-constructible-sheaves) in $[a,b+d]$.
 
-To pass to $X_{\mathrm{pro}\acute{e}t}$, we pull back a bounded flat [constructible](@definition-constructible-sheaves) model
+To pass to [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site), we pull back a bounded flat [constructible](@definition-constructible-sheaves) model
 of $Rj_{\acute{e}t,*}K_{\acute{e}t}$ in degrees $[a,b+d]$ [Stacks, [0F4M](https://stacks.math.columbia.edu/tag/0F4M)]. Since pullback
-preserves flatness, its pullback to $X_{\mathrm{pro}\acute{e}t}$ is again a complex of flat
+preserves flatness, its pullback to [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) is again a complex of flat
 sheaves in degrees $[a,b+d]$. Hence its tensor product with any sheaf of
-$A$-modules on $X_{\mathrm{pro}\acute{e}t}$ is computed termwise and lies in degrees
-$[a,b+d]$. This argument also covers the sheaves on $X_{\mathrm{pro}\acute{e}t}$ that are not pulled
+$A$-modules on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) is computed termwise and lies in degrees
+$[a,b+d]$. This argument also covers the sheaves on [$X_{\mathrm{pro}\acute{e}t}$](@definition-small-pro-etale-site) that are not pulled
 back from $X_{\acute{e}t}$, for which geometric stalks would not detect the [Tor amplitude](@definition-constructible-sheaves).
