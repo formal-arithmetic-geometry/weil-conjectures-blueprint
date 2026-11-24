@@ -8,8 +8,8 @@ The idea is to produce one
 trivial sheaf $\mathcal M$ on $A\times A\times A$ by the [theorem of the
 cube](@theorem-theorem-cube), and to pull it back
 along maps $A\to A\times A\times A$ chosen so that the result is a
-relation between $[n+1]^*\mathcal L$, $[n]^*\mathcal L$ and
-$[n-1]^*\mathcal L$. The [theorem of the cube](@theorem-theorem-cube) applies because $A$ is
+relation between $\href{@definition-abelian-variety}{[n+1]^*}\mathcal L$, $\href{@definition-abelian-variety}{[n]^*}\mathcal L$ and
+$\href{@definition-abelian-variety}{[n-1]^*}\mathcal L$. The [theorem of the cube](@theorem-theorem-cube) applies because $A$ is
 geometrically integral (Lemma [lemma-abelian-variety-commutative]).
 
 Consider
@@ -30,22 +30,22 @@ $x_2+x_3$, the constant map $e$, $x_2$ and $x_3$, with exponents
 $1,-1,-1,-1,1,1,1$. Of these, the pullback along the constant map is trivial, and the others cancel. The same holds on $A\times e\times A$ and
 $A\times A\times e$. Hence $\mathcal M$ is trivial by
 Theorem [theorem-theorem-cube]. Finally, pulling the trivial sheaf $\mathcal M$ back along
-$x\mapsto(x,x,[n-1]x)$ for $n\ge0$ yields
+$x\mapsto(x,x,\href{@definition-abelian-variety}{[n-1]}x)$ for $n\ge0$ yields
 
 $$
-[n+1]^*\mathcal L\otimes\mathcal L^{\otimes2}
-\otimes[n-1]^*\mathcal L
-\simeq [2]^*\mathcal L\otimes([n]^*\mathcal L)^{\otimes2}.
+\href{@definition-abelian-variety}{[n+1]^*}\mathcal L\otimes\mathcal L^{\otimes2}
+\otimes\href{@definition-abelian-variety}{[n-1]^*}\mathcal L
+\simeq \href{@definition-abelian-variety}{[2]^*}\mathcal L\otimes(\href{@definition-abelian-variety}{[n]^*}\mathcal L)^{\otimes2}.
 $$
 
-To see this, note that the composites of $x\mapsto(x,x,[n-1]x)$ with
+To see this, note that the composites of $x\mapsto(x,x,\href{@definition-abelian-variety}{[n-1]}x)$ with
 $m_{123}$, $m_{12}$, $m_{13}$, $m_{23}$, $p_1$, $p_2$, $p_3$ are
 [$[n+1]$](@definition-abelian-variety), [$[2]$](@definition-abelian-variety), [$[n]$](@definition-abelian-variety), [$[n]$](@definition-abelian-variety), $\mathrm{id}$, $\mathrm{id}$, [$[n-1]$](@definition-abelian-variety).
 The cases $n=0$ and $n=1$ of the formula are clear. For $n=0$, since
-$[0]^*\mathcal L$ is trivial, the relation reads
-$\mathcal L^{\otimes3}\otimes[-1]^*\mathcal L\simeq[2]^*\mathcal L$.
+$\href{@definition-abelian-variety}{[0]^*}\mathcal L$ is trivial, the relation reads
+$\mathcal L^{\otimes3}\otimes\href{@definition-abelian-variety}{[-1]^*}\mathcal L\simeq\href{@definition-abelian-variety}{[2]^*}\mathcal L$.
 This is the case $n=2$ of the formula. In general, the relation
-expresses $[n+1]^*\mathcal L$ in terms of $[n]^*\mathcal L$ and
-$[n-1]^*\mathcal L$, and the exponents in the formula satisfy the same
+expresses $\href{@definition-abelian-variety}{[n+1]^*}\mathcal L$ in terms of $\href{@definition-abelian-variety}{[n]^*}\mathcal L$ and
+$\href{@definition-abelian-variety}{[n-1]^*}\mathcal L$, and the exponents in the formula satisfy the same
 second order recursion. Induction on $n$ therefore gives the formula [Stacks, [0BFF](https://stacks.math.columbia.edu/tag/0BFF)].
 In particular, for [symmetric](@definition-abelian-variety) $\mathcal N$ the two exponents add up to $n^2$.
