@@ -5,7 +5,7 @@ title = "Perverse sheaves on a curve"
 order = 1250
 uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-pro-etale-coverings", "proposition-topos-functoriality", "example-locally-constant-functions-w-local", "corollary-finite-quotients-their-transition-maps", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "lemma-perfect-complexes-geometric-point", "definition-punctual-sheaf"]
 +++
-Let $\Lambda$ be $E$ or $\overline{\mathbf Q}_\ell$. Define two classes of objects of $D^b_c(C_{\mathrm{pro}\acute{e}t},\Lambda)$ by
+Let $\Lambda$ be $E$ or $\overline{\mathbf Q}_\ell$. Define two classes of objects of [$D^b_c(C_{\mathrm{pro}\acute{e}t},\Lambda)$](@definition-constructible-sheaves) by
 
 $$
 \begin{split}
@@ -19,5 +19,5 @@ $$
 and ${}^pD^{\le n}={}^pD^{\le0}[-n]$, ${}^pD^{\ge n}={}^pD^{\ge0}[-n]$.
 A *perverse sheaf* on $C$ is an object of
 ${}^pD^{\le0}\cap{}^pD^{\ge0}$. For $C=C_0\times_{k_0}k$, a
-*perverse Weil sheaf* on $C_0$ is a perverse sheaf on $C$ with a
+*perverse [Weil sheaf](@definition-weil-structure)* on $C_0$ is a perverse sheaf on $C$ with a
 Weil structure, with morphisms as in Definition [definition-weil-structure].

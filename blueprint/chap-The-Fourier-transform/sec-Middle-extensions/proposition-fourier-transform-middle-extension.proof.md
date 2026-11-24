@@ -4,21 +4,21 @@ of = "proposition-fourier-transform-middle-extension"
 order = 1268
 uses = ["lemma-integral-models", "proposition-proper-direct-image-constructible-complexes", "proposition-six-operations-dctf", "lemma-perfect-complexes-geometric-point", "proposition-weights-under-usual-operations", "proposition-fourier-inversion", "definition-perverse-sheaves-curve", "lemma-perverse-sheaves-curve", "lemma-simple-objects", "proposition-fourier-transform-perverse-heart", "lemma-finite-quasi-finite-direct-images"]
 +++
-By Fourier inversion, a punctual transform would force every geometric
+By [Fourier inversion](@proposition-fourier-inversion), a [punctual](@definition-punctual-sheaf) transform would force every geometric
 constituent of $M$ to be a linear character sheaf, and the hypothesis
 excludes this.
 
 By Proposition [proposition-fourier-transform-perverse-heart], the transform of the simple
 object $(j_*M)[1]$ is simple, and so by
-Lemma [lemma-simple-objects] it is either punctual or of the
+Lemma [lemma-simple-objects] it is either [punctual](@definition-punctual-sheaf) or of the
 displayed form. Restricting the kernel to $\{a\}\times\mathbf A^1$
 shows that the inverse transform of a geometric skyscraper at $a$ is
-$\mathcal L_{\psi(-ax)}(1)[1]$. Now, if the transform were punctual, it
+$\mathcal L_{\psi(-ax)}(1)[1]$. Now, if the transform were [punctual](@definition-punctual-sheaf), it
 would geometrically be an iterated extension of skyscrapers at
-finitely many points $a$, so by Fourier inversion and exactness
+finitely many points $a$, so by [Fourier inversion](@proposition-fourier-inversion) and exactness
 $(j_*M)[1]$ would be geometrically an iterated extension of the
 objects $\mathcal L_{\psi(-ax)}(1)[1]$. Restricting to $U$, we see
 that every geometric constituent of $M$ would be one of these linear
 characters, which the hypothesis excludes. Finally, the open $U'_0$ and
 the sheaf $M'$ are defined over $k_0$, since we may choose a
-Weil-stable open on which the constructible transform is lisse.
+Weil-stable open on which the [constructible](@definition-constructible-sheaves) transform is [lisse](@definition-lisse-sheaves).

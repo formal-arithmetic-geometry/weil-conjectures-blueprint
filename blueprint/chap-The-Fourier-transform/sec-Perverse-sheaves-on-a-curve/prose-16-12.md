@@ -10,6 +10,6 @@ ${}^p\mathcal H^n$ for its subcategories and cohomology objects.
 
 On the line, the two basic examples are $E[1]$ and the skyscraper
 $\delta_0$, and by Lemma [lemma-fourier-transform-constant-sheaf] the Fourier
-transform exchanges them up to a Tate twist. This is the simplest
+transform exchanges them up to a [Tate twist](@definition-tate-twists). This is the simplest
 instance of the exactness proved in
 Proposition [proposition-fourier-transform-perverse-heart].

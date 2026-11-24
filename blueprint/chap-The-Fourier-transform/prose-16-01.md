@@ -5,11 +5,11 @@ title = "The Fourier transform"
 order = 1217
 +++
 Theorem [theorem-purity-real-sheaves-curves] controls the Frobenius
-eigenvalues of a real sheaf at the points of a curve. The bound we need
-next, however, is of a different kind. Let $M$ be an irreducible lisse sheaf, pure
+eigenvalues of a [real sheaf](@definition-real-sheaves) at the points of a curve. The bound we need
+next, however, is of a different kind. Let $M$ be an irreducible [lisse](@definition-lisse-sheaves) sheaf, [pure](@definition-weights)
 of weight $w$, on a dense open $j:U_0\hookrightarrow\mathbf A^1$. The
-curve case of the Deligne–Laumon theorem comes down to showing that
-$H^1_c(\mathbf A^1,j_*M)$ has weights at most $w+1$. This is a
+curve case of the [Deligne–Laumon theorem](@theorem-weights-rf-shriek) comes down to showing that
+$H^1_c(\mathbf A^1,j_*M)$ has [weights at most](@definition-weights) $w+1$. This is a
 cohomology group, not the stalk of a sheaf at a point, and Rankin's
 argument does not reach it. Is there a sheaf on another curve whose stalk
 at one point is this group, and whose weight we can compute from that of
@@ -35,44 +35,44 @@ $\mathbf F_3$, moreover, Example [example-gauss-sum-over-f-3] finds this Gauss
 sum, up to sign, as a Frobenius eigenvalue on a cohomology group.
 
 The proof in Chapter [chap-The-Deligne-Laumon-theorem-for-curves] follows the same two
-steps for $M$: first we show that the transform is pure, and then
-Plancherel finds its weight.
+steps for $M$: first we show that the transform is [pure](@definition-weights), and then
+[Plancherel](@corollary-plancherel) finds its weight.
 
 Grothendieck's function–sheaf dictionary
 (Proposition [proposition-function-sheaf-dictionary]) turns the
 transform into a functor. Let $\mathcal K_\psi=\mu^*\mathcal L_\psi$ be the pullback of the
 Artin–Schreier sheaf (Lemma [lemma-artin-schreier-character-sheaf]) along the
-multiplication $\mu(x,y)=xy$. Its trace function on $\mathbf F_q$-points is
+multiplication $\mu(x,y)=xy$. Its [trace function](@definition-trace-function) on $\mathbf F_q$-points is
 $\psi(xy)$, and we put
 
 $$
 \operatorname{FT}_\psi K=Rp_{2!}(p_1^*K\otimes\mathcal K_\psi)[1].
 $$
 
-On trace functions it is the discrete transform up to sign: for
+On [trace functions](@definition-trace-function) it is the discrete transform up to sign: for
 $y\in\mathbf F_q$,
 
 $$
 t_{\operatorname{FT}_\psi K}(y)=-\sum_{x\in\mathbf F_q}t_K(x)\,\psi(xy),
 $$
 
-because under the dictionary (Section [sec-The-function-sheaf-dictionary-2])
-pullback, tensor product and $Rp_{2!}$ become composition, multiplication
+because under the [dictionary](@proposition-function-sheaf-dictionary) (Section [sec-The-function-sheaf-dictionary-2])
+pullback, tensor product and [$Rp_{2!}$](@proposition-construction-independence-rf-shriek) become composition, multiplication
 and summation over the fibres, the three operations from which $\hat t$
 is built, while the shift $[1]$ contributes the sign. Both properties of the
 discrete transform carry over. The first becomes the statement that the
 stalk at the origin of the dual line is $R\Gamma_c(\mathbf A^1,K)[1]$
 (Proposition [proposition-base-change-fourier-inversion]), so for
 $K=j_*M$ this complex contains the group we want. Plancherel becomes an
-identity of trace functions (Corollary [corollary-plancherel]), and
+identity of [trace functions](@definition-trace-function) (Corollary [corollary-plancherel]), and
 it is what will compute the weight of the transform. In addition,
-Fourier inversion,
+[Fourier inversion](@proposition-fourier-inversion),
 $\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi K\simeq K(-1)$,
 holds because $R\Gamma_c(\mathbf A^1,\mathcal L_\psi)=0$, the sheaf
 version of $\sum_x\psi(x)=0$. The $\ell$-adic transform is due to Deligne, and
-Laumon's proof [laumon87] of the Deligne–Laumon theorem is built on it.
+Laumon's proof [laumon87] of the [Deligne–Laumon theorem](@theorem-weights-rf-shriek) is built on it.
 
-To speak of the weight of the transform we need it to be a lisse sheaf on
+To speak of the weight of the transform we need it to be a [lisse](@definition-lisse-sheaves) sheaf on
 a dense open. But the transform of a sheaf need not be a sheaf. For
 example, the transform of the constant sheaf is a skyscraper at the
 origin in degree one, $\operatorname{FT}_\psi(E)=\delta_0(-1)[-1]$. This
@@ -81,7 +81,7 @@ the shift. What the transform does preserve, however, is the category of pervers
 sheaves on the line (Proposition [proposition-fourier-transform-perverse-heart],
 proved in Section [sec-Perverse-t-exactness] below). Since the transform is an exact equivalence of
 perverse sheaves, it sends the simple object $(j_*M)[1]$ to a simple object,
-which is either punctual or a middle extension. Moreover, only character sheaves
+which is either punctual or a [middle extension](@definition-middle-extension). Moreover, only character sheaves
 $\mathcal L_{\psi(ax)}$ are sent to skyscrapers. Hence, if no geometric constituent
 of the irreducible sheaf $M$ is such a character, we have
 
@@ -89,12 +89,12 @@ $$
 \operatorname{FT}_\psi((j_*M)[1])\simeq(j'_*M')[1]
 $$
 
-for an irreducible lisse $M'$ on a dense open $j'$ of the dual line
+for an irreducible [lisse](@definition-lisse-sheaves) $M'$ on a dense open $j'$ of the dual line
 (Proposition [proposition-fourier-transform-middle-extension] below).
 Comparing stalks at the origin then identifies $H^1_c(\mathbf A^1,j_*M)$ with
 a stalk of $j'_*M'$, and this is the sheaf we asked for.
 
-We use the six operations on the pro-étale site. At first the
+We use the six operations on the [pro-étale site](@definition-small-pro-etale-site). At first the
 coefficients are a finite extension $E/\mathbf Q_\ell$ that contains the
 $p$th roots of unity, where $p$ is the characteristic of $k_0$, so that $E$ contains the values of the additive characters of $k_0$. Later the
 coefficients are $\overline{\mathbf Q}_\ell$.

@@ -4,12 +4,12 @@ kind = "hidden"
 title = "The Artin–Schreier sheaf (3)"
 order = 1224
 +++
-Fourier inversion integrates the kernel over a whole fibre
+[Fourier inversion](@proposition-fourier-inversion) integrates the kernel over a whole fibre
 $\mathbf A^r$ of a vector bundle, so we need the vanishing on
 $\mathbf A^r$ and not only on the line. In coordinates in which the
 linear form is the first coordinate, the integral over $\mathbf A^r$ is
 a product of an integral over the line and one over $\mathbf A^{r-1}$,
-and the Künneth formula makes this precise.
+and the [Künneth formula](@lemma-kunneth-formula-compact-supports) makes this precise.
 
 Let $f:X\to S$ and $g:Y\to S$ be separated morphisms of finite type,
 let $p_1:X\times_SY\to X$ and $p_2:X\times_SY\to Y$ be the projections,

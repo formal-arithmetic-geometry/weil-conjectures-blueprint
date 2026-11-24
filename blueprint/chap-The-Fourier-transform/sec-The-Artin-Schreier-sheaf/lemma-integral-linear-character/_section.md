@@ -18,5 +18,5 @@ E(-r)[-2r],&\lambda=0,\\
 \end{cases}
 $$
 
-For $\lambda=0$, the isomorphism is the trace map for cohomology with
-compact support.
+For $\lambda=0$, the isomorphism is the [trace map](@definition-trace-map) for [cohomology with
+compact support](@proposition-construction-independence-rf-shriek).

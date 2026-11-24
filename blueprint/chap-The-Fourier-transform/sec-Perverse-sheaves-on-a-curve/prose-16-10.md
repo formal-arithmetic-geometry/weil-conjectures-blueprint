@@ -5,15 +5,15 @@ title = "Perverse sheaves on a curve (1)"
 order = 1245
 +++
 To apply Theorem [theorem-weights-sums-squared-traces] to the
-transform of a pure lisse sheaf $M$, we need to know that the
-transform of $(j_*M)[1]$ is again a lisse sheaf on a dense open,
+transform of a [pure](@definition-weights) [lisse](@definition-lisse-sheaves) sheaf $M$, we need to know that the
+transform of $(j_*M)[1]$ is again a [lisse](@definition-lisse-sheaves) sheaf on a dense open,
 placed in degree $-1$. Although the transform sends the constant sheaf
 to a skyscraper (Lemma [lemma-fourier-transform-constant-sheaf]), it preserves
 the perverse heart, which on a smooth curve has an elementary
 description in terms of ordinary cohomology sheaves and punctual
 support.
 
-We can read off the shape of this description from the stalk formula.
+We can read off the shape of this description from the [stalk formula](@proposition-base-change-fourier-inversion).
 The stalk of the transform of $G[1]$ at $y$ is
 $R\Gamma_c(\mathbf A^1,G\otimes\mathcal L_{\psi(yx)})[2]$. For a sheaf $G$
 without punctual sections $H^0_c$ vanishes, and the proof of
@@ -29,8 +29,8 @@ t-structure built from these two conditions.
 
 What we finally use about it is the list of its simple objects
 (Lemma [lemma-simple-objects]). By this list, an exact equivalence
-must send an irreducible middle extension to an irreducible middle
-extension or to an irreducible punctual sheaf.
+must send an irreducible [middle extension](@definition-middle-extension) to an irreducible [middle
+extension](@definition-middle-extension) or to an irreducible punctual sheaf.
 
 Recall that a *t-structure* on a triangulated category $D$ is a
 pair of full subcategories $D^{\le0}\supset D^{\le-1}$ and
